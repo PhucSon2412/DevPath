@@ -1,0 +1,8 @@
+.layout {
+  min-height: 100vh;
+  padding-top: var(--header-height);
+}
+
+.main {
+  min-height: calc(100vh - var(--header-height));
+}
