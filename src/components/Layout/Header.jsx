@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from 'react'
 import { Link, useLocation } from 'react-router-dom'
-import { Map, GitFork, BookOpen, LogIn, User, LogOut, ChevronDown, Sun, Moon, Heart } from 'lucide-react'
+import { Map, GitFork, BookOpen, LogIn, User, LogOut, ChevronDown, Sun, Moon, Heart, Target } from 'lucide-react'
 import { useAuth } from '../../contexts/AuthContext'
 import styles from './Header.module.css'
 
@@ -108,6 +108,17 @@ export default function Header() {
 
             {isAuthenticated && (
               <Link
+                to="/in-progress"
+                className={`${styles.navLink} ${location.pathname.startsWith('/in-progress') ? styles.active : ''}`}
+                id="nav-in-progress"
+              >
+                <Target size={16} className={styles.navLinkIcon} />
+                In Progress
+              </Link>
+            )}
+
+            {isAuthenticated && (
+              <Link
                 to="/favorites"
                 className={`${styles.navLink} ${location.pathname.startsWith('/favorites') ? styles.active : ''}`}
                 id="nav-favorites"
@@ -197,6 +208,13 @@ export default function Header() {
           <BookOpen size={20} />
           Roadmaps
         </Link>
+
+        {isAuthenticated && (
+          <Link to="/in-progress" className={styles.mobileNavLink} id="mobile-nav-in-progress">
+            <Target size={20} />
+            In Progress
+          </Link>
+        )}
 
         {isAuthenticated && (
           <Link to="/favorites" className={styles.mobileNavLink} id="mobile-nav-favorites">

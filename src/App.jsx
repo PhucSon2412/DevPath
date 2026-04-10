@@ -6,6 +6,7 @@ import RoadmapPage from './pages/RoadmapPage/RoadmapPage'
 import LoginPage from './pages/LoginPage/LoginPage'
 import RegisterPage from './pages/RegisterPage/RegisterPage'
 import FavoritesPage from './pages/FavoritesPage/FavoritesPage'
+import InProgressPage from './pages/InProgressPage/InProgressPage'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<HomePage />} />
+          <Route path="/in-progress" element={<InProgressPage />} />
           <Route path="/favorites" element={<FavoritesPage />} />
           <Route path="/roadmap/:id" element={<RoadmapPage />} />
           <Route path="/login" element={<LoginPage />} />

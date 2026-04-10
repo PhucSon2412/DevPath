@@ -122,6 +122,49 @@
   margin-bottom: var(--space-8);
 }
 
+.progressSection {
+  margin-bottom: var(--space-8);
+}
+
+.progressToggleBtn {
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-2);
+  padding: var(--space-3) var(--space-4);
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border-primary);
+  background: var(--bg-tertiary);
+  color: var(--text-primary);
+  font-family: var(--font-sans);
+  font-size: var(--text-sm);
+  font-weight: 600;
+  transition: all var(--transition-fast);
+}
+
+.progressToggleBtn:hover:not(:disabled) {
+  border-color: var(--border-accent);
+  background: var(--bg-elevated);
+}
+
+.progressToggleBtn:disabled {
+  opacity: 0.7;
+  cursor: wait;
+}
+
+.progressDone {
+  border-color: rgba(16, 185, 129, 0.45);
+  background: color-mix(in srgb, var(--accent-green) 18%, transparent);
+  color: var(--accent-green-soft);
+}
+
+.progressLoginHint {
+  font-size: var(--text-sm);
+  color: var(--text-secondary);
+  line-height: 1.6;
+}
+
 .sectionLabel {
   display: flex;
   align-items: center;

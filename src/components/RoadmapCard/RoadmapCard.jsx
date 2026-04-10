@@ -9,6 +9,7 @@ export default function RoadmapCard({
   isFavorited = false,
   favoriteBusy = false,
   onToggleFavorite,
+  progress,
 }) {
   return (
     <div
@@ -37,9 +38,20 @@ export default function RoadmapCard({
           <h3 className={styles.title}>{roadmap.title}</h3>
 
           <div className={styles.cardFooter}>
-            <span className={styles.nodeCount}>
-              {roadmap.stats?.nodes_with_content || 0} topics with content
-            </span>
+              {progress ? (
+                <div className={styles.progressMeta}>
+                  <span className={styles.progressText}>
+                    {progress.completedSteps}/{progress.totalSteps} steps • {progress.percent}%
+                  </span>
+                  <div className={styles.progressTrack}>
+                    <div className={styles.progressFill} style={{ width: `${progress.percent}%` }} />
+                  </div>
+                </div>
+              ) : (
+                <span className={styles.nodeCount}>
+                  {roadmap.stats?.nodes_with_content || 0} topics with content
+                </span>
+              )}
             <ArrowRight size={16} className={styles.arrow} />
           </div>
         </div>

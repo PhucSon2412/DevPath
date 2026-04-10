@@ -1,5 +1,5 @@
 import { useEffect, useCallback } from 'react'
-import { X, BookOpen, ExternalLink, FileText, Video, BookMarked, Link2, Podcast, Wrench, GraduationCap, BookOpenCheck } from 'lucide-react'
+import { X, BookOpen, ExternalLink, FileText, Video, BookMarked, Link2, Podcast, Wrench, GraduationCap, BookOpenCheck, CheckCircle2 } from 'lucide-react'
 import styles from './DetailPanel.module.css'
 
 const typeIcons = {
@@ -15,7 +15,15 @@ const typeIcons = {
   official: BookMarked,
 }
 
-export default function DetailPanel({ node, onClose }) {
+export default function DetailPanel({
+  node,
+  onClose,
+  progressEnabled = false,
+  progressAvailable = false,
+  completed = false,
+  progressBusy = false,
+  onToggleCompleted,
+}) {
   const handleKeyDown = useCallback((e) => {
     if (e.key === 'Escape') onClose()
   }, [onClose])
@@ -63,6 +71,36 @@ export default function DetailPanel({ node, onClose }) {
 
         {/* Body */}
         <div className={styles.panelBody}>
+          {progressEnabled && (
+            <div className={styles.progressSection}>
+              <div className={styles.sectionLabel}>
+                <CheckCircle2 size={14} />
+                Learning Progress
+              </div>
+
+              {progressAvailable ? (
+                <button
+                  type="button"
+                  className={`${styles.progressToggleBtn} ${completed ? styles.progressDone : ''}`}
+                  onClick={onToggleCompleted}
+                  disabled={progressBusy}
+                  id="detail-progress-toggle"
+                >
+                  <CheckCircle2 size={16} />
+                  {progressBusy
+                    ? 'Saving...'
+                    : completed
+                      ? 'Completed (click to mark as not completed)'
+                      : 'Mark as completed'}
+                </button>
+              ) : (
+                <p className={styles.progressLoginHint}>
+                  Sign in to save your learning progress.
+                </p>
+              )}
+            </div>
+          )}
+
           {/* Description */}
           {description && (
             <div className={styles.descriptionSection}>

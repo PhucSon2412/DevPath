@@ -139,6 +139,23 @@ export function AuthProvider({ children }) {
     return data.roadmaps || []
   }, [token])
 
+  const getInProgressRoadmaps = useCallback(async () => {
+    if (!token) {
+      throw new Error('Please sign in to view in-progress roadmaps')
+    }
+
+    const res = await fetch(`${ROADMAPS_API_BASE}/in-progress/me`, {
+      headers: { Authorization: `Bearer ${token}` },
+    })
+
+    const data = await res.json()
+    if (!res.ok) {
+      throw new Error(data.message || 'Failed to load in-progress roadmaps')
+    }
+
+    return data.roadmaps || []
+  }, [token])
+
   const value = {
     user,
     token,
@@ -150,6 +167,7 @@ export function AuthProvider({ children }) {
     isFavorite,
     toggleFavorite,
     getFavoriteRoadmaps,
+    getInProgressRoadmaps,
   }
 
   return (
