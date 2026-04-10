@@ -1,21 +1,31 @@
-import { useState } from 'react'
-import { ArrowDown, GitFork, Sparkles } from 'lucide-react'
-import { roadmaps } from '../../data/roadmaps'
+import { useState, useEffect } from 'react'
+import { GitFork, Sparkles, Loader2 } from 'lucide-react'
 import RoadmapCard from '../../components/RoadmapCard/RoadmapCard'
 import styles from './HomePage.module.css'
 
-const FILTERS = [
-  { key: 'all', label: 'All' },
-  { key: 'role', label: 'Role-based' },
-  { key: 'skill', label: 'Skill-based' },
-]
-
 export default function HomePage() {
-  const [filter, setFilter] = useState('all')
+  const [roadmaps, setRoadmaps] = useState([])
+  const [loading, setLoading] = useState(true)
+  const [search, setSearch] = useState('')
 
-  const filtered = filter === 'all'
-    ? roadmaps
-    : roadmaps.filter(r => r.category === filter)
+  useEffect(() => {
+    fetch('/api/roadmaps')
+      .then((res) => res.json())
+      .then((data) => {
+        setRoadmaps(data.roadmaps || [])
+        setLoading(false)
+      })
+      .catch((err) => {
+        console.error('Failed to fetch roadmaps:', err)
+        setLoading(false)
+      })
+  }, [])
+
+  const filtered = search
+    ? roadmaps.filter((r) =>
+        r.title.toLowerCase().includes(search.toLowerCase())
+      )
+    : roadmaps
 
   return (
     <div className={styles.page} id="home-page">
@@ -34,7 +44,7 @@ export default function HomePage() {
           </h1>
 
           <p className={styles.heroSubtitle}>
-            Community-driven roadmaps, guides, and resources to help you 
+            Community-driven roadmaps, guides, and resources to help you
             pick your path and grow in your career as a developer.
           </p>
 
@@ -66,24 +76,33 @@ export default function HomePage() {
           </p>
         </div>
 
+        {/* Search */}
         <div className={styles.filterTabs} id="filter-tabs">
-          {FILTERS.map(f => (
-            <button
-              key={f.key}
-              className={`${styles.filterTab} ${filter === f.key ? styles.active : ''}`}
-              onClick={() => setFilter(f.key)}
-              id={`filter-${f.key}`}
-            >
-              {f.label}
-            </button>
-          ))}
+          <input
+            type="text"
+            className={styles.searchInput}
+            placeholder="Search roadmaps..."
+            value={search}
+            onChange={(e) => setSearch(e.target.value)}
+            id="search-roadmaps"
+          />
         </div>
 
-        <div className={styles.roadmapGrid}>
-          {filtered.map((roadmap, index) => (
-            <RoadmapCard key={roadmap.id} roadmap={roadmap} index={index} />
-          ))}
-        </div>
+        {loading ? (
+          <div className={styles.loadingState}>
+            <Loader2 size={32} className={styles.spinner} />
+            <span>Loading roadmaps...</span>
+          </div>
+        ) : (
+          <div className={styles.roadmapGrid}>
+            {filtered.map((roadmap, index) => (
+              <RoadmapCard key={roadmap.roadmapId} roadmap={roadmap} index={index} />
+            ))}
+            {filtered.length === 0 && (
+              <p className={styles.noResults}>No roadmaps match your search.</p>
+            )}
+          </div>
+        )}
       </section>
 
       {/* ── Stats ── */}
@@ -96,15 +115,19 @@ export default function HomePage() {
         </div>
         <div className={styles.statsGrid}>
           <div className={styles.statCard}>
-            <div className={styles.statNumber}>6</div>
+            <div className={styles.statNumber}>{roadmaps.length}</div>
             <div className={styles.statLabel}>Roadmaps</div>
           </div>
           <div className={styles.statCard}>
-            <div className={styles.statNumber}>80+</div>
+            <div className={styles.statNumber}>
+              {roadmaps.reduce((sum, r) => sum + (r.stats?.total_nodes || 0), 0).toLocaleString()}
+            </div>
             <div className={styles.statLabel}>Topics</div>
           </div>
           <div className={styles.statCard}>
-            <div className={styles.statNumber}>200+</div>
+            <div className={styles.statNumber}>
+              {roadmaps.reduce((sum, r) => sum + (r.stats?.nodes_with_content || 0), 0).toLocaleString()}
+            </div>
             <div className={styles.statLabel}>Resources</div>
           </div>
         </div>

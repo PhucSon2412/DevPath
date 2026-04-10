@@ -1,0 +1,2737 @@
+{
+  "id": "ai-data-scientist",
+  "title": "AI and Data Scientist",
+  "source_url": "https://roadmap.sh/ai-data-scientist",
+  "github_url": "https://github.com/kamranahmedse/developer-roadmap/tree/master/src/data/roadmaps/ai-data-scientist",
+  "crawled_at": "2026-04-06T07:35:57.502240+00:00",
+  "type": "flow",
+  "stats": {
+    "total_nodes": 133,
+    "total_edges": 15,
+    "nodes_with_content": 8
+  },
+  "node_types": [
+    "button",
+    "horizontal",
+    "label",
+    "linksgroup",
+    "paragraph",
+    "resourceButton",
+    "title",
+    "todo",
+    "topic",
+    "vertical"
+  ],
+  "edge_styles": [
+    "dashed",
+    "solid"
+  ],
+  "edge_line_types": [
+    "default"
+  ],
+  "node_type_description": {
+    "title": "Tiêu đề chính của roadmap",
+    "topic": "Chủ đề lớn (nhóm kỹ năng)",
+    "subtopic": "Kỹ năng/công nghệ cụ thể cần học",
+    "paragraph": "Vùng text mô tả / chú thích",
+    "vertical": "Đường kết nối dọc (visual connector)"
+  },
+  "edge_style_description": {
+    "solid": "Kỹ năng bắt buộc / quan trọng",
+    "dashed": "Tùy chọn / gợi ý / alternative"
+  },
+  "nodes": [
+    {
+      "id": "28Iu61OKR6_3BBmO8M5lg",
+      "type": "horizontal",
+      "label": "horizontal node",
+      "position": {
+        "x": 481.39029212267985,
+        "y": 1925.5843010493045
+      },
+      "size": {
+        "width": 290,
+        "height": 20
+      },
+      "style": {
+        "stroke": "#0062FF"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "0dVq5C16sFyWglWitQQdD",
+      "type": "horizontal",
+      "label": "horizontal node",
+      "position": {
+        "x": 542.8902921226799,
+        "y": 1266.7340815556822
+      },
+      "size": {
+        "width": 244,
+        "height": 20
+      },
+      "style": {
+        "stroke": "#0062FF"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "Vdw0GAnxhDCj_C3XDxNDF",
+      "type": "horizontal",
+      "label": "horizontal node",
+      "position": {
+        "x": 192.89029212267985,
+        "y": 1266.7340815556822
+      },
+      "size": {
+        "width": 78,
+        "height": 20
+      },
+      "style": {
+        "stroke": "#0062FF"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "Z4MOOqNXpHkxWe0PJ7hjt",
+      "type": "horizontal",
+      "label": "horizontal node",
+      "position": {
+        "x": -82.10970787732015,
+        "y": 132.4007482223489
+      },
+      "size": {
+        "width": 344,
+        "height": 20
+      },
+      "style": {
+        "stroke": "#0062FF"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "JHqi_gjATUrPtewn-cdGo",
+      "type": "vertical",
+      "label": "vertical node",
+      "position": {
+        "x": -164.10970787732015,
+        "y": 46.40074822234891
+      },
+      "size": {
+        "width": 21,
+        "height": 109
+      },
+      "style": {
+        "stroke": "#0062FF"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "I7PI9n8QfW9_tCWOdw7yY",
+      "type": "horizontal",
+      "label": "horizontal node",
+      "position": {
+        "x": -144.10970787732015,
+        "y": 1174.400748222349
+      },
+      "size": {
+        "width": 338,
+        "height": 20
+      },
+      "style": {
+        "stroke": "#0062FF"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "3_CBtQLv0X6GzUEtq7jyp",
+      "type": "horizontal",
+      "label": "horizontal node",
+      "position": {
+        "x": 434.89029212267985,
+        "y": 133.4007482223489
+      },
+      "size": {
+        "width": 354,
+        "height": 20
+      },
+      "style": {
+        "stroke": "#0062FF"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "aq0gNWINbAQFG28HLJgCF",
+      "type": "horizontal",
+      "label": "horizontal node",
+      "position": {
+        "x": -82.10970787732015,
+        "y": 453.9007482223489
+      },
+      "size": {
+        "width": 331,
+        "height": 20
+      },
+      "style": {
+        "stroke": "#0062FF"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "c58fcsthBlVfzfr-MHdpF",
+      "type": "vertical",
+      "label": "vertical node",
+      "position": {
+        "x": -164.10970787732015,
+        "y": -107.59925177765109
+      },
+      "size": {
+        "width": 21,
+        "height": 86
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "Ji35JsKgUQXN4DJGEgTAC",
+      "type": "title",
+      "label": "AI and Data Scientist",
+      "position": {
+        "x": -271.10970787732015,
+        "y": -21.59925177765109
+      },
+      "size": {
+        "width": 305,
+        "height": 68
+      },
+      "style": {
+        "fontSize": 28,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "aStaDENn5PhEa-cFvNzXa",
+      "type": "topic",
+      "label": "Mathematics",
+      "position": {
+        "x": -196.10970787732015,
+        "y": 118.90074822234891
+      },
+      "size": {
+        "width": 145,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Mathematics is the foundation of AI and Data Science. It is essential to have a good understanding of mathematics to excel in these fields.",
+        "links": []
+      }
+    },
+    {
+      "id": "4WZL_fzJ3cZdWLLDoWN8D",
+      "type": "topic",
+      "label": "Statistics",
+      "position": {
+        "x": 304.89029212267985,
+        "y": 118.90074822234891
+      },
+      "size": {
+        "width": 161,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Statistics is the science of collecting, analyzing, interpreting, presenting, and organizing data. It is a branch of mathematics that deals with the collection, analysis, interpretation, presentation, and organization of data. It is used in a wide range of fields, including science, engineering, medicine, and social science. Statistics is used to make informed decisions, to predict future events, and to test hypotheses. It is also used to summarize data, to describe relationships between variables, and to make inferences about populations based on samples.",
+        "links": []
+      }
+    },
+    {
+      "id": "gWMvD83hVXeTmCuHGIiOL",
+      "type": "todo",
+      "label": "Linear Algebra, Calculus, Mathematical Analysis",
+      "position": {
+        "x": -226.10970787732015,
+        "y": 200.4007482223489
+      },
+      "size": {
+        "width": 417,
+        "height": 38
+      },
+      "style": {
+        "fontSize": 17,
+        "padding": 0
+      },
+      "z_index": 999
+    },
+    {
+      "id": "HclEU3v8OdC_Oq7ONvApt",
+      "type": "resourceButton",
+      "label": "Mathematics for Machine Learning",
+      "position": {
+        "x": -196.10970787732015,
+        "y": 238.4007482223489
+      },
+      "size": {
+        "width": 433,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "color": "#000000",
+        "backgroundColor": "#FFE599",
+        "badgeColor": "#9900FF"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "mwPJh33MEUQ4Co_LiVEOb",
+      "type": "todo",
+      "label": "Differential Calculus ",
+      "position": {
+        "x": -226.10970787732015,
+        "y": 307.4007482223489
+      },
+      "size": {
+        "width": 247,
+        "height": 38
+      },
+      "style": {
+        "fontSize": 17,
+        "padding": 0
+      },
+      "z_index": 999
+    },
+    {
+      "id": "Py2ZgxmPRQ620cuOj_Cig",
+      "type": "resourceButton",
+      "label": "Coursera: Algebra and Differential Calculus",
+      "position": {
+        "x": -196.10970787732015,
+        "y": 349.4007482223489
+      },
+      "size": {
+        "width": 429,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "color": "#000000",
+        "backgroundColor": "#FFE599",
+        "badgeColor": "#9900FF"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "Y9YJdARIRqqCBCy3GVYdA",
+      "type": "todo",
+      "label": "Statistics, CLT",
+      "position": {
+        "x": 279.89029212267985,
+        "y": 200.4007482223489
+      },
+      "size": {
+        "width": 155,
+        "height": 38
+      },
+      "style": {
+        "fontSize": 17,
+        "padding": 0
+      },
+      "z_index": 999
+    },
+    {
+      "id": "O-9EsoKrMpfkcGIBKnSty",
+      "type": "resourceButton",
+      "label": "Coursera: Introduction to Statistics",
+      "position": {
+        "x": 304.89029212267985,
+        "y": 238.4007482223489
+      },
+      "size": {
+        "width": 441,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "color": "#000000",
+        "backgroundColor": "#FFE599",
+        "badgeColor": "#9900FF"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "XJXIkWVDIrPJ-bVIvX0ZO",
+      "type": "todo",
+      "label": "Hypothesis Testing",
+      "position": {
+        "x": 279.89029212267985,
+        "y": 307.4007482223489
+      },
+      "size": {
+        "width": 199,
+        "height": 38
+      },
+      "style": {
+        "fontSize": 17,
+        "padding": 0
+      },
+      "z_index": 999
+    },
+    {
+      "id": "5_wxpYdzweUkSMugiKV94",
+      "type": "resourceButton",
+      "label": "Coursera: Hypothesis Testing",
+      "position": {
+        "x": 304.89029212267985,
+        "y": 344.4007482223489
+      },
+      "size": {
+        "width": 441,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "color": "#000000",
+        "backgroundColor": "#FFE599",
+        "badgeColor": "#9900FF"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "jxJtwbiCvxHqmkWkE7zdx",
+      "type": "todo",
+      "label": "Probability and Sampling",
+      "position": {
+        "x": 279.89029212267985,
+        "y": 408.4007482223489
+      },
+      "size": {
+        "width": 246,
+        "height": 38
+      },
+      "style": {
+        "fontSize": 17,
+        "padding": 0
+      },
+      "z_index": 999
+    },
+    {
+      "id": "jIeLbbE0KYjoQo0t0CVXm",
+      "type": "resourceButton",
+      "label": "Coursera: Probability and Statistics",
+      "position": {
+        "x": 304.89029212267985,
+        "y": 439.4007482223489
+      },
+      "size": {
+        "width": 441,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "color": "#000000",
+        "backgroundColor": "#FFE599",
+        "badgeColor": "#9900FF"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "mJq9b50MJM9o9dLhx40iN",
+      "type": "todo",
+      "label": "AB Testing",
+      "position": {
+        "x": 279.89029212267985,
+        "y": 511.40074822234897
+      },
+      "size": {
+        "width": 150,
+        "height": 38
+      },
+      "style": {
+        "fontSize": 17,
+        "padding": 0
+      },
+      "z_index": 999
+    },
+    {
+      "id": "lrDei3AUInJZ1ISDxOxdT",
+      "type": "resourceButton",
+      "label": "Practitioner's Guide to Statistical Tests",
+      "position": {
+        "x": 304.89029212267985,
+        "y": 549.400748222349
+      },
+      "size": {
+        "width": 441,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "color": "#000000",
+        "backgroundColor": "#FFE599",
+        "badgeColor": "#9900FF"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "R0lIHKW2JmXQp79hoGU6x",
+      "type": "resourceButton",
+      "label": "Step by Step Process for Planning an A/B Test",
+      "position": {
+        "x": 304.89029212267985,
+        "y": 603.400748222349
+      },
+      "size": {
+        "width": 441,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "color": "#000000",
+        "backgroundColor": "#FFE599",
+        "badgeColor": "#9900FF"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "v68nwX914qCwHDSwY_ZhG",
+      "type": "todo",
+      "label": "Increasing Test Sensitivity",
+      "position": {
+        "x": 282.89029212267985,
+        "y": 669.400748222349
+      },
+      "size": {
+        "width": 256,
+        "height": 38
+      },
+      "style": {
+        "fontSize": 17,
+        "padding": 0
+      },
+      "z_index": 999
+    },
+    {
+      "id": "G6wxStgN1ShtD6RR2xVc-",
+      "type": "resourceButton",
+      "label": "Minimum Detectable Effect",
+      "position": {
+        "x": 304.89029212267985,
+        "y": 700.400748222349
+      },
+      "size": {
+        "width": 441,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "color": "#000000",
+        "backgroundColor": "#FFE599",
+        "badgeColor": "#9900FF"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "Pu6kiJ0YOvtD6AypKWkfJ",
+      "type": "resourceButton",
+      "label": "Paper: Improving Test Sensitivity",
+      "position": {
+        "x": 304.89029212267985,
+        "y": 753.400748222349
+      },
+      "size": {
+        "width": 441,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "color": "#000000",
+        "backgroundColor": "#FFE599",
+        "badgeColor": "#9900FF"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "usXkw57ukCuc9gAw6E5Td",
+      "type": "resourceButton",
+      "label": "Paper: Improving Sensitivity (CUPED)",
+      "position": {
+        "x": 304.89029212267985,
+        "y": 806.400748222349
+      },
+      "size": {
+        "width": 441,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "color": "#000000",
+        "backgroundColor": "#FFE599",
+        "badgeColor": "#9900FF"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "T0suD_0uw6nSq7NOFBoNQ",
+      "type": "resourceButton",
+      "label": "CUPED at Booking.com",
+      "position": {
+        "x": 304.89029212267985,
+        "y": 859.400748222349
+      },
+      "size": {
+        "width": 441,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "color": "#000000",
+        "backgroundColor": "#FFE599",
+        "badgeColor": "#9900FF"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "Vx5zD4Y-6yLxorD8kNvop",
+      "type": "resourceButton",
+      "label": "Doordash: CUPAC",
+      "position": {
+        "x": 304.89029212267985,
+        "y": 912.400748222349
+      },
+      "size": {
+        "width": 441,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "color": "#000000",
+        "backgroundColor": "#FFE599",
+        "badgeColor": "#9900FF"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "bdAl2ne0fsE1R02wWdIK9",
+      "type": "resourceButton",
+      "label": "Netflix: Stratification",
+      "position": {
+        "x": 304.89029212267985,
+        "y": 965.400748222349
+      },
+      "size": {
+        "width": 441,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "color": "#000000",
+        "backgroundColor": "#FFE599",
+        "badgeColor": "#9900FF"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "n2JFGwFxTuOviW6kHO1Uv",
+      "type": "todo",
+      "label": "Ratio Metrics",
+      "position": {
+        "x": 282.89029212267985,
+        "y": 1036.400748222349
+      },
+      "size": {
+        "width": 180,
+        "height": 38
+      },
+      "style": {
+        "fontSize": 17,
+        "padding": 0
+      },
+      "z_index": 999
+    },
+    {
+      "id": "nW_wSh-PoSlmOONP48UDD",
+      "type": "resourceButton",
+      "label": "Microsoft: Delta Method in Metric Analytics",
+      "position": {
+        "x": 304.89029212267985,
+        "y": 1072.400748222349
+      },
+      "size": {
+        "width": 441,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "color": "#000000",
+        "backgroundColor": "#FFE599",
+        "badgeColor": "#9900FF"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "KiaiatCPngkVem7Bw3s0T",
+      "type": "resourceButton",
+      "label": "Paper: Ratio Metrics",
+      "position": {
+        "x": 304.89029212267985,
+        "y": 1125.400748222349
+      },
+      "size": {
+        "width": 441,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "color": "#000000",
+        "backgroundColor": "#FFE599",
+        "badgeColor": "#9900FF"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "o_Ddc5iv9y4ZLUjmUTvP-",
+      "type": "label",
+      "label": "1",
+      "position": {
+        "x": -232.71752171424652,
+        "y": 125.40074822234891
+      },
+      "size": {
+        "width": 24,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17,
+        "color": "#0062ff"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "B3ZzcZspEctJ2kX6At0tb",
+      "type": "label",
+      "label": "2",
+      "position": {
+        "x": 273.89029212267985,
+        "y": 125.40074822234891
+      },
+      "size": {
+        "width": 27,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17,
+        "color": "#0062FF"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "Io-XP7K1_siYDrlwFmbEx",
+      "type": "label",
+      "label": "3",
+      "position": {
+        "x": -200.10970787732015,
+        "y": 445.78255589147204
+      },
+      "size": {
+        "width": 27,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17,
+        "color": "#0062ff"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "Gd2egqKZPnbPW1W2jw4j8",
+      "type": "topic",
+      "label": "Econometrics",
+      "position": {
+        "x": -163.75449749114952,
+        "y": 439.28255589147204
+      },
+      "size": {
+        "width": 144,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Econometrics is the application of statistical methods to economic data. It is a branch of economics that aims to give empirical content to economic relations. More precisely, it is \"the quantitative analysis of actual economic phenomena based on the concurrent development of theory and observation, related by appropriate methods of inference.\" Econometrics can be described as something that allows economists \"to sift through mountains of data to extract simple relationships.\"",
+        "links": []
+      }
+    },
+    {
+      "id": "EqgwFsJqejdABpTBoxOix",
+      "type": "vertical",
+      "label": "vertical node",
+      "position": {
+        "x": 236.89029212267985,
+        "y": 463.9007482223489
+      },
+      "size": {
+        "width": 21,
+        "height": 747
+      },
+      "style": {
+        "stroke": "#0062FF"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "GFlPWkEVwPlxPhOitG1xH",
+      "type": "horizontal",
+      "label": "horizontal node",
+      "position": {
+        "x": 245,
+        "y": 1200.900748222349
+      },
+      "size": {
+        "width": 544,
+        "height": 20
+      },
+      "style": {
+        "stroke": "#0062FF"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "h9_7FHMPipHVN7C4ErKHU",
+      "type": "vertical",
+      "label": "vertical node",
+      "position": {
+        "x": 778,
+        "y": 141.9007482223489
+      },
+      "size": {
+        "width": 21,
+        "height": 1069
+      },
+      "style": {
+        "stroke": "#0062FF"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "_uOgVh3d8lAlbTgYNJFpt",
+      "type": "label",
+      "label": ">",
+      "position": {
+        "x": 45.89029212267985,
+        "y": 125
+      },
+      "size": {
+        "width": 35,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 24,
+        "color": "#0062FF"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "qRxvTDjpoW1GuQ771syXb",
+      "type": "label",
+      "label": ">",
+      "position": {
+        "x": 578.5569587893465,
+        "y": 125
+      },
+      "size": {
+        "width": 32,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 20,
+        "color": "#0062FF"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "TAN0BhW1tm0t3eNHOmOZ8",
+      "type": "label",
+      "label": "V",
+      "position": {
+        "x": 771,
+        "y": 398.4007482223489
+      },
+      "size": {
+        "width": 32,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 24,
+        "color": "#0062FF"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "5wqI-L_vEpqtvXZEAbfqE",
+      "type": "label",
+      "label": "V",
+      "position": {
+        "x": 771,
+        "y": 835.900748222349
+      },
+      "size": {
+        "width": 32,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 24,
+        "color": "#0062FF"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "hvFSTxMfMXPysDinI0oH8",
+      "type": "label",
+      "label": "<",
+      "position": {
+        "x": 695.2536071965056,
+        "y": 1192.900748222349
+      },
+      "size": {
+        "width": 34,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 24,
+        "color": "#0062FF"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "YT5_iofe0kQ-wVjd54RT8",
+      "type": "label",
+      "label": "<",
+      "position": {
+        "x": 331.89029212267985,
+        "y": 1192.900748222349
+      },
+      "size": {
+        "width": 34,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 24,
+        "color": "#0062FF"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "ct0yUXFnbSXCw4HGIh3hh",
+      "type": "label",
+      "label": "^",
+      "position": {
+        "x": 229,
+        "y": 799.900748222349
+      },
+      "size": {
+        "width": 32,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 28,
+        "color": "#0062FF"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "_-qXa7MhA16X2BBdaWw4f",
+      "type": "label",
+      "label": "^",
+      "position": {
+        "x": 229,
+        "y": 1131.900748222349
+      },
+      "size": {
+        "width": 32,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 28,
+        "color": "#0062FF"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "EyjiTmb9kck4OoNtbde1x",
+      "type": "label",
+      "label": "^",
+      "position": {
+        "x": 229,
+        "y": 501.40074822234897
+      },
+      "size": {
+        "width": 32,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 28,
+        "color": "#0062FF"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "WmbvaP_zRGs_WhYK30YqM",
+      "type": "label",
+      "label": "<",
+      "position": {
+        "x": 45.89029212267985,
+        "y": 445.9007482223489
+      },
+      "size": {
+        "width": 34,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 24,
+        "color": "#0062FF"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "y6xXsc-uSAmRDnNuyhqH2",
+      "type": "todo",
+      "label": "Pre-requisites of Econometrics",
+      "position": {
+        "x": -226.10970787732018,
+        "y": 517.6026955968633
+      },
+      "size": {
+        "width": 304,
+        "height": 38
+      },
+      "style": {
+        "fontSize": 17,
+        "padding": 0
+      },
+      "z_index": 999
+    },
+    {
+      "id": "2rt4WE9cE93K6vDM-c-IL",
+      "type": "resourceButton",
+      "label": "Fundamentals of Econometrics",
+      "position": {
+        "x": -196.10970787732018,
+        "y": 548.6026955968633
+      },
+      "size": {
+        "width": 419,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "color": "#000000",
+        "backgroundColor": "#FFE599",
+        "badgeColor": "#9900FF"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "h19k9Fn5XPh3_pKEC8Ftp",
+      "type": "todo",
+      "label": "Regression, Timeseries, Fitting Distributions",
+      "position": {
+        "x": -226.10970787732018,
+        "y": 621.1026955968633
+      },
+      "size": {
+        "width": 384,
+        "height": 38
+      },
+      "style": {
+        "fontSize": 17,
+        "padding": 0
+      },
+      "z_index": 999
+    },
+    {
+      "id": "Eu7OT0Q7mtrMseUVumGXA",
+      "type": "resourceButton",
+      "label": "Intro to Econometrics",
+      "position": {
+        "x": -191.10970787732018,
+        "y": 658.6026955968633
+      },
+      "size": {
+        "width": 419,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "color": "#000000",
+        "backgroundColor": "#FFE599",
+        "badgeColor": "#9900FF"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "hVOt_Ya86r_SIXJBkLXBj",
+      "type": "resourceButton",
+      "label": "Coursera: Econometrics",
+      "position": {
+        "x": -191.10970787732018,
+        "y": 711.6026955968633
+      },
+      "size": {
+        "width": 419,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "color": "#000000",
+        "backgroundColor": "#FFE599",
+        "badgeColor": "#9900FF"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "YU_5XufdA-zfhM0fXxGYs",
+      "type": "resourceButton",
+      "label": "Kaggle: Learn Time Series",
+      "position": {
+        "x": -191.10970787732018,
+        "y": 784.6026955968633
+      },
+      "size": {
+        "width": 419,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "color": "#000000",
+        "backgroundColor": "#FFE599",
+        "badgeColor": "#9900FF"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "9mB3u8st5yhM7HfVWWqFZ",
+      "type": "resourceButton",
+      "label": "Kaggle: Time Series Basics",
+      "position": {
+        "x": -191.10970787732018,
+        "y": 837.6026955968633
+      },
+      "size": {
+        "width": 419,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "color": "#000000",
+        "backgroundColor": "#FFE599",
+        "badgeColor": "#9900FF"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "FwuC8d9ocHeDxi8MSIPH6",
+      "type": "resourceButton",
+      "label": "ARIMA model for Time Series",
+      "position": {
+        "x": -191.10970787732018,
+        "y": 890.6026955968633
+      },
+      "size": {
+        "width": 419,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "color": "#000000",
+        "backgroundColor": "#FFE599",
+        "badgeColor": "#9900FF"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "53Z3qm-zP4u7_KqSD_XlB",
+      "type": "resourceButton",
+      "label": "Time Series Models",
+      "position": {
+        "x": -191.10970787732006,
+        "y": 943.6026955968633
+      },
+      "size": {
+        "width": 419,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "color": "#000000",
+        "backgroundColor": "#FFE599",
+        "badgeColor": "#9900FF"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "LVLv69h57rnKPKpa0Cj4h",
+      "type": "resourceButton",
+      "label": "Forecasting Task with Solution",
+      "position": {
+        "x": -191.10970787732006,
+        "y": 996.6026955968633
+      },
+      "size": {
+        "width": 419,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "color": "#000000",
+        "backgroundColor": "#FFE599",
+        "badgeColor": "#9900FF"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "FrY1Yl6yvLYA5zjBNKRVx",
+      "type": "resourceButton",
+      "label": "Coursera: Linear Regression",
+      "position": {
+        "x": -191.10970787732018,
+        "y": 1063.6026955968632
+      },
+      "size": {
+        "width": 419,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "color": "#000000",
+        "backgroundColor": "#FFE599",
+        "badgeColor": "#9900FF"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "XLDWuSt4tI4gnmqMFdpmy",
+      "type": "topic",
+      "label": "Coding",
+      "position": {
+        "x": -153.75449749114952,
+        "y": 1159.900748222349
+      },
+      "size": {
+        "width": 101,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Programming is a fundamental skill for data scientists. You need to be able to write code to manipulate data, build models, and deploy solutions. The most common programming languages used in data science are Python and R. Python is a general-purpose programming language that is easy to learn and has a large number of libraries for data manipulation and machine learning. R is a programming language and free software environment for statistical computing and graphics. It is widely used for statistical analysis and data visualization.",
+        "links": []
+      }
+    },
+    {
+      "id": "HVHYJ8gWHCZMACuvKP7gK",
+      "type": "label",
+      "label": "4",
+      "position": {
+        "x": -188.75449749114966,
+        "y": 1166.400748222349
+      },
+      "size": {
+        "width": 27,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17,
+        "color": "#0062ff"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "27CsPu77wfCw4uI0Tu45e",
+      "type": "vertical",
+      "label": "vertical node",
+      "position": {
+        "x": -266.2175217142465,
+        "y": 463.28255589147204
+      },
+      "size": {
+        "width": 21,
+        "height": 722
+      },
+      "style": {
+        "stroke": "#0062FF"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "z9R4_7UWeLz66RptYvcEI",
+      "type": "label",
+      "label": "V",
+      "position": {
+        "x": -273,
+        "y": 555.400748222349
+      },
+      "size": {
+        "width": 29,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 20,
+        "color": "#0062FF"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "AIFkyjgGB7AXmCG6D1bzs",
+      "type": "label",
+      "label": "V",
+      "position": {
+        "x": -273,
+        "y": 812.400748222349
+      },
+      "size": {
+        "width": 29,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 20,
+        "color": "#0062FF"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "Jsyv0X1BPlP0Vi_oklxHA",
+      "type": "label",
+      "label": "V",
+      "position": {
+        "x": -273,
+        "y": 1039.400748222349
+      },
+      "size": {
+        "width": 29,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 20,
+        "color": "#0062FF"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "MVrAqizgkoAs2aghN8TgV",
+      "type": "todo",
+      "label": "Learn Python Programming Language",
+      "position": {
+        "x": -253.75449749114952,
+        "y": 1233.900748222349
+      },
+      "size": {
+        "width": 344,
+        "height": 38
+      },
+      "style": {
+        "fontSize": 17,
+        "padding": 0
+      },
+      "z_index": 999
+    },
+    {
+      "id": "aRYOzyqvWmarRmNaPKqxI",
+      "type": "resourceButton",
+      "label": "Learn Python: Kaggle",
+      "position": {
+        "x": -227.93697112052075,
+        "y": 1273.94348613687
+      },
+      "size": {
+        "width": 387,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "color": "#000000",
+        "backgroundColor": "#FFE599",
+        "badgeColor": "#9900FF"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "eUQRHOSQq0hjwH0LuGDqY",
+      "type": "resourceButton",
+      "label": "Google's Python Class",
+      "position": {
+        "x": -227.93697112052075,
+        "y": 1327.94348613687
+      },
+      "size": {
+        "width": 387,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "color": "#000000",
+        "backgroundColor": "#FFE599",
+        "badgeColor": "#9900FF"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "R2WD0NKP7oM27aHr9SpO6",
+      "type": "horizontal",
+      "label": "horizontal node",
+      "position": {
+        "x": -257.93697112052075,
+        "y": 453.78255589147204
+      },
+      "size": {
+        "width": 51,
+        "height": 20
+      },
+      "style": {
+        "stroke": "#0062FF"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "36wmSfRpWOnprqPo4C7QA",
+      "type": "horizontal",
+      "label": "horizontal node",
+      "position": {
+        "x": -257.93697112052075,
+        "y": 1174.400748222349
+      },
+      "size": {
+        "width": 66,
+        "height": 20
+      },
+      "style": {
+        "stroke": "#0062FF"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "StBCykpzpM4g9PRFeSNXa",
+      "type": "todo",
+      "label": "Data Structures and Algorithms (Python)",
+      "position": {
+        "x": -252.60970787732018,
+        "y": 1405.2347754827133
+      },
+      "size": {
+        "width": 362,
+        "height": 38
+      },
+      "style": {
+        "fontSize": 17,
+        "padding": 0
+      },
+      "z_index": 999
+    },
+    {
+      "id": "lhLL1ycUWgeX_d5gd-g8g",
+      "type": "resourceButton",
+      "label": "Study Plans - Leetcode",
+      "position": {
+        "x": -227.93697112052075,
+        "y": 1497.72719179845
+      },
+      "size": {
+        "width": 387,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "color": "#000000",
+        "backgroundColor": "#FFE599",
+        "badgeColor": "#9900FF"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "4_5Q9PesKAtnLlT-NAm3z",
+      "type": "resourceButton",
+      "label": "Algorithmic Excercises",
+      "position": {
+        "x": -227.93697112052075,
+        "y": 1442.932766177383
+      },
+      "size": {
+        "width": 387,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "color": "#000000",
+        "backgroundColor": "#FFE599",
+        "badgeColor": "#9900FF"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "Bh3vUHjY9So8vWli_464_",
+      "type": "resourceButton",
+      "label": "Algorithms Specialization",
+      "position": {
+        "x": -227.93697112052075,
+        "y": 1551.72719179845
+      },
+      "size": {
+        "width": 387,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "color": "#000000",
+        "backgroundColor": "#FFE599",
+        "badgeColor": "#9900FF"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "Im0tXXn3GC-FUq2aMHgwm",
+      "type": "todo",
+      "label": "Learn SQL",
+      "position": {
+        "x": -252.60970787732018,
+        "y": 1625.613764362119
+      },
+      "size": {
+        "width": 134,
+        "height": 38
+      },
+      "style": {
+        "fontSize": 17,
+        "padding": 0
+      },
+      "z_index": 999
+    },
+    {
+      "id": "22XRxoVJX-hIdinkFICPU",
+      "type": "resourceButton",
+      "label": "SQL Tutorial",
+      "position": {
+        "x": -227.93697112052075,
+        "y": 1667.4659358409885
+      },
+      "size": {
+        "width": 387,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "color": "#000000",
+        "backgroundColor": "#FFE599",
+        "badgeColor": "#9900FF"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "Sx6HhmEozlX7CEXQoVkTf",
+      "type": "vertical",
+      "label": "vertical node",
+      "position": {
+        "x": 182.89029212267985,
+        "y": 1183
+      },
+      "size": {
+        "width": 21,
+        "height": 96
+      },
+      "style": {
+        "stroke": "#0062FF"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "l1027SBZxTHKzqWw98Ee-",
+      "type": "topic",
+      "label": "Exploratory Data Analysis",
+      "position": {
+        "x": 304.89029212267985,
+        "y": 1252.2340815556822
+      },
+      "size": {
+        "width": 239,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Exploratory Data Analysis (EDA) is an approach to analyzing data sets to summarize their main characteristics, often with visual methods. EDA is used to understand what the data can tell us beyond the formal modeling or hypothesis testing task. It is a crucial step in the data analysis process.",
+        "links": []
+      }
+    },
+    {
+      "id": "YJ2fIGILZJjobx5CAD6QW",
+      "type": "label",
+      "label": "5",
+      "position": {
+        "x": 273.89029212267985,
+        "y": 1258.7340815556822
+      },
+      "size": {
+        "width": 27,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17,
+        "color": "#0062ff"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "JaN8YhMeN3whAe2TCXvw9",
+      "type": "todo",
+      "label": "Data understanding, Data Analysis and Visualization",
+      "position": {
+        "x": 245,
+        "y": 1327.94348613687
+      },
+      "size": {
+        "width": 461,
+        "height": 38
+      },
+      "style": {
+        "fontSize": 17,
+        "padding": 0
+      },
+      "z_index": 999
+    },
+    {
+      "id": "wG3LU8181BGihDVYJVI09",
+      "type": "resourceButton",
+      "label": "Exploratory Data Analysis with Python and Pandas",
+      "position": {
+        "x": 278,
+        "y": 1366.2347754827133
+      },
+      "size": {
+        "width": 478,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "color": "#000000",
+        "backgroundColor": "#FFE599",
+        "badgeColor": "#9900FF"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "R4MhS5WFGaGOLNq6SRpy0",
+      "type": "resourceButton",
+      "label": "Exploratory Data Analysis for Machine Learning",
+      "position": {
+        "x": 278,
+        "y": 1419.2347754827133
+      },
+      "size": {
+        "width": 478,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "color": "#000000",
+        "backgroundColor": "#FFE599",
+        "badgeColor": "#9900FF"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "mpPs2k7oT7EWrhQwaoPXr",
+      "type": "resourceButton",
+      "label": "Python for Data Visualization: Matplotlib & Seaborn",
+      "position": {
+        "x": 278,
+        "y": 1472.2347754827133
+      },
+      "size": {
+        "width": 478,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "color": "#000000",
+        "backgroundColor": "#FFE599",
+        "badgeColor": "#9900FF"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "FsU7_B1LCULtlVQg7gEPR",
+      "type": "vertical",
+      "label": "vertical node",
+      "position": {
+        "x": 776,
+        "y": 1275.5
+      },
+      "size": {
+        "width": 21,
+        "height": 288
+      },
+      "style": {
+        "stroke": "#0062FF"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "ofcYD3hTVEMeRptkHsVer",
+      "type": "horizontal",
+      "label": "horizontal node",
+      "position": {
+        "x": 525.8902921226799,
+        "y": 1551.72719179845
+      },
+      "size": {
+        "width": 261,
+        "height": 20
+      },
+      "style": {
+        "stroke": "#0062FF"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "kBdt_t2SvVsY3blfubWIz",
+      "type": "topic",
+      "label": "Machine Learning",
+      "position": {
+        "x": 336.89029212267985,
+        "y": 1537.22719179845
+      },
+      "size": {
+        "width": 207,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Machine learning is a field of artificial intelligence that uses statistical techniques to give computer systems the ability to \"learn\" (e.g., progressively improve performance on a specific task) from data, without being explicitly programmed. The name machine learning was coined in 1959 by Arthur Samuel. Evolved from the study of pattern recognition and computational learning theory in artificial intelligence, machine learning explores the study and construction of algorithms that can learn from and make predictions on data – such algorithms overcome following strictly static program instructions by making data-driven predictions or decisions, through building a model from sample inputs. Machine learning is employed in a range of computing tasks where designing and programming explicit algorithms with good performance is difficult or infeasible; example applications include email filtering, detection of network intruders, and computer vision.",
+        "links": []
+      }
+    },
+    {
+      "id": "wOqfPAZ24GxUrkxVRRyT5",
+      "type": "label",
+      "label": "6",
+      "position": {
+        "x": 299.89029212267985,
+        "y": 1543.72719179845
+      },
+      "size": {
+        "width": 27,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17,
+        "color": "#0062ff"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "oeNjgke33Daibit1E6Rqr",
+      "type": "horizontal",
+      "label": "horizontal node",
+      "position": {
+        "x": 211.89029212267985,
+        "y": 1551.72719179845
+      },
+      "size": {
+        "width": 88,
+        "height": 20
+      },
+      "style": {
+        "stroke": "#0062FF"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "FdBih8tlGPPy97YWq463y",
+      "type": "todo",
+      "label": "Classic ML (Sup., Unsup.), Advanced ML (Ensembles, NNs)",
+      "position": {
+        "x": 245,
+        "y": 1619.1289204774196
+      },
+      "size": {
+        "width": 536,
+        "height": 38
+      },
+      "style": {
+        "fontSize": 17,
+        "padding": 0
+      },
+      "z_index": 999
+    },
+    {
+      "id": "MyBAdtFSNVOnpw1BPQNky",
+      "type": "resourceButton",
+      "label": "Open Machine Learning Course - Open Data Science",
+      "position": {
+        "x": 272,
+        "y": 1657.1289204774196
+      },
+      "size": {
+        "width": 516,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "color": "#000000",
+        "backgroundColor": "#FFE599",
+        "badgeColor": "#9900FF"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "qCjcQWK1RGUU6K3dljow2",
+      "type": "resourceButton",
+      "label": "Machine Learning Specialization",
+      "position": {
+        "x": 272,
+        "y": 1709
+      },
+      "size": {
+        "width": 516,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "color": "#000000",
+        "backgroundColor": "#FFE599",
+        "badgeColor": "#9900FF"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "erDpbh0iRTfoUQrU4uEMs",
+      "type": "resourceButton",
+      "label": "Pattern Recognition & ML by Christopher m. Bishop",
+      "position": {
+        "x": 272,
+        "y": 1779.259275392802
+      },
+      "size": {
+        "width": 516,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "color": "#000000",
+        "backgroundColor": "#FFE599",
+        "badgeColor": "#9900FF"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "9yKXxruT8s9KBEFf_Twd0",
+      "type": "resourceButton",
+      "label": "GitHub repository with notes & code from the eBook above",
+      "position": {
+        "x": 272,
+        "y": 1832.1050525886042
+      },
+      "size": {
+        "width": 516,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "color": "#000000",
+        "backgroundColor": "#FFE599",
+        "badgeColor": "#9900FF"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "uCZ6_FKeaY0lCkrNttNhz",
+      "type": "vertical",
+      "label": "vertical node",
+      "position": {
+        "x": 201.89029212267982,
+        "y": 1561.1289204774196
+      },
+      "size": {
+        "width": 21,
+        "height": 204
+      },
+      "style": {
+        "stroke": "#0062FF"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "41yv5UhFw3kHIrAMQb6qy",
+      "type": "horizontal",
+      "label": "horizontal node",
+      "position": {
+        "x": 24.890292122679853,
+        "y": 1754.1289204774196
+      },
+      "size": {
+        "width": 188,
+        "height": 20
+      },
+      "style": {
+        "stroke": "#0062FF"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "cjvVLN0XjrKPn6o20oMmc",
+      "type": "topic",
+      "label": "Deep Learning",
+      "position": {
+        "x": -153.75449749114952,
+        "y": 1739.6289204774196
+      },
+      "size": {
+        "width": 182,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "## Deep Learning Deep learning is a subset of machine learning that deals with algorithms inspired by the structure and function of the brain called artificial neural networks. Deep learning is a key technology behind driverless cars, enabling them to recognize a stop sign, or to distinguish a pedestrian from a lamppost. It is the key to voice control in consumer devices like phones, tablets, TVs, and hands-free speakers. Deep learning is getting lots of attention lately and for good reason. It’s achieving results that were not possible before.",
+        "links": []
+      }
+    },
+    {
+      "id": "rarV0SS26NyqAHkYeqsfa",
+      "type": "label",
+      "label": "7",
+      "position": {
+        "x": -188.75449749114966,
+        "y": 1746.1289204774196
+      },
+      "size": {
+        "width": 25,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17,
+        "color": "#0062ff"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "iJv3Ii5B5TK8i5mN2mLs2",
+      "type": "horizontal",
+      "label": "horizontal node",
+      "position": {
+        "x": -270.93697112052075,
+        "y": 1754.1289204774196
+      },
+      "size": {
+        "width": 79,
+        "height": 20
+      },
+      "style": {
+        "stroke": "#0062FF"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "kBQV71KwuVxpUi0nFj17X",
+      "type": "vertical",
+      "label": "vertical node",
+      "position": {
+        "x": -281,
+        "y": 1763
+      },
+      "size": {
+        "width": 21,
+        "height": 360
+      },
+      "style": {
+        "stroke": "#0062FF"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "eOFoGKveaHaBm_6ppJUtA",
+      "type": "todo",
+      "label": "Fully Connected, CNN, RNN, LSTM, Transformers, TL",
+      "position": {
+        "x": -254.10970787732015,
+        "y": 1823.259275392802
+      },
+      "size": {
+        "width": 450,
+        "height": 38
+      },
+      "style": {
+        "fontSize": 17,
+        "padding": 0
+      },
+      "z_index": 999
+    },
+    {
+      "id": "4TyV6lDCVCOIOhmY9bgPC",
+      "type": "resourceButton",
+      "label": "Deep Learning Specialization",
+      "position": {
+        "x": -231.10970787732015,
+        "y": 1862.0843010493045
+      },
+      "size": {
+        "width": 406,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "color": "#000000",
+        "backgroundColor": "#FFE599",
+        "badgeColor": "#9900FF"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "-rl87TRJZTWqbQmW95NAi",
+      "type": "resourceButton",
+      "label": "Deep Learning Book",
+      "position": {
+        "x": -231.10970787732015,
+        "y": 1915.0843010493045
+      },
+      "size": {
+        "width": 406,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "color": "#000000",
+        "backgroundColor": "#FFE599",
+        "badgeColor": "#9900FF"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "54pd0lYYLvuNYmuaOZbrT",
+      "type": "resourceButton",
+      "label": "Attention is all you need",
+      "position": {
+        "x": -231.10970787732015,
+        "y": 1968.0843010493045
+      },
+      "size": {
+        "width": 406,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "color": "#000000",
+        "backgroundColor": "#FFE599",
+        "badgeColor": "#9900FF"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "lm3BCmHTcd-_cOIc_dDmU",
+      "type": "resourceButton",
+      "label": "The Illustrated Transformer",
+      "position": {
+        "x": -231.10970787732015,
+        "y": 2021.0843010493045
+      },
+      "size": {
+        "width": 406,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "color": "#000000",
+        "backgroundColor": "#FFE599",
+        "badgeColor": "#9900FF"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "deHK6yEdytCu2ACvVC0bs",
+      "type": "horizontal",
+      "label": "horizontal node",
+      "position": {
+        "x": -271.10970787732015,
+        "y": 2112
+      },
+      "size": {
+        "width": 515,
+        "height": 20
+      },
+      "style": {
+        "stroke": "#0062FF"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "Nn5ZjuUG_uEbCxcIcYY9U",
+      "type": "vertical",
+      "label": "vertical node",
+      "position": {
+        "x": 231.89029212267985,
+        "y": 1935
+      },
+      "size": {
+        "width": 21,
+        "height": 188
+      },
+      "style": {
+        "stroke": "#0062FF"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "C85MXDnb-d0eVur0DLGr-",
+      "type": "horizontal",
+      "label": "horizontal node",
+      "position": {
+        "x": 242.89029212267985,
+        "y": 1925.5843010493045
+      },
+      "size": {
+        "width": 88,
+        "height": 20
+      },
+      "style": {
+        "stroke": "#0062FF"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "Sehg_WX_mnMCRlKrvwWzc",
+      "type": "label",
+      "label": "8",
+      "position": {
+        "x": 339.89029212267985,
+        "y": 1918.0843010493045
+      },
+      "size": {
+        "width": 27,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17,
+        "color": "#0062ff"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "Qa85hEVe2kz62k9Pj4QCA",
+      "type": "topic",
+      "label": "MLOps",
+      "position": {
+        "x": 369.89029212267985,
+        "y": 1911.5843010493045
+      },
+      "size": {
+        "width": 124,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "MLOps is a practice for collaboration and communication between data scientists and operations professionals to help manage production ML lifecycle. It is a set of best practices that aims to automate the ML lifecycle, including training, deployment, and monitoring. MLOps helps organizations to scale ML models and deliver business value faster.",
+        "links": []
+      }
+    },
+    {
+      "id": "bsj2IHFXur-qqDSI4B1wg",
+      "type": "resourceButton",
+      "label": "MLOps Specialization",
+      "position": {
+        "x": 287,
+        "y": 2017.0843010493045
+      },
+      "size": {
+        "width": 452,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "color": "#000000",
+        "backgroundColor": "#FFE599",
+        "badgeColor": "#9900FF"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "uPzzUpI0--7OWDfNeBIjt",
+      "type": "todo",
+      "label": "Deployment Models, CI/CD",
+      "position": {
+        "x": 259.89029212267985,
+        "y": 1979.0843010493045
+      },
+      "size": {
+        "width": 536,
+        "height": 38
+      },
+      "style": {
+        "fontSize": 17,
+        "padding": 0
+      },
+      "z_index": 999
+    },
+    {
+      "id": "rKb8lqYH0GC_6R5qybzzM",
+      "type": "vertical",
+      "label": "vertical node",
+      "position": {
+        "x": 760,
+        "y": 1935
+      },
+      "size": {
+        "width": 21,
+        "height": 217
+      },
+      "style": {
+        "stroke": "#0062FF"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "q_oYxEPUvEylwjAyDA5FL",
+      "type": "horizontal",
+      "label": "horizontal node",
+      "position": {
+        "x": 277.39029212267985,
+        "y": 2142
+      },
+      "size": {
+        "width": 494,
+        "height": 20
+      },
+      "style": {
+        "stroke": "#0062FF"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "jVVrvW1PCXEKz5IfJMXKo",
+      "type": "vertical",
+      "label": "vertical node",
+      "position": {
+        "x": 269.89029212267985,
+        "y": 2152
+      },
+      "size": {
+        "width": 21,
+        "height": 75
+      },
+      "style": {
+        "stroke": "#0062FF"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "0bn7U-9YoeOqPXTnrMpfz",
+      "type": "label",
+      "label": "V",
+      "position": {
+        "x": -287,
+        "y": 1875.0843010493045
+      },
+      "size": {
+        "width": 29,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 20,
+        "color": "#0062FF"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "13tRO2lYWb0m8LwjAcdIY",
+      "type": "label",
+      "label": "V",
+      "position": {
+        "x": -287,
+        "y": 1999.8462240428494
+      },
+      "size": {
+        "width": 29,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 20,
+        "color": "#0062FF"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "uBSNhZB4PuEKY1bkzoZGG",
+      "type": "label",
+      "label": ">",
+      "position": {
+        "x": 41.890292122679824,
+        "y": 1167
+      },
+      "size": {
+        "width": 35,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 24,
+        "color": "#0062FF"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "-5YUJmODVX62RchBu-G0y",
+      "type": "label",
+      "label": ">",
+      "position": {
+        "x": 621.8902921226799,
+        "y": 1258.7340815556822
+      },
+      "size": {
+        "width": 35,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 24,
+        "color": "#0062FF"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "wt-ifu9mv7Ydc_-Gaqv-V",
+      "type": "label",
+      "label": "<",
+      "position": {
+        "x": 609.3902921226799,
+        "y": 1543.72719179845
+      },
+      "size": {
+        "width": 34,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 24,
+        "color": "#0062FF"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "93tag4KlRPagkbdpY4lVT",
+      "type": "label",
+      "label": "V",
+      "position": {
+        "x": 768.5,
+        "y": 1383.2347754827133
+      },
+      "size": {
+        "width": 32,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 24,
+        "color": "#0062FF"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "DEW_GsNVEf75P63SvEQwB",
+      "type": "label",
+      "label": "<",
+      "position": {
+        "x": 223.89029212267985,
+        "y": 1543.72719179845
+      },
+      "size": {
+        "width": 34,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 24,
+        "color": "#0062FF"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "nAi-ndQiOiYCuAMqtDZ1I",
+      "type": "label",
+      "label": "<",
+      "position": {
+        "x": 106.89029212267982,
+        "y": 1746.1289204774196
+      },
+      "size": {
+        "width": 34,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 24,
+        "color": "#0062FF"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "ftUWZ9y0YFc4geCEaCEAq",
+      "type": "label",
+      "label": ">",
+      "position": {
+        "x": 561.8902921226799,
+        "y": 1917.5843010493045
+      },
+      "size": {
+        "width": 35,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 24,
+        "color": "#0062FF"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "SG6DkcQM4NdgTSu2MR8Q5",
+      "type": "label",
+      "label": "<",
+      "position": {
+        "x": 509.89029212267985,
+        "y": 2134
+      },
+      "size": {
+        "width": 34,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 24,
+        "color": "#0062FF"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "FGJcnSeI5Fgn2bxfY9DEd",
+      "type": "label",
+      "label": "V",
+      "position": {
+        "x": 754,
+        "y": 2035.8462240428494
+      },
+      "size": {
+        "width": 29,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 20,
+        "color": "#0062FF"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "PV5ACkfJLhJOUZ2qnobhZ",
+      "type": "label",
+      "label": ">",
+      "position": {
+        "x": 27.24550250885048,
+        "y": 2104
+      },
+      "size": {
+        "width": 35,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 24,
+        "color": "#0062FF"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "Xd_mdvQdbCWcucpSTcDz1",
+      "type": "label",
+      "label": ">",
+      "position": {
+        "x": -164.75449749114966,
+        "y": 2104
+      },
+      "size": {
+        "width": 35,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 24,
+        "color": "#0062FF"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "Ju00mr0KLGN2BV6yEQGPt",
+      "type": "vertical",
+      "label": "vertical node",
+      "position": {
+        "x": 272,
+        "y": 2284.5820625712176
+      },
+      "size": {
+        "width": 21,
+        "height": 55
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#4136D4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "IDGTOlC_h3rt_3ZF4x8bG",
+      "type": "label",
+      "label": "Keep Learning",
+      "position": {
+        "x": 205.39029212267985,
+        "y": 2236.300845579272
+      },
+      "size": {
+        "width": 150,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 20
+      },
+      "z_index": 999
+    }
+  ],
+  "edges": [
+    {
+      "id": "XX0I26JoVMVXIe_7bVMix",
+      "source": "iogwMmOvub2ZF4zgg6WyF",
+      "target": "_hYN0gEi9BL24nptEtXWU",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "dFn6kGOoJ-0BzJJEb9DSG",
+      "source": "_hYN0gEi9BL24nptEtXWU",
+      "target": "idLHBxhvcIqZTqmh_E8Az",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "arkF7QJJRbCBYWp0crqa2",
+      "source": "_hYN0gEi9BL24nptEtXWU",
+      "target": "os3Pa6W9SSNEzgmlBbglQ",
+      "source_handle": "z2",
+      "target_handle": "y2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "HNVw8OboycWKLEtEbG2bn",
+      "source": "_hYN0gEi9BL24nptEtXWU",
+      "target": "3oInpqvTSSC5_K6i7j8N7",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "auB7Png72XjmhcLr3IJA7",
+      "source": "_hYN0gEi9BL24nptEtXWU",
+      "target": "YKhuRbcUFzo0hTvuTq-Yl",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "2aoDIr80lXSJLW1hIGUkb",
+      "source": "jZ67HhVRelJaxjsCckSSI",
+      "target": "hWA7RtuqltMTmHdcCnmES",
+      "source_handle": "x2",
+      "target_handle": "y1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "m-_y7nLeYFkUKGiacxWA0",
+      "source": "",
+      "target": "NMznG9mo2wzNFnjhg990f",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "G7pXuJfkyt2nWAOHU8yV0",
+      "source": "",
+      "target": "gc_7cuIO2_joKlQRAPDfX",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "2_6Yz3-Agx9_rEN5xW86c",
+      "source": "rrrvATyhXqRgJGWI3z0WF",
+      "target": "AvbMQ5vY3ip1oX_6Yq4ie",
+      "source_handle": "x2",
+      "target_handle": "w2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "kgMI98fg2-mKMgUs0wnjD",
+      "source": "hWA7RtuqltMTmHdcCnmES",
+      "target": "1AJv95mTLpR7L8KBoGym8",
+      "source_handle": "w2",
+      "target_handle": "x1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "ts38Q2ceHs60TJscUBZVE",
+      "source": "hWA7RtuqltMTmHdcCnmES",
+      "target": "0etAs56EeBfh_0IlAaSra",
+      "source_handle": "y2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "ZiMV7umyPdhy3JJDcopR-",
+      "source": "jZ67HhVRelJaxjsCckSSI",
+      "target": "h6ceO0kiBIxNRkPzN3hBY",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "WI-MhbxrehFcVwyGJ5CQJ",
+      "source": "jZ67HhVRelJaxjsCckSSI",
+      "target": "_JlT9oKQ6Yu4UX6l19G8P",
+      "source_handle": "y2",
+      "target_handle": "z2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "qUrLBzvXvJOg53HBfjrOI",
+      "source": "_hYN0gEi9BL24nptEtXWU",
+      "target": "jZ67HhVRelJaxjsCckSSI",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-wOqfPAZ24GxUrkxVRRyT5z2-wOqfPAZ24GxUrkxVRRyT5z1",
+      "source": "HVHYJ8gWHCZMACuvKP7gK",
+      "target": "HVHYJ8gWHCZMACuvKP7gK",
+      "source_handle": "z2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    }
+  ],
+  "content_crawled_at": "2026-04-06T08:33:29.021421+00:00"
+}

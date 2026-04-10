@@ -1,202 +1,441 @@
 import { useState, useRef, useCallback, useEffect } from 'react'
 import { useParams, Link } from 'react-router-dom'
-import { ArrowLeft, ZoomIn, ZoomOut, RotateCcw, MousePointer2, Hash } from 'lucide-react'
-import { getRoadmapById, NODE_TYPES } from '../../data/roadmaps'
+import { ArrowLeft, ZoomIn, ZoomOut, RotateCcw, MousePointer2, Hash, Loader2 } from 'lucide-react'
 import DetailPanel from '../../components/DetailPanel/DetailPanel'
 import styles from './RoadmapPage.module.css'
 
-// Node dimensions
-const NODE_W = 180
-const NODE_H = 44
-const NODE_W_MILESTONE = 200
-const NODE_H_MILESTONE = 48
+const CLICKABLE_TYPES = new Set(['topic', 'subtopic', 'checklist', 'todo'])
+const BG_TYPES = new Set(['section'])
+const CONNECTOR_TYPES = new Set(['vertical', 'horizontal'])
 
-function getNodeDims(type) {
-  if (type === NODE_TYPES.MILESTONE || type === NODE_TYPES.CHECKPOINT) {
-    return { w: NODE_W_MILESTONE, h: NODE_H_MILESTONE }
+// ── Fix bright colors for dark theme ──
+function fixBgColor(color) {
+  if (!color) return null
+  const c = color.toString().trim().toLowerCase()
+  if (c === 'transparent') return 'transparent'
+  if (c === 'white' || c === '#fff' || c === '#ffffff' || c === '#fffff' ||
+      c === 'rgb(255,255,255)' || c === 'rgb(255, 255, 255)') {
+    return 'rgba(255, 255, 255, 0.03)'
   }
-  return { w: NODE_W, h: NODE_H }
+  if (c.startsWith('#') && (c.length === 7 || c.length === 4)) {
+    let r, g, b
+    if (c.length === 7) {
+      r = parseInt(c.slice(1, 3), 16)
+      g = parseInt(c.slice(3, 5), 16)
+      b = parseInt(c.slice(5, 7), 16)
+    } else {
+      r = parseInt(c[1] + c[1], 16)
+      g = parseInt(c[2] + c[2], 16)
+      b = parseInt(c[3] + c[3], 16)
+    }
+    if ((r * 299 + g * 587 + b * 114) / 1000 > 200) {
+      return `rgba(${r}, ${g}, ${b}, 0.05)`
+    }
+  }
+  return color
 }
 
-// Type-to-CSS class mapping
-const typeClassMap = {
-  [NODE_TYPES.MILESTONE]: styles.nodeTypeMilestone,
-  [NODE_TYPES.TOPIC]: styles.nodeTypeTopic,
-  [NODE_TYPES.SUBTOPIC]: styles.nodeTypeSubtopic,
-  [NODE_TYPES.CHECKPOINT]: styles.nodeTypeCheckpoint,
+function fixBorderColor(color) {
+  if (!color) return null
+  const c = color.toString().trim().toLowerCase()
+  if (c === 'transparent') return 'transparent'
+  if (c === 'black' || c === '#000' || c === '#000000') return 'rgba(255, 255, 255, 0.06)'
+  return color
+}
+
+// ── Smart edge routing ──
+function getSmartEdgePoints(srcNode, tgtNode) {
+  const sx = srcNode.position?.x ?? 0, sy = srcNode.position?.y ?? 0
+  const sw = srcNode.size?.width ?? 160, sh = srcNode.size?.height ?? 40
+  const tx = tgtNode.position?.x ?? 0, ty = tgtNode.position?.y ?? 0
+  const tw = tgtNode.size?.width ?? 160, th = tgtNode.size?.height ?? 40
+
+  const dx = (tx + tw / 2) - (sx + sw / 2)
+  const dy = (ty + th / 2) - (sy + sh / 2)
+
+  if (Math.abs(dy) >= Math.abs(dx)) {
+    if (dy >= 0) {
+      return {
+        src: { px: sx + sw / 2, py: sy + sh, dx: 0, dy: 1 },
+        tgt: { px: tx + tw / 2, py: ty, dx: 0, dy: -1 },
+      }
+    } else {
+      return {
+        src: { px: sx + sw / 2, py: sy, dx: 0, dy: -1 },
+        tgt: { px: tx + tw / 2, py: ty + th, dx: 0, dy: 1 },
+      }
+    }
+  } else {
+    if (dx >= 0) {
+      return {
+        src: { px: sx + sw, py: sy + sh / 2, dx: 1, dy: 0 },
+        tgt: { px: tx, py: ty + th / 2, dx: -1, dy: 0 },
+      }
+    } else {
+      return {
+        src: { px: sx, py: sy + sh / 2, dx: -1, dy: 0 },
+        tgt: { px: tx + tw, py: ty + th / 2, dx: 1, dy: 0 },
+      }
+    }
+  }
 }
 
 export default function RoadmapPage() {
   const { id } = useParams()
-  const roadmap = getRoadmapById(id)
-
+  const [roadmap, setRoadmap] = useState(null)
+  const [loading, setLoading] = useState(true)
+  const [error, setError] = useState(null)
   const [selectedNode, setSelectedNode] = useState(null)
-  const [zoom, setZoom] = useState(2)
+  const [zoom, setZoom] = useState(1)
   const [pan, setPan] = useState({ x: 0, y: 0 })
   const [isDragging, setIsDragging] = useState(false)
-  const [dragStart, setDragStart] = useState({ x: 0, y: 0 })
   const containerRef = useRef(null)
+  const nodeMapRef = useRef({})
+  const dragStartRef = useRef({ x: 0, y: 0 })
+  const hasInitPanned = useRef(false)
+  const zoomRef = useRef(1)
+  const panRef = useRef({ x: 0, y: 0 })
+  useEffect(() => { zoomRef.current = zoom }, [zoom])
+  useEffect(() => { panRef.current = pan }, [pan])
 
-  // Scroll to top on mount
+  useEffect(() => { window.scrollTo(0, 0) }, [id])
+
+  // Fetch roadmap
   useEffect(() => {
-    window.scrollTo(0, 0)
+    setLoading(true)
+    setError(null)
+    hasInitPanned.current = false
+    fetch(`/api/roadmaps/${id}`)
+      .then((res) => {
+        if (!res.ok) throw new Error('Roadmap not found')
+        return res.json()
+      })
+      .then((data) => {
+        const map = {}
+        data.nodes?.forEach((n) => { map[n.id] = n })
+        nodeMapRef.current = map
+        setRoadmap(data)
+        setLoading(false)
+      })
+      .catch((err) => {
+        setError(err.message)
+        setLoading(false)
+      })
   }, [id])
 
-  // Calculate SVG viewBox based on nodes
-  const computeViewBox = useCallback(() => {
-    if (!roadmap) return { minX: 0, minY: 0, width: 800, height: 600 }
-    const padding = 80
+  // Compute bounds — include ALL nodes
+  const computeBounds = useCallback(() => {
+    if (!roadmap?.nodes?.length) return { minX: 0, minY: 0, width: 800, height: 600 }
+    const pad = 60
     let minX = Infinity, minY = Infinity, maxX = -Infinity, maxY = -Infinity
-    roadmap.nodes.forEach(n => {
-      const { w, h } = getNodeDims(n.type)
-      minX = Math.min(minX, n.x - w / 2)
-      minY = Math.min(minY, n.y - h / 2)
-      maxX = Math.max(maxX, n.x + w / 2)
-      maxY = Math.max(maxY, n.y + h / 2)
+    roadmap.nodes.forEach((n) => {
+      const x = n.position?.x ?? 0, y = n.position?.y ?? 0
+      const w = n.size?.width ?? 160, h = n.size?.height ?? 40
+      minX = Math.min(minX, x); minY = Math.min(minY, y)
+      maxX = Math.max(maxX, x + w); maxY = Math.max(maxY, y + h)
     })
-    return {
-      minX: minX - padding,
-      minY: minY - padding,
-      width: (maxX - minX) + padding * 2,
-      height: (maxY - minY) + padding * 2,
-    }
+    if (!isFinite(minX)) return { minX: 0, minY: 0, width: 800, height: 600 }
+    return { minX: minX - pad, minY: minY - pad, width: maxX - minX + pad * 2, height: maxY - minY + pad * 2 }
   }, [roadmap])
 
-  const viewBox = computeViewBox()
+  const bounds = computeBounds()
 
-  // Pan handlers
-  const handleMouseDown = useCallback((e) => {
-    if (e.target.closest(`.${styles.nodeGroup}`)) return
-    setIsDragging(true)
-    setDragStart({ x: e.clientX - pan.x, y: e.clientY - pan.y })
-  }, [pan])
-
-  const handleMouseMove = useCallback((e) => {
-    if (!isDragging) return
-    setPan({
-      x: e.clientX - dragStart.x,
-      y: e.clientY - dragStart.y,
+  // Initial pan: center horizontally, show top
+  useEffect(() => {
+    if (!roadmap || !containerRef.current || hasInitPanned.current) return
+    const c = containerRef.current
+    requestAnimationFrame(() => {
+      if (!c) return
+      const initPan = { x: (c.clientWidth - bounds.width) / 2, y: 20 }
+      setPan(initPan)
+      panRef.current = initPan
+      hasInitPanned.current = true
     })
-  }, [isDragging, dragStart])
+  }, [roadmap, bounds])
 
-  const handleMouseUp = useCallback(() => {
-    setIsDragging(false)
+  // ── Scroll wheel = zoom toward cursor ──
+  const handleWheel = useCallback((e) => {
+    e.preventDefault()
+    const el = containerRef.current
+    if (!el) return
+    const step = e.deltaY > 0 ? -0.08 : 0.08
+    const oldZ = zoomRef.current
+    const newZ = Math.min(Math.max(oldZ + step, 0.3), 3)
+    const rect = el.getBoundingClientRect()
+    const mx = e.clientX - rect.left
+    const my = e.clientY - rect.top
+    const ratio = newZ / oldZ
+    const p = panRef.current
+    const newPan = { x: mx - (mx - p.x) * ratio, y: my - (my - p.y) * ratio }
+    zoomRef.current = newZ
+    panRef.current = newPan
+    setZoom(newZ)
+    setPan(newPan)
   }, [])
 
-  // Touch support
-  const handleTouchStart = useCallback((e) => {
+  // FIX: re-attach wheel listener after loading completes and container DOM exists
+  useEffect(() => {
+    if (loading) return
+    const el = containerRef.current
+    if (!el) return
+    el.addEventListener('wheel', handleWheel, { passive: false })
+    return () => el.removeEventListener('wheel', handleWheel)
+  }, [handleWheel, loading])
+
+  // ── Drag = pan ──
+  const handleMouseDown = (e) => {
+    if (e.target.closest(`.${styles.nodeGroup}`) || e.target.closest('button')) return
+    e.preventDefault()
+    setIsDragging(true)
+    dragStartRef.current = { x: e.clientX - pan.x, y: e.clientY - pan.y }
+  }
+
+  const handleMouseMove = (e) => {
+    if (!isDragging) return
+    const newPan = { x: e.clientX - dragStartRef.current.x, y: e.clientY - dragStartRef.current.y }
+    panRef.current = newPan
+    setPan(newPan)
+  }
+
+  const handleMouseUp = () => setIsDragging(false)
+
+  // Touch
+  const handleTouchStart = (e) => {
     if (e.target.closest(`.${styles.nodeGroup}`)) return
     if (e.touches.length === 1) {
       setIsDragging(true)
-      setDragStart({
+      dragStartRef.current = {
         x: e.touches[0].clientX - pan.x,
         y: e.touches[0].clientY - pan.y,
-      })
+      }
     }
-  }, [pan])
+  }
 
-  const handleTouchMove = useCallback((e) => {
+  const handleTouchMove = (e) => {
     if (!isDragging || e.touches.length !== 1) return
     e.preventDefault()
-    setPan({
-      x: e.touches[0].clientX - dragStart.x,
-      y: e.touches[0].clientY - dragStart.y,
+    const newPan = {
+      x: e.touches[0].clientX - dragStartRef.current.x,
+      y: e.touches[0].clientY - dragStartRef.current.y,
+    }
+    panRef.current = newPan
+    setPan(newPan)
+  }
+
+  // Zoom buttons
+  const zoomToCenter = (newZ) => {
+    const c = containerRef.current
+    if (!c) return
+    const cx = c.clientWidth / 2, cy = c.clientHeight / 2
+    const ratio = newZ / zoom
+    setPan((p) => {
+      const np = { x: cx - (cx - p.x) * ratio, y: cy - (cy - p.y) * ratio }
+      panRef.current = np
+      return np
     })
-  }, [isDragging, dragStart])
+    setZoom(newZ)
+    zoomRef.current = newZ
+  }
 
-  // Zoom
-  const handleWheel = useCallback((e) => {
-    e.preventDefault()
-    const delta = e.deltaY > 0 ? -0.1 : 0.1
-    setZoom(z => Math.min(Math.max(z + delta, 0.3), 2.5))
-  }, [])
+  const zoomIn = () => zoomToCenter(Math.min(zoom + 0.15, 3))
+  const zoomOut = () => zoomToCenter(Math.max(zoom - 0.15, 0.3))
+  const resetView = () => {
+    setZoom(1); zoomRef.current = 1
+    const c = containerRef.current
+    if (!c) return
+    const np = { x: (c.clientWidth - bounds.width) / 2, y: 20 }
+    setPan(np); panRef.current = np
+  }
 
-  useEffect(() => {
-    const container = containerRef.current
-    if (!container) return
-    container.addEventListener('wheel', handleWheel, { passive: false })
-    return () => container.removeEventListener('wheel', handleWheel)
-  }, [handleWheel])
-
-  const zoomIn = () => setZoom(z => Math.min(z + 0.15, 2.5))
-  const zoomOut = () => setZoom(z => Math.max(z - 0.15, 0.3))
-  const resetView = () => { setZoom(2); setPan({ x: 0, y: 0 }) }
-
-  // Render edge paths as smooth curves
+  // ── Render edge ──
   const renderEdge = (edge, i) => {
-    const from = roadmap.nodes.find(n => n.id === edge.from)
-    const to = roadmap.nodes.find(n => n.id === edge.to)
+    const from = nodeMapRef.current[edge.source]
+    const to = nodeMapRef.current[edge.target]
     if (!from || !to) return null
 
-    const { h: fromH } = getNodeDims(from.type)
-    const { h: toH } = getNodeDims(to.type)
+    const { src, tgt } = getSmartEdgePoints(from, to)
+    const dist = Math.sqrt((tgt.px - src.px) ** 2 + (tgt.py - src.py) ** 2)
+    const offset = Math.min(dist * 0.35, 100)
 
-    const x1 = from.x
-    const y1 = from.y + fromH / 2
-    const x2 = to.x
-    const y2 = to.y - toH / 2
+    const cx1 = src.px + src.dx * offset
+    const cy1 = src.py + src.dy * offset
+    const cx2 = tgt.px + tgt.dx * offset
+    const cy2 = tgt.py + tgt.dy * offset
 
-    const midY = (y1 + y2) / 2
-    const d = `M ${x1} ${y1} C ${x1} ${midY}, ${x2} ${midY}, ${x2} ${y2}`
+    const d = `M ${src.px} ${src.py} C ${cx1} ${cy1}, ${cx2} ${cy2}, ${tgt.px} ${tgt.py}`
+    const isDashed = edge.edge_style === 'dashed'
 
     return (
       <path
-        key={`edge-${i}`}
+        key={edge.id || `edge-${i}`}
         d={d}
-        className={styles.edge}
+        className={`${styles.edge} ${isDashed ? styles.edgeDashed : ''}`}
+        style={{
+          stroke: edge.style?.stroke || '#2b78e4',
+          strokeWidth: edge.style?.stroke_width || 2,
+        }}
       />
     )
   }
 
-  // Render nodes with stagger animation
-  const renderNode = (node, index) => {
-    const { w, h } = getNodeDims(node.type)
+  // ── Render node ──
+  const renderNode = (node) => {
+    const x = node.position?.x ?? 0, y = node.position?.y ?? 0
+    const w = node.size?.width ?? 160, h = node.size?.height ?? 40
+    const label = node.label || ''
+
+    // ── Connector lines (vertical/horizontal segments) ──
+    if (node.type === 'vertical') {
+      const cx = x + w / 2
+      return (
+        <line key={node.id}
+          x1={cx} y1={y} x2={cx} y2={y + h}
+          stroke={node.style?.stroke || '#2b78e4'}
+          strokeWidth={node.style?.strokeWidth || 3.5}
+          strokeDasharray={node.style?.strokeDasharray || undefined}
+          strokeLinecap={node.style?.strokeLinecap || 'round'}
+          className={styles.connectorLine}
+        />
+      )
+    }
+
+    if (node.type === 'horizontal') {
+      const cy = y + h / 2
+      return (
+        <line key={node.id}
+          x1={x} y1={cy} x2={x + w} y2={cy}
+          stroke={node.style?.stroke || '#2b78e4'}
+          strokeWidth={node.style?.strokeWidth || 3.5}
+          strokeDasharray={node.style?.strokeDasharray || undefined}
+          strokeLinecap={node.style?.strokeLinecap || 'round'}
+          className={styles.connectorLine}
+        />
+      )
+    }
+
+    // ── Section background ──
+    if (BG_TYPES.has(node.type)) {
+      return (
+        <rect key={node.id} x={x} y={y} width={w} height={h}
+          className={styles.sectionRect}
+          style={{
+            fill: fixBgColor(node.style?.backgroundColor) || 'rgba(99, 102, 241, 0.03)',
+            stroke: fixBorderColor(node.style?.borderColor) || 'rgba(255,255,255,0.05)',
+          }}
+          rx={8}
+        />
+      )
+    }
+
+    // ── Label nodes (section headers like "Tools / Actions") ──
+    if (node.type === 'label') {
+      const fontSize = node.style?.fontSize || 17
+      return (
+        <text key={node.id}
+          className={styles.labelText}
+          x={x + w / 2} y={y + h / 2}
+          fontSize={fontSize}
+          dominantBaseline="central"
+          textAnchor="middle"
+        >
+          {label}
+        </text>
+      )
+    }
+
+    // ── Paragraph nodes (multi-line content, use foreignObject for wrapping) ──
+    if (node.type === 'paragraph') {
+      const fontSize = node.style?.fontSize || 15
+      const textAlign = node.style?.textAlign || 'center'
+      const bgColor = fixBgColor(node.style?.backgroundColor)
+      const borderColor = fixBorderColor(node.style?.borderColor)
+      const showBox = bgColor && bgColor !== 'transparent'
+
+      return (
+        <g key={node.id} className={styles.nodeGroup}>
+          {showBox && (
+            <rect x={x} y={y} width={w} height={h} rx={5}
+              className={styles.nodeRect}
+              style={{
+                fill: bgColor,
+                stroke: borderColor || 'rgba(255,255,255,0.06)',
+              }}
+            />
+          )}
+          <foreignObject x={x} y={y} width={w} height={h}>
+            <div
+              xmlns="http://www.w3.org/1999/xhtml"
+              className={styles.paragraphContent}
+              style={{
+                fontSize: `${fontSize}px`,
+                textAlign: textAlign,
+                justifyContent: node.style?.justifyContent || 'center',
+                padding: node.style?.padding ? `${node.style.padding}px` : '8px 12px',
+              }}
+            >
+              {label}
+            </div>
+          </foreignObject>
+        </g>
+      )
+    }
+
+    // ── Regular nodes (topic, subtopic, button, title, etc.) ──
+    const isClickable = CLICKABLE_TYPES.has(node.type)
     const isActive = selectedNode?.id === node.id
-    const typeClass = typeClassMap[node.type] || ''
+    const typeClass = styles[`nodeType_${node.type}`] || ''
+    const fontSize = node.style?.fontSize || (node.type === 'title' ? 18 : 13)
+    const maxChars = Math.floor(w / (fontSize * 0.55))
+    const displayLabel = label.length > maxChars ? label.substring(0, maxChars - 1) + '…' : label
 
     return (
-      <g
-        key={node.id}
-        className={`${styles.nodeGroup} ${typeClass} ${isActive ? styles.active : ''}`}
-        onClick={() => setSelectedNode(node)}
-        id={`node-${node.id}`}
-        role="button"
-        tabIndex={0}
-        onKeyDown={(e) => { if (e.key === 'Enter') setSelectedNode(node) }}
-        style={{ animationDelay: `${index * 60}ms` }}
+      <g key={node.id}
+        className={`${styles.nodeGroup} ${typeClass} ${isActive ? styles.active : ''} ${isClickable ? styles.clickable : ''}`}
+        onClick={isClickable ? () => setSelectedNode(node) : undefined}
       >
-        <rect
-          className={styles.nodeRect}
-          x={node.x - w / 2}
-          y={node.y - h / 2}
-          width={w}
-          height={h}
+        <rect className={styles.nodeRect} x={x} y={y} width={w} height={h}
+          rx={node.type === 'title' ? 8 : 5}
+          style={{
+            fill: fixBgColor(node.style?.backgroundColor) || undefined,
+            stroke: fixBorderColor(node.style?.borderColor) || undefined,
+          }}
         />
-        <text
-          className={styles.nodeText}
-          x={node.x}
-          y={node.y}
-          fontSize={node.type === NODE_TYPES.MILESTONE || node.type === NODE_TYPES.CHECKPOINT ? 14 : 12}
-        >
-          {node.label.length > 22 ? node.label.substring(0, 20) + '…' : node.label}
-        </text>
+        {label && (
+          <text className={styles.nodeText} x={x + w / 2} y={y + h / 2}
+            fontSize={fontSize} dominantBaseline="central"
+          >
+            {displayLabel}
+          </text>
+        )}
       </g>
     )
   }
 
-  // Not found state
-  if (!roadmap) {
+  // Loading
+  if (loading) {
+    return (
+      <div className={styles.loadingState}>
+        <Loader2 size={32} className={styles.spinner} />
+        <span>Loading roadmap...</span>
+      </div>
+    )
+  }
+
+  // Not found
+  if (error || !roadmap) {
     return (
       <div className={styles.notFound} id="roadmap-not-found">
         <h2 className={styles.notFoundTitle}>Roadmap Not Found</h2>
         <p className={styles.notFoundText}>The roadmap you're looking for doesn't exist.</p>
         <Link to="/" className={styles.notFoundBtn}>
-          <ArrowLeft size={16} />
-          Back to Roadmaps
+          <ArrowLeft size={16} /> Back to Roadmaps
         </Link>
       </div>
     )
   }
+
+  const sortedNodes = [...roadmap.nodes].sort((a, b) => (a.z_index || 0) - (b.z_index || 0))
+  const topicCount = roadmap.nodes.filter((n) => CLICKABLE_TYPES.has(n.type)).length
 
   return (
     <div className={styles.page} id="roadmap-page">
@@ -204,19 +443,14 @@ export default function RoadmapPage() {
       <div className={styles.toolbar}>
         <div className={styles.toolbarInner}>
           <Link to="/" className={styles.backLink} id="back-link">
-            <ArrowLeft size={16} />
-            All Roadmaps
+            <ArrowLeft size={16} /> All Roadmaps
           </Link>
-
           <div className={styles.toolbarCenter}>
             <h1 className={styles.toolbarTitle}>{roadmap.title}</h1>
-            <p className={styles.toolbarDesc}>{roadmap.description}</p>
           </div>
-
           <div className={styles.toolbarActions}>
             <span className={styles.nodeCountBadge}>
-              <Hash size={12} />
-              {roadmap.nodes.length} topics
+              <Hash size={12} /> {topicCount} topics
             </span>
             <button className={styles.toolbarBtn} onClick={zoomOut} title="Zoom Out" id="zoom-out-btn">
               <ZoomOut size={16} />
@@ -232,12 +466,6 @@ export default function RoadmapPage() {
         </div>
       </div>
 
-      {/* Mobile Info */}
-      <div className={styles.mobileInfo}>
-        <div className={styles.mobileInfoTitle}>{roadmap.title}</div>
-        <div className={styles.mobileInfoText}>{roadmap.description}</div>
-      </div>
-
       {/* Graph */}
       <div
         ref={containerRef}
@@ -251,55 +479,40 @@ export default function RoadmapPage() {
         onTouchEnd={handleMouseUp}
         id="graph-container"
       >
-        {/* Legend */}
         <div className={styles.legend}>
           <div className={styles.legendItem}>
-            <div className={`${styles.legendDot} ${styles.legendDotMilestone}`} />
-            Milestone
+            <div className={`${styles.legendDot} ${styles.legendDotTopic}`} /> Topic
           </div>
           <div className={styles.legendItem}>
-            <div className={`${styles.legendDot} ${styles.legendDotTopic}`} />
-            Topic
+            <div className={`${styles.legendDot} ${styles.legendDotSubtopic}`} /> Subtopic
           </div>
           <div className={styles.legendItem}>
-            <div className={`${styles.legendDot} ${styles.legendDotSubtopic}`} />
-            Optional / Subtopic
-          </div>
-          <div className={styles.legendItem}>
-            <div className={`${styles.legendDot} ${styles.legendDotCheckpoint}`} />
-            Checkpoint
+            <div className={`${styles.legendDot} ${styles.legendDotDashed}`} /> Optional Path
           </div>
         </div>
 
         <svg
           className={styles.graphSvg}
-          viewBox={`${viewBox.minX} ${viewBox.minY} ${viewBox.width} ${viewBox.height}`}
-          preserveAspectRatio="xMidYMin meet"
+          width={bounds.width}
+          height={bounds.height}
+          viewBox={`${bounds.minX} ${bounds.minY} ${bounds.width} ${bounds.height}`}
           style={{
-            transform: `scale(${zoom}) translate(${pan.x / zoom}px, ${pan.y / zoom}px)`,
-            transformOrigin: 'center top',
+            transform: `translate(${pan.x}px, ${pan.y}px) scale(${zoom})`,
+            transformOrigin: '0 0',
           }}
         >
-          {/* Edges */}
           {roadmap.edges.map((edge, i) => renderEdge(edge, i))}
-
-          {/* Nodes */}
-          {roadmap.nodes.map((node, i) => renderNode(node, i))}
+          {sortedNodes.map((node) => renderNode(node))}
         </svg>
 
-        {/* Hint */}
         <div className={styles.graphHint}>
           <MousePointer2 size={14} />
-          Click on any topic to see details • Scroll to zoom • Drag to pan
+          Click topic for details • Scroll to zoom • Drag to pan
         </div>
       </div>
 
-      {/* Detail Panel */}
       {selectedNode && (
-        <DetailPanel
-          node={selectedNode}
-          onClose={() => setSelectedNode(null)}
-        />
+        <DetailPanel node={selectedNode} onClose={() => setSelectedNode(null)} />
       )}
     </div>
   )

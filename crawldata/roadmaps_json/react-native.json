@@ -1,0 +1,4144 @@
+{
+  "id": "react-native",
+  "title": "React Native",
+  "source_url": "https://roadmap.sh/react-native",
+  "github_url": "https://github.com/kamranahmedse/developer-roadmap/tree/master/src/data/roadmaps/react-native",
+  "crawled_at": "2026-04-06T07:37:37.745561+00:00",
+  "type": "flow",
+  "stats": {
+    "total_nodes": 118,
+    "total_edges": 49,
+    "nodes_with_content": 91
+  },
+  "node_types": [
+    "button",
+    "horizontal",
+    "label",
+    "linksgroup",
+    "paragraph",
+    "section",
+    "subtopic",
+    "title",
+    "topic",
+    "vertical"
+  ],
+  "edge_styles": [
+    "dashed",
+    "solid"
+  ],
+  "edge_line_types": [
+    "default",
+    "smoothstep"
+  ],
+  "node_type_description": {
+    "title": "Tiêu đề chính của roadmap",
+    "topic": "Chủ đề lớn (nhóm kỹ năng)",
+    "subtopic": "Kỹ năng/công nghệ cụ thể cần học",
+    "paragraph": "Vùng text mô tả / chú thích",
+    "vertical": "Đường kết nối dọc (visual connector)"
+  },
+  "edge_style_description": {
+    "solid": "Kỹ năng bắt buộc / quan trọng",
+    "dashed": "Tùy chọn / gợi ý / alternative"
+  },
+  "nodes": [
+    {
+      "id": "4qvR1QQzrmoVIVCAsp92H",
+      "type": "vertical",
+      "label": "vertical node",
+      "position": {
+        "x": -123.1381872719935,
+        "y": 2573.2541881503926
+      },
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "zxa5bbXMLJsCgurI0zsRy",
+      "type": "vertical",
+      "label": "vertical node",
+      "position": {
+        "x": -549.1381872719935,
+        "y": 2123.4007482223487
+      },
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "3M-KXd4R-NzZV__UgxDPU",
+      "type": "vertical",
+      "label": "vertical node",
+      "position": {
+        "x": -666.615904405851,
+        "y": 2123.4007482223487
+      },
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "tR7FOWmBDYg6bn5d4YHzd",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": -140.1381872719935,
+        "y": 1846.9007482223487
+      },
+      "size": {
+        "width": 150,
+        "height": 100
+      },
+      "style": {
+        "fontSize": 17,
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "hJobfOyzU-1jqdExFilz7",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": 24.861812728006498,
+        "y": 1846.9007482223487
+      },
+      "size": {
+        "width": 150,
+        "height": 100
+      },
+      "style": {
+        "fontSize": 17,
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "noLJjbjKyQ4AWA4TuB6-6",
+      "type": "horizontal",
+      "label": "horizontal node",
+      "position": {
+        "x": -442.228964418254,
+        "y": 1773.9007482223487
+      },
+      "size": {
+        "width": 50,
+        "height": 20
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.65,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "Bv-5PX8sSIddQmKtC0NQ-",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": -712.1381872719935,
+        "y": 1687.9007482223487
+      },
+      "size": {
+        "width": 150,
+        "height": 100
+      },
+      "style": {
+        "fontSize": 17,
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "OMgqmjh8qyBUDugU8QkTL",
+      "type": "vertical",
+      "label": "vertical node",
+      "position": {
+        "x": 264.3618127280065,
+        "y": 1441.4007482223487
+      },
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.65,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "86YH9wi6fZcj_lT98sTwy",
+      "type": "vertical",
+      "label": "vertical node",
+      "position": {
+        "x": -215.3175069304428,
+        "y": 1145.9007482223487
+      },
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.75,
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "Lx-z0hK9WMcfS4lGiSD1M",
+      "type": "vertical",
+      "label": "vertical node",
+      "position": {
+        "x": -215.3175069304428,
+        "y": 932.9007482223487
+      },
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.75
+      },
+      "z_index": 999
+    },
+    {
+      "id": "N4wQuEYhAU9DGQJmV1f25",
+      "type": "vertical",
+      "label": "vertical node",
+      "position": {
+        "x": -515.6381872719935,
+        "y": 919.9393516042962
+      },
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "pGSRxZZEutXQu1nncm9Uy",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": -709.6381872719935,
+        "y": 1077.9007482223487
+      },
+      "size": {
+        "width": 150,
+        "height": 100
+      },
+      "style": {
+        "fontSize": 17,
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "9Pl9DKvoT0mpnc_6MUxVi",
+      "type": "vertical",
+      "label": "vertical node",
+      "position": {
+        "x": -126.22896441825404,
+        "y": 739.9393516042962
+      },
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.75,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "ZMHUVvTmbR_OmXTs1k0Sf",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": -709.6381872719935,
+        "y": 572.9007482223487
+      },
+      "size": {
+        "width": 150,
+        "height": 100
+      },
+      "style": {
+        "fontSize": 17,
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "Ikohtpq5aBCkJ6-73aaN4",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": 41.3618127280065,
+        "y": 426.40074822234874
+      },
+      "size": {
+        "width": 150,
+        "height": 100
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": -999
+    },
+    {
+      "id": "YcjFInaeQBknkTUfpgaYk",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": -708.6381872719935,
+        "y": 244.90074822234874
+      },
+      "size": {
+        "width": 150,
+        "height": 100
+      },
+      "style": {
+        "fontSize": 17,
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "HU7wZWiES3m3xl1-NYP6F",
+      "type": "title",
+      "label": "React Native",
+      "position": {
+        "x": -307.3175069304428,
+        "y": -38.879087788307686
+      },
+      "size": {
+        "width": 204,
+        "height": 68
+      },
+      "style": {
+        "fontSize": 28,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "uqyE79OItPOX33E5FoGel",
+      "type": "vertical",
+      "label": "vertical node",
+      "position": {
+        "x": -215.3175069304428,
+        "y": -133.0992517776511
+      },
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.75,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "JfXwzkN29UGz17FYHHE3A",
+      "type": "topic",
+      "label": "Introduction",
+      "position": {
+        "x": -329.8175069304428,
+        "y": 137.4393516042962
+      },
+      "size": {
+        "width": 137,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "React Native is an open-source framework developed by Facebook that allows developers to build mobile applications using JavaScript (or TypeScript) and React. It enables building apps for both iOS and Android platforms by offering a shared codebase, which significantly reduces development time and effort.",
+        "links": [
+          {
+            "title": "React Native",
+            "url": "https://reactnative.dev/",
+            "type": "official"
+          },
+          {
+            "title": "Getting Started with React Native",
+            "url": "https://reactnative.dev/docs/getting-started",
+            "type": "official"
+          },
+          {
+            "title": "React Native Course for Beginners in 2025 | Build a Full Stack React Native App",
+            "url": "https://www.youtube.com/watch?v=f8Z9JyB2EIE",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cMfsRtvzvDZZJ0TqeUOxm",
+      "type": "subtopic",
+      "label": "What is React Native?",
+      "position": {
+        "x": 40.8618127280065,
+        "y": 83.4393516042962
+      },
+      "size": {
+        "width": 303,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "React Native is a popular open-source framework developed by Facebook for building mobile applications using JavaScript (or TypeScript) and React. It enables developers to build native mobile apps for iOS and Android platforms using a single codebase, which significantly speeds up development without compromising on the performance and usability of the apps. With React Native, you write components with JSX, a syntax that combines JavaScript and XML. These components can map to native UI elements like views, text, images, and more.",
+        "links": [
+          {
+            "title": "Getting Started with React Native",
+            "url": "https://reactnative.dev/docs/getting-started",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2rlmLn_yQQV-7DpX1qT98",
+      "type": "subtopic",
+      "label": "Why use React Native?",
+      "position": {
+        "x": 40.8618127280065,
+        "y": 136.4393516042962
+      },
+      "size": {
+        "width": 303,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "React Native is a popular framework for developing native mobile applications using JavaScript (or TypeScript) and React, offering several compelling advantages for mobile app development. Key benefits include **code reusability**, allowing developers to share a significant portion of the codebase between iOS and Android, which reduces development time and simplifies maintenance. It leverages **familiar React concepts**, making it accessible for those already experienced with ReactJS, as it applies similar principles of components and state management. React Native provides **near-native performance** by directly interacting with native components, avoiding intermediaries like WebView. The framework benefits from a **vast ecosystem** and community support, with numerous libraries and tools that enhance the development process, bolstered by contributions from major companies like Facebook. Additionally, **hot reloading** enables developers to see code changes in real-time on devices or emulators, streamlining the development workflow. Finally, React Native can be **integrated into existing applications**, allowing for flexible enhancements to specific parts of an app.",
+        "links": [
+          {
+            "title": "Why You Should Choose React Native?",
+            "url": "https://www.geeksforgeeks.org/why-you-should-choose-react-native/",
+            "type": "article"
+          },
+          {
+            "title": "React Native: What is it? and, Why is it used?",
+            "url": "https://medium.com/@thinkwik/react-native-what-is-it-and-why-is-it-used-b132c3581df",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ODQ8zrHc2rsc8PN-APKvz",
+      "type": "subtopic",
+      "label": "React Native Alternatives",
+      "position": {
+        "x": 40.8618127280065,
+        "y": 189.4393516042962
+      },
+      "size": {
+        "width": 303,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "React Native is a popular choice for cross-platform application development, but there are other options available. Some of the common alternatives to React Native are Flutter, Ionic and Xamarin. Flutter being the most popular alternative to React Native.",
+        "links": [
+          {
+            "title": "Flutter",
+            "url": "https://flutter.dev/",
+            "type": "official"
+          },
+          {
+            "title": "Ionic",
+            "url": "https://ionicframework.com/",
+            "type": "official"
+          },
+          {
+            "title": "Xamarin",
+            "url": "https://dotnet.microsoft.com/apps/xamarin",
+            "type": "official"
+          },
+          {
+            "title": "Explore top posts about React",
+            "url": "https://app.daily.dev/tags/react?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cSXsu17F1Oy34Wp6J-N3C",
+      "type": "topic",
+      "label": "Learn the Pre-requisites",
+      "position": {
+        "x": -329.8175069304428,
+        "y": 190.4393516042962
+      },
+      "size": {
+        "width": 232,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Before you start learning React Native, you should have a basic knowledge of JavaScript and React. You don't need to fully master these topics, but you should be familiar with them. Learn the basics of JavaScript (e.g. topics marked for beginners in JavaScript Roadmap and continue with React Native.",
+        "links": [
+          {
+            "title": "Visit Dedicated JavaScript Roadmap",
+            "url": "https://roadmap.sh/javascript",
+            "type": "roadmap"
+          },
+          {
+            "title": "Visit Dedicated React Roadmap",
+            "url": "https://roadmap.sh/react",
+            "type": "roadmap"
+          },
+          {
+            "title": "React Native Basics",
+            "url": "https://reactnative.dev/docs/getting-started",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1oUJXtHGQ29ZZU9sxwGo2",
+      "type": "subtopic",
+      "label": "JavaScript Basics",
+      "position": {
+        "x": -709.6381872719935,
+        "y": 138.4393516042962
+      },
+      "size": {
+        "width": 227,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "JavaScript is a very flexible and versatile programming language, considered as a core technology for web development. This is because it is the only language natively supported by all browsers, allowing developers to add dynamic behavior and create complex user experiences with this language. There's a lot more to learn in JavaScript but my recommendation is to learn the basics and then learn as you go. You'll learn a lot more by building things than by reading about them.",
+        "links": [
+          {
+            "title": "Visit Dedicated JavaScript Roadmap",
+            "url": "https://roadmap.sh/javascript",
+            "type": "roadmap"
+          },
+          {
+            "title": "Explore top posts about JavaScript",
+            "url": "https://app.daily.dev/tags/javascript?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "SnF3xtzBh-x4Z_qUQUg7H",
+      "type": "subtopic",
+      "label": "CSS Basics",
+      "position": {
+        "x": -709.6381872719935,
+        "y": 191.4393516042962
+      },
+      "size": {
+        "width": 227,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "CSS is a stylesheet language used for describing the look and formatting of a document written in HTML or XML. It is primarily used for styling web pages and user interfaces written in HTML and XHTML. React native uses CSS to style its components. You can learn some CSS basics to get started with React Native and learn more as you go.",
+        "links": [
+          {
+            "title": "CSS - W3.org",
+            "url": "https://www.w3.org/Style/CSS/Overview.en.html",
+            "type": "official"
+          },
+          {
+            "title": "CSS - MDN",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/CSS",
+            "type": "official"
+          },
+          {
+            "title": "Explore top posts about CSS",
+            "url": "https://app.daily.dev/tags/css?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "k9_hVOBd9ZmC4HLuAf46v",
+      "type": "subtopic",
+      "label": "Components",
+      "position": {
+        "x": -599.1381872719935,
+        "y": 296.43935160429623
+      },
+      "size": {
+        "width": 227,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "React components are the building blocks of the user interface (UI) in a React application. They are used to break down the UI into reusable, isolated, and manageable pieces. Components handle rendering the UI and managing the logic and behavior.",
+        "links": [
+          {
+            "title": "Components",
+            "url": "https://react.dev/learn/your-first-component",
+            "type": "official"
+          },
+          {
+            "title": "Props",
+            "url": "https://react.dev/learn/passing-props-to-a-component",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "V7r1Hqk9IXTfjkjAg7-BT",
+      "type": "subtopic",
+      "label": "State",
+      "position": {
+        "x": -693.1381872719935,
+        "y": 349.43935160429623
+      },
+      "size": {
+        "width": 80,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "State is an object that holds data managed within a React component. It allows components to become dynamic and interactive by keeping track of its data changes. When the state of a component changes, React re-renders the component and updates the DOM accordingly.",
+        "links": [
+          {
+            "title": "Component State",
+            "url": "https://react.dev/learn/managing-state",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "s5YKenJY2Xv_PZBSxegEm",
+      "type": "subtopic",
+      "label": "JSX",
+      "position": {
+        "x": -693.1381872719935,
+        "y": 296.43935160429623
+      },
+      "size": {
+        "width": 80,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "JSX is a syntax extension for JavaScript that allows you to write HTML-like code within your JavaScript code. It was developed to be used with React and has become an integral part of working with React.",
+        "links": [
+          {
+            "title": "Components",
+            "url": "https://react.dev/learn/your-first-component",
+            "type": "official"
+          },
+          {
+            "title": "Writing Markup with JSX",
+            "url": "https://react.dev/learn/writing-markup-with-jsx",
+            "type": "official"
+          },
+          {
+            "title": "JavaScript in JSX with Curly Braces",
+            "url": "https://react.dev/learn/javascript-in-jsx-with-curly-braces",
+            "type": "official"
+          },
+          {
+            "title": "Explore top posts about JSX",
+            "url": "https://app.daily.dev/tags/jsx?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "0gH7vI_Hy7s9hO2TF6hR3",
+      "type": "subtopic",
+      "label": "Props",
+      "position": {
+        "x": -599.1381872719935,
+        "y": 349.43935160429623
+      },
+      "size": {
+        "width": 80,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "In React, **props** are short for _properties_ and are used to pass data from a parent component to a child component. They are similar to function arguments, and they help make components reusable and maintainable.",
+        "links": [
+          {
+            "title": "Components",
+            "url": "https://react.dev/learn/your-first-component",
+            "type": "official"
+          },
+          {
+            "title": "Props",
+            "url": "https://react.dev/learn/passing-props-to-a-component",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "XDWpxBbW4vfJBO0jLtOZ5",
+      "type": "label",
+      "label": "React Basics",
+      "position": {
+        "x": -656.1381872719935,
+        "y": 252.90074822234874
+      },
+      "size": {
+        "width": 118,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "lNmddXrT8IHVtWobh3-oq",
+      "type": "topic",
+      "label": "Environment Setup",
+      "position": {
+        "x": -329.8175069304428,
+        "y": 348.90074822234874
+      },
+      "size": {
+        "width": 191,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "In React Native, setting up the development environment is a crucial step. The environment setup process includes installing and configuring various tools and packages required for developing, building, and launching a React Native application. There are two main approaches when setting up your React Native development environment: Expo CLI -------- Expo CLI is a command-line tool built for creating and managing React Native projects easily. It streamlines your development process by providing an entire development environment, including building and deploying your app to both iOS and Android platforms. React Native CLI ---------------- React Native CLI is the official command-line interface for building native mobile apps using React Native. This method requires you to manually set up the native development environment and tools needed for iOS and Android app development.",
+        "links": [
+          {
+            "title": "React Native CLI",
+            "url": "https://reactnative.dev/docs/environment-setup?guide=native",
+            "type": "official"
+          },
+          {
+            "title": "Expo CLI Quickstart",
+            "url": "https://docs.expo.dev/get-started/create-a-project",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "yW7nDDJbjmm8XKJI0hq3Q",
+      "type": "subtopic",
+      "label": "Expo",
+      "position": {
+        "x": 41.3618127280065,
+        "y": 402.43935160429623
+      },
+      "size": {
+        "width": 303,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center",
+        "colorType": "c"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Expo is an open-source framework and platform built around React Native, designed to streamline the development process for cross-platform mobile applications. It provides a managed workflow that includes a comprehensive set of tools, APIs, and services for building, testing, and deploying apps for iOS, Android, and web—all using JavaScript or TypeScript. Expo simplifies mobile development by handling much of the native configuration behind the scenes. Developers can use the **Expo Go** app to preview and test their projects instantly on real devices, while the **Expo CLI** offers powerful commands for creating, running, and managing apps. The **Expo SDK** provides prebuilt modules for features like camera access, push notifications, geolocation, and more, allowing you to focus on app logic rather than native integrations. For production workflows, **EAS (Expo Application Services)** supports custom builds, over-the-air updates, and app store submissions.",
+        "links": [
+          {
+            "title": "Expo Documentation",
+            "url": "https://docs.expo.dev/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "uLH9eo2G09wGO80XtFI5x",
+      "type": "subtopic",
+      "label": "create-expo-app",
+      "position": {
+        "x": 53.77103558174599,
+        "y": 461.43935160429623
+      },
+      "size": {
+        "width": 188,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`create-expo-app` is a command line tool that generates a React Native project that works out of the box with Expo. It is the easiest way to get started building a new React Native application.",
+        "links": [
+          {
+            "title": "Create Expo App",
+            "url": "https://docs.expo.dev/tutorial/create-your-first-app/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "9eOwhh2k59nvH-ztuDNjg",
+      "type": "subtopic",
+      "label": "Expo Snack",
+      "position": {
+        "x": 53.77103558174599,
+        "y": 514.4393516042962
+      },
+      "size": {
+        "width": 188,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Expo Snack is an online playground and development environment for creating and testing React Native projects. With Snack, you can easily edit and preview your code changes directly in your browser or on a mobile device using the Expo Go app. It offers a fast, easy, and convenient way to develop, test, and share your projects without needing to set up a local development environment.",
+        "links": [
+          {
+            "title": "Expo Snack",
+            "url": "https://snack.expo.dev/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "zzOyoDcAQYkNNv07TIKeZ",
+      "type": "subtopic",
+      "label": "Expo Tradeoffs",
+      "position": {
+        "x": 53.77103558174599,
+        "y": 567.4393516042962
+      },
+      "size": {
+        "width": 188,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Expo is a powerful tool that simplifies the React Native development process, but it has some tradeoffs to consider. One limitation is the availability of native modules; while Expo provides a set of pre-built modules, it may not cover all functionalities needed for specific apps, requiring developers to eject from the managed workflow for custom solutions. Performance can also be an issue, as the additional layer Expo adds may lead to slower apps, especially for larger projects, whereas the bare workflow offers more control and potentially better performance. Additionally, Expo apps tend to have a larger size due to the inclusion of the entire Expo SDK, which can be inefficient compared to non-Expo apps that only include necessary modules. Developers relying on Expo must also wait for their release cycle for updates, which can delay access to new React Native features or bug fixes. Ejecting from Expo can present challenges, as it may require significant code adjustments and dependency migrations. Lastly, Expo's abstraction limits customizability, meaning that for advanced customizations, developers may need to switch to a bare workflow. Overall, while Expo provides great tooling and simplifies development, its limitations should be carefully weighed before choosing it for app development.",
+        "links": [
+          {
+            "title": "Should you use Expo or Bare React Native?",
+            "url": "https://medium.com/@andrew.chester/should-you-use-expo-or-bare-react-native-8dd400f4a468/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "bxWLf0RDAl9Zaczkon9Rl",
+      "type": "subtopic",
+      "label": "React Native CLI",
+      "position": {
+        "x": 41.3618127280065,
+        "y": 295.90074822234874
+      },
+      "size": {
+        "width": 303,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "React Native CLI is the official command-line interface for building native mobile apps using React Native. This method requires you to manually set up the native development environment and tools needed for iOS and Android app development.",
+        "links": [
+          {
+            "title": "React Native CLI",
+            "url": "https://reactnative.dev/docs/environment-setup?guide=native",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "VhSEH_RoWFt1z2lial7xZ",
+      "type": "subtopic",
+      "label": "Metro Bundler",
+      "position": {
+        "x": 41.3618127280065,
+        "y": 348.90074822234874
+      },
+      "size": {
+        "width": 303,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Metro Bundler is the default bundler for React Native applications. It's a JavaScript module bundler that takes all your application code and dependencies, and bundles them together into a single JavaScript file or multiple files (based on platform).",
+        "links": [
+          {
+            "title": "Metro Bundler",
+            "url": "https://facebook.github.io/metro/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "T4AhL9Zls2iNZMituGdtl",
+      "type": "topic",
+      "label": "Development Workflow",
+      "position": {
+        "x": -329.8175069304428,
+        "y": 518.4393516042962
+      },
+      "size": {
+        "width": 220,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "React native has a decent guide on how to get started with development workflow.",
+        "links": [
+          {
+            "title": "Running on Device",
+            "url": "https://reactnative.dev/docs/running-on-device",
+            "type": "official"
+          },
+          {
+            "title": "Continuous Integration and Deployment for React Native Apps",
+            "url": "https://dev.to/medaimane/continuous-integration-and-deployment-for-react-native-apps-streamlining-development-workflow-4i04",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "KyKMZ8Aa5XUAIWelGTiSt",
+      "type": "subtopic",
+      "label": "Running on Device",
+      "position": {
+        "x": -709.6381872719935,
+        "y": 518.4393516042962
+      },
+      "size": {
+        "width": 191,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "It's always a good idea to test your app on an actual device before releasing it to your users.",
+        "links": [
+          {
+            "title": "Running on Device",
+            "url": "https://reactnative.dev/docs/running-on-device",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "fz-xz5Nbk5DHHcTUb9cBS",
+      "type": "label",
+      "label": "Debugging",
+      "position": {
+        "x": -640.1381872719935,
+        "y": 577.9007482223487
+      },
+      "size": {
+        "width": 100,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "tOt_vvmnBtOUbgokmVa5P",
+      "type": "subtopic",
+      "label": "In-App Developer Menu",
+      "position": {
+        "x": -697.6381872719935,
+        "y": 622.4393516042962
+      },
+      "size": {
+        "width": 233,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "React Native provides an in-app developer menu which offers several debugging options. You can access the Dev Menu by shaking your device or via keyboard shortcuts: *   Android: `Cmd + M` or `Ctrl + M` *   iOS: `Cmd + D` or `Ctrl + D`",
+        "links": [
+          {
+            "title": "Debugging",
+            "url": "https://reactnative.dev/docs/debugging",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "wWwaEdnvBsvj6jD9LJ4Jj",
+      "type": "subtopic",
+      "label": "Enabling Fast Refresh",
+      "position": {
+        "x": -697.6381872719935,
+        "y": 675.4393516042962
+      },
+      "size": {
+        "width": 233,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Fast Refresh is a React Native feature that allows you to get near-instant feedback while making changes in your code. It achieves this by reloading only the portion of the app that was changed, without losing the current state. This makes the development process a lot smoother as you don't have to wait for the entire app to rebuild after making a change.",
+        "links": [
+          {
+            "title": "Fast Refresh",
+            "url": "https://reactnative.dev/docs/fast-refresh",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Tz-bRjQVkZedphelhAlWM",
+      "type": "subtopic",
+      "label": "LogBox",
+      "position": {
+        "x": -697.6381872719935,
+        "y": 728.4393516042962
+      },
+      "size": {
+        "width": 233,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "LogBox is a new feature added to React Native to improve how logs are displayed and managed in your development environment. It provides better visualization and organization of logs, warnings, and errors, making it easier for developers to address issues in their code.",
+        "links": [
+          {
+            "title": "Debugging LogBox",
+            "url": "https://reactnative.dev/docs/debugging#logbox",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Dq490IqEJXoFZRnBFJI8N",
+      "type": "subtopic",
+      "label": "Sourcemaps",
+      "position": {
+        "x": -585.6381872719935,
+        "y": 728.4393516042962
+      },
+      "size": {
+        "width": 233,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Sourcemaps are files that map the original source code of a project to its minified or transpiled version. This is especially useful in environments, like React Native, where the code may be transformed before being executed in the device/emulator. Sourcemaps help developers to debug their code more easily by mapping errors in the transformed code back to their original location in the source code. There are various types of sourcemaps which give different levels of detail to the debugging process: *   `eval`: Uses `eval` function to generate the sourcemaps. This is faster but provides less detailed information than other options. *   `cheap-source-map`: Simple line-to-line mapping without column information. Faster than `source-map` but less accurate. *   `cheap-module-source-map`: Similar to `cheap-source-map` but with support for modules. *   `source-map`: Full source mapping with both line and column information. It is accurate, though slower compared to other options. After generating sourcemaps, you can use them to debug errors more efficiently, as they will reference the original locations in the source code. The browser's developer tools, like Google Chrome, have built-in support for sourcemaps, providing the ability to navigate and debug errors with ease.",
+        "links": [
+          {
+            "title": "SourceMaps",
+            "url": "https://reactnative.dev/docs/debugging-release-builds#enabling-source-maps",
+            "type": "official"
+          },
+          {
+            "title": "Source Maps (MDN)",
+            "url": "https://developer.mozilla.org/en-US/docs/Tools/Debugger/How_to/Use_a_source_map",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "HHx3VSfV7xf6RqACrxjBf",
+      "type": "subtopic",
+      "label": "DevTools",
+      "position": {
+        "x": -697.6381872719935,
+        "y": 781.4393516042962
+      },
+      "size": {
+        "width": 233,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "React Native DevTools are essential tools that help developers debug and optimize their applications during the development process.",
+        "links": [
+          {
+            "title": "Devtools",
+            "url": "https://reactnative.dev/docs/react-devtools",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "fnujIq6QAFB6bmTisuZ3T",
+      "type": "topic",
+      "label": "Core Components",
+      "position": {
+        "x": -329.8175069304428,
+        "y": 896.4393516042962
+      },
+      "size": {
+        "width": 185,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Core components are the essential building blocks provided by React Native to create a user interface for mobile applications. They are platform-agnostic, meaning they work across both iOS and Android devices. Some of the common core components include: *   `View` is a fundamental component for constructing the user interface. It is equivalent to a `div` in HTML and can be used as a container for other components. *   `Text` is used to display text content in your app. It is similar to the `p` or `span` elements in HTML. *   `TextInput` is a basic input field that allows users to type text into your app. It is similar to the `input` element in HTML. *   `TouchableOpacity` is a wrapper for making elements like `View` and `Text` respond properly to touch events. It provides feedback by reducing the opacity of the wrapped component when pressed. *   `ScrollView` is a scrollable container that allows users to scroll through its content. It is useful when you have content that exceeds the available screen size. *   `FlatList` is used to render a list of items using a performant approach. It only renders items that are currently visible on the screen and removes others to save memory.",
+        "links": [
+          {
+            "title": "Core Components and APIs",
+            "url": "https://reactnative.dev/docs/components-and-apis",
+            "type": "official"
+          },
+          {
+            "title": "Core Components and Native Components",
+            "url": "https://reactnative.dev/docs/intro-react-native-components",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "OFhyYyxtrCBy_UUb5YBv5",
+      "type": "subtopic",
+      "label": "Text",
+      "position": {
+        "x": 39.8618127280065,
+        "y": 790.9007482223487
+      },
+      "size": {
+        "width": 186,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "The `Text` component is a basic element in React Native used to display text content on the screen. While it has some basic styling properties, you usually nest it inside other components (e.g., `View`) to create more complex UIs.",
+        "links": [
+          {
+            "title": "Text",
+            "url": "https://reactnative.dev/docs/text",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Frz1RYp3y9OwRb-3t2e85",
+      "type": "subtopic",
+      "label": "Text Input",
+      "position": {
+        "x": 185.8618127280065,
+        "y": 790.4393516042962
+      },
+      "size": {
+        "width": 186,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`TextInput` is a core component in React Native that allows the user to enter text. It is commonly used to collect user data, like emails or passwords. You can customize the appearance of `TextInput` by using various props such as `placeholder`, `multiline`, `maxLength`, and more.",
+        "links": [
+          {
+            "title": "Text Input",
+            "url": "https://reactnative.dev/docs/textinput",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "kkH9H9Qh1FD7sLItoWw69",
+      "type": "subtopic",
+      "label": "Button",
+      "position": {
+        "x": 39.8618127280065,
+        "y": 843.9007482223487
+      },
+      "size": {
+        "width": 186,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "A `Button` is a built-in React Native component used to create clickable buttons. It is a simple, customizable and easy-to-use component that captures touches and triggers an `onPress` event when pressed.",
+        "links": [
+          {
+            "title": "Button",
+            "url": "https://reactnative.dev/docs/button",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E7N8tSg2amZW-vc-X46JU",
+      "type": "subtopic",
+      "label": "Image",
+      "position": {
+        "x": 185.8618127280065,
+        "y": 843.4393516042962
+      },
+      "size": {
+        "width": 186,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "The `Image` component is used to display images in a React Native application. It allows you to load and display local as well as remote images, providing essential props and methods for better image handling and customization.",
+        "links": [
+          {
+            "title": "Image",
+            "url": "https://reactnative.dev/docs/image",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "GFGhnx5xUer2DdRI-SO4D",
+      "type": "subtopic",
+      "label": "ImageBackground",
+      "position": {
+        "x": 39.8618127280065,
+        "y": 896.9007482223487
+      },
+      "size": {
+        "width": 186,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`ImageBackground` is a React Native core component that allows you to display an image as a background while still being able to place content inside the component. This helps in creating beautiful layouts with images and text or other content on top.",
+        "links": [
+          {
+            "title": "Image Background",
+            "url": "https://reactnative.dev/docs/imagebackground",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ouNTekf4VpZv-Vja8_bfM",
+      "type": "subtopic",
+      "label": "Switch",
+      "position": {
+        "x": 230.8618127280065,
+        "y": 896.4393516042962
+      },
+      "size": {
+        "width": 186,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "A `Switch` is a core component in React Native used to implement a \"toggle\" or \"on-off\" input. It provides a UI for the user to switch between two different states, typically true or false. The primary use case is to enable or disable a feature or setting within an application. `Switch` component has a boolean `value` prop (true for on, false for off) and an `onValueChange` event handler, which is triggered whenever the user toggles the switch.",
+        "links": [
+          {
+            "title": "Switch",
+            "url": "https://reactnative.dev/docs/switch",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "QOOZs9qtz49agfZwi6k1B",
+      "type": "subtopic",
+      "label": "StatusBar",
+      "position": {
+        "x": 230.8618127280065,
+        "y": 949.9007482223487
+      },
+      "size": {
+        "width": 186,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "The `StatusBar` component is used to control the appearance of the status bar on the top of the screen. It may strike as a bit unusual since, unlike other React Native components, it doesn't render any visible content. Instead, it sets some native properties that can help customize the look of status bars on Android, iOS, or other platforms.",
+        "links": [
+          {
+            "title": "StatusBar",
+            "url": "https://reactnative.dev/docs/statusbar",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hHFR59RrdMIWxcQe72qCs",
+      "type": "subtopic",
+      "label": "ActivityIndicator",
+      "position": {
+        "x": 39.8618127280065,
+        "y": 949.9007482223487
+      },
+      "size": {
+        "width": 186,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "The `ActivityIndicator` is a core component in React Native that provides a simple visual indication of some ongoing activity or loading state within your application. It shows a spinning animation, which gives the user feedback that something is happening in the background. This component is particularly useful when fetching data from an external source, like a server, or while performing time-consuming operations.",
+        "links": [
+          {
+            "title": "Activity Indicator",
+            "url": "https://reactnative.dev/docs/activityindicator",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "V34mZCkpoT49o-74XoATS",
+      "type": "subtopic",
+      "label": "Modal",
+      "position": {
+        "x": 39.8618127280065,
+        "y": 1002.9007482223487
+      },
+      "size": {
+        "width": 186,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "A `Modal` is a component that displays content on top of the current view, creating an overlay that can be used for various purposes, such as displaying additional information, confirmation messages, or a selection menu.",
+        "links": [
+          {
+            "title": "Modal",
+            "url": "https://reactnative.dev/docs/modal",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4BgVq-cZYEXgqktvlNnet",
+      "type": "subtopic",
+      "label": "Pressable",
+      "position": {
+        "x": 195.8618127280065,
+        "y": 1002.9007482223487
+      },
+      "size": {
+        "width": 186,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Pressable is a core component in React Native that makes any view respond properly to touch or press events. It provides a wide range of event handlers for managing user interactions, such as onPress, onPressIn, onPressOut, and onLongPress. With Pressable, you can create custom buttons, cards, or any touchable elements within your app.",
+        "links": [
+          {
+            "title": "Pressable",
+            "url": "https://reactnative.dev/docs/pressable",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "GrFL32pZ_eOmdJRzSlH8b",
+      "type": "subtopic",
+      "label": "View",
+      "position": {
+        "x": -166.22896441825404,
+        "y": 712.9007482223487
+      },
+      "size": {
+        "width": 230,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center",
+        "colorType": "c"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "UqCpoPzYio3ng3RFlbvZ7",
+      "type": "subtopic",
+      "label": "SafeAreaView",
+      "position": {
+        "x": 42.8618127280065,
+        "y": 659.9007482223487
+      },
+      "size": {
+        "width": 230,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`SafeAreaView` is a React Native core component that helps to adjust your app's UI elements and layout to accommodate the notches, curved edges, or home indicator on iOS devices. It is particularly useful for the iPhone X and newer iPhone models, as it ensures that content is rendered within the visible portion of the screen. Keep in mind that `SafeAreaView` only works on iOS devices, and has no effect on Android devices. To handle such cases, you can use platform-specific styles or libraries like `react-native-safe-area-context` which provide more control and customization options for additional platforms.",
+        "links": [
+          {
+            "title": "SafeAreaView",
+            "url": "https://reactnative.dev/docs/safeareaview",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "8bn1PFd9h0ek6_T-cl1cS",
+      "type": "subtopic",
+      "label": "KeyboardAvoidingView",
+      "position": {
+        "x": 42.3618127280065,
+        "y": 712.9007482223487
+      },
+      "size": {
+        "width": 230,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`KeyboardAvoidingView` is a built-in React Native component that automatically adjusts its children components' position when the keyboard opens, preventing them from being obscured by the on-screen keyboard. It's a useful component, particularly for forms and input fields where the user needs to see the text they're typing.",
+        "links": [
+          {
+            "title": "KeyboardAvoidingView",
+            "url": "https://reactnative.dev/docs/keyboardavoidingview",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "x-OZCZcX6uhN3Yr5BAATn",
+      "type": "subtopic",
+      "label": "Listings",
+      "position": {
+        "x": -560.6381872719935,
+        "y": 896.4393516042962
+      },
+      "size": {
+        "width": 230,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center",
+        "colorType": "h"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "yN283SRWoALOEZh9iTn-L",
+      "type": "subtopic",
+      "label": "ScrollView",
+      "position": {
+        "x": -709.6381872719935,
+        "y": 999.4393516042962
+      },
+      "size": {
+        "width": 181,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center",
+        "colorType": "c"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "In React Native, the `ScrollView` is a generic scrolling container used to provide a scrollable view to its child components. It is useful when you need to display scrollable content larger than the screen, such as lists, images, or text. A `ScrollView` must have a bounded height in order to properly work.",
+        "links": [
+          {
+            "title": "ScrollView",
+            "url": "https://reactnative.dev/docs/ScrollView",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "h3ypxGxeHDCTxURHg6D2d",
+      "type": "subtopic",
+      "label": "ListViews",
+      "position": {
+        "x": -709.6381872719935,
+        "y": 1052.4393516042962
+      },
+      "size": {
+        "width": 181,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center",
+        "colorType": "h"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "CYqLNGyOe9f9hVhbyUnTX",
+      "type": "subtopic",
+      "label": "FlatList",
+      "position": {
+        "x": -699,
+        "y": 1111.4393516042962
+      },
+      "size": {
+        "width": 181,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center",
+        "colorType": "c"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`FlatList` is a `React Native` core component that displays a scrolling list of changing, but similarly structured, data. It is an efficient list component that makes use of a limited scrolling `renderWindow`, reducing the memory footprint and creating smooth scrolling. Additionally, `FlatList` supports-Headers, Footers, Pull-to-refresh, and Horizontal scrolling, among other things.",
+        "links": [
+          {
+            "title": "FlatList",
+            "url": "https://reactnative.dev/docs/flatlist",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "gLJMD9X7chy8OxdALht8g",
+      "type": "subtopic",
+      "label": "SectionList",
+      "position": {
+        "x": -589.1381872719935,
+        "y": 1111.4393516042962
+      },
+      "size": {
+        "width": 181,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center",
+        "colorType": "c"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`SectionList` is a component used to render sections and headers in a scroll view. It helps to manage and optimize a large list of items divided into categories. It is one of the List View components provided by React Native along with FlatList.",
+        "links": [
+          {
+            "title": "SectionList",
+            "url": "https://reactnative.dev/docs/sectionlist",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "m8Nu71Y61Ha_fLxdtWTkn",
+      "type": "subtopic",
+      "label": "RefreshControl",
+      "position": {
+        "x": -709.6381872719935,
+        "y": 1178.9007482223487
+      },
+      "size": {
+        "width": 181,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center",
+        "colorType": "c"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`RefreshControl` is a component in React Native that is used to provide pull-to-refresh functionality for scrollable components like `ScrollView`, `ListView`, and `FlatList`.",
+        "links": [
+          {
+            "title": "Refresh Control",
+            "url": "https://reactnative.dev/docs/refreshcontrol",
+            "type": "official"
+          },
+          {
+            "title": "ScrollView",
+            "url": "https://reactnative.dev/docs/ScrollView",
+            "type": "official"
+          },
+          {
+            "title": "FlatList",
+            "url": "https://reactnative.dev/docs/FlatList",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "HiUbRfOv8OttFd85pDUHN",
+      "type": "topic",
+      "label": "Writing Platform Specific Code",
+      "position": {
+        "x": -402.3175069304428,
+        "y": 1114.4393516042962
+      },
+      "size": {
+        "width": 279,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "In React Native, managing platform-specific code for iOS and Android is essential for addressing differences in application behavior and appearance. This can be achieved in two primary ways: using the `Platform` module, which allows developers to detect the current platform and apply conditional styles or logic accordingly, as demonstrated by using `Platform.select` to set different background colors for iOS and Android; and utilizing file extensions like `.ios.js` and `.android.js`, which enables React Native to automatically load the appropriate file based on the platform. For instance, if you have `Header.ios.js` and `Header.android.js`, importing the `Header` component will automatically reference the correct file for the running platform, streamlining the development process.",
+        "links": [
+          {
+            "title": "Platform-Specific Code",
+            "url": "https://reactnative.dev/docs/platform-specific-code",
+            "type": "official"
+          },
+          {
+            "title": "App Extensions",
+            "url": "https://reactnative.dev/docs/app-extensions",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "KZIrRSYq_I-YzpFaYLuWi",
+      "type": "subtopic",
+      "label": "Platform Module",
+      "position": {
+        "x": -402.3175069304428,
+        "y": 1203.9007482223487
+      },
+      "size": {
+        "width": 284,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "The Platform module, as the name suggests, is a part of React Native that detects the platform on which the app is running. This enables you to have specific code for either Android or iOS, allowing you to account for platform-specific differences in design or behavior. To utilize the Platform module, you need to import it and then access the `OS` property. This property returns a string, which denotes the platform — either `'ios'` or `'android'`. With the Platform module, you can easily create platform-specific code, enabling you to have the best user experience for each platform. Just remember to import the module and use the provided properties and methods.",
+        "links": [
+          {
+            "title": "Platform",
+            "url": "https://reactnative.dev/docs/platform",
+            "type": "official"
+          },
+          {
+            "title": "Platform-Specific Code",
+            "url": "https://reactnative.dev/docs/platform-specific-code",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "LLANnVosxOUCPTtuBfNgu",
+      "type": "subtopic",
+      "label": "File Extensions",
+      "position": {
+        "x": -402.3175069304428,
+        "y": 1256.9007482223487
+      },
+      "size": {
+        "width": 284,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "In React Native, you can write platform-specific code by using specific file extensions, such as appending `.android.` or `.ios.` to your file names, allowing React Native to automatically load the appropriate file based on the platform. This approach is useful in two main scenarios: creating separate files for platform-specific components, like `Header.ios.js` and `Header.android.js`, which can have different implementations and styles for iOS and Android, and using the `Platform` module within a single file to conditionally render platform-specific code. By leveraging these techniques, developers can create tailored components and features for each platform while keeping their codebase organized and maintainable.",
+        "links": [
+          {
+            "title": "Platform-Specific Code",
+            "url": "https://reactnative.dev/docs/platform-specific-code",
+            "type": "official"
+          },
+          {
+            "title": "App Extensions",
+            "url": "https://reactnative.dev/docs/app-extensions",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "UQpyXrC2cs_jDXxVTlQOu",
+      "type": "subtopic",
+      "label": "react-native-web",
+      "position": {
+        "x": -402.3175069304428,
+        "y": 1309.9007482223487
+      },
+      "size": {
+        "width": 284,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "React Native Web is an extension of React Native which allows you to run your React Native apps not only on iOS and Android devices, but also on the web. It uses the same components and APIs you're familiar with in React Native, but renders them into the DOM of a webpage instead of native UI elements. The main goal of React Native Web is to provide a consistent developer experience across platforms, reducing the effort needed to build and maintain multi-platform apps.",
+        "links": [
+          {
+            "title": "react-native-web - npm",
+            "url": "https://www.npmjs.com/package/react-native-web",
+            "type": "article"
+          },
+          {
+            "title": "Complete Guide to React Native for Web",
+            "url": "https://blog.logrocket.com/complete-guide-react-native-web/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ervpuL89myBW3oR9r-4lH",
+      "type": "topic",
+      "label": "Styling",
+      "position": {
+        "x": -42.1381872719935,
+        "y": 1114.4393516042962
+      },
+      "size": {
+        "width": 184,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Styling in React Native is accomplished through JavaScript and uses a subset of CSS properties. Unlike CSS in web development, React Native has its own set of components and styling rules. The main components used for styling are `StyleSheet`, `View`, and `Text`. `StyleSheet` is a module provided by React Native to manage and optimize styles. It is similar to a CSS stylesheet and helps in creating and working with multiple styles efficiently.",
+        "links": [
+          {
+            "title": "Styling",
+            "url": "https://reactnative.dev/docs/style",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "wB0D9koC6jpt1rzX8F07F",
+      "type": "subtopic",
+      "label": "Stylesheets",
+      "position": {
+        "x": -42.1381872719935,
+        "y": 1207.4393516042962
+      },
+      "size": {
+        "width": 184,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "In React Native, stylesheets are objects that define the appearance of components. They provide a way to separate styling from the component's logic. Stylesheets are created using `StyleSheet.create` method, which ensures a standardized and efficient way to manage styles for your components.",
+        "links": [
+          {
+            "title": "Stylesheets",
+            "url": "https://reactnative.dev/docs/stylesheet",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "e-r3tuRZ3PzhFegES0oOm",
+      "type": "subtopic",
+      "label": "Layouts & Flexbox",
+      "position": {
+        "x": -42.1381872719935,
+        "y": 1260.4393516042962
+      },
+      "size": {
+        "width": 184,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "In React Native, layouts are primarily managed using the Flexbox styling system. Flexbox is a powerful and flexible layout system that allows you to create responsive and complex UIs using a set of simple rules. You can use these styles in various combinations to create flexible layouts in React Native. Flexbox makes it easy to create responsive UIs that adapt to changes in screen size or orientation. Note that some of these styles might not work as expected in React Native compared to in CSS for the web, but the overall concepts remain the same.",
+        "links": [
+          {
+            "title": "Flexbox",
+            "url": "https://reactnative.dev/docs/flexbox",
+            "type": "official"
+          },
+          {
+            "title": "Layout Props",
+            "url": "https://reactnative.dev/docs/layout-props",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "KoXTwQUqPt_ZhOFuaelny",
+      "type": "subtopic",
+      "label": "Accessibility",
+      "position": {
+        "x": -42.1381872719935,
+        "y": 1313.4393516042962
+      },
+      "size": {
+        "width": 184,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Accessibility (often abbreviated as a11y) in React Native is a crucial aspect of application development that ensures your applications are usable by everyone, including individuals with disabilities. This commitment to inclusivity is not just a legal requirement in many jurisdictions but also a moral imperative that enhances the user experience for all. React Native provides a comprehensive set of accessibility features, attributes, and APIs that allow developers to create applications that cater to diverse user needs. By implementing these features, developers can ensure that their applications are navigable and usable by individuals with visual, auditory, motor, or cognitive impairments.",
+        "links": [
+          {
+            "title": "Accessibility",
+            "url": "https://reactnative.dev/docs/accessibility",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "7GBV5sfOaGxHwpkNUvFWE",
+      "type": "topic",
+      "label": "Networking",
+      "position": {
+        "x": 204.8618127280065,
+        "y": 1414.4393516042962
+      },
+      "size": {
+        "width": 184,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "React Native facilitates network requests and data management from remote sources through various techniques. The primary method is the `fetch` function, a promise-based API that allows developers to make HTTP requests and retrieve resources, typically in JSON format, from a specified URL. For example, a simple fetch request can be made as follows: fetch('https://jsonplaceholder.typicode.com/todos/1') .then((response) => response.json()) .then((json) => console.log(json)) .catch((error) => console.error(error)); Another popular option is Axios, a widely-used library that simplifies HTTP requests in JavaScript applications. Like fetch, Axios is promise-based and offers a user-friendly API, making it a preferred choice for many developers when handling network requests in React Native.",
+        "links": [
+          {
+            "title": "Networking",
+            "url": "https://reactnative.dev/docs/network",
+            "type": "official"
+          },
+          {
+            "title": "Fetch API",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API",
+            "type": "official"
+          },
+          {
+            "title": "Axios",
+            "url": "https://axios-http.com/docs/intro",
+            "type": "official"
+          },
+          {
+            "title": "Managing network connection status in React Native",
+            "url": "https://blog.logrocket.com/managing-network-connection-status-in-react-native/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "k7uVPyhbPgvO6HxAfxxYZ",
+      "type": "subtopic",
+      "label": "Connectivity Status",
+      "position": {
+        "x": 143.8618127280065,
+        "y": 1522.4007482223487
+      },
+      "size": {
+        "width": 201,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Connectivity refers to the mechanisms that allow data transfer between your React Native app and external resources through various means of communication. It is essential to ensure efficient communication with APIs, servers, and external systems, to update your app's data, fetching content or enabling real-time interactions.",
+        "links": [
+          {
+            "title": "Managing network connection status in React Native",
+            "url": "https://blog.logrocket.com/managing-network-connection-status-in-react-native/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "aSCgax1M4wlmzkJSZV_fv",
+      "type": "subtopic",
+      "label": "WebSockets",
+      "position": {
+        "x": 143.8618127280065,
+        "y": 1575.4007482223487
+      },
+      "size": {
+        "width": 201,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "WebSockets are a protocol that allows full-duplex communication between a client and a server over a single, long-lived connection. They are useful when real-time communication is needed, such as in chat applications, online gaming, or financial trading platforms.",
+        "links": [
+          {
+            "title": "The WebSocket API (WebSockets) - Web APIs",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "f7KFPFS2-EA90pumYHM9T",
+      "type": "subtopic",
+      "label": "Fetch",
+      "position": {
+        "x": 143.8618127280065,
+        "y": 1628.4007482223487
+      },
+      "size": {
+        "width": 201,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "_Fetch_ is a JavaScript function available in React Native that is used to make network requests, similar to XMLHttpRequest in web applications. It allows you to handle requests and retrieve data from APIs or other sources. The Fetch API is built on Promises, making it simple to handle success and error cases.",
+        "links": [
+          {
+            "title": "Managing network connection status in React Native",
+            "url": "https://blog.logrocket.com/managing-network-connection-status-in-react-native/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "CAQJaGs24wx1SqKOU44aB",
+      "type": "topic",
+      "label": "Push Notifications",
+      "position": {
+        "x": -142.228964418254,
+        "y": 1414.4393516042962
+      },
+      "size": {
+        "width": 184,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Push notifications in React Native allow you to send timely and relevant information to users even when they aren't actively using your app. The original native push notification functionality in React Native has been deprecated. Now, you'll typically rely on third-party services like Firebase Cloud Messaging (FCM), Expo Notifications, or OneSignal to handle the complexities of delivering notifications across different platforms (iOS and Android). These services provide robust APIs and infrastructure for managing device tokens, sending notifications, and tracking delivery success.",
+        "links": [
+          {
+            "title": "PushNotificationIOS",
+            "url": "https://reactnative.dev/docs/pushnotificationios",
+            "type": "official"
+          },
+          {
+            "title": "Expo Notifications",
+            "url": "https://docs.expo.dev/versions/latest/sdk/notifications/",
+            "type": "official"
+          },
+          {
+            "title": "Expo push notifications setup",
+            "url": "https://docs.expo.dev/push-notifications/push-notifications-setup/",
+            "type": "article"
+          },
+          {
+            "title": "Expo Notifications with EAS | Complete Guide",
+            "url": "https://www.youtube.com/watch?v=BCCjGtKtBjE",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "GYdz9a1yLiewAeMRSyfLr",
+      "type": "topic",
+      "label": "Interactions",
+      "position": {
+        "x": -380.62298223659093,
+        "y": 1414.4393516042962
+      },
+      "size": {
+        "width": 184,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Interaction in React Native means dealing with how the user can interact with your application. This typically involves handling touch events, gestures, and animations to provide a more engaging and dynamic user experience. There are several built-in components and libraries available in React Native to help you build interactive elements in your app.",
+        "links": [
+          {
+            "title": "Animations",
+            "url": "https://reactnative.dev/docs/animations",
+            "type": "official"
+          },
+          {
+            "title": "LayoutAnimations",
+            "url": "https://reactnative.dev/docs/layoutanimation",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "A7ZIe8nlQnHU5g3LM3Eif",
+      "type": "subtopic",
+      "label": "Touchables",
+      "position": {
+        "x": -709.4579568300146,
+        "y": 1308.4007482223487
+      },
+      "size": {
+        "width": 194,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "In React Native, `Touchable` components are used to handle user interactions like taps, long presses, and double-taps on the appropriate elements. Each of these components is from the `react-native` package, except `TouchableScale` which is from `react-native-touchable-scale`. They can be used interchangeably depending on the type of interaction you want to provide. The main `props` used with these components are `onPress`, `onLongPress`, and some component-specific ones like `underlayColor` for `TouchableHighlight`.",
+        "links": [
+          {
+            "title": "Handling Touches",
+            "url": "https://reactnative.dev/docs/handling-touches",
+            "type": "official"
+          },
+          {
+            "title": "TouchableOpacity",
+            "url": "https://reactnative.dev/docs/touchableopacity",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "xf7L5J42yQq3LE7lG2plp",
+      "type": "subtopic",
+      "label": "Gesture Handling",
+      "position": {
+        "x": -709.4579568300146,
+        "y": 1361.4007482223487
+      },
+      "size": {
+        "width": 194,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Gesture handling is an essential and powerful feature in React Native that helps create interactive and responsive user interfaces. React Native provides several built-in components and libraries to recognize and respond to different types of user gestures. Some of the common gestures include tapping, swiping, dragging, and pinching.",
+        "links": [
+          {
+            "title": "Animations",
+            "url": "https://reactnative.dev/docs/animations",
+            "type": "official"
+          },
+          {
+            "title": "LayoutAnimations",
+            "url": "https://reactnative.dev/docs/layoutanimation",
+            "type": "official"
+          },
+          {
+            "title": "Animated",
+            "url": "https://reactnative.dev/docs/animated",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "nk6zdVNRz_xE71mVUOFsi",
+      "type": "subtopic",
+      "label": "Scrolling & Swiping",
+      "position": {
+        "x": -709.4579568300146,
+        "y": 1414.4007482223487
+      },
+      "size": {
+        "width": 194,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "In React Native, scrolling and swiping interactions can be defined and customized with a set of built-in components. These components are efficient and provide fluid navigation through the elements inside them.",
+        "links": [
+          {
+            "title": "Handling Touches",
+            "url": "https://reactnative.dev/docs/handling-touches",
+            "type": "official"
+          },
+          {
+            "title": "Using a ScrollView",
+            "url": "https://reactnative.dev/docs/using-a-scrollview",
+            "type": "official"
+          },
+          {
+            "title": "React Native Gesture Handler: Swipe, long-press, and more",
+            "url": "https://blog.logrocket.com/react-native-gesture-handler-tutorial-examples/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Jr2iuQqyCbx6CyTJj4Qz2",
+      "type": "subtopic",
+      "label": "Screen Navigation",
+      "position": {
+        "x": -709.4579568300146,
+        "y": 1467.4007482223487
+      },
+      "size": {
+        "width": 194,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "In React Native, navigating from one screen to another is a crucial aspect of app development. The most commonly used navigation libraries are React Navigation and React Native Navigation.",
+        "links": [
+          {
+            "title": "React Navigation",
+            "url": "https://reactnavigation.org/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3NLcPO-hqQV1EacoPLVrv",
+      "type": "subtopic",
+      "label": "Animations",
+      "position": {
+        "x": -709.4579568300146,
+        "y": 1520.4007482223487
+      },
+      "size": {
+        "width": 194,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "React Native supports two types of animations: `Animated` and `LayoutAnimation`. The `Animated` API provides a basic set of methods for creating and managing animations, while the `LayoutAnimation` API provides a way to animate changes from one layout to another. `Animated` is a declarative API that focuses on handling animation-related calculations. It allows you to create and combine animations with fine-grained control over the specific properties that are being animated. You can use this API to create a variety of effects, such as fading, scaling, and translating components on the screen. `LayoutAnimation` is a higher-level abstraction for animating changes to the layout. Instead of animating individual properties, you define how the changes should occur and React Native takes care of updating the layout accordingly. This is particularly useful for animating multiple components or modifying the layout in response to user interaction, such as adding/removing/reordering items in a list.",
+        "links": [
+          {
+            "title": "Animations",
+            "url": "https://reactnative.dev/docs/animations",
+            "type": "official"
+          },
+          {
+            "title": "LayoutAnimations",
+            "url": "https://reactnative.dev/docs/layoutanimation",
+            "type": "official"
+          },
+          {
+            "title": "Animated",
+            "url": "https://reactnative.dev/docs/animated",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dckRzKDKj-mLB3-OxwjPh",
+      "type": "topic",
+      "label": "DeepLinking",
+      "position": {
+        "x": -380.62298223659093,
+        "y": 1522.4007482223487
+      },
+      "size": {
+        "width": 184,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Deep linking in React Native allows your app to open and navigate to a specific screen or content when a user clicks on a URL or a custom URI scheme. It essentially creates a direct pathway into a particular section of your application, bypassing the typical app launch sequence and providing a more seamless user experience. This is useful for scenarios like opening a product page from a marketing email or directing users to a specific profile from a shared link.",
+        "links": [
+          {
+            "title": "Understanding deep linking in React Native",
+            "url": "https://blog.logrocket.com/understanding-deep-linking-in-react-native/",
+            "type": "article"
+          },
+          {
+            "title": "Deep Linking in React Native: Navigating to Specific App Screens",
+            "url": "https://clouddevs.com/react-native/deep-linking/",
+            "type": "article"
+          },
+          {
+            "title": "A Complete Guide to Deep Linking with Custom domain in React Native",
+            "url": "https://dev.to/amitkumar13/a-complete-guide-to-deep-linking-with-custom-domain-in-react-native-bj3",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "CGtVwhVGc8Vea5RfzJvQG",
+      "type": "topic",
+      "label": "Security",
+      "position": {
+        "x": -380.62298223659093,
+        "y": 1653.4007482223487
+      },
+      "size": {
+        "width": 184,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Security is a vital consideration in React Native application development, as it helps protect user data and sensitive information. Key best practices include using secure storage solutions for sensitive data, such as authentication tokens and user credentials, with libraries like `react-native-keychain` and `react-native-encrypted-storage`. For secure communication, always use HTTPS for API interactions to ensure that data exchanged between the client and server is encrypted. Additionally, minimize permissions by requesting only those necessary for the app's functionality, ideally at runtime, using libraries like `react-native-permissions`. Validating and sanitizing user input is crucial to prevent threats like SQL injection and cross-site scripting (XSS), which can be achieved with validation libraries such as `Yup`. Lastly, keeping dependencies up to date is essential to avoid known security vulnerabilities; tools like `npm audit` and Dependabot can assist in this process. By adhering to these best practices, developers can enhance the security of their React Native applications, safeguarding both application data and user information.",
+        "links": [
+          {
+            "title": "Security",
+            "url": "https://reactnative.dev/docs/security",
+            "type": "official"
+          },
+          {
+            "title": "Secure Authentication and Authorization in React Native",
+            "url": "https://medium.com/@christopherobocha/secure-authentication-and-authorisation-in-react-native-a260f1787a89",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "LRBHwYiT0Yyi18PwR49rc",
+      "type": "subtopic",
+      "label": "Authentication",
+      "position": {
+        "x": -137.6229822365909,
+        "y": 1545.4007482223487
+      },
+      "size": {
+        "width": 170,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Authentication is a crucial aspect of securing your React Native application. It enables you to verify the identity of users and give access to protected resources and features. Here are the common methods used for authentication in React Native: *   JWT Authentication *   OAuth *   Simple Token Authentication",
+        "links": [
+          {
+            "title": "Authentication and Deep Linking",
+            "url": "https://reactnative.dev/docs/security#authentication-and-deep-linking",
+            "type": "official"
+          },
+          {
+            "title": "Explore top posts about Authentication",
+            "url": "https://app.daily.dev/tags/authentication?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ee4QqFTosXNcTgoQIok8i",
+      "type": "subtopic",
+      "label": "Networking",
+      "position": {
+        "x": -137.6229822365909,
+        "y": 1598.4007482223487
+      },
+      "size": {
+        "width": 170,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Networking in React Native primarily uses the Fetch API and XMLHttpRequest for making network requests. These APIs allow you to retrieve data from remote servers and handle asynchronous operations easily. React Native offers various ways to handle networking tasks like making API calls, sending/receiving data from remote servers, and handling different network protocols. *   Fetch *   HTTP Call Libraries *   Web Sockets These are the major ways to handle networking tasks in React Native. Choose the method that best suits your specific use case and allows you to take full advantage of the features offered.",
+        "links": [
+          {
+            "title": "Networking",
+            "url": "https://reactnative.dev/docs/network",
+            "type": "official"
+          },
+          {
+            "title": "Efficient Network Communication",
+            "url": "https://medium.com/@Blochware/efficient-network-communication-best-practices-for-handling-api-calls-in-react-native-b5bebbc8ba71",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "NdjmP1bZNYriV08vb-iRw",
+      "type": "subtopic",
+      "label": "Storage",
+      "position": {
+        "x": -137.6229822365909,
+        "y": 1651.4007482223487
+      },
+      "size": {
+        "width": 170,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "React Native provides a few ways to persist data locally in the app. Here's a brief summary of the storage options available: *   Async Storage *   Expo Secure Store *   Expo File System *   Expo SQLite Choose the storage option that best fits your app's requirements and use cases. Keep in mind that AsyncStorage and SecureStorage are more suited for small-scale data storage, while Realm and SQLite support more complex storage and querying needs.",
+        "links": [
+          {
+            "title": "AsyncStorage",
+            "url": "https://reactnative.dev/docs/asyncstorage",
+            "type": "official"
+          },
+          {
+            "title": "Best Data Storage Option for React Native Apps",
+            "url": "https://dev.to/ammarahmed/best-data-storage-option-for-react-native-apps-42k",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "w0WW1kg_0BEMeLa1l2gb5",
+      "type": "topic",
+      "label": "Storage",
+      "position": {
+        "x": -380.62298223659093,
+        "y": 1759.4007482223487
+      },
+      "size": {
+        "width": 184,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "React Native offers several methods for persisting data locally within applications, each catering to different storage needs and use cases. The primary options include Async Storage, which provides a simple key-value storage system suitable for small-scale data; Expo Secure Store, designed for securely storing sensitive information; Expo File System, which allows for file management and storage; and Expo SQLite, which supports more complex data storage and querying capabilities. When selecting a storage option, it's essential to consider the specific requirements of your app.",
+        "links": [
+          {
+            "title": "Best Data Storage Option for React Native Apps",
+            "url": "https://dev.to/ammarahmed/best-data-storage-option-for-react-native-apps-42k",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "WsJGiMjHSQ6MpPd5wuP9h",
+      "type": "subtopic",
+      "label": "react-native-async-storage",
+      "position": {
+        "x": -712.1381872719935,
+        "y": 1632.4007482223487
+      },
+      "size": {
+        "width": 194,
+        "height": 69
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "React Native AsyncStorage is an unencrypted, asynchronous, persistent key-value storage system that allows developers to store data globally within their applications. It is primarily used for persisting data offline, making it suitable for scenarios like saving user preferences or session data.",
+        "links": [
+          {
+            "title": "Async Storage",
+            "url": "https://reactnative.dev/docs/asyncstorage",
+            "type": "official"
+          },
+          {
+            "title": "Async Storage - GitHub",
+            "url": "https://github.com/react-native-async-storage/async-storage",
+            "type": "opensource"
+          }
+        ]
+      }
+    },
+    {
+      "id": "grThT8cvnrbgsa1mx2Dew",
+      "type": "label",
+      "label": "Expo Ecosystem",
+      "position": {
+        "x": -661.9579568300146,
+        "y": 1695.4007482223487
+      },
+      "size": {
+        "width": 143,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "JgBfwmOgcVi_a96L5NGwr",
+      "type": "subtopic",
+      "label": "expo-secure-store",
+      "position": {
+        "x": -698.4579568300146,
+        "y": 1739.4007482223487
+      },
+      "size": {
+        "width": 255,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Expo Secure Store is a built-in package provided by the Expo SDK to store encrypted data securely on users' devices. It is a key-value storage system, but it is not designed to store larger amounts of data such as app databases or complex data structures. It is most appropriate for storing secret keys, access tokens, and small user preferences.",
+        "links": [
+          {
+            "title": "secure-store",
+            "url": "https://docs.expo.dev/versions/latest/sdk/securestore/",
+            "type": "official"
+          },
+          {
+            "title": "expo-secure-store package",
+            "url": "https://www.npmjs.com/package/expo-secure-store?activeTab=readme",
+            "type": "opensource"
+          }
+        ]
+      }
+    },
+    {
+      "id": "9pvrXH5Drdsa1cr93UBdc",
+      "type": "subtopic",
+      "label": "expo-file-system",
+      "position": {
+        "x": -698.4579568300146,
+        "y": 1792.4007482223487
+      },
+      "size": {
+        "width": 255,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Expo File System is a universal module that provides access to the file system on the device. Using this module, you can perform various file operations like reading, writing, copying, moving, and deleting files and folders. It also supports reading file metadata and querying file URI.",
+        "links": [
+          {
+            "title": "Expo File System",
+            "url": "https://docs.expo.dev/versions/latest/sdk/filesystem/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "oK8z23a_CjcDjBJ843_Jn",
+      "type": "subtopic",
+      "label": "expo-sqlite",
+      "position": {
+        "x": -698.4579568300146,
+        "y": 1845.4007482223487
+      },
+      "size": {
+        "width": 255,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Expo SQLite is a powerful tool for handling local SQLite databases in your React Native application. By using this API, you can create, read, update, and delete data as needed, without writing native code. Expo SQLite is available as part of the expo-sqlite package, which provides an easy-to-use interface for SQLite functionalities. With Expo SQLite, you can efficiently manage SQLite databases within your React Native applications. It enables you to perform various database operations without the need for writing native code.",
+        "links": [
+          {
+            "title": "expo-sqlite",
+            "url": "https://docs.expo.dev/versions/latest/sdk/sqlite/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "vZMsm-MtsqmQMD-MG6zJY",
+      "type": "subtopic",
+      "label": "Other Storage Options",
+      "position": {
+        "x": -712.1381872719935,
+        "y": 1920.9007482223487
+      },
+      "size": {
+        "width": 194,
+        "height": 69
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Besides AsyncStorage, there are other options available for handling data storage in React Native applications. This guide will briefly cover some popular options: Realm, Firebase Realtime Database, and SQLite. These are just a few examples of additional storage options for React Native. Depending on your requirements, you may choose the one that best fits your project.",
+        "links": [
+          {
+            "title": "Async Storage",
+            "url": "https://reactnative.dev/docs/asyncstorage",
+            "type": "official"
+          },
+          {
+            "title": "Realm - GitHub",
+            "url": "https://github.com/realm/realm-js",
+            "type": "opensource"
+          },
+          {
+            "title": "Firebase Realtime Database",
+            "url": "https://firebase.google.com/docs/database",
+            "type": "article"
+          },
+          {
+            "title": "Explore top posts about Storage",
+            "url": "https://app.daily.dev/tags/storage?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "G15Aey-Spax_iUHpm1v38",
+      "type": "topic",
+      "label": "Testing",
+      "position": {
+        "x": -380.62298223659093,
+        "y": 1906.4007482223487
+      },
+      "size": {
+        "width": 184,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "When it comes to testing, you can use a combination of Jest, React Test Renderer, React Native Testing Library, Detox and Appium for all sorts of API needs.",
+        "links": []
+      }
+    },
+    {
+      "id": "AolcZu6TMqKHcCLs1is9Z",
+      "type": "vertical",
+      "label": "vertical node",
+      "position": {
+        "x": -451.6381872719935,
+        "y": 1628.4007482223487
+      },
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.65
+      },
+      "z_index": 999
+    },
+    {
+      "id": "06gsRokwjxVa2xyLY4qAb",
+      "type": "subtopic",
+      "label": "Jest",
+      "position": {
+        "x": -139.1381872719935,
+        "y": 1789.9007482223487
+      },
+      "size": {
+        "width": 77,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Jest is a delightful JavaScript Testing Framework with a focus on simplicity. It works with projects using: Babel, TypeScript, Node, React, Angular, Vue and more!",
+        "links": [
+          {
+            "title": "Jest",
+            "url": "https://jestjs.io/",
+            "type": "official"
+          },
+          {
+            "title": "Jest Documentation",
+            "url": "https://jestjs.io/docs/getting-started",
+            "type": "official"
+          },
+          {
+            "title": "Jest Crash Course - Unit Testing in JavaScript",
+            "url": "https://www.youtube.com/watch?v=7r4xVDI2vho",
+            "type": "video"
+          },
+          {
+            "title": "Explore top posts about Jest",
+            "url": "https://app.daily.dev/tags/jest?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ZJvxa-sPRRWCiqHubqEEZ",
+      "type": "label",
+      "label": "Component Tests",
+      "position": {
+        "x": 96.8618127280065,
+        "y": 1852.9007482223487
+      },
+      "size": {
+        "width": 151,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "81tmis0km2h1zsjS2HsP5",
+      "type": "subtopic",
+      "label": "React Test Renderer",
+      "position": {
+        "x": 39.8618127280065,
+        "y": 1948.9007482223487
+      },
+      "size": {
+        "width": 264,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "React Test Renderer is a library provided by the React team that allows you to render React components as JavaScript objects without depending on the DOM or a native mobile environment. It can be used to test components in Node.js environments where the actual rendering is not required.",
+        "links": [
+          {
+            "title": "React Test Renderer",
+            "url": "https://jestjs.io/docs/tutorial-react",
+            "type": "official"
+          },
+          {
+            "title": "Explore top posts about React",
+            "url": "https://app.daily.dev/tags/react?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "-b4LfjCjkSZ6ZsSv3eFm6",
+      "type": "subtopic",
+      "label": "React Native Testing Library",
+      "position": {
+        "x": 39.8618127280065,
+        "y": 1895.9007482223487
+      },
+      "size": {
+        "width": 264,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "React Native Testing Library (RNTL) is a collection of tools and utilities to test React Native components. It is built on top of the Testing Library ecosystem, designed to work seamlessly with Jest and other testing frameworks. Its primary goal is to enable efficient and effective testing by providing simple and intuitive APIs that promote best practices, like testing UI components in isolation and promoting accessibility checks.",
+        "links": [
+          {
+            "title": "React Native Testing Library",
+            "url": "https://callstack.github.io/react-native-testing-library/",
+            "type": "article"
+          },
+          {
+            "title": "React Native Testing Library (Docs)",
+            "url": "https://testing-library.com/docs/react-native-testing-library/intro/",
+            "type": "article"
+          },
+          {
+            "title": "Explore top posts about React",
+            "url": "https://app.daily.dev/tags/react?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "zam_qKfqtKuYyPGos1CrF",
+      "type": "label",
+      "label": "E2E Testing",
+      "position": {
+        "x": -109.62298223659093,
+        "y": 1854.4007482223487
+      },
+      "size": {
+        "width": 109,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "3m7ANLJvtx3zie4y86MNU",
+      "type": "subtopic",
+      "label": "Detox",
+      "position": {
+        "x": -115.62298223659093,
+        "y": 1896.9007482223487
+      },
+      "size": {
+        "width": 264,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Detox is an end-to-end testing framework for React Native applications. It enables you to run tests on an actual device or in a simulator/emulator environment. The goal of Detox is to maintain a high level of confidence in your application's behavior while allowing for quick test runs and easy debugging.",
+        "links": [
+          {
+            "title": "Detox Documentation",
+            "url": "https://wix.github.io/Detox/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "spTzJMS7cE0cNa7tVQhVQ",
+      "type": "subtopic",
+      "label": "Appium",
+      "position": {
+        "x": -115.62298223659093,
+        "y": 1949.9007482223487
+      },
+      "size": {
+        "width": 264,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Appium is an open-source test automation framework for mobile devices, targeting native, hybrid, or mobile-web apps for iOS, Android, and Windows platforms. Appium works with multiple programming languages, including JavaScript, Ruby, Python, Java, and C#. Appium uses the WebDriver protocol, which allows you to write tests that can interact with your app through a series of commands. The WebDriver protocol interprets these commands into actions that are then performed on the app.",
+        "links": [
+          {
+            "title": "Appium Documentation",
+            "url": "https://appium.io/docs/en/latest/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "NIJzKzWlsciAjxUpm4K2v",
+      "type": "topic",
+      "label": "Performance",
+      "position": {
+        "x": -380.62298223659093,
+        "y": 2178.4007482223487
+      },
+      "size": {
+        "width": 184,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Performance is a crucial aspect of any application, and React Native is no exception. Optimizing performance in your React Native apps will not only lead to a better user experience but also lessen the load on device resources.",
+        "links": [
+          {
+            "title": "Performance",
+            "url": "https://reactnative.dev/docs/performance",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1U3AiCDWEVEKsofWtqavi",
+      "type": "subtopic",
+      "label": "Understand Frame Rates",
+      "position": {
+        "x": -92.6229822365909,
+        "y": 2070.4007482223487
+      },
+      "size": {
+        "width": 297,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Frame rates represent the number of frames (or images) displayed per second in an animation or video. The performance of a React Native application can be highly impacted by the frame rate, so it is important to optimize your application for the best possible user experience. Higher frame rates provide smoother animations, but may require more system resources. To achieve the desired frame rate, the application should ensure that each frame is computed and rendered within the time budget. To achieve high frame rates and smooth animations, developers can utilize the `Animated` library, which offers methods and components for efficient animation management. For instance, the library allows for declarative animation definitions, minimizes unnecessary render cycles, and enables the use of the native driver to offload animations from the JavaScript thread. By adhering to best practices and leveraging the `Animated` library, developers can enhance their React Native applications' performance and deliver high-quality animations.",
+        "links": []
+      }
+    },
+    {
+      "id": "afwB90L-q2hIwrA0LtWbG",
+      "type": "subtopic",
+      "label": "Common Problem Sources",
+      "position": {
+        "x": -92.6229822365909,
+        "y": 2123.4007482223487
+      },
+      "size": {
+        "width": 297,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "In React Native, several common issues can impact application performance. Excessive console logs can slow down the app, particularly in debug mode, so it's advisable to minimize their use and remove unnecessary logs before release. Heavy and unoptimized images can also cause performance problems; therefore, it's important to optimize image size and resolution and use the `resizeMode` prop on the `Image` component for better rendering. Additionally, inline functions and styles can lead to unnecessary re-renders, so defining them outside the component's render method is recommended. While using `React.PureComponent` or `React.memo()` can enhance performance, they should be applied judiciously to avoid unnecessary re-renders. For handling large lists, replacing `ListView` with `FlatList` or `SectionList` is crucial for better performance. Lastly, blocking the JavaScript thread with heavy synchronous computations can degrade performance, so it's essential to handle such tasks asynchronously or offload them to native modules. Following these guidelines can help maintain optimal performance in React Native applications.",
+        "links": [
+          {
+            "title": "Performance Problems",
+            "url": "https://reactnative.dev/docs/performance#common-sources-of-performance-problems",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "LL2ZkB7BuELyY2mPQhkAj",
+      "type": "subtopic",
+      "label": "Speeding up Builds",
+      "position": {
+        "x": -92.6229822365909,
+        "y": 2176.4007482223487
+      },
+      "size": {
+        "width": 297,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Building your React Native app could be expensive and take several minutes of developers time. This can be problematic as your project grows and generally in bigger organizations with multiple React Native developers.",
+        "links": [
+          {
+            "title": "Speeding up your Build phase",
+            "url": "https://reactnative.dev/docs/build-speed",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PyPjHnKIWpnFHal8RuSmX",
+      "type": "subtopic",
+      "label": "Optimizing Flatlist Config",
+      "position": {
+        "x": -92.6229822365909,
+        "y": 2229.4007482223487
+      },
+      "size": {
+        "width": 297,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "In React Native, the FlatList component is essential for efficiently displaying large lists of items, and optimizing its configuration is crucial for enhancing performance. Here are key tips for optimizing FlatList: 1.  **Set `windowSize`**: Adjust the `windowSize` prop, which determines the number of pages rendered above and below the current view. Reducing this value from the default of 21 can decrease off-screen component rendering. 2.  **Enable `removeClippedSubviews`**: This prop unmounts components that are off-screen, helping to free up resources. 3.  **Adjust `maxToRenderPerBatch`**: Control the number of items rendered per batch with this prop, which defaults to 10. Tailor this value to fit your list's needs. 4.  **Set `initialNumToRender`**: This prop defines how many items to render initially, helping to prevent blank screens during loading. 5.  **Use `getItemLayout`**: By specifying the exact dimensions of each item with this prop, you can avoid dynamic measurements, leading to better performance.",
+        "links": [
+          {
+            "title": "Optimizing Flatlist Configuration",
+            "url": "https://reactnative.dev/docs/optimizing-flatlist-configuration",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "u5I-EOnA_yt6AQsRX-qr0",
+      "type": "subtopic",
+      "label": "RAM Bundles + Inline Requires",
+      "position": {
+        "x": -92.6229822365909,
+        "y": 2282.4007482223487
+      },
+      "size": {
+        "width": 297,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "If you have a large app you may want to consider the Random Access Modules (RAM) bundle format, and using inline requires. This is useful for apps that have a large number of screens which may not ever be opened during a typical usage of the app. Generally it is useful to apps that have large amounts of code that are not needed for a while after startup. For instance the app includes complicated profile screens or lesser used features, but most sessions only involve visiting the main screen of the app for updates. We can optimize the loading of the bundle by using the RAM format and requiring those features and screens inline (when they are actually used).",
+        "links": [
+          {
+            "title": "RAM Bundles and Inline Requires",
+            "url": "https://reactnative.dev/docs/ram-bundles-inline-requires",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "apXv-E6LvOuOMj3EpzwuA",
+      "type": "subtopic",
+      "label": "Profiling",
+      "position": {
+        "x": -92.6229822365909,
+        "y": 2335.4007482223487
+      },
+      "size": {
+        "width": 297,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Use the built-in profiler to get detailed information about work done in the JavaScript thread and main thread side-by-side. Access it by selecting Perf Monitor from the Debug menu. For iOS, Instruments is an invaluable tool, and on Android you should learn to use `systrace`.",
+        "links": [
+          {
+            "title": "Profiling React Native",
+            "url": "https://reactnative.dev/docs/profiling",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "0BMpZDc-1rSvETwX82zON",
+      "type": "topic",
+      "label": "Using Native Modules",
+      "position": {
+        "x": -701.1381872719935,
+        "y": 2178.4007482223487
+      },
+      "size": {
+        "width": 184,
+        "height": 69
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Sometimes a React Native app needs to access a native platform API that is not available by default in JavaScript, for example the native APIs to access Apple or Google Pay. Maybe you want to reuse some existing Objective-C, Swift, Java or C++ libraries without having to reimplement it in JavaScript, or write some high performance, multi-threaded code for things like image processing. The NativeModule system exposes instances of Java/Objective-C/C++ (native) classes to JavaScript (JS) as JS objects, thereby allowing you to execute arbitrary native code from within JS. While we don't expect this feature to be part of the usual development process, it is essential that it exists. If React Native doesn't export a native API that your JS app needs you should be able to export it yourself!",
+        "links": [
+          {
+            "title": "Native Modules Introduction",
+            "url": "https://reactnative.dev/docs/native-platform",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b-1-JcwLSGMyH3gXS59lY",
+      "type": "subtopic",
+      "label": "For iOS",
+      "position": {
+        "x": -708.115904405851,
+        "y": 2092.461728962983
+      },
+      "size": {
+        "width": 102,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "iOS native modules in React Native allow developers to tap into the rich ecosystem of iOS features and functionalities that are not directly accessible through the standard React Native APIs. For instance, a Camera module can be implemented using the AVFoundation framework, enabling developers to capture photos and videos directly from their applications.",
+        "links": [
+          {
+            "title": "iOS Native Modules",
+            "url": "https://reactnative.dev/docs/legacy/native-modules-ios",
+            "type": "official"
+          },
+          {
+            "title": "Explore top posts about iOS",
+            "url": "https://app.daily.dev/tags/ios?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "wMxTB8WgU6e-oYMtQFCDY",
+      "type": "subtopic",
+      "label": "For Android",
+      "position": {
+        "x": -601.115904405851,
+        "y": 2092.461728962983
+      },
+      "size": {
+        "width": 134,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Native modules in React Native provide a powerful way to access device-specific features and capabilities that are not available through the standard React Native APIs. For example, a Bluetooth module can be created using the Android Bluetooth API, allowing applications to scan for nearby Bluetooth devices, connect to them, and transfer data.",
+        "links": [
+          {
+            "title": "Android Native Modules",
+            "url": "https://reactnative.dev/docs/legacy/native-modules-android",
+            "type": "official"
+          },
+          {
+            "title": "Explore top posts about Android",
+            "url": "https://app.daily.dev/tags/android?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4U-HZQGH7kaWCB94Xy8Mh",
+      "type": "topic",
+      "label": "Publishing Apps",
+      "position": {
+        "x": -701.1381872719935,
+        "y": 2490.7541881503926
+      },
+      "size": {
+        "width": 184,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Publishing React Native apps is the process of deploying your application on various app stores so that users can download and use your app. The two most popular app stores for publishing are the Apple App Store (iOS) and the Google Play Store (Android).",
+        "links": [
+          {
+            "title": "Publishing to Apple App Store",
+            "url": "https://reactnative.dev/docs/publishing-to-app-store",
+            "type": "official"
+          },
+          {
+            "title": "Publishing to Google Play Store",
+            "url": "https://reactnative.dev/docs/signed-apk-android",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1s9Y1dUtjpW9pu74ipX99",
+      "type": "subtopic",
+      "label": "Apple App store",
+      "position": {
+        "x": -701.1381872719935,
+        "y": 2587.3839027091694
+      },
+      "size": {
+        "width": 234,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "The App Store is Apple's official platform for distributing iOS apps to users with iPhones, iPads, and iPod Touch devices. To publish an app on the App Store, you need to follow specific guidelines and use the necessary tools provided by Apple.",
+        "links": [
+          {
+            "title": "Publishing to Apple App Store",
+            "url": "https://reactnative.dev/docs/publishing-to-app-store",
+            "type": "official"
+          },
+          {
+            "title": "Explore top posts about App Store",
+            "url": "https://app.daily.dev/tags/app-store?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "D8T9cZ5zKi_KZDr9tDpCf",
+      "type": "subtopic",
+      "label": "Google Play Store",
+      "position": {
+        "x": -701.1381872719935,
+        "y": 2640.3839027091694
+      },
+      "size": {
+        "width": 234,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Publishing your React Native app on Google Store consists of several steps.",
+        "links": [
+          {
+            "title": "Publishing to Google Play Store",
+            "url": "https://reactnative.dev/docs/signed-apk-android",
+            "type": "official"
+          },
+          {
+            "title": "Explore top posts about Google",
+            "url": "https://app.daily.dev/tags/google?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "xy-edge__HU7wZWiES3m3xl1-NYP6Fx2-08qKtgnhJ3tlb5JKfTDf5w1",
+      "source": "HU7wZWiES3m3xl1-NYP6F",
+      "target": "JfXwzkN29UGz17FYHHE3A",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__4U-HZQGH7kaWCB94Xy8Mhz2-2rlmLn_yQQV-7DpX1qT98y2",
+      "source": "JfXwzkN29UGz17FYHHE3A",
+      "target": "2rlmLn_yQQV-7DpX1qT98",
+      "source_handle": "z2",
+      "target_handle": "y2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__4U-HZQGH7kaWCB94Xy8Mhz2-cMfsRtvzvDZZJ0TqeUOxmy1",
+      "source": "JfXwzkN29UGz17FYHHE3A",
+      "target": "cMfsRtvzvDZZJ0TqeUOxm",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__4U-HZQGH7kaWCB94Xy8Mhz2-VhSEH_RoWFt1z2lial7xZy2",
+      "source": "JfXwzkN29UGz17FYHHE3A",
+      "target": "ODQ8zrHc2rsc8PN-APKvz",
+      "source_handle": "z2",
+      "target_handle": "y2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__4U-HZQGH7kaWCB94Xy8Mhy2-SnF3xtzBh-x4Z_qUQUg7Hz2",
+      "source": "cSXsu17F1Oy34Wp6J-N3C",
+      "target": "SnF3xtzBh-x4Z_qUQUg7H",
+      "source_handle": "y2",
+      "target_handle": "z2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__4U-HZQGH7kaWCB94Xy8Mhy2-1oUJXtHGQ29ZZU9sxwGo2z2",
+      "source": "cSXsu17F1Oy34Wp6J-N3C",
+      "target": "1oUJXtHGQ29ZZU9sxwGo2",
+      "source_handle": "y2",
+      "target_handle": "z2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__cSXsu17F1Oy34Wp6J-N3Cx2-4U-HZQGH7kaWCB94Xy8Mhw2",
+      "source": "cSXsu17F1Oy34Wp6J-N3C",
+      "target": "lNmddXrT8IHVtWobh3-oq",
+      "source_handle": "x2",
+      "target_handle": "w2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__4U-HZQGH7kaWCB94Xy8Mhz2-VhSEH_RoWFt1z2lial7xZy1",
+      "source": "lNmddXrT8IHVtWobh3-oq",
+      "target": "VhSEH_RoWFt1z2lial7xZ",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__4U-HZQGH7kaWCB94Xy8Mhz2-bxWLf0RDAl9Zaczkon9Rly1",
+      "source": "lNmddXrT8IHVtWobh3-oq",
+      "target": "bxWLf0RDAl9Zaczkon9Rl",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__4U-HZQGH7kaWCB94Xy8Mhz2-yW7nDDJbjmm8XKJI0hq3Qy1",
+      "source": "lNmddXrT8IHVtWobh3-oq",
+      "target": "yW7nDDJbjmm8XKJI0hq3Q",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__lNmddXrT8IHVtWobh3-oqx2-4U-HZQGH7kaWCB94Xy8Mhw2",
+      "source": "lNmddXrT8IHVtWobh3-oq",
+      "target": "T4AhL9Zls2iNZMituGdtl",
+      "source_handle": "x2",
+      "target_handle": "w2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__4U-HZQGH7kaWCB94Xy8Mhy2-KyKMZ8Aa5XUAIWelGTiStz1",
+      "source": "T4AhL9Zls2iNZMituGdtl",
+      "target": "KyKMZ8Aa5XUAIWelGTiSt",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__T4AhL9Zls2iNZMituGdtlx2-4U-HZQGH7kaWCB94Xy8Mhw1",
+      "source": "T4AhL9Zls2iNZMituGdtl",
+      "target": "fnujIq6QAFB6bmTisuZ3T",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__4U-HZQGH7kaWCB94Xy8Mhz2-GFGhnx5xUer2DdRI-SO4Dy2",
+      "source": "fnujIq6QAFB6bmTisuZ3T",
+      "target": "GFGhnx5xUer2DdRI-SO4D",
+      "source_handle": "z2",
+      "target_handle": "y2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__4U-HZQGH7kaWCB94Xy8Mhz2-kkH9H9Qh1FD7sLItoWw69y2",
+      "source": "fnujIq6QAFB6bmTisuZ3T",
+      "target": "kkH9H9Qh1FD7sLItoWw69",
+      "source_handle": "z2",
+      "target_handle": "y2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__4U-HZQGH7kaWCB94Xy8Mhz2-OFhyYyxtrCBy_UUb5YBv5y1",
+      "source": "fnujIq6QAFB6bmTisuZ3T",
+      "target": "OFhyYyxtrCBy_UUb5YBv5",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__4U-HZQGH7kaWCB94Xy8Mhz2-hHFR59RrdMIWxcQe72qCsy1",
+      "source": "fnujIq6QAFB6bmTisuZ3T",
+      "target": "hHFR59RrdMIWxcQe72qCs",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__4U-HZQGH7kaWCB94Xy8Mhz2-V34mZCkpoT49o-74XoATSy1",
+      "source": "fnujIq6QAFB6bmTisuZ3T",
+      "target": "V34mZCkpoT49o-74XoATS",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__h3ypxGxeHDCTxURHg6D2dz2-8bn1PFd9h0ek6_T-cl1cSy1",
+      "source": "GrFL32pZ_eOmdJRzSlH8b",
+      "target": "8bn1PFd9h0ek6_T-cl1cS",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__h3ypxGxeHDCTxURHg6D2dz2-UqCpoPzYio3ng3RFlbvZ7y1",
+      "source": "GrFL32pZ_eOmdJRzSlH8b",
+      "target": "UqCpoPzYio3ng3RFlbvZ7",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__4U-HZQGH7kaWCB94Xy8Mhy2-h3ypxGxeHDCTxURHg6D2dz1",
+      "source": "fnujIq6QAFB6bmTisuZ3T",
+      "target": "x-OZCZcX6uhN3Yr5BAATn",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__HiUbRfOv8OttFd85pDUHNz2-4U-HZQGH7kaWCB94Xy8Mhy2",
+      "source": "HiUbRfOv8OttFd85pDUHN",
+      "target": "ervpuL89myBW3oR9r-4lH",
+      "source_handle": "z2",
+      "target_handle": "y2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__4U-HZQGH7kaWCB94Xy8Mhx2-wB0D9koC6jpt1rzX8F07Fw1",
+      "source": "ervpuL89myBW3oR9r-4lH",
+      "target": "wB0D9koC6jpt1rzX8F07F",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__ervpuL89myBW3oR9r-4lHz2-4U-HZQGH7kaWCB94Xy8Mhw1",
+      "source": "ervpuL89myBW3oR9r-4lH",
+      "target": "7GBV5sfOaGxHwpkNUvFWE",
+      "source_handle": "z2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "smoothstep",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__7GBV5sfOaGxHwpkNUvFWEy2-4U-HZQGH7kaWCB94Xy8Mhz1",
+      "source": "7GBV5sfOaGxHwpkNUvFWE",
+      "target": "CAQJaGs24wx1SqKOU44aB",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__CAQJaGs24wx1SqKOU44aBy2-4U-HZQGH7kaWCB94Xy8Mhz2",
+      "source": "CAQJaGs24wx1SqKOU44aB",
+      "target": "GYdz9a1yLiewAeMRSyfLr",
+      "source_handle": "y2",
+      "target_handle": "z2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__4U-HZQGH7kaWCB94Xy8Mhy2-nk6zdVNRz_xE71mVUOFsiz1",
+      "source": "GYdz9a1yLiewAeMRSyfLr",
+      "target": "nk6zdVNRz_xE71mVUOFsi",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__4U-HZQGH7kaWCB94Xy8Mhy2-Jr2iuQqyCbx6CyTJj4Qz2z1",
+      "source": "GYdz9a1yLiewAeMRSyfLr",
+      "target": "Jr2iuQqyCbx6CyTJj4Qz2",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__4U-HZQGH7kaWCB94Xy8Mhy2-xf7L5J42yQq3LE7lG2plpz1",
+      "source": "GYdz9a1yLiewAeMRSyfLr",
+      "target": "xf7L5J42yQq3LE7lG2plp",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__4U-HZQGH7kaWCB94Xy8Mhy2-oK8z23a_CjcDjBJ843_Jnz2",
+      "source": "GYdz9a1yLiewAeMRSyfLr",
+      "target": "3NLcPO-hqQV1EacoPLVrv",
+      "source_handle": "y2",
+      "target_handle": "z2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__4U-HZQGH7kaWCB94Xy8Mhy2-A7ZIe8nlQnHU5g3LM3Eifz1",
+      "source": "GYdz9a1yLiewAeMRSyfLr",
+      "target": "A7ZIe8nlQnHU5g3LM3Eif",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__GYdz9a1yLiewAeMRSyfLrx2-4U-HZQGH7kaWCB94Xy8Mhw2",
+      "source": "GYdz9a1yLiewAeMRSyfLr",
+      "target": "dckRzKDKj-mLB3-OxwjPh",
+      "source_handle": "x2",
+      "target_handle": "w2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__dckRzKDKj-mLB3-OxwjPhx2-4U-HZQGH7kaWCB94Xy8Mhw2",
+      "source": "dckRzKDKj-mLB3-OxwjPh",
+      "target": "CGtVwhVGc8Vea5RfzJvQG",
+      "source_handle": "x2",
+      "target_handle": "w2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__4U-HZQGH7kaWCB94Xy8Mhz2-NdjmP1bZNYriV08vb-iRwy1",
+      "source": "CGtVwhVGc8Vea5RfzJvQG",
+      "target": "NdjmP1bZNYriV08vb-iRw",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__4U-HZQGH7kaWCB94Xy8Mhz2-ee4QqFTosXNcTgoQIok8iy1",
+      "source": "CGtVwhVGc8Vea5RfzJvQG",
+      "target": "ee4QqFTosXNcTgoQIok8i",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__4U-HZQGH7kaWCB94Xy8Mhz2-LRBHwYiT0Yyi18PwR49rcy1",
+      "source": "CGtVwhVGc8Vea5RfzJvQG",
+      "target": "LRBHwYiT0Yyi18PwR49rc",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__CGtVwhVGc8Vea5RfzJvQGx2-4U-HZQGH7kaWCB94Xy8Mhw2",
+      "source": "CGtVwhVGc8Vea5RfzJvQG",
+      "target": "w0WW1kg_0BEMeLa1l2gb5",
+      "source_handle": "x2",
+      "target_handle": "w2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__w0WW1kg_0BEMeLa1l2gb5x2-4U-HZQGH7kaWCB94Xy8Mhw1",
+      "source": "w0WW1kg_0BEMeLa1l2gb5",
+      "target": "G15Aey-Spax_iUHpm1v38",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__4U-HZQGH7kaWCB94Xy8Mhz2-tR7FOWmBDYg6bn5d4YHzdy1",
+      "source": "G15Aey-Spax_iUHpm1v38",
+      "target": "tR7FOWmBDYg6bn5d4YHzd",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__G15Aey-Spax_iUHpm1v38x2-4U-HZQGH7kaWCB94Xy8Mhw2",
+      "source": "G15Aey-Spax_iUHpm1v38",
+      "target": "NIJzKzWlsciAjxUpm4K2v",
+      "source_handle": "x2",
+      "target_handle": "w2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__4U-HZQGH7kaWCB94Xy8Mhz2-LL2ZkB7BuELyY2mPQhkAjy1",
+      "source": "NIJzKzWlsciAjxUpm4K2v",
+      "target": "LL2ZkB7BuELyY2mPQhkAj",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__4U-HZQGH7kaWCB94Xy8Mhz2-PyPjHnKIWpnFHal8RuSmXy1",
+      "source": "NIJzKzWlsciAjxUpm4K2v",
+      "target": "PyPjHnKIWpnFHal8RuSmX",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__4U-HZQGH7kaWCB94Xy8Mhz2-afwB90L-q2hIwrA0LtWbGy1",
+      "source": "NIJzKzWlsciAjxUpm4K2v",
+      "target": "afwB90L-q2hIwrA0LtWbG",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__4U-HZQGH7kaWCB94Xy8Mhz2-1U3AiCDWEVEKsofWtqaviy1",
+      "source": "NIJzKzWlsciAjxUpm4K2v",
+      "target": "1U3AiCDWEVEKsofWtqavi",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__4U-HZQGH7kaWCB94Xy8Mhz2-u5I-EOnA_yt6AQsRX-qr0y2",
+      "source": "NIJzKzWlsciAjxUpm4K2v",
+      "target": "u5I-EOnA_yt6AQsRX-qr0",
+      "source_handle": "z2",
+      "target_handle": "y2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__4U-HZQGH7kaWCB94Xy8Mhz2-apXv-E6LvOuOMj3EpzwuAy1",
+      "source": "NIJzKzWlsciAjxUpm4K2v",
+      "target": "apXv-E6LvOuOMj3EpzwuA",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__NIJzKzWlsciAjxUpm4K2vy2-4U-HZQGH7kaWCB94Xy8Mhz1",
+      "source": "NIJzKzWlsciAjxUpm4K2v",
+      "target": "0BMpZDc-1rSvETwX82zON",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__0BMpZDc-1rSvETwX82zONx2-4U-HZQGH7kaWCB94Xy8Mhw1",
+      "source": "0BMpZDc-1rSvETwX82zON",
+      "target": "4U-HZQGH7kaWCB94Xy8Mh",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__4U-HZQGH7kaWCB94Xy8Mhx2-1s9Y1dUtjpW9pu74ipX99w1",
+      "source": "4U-HZQGH7kaWCB94Xy8Mh",
+      "target": "1s9Y1dUtjpW9pu74ipX99",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    }
+  ],
+  "content_crawled_at": "2026-04-06T10:11:31.125460+00:00"
+}

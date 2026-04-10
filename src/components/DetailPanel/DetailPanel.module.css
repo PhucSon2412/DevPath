@@ -216,6 +216,53 @@
   opacity: 1;
 }
 
+/* ── Additional resource badge types ── */
+.resourceBadge.course {
+  background: rgba(139, 92, 246, 0.12);
+  color: var(--accent-purple);
+}
+
+.resourceBadge.roadmap {
+  background: rgba(99, 102, 241, 0.12);
+  color: var(--accent-primary);
+}
+
+.resourceBadge.feed {
+  background: rgba(251, 191, 36, 0.12);
+  color: var(--accent-yellow);
+}
+
+.resourceBadge.podcast {
+  background: rgba(236, 72, 153, 0.12);
+  color: var(--accent-pink);
+}
+
+.resourceBadge.tool {
+  background: rgba(107, 114, 128, 0.12);
+  color: var(--text-secondary);
+}
+
+.resourceBadge.book {
+  background: rgba(245, 158, 11, 0.12);
+  color: var(--accent-yellow);
+}
+
+.resourceBadge.official {
+  background: rgba(16, 185, 129, 0.12);
+  color: var(--accent-green);
+}
+
+/* ── Empty State ── */
+.emptyState {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-8);
+  color: var(--text-tertiary);
+  font-size: var(--text-sm);
+  text-align: center;
+}
+
 /* ── Responsive ── */
 @media (max-width: 768px) {
   .panel {

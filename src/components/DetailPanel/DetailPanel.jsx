@@ -1,15 +1,21 @@
 import { useEffect, useCallback } from 'react'
-import { X, BookOpen, ExternalLink, FileText, Video, BookMarked } from 'lucide-react'
+import { X, BookOpen, ExternalLink, FileText, Video, BookMarked, Link2, Podcast, Wrench, GraduationCap, BookOpenCheck } from 'lucide-react'
 import styles from './DetailPanel.module.css'
 
 const typeIcons = {
   article: FileText,
   video: Video,
   documentation: BookMarked,
+  course: GraduationCap,
+  roadmap: Link2,
+  feed: BookOpenCheck,
+  podcast: Podcast,
+  tool: Wrench,
+  book: BookOpen,
+  official: BookMarked,
 }
 
 export default function DetailPanel({ node, onClose }) {
-  // Close on Escape key
   const handleKeyDown = useCallback((e) => {
     if (e.key === 'Escape') onClose()
   }, [onClose])
@@ -25,6 +31,11 @@ export default function DetailPanel({ node, onClose }) {
 
   if (!node) return null
 
+  // Use content.description (crawled) or fall back to legacy fields
+  const description = node.content?.description || node.description || null
+  // Use content.links (crawled) or fall back to legacy resources
+  const links = node.content?.links || node.resources || []
+
   return (
     <>
       {/* Backdrop */}
@@ -35,7 +46,7 @@ export default function DetailPanel({ node, onClose }) {
         {/* Header */}
         <div className={styles.panelHeader}>
           <div className={styles.panelTitleRow}>
-            <div className={`${styles.panelType} ${styles[node.type]}`}>
+            <div className={`${styles.panelType} ${styles[node.type] || ''}`}>
               {node.type}
             </div>
             <h2 className={styles.panelTitle}>{node.label}</h2>
@@ -53,23 +64,25 @@ export default function DetailPanel({ node, onClose }) {
         {/* Body */}
         <div className={styles.panelBody}>
           {/* Description */}
-          <div className={styles.descriptionSection}>
-            <div className={styles.sectionLabel}>
-              <BookOpen size={14} />
-              Description
+          {description && (
+            <div className={styles.descriptionSection}>
+              <div className={styles.sectionLabel}>
+                <BookOpen size={14} />
+                Description
+              </div>
+              <p className={styles.description}>{description}</p>
             </div>
-            <p className={styles.description}>{node.description}</p>
-          </div>
+          )}
 
-          {/* Resources */}
-          {node.resources && node.resources.length > 0 && (
+          {/* Resources / Links */}
+          {links.length > 0 && (
             <div className={styles.resourcesSection}>
               <div className={styles.sectionLabel}>
                 <FileText size={14} />
-                Resources
+                Resources ({links.length})
               </div>
               <div className={styles.resourceList}>
-                {node.resources.map((res, i) => {
+                {links.map((res, i) => {
                   const TypeIcon = typeIcons[res.type] || FileText
                   return (
                     <a
@@ -80,7 +93,7 @@ export default function DetailPanel({ node, onClose }) {
                       className={styles.resourceItem}
                       id={`resource-${i}`}
                     >
-                      <span className={`${styles.resourceBadge} ${styles[res.type]}`}>
+                      <span className={`${styles.resourceBadge} ${styles[res.type] || ''}`}>
                         {res.type}
                       </span>
                       <span className={styles.resourceTitle}>{res.title}</span>
@@ -89,6 +102,13 @@ export default function DetailPanel({ node, onClose }) {
                   )
                 })}
               </div>
+            </div>
+          )}
+
+          {/* No content state */}
+          {!description && links.length === 0 && (
+            <div className={styles.emptyState}>
+              <p>No detailed content available for this topic yet.</p>
             </div>
           )}
         </div>
