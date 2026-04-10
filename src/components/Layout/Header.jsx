@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from 'react'
 import { Link, useLocation } from 'react-router-dom'
-import { Map, GitFork, BookOpen, LogIn, User, LogOut, ChevronDown, Sun, Moon } from 'lucide-react'
+import { Map, GitFork, BookOpen, LogIn, User, LogOut, ChevronDown, Sun, Moon, Heart } from 'lucide-react'
 import { useAuth } from '../../contexts/AuthContext'
 import styles from './Header.module.css'
 
@@ -105,6 +105,18 @@ export default function Header() {
               <BookOpen size={16} className={styles.navLinkIcon} />
               Roadmaps
             </Link>
+
+            {isAuthenticated && (
+              <Link
+                to="/favorites"
+                className={`${styles.navLink} ${location.pathname.startsWith('/favorites') ? styles.active : ''}`}
+                id="nav-favorites"
+              >
+                <Heart size={16} className={styles.navLinkIcon} />
+                Favorites
+              </Link>
+            )}
+
             <a
               href="https://github.com/kamranahmedse/developer-roadmap"
               target="_blank"
@@ -185,6 +197,14 @@ export default function Header() {
           <BookOpen size={20} />
           Roadmaps
         </Link>
+
+        {isAuthenticated && (
+          <Link to="/favorites" className={styles.mobileNavLink} id="mobile-nav-favorites">
+            <Heart size={20} />
+            Favorites
+          </Link>
+        )}
+
         <a
           href="https://github.com/kamranahmedse/developer-roadmap"
           target="_blank"

@@ -3,6 +3,7 @@ import { createContext, useContext, useState, useEffect, useCallback } from 'rea
 const AuthContext = createContext(null)
 
 const API_BASE = '/api/auth'
+const ROADMAPS_API_BASE = '/api/roadmaps'
 
 export function AuthProvider({ children }) {
   const [user, setUser] = useState(null)
@@ -88,6 +89,56 @@ export function AuthProvider({ children }) {
     setUser(null)
   }
 
+  const isFavorite = useCallback((roadmapId) => {
+    return !!user?.favorites?.includes(roadmapId)
+  }, [user])
+
+  const toggleFavorite = useCallback(async (roadmapId) => {
+    if (!token) {
+      throw new Error('Please sign in to save favorites')
+    }
+
+    const currentlyFavorited = !!user?.favorites?.includes(roadmapId)
+    const method = currentlyFavorited ? 'DELETE' : 'POST'
+
+    const res = await fetch(`${ROADMAPS_API_BASE}/${roadmapId}/favorite`, {
+      method,
+      headers: { Authorization: `Bearer ${token}` },
+    })
+
+    const data = await res.json()
+    if (!res.ok) {
+      throw new Error(data.message || 'Failed to update favorites')
+    }
+
+    setUser((prev) => {
+      if (!prev) return prev
+      return {
+        ...prev,
+        favorites: data.favorites || [],
+      }
+    })
+
+    return data
+  }, [token, user])
+
+  const getFavoriteRoadmaps = useCallback(async () => {
+    if (!token) {
+      throw new Error('Please sign in to view favorites')
+    }
+
+    const res = await fetch(`${ROADMAPS_API_BASE}/favorites/me`, {
+      headers: { Authorization: `Bearer ${token}` },
+    })
+
+    const data = await res.json()
+    if (!res.ok) {
+      throw new Error(data.message || 'Failed to load favorites')
+    }
+
+    return data.roadmaps || []
+  }, [token])
+
   const value = {
     user,
     token,
@@ -96,6 +147,9 @@ export function AuthProvider({ children }) {
     register,
     login,
     logout,
+    isFavorite,
+    toggleFavorite,
+    getFavoriteRoadmaps,
   }
 
   return (

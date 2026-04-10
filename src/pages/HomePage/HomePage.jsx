@@ -1,12 +1,15 @@
 import { useState, useEffect } from 'react'
 import { GitFork, Sparkles, Loader2 } from 'lucide-react'
 import RoadmapCard from '../../components/RoadmapCard/RoadmapCard'
+import { useAuth } from '../../contexts/AuthContext'
 import styles from './HomePage.module.css'
 
 export default function HomePage() {
   const [roadmaps, setRoadmaps] = useState([])
   const [loading, setLoading] = useState(true)
   const [search, setSearch] = useState('')
+  const [favoriteBusyMap, setFavoriteBusyMap] = useState({})
+  const { isAuthenticated, isFavorite, toggleFavorite } = useAuth()
 
   useEffect(() => {
     fetch('/api/roadmaps')
@@ -26,6 +29,19 @@ export default function HomePage() {
         r.title.toLowerCase().includes(search.toLowerCase())
       )
     : roadmaps
+
+  const handleToggleFavorite = async (roadmapId) => {
+    if (!isAuthenticated) return
+
+    setFavoriteBusyMap((prev) => ({ ...prev, [roadmapId]: true }))
+    try {
+      await toggleFavorite(roadmapId)
+    } catch (err) {
+      console.error('Failed to update favorite roadmap:', err)
+    } finally {
+      setFavoriteBusyMap((prev) => ({ ...prev, [roadmapId]: false }))
+    }
+  }
 
   return (
     <div className={styles.page} id="home-page">
@@ -96,7 +112,15 @@ export default function HomePage() {
         ) : (
           <div className={styles.roadmapGrid}>
             {filtered.map((roadmap, index) => (
-              <RoadmapCard key={roadmap.roadmapId} roadmap={roadmap} index={index} />
+              <RoadmapCard
+                key={roadmap.roadmapId}
+                roadmap={roadmap}
+                index={index}
+                showFavorite={isAuthenticated}
+                isFavorited={isFavorite(roadmap.roadmapId)}
+                favoriteBusy={!!favoriteBusyMap[roadmap.roadmapId]}
+                onToggleFavorite={handleToggleFavorite}
+              />
             ))}
             {filtered.length === 0 && (
               <p className={styles.noResults}>No roadmaps match your search.</p>

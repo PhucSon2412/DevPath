@@ -1,9 +1,13 @@
+.cardWrapper {
+  position: relative;
+  opacity: 0;
+  animation: cardFadeIn 0.5s ease forwards;
+}
+
 .cardLink {
   text-decoration: none;
   color: inherit;
   display: block;
-  opacity: 0;
-  animation: cardFadeIn 0.5s ease forwards;
 }
 
 @keyframes cardFadeIn {
@@ -26,6 +30,48 @@
   transition: all var(--transition-base);
   overflow: hidden;
   cursor: pointer;
+}
+
+.cardWithFavorite {
+  padding-right: calc(var(--space-6) + 40px);
+}
+
+.favoriteBtn {
+  position: absolute;
+  top: var(--space-4);
+  right: var(--space-4);
+  width: 34px;
+  height: 34px;
+  border-radius: var(--radius-full);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--border-primary);
+  background: var(--glass-bg);
+  color: var(--text-tertiary);
+  z-index: 3;
+  transition: all var(--transition-fast);
+}
+
+.favoriteBtn:hover:not(:disabled) {
+  color: #f43f5e;
+  border-color: rgba(244, 63, 94, 0.4);
+  background: color-mix(in srgb, #f43f5e 12%, transparent);
+}
+
+.favoriteBtn:disabled {
+  opacity: 0.6;
+  cursor: wait;
+}
+
+.favoriteActive {
+  color: #f43f5e;
+  border-color: rgba(244, 63, 94, 0.45);
+  background: color-mix(in srgb, #f43f5e 16%, transparent);
+}
+
+.favoriteActive svg {
+  fill: currentColor;
 }
 
 .card::before {
@@ -137,6 +183,15 @@
 @media (max-width: 768px) {
   .card {
     padding: var(--space-5);
+  }
+
+  .cardWithFavorite {
+    padding-right: calc(var(--space-5) + 40px);
+  }
+
+  .favoriteBtn {
+    top: var(--space-3);
+    right: var(--space-3);
   }
   
   .iconWrapper {
