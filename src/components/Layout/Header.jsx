@@ -1,16 +1,40 @@
 import { useState, useEffect, useRef } from 'react'
 import { Link, useLocation } from 'react-router-dom'
-import { Map, GitFork, BookOpen, LogIn, User, LogOut, ChevronDown } from 'lucide-react'
+import { Map, GitFork, BookOpen, LogIn, User, LogOut, ChevronDown, Sun, Moon } from 'lucide-react'
 import { useAuth } from '../../contexts/AuthContext'
 import styles from './Header.module.css'
+
+const THEME_STORAGE_KEY = 'devpath_theme'
+
+function getInitialTheme() {
+  const savedTheme = localStorage.getItem(THEME_STORAGE_KEY)
+  if (savedTheme === 'light' || savedTheme === 'dark') return savedTheme
+
+  const prefersLight = window.matchMedia('(prefers-color-scheme: light)').matches
+  return prefersLight ? 'light' : 'dark'
+}
 
 export default function Header() {
   const [scrolled, setScrolled] = useState(false)
   const [mobileOpen, setMobileOpen] = useState(false)
   const [userMenuOpen, setUserMenuOpen] = useState(false)
+  const [theme, setTheme] = useState('dark')
   const location = useLocation()
   const { user, isAuthenticated, logout } = useAuth()
   const userMenuRef = useRef(null)
+  const themeTransitionTimerRef = useRef(null)
+
+  useEffect(() => {
+    const initialTheme = getInitialTheme()
+    setTheme(initialTheme)
+    document.documentElement.setAttribute('data-theme', initialTheme)
+
+    return () => {
+      if (themeTransitionTimerRef.current) {
+        window.clearTimeout(themeTransitionTimerRef.current)
+      }
+    }
+  }, [])
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 10)
@@ -38,6 +62,26 @@ export default function Header() {
   const handleLogout = () => {
     logout()
     setUserMenuOpen(false)
+  }
+
+  const toggleTheme = () => {
+    const root = document.documentElement
+
+    if (themeTransitionTimerRef.current) {
+      window.clearTimeout(themeTransitionTimerRef.current)
+    }
+
+    root.classList.add('theme-transition')
+
+    const nextTheme = theme === 'dark' ? 'light' : 'dark'
+    setTheme(nextTheme)
+    localStorage.setItem(THEME_STORAGE_KEY, nextTheme)
+    root.setAttribute('data-theme', nextTheme)
+
+    themeTransitionTimerRef.current = window.setTimeout(() => {
+      root.classList.remove('theme-transition')
+      themeTransitionTimerRef.current = null
+    }, 260)
   }
 
   return (
@@ -71,6 +115,18 @@ export default function Header() {
               <GitFork size={16} />
               GitHub
             </a>
+
+            <button
+              type="button"
+              className={styles.themeBtn}
+              onClick={toggleTheme}
+              id="theme-toggle-btn"
+              aria-label={`Switch to ${theme === 'dark' ? 'light' : 'dark'} mode`}
+              title={`Switch to ${theme === 'dark' ? 'light' : 'dark'} mode`}
+            >
+              {theme === 'dark' ? <Sun size={16} /> : <Moon size={16} />}
+              <span>{theme === 'dark' ? 'Light' : 'Dark'}</span>
+            </button>
 
             {/* Auth Section */}
             {isAuthenticated ? (
@@ -139,6 +195,16 @@ export default function Header() {
           <GitFork size={20} />
           GitHub
         </a>
+
+        <button
+          type="button"
+          className={styles.mobileNavLink}
+          onClick={toggleTheme}
+          id="mobile-theme-toggle"
+        >
+          {theme === 'dark' ? <Sun size={20} /> : <Moon size={20} />}
+          {theme === 'dark' ? 'Switch to Light Mode' : 'Switch to Dark Mode'}
+        </button>
 
         <div className={styles.mobileNavDivider} />
 

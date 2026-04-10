@@ -5,7 +5,7 @@
   right: 0;
   height: var(--header-height);
   z-index: var(--z-sticky);
-  background: rgba(6, 8, 15, 0.75);
+  background: var(--header-bg);
   backdrop-filter: blur(20px) saturate(180%);
   -webkit-backdrop-filter: blur(20px) saturate(180%);
   border-bottom: 1px solid var(--border-primary);
@@ -13,8 +13,8 @@
 }
 
 .header.scrolled {
-  background: rgba(6, 8, 15, 0.92);
-  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.4);
+  background: var(--header-bg-scrolled);
+  box-shadow: var(--header-shadow);
 }
 
 .headerInner {
@@ -55,7 +55,7 @@
   font-size: var(--text-xl);
   font-weight: 800;
   letter-spacing: -0.5px;
-  background: linear-gradient(135deg, #f0f6fc 30%, var(--accent-hover));
+  background: linear-gradient(135deg, var(--logo-text-primary) 30%, var(--accent-hover));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -115,6 +115,25 @@
   box-shadow: var(--shadow-glow-primary);
 }
 
+.themeBtn {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  padding: var(--space-2) var(--space-3);
+  border-radius: var(--radius-md);
+  font-size: var(--text-sm);
+  font-weight: 500;
+  color: var(--text-primary);
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  transition: all var(--transition-fast);
+}
+
+.themeBtn:hover {
+  background: var(--glass-bg-hover);
+  border-color: var(--border-accent);
+}
+
 /* ── Hamburger (mobile) ── */
 .hamburger {
   display: none;
@@ -161,7 +180,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(6, 8, 15, 0.95);
+  background: var(--mobile-nav-bg);
   backdrop-filter: blur(20px);
   z-index: var(--z-overlay);
   padding: var(--space-6);

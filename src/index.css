@@ -59,6 +59,8 @@ code, pre {
 
 /* ---------- Design Tokens (CSS Custom Properties) ---------- */
 :root {
+  color-scheme: dark;
+
   /* ---- Colors ---- */
   --bg-primary:      #06080f;
   --bg-secondary:    #0d1117;
@@ -67,6 +69,7 @@ code, pre {
   --bg-surface:      #21283b;
 
   --accent-primary:  #6366f1;
+  --accent-secondary: #8b5cf6;
   --accent-hover:    #818cf8;
   --accent-blue:     #3b82f6;
   --accent-blue-hover: #60a5fa;
@@ -157,6 +160,76 @@ code, pre {
   /* ---- Layout ---- */
   --max-width:   1280px;
   --header-height: 64px;
+
+  /* ---- Theme-specific surfaces ---- */
+  --header-bg: rgba(6, 8, 15, 0.75);
+  --header-bg-scrolled: rgba(6, 8, 15, 0.92);
+  --header-shadow: 0 4px 24px rgba(0, 0, 0, 0.4);
+  --mobile-nav-bg: rgba(6, 8, 15, 0.95);
+  --logo-text-primary: #f0f6fc;
+
+  --graph-toolbar-bg: rgba(6, 8, 15, 0.85);
+  --graph-legend-bg: rgba(13, 17, 23, 0.85);
+  --graph-hint-bg: rgba(13, 17, 23, 0.9);
+  --graph-overlay-text: rgba(255, 255, 255, 0.75);
+  --graph-overlay-text-soft: rgba(255, 255, 255, 0.7);
+  --graph-overlay-text-softer: rgba(255, 255, 255, 0.65);
+
+  --graph-container-grad-1: radial-gradient(circle at 50% 20%, rgba(99, 102, 241, 0.04), transparent 50%);
+  --graph-container-grad-2: radial-gradient(circle at 80% 60%, rgba(139, 92, 246, 0.02), transparent 40%);
+
+  --bg-pattern-1: radial-gradient(ellipse 80% 50% at 50% -20%, rgba(99, 102, 241, 0.08), transparent);
+  --bg-pattern-2: radial-gradient(ellipse 60% 40% at 80% 50%, rgba(139, 92, 246, 0.04), transparent);
+  --bg-pattern-3: radial-gradient(ellipse 60% 40% at 20% 80%, rgba(59, 130, 246, 0.04), transparent);
+}
+
+:root[data-theme='light'] {
+  color-scheme: light;
+
+  --bg-primary: #f6f8ff;
+  --bg-secondary: #ffffff;
+  --bg-tertiary: #eef2ff;
+  --bg-elevated: #e8eeff;
+  --bg-surface: #dde6ff;
+
+  --text-primary: #0f172a;
+  --text-secondary: #334155;
+  --text-tertiary: #64748b;
+  --text-link: #2563eb;
+
+  --border-primary: rgba(15, 23, 42, 0.12);
+  --border-secondary: rgba(15, 23, 42, 0.06);
+  --border-accent: rgba(99, 102, 241, 0.35);
+
+  --glass-bg: rgba(255, 255, 255, 0.7);
+  --glass-bg-hover: rgba(255, 255, 255, 0.88);
+  --glass-border: rgba(15, 23, 42, 0.1);
+  --glass-shadow: 0 8px 32px rgba(15, 23, 42, 0.12);
+
+  --shadow-sm: 0 1px 2px rgba(15, 23, 42, 0.08);
+  --shadow-md: 0 4px 12px rgba(15, 23, 42, 0.12);
+  --shadow-lg: 0 8px 24px rgba(15, 23, 42, 0.16);
+  --shadow-xl: 0 16px 48px rgba(15, 23, 42, 0.18);
+
+  --header-bg: rgba(246, 248, 255, 0.78);
+  --header-bg-scrolled: rgba(246, 248, 255, 0.94);
+  --header-shadow: 0 6px 24px rgba(15, 23, 42, 0.12);
+  --mobile-nav-bg: rgba(246, 248, 255, 0.96);
+  --logo-text-primary: #0f172a;
+
+  --graph-toolbar-bg: rgba(241, 245, 255, 0.88);
+  --graph-legend-bg: rgba(244, 247, 255, 0.9);
+  --graph-hint-bg: rgba(244, 247, 255, 0.95);
+  --graph-overlay-text: rgba(15, 23, 42, 0.82);
+  --graph-overlay-text-soft: rgba(30, 41, 59, 0.78);
+  --graph-overlay-text-softer: rgba(51, 65, 85, 0.74);
+
+  --graph-container-grad-1: radial-gradient(circle at 50% 20%, rgba(37, 99, 235, 0.1), transparent 55%);
+  --graph-container-grad-2: radial-gradient(circle at 80% 60%, rgba(99, 102, 241, 0.08), transparent 45%);
+
+  --bg-pattern-1: radial-gradient(ellipse 70% 45% at 50% -20%, rgba(37, 99, 235, 0.12), transparent);
+  --bg-pattern-2: radial-gradient(ellipse 55% 38% at 85% 45%, rgba(14, 165, 233, 0.08), transparent);
+  --bg-pattern-3: radial-gradient(ellipse 55% 35% at 15% 80%, rgba(99, 102, 241, 0.08), transparent);
 }
 
 /* ---------- Scrollbar ---------- */
@@ -196,6 +269,18 @@ code, pre {
   max-width: var(--max-width);
   margin: 0 auto;
   padding: 0 var(--space-6);
+}
+
+html.theme-transition *,
+html.theme-transition *::before,
+html.theme-transition *::after {
+  transition:
+    background-color 220ms ease,
+    color 220ms ease,
+    border-color 220ms ease,
+    fill 220ms ease,
+    stroke 220ms ease,
+    box-shadow 220ms ease;
 }
 
 .sr-only {
@@ -315,10 +400,7 @@ body::before {
   left: 0;
   right: 0;
   bottom: 0;
-  background:
-    radial-gradient(ellipse 80% 50% at 50% -20%, rgba(99, 102, 241, 0.08), transparent),
-    radial-gradient(ellipse 60% 40% at 80% 50%, rgba(139, 92, 246, 0.04), transparent),
-    radial-gradient(ellipse 60% 40% at 20% 80%, rgba(59, 130, 246, 0.04), transparent);
+  background: var(--bg-pattern-1), var(--bg-pattern-2), var(--bg-pattern-3);
   pointer-events: none;
   z-index: 0;
 }
