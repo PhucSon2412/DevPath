@@ -1,4 +1,4 @@
-import { useState, useRef, useCallback, useEffect } from 'react'
+import { useState, useRef, useCallback, useEffect, useMemo } from 'react'
 import { useParams, Link } from 'react-router-dom'
 import { ArrowLeft, ZoomIn, ZoomOut, RotateCcw, MousePointer2, Hash, Loader2 } from 'lucide-react'
 import DetailPanel from '../../components/DetailPanel/DetailPanel'
@@ -7,6 +7,7 @@ import styles from './RoadmapPage.module.css'
 const CLICKABLE_TYPES = new Set(['topic', 'subtopic', 'checklist', 'todo'])
 const BG_TYPES = new Set(['section'])
 const CONNECTOR_TYPES = new Set(['vertical', 'horizontal'])
+const LINE_MASK_EXCLUDE_TYPES = new Set(['label'])
 
 // ── Fix bright colors for dark theme ──
 function fixBgColor(color) {
@@ -99,6 +100,44 @@ export default function RoadmapPage() {
   useEffect(() => { panRef.current = pan }, [pan])
 
   useEffect(() => { window.scrollTo(0, 0) }, [id])
+
+  const contentYBounds = useMemo(() => {
+    if (!roadmap?.nodes?.length) {
+      return { minY: -Infinity, maxY: Infinity }
+    }
+
+    const nonConnectorNodes = roadmap.nodes.filter((n) => !CONNECTOR_TYPES.has(n.type))
+    if (!nonConnectorNodes.length) {
+      return { minY: -Infinity, maxY: Infinity }
+    }
+
+    let minY = Infinity
+    let maxY = -Infinity
+
+    nonConnectorNodes.forEach((n) => {
+      const y = n.position?.y ?? 0
+      const h = n.size?.height ?? 40
+      minY = Math.min(minY, y)
+      maxY = Math.max(maxY, y + h)
+    })
+
+    return { minY, maxY }
+  }, [roadmap])
+
+  const isBoundaryConnector = useCallback((node) => {
+    if (!CONNECTOR_TYPES.has(node.type)) return false
+
+    const y = node.position?.y ?? 0
+    const h = node.size?.height ?? 0
+    const nodeTop = y
+    const nodeBottom = y + h
+    const epsilon = 0.5
+
+    return (
+      nodeBottom <= contentYBounds.minY + epsilon ||
+      nodeTop >= contentYBounds.maxY - epsilon
+    )
+  }, [contentYBounds])
 
   // Fetch roadmap
   useEffect(() => {
@@ -284,6 +323,10 @@ export default function RoadmapPage() {
     const w = node.size?.width ?? 160, h = node.size?.height ?? 40
     const label = node.label || ''
 
+    if (isBoundaryConnector(node)) {
+      return null
+    }
+
     // ── Connector lines (vertical/horizontal segments) ──
     if (node.type === 'vertical') {
       const cx = x + w / 2
@@ -435,6 +478,14 @@ export default function RoadmapPage() {
   }
 
   const sortedNodes = [...roadmap.nodes].sort((a, b) => (a.z_index || 0) - (b.z_index || 0))
+  const visibleNodes = sortedNodes.filter((node) => !isBoundaryConnector(node))
+  const sectionNodes = visibleNodes.filter((node) => BG_TYPES.has(node.type))
+  const connectorNodes = visibleNodes.filter((node) => CONNECTOR_TYPES.has(node.type))
+  const contentNodes = visibleNodes.filter(
+    (node) => !BG_TYPES.has(node.type) && !CONNECTOR_TYPES.has(node.type)
+  )
+  const lineMaskNodes = contentNodes.filter((node) => !LINE_MASK_EXCLUDE_TYPES.has(node.type))
+  const lineMaskId = `graph-line-mask-${id || 'roadmap'}`
   const topicCount = roadmap.nodes.filter((n) => CLICKABLE_TYPES.has(n.type)).length
 
   return (
@@ -501,8 +552,43 @@ export default function RoadmapPage() {
             transformOrigin: '0 0',
           }}
         >
-          {roadmap.edges.map((edge, i) => renderEdge(edge, i))}
-          {sortedNodes.map((node) => renderNode(node))}
+          <defs>
+            <mask id={lineMaskId} maskUnits="userSpaceOnUse">
+              <rect
+                x={bounds.minX}
+                y={bounds.minY}
+                width={bounds.width}
+                height={bounds.height}
+                fill="white"
+              />
+              {lineMaskNodes.map((node) => {
+                const x = node.position?.x ?? 0
+                const y = node.position?.y ?? 0
+                const w = node.size?.width ?? 160
+                const h = node.size?.height ?? 40
+                const rx = node.type === 'title' ? 8 : 5
+
+                return (
+                  <rect
+                    key={`mask-${node.id}`}
+                    x={x}
+                    y={y}
+                    width={w}
+                    height={h}
+                    rx={rx}
+                    fill="black"
+                  />
+                )
+              })}
+            </mask>
+          </defs>
+
+          {sectionNodes.map((node) => renderNode(node))}
+          <g mask={`url(#${lineMaskId})`}>
+            {roadmap.edges.map((edge, i) => renderEdge(edge, i))}
+            {connectorNodes.map((node) => renderNode(node))}
+          </g>
+          {contentNodes.map((node) => renderNode(node))}
         </svg>
 
         <div className={styles.graphHint}>
