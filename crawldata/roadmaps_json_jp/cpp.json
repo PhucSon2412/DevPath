@@ -1,0 +1,5928 @@
+{
+  "id": "cpp",
+  "title": "C++",
+  "source_url": "https://roadmap.sh/cpp",
+  "github_url": "https://github.com/kamranahmedse/developer-roadmap/tree/master/src/data/roadmaps/cpp",
+  "crawled_at": "2026-04-06T07:36:25.309168+00:00",
+  "type": "flow",
+  "stats": {
+    "total_nodes": 159,
+    "total_edges": 56,
+    "nodes_with_content": 127
+  },
+  "node_types": [
+    "button",
+    "horizontal",
+    "label",
+    "legend",
+    "linksgroup",
+    "paragraph",
+    "section",
+    "subtopic",
+    "title",
+    "topic",
+    "vertical"
+  ],
+  "edge_styles": [
+    "dashed",
+    "solid"
+  ],
+  "edge_line_types": [
+    "default",
+    "simplebezier",
+    "smoothstep"
+  ],
+  "node_type_description": {
+    "title": "ロードマップの主題",
+    "topic": "主題大 (nhóm kỹ năng)",
+    "subtopic": "Kỹ năng/công nghệ cụ thể cần học",
+    "paragraph": "文は mô tả / chú thích",
+    "vertical": "Đường kết nối dọc (ビジュアルコネクタ)"
+  },
+  "edge_style_description": {
+    "solid": "Kỹ năng bắt buộc / quan trọng",
+    "dashed": "選択 / gợi ý / オルタナティブ"
+  },
+  "nodes": [
+    {
+      "id": "b5EyLVAnEsPBiwy2dMr6F",
+      "type": "horizontal",
+      "label": "ホリゾントノード",
+      "position": {
+        "x": 132.993752405053,
+        "y": 2903.0129376580285
+      },
+      "size": {
+        "width": 128,
+        "height": 20
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.5
+      },
+      "z_index": 999
+    },
+    {
+      "id": "I1aDakZmYpe7pKczou0qC",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": 258.0179751445827,
+        "y": 2688.244194339027
+      },
+      "size": {
+        "width": 196,
+        "height": 278
+      },
+      "style": {
+        "width": 150,
+        "height": 100,
+        "fontSize": 17,
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "goX6oPqweGg7J9yXJjDsR",
+      "type": "horizontal",
+      "label": "ホリゾントノード",
+      "position": {
+        "x": 441.5179751445827,
+        "y": 2530.0128020469147
+      },
+      "size": {
+        "width": 92,
+        "height": 20
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.5
+      },
+      "z_index": 999
+    },
+    {
+      "id": "iisl6B61awdQDJVGaBqtI",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": 532.5179751445827,
+        "y": 2381.244194339027
+      },
+      "size": {
+        "width": 240,
+        "height": 385
+      },
+      "style": {
+        "width": 150,
+        "height": 100,
+        "fontSize": 17,
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "SNEm8ibYyywxb0prHdlMA",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": 118.26444711909286,
+        "y": 2545.23808936492
+      },
+      "size": {
+        "width": 21,
+        "height": 86
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "REVHzbbcSWfylibdGZG5A",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": 12.144083619869434,
+        "y": 2545.23808936492
+      },
+      "size": {
+        "width": 21,
+        "height": 86
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "Tm2kjpCnwZhAw0vwqn_PK",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": -31.733089516576577,
+        "y": 2235.2284032315606
+      },
+      "size": {
+        "width": 186,
+        "height": 212
+      },
+      "style": {
+        "width": 150,
+        "height": 100,
+        "fontSize": 17,
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "_sUz-qKSggnUjAO281ROC",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": -233.429978402122,
+        "y": 1962.677896706502
+      },
+      "size": {
+        "width": 21,
+        "height": 97
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "wGg3UBe3OqaXWxPxYiBQz",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": 594.833180361922,
+        "y": 1673.789165472234
+      },
+      "size": {
+        "width": 21,
+        "height": 103
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "3SsQBuq6ie73yAMvRcqtR",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": 466.39833855329164,
+        "y": 1470.7730008603658
+      },
+      "size": {
+        "width": 303,
+        "height": 174
+      },
+      "style": {
+        "width": 150,
+        "height": 100,
+        "fontSize": 17,
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "ra0ZEvbILayGotRDlRwjF",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": 309.993752405053,
+        "y": 1671.789165472234
+      },
+      "size": {
+        "width": 21,
+        "height": 107
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "XUHjmFhEsTjGRLlmDgl_w",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": 159.993752405053,
+        "y": 1671.789165472234
+      },
+      "size": {
+        "width": 21,
+        "height": 107
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "mnUWOqBFgcuNsXUr18fJI",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": -286.929978402122,
+        "y": 1484.789165472234
+      },
+      "size": {
+        "width": 322,
+        "height": 128
+      },
+      "style": {
+        "width": 150,
+        "height": 100,
+        "fontSize": 17,
+        "backgroundColor": "#ffffff"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "l5xm8tzFqMKwGdK3MYaXm",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": 500.31370390738084,
+        "y": 1150.9555450086277
+      },
+      "size": {
+        "width": 21,
+        "height": 199
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "fG1lGRwUDPc-aiETFyEE7",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": 588.119142886761,
+        "y": 1045.9498696738276
+      },
+      "size": {
+        "width": 21,
+        "height": 196
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "ofwdZm05AUqCIWmfgGHk8",
+      "type": "subtopic",
+      "label": "ダイヤモンド の 遺産",
+      "position": {
+        "x": 539.0885117402935,
+        "y": 1257.538589268166
+      },
+      "size": {
+        "width": 232,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "sRAiZODQQ8xrMiVpCdnI7",
+        "color": "#2b78e4",
+        "label": "中間話題 / 次の選択",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "C++では,ダイアモンド遺伝は,クラスが複数のクラスから継承し,それもまた共通のベースクラスから継承し,ダイヤモンド状の階層を形成するときに発生する.これは,衍生クラスがベースクラスのメンバーの複数のコピーを継承するため曖昧さにつながる可能性があります.この問題を解決するために,仮想遺伝は使用され,最終的な衍生クラスにベースクラスの一例のみが存在することを確保し,曖昧さを排除し,適切なメンバーアクセスを確保します.",
+        "links": [
+          {
+            "title": "C++ で 仮想遺産 と ダイヤモンド 問題 を 理解 する",
+            "url": "https://medium.com/@antilogatharv/understanding-virtual-inheritance-and-the-diamond-problem-in-c-da7c63d76723",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ZHjU60uzJTezADRhDTESG",
+      "type": "subtopic",
+      "label": "前向きの宣言",
+      "position": {
+        "x": 66.99375240505299,
+        "y": 877.9725710130274
+      },
+      "size": {
+        "width": 224,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "FURC-X3vopFKhZ0F5BdYH",
+        "color": "#6d7500",
+        "label": "初心者 トピックス / ここから始めましょう",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "前向き宣言は,完全な定義が提供される前にコンパイラに識別子 (例えばクラス,関数,変数) を宣言するものです.これはコンパイラに識別子の存在と種類について通知し,指数または参照使用などの限られた文脈で使用できるようにします.完全な定義が直ちに利用可能になる必要がない限り.この技術は依存関係を管理し,コンパイラ時間の削減し,コードベースの異なる部分間の循環依存関係を解決するのに役立ちます.",
+        "links": []
+      }
+    },
+    {
+      "id": "J7Jwh6hrrEyni5eGmuCqc",
+      "type": "horizontal",
+      "label": "ホリゾントノード",
+      "position": {
+        "x": -44.467176049532384,
+        "y": 1130.9555450086277
+      },
+      "size": {
+        "width": 224,
+        "height": 20
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.75
+      },
+      "z_index": 999
+    },
+    {
+      "id": "Qk3hqX1Wj68FD8jXHS5NU",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": -284.4671760495324,
+        "y": 822.073069776383
+      },
+      "size": {
+        "width": 242,
+        "height": 234
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "zybofouGIVxcKvr47F3Yy",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": -284.4671760495324,
+        "y": 1051.9498696738276
+      },
+      "size": {
+        "width": 242,
+        "height": 175
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "c58fcsthBlVfzfr-MHdpF",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": 256.89029212267985,
+        "y": -124.59925177765109
+      },
+      "size": {
+        "width": 21,
+        "height": 66
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "Ji35JsKgUQXN4DJGEgTAC",
+      "type": "title",
+      "label": "C++",
+      "position": {
+        "x": 218.39029212267985,
+        "y": -59.09925177765109
+      },
+      "size": {
+        "width": 98,
+        "height": 68
+      },
+      "style": {
+        "fontSize": 28,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "g4hjyQF8-SpjPi8mYtIsk",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": 256.89029212267985,
+        "y": 15.028193715390685
+      },
+      "size": {
+        "width": 21,
+        "height": 139
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.5
+      },
+      "z_index": 999
+    },
+    {
+      "id": "xi0QAi4kXm3-IFKgopnOP",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": -82.50624759494701,
+        "y": 2967.2883869394877
+      },
+      "size": {
+        "width": 21,
+        "height": 85
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "NvODRFR0DLINB0RlPSsvt",
+      "type": "topic",
+      "label": "言語 の 導入",
+      "position": {
+        "x": 128.89029212267985,
+        "y": 150.76582156925141
+      },
+      "size": {
+        "width": 277,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "FURC-X3vopFKhZ0F5BdYH",
+        "color": "#6d7500",
+        "label": "初心者 トピックス / ここから始めましょう",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "C++ は,性能,効率,ハードウェアの制御で知られる汎用プログラミング言語です. プロセッサ式とオブジェクト指向式プログラミングパラダイムの両方をサポートし,システムプログラミングからゲーム開発まで幅広いアプリケーションに汎用化します. C++ は C 言語の上に構築され,クラス,テンプレート,例外処理などの機能を追加します.",
+        "links": [
+          {
+            "title": "C++ を学ぶ",
+            "url": "https://www.learncpp.com/",
+            "type": "article"
+          },
+          {
+            "title": "CPPを始める!",
+            "url": "https://isocpp.org/get-started",
+            "type": "article"
+          },
+          {
+            "title": "FreeCodeCampによるC++ 全コース",
+            "url": "https://youtu.be/vLnPwxZdW4Y",
+            "type": "video"
+          },
+          {
+            "title": "C++ プログラミングコース - 初心者~高度な",
+            "url": "https://www.youtube.com/watch?v=8jLOx1hD3_o",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q2z_1wnPUnWM7MYIIUyBg",
+      "type": "legend",
+      "label": "",
+      "position": {
+        "x": -285.20291471146976,
+        "y": -130.55580566097228
+      },
+      "size": {
+        "width": 352,
+        "height": 156
+      },
+      "style": {},
+      "z_index": 999
+    },
+    {
+      "id": "x_28LiDVshqWns_aIBsdx",
+      "type": "subtopic",
+      "label": "C++とは何か?",
+      "position": {
+        "x": 519.3983385532916,
+        "y": 95.44419433902749
+      },
+      "size": {
+        "width": 252,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "FURC-X3vopFKhZ0F5BdYH",
+        "color": "#6d7500",
+        "label": "初心者 トピックス / ここから始めましょう",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "C++ は強力で汎用的なプログラミング言語である. C 言語の拡張であり,オブジェクト指向式プログラミングのような機能を追加し,コードを再利用可能なコンポーネントに構造化することができます. C ++ は高性能,効率性,システムリソースの制御で知られており,ゲーム開発,オペレーティングシステム,高性能コンピューティングを含む幅広いアプリケーションに適しています.",
+        "links": [
+          {
+            "title": "C++ を学ぶ",
+            "url": "https://www.learncpp.com/",
+            "type": "article"
+          },
+          {
+            "title": "C++ 初心者向けチュートリアル - 全コース",
+            "url": "https://youtu.be/vLnPwxZdW4Y",
+            "type": "video"
+          },
+          {
+            "title": "C++に関するトップ記事を探索する",
+            "url": "https://app.daily.dev/tags/c++?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tl6VCQ5IEGDVyFcgj7jDm",
+      "type": "subtopic",
+      "label": "なぜC++を使うのか",
+      "position": {
+        "x": 520.3137039073808,
+        "y": 149.4441943390275
+      },
+      "size": {
+        "width": 252,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "FURC-X3vopFKhZ0F5BdYH",
+        "color": "#6d7500",
+        "label": "初心者 トピックス / ここから始めましょう",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "C++ は,性能とシステムリソースの制御で知られる強力な汎用プログラミング言語です. 高レベルの機能と低レベルの機能を組み合わせ,開発者が幅広いアプリケーションのための効率的なコードを書くことができます.これはオペレーティングシステム,ゲーム開発,埋め込みシステム,高性能コンピューティングなどを含む.",
+        "links": []
+      }
+    },
+    {
+      "id": "2Ag0t3LPryTF8khHLRfy-",
+      "type": "subtopic",
+      "label": "CとC++",
+      "position": {
+        "x": 520.3137039073808,
+        "y": 202.4441943390275
+      },
+      "size": {
+        "width": 252,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "FURC-X3vopFKhZ0F5BdYH",
+        "color": "#6d7500",
+        "label": "初心者 トピックス / ここから始めましょう",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "CとC++は両方ともプログラミング言語であり,C++はCから進化した.C++は,機能を用いた構造化されたプログラミングに焦点を当てた手順言語である.C++は,クラス,相続,ポリモルフィズムなどのオブジェクト指向プログラミング (OOP) 機能を追加することによってCを拡張し,より複雑なおよびモジュール的なソフトウェア設計を可能にします.C++は,Cと比較してより柔軟性と抽象性を提供し,オペレーターオーバーロード,テンプレート,例外処理などの機能も導入します.",
+        "links": [
+          {
+            "title": "C++ vs C: どの言語を使うか (いつ使うか)",
+            "url": "https://roadmap.sh/cpp/vs-c",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Zc_TTzmM36yWsu3GvOy9x",
+      "type": "topic",
+      "label": "環境 を 設定 する",
+      "position": {
+        "x": -281.68629609261916,
+        "y": 282.9441943390275
+      },
+      "size": {
+        "width": 283,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "FURC-X3vopFKhZ0F5BdYH",
+        "color": "#6d7500",
+        "label": "初心者 トピックス / ここから始めましょう",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "C++ で環境を設定するには,C++ プログラムを書き,コンパイル,実行するために必要なツールとソフトウェアをコンピュータに配置する必要があります.これは通常,C++ コンパイラ (GCCやClang など) をインストールし,統合開発環境 (IDE) またはテキスト編集者,および大規模なプロジェクトを管理するためのビルドシステムを含む.適切な設定はスムーズかつ効率的な開発ワークフローの鍵です.",
+        "links": [
+          {
+            "title": "C++ スタート",
+            "url": "https://www.w3schools.com/cpp/cpp_getstarted.asp",
+            "type": "article"
+          },
+          {
+            "title": "Visual Studio Code で C++ を設定する方法",
+            "url": "https://www.youtube.com/watch?v=DMWD7wfhgNY",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "0J_ltQEJh2g28OE2ZEYJj",
+      "type": "subtopic",
+      "label": "C++ をインストールする",
+      "position": {
+        "x": -281.68629609261916,
+        "y": 364.4441943390275
+      },
+      "size": {
+        "width": 283,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "FURC-X3vopFKhZ0F5BdYH",
+        "color": "#6d7500",
+        "label": "初心者 トピックス / ここから始めましょう",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "C++ を使用するには,C++ コードをコンパイルして実行するための必要なツールをシステムに設定する必要があります.これは通常,コンパイラ (GCCまたはClangのような),ビルドシステム (MakeまたはCMakeのような),およびコードを書くための統合開発環境 (IDE) またはテキストエディタを含む.特定のステップは,オペレーティングシステム (Windows, macOS,または Linux) に基づいて異なります.",
+        "links": []
+      }
+    },
+    {
+      "id": "ew0AfyadpXPRO0ZY3Z19k",
+      "type": "subtopic",
+      "label": "コード編集者/IDE",
+      "position": {
+        "x": -281.68629609261916,
+        "y": 417.4441943390275
+      },
+      "size": {
+        "width": 283,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "FURC-X3vopFKhZ0F5BdYH",
+        "color": "#6d7500",
+        "label": "初心者 トピックス / ここから始めましょう",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "適切なコード編集者またはIDEを選択することは,C++ 開発者にとって重要な第一歩です.これらのツールは,文法強調,コード完了,デバッグツール,ビルド自動化などの機能を含むコードを書く,編集,管理するためのプラットフォームを提供します.人気のオプションは,Visual Studio Code,Sublime Textなどの軽量でカスタマイズ可能な編集者から,Visual Studio,CLionなどのより包括的なIDEまで,それぞれ独自の強みと機能を持っています.あなたにとって最適なものを選択することは,個人的な好みや特定の開発ニーズに左右されます.",
+        "links": [
+          {
+            "title": "VSCode で Linux で C++ を使用する",
+            "url": "https://code.visualstudio.com/docs/cpp/config-linux",
+            "type": "article"
+          },
+          {
+            "title": "一般プログラミングに関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/general-programming?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "SEq0D2Zg5WTsIDtd1hW9f",
+      "type": "subtopic",
+      "label": "第 一 の プログラム を 実行 する",
+      "position": {
+        "x": -281.68629609261916,
+        "y": 470.4441943390275
+      },
+      "size": {
+        "width": 283,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "FURC-X3vopFKhZ0F5BdYH",
+        "color": "#6d7500",
+        "label": "初心者 トピックス / ここから始めましょう",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "これは,C++コードをコンパイルして実行するためにシステムを構成することを含みます.コンパイラー (GCCやClangなど),コードを書くためのIDEまたはテキストエディタ,およびコンパイルプロセスを管理するためのビルドシステムが必要になります.基本的な\"Hello, World!\"プログラムは,通常設定を確認し,基本的な構文を示するために使用されます.",
+        "links": [
+          {
+            "title": "C++ で 始める",
+            "url": "https://www.w3schools.com/cpp/cpp_getstarted.asp",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "kl2JI_Wl47c5r8SYzxvCq",
+      "type": "topic",
+      "label": "基本操作",
+      "position": {
+        "x": 127.76444711909286,
+        "y": 282.9441943390275
+      },
+      "size": {
+        "width": 206,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "FURC-X3vopFKhZ0F5BdYH",
+        "color": "#6d7500",
+        "label": "初心者 トピックス / ここから始めましょう",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "基本的な操作を理解することは,C++の開発者にとって不可欠である.この基礎知識には,加算,引算,乘算,分割などの算数操作,および条件論理で使用される比較操作 (例えば,等価,等価ではない,より大きい) が含まれる.これらの操作を掌握することは,より複雑なアルゴリズムとデータ構造が構築される基盤を形成する.",
+        "links": []
+      }
+    },
+    {
+      "id": "8aOSpZLWwZv_BEYiurhyR",
+      "type": "subtopic",
+      "label": "算数の運算者",
+      "position": {
+        "x": 127.76444711909286,
+        "y": 367.4441943390275
+      },
+      "size": {
+        "width": 206,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "FURC-X3vopFKhZ0F5BdYH",
+        "color": "#6d7500",
+        "label": "初心者 トピックス / ここから始めましょう",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "算数オペレータはC++プログラミングの基本的な構成要素であり,コード内で直接数学計算を行うことができます.これらのオペレータは整数や浮点数などの数値データ型で動作し,加算 (+),減算 (-),倍数 (\\*),分割 (/),モジュール (%) の操作を可能にします.さらに,インクリメント (++) と減算 (--) オペレータは,変数値を1倍増減する簡潔な方法を提供します.",
+        "links": [
+          {
+            "title": "算数の運算者",
+            "url": "https://www.w3schools.com/cpp/cpp_operators_arithmetic.asp",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Y9gq8WkDA_XGe68JkY2UZ",
+      "type": "subtopic",
+      "label": "ロジカル・オペレータ",
+      "position": {
+        "x": 127.76444711909286,
+        "y": 420.4441943390275
+      },
+      "size": {
+        "width": 206,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "FURC-X3vopFKhZ0F5BdYH",
+        "color": "#6d7500",
+        "label": "初心者 トピックス / ここから始めましょう",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "C++ の論理オペレータは, boolean 式を組み合わせたり修正したりすることで,最終的な boolean 値が true (1) または false (0). これらのオペレータは,複数の条件に基づいてプログラムの流れを制御するのに不可欠です. C++ は,二つのオペレントが true である場合にのみ true を返す AND (`&`) を提供します. OR (`) は,少なくとも一つのオペレントが true である場合に true を返します.そして NOT (`!`) は,そのオペレントの boolean value を逆転します.",
+        "links": [
+          {
+            "title": "ロジカル・オペレータ",
+            "url": "https://www.w3schools.com/cpp/cpp_operators_logical.asp",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "zE4iPSq2KsrDSByQ0sGK_",
+      "type": "subtopic",
+      "label": "Bitwise オペレーター",
+      "position": {
+        "x": 127.76444711909286,
+        "y": 473.4441943390275
+      },
+      "size": {
+        "width": 206,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "sRAiZODQQ8xrMiVpCdnI7",
+        "color": "#2b78e4",
+        "label": "中間話題 / 次の選択",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "C++ のビット方向操作は,整数データ型内の個々のビットを直接操作することを可能にします.これらの操作は,ビットレベルの順序として値を処理し,ビットレベルでの操作を実行することによって動作します.一般的なビット方向操作には AND (&), OR (かん), XOR (^), NOT (~),左シフト (<<),右シフト (>>) などが含まれます.これらは特定のビットを設定,クリア,または切り替え,特定のアルゴリズムでのパフォーマンスを最適化,低レベルのシステムプログラミングなどの作業に使用されます.",
+        "links": [
+          {
+            "title": "C++ でバイナリーとビットウィース オペレーターへの入門",
+            "url": "https://youtu.be/KXwRt7og0gI",
+            "type": "video"
+          },
+          {
+            "title": "C++ で bitwise AND (&), OR (なにより), XOR (^) と NOT (~)",
+            "url": "https://youtu.be/HoQhw6_1NAA",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "s5Gs4yF9TPh-psYmtPzks",
+      "type": "topic",
+      "label": "コントロールフロー & 声明",
+      "position": {
+        "x": 518.9836543599333,
+        "y": 461.1708336969881
+      },
+      "size": {
+        "width": 252,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "FURC-X3vopFKhZ0F5BdYH",
+        "color": "#6d7500",
+        "label": "初心者 トピックス / ここから始めましょう",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "C++ の制御フローは,記述が実行される順序を規定する.プログラムが決定を下し,操作を繰り返し,条件に基づいて異なるコードブロックを実行できるようにする. `if`, `else if`,と `else`のような記述は,条件の実行を可能にする. `for`, `while`,と `do-while`のようなループは,繰り返しを促進する. `switch`記述は,表現の値に基づいて多方向のブランチングメカニズムを提供しています.これらの構造は,入力にダイナミックに反応し,複雑なタスクを実行するプログラムを作成するのに不可欠です.",
+        "links": []
+      }
+    },
+    {
+      "id": "_IP_e1K9LhNHilYTDh7L5",
+      "type": "subtopic",
+      "label": "ループの間 / ループの間 / ループの間",
+      "position": {
+        "x": 518.9836543599333,
+        "y": 347.2028070104984
+      },
+      "size": {
+        "width": 252,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "FURC-X3vopFKhZ0F5BdYH",
+        "color": "#6d7500",
+        "label": "初心者 トピックス / ここから始めましょう",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "ループは,条件に基づくコードブロックの重複を可能にする基本的な制御フロー構造である.C++では, `for`, `while`,および `do-while` の3つの主要なループタイプが提供されています. `for`ループは,先行で繰り返しの数が既知であるときに理想的です. `while`ループは,指定された条件が真実である限り実行を続けます. `do-while`ループは, `while`ループに似ているが,コードブロックループの少なくとも1つの実行を保証します.条件はループの終わりにチェックされているため.",
+        "links": [
+          {
+            "title": "ループのためのC++",
+            "url": "https://www.w3schools.com/cpp/cpp_for_loop.asp",
+            "type": "article"
+          },
+          {
+            "title": "C++ ループ中に",
+            "url": "http://w3schools.com/cpp/cpp_while_loop.asp",
+            "type": "article"
+          },
+          {
+            "title": "C++ ループ中に実行する",
+            "url": "https://www.w3schools.com/cpp/cpp_do_while_loop.asp",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "bjpFWxiCKGz28E-ukhZBp",
+      "type": "subtopic",
+      "label": "他の場合 / スイッチ / goto",
+      "position": {
+        "x": 518.9836543599333,
+        "y": 294.7028070104984
+      },
+      "size": {
+        "width": 252,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "FURC-X3vopFKhZ0F5BdYH",
+        "color": "#6d7500",
+        "label": "初心者 トピックス / ここから始めましょう",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "`if-else`, `switch`, と `goto`は,C++ の基本的な制御流動メカニズムである. `if-else`構造は,プログラムがブール条件に基づいて異なるコードブロックを実行することを可能にします. `switch`記述は,単一の変数の複数の可能な値を効率的に処理する方法を提供します. `goto`記述は,コード内のラベルされた点への無条件ジャンプを可能にしますが,コードの読みやすさと維持性に潜在的な影響があるため,その使用は一般的に推奨されません.",
+        "links": [
+          {
+            "title": "C++ の\"if-else\"宣言",
+            "url": "https://www.youtube.com/watch?v=9-BjXs1vMSc",
+            "type": "video"
+          },
+          {
+            "title": "C++ を 私 と し て 学べ - 切り替える 記述",
+            "url": "https://www.youtube.com/watch?v=uOlLs1OYSSI",
+            "type": "video"
+          },
+          {
+            "title": "\"ゴト\"を使うのはなぜ違法なのか?",
+            "url": "https://youtu.be/AKJhThyTmQw?si=gjEqAsDZVMDGVAT2",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "oYi3YOc1GC2Nfp71VOkJt",
+      "type": "topic",
+      "label": "機能",
+      "position": {
+        "x": 517.4836543599333,
+        "y": 569.015602149086
+      },
+      "size": {
+        "width": 255,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "FURC-X3vopFKhZ0F5BdYH",
+        "color": "#6d7500",
+        "label": "初心者 トピックス / ここから始めましょう",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "C++ の関数は,特定のタスクを実行し,コードの再利用性とモジュラリティを促進するために設計されたコードの自立ブロックである.標準ライブラリー関数は2種類である.標準ライブラリー関数は (前もって構築された関数である `sort() と `sqrt() `) と,ユーザが定義した関数は (プログラマによって作成される) である.関数を定義することは,返済タイプ,名前,および受け入れられるパラメータリストを指定することを意味します.関数を定義する前に使用するには,関数のプロトタイプを宣言し,コンパイラに関数の署名について知らせることができます.",
+        "links": [
+          {
+            "title": "C++ 機能",
+            "url": "https://www.w3schools.com/cpp/cpp_functions.asp",
+            "type": "article"
+          },
+          {
+            "title": "c++ の関数への導入",
+            "url": "https://www.learncpp.com/cpp-tutorial/introduction-to-functions/",
+            "type": "article"
+          },
+          {
+            "title": "私と一緒にC++を学ぶ #20 - 機能",
+            "url": "https://www.youtube.com/watch?v=C83tPpvxIJA",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "obZIxRp0eMWdG7gplNIBc",
+      "type": "subtopic",
+      "label": "静態ポリモルフィズム",
+      "position": {
+        "x": 518.4590437918661,
+        "y": 765.6954620911321
+      },
+      "size": {
+        "width": 255,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center",
+        "colorType": "h"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "FURC-X3vopFKhZ0F5BdYH",
+        "color": "#6d7500",
+        "label": "初心者 トピックス / ここから始めましょう",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "Static polymorphism (静態ポリモルフィズム) は,処理しているデータの種類によって異なるコードの実行を可能にします.しかし,この決定はコンパイル時に起こります.C++では,静態ポリモルフィズムは,主に関数過載によって達成されます.これは,同じ名前と異なるパラメータリストとテンプレートを持つ複数の関数を定義することを可能にするが,実行時間のオーバーヘッドなしでさまざまなデータタイプで動作する一般的な関数とクラスを書きやすくします.",
+        "links": [
+          {
+            "title": "C++ の静态ポリモルフィズム",
+            "url": "https://medium.com/@kateolenya/static-polymorphism-in-c-9e1ae27a945b",
+            "type": "article"
+          },
+          {
+            "title": "高級C++:静態ポリモルフィズム",
+            "url": "https://www.youtube.com/watch?v=-WV9vWjhI3g",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sgfqb22sdN4VRJYkhAVaf",
+      "type": "subtopic",
+      "label": "機能過負荷",
+      "position": {
+        "x": 518.4590437918661,
+        "y": 809.6954620911321
+      },
+      "size": {
+        "width": 255,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center",
+        "colorType": "c"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "FURC-X3vopFKhZ0F5BdYH",
+        "color": "#6d7500",
+        "label": "初心者 トピックス / ここから始めましょう",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "C++ の関数過載は,複数の関数が同じ名前を共有することを可能にする.数値またはパラメータの種類によって異なります.これは,異なるデータタイプまたは引数の数で同様の操作を実行できるようにすることで,コード読みやすさと維持性を向上させ,コンパイルタイムポリモルフィズムを促進します.",
+        "links": [
+          {
+            "title": "機能 過積載 - マイクロソフト Learn",
+            "url": "https://learn.microsoft.com/en-us/cpp/cpp/function-overloading",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "llCBeut_uc9IAe2oi4KZ9",
+      "type": "subtopic",
+      "label": "オペレーターの過負荷",
+      "position": {
+        "x": 518.4590437918661,
+        "y": 658.0698136821208
+      },
+      "size": {
+        "width": 255,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center",
+        "colorType": "c"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "sRAiZODQQ8xrMiVpCdnI7",
+        "color": "#2b78e4",
+        "label": "中間話題 / 次の選択",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "",
+        "links": [
+          {
+            "title": "オペレーター 過積載 - マイクロソフト Learn",
+            "url": "https://learn.microsoft.com/en-us/cpp/cpp/operator-overloading",
+            "type": "official"
+          },
+          {
+            "title": "オペレーターオーバーロード - cppreference.com",
+            "url": "https://en.cppreference.com/w/cpp/language/operators",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "xjiFBVe-VGqCqWfkPVGKf",
+      "type": "subtopic",
+      "label": "ランブダス",
+      "position": {
+        "x": 518.4590437918661,
+        "y": 711.0698136821208
+      },
+      "size": {
+        "width": 255,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center",
+        "colorType": "c"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "sRAiZODQQ8xrMiVpCdnI7",
+        "color": "#2b78e4",
+        "label": "中間話題 / 次の選択",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "ランブダ (Lambda expressions) とは,匿名関数をコード内で直接定義するための簡潔な方法である.基本的には,周囲の範囲から変数を捕捉できる無名の関数である.ランブダは,短い,自律的な操作で特に有用であり,単純なタスクのために単一の命名関数を定義する必要性をなくしてコードをより読みやすく,効率的にします.",
+        "links": [
+          {
+            "title": "ランブダ表現",
+            "url": "https://en.cppreference.com/w/cpp/language/lambda",
+            "type": "article"
+          },
+          {
+            "title": "C++ でランブダス",
+            "url": "https://youtu.be/MH8mLFqj-n8",
+            "type": "video"
+          },
+          {
+            "title": "AWS Lambdaに関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/aws-lambda?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "MwznA4qfpNlv6sqSNjPZi",
+      "type": "topic",
+      "label": "データタイプ",
+      "position": {
+        "x": 128.06739090002304,
+        "y": 569.015602149086
+      },
+      "size": {
+        "width": 214,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "FURC-X3vopFKhZ0F5BdYH",
+        "color": "#6d7500",
+        "label": "初心者 トピックス / ここから始めましょう",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "C++ のデータ型は,変数が持つことができる値の種類を分類し,メモリ使用と許容操作に影響を与えます. C++ は整数には `int`,浮き点数には `2`,単文字には `char`,論理的な値には `bool`といった基本的なタイプを提供しています.これらの基礎を超えて,配列,指数,参照などの衍生型はより複雑なデータ処理能力を提供します.最後に,ユーザーは構造,クラス,組合を使用して独自のタイプを定義し,カスタムデータ組織を作成できます.",
+        "links": [
+          {
+            "title": "データタイプ",
+            "url": "https://www.w3schools.com/cpp/cpp_data_types.asp",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "f1djN0GxoeVPr_0cl6vMq",
+      "type": "subtopic",
+      "label": "静的タイプ",
+      "position": {
+        "x": 128.06739090002304,
+        "y": 656.9515973902295
+      },
+      "size": {
+        "width": 214,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "sRAiZODQQ8xrMiVpCdnI7",
+        "color": "#2b78e4",
+        "label": "中間話題 / 次の選択",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "C++ で実装された静的タイピングは,プログラムが実行される前に,コンパイル時に変数のデータタイプが知られ,確認されるシステムである.つまり,各変数は特定のタイプ (例えば `int`, `double`,または `char`) で宣言され,コンパイルはそのタイプの値のみが割り当てられていることを強制する.C++ ではタイプ変換が可能であるが,互換性のないタイプを割り当てようとすると,暗黙の変換 (可能な場合) またはコンパイルエラーが生じ,タイプの安全性を確保し,開発プロセス初期にエラーを検出するのに役立ちます.",
+        "links": [
+          {
+            "title": "タイプカバー",
+            "url": "https://www.programiz.com/cpp-programming/type-conversion",
+            "type": "article"
+          },
+          {
+            "title": "スタティック Vs ダイナミック",
+            "url": "https://www.techtarget.com/searchapparchitecture/tip/Static-vs-dynamic-typing-The-details-and-differences",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "i0EAFEUB-F0wBJWOtrl1A",
+      "type": "subtopic",
+      "label": "ダイナミック・タイピング",
+      "position": {
+        "x": 128.06739090002304,
+        "y": 709.9515973902295
+      },
+      "size": {
+        "width": 214,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "sRAiZODQQ8xrMiVpCdnI7",
+        "color": "#2b78e4",
+        "label": "中間話題 / 次の選択",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "C++ は基本的に,データ型がコンパイル時にチェックされる静的タイプ言語であるが,一定程度のダイナミックタイピングを実現するためのメカニズムを提供する.これは,実行時に変数のデータ型を決定することを含む.主に,任意のデータ型 (明示的なキャスティングを必要とする) を指すことができる `void*`ポインタを使用し,任意のデータ型を指すことができる.そして,任意のタイプの値を保持できるタイプセキュアなコンテナである `std::any`クラス (C++17で導入).両方のアプローチは柔軟性を可能にするが,実行時間の潜在的オーバーヘッドとタイプ関連のエラーのために注意深く考慮する必要がある.",
+        "links": [
+          {
+            "title": "C++ でダイナミックタイピング",
+            "url": "https://codesignal.com/learn/courses/advanced-functional-programming-techniques/lessons/dynamic-type-declaration-in-cpp",
+            "type": "article"
+          },
+          {
+            "title": "静的対動的タイピング",
+            "url": "https://www.youtube.com/watch?v=GqXpFycPWLE",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "r0yD1gfn03wTpEBi6zNsu",
+      "type": "subtopic",
+      "label": "RTTI",
+      "position": {
+        "x": 128.06739090002304,
+        "y": 783.5772457992408
+      },
+      "size": {
+        "width": 214,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "sRAiZODQQ8xrMiVpCdnI7",
+        "color": "#2b78e4",
+        "label": "中間話題 / 次の選択",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "C++ の Run-Time Type Identification (RTTI) は,プログラム実行中にオブジェクトの種類を決定することを可能にします.これはポリモルフィズムと継承と作業する際に特に有用です.C++ は RTTI の2つの主要なメカニズムを提供します.タイプ情報を回収する `typeid` オペレーターと,実行時にポインタまたは参照を安全にタイプ間で変換する `dynamic_cast` オペレーター.潜在的な鋳造故障を優雅に処理する.強力なが,RTTI が実行時間のチェックのためにいくつかのパフォーマンスオーバーヘッドを導入できることを覚えておいてください.",
+        "links": [
+          {
+            "title": "C++ の Runtime Type Identification (RTTI) はどのようなものですか?",
+            "url": "https://www.codeguru.com/cplusplus/what-is-runtime-type-identification-rtti-in-c/",
+            "type": "article"
+          },
+          {
+            "title": "ダイナミックキャスト c++ ランタイムタイプ 識別例 なぜダイナミックキャストを使用するのか - RTTI",
+            "url": "https://www.youtube.com/watch?v=2PXN7Zk9v80",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "DWw8NxkLpIpiOSUaZZ1oA",
+      "type": "topic",
+      "label": "指針と参照",
+      "position": {
+        "x": -281.9671760495324,
+        "y": 569.015602149086
+      },
+      "size": {
+        "width": 237,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "FURC-X3vopFKhZ0F5BdYH",
+        "color": "#6d7500",
+        "label": "初心者 トピックス / ここから始めましょう",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "パイナーと参照は,変数への間接的なアクセスを可能にするC++の基本的な概念である. パイナーは他の変数のメモリアドレスを保存し,動的なメモリ管理と操作を可能にします.一方,参照は既存の変数のための偽名として機能し,その値を直接アクセスし変更する方法を提供します. パイナーと参照の違いを理解することは,常数への指数および指数を含む,効率的で安全なC++コードを書くのに不可欠です.",
+        "links": [
+          {
+            "title": "C++ パイナー",
+            "url": "https://www.youtube.com/watch?v=slzcWKWCMBg",
+            "type": "article"
+          },
+          {
+            "title": "C++ の関数ポインタ",
+            "url": "https://www.scaler.com/topics/cpp/function-pointer-cpp/",
+            "type": "article"
+          },
+          {
+            "title": "C++ の指針は簡単に説明できます",
+            "url": "https://www.youtube.com/watch?v=slzcWKWCMBg",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "uUzRKa9wGzdUwwmAg3FWr",
+      "type": "subtopic",
+      "label": "参照",
+      "position": {
+        "x": -284.4671760495324,
+        "y": 661.0205568938326
+      },
+      "size": {
+        "width": 242,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "FURC-X3vopFKhZ0F5BdYH",
+        "color": "#6d7500",
+        "label": "初心者 トピックス / ここから始めましょう",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "C++では,参照は既存の変数に代名詞である.同じメモリ位置にアクセスするための代替名称を提供します.参照は,いくつかの点でポインタに似ているが,重要な違いがあります.参照が作成されたときに初期化され,初期化されると異なる変数に参照するために変更することはできません.参照は一般的に参照によって関数に参数を送信するために使用され,関数が元の変数を変更することを可能にします.",
+        "links": [
+          {
+            "title": "参照",
+            "url": "https://en.cppreference.com/w/cpp/language/reference",
+            "type": "article"
+          },
+          {
+            "title": "C++参照",
+            "url": "https://www.w3schools.com/cpp/cpp_references.asp",
+            "type": "article"
+          },
+          {
+            "title": "C++ の参照",
+            "url": "https://www.youtube.com/watch?v=IzoFn3dfsPA",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mSFwsTYvmg-GwG4_DEIEf",
+      "type": "subtopic",
+      "label": "記憶モデル",
+      "position": {
+        "x": -284.4671760495324,
+        "y": 714.0205568938326
+      },
+      "size": {
+        "width": 242,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "FURC-X3vopFKhZ0F5BdYH",
+        "color": "#6d7500",
+        "label": "初心者 トピックス / ここから始めましょう",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "C++メモリモデルは,プログラムが実行中にメモリをどのように組織し管理するかを定義します.メモリを異なるセグメントに分割し,それぞれ特定の目的を果たします.機能呼び出しとローカル変数のためのスタック,動的なメモリ割り当てのための堆積物,グローバルおよび静態変数のためのデータセグメント,実行可能な指示のためのコードセグメント.このモデルを理解することは,効率的でバグフリーなC++コードを書くのに不可欠です.特にメモリ管理とリソース割り当てを扱うとき.",
+        "links": [
+          {
+            "title": "C/C++ のメモリセグメント",
+            "url": "https://www.youtube.com/watch?v=2htbIR2QpaM",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "9aA_-IfQ9WmbPgwic0mFN",
+      "type": "subtopic",
+      "label": "対象の寿命",
+      "position": {
+        "x": -284.4671760495324,
+        "y": 767.0205568938326
+      },
+      "size": {
+        "width": 242,
+        "height": 50
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "FURC-X3vopFKhZ0F5BdYH",
+        "color": "#6d7500",
+        "label": "初心者 トピックス / ここから始めましょう",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "C++ のオブジェクト寿命は,オブジェクトが存在し,存在しなくなったときを決定します.この重要な概念はメモリ管理とプログラムの正確性を影響します.C++ は,4つのストレージ期間を定義します.静态 (プログラムの期間中に存在します),スレッド (スレッドの期間中に存在します),自動 (範囲内で存在します),ダイナミック ( `new`と `delete`によって制御されます).オブジェクト寿命を効果的に管理することは,特にダイナミックなオブジェクトは,メモリ漏洩を防止し,安定したアプリケーション行動を確保するために不可欠です.",
+        "links": [
+          {
+            "title": "生涯",
+            "url": "https://en.cppreference.com/w/cpp/language/lifetime.html",
+            "type": "article"
+          },
+          {
+            "title": "C++ でオブジェクトライフタイム (スタック/スコップライフタイム)",
+            "url": "http://youtube.com/watch?v=iNuTwvD6ciI",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ulvwm4rRPgkpgaqGgyH5a",
+      "type": "subtopic",
+      "label": "賢明な指針",
+      "position": {
+        "x": -275.9671760495324,
+        "y": 834.0632184187253
+      },
+      "size": {
+        "width": 225,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center",
+        "colorType": "h"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "スマートポインタは,通常のポインタのように振る舞うクラスですが,自動メモリ管理を提供します.もはや必要とされていないときに指しているメモリを自動的に移転することによってメモリ漏洩を防ぐのに役立ちます.これは参照カウントやRAII (リソース取得は初期化) のような技術によって達成されます.本質的には,彼らは原始ポインタを封鎖し,スマートポインタが範囲外出またはリセットされたときに指しているメモリが解放されることを確保します.",
+        "links": [
+          {
+            "title": "賢明な指針",
+            "url": "https://en.cppreference.com/book/intro/smart_pointers",
+            "type": "article"
+          },
+          {
+            "title": "C++ の SMART POINTERS (std::unique_ptr, std::shared_ptr, std::weak_ptr)",
+            "url": "https://www.youtube.com/watch?v=UOB7-B2MfwA",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "vUwSS-uX36OWZouO0wOcy",
+      "type": "subtopic",
+      "label": "weak_ptr",
+      "position": {
+        "x": -275.9671760495324,
+        "y": 887.0632184187253
+      },
+      "size": {
+        "width": 225,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "sRAiZODQQ8xrMiVpCdnI7",
+        "color": "#2b78e4",
+        "label": "中間話題 / 次の選択",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "`weak_ptr` は C++ のスマートポインタで, `shared_ptr` が管理するオブジェクトへの所有者でない参照を持っています. `shared_ptr` が管理するオブジェクトの所有者数には参加しません. つまり,オブジェクトを所有している `shared_ptr` が対象から外れた場合,オブジェクトが破壊されるのを防ぐことはできません. 主な用途は, `shared_ptr` が管理するオブジェクトがまだ存在しているかどうかを検出することです. `shared_ptr` を使用して `weak_ptr` から `lock `) ` を取得できますが,オブジェクトが既に破壊された場合,これは空き `shared_ptr` を返却する可能性があります.",
+        "links": []
+      }
+    },
+    {
+      "id": "b5jZIZD_U_CPg-_bdndjz",
+      "type": "subtopic",
+      "label": "共有_ptr",
+      "position": {
+        "x": -275.9671760495324,
+        "y": 940.0632184187253
+      },
+      "size": {
+        "width": 225,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "FURC-X3vopFKhZ0F5BdYH",
+        "color": "#6d7500",
+        "label": "初心者 トピックス / ここから始めましょう",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "`shared_ptr` は C++ のスマートポインタで,ダイナミックに割り当てられたメモリを管理します.複数のポインタが同じオブジェクトを安全に所有し共有できるようにします.オブジェクトを指す最後の `shared_ptr` が範囲外に出ると,管理されたオブジェクトは自動的に削除され,メモリ漏洩を防止します.これは同じメモリ場所を指す `shared_ptr` インスタンスの数を追跡する参照カウントを維持することによって達成されます.",
+        "links": []
+      }
+    },
+    {
+      "id": "k9c5seRkhgm_yHPpiz2X0",
+      "type": "subtopic",
+      "label": "unique_ptr",
+      "position": {
+        "x": -275.9671760495324,
+        "y": 993.0632184187253
+      },
+      "size": {
+        "width": 225,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "FURC-X3vopFKhZ0F5BdYH",
+        "color": "#6d7500",
+        "label": "初心者 トピックス / ここから始めましょう",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "`unique_ptr` は C++ のスマートポインタで,ダイナミックに割り当てられたオブジェクトの独占所有権を保証します. `unique_ptr` はいつでも特定のオブジェクトを指すことができるようにします. `unique_ptr` が範囲外または明示的にリセットされたときに管理されたオブジェクトを自動的に削除することによってメモリ漏洩を防止します. `unique_ptr` を使用して所有権を別の `unique_ptr` に転送できます. しかし,単身所有権原則を強制するためにコピーすることは許されません.",
+        "links": [
+          {
+            "title": "std::unique_ptr - 詳細参照",
+            "url": "https://en.cppreference.com/w/cpp/memory/unique_ptr",
+            "type": "official"
+          },
+          {
+            "title": "スマートポインタ  unique_ptr",
+            "url": "https://www.learncpp.com/cpp-tutorial/stdunique_ptr/",
+            "type": "article"
+          },
+          {
+            "title": "std::unique_ptr をいつ使うべきか? - StackOverflow 議論",
+            "url": "https://stackoverflow.com/questions/13782051/when-should-you-use-stdunique-ptr",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "uEGEmbxegATIrvGfobJb9",
+      "type": "subtopic",
+      "label": "ロー・ポインター",
+      "position": {
+        "x": -275.9671760495324,
+        "y": 1060.9498696738276
+      },
+      "size": {
+        "width": 225,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center",
+        "colorType": "h"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ローポインタは,別の変数のメモリアドレスを保存する変数である.それらは直接値が保存されているメモリ内の位置を保持し,その値にアクセスし操作することができます. ローポインタを使用するには,注意深くメモリ管理が必要です.",
+        "links": [
+          {
+            "title": "ローポインタ (C++)",
+            "url": "https://learn.microsoft.com/en-us/cpp/cpp/raw-pointers?view=msvc-170",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Gld0nRs0sM8kRe8XmYolu",
+      "type": "subtopic",
+      "label": "新しい/削除するオペレーター",
+      "position": {
+        "x": -275.9671760495324,
+        "y": 1113.9498696738276
+      },
+      "size": {
+        "width": 225,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "FURC-X3vopFKhZ0F5BdYH",
+        "color": "#6d7500",
+        "label": "初心者 トピックス / ここから始めましょう",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "C++ の `new`と `delete`オペレータは,ダイナミックなメモリ割り当てとデロケーションに使用されます. `new`は,堆積のメモリブロックを割り当て,そのブロックの始まりにポインタを返します. `delete`は,以前は `new`によって割り当てられたメモリブロックをリリースし,他の用途に利用できます. `new`と `delete`の適切な使用は,メモリ漏洩を防ぐために不可欠です.",
+        "links": []
+      }
+    },
+    {
+      "id": "6w0WExQ4lGIGgok6Thq0s",
+      "type": "subtopic",
+      "label": "記憶の漏れ",
+      "position": {
+        "x": -275.9671760495324,
+        "y": 1166.9498696738276
+      },
+      "size": {
+        "width": 225,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "FURC-X3vopFKhZ0F5BdYH",
+        "color": "#6d7500",
+        "label": "初心者 トピックス / ここから始めましょう",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "ダイナミックに割り当てられたメモリがプログラムによってアクセスできないが,プログラムがオペレーティングシステムに戻さない場合,メモリ漏洩が発生します. これにより,メモリがプログラムの他の部分または他のアプリケーションによって使用できないため,利用可能なメモリが徐々に減少し,パフォーマンスの劣化またはプログラムクラッシュにつながる可能性があります.",
+        "links": []
+      }
+    },
+    {
+      "id": "Zw2AOTK5uc9BoKEpY7W1C",
+      "type": "topic",
+      "label": "構造化コードベース",
+      "position": {
+        "x": 66.99375240505299,
+        "y": 1116.4555450086277
+      },
+      "size": {
+        "width": 224,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "FURC-X3vopFKhZ0F5BdYH",
+        "color": "#6d7500",
+        "label": "初心者 トピックス / ここから始めましょう",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "コードベースを構造化することは,よりよいメンテナンス,効率,読みやすさを確保するためにコードを組織し,モジュール化することを意味します.これはコラボレーションを強化し,機能追加を簡素化し,デバッグを加速します.C++では,ネームスペースのような技術には,ガード,ヘッダー/ソースファイル分離,一貫したコードフォーマットが有効なコードベース構造にとって不可欠です.",
+        "links": []
+      }
+    },
+    {
+      "id": "dKCYmxDNZubCVcR5rf8b-",
+      "type": "subtopic",
+      "label": "適用範囲",
+      "position": {
+        "x": 66.99375240505299,
+        "y": 1025.0759762139076
+      },
+      "size": {
+        "width": 224,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center",
+        "colorType": "h"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "FURC-X3vopFKhZ0F5BdYH",
+        "color": "#6d7500",
+        "label": "初心者 トピックス / ここから始めましょう",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "C++ の範囲は,プログラム内の変数,関数,および他の識別子の可視性と寿命を定義します.これらのエンティティがどこにアクセスでき,記憶に残る期間を規定します.C++ は,グローバル範囲 (プログラム全体でアクセス可能),ローカル範囲 (関数またはブロックに限定),ネームスペース範囲 (グループ内で組織),クラス範囲 (クラスメンバーに特有の) を含む複数の範囲を採用します.",
+        "links": [
+          {
+            "title": "C++ 変数範囲",
+            "url": "https://www.w3schools.com/cpp/cpp_scope.asp",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "iIdC7V8sojwyEqK1xMuHn",
+      "type": "subtopic",
+      "label": "名前空間",
+      "position": {
+        "x": 66.99375240505299,
+        "y": 980.0759762139076
+      },
+      "size": {
+        "width": 224,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "FURC-X3vopFKhZ0F5BdYH",
+        "color": "#6d7500",
+        "label": "初心者 トピックス / ここから始めましょう",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "C++ の名前空間は,コードを論理的なグループに整理する方法であり,異なるライブラリや大きなプロジェクトの部分からのコードを使用する際に名前衝突を防ぐ.変数,関数,クラス,および他の名前空間のためのコンテナとして機能します. スコープ解像度オペレータ (`::`) を使用して名前空間内の要素にアクセスし,さらに組織するためのネストネームスペース,および可能の名前衝突を意識しながらコードを簡素化するために,キーワード (``) を使用して現在の範囲に選択的に要素または全体の名前空間をインポートできます.",
+        "links": [
+          {
+            "title": "名前空間",
+            "url": "https://learn.microsoft.com/en-us/cpp/cpp/namespaces-cpp?view=msvc-170",
+            "type": "article"
+          },
+          {
+            "title": "C++の名前空間とは?",
+            "url": "https://www.youtube.com/watch?v=2lcIKzFHjSM",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "CK7yf8Bo7kfbV6x2tZTrh",
+      "type": "subtopic",
+      "label": "ヘッダ / CPPファイル",
+      "position": {
+        "x": 66.99375240505299,
+        "y": 921.9725710130274
+      },
+      "size": {
+        "width": 224,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center",
+        "colorType": "h"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "FURC-X3vopFKhZ0F5BdYH",
+        "color": "#6d7500",
+        "label": "初心者 トピックス / ここから始めましょう",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "C++では,コードを組織することは,プログラムをヘッダーとソースファイルに分割することを効果的に含みます.ヘッダーファイル (`.h`または`.hpp`) は,クラス,関数,変数などのインターフェースを宣言し,コードの他の部分の模様として機能します.ソースファイル (`.cpp`拡張) は,ヘッダーで宣言された機能を実装します.この分離はモジュラリティをサポートし,個別のコンパイルを通じてコンパイル時間を短縮し,インターフェースと実装を明確に定義することによってコードの読みやすさと維持性を向上します.",
+        "links": [
+          {
+            "title": "ヘッダーファイル (C++)",
+            "url": "https://learn.microsoft.com/en-us/cpp/cpp/header-files-cpp?view=msvc-170",
+            "type": "article"
+          },
+          {
+            "title": "C++ (初心者向けプログラミング・チュートリアル) のヘッダーファイルとは",
+            "url": "https://www.youtube.com/watch?v=qaGzc56Rekg",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "CMlWNQwpywNhO9B6Yj6Me",
+      "type": "topic",
+      "label": "構造とクラス",
+      "position": {
+        "x": 418.86058049826306,
+        "y": 1116.4555450086277
+      },
+      "size": {
+        "width": 237,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "FURC-X3vopFKhZ0F5BdYH",
+        "color": "#6d7500",
+        "label": "初心者 トピックス / ここから始めましょう",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "C++ の構造とクラスは,ユーザー定義されたデータタイプを作成するための設計図である.異なるデータタイプの変数 (メンバー) を単一の名前でグループ化させ,複雑なエンティティを表示することができます.主要な違いは,デフォルトアクセス制御にあります.構造メンバーはデフォルトで公開で,クラスメンバーはプライベートで,データのアクセスと操作に影響します.",
+        "links": [
+          {
+            "title": "クラス y structs (C++)",
+            "url": "https://learn.microsoft.com/es-es/cpp/cpp/classes-and-structs-cpp?view=msvc-170",
+            "type": "article"
+          },
+          {
+            "title": "C++ のクラスと構造",
+            "url": "https://www.youtube.com/watch?v=fLgTtaqqJp0",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "7sdEzZCIoarzznwO4XcCv",
+      "type": "subtopic",
+      "label": "ゼロのルール 5 3",
+      "position": {
+        "x": 486.0885117402935,
+        "y": 1335.826261482708
+      },
+      "size": {
+        "width": 285,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "sRAiZODQQ8xrMiVpCdnI7",
+        "color": "#2b78e4",
+        "label": "中間話題 / 次の選択",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "C++ クラスおよび構造内のリソースを管理するためのガイドラインである. ゼロのルールでは,あなたのクラスが明示的にリソースを管理していない場合,コンパイラにリソース管理を処理させることを提案します.あなたのクラスがリソースを管理している場合,C++11以前は3のルールを遵守し,ディストラクター,コピーコンストラクター,コピー割り当てオペレータを定義する必要がありました. モーブセマンティクスで現代的なC++ はこれをルールの5に拡張し,リソースの所有権を効率的に転送するためにモーブコンストラクターと移動割り当てオペレータを追加します.",
+        "links": [
+          {
+            "title": "3/5/0のルール",
+            "url": "https://en.cppreference.com/w/cpp/language/rule_of_three.html",
+            "type": "article"
+          },
+          {
+            "title": "0/3/5のルール",
+            "url": "https://medium.com/@Farhan11637/the-rule-of-0-3-5-2e608a717811",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "WjHpueZDK-d3oDNMVZi9w",
+      "type": "subtopic",
+      "label": "多重 の 遺産",
+      "position": {
+        "x": 539.0885117402935,
+        "y": 1213.538589268166
+      },
+      "size": {
+        "width": 232,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center",
+        "colorType": "h"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "sRAiZODQQ8xrMiVpCdnI7",
+        "color": "#2b78e4",
+        "label": "中間話題 / 次の選択",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "C++ の多重継承は,クラスが複数のベースクラスを継承し,その性質と振る舞いを単一の派生クラスを組み合わせることができる.これは,クラスが複数の親クラスからデータメンバーとメンバー機能を継承することができ,より複雑で専門的なクラスを作成する方法を提供することを意味します.しかし,多重継承を慎重に使用することが不可欠です.それは曖昧さやダイヤモンド問題などの複雑性を導入し,クラス階層と潜在的な紛争解決をよく理解する必要があります.",
+        "links": [
+          {
+            "title": "多重 の 遺産",
+            "url": "https://www.w3schools.com/cpp/cpp_inheritance_multiple.asp",
+            "type": "article"
+          },
+          {
+            "title": "C++ チュートリアル",
+            "url": "https://www.youtube.com/watch?v=sswTE0u0r7g",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b3-QYKNcW3LYCNOza3Olf",
+      "type": "subtopic",
+      "label": "対象型 プログラミング",
+      "position": {
+        "x": 468.86058049826306,
+        "y": 1022.9612203434276
+      },
+      "size": {
+        "width": 307,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "FURC-X3vopFKhZ0F5BdYH",
+        "color": "#6d7500",
+        "label": "初心者 トピックス / ここから始めましょう",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "オブジェクト指向プログラミングは,データ (属性) とそのデータで動作する機能 (方法) を組み合わせる\"オブジェクト\"を中心としたプログラミングのスタイルである.OOPは,これらのオブジェクトとそれらの相互作用を中心にプログラムを組織することによってモジュール化,再利用可能,維持可能なコードを作成することを可能にします.OOPの主要なコンセプトにはクラス (オブジェクトのブループリント),エンカプセリング (データと方法をまとめる),継承 (既存のクラスから新しいクラスを作成する),およびポリモルフィズム (異なるタイプのための単一のインターフェースを使用する) が含まれます.",
+        "links": [
+          {
+            "title": "C++ OOP",
+            "url": "https://www.w3schools.com/cpp/cpp_oop.asp",
+            "type": "article"
+          },
+          {
+            "title": "C++コースにおけるオブジェクト指向プログラミング (OOP)",
+            "url": "https://www.youtube.com/watch?v=wN0x9eZLix4",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hNBErGNiegLsUJn_vgcOR",
+      "type": "subtopic",
+      "label": "仮想方法",
+      "position": {
+        "x": 468.86058049826306,
+        "y": 921.9725710130272
+      },
+      "size": {
+        "width": 167,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "FURC-X3vopFKhZ0F5BdYH",
+        "color": "#6d7500",
+        "label": "初心者 トピックス / ここから始めましょう",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "仮想メソッドは,C++ クラスにおけるダイナミック・ポリモルフィズムの礎石である.それらは,元クラスで既に定義されている関数の独自の特定実装を提供できるようにします.ベースクラスポインタまたは参照を通じて仮想関数を呼び出すとき,実行時間は,指向されるオブジェクトの実際のタイプではなく,指標または参照そのものの種類に基づいて実行する関数のバージョンを決定します.ダイナミック・ディスパッチとして知られるこのメカニズムは,実行時に行動が定番できる柔軟かつ拡張可能なコードを可能にします.",
+        "links": [
+          {
+            "title": "C++ 仮想関数ドキュメント",
+            "url": "https://en.cppreference.com/w/cpp/language/virtual",
+            "type": "official"
+          },
+          {
+            "title": "仮想機能説明 (YouTube)",
+            "url": "https://www.youtube.com/watch?v=oIV2KchSyGQ&ab_channel=TheCherno",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "s99ImazcwCgAESxZd8ksa",
+      "type": "subtopic",
+      "label": "仮想テーブル",
+      "position": {
+        "x": 626.8605804982631,
+        "y": 921.9725710130272
+      },
+      "size": {
+        "width": 149,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "FURC-X3vopFKhZ0F5BdYH",
+        "color": "#6d7500",
+        "label": "初心者 トピックス / ここから始めましょう",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "仮想テーブル (vtables) は,C++ で動的多形化,特に仮想機能を実装するために使用されるコンパイラ生成の検索テーブルです.仮想機能を宣言または継承する各クラスには,そのクラスの仮想機能の最も派生されたバージョンへのポインタを含むvtableがあります. 仮想機能がポインタまたはベースクラスへの参照を通じて呼び出されたとき,オブジェクトの動的タイプに基づいて実行する実際の関数を決定するために実行時にvtable に相談されます.",
+        "links": [
+          {
+            "title": "C++ で理解可能な仮想テーブル",
+            "url": "https://pabloariasal.github.io/2017/06/10/understanding-virtual-tables/",
+            "type": "article"
+          },
+          {
+            "title": "クラス 第18部 - Vtableを理解する (人気のインタビュー質問)",
+            "url": "https://www.youtube.com/watch?v=hS7kPtVB1vI",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "7h1VivjCPDwriL7FirtFv",
+      "type": "subtopic",
+      "label": "ダイナミック・ポリモルフィズム",
+      "position": {
+        "x": 468.86058049826306,
+        "y": 968.6623554103876
+      },
+      "size": {
+        "width": 307,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center",
+        "colorType": "h"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "FURC-X3vopFKhZ0F5BdYH",
+        "color": "#6d7500",
+        "label": "初心者 トピックス / ここから始めましょう",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "ダイナミック・ポリモルフィズムとは,C++ の特徴で,異なるクラスのオブジェクトを共通のタイプのオブジェクトとして扱うことができる.これは仮想関数によって達成される.その基クラスで定義された関数を無効にすることができる.仮想関数が基クラス指数または参照を通じて呼び出されたとき,生成クラスオブジェクトの正しい関数実装は実行時に実行され,柔軟かつ拡張可能なコードを可能にします.",
+        "links": [
+          {
+            "title": "C++ でダイナミック・ポリモルフィズムを理解する",
+            "url": "https://hackernoon.com/understanding-dynamic-polymorphism-in-c",
+            "type": "article"
+          },
+          {
+            "title": "仮想キーワードでダイナミックな結合 (ポリモルフィズム)",
+            "url": "https://www.youtube.com/watch?v=-FUhG98hdLI",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "B2SGBENzUMl0SAjG4j91V",
+      "type": "topic",
+      "label": "例外処理",
+      "position": {
+        "x": 178.53282395046762,
+        "y": 1286.826261482708
+      },
+      "size": {
+        "width": 199,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "FURC-X3vopFKhZ0F5BdYH",
+        "color": "#6d7500",
+        "label": "初心者 トピックス / ここから始めましょう",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "C++ の例外処理は,実行時間のエラーや予期せぬイベントを管理するためのメカニズムで,突然のプログラム終了を防止します. ヽtry`, `catch`, `throw`キーワードを使用して,例外のコードブロックを監視し,特定の例外タイプと信号エラー条件をそれぞれ処理します. `noexcept`指定は,関数が例外を投げないことを保証します. `<stdexcept>`の標準例外クラスは,例えば `std::exception`, `std::logic_error`,および `std::runtime_error`,様々なエラータイプを表示し,処理する構造的なアプローチを提供しています.",
+        "links": [
+          {
+            "title": "例外処理",
+            "url": "https://www.w3schools.com/cpp/cpp_exceptions.asp",
+            "type": "article"
+          },
+          {
+            "title": "C++ の例外処理 (プログラムでエラーを処理する方法)",
+            "url": "https://www.youtube.com/watch?v=kjEhqgmEiWY",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "oWygnpwHq2poXQMTTSCpl",
+      "type": "subtopic",
+      "label": "出口コード",
+      "position": {
+        "x": 178.53282395046762,
+        "y": 1384.826261482708
+      },
+      "size": {
+        "width": 199,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "FURC-X3vopFKhZ0F5BdYH",
+        "color": "#6d7500",
+        "label": "初心者 トピックス / ここから始めましょう",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "エクジットコードは,実行が成功するか,エラーが発生したかを示すプログラムが完了するとオペレーティングシステムに返却する数値である.返却値は0で成功を示し,ゼロでない値は失敗を示し,ゼロでないコードの特定の意味がアプリケーションに依存する.C++では, `メイン`関数内の `ターン`声明を使用して出口コードを指定するか, `エクジット (`) `関数を `<cstdlib>`ヘッダーから呼び出すことで指定することができます.",
+        "links": []
+      }
+    },
+    {
+      "id": "NJud5SXBAUZ6Sr78kZ7jx",
+      "type": "subtopic",
+      "label": "例外",
+      "position": {
+        "x": 180.4684674563091,
+        "y": 1438.7934586483889
+      },
+      "size": {
+        "width": 199,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "FURC-X3vopFKhZ0F5BdYH",
+        "color": "#6d7500",
+        "label": "初心者 トピックス / ここから始めましょう",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "C++ の例外処理は,実行時間のエラーを管理するためのメカニズムを提供し,プログラムの安定性を確保します.これは, `try`, `catch`,および `throw`ブロックを使用して達成されます. `try`ブロックは例外を生成するコードを閉じます.エラーが発生した場合, `throw`声明は例外オブジェクトを作成し,その後にその特定の例外タイプに対処するように設計された適切な `catch`ブロックによってキャッチされ,処理されます.",
+        "links": []
+      }
+    },
+    {
+      "id": "y4-P4UNC--rE1vni8HdTn",
+      "type": "subtopic",
+      "label": "アクセス違反",
+      "position": {
+        "x": 180.4684674563091,
+        "y": 1492.7934586483889
+      },
+      "size": {
+        "width": 199,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "FURC-X3vopFKhZ0F5BdYH",
+        "color": "#6d7500",
+        "label": "初心者 トピックス / ここから始めましょう",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "アクセス違反は,プログラムがアクセス許可のないメモリ場所から読み書きしようとすると発生する.これはC++の一般的なエラーで,無効または無効なポインタを削除する,その限界を超えたマレイにアクセスする,またはすでに解放されたメモリを使用しようとする問題から発生する.デバッグツールであるデバッグ,静止解析器 (Visual Studioのようなもの),および実行時のメモリエラー検出器 (ValgrindまたはAddressSanitizerのようなもの) は,違反コードを特定してこれらの違反を特定して解決するために不可欠です.",
+        "links": []
+      }
+    },
+    {
+      "id": "-6fwJQOfsorgHkoQGp4T3",
+      "type": "topic",
+      "label": "言語の概念",
+      "position": {
+        "x": -286.929978402122,
+        "y": 1286.826261482708
+      },
+      "size": {
+        "width": 322,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "FURC-X3vopFKhZ0F5BdYH",
+        "color": "#6d7500",
+        "label": "初心者 トピックス / ここから始めましょう",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "C++ の基礎は,効率的で堅牢なアプリケーションを作成できるようにするいくつかのコア言語コンセプトに基づいています.これらのコンセプトには,情報を保存するための変数やデータタイプなどの基本的な構成要素,条件とループでプログラムフローを管理するための制御構造,再利用可能なブロックにコードをモジュラライズするための機能が含まれています.さらに,C++ は,データ収集を管理するためのアレイやベクトルなどのデータ構造を提供し,ポインタを通じて強力なメモリ操作,構造とクラスを介してオブジェクト指向のプログラミング機能,相続とポリモルフィズムをサポートします.最後に,例外処理は実行時間のエラーから優雅な回復を可能にします.",
+        "links": []
+      }
+    },
+    {
+      "id": "CG01PTVgHtjfKvsJkJLGl",
+      "type": "subtopic",
+      "label": "オート (自動型減算)",
+      "position": {
+        "x": -286.929978402122,
+        "y": 1389.7934586483889
+      },
+      "size": {
+        "width": 322,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "FURC-X3vopFKhZ0F5BdYH",
+        "color": "#6d7500",
+        "label": "初心者 トピックス / ここから始めましょう",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "`auto`は,C++11で導入されたC++のキーワードで,自動型引き算を可能にします.コンパイル時に初期化表現から変数のデータタイプを推算することができます.これは,特に複雑なまたは予測不能なタイプに対処する際に,タイプを明示的に宣言する必要性を軽減することによってコードを簡素化します.これにより,よりクリーンで維持可能なコードにつながります.C++14では,返還式に基づいて関数返還タイプを引き算することもできます.",
+        "links": [
+          {
+            "title": "自動型減算:自動",
+            "url": "https://www.educative.io/courses/cpp-fundamentals-for-professionals/automatic-type-deduction-auto",
+            "type": "article"
+          },
+          {
+            "title": "C++ の\"自動\"キーワード",
+            "url": "https://www.youtube.com/watch?v=2vOPEuiGXVo",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PiMhw1oP9-NZEa6I9u4lX",
+      "type": "subtopic",
+      "label": "鋳造型",
+      "position": {
+        "x": -286.929978402122,
+        "y": 1444.7147615325937
+      },
+      "size": {
+        "width": 322,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center",
+        "colorType": "h"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "FURC-X3vopFKhZ0F5BdYH",
+        "color": "#6d7500",
+        "label": "初心者 トピックス / ここから始めましょう",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "C++ のタイプキャスティングには,変数のデータ型を別のデータ型に変換することを含みます.C++ では,C型キャスティング (Cから継承された),`static_cast` (コンパイル時に明示的な変換のために),`dynamic_cast` (クラス階層で安全なダウンキャスティングのために),`reinterpret_cast` (低レベルのビット式再解釈のために),および`const_cast (変数のコンストネスを変更するために) が提供されています.適切なキャスティングを選択することは安全かつ効率的なコード実行にとって不可欠です.",
+        "links": [
+          {
+            "title": "鋳造型",
+            "url": "https://www.w3schools.com/cpp//cpp_type_casting.asp",
+            "type": "article"
+          },
+          {
+            "title": "C++ でキャスティング",
+            "url": "https://youtu.be/pWZS1MtxI-A",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "_XB2Imyf23-6AOeoNLhYQ",
+      "type": "subtopic",
+      "label": "static_cast",
+      "position": {
+        "x": -278.29496924274974,
+        "y": 1500.2090861977936
+      },
+      "size": {
+        "width": 141,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "FURC-X3vopFKhZ0F5BdYH",
+        "color": "#6d7500",
+        "label": "初心者 トピックス / ここから始めましょう",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "`static_cast`は,コンパイル時に関連型間の変換を行うために主に使用されるC++キャスティングオペレーターである.これは,初代型データ型である `int`と `float`,および継承階層内のアップキャスティングまたはダウンキャスティングの間の変換を含む.変換が有効であることを確認するためのチェックを行い,データの潜在的に不安全な再解釈を防止し,より予測可能な行動を可能にするため,C型キャスティングに対するタイプの安全性のレベルを提供します.",
+        "links": []
+      }
+    },
+    {
+      "id": "5g22glc97siQOcTkHbwan",
+      "type": "subtopic",
+      "label": "const_cast",
+      "position": {
+        "x": -130.52203293340202,
+        "y": 1500.2090861977936
+      },
+      "size": {
+        "width": 156,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "FURC-X3vopFKhZ0F5BdYH",
+        "color": "#6d7500",
+        "label": "初心者 トピックス / ここから始めましょう",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "`const_cast`は,変数のタイプから明示的に `const`または `volatile`資格符を追加または削除することを可能にする C++ キャッシングオペレータである.これは本質的に,当初は `const`として宣言されたオブジェクトを修正したり,非-`const`議論を期待する関数に `const`オブジェクトを転送したりすることができます. これは強力なツールですが,本当に `const`オブジェクトを直接変更すると定義されていない行動につながる可能性があるため,慎重に使用する必要があります.",
+        "links": []
+      }
+    },
+    {
+      "id": "4BdFcuQ5KNW94cu2jz-vE",
+      "type": "subtopic",
+      "label": "ダイナミック_キャスト",
+      "position": {
+        "x": -278.29496924274974,
+        "y": 1553.301140729074
+      },
+      "size": {
+        "width": 141,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "sRAiZODQQ8xrMiVpCdnI7",
+        "color": "#2b78e4",
+        "label": "中間話題 / 次の選択",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "`dynamic_cast` は,C++ のキャスティングオペレータで,主にポリモルフィッククラスの階層内で,指数や参照をベースクラスから派生クラスに安全に変換するために使用されます.静态キャストとは異なり,変換の有効性を確認するために実行時間をチェックします.キャスされるオブジェクトが実際にターゲット派生クラスの例ではない場合, `dynamic_cast` は, nullポインタ (ポインタキャスト) を返します.または, `std::_cast` 例外 (参照キャスト) を投げます.",
+        "links": []
+      }
+    },
+    {
+      "id": "ZMyFDJrpCauGrY5NZkOwg",
+      "type": "subtopic",
+      "label": "reinterpret_cast",
+      "position": {
+        "x": -130.52203293340202,
+        "y": 1553.301140729074
+      },
+      "size": {
+        "width": 156,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "sRAiZODQQ8xrMiVpCdnI7",
+        "color": "#2b78e4",
+        "label": "中間話題 / 次の選択",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "`reinterpret_cast`は,C++ の強力な,しかし潜在的に危険なキャスティングオペレータです.関連のないポインタタイプ,整数タイプ,または指数と整数間の変換を可能にします.他のキャストとは異なり,タイプチェックやデータ変換を行わない.その主な機能は,表現のビットパターンを別のタイプとして再解釈することであり,低レベルの操作に有用になりますが,まったく定義されていない行動を避けるために非常に注意が必要です.必要に応じてのみ使用し,関連する潜在的なメモリレイアウトを理解します.",
+        "links": []
+      }
+    },
+    {
+      "id": "IDOlquv6jlfecwQoBwkGZ",
+      "type": "subtopic",
+      "label": "定義されていない行動 (UB)",
+      "position": {
+        "x": -286.929978402122,
+        "y": 1618.893819847594
+      },
+      "size": {
+        "width": 322,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "sRAiZODQQ8xrMiVpCdnI7",
+        "color": "#2b78e4",
+        "label": "中間話題 / 次の選択",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "C++ で定義されていない行動は,プログラムが C++ 標準で定義された規則を違反すると発生し,予測不能で未明な結果をもたらします.これは,初期化されていない変数にアクセスし,ゼロポインタを削除し,境界外のメモリアクセスを実行し,ゼロで分割するなどの行動から起因する可能性があります.コンパイラーはそのような状況を任意の方法で解釈することができます.",
+        "links": [
+          {
+            "title": "定義されていない行動 (UB)",
+            "url": "https://en.cppreference.com/w/cpp/language/ub.html",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "YSWN7nS8vA9nMldSUrZRT",
+      "type": "subtopic",
+      "label": "議論に依存する検索 (ADL)",
+      "position": {
+        "x": -286.929978402122,
+        "y": 1672.893819847594
+      },
+      "size": {
+        "width": 322,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "sRAiZODQQ8xrMiVpCdnI7",
+        "color": "#2b78e4",
+        "label": "中間話題 / 次の選択",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "アルグメント依存Lookup (ADL),またKoenigLookupとも呼ばれ,C++では,コンパイラが関数アルグメントのタイプの名前空間で関数を検索できるようにして関数検索プロセスを拡張する機能です.これは特に名前空間で定義された過負荷されたオペレーターや関数と作業する際に有用です.これは明示的に資格がないとしても,アルグメントタイプに基づいて適切な関数を自動的に見つけることで,より直感的で簡潔なコードを可能にします.",
+        "links": [
+          {
+            "title": "議論に依存する検索 (ADL)",
+            "url": "https://en.cppreference.com/w/cpp/language/adl.html",
+            "type": "article"
+          },
+          {
+            "title": "C++ Weekly - Ep 160 - 議論依存の検索 (ADL)",
+            "url": "https://backoffice.roadmap.sh/tree/cpp",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Lt7ss59KZw9Jwqj234jm2",
+      "type": "subtopic",
+      "label": "名前 マングリング",
+      "position": {
+        "x": -286.929978402122,
+        "y": 1726.893819847594
+      },
+      "size": {
+        "width": 186,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "WbquXSrbKyKZuwVeLZfnw",
+        "color": "#999999",
+        "label": "オプション / 学びたい場合は",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "Name mangling (名称装飾) は,コンパイラが利用する技術で,範囲,タイプ,リンク等の追加情報を識別子名 (関数や変数名など) にコードする.これは,複数の機能が同じ名前を共有できるが,異なるパラメータを持つ関数オーバーロードをサポートすることを可能にします.コンパイラはこの詳細に基づいて mangled 名前を生成しますが,正確な mangling 規則はコンパイラとプラットフォームによって異なります. `c++filt`のようなツールでは,これらの名前を元の形式に戻して,デバッグに役立ちます.通常,名前 mangling の詳細を理解する必要はありませんが,外部ライブラリまたは異なるコンパイラからオブジェクトファイルをリンクする際に重要になります.",
+        "links": [
+          {
+            "title": "C++名 マングリング",
+            "url": "https://medium.com/@abhishek.ec/c-name-mangling-ce3d0fedf88d",
+            "type": "article"
+          },
+          {
+            "title": "C++ で名字はMangling",
+            "url": "https://www.youtube.com/watch?v=FUIle4Ghasw",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "zKdlfZTRHwjtmRUGW9z9-",
+      "type": "subtopic",
+      "label": "マクロ",
+      "position": {
+        "x": -97.929978402122,
+        "y": 1726.893819847594
+      },
+      "size": {
+        "width": 133,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "zgW3oGPdbclWTlKJdidiB",
+        "color": "#000000",
+        "label": "先進の話題 / 後で選択する",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "C++ のマクロは,プロセッサーにコンパイル前にテキストの置き換えを行うように指示するプレプロセッサーの指示である. `#define`を使用して定義されているが,象徴的な定数,機能のような構造を作成し,条件のコンパイルを制御することができます.マクロはコードの最適化およびカスタマイゼーションに役立ちますが,デバッグおよび範囲の問題の可能性のためにそれらを賢く使用することが不可欠です.",
+        "links": [
+          {
+            "title": "C++ のマクロ",
+            "url": "https://www.youtube.com/watch?v=j3mYki1SrKE",
+            "type": "article"
+          },
+          {
+            "title": "C++ マクロ",
+            "url": "https://www.codecademy.com/resources/docs/cpp/macros",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "V2SeVMoQJXI2btIHr8e-u",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": 122.76444711909286,
+        "y": 1310.789165472234
+      },
+      "size": {
+        "width": 21,
+        "height": 365
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.75
+      },
+      "z_index": 999
+    },
+    {
+      "id": "DHdNBP7_ixjr6h-dIQ7g6",
+      "type": "topic",
+      "label": "標準図書館 + STL",
+      "position": {
+        "x": 93.99375240505299,
+        "y": 1658.893819847594
+      },
+      "size": {
+        "width": 297,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "FURC-X3vopFKhZ0F5BdYH",
+        "color": "#6d7500",
+        "label": "初心者 トピックス / ここから始めましょう",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "C++ 標準図書館は,クラスと機能の総合的なコレクションで,一般的なプログラミングタスクのために使用準備ができているツールでコア言語を拡張しています.標準図書館の重要な部分は,コンテナ (ベクトル,リスト,地図),アルゴリズム (分類,検索) とイテレーターなどのプリビルド,テンプレート化されたコンポーネントを提供しています. STLは,さまざまなデータタイプで動作できる一般的な実装を提供し,開発者にとってかなりの時間と労力を節約します.",
+        "links": [
+          {
+            "title": "C++23 で STL を 習得 する: 新しい 機能, アップデート,ベスト プラクティス",
+            "url": "https://simplifycpp.org/books/Mastering_STL.pdf",
+            "type": "book"
+          },
+          {
+            "title": "C++ 標準テンプレートライブラリ (STL) 概要",
+            "url": "https://www.youtube.com/watch?v=Id6ZEb_Lg58",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Ebu8gzbyyXEeJryeE0SpG",
+      "type": "subtopic",
+      "label": "イテレーター",
+      "position": {
+        "x": 93.99375240505299,
+        "y": 1745.4441943390277
+      },
+      "size": {
+        "width": 153,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "FURC-X3vopFKhZ0F5BdYH",
+        "color": "#6d7500",
+        "label": "初心者 トピックス / ここから始めましょう",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "C++ のスタンダードテンプレートライブラリ (STL) のイテレーターは,ベクトル,リスト,マレイなどのコンテナ内の要素を横切ってアクセスするための不可欠なツールである.コンテナの基本的な実装を知らずにコンテナ要素と相互作用する方法を提供し,一般化されたポインタとして機能する.C++ は入力,出力,前向き,二方向,逆向,ランダムアクセスイテレーターを含む異なるイテレータータイプを提供します.それぞれはコンテナ要素を読み,書き,ナビゲートするための特定の機能を持っています.ほとんどの使用例では, `` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ",
+        "links": []
+      }
+    },
+    {
+      "id": "VeVxZ230xkesQsIDig8zQ",
+      "type": "subtopic",
+      "label": "ローストストリーム",
+      "position": {
+        "x": 250.993752405053,
+        "y": 1746.4441943390277
+      },
+      "size": {
+        "width": 140,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "FURC-X3vopFKhZ0F5BdYH",
+        "color": "#6d7500",
+        "label": "初心者 トピックス / ここから始めましょう",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "`iostream`は,C++ 標準図書館で入力・出力 (I/O) 操作を処理する基本的なヘッダーである.入力・出力 (`iostream`),出力 (`iostream`),および組み合わせたI/O (`iocin`,`cout`,`cerr`, `clog`は,標準入力,標準出力,標準エラー,バッファリング・ログリング,それぞれ,標準出力 (`iostream`) の内部で事前に定義されたオブジェクトである.この機能をプログラムに組み込むために, `#include <iostream>`の指示を使用する.",
+        "links": []
+      }
+    },
+    {
+      "id": "whyj6Z4RXFsVQYRfYYn7B",
+      "type": "subtopic",
+      "label": "アルゴリズム",
+      "position": {
+        "x": 93.99375240505299,
+        "y": 1798.4441943390277
+      },
+      "size": {
+        "width": 153,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "FURC-X3vopFKhZ0F5BdYH",
+        "color": "#6d7500",
+        "label": "初心者 トピックス / ここから始めましょう",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "C++ スタンダードテンプレートライブラリ (STL) は,さまざまなコンテナタイプで動作する汎用アルゴリズムの豊富なコレクションを提供しています.これらのアルゴリズムは主に `<アルゴリズム>`ヘッダーで見つけられ,排序,検索,シーケンス操作などの一般的なタスクのための機能を提供します.彼らが動作する特定のデータ構造から独立して動作することによってコードの再利用性と効率性を促進します.",
+        "links": []
+      }
+    },
+    {
+      "id": "yGvE6eHKlPMBB6rde0llR",
+      "type": "subtopic",
+      "label": "日付/時間",
+      "position": {
+        "x": 250.993752405053,
+        "y": 1799.4441943390277
+      },
+      "size": {
+        "width": 140,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "FURC-X3vopFKhZ0F5BdYH",
+        "color": "#6d7500",
+        "label": "初心者 トピックス / ここから始めましょう",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "スタンダードテンプレートライブラリ (STL) の一部であるC++ `chrono`ライブラリでは,日付と時間を処理するためのツールを提供しています.時間範囲を `durations` (例えば,秒,分,時間),特定の瞬間を 時計に基づいて `time_points`として表現し,人間読めるフォーマットのためのカレンダータイムに `system_clock`, `steady_clock`,および `high_resolution_clock`などの異なる `clock`タイプを使用して現在の時間にアクセスできます.",
+        "links": []
+      }
+    },
+    {
+      "id": "OXQUPqxzs1-giAACwl3X1",
+      "type": "subtopic",
+      "label": "マルチスレッド",
+      "position": {
+        "x": 93.99375240505299,
+        "y": 1851.4441943390277
+      },
+      "size": {
+        "width": 153,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "sRAiZODQQ8xrMiVpCdnI7",
+        "color": "#2b78e4",
+        "label": "中間話題 / 次の選択",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "マルチスレッドは,複数のスレッドを1つのプロセス内で同時に実行できるようにし,並行作業を実行できるようにすることでアプリケーションのパフォーマンスを向上させる.C++は,マルチスレッドサポートを提供する (C++11で導入された) `<thread>`ライブラリを通じて,スレッド作成,議論通過,同期化メカニズムである mutexes とロックが共有資源アクセスを管理し,データレースを防ぐことが可能である.この導入は,基本的なスレッド作成,スレッドに議論を転送し,スレッド同期のために mutexes を使用する.スレッドプール,条件変数,原子操作などのより高度なトピックは,高度な同期化およびパフォーマンスの調整のために存在する.",
+        "links": [
+          {
+            "title": "最初のマルチスレッドアプリケーションを構築する - 現代C++でマルチスレッドへの導入",
+            "url": "https://www.youtube.com/watch?v=xPqnoB2hjjA",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1pydf-SR0QUfVNuBEyvzc",
+      "type": "subtopic",
+      "label": "コンテナ",
+      "position": {
+        "x": 250.993752405053,
+        "y": 1852.4441943390277
+      },
+      "size": {
+        "width": 140,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "FURC-X3vopFKhZ0F5BdYH",
+        "color": "#6d7500",
+        "label": "初心者 トピックス / ここから始めましょう",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "C++ コンテナは標準テンプレートライブラリ (STL) の一部で,データを保存し整理するためのデータ構造を提供する.それぞれ独自の特徴と使用事例を持つ複数のタイプのコンテナがあります.ここで,一般的に使用されるコンテナの一部を議論します. 1\\.ベクトル ---------- ベクトルは必要に応じて自体をサイズ変更できるダイナミックな配列です.彼らは,インデックスを使用して迅速なランダムアクセスを可能にする連続的なメモリ位置に要素を保存します.例 ------- #include <iostream> #include <ベクトル> int main() { stdvector<int> vec = {1, 2, 3, 4, 5}; vec.push_back(6); // std:: <<cout \"ベクトルを含む:\"; (std x vec) { std <cout <<<c <c <c <d <c <c <c <c <c <d <c <c <c <c <d <c <c <c <c <c <d <c <c <c <d <c <c <c <d <c <c <c <c <d <c <c <d <c <c <c <d <c <c <c <c <c <d <c <c <c <d <c <c <d <c <c <c <d <c <c <d <c <c <c <d <c <c <d <c <c <c <c <d <c <c <d <c <c <c <c <c <d <c <c <c <d <c <c <c <c <d <c <c <c <c <c <c <c <d <c <c <c <c <c <d <c <c <c <c <c <c <c <c <c <c <c <d <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <d <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <d <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <c <リスト -------- リストは,任意の位置から任意の位置からダブルリンクされたリストです.随意アクセスをサポートしません.リストは,中部にある要素を頻繁に挿入または削除する必要があるシナリオのベクトルよりも良い.例 ------- #include <iostream> #include <list> int main() { std::list<int> lst = {1, 2, 3, 4, 5}; lst.push_back(6); // std::cout << \"List: \":: \"; for (int x: lst) { std::cout << ' x; }d::cout '\\n \"; } 3\\.Map- 図は,キーワードを保存するコンテナです.例えば ------- #include <iostream> #include <map> int main() { std::map<std::string, int> m; m[\"one\"] = 1; m[\"two\"] = 2; std::cout << \"マップには:\\n\"が含まれています. (const auto &pair : m) { std::cout << pair.first << \": \" << pair.second << \\n \"; } 4\\.Unordered\\_map ------------------ 地図と同様に,無序地図はキー値ペアを保存しますが,ハッシュテーブルを使用して実装されます.この無序地図は,整理された順序を維持していないため,平均的な速度よりも速い.例えば ------- #include <iostream> #include <unordered_map> int main() { std::unordered_map<std::string, int> um; um[\"one\"] = 1; um[\"2\"\"] = 2; std::cout << \"Unordered map contains:\\n\"; for (const auto &pair : um) { std::cout << pair.first << \": \" << pair.second << '\\n \"; } これらはC++ コンテナのほんの数例です. ヽ ヽ multiset, ` `deque`, `stack`, ```, と `quue_queue`. 各コンテナには独自のケースと特点があります.これらのコンテナを学習して使用することで,C++の効率を大幅に向上させることができます.",
+        "links": []
+      }
+    },
+    {
+      "id": "-6AOrbuOE7DJCmxlcgCay",
+      "type": "topic",
+      "label": "テンプレート",
+      "position": {
+        "x": 526.0040411704451,
+        "y": 1751.4441943390277
+      },
+      "size": {
+        "width": 161,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "FURC-X3vopFKhZ0F5BdYH",
+        "color": "#6d7500",
+        "label": "初心者 トピックス / ここから始めましょう",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "C++ テンプレートは,各タイプに書き換えることなく,機能やクラスが異なるデータタイプで動作できるようにすることで,通用コードを書く方法を提供します.テンプレートはインスタント化されると,後に実際のデータタイプに置き換えられるタイプパラメータまたはプレイスホルダーを使用して,テンプレートはコードの再利用と柔軟性を促進します.テンプレートは特定のデータタイプのためのカスタム行動を提供するために専門化することができます.",
+        "links": [
+          {
+            "title": "テンプレート",
+            "url": "https://en.cppreference.com/w/cpp/language/templates.html",
+            "type": "article"
+          },
+          {
+            "title": "C++ テンプレート",
+            "url": "https://www.w3schools.com/cpp/cpp_templates.asp",
+            "type": "article"
+          },
+          {
+            "title": "C++ のテンプレート",
+            "url": "https://www.youtube.com/watch?v=I-hZkUa9mIs",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "w4EIf58KP-Pq-yc0HlGxc",
+      "type": "subtopic",
+      "label": "バリアティック テンプレート",
+      "position": {
+        "x": 466.39833855329164,
+        "y": 1639.7730008603658
+      },
+      "size": {
+        "width": 303,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "sRAiZODQQ8xrMiVpCdnI7",
+        "color": "#2b78e4",
+        "label": "中間話題 / 次の選択",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "C++11で導入されたVariadicテンプレートは,変数数の参数を受け入れることができるテンプレートを作成する方法を提供します.エリプシス (`...`) 符号を使用して,潜在的な異なるタイプのゼロまたはそれ以上の参数を表すパラメータパックを定義できます.これは,複数の参数を合計したり,チュープルのような構造を作成したりなどの使用例で示されているように,異なる数の入力で動作できる関数とクラスを作成できます.",
+        "links": []
+      }
+    },
+    {
+      "id": "sObOuccY0PDeGG-9GrFDF",
+      "type": "subtopic",
+      "label": "テンプレート専門化",
+      "position": {
+        "x": 466.39833855329164,
+        "y": 1470.7730008603658
+      },
+      "size": {
+        "width": 303,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center",
+        "colorType": "h"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "sRAiZODQQ8xrMiVpCdnI7",
+        "color": "#2b78e4",
+        "label": "中間話題 / 次の選択",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "C++ のテンプレート専門化は,特定のタイプまたはタイプパターンのためのテンプレートのカスタム実装を提供することを可能にします.一般的なテンプレート実装が特定のタイプに合わない場合,最適化または特定の行動のために適した論理を必要とします.テンプレート専門化は,特定のタイプに完全に新しい実装が定義される完全な専門化,特定のパターンに一致するタイプのサブセットにより専門的な実装が提供される部分専門化.",
+        "links": []
+      }
+    },
+    {
+      "id": "WptReUOwVth3C9-AVmMHF",
+      "type": "subtopic",
+      "label": "タイプ特徴",
+      "position": {
+        "x": 466.39833855329164,
+        "y": 1417.117522069225
+      },
+      "size": {
+        "width": 172,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "zgW3oGPdbclWTlKJdidiB",
+        "color": "#000000",
+        "label": "先進の話題 / 後で選択する",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "C++ のタイプ特性は,テンプレートクラスとして実装される強力なツール・セットで, `<type_traits>`ヘッダーで見つけることができます. タイプがポインタ,算数型,または関数であるかどうかなど,コンパイル時にタイプの性質を検査し,查询するためのメカニズムを提供します. これにより,その動作を調整する汎用コードが作成され,コンパイルタイムブランチングとより強力なテンプレートメタプログラミングが可能になります.",
+        "links": []
+      }
+    },
+    {
+      "id": "3C5UfejDX-1Z8ZF6C53xD",
+      "type": "subtopic",
+      "label": "SFINAE",
+      "position": {
+        "x": 642.3983385532916,
+        "y": 1417.117522069225
+      },
+      "size": {
+        "width": 129,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "zgW3oGPdbclWTlKJdidiB",
+        "color": "#000000",
+        "label": "先進の話題 / 後で選択する",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "SFINAE は C++ テンプレートメタプログラミングの核心原則で,コンパイラがコンパイラ中に最も適した機能またはクラステンプレート専門性を選択することを可能にします.コンパイラがテンプレートにテンプレート аргументを置き換えようとすると,その置き換えが無効なタイプまたは表現をもたらすると,この失敗は立即にコンパイラエラーとして扱われません.代わりに,コンパイラが黙ってその専門性を捨て,実行可能な他のオプションを探し続けており,タイプ特性と他のコンパイラタイムプロパティに基づいて条件付きのコンパイラを可能にします.",
+        "links": []
+      }
+    },
+    {
+      "id": "6hTcmJwNnQstbWWzNCfTe",
+      "type": "subtopic",
+      "label": "完全なテンプレート専門化",
+      "position": {
+        "x": 478.39833855329164,
+        "y": 1529.9677661061605
+      },
+      "size": {
+        "width": 279,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "sRAiZODQQ8xrMiVpCdnI7",
+        "color": "#2b78e4",
+        "label": "中間話題 / 次の選択",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "C++ の完全なテンプレート専門化は,特定のタイプのテンプレート (クラスまたは関数) の特定の実装を定義する方法を提供します.これは,特定のタイプのテンプレート・アルグメントの特定のセットを使用してテンプレートの動作をカスタマイズすることができます.一般的なテンプレートは他のケースを処理する一方で,特定のタイプのための最適化されたコードまたは特別な処理を可能にします.これは特定のタイプまたはタイプのセットのためのテンプレートの専門バージョンを作成します.",
+        "links": []
+      }
+    },
+    {
+      "id": "1NYJtbdcdOB4-vIrnq4yX",
+      "type": "subtopic",
+      "label": "部分テンプレート専門化",
+      "position": {
+        "x": 477.39833855329164,
+        "y": 1582.9677661061605
+      },
+      "size": {
+        "width": 281,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "sRAiZODQQ8xrMiVpCdnI7",
+        "color": "#2b78e4",
+        "label": "中間話題 / 次の選択",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "C++ の部分テンプレート専門化により,特定のタイプのサブセットのためのテンプレートの専門バージョンを作成できます. テンプレート参数が指定された基準に一致するときにコンパイラが選択する新しいテンプレート定義を提供することによって達成されます. テンプレート動作を指針や特定のデータタイプなどの特定のタイプのためにカスタマイズする方法を提供します.",
+        "links": []
+      }
+    },
+    {
+      "id": "fb3bnfKXjSIjPAk4b95lg",
+      "type": "topic",
+      "label": "言語",
+      "position": {
+        "x": 526.0040411704451,
+        "y": 2041.110352538959
+      },
+      "size": {
+        "width": 161,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "FURC-X3vopFKhZ0F5BdYH",
+        "color": "#6d7500",
+        "label": "初心者 トピックス / ここから始めましょう",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "C++ 言語は,開発者が標準化して効果的な方法で共通のプログラミング課題を解決するために使用する確立されたパターンと技術である.これらの言語は,C++ の機能と原則を活用してより効率的で維持可能でエラーの少ないコードを促進する.例えば,リソース管理のためのリソース取得は初期化 (RAII) です.適切なオブジェクトライフサイクル管理のための五つのルール,実装詳細を隠す PImpl 言語,および継承行動を制御するための非仮想インターフェース (NVI) 模式.これらの言語を理解して適用することは,強固で高品質なC++ コードを書くのに不可欠です.",
+        "links": [
+          {
+            "title": "言語",
+            "url": "https://medium.com/@amalpp42/idioms-in-c-f6b1c19fa605",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "xjUaIp8gGxkN-cp8emJ2M",
+      "type": "subtopic",
+      "label": "複製できない/移動できない",
+      "position": {
+        "x": 446.00404117044513,
+        "y": 2138.738988313017
+      },
+      "size": {
+        "width": 321,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "sRAiZODQQ8xrMiVpCdnI7",
+        "color": "#2b78e4",
+        "label": "中間話題 / 次の選択",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "C++ のコピーできない/移動できない言語は,クラスのオブジェクトがコピーされるか移動されるのを防ぐ.これはコピーコンストラクター,コピー割り当てオペレータ,移動コンストラクター,移動割り当てオペレータを削除することによって達成されます. 独占的なリソースを管理するクラスにとって有用であり,リソースを一度に1つのインスタンスだけが制御することを確保し,リソースの重複またはダブル削除などの問題を防止します.コピーおよび移動を無効にし,あなたはクラスのインスタンスのためのユニークな所有モデルを実行します.",
+        "links": [
+          {
+            "title": "複製できないオブジェクトを扱う - (C++ チュートリアル)",
+            "url": "https://dev.to/dabretema/the-day-i-forbade-copy-semantics-to-an-object-nkl",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "YvmjrZSAOmjhVPo05MJqN",
+      "type": "subtopic",
+      "label": "削除-削除",
+      "position": {
+        "x": 446.00404117044513,
+        "y": 2191.738988313017
+      },
+      "size": {
+        "width": 321,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "sRAiZODQQ8xrMiVpCdnI7",
+        "color": "#2b78e4",
+        "label": "中間話題 / 次の選択",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "Erase-Remove語は,コンテナから要素を効率的に除去するために使用される一般的なC++技術である (例えば: `std::vector`, `std::list`,など). `std::remove` (または: `std::remove_if`) を使用して,削除される要素をコンテナの端に移動し,コンテナの `erase() `方法を使用してそれらの要素を実際に除去し,コンテナを効果的に縮小します.",
+        "links": [
+          {
+            "title": "std::remove, std::remove_if",
+            "url": "https://en.cppreference.com/w/cpp/algorithm/remove.html",
+            "type": "article"
+          },
+          {
+            "title": "C++ STL アルゴリズム - 削除-削除言語 - std::remove(_if, _copy_if)",
+            "url": "https://www.youtube.com/watch?v=btyuTSb_238",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "lxAzI42jQdaofzQ5MXebG",
+      "type": "subtopic",
+      "label": "複製と交換",
+      "position": {
+        "x": 446.00404117044513,
+        "y": 2244.738988313017
+      },
+      "size": {
+        "width": 163,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "sRAiZODQQ8xrMiVpCdnI7",
+        "color": "#2b78e4",
+        "label": "中間話題 / 次の選択",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "Copy and Swap は,安全かつ効率的な方法で割り当て操作符を実装するために使用されるC++言語である.右側オブジェクトのコピーを作成し,次に割り当てられているオブジェクトとコピーの内部状態を交換することで動作する.現在元の状態を保持している一時的なコピーは,機能が終了すると破壊され,適切なリソース管理と例外の安全性を確保します.これは既存のコピーコンストラクターとスワップ機能を活用し,よりきれいな,より堅固なコードにつながります.",
+        "links": [
+          {
+            "title": "C++ でコンストラクタをコピーしコピーする",
+            "url": "https://www.youtube.com/watch?v=BvR1Pgzzr38",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "O2Du5gHHxFxAI2u5uO8wu",
+      "type": "subtopic",
+      "label": "コピー 書き込み",
+      "position": {
+        "x": 612.0040411704451,
+        "y": 2244.738988313017
+      },
+      "size": {
+        "width": 154,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "sRAiZODQQ8xrMiVpCdnI7",
+        "color": "#2b78e4",
+        "label": "中間話題 / 次の選択",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "Copy-on-Write (CoW) は,最初の書き込み操作まで資源のコピーコストを延期または排除するために使用される最適化技術です. オブジェクトの新しいコピーを作成する代わりに,オリジナルオブジェクトと\"コピー\"は同じ基礎リソースを共有します.オブジェクトの1つが共有リソースを変更しようとするとのみ,実際のコピーが作成されます.これは不必要なコピー,特に大きなオブジェクトを避けることでパフォーマンスを大幅に向上させることができます.",
+        "links": []
+      }
+    },
+    {
+      "id": "OmHDlLxCnH8RDdu5vx9fl",
+      "type": "subtopic",
+      "label": "レイリー",
+      "position": {
+        "x": 446.833180361922,
+        "y": 2298.6609277564776
+      },
+      "size": {
+        "width": 101,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "FURC-X3vopFKhZ0F5BdYH",
+        "color": "#6d7500",
+        "label": "初心者 トピックス / ここから始めましょう",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "RAII (Resource Acquisition Is Initialization) は,リソースの管理をオブジェクトの寿命に結びつけるC++言語である.リソースはオブジェクトの構築中に取得され,オブジェクトが破壊されたときに自動的にリリースされます.これは,例外に直面してもリソースが適切に管理されることを保証し,リークを防止し,リソースの掃除を自動化することによってコードを簡素化します.",
+        "links": [
+          {
+            "title": "レイリー",
+            "url": "https://en.cppreference.com/w/cpp/language/raii.html",
+            "type": "article"
+          },
+          {
+            "title": "RAII (資源取得は初期化) とは",
+            "url": "https://www.youtube.com/watch?v=q6dVKMgeEkk",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "MEoWt8NKjPLVTeGgYf3cR",
+      "type": "subtopic",
+      "label": "麻疹",
+      "position": {
+        "x": 550.333180361922,
+        "y": 2298.6609277564776
+      },
+      "size": {
+        "width": 110,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "sRAiZODQQ8xrMiVpCdnI7",
+        "color": "#2b78e4",
+        "label": "中間話題 / 次の選択",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "Pimpl (Pointer to Implementation) は, C++ テクニックで,クラスの実装詳細を隠すために使用されます.これは,プライベート実装クラスを宣言し,メインクラスの内側にポインタを保持することによって達成されます.公衆インターフェースはきれいであり,コンパイルタイム依存性は大幅に減少します.これはより良いコードの組織化を促進し,再コンパイル時間を短縮し,バイナリー互換性を向上します.",
+        "links": [
+          {
+            "title": "C++ でスマートポインタを使用するアイディオム",
+            "url": "https://cengizhanvarli.medium.com/pointer-to-implementation-pimpl-idiom-by-using-smart-pointer-in-c-07dcd535d0ce",
+            "type": "article"
+          },
+          {
+            "title": "クラス 第30部 - pIMPL (実施指針) - より安定したAPI 現代のCPPシリーズ 第67話",
+            "url": "https://www.youtube.com/watch?v=3mFpXNEB_AA",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ttt-yeIi4BPWrgvW324W7",
+      "type": "subtopic",
+      "label": "CRTP",
+      "position": {
+        "x": 665.0040411704451,
+        "y": 2298.6609277564776
+      },
+      "size": {
+        "width": 101,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "sRAiZODQQ8xrMiVpCdnI7",
+        "color": "#2b78e4",
+        "label": "中間話題 / 次の選択",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "Curiously Recurring Template Pattern (CRTP) は,クラステンプレートが独自の専門知識から継承されるC++言語である.この技術は静态ポリモルフィズムを達成し,仮想機能を使用したランタイムポリモルフィズムへの代替手段を提供します.CRTPは,仮想機能の呼び出しオーバーヘッドなしでベースクラス行動のカスタマイズが可能で,パフォーマンスの向上のためにコンパイルタイムポリモルフィズムを可能にします.",
+        "links": [
+          {
+            "title": "C++ で CRTP (好奇心深く繰り返されるテンプレートパターン)",
+            "url": "https://medium.com/@sagar.necindia/crtp-curiously-recurring-template-pattern-in-c-90981941bf38",
+            "type": "article"
+          },
+          {
+            "title": "C++ チュートリアル: CRTP を使用してコードを加速させる方法",
+            "url": "https://www.youtube.com/watch?v=Srx4eiBdpdQ",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "vvE1aUsWbF1OFcmMUHbJa",
+      "type": "topic",
+      "label": "基準",
+      "position": {
+        "x": 227.76444711909286,
+        "y": 2041.110352538959
+      },
+      "size": {
+        "width": 156,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "FURC-X3vopFKhZ0F5BdYH",
+        "color": "#6d7500",
+        "label": "初心者 トピックス / ここから始めましょう",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "C++ 規格は,C++ プログラミング言語を定義する規則とガイドラインの集合である.これらの規格は,異なるコンパイラやプラットフォーム間で一貫性と移植性を確保する.各規格は,新しい機能,改善を導入し,時には古い機能を廃止する.現在の標準はC++23である.",
+        "links": []
+      }
+    },
+    {
+      "id": "T6rCTv9Dxkm-tEA-l9XEv",
+      "type": "subtopic",
+      "label": "C++ 11 / 14",
+      "position": {
+        "x": 227.76444711909286,
+        "y": 1939.0246296702257
+      },
+      "size": {
+        "width": 156,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "FURC-X3vopFKhZ0F5BdYH",
+        "color": "#6d7500",
+        "label": "初心者 トピックス / ここから始めましょう",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "C++11とC++14はC++言語の重要な更新であり,その能力と使いやすさを高めるために機能を導入した.C++11はタイプ推論のための `auto`,よりシンプルなイテレーションのためのループのための範囲ベースの機能,匿名関数を作成するための lambda機能,より安全なゼロポインタ表示のための `nullptr`,および標準的なスレッドサポートライブラリなどの機能を導入した.これに基づいて,C++14はこれらの機能を改良し,一般的な lambdas,バイナリ文字,正確な引き算のための `declauto) `,および変数型テンプレートを含む新しい機能を追加した.これらの標準はC++をより近代的で表現的で効率的にした.",
+        "links": []
+      }
+    },
+    {
+      "id": "R2-qWGUxsTOeSHRuUzhd2",
+      "type": "subtopic",
+      "label": "C++ 17",
+      "position": {
+        "x": 227.76444711909286,
+        "y": 2136.9142315942822
+      },
+      "size": {
+        "width": 156,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "FURC-X3vopFKhZ0F5BdYH",
+        "color": "#6d7500",
+        "label": "初心者 トピックス / ここから始めましょう",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "C++17はC++言語の重要な更新であり,コード表現性と効率性を向上させる新しい機能と強化を提供している.このバージョンでは,より簡単なデータ解包のために構造化された結合,コンパイルタイム条件論理のための `if`と `コンテキスト if` if` if` if` if` if` if` if` if` if` if` if` if` if` if` if` if` if` if` if` if` if` if` if` if` if` if` if` if` if` if` if` if` if` if` if` if` if` if` if` if` if` if` if` if` if` if` if` if` if` if` if` if` if` if` if` if` if` if` if` if` if` if` if` if` if` if` if` if` if` if` if` if` if` if` if'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f'f",
+        "links": []
+      }
+    },
+    {
+      "id": "o3no4a5_iMFzEAGs56-BJ",
+      "type": "subtopic",
+      "label": "C++ 20",
+      "position": {
+        "x": 227.76444711909286,
+        "y": 2189.9142315942822
+      },
+      "size": {
+        "width": 156,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "sRAiZODQQ8xrMiVpCdnI7",
+        "color": "#2b78e4",
+        "label": "中間話題 / 次の選択",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "C++20はC++言語の重要な進化を表しており,コードの明確性,効率性,並行性を向上させるための重要な機能を導入している.ハイライトには,テンプレートパラメータに制約を課すコンセプトが含まれています.よりよいエラーメッセージ;標準ライブラリーアルゴリズムを強化する値配列で作業する新しい方法であるRange;Coroutines,読みやすさを向上させるアシンクロンコードを書くためのコルーチン;およびコンパイルタイム評価の改善は `コンテキストプレクトと `コンスタバリティです.これらの追加は,他のライブラリー改善とともに,開発者がより表現的で堅固で高性能なアプリケーションを作成できるようにします.",
+        "links": []
+      }
+    },
+    {
+      "id": "sxbbKtg7kMNbkx7fXhjR9",
+      "type": "subtopic",
+      "label": "最新",
+      "position": {
+        "x": 227.76444711909286,
+        "y": 2242.9142315942822
+      },
+      "size": {
+        "width": 156,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "zgW3oGPdbclWTlKJdidiB",
+        "color": "#000000",
+        "label": "先進の話題 / 後で選択する",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "C++23は,C++標準の最新バージョンで,新しい機能,図書館の強化,言語の改善を導入するために以前のイテレーションを基に構築されています.開発を簡素化し,パフォーマンスを向上させ,C++プログラマ向けにより近代的なツールを提供することを目的としています.この標準には, `std::expected`,スタック可能なコロウティーン,および標準図書館の改善などの機能が組み込まれ,C++ がより堅固かつ表現力のあるものになります.",
+        "links": [
+          {
+            "title": "標準",
+            "url": "https://isocpp.org/std/the-standard",
+            "type": "official"
+          },
+          {
+            "title": "C++23",
+            "url": "https://en.wikipedia.org/wiki/C%2B%2B23",
+            "type": "article"
+          },
+          {
+            "title": "C++23 の新しい機能の概要",
+            "url": "https://medium.com/@threehappyer/overview-of-new-features-in-c-23-68c5bc668958",
+            "type": "article"
+          },
+          {
+            "title": "C++23:ほぼすべての新しい機能の概要 - Marc Gregoire - CppCon 2023",
+            "url": "https://www.youtube.com/watch?v=Cttb8vMuq-Y",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PPg0V5EzGBeJsysg1215V",
+      "type": "subtopic",
+      "label": "C++ 0x",
+      "position": {
+        "x": 227.76444711909286,
+        "y": 2295.9142315942822
+      },
+      "size": {
+        "width": 156,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "WbquXSrbKyKZuwVeLZfnw",
+        "color": "#999999",
+        "label": "オプション / 学びたい場合は",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "C++11,以前はC++0xとして知られ,2011年に完成したC++言語標準の重要な進化を表しています.このバージョンでは, `auto` で自動タイプ推算,ループの範囲ベースのコンテナの簡素化,ラングダ式式式で匿名関数を作成する能力,および `nullptr` を使用して無値指数を表現するより安全な方法が導入されています.さらに,C++11は,rvalue参照およびシマンティックを移動することで一時的なオブジェクト処理を最適化し,テンプレートがバリダックテンプレートで変数数の引数を受け入れ,静态主張を通じてコンパイルタイム主張を容易にし,同時プログラミングの統合サポートを可能にしました.",
+        "links": []
+      }
+    },
+    {
+      "id": "qmHs6_BzND_xpMmls5YUH",
+      "type": "topic",
+      "label": "デバッガー",
+      "position": {
+        "x": -286.929978402122,
+        "y": 2041.110352538959
+      },
+      "size": {
+        "width": 154,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "FURC-X3vopFKhZ0F5BdYH",
+        "color": "#6d7500",
+        "label": "初心者 トピックス / ここから始めましょう",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "デバッガーは,C++開発において不可欠なツールであり,開発者がコード内のデバッグを特定,分析,および解決することができます.これらのツールにより,コードを通って,変数を検査し,プログラムの実行フローを理解し,最終的にはより堅固かつ信頼性の高いソフトウェアにつながります.GDB (GNU Debugger),LLDB,Microsoft Visual Studio Debugger,Intel Debugger (IDB),およびTotalView Debuggerを含むいくつかのオプションが利用できます.それぞれ独自の機能を提供し,異なる開発環境およびアプリケーションタイプに対応します.",
+        "links": []
+      }
+    },
+    {
+      "id": "Kb2Pbz0Sq7YlO1vCwYxnX",
+      "type": "paragraph",
+      "label": "言語ツール",
+      "position": {
+        "x": -39.10970787732015,
+        "y": 2041.110352538959
+      },
+      "size": {
+        "width": 169,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "borderColor": "#000000",
+        "backgroundColor": "#ffffff",
+        "color": "#000000",
+        "textAlign": "center",
+        "justifyContent": "center",
+        "padding": 16
+      },
+      "z_index": 999
+    },
+    {
+      "id": "VtPb8-AJKzhTB0QbMtoU4",
+      "type": "subtopic",
+      "label": "デバガーのメッセージを理解する",
+      "position": {
+        "x": -288.0831925975956,
+        "y": 1934.0246296702257
+      },
+      "size": {
+        "width": 329,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "FURC-X3vopFKhZ0F5BdYH",
+        "color": "#6d7500",
+        "label": "初心者 トピックス / ここから始めましょう",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "Debuggerメッセージは,C++コード内の問題を識別するのに役立つデバガーの通知である.これらのメッセージは,プログラムの状態やデバッグ中に発生する特定の問題についての洞察を提供して,警告,エラー,または情報輸出として表される.エラーメッセージは,コンパイルまたは実行を阻害するコードを標識する問題であり,警告は潜在的な問題を強調する.情報メッセージは,ブレイクポイント,ウォッチポイント,変数値,コールスタックなどのプログラムの実行に関する一般的な情報を提供します.",
+        "links": []
+      }
+    },
+    {
+      "id": "sR_FxGZHoMCV9Iv7z2_SX",
+      "type": "subtopic",
+      "label": "符号のデバッグ",
+      "position": {
+        "x": -288.0831925975956,
+        "y": 1880.9389202464117
+      },
+      "size": {
+        "width": 329,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "FURC-X3vopFKhZ0F5BdYH",
+        "color": "#6d7500",
+        "label": "初心者 トピックス / ここから始めましょう",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "C++ でデバッグするシンボルは,プログラムの構造,ソースコード関係,変数表示に関する情報をデバッグに提供し,開発者がコードを通過し,変数を検査し,プログラムの行動を理解できるようにします.これらのシンボルは,コンパイルされたバイナリ (内部) に直接組み込み,または別ファイル (外部) に保存することができます.例えば,Windows での `.pdb` または,macOS での `.dSYM`. `g++`のようなツールでは,内部シンボルのために) `-g`,および `-gsplit-dwarf` (外部シンボルのために) のようなフラグを提供し,コンパイル中にこれらのシンボルを生成することができます.",
+        "links": []
+      }
+    },
+    {
+      "id": "y8VCbGDUco9bzGRfIBD8R",
+      "type": "subtopic",
+      "label": "WinDBg",
+      "position": {
+        "x": -288.0831925975956,
+        "y": 1826.1637109984486
+      },
+      "size": {
+        "width": 177,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "WbquXSrbKyKZuwVeLZfnw",
+        "color": "#999999",
+        "label": "オプション / 学びたい場合は",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "WinDbg は,Microsoft Windows SDK に含まれているデバッグツールで,ユーザーモードとカーネルモードの両方で Windows アプリケーションを分析し,デバッグするための強力なツールです. クラッシュドンプを分析し,ブレイクポイントを設定し,C++ プログラムで問題を特定して解決するためにコード実行を踏み出すようなタスクのためのグラフィックインターフェースと包括的な機能セットを提供しています. WinDbg に馴染みを持つ開発者は,アプリケーションの実行時の行動に深く深入し,バグの根本原因を特定することができます.",
+        "links": [
+          {
+            "title": "WinDbg: 初心者のガイドでC/C++プログラムをゼロからデバッグする",
+            "url": "https://www.youtube.com/watch?v=AgtgZDsADUI",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "BmWsoL9c_Aag5nVlMsKm2",
+      "type": "subtopic",
+      "label": "GDB",
+      "position": {
+        "x": -106.91368596678642,
+        "y": 1825.2532448559004
+      },
+      "size": {
+        "width": 147,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "WbquXSrbKyKZuwVeLZfnw",
+        "color": "#999999",
+        "label": "オプション / 学びたい場合は",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "GDB (GNU Project Debugger) は,CとC++プログラムをデバッグするために不可欠なコマンドラインツールです.開発者はプログラムの実行を検証し,ブレイクポイントを設定し,コードを通過し,変数を検査し,バグを特定し修正するためにコールスタックを分析することができます.GDBを使用して,開発者はプログラムの実行時の行動に深い洞察を得て,C++開発ワークフローの不可欠な部分となっています.",
+        "links": [
+          {
+            "title": "GDB は 本当 に 簡単 です! 数 条 の 命令 で コード の バグ を 見つける",
+            "url": "https://www.youtube.com/watch?v=Dq8l1_-QgAc",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FTMHsUiE8isD_OVZr62Xc",
+      "type": "topic",
+      "label": "組み立て機",
+      "position": {
+        "x": -286.929978402122,
+        "y": 2165.7752999047043
+      },
+      "size": {
+        "width": 154,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "FURC-X3vopFKhZ0F5BdYH",
+        "color": "#6d7500",
+        "label": "初心者 トピックス / ここから始めましょう",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "コンパイラとは,ソースコードを1つのプログラミング言語から別の言語,しばしば機械コードに翻訳し,コンピュータに指示を実行できるようにするプログラムである.C++では,コンパイラが人間の読めるコードを取り,実行可能なプログラムに変換する.人気のオプションには,GCC,Clang,MSVC,およびICCが含まれ,各にはプラットフォームサポート,最適化,診断の観点から独自の強みがあります.コンパイラーはリンクと標準ライブラリを使用して最終実行可能なものを生成し,コンパイラコードを組み合わせ,共通の機能を提供します.",
+        "links": []
+      }
+    },
+    {
+      "id": "DVckzBUMgk_lWThVkLyAT",
+      "type": "subtopic",
+      "label": "コンパイラ段階",
+      "position": {
+        "x": -38.85702534893973,
+        "y": 2138.927677033192
+      },
+      "size": {
+        "width": 236,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "FURC-X3vopFKhZ0F5BdYH",
+        "color": "#6d7500",
+        "label": "初心者 トピックス / ここから始めましょう",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "C++ のコンパイルプロセスは,人間に読み取れるソースコードを4つの異なる段階を通じて実行可能なプログラムに変換します.これらの段階は: `#include`やマクロ置き換えのような指示を処理するプレプロセッサリング; コンパイル,プリプロセッサコードがアセンブリ言語に翻訳されるコンパイル; アセンブリ,アセンブリコードをオブジェクトコードに変換するコンパイル;およびリンクリング,オブジェクトコードがライブラリと組み合わせて最終実行可能なものを作成する.各段階は,コードがターゲットプラットフォームで実行するために適切に変換されることを確保するために特定の一連のタスクを実行します.",
+        "links": []
+      }
+    },
+    {
+      "id": "hSG6Aux39X0cXi6ADy2al",
+      "type": "subtopic",
+      "label": "コンパイラと特徴",
+      "position": {
+        "x": -38.85702534893973,
+        "y": 2191.927677033192
+      },
+      "size": {
+        "width": 236,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "WbquXSrbKyKZuwVeLZfnw",
+        "color": "#999999",
+        "label": "オプション / 学びたい場合は",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "C++ コンパイラは,人間読めるC++コードを機械実行可能なコードに翻訳します. 冗長性やコードの再編成を排除することによってプログラムのパフォーマンスを向上させるための最適化技術,トラブルシューティングに役立つ情報生成のデバッグ,潜在的な問題のあるコードをマークする警告システムなど,さまざまな機能を提供しています.人気のあるコンパイラには,汎用的なオープンソースオプションであるGCC, Clang,互換性と診断のために知られている; Microsoft Visual C++,Visual Studio IDEに統合された;およびIntel C++ コンパイラ,Intel Parallel Studio XE Suiteの一部です.選択したファミリーのドキュメントと自分自身を比較することは,その能力を完全に活用するために不可欠です.",
+        "links": []
+      }
+    },
+    {
+      "id": "hurj4ktZD6sDbMg7lz3Dn",
+      "type": "label",
+      "label": "C/lang++ / LLVM",
+      "position": {
+        "x": -15.825412667929704,
+        "y": 2248.415195613617
+      },
+      "size": {
+        "width": 152,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "hVi9vzLaVfcXhhd7m8-ei",
+      "type": "label",
+      "label": "インテル C++",
+      "position": {
+        "x": -15.825412667929704,
+        "y": 2285.415195613617
+      },
+      "size": {
+        "width": 90,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "7byy5GiTl4SPpVN39UFbC",
+      "type": "label",
+      "label": "MSVS C++",
+      "position": {
+        "x": -15.825412667929704,
+        "y": 2322.415195613617
+      },
+      "size": {
+        "width": 102,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "2oTFuzQ6j0AmdAc9U_UwQ",
+      "type": "label",
+      "label": "湾岸連合 (GCC)",
+      "position": {
+        "x": -15.825412667929704,
+        "y": 2359.415195613617
+      },
+      "size": {
+        "width": 54,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "9DDS861RQhuFgpaR2_KeO",
+      "type": "label",
+      "label": "ミンGW",
+      "position": {
+        "x": -15.825412667929704,
+        "y": 2396.415195613617
+      },
+      "size": {
+        "width": 73,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "jVXFCo6puMxJ_ifn_uwim",
+      "type": "topic",
+      "label": "システム を 構築 する",
+      "position": {
+        "x": -286.929978402122,
+        "y": 2515.5128020469147
+      },
+      "size": {
+        "width": 154,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "FURC-X3vopFKhZ0F5BdYH",
+        "color": "#6d7500",
+        "label": "初心者 トピックス / ここから始めましょう",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "C++ のビルドシステムでは,ソースコードのコンパイル,リンク,実行を自動化し,実行可能なものやライブラリを作成するためのビルドプロセスの複雑さを管理する.一般的な例としては,依存性とタイムスタンプを追跡するためにMakeFiles を使用するGNU Make,およびさまざまなプラットフォームのためのビルドファイルを生成するクロスプラットフォームシステムであるCMakeがあります.Autotoolsは,異なるユニックスベースのシステムでポータブルソフトウェアを作成するための別のオプションです.SConsは,より表現的なビルドスクリプトのためにPythonを活用し,Ninjaはシンプルなテキストファイルで指定されたターゲットを効率的に構築することによって速度に焦点を当てています.各システムはソフトウェア構築プロセスを簡素化するための異なるアプローチを提供しています.",
+        "links": []
+      }
+    },
+    {
+      "id": "ysnXvSHGBMMozBJyXpHl5",
+      "type": "subtopic",
+      "label": "CMAKE",
+      "position": {
+        "x": -286.929978402122,
+        "y": 2614.6661606275225
+      },
+      "size": {
+        "width": 154,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "sRAiZODQQ8xrMiVpCdnI7",
+        "color": "#2b78e4",
+        "label": "中間話題 / 次の選択",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "CMakeはクロスプラットフォームビルドシステム生成器です.ビルドプロセスを記述するために構成ファイル (CMakeLists.txt) を使用し,MakeFilesなどのネイティブビルドファイルを生成し,Visual StudioのようなIDEsのためのプロジェクトファイルを生成します.CMakeは,基礎となるビルドツールを抽象し,さまざまなプラットフォームとコンパイラ間で一貫したインターフェースを提供することによって,特に複雑なプロジェクトのために,ビルドプロセスを簡素化します. 依存関係を管理し,コンパイラフラグを指定し,プロジェクト自体を構築せずにプロジェクトのビルドプロセスの全体構造を処理します.",
+        "links": [
+          {
+            "title": "CMAKE チュートリアル",
+            "url": "https://cmake.org/cmake/help/latest/guide/tutorial/index.html",
+            "type": "article"
+          },
+          {
+            "title": "CMake,どのように機能する (3つの異なるレベル)",
+            "url": "https://www.youtube.com/watch?v=SDX0oYqdv_g",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "t6rZLH7l8JQm99ax_fEJ9",
+      "type": "subtopic",
+      "label": "メイクファイル",
+      "position": {
+        "x": -286.929978402122,
+        "y": 2667.6661606275225
+      },
+      "size": {
+        "width": 154,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "WbquXSrbKyKZuwVeLZfnw",
+        "color": "#999999",
+        "label": "オプション / 学びたい場合は",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "メイクファイル (Makefile) は,プロジェクトでコードをコンパイルしてリンクするプロセスを自動化するために使用する構成ファイルである. ソースコードから最終的な実行可能またはライブラリを構築する方法を指定する規則と依存性の集合を定義する. 変数,目標,前提条件,レシピ,偽目標で構成され,実際のファイルを表すのではなく,関連するアクションを実行する. メイクファイルは,ソースファイルと出力ファイル,例えばオブジェクトファイルと実行可能ファイルを生成するためのコマンドの間の依存性を指定することによって,ビルドプロセスを簡素化し,エラーを削減し,一貫性を確保する.",
+        "links": []
+      }
+    },
+    {
+      "id": "HkUCD5A_M9bJxJRElkK0x",
+      "type": "subtopic",
+      "label": "忍者",
+      "position": {
+        "x": -286.929978402122,
+        "y": 2720.6661606275225
+      },
+      "size": {
+        "width": 154,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "WbquXSrbKyKZuwVeLZfnw",
+        "color": "#999999",
+        "label": "オプション / 学びたい場合は",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "Ninja は,速度と効率のために設計された小型で高速なビルドシステムです.プロジェクト構造を直接解釈する代わりに,事前に生成されたビルドプランを実行します.これは必要なものをのみ構築することを可能にします.特に大規模なプロジェクトでは,かなり高速なビルド時間につながります. CMakeのようなメタビルドシステムで一般的に使用されます.このシステムは,実際のビルドプロセスを実行するために Ninja が使用する `build.ninja`ファイルを生成します.",
+        "links": [
+          {
+            "title": "忍者",
+            "url": "https://ninja-build.org/manual.html",
+            "type": "official"
+          },
+          {
+            "title": "CMake vs Ninja - 実生活と実際のコードの比較",
+            "url": "https://www.youtube.com/watch?v=AkGt0fsQ17o",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "h29eJG1hWHa7vMhSqtfV2",
+      "type": "topic",
+      "label": "パッケージ管理者",
+      "position": {
+        "x": -30.235552880907136,
+        "y": 2515.5128020469147
+      },
+      "size": {
+        "width": 211,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "FURC-X3vopFKhZ0F5BdYH",
+        "color": "#6d7500",
+        "label": "初心者 トピックス / ここから始めましょう",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "パッケージマネージャーは,C++ プロジェクトに外部ライブラリと依存関係を組み込むプロセスを簡素化する不可欠なツールです.これらのコンポーネントをインストール,更新,管理する作業を自動化し,開発を簡素化し,コードの再利用を促進します.C++ エコシステムにおける人気のあるオプションには,分散型,クロスプラットフォームソリューションであるコナン,マイクロソフトが開発したパッケージマネージャである vcpkg,そして現在 build2 ビルドツールチェーンの一部である cppan が含まれています.これらのツールにより,開発者は依存関係を効率的に管理し,コード品質を改善し,開発を加速します.",
+        "links": []
+      }
+    },
+    {
+      "id": "PKG5pACLfRS2ogfzBX47_",
+      "type": "subtopic",
+      "label": "Vcpkg",
+      "position": {
+        "x": -25.855916380130566,
+        "y": 2608.8378646515134
+      },
+      "size": {
+        "width": 97,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "WbquXSrbKyKZuwVeLZfnw",
+        "color": "#999999",
+        "label": "オプション / 学びたい場合は",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "`vcpkg`は,CおよびC++ ライブラリのためのオープンソース,クロスプラットフォームパッケージマネージャーで,依存性の獲得と構築を簡素化します.Windows,Linux,MacOSをサポートし,検索,インストール,削除コマンドを通じて外部ライブラリをプロジェクトに統合することを簡素化します.また,Windowsベースの開発のためのVisual Studioと統合を提供し,依存性の管理をより効率化します.",
+        "links": [
+          {
+            "title": "vcpkg ドキュメント",
+            "url": "https://learn.microsoft.com/en-gb/vcpkg/",
+            "type": "official"
+          },
+          {
+            "title": "Vcpkg クラッシュコース ビジュアルスタジオ 2022 C++ ライブラリ 簡素化!",
+            "url": "https://www.youtube.com/watch?v=0h1lC3QHLHU",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "g0s0F4mLV16eNvMBflN2e",
+      "type": "subtopic",
+      "label": "ノーゲット",
+      "position": {
+        "x": 76.76444711909286,
+        "y": 2660.9355066535127
+      },
+      "size": {
+        "width": 104,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "WbquXSrbKyKZuwVeLZfnw",
+        "color": "#999999",
+        "label": "オプション / 学びたい場合は",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "NuGet は,当初NETエコシステム向けに設計されたパッケージマネージャです.しかし,また,その機能を C++ プロジェクトに拡張し, `PackageReference`フォーマットを通じて提供しています.Visual StudioのGUI,その統合コマンドラインツール,または独立の `nuget.exe`実行可能を使用しているかどうかにかかわらず,C++ プロジェクト内の外部ライブラリや依存を追加,更新,管理するプロセスを簡素化します.NuGet を使用すると,依存を管理する機能がより効率的で,C++ コードを中心に集中することができます.",
+        "links": [
+          {
+            "title": "ネイティブ C++ ライブラリを包むためのクロスプラットフォーム NuGet パッケージを作成する",
+            "url": "https://medium.com/@yooonatan/creating-cross-platform-nuget-package-to-wrap-native-c-libraries-b2ee71c34164",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ky_UqizToTZHC_b77qFi2",
+      "type": "subtopic",
+      "label": "コナン",
+      "position": {
+        "x": -25.855916380130566,
+        "y": 2661.8378646515134
+      },
+      "size": {
+        "width": 97,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "WbquXSrbKyKZuwVeLZfnw",
+        "color": "#999999",
+        "label": "オプション / 学びたい場合は",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "Conan は,CとC++ プロジェクト向けに特別に設計されたパッケージマネージャです. 開発者が依存関係を管理し,構成を構築し,異なるプラットフォームでプリビルドライブラリを共有し,CMakeやVisual Studioなどのシステムを構築するのに役立ちます. Conan を使用すると,プロジェクト依存関係を簡単に宣言し,リモートリポジトリから取得し,ビルドプロセスに統合し,全体的な依存管理ワークフローを簡素化できます.",
+        "links": [
+          {
+            "title": "コナン",
+            "url": "https://github.com/conan-io/conan",
+            "type": "opensource"
+          },
+          {
+            "title": "コナン2の初心者ガイド:CとC++パッケージマネージャー",
+            "url": "https://medium.com/@milan.pultar/a-beginners-guide-to-conan-2-c-and-c-package-manager-b0cbc1f99175",
+            "type": "article"
+          },
+          {
+            "title": "コナン2の紹介 - 最高のC++パッケージマネージャー?",
+            "url": "https://www.youtube.com/watch?v=U-_RbUqDSTc",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3ehBc2sKVlPj7dn4RVZCH",
+      "type": "subtopic",
+      "label": "スパック",
+      "position": {
+        "x": 76.76444711909286,
+        "y": 2607.9355066535127
+      },
+      "size": {
+        "width": 104,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "WbquXSrbKyKZuwVeLZfnw",
+        "color": "#999999",
+        "label": "オプション / 学びたい場合は",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "Spackは,複数のバージョン,構成,プラットフォーム,コンパイラに対応するための柔軟性とサポートのために設計されたパッケージマネージャであり,特に高性能コンピューティング (HPC) 環境で有用である. 依存関係をインストールして管理するプロセスを自動化し,ユーザがコンポーネントを精細に制御する複雑なソフトウェアスタックを構築できるようにします. Spackは,GCC,Clang,IntelなどのコンパイラとともにLinux,macOS,スーパーコンピュータを含むさまざまなプラットフォームをサポートします.その主要な機能にはマルチバージョンサポート,コンパイラサポート,プラットフォームサポート,自動依存管理が含まれます.",
+        "links": [
+          {
+            "title": "スパック",
+            "url": "https://spack.io/",
+            "type": "official"
+          },
+          {
+            "title": "スパック",
+            "url": "https://github.com/spack/spack",
+            "type": "opensource"
+          },
+          {
+            "title": "チュートリアル 2025: スパック 第1部 (基礎,環境,構成)",
+            "url": "https://www.youtube.com/watch?v=Uoi3-_xMPtk",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4kkX5g_-plX9zVqr0ZoiR",
+      "type": "topic",
+      "label": "図書館 と 協力 する",
+      "position": {
+        "x": 245.31805846187558,
+        "y": 2515.5128020469147
+      },
+      "size": {
+        "width": 222,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "FURC-X3vopFKhZ0F5BdYH",
+        "color": "#6d7500",
+        "label": "初心者 トピックス / ここから始めましょう",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "C++ のライブラリとは,異なるプログラムで再利用するように設計されたプリ書きのコードのコレクションで,専門的なアルゴリズム,データ構造,システムインターフェイスなどの機能を提供しています.これらのライブラリは,コンパイル時に実行可能に直接リンクされている静的ライブラリと実行時に読み込まれているダイナミックライブラリです.ライブラリを使用すると,ソースコードにヘッダーファイルを追加し,コンパイル中にリンクします.",
+        "links": []
+      }
+    },
+    {
+      "id": "5mNqH_AEiLxUmgurNW1Fq",
+      "type": "subtopic",
+      "label": "図書館の含有",
+      "position": {
+        "x": 245.31805846187558,
+        "y": 2432.907835806348
+      },
+      "size": {
+        "width": 222,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "FURC-X3vopFKhZ0F5BdYH",
+        "color": "#6d7500",
+        "label": "初心者 トピックス / ここから始めましょう",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "C++では,図書館の組み込みは,プログラムに外部コードを利用できるようにするプロセスである.これは主に,関数,クラス,その他のエンティティの宣言を含むヘッダーファイルを組み込むことができます.標準ライブラリからのヘッダーファイルは角括弧 (`<iostream>`) を使用して含まれ,ユーザー定義または第三者のヘッダーはダブル引用 (`\"myheader.h\"`) を使用して含まれます.より少ない場合でも,ソースファイルも含まれることができます.しかし,この慣習は一般的に複数の定義とより長いコンパイル時間を持つ潜在的な問題のために推奨されません.",
+        "links": []
+      }
+    },
+    {
+      "id": "sLVs95EOeHZldoKY0L_dH",
+      "type": "subtopic",
+      "label": "ライセンス",
+      "position": {
+        "x": 245.31805846187558,
+        "y": 2379.907835806348
+      },
+      "size": {
+        "width": 222,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "FURC-X3vopFKhZ0F5BdYH",
+        "color": "#6d7500",
+        "label": "初心者 トピックス / ここから始めましょう",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "C++ プロジェクトに第三者のコードを統合する際に特に重要である.MIT,GPL,Apache 2.0などの一般的なオープンソースライセンスはそれぞれ異なるレベルの自由と義務を提供します.MIT ライセンスは許容性があり,最小限の要件でほとんどすべての使用を許可します.GPLはコピレフトで,修正や衍生作品もGPLの下でライセンスされる必要があります.Apache ライセンスは許容性がありますが,特許と変更のドキュメントに関連する条項を含みます.これらのライセンスを理解し,遵守することは法的問題を回避するために不可欠です.",
+        "links": []
+      }
+    },
+    {
+      "id": "1d7h5P1Q0RVHryKPVogQy",
+      "type": "subtopic",
+      "label": "増強する",
+      "position": {
+        "x": 543.5766878818748,
+        "y": 2436.6661606275225
+      },
+      "size": {
+        "width": 103,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "sRAiZODQQ8xrMiVpCdnI7",
+        "color": "#2b78e4",
+        "label": "中間話題 / 次の選択",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "Boostは,ピアレビューされた,ポータブルなC++ソースライブラリの一組です.データ構造,アルゴリズム,数学機能,同期性などの分野をカバーし,C++開発を大幅に向上させることができる幅広いユーティリティやツールを提供しています.Boostライブラリは,C++標準ライブラリとうまく統合するように設計されており,しばしば標準にたどり着く機能のインキュベーターとして機能します.",
+        "links": [
+          {
+            "title": "図書館 を 強化 する",
+            "url": "https://www.boost.org/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Eq3TKSFJ2F2mrTHAaU2J4",
+      "type": "subtopic",
+      "label": "OpenCV",
+      "position": {
+        "x": 649.5179751445827,
+        "y": 2437.6661606275225
+      },
+      "size": {
+        "width": 111,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "WbquXSrbKyKZuwVeLZfnw",
+        "color": "#999999",
+        "label": "オプション / 学びたい場合は",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "OpenCV (オープンソースコンピュータビジョンライブラリ) は,主にリアルタイムコンピュータビジョンを目的としたプログラミング機能の総合的なコレクションです. 画像処理,オブジェクト検出,ビデオ分析,機械学習のための幅広いアルゴリズムを含んでいます.",
+        "links": [
+          {
+            "title": "OpenCV",
+            "url": "https://opencv.org/",
+            "type": "official"
+          },
+          {
+            "title": "C/C++ 開発のために Visual Studio 2022 で OpenCV を設定する",
+            "url": "https://www.youtube.com/watch?v=unSce_GPwto",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "nOkniNXfXwPPlOEJHJoGl",
+      "type": "subtopic",
+      "label": "POCO",
+      "position": {
+        "x": 543.5766878818748,
+        "y": 2489.6661606275225
+      },
+      "size": {
+        "width": 103,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "WbquXSrbKyKZuwVeLZfnw",
+        "color": "#999999",
+        "label": "オプション / 学びたい場合は",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "POCO (ポータブルコンポーネント) は,ネットワークを中心とした,ポータブルなアプリケーションを簡素化するC++クラスライブラリです.ネットワーク,データ処理,基本的なユーティリティなどのタスクのための包括的なツールとコンポーネントを提供します.POCOはモジュール化およびクロスプラットフォームに重点を置いています.",
+        "links": [
+          {
+            "title": "POCO ドックス",
+            "url": "https://pocoproject.org/documentation.html",
+            "type": "official"
+          },
+          {
+            "title": "POCOでネットワーククライアントを作成する",
+            "url": "https://www.youtube.com/watch?v=rRR9RTUEn4k",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "jpMCIWQko7p3ndezYHL4D",
+      "type": "subtopic",
+      "label": "プロトボフ",
+      "position": {
+        "x": 543.5766878818748,
+        "y": 2542.6661606275225
+      },
+      "size": {
+        "width": 103,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "WbquXSrbKyKZuwVeLZfnw",
+        "color": "#999999",
+        "label": "オプション / 学びたい場合は",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "Protobuf (プロトコルバッファ) は,言語中立で,プラットフォーム中立で,構造化されたデータをシリアライズするための拡張可能なメカニズムです.データが一度にどのように構造化されることを望むかを定義します.その後,XMLまたはJSONに対するより効率的で柔軟な代替として,さまざまな言語を使用して,さまざまなデータストリームに簡単に構造化されたデータを書き読み取ることができます.",
+        "links": [
+          {
+            "title": "プロトボフ",
+            "url": "https://github.com/protocolbuffers/protobuf",
+            "type": "opensource"
+          },
+          {
+            "title": "プロトコルバッファの基礎:C++",
+            "url": "https://protobuf.dev/getting-started/cpptutorial/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "621J9W4xCofumNZGo4TZT",
+      "type": "subtopic",
+      "label": "gRPC",
+      "position": {
+        "x": 543.5766878818748,
+        "y": 2595.6661606275225
+      },
+      "size": {
+        "width": 103,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "WbquXSrbKyKZuwVeLZfnw",
+        "color": "#999999",
+        "label": "オプション / 学びたい場合は",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "gRPCは,Googleによって開発された高性能,オープンソースのフレームワークで,リモートプロセスコール (RPC) を構築する.このフレームワークは,インターフェイス定義言語 (IDL) としてプロトコルバッファーを使用し,輸送のためにHTTP/2に依存する. gRPCは,クライアントアプリケーションが,分散したアプリケーションとマイクロサービスを作成し,ローカルオブジェクトであるかのように別のマシンでサーバーアプリケーションに直接方法を呼び出すことを可能にします.",
+        "links": [
+          {
+            "title": "スピードスタート",
+            "url": "https://grpc.io/docs/languages/cpp/quickstart/",
+            "type": "official"
+          },
+          {
+            "title": "基礎教科書",
+            "url": "https://grpc.io/docs/languages/cpp/basics/",
+            "type": "official"
+          },
+          {
+            "title": "株式会社",
+            "url": "https://github.com/grpc/grpc",
+            "type": "opensource"
+          }
+        ]
+      }
+    },
+    {
+      "id": "j_eNHhs0J08Dt7HVbo4Q2",
+      "type": "subtopic",
+      "label": "テンソルフロー",
+      "position": {
+        "x": 649.5179751445827,
+        "y": 2490.6661606275225
+      },
+      "size": {
+        "width": 111,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "WbquXSrbKyKZuwVeLZfnw",
+        "color": "#999999",
+        "label": "オプション / 学びたい場合は",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "TensorFlowは,Googleが開発したオープンソースソフトウェアライブラリで,主に数値計算と大規模な機械学習に使用されます.さまざまなツール,ライブラリ,コミュニティリソースを使用して機械学習モデルを作成し,トレーニングすることができます.TensorFlowは画像認識,自然言語処理,タイムシリーズ分析などのディープ学習作業に焦点を当てています.",
+        "links": [
+          {
+            "title": "テンソールフロー",
+            "url": "https://github.com/tensorflow/tensorflow",
+            "type": "opensource"
+          },
+          {
+            "title": "3つの異なる方法でC++でTensorflowモデルを展開する方法",
+            "url": "https://towardsdatascience.com/how-to-deploy-tensorflow-models-in-c-in-3-different-ways-f7e25046be29/?utm_source=roadmap&utm_medium=Referral&utm_campaign=TDS+roadmap+integration",
+            "type": "article"
+          },
+          {
+            "title": "100秒でテンサーフロー",
+            "url": "https://www.youtube.com/watch?v=i8NETqtGHms",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tEkvlJPAkD5fji-MMODL7",
+      "type": "subtopic",
+      "label": "pybind11",
+      "position": {
+        "x": 649.5179751445827,
+        "y": 2596.6661606275225
+      },
+      "size": {
+        "width": 111,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "WbquXSrbKyKZuwVeLZfnw",
+        "color": "#999999",
+        "label": "オプション / 学びたい場合は",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "pybind11は,既存のC++コードのPython結合を作成できる軽量ヘッダー専用ライブラリです.基本的には,C++機能,クラス,データ構造をPythonに露出させ,両言語の間でのシームレスな相互運用が可能になります.これはPythonの柔軟性と使いやすさを活用しながらC++のパフォーマンスを活用できます.",
+        "links": [
+          {
+            "title": "pybind11",
+            "url": "https://github.com/pybind/pybind11",
+            "type": "opensource"
+          },
+          {
+            "title": "Pybind11チュートリアル:C++コードをPythonに結合する",
+            "url": "https://medium.com/@ahmedfgad/pybind11-tutorial-binding-c-code-to-python-337da23685dc",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q64qFxoCrR38RPsN2lC8x",
+      "type": "subtopic",
+      "label": "spdlog",
+      "position": {
+        "x": 649.5179751445827,
+        "y": 2543.6661606275225
+      },
+      "size": {
+        "width": 111,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "WbquXSrbKyKZuwVeLZfnw",
+        "color": "#999999",
+        "label": "オプション / 学びたい場合は",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "spdlog は,C++ の高速でクロスプラットフォームのログライブラリです.コンソール,ファイル,またはカスタムシンクなどの異なる目的地にログメッセージを書くためのシンプルなインターフェースを提供します.さまざまなログレベル,フォーマットオプション,および非同期ログをサポートし,効率的で柔軟なログ機能を必要とするプロジェクトに適しています.",
+        "links": [
+          {
+            "title": "spdlog",
+            "url": "https://github.com/gabime/spdlog",
+            "type": "opensource"
+          }
+        ]
+      }
+    },
+    {
+      "id": "GGZJaYpRENaqloJzt0VtY",
+      "type": "subtopic",
+      "label": "オープンcl",
+      "position": {
+        "x": 649.5179751445827,
+        "y": 2649.6661606275225
+      },
+      "size": {
+        "width": 111,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "WbquXSrbKyKZuwVeLZfnw",
+        "color": "#999999",
+        "label": "オプション / 学びたい場合は",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "OpenCL (オープンコンピューティング言語) は,CPU,GPU,その他のプロセッサで構成される異なったプラットフォームで実行されるプログラムを書くフレームワークです.開発者は統一されたAPIを使用して異なる種類のハードウェアの並行処理力を活用し,コンピューティングに密集したタスクの加速を可能にします.OpenCLを使用して,さまざまなデバイスで実行できるコードを書くことができ,並行プログラミングのための汎用ツールになります.",
+        "links": [
+          {
+            "title": "序言",
+            "url": "https://github.khronos.org/OpenCL-CLHPP/",
+            "type": "official"
+          },
+          {
+            "title": "C++ API の OpenCL の基本例",
+            "url": "https://github.com/Dakkers/OpenCL-examples",
+            "type": "opensource"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1CqQgmHDeo1HlPdpUJS7H",
+      "type": "subtopic",
+      "label": "fmt",
+      "position": {
+        "x": 543.5766878818748,
+        "y": 2648.6661606275225
+      },
+      "size": {
+        "width": 103,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "WbquXSrbKyKZuwVeLZfnw",
+        "color": "#999999",
+        "label": "オプション / 学びたい場合は",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "`fmt`は,C++用の近代的なフォーマットライブラリです. Python の `str.format() `や C# の `string.Format() `のようなテキストをフォーマットするためのシンプルで効率的な方法を提供します.",
+        "links": [
+          {
+            "title": "fmt",
+            "url": "https://fmt.dev/12.0/",
+            "type": "official"
+          },
+          {
+            "title": "fmt",
+            "url": "https://github.com/fmtlib/fmt",
+            "type": "opensource"
+          }
+        ]
+      }
+    },
+    {
+      "id": "et-dXKPYuyVW6eV2K3CM8",
+      "type": "subtopic",
+      "label": "範囲_v3",
+      "position": {
+        "x": 543.5766878818748,
+        "y": 2703.6661606275225
+      },
+      "size": {
+        "width": 216,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "WbquXSrbKyKZuwVeLZfnw",
+        "color": "#999999",
+        "label": "オプション / 学びたい場合は",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "範囲 v3 は,より構成的で表現的な方法で要素のシーケンスで作業するためのツールを提供する近代的なC++ライブラリです.範囲で動作するビューやアルゴリズムのような概念を導入し,リターナーに依存することなく,効率的かつ優雅にデータを処理するために操作を結びつけることができます. 範囲 v3は,伝統的なリターナーベースのコードよりも高いレベルの抽象を提供することによってフィルタリング,変換,並べ替えなどの一般的なデータ操作作業を簡素化します.",
+        "links": [
+          {
+            "title": "範囲v3",
+            "url": "https://github.com/ericniebler/range-v3",
+            "type": "opensource"
+          },
+          {
+            "title": "ランゲス3への温柔な紹介",
+            "url": "https://www.daixtrose.de/talks/gentle-intro-to-ranges/talk/A%20Gentle%20Introduction%20to%20Ranges%20v3.pdf",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "YkaqIkt2bGBsrRwOFQpV4",
+      "type": "label",
+      "label": "図書館",
+      "position": {
+        "x": 609.5766878818748,
+        "y": 2392.9355066535127
+      },
+      "size": {
+        "width": 84,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "MrAM-viRaF8DSxB6sVdD9",
+      "type": "subtopic",
+      "label": "gtest / gmock",
+      "position": {
+        "x": 273.5766878818748,
+        "y": 2700.6661606275225
+      },
+      "size": {
+        "width": 170,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "sRAiZODQQ8xrMiVpCdnI7",
+        "color": "#2b78e4",
+        "label": "中間話題 / 次の選択",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "Google TestとGoogle Mockは,Googleが開発したオープンソースのC++ユニットテストフレームワークである.Google Testは,ユニットテストの書き込みと実行のための独立したフレームワークであり,Google Mockは強力なモッキング機能で拡張している.GMockは,外部または第三者のユーティリティと相互作用するコンポーネントのテストに特に有用である.",
+        "links": [
+          {
+            "title": "Google の Github ページのテスト",
+            "url": "https://google.github.io/googletest/",
+            "type": "official"
+          },
+          {
+            "title": "Google C++ テスト,GTest,GMock フレームワークのプレイリスト",
+            "url": "https://youtube.com/playlist?list=PL_dsdStdDXbo-zApdWB5XiF2aWpsqzV55&si=TR8ESbH1-epTl6VM",
+            "type": "video"
+          },
+          {
+            "title": "基礎に戻り:C++におけるユニットテスト - デイブ・ステッフェン - CppCon 2024",
+            "url": "https://youtu.be/MwoAM3sznS0?si=pumn99IobfU4AZ1I",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "gAZ9Dqgj1_UkaLzVgzx1t",
+      "type": "subtopic",
+      "label": "Qt",
+      "position": {
+        "x": 273.5766878818748,
+        "y": 2753.6661606275225
+      },
+      "size": {
+        "width": 64,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "WbquXSrbKyKZuwVeLZfnw",
+        "color": "#999999",
+        "label": "オプション / 学びたい場合は",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "Qt は,Windows,macOS,Linux,および埋め込みシステムなどのさまざまなオペレーティングシステム上で動作するグラフィックユーザーインターフェイス (GUIs) やアプリケーションを作成するために広く使用されるクロスプラットフォームアプリケーション開発フレームワークである.ウィッジ,ネットワーク,データベースアクセス,マルチメディアサポートなどの機能を提供し,開発プロセスを簡素化するツールとライブラリセットを提供します. Qt は,C++ を主要なプログラミング言語として使用し,独自のメタオブジェクトコンパイラ (moc) およびイベント処理のための信号/スロットメカニズムで拡張しています.",
+        "links": [
+          {
+            "title": "Qt 初心者向け",
+            "url": "https://wiki.qt.io/Qt_for_Beginners",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "s13jQuaC6gw0Lab3Cbyy6",
+      "type": "subtopic",
+      "label": "捕獲2",
+      "position": {
+        "x": 342.86058049826306,
+        "y": 2753.6661606275225
+      },
+      "size": {
+        "width": 101,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "WbquXSrbKyKZuwVeLZfnw",
+        "color": "#999999",
+        "label": "オプション / 学びたい場合は",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "Catch2は,C++ネイティブで,ユニットテスト,ベンチマーク,そしてシンプルなコマンドラインアプリケーションを書くためのヘッダーのみのフレームワークです.テストケース,主張,セクションを定義するためのシンプルで表現的な構文を提供しており,C++コードのための包括的なテストを書き,維持することを容易にします.テストケース発見,パラメータ化テスト,およびさまざまなIDEおよびビルドシステムとの統合などの機能をサポートします.",
+        "links": [
+          {
+            "title": "捕獲2",
+            "url": "https://catch2.org/",
+            "type": "official"
+          },
+          {
+            "title": "捕獲2",
+            "url": "https://github.com/catchorg/Catch2",
+            "type": "opensource"
+          }
+        ]
+      }
+    },
+    {
+      "id": "O0lVEMTAV1pq9sYCKQvh_",
+      "type": "subtopic",
+      "label": "軌道プロファイラー",
+      "position": {
+        "x": 273.5766878818748,
+        "y": 2806.6661606275225
+      },
+      "size": {
+        "width": 170,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "WbquXSrbKyKZuwVeLZfnw",
+        "color": "#999999",
+        "label": "オプション / 学びたい場合は",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "Orbit Profilerは,開発者がボトルネックスを識別し,アプリケーションのパフォーマンスを最適化するために設計されたパフォーマンス分析ツールです. サンプリングおよび追跡を通じてCPU使用,メモリ配置,および他のパフォーマンスメトリックに関する詳細な洞察を提供します.これはコードをより効率化できる領域を特定するのに役立ちます.",
+        "links": [
+          {
+            "title": "軌道プロフィール",
+            "url": "https://orbitprofiler.com/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "88pr5aN7cctZfDVVo-2ns",
+      "type": "subtopic",
+      "label": "PyTorch C++",
+      "position": {
+        "x": 273.5766878818748,
+        "y": 2859.6661606275225
+      },
+      "size": {
+        "width": 170,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "WbquXSrbKyKZuwVeLZfnw",
+        "color": "#999999",
+        "label": "オプション / 学びたい場合は",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "PyTorch C++ は PyTorch 機械学習フレームワークのフロントエンドを提供し,Python の代わりに C++ を使用してモデルを構築し,展開することができます.これは,特に低遅延とリソース効率が重要な生産環境において,計算密集型作業のためにC++ の性能と制御を活用できるようにします. PyTorch オペレーションを定義し実行するためにC++ API を使用します.",
+        "links": [
+          {
+            "title": "PyTorch C++ API",
+            "url": "https://docs.pytorch.org/cppdocs/",
+            "type": "official"
+          },
+          {
+            "title": "LibTorch: C++ パワーハウス ドライビング PyTorch",
+            "url": "https://medium.com/@pouyahallaj/libtorch-the-c-powerhouse-driving-pytorch-ee0d4f7b8743",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1Bm9i2IdUeDkWg4ZGEylB",
+      "type": "label",
+      "label": "フレームワーク",
+      "position": {
+        "x": 300.5179751445827,
+        "y": 2919.244194339027
+      },
+      "size": {
+        "width": 111,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    }
+  ],
+  "edges": [
+    {
+      "id": "XX0I26JoVMVXIe_7bVMix",
+      "source": "iogwMmOvub2ZF4zgg6WyF",
+      "target": "_hYN0gEi9BL24nptEtXWU",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "dFn6kGOoJ-0BzJJEb9DSG",
+      "source": "_hYN0gEi9BL24nptEtXWU",
+      "target": "idLHBxhvcIqZTqmh_E8Az",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "arkF7QJJRbCBYWp0crqa2",
+      "source": "_hYN0gEi9BL24nptEtXWU",
+      "target": "os3Pa6W9SSNEzgmlBbglQ",
+      "source_handle": "z2",
+      "target_handle": "y2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "HNVw8OboycWKLEtEbG2bn",
+      "source": "_hYN0gEi9BL24nptEtXWU",
+      "target": "3oInpqvTSSC5_K6i7j8N7",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "auB7Png72XjmhcLr3IJA7",
+      "source": "_hYN0gEi9BL24nptEtXWU",
+      "target": "YKhuRbcUFzo0hTvuTq-Yl",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "2aoDIr80lXSJLW1hIGUkb",
+      "source": "jZ67HhVRelJaxjsCckSSI",
+      "target": "hWA7RtuqltMTmHdcCnmES",
+      "source_handle": "x2",
+      "target_handle": "y1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "m-_y7nLeYFkUKGiacxWA0",
+      "source": "",
+      "target": "NMznG9mo2wzNFnjhg990f",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "G7pXuJfkyt2nWAOHU8yV0",
+      "source": "",
+      "target": "gc_7cuIO2_joKlQRAPDfX",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "2_6Yz3-Agx9_rEN5xW86c",
+      "source": "rrrvATyhXqRgJGWI3z0WF",
+      "target": "AvbMQ5vY3ip1oX_6Yq4ie",
+      "source_handle": "x2",
+      "target_handle": "w2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "kgMI98fg2-mKMgUs0wnjD",
+      "source": "hWA7RtuqltMTmHdcCnmES",
+      "target": "1AJv95mTLpR7L8KBoGym8",
+      "source_handle": "w2",
+      "target_handle": "x1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "ts38Q2ceHs60TJscUBZVE",
+      "source": "hWA7RtuqltMTmHdcCnmES",
+      "target": "0etAs56EeBfh_0IlAaSra",
+      "source_handle": "y2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "ZiMV7umyPdhy3JJDcopR-",
+      "source": "jZ67HhVRelJaxjsCckSSI",
+      "target": "h6ceO0kiBIxNRkPzN3hBY",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "WI-MhbxrehFcVwyGJ5CQJ",
+      "source": "jZ67HhVRelJaxjsCckSSI",
+      "target": "_JlT9oKQ6Yu4UX6l19G8P",
+      "source_handle": "y2",
+      "target_handle": "z2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "qUrLBzvXvJOg53HBfjrOI",
+      "source": "_hYN0gEi9BL24nptEtXWU",
+      "target": "jZ67HhVRelJaxjsCckSSI",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-Ji35JsKgUQXN4DJGEgTACx2-t3Op8UcgDKVeMLNMDePrWw1",
+      "source": "Ji35JsKgUQXN4DJGEgTAC",
+      "target": "t3Op8UcgDKVeMLNMDePrW",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-Ji35JsKgUQXN4DJGEgTACx2-c2YZ7PPCX1jF_RU7C0AqNw2",
+      "source": "Ji35JsKgUQXN4DJGEgTAC",
+      "target": "c2YZ7PPCX1jF_RU7C0AqN",
+      "source_handle": "x2",
+      "target_handle": "w2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-Z-zHIbLBy7cqcDu_QEJIny2-WSrbHa0mKIQs33vEJHp15x2",
+      "source": "Z-zHIbLBy7cqcDu_QEJIn",
+      "target": "WSrbHa0mKIQs33vEJHp15",
+      "source_handle": "y2",
+      "target_handle": "x2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-NvODRFR0DLINB0RlPSsvtz2-x_28LiDVshqWns_aIBsdxy1",
+      "source": "NvODRFR0DLINB0RlPSsvt",
+      "target": "x_28LiDVshqWns_aIBsdx",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-NvODRFR0DLINB0RlPSsvtz2-tl6VCQ5IEGDVyFcgj7jDmy1",
+      "source": "NvODRFR0DLINB0RlPSsvt",
+      "target": "tl6VCQ5IEGDVyFcgj7jDm",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-NvODRFR0DLINB0RlPSsvtz2-2Ag0t3LPryTF8khHLRfy-y2",
+      "source": "NvODRFR0DLINB0RlPSsvt",
+      "target": "2Ag0t3LPryTF8khHLRfy-",
+      "source_handle": "z2",
+      "target_handle": "y2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-NvODRFR0DLINB0RlPSsvty2-Zc_TTzmM36yWsu3GvOy9xw2",
+      "source": "NvODRFR0DLINB0RlPSsvt",
+      "target": "Zc_TTzmM36yWsu3GvOy9x",
+      "source_handle": "y2",
+      "target_handle": "w2",
+      "edge_style": "solid",
+      "line_type": "smoothstep",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-Zc_TTzmM36yWsu3GvOy9xx2-0J_ltQEJh2g28OE2ZEYJjw2",
+      "source": "Zc_TTzmM36yWsu3GvOy9x",
+      "target": "0J_ltQEJh2g28OE2ZEYJj",
+      "source_handle": "x2",
+      "target_handle": "w2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-Zc_TTzmM36yWsu3GvOy9xz2-MwznA4qfpNlv6sqSNjPZiy1",
+      "source": "Zc_TTzmM36yWsu3GvOy9x",
+      "target": "kl2JI_Wl47c5r8SYzxvCq",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-MwznA4qfpNlv6sqSNjPZix2-8aOSpZLWwZv_BEYiurhyRw2",
+      "source": "kl2JI_Wl47c5r8SYzxvCq",
+      "target": "8aOSpZLWwZv_BEYiurhyR",
+      "source_handle": "x2",
+      "target_handle": "w2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-kl2JI_Wl47c5r8SYzxvCqz2-MwznA4qfpNlv6sqSNjPZiy1",
+      "source": "kl2JI_Wl47c5r8SYzxvCq",
+      "target": "s5Gs4yF9TPh-psYmtPzks",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-MwznA4qfpNlv6sqSNjPZiw2-_IP_e1K9LhNHilYTDh7L5x1",
+      "source": "s5Gs4yF9TPh-psYmtPzks",
+      "target": "_IP_e1K9LhNHilYTDh7L5",
+      "source_handle": "w2",
+      "target_handle": "x1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-s5Gs4yF9TPh-psYmtPzksx2-MwznA4qfpNlv6sqSNjPZiw1",
+      "source": "s5Gs4yF9TPh-psYmtPzks",
+      "target": "oYi3YOc1GC2Nfp71VOkJt",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-MwznA4qfpNlv6sqSNjPZix2-llCBeut_uc9IAe2oi4KZ9w2",
+      "source": "oYi3YOc1GC2Nfp71VOkJt",
+      "target": "llCBeut_uc9IAe2oi4KZ9",
+      "source_handle": "x2",
+      "target_handle": "w2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-oYi3YOc1GC2Nfp71VOkJty2-MwznA4qfpNlv6sqSNjPZiz1",
+      "source": "oYi3YOc1GC2Nfp71VOkJt",
+      "target": "MwznA4qfpNlv6sqSNjPZi",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-i0EAFEUB-F0wBJWOtrl1Ax2-r0yD1gfn03wTpEBi6zNsuw2",
+      "source": "i0EAFEUB-F0wBJWOtrl1A",
+      "target": "r0yD1gfn03wTpEBi6zNsu",
+      "source_handle": "x2",
+      "target_handle": "w2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-MwznA4qfpNlv6sqSNjPZiy2-DWw8NxkLpIpiOSUaZZ1oAz1",
+      "source": "MwznA4qfpNlv6sqSNjPZi",
+      "target": "DWw8NxkLpIpiOSUaZZ1oA",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-MwznA4qfpNlv6sqSNjPZix2-f1djN0GxoeVPr_0cl6vMqw1",
+      "source": "MwznA4qfpNlv6sqSNjPZi",
+      "target": "f1djN0GxoeVPr_0cl6vMq",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-DWw8NxkLpIpiOSUaZZ1oAx2-uUzRKa9wGzdUwwmAg3FWrw1",
+      "source": "DWw8NxkLpIpiOSUaZZ1oA",
+      "target": "uUzRKa9wGzdUwwmAg3FWr",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-Zw2AOTK5uc9BoKEpY7W1Cw2-dKCYmxDNZubCVcR5rf8b-x1",
+      "source": "Zw2AOTK5uc9BoKEpY7W1C",
+      "target": "dKCYmxDNZubCVcR5rf8b-",
+      "source_handle": "w2",
+      "target_handle": "x1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-Zw2AOTK5uc9BoKEpY7W1Cz2-CMlWNQwpywNhO9B6Yj6Mey2",
+      "source": "Zw2AOTK5uc9BoKEpY7W1C",
+      "target": "CMlWNQwpywNhO9B6Yj6Me",
+      "source_handle": "z2",
+      "target_handle": "y2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-CMlWNQwpywNhO9B6Yj6Mey2--6fwJQOfsorgHkoQGp4T3w2",
+      "source": "CMlWNQwpywNhO9B6Yj6Me",
+      "target": "B2SGBENzUMl0SAjG4j91V",
+      "source_handle": "y2",
+      "target_handle": "w2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge--6fwJQOfsorgHkoQGp4T3x2-oWygnpwHq2poXQMTTSCplw1",
+      "source": "B2SGBENzUMl0SAjG4j91V",
+      "target": "oWygnpwHq2poXQMTTSCpl",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-B2SGBENzUMl0SAjG4j91Vy2--6fwJQOfsorgHkoQGp4T3z1",
+      "source": "B2SGBENzUMl0SAjG4j91V",
+      "target": "-6fwJQOfsorgHkoQGp4T3",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge--6fwJQOfsorgHkoQGp4T3x2-CG01PTVgHtjfKvsJkJLGlw1",
+      "source": "-6fwJQOfsorgHkoQGp4T3",
+      "target": "CG01PTVgHtjfKvsJkJLGl",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-DHdNBP7_ixjr6h-dIQ7g6z2--6AOrbuOE7DJCmxlcgCayy2",
+      "source": "DHdNBP7_ixjr6h-dIQ7g6",
+      "target": "-6AOrbuOE7DJCmxlcgCay",
+      "source_handle": "z2",
+      "target_handle": "y2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge--6AOrbuOE7DJCmxlcgCayx2-qmHs6_BzND_xpMmls5YUHw2",
+      "source": "-6AOrbuOE7DJCmxlcgCay",
+      "target": "fb3bnfKXjSIjPAk4b95lg",
+      "source_handle": "x2",
+      "target_handle": "w2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-qmHs6_BzND_xpMmls5YUHx2-xjUaIp8gGxkN-cp8emJ2Mw1",
+      "source": "fb3bnfKXjSIjPAk4b95lg",
+      "target": "xjUaIp8gGxkN-cp8emJ2M",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-fb3bnfKXjSIjPAk4b95lgy2-qmHs6_BzND_xpMmls5YUHz1",
+      "source": "fb3bnfKXjSIjPAk4b95lg",
+      "target": "vvE1aUsWbF1OFcmMUHbJa",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-vvE1aUsWbF1OFcmMUHbJay2-Kb2Pbz0Sq7YlO1vCwYxnXz2",
+      "source": "vvE1aUsWbF1OFcmMUHbJa",
+      "target": "Kb2Pbz0Sq7YlO1vCwYxnX",
+      "source_handle": "y2",
+      "target_handle": "z2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-Kb2Pbz0Sq7YlO1vCwYxnXy2-qmHs6_BzND_xpMmls5YUHz2",
+      "source": "Kb2Pbz0Sq7YlO1vCwYxnX",
+      "target": "qmHs6_BzND_xpMmls5YUH",
+      "source_handle": "y2",
+      "target_handle": "z2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-vvE1aUsWbF1OFcmMUHbJaw2-T6rCTv9Dxkm-tEA-l9XEvx1",
+      "source": "vvE1aUsWbF1OFcmMUHbJa",
+      "target": "T6rCTv9Dxkm-tEA-l9XEv",
+      "source_handle": "w2",
+      "target_handle": "x1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-vvE1aUsWbF1OFcmMUHbJax2-R2-qWGUxsTOeSHRuUzhd2w1",
+      "source": "vvE1aUsWbF1OFcmMUHbJa",
+      "target": "R2-qWGUxsTOeSHRuUzhd2",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-qmHs6_BzND_xpMmls5YUHx2-h29eJG1hWHa7vMhSqtfV2w1",
+      "source": "qmHs6_BzND_xpMmls5YUH",
+      "target": "FTMHsUiE8isD_OVZr62Xc",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-h29eJG1hWHa7vMhSqtfV2z2-DVckzBUMgk_lWThVkLyATy1",
+      "source": "FTMHsUiE8isD_OVZr62Xc",
+      "target": "DVckzBUMgk_lWThVkLyAT",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-h29eJG1hWHa7vMhSqtfV2z2-hSG6Aux39X0cXi6ADy2aly1",
+      "source": "FTMHsUiE8isD_OVZr62Xc",
+      "target": "hSG6Aux39X0cXi6ADy2al",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-FTMHsUiE8isD_OVZr62Xcx2-h29eJG1hWHa7vMhSqtfV2w1",
+      "source": "FTMHsUiE8isD_OVZr62Xc",
+      "target": "jVXFCo6puMxJ_ifn_uwim",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-h29eJG1hWHa7vMhSqtfV2x2-ysnXvSHGBMMozBJyXpHl5w2",
+      "source": "jVXFCo6puMxJ_ifn_uwim",
+      "target": "ysnXvSHGBMMozBJyXpHl5",
+      "source_handle": "x2",
+      "target_handle": "w2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-jVXFCo6puMxJ_ifn_uwimz2-h29eJG1hWHa7vMhSqtfV2y1",
+      "source": "jVXFCo6puMxJ_ifn_uwim",
+      "target": "h29eJG1hWHa7vMhSqtfV2",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-h29eJG1hWHa7vMhSqtfV2z2-4kkX5g_-plX9zVqr0ZoiRy2",
+      "source": "h29eJG1hWHa7vMhSqtfV2",
+      "target": "4kkX5g_-plX9zVqr0ZoiR",
+      "source_handle": "z2",
+      "target_handle": "y2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-4kkX5g_-plX9zVqr0ZoiRw2-5mNqH_AEiLxUmgurNW1Fqx2",
+      "source": "4kkX5g_-plX9zVqr0ZoiR",
+      "target": "5mNqH_AEiLxUmgurNW1Fq",
+      "source_handle": "w2",
+      "target_handle": "x2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-4kkX5g_-plX9zVqr0ZoiRx2-I1aDakZmYpe7pKczou0qCw1",
+      "source": "4kkX5g_-plX9zVqr0ZoiR",
+      "target": "I1aDakZmYpe7pKczou0qC",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    }
+  ],
+  "content_crawled_at": "2026-04-06T09:04:11.042856+00:00"
+}

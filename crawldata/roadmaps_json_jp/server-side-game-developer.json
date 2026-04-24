@@ -1,0 +1,5273 @@
+{
+  "id": "server-side-game-developer",
+  "title": "ゲーム開発者",
+  "source_url": "https://roadmap.sh/server-side-game-developer",
+  "github_url": "https://github.com/kamranahmedse/developer-roadmap/tree/master/src/data/roadmaps/server-side-game-developer",
+  "crawled_at": "2026-04-06T07:37:51.214204+00:00",
+  "type": "flow",
+  "stats": {
+    "total_nodes": 189,
+    "total_edges": 62,
+    "nodes_with_content": 153
+  },
+  "node_types": [
+    "button",
+    "horizontal",
+    "label",
+    "paragraph",
+    "section",
+    "subtopic",
+    "title",
+    "topic",
+    "vertical"
+  ],
+  "edge_styles": [
+    "dashed",
+    "solid"
+  ],
+  "edge_line_types": [
+    "default",
+    "smoothstep"
+  ],
+  "node_type_description": {
+    "title": "ロードマップの主題",
+    "topic": "主題大 (nhóm kỹ năng)",
+    "subtopic": "Kỹ năng/công nghệ cụ thể cần học",
+    "paragraph": "文は mô tả / chú thích",
+    "vertical": "Đường kết nối dọc (ビジュアルコネクタ)"
+  },
+  "edge_style_description": {
+    "solid": "Kỹ năng bắt buộc / quan trọng",
+    "dashed": "選択 / gợi ý / オルタナティブ"
+  },
+  "nodes": [
+    {
+      "id": "9Rf_ESmrOhmLgeiAmo2aE",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": -14.150757605772469,
+        "y": 1529.1065060656979
+      },
+      "size": {
+        "width": 21,
+        "height": 145
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "MyM7wSUeqDXwWqq497EIb",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": 346.8414717224867,
+        "y": 2326.8720132492394
+      },
+      "size": {
+        "width": 21,
+        "height": 116
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.5,
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "i5G_vqW3djl1tMFlHhzGi",
+      "type": "horizontal",
+      "label": "ホリゾントノード",
+      "position": {
+        "x": -219.23195037554086,
+        "y": 1607.8976823971498
+      },
+      "size": {
+        "width": 67,
+        "height": 20
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "ax0zKGmEcWhEyfTLVL_q_",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": -146.95654296875,
+        "y": 1812.4564918532815
+      },
+      "size": {
+        "width": 21,
+        "height": 100
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "4UzHjUtWQExUbCApQZrb1",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": -51.14448607509672,
+        "y": 1482.4027065582582
+      },
+      "size": {
+        "width": 123,
+        "height": 49
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "vQOg2sH4mRdekP8fu2l2y",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": -368.31301933317815,
+        "y": 1567.4564918532815
+      },
+      "size": {
+        "width": 150,
+        "height": 270
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "xCBr001bGOe6pG2cBV5P2",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": -518.6327630325113,
+        "y": 1566.8976823971498
+      },
+      "size": {
+        "width": 154,
+        "height": 217
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "p5tPgBIMsADIgyDPwrXds",
+      "type": "horizontal",
+      "label": "ホリゾントノード",
+      "position": {
+        "x": -53.23195037554086,
+        "y": 1398.1810870203947
+      },
+      "size": {
+        "width": 391,
+        "height": 20
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.5
+      },
+      "z_index": 999
+    },
+    {
+      "id": "RpnDZAlSAM9gzffuCmIvY",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": 467.0153285883124,
+        "y": 1254.3347138997447
+      },
+      "size": {
+        "width": 21,
+        "height": 76
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "QxCHUdHvPE1PYSROlwaaP",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": 359.0153285883124,
+        "y": 1254.3347138997447
+      },
+      "size": {
+        "width": 21,
+        "height": 76
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "abe6O92f_d1pFu0RLF6_Z",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": 172.08476767833992,
+        "y": 1149.9443302389855
+      },
+      "size": {
+        "width": 21,
+        "height": 93
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "kYNHe3y8YOfT2lLP1I8xw",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": 79.04348787605068,
+        "y": 1106.9443302389855
+      },
+      "size": {
+        "width": 21,
+        "height": 301
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.5
+      },
+      "z_index": 999
+    },
+    {
+      "id": "dlmGJViN_PpdZRXgvcNI1",
+      "type": "horizontal",
+      "label": "ホリゾントノード",
+      "position": {
+        "x": -37.73195037554086,
+        "y": 1096.4443359375
+      },
+      "size": {
+        "width": 131,
+        "height": 20
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.5
+      },
+      "z_index": 999
+    },
+    {
+      "id": "IDoNrKeTKP31kG61rgsuc",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": -72.45654296875,
+        "y": 1114.0579118246837
+      },
+      "size": {
+        "width": 21,
+        "height": 65
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "EuUyOm_J0Uo5qt9e2OtI_",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": -176.95654296875,
+        "y": 1114.0579118246837
+      },
+      "size": {
+        "width": 21,
+        "height": 71
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "ob2dlN-wIVcQOFVbSE9UD",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": -52.73195037554086,
+        "y": 830.4443302389855
+      },
+      "size": {
+        "width": 21,
+        "height": 97
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "0Ofr6cpaEUbohbp71donO",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": -168.73195037554086,
+        "y": 830.4443302389855
+      },
+      "size": {
+        "width": 21,
+        "height": 97
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "zr_KATtAVmEKpBT4WUoNh",
+      "type": "horizontal",
+      "label": "ホリゾントノード",
+      "position": {
+        "x": 229.08476767833986,
+        "y": 937.4443302389855
+      },
+      "size": {
+        "width": 93,
+        "height": 20
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "2wJP9uXId9I4I04dbgOwF",
+      "type": "horizontal",
+      "label": "ホリゾントノード",
+      "position": {
+        "x": 229.08476767833986,
+        "y": 884.4443302389855
+      },
+      "size": {
+        "width": 93,
+        "height": 20
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "eVEId_Ty9xOlo5JySxS-_",
+      "type": "horizontal",
+      "label": "ホリゾントノード",
+      "position": {
+        "x": 229.08476767833986,
+        "y": 832.4443302389855
+      },
+      "size": {
+        "width": 93,
+        "height": 20
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "oo5RSmzBY8EIEhZUo7Kd-",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": 9.584767678339915,
+        "y": -20.82399710033968
+      },
+      "size": {
+        "width": 21,
+        "height": 139
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.5
+      },
+      "z_index": 999
+    },
+    {
+      "id": "XkHpamC32buckstAh-FKp",
+      "type": "horizontal",
+      "label": "ホリゾントノード",
+      "position": {
+        "x": -82.73195037554086,
+        "y": 108.55791182468352
+      },
+      "size": {
+        "width": 252,
+        "height": 20
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.5
+      },
+      "z_index": 999
+    },
+    {
+      "id": "OYUf0l4D8S8JcQx_YIPNj",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": -513.7045658739704,
+        "y": 147.05791182468352
+      },
+      "size": {
+        "width": 228,
+        "height": 538
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "yxUTaHSb98G-cApFPb7tu",
+      "type": "horizontal",
+      "label": "ホリゾントノード",
+      "position": {
+        "x": -520.9565121239493,
+        "y": -40.82399710033968
+      },
+      "size": {
+        "width": 74,
+        "height": 20
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "iogwMmOvub2ZF4zgg6WyF",
+      "type": "title",
+      "label": "ゲーム開発者",
+      "position": {
+        "x": -108.73195037554086,
+        "y": -184.83998521803062
+      },
+      "size": {
+        "width": 256,
+        "height": 68
+      },
+      "style": {
+        "fontSize": 28,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "LEijbLyxg4RyutKEM2Y5g",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": 8.768049624459138,
+        "y": -243.55566976101449
+      },
+      "size": {
+        "width": 21,
+        "height": 64
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#0A33FF"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "xwpc_KxehAruFM0pCQnie",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": 191.40964679943443,
+        "y": 2884.376596918144
+      },
+      "size": {
+        "width": 21,
+        "height": 104
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#4136D4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "rQArtuVKGVgLn_fw9yO3b",
+      "type": "topic",
+      "label": "サーバーサイド開発",
+      "position": {
+        "x": -115.91523232166008,
+        "y": -55.32399710033968
+      },
+      "size": {
+        "width": 272,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "\"サーバーサイド\"という用語は,コンピュータネットワーク内のクライアント-サーバー関係でサーバーが実行する操作を指します.ゲームでは,サーバーサイドは,すべての接続されたクライアントの間のゲーム状態の論理とルール,データ持続性,セキュリティ,同期に責任があります.本質的にクライアント側で行われないすべての処理を処理します.サーバー側で実行されるコードはさまざまなプログラミング言語で記述できますが,しばしばPHP,Ruby,Python, .NET,Java,またはJavaScript (Node.js) でです.サーバーサイドプログラミングを知ることは,すべてのゲーム開発者がオンラインで維持可能,拡張可能,セキュアなゲームを作成するために不可欠です.",
+        "links": []
+      }
+    },
+    {
+      "id": "mUCidjOsVLMAVDf2jmV5F",
+      "type": "topic",
+      "label": "TCP",
+      "position": {
+        "x": -163.23195037554086,
+        "y": 94.05791182468352
+      },
+      "size": {
+        "width": 113,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "TCPは,トランスミッション制御プロトコル (Transmission Control Protocol) の略称である.インターネットプロトコルの一連の基本的なプロトコルである.OSIモデルの輸送層に位置する接続型,信頼性のあるバイトストリームサービスである.より単純な言葉で言えば,TCPは,2つのホストに接続を確立し,データを交換することを可能にします.この通信中に,TCPはエラーチェックメカニズムと失われたデータのリトランスミッションのためのシステムを提供することによって,エラーチェックメカニズムを提供し,データが失われることを保証します.さらに,ネットワークリソースの効率的な利用を確保するために,TCPはフロー制御,渋滞制御を実装し,ホストに接続の吞吐量を動的に調整するための手段を提供します.",
+        "links": []
+      }
+    },
+    {
+      "id": "XxBl-zO7CF6DpOZ2bMDxJ",
+      "type": "subtopic",
+      "label": "チェックサム",
+      "position": {
+        "x": -514.7045658739704,
+        "y": 44.057911824683515
+      },
+      "size": {
+        "width": 229,
+        "height": 46
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "TCP (トランスミッション制御プロトコル) の**チェックサム**は,TCPヘッダー内の16ビットフィールドで,セグメントのエラーチェックを実行するために使用されます.TCPスタックは送信されたデータのチェックサム値を計算し,受信システムにデータとともに送信します.受信システムはチェックサムを再計算し,データとともに送信された値と比較します.計算された値の両方が一致した場合,データは送信エラーから解放されるものと仮定されます.しかし,計算された値が一致しない場合,TCPは受信されたデータの変化を検出し,受信者は失われたまたは破損したデータパケットの再送信を要求します.チェックサム操作はデータの完整性を確保するのに役立つが,それは完全に間違いを防げるものではないので,すべての可能なエラー,特に複数のビット変更を含むエラーを検出することができないことを注意してください.",
+        "links": []
+      }
+    },
+    {
+      "id": "zTCmPUp9j5P1wpGgiboMa",
+      "type": "subtopic",
+      "label": "セグメント構造",
+      "position": {
+        "x": -514.7045658739704,
+        "y": 94.05791182468352
+      },
+      "size": {
+        "width": 229,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "TCP (トランスミッション制御プロトコル) は,データ転送を管理するために\"セグメント\"と呼ばれる方法を使用します.このアプローチでは,TCPはデータの流れを\"セグメント\"として知られるより小さな部分に分割します.これらのセグメントのそれぞれがインターネット上で独立した送信されます.基本的なTCPセグメントはヘッダーとデータセクションで構成されます.ヘッダーにはソースポート,目的ポート,シーケンス番号,承認番号,データオフセット,予約されたセクション,制御ビット,ウィンドウ,チェックサム,緊急ポインタ,およびオプションなどのさまざまなフィールドが含まれます.残りのセグメントはTCPによって転送されたデータによって占拠されます.これらのセグメントの構造を理解することは,TCPの仕組みを理解するために不可欠です.",
+        "links": []
+      }
+    },
+    {
+      "id": "5sI3RHaLudq4TfpjoYeOp",
+      "type": "subtopic",
+      "label": "接続",
+      "position": {
+        "x": -505.86391109269846,
+        "y": 303.0579118246835
+      },
+      "size": {
+        "width": 212,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`コネクション`は,サーバーサイドゲーム開発において,ゲームサーバーとゲームクライアント (通常はプレイヤーのデバイス) の間のリンクを確立することを指します.この接続は,ゲームの要求に応じて持続的または非持続的な可能性があります.ユーザがログインしている限り,持続的な接続が活発であり,サーバーとクライアントの間のリアルタイム通信を容易にします.一方,非持続的な接続は,必要に応じて確立され,停止されます.この要素は,サーバーが複数のクライアント間のデータの同期を処理するマルチプレイヤーゲームにおいて極めて重要です.",
+        "links": []
+      }
+    },
+    {
+      "id": "LkGI0VpJ3WkpPHkJhJgWk",
+      "type": "subtopic",
+      "label": "資源利用",
+      "position": {
+        "x": -505.86391109269846,
+        "y": 356.0579118246835
+      },
+      "size": {
+        "width": 212,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "サーバーサイドゲーム開発では, **リソース利用**は,ゲームがサーバーのコンピューティングパワー,メモリ,ストレージ,およびネットワーク能力をどのように利用するかを一般的に指します.これらのリソースは,ゲーム全体のパフォーマンスと応答性を確保するのに不可欠です.リソース利用を監視する際には,通常,CPU使用,メモリ利用,ストレージ容量,ネットワーク帯域幅,およびデータベース性能に注意を払います.サーバーサイドコードは,これらのリソースを考慮して開発され,最適化されなければなりません.不効率なコードは,リソースの使用の増加につながり,使用遅れ,接続断絶,またはクラッシュを引き起こす可能性があります.スケーラブルアーキテクチャやサーバーレス技術などの重要な要素は,主にリソースを効率的に管理およびバランスするために使用されます.これらのリソースをリアルタイムで監視し管理するためにツールと自動化ソリューションが一般的に使用され,開発者は潜在的な問題を特定し,それに応じて最適化することができます.",
+        "links": []
+      }
+    },
+    {
+      "id": "5bJUcx3v4dpdlIsx7bFvK",
+      "type": "subtopic",
+      "label": "データ転送",
+      "position": {
+        "x": -505.86391109269846,
+        "y": 515.0579118246835
+      },
+      "size": {
+        "width": 212,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "サーバーサイドゲーム開発におけるデータ転送は,サーバーとクライアントの間またはサーバーそのもののさまざまなコンポーネントの間でのデータの移動を指します.プレイヤーのスコア,ゲーム状態,更新などのゲームデータは,一貫して更新されたゲーム環境を確保するために頻繁に転送されます.RESTful API,Websocket,プロトコルバッファーを含むデータ転送にはさまざまな方法が使用されます.方法の選択は,データのサイズと種類,ターゲットプラットフォーム,ゲームの特定のニーズなどの要因に依存します.効率的で安全なデータ転送は,スムーズで魅力的なゲーム体験を提供するために不可欠であることを忘れないでください.",
+        "links": []
+      }
+    },
+    {
+      "id": "1l5dhQWYPhUSg-cy5pSlK",
+      "type": "subtopic",
+      "label": "マックスセグメントスケーリング",
+      "position": {
+        "x": -505.86391109269846,
+        "y": 409.0579118246835
+      },
+      "size": {
+        "width": 213,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`マックスセグメントスケーリング (MSS) は,TCPセグメントで受信できる最大限のデータの量を定義するTCP機能である.TCP接続の確立期間に指定される.MSSは,データリンク層 最大送信ユニット (MTU) と計算され,TCPとIPヘッダのサイズを減算する.このメカニズムはIP層での分割を回避し,送信されたデータパケットがネットワーク経路に最適であることを確保し,潜在的な送信無効率性またはパケット損失問題を防ぐ.",
+        "links": []
+      }
+    },
+    {
+      "id": "zvBKjceXRSfEe_3MDCEL5",
+      "type": "subtopic",
+      "label": "窓スケーリング",
+      "position": {
+        "x": -505.86391109269846,
+        "y": 250.05791182468352
+      },
+      "size": {
+        "width": 212,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ウィンドウスケーリングは,トランスミッション制御プロトコル (TCP) のメカニズムで,最大限65535バイトを超えた大きな受信機ウィンドウサイズをサポートします.このTCP機能は,高遅延または高帯域幅のネットワーク (サーバーサイドゲーム開発で一般的な) に関する際に不可欠です.フレームが大幅に遅延または迅速に送信されることがあります. TCP ヘッダーで最初に指定されたウィンドウサイズはスケーリング因子 (接続セットアップ中に定義される) によって拡張され,受信機ウィンドウサイズが1ギガバイトまで大きくなります.しかし,Windows Scalingは接続セットアップ段階でのみ使用できることを覚えておいてください.接続が確立されると,スケーリング因子を変更することはできません.",
+        "links": []
+      }
+    },
+    {
+      "id": "6KAYNPLEFMp6Jha8FLMAU",
+      "type": "subtopic",
+      "label": "タイムスタンプ",
+      "position": {
+        "x": -505.86391109269846,
+        "y": 462.0579118246835
+      },
+      "size": {
+        "width": 212,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`タイムスタンプ`は,サーバーサイドゲーム開発において,本質的に,特定のイベントが起こった日と時間をコードする文字の配列である.特定のイベントの配列を追跡,デバッグ問題,ログイン,およびあらゆる種類のデータ分析を行うときにこのデータは特に重要です.タイムスタンプは,通常サーバーによって生成され,サーバーの現在の日と時間を反映します.例えば,サーバーログファイルで,どのイベントが起こったかを示し,またはデータベース行で,各行がいつ作成されたかを示し,最後に更新されたかを示します.タイムスタンプは,クライアントにリソースが最後に変更されたときに知らせるためにHTTPヘッダーに含まれます.",
+        "links": []
+      }
+    },
+    {
+      "id": "3OMu3RM-6pMjqY1jAmC2-",
+      "type": "subtopic",
+      "label": "帯域外データ",
+      "position": {
+        "x": -505.86391109269846,
+        "y": 568.0579118246835
+      },
+      "size": {
+        "width": 212,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "\"バンド外\"データは,サーバーサイドゲーム開発の文脈で,主要データストリームから分離して送信されるデータを指します.このデータは,実際のゲームデータではなく,サーバーの状態に関するデータ,問題に関する通知,または緊急コマンドなどの制御情報を管理するために使用されます.その重要性を考えると,アプリケーションに直接配信されるキューリングまたはバッファリングシステムを回避するために設計されています.したがって,その名前はゲーム内の通常のデータ送信と比較して\"バンド外\"です.注意してください,バンド外データはセキュリティ問題を含む潜在的な脆弱性を防ぐために適切な処理を必要とします.",
+        "links": []
+      }
+    },
+    {
+      "id": "SPpOO25b7wpajWDIrKi1u",
+      "type": "subtopic",
+      "label": "選択的なアック",
+      "position": {
+        "x": -505.86391109269846,
+        "y": 621.0579118246835
+      },
+      "size": {
+        "width": 212,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "選択認識 (Selective Recognition,SACK) は,ネットワーク内のパケット損失処理の効率性を向上させるためにTCPに導入されたメカニズムである. TCP がパケット損失を検出すると,通常は,失敗したパケットの後で送信されたすべてのパケットを,成功するか否かに関わらず再送信する.しかし,SACKは受信者に連続しないパケットを認識することを可能にする.このメカニズムを使用して, TCP は選択的に失われたパケットのみを再送信することができ,帯域幅を節約し,全体的なパフォーマンスを改善する.",
+        "links": []
+      }
+    },
+    {
+      "id": "1GML0Jsfdb1Fn-0PNryiQ",
+      "type": "subtopic",
+      "label": "混雑制御",
+      "position": {
+        "x": -213.73195037554086,
+        "y": 462.0579118246835
+      },
+      "size": {
+        "width": 214,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "**混雑制御**は,ネットワークを圧倒する過剰なデータ転送を防止し,安定的かつ効率的な通信を保証する基本的なメカニズムである.サーバーサイドゲーム開発では,混雑制御は,ネットワーク条件に基づいてデータフローを動的に調整することによって,スムーズなゲームプレイを維持するのに役立ちます. `TCP`は混雑を検知し,パケット損失を減らすため,混雑制御アルゴリズム (`Reno`, `CUBIC`,および `BBR`) を採用します.これらのアルゴリズムは,遅い起動,混雑回避,迅速な回復などの戦略を使用して送信者の送信速度を調整します.混雑制御メカニズムを適切に調節することは,特に高速トラフィックシナリオで混雑制御メカニズムを最小限に抑え,重要なパケット落落を防止し,マルチプレイパフォーマンスを最適化します.",
+        "links": [
+          {
+            "title": "Linux TCP で混雑制御",
+            "url": "https://www.usenix.org/conference/2002-usenix-annual-technical-conference/congestion-control-linux-tcp",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "X2KHWgQZDHSVDsTRMUwSj",
+      "type": "subtopic",
+      "label": "信頼 的 な 伝達",
+      "position": {
+        "x": -213.73195037554086,
+        "y": 515.0579118246835
+      },
+      "size": {
+        "width": 215,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "**信頼性の高い送信**は,ネットワークを通じて送信されたデータが目的地に正確かつ正しい順序で届くことを保証します.これはサーバーサイドゲーム開発にとって重要な要件です. `TCP`は,承認 (ACK),シーケンスの番号,再送信戦略などのメカニズムを通じてこれを達成します.パケットが失われたり,破損されたりすると, `TCP`は自動リピートリクエスト (ARQ) と高速再送信などのアルゴリズムを使用して再送信します.さらに,フロー制御と混雑制御はネットワーク混雑によるデータ損失を防ぐために協力します.マルチプレイで同期を維持し,脱同期問題を防止し,スムーズなゲーム体験を確保するために,信頼性の高い送信は不可欠です.",
+        "links": [
+          {
+            "title": "信頼 的 な 伝達",
+            "url": "https://book.systemsapproach.org/direct/reliable.html",
+            "type": "article"
+          },
+          {
+            "title": "TCP 信頼性の高い送信 (IETF RFC 793)",
+            "url": "https://datatracker.ietf.org/doc/html/rfc793",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "lDVD-3i64Mk7-KPJrXmFH",
+      "type": "subtopic",
+      "label": "流れ制御",
+      "position": {
+        "x": -213.73195037554086,
+        "y": 568.0579118246835
+      },
+      "size": {
+        "width": 214,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center",
+        "colorType": "h"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "**フローコントロール**は,送信者と受信者の間のデータ伝送を規制し,ネットワーク渋滞とパケット損失を防ぐ重要なメカニズムである.サーバーサイドゲーム開発では,効率的なフロー制御は,マルチプレイヤーゲームのデータ転送をスムーズに確保し,遅延を軽減し,リアルタイム応答性を向上させる. `TCP`はスライディングウィンドウプロトコルのような技術を使用し,受信者はバッファオーバーフローを防止し,一度に処理できるデータを指示する.さらに, `TCP`と `CUBIC`のような渋滞制御アルゴリズムは,ネットワーク条件に基づいて伝送速度を動的に調整するのに役立ちます.適切なフロー制御調節は,安定した接続を維持し,遅延を最小限に抑え,高トラフィックゲーム環境でのサーバーパフォーマンスを最適化するために不可欠です.",
+        "links": [
+          {
+            "title": "TCP でフローコントロールはどのように達成されますか?",
+            "url": "https://datatracker.ietf.org/doc/html/rfc5681",
+            "type": "article"
+          },
+          {
+            "title": "TCPにおけるフロー制御対渋滞制御",
+            "url": "https://www.baeldung.com/cs/tcp-flow-control-vs-congestion-control",
+            "type": "article"
+          },
+          {
+            "title": "TCP フロー制御",
+            "url": "https://www.sanfoundry.com/computer-network-tcp-flow-control/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "vFM311xSa5OqNVove2f6j",
+      "type": "subtopic",
+      "label": "エラー検出",
+      "position": {
+        "x": -213.73195037554086,
+        "y": 638.0579118246835
+      },
+      "size": {
+        "width": 214,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "**エラー検出**は, `TCPベースの通信におけるデータの整体性を確保し,破損したまたは変更されたパケットがサーバーサイドゲームインタラクションを妨害することを防止します. `TCPは,データの整体性を検証し,送信中にビットエラーを検出するためにチェックサムを使用します.エラーが見つかった場合,破損したパケットが廃棄され,承認 (ACK) を介して再送信が要求されます.より低いネットワーク層で周期性冗長チェック (CRC) や対等性チェックなどの追加のメカニズムが使用され,信頼性を高めることができます.効果的なエラー検出はマルチプレイゲームにおけるデータ腐敗を最小限に抑え,プレーヤーの間でスムーズなゲームプレイと同期化を保証します.",
+        "links": [
+          {
+            "title": "エラー検出コード  チェックサム",
+            "url": "https://www.geeksforgeeks.org/error-detection-code-checksum/",
+            "type": "article"
+          },
+          {
+            "title": "TCP でエラー制御",
+            "url": "https://www.cisco.com/c/en/us/support/docs/ip/tcp/13733-40.html",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "w6ysmcsBn9jJ8xMvg7hcD",
+      "type": "subtopic",
+      "label": "マックスセグメントサイズ",
+      "position": {
+        "x": -505.86391109269846,
+        "y": 197.05791182468352
+      },
+      "size": {
+        "width": 212,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "**マックスセグメントサイズ (MSS) **は, `TCP`ネットワークにおける重要な概念であり,単一の `TCP`セグメントで送信できる最大量のデータを表しています. `TCP`ヘッダーを除く. `MSS`は,サーバーサイドゲーム開発におけるパフォーマンスを最適化するために不可欠です. 断片化を回避し,ネットワーク上でデータを効率的に転送することを保証します. `MSS`を調整することで,ゲームサーバーはパケットの断片化を最小限に抑えることができ,遅延率の増加と吞吐量削減につながります. 通常, `MSS`は,ネットワークの最大転送ユニット (MTU) に基づいて `TCP`振動中に決定され,特定のアプリケーションまたはネットワークのニーズに合わせて構成することができます.`MSS`を最適化することで,特にリアルタイム通信と高通力が不可欠なマルチプレイヤーゲームにおいて,データ転送の概要の信頼性とパフォーマンスを向上させることができます.",
+        "links": [
+          {
+            "title": "RFC 879 - 最大セグメントサイズ",
+            "url": "https://tools.ietf.org/html/rfc879",
+            "type": "article"
+          },
+          {
+            "title": "MSS (最大セグメントサイズ) とは?",
+            "url": "https://www.cloudflare.com/learning/network-layer/what-is-mss/",
+            "type": "article"
+          },
+          {
+            "title": "TCP 最大セグメントサイズ調節",
+            "url": "https://www.ibm.com/docs/en/aix/7.2?topic=tuning-tcp-maximum-segment-size",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "MwLWDlciJOq_0n5S3GoF-",
+      "type": "subtopic",
+      "label": "脆弱性",
+      "position": {
+        "x": -211.73195037554086,
+        "y": 194.05791182468346
+      },
+      "size": {
+        "width": 210,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center",
+        "colorType": "h"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`TCP` (トランスミッション制御プロトコル) は,データパケットを配信する信頼性で知られる重要なプロトコルですが,いくつかの脆弱性もあります.最も重要な弱点は,TCPのさまざまな **サービス拒否 (DoS) **攻撃への脆弱性です.例えば,攻撃者がTCPページヘッダー内のIPアドレスを偽造し,ネットワーク内の別のユーザーであることを偽装する IPアドレスのリスクもあります.これらの脆弱性は,敏感な情報を暴露したり,通常の機能を妨害したり,特にサーバー側でのゲーム開発者が潜在的に大きなトラフィックを扱う状況において,未承認アクセスを可能とする可能性があります.",
+        "links": []
+      }
+    },
+    {
+      "id": "TbXJO__4xSnzK1fvvJK86",
+      "type": "subtopic",
+      "label": "奉仕 を 拒否 する",
+      "position": {
+        "x": -211.73195037554086,
+        "y": 280.05791182468346
+      },
+      "size": {
+        "width": 210,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "デニアル・オブ・サービス (DoS) は,インターネットトラフィックの洪水でネットワークまたはサーバーを圧倒することによってネットワーク,サービス,またはサーバーの通常の機能を妨害する悪意ある試みである.最も一般的なタイプのDoS攻撃は,システムをオーバーロードする試みで,不必要な要求で標的を洪水に淹れることである.Distributed Denial of Service (DDoS) 攻撃では,複数のコンピュータがサイバー攻撃を実行するために使用されます.サーバーの場合,これらの攻撃はゲームの利用性とパフォーマンスを大幅に影響し,ユーザーにとって悪い体験を引き起こす可能性があります.",
+        "links": []
+      }
+    },
+    {
+      "id": "ubRiY3jdh3iS3diN482IU",
+      "type": "subtopic",
+      "label": "接続誘拐",
+      "position": {
+        "x": -211.73195037554086,
+        "y": 333.05791182468346
+      },
+      "size": {
+        "width": 210,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`コネクションハイジャック`,セッションハイジャックとも呼ばれ,サーバーサイドゲーム開発の分野で深刻なセキュリティ脅威である.有効なコンピュータセッションを搾取するか,より正確に言えば,2つのノードまたはエンドポイント間の有効な接続に未許可なユーザーの侵入を意味する.攻撃者はこれらの2つのノード間のトラフィックを傍受し,それによって接続を\"ハイジャック\"する.ゲーム開発では,ゲームサーバーとクライアントのシステム間の情報を傍受することが可能である.接続ハイジャックは敏感データを暴露したり,トランジット中のデータを操作したり,クライアントを不正なサーバーにリダイレクトしたりすることが可能である.したがって,そのような脆弱性を軽減するために必要なセキュリティプロトコルを実行することは極めて重要です.",
+        "links": []
+      }
+    },
+    {
+      "id": "ZLTfpRZ0rF-mtd7Z0R2WF",
+      "type": "subtopic",
+      "label": "禁止令",
+      "position": {
+        "x": -211.73195037554086,
+        "y": 386.05791182468346
+      },
+      "size": {
+        "width": 210,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`Veto`は,ゲーム中に特定の行動を阻止または許可するためにマルチプレイヤーゲームでしばしば使用されます.例えば,プレイヤーは敵からの特定の行動をブロックするためにコマンドを発行することができます.サーバーサイドゲーム開発者として,潜在的な脆弱性から守るためにこれらのコマンドの真性を検証するためにセキュリティ対策が実施されていることを確認する必要があります.悪意のあるプレイヤーは,自分の利益のためにベトコマンドを操作したり,ゲームを混乱させるときにベト脆弱性が発生します.これは不公平なゲーム環境につながり,サーバーをクラッシュする可能性があります.したがって,あなたのコードは常にベトコマンドを送信している者を確認し,これらのコマンドの有効性を確認する必要があります.",
+        "links": []
+      }
+    },
+    {
+      "id": "ALNR_uSq6ByPUrt6lXkhZ",
+      "type": "paragraph",
+      "label": "業務",
+      "position": {
+        "x": -510.2045658739704,
+        "y": 147.05791182468352
+      },
+      "size": {
+        "width": 220,
+        "height": 50
+      },
+      "style": {
+        "fontSize": 17,
+        "borderColor": "transparent",
+        "backgroundColor": "transparent",
+        "color": "#000000",
+        "textAlign": "center",
+        "justifyContent": "center",
+        "padding": 16
+      },
+      "z_index": 999
+    },
+    {
+      "id": "IMyHwnXxJK6oFxzOMLxjS",
+      "type": "topic",
+      "label": "UDP",
+      "position": {
+        "x": 80.08476767833992,
+        "y": 94.05791182468352
+      },
+      "size": {
+        "width": 113,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`UDP`,またはユーザーデータグラムプロトコルは,インターネット上でデータを送信する通信プロトコルである.TCP (トランスミッション制御プロトコル) と異なり,データパケットの配送を保証しない無接続プロトコルである.送信者と受信者の間に適切な握手を確立せずにデータグラムを送信する.送信者はデータグラムを送った後に確認を待たないし,受信者はデータグラムを受け取った後に確認を送らない.これはUDPをTCPよりも速く,信頼性が低いものにする.UDPは,直播ビデオ,音声IP (VoIP) およびオンラインマルチプレイストリーミングなどの,放出されたパケットが受け入れられる時間敏感な送信に使用される.",
+        "links": []
+      }
+    },
+    {
+      "id": "Vh81GnOUOZvDOlOyI5PwT",
+      "type": "subtopic",
+      "label": "信頼性",
+      "position": {
+        "x": 307.0434878760507,
+        "y": -12.055669761014485
+      },
+      "size": {
+        "width": 234,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "信頼性とは,ネットワーク上でデータパケットが1つのシステムから別のシステムに一貫して転送される程度を指します.ユーザーデータグラムプロトコル (UDP) に関する際には,信頼性の欠如が組み込まれています.つまり,UDPはデータの目的地に届くことを保証するものではなく,受信の確認なしにパケットを送信するだけです.同種のトランスミッション制御プロトコル (TCP) とは異なり,データインテグリティと配信を保証するためにエラーチェックメカニズムを実装しています.概要として,サーバーサイドゲーム開発で高い信頼性を要求する場合,UDP以外のプロトコルは考慮する必要があります.",
+        "links": []
+      }
+    },
+    {
+      "id": "wD_HWc9YxPhlkilt585pg",
+      "type": "subtopic",
+      "label": "データグラム",
+      "position": {
+        "x": 307.0434878760507,
+        "y": 40.944330238985515
+      },
+      "size": {
+        "width": 234,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "A **Datagram** は,User Datagram Protocol (UDP) のようなプロトコルを使用してネットワーク通信におけるデータ転送の基本単位である.各データグラムは相互に独立して動作し,送信されたものとは異なる順序で受信されるかもしれないし,全く受信されないかもしれない.したがって,TCP (トランスミッション制御プロトコル) と異なり,UDPはデータグラムが送信された順序と同じ順序で,またはまったく配信されることを保証しません.したがって,接続のないプロトコルとして知られています.しかし,Voice over IP,ライブビデオ放送,および他のリアルタイムアプリケーションなどの配信保証を必要としないアプリケーションでは,より速く,より効率的です.各データグラムは,送信者,意図された受信者,およびそのサイズおよび他の仕様とともに伝える意図されたデータに関する情報を含みます.",
+        "links": []
+      }
+    },
+    {
+      "id": "jsNsyrGzegVnjIF2l52vI",
+      "type": "subtopic",
+      "label": "混雑制御",
+      "position": {
+        "x": 307.0434878760507,
+        "y": 93.94433023898551
+      },
+      "size": {
+        "width": 234,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`Congestion Control`は,TCPの重要な特徴ですが,本質的にはUDPの一部ではありません.congestion controlの主な目的は,トラフィックを処理できないようにネットワークに送信されるデータを防止することです. TCPのcongestion controlメカニズムは,認識されたネットワークcongestionに基づいてデータ送信速率を調整します.UDPは,congestion controlを自分で提供しません.しかし,これはUDPを使用している場合,congestion controlが実装できないことを意味しません.開発者はUDP上でカスタマイズされた congestion controlメカニズムを実装できますが,ネットワークまたはサーバーのパフォーマンス問題を生み出さずにこれを達成するために,実質的な理解と慎重な管理が必要です.</div>",
+        "links": []
+      }
+    },
+    {
+      "id": "tBOvBpDi3SOKZjAmkxdM0",
+      "type": "subtopic",
+      "label": "チェックサム",
+      "position": {
+        "x": 307.0434878760507,
+        "y": 146.94433023898551
+      },
+      "size": {
+        "width": 234,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ヽ checksum` は UDP の重要な要素で,送信されるデータの完整性と検証を保証します. パケット内のすべてのバイトの合計を計算し,UDP ヘッダー内の追加の ` checksum` フィールドとして組み込みます. パケットが目的地に到着すると,このプロセスは繰り返され,含まれている ` checksum` と比較されます.マッチが観測された場合,パケットは有効とみなされます.そうでない場合,それは,騒音または第三者の干渉による送信中にエラーが発生したことを意味します.そのような場合,パケットは, UDP が再送信またはエラー修正手順を起動していないため,落とされます.これは UDP で完璧な輸出を保証できない理由であり,すべての受信者が単にパケットであるかどうかを判断することもできません.",
+        "links": []
+      }
+    },
+    {
+      "id": "CCxVnrGDKa1EROXgF_OAm",
+      "type": "subtopic",
+      "label": "パケット構造",
+      "position": {
+        "x": 307.0434878760507,
+        "y": 199.94433023898551
+      },
+      "size": {
+        "width": 234,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "UDP (User Datagram Protocol) は,ネットワーク上でデータグラムとして知られるメッセージを送信するように設計されています.UDPのパケット構造は他のプロトコルタイプと比較して比較的シンプルです.UDPヘッダは4つのフィールドで構成され,それぞれ2バイトです.これらの4つのフィールドは:ソースポート,目的地ポート,長さ,チェックサムです. `ソースポートは応答を追跡し, `目的地ポートは受信端にデータグラムを送信します. `Length`は,ヘッダとデータを含む全データグラムサイズを指定し, `Checksum`は,データとヘッダの整体性を確認するために使用されます.",
+        "links": []
+      }
+    },
+    {
+      "id": "RfTcTUjaXyp49FnUf44MK",
+      "type": "topic",
+      "label": "TCP vs UDP",
+      "position": {
+        "x": 67.08476767833992,
+        "y": 434.4443302389856
+      },
+      "size": {
+        "width": 139,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "TCP,または伝送制御プロトコル (Transmission Control Protocol) は,パケットの送付を目的地ルーターに保証する接続型プロトコルです.エラーチェックを含むし,パケットが正しい順序で送付されることを保証します.一方,UDP,またはユーザーデータグラムプロトコル (User Datagram Protocol) は,パケットの送付を保証したり,正しいシーケンシングを保証しない接続性のないプロトコルです.その結果,UDPは,速度が精度よりも重要であるビデオストリーミングやオンラインゲームなどのアプリケーションでは,高速と効率性が高いと考えられています.",
+        "links": []
+      }
+    },
+    {
+      "id": "MoyBGT9bscUe8vMN4J0bG",
+      "type": "subtopic",
+      "label": "信頼性の高い対 不信頼性の高い",
+      "position": {
+        "x": 307.0434878760507,
+        "y": 487.4443302389856
+      },
+      "size": {
+        "width": 234,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ネットワーク通信において\",信頼性\"と\"信頼性のない\"という用語は,ネットワークを通じて送信されたデータが目的地に届くことを保証されているか否かを指します.TCPのような信頼性のあるプロトコルでは,送信者から受信者に損失を免除せずにデータが届くことを保証します.彼らは接続を確立し,データをパケットに分割し,それらを1つずつ送信し,受信者から受信の確認を待っている.送信されたパケットごとに番号が番号付けられているので,送信者が受信者に届かない場合は,欠けているシーケンス番号で識別され,送信されます.この方法で,信頼性のあるプロトコルではデータ完整性と順序を保証します.一方,UDPのような信頼性のないプロトコルでは,送受信を保証しません.彼らは単に受信されたことを確認せずにデータを送信することを保証します.このプロトコルは接続を確立したり,データ転送の成功を確認したりしません.これは潜在的なデータ損失につながりますが,特定の状況で望ましいより速く効率的な送信プロセスを提供します.",
+        "links": []
+      }
+    },
+    {
+      "id": "WMdCDmFsytsF2AWQXfzC8",
+      "type": "subtopic",
+      "label": "オーダーされた対 未オーダーされた",
+      "position": {
+        "x": 307.0434878760507,
+        "y": 328.4443302389856
+      },
+      "size": {
+        "width": 234,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "TCPとUDPの文脈では\",命令された\"と\"命令されていない\"は,パケットが受信される順序を指します.TCP (トランスミッション制御プロトコル) では,パケットが注文されます.つまり,データパケットが同じ順序で送信され受信されます.例えば,パケット1,パケット2,パケット3がその順序で送信された場合,パケット2が送信するのに時間がかかるか否かという正確な順序で送信され読み取れます.一方,UDP (User Datagram Protocol) は命令されません.データパケットは相互に独立します.",
+        "links": []
+      }
+    },
+    {
+      "id": "OYXKtl4A-vaK6yGO6hS6n",
+      "type": "subtopic",
+      "label": "重量対軽量",
+      "position": {
+        "x": 307.0434878760507,
+        "y": 381.4443302389856
+      },
+      "size": {
+        "width": 234,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "TCP (トランスミッション制御プロトコル) は,エラーチェック,保証された配信,およびデータパケットの到着順序などの多数の機能を提供するため,しばしば\"ヘビーウェイト\"プロトコルとして説明されます.この複雑さはサーバーで実装するのがより複雑になります.この複雑さはサーバーの追加負荷を引き起こし,処理リソースとシステム要件に関してより重くなります.一方,UDP (ユーザーデータグラムプロトコル) は\"軽量\"プロトコルとして知られています. TCPと同様の広範な機能を提供していないため,よりシンプルで速くなります.UDPは配信を保証しません.通信システム間の初期握手を確立する必要はありません.データパケットを順序に設定しません.",
+        "links": []
+      }
+    },
+    {
+      "id": "JE3uZ5U6oe6dVzsmglTl2",
+      "type": "subtopic",
+      "label": "パケット対データグラム",
+      "position": {
+        "x": 307.0434878760507,
+        "y": 434.4443302389856
+      },
+      "size": {
+        "width": 234,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "**Packet**と **Datagram**は,データ通信で使用される用語です.A **Packet**は,ネットワークを介して転送されるエンカプセル化されたデータだけを指す最も一般的な用語です.プロトコルスタックのすべてのレベルでのデータ単位を記述するために使用される一般的な用語です.パケットにはデータだけでなく,ソースと目的地アドレス,エラーチェックコード,およびシーケンシング情報などの制御情報を含むヘッダーと足跡が含まれます.一方, **Datagram**は,特定のタイプのデータパケットです.これは,到着,到着時間,およびコンテンツが保証されていないネットワークを通じて送信される独立した,自立的なメッセージです.この用語は特にUDP (User Datagram Protocol) と関連しています.各送信単位はデータグラムと呼ばれる.パケットとデータグラムの違いは,主にデータを送信するために使用されるプロトコルに依存します.TCP (トランスミッション制御プロトコル) データは通常パケットと呼ばれ,UDPではデータグラムです.",
+        "links": []
+      }
+    },
+    {
+      "id": "pJw8fN1dt3BABtZVz7wGE",
+      "type": "subtopic",
+      "label": "ストリーミングと放送",
+      "position": {
+        "x": 307.0434878760507,
+        "y": 540.4443302389856
+      },
+      "size": {
+        "width": 234,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ネットワークプロトコルの文脈では,ストリーミングと放送はデータパケットの送信の2つの方法である.通常TCPで実行されるストリーミングは,単一のソースから単一の特定の目的地にデータを送信することを伴う.この方法は,一対一電話通話に匹敵する.ストリーミングプロセスは,接続を開始した単一の受信者に直接安定したデータ送信によって特徴づけられる.相反に,放送は,ネットワーク内の可能なすべての目的地に単一のソースからデータパケットの送信を指す.高音箱を通じて公的発表と同様に,データはすべての受信体に送信されます.放送は主にUDPプロトコルを利用し,受信者から直接接続または受信確認を必要としません.",
+        "links": []
+      }
+    },
+    {
+      "id": "tg94V7K0mgYhpkUMp_Scv",
+      "type": "topic",
+      "label": "IP",
+      "position": {
+        "x": 86.08476767833992,
+        "y": 709.9443302389855
+      },
+      "size": {
+        "width": 101,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "**インターネット・プロトコル (IP) **は,インターネット上でメッセージを送信・受信するために使用される主要な方法である.インターネット上でデータをどのように配信すべきかを規定する規則の一組である.IPアドレスは,インターネット・プロトコルを使用してネットワーク上で通信する各デバイスを識別する期間によって分離されたユニークな番号の文字列である.IPv4とIPv6は2種類である.最も一般的なものは,0から255までの4つの数のグループで構成されています.例えば,192.168.0.1\".一方で,次の世代のプロトコルであるIPv6は,地球上のすべてのデバイスにユニークなIPを提供する能力を確保する約340無10億のアドレスを提供しています.例えば\",2001:0db8:85a3:0000:0000:8a2e:0370:7334\".各 IP アドレスは,ネットワークの設定に応じて静態 (永久) または動態 (変更可能) であり得る.",
+        "links": []
+      }
+    },
+    {
+      "id": "5kF1fqr-mn5-15e3aMa9k",
+      "type": "subtopic",
+      "label": "能力",
+      "position": {
+        "x": 293.0434878760507,
+        "y": 656.9443302389855
+      },
+      "size": {
+        "width": 245,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "サーバーサイドゲーム開発では, `capability`は,基本的にゲームメカニクス,プレイヤーのサポート,ネットワークトラフィック,およびゲームが効果的に機能できるようにする他の要素に関してサーバーの可能性を意味します.ホストサーバーは,プレイヤーのゲームインターフェースとユーザー体験を条件付け,速度,スムーズなゲームフロー,故障防止,高性能ゲームプレイの側面を組み込みます.特定のサーバーは,広大な仮想環境,多数のプレイヤー,および広範なデータトラフィックを持つ複雑なゲームをサポートするより高い能力を備えています.その能力は,更新やパッチをすぐに容易にするために拡張されます.最終的には,IPサーバーの能力は,オンライン,マルチプレーヤー,または大規模なゲームの開発と維持の重要な要因である.",
+        "links": []
+      }
+    },
+    {
+      "id": "2jDV-ovvrkBbTTLk5VbR9",
+      "type": "subtopic",
+      "label": "信頼性",
+      "position": {
+        "x": 293.0434878760507,
+        "y": 709.9443302389855
+      },
+      "size": {
+        "width": 245,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "**IP (インターネットプロトコル) に関する信頼性**は,一般的にネットワーク接続の信頼性と一貫性を指します.本質的には,ネットワーク上でデータの転送がどれほど信頼性の高いかについてです.IP自体は信頼性の低いプロトコルであり,データパケットの配送を保証するものではありません.これがTCP (トランスミッション制御プロトコル) のようなプロトコルが登場する場所です.TCPは,データパケットの配送を確実にし,それらを正しく注文し,エラーをチェックすることによってIPに信頼性の層を追加します.これは,サーバーとクライアント間で一貫性とスムーズなゲームプレイ体験を提供することなく,ゲームデータは正しく同期することを保証します.しかし,TCPの完全な保証は,追加のオーバーヘッドが付与されているため,高いパフォーマンスが絶対的な信頼性よりも重要な場合,一部のゲームは信頼性の低いプロトコルを使用することを好むかもしれません.",
+        "links": []
+      }
+    },
+    {
+      "id": "OzY-LPcfj1sBm_0F0WbIJ",
+      "type": "subtopic",
+      "label": "リンク能力",
+      "position": {
+        "x": 293.0434878760507,
+        "y": 762.9443302389855
+      },
+      "size": {
+        "width": 245,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "リンク容量 (リンク容量),また帯域幅 (バンドウィッドス) とも呼ばれるのは,特定の時間内にネットワークリンクを通じて送信できる最大限のデータの量である.通常はビット/秒 (bps),キロビット/秒 (Kbps),メガビット/秒 (Mbps),ギガビット/秒 (Gbps) またはテラビット/秒 (Tbps) で測定される.リンク容量は,サーバーの吞吐量と遅延を決定する重要な要因であり,ネットワーク通信の全体的なパフォーマンスと効率に影響を与える.リンク容量は,送信媒体の質,ソースと目的地の間の距離,およびネットワークの渋滞などのさまざまな要因によって影響を受ける可能性があることに注意してください.",
+        "links": []
+      }
+    },
+    {
+      "id": "YPvm8XD_FaFYCQ-b7-KsH",
+      "type": "topic",
+      "label": "機能",
+      "position": {
+        "x": 293.0434878760507,
+        "y": 975.9443302389855
+      },
+      "size": {
+        "width": 245,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center",
+        "colorType": "h"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "サーバーサイドゲーム開発では,機能はプログラミングの基本構成要素である.これらは特定のタスクを実行するために設計された再利用可能なコードです.開発者はコードを簡素化し,読みやすさを向上させ,プログラムの効率性を高めるために機能を作成します.機能は参数を入力として取り,結果を返すことができます.関数を宣言するための構文は,プログラミング言語から別の言語に異なります.しかし,基本的な構造は同じです.通常は関数キーワードから始まり,関数名と括弧が続きます `) `.これらの括弧の中に,パラメータを通過することができます.これらのパラメータは,曲げな括弧の中に閉じ込められた関数の体内に利用されます `{}`.輸出は通常返信を使用して返信されます.それぞれの関数は理想的には1つのタスクを実行し,関数の名称はコードを自明させる目的を正確に表す必要があります.",
+        "links": []
+      }
+    },
+    {
+      "id": "jnQAzUUnwpJgoRuRIFtSe",
+      "type": "subtopic",
+      "label": "データグラムの構築",
+      "position": {
+        "x": 294.5434878760507,
+        "y": 1061.0579118246837
+      },
+      "size": {
+        "width": 242,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "データグラム構築は,サーバーサイドゲーム開発において,特にUDP (User Datagram Protocol) に関する際に基本的なプロセスである.この文脈では,データグラムはパケットスイッチネットワークに関連した基本的な転送ユニットであり,通常はヘッダーとペイロードデータを含む.データグラム構築プロセスは,データグラムのペイロードに特定のゲームデータを (プレイヤーポジション,ゲーム状態など) 包装し,ソースと目的地IPアドレス,チェックサムなどのデータグラムヘッダーに適切な値を設定する.ゲームサーバーとクライアントとの信頼性と効率的な通信を確保するために,データグラムを正しく構築し解析することが重要です.",
+        "links": []
+      }
+    },
+    {
+      "id": "3ZcJNDCHw2pFzewmoB-03",
+      "type": "subtopic",
+      "label": "IP アドレッシング",
+      "position": {
+        "x": 294.5434878760507,
+        "y": 1112.9443359375
+      },
+      "size": {
+        "width": 153,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "IP (Internet Protocol) アドレスリングはネットワーク内のシステム間の相互作用の核心であるネットワークの基本的な側面である.ネットワークに接続されたすべてのデバイスは,他のデバイスと通信するために,IPアドレスとして知られるユニークなアドレスを持つ必要があります.IPプロトコル (IPv4) のバージョン4では,これらのアドレスは通常,0から255までの期間によって分離された4つの数字として表現されます (例えば,192.168.1.1).IPv4アドレス不足に対処するために導入された新しい標準であるIPv6は,六 दशमलव番号と柱を使用したより複雑な符号を使用します.しかし,目的は同じです.ネットワーク上の個々のデバイスをユニークに識別する.IPアドレスは静的 (デバイスに永久に割り当てられる) または動的 (一時的に利用可能なアドレスプールから割り当てられる) することができます.",
+        "links": []
+      }
+    },
+    {
+      "id": "bYb7nA-Vn9e6VtdbUT3tq",
+      "type": "subtopic",
+      "label": "ルーティング",
+      "position": {
+        "x": 451.5434878760507,
+        "y": 1112.9443359375
+      },
+      "size": {
+        "width": 86,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "サーバーサイドゲーム開発では,アプリケーションが特定のエンドポイントへのクライアントリクエストに URI (またはパス) と特定の HTTP リクエストメソッド (GET, POST,など) をどのように対応するかを指定することを指しています.各ルートには,ルートが一致するときに実行される1つまたは複数のハンドル機能があります.これらのハンドル機能は,しばしば複雑なマルチプレイヤーゲームシナリオ内で実行され,データ転送,ゲーム状態更新など,ルートに必要な論理を処理します.適切に構成されたルートの使用は,適切なデータが必要な場所に送信され,シームレスなゲームプレイインタラクションをサポートします.",
+        "links": []
+      }
+    },
+    {
+      "id": "r2OeI7YC1BLLfctC8q69W",
+      "type": "topic",
+      "label": "トランザクション",
+      "position": {
+        "x": 293.0434878760507,
+        "y": 816.9443302389855
+      },
+      "size": {
+        "width": 245,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center",
+        "colorType": "h"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "サーバーサイドゲーム開発において, **トランザクション**は,異なるプロセスとデータストリーム間の交換または相互作用を容易にする重要な要素である.これらは通常データベースまたはサーバーを通じて実行され,単一の作業単位として原子的に処理され,データの一貫性と整体性を確保します.トランザクションは,トランザクションの実行が連続的に実行された場合達成されるシステム状態につながることを保証するACID (Atomicity, Consistency, Isolation, Durability) と呼ばれる特定のパターンに従います.ゲームのバックエンドシステムの安定性を維持するために 取引を管理し 制御する方法を理解することが重要です",
+        "links": []
+      }
+    },
+    {
+      "id": "JI_wUdT2hjsrvbIhLvHcT",
+      "type": "subtopic",
+      "label": "ARP",
+      "position": {
+        "x": 35.043487876050676,
+        "y": 817.9443302389855
+      },
+      "size": {
+        "width": 66,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "**ARP**または **Address Resolution Protocol**は,ネットワーク上の物理アドレス,例えば MACアドレスにIPアドレスをマッピングするために使用されるプロトコルである.デバイスは,同じネットワーク上の他のデバイスにパケットを送信する必要があるが,IPアドレスをしか持っていないときにARPを使用する.ARPは,IPアドレスの所有者を見つけ出すために,ローカルネットワーク上のすべてのデバイスにリクエストパケットを送信する.一致するIPアドレスのデバイスは,その MACアドレスを返信する.ARPは,トラフィックを最小限に抑えるために,以前に解決されたアドレスのキャッシュを維持する.ネットワーク通信における不可欠なプロトコルである.しかし,ARPの偽造などの特定のセキュリティ脆弱性を暴露する.",
+        "links": []
+      }
+    },
+    {
+      "id": "yNytLrQAMKBw4t73YRL3J",
+      "type": "subtopic",
+      "label": "DNS",
+      "position": {
+        "x": 104.04348787605068,
+        "y": 817.9443302389855
+      },
+      "size": {
+        "width": 61,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "**ドメイン名システム (DNS) **は,ドメイン名をIPアドレスに翻訳するインターネットサービスです.インターネットは,異なるコンピュータを特定し,接続するためにIPアドレスを使用しますが,これらの数値アドレスは実用的に記憶したり使用することは困難です.したがって,DNSはユーザーがwww.example.comなどのドメイン名を入力することを許可し,この名前を192.0.2.1のような相当のIPアドレスに翻訳します.ウェブサイトを訪問したり,電子メールを送信したり,インターネット上のいかなるサービスにも接続するたびに使用されます.DNSはインターネットの電話帳として機能し,すべてのドメイン名は正しいIPアドレスに対応することを保証します.",
+        "links": []
+      }
+    },
+    {
+      "id": "aTHJh-xw8soCxC1bIDdXm",
+      "type": "subtopic",
+      "label": "DHCP",
+      "position": {
+        "x": 168.04348787605068,
+        "y": 817.9443302389855
+      },
+      "size": {
+        "width": 91,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "DHCP (ダイナミック・ホスト・コンフィギュレーション・プロトコル) は,ネットワーク上のデバイスにIPアドレスを自動的に割り当てることを可能にするインターネットプロトコルである.ネットワークシステムにおける主要な役割は,大規模なネットワークでIPアドレスを割り当てる手動作業を排除することである.DHCPは数百台のコンピュータまたはそれ以上を含む小,中,または大きなネットワークで実装することができます.これは,IPアドレスを割り当て,プロセスを制御する責任を持つDHCPサーバを含みます.このサーバーは,ネットワークに接続するデバイスに割り当てられるIPアドレスのプールを維持します.デバイスがネットワークを離れ,再び接続する際に,DHCPはこれらのIPアドレスのリリースと更新を処理します.",
+        "links": []
+      }
+    },
+    {
+      "id": "NH2eQ1_nij1icTgoO027b",
+      "type": "topic",
+      "label": "カテゴリー",
+      "position": {
+        "x": 293.0434878760507,
+        "y": 869.9443302389855
+      },
+      "size": {
+        "width": 245,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center",
+        "colorType": "h"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "インターネットプロトコルアドレス (IP アドレス) は,Aクラス,Bクラス,Cクラス,Dクラス,Eクラスという5つの異なるクラスに分類されています. **Aクラス A** IPアドレスは大型ネットワークのために設計されており,0.0.0から127.255.255.255までです. **Bクラス B** IPアドレスは中規模および大型ネットワークに割り当てられ,128.0.0.0から191.255.255.255までです. **Class C** IPアドレスは小型ネットワークに使用され,192.0.0.0から223.255.255.255までです. **Class D** IPはマルチキャストグループのために設計されており,224.0.0.0から239.255.255.255までです.",
+        "links": []
+      }
+    },
+    {
+      "id": "pHVB0K8Vtk3ToD6n_f1wv",
+      "type": "subtopic",
+      "label": "IPv4",
+      "position": {
+        "x": 168.04348787605068,
+        "y": 870.9443302389855
+      },
+      "size": {
+        "width": 91,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`IPv4`,またはインターネットプロトコル バージョン4は,IP (インターネットプロトコル) の4番目のバージョンである.現在のインターネットトラフィックの大半をルーティングする基本的なプロトコルである.IPv4`はアドレッシングシステムを通じてネットワーク上のデバイスを識別する責任があります. `IPv4`は,合計40億以上のアドレスを可能にする32ビットアドレススケchemaを使用します.最も重要なことは, `IPv4`はネットワークデバイスを通じてデータの送信と受信方法を決定します.この標準の `IPv4`はネットワーク間のデータルーティングに役立ちます.そして近代インターネットの創造に根本的な役割を果たしています.",
+        "links": []
+      }
+    },
+    {
+      "id": "TqBlAMfhARhlJed6xD7eg",
+      "type": "subtopic",
+      "label": "IPv6",
+      "position": {
+        "x": 104.04348787605068,
+        "y": 870.9443302389855
+      },
+      "size": {
+        "width": 61,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "IPv6は,インターネットプロトコルバージョン6を表す.IPv4アドレスの枯渇を修正するために策定されたインターネットプロトコル (IP) の最新バージョンである.32ビットアドレスを使用するIPv4とは異なり,IPv6は128ビットアドレスを採用し,膨大な数のユニークなIPアドレスを存在させます.これは,ネットワークとデバイスの配列に対応するインターネットの能力を増加させ,常に拡大するデジタル世界に持続可能なソリューションとして機能します.IPv6はまた,簡素化されたヘッダーフォーマット,拡張やオプションのサポート,IPsecを使用した内蔵セキュリティ,QS (サービス品質) のより良いサポートを含む強化機能を提供します.サーバーサイドゲーム開発において,IPv6は,直接的なピアツーピア接続を可能にすることで,プレーヤーのためのスムーズで遅滞のないゲーム体験を保証します.",
+        "links": []
+      }
+    },
+    {
+      "id": "qkO0s9zR0sAnjTRWcrLQY",
+      "type": "topic",
+      "label": "セキュリティ",
+      "position": {
+        "x": 293.0434878760507,
+        "y": 922.9443302389855
+      },
+      "size": {
+        "width": 245,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center",
+        "colorType": "h"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "サーバーサイドゲーム開発において,IP (インターネットプロトコル) のセキュリティの側面は極めて重要である.これは主にオンラインゲームインタラクションの安全を確保し,送信される敏感なユーザーデータの保護,および潜在的なサイバー攻撃または脅威を阻止することを含む.これは,マルチプレイヤーゲーム環境,IPスプーフィング,セッションハイジャックで一般的なDDoS (Distributed Denial of Service) 攻撃に対する緩和戦略を含む可能性があります.セキュリティ対策はしばしばセキュアなサーバーアーキテクチャを開発し,トランジットおよび休憩中のデータの暗号化,ユーザー入力の検証と浄化,包括的なセキュリティポリシーおよび手順を実施します.リスク評価と脆弱性スキャンを定期的に行うことは,潜在的なセキュリティ漏洞を特定し,対処するためにも重要です.したがって,ゲーム開発者にとって,ユーザーに信頼できるゲーム環境を提供するために,IPセキュリティプロトコルを理解し,ゲーム開発プロセスに統合することが不可欠です.",
+        "links": []
+      }
+    },
+    {
+      "id": "FX8ASd-QzTUFDHzBB93WK",
+      "type": "subtopic",
+      "label": "TLS",
+      "position": {
+        "x": 168.04348787605068,
+        "y": 922.9443302389855
+      },
+      "size": {
+        "width": 91,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "6ilqzjvI4J1pUCmTJ33PA",
+      "type": "topic",
+      "label": "プログラミング言語",
+      "position": {
+        "x": -219.23195037554086,
+        "y": 817.9443302389855
+      },
+      "size": {
+        "width": 239,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "プログラミング言語はゲーム開発の不可欠な部分です.ゲームがどのように機能するかの論理とルールを作成します.サーバーサイドゲーム開発者がC++,Python,Rubyなどで使用できるさまざまな種類のプログラミング言語があります.これらの言語には異なる構文と構造があり,また異なる程度の複雑さがあります.複雑性と能力はゲームのパフォーマンス,セキュリティ,そして他のプラットフォームとの潜在的な互換性にも影響します.言語の選択はしばしばプロジェクトの特定のニーズと個人的な専門知識に依存します.新しい言語を選択することは時間がかかるので,賢明に選択することが重要です.マークダウンは,単純さと読みやすさのためにドキュメンテーションに人気のある別の言語ですが,通常はサーバーサイドゲーム要素をコードするのに使用されません.",
+        "links": []
+      }
+    },
+    {
+      "id": "E4H3hniIW6hKpH3Qr--N5",
+      "type": "subtopic",
+      "label": "C/C++",
+      "position": {
+        "x": -216.23195037554086,
+        "y": 952.4443302389858
+      },
+      "size": {
+        "width": 116,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "\"C\"と\"C++\"は,しばしば\"C/CPP\"と記述されるが,サーバーサイドゲーム開発で広く使用される2つの顕著で類似したプログラミング言語である.\"C\"は手続き言語であり,問題解決のためのステップバイ・ステップ手順に従っていることを意味します.C++はプロセスおよびオブジェクト指向プログラミング (OOP) の言語です.この二重性を持つ\"C++\"は,ゲーム開発において有益な機能であるより複雑な相互関連データと機能を効率的に処理することを可能にします.さらに\",C++\"は\"C\"の拡張機能であり,法律的な\"C\"プログラムは有効な\"C++\"プログラムでもあります.両方の言語はシステムリソースとメモリに高いレベルのコントロールを提供し,ゲームサーバーなどの高速かつ効率的なサーバーサイドアプリケーションを構築するための優れた選択となります.- [@article@C プログラミング言語] (https://en.wikipedia.org/wiki/C_%28programming_language%29) - [@article@C++ プログラミング言語] (https://en.wikipedia.org/wiki/C%2B%2B)",
+        "links": []
+      }
+    },
+    {
+      "id": "DuyUc9a-47Uz03yr4aeyg",
+      "type": "subtopic",
+      "label": "C#",
+      "position": {
+        "x": -95.23195037554086,
+        "y": 899.4443302389858
+      },
+      "size": {
+        "width": 115,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "C Sharp (C#) は,Microsoftが2000年代初頭に開発した強力なオブジェクト型プログラミング言語である.C#は.NETエコシステムの一部として設計され,CとC++に基づいた構文基盤を有する.時間とともに,C#は,ジェネリック,アシンクロンな方法,および LINQクエリのサポートなどのいくつかの近代的なプログラミング機能を含むように進化した. .NET Coreのクロスプラットフォームサポートのおかげで,C#は,Windows,Linux,MacOSで実行するアプリケーションを書くために現在使用できます.Windowsデスクトップアプリケーションとゲームを作成するために広く使用されているが,Webアプリケーション,サーバーサイドコンポーネント,さらにはXamarinを通じてモバイルアプリケーションを開発するためにも人気があります.",
+        "links": []
+      }
+    },
+    {
+      "id": "LG8JPL1po-gEs1V5JyC8F",
+      "type": "subtopic",
+      "label": "Java",
+      "position": {
+        "x": -216.23195037554086,
+        "y": 899.4443302389858
+      },
+      "size": {
+        "width": 116,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Java は,クラスベースのオブジェクト指向プログラミング言語で,実装依存度ができるだけ少ないように設計されています.最初はサンマイクロシステムズのジェームス・ゴスリングによって開発され,1995年にサンマイクロシステムズのJavaプラットフォームのコアコンポーネントとしてリリースされました.言語の構文はCとC++と共通点がありますが,そのオブジェクトモデルはよりシンプルで低レベルの設備があります.Javaアプリケーションは通常,Java仮想マシン (JVM) で実行できるバイトコードにコンパイルされ,Javaアプリケーションが非常にポータブルになります.Javaは汎用プログラミング言語であり,サーバーサイドアプリケーション,特に速度とスケーラビリティが重要な高性能環境で広く使用されています.",
+        "links": []
+      }
+    },
+    {
+      "id": "QGtGx5LBEWa1DD3Y7ztUy",
+      "type": "subtopic",
+      "label": "エルラン",
+      "position": {
+        "x": -95.23195037554086,
+        "y": 952.4443302389858
+      },
+      "size": {
+        "width": 115,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "エラングは,分散型コンピューティングをサポートする機能的,汎用的な同時プログラミング言語である. 1980年代後半,エリックソン株式会社から生まれ,電話アプリケーションの開発を改善することを目的とした.エラングは,同時対応,配分,故障耐性のための内蔵サポートを有しており,大規模,リアルタイムシステムの開発に人気があります.この言語は,銀行,電子商取引,コンピュータ電話,インスタントメッセージなどのエラーにもかかわらずシステムが継続的に動作しなければならない分野で使用されています.長年にわたり,エラングはブロックチェーン開発,物ネット (IoT) および強力なサーバーサイド開発を必要とするオンラインゲームプログラミングに採用されています.",
+        "links": []
+      }
+    },
+    {
+      "id": "ufufnULqsglE5VhEIAdSI",
+      "type": "subtopic",
+      "label": "ジャワスクリプト",
+      "position": {
+        "x": -216.23195037554086,
+        "y": 1005.4443302389858
+      },
+      "size": {
+        "width": 116,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "JavaScriptは,ECMAScriptの仕様に適合する高レベルの,解釈されたプログラミング言語である.Web開発において重要な役割を果たしているため,HTMLとCSSとともにワールドワイドウェブの3つのコア言語の一つである.サーバーサイドゲーム開発では,JavaScriptは Node.jsなどのランタイム環境を通じて利用できます.長年にわたり,JavaScriptはオブジェクト指向および機能型プログラミングのサポートなどの追加機能を組み込むために進化しました.",
+        "links": []
+      }
+    },
+    {
+      "id": "d5iQYn97vuoxJnCFGPdOa",
+      "type": "subtopic",
+      "label": "行け",
+      "position": {
+        "x": -95.23195037554086,
+        "y": 1005.4443302389859
+      },
+      "size": {
+        "width": 115,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "HvpuFTCknHPhnFkhmhRc4",
+      "type": "topic",
+      "label": "ソケットプログラミング",
+      "position": {
+        "x": -515.95654296875,
+        "y": 971.9443302389855
+      },
+      "size": {
+        "width": 206,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ソケットプログラミングは,ネットワークプロトコル,典型的にはTCP/IPを用いた2台のコンピュータ間の通信方法である.サーバーサイドゲーム開発において,ソケットプログラミングは,サーバーとクライアント間のリアルタイム,双方向通信を促進するために使用される.サーバはクライアント側からの受信接続要求を待っているソケットを開きます.接続が確立されると,サーバーとクライアントは接続が終了するまでデータを交換することができます.これはライブマルチプレイヤーゲーム体験を容易にし,異なるコンピュータのユーザーが同じゲーム環境内で相互作用できるようにします.",
+        "links": []
+      }
+    },
+    {
+      "id": "H21PanCggDfQt34-JzgfO",
+      "type": "subtopic",
+      "label": "バイト操作",
+      "position": {
+        "x": -515.95654296875,
+        "y": 763.9443359375
+      },
+      "size": {
+        "width": 206,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`バイト操作`,ソケットプログラミングの文脈では,しばしばデータバイトを直接相互作用し管理する能力を指します.これは個々のバイトまたはバイトのグループを作成,変更,または読み込むことを含む可能性があります.一般的な操作には,シフト (バイトを左または右に移動する),マスク (バイナリ AND操作を使用して特定のビット0を作成する) とビット操作 (バイト内の個々のビットで動作する) が含まれる.バイト操作は,ネットワークデータや特定のバイナリプロトコルで作業するときにサーバーサイドゲーム開発で一般的に行われます.バイトを正確に操作する能力は,サーバーとクライアント間のデータ転送を処理および最適化する上で不可欠なスキルです.",
+        "links": []
+      }
+    },
+    {
+      "id": "SBA7pa9o0AM0ZEBepd7UM",
+      "type": "subtopic",
+      "label": "アドレス変換",
+      "position": {
+        "x": -515.95654296875,
+        "y": 816.9443359375
+      },
+      "size": {
+        "width": 206,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ソケットプログラミングでは,アドレスの変換機能はインターネットアドレスを処理するために重要です. `inet_pton() ` (ネットワークへのプレゼンテーション) と `inet_ntop() ` (ネットワークからプレゼンテーション) のような機能は頻繁に使用されます. `inet_pton() `機能は,人間に優しいフォーマットでIPアドレスを (点点式式式式式式式のIPv4アドレスまたは六位式式式式式式のIPv6アドレス) に等しいバイナリ形式に変換します.逆に, `inet_n(top) `機能は,バイナリ形式のIPアドレスを人間に適したフォーマットに変換します.これらの機能は,低レベルのネットワークプログラミングでIPアドレスを扱う際に重要なツールです.",
+        "links": []
+      }
+    },
+    {
+      "id": "OAyMj6uLSv1yJ87YAjyZu",
+      "type": "subtopic",
+      "label": "記述器",
+      "position": {
+        "x": -515.95654296875,
+        "y": 869.9443359375
+      },
+      "size": {
+        "width": 206,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ソケットプログラミングの文脈では,**記述子**は単にリソースの識別子である.これらの記述子の使用により,ソケットアプリケーションはネットワーク接続,ファイル,データストリームなどのシステムリソースと相互作用することができる.例えば,C++のようなCベースの言語では,ソケットプログラミングはファイル記述子を頻繁に使用する.これらはオペレーティングシステムによって開かれたファイルとネットワークソケットを識別するために使用される整数値である.サーバーサイドゲーム開発者がすべてのネットワークプロトコルを制御し管理するために記述子を理解し,効率的に利用することが重要です.",
+        "links": []
+      }
+    },
+    {
+      "id": "a2pcxVTGdAPw8aLvdr19M",
+      "type": "subtopic",
+      "label": "API",
+      "position": {
+        "x": -481.45654296875,
+        "y": 1078.9443359375
+      },
+      "size": {
+        "width": 139,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center",
+        "colorType": "h"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "API (Application Programming Interface) は,ソフトウェアアプリケーションを構築し,統合するために実装される規則とプロトコルの一組です.APIは,異なるソフトウェアアプリケーションがコミュニケーションと連携できるようにします.それらは,二つのソフトウェアシステムを接続する橋として機能し,情報を交換し,機能を実行することができます.サーバーサイドゲーム開発とソケットプログラミングの文脈では,APIは接続の確立,データ転送,およびその他の必要なネットワーク通信操作を処理するために使用することができます.APIは,Webサービスのための HTTP,または低レベルのソケット通信のための TCP/UDPなどの標準プロトコルに基づいてカスタマイズまたは構築することができます.",
+        "links": []
+      }
+    },
+    {
+      "id": "U_tZFM80W3xJx8jj4skCr",
+      "type": "subtopic",
+      "label": "BSDソケット",
+      "position": {
+        "x": -481.45654296875,
+        "y": 1131.9443359375
+      },
+      "size": {
+        "width": 139,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "BSDソケット API (BSD Sockets API) は,バークレーソフトウェア・ディストリビューション (BSD) の一部として開発されたネットワーク通信のためのアプリケーションプログラミングインターフェース (API) です.このAPIはオペレーティングシステムにおけるネットワークソケットを作成および操作するための機能のセットを提供します.ネットワークタスクのシンプルさと使いやすさのためにさまざまなプラットフォームで広く採用されています.BSDソケット APIはさまざまなネットワークプロトコルをサポートし,新しいプロトコルをサポートする拡張性があります.ネットワークサービスへの低レベルのアクセスを可能にします.接続を管理し,データを送信し受信し,複数の接続を同時に処理する設備があります.APIは接続指向 (TCP) と接続のない (UDP) ネットワークプロトコルの両方をサポートします.",
+        "links": []
+      }
+    },
+    {
+      "id": "GfTXffisLyQgp66zcQ7Py",
+      "type": "subtopic",
+      "label": "ウインソック",
+      "position": {
+        "x": -481.45654296875,
+        "y": 1184.9443359375
+      },
+      "size": {
+        "width": 139,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`Winsock`は,Windows Sockets APIの略称であり,ネットワークソフトウェアがWindowsオペレーティングシステムにおけるTCP,UDP,ICMPなどのTCP/IPネットワークプロトコルとどのように相互作用すべきかを定義する技術仕様である.本質的に,Winsockは,ネットワークアプリケーションを書くときに開発者が使用できるインターフェースを提供します.このAPIは,ソケットを作成し,特定のアドレスに結合し,受信接続を聴く,データを送信し受信し,最後に接続を閉じる機能を提供します.Winsockは,ネットワークエラーと例外を処理するのに役立ちます.マルチプレーヤーサーバーサイドゲームを開発するために,クライアント-サーバー通信,マルチプレーヤー論理,リアルタイム更新管理に役立ちます.ゲームの文脈では,Winsock ライブラリは,通常,TCP/IPスタックへの低レベルのアクセスにより,リアルタイムで高性能アプリケーションに使用されていることに注意してください.",
+        "links": []
+      }
+    },
+    {
+      "id": "TS6dz61rUSxm-SqmK6JKe",
+      "type": "topic",
+      "label": "シリアライゼーション",
+      "position": {
+        "x": -217.23195037554086,
+        "y": 1081.9443359375
+      },
+      "size": {
+        "width": 206,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "シリアライゼーションは,サーバーサイドゲーム開発におけるデータオブジェクトや構造を後に保存,送信,再構築できるフォーマットに変換するプロセスです. ゲームの状態を保存したり,サーバー間で転送したり,クライアントに送信したりできるので重要です.シリアライゼーションの2つの主要なタイプはバイナリーとXML/JSONです.バイナリーシリアライゼーションは,あなたのオブジェクトを非常にコンパクトなバイナリーフォーマットに変換します.XML/JSONシリアライゼーションは,あなたのオブジェクトをテキストフォーマットに変換します.これは効率が低いが,より人読可能でデバッグが容易です.特定のニーズに応じて,あなたはどちらかを選択することができます.また,これらの方法のそれぞれが互換性,パフォーマンス,およびセキュリティの影響に関して独自の悪化があることに注意してください.",
+        "links": []
+      }
+    },
+    {
+      "id": "y0ZJQQfi8Qx6sB4WnZlP5",
+      "type": "subtopic",
+      "label": "JSON",
+      "position": {
+        "x": -216.95654296875,
+        "y": 1166.9443359375
+      },
+      "size": {
+        "width": 101,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "**JSON (JavaScript Object Notation) は,人間に読み書きし,解析し,機械に生成しやすい軽量データ交換フォーマットである. JSON は,完全に言語独立したテキストフォーマットであるが,C,C++,C#,Java,JavaScript,Perl,Pythonを含むC族の言語のプログラマに馴染みのあるコンベンションを使用している.JSONでは,データは名前-値ペアとアレンジデータタイプに分類され,サーバーからウェブアプリケーションにデータを転送するために一般的に使用される.",
+        "links": []
+      }
+    },
+    {
+      "id": "v43K6srds7m5SQFqNaY0T",
+      "type": "subtopic",
+      "label": "XML",
+      "position": {
+        "x": -216.95654296875,
+        "y": 1219.9443359375
+      },
+      "size": {
+        "width": 101,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "XML (Extensible Markup Language) は,特定のソフトウェアやハードウェアに依存することなくデータを保存および輸送するために設計された言語である.データ表示とデータの外観に焦点を当てているHTMLとは異なり,XMLはデータを転送するためのツールとして機能し,データがどのようなものであるかを強調します.XMLデータは構造とデータタイプを定義し,記述する能力があるため,自定義または自定義として知られています.HTMLと同様にタグを使用しますが,XMLのタグは事前に定義されていません.作者が独自のタグとドキュメント構造を定義することができます.XMLはユニコードもサポートしており,あらゆる言語でほとんどすべての情報を通信することができます.厳格な文法に従事し,人間と機械の両方で読み取れるため,ウェブとサーバーサイド開発で広く使用されている標準となっています.",
+        "links": []
+      }
+    },
+    {
+      "id": "uHcUSVLz_2-Usk6ckSvwr",
+      "type": "subtopic",
+      "label": "YAML",
+      "position": {
+        "x": -112.95654296875,
+        "y": 1219.9443359375
+      },
+      "size": {
+        "width": 102,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "\"YAML はマークアップ言語ではない\"という意味のYAMLは,すべてのプログラミング言語と組み合わせて使用できる人間読めるデータシリアライゼーション標準です. 構成ファイルやデータが保存または送信されているアプリケーションにしばしば使用されます. YAML は参照,合併,アレイ,辞書などの高度な機能をサポートします. また,柔軟性があり,スケラー,シーケンス,関連アレイなどのさまざまなデータ構造をサポートします. JSONと XML に似ているかもしれませんが,ドキュメントをマークするよりもデータシリアライゼーションに焦点を当て,フォーマットの読みやすさを保証します.",
+        "links": []
+      }
+    },
+    {
+      "id": "l8iEC3g0ICSfmIE1MxcUl",
+      "type": "subtopic",
+      "label": "トムル",
+      "position": {
+        "x": -112.95654296875,
+        "y": 1166.9443359375
+      },
+      "size": {
+        "width": 102,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`TOML` (Tom's Obvious, Minimal Language) は,簡潔でシンプルな構文による読みやすいコンフィギュレーションファイルフォーマットである.この言語は,機械の解析を容易にするため,曖昧かつ薄く設計されている.Intèger,String,Boolean, Float, Date-Time,Array, Tableなどの基本的なデータタイプをサポートしている.他の類似のファイルフォーマットとは異なり, `TOML`はより構造的階層を提供します.設定,シリアライゼーション,およびゲーム開発における他の類似のタスクに使用することができます.",
+        "links": []
+      }
+    },
+    {
+      "id": "w2zbab_6Gxw6AWS0N759U",
+      "type": "subtopic",
+      "label": "プロトボフ",
+      "position": {
+        "x": -217.23195037554086,
+        "y": 1274.9443359375
+      },
+      "size": {
+        "width": 206,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`Protobuf`,またはプロトコルバッファーは,Googleによって開発された構造データをシリアライズするための方法です.言語中立とプラットフォーム中立の両方です.GoogleはXMLよりも小さく,速く設計しました. `.proto`ファイルでデータ構造を設計し,選択した言語でデータアクセスクラスを生成するためにProtobufコンパイラ (`protoc`) を使用します.GoogleはJava,C++,Python,Objective-C,C#を含むいくつかの言語をサポートしています.さらに多くの言語のためのコミュニティ開発サポートも利用可能です. これにより, `protobuf`は,サービス間のデータストレージと通信のための人気の選択肢となっています.",
+        "links": []
+      }
+    },
+    {
+      "id": "3QSLUMKD0G08N3MIb1cG7",
+      "type": "topic",
+      "label": "マルチスレッド",
+      "position": {
+        "x": 53.084767678339915,
+        "y": 1224.9719487880939
+      },
+      "size": {
+        "width": 197,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "マルチスレッド (Multithreading) は,中央処理ユニット (CPU) が複数の命令の実行を同時に管理する能力である.これは本質的に,複数のスレッドまたはミニプロセスは独立して実行しているが,単一のCPUのリソースを共有していることを意味します.プログラミングでは,スレッドは,複数のCPUまたはコンピュータを必要とせずにアプリケーションの応答性を向上させ,複数の操作を同時に実行する方法です.プロセス内のスレッドは,メインスレッドと同じデータスペースを共有し,したがって,独立したプロセスよりも互いに速く通信することができます.開発者はしばしばサーバーサイドゲーム開発で複雑な操作を高効率で管理するためにマルチスレッドを使用します.",
+        "links": []
+      }
+    },
+    {
+      "id": "idmrgKgVWVLZYANbXiZnS",
+      "type": "topic",
+      "label": "同期化",
+      "position": {
+        "x": 321.20614329103375,
+        "y": 1383.6810870203947
+      },
+      "size": {
+        "width": 206,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center",
+        "colorType": "b"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "マルチスレッドの文脈では, **同期化**は,2つまたは複数の同期的なスレッドが同時に重要なセクションとして知られる特定のプログラムセグメントを実行しないことを保証するメカニズムです.共有リソースへの同期的なアクセスによりレース条件が生じることがあります.2つまたは複数のオペレーティングシステムのスレッドが同時に共有データにアクセスできます.同期化では,共有リソースに一度にたった1つのスレッドしかアクセスできないことを確認できます.したがって,データ不一致性を回避します.ロック,セマフォア,状態変数,モニター,シグナルなどの異なる同期化技術が同期状況に対処するために使用されます.",
+        "links": []
+      }
+    },
+    {
+      "id": "6k25amPkU9lnZ7FMNn_T6",
+      "type": "subtopic",
+      "label": "障壁",
+      "position": {
+        "x": 321.20614329103375,
+        "y": 1542.6810870203947
+      },
+      "size": {
+        "width": 206,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`Barrier`は,サーバーサイドゲーム開発において,ゲームのコード内の複数のスレッドを管理するのに役立つ同期化方法の一種を指す.バリアポイントを設定すると,すべてのスレッドがこのバリアに到達するまで,このポイントに到達するすべてのスレッドが進行するのを阻害する.この機能は,不一致性や共有リソースへの同期化されていないアクセスを防ぐために同期化の重要な側面である.開発者は,ゲームの実行時間の次のステップに移る前にすべてのプロセスが完了またはすべての情報が更新されていることを確認することができます.ゲーム起動,レベル完了,またはより複雑なインタースレッド通信の間にバリアは,制限されない場合など,さまざまな場合に適用できます.",
+        "links": []
+      }
+    },
+    {
+      "id": "lVXfA_oZr82mFfBvLnnRK",
+      "type": "subtopic",
+      "label": "スピンロック",
+      "position": {
+        "x": 321.20614329103375,
+        "y": 1489.6810870203947
+      },
+      "size": {
+        "width": 206,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`Spinlock`は,ロックが取得されるまで,忙しい待機状態 (本質的には, 'spinning') で存在する同期化メカニズムの一種である.これは,望ましいロックが利用できない場合,糸を眠らせることができる他のロックメカニズムと相違する.通常,糸の眠り (コンテキストスイッチング) がスピニングよりも高価なシナリオで使用されます.しかし,適切に処理する必要があります.不適切な管理されたスピンロックは,待機がアクティブであるため,高いCPU使用を引き起こす可能性があります.継続的に処理を消費します.したがって,ロックを取得する待機時間が合理的に短いシナリオではより有益です.",
+        "links": []
+      }
+    },
+    {
+      "id": "G_BEJKkJ1_Nc43aosy_iS",
+      "type": "subtopic",
+      "label": "ミュテックス",
+      "position": {
+        "x": 321.20614329103375,
+        "y": 1648.6810870203947
+      },
+      "size": {
+        "width": 206,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center",
+        "colorType": "c"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`Mutex`は,相互排除の略である.開発者が複数のスレッドが同時に共有されたリソースまたはコードの一部にアクセスするのを防ぐために使用する同期化方法である. `mutex`は,特定の操作を一度に1スレッドのみが実行できるように制限を強制するロックメカニズムである. `mutex`が1スレッドでロックされている場合,それをロックしようとする他のスレッドは,所有者スレッドがロックを解除するまでブロックされます.このツールは,特に複数のスレッドのプログラミング環境では,プログラムの行動がスレッドのスケジュールまたはタイミングに依存するレース条件のような条件を避けるために不可欠です.",
+        "links": []
+      }
+    },
+    {
+      "id": "DYvzGc_r0SlOArPPc1gNI",
+      "type": "subtopic",
+      "label": "セマフォール",
+      "position": {
+        "x": 172.56275416291476,
+        "y": 1648.6810870203947
+      },
+      "size": {
+        "width": 118,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "**セマフォアは,サーバーサイドゲーム開発における重要な同期メカニズムであり,共有リソースへの制御されたアクセスを確保し,レース条件を防止する.セッションでアクティブプレイヤーの数を制限し,データベース接続へのアクセスを規制し,物理やAIコンピューティングにおけるスレッドを同期するなどの同時プロセスを管理するために広く使用されています.セマフォアは,開発者がリソースの飢えと争いを防ぐことでパフォーマンスを最適化することができます.それらを正しく実装するには,デッドロックを回避し,効率的なスレッドスケジューリングを確保するために注意深く操作する必要があります.",
+        "links": [
+          {
+            "title": "プロセス同期におけるセマフォール",
+            "url": "https://www.geeksforgeeks.org/semaphores-in-process-synchronization/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "zbIbPlqTNSbJUkqH9iLQv",
+      "type": "subtopic",
+      "label": "未来 と 約束",
+      "position": {
+        "x": 321.20614329103375,
+        "y": 1595.6810870203947
+      },
+      "size": {
+        "width": 206,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center",
+        "colorType": "c"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ",
+        "links": []
+      }
+    },
+    {
+      "id": "o0Y_hM0KXUApfsXG4PvOY",
+      "type": "subtopic",
+      "label": "コロウチン",
+      "position": {
+        "x": 61.56275416291476,
+        "y": 1595.6841808369861
+      },
+      "size": {
+        "width": 107,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "**Coroutines**は,サーバーサイドゲーム開発で効率的なアシンクロンプログラミングを可能にする軽量,協力的なマルチタスク構造である.従来のスレッドとは異なり,Coroutinesは,実行スレッド全体をブロックすることなく,機能を停止し,再開することを可能にするため,ゲームロジック,ネットワーク,およびAI行動を最小限のオーバーヘッドで処理するのに理想的です.彼らは将来と約束のメカニズムでシームレスに動作し,コールバック地獄を回避し,同期化複雑性を軽減することによって同期管理を簡素化します.Coroutinesは,読みやすさとパフォーマンスを維持しながらコードをブロックしないように効率的な方法をゲーム開発者に提供する Python (`asyncio`), Kotlinなどの現代言語で広くサポートされています.",
+        "links": [
+          {
+            "title": "C++ コロウチン (cppreference)",
+            "url": "https://en.cppreference.com/w/cpp/language/coroutines",
+            "type": "article"
+          },
+          {
+            "title": "パイthon コルーチンとタスク",
+            "url": "https://docs.python.org/3/library/asyncio-task.html",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "SXOEMkcVYBsRza6BPmmwy",
+      "type": "subtopic",
+      "label": "チャンネル",
+      "position": {
+        "x": 172.56275416291476,
+        "y": 1595.6841808369861
+      },
+      "size": {
+        "width": 118,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "**チャンネル**は,特に非同期プログラミングにおいて,同時作業またはスレッド間の通信に使用される同期化原始である.サーバーサイドゲーム開発において,チャンネルは,ゲーム論理,ネットワーク通信,およびI/O操作などの異なるコンポーネント間のデータフローを管理するために頻繁に使用される. `Channels`は,複雑なロックを必要とせず,複雑なロックを必要とせず,メッセージまたはデータをクロウチンまたはスレッド間で転送するための thread-secureな方法を提供し,レース条件の可能性を減らす.これは,イベント拡散,メッセージ転送,またはマルチプレイヤーゲームサーバーでのアクションを調整するような作業を処理するのに理想的です. `Channels`は,ゲーム将来の同期性を効率的に管理し,全体的なパフォーマンスを改善する約束をしばしば行う.",
+        "links": [
+          {
+            "title": "ウォーチャネルドキュメント",
+            "url": "https://golang.org/doc/effective_go.html#channels",
+            "type": "article"
+          },
+          {
+            "title": "競争のための腐蝕チャネル",
+            "url": "https://doc.rust-lang.org/book/ch16-02-message-passing.html",
+            "type": "article"
+          },
+          {
+            "title": "チャンネル の 総合 的 な ガイド",
+            "url": "https://elixir-lang.org/getting-started/processes.html#using-processes-and-messages",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "xR6pERldq4wPl9GVLHAhT",
+      "type": "subtopic",
+      "label": "状況 変動する",
+      "position": {
+        "x": 321.20614329103375,
+        "y": 1436.6810870203947
+      },
+      "size": {
+        "width": 206,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`条件変数`は,呼び出しスレッドを再開通知されるまでブロックする能力を持つオブジェクトである.スレッドの同期時に `mutex` (または `lock`) と併用される.条件変数は,ムテックス (またはロック) と待機列で構成される.通常,条件変数は,スレッドが特定の条件を満たすまで待機する必要があるときに使用されます.スレッドはムテックスをロックし,条件を確認し,条件が満たされない場合,待機列に入ってムテックスを解き放します.条件が満たされると,別のスレッドが条件変数を通知し,待機列からスレッドを目覚めさせ,ムテックスを再ロックします.状態変数は偽りの覚醒と 失われた覚醒に 影響しているので 開発者は注意深く管理する必要があります",
+        "links": []
+      }
+    },
+    {
+      "id": "IeD-oQ1bkwlKNC-R0lJjZ",
+      "type": "subtopic",
+      "label": "ローカルストレージ",
+      "position": {
+        "x": 316.0434878760507,
+        "y": 1225.9443359375
+      },
+      "size": {
+        "width": 216,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center",
+        "colorType": "h"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`Thread Local Storage (TLS) `は,各スレッドが個別に割り当てられた変数を得ることができるように変数を割り当てられるメカニズムである.しかし,変数の名前は各スレッドで同じである.つまり,同じ変数は異なるスレッドに対して同時に異なる値を保持することができる.TLSは,グローバルまたは静态変数をスレッドセキュアで使用する必要があるが,データはそれぞれのスレッドにユニークである必要があります.TLSは多くのアプリケーションで使用できますが,サーバーアプリケーションでスレッド状態を保存するのに特に有用です.",
+        "links": []
+      }
+    },
+    {
+      "id": "mW2L_9NckgPRH7g5W9NHq",
+      "type": "subtopic",
+      "label": "窓",
+      "position": {
+        "x": 317.0153285883124,
+        "y": 1299.158346006392
+      },
+      "size": {
+        "width": 105,
+        "height": 50
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "サーバーサイドゲーム開発の文脈では,WindowsオペレーティングシステムはThread Local Storage (TLS) のAPIを提供しています.これは,プログラム内の各スレッドにユニークな変数が割り当てられるメカニズムを指します.スレッドがTLSインデックスから読み書きすると,実際にはスレッド特定のメモリブロックを参照しています.このメモリブロックは,スレッドが作成されるとシステム堆積からダイナミックに割り当てられ,その後スレッドが終了すると解放されます.このメモリ管理は,開発者にとって複雑性を軽減できるシステムによって暗示的に行われます.",
+        "links": []
+      }
+    },
+    {
+      "id": "HU0yUyl89WD8WnR9PJn7l",
+      "type": "subtopic",
+      "label": "糸",
+      "position": {
+        "x": 427.0153285883124,
+        "y": 1299.158346006392
+      },
+      "size": {
+        "width": 101,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`Pthread`またはPOSIX threadsは,マルチスレッド開発のための標準ベースのスレッドプログラミングライブラリです. 同期性と並行性を向上させるプログラムで複数のスレッドを効率的に管理するためのいくつかの機能と方法を提供します.このライブラリは,スレッド作成,スレッド結合とキャンセル,スレッド特定データ,ミュテックスロック,読み書きロック,状態変数を含む同期化を可能にします.特に,Pthreadは,Linux,Unix,Windowsシステムのためのクロスプラットフォームサポートを提供するC/C++プログラミング言語のAPIです.サーバーサイドゲーム開発者が高度に応答的で同期的なアプリケーションを作成するための基本的なツールです.",
+        "links": []
+      }
+    },
+    {
+      "id": "3use5vuLBJTk40wOg9S-X",
+      "type": "subtopic",
+      "label": "破片する",
+      "position": {
+        "x": 118.69747266236539,
+        "y": 1062.3595644355564
+      },
+      "size": {
+        "width": 131,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center",
+        "colorType": "c"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "シェードリングは,非常に大きなデータベースをデータシェードと呼ばれる,より小さく,より速く,より簡単に管理できる部分に分割するデータベース分割の一種である.シェードという単語は,全体の一部を意味する.各シェードは,負荷を分散し,単一の失敗のリスクを軽減するために,独立したデータベースサーバーインスタンスの上で保持されます.シェードリングは水平または垂直ベースで行うことができます.水平シェードリングは,データシェードリングとしても知られる.異なるテーブルに異なる列を置くことを意味します.反対に,垂直シェードリングは,異なるテーブルに異なる列を置くことを意味します.特定の列に基づいてシェードすることは可能であり,データベースはさまざまな方法でシェードすることができます.シェードリングは複雑なプロセスですが,適切な計画により拡張性とパフォーマンスの改善が可能になります.",
+        "links": []
+      }
+    },
+    {
+      "id": "TVJrlUsg30YIM1yjsZfJI",
+      "type": "subtopic",
+      "label": "繊維",
+      "position": {
+        "x": 118.69747266236539,
+        "y": 1115.3595644355564
+      },
+      "size": {
+        "width": 131,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center",
+        "colorType": "c"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`Fiber`は,トレッドよりもより細かなレベルでの同期管理の方法である.トレッドは他のトレッドと同時に実行できる一連の指示を表している一方で,ファイバーは,起動するトレッドでのみ実行される実行ユニットである.ファイバーは,オペレーティングシステムではなくアプリケーションによってスケジュールされます. 協力的なマルチタスクを実行するための素晴らしいツールです.",
+        "links": []
+      }
+    },
+    {
+      "id": "tGQu18PWDatW7HvkTP-uh",
+      "type": "topic",
+      "label": "プログラミング技術",
+      "position": {
+        "x": -194.95651212394932,
+        "y": 1384.2630950364517
+      },
+      "size": {
+        "width": 245,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center",
+        "colorType": "b"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "プログラミング技術は,コンピュータが解釈し実行できる一連の指示 (コード) を書き出すために使用される方法である.個人に固有のコードと使用しているプログラミング言語の両方に独自のコードを書く方法はたくさんあります.オブジェクト指向プログラミング (OOP) のような技術は,封装されたオブジェクトと継承を使用します.機能プログラミングは,状態および変形可能なデータの変化を回避し,数学上の関数に焦点を当てます.手順プログラミングは,最終的な結果を達成するために機能の事前に定義されたステップを実行するプロセスに焦点を当てています. イベント駆動プログラミングは,主にマウスクリックまたはキープレスなどのユーザー相互作用に影響します.ゲーム開発要件,開発チームの能力,および好みに応じて選択できます.",
+        "links": []
+      }
+    },
+    {
+      "id": "gB-TYpgUDV47bxznNJhYn",
+      "type": "subtopic",
+      "label": "デザイン パターン",
+      "position": {
+        "x": -520.3091914009053,
+        "y": 1278.2630950364517
+      },
+      "size": {
+        "width": 237,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "デザインパターンは,経験豊富なソフトウェアエンジニアが開発したベストプラクティスを代表する.ソフトウェア設計で発生する一般的な問題に対する再利用可能なソリューションであり,できるだけシステムを分離する要件を満たします.デザインパターンは,クリエイティブ,構造的,および行動型に分類されます.クリエイティブタイプにはシングルトン,プロトタイプ,ファクトリーなどのパターンが含まれます.構造にはアダプター,コンポジット,プロキシが含まれます.行動型にはオブザーバー,戦略,テンプレート,ビジターが含まれます.すべてのデザインパターンは,プログラマがプログラミングコードで特定のデザイン問題を解決するためにフォローできる独自の構造が定義されています.",
+        "links": []
+      }
+    },
+    {
+      "id": "FKOhe21PVlaKIoZI4hd49",
+      "type": "subtopic",
+      "label": "TDD",
+      "position": {
+        "x": -520.3091914009053,
+        "y": 1331.2630950364517
+      },
+      "size": {
+        "width": 237,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`Test Driven Development (TDD) `は,開発者がテストを通過するために必要な最小限のコードを書き出す前にテストを書く開発戦略である.このプロセスには赤,緑,リファクターという3つの段階が含まれます.赤の段階では,テストが初期に失敗するテストが書き込まれます (テストしているコードはまだ存在していないため).緑の段階では,テストを通過させるための最小限のコードが作成されます.最後に,リファクター段階では,書き込みコードは動作に影響を及ぼさずに改善されます.このプロセスはしばしばサイクルとして視覚化されます. \"赤 -緑 -リファクター\".この繰り返しプロセスは,より小さな,より定義された開発を可能にします.バグが発生し,シンプルなデザインを奨励します.TDDは主に敏捷な開発環境で使用されます.",
+        "links": []
+      }
+    },
+    {
+      "id": "uTlxyDOtvt_Qp0gXLWO-j",
+      "type": "subtopic",
+      "label": "依存症注射",
+      "position": {
+        "x": -520.3091914009053,
+        "y": 1384.2630950364517
+      },
+      "size": {
+        "width": 237,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`Dependency Injection` (DI) は,あるクラスをその依存から独立させるプログラミング技術である.この技術は,オブジェクトの使用をその創造から分離することによって達成される.この技術では,クラスがオブジェクトを作成する代わりに,オブジェクトが外部エンティティによってクラスに供給されるまたは\"注入\"される.依存の実際の作成と結合は,それぞれのクラスに依存を注入する\"コンテナ\"によって管理される.依存の注射は,コンストラクター注射,セットター注射,インターフェイス注射など3つの方法で行うことができる.これらの方法それぞれは,オブジェクトの作成の責任を移転し,別のクラスまたは方法に結合することを含む.",
+        "links": []
+      }
+    },
+    {
+      "id": "1c6EqGv1g-d8M1i0vKImb",
+      "type": "subtopic",
+      "label": "廃棄物分析",
+      "position": {
+        "x": -520.3091914009053,
+        "y": 1437.2630950364517
+      },
+      "size": {
+        "width": 237,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "**Dump Analysis**は,サーバーサイドゲーム開発において非常に有用な技術であり,主にデバッグやトラブルシューティングに使用される.プログラムがクラッシュまたは失敗するときにシステム内の\"ダップ\"またはすべての情報を研究することを含む.このダップには,通常システムのメモリ,アクティブプロセス,スレッドスタックなどが含まれます.このデータを分析することにより,開発者は故障の原因についての洞察を得ることができます.ダップ分析は, WinDbg, lldb, gdbなどのデバッグを使用して手動またはマイクロソフトの自動デバッグツール (ADPlus) およびデバッグダイアッグなどのツールを使用して自動化することができます.",
+        "links": []
+      }
+    },
+    {
+      "id": "HXSWvhgT4L5w6xgOO-3kj",
+      "type": "subtopic",
+      "label": "機能的プログラミング",
+      "position": {
+        "x": -520.3091914009053,
+        "y": 1490.2630950364517
+      },
+      "size": {
+        "width": 237,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`Functional programming`は,計算を数学機能の評価として扱うプログラミングパラダイムであり,変化状態と変形可能なデータを避けます.機能プログラミングでは,関数はファーストクラスの市民である. つまり,関数は他の関数への参数として転送され,他の関数から値として返され,変数に割り当てられる.機能プログラミング言語の例には,Haskell,Lisp,およびScalaが含まれます.機能プログラミングの核心は不変性と純粋な関数という概念です.純粋な関数は,同じ入力に対して同じ出力を提供する関数であり,副作用はありません.不変性によって変数やオブジェクトが作成された後に変更されないため,機能プログラムのデバッグとテストが容易になります.",
+        "links": []
+      }
+    },
+    {
+      "id": "FLFaGZDg2MSG6_YHnWETM",
+      "type": "topic",
+      "label": "データベース",
+      "position": {
+        "x": -171.45651212394932,
+        "y": 1595.6841808369861
+      },
+      "size": {
+        "width": 198,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center",
+        "colorType": "b"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "データベースは構造化されたデータセットである.サーバーサイドゲーム開発の観点から,データベースは非常に重要です.ユーザープロファイル,ゲームステート,ランキングなどの情報を保存します.あなたは関係データベース (MySQL,PostgreSQL),NoSQLデータベース (MongoDB,Cassandra),および内存データベース (Redis,Memcached) などのさまざまな種類のデータベースから選択できます.これらのデータベースには関係データベースのためのSQLのような相互作用のための独自の主要な言語があります.最も重要なことは,ゲーム開発者として,効率的なデータ回収とストレージを確保するためにデータベーススキームを賢く計画する必要があります.インデックスに関する知識とACID (Atomicity, Consistency, Isolation, Durability) 特性に関するしっかりした理解は,ゲームバックバックの開発に役立ちます.",
+        "links": []
+      }
+    },
+    {
+      "id": "tBAjat7nEbjD7idiFwLf3",
+      "type": "label",
+      "label": "RDBMS",
+      "position": {
+        "x": -480.6327630325113,
+        "y": 1740.8976823971498
+      },
+      "size": {
+        "width": 78,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "QMNUAKAuRI9lyf2_jUPsj",
+      "type": "subtopic",
+      "label": "MS SQL",
+      "position": {
+        "x": -510.6327630325113,
+        "y": 1574.8976823971498
+      },
+      "size": {
+        "width": 138,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Microsoft SQL Server (MSSQL) は,Microsoftが開発した関係データベース管理システム (RDBMS) です.MSSQLは,ワークステーション,インターネット,または個人デジタルアシスタント (PDA) のような他のメディアからアクセスできるデータベースを生成するために使用される環境を提供します.基本的に,MSSQLはアプリケーションのためのバックエンドストレージを提供するサーバーベースのSQLリポジトリです.企業IT環境におけるさまざまなトランザクション処理,ビジネスインテリジェンス,分析アプリケーションをサポートします.MSSQLは,無料版,Express,および包括的なエンタープライズ版から,ユーザーの要件を満たすさまざまな機能を持つさまざまなエディションがあります.",
+        "links": []
+      }
+    },
+    {
+      "id": "HsBqd08Ro0VJnx0FlumMQ",
+      "type": "subtopic",
+      "label": "MySQL",
+      "position": {
+        "x": -510.6327630325113,
+        "y": 1627.8976823971498
+      },
+      "size": {
+        "width": 138,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "MySQLは,データとインタラクションするためにSQL (Structured Query Language) を使用するオープンソース関係データベース管理システム (RDBMS) です.スウェーデン企業であるMySQL ABによって開発され,販売され,サポートされています.CとC++で書かれています.オープンソースであるため,完全に無料でMySQL を使用できます.MySQLは主にオンライン取引およびデータを統合するために使用されます.Linux,Windows,macOSなどのさまざまなプラットフォームにインストールできます.フルテキスト検索,カーサー,トリガー,ストレージされた手順のサポートなどの包括的な機能によって,非常に大きなデータセットを管理するのに十分な力があります.",
+        "links": []
+      }
+    },
+    {
+      "id": "dAiEwN7phwMyaitvM5kRl",
+      "type": "subtopic",
+      "label": "PostgreSQL",
+      "position": {
+        "x": -510.6327630325113,
+        "y": 1680.8976823971498
+      },
+      "size": {
+        "width": 138,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "**PostgreSQL**は強力なオープンソースのオブジェクト関係データベースシステムです.最も複雑なデータワークロードを安全に保存しスケールする多くの機能と組み合わせてSQL言語を拡張します.PostgreSQLの起源は,カリフォルニア大学バークレーのPOSTGRESプロジェクトの一環として1986年に遡ります.実証されたアーキテクチャ,信頼性,データ整体,堅固な機能セット,拡張性,およびソフトウェアの背後にあるオープンソースコミュニティの献身によって強力な評判を得ています.PostgreSQLはすべての主要なオペレーティングシステムで実行され,2001年以来ACID対応です.人気のあるPostGIS地質データベース拡張子のような強力なアドオンがあります.範囲やアレイタイプに対応し,規模で開発する幅広い能力を持っています.",
+        "links": []
+      }
+    },
+    {
+      "id": "6lpRonYBRRFycpjhYkeB9",
+      "type": "label",
+      "label": "NoSQL",
+      "position": {
+        "x": -329.81301933317815,
+        "y": 1794.4564918532815
+      },
+      "size": {
+        "width": 73,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "9vc7sFE_XakYXtKRMxLXi",
+      "type": "subtopic",
+      "label": "ダイナモDB",
+      "position": {
+        "x": -360.31301933317815,
+        "y": 1575.4564918532815
+      },
+      "size": {
+        "width": 134,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "DynamoDBは,Amazonが提供するNoSQLデータベースサービスで,任意のスケールで信頼性のあるパフォーマンスを提供します.完全に管理され,多地域,マルチマスターデータベースで,内蔵セキュリティ,バックアップ,復元,内存キャッシングを提供しています.大規模なスケール,低遅延要求のあるアプリケーションをサポートすることを意図しています.開発者は,任意の量のデータを保存し,取得できるデータベーステーブルを作成し,毎月数回のリクエストから毎秒数百万回のリクエストまでトラフィックを提供できます.AWSの一部として,DynamoDBは他のAWSサービスとうまく統合し,複数の地理的地域を介して開発者に高い可用性を提供します.",
+        "links": []
+      }
+    },
+    {
+      "id": "HYxtPW401-J6aYcTuiGnx",
+      "type": "subtopic",
+      "label": "MongoDB",
+      "position": {
+        "x": -360.31301933317815,
+        "y": 1628.4564918532815
+      },
+      "size": {
+        "width": 134,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "MongoDBは,ドキュメントベースのデータベースモデルを使用するソース利用可能なNoSQLデータベースプログラムです.このモデルはさまざまなデータタイプをサポートし,それらを1つの場所に保存することができます.MongoDBはオプションのスケーマと組み合わせたJSONのようなドキュメントを使用します.MongoDBの特徴は,スケーラブル性と柔軟性であり,スケーマがビジネスニーズに対応して進化することを可能にします.複数のサーバーで実行できます.システムと利用可能なデータを維持するために,データは複製されます.さらに,MongoDBは強力なクエリおよび統合ツールを通じて豊かなクエリをサポートします.これらの機能は急速な開発とリテレーションを奨励します.しかし,すべてのデータベースと同様に,MongoDBは単位のスケーラブルではないことを覚えておいてください.",
+        "links": []
+      }
+    },
+    {
+      "id": "1jqSxk1nwByiQa1De81F3",
+      "type": "subtopic",
+      "label": "カッサンドラ",
+      "position": {
+        "x": -360.31301933317815,
+        "y": 1681.4564918532815
+      },
+      "size": {
+        "width": 134,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Apache Cassandra はオープンソースのNoSQLデータベースシステムで,幅広いサーバーで大量のデータを管理するために設計されています. 失敗点がないのに高い可用性を提供します. Cassandra は,優れた複製メカニズムがあるため,複数の場所にデータを分散するアプリケーションに使用されます. マスター・スラブとは異なり,ピアツーピアアーキテクチャを使用し,継続的な可用性とスケーラビリティを可能にします. Cassandra は複数のデータセンターをカバーするクラスタにも強力なサポートを提供し,すべてのクライアントに低遅延性操作を可能にするアシンクロンマスターレス複製です.",
+        "links": []
+      }
+    },
+    {
+      "id": "6KTj_giX2k9l2lPd_Fp-d",
+      "type": "subtopic",
+      "label": "ソファベース",
+      "position": {
+        "x": -360.31301933317815,
+        "y": 1734.4564918532815
+      },
+      "size": {
+        "width": 134,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Couchbaseは,サーバーサイドゲーム開発に適した柔軟なデータモデルを提供するNoSQLデータベース技術です.高性能と簡単にスケーラブル化を提供し,リアルタイムでデータを管理,操作,最適化するための包括的なプラットフォームを提供しています.Couchbaseの背後にある技術は,キー値ストアの強力なパフォーマンスとSQLのようなクエリシステムの柔軟なクエリ能力を組み合わせています.これはパフォーマンスと柔軟性が重要なゲーム環境において特に価値のあるものです.さらに,Couchbaseはドキュメントデータベース機能も提供しており,複雑な文書を個々のニーズに簡単に操作できるフォーマットで保存することができます.高性能,柔軟なクエリ,ドキュメントデータベース機能により,Couchbaseはサーバーサイドゲーム開発者のための強力なツールであり,それをマスターすることで開発能力を大幅に向上させることができます.",
+        "links": []
+      }
+    },
+    {
+      "id": "7YNaELVcoV7DV1Fa06USi",
+      "type": "subtopic",
+      "label": "レディス",
+      "position": {
+        "x": 128.08644532562175,
+        "y": 1458.1065060656979
+      },
+      "size": {
+        "width": 142,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`Redis`は,データベース,キャッシュ,メッセージブローカーとして使用できるオープンソースのメモリ内のデータ構造ストアです.文字列,ハッシュ,リスト,セット,範囲クエリ,ビットマップなどのさまざまなデータ構造をサポートします.Redisはまた,文字列に添加する,ハッシュ,アレイ,並べられたセット値を増やしたり減少したりする,コンピューティングセット交差,ユニオン,差異などなどの原子操作を可能にします.Redesの興味深い特徴は,トランザクションを作成し,チャンネルを公開し,サブスクリーブする能力です.",
+        "links": []
+      }
+    },
+    {
+      "id": "ayeezKxQkXAPJMTShsOBU",
+      "type": "subtopic",
+      "label": "メムキャッシング",
+      "position": {
+        "x": 128.08644532562175,
+        "y": 1511.1065060656979
+      },
+      "size": {
+        "width": 142,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`Memcached`は,高性能,分散型メモリオブジェクトキャッシングシステムであり,一般的性質であるが,データベースの負荷を軽減することによって,ダイナミックなウェブアプリケーションを加速するために使用することを目的としています.外部データソースが読み取られる頻度を減らすために,データとオブジェクトをダイナミックメモリに保存することによってです. `Memcached`は,基本的にネットワーク上で動作するキー値ストアです. サーバがデータセットの共通のビューを維持するクライアントサーバーアーキテクチャを使用します.クライアントはデータを分割し,どのサーバーにデータアイテムを書くか,どのサーバーから読み取られるかを決定する責任があります.",
+        "links": []
+      }
+    },
+    {
+      "id": "CA1pvQw00EF2G_UtqenAZ",
+      "type": "label",
+      "label": "キー値",
+      "position": {
+        "x": -36.14448607509672,
+        "y": 1488.9027065582582
+      },
+      "size": {
+        "width": 94,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "OyxWMFy8s7Lxko_K89fjo",
+      "type": "subtopic",
+      "label": "ORM",
+      "position": {
+        "x": -45.32115368925781,
+        "y": 1671.5717183078734
+      },
+      "size": {
+        "width": 86,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ORMはオブジェクト関連マッピングを表します.サーバーサイドゲーム開発では,ORMはSQLのようにデータベースとインタラクションできるようにする技術です.つまり,サーバーサイドでは,プログラミング言語 (例えば,Python,JavaScript,など) で,データベース内のテーブルにマッピングするクラスを作成します.クラスの各インスタンスはそれぞれのテーブル内の行を表します.ORMライブラリとツールは,SQL原発声明を書く必要なくCRUD (Create, Retrieve,Update, Delete) 操作を実行する方法を提供します.ORM ツールにはJavaScriptのためのSequelize,PythonのためのSQLAlchemy,JavaのためのHibernateなどがあります.",
+        "links": []
+      }
+    },
+    {
+      "id": "dt_SmZuwklLimhupvjxC1",
+      "type": "subtopic",
+      "label": "DAL",
+      "position": {
+        "x": -45.32115368925781,
+        "y": 1724.5717183078734
+      },
+      "size": {
+        "width": 86,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "**DAL**という用語は **Data Access Layer**を表しています.これは,データの持続的なストレージとの相互作用を簡素化するアプリケーションの層を表します.通常,DALは,データベースと直接通信するアプリケーションの別のモジュール,パッケージ,またはライブラリに実装され,それによってアプリケーションサービスとモジュールがCRUD操作 (データベースエントリを作成し,取得し,更新し,削除する) とデータベーストランザクションのためのシンプルなAPIを呼び出すことができます.DALはアプリケーションのデータベーススキームを維持し,データベースへの接続を管理するのに役立ちます.PythonのためのSQLAlchemy, Node.jsのためのSequelize,JavaのためのHibernateなどの人気のあるライブラリやフレームワークは,強力なDAL実装を提供します.これらのツールは,データソースの低レベルの詳細を,より高いレベルのプログラミングインターフェースに抽象化します.",
+        "links": []
+      }
+    },
+    {
+      "id": "1788KFqsQBkYARqA0T5GX",
+      "type": "topic",
+      "label": "暗号",
+      "position": {
+        "x": -171.45651212394932,
+        "y": 1880.4564918532815
+      },
+      "size": {
+        "width": 198,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center",
+        "colorType": "b"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "**Cipher**は暗号学分野における重要な構成要素であり,情報を暗号化および解読するために使用されます.本質的には,敏感な情報やデータをランダムで意味のないように見える形式に変換するために,明確に定義されたステップまたはアルゴリズムの一連のものです.この変換された情報は,特定の解読キーを用いてのみ元の形式に戻ることができます.その方法論に基づいて,暗号は一般的に2つのカテゴリーに分類されます:ブロック暗号とストリーム暗号.ブロック暗号は,単一のビットまたはバイトで動作する一方,ストリーム暗号は,個々のビットまたはバイトで動作します.暗号の例としては,セイザール暗号,モノファベティ暗号,ヴィゲン暗号などがあります.暗号の使用は,プレイヤーのデータが機密であり,不正アクセスまたは操作の対象にならないようにすることで,サーバーサイドゲーム開発におけるセキュリティを強化します.",
+        "links": []
+      }
+    },
+    {
+      "id": "PSvPjaVtko71BeIA-hYqf",
+      "type": "subtopic",
+      "label": "SSL",
+      "position": {
+        "x": -174.45654296875,
+        "y": 1795.4564918532815
+      },
+      "size": {
+        "width": 76,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Secure Sockets Layer (SSL) は,ウェブブラウザとウェブサーバーの間の暗号化された通信を提供するセキュリティプロトコルです.このプロトコルは,Webサーバーが保有するSSL証明書の2つの暗号鍵 - 公開鍵とプライベート鍵 - を作成するプロセスを通じて動作します.公開鍵は,Webサーバーと組織に関する詳細な情報を含むファイルである証明書署名要求 (CSR) に配置されます.証明書当局はこれらの詳細を検証し,WebサーバーにSSL証明書を発行します.このSSL証明書には,Webセッションデータの新しいユニークな公開鍵が含まれます.ブラウザがこのWebサーバーに接続し,SSLシミュレーションが完了すると,シミュレティック暗号化のプロトコルを通じて暗号化されたSSLセッションが確立されます.SSLはTransport Layer Security (TLS) により継がれていても,この証明書をSSLと呼びます.",
+        "links": []
+      }
+    },
+    {
+      "id": "YxaroYL_Az0vKRCeu2jsp",
+      "type": "topic",
+      "label": "RPC / REST",
+      "position": {
+        "x": 101.04348787605068,
+        "y": 1880.4564918532815
+      },
+      "size": {
+        "width": 146,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center",
+        "colorType": "b"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "RPC (Remote Procedure Call) と REST (Representational State Transfer) は,クライアントとサーバーのコミュニケーションの2つの異なるアプローチである.RPCは,クライアントが実行に必要なパラメータとともに特定の手順を呼び出すためにサーバーに要求を送信する手順指向的なサービスである.サーバーサイドプログラムは,これらの入力を処理し,結果をクライアントに返します.一方,RESTは,GET,POST,PUT,DELETEなどの標準 HTTP メソッドを利用して操作を実行するリソース指向的なアーキテクチャである.RESTでは,個々の情報またはサービスは\"リソース\"とみなされます.ゲーム開発のコンテキストでは,RPCとRESTの両方がゲームの特定のニーズとサポートする基礎アーキテクチャに応じて使用できます.どちらもゲーム内のキャラクター制御,ゲーム状態管理,リアルタイムネットワーク等などの異なる側面またはモジュールに適したユニークな特性を提供します.RPCはリアルタイムで高速通信に適しているかもしれませんが,RESTはデザインの独立した,スケーラブル,そして無国籍性のために活用できます.総じて,RPCとRESTという用語は,サーバーサイドゲーム開発においてしばしば登場します.特にマルチプレーヤー環境において,ゲームがさまざまな部分間でどのようにコミュニケーションを取るかを決定する重要性があるため.ゲームの要件と望ましいユーザー体験に基づいて適切な選択を行うことが重要です.",
+        "links": []
+      }
+    },
+    {
+      "id": "Oq3GQ5gBUxIl1Qe8NB3LB",
+      "type": "subtopic",
+      "label": "レスト",
+      "position": {
+        "x": 123.54348787605068,
+        "y": 1740.7176653422498
+      },
+      "size": {
+        "width": 101,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "REST または Representational State Transfer は,ウェブ開発で使用されるアーキテクチャスタイルである.REST システムは,URIを通じて識別されるウェブリソースの標準操作を通じて相互作用する.それはステートレス,クライアント-サーバー,キャッシュ可能な通信プロトコルを利用する.ほぼ常にHTTP.REST アーキテクチャでは,クライアントがデータを取得または変更するためにサーバーにリクエストを送信します.このデータはURIによって識別され,特定のメディアタイプ (JSON, XML,など) があります.REST の重要な特徴は,ステートレスであり,サーバーが2つのリクエストの間にデータ保存しないということです.クライアントがセッション状態を維持する一方で.RESTはモバイルアプリケーション,ソーシャルネットワークウェブサイト,自動化されたビジネスプロセスでしばしば使用されます.",
+        "links": []
+      }
+    },
+    {
+      "id": "_uqTTBUYAzDHbEUkDzmzg",
+      "type": "subtopic",
+      "label": "gRPC",
+      "position": {
+        "x": 123.54348787605068,
+        "y": 1793.7176653422498
+      },
+      "size": {
+        "width": 101,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`gRPC` (Google リモート手順コール) は,Googleによって設計された高性能,オープンソースの汎用RPCフレームワークです. gRPCフレームワークは幅広い言語をサポートしており,protobuf言語に基づいています.メソッドパラメータサービスとリターンタイプを定義するためにインターフェース定義言語としてプロトコルバッファを使用します. gRPCはさまざまなプラグ可能輸送で動作するように設計されており,負荷バランス,トラッキング,健康チェック,認証をサポートしています.機能はマイクロサービスアーキテクチャ内のポイント-トゥ-ポイントサービスに特に適しています.",
+        "links": []
+      }
+    },
+    {
+      "id": "cw7WdFfL5HpeZ_n8wYk2t",
+      "type": "topic",
+      "label": "メッセージのキュー",
+      "position": {
+        "x": 343.9628452691828,
+        "y": 1880.4564918532815
+      },
+      "size": {
+        "width": 188,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center",
+        "colorType": "b"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "メッセージキューは,サーバーサイドゲーム開発の基本的な要素であり,主に異なるプロセス,スレッド,またはマイクロサービス間の通信およびデータ交換に使用されます.メッセージキューは,ファーストイン・ファーストアウト (FIFO) 原則に基づいて動作します.典型的なプロセスでは,送信者が列にメッセージを送信し,受信者は列からメッセージを抽出します.このメカニズムは,異なる速度で動作するシステムの異なる部分間のシームレスな調整を保証し,非同期的な情報交換を可能にします.持続性,配達承認,優先順位設定,スケジューリングなどの機能は一般的にメッセージキューと関連しています.さまざまな技術では,RabbM,Apache Kafka, AWS SQSなどのメッセージキューをサポートします.適切なメッセージキューテクノロジーの選択は,関連するプログラミング言語,および期待されるメッセージトラフィック規模および速度などの特定の要件に依存する可能性があります.",
+        "links": []
+      }
+    },
+    {
+      "id": "gL7hubTh3qiMyUWeAZNwI",
+      "type": "subtopic",
+      "label": "アパッチ・カフカ",
+      "position": {
+        "x": 359.4628452691828,
+        "y": 1741.422900324292
+      },
+      "size": {
+        "width": 157,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Apache Kafka は,LinkedInが開発し,Apache Software Foundationに寄付したオープンソースのストリーム処理ソフトウェアプラットフォームです.このソフトウェアはScalaとJavaで書かれ,リアルタイムデータフィードを処理するために設計されたメッセージキューに基づいて動作します.Kafkaはデータプロデューサーと消費者の間のメッセージブローカーサービスの一種として機能し,データの効率的な転送を促進します.アプリケーションがストリームデータを処理し再処理できる耐久性のあるメッセージブローカーとして見ることができます.",
+        "links": [
+          {
+            "title": "アパッチ・カフカ クイックスタート",
+            "url": "https://kafka.apache.org/quickstart",
+            "type": "official"
+          },
+          {
+            "title": "アパッチ・カフカの基礎",
+            "url": "https://www.youtube.com/watch?v=B5j3uNBH8X4",
+            "type": "video"
+          },
+          {
+            "title": "カフカに関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/kafka?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "UESjGrFyUbNf4pQamaBoy",
+      "type": "subtopic",
+      "label": "カニットMQ",
+      "position": {
+        "x": 359.4628452691828,
+        "y": 1794.422900324292
+      },
+      "size": {
+        "width": 157,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "RabbitMQは,Advanced Message Queuing Protocol (AMQP) を実装するオープンソースのメッセージブローカーソフトウェアです.システム内の異なる部分または独立したシステム間でメッセージを送信するための共通のプラットフォームを提供するように設計されています.RabbitMQは,異なるプログラミング言語で書かれた場合でも,または異なるプラットフォームで実装されている場合でも,これらの部分が互いに話し合い理解できるようにします.RabbitMQはAMQPプロトコルに限定されず,MQTT,STOMP,その他のさまざまなメッセージングプロトコルをサポートします.また,RabbitMQは言語無知性であり,ほぼすべてのプログラミング言語で使用できます.さらに,あなたのRabbitMQサーバを管理し,監視するためのWebユーザーインターフェースが付いています.世界各地の生産システムで広く使用され クラスタリングと故障をサポートしているため 広範囲の分散型システムをサポートできます",
+        "links": []
+      }
+    },
+    {
+      "id": "_jd91rrAXGbJI9RhXlSx8",
+      "type": "topic",
+      "label": "マルチスレッド",
+      "position": {
+        "x": 225.0153285883124,
+        "y": 2142.5580874612947
+      },
+      "size": {
+        "width": 155,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`マルチスレッド 2` ゲーム開発では,通常,マルチスレッドプログラミングを理解し,管理し,実装する高度なレベルを指します.この段階では,開発者はスレッド間の通信と同期を効果的に管理することが期待されます.これには,ミュテックス,ロック,セマフォア,状態変数の使用をマスターすることが含まれます.このレベルは,レース条件,デッドロック,飢餓などの複雑な問題を調整し,解決します.さらに,スレッドプールや近代的なマルチスレッドゲームアーキテクチャを効率的かつ安全に実行するような高度なトピックをカバーすることができます.マルチスレッド 2では,開発者はより同時的なコンピューティングパワーを活用し,サーバーをより効率的かつ対応できるようにします.",
+        "links": []
+      }
+    },
+    {
+      "id": "KUQEgHldZPOLwFoXqQ2vM",
+      "type": "topic",
+      "label": "俳優モデル",
+      "position": {
+        "x": -450.0418767866893,
+        "y": 2175.8720132492394
+      },
+      "size": {
+        "width": 204,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "**Actor Model**は,同時計算を扱う概念モデルである.システム構成要素がどのように振る舞うべきか,相互に相互作用するべきかに関するいくつかの一般的なルールを定義する.Actor Modelでは,各オブジェクト (アクター) が独自のプライベート状態があり,他のアクターとのコミュニケーションはメッセージ交換によって行われます.アクターは個人メールボックスからメッセージを読み,自身の内部状態を変更したり,より多くのアクターを作成したり,他のアクターにメッセージを送信したりすることができます.",
+        "links": []
+      }
+    },
+    {
+      "id": "SsOz9Pj6Jc_55PgpmziL6",
+      "type": "subtopic",
+      "label": "Akk.net (C#)",
+      "position": {
+        "x": -450.0418767866893,
+        "y": 2228.8720132492394
+      },
+      "size": {
+        "width": 204,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "\"Akka.NET\"は,同期および分散アプリケーションの設計のためのツールキットと実行時間です.この技術は,アクターモデルコンセプトから直接インスピレーションを得て,堅固かつ高度に機能的なサーバーサイドアプリケーションを作成するための原則を実装しています.Akka.NETは,開発者が高性能を維持しながら,何百万人ものメッセージを同時に処理できるシステムを作成することを可能にします.アクターベースの同期,ネットワークおよびクラウドディストリビューション,強力なイベントソーステクニックをサポートします.Akka.NETのシステム構築には,主要なアクターだけでなく,持続的なアクター,FSM (Finite State Machine) のアクターなどのさまざまなタイプとの作業が含まれます.Akka.NETは,JavaとScalaのライブラリを含むより広範な Akkaツールキットの1つです.",
+        "links": []
+      }
+    },
+    {
+      "id": "eAEpEUVZcSKO9uCIlMN5y",
+      "type": "subtopic",
+      "label": "アッカ (Java)",
+      "position": {
+        "x": -450.0418767866893,
+        "y": 2281.8720132492394
+      },
+      "size": {
+        "width": 204,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "アッカはオープンソースのツールキットであり,JVMで並行および分散したアプリケーションの構築を簡素化します.並行処理のためのアクターモデルを実装し,開発者は分散環境で大量のトランザクションを処理できるシステムを作成することができます.しかし,アッカはアクターだけでなく,イベントソース,CQRS,クラスターシェーディング,および分散したデータを含む反応的なアプリケーションを構築するための他のツールを備えています.Scalaで書き込み,ScalaとJavaの両方でAPIを提供し,アッカは金融,技術,ストリーミング,その他などの分野で多数のビジネス重要なシステムを動かす.",
+        "links": []
+      }
+    },
+    {
+      "id": "ThBxS9xIMt9OrXfnto3rW",
+      "type": "topic",
+      "label": "アシンクロン",
+      "position": {
+        "x": -241.6297467693716,
+        "y": 2175.1037781746063
+      },
+      "size": {
+        "width": 379,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "**アシンクロンなプログラミング**は,関数やルーチンを実行する際に,その内の活動が完了するまで待つことができないプログラミングパラダイムである.これは,システムリソースを最大限に活用して,タスクを独立して処理することを可能にします.関数にはI/O,データベースアクセス,またはネットワーク通信などの操作が含まれている場合,完了するのに長い時間がかかる場合,この関数は将来または約束に包まれ,実行に送られます.その間に,コアプログラムは実行し続けます.包まれた関数が実行されると,計算またはI/Oが完了したことを通知するためにコールバック関数は使用されます.これはブロックしないまたはアシンクロンな実行の核を形成します.サーバーサイドプログラミング,ゲーム開発,およびI/O遅延またはユーザー体験が懸念されるあらゆるシナリオで広く使用されています.",
+        "links": []
+      }
+    },
+    {
+      "id": "7mYpgn2gr-5vAYW-UR7_x",
+      "type": "topic",
+      "label": "原子炉",
+      "position": {
+        "x": -242.3281242098539,
+        "y": 2230.1582943435765
+      },
+      "size": {
+        "width": 199,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center",
+        "colorType": "h"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "** Reactor** は,同期I/Oマルチプレックスに対応する設計パターンである.これは主に1つまたは複数のクライアントがアプリケーションに同時に送信するサービスリクエストを処理するサーバーサイドゲーム開発コンセプトの一部である.原子炉は,複数のリクエストを単一のスレッドのリソースによって効率的に管理することを可能にします.すべての異なるI/Oストリームを制御および管理するためにイベントループとコールバックを使用します.しばしば,原子炉はシステムリソースを使用する同時性と効率性を達成するためにProactorパターンと組み合わせられます.",
+        "links": []
+      }
+    },
+    {
+      "id": "5-5toy2CblZPCV9d5QPEo",
+      "type": "subtopic",
+      "label": "選択する",
+      "position": {
+        "x": -114.32812420985391,
+        "y": 2283.00220976664
+      },
+      "size": {
+        "width": 71,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "**select** は Linux で複数のファイルディスクリプターを監視し,I/O 操作に準備ができているかどうかを確認する मल्टीプレックスシステム呼び出しです.複数の接続を無同期処理するためにサーバーサイドゲーム開発で一般的に使用されます.しかし, `select` はすべてのファイルディスクリプターを線的にスキャンし,多くの同時接続を処理するのに効率が悪いため,限界があります.デメリットにもかかわらず,よりシンプルなアプリケーションや Legacy システムには有用です. `epoll`や `kqueue`のような現代的な代替法は性能とスケーラビリティを向上させます.",
+        "links": [
+          {
+            "title": "Linux の API を選択する",
+            "url": "https://man7.org/linux/man-pages/man2/select.2.html",
+            "type": "article"
+          },
+          {
+            "title": "選択 vs エポル vs 投票",
+            "url": "https://devarea.com/linux-io-multiplexing-select-vs-poll-vs-epoll/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "D9Yeyn8phDhB1ohMWccgr",
+      "type": "subtopic",
+      "label": "WSA調査",
+      "position": {
+        "x": -241.97272423589692,
+        "y": 2283.00220976664
+      },
+      "size": {
+        "width": 124,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "**WSA-Poll**は,不ブロックネットワークアプリケーションの準備のために複数のソケットのモニタリングに使用される `poll`のWindows特別の代替品です. サーバーサイドゲーム開発では,複数のクライアント接続を効率的に処理するために一般的に使用されます. `select`とは異なり, `WSA-Poll`は,FD_SETSIZEの制限を排除し,より多くの接続により良くスケールできるようにします.しかし,Linuxでは線性スキャンメカニズムにより,通常は `epoll`よりも効率が低い. Windowsの高性能ゲームサーバーでは,IOCP (I/O完成ポート) が `WSA-Poll`よりも優先されます.",
+        "links": [
+          {
+            "title": "Microsoft WSA-Pollドキュメント",
+            "url": "https://learn.microsoft.com/en-us/windows/win32/api/winsock2/nf-winsock2-wsapoll",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "qaWv4gxnnj3uX8lEm9KQ4",
+      "type": "subtopic",
+      "label": "エポール",
+      "position": {
+        "x": -114.32812420985391,
+        "y": 2336.00220976664
+      },
+      "size": {
+        "width": 71,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "**epoll**はLinuxにおける高性能I/Oイベント通知システムであり,サーバーサイドゲーム開発における大規模な非同期ネットワーク操作を処理するために不可欠です. `select`または `poll`とは異なり,イベント駆動モデルを使用し,CPUオーバーヘッドを削減し,スケーラビリティを改善します.ゲームサーバーは,数千の同時接続を効率的に管理するために,イベントが発生するときにのみ応答し,システム呼び出しを最小限に抑え,リソース利用を最適化し,マルチプレイゲームとリアルタイムアプリケーションに最適化します.",
+        "links": [
+          {
+            "title": "Linux epoll API",
+            "url": "https://man7.org/linux/man-pages/man7/epoll.7.html",
+            "type": "article"
+          },
+          {
+            "title": "スケーラブルネットワークサーバーのためのEpollを理解する",
+            "url": "https://medium.com/@copyconstruct/the-method-to-epolls-madness-d9d2d6378642",
+            "type": "article"
+          },
+          {
+            "title": "エポル vs 選択 vs 投票",
+            "url": "https://devarea.com/linux-io-multiplexing-select-vs-poll-vs-epoll/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "caK32NMMrn-3BGAXZoPPr",
+      "type": "subtopic",
+      "label": "クイュー",
+      "position": {
+        "x": -241.97272423589692,
+        "y": 2336.00220976664
+      },
+      "size": {
+        "width": 124,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "**kqueue**は,macOSとFreeBSDを含むBSDベースのオペレーティングシステムで利用可能な効率的なイベント通知システムです.最小のCPUオーバーヘッドで大量に同時接続を処理するように設計されており,サーバーサイドゲーム開発に適しています.Linux上の `epoll`と同様に, `kqueue`はイベント主導的な方法で動作し,ゲームサーバーがネットワークイベント,タイムヤー,ファイルシステム変更を効率的に管理できるようにします.不必要なアンケートとシステムコールを減らすことで, `kqueue`はマルチプレイヤーゲームサーバーのスケーラビリティと応答性を向上させ,低遅延のインタラクションと最適化されたリソース利用を保証します.",
+        "links": [
+          {
+            "title": "FreeBSD kqueue ドキュメンテーション",
+            "url": "https://man.freebsd.org/cgi/man.cgi?query=kqueue",
+            "type": "article"
+          },
+          {
+            "title": "macOS kqueue API参照",
+            "url": "https://developer.apple.com/library/archive/documentation/System/Conceptual/ManPages_iPhoneOS/man2/kqueue.2.html",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Tvxe2NemcH21y-eB4bosv",
+      "type": "topic",
+      "label": "プロアクター",
+      "position": {
+        "x": -39.15075760577247,
+        "y": 2229.7990729507064
+      },
+      "size": {
+        "width": 176,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center",
+        "colorType": "h"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "**Proactor** パターンは,非同期プログラミングで使用されるイベント主導のアプリケーション設計パターンであり,リアクター パターンの変種ですが,制御フロー処理に関して重要な違いがあります.アプリケーションが操作を明示的に起動し管理する代わりに,この責任は,プロアクターとも呼ばれる非同期操作プロセッサに委託されます.プロアクターが非同期操作を開始し,操作が完了した後,完了イベントを送信するための適切なサービスを決定します. 言い換えれば,プロアクターが非同期操作を開始する責任があり,完了処理者は操作が完了した後,次に何が起こるかを指示する責任があります.",
+        "links": []
+      }
+    },
+    {
+      "id": "7pgdOZomhGilBTwfJLMbm",
+      "type": "subtopic",
+      "label": "IOCP",
+      "position": {
+        "x": -39.15075760577247,
+        "y": 2282.7990729507064
+      },
+      "size": {
+        "width": 71,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "**I/O コンプリートポート (IOCP) **は,Windowsにおける高性能非同期I/Oメカニズムであり,大量に同時ネットワーク接続を効率的に処理するために設計されています.ネットワークパフォーマンスを最適化するためにサーバーサイドゲーム開発で広く使用され,MMORPGおよびリアルタイムマルチプレイゲームに理想的です. `セレクト`または `WSA-Poll`とは異なり,IOCPは,完成したI/O操作を非同期的に処理するためにスレッドプールとキューベースのイベントシステムを使用し,CPUオーバーヘッドを最小限に抑え,スケーラビリティを改善します.IOCPを活用することにより,ゲームサーバーは最小の遅延率で数千の接続を効率的に処理することができ,高性能のWindowsベースのゲームネットワークに最適な選択となります.",
+        "links": [
+          {
+            "title": "Microsoft IOCPドキュメント",
+            "url": "https://learn.microsoft.com/en-us/windows/win32/fileio/i-o-completion-ports",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "YH7u1FKh85wz78J0stuzS",
+      "type": "subtopic",
+      "label": "作業",
+      "position": {
+        "x": 35.731589762047406,
+        "y": 2282.7990729507064
+      },
+      "size": {
+        "width": 101,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "**io_uring**はLinux 5.1で導入された現代的な非同期I/Oフレームワークで,高性能,低遅延I/O操作を提供するために設計されています.ネットワークとディスク操作を効率的に処理するためにサーバーサイドゲーム開発で広く使用されています.リアルタイムマルチプレイゲームに理想的です.",
+        "links": [
+          {
+            "title": "Linux io_uring_enter",
+            "url": "https://man7.org/linux/man-pages/man2/io_uring_enter.2.html",
+            "type": "article"
+          },
+          {
+            "title": "効率的なネットワーク化",
+            "url": "https://lwn.net/Articles/776703/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "94hJX1iGifDzIuaU3zU5j",
+      "type": "subtopic",
+      "label": "登録 IO",
+      "position": {
+        "x": -39.15075760577247,
+        "y": 2336.1582943435765
+      },
+      "size": {
+        "width": 176,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "**登録I/O**は,ファイルディスクリプター,メモリバッファー,またはネットワークソケットなどのリソースをオペレーティングシステムとプリレジスタリングすることによって,非同期I/O操作のパフォーマンスを向上させる最適化技術です. これにより,繰り返しシステムコールおよびリソース管理のオーバーヘッドが削減され,低遅延と高通量が重要なサーバーサイドゲーム開発に非常に有利になります. `io_uring`とWindows `RIO (登録I/O) `APIのような技術は,カーネルインタラクションを最小限に抑え,大規模なマルチプレーヤーゲームサーバーの処理の効率性を向上させます.コンテキストスイッチングとオーバーヘッド割り当てを低くすることで,登録I/Oはゲームサーバーがスムーズなパフォーマンスと遅延期を達成するのに役立ちます.",
+        "links": [
+          {
+            "title": "マイクロソフトの登録I/O (RIO)",
+            "url": "https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/hh997032(v=ws.11",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dDu4oytShaxvnwjmDnbKI",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": 287.0434878760507,
+        "y": 1880.4564918532815
+      },
+      "size": {
+        "width": 21,
+        "height": 150
+      },
+      "style": {
+        "stroke": "#000000"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "tnzfWmELaFPOM6J847iPD",
+      "type": "label",
+      "label": "能力を最大限に発揮する",
+      "position": {
+        "x": 118.69747266236539,
+        "y": 1994.4564918532815
+      },
+      "size": {
+        "width": 168,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "LKPcEeqBOPhQOztD3cM3T",
+      "type": "topic",
+      "label": "任務に基づく",
+      "position": {
+        "x": -450.0418767866893,
+        "y": 2119.16296890674
+      },
+      "size": {
+        "width": 204,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "タスクベースのマルチスレッドは,タスクがスレッドから抽象された作業単位であるモデルを指します.このモデルでは,アプリケーション論理は,それぞれが他のものから独立して実行できるより小さなタスクに分かれています.タスクは,スケジューラーによって管理されるスレッドのプールによって実行されます.それぞれのスレッドが特定のタスクを実行する伝統的なスレッド中心モデルとは異なり,タスクベースのマルチスレッドは,タスクをスレッドから離して,システムにダイナミックにタスクを無動スレッドに割り当てることでより柔軟性を可能にします.タスクベースのマルチスレッドでは,開発者は作成,制御,同期,終了などのスレッドの詳細を手動的に管理する必要はありません.",
+        "links": []
+      }
+    },
+    {
+      "id": "f-L_eaZd0EjBW9-n9Pllt",
+      "type": "subtopic",
+      "label": "ゴルーチン (ゴー)",
+      "position": {
+        "x": -450.0418767866893,
+        "y": 2066.16296890674
+      },
+      "size": {
+        "width": 204,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`Goroutine`は,Go Runtime が管理する軽量なスレッドである.これらはGo プログラミング言語の他の機能や方法と同時に実行する機能または方法である.Goroutines はメモリが少ないため,スレッドよりも安価で,性能により効率的に作成および破壊されます.他の言語のスレッドとは異なり,Go Runtime はGoroutines のスケジュールを管理し,開発者から多くの複雑さを取り除きます.Goroutines はGo のユニークな特徴の一つで,同時にプログラミングする優れた選択,特にサーバーサイドゲーム開発に役立ちます.",
+        "links": []
+      }
+    },
+    {
+      "id": "RT9XvlxvIM_hHTtNmbva3",
+      "type": "subtopic",
+      "label": "通貨 (Java)",
+      "position": {
+        "x": -450.0418767866893,
+        "y": 1960.1629689067397
+      },
+      "size": {
+        "width": 204,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "コンクリエンスとは,複数のタスクが重複または同時に実行できるようにするシステムの属性である.サーバーサイドゲーム開発において,複数のプレイヤーが同時にシステムとインタフェースしていることが一般的である.高い負荷下でシステムを応答的で効率的に維持することが不可欠である.コンクリエンスはしばしばマルチスレッドまたはアシンクロンプログラミングを通じて達成されます.マルチスレッドは,単一のプログラム内で複数の実行スレッドを含みます.各スレッドが別のプロセッサコアで実行されます.反対に,アシンクロンプログラミングは,他のタスクが完了するのを待つことなく,タスクが進行できるようにすることで,同時性を達成します.これは,特に I/O 操作やネットワーク要求を伴う作業の状況において有用であり,作業の完了にはかなりの時間がかかることがありますが,他の作業の実行を阻害します.",
+        "links": []
+      }
+    },
+    {
+      "id": "mAXMpUDmhGOncnCRrENJv",
+      "type": "subtopic",
+      "label": "ASNC-wait (C#)",
+      "position": {
+        "x": -450.0418767866893,
+        "y": 2013.1629689067397
+      },
+      "size": {
+        "width": 204,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`Async/wait` は JavaScript の Promise の拡張で,アシンクロンコードをより同期的に処理できるようにします. `async` キーワードを関数前に使えば,関数は Promise を返します.一方, `wait` キーワードは Promise が解決または拒否されるまで,アシンクロン関数の実行を停止し,実行後,アシンクロン関数の実行を再開するために使用されます. `wait` キーワードの前に Promise は実際の値に解決します.特に, `wait` 機能はアシンクロンブロック内でのみ動作します.",
+        "links": []
+      }
+    },
+    {
+      "id": "tiG0mZpLJ2zUr2IPYyhnv",
+      "type": "subtopic",
+      "label": "スレッドビルディングブロック (C++)",
+      "position": {
+        "x": -515.95654296875,
+        "y": 1907.1629689067397
+      },
+      "size": {
+        "width": 269,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "**Thread Building Blocks** (TBB) は,インテルによって開発されたオープンソースのC++ライブラリです.並行作業部署のプロセスを簡素化し,マルチコアプロセッサを活用するために設計されています.TBBを使用して,並行処理可能なより小さなサブタスクに分割し,ゲームサーバーの速度と効率を向上させることができます.TBBは一般的な並行アルゴリズム,並行容器,スケーラブルメモリ割り当て器,作業を盗むタスクスケジュラー,および低レベルの同期原始的なタスクを含みます.しかし,POSIXまたはWin32トレッドのようにスレッドするためのライブラリではありません.むしろ,それはパフォーマンスとスケーラブル性のためにプラットフォームの詳細とメカニズムを抽象化するより高いレベルのタスクベースのパラレリズムです.",
+        "links": []
+      }
+    },
+    {
+      "id": "Vl-WW0LThrQTOO_tFl51B",
+      "type": "topic",
+      "label": "反応 的 な 方法",
+      "position": {
+        "x": -55.160436004402584,
+        "y": 2119.258520296198
+      },
+      "size": {
+        "width": 192,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "yWj70LpF4LKB8J6GbYvsq",
+      "type": "subtopic",
+      "label": "OORP",
+      "position": {
+        "x": -55.160436004402584,
+        "y": 2066.258520296198
+      },
+      "size": {
+        "width": 110,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "**オブジェクト指向反応プログラミング (OORP) **は,オブジェクト指向プログラミング (OOP) と反応型プログラミングを組み合わせるプログラミングパラダイムです.OORPでは,開発者はメッセージを通じて互いに通信するオブジェクトの観点からシステムを設計します.これらは受信オブジェクトで関数または\"反応\"を誘発します.したがって\"反応性\"という用語です.OORPの各オブジェクトは,状態と行動を封鎖し,遺伝をフォローし,従来のOOPに類似したデータ抽象を促進します.しかし,OORPは,よりイベント主導的な方法で動作し,時間とともに発生する外部イベント,メッセージ,または他のオブジェクトに対する応答として変化またはトランザクションに対応します.",
+        "links": []
+      }
+    },
+    {
+      "id": "xDYOvIbXc-iJ2zOKqe0YL",
+      "type": "subtopic",
+      "label": "FRP",
+      "position": {
+        "x": 57.839563995597416,
+        "y": 2066.258520296198
+      },
+      "size": {
+        "width": 79,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`Functional Reactive Programming (FRP) は,主にフロントエンドとサーバーサイド開発,特にゲームで使用される機能的および反応的概念を組み合わせるプログラミングのアプローチである.FRPは,依存的な変化に対処し,効果的に\"時間変化する値\"を処理するのに役立ちます.現在の状態が将来または過去の状態に依存するシステムを明確にかつ効率的に記述するための優雅なソリューションです.その主要な概念には,ストリーム (時間の経過とともに出来事の序列),オブザーバー (ストリームから値の消費者),およびオブザーバー (値の生産者) が含まれます.これらの特性により,ソフトウェアをより読みやすく,理解しやすくするデータ流と変化の拡散を管理します.",
+        "links": []
+      }
+    },
+    {
+      "id": "p0P3ZGq_QTCop0vMwe7P3",
+      "type": "topic",
+      "label": "反応型",
+      "position": {
+        "x": -240.22731202160702,
+        "y": 2119.258520296198
+      },
+      "size": {
+        "width": 178,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Reactive Modelは,サーバーサイドゲーム開発のアプローチで,クライアントの要求に応答するサーバーとしてサーバーを位置づけています.このモデルでは,サーバーは独自のスレッドを実行するのではなく,クライアントからの受信要求に反応するだけです.アシンクロンなI/O操作に焦点を当てています.つまり,システムはデータを書くか読むのを止まったり待つこともありません.クライアントがリクエストを送信すると,サーバーはネットワーク接続またはデータを読むなどの特定のアクションを実行することによって反応します. イベント主導のプログラミングのアイデアを中心に構築されています.論理がイベントに対してコード化され,理想的には高度にスケーラブルなシステムを生成します.これは,jsなどの非ブロック式I/Oモデルまたは他のイベント主導のアーキテクチャと一緒にしばしば使用されます.",
+        "links": []
+      }
+    },
+    {
+      "id": "l5QTk408Ubagw8XzRAfoZ",
+      "type": "subtopic",
+      "label": "同期性",
+      "position": {
+        "x": -240.22731202160713,
+        "y": 2066.258520296198
+      },
+      "size": {
+        "width": 178,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "反応的なパラダイムでは\",同步\"は,サーバーサイドゲーム開発のコンテキストにおける複数のコンポーネントのデータ管理と相互作用に関連する重要な概念である.この概念は,操作またはプロセスが\"同期\"で実行されるという考えを指す.つまり,次の操作は,前の操作が既に完了した後で厳密に開始される.同期通信では,例えば,送信者は,受信者が最後のパケットを受け取ったことを確認するまで新しい通信を開始することはできません.全体として,サーバーサイドゲーム開発におけるリソースの効率的な利用のために同期と非同期の概念を理解することが不可欠であり,適切なアプローチを選択することは,特定の使用事例と要件に依存します.",
+        "links": []
+      }
+    },
+    {
+      "id": "zFx1jjt1hKgCpYHFTzbZZ",
+      "type": "subtopic",
+      "label": "決定論",
+      "position": {
+        "x": -240.22731202160713,
+        "y": 2013.2585202961982
+      },
+      "size": {
+        "width": 178,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "サーバーサイドゲーム開発の文脈で\"決定論\"は,特定の一貫した入力によってシステムの出力の予測可能性と一貫性を強調する原則である.初期条件と結果につながるイベントのシーケンスが同一である場合,システムが常に同じ結果を生むことを意味する.決定論は,すべてのユーザインスタンスの間で同期および平等なゲームプレイが鍵となる MMORPGのようなマルチプレイヤーゲーム状況において非常に重要であり,有益である.この予測可能性のレベルは,すべてのプレイヤーにフェアプレイ環境を提供し,開発者にとって特定のシーケンスをデバッグし,再生しやすくなるのに役立ちます.",
+        "links": []
+      }
+    },
+    {
+      "id": "3Eat22rFjUl4eTtGz8u4N",
+      "type": "subtopic",
+      "label": "更新プロセス",
+      "position": {
+        "x": -240.22731202160713,
+        "y": 1960.2585202961982
+      },
+      "size": {
+        "width": 178,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "反応型モデルでは,クライアントはサーバーにリクエストを送信し,その後にリクエストを処理し,返信を送信します.このモデルは\"反応型\"と呼ばれ,サーバーはクライアントからのリクエストを受け取ったときにのみ行動または\"反応\"します.このモデルでは\"更新プロセス\"が重要な役割を果たします.すべてのプレイヤー間でゲーム世界を更新し同期させるのはサーバーの責任です.この更新プロセスは通常,プレイヤーの動作,NPC動き,ゲーム内イベント,またはゲーム物理などのゲームで起こるすべての変化を処理するループで実行されます.ゲームの世界を更新し,変更についてプレイヤーを通知します.また,プレイヤーがキャラクター移動または敵を攻撃するような変更を行う場合,この情報をサーバーに送信し,更新に追加します.この更新プロセスの頻度はしばしば\"ティックレート\"と呼ばれます.",
+        "links": []
+      }
+    },
+    {
+      "id": "LVwGXmZhMewGQy61qwNyu",
+      "type": "topic",
+      "label": "反応 的 な 方法",
+      "position": {
+        "x": -55.160436004402584,
+        "y": 2119.258520296198
+      },
+      "size": {
+        "width": 192,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "サーバーサイドゲーム開発の分野では,反動的なアプローチはマルチスレッドに対応する際に重要な要素である.このアプローチは,方法や実行操作を連続的に呼び出すよりも,システム内で起こる変化やイベントに反応する概念に基づいています.データストリームまたは一連のイベントを表すオブジェクトである観測物と,これらの観測物における出来事や変化に反応する方法である観測物と観測者を含みます.反動的なプログラミングは,観測パターンに基づいており,非同期的なデータ呼び出しやイベントを効率的に処理するように設計されています.このパターンは,大量のデータ,高度な複雑性,または厳格なリアルタイム要件のある状況において特に重要です.このアプローチにより,同時に処理し,効率的で清潔でエラーやコールバックピラミッドに弱いプログラムを書くことも簡単です.",
+        "links": []
+      }
+    },
+    {
+      "id": "hhtqvFfTCuVPT0OPu4Y1a",
+      "type": "topic",
+      "label": "雲",
+      "position": {
+        "x": 225.0153285883124,
+        "y": 2421.8743750593535
+      },
+      "size": {
+        "width": 155,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "**cloud**とは,インターネットを通じてアクセスされるサーバー,およびそれらのサーバー上で実行されるソフトウェアとデータベースを指します.クラウドテクノロジーを利用することにより,データは,ローカルサーバーまたはパーソナルコンピュータではなく,どこにでもインターネットを通じてアクセスできます.クラウドサービスは通常,Google,Amazon,Microsoftなどの異なる企業によって提供されます.クラウドコンピューティングには3つの主要な種類があります:インフラストラクチャとしてサービス (IaaS),プラットフォームとしてサービス (PaaS) とソフトウェアとしてサービス (SaaS).ゲームにおけるクラウドの例には,マルチプレイヤーオンラインゲーム,ストリーミングゲーム,デジタル配信プラットフォームが含まれます.クラウドはゲーム開発,テスト,開発,およびゲーム配布に使用されます.",
+        "links": []
+      }
+    },
+    {
+      "id": "73uoFNGcCALxIuRNbebav",
+      "type": "subtopic",
+      "label": "アズル",
+      "position": {
+        "x": 445.6095025654899,
+        "y": 2368.8743750593535
+      },
+      "size": {
+        "width": 90,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Azureはマイクロソフトの公共クラウドコンピューティングプラットフォームである.Azureは分析,ストレージ,ネットワークなどの幅広いクラウドサービスを提供している.サーバーサイドゲーム開発者として,Microsoftが管理するデータセンターを通じてアプリケーションとサービスを構築,展開,管理するためにこれらの機能を使用することができます.さらに,AzureはMicrosoft専用および第三者のソフトウェアを含む幅広いツールとフレームワークをサポートします.また,クラウドコンピューティングの4つの異なる形態を提供しています.インフラストラクチャとしてサービス (IaaS),プラットフォームとしてサービス (PaaS),ソフトウェアとしてサービス (SaaS),およびサーバーレス.それぞれ開発者はアプリケーションとインフラストラクチャに対して維持したいレベルの制御と複雑さを選択することができます.",
+        "links": []
+      }
+    },
+    {
+      "id": "wD6dUrS-tP2gpCHPghFp5",
+      "type": "subtopic",
+      "label": "GCP",
+      "position": {
+        "x": 445.6095025654899,
+        "y": 2421.8743750593535
+      },
+      "size": {
+        "width": 90,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "**Google Cloud Platform (GCP) **は,Googleが提供する公共クラウドコンピューティングサービスの一套である.計算,ストレージ,ネットワーク,ビッグデータ,機械学習,IoT,クラウド管理,セキュリティ,開発者ツールを含むさまざまなサービスを提供している.GCPのコアクラウドコンピューティング製品には,Google Computing Engine,Google App Engine,Google Container Engine,Google Cloud Storage,Google Cloud SQLが含まれています.Googleはソースコード管理,ロードバランス,セキュリティ,プライバシーなどのクラウドサービスを提供しています.GCPのアーキテクチャはYouTube,Google Search,Google Mapsなどのグローバル製品で使用するインフラストラクチャと同じ上に構築されています.",
+        "links": []
+      }
+    },
+    {
+      "id": "Rkx2A6oWsddlCTseZlpRU",
+      "type": "subtopic",
+      "label": "AWS",
+      "position": {
+        "x": 445.6095025654899,
+        "y": 2474.8743750593535
+      },
+      "size": {
+        "width": 90,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "**Amazon Web Services (AWS) **は,Amazonが提供するセキュアなクラウドサービスプラットフォームである. コンピューティングパワー,ストレージオプション,ネットワークおよびデータベースなどの幅広いインフラサービスが提供され,オンデマンドで付与価格で提供されます. AWS サービスは,プレイヤーのデータを保存し,デバイス間のゲームを同期し,マルチプレイヤーゲームサーバーをホストするなどの多くのタスクでサーバーサイドゲーム開発者をサポートします.これらのサービスは,開発者が高額なハードウェアとインフラストラクチャへの初期投資を必要とせずに,世界中のオーディエンスにゲームをスケールするのに役立ちます.スタートアップや大型ゲーム開発会社の両方に人気のある選択肢である AWS は,開発者がアプリケーションを迅速に展開,モニタリング,スケールできるようにする広範な機能豊かなツールセットを持っています.",
+        "links": []
+      }
+    },
+    {
+      "id": "DOmbRRK_RRPElOuTB7AAK",
+      "type": "subtopic",
+      "label": "サーバーなし",
+      "position": {
+        "x": 325.5434878760507,
+        "y": 2287.1582943435765
+      },
+      "size": {
+        "width": 127,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "**Serverless**は,アプリケーション開発者がアプリケーションを構築するためにサーバーやランタイムをプロビジョニング,スケーリング,管理する必要がないクラウドアーキテクチャモデルである.サーバーレスという名前は,サーバーが伝統的に実行するタスクが他の場所で処理されるという考えから由来する.開発者は,基本的なインフラストラクチャを心配せずにコードを書いて展開することができます.サーバーレスモデルはバックエンドをサービス (BaaS) と機能 (FaaS) として使用し,自動スケーリング能力,パッチング,プロビジョニングを提供します.サーバーレスプロバイダの人気例は AWS Lambda,Google Cloud Functions,Azure Functionsです.",
+        "links": []
+      }
+    },
+    {
+      "id": "XCJvgUSS7-oDR-XGdDY33",
+      "type": "topic",
+      "label": "データクラスタリング",
+      "position": {
+        "x": -60.62974676937159,
+        "y": 2421.8743750593535
+      },
+      "size": {
+        "width": 198,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`Data Clustering`は,データをさまざまなグループまたはクラスターに分割するプロセスを指します.これらの組織化されたデータサブセットまたはクラスターは,共通の特徴,属性,または特徴を示す類似したデータポイントを含みます.クラスターリングは,基本的に,データにラベルが取られず,アルゴリズムは類似性を識別し,それらをグループ化します.K手段,階層方法,DBSCANなどの密度ベースの方法,グリッドベースの方法などの分割方法を含むデータクラスターリングに使用されるいくつかの方法があります.これらの方法はクラスターを形成する方法と最もよく動作するデータタイプに基づいて異なります.データクラスタリングは大量のデータの組織に役立つため,開発者がゲーム開発で操作,理解,利用を容易にする.",
+        "links": []
+      }
+    },
+    {
+      "id": "yrWiWJMSyTWxDakJbqacu",
+      "type": "subtopic",
+      "label": "アパッチスパーク",
+      "position": {
+        "x": -60.62974676937159,
+        "y": 2508.94211112394
+      },
+      "size": {
+        "width": 198,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Apache Spark は,ビッグデータ処理と分析に使用されるオープンソースの分散型コンピューティングシステムです. 完全なクラスタをプログラムするためのインターフェースを提供し,無垢なデータパラレリズムとエラー許容性があります.Java,Scala,Python,Rの高レベルのAPIにより,分散型タスクディスパッシング,スケジューリング,および基本的なI/O機能のためのフレームワークを提供します.注目すべきモジュールには,SQLとDataFrames,機械学習のためのMLlibes,グラフ処理のためのGraphX,インクリメンタルコンピューティングおよびストリーム処理のための構造ストリーミングが含まれます. Apache SparkはHadoopまたはクラウド上で単独で実行することができ,HDFS,Apache Cassandra,Apache HBase,Amazon S3などのさまざまなデータソースにアクセスできます.",
+        "links": [
+          {
+            "title": "アパチスパーク",
+            "url": "https://spark.apache.org/documentation.html",
+            "type": "official"
+          },
+          {
+            "title": "例 に よっ て 燃え上がる",
+            "url": "https://sparkbyexamples.com",
+            "type": "article"
+          },
+          {
+            "title": "Apache Sparkに関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/spark?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "k3FJY26SVxdZx4MLLE25h",
+      "type": "topic",
+      "label": "コンテナ化",
+      "position": {
+        "x": -295.2045658739704,
+        "y": 2421.759476497276
+      },
+      "size": {
+        "width": 166,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ゲーム開発におけるコンテナ化とは,Docker,Kubernetes,または類似のツールのようなソフトウェアを使用して,ゲームのサーバーサイド機能を単一の展開可能なパッケージに組み込むことを意味します.コンテナとして知られるこれらのユニットは,ソフトウェアが実行するために必要な図書館,システムツール,コード,ランタイムなどのすべてのものを含む.コンテナはプラットフォームアグノスティックであり,つまり異なるオペレーティング環境で同じ方法で動作することができます.これは開発者が一貫した体験を作成し,ソフトウェア衝突のリスクを軽減し,ゲームの更新と展開を容易にすることができます.バーチャルマシン (VM) とは異なり,コンテナには全体的なオペレーティングシステムが含まれません.これはそれらをより軽量で実行に効率的にします.開発者は同じマシンで複数のコンテナを実行することができ,それぞれがサーバー側機能の異なる側面を処理できます.コンテナはまた相互に通信することができ,リソースをより効率的に利用できます.",
+        "links": []
+      }
+    },
+    {
+      "id": "zW_7VLeEHQp8fp_f5N__0",
+      "type": "subtopic",
+      "label": "ドッカー",
+      "position": {
+        "x": -513.7884552848205,
+        "y": 2421.759476497276
+      },
+      "size": {
+        "width": 180,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "\"Docker\"はオープンソースのプラットフォームで,開発者がアプリケーションのデプロイメント,スケーリング,管理を自動化できるようにします.コンテナ化技術を使用して,実行環境を含むアプリケーションをコンテナに包み込み,その後ほとんどすべてのオペレーティングシステムで実行できます.Docker コンテナは,ハイパーバイザーの追加負荷を必要とせず,ホストマシンのカーネル内で直接実行するため軽量で高速です.さらに,Dockerは,独自のソフトウェア,ライブラリ,システムツールをバンドリングすることによって,アプリケーションが任意の環境で無縫に動作することを保証します.Dockerは,分散環境でサービスを管理し,デプロイするプロセスを本当に簡素化し,タスクを別サービスに分割します.",
+        "links": []
+      }
+    },
+    {
+      "id": "yAf7VDX7dyaT5AdlNnuKD",
+      "type": "subtopic",
+      "label": "ドッカー・コンポーズ",
+      "position": {
+        "x": -513.7884552848205,
+        "y": 2522.044978959418
+      },
+      "size": {
+        "width": 180,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`Docker Compose`は,複数のコンテナを単一のエンティティとして定義し管理するツールです.コンテナは,YAML形式を使用した `docker-compose.yml`ファイルで定義されています.このツールでは主にサービス定義,構成,接続などのアプリケーションの実行時の側面に焦点を当てています. `Docker Compose`では,単一のコマンドでサービススタック全体を起動,停止,管理することができます.これは,マルチコンテナアプリケーションを管理するための非常に強力なツールです.また,生産環境を模倣するローカル開発環境を定義するための良い方法です.",
+        "links": []
+      }
+    },
+    {
+      "id": "lUBUUoETjfADmM4OPtwwX",
+      "type": "subtopic",
+      "label": "クーバーネットス",
+      "position": {
+        "x": -513.7884552848205,
+        "y": 2575.044978959418
+      },
+      "size": {
+        "width": 180,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "クーバーネテス (K8s) は,アプリケーションコンテナの部署,スケーリング,および運用を自動化するために設計されたオープンソースプラットフォームです.分散型システムのための柔軟で強力な基盤を提供するためにコンテナをクラスターに組織します.このプラットフォームは当初Googleによって開発され,コンテナ化アプリケーションを管理する長年の経験に基づいています.アプリケーションのコンテナを論理的な単位に分類して,管理と発見を容易にします.Kubernetesは自動ビンパッケージング,水平スケーリング,自動ロールアウト,ロールバック,およびストレージオーケストレーションなどの機能を提供します.物理サーバーから仮想マシン,クラウドベースのデプロイメントまで 様々なインフラストラクチャをサポートし アプリを任意の場所で,任意の方法で実行できます",
+        "links": []
+      }
+    },
+    {
+      "id": "dkCVwuy8GKeEi3VJar_Zo",
+      "type": "topic",
+      "label": "AI",
+      "position": {
+        "x": -295.78755730968635,
+        "y": 2672.4970750794264
+      },
+      "size": {
+        "width": 166,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "サーバーサイドゲーム開発における人工知能 (AI) は,人間の知能を必要とするタスクを実行できるシステムを作成するためにアルゴリズムと計算手順を使用することを指します.そのようなタスクには変化と適応,言語認識,または意思決定を含む.ゲーム開発では,AIはしばしばプレイヤー以外のキャラクター (NPC) に独自の\"知能\"を与え,それらをさらに生きたものにします.これは環境の中でプレイヤーをフォローする能力と同じくらい簡単,または戦闘戦略を作成するほど複雑かもしれません.AIは,プロセスまたは動的に生成されたコンテンツを生成し,プレイヤーのために潜在的に無限のユニークな体験を作成するためにも使用できます.ゲームにおけるAIはしばしばプレイヤーに楽しい体験を提供して 賢いように見える間にバランスをとらなければなりません",
+        "links": []
+      }
+    },
+    {
+      "id": "XvvlvDKfYRCcYtTdWohsd",
+      "type": "topic",
+      "label": "クラウド ML",
+      "position": {
+        "x": -501.9670796692851,
+        "y": 2672.4970750794264
+      },
+      "size": {
+        "width": 139,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center",
+        "colorType": "h"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`雲端機械学習`または `雲端 ML`は,機械学習能力を提供するためにクラウドコンピューティングサービスを利用する人工知能の支部である.開発者やデータ科学者がクラウドベースの環境で機械学習モデルを構築し,訓練し,部署できるようにする.クラウドMLプラットフォームは,通常,画像認識,自然言語理解,予測分析などのタスクのための事前に訓練されたモデルとサービスを提供します.これらのプラットフォームは,カスタムモデル設計に使用できるTensorFlowやPyTorchなどの人気のあるMLフレームワークをサポートします.重要なことに,Cloud MLは,ユーザにより敏捷でスケーラブルでアクセス可能な機械学習ソリューションを提供する大規模なMLコンピューティングに関連する複雑なインフラ管理を抽象化します.",
+        "links": []
+      }
+    },
+    {
+      "id": "U0RlO_puezQPZP0-iBXgW",
+      "type": "subtopic",
+      "label": "アマゾン ML",
+      "position": {
+        "x": -501.9670796692851,
+        "y": 2725.4970750794264
+      },
+      "size": {
+        "width": 139,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Amazon Machine Learning (Amazon ML) は,あらゆるスキルの開発者向けに機械学習技術を簡単に利用できる強力なクラウドベースのサービスです.機械学習 (ML) モデルを作成するプロセスを通じて複雑なMLアルゴリズムと技術を学ぶ必要なしに指導するビジュアライゼーションツールとウィザードを提供しています.Amazon ML を使用して,データモデルを作成し,トレーニングし,そのモデルを使用して予測を行うことができます.これらの予測は,ユーザートレンド検出,センチメント分析,詐欺検出などの洗練されたアプリケーションを実装するために使用できます.",
+        "links": []
+      }
+    },
+    {
+      "id": "vBqwmlzoT5XVEhV9IeGso",
+      "type": "subtopic",
+      "label": "Azure ML",
+      "position": {
+        "x": -501.9670796692851,
+        "y": 2778.4970750794264
+      },
+      "size": {
+        "width": 139,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Azure MLは,マイクロソフトが機械学習モデルを構築し,訓練し,展開するために提供するクラウドベースのサービスです.自動化された機械学習とモデル管理サービスを含むツールセットを提供し,データサイエンティストの生産性を強化し,複雑な機械学習作業をより実現可能にする.Azure MLは,PyTorch, TensorFlow,および scikit-learnなどの人気のあるデータ科学と機械学習フレームワークで動作するように設計されています.大規模なデータの処理,スケーラビリティを提供し,リアルタイムイン사이트を提供する能力を授与します.さらに,オープンソース技術をサポートし,幅広いアプリケーションに柔軟性を高めます.Azure MLは,主要なグローバルおよび業界特有の基準を満たし,高度なセキュリティとコンプライアンスに重点を置いています.機械学習のライフサイクルの加速を目的とした 総合的なツールです",
+        "links": []
+      }
+    },
+    {
+      "id": "jkWvfp4GqckYPQ48GtjlR",
+      "type": "topic",
+      "label": "深い 学習",
+      "position": {
+        "x": -293.28755730968635,
+        "y": 2764.5116332832217
+      },
+      "size": {
+        "width": 161,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center",
+        "colorType": "h"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ディープ・ラーニング (Deep Learning) は,データを処理し,意思決定のパターンを作成する際に人間の脳の働きを模倣する機械学習のサブセットである.この技術は,情報を処理するために複数の層のアルゴリズム (または神経ネットワーク) を利用する.ディープ・ラーニングは,大量のデータと多くの層を含む神経ネットワークアーキテクチャを使用してモデルを訓練することを含む.サーバーサイドゲーム開発者は複雑なAIキャラクターを作成し,ゲーム物理学を改善し,プレイヤーデータを分析するためにディープ・ラーニングアルゴリズムを使用する.ディープ・ラーニングはAIを監督したり,半監督したり,監督せずにしたり,声認識,画像認識,自然言語処理などのさまざまな領域で広く適用される.",
+        "links": []
+      }
+    },
+    {
+      "id": "iJE9RnKC8QjPnsFeZAbtl",
+      "type": "subtopic",
+      "label": "テンソールフロー",
+      "position": {
+        "x": -293.28755730968635,
+        "y": 2817.5116332832217
+      },
+      "size": {
+        "width": 161,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "**TensorFlow**は,最初はGoogle Brain Teamによって開発されたオープンソースの端端プラットフォームである.機械学習に焦点を当てて,ディープ・ラーニングタスクを処理するために装備されている,TensorFlowは\",テンサー\"としても知られる多次元配列として入力を取ります.このフレームワークは,開発者がデータフローグラフを作成することを可能にします.これらのグラフは,コンピュータユニット,機械であれ,クラウドであれ,データの移動方法を記述します.グラフ内で,ノードは数学操作を表し,端はテンサーを象徴します.TensorFlowは高度にスケーラブルで,複数のCPUまたはGPU間で計算を可能にするため,サーバーサイドゲーム開発または研究など,さまざまなタスクに適しています.",
+        "links": []
+      }
+    },
+    {
+      "id": "LTSIfq10qDJMTCnIIyqvb",
+      "type": "subtopic",
+      "label": "パイトルク",
+      "position": {
+        "x": -293.28755730968635,
+        "y": 2870.5116332832217
+      },
+      "size": {
+        "width": 161,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "**PyTorch** は,フェイスブック人工知能研究チームが開発したオープンソースの機械学習ライブラリで,Pythonベースのコンピューティングのために開発されています.この強力なツールは柔軟性を強調し,テープベースの自分化システムに基づいて構築された深い神経ネットワークの便利さでテンソールコンピューティングを操作できるようにします.ディープ学習モデルを実装するための素晴らしいプラットフォームを提供し,ダイナミックな神経ネットワークを理解して表現するのに非常に人気があります.PyTorchはダイナミックな計算グラフをサポートします.つまり,グラフ構造は実行中に変更できます.これは,繰り返し神経ネットワークで作業する際に特に有用です.NumPyなどの図書館の力を活用するために,パイトンデータサイエンスのスタックと無縫に統合します.",
+        "links": []
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "reactflow__edge-iogwMmOvub2ZF4zgg6WyFx2-rQArtuVKGVgLn_fw9yO3bw2",
+      "source": "iogwMmOvub2ZF4zgg6WyF",
+      "target": "rQArtuVKGVgLn_fw9yO3b",
+      "source_handle": "x2",
+      "target_handle": "w2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-lDVD-3i64Mk7-KPJrXmFHx2-vFM311xSa5OqNVove2f6jw1",
+      "source": "lDVD-3i64Mk7-KPJrXmFH",
+      "target": "vFM311xSa5OqNVove2f6j",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-5bJUcx3v4dpdlIsx7bFvKz2-X2KHWgQZDHSVDsTRMUwSjy1",
+      "source": "5bJUcx3v4dpdlIsx7bFvK",
+      "target": "X2KHWgQZDHSVDsTRMUwSj",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-5bJUcx3v4dpdlIsx7bFvKz2-1GML0Jsfdb1Fn-0PNryiQy1",
+      "source": "5bJUcx3v4dpdlIsx7bFvK",
+      "target": "1GML0Jsfdb1Fn-0PNryiQ",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-5bJUcx3v4dpdlIsx7bFvKz2-lDVD-3i64Mk7-KPJrXmFHy1",
+      "source": "5bJUcx3v4dpdlIsx7bFvK",
+      "target": "lDVD-3i64Mk7-KPJrXmFH",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-6ilqzjvI4J1pUCmTJ33PAy2-XxBl-zO7CF6DpOZ2bMDxJz2",
+      "source": "mUCidjOsVLMAVDf2jmV5F",
+      "target": "XxBl-zO7CF6DpOZ2bMDxJ",
+      "source_handle": "y2",
+      "target_handle": "z2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-6ilqzjvI4J1pUCmTJ33PAy2-zTCmPUp9j5P1wpGgiboMaz2",
+      "source": "mUCidjOsVLMAVDf2jmV5F",
+      "target": "zTCmPUp9j5P1wpGgiboMa",
+      "source_handle": "y2",
+      "target_handle": "z2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-6ilqzjvI4J1pUCmTJ33PAy2-ALNR_uSq6ByPUrt6lXkhZz1",
+      "source": "mUCidjOsVLMAVDf2jmV5F",
+      "target": "ALNR_uSq6ByPUrt6lXkhZ",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-MwLWDlciJOq_0n5S3GoF-x2-TbXJO__4xSnzK1fvvJK86w1",
+      "source": "MwLWDlciJOq_0n5S3GoF-",
+      "target": "TbXJO__4xSnzK1fvvJK86",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-6ilqzjvI4J1pUCmTJ33PAx2-MwLWDlciJOq_0n5S3GoF-w1",
+      "source": "mUCidjOsVLMAVDf2jmV5F",
+      "target": "MwLWDlciJOq_0n5S3GoF-",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-6ilqzjvI4J1pUCmTJ33PAz2-Vh81GnOUOZvDOlOyI5PwTy1",
+      "source": "IMyHwnXxJK6oFxzOMLxjS",
+      "target": "Vh81GnOUOZvDOlOyI5PwT",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-6ilqzjvI4J1pUCmTJ33PAz2-wD_HWc9YxPhlkilt585pgy1",
+      "source": "IMyHwnXxJK6oFxzOMLxjS",
+      "target": "wD_HWc9YxPhlkilt585pg",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-6ilqzjvI4J1pUCmTJ33PAz2-jsNsyrGzegVnjIF2l52vIy1",
+      "source": "IMyHwnXxJK6oFxzOMLxjS",
+      "target": "jsNsyrGzegVnjIF2l52vI",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-6ilqzjvI4J1pUCmTJ33PAz2-tBOvBpDi3SOKZjAmkxdM0y1",
+      "source": "IMyHwnXxJK6oFxzOMLxjS",
+      "target": "tBOvBpDi3SOKZjAmkxdM0",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-6ilqzjvI4J1pUCmTJ33PAz2-CCxVnrGDKa1EROXgF_OAmy1",
+      "source": "IMyHwnXxJK6oFxzOMLxjS",
+      "target": "CCxVnrGDKa1EROXgF_OAm",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-IMyHwnXxJK6oFxzOMLxjSx2-6ilqzjvI4J1pUCmTJ33PAw2",
+      "source": "IMyHwnXxJK6oFxzOMLxjS",
+      "target": "RfTcTUjaXyp49FnUf44MK",
+      "source_handle": "x2",
+      "target_handle": "w2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-6ilqzjvI4J1pUCmTJ33PAz2-WMdCDmFsytsF2AWQXfzC8y2",
+      "source": "RfTcTUjaXyp49FnUf44MK",
+      "target": "WMdCDmFsytsF2AWQXfzC8",
+      "source_handle": "z2",
+      "target_handle": "y2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-6ilqzjvI4J1pUCmTJ33PAz2-OYXKtl4A-vaK6yGO6hS6ny1",
+      "source": "RfTcTUjaXyp49FnUf44MK",
+      "target": "OYXKtl4A-vaK6yGO6hS6n",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-6ilqzjvI4J1pUCmTJ33PAz2-JE3uZ5U6oe6dVzsmglTl2y2",
+      "source": "RfTcTUjaXyp49FnUf44MK",
+      "target": "JE3uZ5U6oe6dVzsmglTl2",
+      "source_handle": "z2",
+      "target_handle": "y2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-6ilqzjvI4J1pUCmTJ33PAz2-MoyBGT9bscUe8vMN4J0bGy1",
+      "source": "RfTcTUjaXyp49FnUf44MK",
+      "target": "MoyBGT9bscUe8vMN4J0bG",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-6ilqzjvI4J1pUCmTJ33PAz2-pJw8fN1dt3BABtZVz7wGEy1",
+      "source": "RfTcTUjaXyp49FnUf44MK",
+      "target": "pJw8fN1dt3BABtZVz7wGE",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-RfTcTUjaXyp49FnUf44MKx2-6ilqzjvI4J1pUCmTJ33PAw2",
+      "source": "RfTcTUjaXyp49FnUf44MK",
+      "target": "tg94V7K0mgYhpkUMp_Scv",
+      "source_handle": "x2",
+      "target_handle": "w2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-6ilqzjvI4J1pUCmTJ33PAz2-5kF1fqr-mn5-15e3aMa9ky1",
+      "source": "tg94V7K0mgYhpkUMp_Scv",
+      "target": "5kF1fqr-mn5-15e3aMa9k",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-6ilqzjvI4J1pUCmTJ33PAz2-2jDV-ovvrkBbTTLk5VbR9y1",
+      "source": "tg94V7K0mgYhpkUMp_Scv",
+      "target": "2jDV-ovvrkBbTTLk5VbR9",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-6ilqzjvI4J1pUCmTJ33PAz2-OzY-LPcfj1sBm_0F0WbIJy1",
+      "source": "tg94V7K0mgYhpkUMp_Scv",
+      "target": "OzY-LPcfj1sBm_0F0WbIJ",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-tg94V7K0mgYhpkUMp_Scvy2-6ilqzjvI4J1pUCmTJ33PAw1",
+      "source": "tg94V7K0mgYhpkUMp_Scv",
+      "target": "6ilqzjvI4J1pUCmTJ33PA",
+      "source_handle": "y2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "smoothstep",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-YPvm8XD_FaFYCQ-b7-KsHx2-jnQAzUUnwpJgoRuRIFtSew2",
+      "source": "YPvm8XD_FaFYCQ-b7-KsH",
+      "target": "jnQAzUUnwpJgoRuRIFtSe",
+      "source_handle": "x2",
+      "target_handle": "w2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-6ilqzjvI4J1pUCmTJ33PAy2-3QSLUMKD0G08N3MIb1cG7z1",
+      "source": "6ilqzjvI4J1pUCmTJ33PA",
+      "target": "HvpuFTCknHPhnFkhmhRc4",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-3QSLUMKD0G08N3MIb1cG7w2-OAyMj6uLSv1yJ87YAjyZux2",
+      "source": "HvpuFTCknHPhnFkhmhRc4",
+      "target": "OAyMj6uLSv1yJ87YAjyZu",
+      "source_handle": "w2",
+      "target_handle": "x2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-3QSLUMKD0G08N3MIb1cG7x2-a2pcxVTGdAPw8aLvdr19Mw1",
+      "source": "HvpuFTCknHPhnFkhmhRc4",
+      "target": "a2pcxVTGdAPw8aLvdr19M",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-HvpuFTCknHPhnFkhmhRc4z2-3QSLUMKD0G08N3MIb1cG7y1",
+      "source": "HvpuFTCknHPhnFkhmhRc4",
+      "target": "TS6dz61rUSxm-SqmK6JKe",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-G_BEJKkJ1_Nc43aosy_iSy2-DYvzGc_r0SlOArPPc1gNIz2",
+      "source": "G_BEJKkJ1_Nc43aosy_iS",
+      "target": "DYvzGc_r0SlOArPPc1gNI",
+      "source_handle": "y2",
+      "target_handle": "z2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-zbIbPlqTNSbJUkqH9iLQvy2-SXOEMkcVYBsRza6BPmmwyz1",
+      "source": "zbIbPlqTNSbJUkqH9iLQv",
+      "target": "SXOEMkcVYBsRza6BPmmwy",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-3QSLUMKD0G08N3MIb1cG7z2-IeD-oQ1bkwlKNC-R0lJjZy1",
+      "source": "3QSLUMKD0G08N3MIb1cG7",
+      "target": "IeD-oQ1bkwlKNC-R0lJjZ",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-cw7WdFfL5HpeZ_n8wYk2ty2-gB-TYpgUDV47bxznNJhYnz1",
+      "source": "tGQu18PWDatW7HvkTP-uh",
+      "target": "gB-TYpgUDV47bxznNJhYn",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-cw7WdFfL5HpeZ_n8wYk2ty2-FKOhe21PVlaKIoZI4hd49z1",
+      "source": "tGQu18PWDatW7HvkTP-uh",
+      "target": "FKOhe21PVlaKIoZI4hd49",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-cw7WdFfL5HpeZ_n8wYk2ty2-uTlxyDOtvt_Qp0gXLWO-jz1",
+      "source": "tGQu18PWDatW7HvkTP-uh",
+      "target": "uTlxyDOtvt_Qp0gXLWO-j",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-cw7WdFfL5HpeZ_n8wYk2ty2-1c6EqGv1g-d8M1i0vKImbz1",
+      "source": "tGQu18PWDatW7HvkTP-uh",
+      "target": "1c6EqGv1g-d8M1i0vKImb",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-cw7WdFfL5HpeZ_n8wYk2ty2-HXSWvhgT4L5w6xgOO-3kjz1",
+      "source": "tGQu18PWDatW7HvkTP-uh",
+      "target": "HXSWvhgT4L5w6xgOO-3kj",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-tGQu18PWDatW7HvkTP-uhx2-cw7WdFfL5HpeZ_n8wYk2tw1",
+      "source": "tGQu18PWDatW7HvkTP-uh",
+      "target": "FLFaGZDg2MSG6_YHnWETM",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-4UzHjUtWQExUbCApQZrb1z2-7YNaELVcoV7DV1Fa06USiy1",
+      "source": "4UzHjUtWQExUbCApQZrb1",
+      "target": "7YNaELVcoV7DV1Fa06USi",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-4UzHjUtWQExUbCApQZrb1z2-ayeezKxQkXAPJMTShsOBUy2",
+      "source": "4UzHjUtWQExUbCApQZrb1",
+      "target": "ayeezKxQkXAPJMTShsOBU",
+      "source_handle": "z2",
+      "target_handle": "y2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-FLFaGZDg2MSG6_YHnWETMx2-cw7WdFfL5HpeZ_n8wYk2tw1",
+      "source": "FLFaGZDg2MSG6_YHnWETM",
+      "target": "1788KFqsQBkYARqA0T5GX",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-1788KFqsQBkYARqA0T5GXz2-cw7WdFfL5HpeZ_n8wYk2ty2",
+      "source": "1788KFqsQBkYARqA0T5GX",
+      "target": "YxaroYL_Az0vKRCeu2jsp",
+      "source_handle": "z2",
+      "target_handle": "y2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-cw7WdFfL5HpeZ_n8wYk2tw2-_uqTTBUYAzDHbEUkDzmzgx2",
+      "source": "YxaroYL_Az0vKRCeu2jsp",
+      "target": "_uqTTBUYAzDHbEUkDzmzg",
+      "source_handle": "w2",
+      "target_handle": "x2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-YxaroYL_Az0vKRCeu2jspz2-cw7WdFfL5HpeZ_n8wYk2ty2",
+      "source": "YxaroYL_Az0vKRCeu2jsp",
+      "target": "cw7WdFfL5HpeZ_n8wYk2t",
+      "source_handle": "z2",
+      "target_handle": "y2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-cw7WdFfL5HpeZ_n8wYk2tw2-UESjGrFyUbNf4pQamaBoyx2",
+      "source": "cw7WdFfL5HpeZ_n8wYk2t",
+      "target": "UESjGrFyUbNf4pQamaBoy",
+      "source_handle": "w2",
+      "target_handle": "x2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-cw7WdFfL5HpeZ_n8wYk2tx2-dkCVwuy8GKeEi3VJar_Zoz1",
+      "source": "cw7WdFfL5HpeZ_n8wYk2t",
+      "target": "_jd91rrAXGbJI9RhXlSx8",
+      "source_handle": "x2",
+      "target_handle": "z1",
+      "edge_style": "solid",
+      "line_type": "smoothstep",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-dkCVwuy8GKeEi3VJar_Zoy2-ThBxS9xIMt9OrXfnto3rWz1",
+      "source": "_jd91rrAXGbJI9RhXlSx8",
+      "target": "ThBxS9xIMt9OrXfnto3rW",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-dkCVwuy8GKeEi3VJar_Zoy2-LVwGXmZhMewGQy61qwNyuz2",
+      "source": "_jd91rrAXGbJI9RhXlSx8",
+      "target": "LVwGXmZhMewGQy61qwNyu",
+      "source_handle": "y2",
+      "target_handle": "z2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-_jd91rrAXGbJI9RhXlSx8x2-dkCVwuy8GKeEi3VJar_Zow2",
+      "source": "_jd91rrAXGbJI9RhXlSx8",
+      "target": "hhtqvFfTCuVPT0OPu4Y1a",
+      "source_handle": "x2",
+      "target_handle": "w2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-dkCVwuy8GKeEi3VJar_Zoz2-wD6dUrS-tP2gpCHPghFp5y2",
+      "source": "hhtqvFfTCuVPT0OPu4Y1a",
+      "target": "wD6dUrS-tP2gpCHPghFp5",
+      "source_handle": "z2",
+      "target_handle": "y2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-dkCVwuy8GKeEi3VJar_Zoz2-73uoFNGcCALxIuRNbebavy1",
+      "source": "hhtqvFfTCuVPT0OPu4Y1a",
+      "target": "73uoFNGcCALxIuRNbebav",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-dkCVwuy8GKeEi3VJar_Zoz2-Rkx2A6oWsddlCTseZlpRUy2",
+      "source": "hhtqvFfTCuVPT0OPu4Y1a",
+      "target": "Rkx2A6oWsddlCTseZlpRU",
+      "source_handle": "z2",
+      "target_handle": "y2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-hhtqvFfTCuVPT0OPu4Y1ay2-dkCVwuy8GKeEi3VJar_Zoz1",
+      "source": "hhtqvFfTCuVPT0OPu4Y1a",
+      "target": "XCJvgUSS7-oDR-XGdDY33",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-dkCVwuy8GKeEi3VJar_Zox2-yrWiWJMSyTWxDakJbqacuw2",
+      "source": "XCJvgUSS7-oDR-XGdDY33",
+      "target": "yrWiWJMSyTWxDakJbqacu",
+      "source_handle": "x2",
+      "target_handle": "w2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-XCJvgUSS7-oDR-XGdDY33y2-dkCVwuy8GKeEi3VJar_Zoz1",
+      "source": "XCJvgUSS7-oDR-XGdDY33",
+      "target": "k3FJY26SVxdZx4MLLE25h",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-dkCVwuy8GKeEi3VJar_Zoy2-zW_7VLeEHQp8fp_f5N__0z2",
+      "source": "k3FJY26SVxdZx4MLLE25h",
+      "target": "zW_7VLeEHQp8fp_f5N__0",
+      "source_handle": "y2",
+      "target_handle": "z2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-zW_7VLeEHQp8fp_f5N__0x2-yAf7VDX7dyaT5AdlNnuKDw1",
+      "source": "zW_7VLeEHQp8fp_f5N__0",
+      "target": "yAf7VDX7dyaT5AdlNnuKD",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-k3FJY26SVxdZx4MLLE25hx2-dkCVwuy8GKeEi3VJar_Zow1",
+      "source": "k3FJY26SVxdZx4MLLE25h",
+      "target": "dkCVwuy8GKeEi3VJar_Zo",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-dkCVwuy8GKeEi3VJar_Zoy2-XvvlvDKfYRCcYtTdWohsdz1",
+      "source": "dkCVwuy8GKeEi3VJar_Zo",
+      "target": "XvvlvDKfYRCcYtTdWohsd",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-dkCVwuy8GKeEi3VJar_Zox2-jkWvfp4GqckYPQ48GtjlRw1",
+      "source": "dkCVwuy8GKeEi3VJar_Zo",
+      "target": "jkWvfp4GqckYPQ48GtjlR",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    }
+  ],
+  "content_crawled_at": "2026-04-06T13:02:09.908028+00:00"
+}

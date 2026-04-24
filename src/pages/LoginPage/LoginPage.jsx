@@ -2,11 +2,13 @@ import { useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import { LogIn, Eye, EyeOff, AlertCircle } from 'lucide-react'
 import { useAuth } from '../../contexts/AuthContext'
+import { useLocale } from '../../contexts/LocaleContext'
 import styles from './LoginPage.module.css'
 
 export default function LoginPage() {
   const navigate = useNavigate()
   const { login } = useAuth()
+  const { t } = useLocale()
 
   const [identifier, setIdentifier] = useState('')
   const [password, setPassword] = useState('')
@@ -19,7 +21,7 @@ export default function LoginPage() {
     setError('')
 
     if (!identifier.trim() || !password) {
-      setError('Please fill in all fields')
+      setError(t('authLogin.errors.fillAll'))
       return
     }
 
@@ -43,8 +45,8 @@ export default function LoginPage() {
             <div className={styles.iconWrap}>
               <LogIn size={24} />
             </div>
-            <h1 className={styles.title}>Welcome Back</h1>
-            <p className={styles.subtitle}>Sign in to continue your learning journey</p>
+            <h1 className={styles.title}>{t('authLogin.title')}</h1>
+            <p className={styles.subtitle}>{t('authLogin.subtitle')}</p>
           </div>
 
           {/* Error */}
@@ -59,13 +61,13 @@ export default function LoginPage() {
           <form onSubmit={handleSubmit} className={styles.form} id="login-form">
             <div className={styles.field}>
               <label className={styles.label} htmlFor="identifier">
-                Username or Email
+                {t('authLogin.identifierLabel')}
               </label>
               <input
                 id="identifier"
                 type="text"
                 className={styles.input}
-                placeholder="Enter your username or email"
+                placeholder={t('authLogin.identifierPlaceholder')}
                 value={identifier}
                 onChange={(e) => setIdentifier(e.target.value)}
                 autoComplete="username"
@@ -75,14 +77,14 @@ export default function LoginPage() {
 
             <div className={styles.field}>
               <label className={styles.label} htmlFor="password">
-                Password
+                {t('authLogin.passwordLabel')}
               </label>
               <div className={styles.inputWrap}>
                 <input
                   id="password"
                   type={showPassword ? 'text' : 'password'}
                   className={styles.input}
-                  placeholder="Enter your password"
+                  placeholder={t('authLogin.passwordPlaceholder')}
                   value={password}
                   onChange={(e) => setPassword(e.target.value)}
                   autoComplete="current-password"
@@ -104,15 +106,15 @@ export default function LoginPage() {
               disabled={loading}
               id="login-submit"
             >
-              {loading ? 'Signing in...' : 'Sign In'}
+              {loading ? t('authLogin.signingIn') : t('authLogin.signIn')}
             </button>
           </form>
 
           {/* Footer */}
           <div className={styles.footer}>
-            <span className={styles.footerText}>Don't have an account?</span>
+            <span className={styles.footerText}>{t('authLogin.noAccount')}</span>
             <Link to="/register" className={styles.footerLink}>
-              Create Account
+              {t('authLogin.createAccount')}
             </Link>
           </div>
         </div>

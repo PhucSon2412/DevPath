@@ -1,0 +1,4383 @@
+{
+  "id": "design-system",
+  "title": "設計システム",
+  "source_url": "https://roadmap.sh/design-system",
+  "github_url": "https://github.com/kamranahmedse/developer-roadmap/tree/master/src/data/roadmaps/design-system",
+  "crawled_at": "2026-04-06T07:36:34.390338+00:00",
+  "type": "flow",
+  "stats": {
+    "total_nodes": 166,
+    "total_edges": 27,
+    "nodes_with_content": 124
+  },
+  "node_types": [
+    "button",
+    "horizontal",
+    "label",
+    "linksgroup",
+    "paragraph",
+    "section",
+    "subtopic",
+    "title",
+    "topic",
+    "vertical"
+  ],
+  "edge_styles": [
+    "dashed",
+    "solid"
+  ],
+  "edge_line_types": [
+    "default"
+  ],
+  "node_type_description": {
+    "title": "ロードマップの主題",
+    "topic": "主題大 (nhóm kỹ năng)",
+    "subtopic": "Kỹ năng/công nghệ cụ thể cần học",
+    "paragraph": "文は mô tả / chú thích",
+    "vertical": "Đường kết nối dọc (ビジュアルコネクタ)"
+  },
+  "edge_style_description": {
+    "solid": "Kỹ năng bắt buộc / quan trọng",
+    "dashed": "選択 / gợi ý / オルタナティブ"
+  },
+  "nodes": [
+    {
+      "id": "oHZ5JbApDEfh0_af8h1He",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": -23.638187271993502,
+        "y": 2765.9551467174065
+      },
+      "size": {
+        "width": 150,
+        "height": 100
+      },
+      "style": {
+        "fontSize": 17,
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "w5aUEG9HC-XmarfhsTNaV",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": -24.638187271993502,
+        "y": 2542.4551467174065
+      },
+      "size": {
+        "width": 150,
+        "height": 100
+      },
+      "style": {
+        "fontSize": 17,
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "9z_V6GT_k0CUpi_RNa91F",
+      "type": "horizontal",
+      "label": "ホリゾントノード",
+      "position": {
+        "x": -455.6381872719935,
+        "y": 2040.7548214022336
+      },
+      "size": {
+        "width": 50,
+        "height": 20
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.65,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "21pccUw8Y00FpFjxJXFsS",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": -711.6381872719935,
+        "y": 1827.4551467174065
+      },
+      "size": {
+        "width": 150,
+        "height": 100
+      },
+      "style": {
+        "fontSize": 17,
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "D-p4-EZLTiY15S078aSfD",
+      "type": "horizontal",
+      "label": "ホリゾントノード",
+      "position": {
+        "x": -168.1661509129056,
+        "y": 1858.7548214022338
+      },
+      "size": {
+        "width": 50,
+        "height": 20
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "IwYCGqNQKMDLJy11ozOA1",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": -246.3175069304428,
+        "y": 1313.4551467174065
+      },
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.65
+      },
+      "z_index": 999
+    },
+    {
+      "id": "C6u3MfTH06l-FQrF2Fl2L",
+      "type": "horizontal",
+      "label": "ホリゾントノード",
+      "position": {
+        "x": -180.55263821186702,
+        "y": 1267.296264330049
+      },
+      "size": {
+        "width": 50,
+        "height": 20
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "wXJmQeb9VnDhWOPow0DQ_",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": -30.417377286676242,
+        "y": 1556.6400192507067
+      },
+      "size": {
+        "width": 150,
+        "height": 100
+      },
+      "style": {
+        "fontSize": 17,
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "Iy-XknF5sqjWIYF1MWaat",
+      "type": "horizontal",
+      "label": "ホリゾントノード",
+      "position": {
+        "x": -450.4579568300146,
+        "y": 997.4393516042962
+      },
+      "size": {
+        "width": 50,
+        "height": 20
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "dWZ4Tbbb1lsfHP1qy0Z9Z",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": -711.6381872719935,
+        "y": 858.400748222349
+      },
+      "size": {
+        "width": 150,
+        "height": 100
+      },
+      "style": {
+        "fontSize": 17,
+        "backgroundColor": "#fafafa",
+        "borderColor": "#000000"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "OjpMq77qldn4SwOFCDXhd",
+      "type": "horizontal",
+      "label": "ホリゾントノード",
+      "position": {
+        "x": -132.6381872719935,
+        "y": 690.9393516042962
+      },
+      "size": {
+        "width": 50,
+        "height": 20
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.75,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "rfg1MAPkP5mIXnvr0oTPl",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": -30.16615091290565,
+        "y": 649.400748222349
+      },
+      "size": {
+        "width": 150,
+        "height": 100
+      },
+      "style": {
+        "fontSize": 17,
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "4qvR1QQzrmoVIVCAsp92H",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": -246.3175069304428,
+        "y": 3004.2541881503926
+      },
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "HU7wZWiES3m3xl1-NYP6F",
+      "type": "title",
+      "label": "設計システム",
+      "position": {
+        "x": -349.3175069304428,
+        "y": -45.29485328259341
+      },
+      "size": {
+        "width": 228,
+        "height": 68
+      },
+      "style": {
+        "fontSize": 28,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "uqyE79OItPOX33E5FoGel",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": -245.3175069304428,
+        "y": -133.0992517776511
+      },
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.75,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "uvnV1IjE8RV-FKDxHntUU",
+      "type": "topic",
+      "label": "基礎を 理解する",
+      "position": {
+        "x": -362.3175069304428,
+        "y": 152.4393516042962
+      },
+      "size": {
+        "width": 215,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "デザインシステムとは,異なるページやチャンネルで共有された言語と視覚的一貫性を創造しながら,冗長性を減らすことで,スケールでデザインを管理するための基準の集合である.",
+        "links": [
+          {
+            "title": "設計システム 101",
+            "url": "https://www.nngroup.com/articles/design-systems-101/",
+            "type": "article"
+          },
+          {
+            "title": "デザイン システム は 何 です か",
+            "url": "https://www.youtube.com/watch?v=wc5krC28ynQ",
+            "type": "video"
+          },
+          {
+            "title": "デザインシステムを構築する方法",
+            "url": "https://www.figma.com/blog/design-systems-102-how-to-build-your-design-system/",
+            "type": "article"
+          },
+          {
+            "title": "デザインシステムについて知っておくべきこと",
+            "url": "https://uxdesign.cc/everything-you-need-to-know-about-design-systems-54b109851969",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4PrkkoZ5fY-oow0O-bVhu",
+      "type": "subtopic",
+      "label": "デザイン システム は 何 です か",
+      "position": {
+        "x": -30.16615091290565,
+        "y": 46.439351604296206
+      },
+      "size": {
+        "width": 303,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "デザインシステムとは 単一の真実の源であり チームに製品を設計し 実現し 開発できるようにする要素を集めるものです",
+        "links": [
+          {
+            "title": "デザインシステムについて知っておくべきこと",
+            "url": "https://uxdesign.cc/everything-you-need-to-know-about-design-systems-54b109851969",
+            "type": "article"
+          },
+          {
+            "title": "設計システム 101",
+            "url": "https://www.nngroup.com/articles/design-systems-101/",
+            "type": "article"
+          },
+          {
+            "title": "システム設計に関する包括的なガイド",
+            "url": "https://www.invisionapp.com/inside-design/guide-to-design-systems/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2rlmLn_yQQV-7DpX1qT98",
+      "type": "subtopic",
+      "label": "設計システム の 必要",
+      "position": {
+        "x": -30.16615091290565,
+        "y": 99.4393516042962
+      },
+      "size": {
+        "width": 303,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "固いデザインシステムを持つことは,製品チームをより効率的に働き,製品とブランドエコシステム内で一貫性と調和を生み出します. 強力なデザインシステムは,個々のデザイナーから頻繁に繰り返されるデザイン問題を考える負担を軽減します. 前もって承認された要素の完全なライブラリがあれば,デザイナーたちは,ユーザーを喜ばせるシームレスで直感的な流れを作り出すようなより大きな問題に焦点を当てることができます.その種の効率は,時間の経過とともに膨大な利益をもたらします.",
+        "links": [
+          {
+            "title": "デザインシステム いつ,どのくらい?",
+            "url": "https://www.youtube.com/watch?v=Hx02SaL_IH0",
+            "type": "video"
+          },
+          {
+            "title": "なぜ 強力 な 設計 システム が 必要 な の か (そして その よう に 作り出す こと)",
+            "url": "https://www.drawbackwards.com/blog/why-you-need-a-strong-design-system-and-how-to-build-one",
+            "type": "article"
+          },
+          {
+            "title": "デザイン システム: 作業 流量 で は なく 生産 を 販売 する",
+            "url": "https://www.smashingmagazine.com/2016/05/design-systems-responsive-design-sell-output-not-workflow/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "J5mU0v491qrm-mr1W3Msd",
+      "type": "subtopic",
+      "label": "デザインシステム対コンポーネントライブラリ",
+      "position": {
+        "x": -30.16615091290565,
+        "y": 152.4393516042962
+      },
+      "size": {
+        "width": 303,
+        "height": 69
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "コンポーネントライブラリーは,視覚的なもの,すなわち色,ボタンのスタイリング,フォント等の集合にすぎません.デザインシステムは,各コンポーネントの外観と使用に関する基準とドキュメントを組み込めて,次のレベルまで持ち上げます.デザインシステムは真実の唯一の源として機能します.",
+        "links": [
+          {
+            "title": "デザイン システム: 構成 物 の 図書館 だけ で は ない",
+            "url": "https://www.architech.ca/a-design-system-so-much-more-than-a-component-library",
+            "type": "article"
+          },
+          {
+            "title": "デザインシステム vs UI コンポーネントライブラリー vs ブランドスタイルガイド",
+            "url": "https://prototype.net/blog/design-system-component-library-style-guide",
+            "type": "article"
+          },
+          {
+            "title": "デザインシステム vs パターンライブラリ vs スタイルガイド vs コンポーネントライブラリ",
+            "url": "https://www.uxpin.com/studio/blog/design-systems-vs-pattern-libraries-vs-style-guides-whats-difference/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6r9XbwlBtHmJrhviG2cTD",
+      "type": "subtopic",
+      "label": "原子設計とは何か",
+      "position": {
+        "x": -30.16615091290565,
+        "y": 205.4393516042962
+      },
+      "size": {
+        "width": 303,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "原子設計 (ブラッド・フロスト) は,ユーザインタフェースを凝結した整体と部品の集合として同時に考えるための精神的なモデルです.原子,分子,生物と比較することによって,私たちはUIのデザインを自体に含まれるモジュールの構成として考えることができます.",
+        "links": [
+          {
+            "title": "原子設計原理と方法論 101",
+            "url": "https://xd.adobe.com/ideas/process/ui-design/atomic-design-principles-methodology-101/",
+            "type": "article"
+          },
+          {
+            "title": "原子設計方法",
+            "url": "https://atomicdesign.bradfrost.com/chapter-2/",
+            "type": "article"
+          },
+          {
+            "title": "原子設計と UI コンポーネント:理論から実践",
+            "url": "https://blog.bitsrc.io/atomic-design-and-ui-components-theory-to-practice-f200db337c24",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "_3_tFOpQisx6DSP4Yc2E2",
+      "type": "subtopic",
+      "label": "建設 に 関する 関係 者",
+      "position": {
+        "x": -30.16615091290565,
+        "y": 258.43935160429623
+      },
+      "size": {
+        "width": 303,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "効果的なデザインシステムを構築することは 個人の責任ではなく デザイナーだけでなく以下は,効果的な設計システムを作成するためにあなたのチームに表現できる学科の素早いリストです. - **設計者:**システムの視覚要素を定義する - **フロントエンド開発者:** モジュラルの効率的なコードを作成する - **アクセシビリティ専門家:**アクセシビリティ専門家:** WCAGのような基準に適合することを保証する - **パフォーマンス専門家:** すべてのデバイスでシステムの迅速なロードを保証する - **コンテンツ戦略家:** チームの声とシステムのトーンを把握するのに役立つ - **研究者:** 顧客ニーズを理解するのに役立つ - **製品マネージャー:** システムが顧客ニーズに適合していることを保証する - **リーダー:** (副社長および取締役)",
+        "links": [
+          {
+            "title": "デザイン システム の 設計",
+            "url": "https://www.designbetter.co/design-systems-handbook/designing-design-system",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hauTvrBOAHgrUnO_m_kDM",
+      "type": "subtopic",
+      "label": "設計システム例",
+      "position": {
+        "x": -30.16615091290565,
+        "y": 311.43935160429623
+      },
+      "size": {
+        "width": 303,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "",
+        "links": [
+          {
+            "title": "素材デザイン (Google)",
+            "url": "https://material.io/",
+            "type": "article"
+          },
+          {
+            "title": "炭素設計システム (IBM)",
+            "url": "https://carbondesignsystem.com/",
+            "type": "article"
+          },
+          {
+            "title": "アトラシアデザインシステム",
+            "url": "https://atlassian.design/",
+            "type": "article"
+          },
+          {
+            "title": "ポラリスデザインシステム (Shopify)",
+            "url": "https://polaris.shopify.com/",
+            "type": "article"
+          },
+          {
+            "title": "Gov.ukデザインシステム",
+            "url": "https://design-system.service.gov.uk/",
+            "type": "article"
+          },
+          {
+            "title": "オープンソースデザインシステムのコレクション",
+            "url": "https://github.com/alexpate/awesome-design-systems",
+            "type": "opensource"
+          }
+        ]
+      }
+    },
+    {
+      "id": "de0TKvmFTDmKGZc5X7iFq",
+      "type": "topic",
+      "label": "用語",
+      "position": {
+        "x": -362.3175069304428,
+        "y": 314.43935160429623
+      },
+      "size": {
+        "width": 138,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "設計システムは,特定の言葉の意味がわからない場合,難しいかもしれません.ロードマップのノードを見てください.また,以下のリンクをフォローして語彙を読みます.",
+        "links": [
+          {
+            "title": "デザインシステム語彙",
+            "url": "https://web.archive.org/web/20220620075140/https://superfriendly.com/design-systems/glossary/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "97cpJyKBKNAq1P_pQZH-t",
+      "type": "subtopic",
+      "label": "構成要素",
+      "position": {
+        "x": -710.4579568300146,
+        "y": 155.4393516042962
+      },
+      "size": {
+        "width": 303,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "コンポーネントは,デザインシステムの再利用可能な構成要素である.各コンポーネントは特定のインタラクションまたはUIのニーズを満たし,パターンと直感的なユーザー体験を作成するために一緒に働くために特別に作成されています.",
+        "links": []
+      }
+    },
+    {
+      "id": "vJ4WytrzY7j10mo8S3O1u",
+      "type": "subtopic",
+      "label": "コンポーネントライブラリー",
+      "position": {
+        "x": -710.4579568300146,
+        "y": 208.4393516042962
+      },
+      "size": {
+        "width": 303,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "コンポーネントライブラリは,ウェブサイト,ソフトウェアまたはアプリで使用されるすべてのコンポーネントの集合である.コンポーネントライブラリにおけるコンポーネントを展示および閲覧するための一般的なツールの一部は,以下のとおり.",
+        "links": [
+          {
+            "title": "パターンラボ",
+            "url": "https://patternlab.io/",
+            "type": "article"
+          },
+          {
+            "title": "フラクタル",
+            "url": "https://fractal.build/",
+            "type": "article"
+          },
+          {
+            "title": "ストーリーブック",
+            "url": "https://storybook.js.org/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "fPUuXrlchna3K00KcY4O6",
+      "type": "subtopic",
+      "label": "デザイン言語",
+      "position": {
+        "x": -710.4579568300146,
+        "y": 261.43935160429623
+      },
+      "size": {
+        "width": 303,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "デザイン言語またはデザイン語彙は,製品や建築設定のコンプリメントの設計を指針する,スタイリングのための一貫したデザインシステムを作成する全体的な計画またはスタイルです.",
+        "links": [
+          {
+            "title": "デザイン言語とは何か?",
+            "url": "https://medium.com/thinking-design/what-is-a-design-language-really-cd1ef87be793",
+            "type": "article"
+          },
+          {
+            "title": "デザイン 言語 の 開発",
+            "url": "https://xd.adobe.com/ideas/principles/web-design/how-to-develop-design-language/",
+            "type": "article"
+          },
+          {
+            "title": "デザイン 言語 は 実際 に どんな もの です か",
+            "url": "https://www.uxpin.com/studio/blog/design-language/",
+            "type": "article"
+          },
+          {
+            "title": "ビジュアル デザイン 言語: デザイン の 建材",
+            "url": "https://www.smashingmagazine.com/2020/03/visual-design-language-building-blocks/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "kifE3JE2immnU1O3-toZf",
+      "type": "subtopic",
+      "label": "統治",
+      "position": {
+        "x": -710.4579568300146,
+        "y": 314.43935160429623
+      },
+      "size": {
+        "width": 303,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "統治は,決定に対する役割,責任,権限を明確にする枠組みである.その明確さにより,設計システムに関する決定は,統治プロセスを通じて順調に進行することを保証する.",
+        "links": [
+          {
+            "title": "統治はデザインシステムの友だちです",
+            "url": "https://zeroheight.com/blog/governance-is-a-design-systems-friend",
+            "type": "article"
+          },
+          {
+            "title": "設計システム管理 設計をスケールする",
+            "url": "https://www.uxpin.com/studio/blog/design-system-governance/",
+            "type": "article"
+          },
+          {
+            "title": "デザインによる統治: 成功したデザインシステムを構築する",
+            "url": "https://rangle.io/blog/governance-by-design-building-successful-design-systems/",
+            "type": "article"
+          },
+          {
+            "title": "デザインシステムをスケーリングするためのチームモデル",
+            "url": "https://medium.com/eightshapes-llc/team-models-for-scaling-a-design-system-2cf9d03be6a0",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mlBzJ2YvBr9QuOthKdj0p",
+      "type": "subtopic",
+      "label": "ガイドライン",
+      "position": {
+        "x": -710.4579568300146,
+        "y": 367.43935160429623
+      },
+      "size": {
+        "width": 303,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "デザインガイドラインは,デザイン原理をどのように応用してユーザー体験をポジティブにすることができます.設計者は,直感性,学習能力,効率性,一貫性などの原則をどのように採用するか判断するためにそのようなガイドラインを使用して,説得力のあるデザインを作成し,ユーザーのニーズを満たし,超えることができます.",
+        "links": [
+          {
+            "title": "設計ガイドライン",
+            "url": "https://www.interaction-design.org/literature/topics/design-guidelines",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "7xPT8rUX3hjSWbxH_FfQs",
+      "type": "subtopic",
+      "label": "パターン",
+      "position": {
+        "x": -710.4579568300146,
+        "y": 420.43935160429623
+      },
+      "size": {
+        "width": 303,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "パターンは特定のユーザー向けタスクおよびページタイプのためのベストプラクティスデザインソリューションです. パターンはしばしば1つまたは複数のコンポーネントを使用し,それらをコンテキストに適応する方法を説明します.一部のサンプルパターンは,アプリケーションにユーザがサインインしたりチェックアウト操作を実行したりすることができます.",
+        "links": []
+      }
+    },
+    {
+      "id": "4dzoZmkNHPedgLqLy93t8",
+      "type": "subtopic",
+      "label": "パイロット",
+      "position": {
+        "x": -710.4579568300146,
+        "y": 473.43935160429623
+      },
+      "size": {
+        "width": 303,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "パイロットは,デザインシステムが v1 に 届く前に,特にデザインシステムを 設計システムに 移行させるのに最適な方法の一つです. テレビ パイロットは,全体を作り出すのに重要なリソースを投資せずに,シリーズコンセプトに対する視聴者の反応をテストするのに役立つように,アプリケーション パイロットは,デザインシステムのデザインとコードが戦闘でテストされていることを保証するための良い基盤です.",
+        "links": [
+          {
+            "title": "設計システム: パイロットとスコアカード",
+            "url": "https://danmall.com/posts/design-systems-pilots-scorecards/",
+            "type": "official"
+          },
+          {
+            "title": "設計システムパイロットを実行する方法",
+            "url": "https://university.obvious.in/product-design/design-system/how-to-run-a-design-system-pilot",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "jETJVuS_EczJiQASLqaQr",
+      "type": "subtopic",
+      "label": "トークン",
+      "position": {
+        "x": -710.4579568300146,
+        "y": 526.4393516042962
+      },
+      "size": {
+        "width": 303,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "デザインシステムトークンは,製品全体で使用され,あらゆるプラットフォーム (ウェブ,モバイル,デスクトップ) のフォーマットに変換できる UI 要素のスタイル値である.トークンはデザインシステムの構成要素である.",
+        "links": [
+          {
+            "title": "デザイン トークン は 何 です か",
+            "url": "https://xd.adobe.com/ideas/principles/design-systems/what-are-design-tokens/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "lUObv2N7eH3Jdnwwd5vmI",
+      "type": "subtopic",
+      "label": "UI キット",
+      "position": {
+        "x": -710.4579568300146,
+        "y": 579.4393516042962
+      },
+      "size": {
+        "width": 303,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "設計システムに関連して UI キットは,コードを知らないデザイナーがインターフェースモックアップを作成できるように作成されたコード化されたコンポーネントを表すものです. UI キットの例としては,スケッチライブラリや [Figma design systems] (https://www.figma.com/blog/how-to-build-your-design-system-in-figma/) です.",
+        "links": [
+          {
+            "title": "デザインシステム vs UI キット",
+            "url": "https://uigstudio.com/insights/design-system-vs-ui-kit",
+            "type": "article"
+          },
+          {
+            "title": "あなたのスケッチライブラリはデザインシステムではありません",
+            "url": "http://bradfrost.com/blog/post/your-sketch-library-is-not-a-design-system/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dUaoMARPabiD4DRqdkaer",
+      "type": "topic",
+      "label": "デザイン システム を 作る",
+      "position": {
+        "x": -362.3175069304428,
+        "y": 450.43935160429623
+      },
+      "size": {
+        "width": 234,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "デザインシステムを構築する最初のステップは [デザインシステムが必要かどうか]を特定することです.",
+        "links": [
+          {
+            "title": "デザインシステムを混沌に導入する - ディアナ・マウンター,GitHub",
+            "url": "https://www.youtube.com/watch?v=FZSi1bK-BRM",
+            "type": "video"
+          },
+          {
+            "title": "デザインシステム いつ,どのくらい?",
+            "url": "https://www.youtube.com/watch?v=Hx02SaL_IH0",
+            "type": "video"
+          },
+          {
+            "title": "デザイン システム: 自分 の もの を 作り出す ため の ステップ-バイ-ステップ ガイド",
+            "url": "https://www.uxpin.com/create-design-system-guide/",
+            "type": "article"
+          },
+          {
+            "title": "組織 に 設計 システム が 必要 か",
+            "url": "https://www.method.com/insights/does-my-organization-need-a-design-system/",
+            "type": "article"
+          },
+          {
+            "title": "フィグマ - 完全なコースでデザインシステムを作成する",
+            "url": "https://www.youtube.com/watch?v=RYDiDpW2VkM",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "-9I3fTpnQlmcZmIIuQiPe",
+      "type": "subtopic",
+      "label": "ゼロから作る",
+      "position": {
+        "x": -30.16615091290565,
+        "y": 396.43935160429623
+      },
+      "size": {
+        "width": 209,
+        "height": 69
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "スクラッチからデザインシステムを構築している場合は,ロードマップの\"既存のデザイン分析\"ノードをスキップして\"デザイン言語を作成する\"から始めることができます.",
+        "links": [
+          {
+            "title": "フィグマ - 完全なコースでデザインシステムを作成する",
+            "url": "https://www.youtube.com/watch?v=RYDiDpW2VkM",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "z5gBy7BjlBKwbYbxXtoDA",
+      "type": "subtopic",
+      "label": "既存のデザインから作る",
+      "position": {
+        "x": -30.16615091290565,
+        "y": 450.43935160429623
+      },
+      "size": {
+        "width": 209,
+        "height": 69
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "既存の設計分析,既存の設計プロセスを理解し,視覚的監査を行い,設計要素やコンポーネントを特定する追加のステップがあります.",
+        "links": [
+          {
+            "title": "フィグマ - 完全なコースでデザインシステムを作成する",
+            "url": "https://www.youtube.com/watch?v=RYDiDpW2VkM",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "8eWhvW2zDIxMGHaXl0Y9i",
+      "type": "topic",
+      "label": "既存の設計分析",
+      "position": {
+        "x": -362.3175069304428,
+        "y": 676.4393516042962
+      },
+      "size": {
+        "width": 230,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "既存の設計から設計システムを作成する最初のステップは,設計分析を行い,要求を特定し,計画を作成するために何を取り組んでいくかを理解することです.分析を実行することは次のとおりである可能性があります: - 既存の設計プロセスを理解する - ビジュアル監査を行う - 設計要素を識別する - 共通のコンポーネントを識別する - A/Bテストと実験のニーズを理解する - 地域または地域要件 (LTR/RTLなど) を理解する - 自分の発見を文書化する.",
+        "links": []
+      }
+    },
+    {
+      "id": "NKm-gXbt5Y7dDwKVkPHjX",
+      "type": "subtopic",
+      "label": "ビジュアル 監査 を 行なう",
+      "position": {
+        "x": -30.16615091290565,
+        "y": 537.4393516042962
+      },
+      "size": {
+        "width": 229,
+        "height": 69
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "当時の製品のスクリーンショットを自分のチームの助けで撮る.Google スライドなどのプレゼンテーションソフトウェアを使用したり,フームコアボードにプリントしてピンすることができます.ボタン,ナビゲーション,フォーム,テーブル,チャート,リストなどのカテゴリーにスクリーンショットをグループしてください.現在,各カテゴリーをチェックして,不一致性を見つけ,チームとの改善の分野を注意してください. [CSS Stats] (https://cssstats.com/) のようなツールを使用して,スタイルシートにどれだけのユニークな色や字体があるかを確認してください.",
+        "links": []
+      }
+    },
+    {
+      "id": "CnsDoZ3gIaPeNbwHuZXYJ",
+      "type": "subtopic",
+      "label": "既存の設計プロセスを特定する",
+      "position": {
+        "x": -30.16615091290565,
+        "y": 591.4393516042962
+      },
+      "size": {
+        "width": 229,
+        "height": 69
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "あなたが導入したいデザインシステムの種類をよりよく理解するには,まず,あなたの会社における現在のデザインアプローチをレビューして分析する必要があります.次の質問に対する答えを見つけましょう. - あなたの会社はどのようなデザインプロセスに従いますか. - あなたの会社が使用している既存のツールは何ですか? 製品チームのデザイン成熟度を評価することもお勧めします. この知識は,システムを組織に導入するのに必要な時間を推定するのに役立ちます.",
+        "links": []
+      }
+    },
+    {
+      "id": "jtjlvmiYtYGZtWJITn92P",
+      "type": "label",
+      "label": "設計要素を特定する",
+      "position": {
+        "x": 76.3618127280065,
+        "y": 660.400748222349
+      },
+      "size": {
+        "width": 207,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "aak3227IDDJMh0MquQX6m",
+      "type": "subtopic",
+      "label": "アイコン",
+      "position": {
+        "x": -10.58443340137734,
+        "y": 710.400748222349
+      },
+      "size": {
+        "width": 122,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "アイコンは,意味を迅速に伝達する視覚的なシンボルである.それらは一貫したスタイルを維持し,グリッドシステムを使用し,複数のサイズを提供し,意味的なカテゴリーに整理し,アクセシビリティを確保し,文化的中立性を考慮し,複数のフォーマットで利用可能であり,インタラクティブな状態を含むし,体系的なバージョンリングに従わなければならない.",
+        "links": []
+      }
+    },
+    {
+      "id": "-MrrapoyFWKhSeE2PZ9mb",
+      "type": "subtopic",
+      "label": "視覚形式",
+      "position": {
+        "x": 177.8338490870944,
+        "y": 710.400748222349
+      },
+      "size": {
+        "width": 149,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ビジュアルフォームはフォームコンポーネントのエステティックとインタラクティブなデザイン側面に焦点を当てます.効果的なデザインは明確な情報アーキテクチャを確立し,一貫したフィールドスタイリングを作成し,調和したラベルポジショニングを開発し,明確なエラーコミュニケーションを設計し,漸進的な改善を実施し,モバイルファーストデザインを優先し,クロスプラットフォーム一貫性を確保する必要があります.",
+        "links": []
+      }
+    },
+    {
+      "id": "78RsPhsWpl00AbkwKXUxL",
+      "type": "subtopic",
+      "label": "サイズ",
+      "position": {
+        "x": 73.41556659862266,
+        "y": 710.400748222349
+      },
+      "size": {
+        "width": 122,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "サイズ・トークンは,コンポーネントとレイアウト全体に一致する次元を確立する.効果的なシステムは,基本単位を確立し,事前に定義されたサイズ変動を作成し,最低限のアクセシビリティ要件を確保し,標準的なアイコンサイズを定義し,容器サイズを確立し,流体サイズを実装し,プラットフォーム特有の要件を考慮すべきである.",
+        "links": []
+      }
+    },
+    {
+      "id": "GtLYBPJjdZwG0qgA7erk7",
+      "type": "subtopic",
+      "label": "空間",
+      "position": {
+        "x": 73.41556659862266,
+        "y": 763.400748222349
+      },
+      "size": {
+        "width": 149,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "スペーストークンは要素間のホワイトスペースを定義し,視覚的なリズムと明確な関係を作り出します.効果的なシステムは基礎単位を確立し,体系的なスケールを作成し,一貫した内部スペースを定義し,レイアウトガイドラインを確立し,流体スペースを実装し,意味のあるカテゴリーを作成し,クロスプラットフォーム一貫性を確保する必要があります.",
+        "links": []
+      }
+    },
+    {
+      "id": "2prUeRYbSJTYjo2quJIKs",
+      "type": "subtopic",
+      "label": "カラー",
+      "position": {
+        "x": -10.166150912905607,
+        "y": 763.400748222349
+      },
+      "size": {
+        "width": 122,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "カラーはデザインシステムにおけるブランドアイデンティティと視覚的階層を確立します.包括的なカラーシステムは,色を論理的に組織し,WCAGアクセシビリティ基準を満たし,光/暗いテーマをサポートし,意味的なカテゴリーを作成し,体系的な命名を確立し,ブランド表現と機能をバランスし,複数のフォーマットを提供する必要があります.",
+        "links": []
+      }
+    },
+    {
+      "id": "ODQ8zrHc2rsc8PN-APKvz",
+      "type": "subtopic",
+      "label": "タイプグラフィー",
+      "position": {
+        "x": 177.8338490870944,
+        "y": 763.400748222349
+      },
+      "size": {
+        "width": 149,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "タイポグラフィーは階層,可読性,ブランド人格を確立する.効果的なシステムは,数学的比率を使用して調和したスケールを開発し,適切な字体を選択し,流体タイポグラフィーを実装し,一貫した線標高を確立し,フォント体重階層を定義し,アクセシビリティの遵守を確保し,明確な使用ガイドラインを提供すべきである.",
+        "links": []
+      }
+    },
+    {
+      "id": "rwcJIAXH2ooXpDvkQqrEX",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": -29.138187271993502,
+        "y": 830.400748222349
+      },
+      "size": {
+        "width": 150,
+        "height": 100
+      },
+      "style": {
+        "fontSize": 17,
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "uMvaS418F2pxiJ4tYtLJ2",
+      "type": "label",
+      "label": "構成要素を特定する",
+      "position": {
+        "x": 70.3618127280065,
+        "y": 844.400748222349
+      },
+      "size": {
+        "width": 175,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "_dIMuXWI73ogboGjnLIpT",
+      "type": "subtopic",
+      "label": "アバター",
+      "position": {
+        "x": -13.138187271993502,
+        "y": 893.400748222349
+      },
+      "size": {
+        "width": 122,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "アバター (Avatar) は,インターフェイスでユーザーまたはエンティティを代表する.複数の形 (円形,正方形),さまざまなサイズをサポートし,初期文字またはデフォルトアイコンで欠落した画像を処理し,ステータス指標を含み,画像品質基準を維持し,アクセシビリティを確保し,ロード状態を提供し,適切なインタラクティブなフィードバックでグループアレンジメントをサポートする必要があります.",
+        "links": []
+      }
+    },
+    {
+      "id": "UG4AIgJBfZpuhia4Y1K5v",
+      "type": "subtopic",
+      "label": "バッジ",
+      "position": {
+        "x": 210.3618127280065,
+        "y": 893.400748222349
+      },
+      "size": {
+        "width": 149,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "バッジは,オブジェクトまたはアクションに関する情報を伝達する小さなステータス指標である.効果的なデザインには通知のための数値指標,異なる色を持つステータスバッジ,カテゴリーラベル,インタラクティブな状態,複数のサイズ,意味的な色統合,一貫したポジショニング,コンテンツガイドライン,適切なアクセシビリティが含まれなければならない.",
+        "links": []
+      }
+    },
+    {
+      "id": "5DUobzueMZbScyTZTHpCS",
+      "type": "subtopic",
+      "label": "バナー",
+      "position": {
+        "x": 94.83384908709438,
+        "y": 893.400748222349
+      },
+      "size": {
+        "width": 122,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "バナーは,ページの上部にある重要な情報を伝達する.異なるメッセージタイプ,異なるビジュアル,さまざまなポジショニングオプション,明確な排除メカニズム,関連するアクション,一貫したアイコングラフィー,モバイル適応,微妙なアニメーション,コンテンツガイドライン,適切なアクセシビリティ,複数のバナーのためのスタッキングルールをサポートする必要があります.",
+        "links": []
+      }
+    },
+    {
+      "id": "s6oqvHgwK4Cwyx-JENBbY",
+      "type": "subtopic",
+      "label": "ボタン",
+      "position": {
+        "x": 209.3618127280065,
+        "y": 946.400748222349
+      },
+      "size": {
+        "width": 149,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ボタンはユーザのアクションを可能にし,明確な視覚的階層 (初等,次等,三等),包括的なインタラクティブな状態,複数のサイズ,アイコンサポート,コンテンツガイドライン,最小の44pxタッチターゲット,ロードインジケーター,応答性行動,ARIAラベルで適切なアクセシビリティ,微妙なアニメーションを必要とします.",
+        "links": []
+      }
+    },
+    {
+      "id": "yLLAUGbGUHBTEDkZNK0fm",
+      "type": "subtopic",
+      "label": "カード",
+      "position": {
+        "x": -13.138187271993502,
+        "y": 946.400748222349
+      },
+      "size": {
+        "width": 122,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "カードは,関連する情報とアクションをグループ化する柔軟なコンテンツ容器である.それらは明確なコンテンツ階層,一貫した高度システム,応答性行動,異なるインタラクティブな状態,メディアサポート,定義されたアクションエリア,コンテンツ変数,ロード状態,適切なアクセシビリティ,および設計システムに一致する一貫したスペースが必要です.",
+        "links": []
+      }
+    },
+    {
+      "id": "hzVwLVzAij6TgPTcNHyhv",
+      "type": "subtopic",
+      "label": "降落",
+      "position": {
+        "x": -13.138187271993502,
+        "y": 999.400748222349
+      },
+      "size": {
+        "width": 149,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ドロップダウンはスペースを節約するためにオプションリストを活性化すると表示されます. 視覚指標を持つ明確なトリガー,グループ化,長いリストの検索/フィルタリング,多選択サポート,スマートポジショニング,フルキーボードナビゲーション,ロードステート,モバイル適応,適切なアクセシビリティ,パフォーマンス最適化が必要となります.",
+        "links": []
+      }
+    },
+    {
+      "id": "5LCMzBnnS206t5EtgaUx8",
+      "type": "subtopic",
+      "label": "フォーム",
+      "position": {
+        "x": 93.83384908709438,
+        "y": 946.400748222349
+      },
+      "size": {
+        "width": 122,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "フォームはユーザーインプットを収集し,標準化されたインプットコンポーネント,包括的な検証システム,効果的なレーベル戦略,一貫したレイアウト,明確なエラー処理,進行的な開示,必要なフィールド指標,自動完全な統合,適切なアクセシビリティ,モバイル最適化を必要とする.",
+        "links": []
+      }
+    },
+    {
+      "id": "Ia1gYzepJOTvTro961eSj",
+      "type": "subtopic",
+      "label": "...その他",
+      "position": {
+        "x": 161.33384908709436,
+        "y": 999.400748222349
+      },
+      "size": {
+        "width": 149,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "主要コンポーネント以外の専門的な要素は,通知のためのバッジ,ナビゲーションのためのパンフレット,進捗指標,支援のためのツール提示,ブラウジングのためのページ化,タブシステム,折りたたたみコンテンツのためのアコーデオン,焦点を合わせたインタラクションのためのモダル,通知システム,および基本的なデータビジュアライゼーション要素が含まれます.",
+        "links": []
+      }
+    },
+    {
+      "id": "C-lhmqOewid4_JSJfI51y",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": -62.62298223659093,
+        "y": 541.4393516042962
+      },
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "style": {},
+      "z_index": 999
+    },
+    {
+      "id": "ILRDAnpfGHCZq-FBlbfDO",
+      "type": "subtopic",
+      "label": "A/Bテストと実験",
+      "position": {
+        "x": -710.4579568300146,
+        "y": 676.4393516042962
+      },
+      "size": {
+        "width": 303,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "A/Bテストと実験を異なるスクリーンでどのように実施するか,新しい設計システムに必要な要件が満たされているかどうかを理解する.",
+        "links": []
+      }
+    },
+    {
+      "id": "pRJ9wEPNfFx_6EYB501vk",
+      "type": "subtopic",
+      "label": "地域要件",
+      "position": {
+        "x": -710.4579568300146,
+        "y": 729.4393516042962
+      },
+      "size": {
+        "width": 303,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "設計システムに適合すべきLTRやその他の UX変異などの地域要件を理解する.",
+        "links": []
+      }
+    },
+    {
+      "id": "-b4GjLpL_ppDMJSiChTef",
+      "type": "subtopic",
+      "label": "文書化",
+      "position": {
+        "x": -710.4579568300146,
+        "y": 782.4393516042962
+      },
+      "size": {
+        "width": 303,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "視覚監査,設計要素,変異を含むコンポーネント,状態,発見されたパターン,既存のドキュメント,現在の設計プロセス,検討の結果を整理および文書化します.このドキュメントはチーム全体に共有され,新しい設計システムを構築する際にガイドとして機能します.",
+        "links": []
+      }
+    },
+    {
+      "id": "JnaNZ9MfMrXQrjW2wABzB",
+      "type": "topic",
+      "label": "デザイン言語 を 作る",
+      "position": {
+        "x": -362.3175069304428,
+        "y": 982.900748222349
+      },
+      "size": {
+        "width": 252,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "デザイン言語は,あらゆる言語と同様に,製品デザインに対するあなたのアプローチを通じて,あなたのオーディエンスとコミュニケーションをとる方法であり,一貫した顧客体験の基石です.",
+        "links": [
+          {
+            "title": "デザイン言語とは何か?",
+            "url": "https://medium.com/thinking-design/what-is-a-design-language-really-cd1ef87be793",
+            "type": "article"
+          },
+          {
+            "title": "デザイン 言語 の 開発",
+            "url": "https://xd.adobe.com/ideas/principles/web-design/how-to-develop-design-language/",
+            "type": "article"
+          },
+          {
+            "title": "デザイン 言語 は 実際 に どんな もの です か",
+            "url": "https://www.uxpin.com/studio/blog/design-language/",
+            "type": "article"
+          },
+          {
+            "title": "ビジュアル デザイン 言語: デザイン の 建材",
+            "url": "https://www.smashingmagazine.com/2020/03/visual-design-language-building-blocks/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "zSv63LkcNpHjAMB4eZewE",
+      "type": "paragraph",
+      "label": "既存の設計から構築された場合",
+      "position": {
+        "x": -377.3175069304428,
+        "y": 725.4393516042962
+      },
+      "size": {
+        "width": 271,
+        "height": 62
+      },
+      "style": {
+        "fontSize": 17,
+        "borderColor": "transparent",
+        "backgroundColor": "transparent",
+        "color": "#000000",
+        "textAlign": "center",
+        "justifyContent": "center",
+        "padding": 16
+      },
+      "z_index": 999
+    },
+    {
+      "id": "toyNbBB5tbyiJZkzuklIv",
+      "type": "subtopic",
+      "label": "書き込みガイドライン",
+      "position": {
+        "x": -691.1381872719935,
+        "y": 911.4393516042962
+      },
+      "size": {
+        "width": 303,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "すべての一貫した経験は,水密な書き込みが必要です.あなたの家のスタイルの基礎を早期に設定することは,あなたのデザインに役立つように,一貫した文法,スタイル選択,行動指向的な言語に一致します.",
+        "links": []
+      }
+    },
+    {
+      "id": "fnlVIgsmyxj2UVCCjM-8g",
+      "type": "subtopic",
+      "label": "声 の 音色",
+      "position": {
+        "x": -691.1381872719935,
+        "y": 964.4393516042962
+      },
+      "size": {
+        "width": 303,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "清晰な声は 旅の各瞬間に 聴衆に話しかけることで どこに行きたいか 教えてくれます",
+        "links": []
+      }
+    },
+    {
+      "id": "Zspu1SsuTE34PVmYePcs4",
+      "type": "subtopic",
+      "label": "用語",
+      "position": {
+        "x": -691.1381872719935,
+        "y": 1017.4393516042962
+      },
+      "size": {
+        "width": 303,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "標準的な用語やフレーズを作成し ユーザー体験を通して同じ状態を維持し デザインプロセスを加速し 声を統一します",
+        "links": []
+      }
+    },
+    {
+      "id": "1RJrMVJf_3clM7E5OML-f",
+      "type": "subtopic",
+      "label": "設計原理",
+      "position": {
+        "x": -691.1381872719935,
+        "y": 1070.4393516042962
+      },
+      "size": {
+        "width": 303,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "デザインを哲学的観点からどう扱うか説明し 日常の意思決定に役立ちます",
+        "links": []
+      }
+    },
+    {
+      "id": "cMfsRtvzvDZZJ0TqeUOxm",
+      "type": "subtopic",
+      "label": "ビジョン",
+      "position": {
+        "x": -691.1381872719935,
+        "y": 1123.4393516042962
+      },
+      "size": {
+        "width": 303,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ブランドビジョンは,目的と方向性を提供するデザインシステム決定の基礎として機能します.効果的なビジョンは,組織目的を明確にし,核心価値を特定し,将来の成功を視覚化し,ユーザーのニーズを優先し,ブランドのユニークさを明確にし,文化的な考慮を考慮し,測定可能な目標に繋がらなければなりません.",
+        "links": [
+          {
+            "title": "ブランド ビジョン を 作り出す",
+            "url": "https://www.interaction-design.org/literature/article/branding-in-ux",
+            "type": "article"
+          },
+          {
+            "title": "視力による設計システム",
+            "url": "https://bradfrost.com/blog/post/the-design-system-ecosystem/",
+            "type": "article"
+          },
+          {
+            "title": "デザインのためのブランド戦略",
+            "url": "https://alistapart.com/article/creating-a-brand-identity/",
+            "type": "article"
+          },
+          {
+            "title": "目的 に 基づく デザイン",
+            "url": "https://designsystem.digital.gov/design-tokens/brand/",
+            "type": "article"
+          },
+          {
+            "title": "ブランド戦略に関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/branding?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "03t80lsT2te9B0rYpIB9v",
+      "type": "label",
+      "label": "ブランド",
+      "position": {
+        "x": -622.1381872719935,
+        "y": 867.400748222349
+      },
+      "size": {
+        "width": 62,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "SY-FCki-0MaUv7zvw6keW",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": -711.6381872719935,
+        "y": 1180.400748222349
+      },
+      "size": {
+        "width": 150,
+        "height": 100
+      },
+      "style": {
+        "fontSize": 17,
+        "backgroundColor": "#fafafa",
+        "borderColor": "#000000"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "Wn8CylBz-hyl9-iXcUVTO",
+      "type": "subtopic",
+      "label": "単色版",
+      "position": {
+        "x": -696.6381872719935,
+        "y": 1233.4393516042962
+      },
+      "size": {
+        "width": 303,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "フォトグラフィーの上で良く見える,または質の悪いプリンタで印刷されたロゴの単色版.",
+        "links": []
+      }
+    },
+    {
+      "id": "FA3JsZgNhKrgNHVtVreol",
+      "type": "subtopic",
+      "label": "小規模な使用ガイドライン",
+      "position": {
+        "x": -696.6381872719935,
+        "y": 1286.4393516042962
+      },
+      "size": {
+        "width": 303,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "あなたのロゴは機能し,あらゆるサイズで認識可能である必要があります.これらの場合,ロゴを使用するためのヒントは,誤用のリスクを最小限に抑えるでしょう. - [@article@ロゴ利用ガイドラインについて知っておくべきすべて]",
+        "links": []
+      }
+    },
+    {
+      "id": "7n61402xwhIgJ7dPHg8q7",
+      "type": "subtopic",
+      "label": "配置ガイドライン",
+      "position": {
+        "x": -696.6381872719935,
+        "y": 1339.4393516042962
+      },
+      "size": {
+        "width": 303,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ロゴは他のコンテンツと共存しているため,ロゴの配置や空間を保つ方法について 明確なガイドラインが付いている必要があります.",
+        "links": []
+      }
+    },
+    {
+      "id": "RmSFwKqL9yXXxGKZusKWX",
+      "type": "subtopic",
+      "label": "使用ガイドライン",
+      "position": {
+        "x": -696.6381872719935,
+        "y": 1392.4393516042962
+      },
+      "size": {
+        "width": 303,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ロゴの使用ガイドラインは,ブランドの一貫性を維持するために適切な実装のルールを提供します.効果的なガイドラインは,避けるべき適切な使用とエラーの明確な例を確立し,ロゴの変異を定義し,色の要件を指定し,未承認の変更を禁止し,新しい文脈の承認プロセスを含むべきである.",
+        "links": [
+          {
+            "title": "ロゴの使用 最高の慣行",
+            "url": "https://99designs.com/blog/tips/logo-usage-guidelines/",
+            "type": "article"
+          },
+          {
+            "title": "ブランドガイドラインの開発",
+            "url": "https://designsystem.digital.gov/design-tokens/logo/",
+            "type": "article"
+          },
+          {
+            "title": "商標とロゴの法的ガイドライン",
+            "url": "https://www.uspto.gov/trademarks-getting-started/trademark-basics",
+            "type": "article"
+          },
+          {
+            "title": "ブランドアイデンティティ保護",
+            "url": "https://www.brandfolder.com/blog/brand-guidelines",
+            "type": "article"
+          },
+          {
+            "title": "ブランド管理に関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/branding?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "-6LPUMRm-SqvRVEWPDFl8",
+      "type": "subtopic",
+      "label": "ファイル形式",
+      "position": {
+        "x": -696.6381872719935,
+        "y": 1445.4393516042962
+      },
+      "size": {
+        "width": 303,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ロゴのベクトルバージョンに様々なフォーマットを提供することで,他の人々が作業を容易にし,それを再描くのを防ぐことができます. - [@article@What is a Vector Logo and Why You Need It](https://www.renderforest.com/blog/vector-logo)",
+        "links": []
+      }
+    },
+    {
+      "id": "82Due7XFcIKGY5I8cp9yr",
+      "type": "label",
+      "label": "ロゴ",
+      "position": {
+        "x": -619.1381872719935,
+        "y": 1189.400748222349
+      },
+      "size": {
+        "width": 54,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "C4-NjCgai_t7QWvfj_d6x",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": -711.6381872719935,
+        "y": 1506.400748222349
+      },
+      "size": {
+        "width": 150,
+        "height": 100
+      },
+      "style": {
+        "fontSize": 17,
+        "backgroundColor": "#fafafa",
+        "borderColor": "#000000"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "aLtOGjNFxaRzg0PI-ed99",
+      "type": "subtopic",
+      "label": "アクセシビリティ",
+      "position": {
+        "x": -698.1381872719935,
+        "y": 1559.4393516042962
+      },
+      "size": {
+        "width": 303,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "アクセシビリティへのアプローチと色,階層,補助技術を利用してユーザーを支援する方法に関するガイドライン",
+        "links": [
+          {
+            "title": "ウェブアクセシビリティの紹介",
+            "url": "https://www.w3.org/WAI/fundamentals/accessibility-intro/",
+            "type": "article"
+          },
+          {
+            "title": "アクセシビリティとは何か?",
+            "url": "https://developer.mozilla.org/en-US/docs/Learn/Accessibility/What_is_accessibility",
+            "type": "article"
+          },
+          {
+            "title": "アクセシビリティの原則",
+            "url": "https://www.w3.org/WAI/fundamentals/accessibility-principles/",
+            "type": "article"
+          },
+          {
+            "title": "WebAIMのウェブサイト (Webアクセシビリティを考慮して)",
+            "url": "https://webaim.org/",
+            "type": "article"
+          },
+          {
+            "title": "WAVE ウェブアクセシビリティ 評価ツール",
+            "url": "https://wave.webaim.org/",
+            "type": "article"
+          },
+          {
+            "title": "アクセシビリティに関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/accessibility?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PlW8mHnOTyYnbtl0zUSG9",
+      "type": "subtopic",
+      "label": "ユーザオンボード",
+      "position": {
+        "x": -698.1381872719935,
+        "y": 1612.4393516042962
+      },
+      "size": {
+        "width": 303,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "[@video@What is user onboarding? ](https://www.youtube.com/watch?v=PatIqbGEQe4)",
+        "links": []
+      }
+    },
+    {
+      "id": "bD-DjUbAA6l2eK1R9ITcK",
+      "type": "subtopic",
+      "label": "マイクロコピーのガイドライン",
+      "position": {
+        "x": -698.1381872719935,
+        "y": 1665.4393516042962
+      },
+      "size": {
+        "width": 303,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "設計システム内のコンポーネントの標準的な書き方です. これらのコンポーネントはプラットフォームのコンベンションとすべての書き方に関するベストプラクティスを考慮します.",
+        "links": []
+      }
+    },
+    {
+      "id": "6-o1viBIrvHaefbcMIJMW",
+      "type": "label",
+      "label": "ガイドライン",
+      "position": {
+        "x": -641.6381872719935,
+        "y": 1515.400748222349
+      },
+      "size": {
+        "width": 98,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "nkf1WaXyBcBFknVlywsYu",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": -460.4579568300146,
+        "y": 860.400748222349
+      },
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "style": {},
+      "z_index": 999
+    },
+    {
+      "id": "a53cl6ZKvYXxG25Ii2_zu",
+      "type": "topic",
+      "label": "デザイントークンを定義する",
+      "position": {
+        "x": -351.3175069304428,
+        "y": 1252.796264330049
+      },
+      "size": {
+        "width": 226,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "設計システムの基層,色やタイプなどの値を保存する変数. 部品で使用されているため,このレベルの変化はシステム全体に共鳴します.",
+        "links": [
+          {
+            "title": "デザイン トークン は 何 です か",
+            "url": "https://xd.adobe.com/ideas/principles/design-systems/what-are-design-tokens/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hdHZ8LjWJm_kVkwAanQtC",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": -30.16615091290565,
+        "y": 1120.3745370913068
+      },
+      "size": {
+        "width": 150,
+        "height": 100
+      },
+      "style": {
+        "fontSize": 17,
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "fW0cEy2SB0HDbiF7QA7Ev",
+      "type": "subtopic",
+      "label": "アクセシビリティ",
+      "position": {
+        "x": -14.166150912905621,
+        "y": 1172.611734127987
+      },
+      "size": {
+        "width": 303,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "あなたのパレートの主要な色々の間のペアリングが利用可能であることを確認してください. さらに重要なのは,背景とテキストの色は,少なくとも AA標準のコントラスト比率を持つことを確認してください.",
+        "links": []
+      }
+    },
+    {
+      "id": "__Pv19gRr2SFknVnfm0Mr",
+      "type": "subtopic",
+      "label": "機能的な色",
+      "position": {
+        "x": -14.166150912905621,
+        "y": 1225.611734127987
+      },
+      "size": {
+        "width": 303,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ブランドの色に加えて,障害状態,背景,アクション,高コントラストのテキストなどの機能に色が定義され変数化されていることを確認してください.",
+        "links": []
+      }
+    },
+    {
+      "id": "kxUnqpydDwB73IwrCPZM0",
+      "type": "subtopic",
+      "label": "ダークモード",
+      "position": {
+        "x": -14.166150912905621,
+        "y": 1278.611734127987
+      },
+      "size": {
+        "width": 303,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "カラーパレートのダークモードバージョンを用意することで,デザインシステムはダークモードに適応し,ユーザーが観たいものを尊重することができます.",
+        "links": []
+      }
+    },
+    {
+      "id": "XDfxs5cgjSuTEprZi2Z5b",
+      "type": "subtopic",
+      "label": "ガイドライン",
+      "position": {
+        "x": -14.166150912905621,
+        "y": 1331.611734127987
+      },
+      "size": {
+        "width": 303,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "パレット内の色をどのように,何時使用するか,色を扱うときに注意すべきこと,どのように使用しないかについてのガイドラインを提示してください.",
+        "links": []
+      }
+    },
+    {
+      "id": "sKui9mF1oCOZq5DJkAqyP",
+      "type": "label",
+      "label": "カラー",
+      "position": {
+        "x": 43.33384908709438,
+        "y": 1129.3745370913068
+      },
+      "size": {
+        "width": 66,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "faA8T0Am-XVRCuS6veAIN",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": 178.58262271332373,
+        "y": 1120.3745370913068
+      },
+      "size": {
+        "width": 150,
+        "height": 100
+      },
+      "style": {
+        "fontSize": 17,
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "wQbMhC7q3qdKYf_pX5qL4",
+      "type": "subtopic",
+      "label": "単位",
+      "position": {
+        "x": 193.58262271332373,
+        "y": 1173.796264330049
+      },
+      "size": {
+        "width": 303,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "単位はレイアウトの最も細かい構成要素である.一貫したインクリメント (例えば4,8,12および4ポイントシステム) を含む値群を定義することは,グリッドとスペース値を設計する際に基礎を提供します.",
+        "links": []
+      }
+    },
+    {
+      "id": "8f2V-rM7soorTTvNo5Vcx",
+      "type": "subtopic",
+      "label": "ネットワーク",
+      "position": {
+        "x": 193.58262271332373,
+        "y": 1226.796264330049
+      },
+      "size": {
+        "width": 303,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "すべてのレイアウトは,インターフェースに秩序と階層をもたらしたグリッドに座るべきです.モバイル,タブレット,デスクトップデバイスのためのグリッドを別々に,列,ゴット,およびマージンを設定して,インターフェースが簡単に任意のプラットフォームに適応できるようにします.",
+        "links": []
+      }
+    },
+    {
+      "id": "djwnJq9Y_Hx1Ynw01wr_u",
+      "type": "subtopic",
+      "label": "断分点",
+      "position": {
+        "x": 193.08262271332373,
+        "y": 1279.796264330049
+      },
+      "size": {
+        "width": 303,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "画面のサイズと方向を設定します",
+        "links": []
+      }
+    },
+    {
+      "id": "dXaYOwTAnYSlipNEBSV9l",
+      "type": "subtopic",
+      "label": "スパッキング",
+      "position": {
+        "x": 193.58262271332373,
+        "y": 1332.796264330049
+      },
+      "size": {
+        "width": 303,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "平面と垂直のリズムがレイアウトに大きな役割を果たします.グリッドから独立してインターフェース要素間のスペースを追加するための簡単な方法を提供する必要があります.",
+        "links": []
+      }
+    },
+    {
+      "id": "z5RKq0GcdXMMTO4CZD4LP",
+      "type": "label",
+      "label": "レイアウト",
+      "position": {
+        "x": 223.08262271332376,
+        "y": 1130.559067293369
+      },
+      "size": {
+        "width": 66,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "_pRY0ZewNcKBrm4xnAvbQ",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": -30.417377286676256,
+        "y": 1394.0372246841675
+      },
+      "size": {
+        "width": 150,
+        "height": 100
+      },
+      "style": {
+        "fontSize": 17,
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "8YVCtgYRHR3VcpUJXMVwP",
+      "type": "subtopic",
+      "label": "責任感",
+      "position": {
+        "x": -19.584433401377353,
+        "y": 1446.2744217208476
+      },
+      "size": {
+        "width": 181,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "デスクトップデバイスは通常,モバイルデバイスと比較してより大きなフォントサイズを持つことができます. ビューポートサイズに適合するタイプグラフスケールの作成は,より意味のある階層とレイアウトに役立ちます.",
+        "links": []
+      }
+    },
+    {
+      "id": "Zl7MVllzJgObruYtlibKf",
+      "type": "subtopic",
+      "label": "グリッド関連",
+      "position": {
+        "x": 151.8338490870944,
+        "y": 1446.2744217208476
+      },
+      "size": {
+        "width": 181,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "文字と他の UI 要素のよりよいペアリングを可能にするため,フォントサイズとリードはグリッドに一致する必要があります. bunun良い例は,境界ボックスのアイコンとペアされたテキストです.",
+        "links": []
+      }
+    },
+    {
+      "id": "L2NHddsv5RGR_BW0I3f4T",
+      "type": "subtopic",
+      "label": "読みやすさ",
+      "position": {
+        "x": -19.16615091290562,
+        "y": 1499.4393516042962
+      },
+      "size": {
+        "width": 181,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "文字の間隔 (追跡),行の高さ (リード) と行長をタイプスケールで最適化することで,テキストの読みやすくなります.",
+        "links": []
+      }
+    },
+    {
+      "id": "wFL9axjaPcVvI8XWduxgz",
+      "type": "subtopic",
+      "label": "性能",
+      "position": {
+        "x": 98.83001753849618,
+        "y": 1499.4393516042962
+      },
+      "size": {
+        "width": 181,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "カスタムフォントが表示される前にダウンロードする必要があります.特にウェブ上で表示される前に.あなたのタイポグラフィア資産に合理的なフォールバックと迅速な読み込み時間があることを確認してください.システムフォントを使用するとこのパフォーマンスの問題は解決します.",
+        "links": []
+      }
+    },
+    {
+      "id": "lKmaeG9BWlaKFVrVEFuYQ",
+      "type": "label",
+      "label": "タイプグラフィー",
+      "position": {
+        "x": 104.91556659862266,
+        "y": 1403.0372246841675
+      },
+      "size": {
+        "width": 104,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "Jab5LO0mGhTy1cU61Catu",
+      "type": "subtopic",
+      "label": "ガイドライン",
+      "position": {
+        "x": 223.72541004133052,
+        "y": 1498.400748222349
+      },
+      "size": {
+        "width": 181,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "タイプグラフィースケールでペーリングをどのように,いつ使うべきか,どのように使うべきか,何を覚えておくべきか,どのように使うべきかについてのガイドラインを提示してください.",
+        "links": []
+      }
+    },
+    {
+      "id": "ObM6oFLLQxiF6acWJA-tb",
+      "type": "label",
+      "label": "イコノグラフィー",
+      "position": {
+        "x": 104.91556659862266,
+        "y": 1572.4393516042962
+      },
+      "size": {
+        "width": 111,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "DhrnZwQODG0P7D-27_3ec",
+      "type": "subtopic",
+      "label": "アクセシビリティ",
+      "position": {
+        "x": -19.16615091290562,
+        "y": 1615.2548214022338
+      },
+      "size": {
+        "width": 181,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "意味 を 伝達 する アイコン や 機能 を 果たす アイコン に は,スクリーン リーダー の 必要 な サポート を 追加 し て い ます.",
+        "links": []
+      }
+    },
+    {
+      "id": "SPK1i0XuHpNEWyi1iIxrV",
+      "type": "subtopic",
+      "label": "スタイル",
+      "position": {
+        "x": 101.83384908709439,
+        "y": 1615.2548214022338
+      },
+      "size": {
+        "width": 181,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "アイコンファミリーは全体的に視覚的な意味を持つことを確認してください. 概要や記入されたスタイルを選択し,それに固執することで,視覚的な一貫性と予測性が向上します.",
+        "links": []
+      }
+    },
+    {
+      "id": "wiclAEEYioRgLmXFcKQ4E",
+      "type": "subtopic",
+      "label": "命名",
+      "position": {
+        "x": 185.83384908709436,
+        "y": 1615.2548214022338
+      },
+      "size": {
+        "width": 181,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ごみ出しアイコンは ごみ出しではなく ごみ出しアイコンに名前をつけてください.まだ関連キーワードを追加して発見性を向上させることができます.",
+        "links": []
+      }
+    },
+    {
+      "id": "6Hmj_TeQ563jshqAAl__I",
+      "type": "subtopic",
+      "label": "グリッド関連",
+      "position": {
+        "x": -19.16615091290562,
+        "y": 1667.6520087116996
+      },
+      "size": {
+        "width": 181,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "アイコンをグリッドにうまく対応する境界框に描いてください.これは他の UI 要素とより良い組み合わせを可能にします.このことの良い例はテキストと並べられた境界框を持つアイコンです.",
+        "links": []
+      }
+    },
+    {
+      "id": "w3LS85eFerscaxb2Xp-dP",
+      "type": "subtopic",
+      "label": "サイズ",
+      "position": {
+        "x": 131.8338490870944,
+        "y": 1667.6520087116996
+      },
+      "size": {
+        "width": 181,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "格子に対応するアイコンのサイズを別にしてください.最小サイズを指定し,より小さいアイコンの不要な詳細を削除してください.",
+        "links": []
+      }
+    },
+    {
+      "id": "HDf2L4F1f8uUGpVaf7Y7z",
+      "type": "subtopic",
+      "label": "キーワード",
+      "position": {
+        "x": 235.83384908709434,
+        "y": 1667.6520087116996
+      },
+      "size": {
+        "width": 181,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "キーワードを追加することで,それぞれのアイコンの発見能力が向上し,システムを使用するすべての人により良いユーザー体験を提供します.",
+        "links": []
+      }
+    },
+    {
+      "id": "Y0KxHVrcNGHDao-38Oz3w",
+      "type": "subtopic",
+      "label": "保存されたアイコン",
+      "position": {
+        "x": -19.16615091290562,
+        "y": 1721.6520087116996
+      },
+      "size": {
+        "width": 181,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "一般的なアクションを表すアイコンを予約することで,他のコンテキストでも使用を防ぐことができます.ナビゲーションや追加・削除のためのシステムアイコンは良い例です.これはより直感的なユーザー体験につながります.",
+        "links": []
+      }
+    },
+    {
+      "id": "eTxhpC3AQIMcUax6WFU9U",
+      "type": "subtopic",
+      "label": "ガイドライン",
+      "position": {
+        "x": 165.33384908709436,
+        "y": 1721.6520087116996
+      },
+      "size": {
+        "width": 181,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "アイコンの使い方,何時,何時,何時,何時,何時,何時,何時,何時,何時,何時,何時,何時,何時,何時,何時,何時,何時,何時,何時,何時,何時,何時,何時,何時,何時,何時,何時,何時,何時,何時,何時,何時,何時,何時,何時,何時,何時,何時,何時,何時,何時,何時,何時,何時,何時,何時,何時,何時,何時,何時,何時,何時,何時,何時,何時,何時,何時",
+        "links": []
+      }
+    },
+    {
+      "id": "BtRuLBspKTqF4nTSr127r",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": -60.669982461503835,
+        "y": 1120.3745370913068
+      },
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "style": {},
+      "z_index": 999
+    },
+    {
+      "id": "Hw_LQInG6OtSwDXch3Lvg",
+      "type": "topic",
+      "label": "核心構成要素の作成",
+      "position": {
+        "x": -379.3175069304428,
+        "y": 1844.2548214022338
+      },
+      "size": {
+        "width": 256,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "構成要素はユーザーインターフェースの主要な構成要素である. 再利用可能な構成要素ライブラリを構築することで,デザインと技術債務を削減し,プロセスを加速することによって製品開発のワークフローを向上させます.",
+        "links": []
+      }
+    },
+    {
+      "id": "h3TZY1yBkzLYUK6W7K7xs",
+      "type": "subtopic",
+      "label": "アバター",
+      "position": {
+        "x": -30.417377286676242,
+        "y": 1840.2548214022338
+      },
+      "size": {
+        "width": 117,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "** イメージ:** アバタルは画像を形状にマスクし,画像のサイズを任意で扱うべきです.未知のデータ源から画像を入手する可能性があるため. ** イメージ フォールバック:** 画像が利用できない場合,バックバックが発生する必要があります. これは位置保持画像や初期文字でできます. ** アクセシビリティ:** アバタルの画像に表示されている内容を記述するスクリーンリーダーに常に説明してください. ** サイズ:** アバタを使用するコンテキストはたくさんあり,すべてのコンポーネントに異なるサイズが必要です.平均的なプロジェクトでは,少なくとも2〜3つの異なるサイズを使用し,少なくとも小さなサイズが利用可能であることを確認してください.- **Icon:** アバターは画像の代わりにアイコンで使用され,必ずしも画像が関連していない (または必要ない) 領域を強調することができます. **Highland Colors:** アイコンやテキストで使用すると,設計システム色のトークンからアバター形に適用される背景色がなければならない.WCAG AA標準に従ってアイコンとテキストが背景と十分なコントラスト比を有していることを確認してください.",
+        "links": []
+      }
+    },
+    {
+      "id": "hjiJJg4KNr8lyktFQd868",
+      "type": "subtopic",
+      "label": "入力テキスト",
+      "position": {
+        "x": 155.58384908709436,
+        "y": 1840.2548214022338
+      },
+      "size": {
+        "width": 181,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "入力テキストは,ユーザーがテキストを入力して編集できるようにします.- **Disabled State:** 入力インタラクションを防止し,フォームの送信からその値を削除します.- **Placeholder:** 入力した値がない場合,潜在的な値例を付いたプレイスホルダーを表示します.入力用のラベルとしてプレイスホルダーを使用しないでください.- **Label:** テキストフィールドにリンクしたテキストラベルが表示されるべきです.ラベルをクリックすると,焦点をフィールドに移動する必要があります.- **Error State:** エラー状態は,エラーがテキストフィールドにのみ関連している場合,フォームの検証エラーに使用されます.常にテキストエラーを使用して,フィールドの色を変更します.- **Focused State:** 焦点状態は,ユーザーがそれとやり取りを開始するときにテキストフィールドを強調する必要があります.Formには常に1つの焦点フィールドがあります.- **Autocomplete:** 当てはまる場合,HTMLの自動完成属性へのサポートを追加することで,ユーザーはさまざまなデータタイプを簡単に入力できます. - **Icon Support:** アイコンは入力方法を記述したり,テキストフィールド状態を表現したり,追加の機能を提供したりするために使用されます.",
+        "links": []
+      }
+    },
+    {
+      "id": "kkqRIgdXWaJbX9CjLpwha",
+      "type": "subtopic",
+      "label": "バナー",
+      "position": {
+        "x": -30.417377286676242,
+        "y": 1893.2548214022338
+      },
+      "size": {
+        "width": 117,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "バナーには,ユーザーとのコミュニケーションの顕著な方法として使用される実行可能なメッセージが表示されます.- **外観:** バナーには,異なる種類のメッセージが表示され,その役割に基づいて視覚的外観を区別することが重要です.役割の区別のために背景色を使用している場合は,WCAG AA標準に従ってコンテンツと十分なコントラスト比率があることを確認してください.- **アイコンまたは画像のためのエリア:** バナーには,サポートアイコンまたは画像を使用してメッセージを補完できます.文本コンテンツの代わりに使用されるべきではありません.- **アクション:** バナー内のアクションは,そのテキストに関連して,ユーザーに送信されたメッセージに反応する方法を提供する必要があります.- **拒否可能なアクション:** ページ上のアクションを圧倒しないでください.これは別々の閉じるボタンのいずれか,または提供されたアクションのいずれかかもしれません. - **アクセシビリティ:** ページにバナーが動的に表示されている場合,そのサポート技術によってユーザーに通知されるべきです. - ** 応答性:** バナーはビューポートのサイズに適応する必要があります.これは通常,一部スペースを節約するためにモバイル向けに全幅になっていることを意味します.",
+        "links": []
+      }
+    },
+    {
+      "id": "LNsXQI8sE_5kzSD_iMLJA",
+      "type": "subtopic",
+      "label": "バッジ",
+      "position": {
+        "x": -30.417377286676242,
+        "y": 1946.2548214022336
+      },
+      "size": {
+        "width": 117,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "バッジは,オブジェクトの状態やユーザー入力値を表す要素です. - **外観:** バッジは製品内のさまざまな役割を果たし,それぞれの役割に事前に定義された色を持つことは,ユーザーがその意味を理解するのを助けるべきです.色を変更するときは,WCAG AA標準に従ってテキストが背景と十分なコントラスト比率を持っていることを確認してください. - **WCAG AA標準に従って拒否されるアクション:** バッジは選択された値を表示するダイナミックな方法として使用され,それらを排除する方法がある必要があります.",
+        "links": []
+      }
+    },
+    {
+      "id": "LWihkf4q5UawjLd84KQxN",
+      "type": "subtopic",
+      "label": "ボタン",
+      "position": {
+        "x": -30.417377286676242,
+        "y": 1999.2548214022336
+      },
+      "size": {
+        "width": 117,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ボタンは,単段階のアクションに使用されるインタラクティブな要素です.- **Hover State:** マウスのカーソールでフローバーされたときにボタンがインタラクティブであることを明確に示します.- **Active State:** ボタンが押されたときに使用されます.同じ状態は,その要素が目に見えるように開いている間に,ページ上の別の要素を切り替えるためのボタンを表すために使用できます.- **Focused State:** ボタンがキーボードナビゲーションで選択されたときに使用されます.- **Icon Support:** アイコンは,そのラベル付近で使用されたときにボタンの目的を簡単に伝達します.- **Loading:** ユーザがボタンを押した後に行動の結果を待たなければならないとき使用されます.この状態を表示するためにスピナーを使用している場合は,元のボタンの幅や高度を変更していないことを確認してください.- **Full Width:** デフォルトでボタンはコンテンツの幅を取りますが,モバイルデバイスでうまく動作する全幅のバリエーションも用意する必要があります.- **Variants:** 複数のボタンを使用すると,プライマリとセカンドリーアクションを区別する方法があるはずです.ボタンはユーザーのために異なる役割を果たすか,または異なる種類の表面で使用され,外観を変更する必要があります.- **サイズ:** ボタンはウェブサイトの異なる領域で使用され,複数のプリデファインしたサイズを持つ可能性があります.モバイルでは,iOSとAndroidのアクセシビリティガイドラインに従ってアクセス可能な領域が最低48pxである必要があります.",
+        "links": []
+      }
+    },
+    {
+      "id": "rZ7d1C9swiqlRTbdJLZ0R",
+      "type": "subtopic",
+      "label": "カード",
+      "position": {
+        "x": -30.417377286676242,
+        "y": 2052.2548214022336
+      },
+      "size": {
+        "width": 117,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "カードは,主題とその関連行動に関する情報をグループ化するために使用されます.- **あらゆる種類のコンテンツをサポートします:** カードは,製品の最も多く使用されるコンポーネントの一つであるため,その中に配置された他のコンポーネントをサポートするのに十分な柔軟性を持つ必要があります.- ** 情報の構造:** カードの柔軟性に関係なく,製品の一貫性のために,カードには特定の要素の構造があることが重要です.- ** サポートメディアセクション:** カードを使用する最も人気のあるシナリオの一つは,それらをメディアコンテンツと混合することです.最も人気のあるオプションは,コンテンツの上に全幅のエリアまたはカードの片側にある全高度のエリアがあります.- **追加アクション:** カードは通常カードの底に置かれたアクションで使用できますし,カード自体はタップ可能でアクションを表すことができます. ** 応答性:** モバイルビューポートでは,コンテンツのスペースを節約するため,カードは通常全幅で使用できます.",
+        "links": []
+      }
+    },
+    {
+      "id": "yWEXfjzuzk99dxjZlG4Cq",
+      "type": "subtopic",
+      "label": "カルーセル",
+      "position": {
+        "x": -30.417377286676242,
+        "y": 2105.2548214022336
+      },
+      "size": {
+        "width": 117,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "キャロセルは同じタイプのアイテムを積み重ね,水平的にスクロールすることができます.- **ナビゲーション コントロール:** キャロセルはコンテンツをスクロールするために簡単に見つけられるナビゲーション コントロールを備える必要があります.- **コンテンツをサポートします:** キャロセルは異なるコンテキストで使用することができ,特定の子供コンポーネントに限定されるべきではありません.一部のシナリオでは,同じキャロセルの内のアイテムが互いに異なるように望みます.- **アイテム幅のカスタマイズ:** シンプルな製品では,キャロセルのアイテムに複数の既定サイズを使用することが良いかもしれません.より柔軟性のために,カスタム幅を定義する方法を提供することが良いです.- **タッチイベントサポート:** キャロセルはタッチデバイスでスクロールできます.最良の実践のいくつかは,ネイティブスクロールを使用し,携帯電話だけでなくすべてのタッチデバイスでも同じ動作をサポートしていることを確認することです. キーボードナビゲーション:** コンテンツの可視性を向上させるために,モバイルビューポートのナビゲーションコントロールのサイズを隠すまたは減らすことは良い実践です.",
+        "links": []
+      }
+    },
+    {
+      "id": "MtBSvKoyjdLd6DIdolLRi",
+      "type": "subtopic",
+      "label": "降ろし",
+      "position": {
+        "x": -30.417377286676242,
+        "y": 2158.2548214022336
+      },
+      "size": {
+        "width": 117,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ドロップダウンは,ドロップダウンは,ドロップダウンの領域に関連するアクションまたはコンテンツのリストを含む文脈上のサブビューを表示するために使用されます.- **ドロップダウンは,すべての種類のコンテンツをサポートします:**ドロップダウンは,日付ピックラー,言語選択または他の製品機能などの多くの文脈で使用できます.- ** ドロップダウンの最もよく使用されるシナリオの1つは,ドロップダウンのメニューをユーザーに提供しているため,このレイアウトを定義することは有用です.- ** ドロップダウンは開くと,ドロップダウンの内部にある要素のみにフォーカスが動作する必要があります.- **キーボードナビゲーション:** 鍵盤でドロップダウン子供要素をナビゲートして Esc キーを用いて閉める必要があります.- ** ダイナミックポジション:** ドロップダウンコンテンツは,画面上のトリガー要素の現在の位置に基づいて表示され,常にユーザに可視で表示されます.- ** 応答性:** ドロップダウンコンテンツは,デスクトップ上で多くのスペースを占める可能性があるため,モバイルビューポイントに適応する必要があります.",
+        "links": []
+      }
+    },
+    {
+      "id": "bzY_iXRnotct_WnNRTlbd",
+      "type": "subtopic",
+      "label": "アイコン",
+      "position": {
+        "x": -30.417377286676242,
+        "y": 2211.2548214022336
+      },
+      "size": {
+        "width": 117,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "アイコンコンポーネントは,アイコングラフィーの静的な資産が製品に表示される様子を並べ替える方法である. - **サイズ:** アイコンには,製品全体で全体的な体験を提供するために,数々の事前に定義されたサイズがある必要があります.これらのサイズ値に,サイズ値がテキストサイズに一致していることを確認するためにタイプグラフィーのペアリングを使用することができます. - **カラー:** アイコンは,デザインシステム色パレットからの値を使用する必要があります.アイコンの補充色のための親要素テキスト色を使用することで,これは自動的にできます.",
+        "links": []
+      }
+    },
+    {
+      "id": "F5_sxUnnGEdgF6BkA5T5x",
+      "type": "subtopic",
+      "label": "入力チェックボックス",
+      "position": {
+        "x": 155.58384908709436,
+        "y": 1893.2548214022338
+      },
+      "size": {
+        "width": 181,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "入力チェックボックスは,一つのオプションまたは複数のオプションを選択するために使用されるフォーム要素です.- **チェックボックスは:**チェックボックスは選択され,その値をフォームの送信に使用します.- **無効状態:**チェックボックスの相互作用を阻止し,その値をフォームの送信から削除します.- **中間状態:**チェックボックスの選択可能な要素があり,そのうちのいくつかは選択されます.- **ラベル:**チェックボックスのフィールドにリンクされたテキストラベルが表示されるべきです.ラベルをクリックするとチェックボックスの選択も誘発されます.- **エラー状態:**エラー状態は,チェックボックスのフィールドにのみ関連しているときにフォームの検証エラーに使用されます.常にチェックボックスのフィールドの色を変更する際にテキストエラーを使用します.- **キーボード状態:** チェックボックスの選択はスペースキーで起動する必要があります.このためにネイティブ要素を使用すると,この種の相互作用がボックス外で提供されます.- **チェックボックスのグループ:** チェックボックスは複数の値で同時に動作するようにグループ化できます.",
+        "links": []
+      }
+    },
+    {
+      "id": "rN-_plAA5FkcQl03wsL18",
+      "type": "subtopic",
+      "label": "入力ラジオ",
+      "position": {
+        "x": 155.58384908709436,
+        "y": 1946.2548214022336
+      },
+      "size": {
+        "width": 181,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "入力ラジオは,リストからオプションを選択するために使用されるフォーム要素です.- **チェック状態:** ラジオが選択されたときに使用され,その値はフォームの提出のために使用されます.ラジオ入力は再び押して選択を消すことはできません.- **無効状態:** ラジオインタラクションを阻止し,その値をフォームの提出から削除します.- **タベル:** ラジオフィールドにリンクしたテキストラベルが表示されるべきです. ラジオフィールドにリンクしたテキストラベルが表示されるべきです. ラジオ選択を誘発します.- ** エラー状態:** エラーがラジオフィールドにのみ関連している場合,エラーが形式の検証エラーに使用されます.常にテキストエラーを使用し,フィールドの色を変更します.- **キーボード状態:** スペース鍵を押すと,ラジオ選択が起動する必要があります.このためにネイティブ要素を使用すると,この種の相互作用が箱外で提供されるべきです. **ラジオグループ:** ラジオ入力は常にグループ内で使用されるべきです.そのうちの1つが選択された場合,他のラジオを選択することによってのみ選択を消すことができます.",
+        "links": []
+      }
+    },
+    {
+      "id": "NISeaJUlDtQ0kSuyxmrOT",
+      "type": "subtopic",
+      "label": "輸入スイッチ",
+      "position": {
+        "x": 155.58384908709436,
+        "y": 1999.2548214022336
+      },
+      "size": {
+        "width": 181,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "入力スイッチは,単一の項目の状態を切り替える. 入力チェックボックスと比較して,その変更は通常,追加的な送信なしに適用されます. - **チェック状態:** 入力スイッチをオンにすると使用されます.適用する場合,その色の変更に加えて,チェック状態を表示するための追加の方法を提供するのが良い. - **無効状態:** 入力スイッチとの相互作用を妨げます. - **ラベル:** 切り替えるフィールドにリンクされたテキストラベルが表示されるべきです. ラベルをクリックすると,入力選択も誘発されるべきです. - **キーボード状態:** 切り替える鍵を押すと,切り替える鍵の選択が誘発されるべきです.",
+        "links": []
+      }
+    },
+    {
+      "id": "n1nUkMqGtPobZPJHCvPsk",
+      "type": "subtopic",
+      "label": "選択する",
+      "position": {
+        "x": -30.417377286676242,
+        "y": 2264.2548214022336
+      },
+      "size": {
+        "width": 117,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "選択は,ユーザがフォームのコンテキスト内の値リストから値を選択できるようにします. - **無効状態:**入力インタラクションを防止し,フォームの送信からその値を削除します.- ** プレイスホルダー:** 入力した値がない場合,潜在的な値例を含むプレイスホルダーを表示します.入力用のラベルとしてプレイスホルダーを使用しないでください.- ** ラベル:** テキストフィールドにリンクされたテキストラベルが表示されるべきです. ラベルをクリックすると,焦点をフィールドに移動する必要があります.- ** エラー状態:** エラー状態は,エラーがテキストフィールドに関連している場合にのみ,フォームの検証エラーに使用されます.常にテキストエラーを使用し,フィールドの色を変更します.- ** フォーカス状態:** フォーカス状態は,ユーザがそれとやり取りを開始するときにテキストフィールドを強調する必要があります. フィールドには常に1 つのフォーカス状態のみがあります.- **Autocomplete:** 当てはまる場合,HTMLの自動完成属性へのサポートを追加することで,ユーザーはさまざまなデータタイプを簡単に入力できます. - **Icon Support:** アイコンは入力方法を記述したり,テキストフィールド状態を表現したり,追加の機能を提供したりするために使用されます.",
+        "links": []
+      }
+    },
+    {
+      "id": "iusI39fxcu2rbMXiosaM6",
+      "type": "subtopic",
+      "label": "テキストエリア",
+      "position": {
+        "x": -30.417377286676242,
+        "y": 2317.2548214022336
+      },
+      "size": {
+        "width": 117,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "テキスト領域は,ユーザがテキストを入力して編集できるようにします. - **無効状態:**入力インタラクションを防止し,フォームの送信からその値を削除します. - ** プレイスホルダー:** 入力した値がない場合,潜在的な値例を含むプレイスホルダーを表示します.入力用のレーベルとしてプレイスホルダーを使用しないでください. - ** レーベル:** テキストフィールドにリンクされたテキストラベルがある必要があります. ラベルをクリックすると,焦点をフィールドに移動する必要があります. - ** エラー状態:** エラー状態は,エラーがテキストフィールドにのみ関連している場合,フォームの検証エラーに使用されます. 常にテキストエラーを使用して,フィールドの色を変更します. - ** フォーカス状態:** フォーカス状態は,ユーザーが相互作用を開始するときにテキストフィールドを強調する必要があります. フォームには常に1 つのフォーカスフィールドがあります.",
+        "links": []
+      }
+    },
+    {
+      "id": "2T7tiM3Ew3H1U5iJR2TDb",
+      "type": "subtopic",
+      "label": "リスト",
+      "position": {
+        "x": 155.58384908709436,
+        "y": 2052.2548214022336
+      },
+      "size": {
+        "width": 181,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "リストは,ページコンテンツのレイアウトや,それらを垂直または水平に堆積する要素のグループを定義します. - ** コンテンツのあらゆる種類をサポートする:** リストは,ページレベルのレイアウトから粒子のコンポーネント間のオフセット管理まで,あらゆるコンテキストで使用できます. - ** ホリジナルスタッキング:** リストは,インライン要素のために使用され,リストの要素が横に堆積される様子を管理する必要があります. - ** 複数の要素の列間のオフセット処理を含む. - ** 分割変数:** パーティバーを持つリストは,多くのプラットフォームガイドライン (特にモバイル上で) によって推奨される最良の実践です. - ** サポート可能コンテンツ:** リストは,リストアイテムの全体の領域をクリック可能とする,折り畳み可能なコンポーネントをグループ化するために使用されます.",
+        "links": []
+      }
+    },
+    {
+      "id": "JhnHOMIlU6mQcwvIpErUY",
+      "type": "subtopic",
+      "label": "負荷指標",
+      "position": {
+        "x": 155.58384908709436,
+        "y": 2105.2548214022336
+      },
+      "size": {
+        "width": 181,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "読み込み指標は,操作が実行され,プロセスがどれくらい時間がかかるかを示します.- **線形および非線形変数:** 文脈および使用されているコンポーネントによって,読み込み指標は線形または非線形 (例えば円形) 変数で表現できます.- **定数または不定の待機時間:** いくつかの場合,待機時間は決定できません.読み込みが完了するまで,読み込み指標が表示されなければなりません.またはエラーが発生します.他の場合,読み込みが完了するまでどれくらいの時間が残っているかを示すほうがよいです.- ** 軽変数:** 読み込み指標は母要素の背景を尊重し,より暗い背景色で使用する変数を提供する必要があります.- **減速運動:** 負荷指標はシステム運動設定と同期され,減速運動設定をオンにするとアニメーション速度を低下させる.",
+        "links": []
+      }
+    },
+    {
+      "id": "IjNitkG25vNo30rB4ckNV",
+      "type": "subtopic",
+      "label": "モダール",
+      "position": {
+        "x": 155.58384908709436,
+        "y": 2158.2548214022336
+      },
+      "size": {
+        "width": 181,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "モダルは,重要な情報または実行可能なコンテンツを提供するために,メインコンテンツの前面に表示されるコンテナです.- **他のコンテナと同様に,モダルは異なるシナリオで使用され,内部で他のコンポーネントと一緒に使用することができます.- **追加アクション:** モダルのコンテンツが操作可能であるため,アクション要素のためのスペースがあることが重要です.このエリアは通常,モダルのコンテナの下部に位置します.- **Close Action:** モダルは,開いているときにコンテンツをブロックしているため,閉じるための明確な方法を提供する必要があります.これは別々の閉じるボタンのいずれか,または追加アクションのいずれかである可能性があります.- **情報構造:** モダルはコンテンツの空き容器として使用できるものの,全体的な体験を提供するために定義された情報構造が必要です.これは,タイトルと字幕がデフォルトでどのように見えるかを定義したり,アクション要素の領域がどこにあるかを含めることもあります.- **キーボードナビゲーションサポート:** Esc キーを押してモダルを閉じる可能性があり,モダルの容器内のすべてのフォーカス可能な要素はキーボードナビゲーションでアクセスできます.- **Focus Trapping:** モダルは開けると,モダルの内部にある最初の要素にフォーカス移動し,モダルの容器内にループ化する必要があります.モダルを閉めることで,モダルはページ上の最後のフォーカスされた要素に戻ります.",
+        "links": []
+      }
+    },
+    {
+      "id": "1vYR1EMyZhJA-znxnFBBb",
+      "type": "subtopic",
+      "label": "タブ",
+      "position": {
+        "x": 155.58384908709436,
+        "y": 2211.2548214022336
+      },
+      "size": {
+        "width": 181,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "タブは複数のページまたはコンテンツセクション間のナビゲーションを組織します.- **アクティブボタンの状態:** 選択されたタブボタンと選択されていないタブボタンの間には明確な区別があるべきです.- **タブアイコンサポート:** 標籤の隣に使用されたタブボタンの目的を表示するのにアイコンが役立ちます.- **同じサイズのタブボタン:** タブは比較的小さな容器で使用され,特定の数のセクション間で切り替える必要があります.そのようなシナリオでは,タブボタン領域が平等に分けられたバリエーションをサポートするのが最善です.- **キーボードナビゲーション:** すべてのタブボタンがフォーカス可能で,タブボタン間のナビゲーションはキーボードコンポーネントからアクセスできます.- **応答性:** 携帯タブのすべてのタブボタンがビューに収まる場合,ユーザーはまだすべてのタブボタンに対応する必要があります.これを解決する方法は,ボタン領域をモバイルでスクロール可能にするか,他のボタンとドロップダウンを含む\"More\"ボタンを表示することです.",
+        "links": []
+      }
+    },
+    {
+      "id": "-T7uL6a3lJ5-IIcDaG6IN",
+      "type": "subtopic",
+      "label": "乾杯",
+      "position": {
+        "x": 155.58384908709436,
+        "y": 2264.2548214022336
+      },
+      "size": {
+        "width": 181,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "トーストは,アクション結果に関する短い意味のあるフィードバックメッセージを提供します.- **自動廃棄:** トーストメッセージは,ユーザーフローを中断したり,スクリーンを長時間ブロックしたり,ユーザーの追加行動を要求したりしてはならない.- **アクションサポート:** メッセージの表示に加えて,トーストは,アクションを取り消すようなメッセージに関連するアクションも提供することができます.- **複数のインスタンスを処理します:** 頻繁に起こらないにもかかわらず,複数のソースから同時にトーストを呼び出し,結果となるすべてのトーストを並行する必要があります.すべてのメッセージを同時に表示しないのは良い慣行です.- **アクセシビリティ:** トーストメッセージは,声支援技術によって発表され,そのアクションはキーボードから簡単にアクセス可能である必要があります.- **タスク:** トーストはモバイルビューポートと並べられ,タップで操作が容易に行われなければならない.",
+        "links": []
+      }
+    },
+    {
+      "id": "2oCAzsk_y2Y2oHUi467dp",
+      "type": "subtopic",
+      "label": "ツール・ティップ",
+      "position": {
+        "x": 155.58384908709436,
+        "y": 2317.2548214022336
+      },
+      "size": {
+        "width": 181,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ツールティップは,要素を振り回したり,要素に焦点を当てるときに追加情報を表示するデスクトップのみのコンポーネントである.- **キーボードホーバーサポート:** ツールティップは,要素がキーボードを使用して焦点を当てるときにアクセス可能である.- **ダイナミックなポジショニング:** ツールティップのコンテンツは,画面上のトリガー要素の現在の位置に基づいて表示され,常にユーザに可視である.- ** ホーバータイムアウト:** ツールティップを起動する前に小さなタイムアウトがあれば,ユーザーがマウスのカーソルを移動する際にツールティップを偶発的に表示するのを防ぐことができます.- ** ライト バリアント:** ツールティップは,元の要素の背景を尊重し,より暗い背景色で使用されるようにする必要があります.- **Element Groups の即時移行:** ツール・ティップを使用する要素のグループがある場合,すでに有効なツール・ティップが動いている間に別の要素の上に浮いている場合,アニメーションを起動すべきではありません.",
+        "links": []
+      }
+    },
+    {
+      "id": "XzNwNomMj4gRw-CL3as4u",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": -60.669982461503835,
+        "y": 1840.2548214022338
+      },
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "style": {},
+      "z_index": 999
+    },
+    {
+      "id": "jggrr5nZOe6FY3ZrZJTOw",
+      "type": "topic",
+      "label": "核心構成要素の作成",
+      "position": {
+        "x": -377.3175069304428,
+        "y": 2026.2548214022338
+      },
+      "size": {
+        "width": 256,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "デザインシステムを使用する人にとって 作業を効率的にするために ツール・ドーリングを不可欠なものにしてください. 人々が使用するツールと作業を統合できるワークフローを見つけましょう. これはデザインシステムを有機的に広め,人々の日常作業に不可欠なものにします.",
+        "links": []
+      }
+    },
+    {
+      "id": "NC75JWJMKXeQB2fTo0ZQJ",
+      "type": "label",
+      "label": "デザイン",
+      "position": {
+        "x": -619.1381872719935,
+        "y": 1835.7548214022338
+      },
+      "size": {
+        "width": 70,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "ccpT9MPFbc3Ewjm1tFMsZ",
+      "type": "subtopic",
+      "label": "デザイン編集",
+      "position": {
+        "x": -697.6381872719935,
+        "y": 1878.2548214022338
+      },
+      "size": {
+        "width": 303,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Sketch,Figma,Adobe XDなど,最も人気のあるデザイン編集者が多くあります. どの経路を辿るべきかわからない場合は,しばしばチームと話すのが最善です.",
+        "links": []
+      }
+    },
+    {
+      "id": "uO-2O0Jwh_DxrMAB9wxp1",
+      "type": "subtopic",
+      "label": "プラグイン",
+      "position": {
+        "x": -697.6381872719935,
+        "y": 1931.2548214022338
+      },
+      "size": {
+        "width": 303,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "最も人気のあるデザインエディター (特にスケッチとフィグマ) は,第三者のプラグインサポートが付いています.構成要素を配置するためにエディター内蔵のツールを使用するのが最善ですが,プラグインはそれらを埋め込むためにさまざまな有用なデータを持ち込むことができます.",
+        "links": []
+      }
+    },
+    {
+      "id": "CYY6nbQiC2pu5ATWmO6wA",
+      "type": "subtopic",
+      "label": "バージョン制御",
+      "position": {
+        "x": -697.6381872719935,
+        "y": 1984.2548214022338
+      },
+      "size": {
+        "width": 303,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "デザインと開発を簡単に調和させ 欠陥のある変更を逆転させ コードとデザインの変更を同時にリリースできます",
+        "links": []
+      }
+    },
+    {
+      "id": "TiCNCRpMPgZUhn7JdaIZA",
+      "type": "subtopic",
+      "label": "貢献ガイドライン",
+      "position": {
+        "x": -697.6381872719935,
+        "y": 2037.2548214022338
+      },
+      "size": {
+        "width": 303,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "設計システムのUIとUXに貢献するプロセスを定義し,発見可能な場所に記録し,誰もが貢献することを容易にする.",
+        "links": []
+      }
+    },
+    {
+      "id": "L5re9KKWvMfS9f-uggNPN",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": -711.6381872719935,
+        "y": 2098.4551467174065
+      },
+      "size": {
+        "width": 150,
+        "height": 100
+      },
+      "style": {
+        "fontSize": 17,
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "sD6J4uY0G7YNLCVoQkxmg",
+      "type": "label",
+      "label": "開発",
+      "position": {
+        "x": -642.1381872719935,
+        "y": 2104.7548214022336
+      },
+      "size": {
+        "width": 118,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "VeLiPzbGr22_Mh_8T2Gnf",
+      "type": "subtopic",
+      "label": "構成要素カタログ",
+      "position": {
+        "x": -696.6381872719935,
+        "y": 2147.2548214022336
+      },
+      "size": {
+        "width": 303,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "製品コードベース以外の UIコンポーネントの環境を隔離して,これらのコンポーネントはグローバル依存に依存していないことを確認し,簡単に再利用できます.",
+        "links": []
+      }
+    },
+    {
+      "id": "k1Lwk_b6cLIeyQwc4RUh1",
+      "type": "subtopic",
+      "label": "文書化",
+      "position": {
+        "x": -696.6381872719935,
+        "y": 2200.2548214022336
+      },
+      "size": {
+        "width": 303,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "あなたのコードを文書化することは 採用を促進し 貢献者の負担を軽減するための鍵です",
+        "links": []
+      }
+    },
+    {
+      "id": "zEqFAuH9zmKTLwwgx54pW",
+      "type": "subtopic",
+      "label": "コードスタイル",
+      "position": {
+        "x": -696.6381872719935,
+        "y": 2253.2548214022336
+      },
+      "size": {
+        "width": 303,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "定義されたコードスタイルを持つことは,システムでコードが書き込まれる方法を調整し,開発速度を高めます.各プラットフォームに提供されたツールで自動化する必要があります.",
+        "links": []
+      }
+    },
+    {
+      "id": "y8No8I0MltA91j4Q2toT0",
+      "type": "subtopic",
+      "label": "ユニットテスト",
+      "position": {
+        "x": -696.6381872719935,
+        "y": 2306.2548214022336
+      },
+      "size": {
+        "width": 303,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "設計システムの各部位はユニットテストで覆われなければならない.システムが採用されると,孤立した環境の変化は製品の機能に影響を与える可能性があります.",
+        "links": []
+      }
+    },
+    {
+      "id": "yhP8EhyCWWRBLkYPyOFeg",
+      "type": "subtopic",
+      "label": "アクセシビリティテスト",
+      "position": {
+        "x": -696.6381872719935,
+        "y": 2359.2548214022336
+      },
+      "size": {
+        "width": 303,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "設計システムは可能な限りアクセシビリティをカバーすべきです.これを自動化することで,アクセシビリティのないコンポーネントや製品内のユーザフローのリスクを軽減します.",
+        "links": []
+      }
+    },
+    {
+      "id": "ZLt1yJqinC8OSpqucC2dV",
+      "type": "subtopic",
+      "label": "セマンティック バージョン",
+      "position": {
+        "x": -696.6381872719935,
+        "y": 2412.2548214022336
+      },
+      "size": {
+        "width": 303,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "バージョン番号がどのように割り当てられ 増やされるかを指示するセマンティック バージョン設定でコードをバージョンします",
+        "links": []
+      }
+    },
+    {
+      "id": "CfWCQNaCJGL-egRhFhc4B",
+      "type": "subtopic",
+      "label": "解放戦略",
+      "position": {
+        "x": -696.6381872719935,
+        "y": 2465.2548214022336
+      },
+      "size": {
+        "width": 303,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "設計システムリリースは自動化され,理想的には,ローカルまたはリモートICパイプラインで実行されたスクリプトを使用して,破綻したリリースを防ぐべきである.",
+        "links": []
+      }
+    },
+    {
+      "id": "IVYe8oh1IWbUbxMZRxVQA",
+      "type": "subtopic",
+      "label": "約束ガイドライン",
+      "position": {
+        "x": -696.6381872719935,
+        "y": 2518.2548214022336
+      },
+      "size": {
+        "width": 303,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "変更を分類し,定義するコミットメッセージガイドラインを採用することによって,変更ログの生成を自動化します.",
+        "links": []
+      }
+    },
+    {
+      "id": "wd9ZHZmqV7wbLN-9V4EQy",
+      "type": "subtopic",
+      "label": "PR テンプレート",
+      "position": {
+        "x": -696.6381872719935,
+        "y": 2571.2548214022336
+      },
+      "size": {
+        "width": 303,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "生産的な議論を容易にするために提案される変更を概説する pull request テンプレートを作成します.",
+        "links": []
+      }
+    },
+    {
+      "id": "xJ1LAAhiZvbZOLRVc1HZa",
+      "type": "subtopic",
+      "label": "貢献ガイドライン",
+      "position": {
+        "x": -696.6381872719935,
+        "y": 2624.2548214022336
+      },
+      "size": {
+        "width": 303,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "設計システム の コード に 貢献 する プロセス を 定義 し,すべて を 発見 できる 場所 で 文書化 し,すべて の 人 が 貢献 する こと を 容易 に する.",
+        "links": []
+      }
+    },
+    {
+      "id": "JfXwzkN29UGz17FYHHE3A",
+      "type": "topic",
+      "label": "プロジェクト管理",
+      "position": {
+        "x": -379.3175069304428,
+        "y": 2463.9551467174065
+      },
+      "size": {
+        "width": 206,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "デザインシステムは,あなたのチームが取り組む他のプロジェクトとは全く違います. プロジェクトを成功に構築し維持するには,毎日うまく実行される明確な戦略が必要です.そして,同僚があなたのデザインシステムを一緒に共有するのに役立つフィードバックを提供するための機会を作成する必要があります.",
+        "links": []
+      }
+    },
+    {
+      "id": "TWx2jJqOyI3CXCOTQ106_",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": -24.638187271993502,
+        "y": 2431.4551467174065
+      },
+      "size": {
+        "width": 150,
+        "height": 100
+      },
+      "style": {
+        "fontSize": 17,
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "POeLL32wtfV3SmBcVWzy6",
+      "type": "label",
+      "label": "任務管理",
+      "position": {
+        "x": 76.8618127280065,
+        "y": 2439.7548214022336
+      },
+      "size": {
+        "width": 158,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "gMrX5600JqFDplriq-eU3",
+      "type": "subtopic",
+      "label": "ロードマップ",
+      "position": {
+        "x": -9.638187271993502,
+        "y": 2482.2548214022336
+      },
+      "size": {
+        "width": 303,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "短期的・長期的ビジョンを設定し,計画を立てることで, 行動すべきステップを決定し,全体全体に自分の位置を理解し, 日常の課題を優先する助けになります.",
+        "links": []
+      }
+    },
+    {
+      "id": "ruPXxVwmD9vSlS7rBZmA-",
+      "type": "subtopic",
+      "label": "マイルストーン",
+      "position": {
+        "x": 104.3618127280065,
+        "y": 2482.2548214022336
+      },
+      "size": {
+        "width": 303,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "プロジェクト管理において大きなエピックスとして機能するマイルストーンを ロードマップの助けを借りて定義してください. これらのマイルストーンは,あなたの進捗状況を理解するのに役立ちます.",
+        "links": []
+      }
+    },
+    {
+      "id": "i39J0fk4DaPeNFIMbH0ap",
+      "type": "subtopic",
+      "label": "チケット販売",
+      "position": {
+        "x": 222.3618127280065,
+        "y": 2482.2548214022336
+      },
+      "size": {
+        "width": 303,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ジラ,トレロ,ギットハブなどのチケット販売ソフトウェアを使用して,あなたの日常的な進捗状況を簡単に追跡できます.これは他の方々が機能提案やバグレポートを簡単に提出できるようにします.",
+        "links": []
+      }
+    },
+    {
+      "id": "ZnwVo1kqK9awZCwFd2Vti",
+      "type": "label",
+      "label": "分析",
+      "position": {
+        "x": 113.8618127280065,
+        "y": 2549.2548214022336
+      },
+      "size": {
+        "width": 84,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "G8dOkM_4hP7wPF3QJ8y4g",
+      "type": "subtopic",
+      "label": "構成要素分析",
+      "position": {
+        "x": -10.31750693044279,
+        "y": 2601.2548214022336
+      },
+      "size": {
+        "width": 303,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "コンポーネントの使用を追跡する.開発のために,Figmaのデザインシステムアナリティクスのような内蔵ツールを使用できます.最終製品については,技術によってプラットフォームごとに別々の追跡方法があります.",
+        "links": []
+      }
+    },
+    {
+      "id": "xYqDmDpjwkShtL86nt-vY",
+      "type": "subtopic",
+      "label": "伐採",
+      "position": {
+        "x": 219.6824930695572,
+        "y": 2601.2548214022336
+      },
+      "size": {
+        "width": 303,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "部品関連障害を追跡し特定する方法を実装してください.",
+        "links": []
+      }
+    },
+    {
+      "id": "qiJGYYWL4naJX-MgZA9Ms",
+      "type": "subtopic",
+      "label": "ツール分析",
+      "position": {
+        "x": -10.31750693044279,
+        "y": 2654.2548214022336
+      },
+      "size": {
+        "width": 303,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "デザイン システム に は どんな ツール が 使われている か を 追跡 する.どの ツール が 最も 使われている か,どの 機能 が 最も 人気 で ある か を 調べる.",
+        "links": []
+      }
+    },
+    {
+      "id": "5znnOkpf9G9tdiMWB6Rut",
+      "type": "subtopic",
+      "label": "サービスと健康の指標",
+      "position": {
+        "x": -10.31750693044279,
+        "y": 2707.2548214022336
+      },
+      "size": {
+        "width": 303,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "デザインシステムにおけるサービスと健康の指標を定義し,その基準を設定して,あなたがどれだけうまくやっているかを示します.一般的な例は,チケットが閉鎖された数,改善された数,バグが修正された数です.",
+        "links": []
+      }
+    },
+    {
+      "id": "TM0coCBRbsUVXRNb--KnY",
+      "type": "label",
+      "label": "通信",
+      "position": {
+        "x": 108.33384908709439,
+        "y": 2779.4551467174065
+      },
+      "size": {
+        "width": 144,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "eG8ranXuINtcqWfeMH5GW",
+      "type": "subtopic",
+      "label": "会議",
+      "position": {
+        "x": -9.638187271993502,
+        "y": 2819.4551467174065
+      },
+      "size": {
+        "width": 303,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "デザイン システム を 使っ て いる すべて の 人 と コミュニティ 会議 を 開催 し,知識 を 共有 し,コミュニティ 感覚 を 改善 する 提案 を する.",
+        "links": []
+      }
+    },
+    {
+      "id": "LWrrKrhwXfMDKgbFW5DuO",
+      "type": "subtopic",
+      "label": "通信チャンネル",
+      "position": {
+        "x": -9.638187271993502,
+        "y": 2872.4551467174065
+      },
+      "size": {
+        "width": 303,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "製品開発のほとんどは デジタルで行われますので デジタルチャネルを作って 人々が問いかけることができるのです",
+        "links": []
+      }
+    },
+    {
+      "id": "YWoPoO9IW3vLZyxLL2fnT",
+      "type": "subtopic",
+      "label": "営業時間",
+      "position": {
+        "x": -9.638187271993502,
+        "y": 2925.4551467174065
+      },
+      "size": {
+        "width": 303,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "公開時間を作って,よりプライベートな環境で聴衆を巻き込むことができ,もっと詳細に話し合うことができます.また,ピア・コーディングやピア・デザインの機会として利用できます.",
+        "links": []
+      }
+    },
+    {
+      "id": "cpAeotBxN8BCsU9RqTEue",
+      "type": "subtopic",
+      "label": "常見問題",
+      "position": {
+        "x": 236.6824930695572,
+        "y": 2925.4551467174065
+      },
+      "size": {
+        "width": 303,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "聴衆がよく尋ねる質問を 特定して 発見可能な場所に記録してください",
+        "links": []
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "xy-edge__HU7wZWiES3m3xl1-NYP6Fx2-08qKtgnhJ3tlb5JKfTDf5w1",
+      "source": "HU7wZWiES3m3xl1-NYP6F",
+      "target": "uvnV1IjE8RV-FKDxHntUU",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__4U-HZQGH7kaWCB94Xy8Mhz2-2rlmLn_yQQV-7DpX1qT98y2",
+      "source": "uvnV1IjE8RV-FKDxHntUU",
+      "target": "2rlmLn_yQQV-7DpX1qT98",
+      "source_handle": "z2",
+      "target_handle": "y2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__4U-HZQGH7kaWCB94Xy8Mhz2-cMfsRtvzvDZZJ0TqeUOxmy1",
+      "source": "uvnV1IjE8RV-FKDxHntUU",
+      "target": "4PrkkoZ5fY-oow0O-bVhu",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__4U-HZQGH7kaWCB94Xy8Mhz2-VhSEH_RoWFt1z2lial7xZy2",
+      "source": "uvnV1IjE8RV-FKDxHntUU",
+      "target": "J5mU0v491qrm-mr1W3Msd",
+      "source_handle": "z2",
+      "target_handle": "y2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__JfXwzkN29UGz17FYHHE3Az2-6r9XbwlBtHmJrhviG2cTDy2",
+      "source": "uvnV1IjE8RV-FKDxHntUU",
+      "target": "6r9XbwlBtHmJrhviG2cTD",
+      "source_handle": "z2",
+      "target_handle": "y2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__JfXwzkN29UGz17FYHHE3Az2-ODQ8zrHc2rsc8PN-APKvzy1",
+      "source": "uvnV1IjE8RV-FKDxHntUU",
+      "target": "_3_tFOpQisx6DSP4Yc2E2",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__JfXwzkN29UGz17FYHHE3Az2-ODQ8zrHc2rsc8PN-APKvzy1",
+      "source": "uvnV1IjE8RV-FKDxHntUU",
+      "target": "hauTvrBOAHgrUnO_m_kDM",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__uvnV1IjE8RV-FKDxHntUUx2-JfXwzkN29UGz17FYHHE3Aw2",
+      "source": "uvnV1IjE8RV-FKDxHntUU",
+      "target": "de0TKvmFTDmKGZc5X7iFq",
+      "source_handle": "x2",
+      "target_handle": "w2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__JfXwzkN29UGz17FYHHE3Ay2-97cpJyKBKNAq1P_pQZH-tz2",
+      "source": "de0TKvmFTDmKGZc5X7iFq",
+      "target": "97cpJyKBKNAq1P_pQZH-t",
+      "source_handle": "y2",
+      "target_handle": "z2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__vJ4WytrzY7j10mo8S3O1uz2-JfXwzkN29UGz17FYHHE3Ay1",
+      "source": "vJ4WytrzY7j10mo8S3O1u",
+      "target": "de0TKvmFTDmKGZc5X7iFq",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__JfXwzkN29UGz17FYHHE3Ay2-fPUuXrlchna3K00KcY4O6z1",
+      "source": "de0TKvmFTDmKGZc5X7iFq",
+      "target": "fPUuXrlchna3K00KcY4O6",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__kifE3JE2immnU1O3-toZfz2-JfXwzkN29UGz17FYHHE3Ay1",
+      "source": "kifE3JE2immnU1O3-toZf",
+      "target": "de0TKvmFTDmKGZc5X7iFq",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__JfXwzkN29UGz17FYHHE3Ay2-mlBzJ2YvBr9QuOthKdj0pz1",
+      "source": "de0TKvmFTDmKGZc5X7iFq",
+      "target": "mlBzJ2YvBr9QuOthKdj0p",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__JfXwzkN29UGz17FYHHE3Ay2-7xPT8rUX3hjSWbxH_FfQsz1",
+      "source": "de0TKvmFTDmKGZc5X7iFq",
+      "target": "7xPT8rUX3hjSWbxH_FfQs",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__4dzoZmkNHPedgLqLy93t8z2-JfXwzkN29UGz17FYHHE3Ay2",
+      "source": "4dzoZmkNHPedgLqLy93t8",
+      "target": "de0TKvmFTDmKGZc5X7iFq",
+      "source_handle": "z2",
+      "target_handle": "y2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__jETJVuS_EczJiQASLqaQrz2-JfXwzkN29UGz17FYHHE3Ay1",
+      "source": "jETJVuS_EczJiQASLqaQr",
+      "target": "de0TKvmFTDmKGZc5X7iFq",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__cMfsRtvzvDZZJ0TqeUOxmz2-JfXwzkN29UGz17FYHHE3Ay1",
+      "source": "lUObv2N7eH3Jdnwwd5vmI",
+      "target": "de0TKvmFTDmKGZc5X7iFq",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__de0TKvmFTDmKGZc5X7iFqx2-JfXwzkN29UGz17FYHHE3Aw1",
+      "source": "de0TKvmFTDmKGZc5X7iFq",
+      "target": "dUaoMARPabiD4DRqdkaer",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__JfXwzkN29UGz17FYHHE3Az2--9I3fTpnQlmcZmIIuQiPey1",
+      "source": "dUaoMARPabiD4DRqdkaer",
+      "target": "-9I3fTpnQlmcZmIIuQiPe",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__JfXwzkN29UGz17FYHHE3Az2-ODQ8zrHc2rsc8PN-APKvzy2",
+      "source": "dUaoMARPabiD4DRqdkaer",
+      "target": "z5gBy7BjlBKwbYbxXtoDA",
+      "source_handle": "z2",
+      "target_handle": "y2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__dUaoMARPabiD4DRqdkaerx2-JfXwzkN29UGz17FYHHE3Aw1",
+      "source": "dUaoMARPabiD4DRqdkaer",
+      "target": "8eWhvW2zDIxMGHaXl0Y9i",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__JfXwzkN29UGz17FYHHE3Ay2-ILRDAnpfGHCZq-FBlbfDOz1",
+      "source": "8eWhvW2zDIxMGHaXl0Y9i",
+      "target": "ILRDAnpfGHCZq-FBlbfDO",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__JfXwzkN29UGz17FYHHE3Ay2-pRJ9wEPNfFx_6EYB501vkz1",
+      "source": "8eWhvW2zDIxMGHaXl0Y9i",
+      "target": "pRJ9wEPNfFx_6EYB501vk",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__JfXwzkN29UGz17FYHHE3Ay2-cMfsRtvzvDZZJ0TqeUOxmz1",
+      "source": "8eWhvW2zDIxMGHaXl0Y9i",
+      "target": "-b4GjLpL_ppDMJSiChTef",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__zSv63LkcNpHjAMB4eZewEx2-JfXwzkN29UGz17FYHHE3Aw1",
+      "source": "zSv63LkcNpHjAMB4eZewE",
+      "target": "JnaNZ9MfMrXQrjW2wABzB",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__JnaNZ9MfMrXQrjW2wABzBx2-JfXwzkN29UGz17FYHHE3Aw1",
+      "source": "JnaNZ9MfMrXQrjW2wABzB",
+      "target": "a53cl6ZKvYXxG25Ii2_zu",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__TWx2jJqOyI3CXCOTQ106_y2-JfXwzkN29UGz17FYHHE3Az2",
+      "source": "TWx2jJqOyI3CXCOTQ106_",
+      "target": "JfXwzkN29UGz17FYHHE3A",
+      "source_handle": "y2",
+      "target_handle": "z2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    }
+  ],
+  "content_crawled_at": "2026-04-06T09:20:49.108559+00:00"
+}

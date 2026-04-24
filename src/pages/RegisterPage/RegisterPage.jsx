@@ -2,11 +2,13 @@ import { useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import { UserPlus, Eye, EyeOff, AlertCircle } from 'lucide-react'
 import { useAuth } from '../../contexts/AuthContext'
+import { useLocale } from '../../contexts/LocaleContext'
 import styles from './RegisterPage.module.css'
 
 export default function RegisterPage() {
   const navigate = useNavigate()
   const { register } = useAuth()
+  const { t } = useLocale()
 
   const [username, setUsername] = useState('')
   const [email, setEmail] = useState('')
@@ -22,22 +24,22 @@ export default function RegisterPage() {
 
     // Validation
     if (!username.trim() || !email.trim() || !password || !confirmPassword) {
-      setError('Please fill in all fields')
+      setError(t('authRegister.errors.fillAll'))
       return
     }
 
     if (username.trim().length < 3) {
-      setError('Username must be at least 3 characters')
+      setError(t('authRegister.errors.usernameMin'))
       return
     }
 
     if (password.length < 6) {
-      setError('Password must be at least 6 characters')
+      setError(t('authRegister.errors.passwordMin'))
       return
     }
 
     if (password !== confirmPassword) {
-      setError('Passwords do not match')
+      setError(t('authRegister.errors.passwordMismatch'))
       return
     }
 
@@ -61,8 +63,8 @@ export default function RegisterPage() {
             <div className={styles.iconWrap}>
               <UserPlus size={24} />
             </div>
-            <h1 className={styles.title}>Create Account</h1>
-            <p className={styles.subtitle}>Start tracking your developer journey</p>
+            <h1 className={styles.title}>{t('authRegister.title')}</h1>
+            <p className={styles.subtitle}>{t('authRegister.subtitle')}</p>
           </div>
 
           {/* Error */}
@@ -77,13 +79,13 @@ export default function RegisterPage() {
           <form onSubmit={handleSubmit} className={styles.form} id="register-form">
             <div className={styles.field}>
               <label className={styles.label} htmlFor="username">
-                Username
+                {t('authRegister.usernameLabel')}
               </label>
               <input
                 id="username"
                 type="text"
                 className={styles.input}
-                placeholder="Choose a username"
+                placeholder={t('authRegister.usernamePlaceholder')}
                 value={username}
                 onChange={(e) => setUsername(e.target.value)}
                 autoComplete="username"
@@ -93,7 +95,7 @@ export default function RegisterPage() {
 
             <div className={styles.field}>
               <label className={styles.label} htmlFor="email">
-                Email
+                {t('authRegister.emailLabel')}
               </label>
               <input
                 id="email"
@@ -108,14 +110,14 @@ export default function RegisterPage() {
 
             <div className={styles.field}>
               <label className={styles.label} htmlFor="password">
-                Password
+                {t('authRegister.passwordLabel')}
               </label>
               <div className={styles.inputWrap}>
                 <input
                   id="password"
                   type={showPassword ? 'text' : 'password'}
                   className={styles.input}
-                  placeholder="At least 6 characters"
+                  placeholder={t('authRegister.passwordPlaceholder')}
                   value={password}
                   onChange={(e) => setPassword(e.target.value)}
                   autoComplete="new-password"
@@ -133,13 +135,13 @@ export default function RegisterPage() {
 
             <div className={styles.field}>
               <label className={styles.label} htmlFor="confirmPassword">
-                Confirm Password
+                {t('authRegister.confirmPasswordLabel')}
               </label>
               <input
                 id="confirmPassword"
                 type={showPassword ? 'text' : 'password'}
                 className={styles.input}
-                placeholder="Re-enter your password"
+                placeholder={t('authRegister.confirmPasswordPlaceholder')}
                 value={confirmPassword}
                 onChange={(e) => setConfirmPassword(e.target.value)}
                 autoComplete="new-password"
@@ -152,15 +154,15 @@ export default function RegisterPage() {
               disabled={loading}
               id="register-submit"
             >
-              {loading ? 'Creating Account...' : 'Create Account'}
+              {loading ? t('authRegister.creating') : t('authRegister.createAccount')}
             </button>
           </form>
 
           {/* Footer */}
           <div className={styles.footer}>
-            <span className={styles.footerText}>Already have an account?</span>
+            <span className={styles.footerText}>{t('authRegister.hasAccount')}</span>
             <Link to="/login" className={styles.footerLink}>
-              Sign In
+              {t('authRegister.signIn')}
             </Link>
           </div>
         </div>

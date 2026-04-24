@@ -1,0 +1,6148 @@
+{
+  "id": "rust",
+  "title": "腐蝕",
+  "source_url": "https://roadmap.sh/rust",
+  "github_url": "https://github.com/kamranahmedse/developer-roadmap/tree/master/src/data/roadmaps/rust",
+  "crawled_at": "2026-04-06T07:37:47.307106+00:00",
+  "type": "flow",
+  "stats": {
+    "total_nodes": 171,
+    "total_edges": 37,
+    "nodes_with_content": 120
+  },
+  "node_types": [
+    "button",
+    "horizontal",
+    "label",
+    "linksgroup",
+    "paragraph",
+    "section",
+    "subtopic",
+    "title",
+    "topic",
+    "vertical"
+  ],
+  "edge_styles": [
+    "dashed",
+    "solid"
+  ],
+  "edge_line_types": [
+    "default",
+    "smoothstep"
+  ],
+  "node_type_description": {
+    "title": "ロードマップの主題",
+    "topic": "主題大 (nhóm kỹ năng)",
+    "subtopic": "Kỹ năng/công nghệ cụ thể cần học",
+    "paragraph": "文は mô tả / chú thích",
+    "vertical": "Đường kết nối dọc (ビジュアルコネクタ)"
+  },
+  "edge_style_description": {
+    "solid": "Kỹ năng bắt buộc / quan trọng",
+    "dashed": "選択 / gợi ý / オルタナティブ"
+  },
+  "nodes": [
+    {
+      "id": "rUrQuzfx0d3m8ikW8zqYW",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": 259.08542331133776,
+        "y": 2989.863187593087
+      },
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "KoqpyorKd1eaw1oaJFDOl",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": 122.58542331133776,
+        "y": 2989.863187593087
+      },
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "Ox1rQuCaV-vAnC00DDOgc",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": 263.8018811735381,
+        "y": 2599.435641912534
+      },
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "9gAM0HHc7BjiI_57YohcR",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": 112.64941537716832,
+        "y": 2599.435641912534
+      },
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "wwwGrtZtMCvNAsHcV6iTp",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": -274.0874712538206,
+        "y": 2612.435641912534
+      },
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "MI-EBA-E6XSFHvcwTGVSX",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": -188.2592360689243,
+        "y": 2612.435641912534
+      },
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "OSwj7Vb5wZ0NYRbwyv9Fa",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": -94.81180589576024,
+        "y": 2612.435641912534
+      },
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "g_55QGdPXDqpegvW-Ory8",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": -665.6322659713495,
+        "y": 2685.435641912534
+      },
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "zGOEt71ky7va_Wsd-Z0DI",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": -568.2748410324898,
+        "y": 2681.435641912534
+      },
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "DYCWEBzyai0biBdJNKpcb",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": -475.1322659713495,
+        "y": 2680.435641912534
+      },
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "djbcwu0u-S1s-6KsItcVb",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": -476.91948266035604,
+        "y": 2445.7871651675737
+      },
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "AQLvE8HuoruqfQaWUmUbA",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": -662.2748410324898,
+        "y": 2462.255858255128
+      },
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "_BUGCGhl3YZmYwMFjF8EQ",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": -124.1381872719935,
+        "y": 2318.50200658478
+      },
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "ZyzVpBl6GnmYA9D8jw0RZ",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": -249.7748410324898,
+        "y": 2318.50200658478
+      },
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "dtTAH6laZUBK5Dz1YLSFp",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": 87.58542331133775,
+        "y": 2328.50200658478
+      },
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "QBQtHQmySwZy2ZCdpTzly",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": 187.58542331133776,
+        "y": 2328.50200658478
+      },
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "FGUbNtBQHC9af26mD5gAv",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": 289.58542331133776,
+        "y": 2328.50200658478
+      },
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "jW6BXzMs6fb7cDnEZtg4n",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": 300.8018811735381,
+        "y": 2041.550309464411
+      },
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "TMjwWmqqaJLGk3dM4wUCm",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": 197.3018811735381,
+        "y": 2041.550309464411
+      },
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "6elkyME3Q_vTtjnmBJIZJ",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": 84.61996452082155,
+        "y": 2041.550309464411
+      },
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "4SufzURM37h3CKmPcQhgu",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": -96.6381872719935,
+        "y": 2143.559081382036
+      },
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "7WUhiHKUnamVl-J-qZcI8",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": -176.81180589576024,
+        "y": 2143.559081382036
+      },
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "ZwAjxTmMGbDF6A5v_o8HV",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": -267.52995834089336,
+        "y": 2143.559081382036
+      },
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "Lty8FW95Qw4eaQwrvgFft",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": -553.2748410324898,
+        "y": 2143.559081382036
+      },
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "--B8QrLgIH-l67iomugbW",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": -450.6768832445764,
+        "y": 2143.559081382036
+      },
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "IrJJ-xM83ltSp4meGT6Gm",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": -654.1322659713495,
+        "y": 2143.559081382036
+      },
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "3nPTKH467-g4N0YBW0zpb",
+      "type": "horizontal",
+      "label": "ホリゾントノード",
+      "position": {
+        "x": -506.45066814637346,
+        "y": 1648.7461547010141
+      },
+      "size": {
+        "width": 50,
+        "height": 20
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.65
+      },
+      "z_index": 999
+    },
+    {
+      "id": "oMiptPao4a2q92LjCy2NC",
+      "type": "horizontal",
+      "label": "ホリゾントノード",
+      "position": {
+        "x": -189.45066814637346,
+        "y": 1628.7461547010141
+      },
+      "size": {
+        "width": 50,
+        "height": 20
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.65
+      },
+      "z_index": 999
+    },
+    {
+      "id": "gJbwBCJ4gnRTxZBI70WdQ",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": -196.81180589576024,
+        "y": 1473.339181586816
+      },
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.65
+      },
+      "z_index": 999
+    },
+    {
+      "id": "p3pDkuT1eGPgzMjrvXPh_",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": 205.11996452082155,
+        "y": 1648.7461547010141
+      },
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "utVj1oJEgIbwc21I6L0u5",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": 210.93775495655632,
+        "y": 1130.0353435831921
+      },
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "cq9nRpKmmRHuXHs2xBWJl",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": -216.8175069304428,
+        "y": 876.3984712635258
+      },
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.65,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "CnTH2dKlQCHe2otZjB_rt",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": -216.8175069304428,
+        "y": 699.6235753518292
+      },
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.75
+      },
+      "z_index": 999
+    },
+    {
+      "id": "1qgNC-F2wRmAE-UbQ1tzZ",
+      "type": "horizontal",
+      "label": "ホリゾントノード",
+      "position": {
+        "x": -356.7748410324898,
+        "y": 321.40454436142437
+      },
+      "size": {
+        "width": 50,
+        "height": 20
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "2Agwu9c_rJzdNjV4DUaFx",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": -709.7748410324898,
+        "y": 68.7294762338152
+      },
+      "size": {
+        "width": 150,
+        "height": 100
+      },
+      "style": {
+        "fontSize": 17,
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "w33P_0jGA6CV8uKi_d-bt",
+      "type": "horizontal",
+      "label": "ホリゾントノード",
+      "position": {
+        "x": -161.6381872719935,
+        "y": 150.9393516042962
+      },
+      "size": {
+        "width": 50,
+        "height": 20
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "xMeeAFhcYrR_hjli3QOam",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": 9.04933185362654,
+        "y": 138.4642163827375
+      },
+      "size": {
+        "width": 150,
+        "height": 100
+      },
+      "style": {
+        "fontSize": 17,
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "HU7wZWiES3m3xl1-NYP6F",
+      "type": "title",
+      "label": "腐蝕",
+      "position": {
+        "x": -255.8175069304428,
+        "y": -38.879087788307686
+      },
+      "size": {
+        "width": 98,
+        "height": 68
+      },
+      "style": {
+        "fontSize": 28,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "uqyE79OItPOX33E5FoGel",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": -216.8175069304428,
+        "y": -133.0992517776511
+      },
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.75,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "4U-HZQGH7kaWCB94Xy8Mh",
+      "type": "topic",
+      "label": "序言",
+      "position": {
+        "x": -298.8175069304428,
+        "y": 136.4393516042962
+      },
+      "size": {
+        "width": 137,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Rust は,性能,安全性,並行性に焦点を当てた近代的なシステムプログラミング言語である.ゴミ収集器なしでこれらの目標を達成し,他の言語が上手くいかないいくつかの使用例のために有用な言語となっています.その構文はC++に似ているが,Rustは高い性能を維持しながらより良いメモリセキュリティを提供します.",
+        "links": [
+          {
+            "title": "ラスト プログラミング 言語",
+            "url": "https://www.rust-lang.org/",
+            "type": "official"
+          },
+          {
+            "title": "模範 に よっ て 腐る",
+            "url": "https://doc.rust-lang.org/stable/rust-by-example/index.html",
+            "type": "official"
+          },
+          {
+            "title": "腐朽図書",
+            "url": "https://edu.anarcho-copy.org/Programming%20Languages/Rust/rust-programming-language-steve-klabnik.pdf",
+            "type": "opensource"
+          },
+          {
+            "title": "ロストブックインタラクティブ",
+            "url": "https://rust-book.cs.brown.edu/experiment-intro.html",
+            "type": "opensource"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cMfsRtvzvDZZJ0TqeUOxm",
+      "type": "subtopic",
+      "label": "ラストとは何か?",
+      "position": {
+        "x": 9.861812728006498,
+        "y": 83.4393516042962
+      },
+      "size": {
+        "width": 284,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Rust は,性能,安全性,並行性に焦点を当てた近代的なシステムプログラミング言語である.ゴミ収集器なしでこれらの目標を達成し,他の言語が上手くいかないいくつかの使用例のために有用な言語となっています.その構文はC++に似ているが,Rustは高い性能を維持しながらより良いメモリセキュリティを提供します.",
+        "links": [
+          {
+            "title": "汚れって?",
+            "url": "https://doc.rust-lang.org/stable/rust-by-example/index.html",
+            "type": "official"
+          },
+          {
+            "title": "ラスト プログラミング 言語",
+            "url": "https://www.rust-lang.org/",
+            "type": "official"
+          },
+          {
+            "title": "ラストとは何か なぜそんなに人気があるのか?",
+            "url": "https://stackoverflow.blog/2020/01/20/what-is-rust-and-why-is-it-so-popular/",
+            "type": "article"
+          },
+          {
+            "title": "ラストとは何か?",
+            "url": "https://www.youtube.com/watch?v=R33h77nrMqc",
+            "type": "video"
+          },
+          {
+            "title": "Rust に関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/rust?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ef-jFKMs8jw3Ti94jem96",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": -187.22896441825404,
+        "y": 3284.899845583502
+      },
+      "size": {
+        "width": 21,
+        "height": 74
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "VhSEH_RoWFt1z2lial7xZ",
+      "type": "subtopic",
+      "label": "Rustはなぜ使われますか?",
+      "position": {
+        "x": 173.04933185362654,
+        "y": 83.4393516042962
+      },
+      "size": {
+        "width": 284,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Rust は,ゼロコスト抽象に焦点を当ててメモリ安全性,同期性,パフォーマンスを提供することを目的としたシステムプログラミング言語である.最初はMozilla ResearchのGraydon Hoareによって作成され,JavaScriptのクリエイターであるBrendan Eichの貢献により作成された.Rustは,一般的なプログラミング言語問題へのソリューションのために評価されています.安全性,速度,同期プログラミングのサポートへの重点,および強力なタイプシステムは,開発者がRustを選択する理由のほんの一部です.",
+        "links": [
+          {
+            "title": "汚れって?",
+            "url": "https://doc.rust-lang.org/stable/rust-by-example/index.html",
+            "type": "official"
+          },
+          {
+            "title": "ラスト プログラミング 言語",
+            "url": "https://www.rust-lang.org/",
+            "type": "official"
+          },
+          {
+            "title": "ラストとは何か?",
+            "url": "https://www.youtube.com/watch?v=R33h77nrMqc",
+            "type": "video"
+          },
+          {
+            "title": "あなたの上司にRustを使うように説得してください",
+            "url": "https://www.youtube.com/playlist?list=PLZaoyhMXgBzqkaLKR8HHWZaASMvW4gRtZ",
+            "type": "video"
+          },
+          {
+            "title": "100秒で腐る",
+            "url": "https://www.youtube.com/watch?v=5C_HPTJg5ek&pp=ygUNcnVzdCBmaXJlYmFzZQ%3D%3D",
+            "type": "video"
+          },
+          {
+            "title": "Rust に関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/rust?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "OSaXhs52pEviq0EpWXxVX",
+      "type": "label",
+      "label": "環境設定",
+      "position": {
+        "x": 100.54933185362654,
+        "y": 149.90454436142437
+      },
+      "size": {
+        "width": 162,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "-IqA02ObYvXPW1ot6t_b9",
+      "type": "subtopic",
+      "label": "と貨物 の 設置",
+      "position": {
+        "x": 28.54933185362654,
+        "y": 192.90454436142437
+      },
+      "size": {
+        "width": 239,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Rust をインストールするには,Rust の公式ウェブサイトにナビゲートして,オペレーティング システムに適切なインストール ファイル (または適切な端末 コマンドを実行) をダウンロードします. `rustup` をインストールします.これは,あなたのコア Rust ツールリングをインストール,更新,管理するための好みのツールです. Linux や MacOS のような UNIX システムでは,インストールは端末で単一のコマンドを実行するように簡単です. Windows では,実行する必要があります \".exe\" のインストーラーが提供されます.詳細の指示は,ウェブサイトのダウンロードページで見ることができます.",
+        "links": [
+          {
+            "title": "ラスト プログラミング 言語",
+            "url": "https://www.rust-lang.org",
+            "type": "official"
+          },
+          {
+            "title": "ロストを設置する",
+            "url": "https://www.rust-lang.org/tools/install",
+            "type": "official"
+          },
+          {
+            "title": "インストール - 腐朽 の プログラミング 言語",
+            "url": "https://doc.rust-lang.org/book/ch01-01-installation.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "oyP1ZyOgDC4nYEQXHwdVQ",
+      "type": "subtopic",
+      "label": "IDE と 防腐 ツール チェーン",
+      "position": {
+        "x": 28.54933185362654,
+        "y": 246.90454436142437
+      },
+      "size": {
+        "width": 242,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Rust プログラミング言語では,いくつかの統合開発環境 (IDE) と編集者が大きなサポートを提供します.Visual Studio Code は\"Rust Language Server\"または\"Rust-Analyzer\"プラグインを通じてRust をサポートしているため,Rust 開発者間で非常に好まれています.また,Rust にネイティブサポートを提供する JetBrains のRust 開発のための専用IDEであるRustRover と Editor Zed です.さらに,Sublime はそれぞれのRust 強化プラグインとともに使用されています.より端末を中心としたアプローチのために,Vim と Emacs はRust モードで装備されています.これらのIDE と編集者はRust プログラミングに役立つ自動完成,文法強調,デバッグツールなどのさまざまな機能を提供しています.",
+        "links": [
+          {
+            "title": "ビジュアルスタジオコード",
+            "url": "https://code.visualstudio.com",
+            "type": "official"
+          },
+          {
+            "title": "ローストローバー",
+            "url": "https://www.jetbrains.com/rust/",
+            "type": "official"
+          },
+          {
+            "title": "Zed編集者",
+            "url": "https://zed.dev",
+            "type": "official"
+          },
+          {
+            "title": "バイム",
+            "url": "https://www.vim.org",
+            "type": "official"
+          },
+          {
+            "title": "エマックス",
+            "url": "https://www.gnu.org/software/emacs/",
+            "type": "official"
+          },
+          {
+            "title": "崇高 な 文字",
+            "url": "https://www.sublimetext.com",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "eYCNYtwXBjZwcPUe7QYZ-",
+      "type": "subtopic",
+      "label": "ラスト REPL (ラスト遊び場)",
+      "position": {
+        "x": 28.54933185362654,
+        "y": 300.90454436142437
+      },
+      "size": {
+        "width": 271,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`Rust REPL` (Read-Eval-Print-Loop) は,リアルタイムでRustのスニペットを書き,テストできるインタラクティブなシェルです.Rustで通常プログラムを実行するのとは異なり,プログラムを手動でコンパイルして実行する必要があります.REPLは,入力を自動的に評価し,実行後すぐに結果が返されます.これはRustコードを実験し,言語を学習し,デバッグする際に役立ちます.REPLはRustに直接組み込まれていません.しかし,第三者のツール,例えば `evcxr_repl` を介して利用できます.",
+        "links": [
+          {
+            "title": "腐った遊び場",
+            "url": "https://play.rust-lang.org/",
+            "type": "official"
+          },
+          {
+            "title": "GDB で Rust アプリをデバッグする",
+            "url": "https://blog.logrocket.com/debugging-rust-apps-with-gdb/",
+            "type": "article"
+          },
+          {
+            "title": "ステン-lldb で ステン-lldb を デバッグ する",
+            "url": "https://dev.to/bmatcuk/debugging-rust-with-rust-lldb-j1f",
+            "type": "article"
+          },
+          {
+            "title": "REPLとJupyterノートブックでインタラクティブなルスト",
+            "url": "https://depth-first.com/articles/2020/09/21/interactive-rust-in-a-repl-and-jupyter-notebook-with-evcxr/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "fqzj-7vQ3Chj0HlamBI2-",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": -16.638187271993502,
+        "y": 83.4393516042962
+      },
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.75
+      },
+      "z_index": 999
+    },
+    {
+      "id": "6E4pGifNfSAq6SbzfzFNT",
+      "type": "topic",
+      "label": "言語の基礎",
+      "position": {
+        "x": -298.8175069304428,
+        "y": 306.90454436142437
+      },
+      "size": {
+        "width": 178,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Rust 言語の基礎は,文法と意味法,変数とデータタイプ,制御フロー (ループと条件) および関数を含む基本的なプログラミングコンセプトをカバーする.これらの要素は,効果的な Rust コードを書く基礎を形成し,コードセグメントの構造と再利用方法を理解する.",
+        "links": [
+          {
+            "title": "序言 - 例え に よっ て 腐る",
+            "url": "https://doc.rust-lang.org/stable/rust-by-example/",
+            "type": "official"
+          },
+          {
+            "title": "2025 年 に 腐り を 学ぶ 方法: 初心 者 の 完全 な ガイド",
+            "url": "https://blog.jetbrains.com/rust/2024/09/20/how-to-learn-rust/",
+            "type": "article"
+          },
+          {
+            "title": "Rust に関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/rust?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "fJH8kw4_0b2BDI1vozwY7",
+      "type": "label",
+      "label": "文法と意味論",
+      "position": {
+        "x": -624.9579568300146,
+        "y": 82.0310613003135
+      },
+      "size": {
+        "width": 185,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "Gw5E21W5zis-RUIgNSEV2",
+      "type": "subtopic",
+      "label": "変数,データタイプ,常数",
+      "position": {
+        "x": -692.9579568300146,
+        "y": 135.0310613003135
+      },
+      "size": {
+        "width": 320,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Rustでは,変数は `let`キーワードを使用して宣言されます.すべての変数はデフォルトで変わらないので,値が変数に結合すると,変更することはできません.変数を変数したい場合は, `mut`キーワードを使用します.したがって,変数を `x`と宣言し,値を `5`と割り当てたい場合は, `let mut x = 5;` と書くことができます.変数はパターン化することもできます.デフォルトでは,変数はブロックスケープされます.Rustはまたいくつかの種類の変数属性をサポートします.",
+        "links": [
+          {
+            "title": "変数と変容性",
+            "url": "https://doc.rust-lang.org/book/ch03-01-variables-and-mutability.html",
+            "type": "official"
+          },
+          {
+            "title": "データタイプ",
+            "url": "https://doc.rust-lang.org/book/ch03-02-data-types.html",
+            "type": "official"
+          },
+          {
+            "title": "常数",
+            "url": "https://doc.rust-lang.org/rust-by-example/custom_types/constants.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "u2wlnmE1uLaTqWw35UF0a",
+      "type": "subtopic",
+      "label": "流れと建設を制御する",
+      "position": {
+        "x": -692.9579568300146,
+        "y": 192.03106130031347
+      },
+      "size": {
+        "width": 320,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Rustでは,制御フローは, `if`, `else`, `while`, `for`, `loop`, `match`, `if let`. `if`. ```と `else`構造は,特定の条件に基づいて異なるコードブロックを実行するために使用されます.他の言語と同様に, `while`と `for`は,コードブロックをループで実行するために使用されます. `while`ループは,条件が間違っているまでコードブロックを繰り返し, `for`ループは,配列または範囲などの値集合を繰り返すために使用されます. ``ループのキーワードは, Rustは,コードブロックを繰り返し実行するために,永遠に繰り返すか,またはあなたが明確に停止するように指示するまで使用されます.Rust の `match`構造は,他の言語における 切り替える記述に似ていますが,パターンのマッチングに使用される強力なツールです. プログラマが定義した異なるケースをチェックし,マッチが見つかったブロックを実行します. `if let`構文では, `if`と `let`をより言語的な方法で組み合わせて,他のパターンを無視しながら,パターンに一致する値を扱うことができます.",
+        "links": [
+          {
+            "title": "コントロールフロー",
+            "url": "https://doc.rust-lang.org/book/ch03-05-control-flow.html",
+            "type": "official"
+          },
+          {
+            "title": "ショート制御 流動 if let",
+            "url": "https://rust-book.cs.brown.edu/ch06-03-if-let.html",
+            "type": "article"
+          },
+          {
+            "title": "腐蝕 の 中 で 制御 流 を 支配 する",
+            "url": "https://dev.to/iamdipankarpaul/mastering-control-flow-in-rust-36fd",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5hKJaMKpeFEUi3S1Hpiyk",
+      "type": "subtopic",
+      "label": "機能と方法構文",
+      "position": {
+        "x": -692.9579568300146,
+        "y": 249.03106130031352
+      },
+      "size": {
+        "width": 320,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Rustでは,関数は `fn`キーワードを使用して宣言されます.各関数は指定型の入力変数を集めて,指定型のデータを返すことができます.関数のボディは,丸い括弧の中に含まれます.他の言語とは異なり,Rustでは,ブロックの最後の文を半角で終了する必要はありません.この方法でブロックの最後の半角を省略すると,最後の文が表現になります.この表現の結果はブロックの暗黙の返金値になります.",
+        "links": [
+          {
+            "title": "機能",
+            "url": "https://doc.rust-lang.org/book/ch03-03-how-functions-work.html",
+            "type": "official"
+          },
+          {
+            "title": "腐蚀 の 機能 は 例 に よっ て 説明 さ れ て い ます",
+            "url": "https://boxoflearn.com/rust-functions-complete-guide/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "yqp3UePmSlGyOYpxITis4",
+      "type": "subtopic",
+      "label": "パターン の 匹配 と 破壊",
+      "position": {
+        "x": -692.9579568300146,
+        "y": 306.0310613003135
+      },
+      "size": {
+        "width": 320,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Rustでは\",パターンマッチング\"は,データ型を簡潔で明確な方法で破壊し,条件のチェックを行うことができる強力なツールです.パターンマッチングに使用される主な構造は,`match`と `if let`です. `match`キーワードは,一連のパターンに対して値を比較し,パターンのマッチングに基づいてコードを実行することができます.パターンは文字の値,変数の名前,ワイルドカード,その他多くのものから構成できます. `if let`構造は,単語の少ない方法で,パターンの一連のパターンよりも特定のパターンに対応する値を扱うことができます. `match`の文法上の良い砂糖です. `match`の文法. `match`の文法. `match`の文法. `match`の文法. `match`の文法. `match`の文法. `match`の文法.",
+        "links": [
+          {
+            "title": "パターン と 匹配",
+            "url": "https://doc.rust-lang.org/book/ch19-00-patterns.html",
+            "type": "official"
+          },
+          {
+            "title": "破壊",
+            "url": "https://doc.rust-lang.org/rust-by-example/flow_control/match/destructuring.html",
+            "type": "official"
+          },
+          {
+            "title": "匹配する",
+            "url": "https://doc.rust-lang.org/rust-by-example/flow_control/match.html",
+            "type": "official"
+          },
+          {
+            "title": "コントロール フロー if let",
+            "url": "https://rust-book.cs.brown.edu/ch06-03-if-let.html",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ok-T33GCsTCkB9ABDzCDG",
+      "type": "label",
+      "label": "建築物",
+      "position": {
+        "x": -585.2748410324898,
+        "y": 375.43935160429623
+      },
+      "size": {
+        "width": 99,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "FswpjWqqt8-BzUTsDDjel",
+      "type": "subtopic",
+      "label": "エナム",
+      "position": {
+        "x": -699.1322659713495,
+        "y": 425.88556487375047
+      },
+      "size": {
+        "width": 98,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "列挙の略語である enum は,すべての可能なバリエーションを1つずつ列挙することで,タイプを定義することを可能にするカスタムデータタイプです.Rustでは,何かが与えられた可能性の集合の一つである場合 (例えば, `Rock`または `Paper`または `Scissors`),おそらくそのデータを enum と表現することが適切です.例えば: `enum RpsChoice {Rock, Paper, Scissors }`. `enum`の例は,任意の時点で enum の宣言されたバリエーションの1つのみである可能性があります.他の言語の列挙とは異なり,Rust のバリエーションは単一のデータタイプに限定されません.`enum` を定義する際には,その可能な各変数に対して,その変数には追加的な埋め込みデータが含まれているかどうかを決定できます.",
+        "links": [
+          {
+            "title": "エヌム を 定義 する",
+            "url": "https://doc.rust-lang.org/book/ch06-01-defining-an-enum.html",
+            "type": "official"
+          },
+          {
+            "title": "腐り の 中 で エヌム を 理解 し 実行 する",
+            "url": "https://towardsdev.com/understanding-and-implementing-enums-in-rust-6eae37b6b5e3",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Mi9mQ-8gyDPd8Mbu1zuHt",
+      "type": "subtopic",
+      "label": "構造物",
+      "position": {
+        "x": -469.1322659713495,
+        "y": 425.88556487375047
+      },
+      "size": {
+        "width": 99,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Rustでは,構造は,関連値を一つのエンティティにまとめるために使用されるカスタマイズされたデータタイプである.構造は他のプログラミング言語のクラスに似ている.本質的に,それぞれは,複雑なデータ処理を効率化するために使用できる新しいタイプを作成します.",
+        "links": [
+          {
+            "title": "構造を定義し 設定する",
+            "url": "https://doc.rust-lang.org/book/ch05-01-defining-structs.html",
+            "type": "official"
+          },
+          {
+            "title": "腐朽 の 構造 を 理解 する: 例 を 含める 完全 な ガイド",
+            "url": "https://medium.com/@er.pwndhull07/understanding-structs-in-rust-a-complete-guide-with-examples-621bf9753b88",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "SJMuIEuHp8X6nfLb0k0TU",
+      "type": "subtopic",
+      "label": "特徴",
+      "position": {
+        "x": -593.1322659713495,
+        "y": 425.88556487375047
+      },
+      "size": {
+        "width": 87,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Rust の特性は,異なるデータ型間で共有される行動を定義する.データ型のための特性を実装することは,メソッド署名を一緒にグループ化し,あなたのタイプが必要とする行動の集合を定義する素晴らしい方法です.本質的に,特定の `トレイト`が適用されるものは,その特性の方法の行動を\"継承\"しますが,これはオブジェクト指向プログラミング言語で見られる継承とは同じではありません.特性は抽象的で,特性の例を作成することはできません.しかし,特性のタイプのポインタを定義することができ,これらは, `トレイト`を実装する任意のデータタイプを保持することができます. `トレイト`は,Xyz {...",
+        "links": [
+          {
+            "title": "特徴: 共有 行動 を 定義 する",
+            "url": "https://doc.rust-lang.org/book/ch10-02-traits.html",
+            "type": "article"
+          },
+          {
+            "title": "腐り の 特質 と 特質 の 限界 を 理解 する",
+            "url": "https://leapcell.medium.com/understanding-traits-and-trait-bounds-in-rust-d575f19dd649",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "HzWHDQZjA9OgVZEWrmhKf",
+      "type": "subtopic",
+      "label": "インプルブロック",
+      "position": {
+        "x": -699.1322659713495,
+        "y": 480.45434714576345
+      },
+      "size": {
+        "width": 133,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`impl`キーワードを使用するインプルブロックは, `struct`, `enum`,または `trait`のための **methods**の形式で **implement**の動作に使用されます.データタイプまたは特性をメソッドにしたい場合は,そのタイプまたは特性の関数を含む対応する `impl`ブロックが必要です. `self`と `Self`は, `impl`ブロックの関数の文脈で異なる意味を持つことに注意してください. `self`は,プログラム内の特定の値を表示し,メソッドを呼び出し, аргументとして表現しています. 一方, `Self`は, `impl`ブロックのデータタイプの構文であり,通常,新しいタイプの砂糖コンストラクタメソッドで使用される.",
+        "links": [
+          {
+            "title": "キーワードインプリメント",
+            "url": "https://doc.rust-lang.org/std/keyword.impl.html",
+            "type": "official"
+          },
+          {
+            "title": "メソッドシンタックス",
+            "url": "https://rust-book.cs.brown.edu/ch05-03-method-syntax.html",
+            "type": "article"
+          },
+          {
+            "title": "腐蚀: 10つの例で構造とインプラントブロックを理解する",
+            "url": "https://medium.com/@TechSavvyScribe/rust-understanding-structs-and-impl-blocks-with-10-examples-20371f90b1ed",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "LwSdC6ojcHe6z5TbudE4v",
+      "type": "label",
+      "label": "データ構造",
+      "position": {
+        "x": -603.7748410324898,
+        "y": 542.940529972459
+      },
+      "size": {
+        "width": 136,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "FHZSxSiOZYNBEz6tu8wuF",
+      "type": "subtopic",
+      "label": "整数",
+      "position": {
+        "x": -697.9579568300147,
+        "y": 590.2888446606187
+      },
+      "size": {
+        "width": 109,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Rustでは,整数とは,正数値と負数値の両方を保持する原始的なデータタイプである.Rustの整数タイプは,署名された数と署名されていない数に分けることができる. *iで表示される署名された整数とは,負,ゼロ,ポジティブな値を持つことができるもの. *uで表示される署名されていない整数には,ゼロとポジティブな値のみが含まれます.",
+        "links": [
+          {
+            "title": "Rust の整数データ型",
+            "url": "https://doc.rust-lang.org/book/ch03-02-data-types.html#integer-types",
+            "type": "official"
+          },
+          {
+            "title": "機械に依存する整数タイプ",
+            "url": "https://doc.rust-lang.org/reference/types/numeric.html#machine-dependent-integer-types",
+            "type": "official"
+          },
+          {
+            "title": "腐蚀データタイプ (例付き)",
+            "url": "https://www.programiz.com/rust/data-types#integer-type",
+            "type": "article"
+          },
+          {
+            "title": "整数型",
+            "url": "https://rust-book.cs.brown.edu/ch03-02-data-types.html#integer-types",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "bjwJCGMx5ZfrH7vz3eLS7",
+      "type": "subtopic",
+      "label": "ブール語",
+      "position": {
+        "x": -467.1322659713495,
+        "y": 590.2888446606187
+      },
+      "size": {
+        "width": 109,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Rust の `bool` 原始型は,2つの可能な状態の真実値を表示する: `true`または `false`.ブール系は,条件式記述や論理操作 (AND), `・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・ (OR), `・・・・・・・・・・・・・・ (NOT) などで使用される.整数に投げると, `true`は `1`,そして `false`は `0`になる.例: `let is_active: bool = true;`",
+        "links": [
+          {
+            "title": "ボール",
+            "url": "https://doc.rust-lang.org/std/primitive.bool.html",
+            "type": "official"
+          },
+          {
+            "title": "ブール型",
+            "url": "https://rust-book.cs.brown.edu/ch03-02-data-types.html#the-boolean-type",
+            "type": "article"
+          },
+          {
+            "title": "腐朽の教科書 - ブール人",
+            "url": "https://www.youtube.com/watch?v=t047Hseyj_k&t=388s",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "rNHHp1GgmRnKIYlZayi59",
+      "type": "subtopic",
+      "label": "浮遊船",
+      "position": {
+        "x": -580.9579568300147,
+        "y": 590.2888446606187
+      },
+      "size": {
+        "width": 92,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Rustでは, `floats`は浮動点数を表すために使用される原始的なデータタイプである. 分子構成要素を持つ数値として定義される.浮動点数はIEEE-754規格に従って表現される.Rustは浮動点数の2種類をサポートする: `f32`と `f64`.これらはそれぞれ32ビットと64ビットサイズである. * `f32` (IIEEE-754-2008) で定義された_binary32_タイプ) は単精度浮動であり,これは `f64` タイプより精度が低い. * `f64` (IIEEE-754-2008) で定義された_binary64_タイプ) は二重精度である.デフォルトタイプは `f64`である.現代では,そのの速度がほぼ同じであるため,ほぼ同じ精度が `f32`と `f64`のいずれかよりマイナス値を表現する.",
+        "links": [
+          {
+            "title": "f32",
+            "url": "https://doc.rust-lang.org/std/primitive.f32.html",
+            "type": "official"
+          },
+          {
+            "title": "IEEE-754規格",
+            "url": "https://en.wikipedia.org/wiki/IEEE_754",
+            "type": "article"
+          },
+          {
+            "title": "浮動点の種類",
+            "url": "https://rust-book.cs.brown.edu/ch03-02-data-types.html#floating-point-types",
+            "type": "article"
+          },
+          {
+            "title": "防腐の教科書 - 浮動点",
+            "url": "https://www.youtube.com/watch?v=t047Hseyj_k&t=335s",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dXMJb2wDmmh2jie1AnPoK",
+      "type": "subtopic",
+      "label": "性格",
+      "position": {
+        "x": -697.9579568300147,
+        "y": 643.2888446606187
+      },
+      "size": {
+        "width": 122,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Rust の `char` タイプは,エモジ,アクセントされた文字,およびさまざまなスクリプトを含む ASCII よりはるかに多くをサポートする Unicode Scalar Value を代表する.各 `char` はメモリで4バイト (32 ビット) を占拠し,単語の引用を使用して定義されます.例: `let文字: char = 'z';`または `let emoji: char = '';`",
+        "links": [
+          {
+            "title": "初期のタイプ",
+            "url": "https://doc.rust-lang.org/std/primitive.char.html",
+            "type": "official"
+          },
+          {
+            "title": "人格 の タイプ",
+            "url": "https://rust-book.cs.brown.edu/ch03-02-data-types.html#the-character-type",
+            "type": "article"
+          },
+          {
+            "title": "ユニコード語彙 - ユニコードスケール値",
+            "url": "https://www.unicode.org/glossary/#unicode_scalar_value",
+            "type": "article"
+          },
+          {
+            "title": "腐ったチャールタイプ",
+            "url": "https://www.youtube.com/watch?v=NZaEinuVPVg&pp=ygURY2hhciB0eXBlIGluIHJ1c3Q%3D",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "81_J7CwtUUjYPvKV_prg3",
+      "type": "subtopic",
+      "label": "トップル",
+      "position": {
+        "x": -467.1322659713495,
+        "y": 643.2888446606187
+      },
+      "size": {
+        "width": 87,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Tuples は,異なるタイプの要素を収めることができる固定サイズ集合である.ゼロベースのインデックスした点符号を用いたアクセス要素: `tuple.0`, `tuple.1`,など.例: `letデータ: (i32, f64, char) = (42, 3.14, 'x');`.",
+        "links": [
+          {
+            "title": "トップル",
+            "url": "https://doc.rust-lang.org/std/primitive.tuple.html",
+            "type": "official"
+          },
+          {
+            "title": "トップル タイプ",
+            "url": "https://rust-book.cs.brown.edu/ch03-02-data-types.html#the-tuple-type",
+            "type": "article"
+          },
+          {
+            "title": "防腐の教科書 - トップル",
+            "url": "https://www.youtube.com/watch?v=t047Hseyj_k&t=506s",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Hu1jf46OpX44nam_UvYqc",
+      "type": "subtopic",
+      "label": "弦",
+      "position": {
+        "x": -575.9579568300147,
+        "y": 643.2888446606187
+      },
+      "size": {
+        "width": 90,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Rust の `String` は,積み木に保存される,変形可能な,UTF-8 暗号化された文字列タイプである.文字列スライス (`&str`) と異なり, `String` はそのデータを所有し,変更することができます. `String::from(\"text\") `または `\"text\".to_string() `で作成します.一般的な操作は, `push_str() `, `push) `,および `+`または `!) `) マクロを連鎖します.",
+        "links": [
+          {
+            "title": "弦",
+            "url": "https://doc.rust-lang.org/std/string/struct.String.html",
+            "type": "official"
+          },
+          {
+            "title": "str",
+            "url": "https://doc.rust-lang.org/std/primitive.str.html",
+            "type": "official"
+          },
+          {
+            "title": "どういう意味ですか?",
+            "url": "https://doc.rust-lang.org/book/ch08-02-strings.html?highlight=String#what-is-a-string",
+            "type": "official"
+          },
+          {
+            "title": "腐った弦 (例で)",
+            "url": "https://www.programiz.com/rust/string",
+            "type": "article"
+          },
+          {
+            "title": "解明されたすべてのルストストリングタイプ",
+            "url": "https://www.youtube.com/watch?v=CpvzeyzgQdw&pp=ygUOc3RyaW5nIGluIHJ1c3Q%3D",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2DbdHCjFzGHwCUETakaGh",
+      "type": "subtopic",
+      "label": "アレイ",
+      "position": {
+        "x": -696.7836476886799,
+        "y": 696.2888446606187
+      },
+      "size": {
+        "width": 85,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "アレイは,メモリに連続して保存されている同じタイプの要素の固定サイズ集合である.サイズがコンパイル時に知られ,変更できない.構文: `let arr: [type; size] = [elements];`.例: `let nums: [i32; 3] = [1, 2, 3];`.ゼロベースのインデックスしたアクセス要素: `arr[0]`.",
+        "links": [
+          {
+            "title": "アレイ",
+            "url": "https://doc.rust-lang.org/std/primitive.array.html",
+            "type": "official"
+          },
+          {
+            "title": "アレイ タイプ",
+            "url": "https://rust-book.cs.brown.edu/ch03-02-data-types.html#the-array-type",
+            "type": "article"
+          },
+          {
+            "title": "腐蚀配列 (例を挙げて)",
+            "url": "https://www.programiz.com/rust/array",
+            "type": "article"
+          },
+          {
+            "title": "防腐の教科書 - 配列",
+            "url": "https://www.youtube.com/watch?v=t047Hseyj_k&t=767s",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JAgjrf5WDXiorZ6gFRzTc",
+      "type": "subtopic",
+      "label": "ハッシュマップ",
+      "position": {
+        "x": -485.1322659713495,
+        "y": 696.2888446606187
+      },
+      "size": {
+        "width": 118,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`ハッシュマップ<K,V>`は,迅速な検索,挿入,削除のためにハッシュを使用してキー値ペアを保存します.キーがユニークで,重複キーが古い値を置き換える必要があります.Rustはセキュリティのために暗号的に強力なハッシュを使用します.アイテムは順序不明です.例: `ハッシュマップ::new() `または `ハッシュマップ::from([(\"key\",\"value\")]) `.",
+        "links": [
+          {
+            "title": "std:: コレクションでHashMap",
+            "url": "https://doc.rust-lang.org/std/collections/struct.HashMap.html",
+            "type": "official"
+          },
+          {
+            "title": "ハッシュマップで関連値を持つキーを保存する",
+            "url": "https://doc.rust-lang.org/book/ch08-03-hash-maps.html?highlight=hashmap#storing-keys-with-associated-values-in-hash-maps",
+            "type": "official"
+          },
+          {
+            "title": "ハッシュテーブル",
+            "url": "https://en.wikipedia.org/wiki/Hash_table",
+            "type": "article"
+          },
+          {
+            "title": "ハッシュマップ:Rustのキー値ストア",
+            "url": "https://www.youtube.com/watch?v=BfmSYuDdg8Q",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PskCueCc9pSxfnSzfdX-u",
+      "type": "subtopic",
+      "label": "矢量",
+      "position": {
+        "x": -592.7836476886799,
+        "y": 696.2888446606187
+      },
+      "size": {
+        "width": 94,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`Vec<T>`は,同じタイプの要素を連続的に保存するRustの成長可能,堆積配置の配列である.配列とは異なり,ベクトルは実行時にサイズを変更することができます.主要な方法には,要素を追加する (`push() `,最後の要素を削除する (`pop() `,およびサイズのために (`len() `.例: `let mut v = vec![1, 2, 3];`",
+        "links": [
+          {
+            "title": "矢量",
+            "url": "https://doc.rust-lang.org/std/vec/struct.Vec.html",
+            "type": "official"
+          },
+          {
+            "title": "矢量で値リストを保存する",
+            "url": "https://doc.rust-lang.org/book/ch08-01-vectors.html?highlight=vector#storing-lists-of-values-with-vectors",
+            "type": "official"
+          },
+          {
+            "title": "耐久性ベクトル (例で)",
+            "url": "https://www.programiz.com/rust/vector",
+            "type": "article"
+          },
+          {
+            "title": "腐蚀ベクトル",
+            "url": "https://www.youtube.com/watch?v=nOKOFYzvvHo&t=97s&pp=ygUMcnVzdCB2ZWN0b3Jz",
+            "type": "video"
+          },
+          {
+            "title": "腐り の 共通 の コレクション",
+            "url": "https://www.youtube.com/watch?v=Zs-pS-egQSs&t=39s&pp=ygUMcnVzdCB2ZWN0b3Jz",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b1iYy4Hvkj47Q13V2HE4i",
+      "type": "subtopic",
+      "label": "ハッシュセット",
+      "position": {
+        "x": -696.7836476886799,
+        "y": 749.2888446606187
+      },
+      "size": {
+        "width": 109,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`ハッシュセット<T>`は,迅速な検索,挿入,削除のためにハッシュベースのストレージを使用するユニークな要素の集合です.重複は許可され,要素は無序です. `insert() `, `を含む() `,および `remove() `.例: `let mut set = HashSet::new(); set.insert(\"value\"); `",
+        "links": [
+          {
+            "title": "std:: コレクションのハッシュセット",
+            "url": "https://doc.rust-lang.org/std/collections/struct.HashSet.html",
+            "type": "official"
+          },
+          {
+            "title": "ハッシュセット",
+            "url": "https://doc.rust-lang.org/rust-by-example/std/hash/hashset.html",
+            "type": "official"
+          },
+          {
+            "title": "Rust HashSet コレクションタイプ",
+            "url": "https://www.youtube.com/watch?v=KYw3Lnf0nSY&t=1440s",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "iR0ewc2yURqS7bfMWfoBi",
+      "type": "subtopic",
+      "label": "リンクリスト",
+      "position": {
+        "x": -592.1322659713495,
+        "y": 749.2888446606187
+      },
+      "size": {
+        "width": 124,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`LinkedList<T>`は,各ノードに次のノードと前のノードの両方に値とポインタが含まれている双重リンク列表である. 両端の挿入/削除をO(1) が提供するが,O(n) はインデックスする. 一般的に, `Vec`よりも遅い,ほとんど必要ない. `VecDeque`は,通常,キュー操作で好ましい.",
+        "links": [
+          {
+            "title": "リンクされたリスト std:: コレクション",
+            "url": "https://doc.rust-lang.org/std/collections/struct.LinkedList.html",
+            "type": "official"
+          },
+          {
+            "title": "リンク列表が多く",
+            "url": "https://rust-unofficial.github.io/too-many-lists/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "B-S1hE-ofNTutnkc2hJBf",
+      "type": "subtopic",
+      "label": "スタック",
+      "position": {
+        "x": -473.1322659713495,
+        "y": 749.2888446606187
+      },
+      "size": {
+        "width": 87,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "スタックとは,要素が同じ端から追加して削除されるLIFO (Last-In-First-Out) データ構造である.Rustでは,コールスタックが関数呼び出しを管理し,各呼び出しがフレームを押し出し,返却する.スタックメモリは高速だが,サイズが限られている.",
+        "links": [
+          {
+            "title": "箱,堆積物,堆積物",
+            "url": "https://doc.rust-lang.org/rust-by-example/std/box.html",
+            "type": "official"
+          },
+          {
+            "title": "std:: コレクション",
+            "url": "https://doc.rust-lang.org/std/collections/index.html",
+            "type": "official"
+          },
+          {
+            "title": "SQLx と SQLite を Rust で開始する",
+            "url": "https://medium.com/rustaceans/getting-started-with-sqlx-and-sqlite-in-rust-895ae7fc01ae",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "fq2NMV-QV9ayJl82ZWzov",
+      "type": "subtopic",
+      "label": "排隊",
+      "position": {
+        "x": -696.7836476886799,
+        "y": 803.2888446606187
+      },
+      "size": {
+        "width": 97,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "排列は FIFO (First-In-First-Out) の順序に続いて,片端から要素が追加され,片端から削除されます.Rust には内蔵の排列がありませんが, `VecDeque`は,要素を効率的に削除するために, `push_back() `と排列機能を提供します.",
+        "links": [
+          {
+            "title": "VecDeque in std::コレクション",
+            "url": "https://doc.rust-lang.org/std/collections/struct.VecDeque.html",
+            "type": "official"
+          },
+          {
+            "title": "排列",
+            "url": "https://docs.rs/queues/latest/queues/",
+            "type": "official"
+          },
+          {
+            "title": "腐った 排列 の 中 で 作業 する",
+            "url": "https://basillica.medium.com/working-with-queues-in-rust-5a5afe82da46",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "jdndHBzmdgI6uYql6bO4W",
+      "type": "subtopic",
+      "label": "バイナリーヒップ",
+      "position": {
+        "x": -592.1322659713495,
+        "y": 803.2888446606187
+      },
+      "size": {
+        "width": 139,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`BinaryHeap<T>`は,マックスヒップとして実装される優先順位列で,アレイに保存されたバイナリーツリー構造を使用します.最大の要素は,常にルートで, `peek() `を通じてアクセスできます. `push() `で挿入し, `pop() `で削除する O(log n) をサポートします.優先順位ベースのアルゴリズムには便利です.",
+        "links": [
+          {
+            "title": "バイナリーヒップ",
+            "url": "https://doc.rust-lang.org/std/collections/struct.BinaryHeap.html",
+            "type": "official"
+          },
+          {
+            "title": "腐蝕ガイド - バイナリーヘプ",
+            "url": "https://rust-guide.com/en/documentation/collections/BinaryHeap",
+            "type": "article"
+          },
+          {
+            "title": "バナリーヒップの全面的なガイド",
+            "url": "https://www.gyata.ai/rust/binaryheap",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "jfdA_UG-Fm_3nQzrAbVv2",
+      "type": "label",
+      "label": "オーナーシップシステム",
+      "position": {
+        "x": -617.2748410324898,
+        "y": 869.3984712635258
+      },
+      "size": {
+        "width": 166,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "2UQ3AuGkDbT0-54l0rOGM",
+      "type": "subtopic",
+      "label": "オーナーシップルールとメモリ安全",
+      "position": {
+        "x": -698.2748410324898,
+        "y": 912.3984712635258
+      },
+      "size": {
+        "width": 318,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Rustの所有権には3つの重要なルールがあります.各値には正確に1人の所有者があり,一度に1人の所有者しか存在せず,所有者が範囲外に出ると値が落とされます. これによりデータレースを防止し,ゴミ収集なしでメモリの安全性を確保し,使用後無料やメモリ漏洩などの一般的なバグを排除します.",
+        "links": [
+          {
+            "title": "オーナーシップとは何か?",
+            "url": "https://doc.rust-lang.org/book/ch04-01-what-is-ownership.html",
+            "type": "official"
+          },
+          {
+            "title": "汚れ の 持ち主 と 借金 - 廃棄物 の ない 記憶 の 安全",
+            "url": "https://webreference.com/rust/ownership/",
+            "type": "article"
+          },
+          {
+            "title": "持ち主 は 何 です か",
+            "url": "https://rust-book.cs.brown.edu/ch04-01-what-is-ownership.html",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "-onH5vPffdcZFjjVcnEpk",
+      "type": "subtopic",
+      "label": "借金 参照 切片",
+      "position": {
+        "x": -698.2748410324898,
+        "y": 965.8111648956035
+      },
+      "size": {
+        "width": 304,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "借入は所有権を取ることなくデータにアクセスできるようにする.不変借入 (`&T`) は複数読みのみ参照を許可する.変形可能な借入 (`&mut T`) はデータを変更できる独占的な参照を許可する.スライス (`&[T]`, `&str`) は,連続したシーケンスへの参照であり,データの部分への安全なアクセスを可能にします.",
+        "links": [
+          {
+            "title": "参考書 と 借金",
+            "url": "https://doc.rust-lang.org/book/ch04-02-references-and-borrowing.html",
+            "type": "official"
+          },
+          {
+            "title": "切片型",
+            "url": "https://rust-book.cs.brown.edu/ch04-04-slices.html",
+            "type": "article"
+          },
+          {
+            "title": "借金 と 汚れ の 参照",
+            "url": "https://codeforgeek.com/borrowing-and-references-in-rust/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "UdXq0H8599cDTKXaIlPqt",
+      "type": "subtopic",
+      "label": "ディープダイブ:スタック vs ヒップ",
+      "position": {
+        "x": -698.2748410324898,
+        "y": 1018.9210950930203
+      },
+      "size": {
+        "width": 244,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "スタックメモリは,LIFO命令に従って自動配置/非配置で固定サイズデータを保存します.迅速だが限られています. ハイプメモリは,動力サイズデータを手動管理で保存します.遅いが柔軟です.Rustの所有制システムは,両方のメモリの安全性を保証します.スタックはデフォルトでスマートポインタでアクセスできます.",
+        "links": [
+          {
+            "title": "箱,堆積物,堆積物",
+            "url": "https://doc.rust-lang.org/rust-by-example/std/box.html",
+            "type": "official"
+          },
+          {
+            "title": "スタック vs ヒップ の 記憶管理",
+            "url": "https://dev.to/iamdipankarpaul/memory-management-in-rust-stack-vs-heap-3m45",
+            "type": "article"
+          },
+          {
+            "title": "積み木 と 群れ",
+            "url": "https://web.mit.edu/rust-lang_v1.25/arch/amd64_ubuntu1404/share/doc/rust/html/book/first-edition/the-stack-and-the-heap.html",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "HpItJIkCXXiVOXO58si4G",
+      "type": "label",
+      "label": "高度なデータ構造",
+      "position": {
+        "x": -642.2748410324898,
+        "y": 1086.6456624104587
+      },
+      "size": {
+        "width": 216,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "LWgaZWTJVWLDes3HzflRh",
+      "type": "subtopic",
+      "label": "BTreeMap",
+      "position": {
+        "x": -699.1322659713494,
+        "y": 1130.2144446824718
+      },
+      "size": {
+        "width": 126,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`BTreeMap<K, V>`は,分類されたバイナリーツリー構造でキー値ペアを保存します.キーが `Ord`特性を実装し,自動的に分類順に保持されます.挿入,削除,検索のための O(log n) 操作を提供します.順番のリターンや範囲クエリが必要なときに理想的です.",
+        "links": [
+          {
+            "title": "BTreeMap",
+            "url": "https://doc.rust-lang.org/std/collections/struct.BTreeMap.html",
+            "type": "official"
+          },
+          {
+            "title": "BTreeMap",
+            "url": "https://cglab.ca/~abeinges/blah/rust-btree-case/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FsyLYRQP_rs4qL7IAj9Mo",
+      "type": "subtopic",
+      "label": "BTreeSet",
+      "position": {
+        "x": -583.7748410324897,
+        "y": 1130.2144446824718
+      },
+      "size": {
+        "width": 118,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`BTreeSet<T>`は,Bツリーを使用して実装されるユニークな要素の並べられた集合である.要素は,`Ord`特性を実装し,並べられた順に保持する必要があります. O(log n) を挿入,削除,検索操作を提供します. 効率的な範囲クエリおよびユニオンおよび交差点などのセット操作をサポートします.",
+        "links": [
+          {
+            "title": "樹木セット",
+            "url": "https://doc.rust-lang.org/std/collections/struct.BTreeSet.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "U9Bd-GO0QwYVLvESR4PTb",
+      "type": "subtopic",
+      "label": "RC",
+      "position": {
+        "x": -468.41741609363,
+        "y": 1130.2144446824718
+      },
+      "size": {
+        "width": 69,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`Rc<T>` (Reference Counting) は,単行本列の文脈で同じ堆積されたデータの複数の所有者を可能にします. 参照の数を追跡し,カウントがゼロに達すると自動的にデータを移動します. `Rc::clone() `を使用して,深いコピーデータなしで追加の参照を作成します.",
+        "links": [
+          {
+            "title": "rct - 参照数えたスマートポインタ",
+            "url": "https://doc.rust-lang.org/book/ch15-04-rc.html#rct-the-reference-counted-smart-pointer",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "yYmV5qkldu0FkDhOhWOXs",
+      "type": "subtopic",
+      "label": "アーク",
+      "position": {
+        "x": -699.1322659713495,
+        "y": 1184.2144446824718
+      },
+      "size": {
+        "width": 70,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`Arc<T>` (アトミック参照カウント) は,複数のスレッドで不可変なデータを共有するためのスレッドセキュアなスマートポインタである.原子操作を使用して参照カウントを追跡し,堆積されたデータの複数の所有権を可能にします.参照カウントがゼロに達すると,データは自動的に清掃されます.",
+        "links": [
+          {
+            "title": "std::sync のアーチ",
+            "url": "https://doc.rust-lang.org/std/sync/struct.Arc.html",
+            "type": "official"
+          },
+          {
+            "title": "ロスト・ラングの弧",
+            "url": "https://doc.rust-lang.org/rust-by-example/std/arc.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "GbbeV3r27IBEKHyiyLqs6",
+      "type": "subtopic",
+      "label": "ミュテックス",
+      "position": {
+        "x": -629.1322659713495,
+        "y": 1184.2144446824718
+      },
+      "size": {
+        "width": 92,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`Mutex<T>` (相互排除) は,複数のスレッドによる同時アクセスから共有されたデータを保護します. `lock() `を通じて保護されたデータへのアクセスが一度に1スレッドしかできません. ストゥストは,スレッドが範囲外になったら自動的にスムーズを解除し,パニックを処理し,行き詰まりを防止します.",
+        "links": [
+          {
+            "title": "ミュテックス",
+            "url": "https://doc.rust-lang.org/std/sync/struct.Mutex.html",
+            "type": "official"
+          },
+          {
+            "title": "腐った 粘液: 基礎 から 高級 テクニック",
+            "url": "https://medium.com/@TechSavvyScribe/rust-mutex-from-basics-to-advanced-techniques-56e1f1389d9b",
+            "type": "article"
+          },
+          {
+            "title": "防腐 競争 を 容易 に する: 弧 と 粘液 に 対する ガイド",
+            "url": "https://www.ruststepbystep.com/rust-concurrency-made-easy-a-guide-to-arc-and-mutex/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "WzGl4DkANjUu7VC1AIWI-",
+      "type": "subtopic",
+      "label": "RwLock",
+      "position": {
+        "x": -528.41741609363,
+        "y": 1184.2144446824718
+      },
+      "size": {
+        "width": 105,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`RwLock<T>` (Read-Write Lock) は,複数の同時読者または1つの独占ライターを可能にします.",
+        "links": [
+          {
+            "title": "RwLock",
+            "url": "https://doc.rust-lang.org/std/sync/struct.RwLock.html",
+            "type": "official"
+          },
+          {
+            "title": "Rust 読み書きロック:同時読み書きアクセス管理",
+            "url": "https://medium.com/@TechSavvyScribe/rust-read-write-locks-managing-concurrent-read-and-write-access-a6ab689bbed3",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3nXJg5Y4SUug_dEAj0eQm",
+      "type": "subtopic",
+      "label": "チャンネル",
+      "position": {
+        "x": -699.7836476886799,
+        "y": 1238.2144446824718
+      },
+      "size": {
+        "width": 118,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "チャンネルは, `std::sync::mpsc` (複数生産者,単一の消費者) から伝達するメッセージを通じてスレッド通信を可能にします.データを送信するために,送信者と受信者を用意しています.これは,共有状態の同時性問題を回避し,データレースなしでスレッド間の安全な通信を可能にします.",
+        "links": [
+          {
+            "title": "チャンネル",
+            "url": "https://doc.rust-lang.org/rust-by-example/std_misc/channels.html",
+            "type": "official"
+          },
+          {
+            "title": "腐り の 中 で チャンネル を 使う: なぜ,いつ?",
+            "url": "https://howtorust.com/using-channels-in-rust-why-and-when/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "X2gB0m-ZKSC4TJyIcwsMx",
+      "type": "topic",
+      "label": "エラー処理",
+      "position": {
+        "x": -298.8175069304428,
+        "y": 458.9114782175309
+      },
+      "size": {
+        "width": 157,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`Result<T,E>`によってエラーを処理し,失敗する可能性のある操作および,欠席する可能性のある値については,`Option<T>`を処理する. `Result`は,成功と, `Err(E) `を誤った操作で処理し, `Option`は, `Some(T) `と, `None`を処理する. パターンマッチングと, `?`オペレータは,エレガントなエラー処理と拡散を可能にします. Rustは例外を使用せず,多くの一般的なエラー処理問題を排除します.",
+        "links": [
+          {
+            "title": "エラー処理",
+            "url": "https://doc.rust-lang.org/book/ch09-00-error-handling.html",
+            "type": "official"
+          },
+          {
+            "title": "腐り の 誤り に 対処 する 方法",
+            "url": "https://dev.to/nathan20/how-to-handle-errors-in-rust-a-comprehensive-guide-1cco",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "wQHkBydWsiGEOZMdKmz40",
+      "type": "subtopic",
+      "label": "オプション及び結果表記",
+      "position": {
+        "x": 12.937754956556319,
+        "y": 405.9114782175308
+      },
+      "size": {
+        "width": 327,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`Option<T>`は,ゼロポインタを安全に置き換え,ゼロポインタを安全に置き換え,ゼロポータブル値を `Some(T) と `None`変数で処理する. `Result<T,E>`は,成功のために,エラー処理を `Ok(T) と失敗のために,エラー処理を `Err(E) `で管理する.両方のエンームは,パターンマッチングと方法チェーンを通じて安全なエラー処理を可能にします.",
+        "links": [
+          {
+            "title": "オプション & 開封",
+            "url": "https://doc.rust-lang.org/rust-by-example/error/option_unwrap.html",
+            "type": "official"
+          },
+          {
+            "title": "結果",
+            "url": "https://doc.rust-lang.org/rust-by-example/error/result.html",
+            "type": "official"
+          },
+          {
+            "title": "アンドリュー・ギャラントのブログ",
+            "url": "https://burntsushi.net/rust-error-handling",
+            "type": "article"
+          },
+          {
+            "title": "アンドリュー・ギャラントのブログ",
+            "url": "https://burntsushi.net/unwrap/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pTC1ucmErVnMbNFnYLJK7",
+      "type": "subtopic",
+      "label": "誤差を広める `?`オペレータ",
+      "position": {
+        "x": 12.937754956556319,
+        "y": 458.9114782175309
+      },
+      "size": {
+        "width": 327,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`?` オペレーターは `Result`または `Option`を返信する関数で簡潔なエラー伝播を提供します. `Ok`/``Some`値または早期返信を自動解除します. `Err`/`None`を呼び出し者にします. これにより,動詞的な `match`表現を排除し,クリーンで読み取れるエラー処理パターンを可能にします.",
+        "links": [
+          {
+            "title": "復元可能な誤り",
+            "url": "https://doc.rust-lang.org/book/ch09-02-recoverable-errors-with-result.html",
+            "type": "official"
+          },
+          {
+            "title": "結果,選択肢,そして\"?\"の操作者を理解する",
+            "url": "https://howtorust.com/understanding-result-option-and-operators-in-rust/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "LwqOxYY9E9MUDgz2M40uV",
+      "type": "subtopic",
+      "label": "カスタム エラータイプと特徴",
+      "position": {
+        "x": 12.937754956556319,
+        "y": 511.9114782175309
+      },
+      "size": {
+        "width": 327,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "カスタムエラータイプは,添付されたデータで特定のエラーバリエントを定義するために, `enum` を使用します. カスタムエラー処理統合のために, `Debug`, `Display`,およびオプションとして `std::error`特性を実装します. `thiserror`のようなライブラリでは,カスタムエラー作成とフォーマットを簡素化するデリヴマクロを提供します.",
+        "links": [
+          {
+            "title": "エラー タイプ を 定義 する",
+            "url": "https://doc.rust-lang.org/rust-by-example/error/multiple_error_types/define_error_type.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Zpowr_NGd-E2DC3g-oW9h",
+      "type": "topic",
+      "label": "モジュール & 箱",
+      "position": {
+        "x": -298.8175069304428,
+        "y": 650.6235753518292
+      },
+      "size": {
+        "width": 182,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "モジュールは,ネームスペースとカプセルをカート内で提供し,コードをキーワードの `mod`で整理し,可視性を `pub`で制御する.カートとは,他のカートに依存するコンパイルユニット (バイナリーまたはライブラリ) です.モジュールシステムは,カート内でのコードを組織し,カートではプロジェクト間の機能を共有できます.",
+        "links": [
+          {
+            "title": "箱",
+            "url": "https://doc.rust-lang.org/rust-by-example/crates.html",
+            "type": "official"
+          },
+          {
+            "title": "パッケージ,カート,モジュールによる成長プロジェクト管理",
+            "url": "https://doc.rust-lang.org/book/ch07-00-managing-growing-projects-with-packages-crates-and-modules.html",
+            "type": "official"
+          },
+          {
+            "title": "機能 方法: ラスト の モジュール システム が ようやく 説明 さ れ まし た",
+            "url": "https://confidence.sh/blog/rust-module-system-explained/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "c_SdccEXEJyh4ymWzvCeX",
+      "type": "subtopic",
+      "label": "コード 組織 & 名前 空間",
+      "position": {
+        "x": 12.937754956556319,
+        "y": 597.6235753518292
+      },
+      "size": {
+        "width": 375,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Rust は,関連する機能とクラスを (バイナリー/ライブラリプロジェクト) グループ化するためのモジュール (`モード`) を介してコードを組織する.モジュールは名前空間を提供し,巣を作ることができます.クラスは,図書館または実行可能なモジュール木を形成するルートファイル (`メイン.rs`または `lib.rs`) を含むコンパイルユニットです.",
+        "links": [
+          {
+            "title": "モジュール",
+            "url": "https://doc.rust-lang.org/rust-by-example/mod.html",
+            "type": "official"
+          },
+          {
+            "title": "名前空間",
+            "url": "https://doc.rust-lang.org/reference/names/namespaces.html",
+            "type": "official"
+          },
+          {
+            "title": "一般プログラミングに関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/general-programming?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PkePVzV-b1pgFJP5xID5_",
+      "type": "subtopic",
+      "label": "貨物による依存管理",
+      "position": {
+        "x": 12.937754956556319,
+        "y": 650.6235753518292
+      },
+      "size": {
+        "width": 375,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "カーゴは, `Cargo.toml`ファイルを通じてRustプロジェクトと依存関係を管理する. `[dependencies]`セクションで,キャスト名とセマンティックバージョン仕様を記載する. カーゴは,[crates.io] (http://crates.io) または他のソースから自動的に外部ライブラリ (キャスト) をダウンロード,構築,管理する.",
+        "links": [
+          {
+            "title": "依存性",
+            "url": "https://doc.rust-lang.org/rust-by-example/cargo/deps.html",
+            "type": "official"
+          },
+          {
+            "title": "貨物",
+            "url": "https://blog.rust-lang.org/2016/05/05/cargo-pillars.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Op0-bdMV3kE9Be6Ot1aC6",
+      "type": "subtopic",
+      "label": "Crates.ioで公開する",
+      "position": {
+        "x": 12.937754956556319,
+        "y": 703.6235753518292
+      },
+      "size": {
+        "width": 375,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Rust crates を出版するには, [crates.io] (http://crates.io) でアカウントを作成し,適切な `Cargo.toml` メタデータを準備し, `cargo publish` を使用する.出版された後,バージョンは削除または書き換えることはできません.依存性の安定性を確保します.レジストリは,図書館を共有するための Rust の中央パッケージリポジトリとして機能します.",
+        "links": [
+          {
+            "title": "貨物 書: 出版",
+            "url": "https://doc.rust-lang.org/cargo/reference/publishing.html",
+            "type": "official"
+          },
+          {
+            "title": "\"ゼロからヒーローへ\" \"あなたの最初のゴミ箱\"",
+            "url": "https://medium.com/rust-programming-language/from-zero-to-hero-your-first-rust-crate-6f2c084df464",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pehYc_xLrs6BFUbcpPTiJ",
+      "type": "topic",
+      "label": "競争力と並行性",
+      "position": {
+        "x": 93.93775495655632,
+        "y": 1099.8111648956035
+      },
+      "size": {
+        "width": 245,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "同期化により,タスクが重複する時間段で実行される (交互な実行),並行性は異なるコアで複数のタスクを同時に実行する.Rustは,コンパイル時に強制されるデータレースなしでチャンネル,ミュテックス,原子操作などの安全な同期的な原始を提供します.",
+        "links": [
+          {
+            "title": "恐れ ない 競争",
+            "url": "https://doc.rust-lang.org/book/ch16-00-concurrency.html",
+            "type": "official"
+          },
+          {
+            "title": "腐蚀の対比性と並行性",
+            "url": "https://rustlang.app/article/Rust_concurrency_and_parallelism.html",
+            "type": "article"
+          },
+          {
+            "title": "腐朽における対比性と並行性",
+            "url": "https://sterlingcobb.medium.com/concurrency-and-parallelism-in-rust-an-overview-and-examples-bd811f5a5afe",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pJN260pWQVO0gHxi1-_3U",
+      "type": "subtopic",
+      "label": "線,チャンネル,メッセージ伝達",
+      "position": {
+        "x": -15.19003022483139,
+        "y": 1185.0353435831921
+      },
+      "size": {
+        "width": 362,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Rust は,OS の 1:1 のスレッドマッピングのために,ネイティブスレッドを `std::thread::spawn() `と `join() `で提供します.チャネルは,スレッド間の安全なメッセージ転送を可能にします.共有状態の問題を回避します.このモデルは,Rust の所有制システムを通じてデータレースなしで同時プログラミングを促進します.",
+        "links": [
+          {
+            "title": "std:: 糸",
+            "url": "https://doc.rust-lang.org/std/thread/",
+            "type": "official"
+          },
+          {
+            "title": "文字列間のデータ転送にメッセージ転送を使用する",
+            "url": "https://doc.rust-lang.org/book/ch16-02-message-passing.html",
+            "type": "official"
+          },
+          {
+            "title": "腐朽 の 糸 を 理解 する - 総合 的 な ガイド",
+            "url": "https://blog.stackademic.com/understanding-threads-in-rust-a-comprehensive-guide-7e2d23fb85b0",
+            "type": "article"
+          },
+          {
+            "title": "腐蚀原子とロック - 低水準の競争",
+            "url": "https://marabos.nl/atomics/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "n1Epl_nBuoXW2OE0IKYVR",
+      "type": "subtopic",
+      "label": "原子作戦 と 記憶障害",
+      "position": {
+        "x": -15.19003022483139,
+        "y": 1238.0353435831921
+      },
+      "size": {
+        "width": 336,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`load`, `store`, `swap`,および `compare_and_swap`のような不切断な操作を通じて,原子操作はロックフリー同期性を提供します.これらの低レベルの原始は,鎖なしでスレッドセキュアなデータ共有を可能にし,より高いレベルの同期抽象とブロックしないデータ構造の基礎を形成します.",
+        "links": [
+          {
+            "title": "std::sync::atomic のフェンス",
+            "url": "https://doc.rust-lang.org/std/sync/atomic/fn.fence.html",
+            "type": "official"
+          },
+          {
+            "title": "原子操作 と 記憶 障害",
+            "url": "https://medium.com/@murataslan1/atomic-operations-and-memory-barriers-43ee6f60ead5",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "kVfBbsOHoixvqb4dYTG3Q",
+      "type": "subtopic",
+      "label": "未来とアシンク/待ちパラダイム",
+      "position": {
+        "x": -15.19003022483139,
+        "y": 1291.0353435831921
+      },
+      "size": {
+        "width": 311,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "未来は,最終的に値やエラーを生成する非同期計算を表す. `async/wait`構文は,非同期コードを同期的に見せるため,未来に対してエルゴノミックなプログラミングを提供します. 未来は怠惰で,進歩するために調査され,Rustの非同期エコシステムの基盤を形成する必要があります.",
+        "links": [
+          {
+            "title": "アシンクロンプログラミングの基礎",
+            "url": "https://doc.rust-lang.org/book/ch17-00-async-await.html",
+            "type": "official"
+          },
+          {
+            "title": "Async/Rust で 待つ: 初心者 の ガイド",
+            "url": "https://leapcell.medium.com/async-await-in-rust-a-beginners-guide-8752d2c2abbf",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "08qKtgnhJ3tlb5JKfTDf5",
+      "type": "topic",
+      "label": "テスト",
+      "position": {
+        "x": -298.8175069304428,
+        "y": 859.0473987256978
+      },
+      "size": {
+        "width": 101,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Rust は `cargo test`と `#[test]`属性を通じてテストサポートを組み込みました.テスト機能は,期待される行動を検証するために, `assert!`, `assert_eq!`,および `assert_ne!`のような主張マクロを使用します. ユニットテスト,統合テスト,ドキュメントテストを総合的なカバーのために組織します.",
+        "links": [
+          {
+            "title": "自動テストの書き込み",
+            "url": "https://doc.rust-lang.org/book/ch11-01-writing-tests.html",
+            "type": "official"
+          },
+          {
+            "title": "防腐剤 の 検査: 単位 の 検査 に つい て の 迅速 な ガイド",
+            "url": "https://dev.to/tramposo/testing-in-rust-a-quick-guide-to-unit-tests-integration-tests-and-benchmarks-2bah",
+            "type": "article"
+          },
+          {
+            "title": "腐蝕 を 嘲笑 し 試す",
+            "url": "https://www.youtube.com/watch?v=8XaVlL3lObQ",
+            "type": "video"
+          },
+          {
+            "title": "テストに関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/testing?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "w9coeW9-crDxu0KC-9gEU",
+      "type": "subtopic",
+      "label": "ユニット・インテグレーションテスト",
+      "position": {
+        "x": -298.8175069304428,
+        "y": 947.7024216855308
+      },
+      "size": {
+        "width": 240,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ユニットテストは, `#[test]`を使用して個々の機能を検証し,コードとともにライブします.統合テストは,別々のファイル/ディレクトリおよびテストコンポーネントの相互作用にあります.Rustは,両方のタイプを実行するための `cargo test`を提供し,包括的なコード検証と品質保証のためのテスト組織をサポートします.",
+        "links": [
+          {
+            "title": "ユニットテスト",
+            "url": "https://doc.rust-lang.org/rust-by-example/testing/unit_testing.html",
+            "type": "official"
+          },
+          {
+            "title": "テスト を 書ける 方法",
+            "url": "https://doc.rust-lang.org/book/ch11-01-writing-tests.html",
+            "type": "official"
+          },
+          {
+            "title": "防腐剤 の 検査: 単位 の 検査 に つい て の 迅速 な ガイド",
+            "url": "https://dev.to/tramposo/testing-in-rust-a-quick-guide-to-unit-tests-integration-tests-and-benchmarks-2bah",
+            "type": "article"
+          },
+          {
+            "title": "腐蝕 を 嘲笑 し 試す",
+            "url": "https://www.youtube.com/watch?v=8XaVlL3lObQ",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "HEqfA6An6ZeT3z4R610en",
+      "type": "subtopic",
+      "label": "嘲笑 と 財産 に 基づく テスト",
+      "position": {
+        "x": -298.8175069304428,
+        "y": 1005.7024216855308
+      },
+      "size": {
+        "width": 309,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "モッキングは異なるシナリオをテストするために偽の機能/オブジェクトを作成します.Rustはモッキング機能のために, `mockito`, `mockall`,および `mockall_double`などの外部ライブラリを使用します.プロパティベースのテストは,幅広い入力でコードの行動を検証するために自動的にテストケースを生成します.",
+        "links": [
+          {
+            "title": "ドクターズ: モキト",
+            "url": "https://docs.rs/mockito/latest/mockito/",
+            "type": "article"
+          },
+          {
+            "title": "ドクターズ: 偽装",
+            "url": "https://docs.rs/mockall/latest/mockall/",
+            "type": "article"
+          },
+          {
+            "title": "DOC.rs: mockall_double",
+            "url": "https://docs.rs/mockall_double/latest/mockall_double/",
+            "type": "article"
+          },
+          {
+            "title": "荒れ狂うこと:荒れ狂うことと代替品",
+            "url": "https://blog.logrocket.com/mocking-rust-mockall-alternatives/",
+            "type": "article"
+          },
+          {
+            "title": "テストに関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/testing?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "zLKbYX0nnbfD5n3P_JRaS",
+      "type": "topic",
+      "label": "特徴とジェネリック",
+      "position": {
+        "x": -278.81180589576024,
+        "y": 1430.339181586816
+      },
+      "size": {
+        "width": 178,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "特徴は,タイプが実装できる共有行動を定義し,ジェネリックはタイプパラメータでコードの再利用を可能にします.一緒に,彼らはジェネリックタイプを制限するために特性の境界 (`T: Display`) を提供し,必要な機能性を確保します.これは安全な,ゼロコストのポリモルフィズムとコード抽象を可能にします.",
+        "links": [
+          {
+            "title": "一般 的 な 種類,特質,寿命",
+            "url": "https://doc.rust-lang.org/book/ch10-00-generics.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "_EicstELZcdesHiXFWJGu",
+      "type": "subtopic",
+      "label": "特徴の定義と実装",
+      "position": {
+        "x": -15.19003022483139,
+        "y": 1377.339181586816
+      },
+      "size": {
+        "width": 321,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "特徴は,タイプが実装できるメソッドサインの集合として共有行動を定義する. ヽ トライトネーム { fn メソッド(&self); }` と定義し, Type` の `impl トライトネーム で実装する. 特徴は,タイプの安全性とゼロコストパフォーマンスを維持しながらポリモルフィズム,コード再利用,抽象性を可能にします.",
+        "links": [
+          {
+            "title": "特徴",
+            "url": "https://doc.rust-lang.org/rust-by-example/trait.html",
+            "type": "official"
+          },
+          {
+            "title": "腐り の 特質 と 特質 の 限界 を 理解 する",
+            "url": "https://leapcell.medium.com/understanding-traits-and-trait-bounds-in-rust-d575f19dd649",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pRDgDtRIVpNM2CdhSOS3Q",
+      "type": "subtopic",
+      "label": "特徴 の 制限 と 関連 な 種類",
+      "position": {
+        "x": -15.19003022483139,
+        "y": 1430.339181586816
+      },
+      "size": {
+        "width": 321,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "特徴境界は,タイプが特定の特性を実装することを要求することによってジェネリックを制限する (`T: Display`).関連タイプは,実装者が指定しなければならない特性の範囲内でタイププレスホールダーを定義する.ともに,タイプ安全性と改良されたAPI設計パターンを備えた柔軟なジェネリックプログラミングを可能にします.",
+        "links": [
+          {
+            "title": "特徴 と 生涯 の 制限",
+            "url": "https://doc.rust-lang.org/reference/trait-bounds.html",
+            "type": "official"
+          },
+          {
+            "title": "腐り の 特質 と 特質 の 限界 を 理解 する",
+            "url": "https://leapcell.medium.com/understanding-traits-and-trait-bounds-in-rust-d575f19dd649",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "_hxwo_iAdOwlWBltv7i6i",
+      "type": "subtopic",
+      "label": "ジェネリック・アンド・タイプ・レベル・プログラミング",
+      "position": {
+        "x": -15.19003022483139,
+        "y": 1483.339181586816
+      },
+      "size": {
+        "width": 321,
+        "height": 69
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Rust の高度なジェネリックには,複雑な境界線のための `where`条項,不大型型,関連型,およびより高度なタイプ型のための `?Sized`条項が含まれています.これらは,高度なタイプレベルのプログラミングを可能にし,ジェネリック制約を正確に制御し,ゼロコストパフォーマンスを維持しながら強力な抽象を可能にします.",
+        "links": [
+          {
+            "title": "一般 的 な 種類,特質,寿命",
+            "url": "https://doc.rust-lang.org/book/ch10-00-generics.html",
+            "type": "official"
+          },
+          {
+            "title": "一般薬",
+            "url": "https://doc.rust-lang.org/rust-by-example/generics.html",
+            "type": "official"
+          },
+          {
+            "title": "ジェネリックデータタイプ",
+            "url": "https://doc.rust-lang.org/book/ch10-01-syntax.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "UZ56NKloehcxUFNuSeO19",
+      "type": "topic",
+      "label": "ライフタイムズ & ローンチェッカー",
+      "position": {
+        "x": 84.61996452082155,
+        "y": 1622.0231760223057
+      },
+      "size": {
+        "width": 259,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ライフタイムは,レファレンスがどのくらい有効なのかを定義し,レファレンスが浮上し,メモリの安全性の問題が回避されます.レファレンスチェックは,コンパイル時にこれらのルールを強制します.ライフタイムアノテーションは,コンパイルが自動的に推論できないとき,関数署名におけるレファレンス間の関係を指定するために, `'a`のような構文を使用します.",
+        "links": [
+          {
+            "title": "人生",
+            "url": "https://doc.rust-lang.org/rust-by-example/scope/lifetime.html",
+            "type": "official"
+          },
+          {
+            "title": "腐った 生活 を 支配 する こと: 記憶 の 安全 と 借金 の チェック",
+            "url": "https://leapcell.medium.com/mastering-lifetimes-in-rust-memory-safety-and-borrow-checking-4a8c082a54ee",
+            "type": "article"
+          },
+          {
+            "title": "腐蝕の殻: 終身記号",
+            "url": "https://youtu.be/rAl-9HwD858",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "R5HIVS-lyCp9b46aXqx2m",
+      "type": "subtopic",
+      "label": "生涯 の 明確 な 記号",
+      "position": {
+        "x": -7.380035479178417,
+        "y": 1718.8152557429603
+      },
+      "size": {
+        "width": 262,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "簡潔なライフタイムアノテーションは,関数署名における参照ライフタイム間の関係を指定するために, `'a`のような構文を使用します.コンパイラがライフタイムを自動的に推論できないときに必要である.例: `fn最長<'a>(x: &'a str, y: &'a str) -> &'a str`はすべての参照が平等に長生きすることを保証します.",
+        "links": [
+          {
+            "title": "明確 な 注記",
+            "url": "https://doc.rust-lang.org/rust-by-example/scope/lifetime/explicit.html",
+            "type": "official"
+          },
+          {
+            "title": "腐った 生活 は 何 です か",
+            "url": "https://www.freecodecamp.org/news/what-are-lifetimes-in-rust-explained-with-code-examples/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "qJI8GObmsxyc_tTtUEOAd",
+      "type": "subtopic",
+      "label": "ライフタイム エリションルール",
+      "position": {
+        "x": -7.380035479178417,
+        "y": 1771.8152557429603
+      },
+      "size": {
+        "width": 210,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ライフタイム・エリジションは,コンパイラに生命周期を共通パターンで推論させ,明示的な注釈を減らすことができます.規則:各参照パラメータが独自の生命周期,単一の入力寿命はすべての輸出に適用されます. `&self` の方法により,その寿命を輸出に拡散します.安全性を維持しながらコードを簡素化します.",
+        "links": [
+          {
+            "title": "終身 エリション",
+            "url": "https://doc.rust-lang.org/reference/lifetime-elision.html",
+            "type": "official"
+          },
+          {
+            "title": "生涯 の 腐朽 を 理解 する",
+            "url": "https://masteringbackend.com/posts/understanding-lifetime-elision-in-rust",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "7yVvMnvCvLbFa51pESx0j",
+      "type": "subtopic",
+      "label": "コバリアント と コントラバリアント の 生活",
+      "position": {
+        "x": -7.380035479178417,
+        "y": 1824.8152557429603
+      },
+      "size": {
+        "width": 318,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "変異は,タイプが巣立ったときにサブタイプ関係がどのように変化するかを記述する.コバリアントタイプは順序を保持する (`&'long T` は `&'short T` のサブタイプ),コントラバリアントは逆転する,インバリアントは正確なマッチを必要とする.参照,ボックス,機能パラメータでライフタイムがどのように動作するかを影響する.",
+        "links": [
+          {
+            "title": "サブタイプとバリエーション",
+            "url": "https://doc.rust-lang.org/nomicon/subtyping.html",
+            "type": "official"
+          },
+          {
+            "title": "腐朽 に 陥っ た 貪欲 な 生活 と 反逆 的 な 生活 を 解明 する",
+            "url": "https://medium.com/@murataslan1/demystifying-covariant-and-contravariant-lifetimes-in-rust-76051484fe1c",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "eTpZXd8E2jVBmk_aSLZYV",
+      "type": "topic",
+      "label": "マクロ&メタプログラミング",
+      "position": {
+        "x": -685.2748410324898,
+        "y": 1634.2461547010141
+      },
+      "size": {
+        "width": 264,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "マクロはコードを書くコードで,Rustでメタプログラミングを可能にします.宣言マクロはパターンベースのコード生成のために `macro_rules!`を使用し,手続きマクロはカスタム派生と機能のようなマクロを提供します.コンパイル時に拡張され,ゼロコスト抽象を提供しています.",
+        "links": [
+          {
+            "title": "マクロ",
+            "url": "https://doc.rust-lang.org/book/ch20-05-macros.html",
+            "type": "official"
+          },
+          {
+            "title": "マクロルール!",
+            "url": "https://doc.rust-lang.org/rust-by-example/macros.html",
+            "type": "official"
+          },
+          {
+            "title": "腐ったマクロ:例のチュートリアル",
+            "url": "https://blog.logrocket.com/macros-in-rust-a-tutorial-with-examples/",
+            "type": "article"
+          },
+          {
+            "title": "メタ・プログラム マジック イン ロースト: コンプリート・ガイド",
+            "url": "https://elitedev.in/rust/metaprogramming-magic-in-rust-the-complete-guide-/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "AXWXXsww7Xkl3BYgtThNe",
+      "type": "subtopic",
+      "label": "マクロ_ルールの宣言マクロ!",
+      "position": {
+        "x": -709.7748410324898,
+        "y": 1417.8063556289276
+      },
+      "size": {
+        "width": 333,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "宣言マクロは,コンパイル時にパターンベースのコード生成のために `macro_rules!`を使用します.彼らは構文パターンと一致し,代引コードに拡大し,実行時間のオーバーヘッドなしでコードの再利用を可能にします.手順マクロよりも制限されていますが,書くことも理解することも簡単です.",
+        "links": [
+          {
+            "title": "マクロ",
+            "url": "https://doc.rust-lang.org/book/ch20-05-macros.html",
+            "type": "official"
+          },
+          {
+            "title": "腐ったマクロ:例のチュートリアル",
+            "url": "https://blog.logrocket.com/macros-in-rust-a-tutorial-with-examples/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "bkVM1OIbv4XUpY6FQb8x_",
+      "type": "subtopic",
+      "label": "プロセスマクロ&カスタムデリビュー",
+      "position": {
+        "x": -709.7748410324898,
+        "y": 1474.8063556289276
+      },
+      "size": {
+        "width": 333,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "処理マクロは,コンパイル時にトークンストリームで動作し,新しいコードを生成する. 3種類のものがあります.カスタムデリビュー (`#[デリビュー(MyTrait) ]`),属性のような (`#[my_attr]`),および機能のような (`my_macro!() `). 宣言マクロよりも強力だが,特殊な設定を持つ別々の箱が必要です.",
+        "links": [
+          {
+            "title": "手続きマクロ",
+            "url": "https://doc.rust-lang.org/reference/procedural-macros.html",
+            "type": "official"
+          },
+          {
+            "title": "プロシデュラルマクロとカスタム派生を理解する",
+            "url": "https://www.gyata.ai/rust/procedural-macros-and-custom-derive",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Kb7KF7JCMaWFz-GuaQmQV",
+      "type": "subtopic",
+      "label": "ドメイン特有の言語 (DSL)",
+      "position": {
+        "x": -709.7748410324898,
+        "y": 1533.339181586816
+      },
+      "size": {
+        "width": 333,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "DSLは特定のドメインのための専門プログラミング言語である.Rust マクロは,構文木を操作し,カスタマイズされた構文パターンを定義することによって DSLを作成することができます.これはゲーム開発,構成,またはドメイン特定タスクなどの専門アプリケーションのためのRustの言語能力を拡張することができます.",
+        "links": [
+          {
+            "title": "ドメイン特有の言語 (DSL)",
+            "url": "https://doc.rust-lang.org/rust-by-example/macros/dsl.html",
+            "type": "official"
+          },
+          {
+            "title": "表現ツール作成:ドメイン特定言語 (DSL)",
+            "url": "https://medium.com/@murataslan1/crafting-expressive-tools-domain-specific-languages-dsls-in-rust-94394debe12b",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "KomYBYxj0FTrJDYB3nU5B",
+      "type": "topic",
+      "label": "ウェブ開発",
+      "position": {
+        "x": -685.2748410324898,
+        "y": 1904.2497741109262
+      },
+      "size": {
+        "width": 186,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Rustは,Actix,Rocket,Axum,Warpなどのフレームワークで優れたウェブ開発機能を提供しています.これらはHTTP処理,ルーティング,ミドルウェア,データベース統合を提供します.Rustの性能と安全性は,高性能のウェブサービス,API,マイクロサービスに理想的です.",
+        "links": [
+          {
+            "title": "ロケット - 防腐のためのシンプルで高速で安全なウェブフレームワーク",
+            "url": "https://rocket.rs/",
+            "type": "official"
+          },
+          {
+            "title": "ウェブ 開発 の ため の 腐り - 初心 者 の ガイド",
+            "url": "https://medium.com/@enravishjeni411/rust-for-web-development-a-beginners-guide-fcc994e5c090",
+            "type": "article"
+          },
+          {
+            "title": "ロケットとRustRoverで最初のRust Web Appを書き出す方法",
+            "url": "https://blog.jetbrains.com/rust/2024/02/28/how-to-write-your-first-rust-web-app-with-rocket-and-rustrover/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "9emZ0CCIMAx275G0dXZak",
+      "type": "horizontal",
+      "label": "ホリゾントノード",
+      "position": {
+        "x": -586.7836476886799,
+        "y": 1751.8152557429603
+      },
+      "size": {
+        "width": 50,
+        "height": 20
+      },
+      "style": {
+        "stroke": "#000000"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "JH9PTRZi13t_dX6STd1Wr",
+      "type": "horizontal",
+      "label": "ホリゾントノード",
+      "position": {
+        "x": -586.7836476886799,
+        "y": 1756
+      },
+      "size": {
+        "width": 50,
+        "height": 20
+      },
+      "style": {
+        "stroke": "#000000",
+        "strokeWidth": 7
+      },
+      "z_index": 999
+    },
+    {
+      "id": "VLKEl_NCu9JEA9qAQYm_a",
+      "type": "label",
+      "label": "生態系と図書館",
+      "position": {
+        "x": -443.78364768867993,
+        "y": 1766.8152557429603
+      },
+      "size": {
+        "width": 205,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "duQ1RO1lqq793mfb5w31P",
+      "type": "subtopic",
+      "label": "アクセム",
+      "position": {
+        "x": -298.047381647763,
+        "y": 1850.289316122862
+      },
+      "size": {
+        "width": 119,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "アクサムは,ハイパーで構築された現代的でエルゴノミックなウェブフレームワークで,アシンkron Rustのために設計されています.優れたタイプセキュリティ,強力なエクストラクター,ミドルウェアサポート,シームレスな東京統合を備えています. アクサムはWebサービスとAPIの高いパフォーマンスを維持しながら開発者の経験に重点を置いています.",
+        "links": [
+          {
+            "title": "アクサムドキュメント",
+            "url": "https://docs.rs/axum/latest/axum/",
+            "type": "official"
+          },
+          {
+            "title": "アクサム - ラストの最も人気のあるウェブフレームワーク",
+            "url": "https://www.shuttle.dev/blog/2023/12/06/using-axum-rust",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3Y90v2ysoMcyjDL24H7mC",
+      "type": "subtopic",
+      "label": "アクティックス",
+      "position": {
+        "x": -174.20827066407475,
+        "y": 1850.289316122862
+      },
+      "size": {
+        "width": 119,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Actixは,アクターモデルに基づいて構築されたRustのための高性能,実用的なWebフレームワークです.強力なミドルウェア,WebSocketサポート,優れたパフォーマンスベンチマークを備えています.Actixは,最小のボイラープレートでWebアプリケーション,API,マイクロサービスを構築するための柔軟で機能豊かなAPIを提供します.",
+        "links": [
+          {
+            "title": "Actix - Rustのアクターフレームワーク",
+            "url": "https://actix.rs/",
+            "type": "official"
+          },
+          {
+            "title": "アクティックス文書",
+            "url": "https://docs.rs/actix/latest/actix/",
+            "type": "official"
+          },
+          {
+            "title": "Actix Web で Rust で クリーンな API を 構築する",
+            "url": "https://medium.com/@anto18671/building-a-clean-api-in-rust-with-actix-web-a-comprehensive-guide-d084e368a988",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "n5t3MUqmvrcr36VIIOw0u",
+      "type": "subtopic",
+      "label": "レプトス",
+      "position": {
+        "x": -298.047381647763,
+        "y": 1903.289316122862
+      },
+      "size": {
+        "width": 119,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Leptos は,Rust と WebAssembly でリエクティブ UI を 構築する ウェブ フレームワーク.SSR と CSR,細粒子の リエクティビティ,図書館 と ツール の 豊かな 生態系 を サポートする.Leptos は クライアント サイド レンダリング,サーバー サイド レンダリング,または 水分化 で ウェブ アプリケーション を 構築する ツール です.",
+        "links": [
+          {
+            "title": "ホーム - レプトス",
+            "url": "https://www.leptos.dev/",
+            "type": "official"
+          },
+          {
+            "title": "紹介 - レプトス 文書",
+            "url": "https://book.leptos.dev/",
+            "type": "official"
+          },
+          {
+            "title": "leptos-rs/leptos:Rustで高速ウェブアプリケーションを構築する",
+            "url": "https://github.com/leptos-rs/leptos",
+            "type": "opensource"
+          }
+        ]
+      }
+    },
+    {
+      "id": "GnSBtZoN9mAehRf5Eczng",
+      "type": "subtopic",
+      "label": "ローコ",
+      "position": {
+        "x": -174.20827066407475,
+        "y": 1903.289316122862
+      },
+      "size": {
+        "width": 119,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ロコはRustのWebフレームワークで,Ruby on Railsからインスピレーションを受け,開発者がMVC型のアプリケーションを簡単に構築できるように設計されています.シンプルさ,急速な開発を強調し,生産的なコーディング体験のためにORM,バックグラウンドワーク,テンプレートエンジンなどの機能を統合します.",
+        "links": [
+          {
+            "title": "Loco.rs - 生産性の第一のRust Fullstack Web Framework",
+            "url": "https://loco.rs/",
+            "type": "official"
+          },
+          {
+            "title": "ロコガイド - ロコ.rs",
+            "url": "https://loco.rs/docs/getting-started/guide/",
+            "type": "official"
+          },
+          {
+            "title": "ロコ・イン・ラスト の 始まり",
+            "url": "https://www.shuttle.dev/blog/2023/12/28/using-loco-rust-rails",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ApjwY_70OGG_dNIC85oBD",
+      "type": "subtopic",
+      "label": "ロケット",
+      "position": {
+        "x": -298.047381647763,
+        "y": 1956.2893161228621
+      },
+      "size": {
+        "width": 119,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Rocket は Rust の Web フレームワークで,使いやすさ,表現力,タイプの安全性を強調する.手順マクロ,組み込みテンプレート,リクエストガード,包括的なエラー処理を通じてコード生成を備えています. Rocket は,直感的な API と詳細なエラーメッセージで開発者生産性を優先します.",
+        "links": [
+          {
+            "title": "ロケット - 防腐のためのシンプルで高速で安全なウェブフレームワーク",
+            "url": "https://rocket.rs/",
+            "type": "official"
+          },
+          {
+            "title": "ロケット が 腐っている の はじめ",
+            "url": "https://www.shuttle.dev/blog/2023/12/13/using-rocket-rust",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "yu0f5gALho0e8wzV10yow",
+      "type": "topic",
+      "label": "アシンクロンなプログラミング",
+      "position": {
+        "x": -685.2748410324898,
+        "y": 2119.550309464411
+      },
+      "size": {
+        "width": 259,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Rust のアシンクロプログラミングは,連続ではなく同時に作業を実行できるようにし,特にIO 重いアプリケーションで効率的なリソース利用を可能にします.Rust は `async` と `wait` のキーワードを提供します. `async` は,将来の値を返せる関数をマークし, `wait` は一時停止し,アシンクロ関数を再開します.東京や async-std などの人気のアシンクロ実行時間は,作業を実行を効率的に管理します.",
+        "links": [
+          {
+            "title": "アシンクロンプログラミングの基礎",
+            "url": "https://doc.rust-lang.org/book/ch17-00-async-await.html",
+            "type": "official"
+          },
+          {
+            "title": "アシン-STD",
+            "url": "https://docs.rs/async-std/latest/async_std/",
+            "type": "official"
+          },
+          {
+            "title": "Rust の アシンクロン プログラミング を 解明 する",
+            "url": "https://medium.com/@trek007/demystifying-async-programming-in-rust-a-complete-guide-with-real-world-examples-147079950f8b",
+            "type": "article"
+          },
+          {
+            "title": "Rust Async プログラミング:東京 & Async-std",
+            "url": "https://medium.com/@AlexanderObregon/async-programming-in-rust-exploring-tokio-and-async-std-97d4b524cef0",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "H0mctp3Bj2OYfIGFDWGfz",
+      "type": "subtopic",
+      "label": "東京",
+      "position": {
+        "x": -684.3727988204032,
+        "y": 2200.559081382036
+      },
+      "size": {
+        "width": 85,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "東京は,高速で信頼性の高いネットワークアプリケーションを構築するRustの最も人気のあるアシンクロン実行時間です.アシンクロン/待ち実行時間,I/Oドライバー,タイマー,およびネットワークプリミティブを提供します.東京は,少数のスレッドで何千ものタスクを効率的に管理することによって,高性能の同時アプリケーションを可能にします.",
+        "links": [
+          {
+            "title": "東京",
+            "url": "https://tokio.rs/",
+            "type": "official"
+          },
+          {
+            "title": "東京ドックス",
+            "url": "https://docs.rs/tokio/latest/tokio/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "_2uQInXPdOY-DpYTO1Prt",
+      "type": "subtopic",
+      "label": "アシン-STD",
+      "position": {
+        "x": -603.7748410324898,
+        "y": 2200.559081382036
+      },
+      "size": {
+        "width": 119,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`async-std`はRustの標準ライブラリのアシンクロンバージョンを提供し,アシンクロンプログラミングの既知のAPIを提供しています.独自の実行時間,タスクスケジューラー,およびアシンクロンI/Oプリミティブが含まれ,アシンクロン機能と直感的な構文を持つstdのドロップイン代替として設計されています.",
+        "links": [
+          {
+            "title": "アシン-STD",
+            "url": "https://docs.rs/async-std/latest/async_std/",
+            "type": "official"
+          },
+          {
+            "title": "Rust Async プログラミング:東京 & Async-std",
+            "url": "https://medium.com/@AlexanderObregon/async-programming-in-rust-exploring-tokio-and-async-std-97d4b524cef0",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3C9gCBAq3OQVb583S72D4",
+      "type": "subtopic",
+      "label": "スモール",
+      "position": {
+        "x": -478.1768832445764,
+        "y": 2200.559081382036
+      },
+      "size": {
+        "width": 81,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`smol`は,最小のAPIとクリーンなデザインを持つRust用の小型で高速なアシンクロン実行タイムです.Async-stdと東京で構築され,効率的なスケジューリングでネイティブでアシンクロン/ワイトをサポートします.タイマー,フューチャー,タスクマネジメントを含む基本的なアシンクロン機能を軽量パッケージで優れたパフォーマンスで提供します.",
+        "links": [
+          {
+            "title": "スモール - 腐蝕の本質",
+            "url": "https://book.gist.rs/rust/r1/smol.html",
+            "type": "official"
+          },
+          {
+            "title": "smol-rs/smol: Rust の小型かつ高速なアシンクロン実行時間",
+            "url": "https://github.com/smol-rs/smol",
+            "type": "opensource"
+          },
+          {
+            "title": "スモル文書",
+            "url": "https://docs.rs/smol/latest/smol/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "0pcBebcTENRVf9F-ClydB",
+      "type": "label",
+      "label": "個人的な推薦: アクサム",
+      "position": {
+        "x": -310.547381647763,
+        "y": 2011.550309464411
+      },
+      "size": {
+        "width": 268,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "3pL0ARqk8uRNimopHSalW",
+      "type": "topic",
+      "label": "ネットワーク",
+      "position": {
+        "x": -300.6381872719935,
+        "y": 2119.550309464411
+      },
+      "size": {
+        "width": 132,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Rust の `std::net` モジュールは, `TcpStream`, `TcpListener`, `UdpSocket`,アドレスのタイプを含むネットワークプリミティブを提供します.BSDソケットで構築され,ネットワークアプリケーションを構築するための低レベルのネットワーク操作を提供しています.東京のような高レベルのキャストはアシンクロネットワーク機能を提供します.",
+        "links": [
+          {
+            "title": "std::net",
+            "url": "https://doc.rust-lang.org/std/net/",
+            "type": "official"
+          },
+          {
+            "title": "TcpListener",
+            "url": "https://doc.rust-lang.org/std/net/struct.TcpListener.html",
+            "type": "official"
+          },
+          {
+            "title": "UdpSocket",
+            "url": "https://doc.rust-lang.org/std/net/struct.UdpSocket.html",
+            "type": "official"
+          },
+          {
+            "title": "TcpStream",
+            "url": "https://doc.rust-lang.org/std/net/struct.TcpStream.html",
+            "type": "official"
+          },
+          {
+            "title": "腐蝕におけるネットワークの基礎",
+            "url": "https://medium.com/@murataslan1/networking-fundamentals-in-rust-525dcfbd5058",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "TtajUXZpyNx9AmdUawm-8",
+      "type": "subtopic",
+      "label": "リクウェスト",
+      "position": {
+        "x": -300.6381872719935,
+        "y": 2200.559081382036
+      },
+      "size": {
+        "width": 106,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`reqwest`はRust用の人気のHTTPクライアントライブラリで,HTTPリクエストを作成するための同期および非同期APIの両方を提供しています. `hyper`と `tokio`に基づいて構築され,ウェブAPIのインタラクションのためのエルゴノミックで使いやすいインターフェースでJSON,フォーム,クッキーをサポートし,さまざまな認証方法を提供しています.",
+        "links": [
+          {
+            "title": "Reqwest で Rust で HTTP 要求を行う",
+            "url": "https://blog.logrocket.com/making-http-requests-rust-reqwest/",
+            "type": "article"
+          },
+          {
+            "title": "レクウェスト を 腐った 状態 で 探検 する",
+            "url": "https://medium.com/@chetanreddyk394/exploring-reqwest-in-rust-b91c548e69af",
+            "type": "article"
+          },
+          {
+            "title": "Reqwest ドキュメンテーション",
+            "url": "https://docs.rs/reqwest/latest/reqwest/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "-MiN5ytI43EjgmWV55BhU",
+      "type": "subtopic",
+      "label": "ハイパー",
+      "position": {
+        "x": -204.81180589576024,
+        "y": 2200.559081382036
+      },
+      "size": {
+        "width": 88,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Hyperは,アシンクロI/Oのために東京に構築されたRustの高速で安全なHTTPクライアント/サーバーライブラリです.自動プロトコル交渉でHTTP/1とHTTP/2をサポートします.Hyperは,多くの高レベルのWebフレームワークを動かす低レベルのHTTPプリミティブを提供し,効率的なネットワークプログラミングの基礎として機能します.",
+        "links": [
+          {
+            "title": "ハイパー.rs",
+            "url": "https://hyper.rs/",
+            "type": "official"
+          },
+          {
+            "title": "ハイパードキュメント",
+            "url": "https://docs.rs/hyper/latest/hyper/",
+            "type": "article"
+          },
+          {
+            "title": "Hyper を使用してRust で基本的な HTTP サーバーを作成する",
+            "url": "https://medium.com/@ajay.bhatia/creating-a-basic-http-server-in-rust-using-hyper-a-step-by-step-tutorial-459b48d61151",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "qi1pmsY8bPk8nbHiBIGha",
+      "type": "subtopic",
+      "label": "クイン",
+      "position": {
+        "x": -124.1381872719935,
+        "y": 2200.559081382036
+      },
+      "size": {
+        "width": 88,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`Quinn`は,東京で構築されたRust用の高性能のQuICプロトコル実装です.QuICは,マルチプレックスとセキュリティでTCPよりも優れたパフォーマンスを提供する近代的な輸送プロトコルです.Quinnは,ネットワークアプリケーションのためのクライアントとサーバーの両方の役割をサポートするアシンクロ,フューチャーベースのAPIを提供します.",
+        "links": [
+          {
+            "title": "クイーン  ロースト・ネットワーク・ライブラリー",
+            "url": "https://lib.rs/crates/quinn",
+            "type": "official"
+          },
+          {
+            "title": "quinn-rs/quinn: Rust で ASync フレンドリーな QUIC 実装",
+            "url": "https://github.com/quinn-rs/quinn",
+            "type": "opensource"
+          },
+          {
+            "title": "クイーン",
+            "url": "https://docs.rs/quinn/latest/quinn/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "gcmKSLWfBqx4aPZOmyQsg",
+      "type": "topic",
+      "label": "シリアライゼーション / デセリアライゼーション",
+      "position": {
+        "x": 51.619964520821554,
+        "y": 2119.550309464411
+      },
+      "size": {
+        "width": 270,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "シリアライゼーションは,Rustデータ構造を保存または送信のためのバイトに変換し,デシリアライゼーションはプロセスを逆転します. _Serde_は,JSON,YAML, TOML,Binary,その他のフォーマットをサポートする標準フレームワークです.効率的でタイプセキュアなデータ変換を提供します.",
+        "links": [
+          {
+            "title": "Serde ドキュメンテーション",
+            "url": "https://docs.rs/serde/latest/serde/",
+            "type": "article"
+          },
+          {
+            "title": "腐蝕におけるシリアライゼーションとデセリアライゼーション - 総合ガイド",
+            "url": "https://rustmeup.com/serialization-in-rust-with-serde",
+            "type": "article"
+          },
+          {
+            "title": "防腐 シリアライゼーション: 簡単な例付き 初心者向けガイド",
+            "url": "https://boxoflearn.com/rust-serialization-guide/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "EHErECEYws05oi59OsZpC",
+      "type": "subtopic",
+      "label": "セルド",
+      "position": {
+        "x": 53.80188117353809,
+        "y": 2036.4195482899893
+      },
+      "size": {
+        "width": 91,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Serde は,Rust の最も人気のあるデータ構造をJSON,YAML, TOML,Binary などのフォーマットから変換するためのシリアライゼーションフレームワークである.自動実装のための衍生マクロを持つ `Serialize`と `Deserialize`特性を提供する.複雑な使用例のためにカスタマイズ可能な行動で高いパフォーマンスを提供する.",
+        "links": [
+          {
+            "title": "セルド",
+            "url": "https://serde.rs/",
+            "type": "official"
+          },
+          {
+            "title": "Serde ドキュメンテーション",
+            "url": "https://docs.rs/serde/latest/serde/",
+            "type": "article"
+          },
+          {
+            "title": "Serde と Rust の シリーズ化",
+            "url": "https://rustmeup.com/serialization-in-rust-with-serde",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ZXMKY0f7mqqlsvyH9u-LM",
+      "type": "subtopic",
+      "label": "Json-rust",
+      "position": {
+        "x": 150.8018811735381,
+        "y": 2036.4195482899893
+      },
+      "size": {
+        "width": 112,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Rust の JSON 処理は主に `serde` と `serde_json` ライブラリを使用して,高性能のシリアライゼーション/デシリアライゼーションを行う.これらは,文字列/ファイルから解析,シリアライゼーションを JSON に変換し, JSON 値を直接操作することで,Rust のデータ構造と JSON の間のシームレス変換を提供します.",
+        "links": [
+          {
+            "title": "セルド",
+            "url": "https://serde.rs/",
+            "type": "official"
+          },
+          {
+            "title": "serde-rs/serde: Rust の シリアライゼーション フレームワーク",
+            "url": "https://github.com/serde-rs/serde",
+            "type": "opensource"
+          },
+          {
+            "title": "文書: JSON",
+            "url": "https://docs.rs/json/latest/json/",
+            "type": "article"
+          },
+          {
+            "title": "Rust に関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/rust?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "LmFog_qXrS9e5ARhV6OD_",
+      "type": "subtopic",
+      "label": "トム・ルズ",
+      "position": {
+        "x": 270.8018811735381,
+        "y": 2036.4195482899893
+      },
+      "size": {
+        "width": 88,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`toml-rs`は,Rust で TOML (Tom's Obvious, Minimal Language) のコンフィギュレーションファイルを解析およびシリアライズします. TOML と Rust のタイプ間の自動シリアライゼーション/デシリアライゼーションのために serde を使用します.Rust の特征システムとタイプ推論を活用して, TOML 文書を静的タイプRust 構造に変換します.",
+        "links": [
+          {
+            "title": "トムル",
+            "url": "https://docs.rs/toml/latest/toml/",
+            "type": "official"
+          },
+          {
+            "title": "@opensourcetoml-rs/toml-rs",
+            "url": "https://github.com/toml-rs/toml-rs",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "_n7emeqzf5UTxVB5-385G",
+      "type": "topic",
+      "label": "データベースとORM",
+      "position": {
+        "x": 51.619964520821554,
+        "y": 2307.7971773974164
+      },
+      "size": {
+        "width": 197,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ORM (Object-Relational Mapping) は,RustコードとSQLデータベースの間の抽象層を提供します.人気のRust ORMには,Diesel (コンパイルタイムセキュリティ),SQLx (コンパイルタイムクエリチェックとアシンkron) と Sea-ORMが含まれます.",
+        "links": [
+          {
+            "title": "ディーゼルは安全で拡張可能な ORMとクエリビルダーです",
+            "url": "https://diesel.rs/",
+            "type": "official"
+          },
+          {
+            "title": "腐蚀 の ため に 適切な ORM を 選ぶ: 比較 分析",
+            "url": "https://medium.com/@wiederinchristoph/rusts-ecosystem-offers-a-variety-of-object-relational-mapping-orm-libraries-and-database-ce4690a97a61",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "UAXpBK3lfnq0Q4RcBehZ1",
+      "type": "subtopic",
+      "label": "ディーゼル",
+      "position": {
+        "x": 52.58542331133775,
+        "y": 2389.2245540941813
+      },
+      "size": {
+        "width": 94,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "DieselはRust用の安全で拡張可能なORMとクエリビルダーで,SQLインジェクションとタイプ不一致に対してコンパイルタイム保証を提供します.PostgreSQL,MySQL,SQLiteをデータベース操作のための高レベルのAPIでサポートし,優れたパフォーマンスとタイプセキュリティを維持しています.",
+        "links": [
+          {
+            "title": "ディーゼル",
+            "url": "https://diesel.rs/",
+            "type": "official"
+          },
+          {
+            "title": "資料庫",
+            "url": "https://github.com/diesel-rs/diesel",
+            "type": "opensource"
+          },
+          {
+            "title": "ディーゼル",
+            "url": "https://docs.rs/diesel/latest/diesel/",
+            "type": "article"
+          },
+          {
+            "title": "Rust&SQLデータベース (ディーゼルで)",
+            "url": "https://www.youtube.com/watch?v=tRC4EIKhMzw",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "r2KembNZ2WIzLe87EB91K",
+      "type": "subtopic",
+      "label": "sqlx",
+      "position": {
+        "x": 147.58542331133776,
+        "y": 2389.2245540941813
+      },
+      "size": {
+        "width": 75,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "SQLx は,PostgreSQL,MySQL,SQLite,MSSQLのコンパイルタイムクエリチェックを提供するアシンクロ,純粋なRust SQLツールキットである.マクロベースのクエリ検証,強力なタイピング,東京/async-stdランタイムとの互換性がある.SQLxはコンパイルタイム検証を通じてランタイム SQL エラーを排除する.",
+        "links": [
+          {
+            "title": "打ち上げバッジ/sqlx",
+            "url": "https://github.com/launchbadge/sqlx",
+            "type": "opensource"
+          },
+          {
+            "title": "sqlx ドキュメンテーション",
+            "url": "https://docs.rs/sqlx/latest/sqlx/",
+            "type": "article"
+          },
+          {
+            "title": "SQLx と SQLite を Rust で開始する",
+            "url": "https://medium.com/rustaceans/getting-started-with-sqlx-and-sqlite-in-rust-895ae7fc01ae",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a2MLN7f-FvsgdmvP9ixlv",
+      "type": "subtopic",
+      "label": "ルースクライト",
+      "position": {
+        "x": 252.58542331133776,
+        "y": 2389.2245540941813
+      },
+      "size": {
+        "width": 102,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`rusqlite`は, sqlite3 C ライブラリを中心に構築されたアーゴノミックな SQLite ライブラリです.最小の SQL 知識を必要とするシンプルで効率的なデータベース操作を提供します. SQL と Rust データ構造の間のタイプセキュアな二方向マッピングのためのシームレスな `serde`統合機能です.",
+        "links": [
+          {
+            "title": "ルースクライト/ルースクライト",
+            "url": "https://github.com/rusqlite/rusqlite",
+            "type": "opensource"
+          },
+          {
+            "title": "ルースクライト",
+            "url": "https://docs.rs/rusqlite/latest/rusqlite/",
+            "type": "article"
+          },
+          {
+            "title": "スクライトデータベース",
+            "url": "https://medium.com/@mikecode/rust-sqlite-database-rusqlite-162bad63fb5d",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Rv_Z-rbtELPZ1Nv0PZQmV",
+      "type": "topic",
+      "label": "暗号化",
+      "position": {
+        "x": -300.6381872719935,
+        "y": 2307.7971773974164
+      },
+      "size": {
+        "width": 148,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "暗号化は,暗号化 (読めるデータを読めない) と解読 (プロセスを逆転させる) によってデータをセキュア化する.Rustは,ハッシュ,対称/不対称暗号化,およびメモリ安全な実装を持つデジタル署名のための暗号ライブラリ (`ring`, `sodiumoxide`, `rust-crypto`) を提供します.",
+        "links": [
+          {
+            "title": "暗号化  Rust ライブラリ/キャストのリスト",
+            "url": "https://lib.rs/cryptography",
+            "type": "official"
+          },
+          {
+            "title": "ステキなルスト暗号",
+            "url": "https://cryptography.rs/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "f68x7r-qzaQfrzXnjOI2q",
+      "type": "subtopic",
+      "label": "ロースト・クリプト",
+      "position": {
+        "x": -176.5205479375233,
+        "y": 2392.7871651675737
+      },
+      "size": {
+        "width": 128,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`rust-crypto`は,AES,DES暗号,SHA,MD5ハッシュ機能,RSAデジタル署名を含む純粋なRustで実装された暗号アルゴリズムの集合である.速度とメモリ使用量が低いため,暗号機能を必要とするリソースに制限されたシステムに適している.",
+        "links": [
+          {
+            "title": "ステキなルスト暗号",
+            "url": "https://cryptography.rs/",
+            "type": "article"
+          },
+          {
+            "title": "ロースト・クリプト",
+            "url": "https://docs.rs/rust-crypto/latest/crypto/",
+            "type": "article"
+          },
+          {
+            "title": "スクライトデータベース",
+            "url": "https://medium.com/@mikecode/rust-sqlite-database-rusqlite-162bad63fb5d",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hzzRFb5cyXkgUdLZxaozB",
+      "type": "subtopic",
+      "label": "ナトリウムオキシド",
+      "position": {
+        "x": -300.6381872719935,
+        "y": 2445.7871651675737
+      },
+      "size": {
+        "width": 141,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`sodiumoxide`は,簡単に使用し,悪用防止のために設計されたリブソッド暗号化ライブラリに結合するRust 包装です.自動エラー処理で暗号化された原始物のための安全で高レベルの,語彙的なRust 包装を提供します.リブソッド性能の利点を提供しながら,シンプルさを保つためにNaCl 設計原理に従う.",
+        "links": [
+          {
+            "title": "耐久性 パスワード Argon2id とナトリウム酸化物とハッシング",
+            "url": "https://blue42.net/code/rust/examples/sodiumoxide-password-hashing/post/",
+            "type": "article"
+          },
+          {
+            "title": "ナトリウム酸化物/ナトリウム酸化物",
+            "url": "https://deepwiki.com/sodiumoxide/sodiumoxide",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "w8nxQDxmfoUHkFV66TKiq",
+      "type": "subtopic",
+      "label": "リング",
+      "position": {
+        "x": -298.8175069304428,
+        "y": 2392.7871651675737
+      },
+      "size": {
+        "width": 75,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`ring`は,TLSとコア暗号原始性に焦点を当てたRustのための安全で高速な暗号ライブラリである.RSA,AES,SHA,および他のアルゴリズムを含む.コンパイル時間および実行時間のセキュリティチェックを備えています.一般的な暗号の罠や不安定な実装を防ぐため,安全な,レビューされたアルゴリズムに使用を制限します.",
+        "links": [
+          {
+            "title": "ブライアンスミス/リング",
+            "url": "https://github.com/briansmith/ring",
+            "type": "opensource"
+          },
+          {
+            "title": "リング",
+            "url": "https://docs.rs/ring/latest/ring/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2Zyyf9q_CxmOW-z2pipL8",
+      "type": "topic",
+      "label": "CLIユーティリティ",
+      "position": {
+        "x": -707.7748410324898,
+        "y": 2515.491272000084
+      },
+      "size": {
+        "width": 134,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "CLIユーティリティは,ユーザがテキストコマンドを通じてシステムとインタラクションできるようにするコマンドラインツールである.CLIユーティリティは,メモリ安全性とパフォーマンスにより,高速で信頼性の高い CLIツールを構築するのに優れたものです.Clapと structoptのような人気のあるキャストはコマンドラインの議論を解析し,入力認証を処理し,CLI開発を効率的にする支援メッセージを生成するのに役立ちます.",
+        "links": [
+          {
+            "title": "ストラクプト",
+            "url": "https://docs.rs/structopt/latest/structopt/",
+            "type": "official"
+          },
+          {
+            "title": "拍手",
+            "url": "https://docs.rs/clap/latest/clap/",
+            "type": "official"
+          },
+          {
+            "title": "コマンドライン アプリ",
+            "url": "https://www.rust-lang.org/what/cli/",
+            "type": "official"
+          },
+          {
+            "title": "Rust CLI ユーティリティ - GitHub",
+            "url": "https://github.com/baldwin-sudo/rusty-utils",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "AId80IokM7NvGBVutmuGC",
+      "type": "subtopic",
+      "label": "拍手",
+      "position": {
+        "x": -506.45066814637346,
+        "y": 2424.1458411437447
+      },
+      "size": {
+        "width": 77,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`clap`は,Rustの最も人気のあるコマンドラインアグメント解析ライブラリです. 自動支援生成,サブコマンド,検証,エラー処理による宣言性 CLI定義を提供します. 簡単にCLI アプリ開発するためのビルダーパターンとデリブマクロの両方をサポートします. 総合的な機能があります.",
+        "links": [
+          {
+            "title": "拍手",
+            "url": "https://docs.rs/clap/latest/clap/",
+            "type": "official"
+          },
+          {
+            "title": "コマンドライン (CLI) 議論解析のためにClap in Rust を使用する",
+            "url": "https://blog.logrocket.com/using-clap-rust-command-line-argument-parsing/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "_43912wPdXgLL8v-IMHX_",
+      "type": "subtopic",
+      "label": "ストラクプト",
+      "position": {
+        "x": -712.1322659713495,
+        "y": 2428.1458411437447
+      },
+      "size": {
+        "width": 113,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`StructOpt`は,字段がフラグ,オプション,および議論を表す文字列を定義することによってコマンドラインのアーグメントを解析するためのライブラリです. `clap`の解析力を自動サポート生成,強固なタイピング,検証,および宣言式CLI定義のためのRustのタイプシステムと組み合わせます.",
+        "links": [
+          {
+            "title": "構造を定義し 設定する",
+            "url": "https://doc.rust-lang.org/book/ch05-01-defining-structs.html",
+            "type": "official"
+          },
+          {
+            "title": "StructOpt でコマンドラインアーグを解析する",
+            "url": "https://www.tenderisthebyte.com/blog/2019/05/08/parsing-cli-args-with-structopt/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "YS0igALDqSanGDWva_vls",
+      "type": "subtopic",
+      "label": "ターミオン",
+      "position": {
+        "x": -712.1322659713495,
+        "y": 2375.1458411437447
+      },
+      "size": {
+        "width": 113,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`termion`は,低レベルの端末操作と情報処理のための純粋なRust,ゼロ依存性ライブラリです.色サポート,入力処理,端末特有の機能などの機能とクロスターミナル互換性を提供します.外部結合なしでクロスプラットフォーム CLI アプリケーションを構築するのに理想的です.",
+        "links": [
+          {
+            "title": "用語文書",
+            "url": "https://docs.rs/termion/latest/termion/",
+            "type": "official"
+          },
+          {
+            "title": "パックテッドのRustでターミナルI/Oを実装する",
+            "url": "https://packt.medium.com/implementing-terminal-i-o-in-rust-4a44652b0f11",
+            "type": "article"
+          },
+          {
+            "title": "ターミナル アプリケーション を ターミオン で 腐蚀 する",
+            "url": "https://ticki.github.io/blog/making-terminal-applications-in-rust-with-termion/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "uG-EmZVZ-jc3mswOT4-7l",
+      "type": "topic",
+      "label": "ゲーム開発",
+      "position": {
+        "x": -707.7748410324898,
+        "y": 2662.047621690988
+      },
+      "size": {
+        "width": 198,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ルーストの性能とメモリ安全性はゲーム開発に優れたものである.人気のあるエンジンとフレームワークにはBevy (ECSベースの),Macroquad,ggez,およびFyroxが含まれています.ルーストは2Dと3Dゲームの両方を効率的に処理し,グラフィック,オーディオ,物理のエコシステムサポートが増加しています.",
+        "links": [
+          {
+            "title": "Fyrox - Rustで構築された機能豊かなゲームエンジン",
+            "url": "https://fyrox.rs/",
+            "type": "official"
+          },
+          {
+            "title": "5 防腐ゲーム エンジン",
+            "url": "https://blog.logrocket.com/5-rust-game-engines-consider-next-project/",
+            "type": "article"
+          },
+          {
+            "title": "Fyrox と Rust で ゲーム開発",
+            "url": "https://bocksdincoding.com/blog/game-development-with-fyrox-and-rust-pt-1",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "uyrGki0jB7DXQ0HJe2-vY",
+      "type": "subtopic",
+      "label": "ベイビ",
+      "position": {
+        "x": -711.2922976896841,
+        "y": 2743.435641912534
+      },
+      "size": {
+        "width": 81,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Bevyは,ECS (Entity Component System) のアーキテクチャを搭載したRustで構築された現代的なデータ駆動ゲームエンジンである.モジュール式デザイン,カスタムシェッダー,高性能の2Dと3Dゲームの両方をサポートしている.Bevyは開発者エルゴノミックに重点を置く.ゲーム開発のための包括的なツールを提供しています.",
+        "links": [
+          {
+            "title": "ベビー エンジン",
+            "url": "https://bevy.org/",
+            "type": "official"
+          },
+          {
+            "title": "Bevyドキュメント",
+            "url": "https://docs.rs/bevy/latest/bevy/",
+            "type": "official"
+          },
+          {
+            "title": "ベイジング/ベイジング",
+            "url": "https://github.com/bevyengine/bevy",
+            "type": "opensource"
+          }
+        ]
+      }
+    },
+    {
+      "id": "x9bmK_cLYpX0ebwjZUn4R",
+      "type": "subtopic",
+      "label": "フィロックス",
+      "position": {
+        "x": -616.9348727508243,
+        "y": 2743.435641912534
+      },
+      "size": {
+        "width": 81,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Fyroxは,Rust向けに設計された現代的で高度に最適化された3Dゲームエンジンです.Rustの安全性と同期性を高性能と信頼性のために活用します.高度な照明,シャドーイング,一般的な3Dフォーマットをサポートし,パフォーマンスに重要なアプリケーションのための低レベルのハードウェア制御機能があります.",
+        "links": [
+          {
+            "title": "Fyrox - Rustで構築された機能豊かなゲームエンジン",
+            "url": "https://fyrox.rs/",
+            "type": "official"
+          },
+          {
+            "title": "FyroxEngine/Fyrox: 3Dと 2Dゲームエンジン",
+            "url": "https://github.com/FyroxEngine/Fyrox",
+            "type": "opensource"
+          },
+          {
+            "title": "Fyrox と Rust で ゲーム開発",
+            "url": "https://bocksdincoding.com/blog/game-development-with-fyrox-and-rust-pt-1",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "qquYnrrzUlyd8738jzj1D",
+      "type": "subtopic",
+      "label": "ゲージ",
+      "position": {
+        "x": -512.5774478119645,
+        "y": 2743.435641912534
+      },
+      "size": {
+        "width": 83,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`ggez`は,Love2DにインスパイアされたRustの軽量2Dゲームフレームワークです. 簡単なRustyインターフェイスでグラフィックレンダリング,入力処理,オーディオ操作,ゲームタイムリングの機能を提供します. 開発者は低レベルの実装詳細を心配せずにゲーム論理に焦点を当てることができます.",
+        "links": [
+          {
+            "title": "Rust Game について",
+            "url": "https://ggez.rs/",
+            "type": "official"
+          },
+          {
+            "title": "2Dゲームレンダージャー イン ロースト",
+            "url": "https://dev.to/trish_07/2d-game-renderer-in-rust-lets-make-a-mini-rpg-a9h",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "EtKhe3lgK3NoiBOjXRb2O",
+      "type": "subtopic",
+      "label": "マクロクアッド",
+      "position": {
+        "x": -712.1322659713495,
+        "y": 2797.530453988514
+      },
+      "size": {
+        "width": 132,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Macroquadは,Rust用のシンプルでクロスプラットフォームの2Dゲームエンジンで,迅速なプロトタイピングと開発に焦点を当てています.ミニクアッドを通じて効率的なレンダリング,入力処理,コールーチンベースのアシンクロプログラミング,サウンドサポートの機能があります.Windows,macOS,Linux,WebAssembly,Android,iOSでポータブルです.",
+        "links": [
+          {
+            "title": "マクロクアッド",
+            "url": "https://macroquad.rs/",
+            "type": "official"
+          },
+          {
+            "title": "マクロクアッドドキュメント",
+            "url": "https://macroquad.rs/docs/",
+            "type": "official"
+          },
+          {
+            "title": "カースト: マクロクアッドで クリッカーゲームを作成する",
+            "url": "https://dev.to/flavius_the_0th/rust-create-a-clicker-game-with-macroquad-1820",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6wGShK9WEnXiby_Jm8sTO",
+      "type": "subtopic",
+      "label": "Wgpu-rs",
+      "position": {
+        "x": -555.6322659713495,
+        "y": 2797.530453988514
+      },
+      "size": {
+        "width": 106,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`wgpu-rs`は,wgpu-coreを抽象化することで,安全でイディオマティックなRustグラフィックプログラミングを提供します.低レベルの制御オプションで高レベルの便利性を提供します.クロスプラットフォーム互換性のために,Vulkan,Metal,DirectX,WebGPUバックエンドでグラフィックおよびコンピューティング機能への統一アクセスを提供します.",
+        "links": [
+          {
+            "title": "wgpu: Rust用のポータブルグラフィックライブラリ",
+            "url": "https://wgpu.rs/",
+            "type": "official"
+          },
+          {
+            "title": "gfx-rs/wgpu",
+            "url": "https://github.com/gfx-rs/wgpu",
+            "type": "opensource"
+          },
+          {
+            "title": "wpgu ドキュメント",
+            "url": "hhttps://docs.rs/wgpu/latest/wgpu/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "T1LlJz5m5wnwBvKAEuGnP",
+      "type": "topic",
+      "label": "GUI開発",
+      "position": {
+        "x": -300.6381872719935,
+        "y": 2662.047621690988
+      },
+      "size": {
+        "width": 182,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "RustはTauri (ウェブベースの),Iced (エルムからインスピレーションを受けた),Druid,GTK-rs,Eguiを含むデスクトップアプリケーションのためのいくつかのGUIフレームワークを提供しています.これらは,現代的なUIパターンとRustのパフォーマンスメリットを持つネイティブデスクトップアプリケーションを作成するためのクロスプラットフォームサポートを提供します.",
+        "links": [
+          {
+            "title": "防腐とGUI開発 - 総合ガイド",
+            "url": "https://rustmeup.com/rust-and-gui-development",
+            "type": "article"
+          },
+          {
+            "title": "Rust GUI ライブラリの状態",
+            "url": "https://blog.logrocket.com/state-rust-gui-libraries/",
+            "type": "article"
+          },
+          {
+            "title": "ステキで直感的なGUIを スタストとエグイで構築する",
+            "url": "https://triophore.com/blogs/content/rust-egui-gui-development/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Q71MnFDQBkZF1c2hj13pU",
+      "type": "subtopic",
+      "label": "タウリ",
+      "position": {
+        "x": -299.0874712538206,
+        "y": 2581.215607689768
+      },
+      "size": {
+        "width": 79,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Tauriは,Rust バックエンドを使用したWeb技術 (HTML, CSS, JS) を使用して軽量で安全なデスクトップアプリケーションを構築するフレームワークです.",
+        "links": [
+          {
+            "title": "タウリ",
+            "url": "https://tauri.app",
+            "type": "official"
+          },
+          {
+            "title": "タウリガイド",
+            "url": "https://v1.tauri.app/v1/guides/",
+            "type": "official"
+          },
+          {
+            "title": "Rust & Tauri でクロスプラットフォーム GUI アプリケーションを構築する方法",
+            "url": "https://codezup.com/cross-platform-gui-apps-rust-tauri-guide/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2Zp3m3Y7j6R1hK3DIVdkH",
+      "type": "subtopic",
+      "label": "gtk-rs",
+      "position": {
+        "x": -224.2592360689243,
+        "y": 2581.215607689768
+      },
+      "size": {
+        "width": 89,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`gtk-rs` は GTK+3 および関連ライブラリ (GObject, Glib, Cairo, Pango) に関するRust 結合を提供し,クロスプラットフォームGUI アプリケーション開発を可能にします.これらのオープンソースライブラリは,GTK コンポーネントのためのRust フレンドリーなインターフェースを提供し,開発者がネイティブGTK機能を持つRust を使用してグラフィックアプリケーションを作成することができます.",
+        "links": [
+          {
+            "title": "Rust の GNOME スタックを解き放す",
+            "url": "https://gtk-rs.org/",
+            "type": "official"
+          },
+          {
+            "title": "gtk-rs/gtk4-rs: GTK 4 の耐久性結合",
+            "url": "https://github.com/gtk-rs/gtk4-rs",
+            "type": "opensource"
+          }
+        ]
+      }
+    },
+    {
+      "id": "QbdGnUoTLgMHO1NCQINIi",
+      "type": "subtopic",
+      "label": "リルム",
+      "position": {
+        "x": -127.43100088402801,
+        "y": 2581.215607689768
+      },
+      "size": {
+        "width": 79,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`relm`は, `gtk-rs` と GTK+3 に基づいて構築された宣言式,イベント主導のGUI フレームワークである.複雑なUI インタラクションのためにモデル-ビュー-アップデートアーキテクチャとアシンクロフューチャーを使用します. 名前によるウィジェット識別,シームレスなウィジェット間通信,ダイナミックなデスクトップアプリケーションのためのRustの安全な同時性を活用します.",
+        "links": [
+          {
+            "title": "リルム",
+            "url": "https://relm4.org/",
+            "type": "official"
+          },
+          {
+            "title": "Relm ドキュメンテーション",
+            "url": "https://relm4.org/book/stable/",
+            "type": "official"
+          },
+          {
+            "title": "Relm,GUIライブラリ,GTK+とFuturesをベースに,Rustで書かれています",
+            "url": "https://relm.antoyo.xyz/relm-intro/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "RKXljexmLAceMYwg4D_uP",
+      "type": "topic",
+      "label": "組み込みおよびシステム",
+      "position": {
+        "x": 51.58542331133775,
+        "y": 2662.047621690988
+      },
+      "size": {
+        "width": 232,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Rustは,マイクロコントローラーとリアルタイムアプリケーションのための内蔵システムプログラミングで優れている.ゼロコスト抽象,メモリセキュリティ,低レベルの制御により,リソースが制限された環境に最適です.物联网デバイス,ファームウェア,ゴミ収集のオーバーヘッドなしでシステムレベルのプログラミングで人気があります.",
+        "links": [
+          {
+            "title": "組み込みデバイス",
+            "url": "https://www.rust-lang.org/what/embedded",
+            "type": "official"
+          },
+          {
+            "title": "埋め込みシステムへの腐蚀",
+            "url": "https://medium.com/@enravishjeni411/rust-for-embedded-systems-a-beginner-friendly-guide-e8c171cfb359",
+            "type": "article"
+          },
+          {
+            "title": "樹脂内蔵システム: 初心者向けガイドと例",
+            "url": "https://boxoflearn.com/rust-embedded-systems-guide/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "LzaO2cpDajXERqEYDjMl_",
+      "type": "subtopic",
+      "label": "埋め込みホール",
+      "position": {
+        "x": 53.80188117353809,
+        "y": 2524.7871651675737
+      },
+      "size": {
+        "width": 157,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`embedded-hal` (Hardware Abstraction Layer) は,Rust でポータブルに埋め込まれたドライバを作成するための一般的な特性を提供します.デジタルI/O,UART,I2C,SPI,その他の通信プロトコルを統一したAPIに抽出することで,ハードウェアの異なるハードウェアプラットフォームでコードの再利用を促進します.",
+        "links": [
+          {
+            "title": "HALs - 根付いた 腐蝕 書",
+            "url": "https://doc.rust-lang.org/stable/embedded-book/design-patterns/hal/index.html",
+            "type": "official"
+          },
+          {
+            "title": "組み込みシステムのためのハードウェア抽象層 (HAL)",
+            "url": "https://github.com/rust-embedded/embedded-hal",
+            "type": "opensource"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L01rVq2_H4rWzlKygW5kA",
+      "type": "subtopic",
+      "label": "パンパール",
+      "position": {
+        "x": 53.649415377168324,
+        "y": 2577.7871651675737
+      },
+      "size": {
+        "width": 84,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`RPPAL` (Raspberry Pi Peripheral Access Library) は,Raspberry Pi GPIO,I2C,PWM,SPI,UART周辺機器へのRustアクセスを提供しています.包括的な中断処理,ソフトウェアベースのPWM,およびI2C/SPIバスを備えています.Raspbian/Debian Stretchまたはそれ以降を実行するすべてのRaspberry Piモデルをサポートします.",
+        "links": [
+          {
+            "title": "RPPALドキュメント",
+            "url": "https://docs.golemparts.com/rppal/0.11.1/rppal/",
+            "type": "official"
+          },
+          {
+            "title": "ゴームパーツ/rppal",
+            "url": "https://github.com/golemparts/rppal",
+            "type": "opensource"
+          },
+          {
+            "title": "RPPAL  Rust に 組み込み 開発",
+            "url": "https://lib.rs/crates/rppal",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ETYrk0s5Wn80XyntNG_t1",
+      "type": "subtopic",
+      "label": "nrf-hal",
+      "position": {
+        "x": 195.58542331133776,
+        "y": 2577.7871651675737
+      },
+      "size": {
+        "width": 95,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`nrf-hal`は,北欧半導体nRF52およびnRF91シリーズのチップ向けにRust Peripheral Access Crateです. GPIO,タイマー,RNG,RTC,I2C/SPI,温度センサー,遅延ルーチンのための高レベルの,セマンティックなインターフェースを提供します.オープンソース Apacheライセンスライブラリで直接登録アクセスを抽象します.",
+        "links": [
+          {
+            "title": "nRF-HAL  Rust に埋め込まれた開発",
+            "url": "https://lib.rs/crates/nrf-hal",
+            "type": "official"
+          },
+          {
+            "title": "nrf-rs/nrf-hal",
+            "url": "https://github.com/nrf-rs/nrf-hal",
+            "type": "opensource"
+          },
+          {
+            "title": "HAL は 何 です か? 適当 な 埋め込み 腐蝕 の HAL を 探求 する こと",
+            "url": "https://dev.to/theembeddedrustacean/what-the-hal-the-quest-for-finding-a-suitable-embedded-rust-hal-2i02",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "fusu4ZHH4-cjoouLr4F9U",
+      "type": "topic",
+      "label": "ウェブアセンブリ (WASM)",
+      "position": {
+        "x": 51.58542331133776,
+        "y": 2817.435641912534
+      },
+      "size": {
+        "width": 216,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "WebAssembly は,ウェブブラウザおよびその他の環境で近似ネイティブ速度で実行されるバイナリインストラクションフォーマットである.Rust は,高性能のウェブアプリケーションとクロスプラットフォーム展開を可能にする `wasm-pack`および `wasm-bindgen`のようなツールでWASMに優れたコンパイルを備えています.",
+        "links": [
+          {
+            "title": "WebAssembly を Rust アプリケーションに組み込む",
+            "url": "https://blog.wasmer.io/executing-webassembly-in-your-rust-application-d5cd32e8ce46",
+            "type": "official"
+          },
+          {
+            "title": "ワームパック",
+            "url": "https://lib.rs/crates/wasm-pack",
+            "type": "official"
+          },
+          {
+            "title": "ワームバインドゲン",
+            "url": "https://docs.rs/wasm-bindgen/latest/wasm_bindgen/",
+            "type": "official"
+          },
+          {
+            "title": "WASM を 腐蝕 で 書い て 整理 する",
+            "url": "https://www.shuttle.dev/blog/2024/03/06/writing-wasm-rust",
+            "type": "article"
+          },
+          {
+            "title": "Rust から WebAssembly まで の 編成",
+            "url": "https://developer.mozilla.org/en-US/docs/WebAssembly/Guides/Rust_to_Wasm",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "SUtBBqqDeR_yAkr669ZvE",
+      "type": "subtopic",
+      "label": "ワームバインドゲン",
+      "position": {
+        "x": -212.20827066407475,
+        "y": 2870.435641912534
+      },
+      "size": {
+        "width": 157,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`wasm-bindgen`はWebAssemblyでRustとJavaScriptの間の高度なインタラクションを容易にします.無縫の通信を可能にする結合を生成し,RustからJavaScript APIの呼び出し,そして逆にします.文字列やオブジェクトなどの複雑なデータタイプのためのメモリ表示と呼び出しセマンティックを処理します.",
+        "links": [
+          {
+            "title": "ワームバインドゲン",
+            "url": "https://docs.rs/wasm-bindgen/latest/wasm_bindgen/",
+            "type": "official"
+          },
+          {
+            "title": "防腐剤/防腐剤",
+            "url": "https://github.com/rustwasm/wasm-bindgen",
+            "type": "opensource"
+          },
+          {
+            "title": "Rust から WebAssembly まで の 編成",
+            "url": "https://developer.mozilla.org/en-US/docs/WebAssembly/Guides/Rust_to_Wasm",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "TSlj7mMUB5CDTy8uMFzKV",
+      "type": "subtopic",
+      "label": "ワームパック",
+      "position": {
+        "x": -212.20827066407475,
+        "y": 2764.435641912534
+      },
+      "size": {
+        "width": 157,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`wasm-pack`は,WebAssemblyを対象としたRust cratesを組み立て,パッケージするためのコマンドラインツールです.Rust/WASMとJavaScriptを橋渡しし,npm出版に必要なファイルを生成します.エργノミクス,パフォーマンス,正確性に焦点を当てて,適切なRust-to-WASMコンパイルセットアップを保証します.",
+        "links": [
+          {
+            "title": "ワームパック",
+            "url": "https://lib.rs/crates/wasm-pack",
+            "type": "official"
+          },
+          {
+            "title": "ワームパック/ワームパック",
+            "url": "https://github.com/rustwasm/wasm-pack",
+            "type": "opensource"
+          },
+          {
+            "title": "WASM を 腐蝕 で 書い て 整理 する",
+            "url": "https://www.shuttle.dev/blog/2024/03/06/writing-wasm-rust",
+            "type": "article"
+          },
+          {
+            "title": "Rust から WebAssembly まで の 編成",
+            "url": "https://developer.mozilla.org/en-US/docs/WebAssembly/Guides/Rust_to_Wasm",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "iyFHvZj_ntr_dX6WlL4E1",
+      "type": "subtopic",
+      "label": "暖かい",
+      "position": {
+        "x": -212.20827066407475,
+        "y": 2817.435641912534
+      },
+      "size": {
+        "width": 157,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Wasmer は,WASM ファイルを任意のプラットフォームで迅速かつ効率的に実行するために設計された独立した WebAssembly ランタイムです.異なるコンパイル戦略,フレンドリーな CLI,およびさまざまなプログラミング言語から直接WASM 機能を呼び出すための API を組み込むプラグ可能なシステムです.軽量およびモジュール化.",
+        "links": [
+          {
+            "title": "WebAssembly を Rust アプリケーションに組み込む",
+            "url": "https://blog.wasmer.io/executing-webassembly-in-your-rust-application-d5cd32e8ce46",
+            "type": "official"
+          },
+          {
+            "title": "ワスメリオ/ワスマー",
+            "url": "https://github.com/wasmerio/wasmer",
+            "type": "opensource"
+          },
+          {
+            "title": "ワスマー  WebAssembly in Rust",
+            "url": "https://lib.rs/crates/wasmer",
+            "type": "article"
+          },
+          {
+            "title": "WASM を 腐蝕 で 書い て 整理 する",
+            "url": "https://www.shuttle.dev/blog/2024/03/06/writing-wasm-rust",
+            "type": "article"
+          },
+          {
+            "title": "Rust から WebAssembly まで の 編成",
+            "url": "https://developer.mozilla.org/en-US/docs/WebAssembly/Guides/Rust_to_Wasm",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "7YKWYxogJq6X35IAUwcZF",
+      "type": "topic",
+      "label": "デバッグ",
+      "position": {
+        "x": 51.58542331133776,
+        "y": 2977.8309893419987
+      },
+      "size": {
+        "width": 129,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Rustは, `rust-gdb`と `rust-lldb`デバッグ,および `println!`, `dbg!`,および `debug!`のような内蔵マクロを通じて優れたデバッグサポートを提供します.厳格なコンパイラがコンパイル時に多くのバグを捕捉し,ランタイムデバッグはパニックバックトラスと包括的なエラーメッセージによって強化されています.",
+        "links": [
+          {
+            "title": "GDB で Rust アプリをデバッグする",
+            "url": "https://blog.logrocket.com/debugging-rust-apps-with-gdb/",
+            "type": "article"
+          },
+          {
+            "title": "腐蝕 の 解消: 実践 的 な 例 を 含める 簡単な ガイド",
+            "url": "https://boxoflearn.com/rust-debugging-guide/",
+            "type": "article"
+          },
+          {
+            "title": "腐蝕 の 中 で テスト や 誤差 を 解決 する",
+            "url": "https://rustmeup.com/testing-and-debugging-in-rust",
+            "type": "article"
+          },
+          {
+            "title": "防腐剤 の 解消 を 克服 する: 技巧 と 道具",
+            "url": "https://medium.com/@AlexanderObregon/rust-debugging-strategies-tools-and-best-practices-b18b92e0a921",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "UkHXsAolmbk-MsJFfqObC",
+      "type": "subtopic",
+      "label": "防腐剤",
+      "position": {
+        "x": 53.649415377168324,
+        "y": 3052.599323692896
+      },
+      "size": {
+        "width": 110,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`rust-gdb`は,GDB (GNU Project debugger) でRustデバッグを強化されている. ブレイクポイント,実行追跡,実行時間の変更,メモリ検査を含む低レベルのデバッグ機能を提供している.包括的なRustアプリケーション解析のために,深いシステム統合を備えたコマンドラインデバッグのために設計されている.",
+        "links": [
+          {
+            "title": "改善されたデバッグ処理のために,Rust-gdbとRust-lldbを使用する",
+            "url": "https://users.rust-lang.org/t/use-rust-gdb-and-rust-lldb-for-improved-debugging-you-already-have-them/756",
+            "type": "official"
+          },
+          {
+            "title": "GDB で Rust アプリをデバッグする",
+            "url": "https://blog.logrocket.com/debugging-rust-apps-with-gdb/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "p1w1iljGABgHoJjIRJYLY",
+      "type": "subtopic",
+      "label": "防腐剤",
+      "position": {
+        "x": 190.58542331133776,
+        "y": 3052.599323692896
+      },
+      "size": {
+        "width": 107,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`rust-lldb`は,Rustデータ構造とコンセプトを理解するためのRust特別の変更で強化されたLLDBデバッグです.標準ライブラリタイプのためのJay-printerを含み,Rustコンパイラと組み合わせてRustアプリケーションにより良いデバッグ体験を提供します.",
+        "links": [
+          {
+            "title": "改善されたデバッグ処理のためにルース-lldbを使用する",
+            "url": "https://users.rust-lang.org/t/use-rust-gdb-and-rust-lldb-for-improved-debugging-you-already-have-them/756",
+            "type": "official"
+          },
+          {
+            "title": "GDB で Rust アプリをデバッグする",
+            "url": "https://blog.logrocket.com/debugging-rust-apps-with-gdb/",
+            "type": "article"
+          },
+          {
+            "title": "ステン-lldb で ステン-lldb を デバッグ する",
+            "url": "https://dev.to/bmatcuk/debugging-rust-with-rust-lldb-j1f",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "65nbahPj9qAb9y8dF8Jnd",
+      "type": "topic",
+      "label": "`rustdoc`で文書化する",
+      "position": {
+        "x": -304.228964418254,
+        "y": 2977.8309893419987
+      },
+      "size": {
+        "width": 251,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "RustDocはRustエコシステム内の貴重なツールで,ソースコードから直接包括的でユーザーフレンドリーなドキュメントを作成します.特別なドキュメントコメントを活用することで (定期的なコメントで`///`から開始し,カートレベルのコメントでは`//!`から開始します) 開発者はマークダウンフォーマットされたテキスト,コード例,およびドクトテストを直接機能,モジュール,タイプとともに埋め込むことができます.RustDocはこれらのコメントを処理し,静的なHTMLページを作成し,他の人 (およびあなたの将来の自己) があなたのライブラリとアプリケーションを使用する方法を理解することを容易にする.この統合アプローチは,ドキュメントの良い習慣を促進するだけでなく,ドキュメントがコードベースと同期であることを保証します.",
+        "links": [
+          {
+            "title": "文書 を 書く 方法",
+            "url": "https://doc.rust-lang.org/rustdoc/how-to-write-documentation.html",
+            "type": "official"
+          },
+          {
+            "title": "腐蝕に関する文書の作成",
+            "url": "https://dev.to/gritmax/writing-rust-documentation-5hn5",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "WduD9VIcYSs_JTnuMNyxk",
+      "type": "topic",
+      "label": "性能とプロフィーリング",
+      "position": {
+        "x": -691.4506681463735,
+        "y": 2977.8309893419987
+      },
+      "size": {
+        "width": 244,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Rust のパフォーマンスプロフィーリングでは, `perf`, `cargo bench`, `criterion`,および `flamegraph`のようなツールを使用してボトルネックスを特定します.これらのツールでは,実行時のパフォーマンスに関する統計データを収集し,開発者が推測するのではなく,実際の問題領域をターゲットにすることでコードを効率的に最適化するのに役立ちます.",
+        "links": [
+          {
+            "title": "プロフィーリング - 防腐性能図書",
+            "url": "https://nnethercote.github.io/perf-book/profiling.html",
+            "type": "article"
+          },
+          {
+            "title": "Rust Code を Criterion で 参照 する 方法",
+            "url": "https://bencher.dev/learn/benchmarking/rust/criterion/",
+            "type": "article"
+          },
+          {
+            "title": "プロフィーリングで防腐アプリケーションのパフォーマンスを最適化",
+            "url": "https://hemaks.org/posts/optimizing-rust-application-performance-with-profiling/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "clQ26LFV_9AdQ4evnaxUK",
+      "type": "subtopic",
+      "label": "基準.rs",
+      "position": {
+        "x": -636.9506681463735,
+        "y": 2887.6225810425703
+      },
+      "size": {
+        "width": 130,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`Criterion.rs`は,Rustの統計に基づいたマイクロベンチマークライブラリで,時間の経過とともに信頼性の高いパフォーマンスの分析を提供します. アルゴリズムパフォーマンスを比較し,レグレーションを追跡するための詳細なフィードバック,自動異常検出,および統計的な方法を提供しています.",
+        "links": [
+          {
+            "title": "基準",
+            "url": "https://docs.rs/criterion/latest/criterion/",
+            "type": "official"
+          },
+          {
+            "title": "Criterion.rsによる防腐性ベンチマーク",
+            "url": "https://www.rustfinity.com/blog/rust-benchmarking-with-criterion",
+            "type": "article"
+          },
+          {
+            "title": "基準を用いた腐蚀機能のベンチマーク",
+            "url": "https://www.slingacademy.com/article/benchmarking-rust-functions-using-criterion/",
+            "type": "article"
+          }
+        ]
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "xy-edge__HU7wZWiES3m3xl1-NYP6Fx2-08qKtgnhJ3tlb5JKfTDf5w1",
+      "source": "HU7wZWiES3m3xl1-NYP6F",
+      "target": "4U-HZQGH7kaWCB94Xy8Mh",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__4U-HZQGH7kaWCB94Xy8Mhx2-08qKtgnhJ3tlb5JKfTDf5w2",
+      "source": "4U-HZQGH7kaWCB94Xy8Mh",
+      "target": "6E4pGifNfSAq6SbzfzFNT",
+      "source_handle": "x2",
+      "target_handle": "w2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__6E4pGifNfSAq6SbzfzFNTx2-08qKtgnhJ3tlb5JKfTDf5w2",
+      "source": "6E4pGifNfSAq6SbzfzFNT",
+      "target": "X2gB0m-ZKSC4TJyIcwsMx",
+      "source_handle": "x2",
+      "target_handle": "w2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__08qKtgnhJ3tlb5JKfTDf5z2-pTC1ucmErVnMbNFnYLJK7y1",
+      "source": "X2gB0m-ZKSC4TJyIcwsMx",
+      "target": "pTC1ucmErVnMbNFnYLJK7",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__08qKtgnhJ3tlb5JKfTDf5z2-LwqOxYY9E9MUDgz2M40uVy1",
+      "source": "X2gB0m-ZKSC4TJyIcwsMx",
+      "target": "LwqOxYY9E9MUDgz2M40uV",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__08qKtgnhJ3tlb5JKfTDf5z2-wQHkBydWsiGEOZMdKmz40y1",
+      "source": "X2gB0m-ZKSC4TJyIcwsMx",
+      "target": "wQHkBydWsiGEOZMdKmz40",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__X2gB0m-ZKSC4TJyIcwsMxx2-08qKtgnhJ3tlb5JKfTDf5w2",
+      "source": "X2gB0m-ZKSC4TJyIcwsMx",
+      "target": "Zpowr_NGd-E2DC3g-oW9h",
+      "source_handle": "x2",
+      "target_handle": "w2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__08qKtgnhJ3tlb5JKfTDf5z2-PkePVzV-b1pgFJP5xID5_y2",
+      "source": "Zpowr_NGd-E2DC3g-oW9h",
+      "target": "PkePVzV-b1pgFJP5xID5_",
+      "source_handle": "z2",
+      "target_handle": "y2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__08qKtgnhJ3tlb5JKfTDf5z2-c_SdccEXEJyh4ymWzvCeXy1",
+      "source": "Zpowr_NGd-E2DC3g-oW9h",
+      "target": "c_SdccEXEJyh4ymWzvCeX",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__08qKtgnhJ3tlb5JKfTDf5z2-Op0-bdMV3kE9Be6Ot1aC6y1",
+      "source": "Zpowr_NGd-E2DC3g-oW9h",
+      "target": "Op0-bdMV3kE9Be6Ot1aC6",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__08qKtgnhJ3tlb5JKfTDf5z2-eTpZXd8E2jVBmk_aSLZYVw1",
+      "source": "08qKtgnhJ3tlb5JKfTDf5",
+      "target": "pehYc_xLrs6BFUbcpPTiJ",
+      "source_handle": "z2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "smoothstep",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__pehYc_xLrs6BFUbcpPTiJy2-eTpZXd8E2jVBmk_aSLZYVw1",
+      "source": "pehYc_xLrs6BFUbcpPTiJ",
+      "target": "zLKbYX0nnbfD5n3P_JRaS",
+      "source_handle": "y2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "smoothstep",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__zLKbYX0nnbfD5n3P_JRaSz2-pRDgDtRIVpNM2CdhSOS3Qy2",
+      "source": "zLKbYX0nnbfD5n3P_JRaS",
+      "target": "pRDgDtRIVpNM2CdhSOS3Q",
+      "source_handle": "z2",
+      "target_handle": "y2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__zLKbYX0nnbfD5n3P_JRaSz2-_EicstELZcdesHiXFWJGuy1",
+      "source": "zLKbYX0nnbfD5n3P_JRaS",
+      "target": "_EicstELZcdesHiXFWJGu",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__zLKbYX0nnbfD5n3P_JRaSz2-_hxwo_iAdOwlWBltv7i6iy1",
+      "source": "zLKbYX0nnbfD5n3P_JRaS",
+      "target": "_hxwo_iAdOwlWBltv7i6i",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__eTpZXd8E2jVBmk_aSLZYVw2-Kb7KF7JCMaWFz-GuaQmQVx1",
+      "source": "eTpZXd8E2jVBmk_aSLZYV",
+      "target": "Kb7KF7JCMaWFz-GuaQmQV",
+      "source_handle": "w2",
+      "target_handle": "x1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__eTpZXd8E2jVBmk_aSLZYVx2-WduD9VIcYSs_JTnuMNyxkw1",
+      "source": "eTpZXd8E2jVBmk_aSLZYV",
+      "target": "KomYBYxj0FTrJDYB3nU5B",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__WduD9VIcYSs_JTnuMNyxkz2-n5t3MUqmvrcr36VIIOw0uy2",
+      "source": "KomYBYxj0FTrJDYB3nU5B",
+      "target": "n5t3MUqmvrcr36VIIOw0u",
+      "source_handle": "z2",
+      "target_handle": "y2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__WduD9VIcYSs_JTnuMNyxkz2-duQ1RO1lqq793mfb5w31Py1",
+      "source": "KomYBYxj0FTrJDYB3nU5B",
+      "target": "duQ1RO1lqq793mfb5w31P",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__WduD9VIcYSs_JTnuMNyxkz2-ApjwY_70OGG_dNIC85oBDy1",
+      "source": "KomYBYxj0FTrJDYB3nU5B",
+      "target": "ApjwY_70OGG_dNIC85oBD",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__KomYBYxj0FTrJDYB3nU5Bx2-WduD9VIcYSs_JTnuMNyxkw2",
+      "source": "KomYBYxj0FTrJDYB3nU5B",
+      "target": "yu0f5gALho0e8wzV10yow",
+      "source_handle": "x2",
+      "target_handle": "w2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__yu0f5gALho0e8wzV10yowz2-WduD9VIcYSs_JTnuMNyxky1",
+      "source": "yu0f5gALho0e8wzV10yow",
+      "target": "3pL0ARqk8uRNimopHSalW",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__3pL0ARqk8uRNimopHSalWz2-WduD9VIcYSs_JTnuMNyxky1",
+      "source": "3pL0ARqk8uRNimopHSalW",
+      "target": "gcmKSLWfBqx4aPZOmyQsg",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__gcmKSLWfBqx4aPZOmyQsgx2-WduD9VIcYSs_JTnuMNyxkw1",
+      "source": "gcmKSLWfBqx4aPZOmyQsg",
+      "target": "_n7emeqzf5UTxVB5-385G",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge___n7emeqzf5UTxVB5-385Gy2-WduD9VIcYSs_JTnuMNyxkz1",
+      "source": "_n7emeqzf5UTxVB5-385G",
+      "target": "Rv_Z-rbtELPZ1Nv0PZQmV",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__Rv_Z-rbtELPZ1Nv0PZQmVy2-WduD9VIcYSs_JTnuMNyxkw1",
+      "source": "Rv_Z-rbtELPZ1Nv0PZQmV",
+      "target": "2Zyyf9q_CxmOW-z2pipL8",
+      "source_handle": "y2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "smoothstep",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__2Zyyf9q_CxmOW-z2pipL8x2-WduD9VIcYSs_JTnuMNyxkw2",
+      "source": "2Zyyf9q_CxmOW-z2pipL8",
+      "target": "uG-EmZVZ-jc3mswOT4-7l",
+      "source_handle": "x2",
+      "target_handle": "w2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__uG-EmZVZ-jc3mswOT4-7lz2-WduD9VIcYSs_JTnuMNyxky1",
+      "source": "uG-EmZVZ-jc3mswOT4-7l",
+      "target": "T1LlJz5m5wnwBvKAEuGnP",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__T1LlJz5m5wnwBvKAEuGnPz2-WduD9VIcYSs_JTnuMNyxky1",
+      "source": "T1LlJz5m5wnwBvKAEuGnP",
+      "target": "RKXljexmLAceMYwg4D_uP",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__RKXljexmLAceMYwg4D_uPx2-WduD9VIcYSs_JTnuMNyxkw1",
+      "source": "RKXljexmLAceMYwg4D_uP",
+      "target": "fusu4ZHH4-cjoouLr4F9U",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__WduD9VIcYSs_JTnuMNyxky2-iyFHvZj_ntr_dX6WlL4E1z1",
+      "source": "fusu4ZHH4-cjoouLr4F9U",
+      "target": "iyFHvZj_ntr_dX6WlL4E1",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__WduD9VIcYSs_JTnuMNyxky2-TSlj7mMUB5CDTy8uMFzKVz2",
+      "source": "fusu4ZHH4-cjoouLr4F9U",
+      "target": "TSlj7mMUB5CDTy8uMFzKV",
+      "source_handle": "y2",
+      "target_handle": "z2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__WduD9VIcYSs_JTnuMNyxky2-SUtBBqqDeR_yAkr669ZvEz1",
+      "source": "fusu4ZHH4-cjoouLr4F9U",
+      "target": "SUtBBqqDeR_yAkr669ZvE",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__fusu4ZHH4-cjoouLr4F9Ux2-WduD9VIcYSs_JTnuMNyxkw2",
+      "source": "fusu4ZHH4-cjoouLr4F9U",
+      "target": "7YKWYxogJq6X35IAUwcZF",
+      "source_handle": "x2",
+      "target_handle": "w2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__7YKWYxogJq6X35IAUwcZFy2-WduD9VIcYSs_JTnuMNyxkz1",
+      "source": "7YKWYxogJq6X35IAUwcZF",
+      "target": "65nbahPj9qAb9y8dF8Jnd",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__65nbahPj9qAb9y8dF8Jndy2-WduD9VIcYSs_JTnuMNyxkz1",
+      "source": "65nbahPj9qAb9y8dF8Jnd",
+      "target": "WduD9VIcYSs_JTnuMNyxk",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__WduD9VIcYSs_JTnuMNyxkw2-clQ26LFV_9AdQ4evnaxUKx1",
+      "source": "WduD9VIcYSs_JTnuMNyxk",
+      "target": "clQ26LFV_9AdQ4evnaxUK",
+      "source_handle": "w2",
+      "target_handle": "x1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    }
+  ],
+  "content_crawled_at": "2026-04-06T10:18:11.409689+00:00"
+}

@@ -3,6 +3,7 @@ import { useParams, Link } from 'react-router-dom'
 import { ArrowLeft, ZoomIn, ZoomOut, RotateCcw, MousePointer2, Hash, Loader2, CheckCircle2, RotateCcw as ResetIcon } from 'lucide-react'
 import DetailPanel from '../../components/DetailPanel/DetailPanel'
 import { useAuth } from '../../contexts/AuthContext'
+import { useLocale } from '../../contexts/LocaleContext'
 import styles from './RoadmapPage.module.css'
 
 const CLICKABLE_TYPES = new Set(['topic', 'subtopic', 'checklist', 'todo'])
@@ -84,7 +85,14 @@ function getSmartEdgePoints(srcNode, tgtNode) {
 
 export default function RoadmapPage() {
   const { id } = useParams()
-  const { token, isAuthenticated, loading: authLoading } = useAuth()
+  const {
+    loading: authLoading,
+    progressStorageScope,
+    getRoadmapProgress,
+    saveRoadmapNodeProgress,
+    resetRoadmapProgress,
+  } = useAuth()
+  const { language, t } = useLocale()
   const [roadmap, setRoadmap] = useState(null)
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState(null)
@@ -110,26 +118,13 @@ export default function RoadmapPage() {
   useEffect(() => {
     if (authLoading) return
 
-    if (!isAuthenticated || !token) {
-      setCompletedNodeIds(new Set())
-      setProgressBusyMap({})
-      setProgressLoading(false)
-      return
-    }
-
     let cancelled = false
     setProgressLoading(true)
 
-    fetch(`/api/roadmaps/${id}/progress`, {
-      headers: { Authorization: `Bearer ${token}` },
-    })
-      .then((res) => {
-        if (!res.ok) throw new Error('Failed to load progress')
-        return res.json()
-      })
-      .then((data) => {
+    getRoadmapProgress(id)
+      .then((completedNodeIdsList) => {
         if (!cancelled) {
-          setCompletedNodeIds(new Set(data.completedNodeIds || []))
+          setCompletedNodeIds(new Set(completedNodeIdsList || []))
         }
       })
       .catch((err) => {
@@ -147,7 +142,7 @@ export default function RoadmapPage() {
     return () => {
       cancelled = true
     }
-  }, [authLoading, isAuthenticated, token, id])
+  }, [authLoading, getRoadmapProgress, id])
 
   const contentYBounds = useMemo(() => {
     if (!roadmap?.nodes?.length) {
@@ -192,9 +187,9 @@ export default function RoadmapPage() {
     setLoading(true)
     setError(null)
     hasInitPanned.current = false
-    fetch(`/api/roadmaps/${id}`)
+    fetch(`/api/roadmaps/${id}?lang=${language}`)
       .then((res) => {
-        if (!res.ok) throw new Error('Roadmap not found')
+        if (!res.ok) throw new Error(t('roadmap.notFoundTitle'))
         return res.json()
       })
       .then((data) => {
@@ -208,7 +203,7 @@ export default function RoadmapPage() {
         setError(err.message)
         setLoading(false)
       })
-  }, [id])
+  }, [id, language, t])
 
   // Compute bounds — include ALL nodes
   const computeBounds = useCallback(() => {
@@ -335,7 +330,7 @@ export default function RoadmapPage() {
   }
 
   const toggleStepCompleted = async (node) => {
-    if (!node || !isAuthenticated || !token) return
+    if (!node || authLoading) return
 
     const nodeId = node.id
     const prevCompleted = new Set(completedNodeIds)
@@ -353,21 +348,8 @@ export default function RoadmapPage() {
     })
 
     try {
-      const res = await fetch(`/api/roadmaps/${id}/progress/${nodeId}`, {
-        method: 'PUT',
-        headers: {
-          Authorization: `Bearer ${token}`,
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({ completed: nextCompleted }),
-      })
-
-      const data = await res.json()
-      if (!res.ok) {
-        throw new Error(data.message || 'Failed to save progress')
-      }
-
-      setCompletedNodeIds(new Set(data.completedNodeIds || []))
+      const completedNodeIdsList = await saveRoadmapNodeProgress(id, nodeId, nextCompleted)
+      setCompletedNodeIds(new Set(completedNodeIdsList || []))
     } catch (err) {
       console.error('Failed to save step progress:', err)
       setCompletedNodeIds(prevCompleted)
@@ -376,25 +358,16 @@ export default function RoadmapPage() {
     }
   }
 
-  const resetRoadmapProgress = async () => {
-    if (!isAuthenticated || !token) return
+  const handleResetRoadmapProgress = async () => {
+    if (authLoading) return
 
-    const confirmed = window.confirm('Reset all saved progress for this roadmap?')
+    const confirmed = window.confirm(t('roadmap.confirmResetProgress'))
     if (!confirmed) return
 
     setResettingProgress(true)
     try {
-      const res = await fetch(`/api/roadmaps/${id}/progress`, {
-        method: 'DELETE',
-        headers: { Authorization: `Bearer ${token}` },
-      })
-
-      const data = await res.json()
-      if (!res.ok) {
-        throw new Error(data.message || 'Failed to reset progress')
-      }
-
-      setCompletedNodeIds(new Set(data.completedNodeIds || []))
+      const completedNodeIdsList = await resetRoadmapProgress(id)
+      setCompletedNodeIds(new Set(completedNodeIdsList || []))
     } catch (err) {
       console.error('Failed to reset roadmap progress:', err)
     } finally {
@@ -584,7 +557,7 @@ export default function RoadmapPage() {
     return (
       <div className={styles.loadingState}>
         <Loader2 size={32} className={styles.spinner} />
-        <span>Loading roadmap...</span>
+        <span>{t('roadmap.loadingRoadmap')}</span>
       </div>
     )
   }
@@ -593,10 +566,10 @@ export default function RoadmapPage() {
   if (error || !roadmap) {
     return (
       <div className={styles.notFound} id="roadmap-not-found">
-        <h2 className={styles.notFoundTitle}>Roadmap Not Found</h2>
-        <p className={styles.notFoundText}>The roadmap you're looking for doesn't exist.</p>
+        <h2 className={styles.notFoundTitle}>{t('roadmap.notFoundTitle')}</h2>
+        <p className={styles.notFoundText}>{t('roadmap.notFoundText')}</p>
         <Link to="/" className={styles.notFoundBtn}>
-          <ArrowLeft size={16} /> Back to Roadmaps
+          <ArrowLeft size={16} /> {t('roadmap.backAllRoadmaps')}
         </Link>
       </div>
     )
@@ -620,11 +593,12 @@ export default function RoadmapPage() {
   const progressPercent = topicCount > 0
     ? Math.round((completedSteps / topicCount) * 100)
     : 0
-  const progressSummary = !isAuthenticated
-    ? 'Sign in to save progress'
-    : progressLoading
-      ? 'Syncing progress...'
-      : `${completedSteps}/${topicCount} steps • ${progressPercent}%`
+  const progressSummary = progressLoading
+      ? t('roadmap.syncingProgress')
+      : `${completedSteps}/${topicCount} ${t('roadmap.steps')} • ${progressPercent}%`
+  const progressScopeHint = progressStorageScope === 'account'
+    ? t('roadmap.syncedAccount')
+    : t('roadmap.savedBrowserOnly')
 
   return (
     <div className={styles.page} id="roadmap-page">
@@ -633,23 +607,23 @@ export default function RoadmapPage() {
         <div className={styles.toolbarInner}>
           <div className={styles.toolbarTopRow}>
             <Link to="/" className={styles.backLink} id="back-link">
-              <ArrowLeft size={16} /> All Roadmaps
+              <ArrowLeft size={16} /> {t('roadmap.backAllRoadmaps')}
             </Link>
             <div className={styles.toolbarCenter}>
               <h1 className={styles.toolbarTitle}>{roadmap.title}</h1>
             </div>
             <div className={styles.toolbarActions}>
               <span className={styles.nodeCountBadge}>
-                <Hash size={12} /> {topicCount} topics
+                <Hash size={12} /> {topicCount} {t('roadmap.topics')}
               </span>
-              <button className={styles.toolbarBtn} onClick={zoomOut} title="Zoom Out" id="zoom-out-btn">
+              <button className={styles.toolbarBtn} onClick={zoomOut} title={t('roadmap.zoomOut')} id="zoom-out-btn">
                 <ZoomOut size={16} />
               </button>
               <span className={styles.zoomLabel}>{Math.round(zoom * 100)}%</span>
-              <button className={styles.toolbarBtn} onClick={zoomIn} title="Zoom In" id="zoom-in-btn">
+              <button className={styles.toolbarBtn} onClick={zoomIn} title={t('roadmap.zoomIn')} id="zoom-in-btn">
                 <ZoomIn size={16} />
               </button>
-              <button className={styles.toolbarBtn} onClick={resetView} title="Reset View" id="reset-view-btn">
+              <button className={styles.toolbarBtn} onClick={resetView} title={t('roadmap.resetView')} id="reset-view-btn">
                 <RotateCcw size={16} />
               </button>
             </div>
@@ -658,27 +632,28 @@ export default function RoadmapPage() {
           <div className={styles.progressRow}>
             <div className={styles.progressInfo}>
               <div className={styles.progressLabel}>
-                <CheckCircle2 size={14} /> Learning Progress
+                <CheckCircle2 size={14} /> {t('roadmap.learningProgress')}
               </div>
               <div className={styles.progressSummary}>{progressSummary}</div>
+              <div className={styles.progressStorageHint}>{progressScopeHint}</div>
             </div>
 
-            <div className={styles.progressTrack} role="progressbar" aria-valuemin={0} aria-valuemax={100} aria-valuenow={isAuthenticated ? progressPercent : 0}>
+            <div className={styles.progressTrack} role="progressbar" aria-valuemin={0} aria-valuemax={100} aria-valuenow={progressPercent}>
               <div
                 className={styles.progressFill}
-                style={{ width: `${isAuthenticated ? progressPercent : 0}%` }}
+                style={{ width: `${progressPercent}%` }}
               />
             </div>
 
             <button
               className={styles.progressResetBtn}
-              onClick={resetRoadmapProgress}
+              onClick={handleResetRoadmapProgress}
               id="reset-progress-btn"
-              disabled={!isAuthenticated || progressLoading || resettingProgress || completedSteps === 0}
-              title="Reset learning progress"
+              disabled={progressLoading || resettingProgress || completedSteps === 0}
+              title={t('roadmap.resetLearningProgress')}
             >
               <ResetIcon size={14} />
-              {resettingProgress ? 'Resetting...' : 'Reset Progress'}
+              {resettingProgress ? t('roadmap.resetting') : t('roadmap.resetProgress')}
             </button>
           </div>
         </div>
@@ -699,16 +674,16 @@ export default function RoadmapPage() {
       >
         <div className={styles.legend}>
           <div className={styles.legendItem}>
-            <div className={`${styles.legendDot} ${styles.legendDotTopic}`} /> Topic
+            <div className={`${styles.legendDot} ${styles.legendDotTopic}`} /> {t('roadmap.legendTopic')}
           </div>
           <div className={styles.legendItem}>
-            <div className={`${styles.legendDot} ${styles.legendDotSubtopic}`} /> Subtopic
+            <div className={`${styles.legendDot} ${styles.legendDotSubtopic}`} /> {t('roadmap.legendSubtopic')}
           </div>
           <div className={styles.legendItem}>
-            <div className={`${styles.legendDot} ${styles.legendDotCompleted}`} /> Completed Step
+            <div className={`${styles.legendDot} ${styles.legendDotCompleted}`} /> {t('roadmap.legendCompleted')}
           </div>
           <div className={styles.legendItem}>
-            <div className={`${styles.legendDot} ${styles.legendDotDashed}`} /> Optional Path
+            <div className={`${styles.legendDot} ${styles.legendDotDashed}`} /> {t('roadmap.legendOptional')}
           </div>
         </div>
 
@@ -763,7 +738,7 @@ export default function RoadmapPage() {
 
         <div className={styles.graphHint}>
           <MousePointer2 size={14} />
-          Click topic for details • Scroll to zoom • Drag to pan
+          {t('roadmap.graphHint')}
         </div>
       </div>
 
@@ -772,7 +747,8 @@ export default function RoadmapPage() {
           node={selectedNode}
           onClose={() => setSelectedNode(null)}
           progressEnabled={CLICKABLE_TYPES.has(selectedNode.type)}
-          progressAvailable={isAuthenticated}
+          progressAvailable
+          progressStorageScope={progressStorageScope}
           completed={completedNodeIds.has(selectedNode.id)}
           progressBusy={!!progressBusyMap[selectedNode.id]}
           onToggleCompleted={() => toggleStepCompleted(selectedNode)}

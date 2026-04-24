@@ -1,0 +1,4543 @@
+{
+  "id": "android",
+  "title": "アンドロイド",
+  "source_url": "https://roadmap.sh/android",
+  "github_url": "https://github.com/kamranahmedse/developer-roadmap/tree/master/src/data/roadmaps/android",
+  "crawled_at": "2026-04-06T07:36:04.315635+00:00",
+  "type": "flow",
+  "stats": {
+    "total_nodes": 133,
+    "total_edges": 46,
+    "nodes_with_content": 105
+  },
+  "node_types": [
+    "button",
+    "horizontal",
+    "label",
+    "linksgroup",
+    "paragraph",
+    "section",
+    "subtopic",
+    "title",
+    "topic",
+    "vertical"
+  ],
+  "edge_styles": [
+    "dashed",
+    "solid"
+  ],
+  "edge_line_types": [
+    "default",
+    "smoothstep",
+    "step"
+  ],
+  "node_type_description": {
+    "title": "ロードマップの主題",
+    "topic": "主題大 (nhóm kỹ năng)",
+    "subtopic": "Kỹ năng/công nghệ cụ thể cần học",
+    "paragraph": "文は mô tả / chú thích",
+    "vertical": "Đường kết nối dọc (ビジュアルコネクタ)"
+  },
+  "edge_style_description": {
+    "solid": "Kỹ năng bắt buộc / quan trọng",
+    "dashed": "選択 / gợi ý / オルタナティブ"
+  },
+  "nodes": [
+    {
+      "id": "nNEnhtuqRQCkOtbeJh3ac",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": 264.517263308397,
+        "y": 1783.4642040306956
+      },
+      "size": {
+        "width": 21,
+        "height": 55
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "jgadqKYuchjukSsYXvwf7",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": 367.5894636012729,
+        "y": 1783.4642040306956
+      },
+      "size": {
+        "width": 21,
+        "height": 55
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "lpSzZRiNu_vB4yNiNK9Yy",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": 577.4785985860897,
+        "y": 1759.8444806135112
+      },
+      "size": {
+        "width": 21,
+        "height": 55
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "TiI5E5awSHaz5ZhptOdZn",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": 589.9645995838063,
+        "y": 1464.7661110082904
+      },
+      "size": {
+        "width": 21,
+        "height": 59
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "aDekGDutpYnpNPNS8f4pF",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": 706.4645995838063,
+        "y": 1464.7661110082904
+      },
+      "size": {
+        "width": 21,
+        "height": 59
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.5,
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "f-ZMlUJj5USPMHipd9kAM",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": 957.4237456884,
+        "y": 1460.0377047250465
+      },
+      "size": {
+        "width": 21,
+        "height": 59
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.5,
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "6R1rlADdXShSYwOvN11VK",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": 957.4237456884,
+        "y": 1130.4012119396646
+      },
+      "size": {
+        "width": 21,
+        "height": 311
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.5
+      },
+      "z_index": 999
+    },
+    {
+      "id": "Yo7mJM0rAN8Rmz_FocBgi",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": 680.5507988789656,
+        "y": 1759.8444806135112
+      },
+      "size": {
+        "width": 21,
+        "height": 55
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "XmdyFfnM9BlqrEssRjczP",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": 211.5349540213482,
+        "y": 1160.1577089522766
+      },
+      "size": {
+        "width": 229,
+        "height": 314
+      },
+      "style": {
+        "width": 150,
+        "height": 100,
+        "fontSize": 17
+      },
+      "z_index": -999
+    },
+    {
+      "id": "cjH8XWlBk0ZBpvxGJ1gsn",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": 1051.2829550804522,
+        "y": 1592.4265444477305
+      },
+      "size": {
+        "width": 214,
+        "height": 187
+      },
+      "style": {
+        "width": 150,
+        "height": 100,
+        "fontSize": 17
+      },
+      "z_index": -999
+    },
+    {
+      "id": "PF0TVwzQAg76Z1MdLNQk8",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": 414.4034669074458,
+        "y": 641.1530180045523
+      },
+      "size": {
+        "width": 183,
+        "height": 213
+      },
+      "style": {
+        "width": 150,
+        "height": 100,
+        "fontSize": 17,
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "bt3bz2BrOfKDwgYGu6_6S",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": 592.7670925742796,
+        "y": 643.1530180045522
+      },
+      "size": {
+        "width": 211,
+        "height": 211
+      },
+      "style": {
+        "width": 150,
+        "height": 100,
+        "fontSize": 17,
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "0EZuNys_klW8idbCPmAmP",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": 1195.8618127280065,
+        "y": 393.90074822234897
+      },
+      "size": {
+        "width": 21,
+        "height": 130
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "5Z9o-b3vBA-ITFg86zzYM",
+      "type": "title",
+      "label": "アンドロイド",
+      "position": {
+        "x": 664.8618127280065,
+        "y": 173.90074822234897
+      },
+      "size": {
+        "width": 159,
+        "height": 68
+      },
+      "style": {
+        "fontSize": 28,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "XgM_I974PlXAu4AbeqHX1",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": 733.8618127280065,
+        "y": 100.90074822234897
+      },
+      "size": {
+        "width": 21,
+        "height": 73
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "Suws-7f_6Z1ChpfcnxX2M",
+      "type": "topic",
+      "label": "言語 を 選ぶ",
+      "position": {
+        "x": 624.8618127280065,
+        "y": 313.40074822234897
+      },
+      "size": {
+        "width": 239,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "アンドロイド向けに開発する際,重要なステップの一つは,プログラミング言語を選択することです.選択できる複数の言語がありますが,最も人気のある言語はJava,Kotlin,C++です.JavaはAndroid開発に使用されるオリジナルの言語であり,広く使用され,リソースや開発者コミュニティの豊富なために初心者にとって良い選択です.KotlinはGoogleとAndroid Studioが完全にサポートする新しいオプションであり,Javaの多くのデメリットに対処し,多くの開発者にとって人気のある選択となっています.",
+        "links": [
+          {
+            "title": "言語 を 選ぶ",
+            "url": "https://developer.android.com/studio/write/java8-support",
+            "type": "official"
+          },
+          {
+            "title": "コトリン対ジャワ",
+            "url": "https://developer.android.com/kotlin",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "qIzUv8-GgQnkqChEdgD50",
+      "type": "subtopic",
+      "label": "コトリン",
+      "position": {
+        "x": 953.8618127280065,
+        "y": 287.40074822234897
+      },
+      "size": {
+        "width": 131,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`Kotlin`は,タイプ推論を持つクロスプラットフォーム,静的タイプ型汎用プログラミング言語である.世界トップIDEのメーカーのJetBrainsによって開発された Kotlin は,より表現的で簡潔な構文を持っています.これにより,より読みやすく,維持可能なコードが可能です.Javaと完全に互動可能であり,制限はありません.今日Javaがほとんどどこでも使用できます.サーバーサイド開発,Androidアプリ,その他. Kotlin はJavaよりもプログラマ向けにいくつかの改善を導入し,多くの開発者にとって好ましい選択となっています.より簡潔なコードと近代的なプログラミングコンセプトサポートにより,それは間違いなくAndroidアプリ開発の未来です.",
+        "links": [
+          {
+            "title": "コトリン",
+            "url": "https://kotlinlang.org/",
+            "type": "official"
+          },
+          {
+            "title": "コトリン文書",
+            "url": "https://kotlinlang.org/docs/home.html",
+            "type": "official"
+          },
+          {
+            "title": "初心者向けコトリンプログラミングを学ぶ - 無料コードキャンプ",
+            "url": "https://youtu.be/EExSSotojVI?si=4VPW8ZHa2UMX0HH1",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "RBABbkzD_uNFwEO-hssZO",
+      "type": "subtopic",
+      "label": "Java",
+      "position": {
+        "x": 953.8618127280065,
+        "y": 340.40074822234897
+      },
+      "size": {
+        "width": 131,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Javaは,その強度と使いやすさのためにAndroid開発に使用される人気のプログラミング言語である.そのオブジェクト指向構造は,開発者がモジュラルのプログラムと再利用可能なコードを作成することを可能にします.この言語は\",一度書き,どこにでも実行\" (WORA) という哲学で構築されました.つまり,コンパイルされたJavaコードは,再編する必要なしにすべてのプラットフォームで実行できます.AndroidのAPIとコアライブラリは主にJavaで書かれています.したがって,Javaを理解することは多様な強力なAndroidアプリを作成する上で不可欠です.",
+        "links": [
+          {
+            "title": "Javaロードマップ",
+            "url": "https://roadmap.sh/java",
+            "type": "roadmap"
+          },
+          {
+            "title": "Java",
+            "url": "https://www.oracle.com/java/technologies/javase-jdk11-downloads.html",
+            "type": "official"
+          },
+          {
+            "title": "Java ドキュメンテーション",
+            "url": "https://docs.oracle.com/en/java/javase/11/docs/api/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "HlUUGj3dOZ68t4gIjerXh",
+      "type": "topic",
+      "label": "基礎",
+      "position": {
+        "x": 624.8618127280065,
+        "y": 433.40074822234897
+      },
+      "size": {
+        "width": 239,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Androidの\"Fundamentals\"は主に5つのコンポーネントに集中する.アクティビティ,サービス,ブロードキャスト受信機,コンテンツプロバイダー,および意図.**アクティビティ**は基本的に画面で見られるものであり,アプリ内の各スクリーンは別々の活動です.**サービス**は長時間実行する操作やリモートプロセスでの作業を背景に実行します.ユーザーインターフェースを提供しません.**ブロードキャスト受信機**は,他のアプリケーションからまたはシステムから放送メッセージに対応します.これらのメッセージはしばしば意図形式です.**コンテンツプロバイダー**は,他のアプリケーションが構造化されたインターフェースを通じて,クエリまたは修正できる共有されたアプリデータセットを管理します.最後に,**Intent**は,上述したコンポーネント間の通信を容易にするメッセージングオブジェクトです.この5つのコアコンセプトを理解することは Androidの基本を習得するための鍵です",
+        "links": [
+          {
+            "title": "基礎",
+            "url": "https://developer.android.com/guide/components/fundamentals",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ZRGsokU313Ky-anWbWK6q",
+      "type": "subtopic",
+      "label": "開発IDE",
+      "position": {
+        "x": 205.8618127280065,
+        "y": 274.40074822234897
+      },
+      "size": {
+        "width": 296,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "開発IDEは,Android App開発に不可欠な開発統合開発環境を指します.Androidでは,主要なIDEは**Android Studio**です.このGoogleの公式IDEには,Androidアプリを構築するために必要なすべてのもの,例えばコード編集者,コード解析ツール,AndroidのサポートされているOSバージョンおよびハードウェア構成のエミュレーターなどが含まれます.他の人気のIDEには **Eclipse** (Android開発ツールプラグイン付き), **NetBeans**, **IntelliJ IDEA**が含まれます.これらのIDEはそれぞれ独自の特有の機能を持つ傾向がありますが,すべてはAndroid開発に必要なツールとサービスを提供するように設計されています.IDEの選択は開発者または開発チームの特定のニーズと好みに依存します.",
+        "links": [
+          {
+            "title": "アンドロイド・スタジオ",
+            "url": "https://developer.android.com/studio",
+            "type": "official"
+          },
+          {
+            "title": "Android スタジオ ドキュメンテーション",
+            "url": "https://developer.android.com/studio/intro",
+            "type": "official"
+          },
+          {
+            "title": "アンドロイド・スタジオ・チュートリアル (2024年版) - 第1部",
+            "url": "https://www.youtube.com/watch?v=saKrGCWlJDs",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "jl1FsQ5-WGKeFyaILNt_p",
+      "type": "subtopic",
+      "label": "コトリンの基礎",
+      "position": {
+        "x": 205.8618127280065,
+        "y": 327.40074822234897
+      },
+      "size": {
+        "width": 296,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Kotlin は JetBrains が開発した簡潔でマルチプラットフォームで楽しい言語です. Android,サーバーサイド,クロスプラットフォーム開発のために Kotlin を使用する方法を知り,その機能,ニュース,コミュニティを探求します. Kotlin は,Java バーチャルマシン (JVM) で動作する静止型プログラミング言語で,あらゆる種類の Android アプリを開発するために使用できます. Android アプリ開発のための Google の好みの言語です.",
+        "links": [
+          {
+            "title": "コトリン",
+            "url": "https://kotlinlang.org/",
+            "type": "official"
+          },
+          {
+            "title": "コトリン・ドックス",
+            "url": "https://kotlinlang.org/docs/getting-started.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "j69erqfosSZMDlmKcnnn0",
+      "type": "subtopic",
+      "label": "OOPの基礎",
+      "position": {
+        "x": 205.8618127280065,
+        "y": 380.40074822234897
+      },
+      "size": {
+        "width": 296,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "オブジェクト指向プログラミング (OOP) の基礎を理解することは極めて重要です.OOPは\"オブジェクト\" - データとデータを操作する機能の両方を含むエンティティを使用するプログラミングパラダイムです.主要なコンセプトは,オブジェクトが作成される模様である `クラス`; `オブジェクト`,クラスの例; `インヘリタンス`,あるクラスが別のクラスから属性を取得する; `ポリモルフィズム`,あるオブジェクトが多くの形態をとる能力である; `抽象`,必要な詳細のみを示し,ユーザから実装を隠す;および `エンカプセレーション`,データ包装の概念とデータ単位内で動作する方法である.",
+        "links": [
+          {
+            "title": "オブジェクト指向プログラミング - ウィキペディア",
+            "url": "https://en.wikipedia.org/wiki/Object-oriented_programming",
+            "type": "official"
+          },
+          {
+            "title": "コトリンにおけるOOP",
+            "url": "https://developer.android.com/codelabs/basic-android-kotlin-compose-classes-and-objects",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cNeT1dJDfgn0ndPzSxhSL",
+      "type": "subtopic",
+      "label": "データ構造とアルゴリズム",
+      "position": {
+        "x": 205.8618127280065,
+        "y": 433.40074822234897
+      },
+      "size": {
+        "width": 296,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "**データ構造**は,主に保存されたデータでより効果的に収集,整理,操作を行うために使用されます.高度レベルのAndroidアプリケーションを設計するのに不可欠です.例としては,アレイ,リンクリスト,スタック,キュー,ハッシュマップ,ツリーなどがあります. **アルゴリズム**は,特定のタスクを実行するための指示または規則の配列です.Androidでは,アルゴリズムはデータ検索,分類,または複雑なビジネス論理を実行するために使用できます.一般的に使用されるアルゴリズムはバイナリー検索,バブルソート,選択ソートなどです.データ構造とアルゴリズムの深い理解は,Androidアプリケーションのパフォーマンスとメモリ消費を最適化するために不可欠です.",
+        "links": [
+          {
+            "title": "Androidにおけるデータ構造とアルゴリズム",
+            "url": "https://medium.com/@pranamsharma.1997/importance-of-data-structure-and-algorithms-in-android-app-development-75eed9f73909",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FVxNjbDBxgf6vkZWw1Awt",
+      "type": "subtopic",
+      "label": "Gradleとは何か?",
+      "position": {
+        "x": 205.8618127280065,
+        "y": 486.40074822234897
+      },
+      "size": {
+        "width": 296,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Gradle は,Android開発で使用される強力なビルドシステムで,あなたのプロジェクトと依存関係を定義し,さまざまなビルドタイプと味を区別することができます. Gradle は,開発者にビルドプロセスのほぼ完全なコントロールを与えるドメイン特定言語 (DSL) を使用します.Android Studioでビルドを起動すると, Gradle は,アプリをコンパイルしてパッケージするために幕後で動作するツールです.それは,あなたの build.gradle ファイルで宣言した依存関係を調べ,それに応じてビルドスクリプトを作成します.Android開発では,ビルド.gradle ファイルを継続的に編集する必要があります.アプリ依存関係を管理するために,バージョンを構築する,署名設定,およびアプリケーションを構築する他の重要な側面.",
+        "links": [
+          {
+            "title": "グラデルの構築ツール",
+            "url": "https://docs.gradle.org/current/userguide/userguide.html",
+            "type": "official"
+          },
+          {
+            "title": "グラデルのドキュメント",
+            "url": "https://docs.gradle.org/current/userguide/getting_started_eng.html",
+            "type": "official"
+          },
+          {
+            "title": "初心者向け - 55分",
+            "url": "https://www.youtube.com/watch?v=R6Z-Sxb837I",
+            "type": "video"
+          },
+          {
+            "title": "完全初心者向けGradleの紹介 - 25分",
+            "url": "https://youtu.be/-dtcEMLNmn0?si=NuIP-3wNpUrxfTxA",
+            "type": "video"
+          },
+          {
+            "title": "Gradle に関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/gradle?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5m_7DvInF8C_4Ml1xVI6L",
+      "type": "subtopic",
+      "label": "基本的なHello Worldアプリを作成する",
+      "position": {
+        "x": 205.8618127280065,
+        "y": 539.400748222349
+      },
+      "size": {
+        "width": 296,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "\"Hello World\"アプリは,Android開発を開始したときに構築できるシンプルなプロジェクトです.新しいシステムで構築することを学ぶ初心者が最初に学ぶプログラムです.通常は,ユーザーにメッセージを表示する最も単純なプログラムと考えられています.Androidでは,Android Studioから新しいプロジェクトを作成し,メインアクティビティを設定します.メインアクティビティファイルは主にJavaまたはKotlinで書き込まれ,表示メッセージのコードを作成できますが,レイアウトデザインビューはXMLファイルで作成できます.",
+        "links": [
+          {
+            "title": "アンドロイド の 最初の アプリケーション を 作る",
+            "url": "https://developer.android.com/codelabs/basic-android-kotlin-compose-first-app",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5s1CqsYCOXjNroDHaGKGa",
+      "type": "topic",
+      "label": "バージョン制御",
+      "position": {
+        "x": 1098.7005592047508,
+        "y": 433.40074822234897
+      },
+      "size": {
+        "width": 166,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "_Version Control_ は,後に特定のバージョンを思い出せるように,ファイルやファイルセットの変更を記録するシステムです.ソフトウェア開発の重要なツールとして,変更を追跡し,コラボレーションを強化し,プロジェクトの異なるバージョンを管理するのに役立ちます.バージョン制御システムの2つの一般的なタイプは,中央バージョン制御システム (CVCS) と分散バージョン制御システム (DVCS) です.CVCSは,プロジェクトのすべてのバージョンを保存するために中央サーバーを使用し,ユーザーがそのサーバーからスナップショットを取得します.例としては,SVNとPerforceが含まれます.一方,DVCSは複数の開発者が単一のプロジェクトで同時に作業することを可能にします.各ユーザーはすべてのバージョンの作業の完全なバックアップを持っています.例としては,GitとMercurialが含まれます.",
+        "links": [
+          {
+            "title": "バージョン制御システム",
+            "url": "https://en.wikipedia.org/wiki/Version_control",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "rqSZ2ATeHbOdIQE9Jlb0B",
+      "type": "subtopic",
+      "label": "ゲート",
+      "position": {
+        "x": 1160.8618127280065,
+        "y": 340.40074822234897
+      },
+      "size": {
+        "width": 91,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`Git`は,Linuxの作成者,Linus Torvalds**によって作成された高効率で柔軟な分散版制御システムである.複数の開発者がプロジェクトで同時に作業できるようにし,非線形開発のためのツールを提供し,任意のファイルセットの変更を追跡する.Gitには完全な履歴とバージョン追跡機能を備えたローカルリポジトリがあり,オフライン操作を可能にする.SVNとは異なり,データインテグリティを確保し,ブランチングや合併などの機能を持つ非線形開発に強力なサポートを提供します.",
+        "links": [
+          {
+            "title": "GitとGitHubロードマップ",
+            "url": "https://roadmap.sh/git-github",
+            "type": "roadmap"
+          },
+          {
+            "title": "ゲート",
+            "url": "https://git-scm.com/",
+            "type": "official"
+          },
+          {
+            "title": "Gitドキュメント",
+            "url": "https://git-scm.com/docs",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "H-2eb8fLwz8IKYXbeSVKK",
+      "type": "subtopic",
+      "label": "GitHub",
+      "position": {
+        "x": 1146.3618127280065,
+        "y": 523.900748222349
+      },
+      "size": {
+        "width": 120,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "**GitHub**は,GitHubを使用してソフトウェアバージョン制御を管理するためのクラウドベースのホスティングサービスです.複数の開発者が同時に同じプロジェクトで一緒に作業できるようにするプラットフォームを提供します.GitHubを使用して,コードは公開で保存され,他の開発者または個々のプロジェクトでのコラボレーションを可能にします.GitHubの主要な機能は,コード共有,タスク管理,バージョン管理などです.GitHubはまた,バグトラッキング,機能要求,プロジェクトのためのタスク管理などの機能を提供しています.",
+        "links": [
+          {
+            "title": "GitとGitHubロードマップ",
+            "url": "https://roadmap.sh/git-github",
+            "type": "roadmap"
+          },
+          {
+            "title": "GitHub",
+            "url": "https://github.com/",
+            "type": "official"
+          },
+          {
+            "title": "GitHubドキュメント",
+            "url": "https://docs.github.com/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5LFZdUiFYYU_1sYsouyan",
+      "type": "subtopic",
+      "label": "ビットバケット",
+      "position": {
+        "x": 1146.3618127280065,
+        "y": 576.900748222349
+      },
+      "size": {
+        "width": 120,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Bitbucketは,Atlassianが所有するWebベースのホスティングサービスです.BitbucketはMercurialまたはGit修正制御システムを使用し,ユーザがコードを管理し,維持することができます.このプラットフォームは主にコードおよびコードレビューに使用されます.Bitbucketは商業プランと無料アカウントの両方を提供します.このプラットフォームは,2010年9月以降,無制限数のプライベートリポジトリ (無料アカウントの場合,最大5人のユーザーを持つことができます) を含む無料アカウントを提供しています.当初はMercurialサポートのみを提供しました.BitbucketはJIRA,HipChat,Confluence,Bambooなどの他のAtlassianソフトウェアと統合します.",
+        "links": [
+          {
+            "title": "ビットバケット",
+            "url": "https://bitbucket.org/",
+            "type": "official"
+          },
+          {
+            "title": "Bitbucket 開発者向け",
+            "url": "https://www.atlassian.com/software/bitbucket",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Q47BtQphp59NkkZoeNXmP",
+      "type": "subtopic",
+      "label": "GitLab",
+      "position": {
+        "x": 1146.3618127280065,
+        "y": 629.900748222349
+      },
+      "size": {
+        "width": 120,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`GitLab`は,GitLab Inc.によって開発されたオープンソースライセンスを利用して Git リポジトリマネージャー,継続的な統合とデプロイメントパイプライン機能を提供するウェブベースの DevOpsライフサイクルのツールです.ユーザーはソフトウェアプロジェクトやリポジトリを管理し,作成し,他のメンバーと協力することができます.",
+        "links": [
+          {
+            "title": "GitLab",
+            "url": "https://about.gitlab.com/",
+            "type": "official"
+          },
+          {
+            "title": "GitLabドキュメント",
+            "url": "https://docs.gitlab.com/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "-IvRbNv2swO63Xb9UqoHf",
+      "type": "label",
+      "label": "VCS ホスティング",
+      "position": {
+        "x": 1149.8618127280065,
+        "y": 687.900748222349
+      },
+      "size": {
+        "width": 113,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "5Li8J5iR_ZuyIlxX0LYei",
+      "type": "topic",
+      "label": "アプリのコンポーネント",
+      "position": {
+        "x": 875.4237456884,
+        "y": 632.6963336096359
+      },
+      "size": {
+        "width": 185,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Androidアプリは主に5つの異なる種類のコンポーネントで構成されています: 1.**アクティビティ**:これはユーザーがインタラクションできる個々のスクリーンです.ボタンを触ったりスクリーンをスワイプしたりなどのUIアクションは通常,アクティビティ内で行われます.2.**サービス**:アクティビティとは異なり,サービスはバックグラウンドで実行され,ユーザーインターフェースがありません.音楽を再生したり,サーバーからデータフィードを引くなどの繰り返しまたは長時間実行する操作に使用されます.3.**ブロードキャスト受信機**:これらはイベントリスナーです.Androidオペレーティングシステムはシステム全体のイベントに対応するためにそれらを使用します.4.**コンテンツプロバイダー**:アプリケーションをデバイスにインストールした他のアプリと管理し,データを共有します.セキュリティのために,データは一般的にアプリケーション間で共有されません.5.**Intent**: これはAndroidシステムへのメッセージまたはコマンドとして使用されます.特定の事件が起こったことをAndroidシステムに信号するために使用されます.",
+        "links": [
+          {
+            "title": "アップ 基礎",
+            "url": "https://developer.android.com/guide/components/fundamentals",
+            "type": "official"
+          },
+          {
+            "title": "Android アプリのコンポーネント",
+            "url": "https://medium.com/android-hunger/android-app-components-activities-fragments-and-intents-ed7373455555",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "nwuVlPmzwJ17mtVQ8Hi9w",
+      "type": "subtopic",
+      "label": "活動",
+      "position": {
+        "x": 592.7670925742796,
+        "y": 632.6963336096359
+      },
+      "size": {
+        "width": 211,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`アクティビティ`は,ユーザーインターフェースを持つ単一の画面を表す重要な構成要素である. デスクトップアプリケーションの窓のようなものです.Androidアプリは,通常,ユーザーインタラクションを可能にするインタラクションがそれぞれある1つまたは複数の活動で構成される.アプリが起動すると,そのアプリのライフサイクルをスタートさせるため, `アクティビティ`のインスタンスは作成されます.すべての活動は,ユーザーの進捗状態を維持する独自のライフサイクル (作成,開始,再開,停止,停止,破壊) があり,Androidはこれらの状態を自動的に管理します.アクティビティは,別のアクティビティなどの他のコンポーネントまたはそのアクティビティから結果を得るように,他のコンポーネントと相互作用することができます.",
+        "links": [
+          {
+            "title": "Android アクティビティ",
+            "url": "https://developer.android.com/reference/android/app/Activity",
+            "type": "official"
+          },
+          {
+            "title": "アンドロイド の 活動 を 熟練 する",
+            "url": "https://medium.com/deuk/mastering-the-android-activity-lifecycle-best-practices-1d10f15d060a",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PcHmU1c9hqKyzSjwlRPHk",
+      "type": "subtopic",
+      "label": "サービス",
+      "position": {
+        "x": 210.5417587642338,
+        "y": 634.1262851650183
+      },
+      "size": {
+        "width": 199,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "**サービス**:Androidのサービスとは,ユーザインタフェースなしで背景で操作を行うアプリケーションコンポーネントである.アプリケーションコンポーネントは,アクティビティのようなもので,ユーザが別のアプリケーションに切り替えたとしても,バックグラウンドで実行し続けます.Androidには2種類のサービスがあります.すなわち, `Started Service`と `Bound Service`. `Started Service`は,大きなファイルをダウンロードするなどの単一の操作を実行するために使用されます.一方, `Bound Service`は,コンポーネントがサービスとインタラクションし,要求を送信し,結果を受信し,プロセス間通信 (IPC) を行うことができるクライアント-サーバーインタフェースを提供しています.",
+        "links": [
+          {
+            "title": "サービス",
+            "url": "https://developer.android.com/guide/components/services",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "nkcdjrswv0WCzUs48BAt9",
+      "type": "subtopic",
+      "label": "コンテンツ提供者",
+      "position": {
+        "x": 210.5417587642338,
+        "y": 687.1262851650183
+      },
+      "size": {
+        "width": 199,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "アンドロイドのコンテンツプロバイダは,アプリケーションが他のアプリケーションとデータを安全に共有できるようにする重要なコンポーネントです.データセキュリティを強化するために,データベースとアプリケーションの間の層として機能します.コンテンツプロバイダは,データトランザクションを処理し,データセキュリティを実装し,アプリケーション間の隔離を維持することによって,構造化されたデータセットへのアクセスを管理します.データにアクセスするために使用される抽象的なインターフェースを提供しますが,基本的なストレージメソッド (SQLiteデータベース,Web,または他の方法など) は隠れています.このメカニズムは,非関係源からデータを構造的に回収するのに役立ちます.",
+        "links": [
+          {
+            "title": "コンテンツ提供者",
+            "url": "https://developer.android.com/guide/topics/providers/content-providers",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tFuAToid1Fkmu96BDtW7K",
+      "type": "subtopic",
+      "label": "放送受信機",
+      "position": {
+        "x": 210.5417587642338,
+        "y": 740.1262851650183
+      },
+      "size": {
+        "width": 199,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "**Androidのブロードキャスト受信機**は,システム全体のブロードキャスト広告に対応するコンポーネントです.特定のタイプの放送に反応するために登録またはユーザー定義の放送を実行することができます.アプリから放送を開始できますが,一般的にシステム通知を受け取ったり,他のアプリケーションと通信するために使用されます.しかし,ユーザインターフェースを表示することはできませんが,必要に応じてユーザインターフェースを持つ活動を開始することができます. `BroadcastReceiver`クラスには,すべてのメッセージが,意向のオブジェクトパラメーターとして受信される `onReceive() `メソッドを優先する必要があります.",
+        "links": [
+          {
+            "title": "放送受信機",
+            "url": "https://developer.android.com/reference/android/content/BroadcastReceiver",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hv_9imIQpthxEaMLXEUHI",
+      "type": "subtopic",
+      "label": "意図",
+      "position": {
+        "x": 414.4034669074458,
+        "y": 632.696333609636
+      },
+      "size": {
+        "width": 183,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Intent in Androidは,アクティビティ,コンテンツプロバイダー,サービスなどのコンポーネント間の遅い実行時間結合に使用されるソフトウェアメカニズムである.本質的には,Androidシステムが実行するように要求される操作の抽象的な説明を保持する被動データ構造である.",
+        "links": [
+          {
+            "title": "意図",
+            "url": "https://developer.android.com/reference/android/content/Intent",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FVg438cVBBzqJFkGWVbQM",
+      "type": "subtopic",
+      "label": "活動ライフサイクル",
+      "position": {
+        "x": 603.2670925742796,
+        "y": 688.8587817234683
+      },
+      "size": {
+        "width": 190,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "**アクティビティライフサイクル**は,Androidで,アクティビティが作成から破壊まで行ける状態やイベントを代表する.主な状態またはイベントは: `onCreate() `, `onStart() `, `onResume() `, `onPause() `, `onStop() `, `onDestroy() `, and `onRestart() `.アクティビティが最初に作成され,アクティビティがユーザーに可視化すると, `onStart (`) と呼ばれる.`onRestart() `方法は,システムが活動を停止し,再起動する際に呼び出されます.これらの状態を適切に処理することで,リソースの効率的な利用とスムーズなユーザー体験が保証されます.",
+        "links": [
+          {
+            "title": "活動 ライフサイクル",
+            "url": "https://developer.android.com/guide/components/activities/activity-lifecycle",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "oUjetA2eduvQIeLcQlLcu",
+      "type": "subtopic",
+      "label": "国家変化",
+      "position": {
+        "x": 603.2670925742796,
+        "y": 741.8587817234683
+      },
+      "size": {
+        "width": 190,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "\"アクティビティ\"は,ユーザインタフェースを持つ単一の画面を表す重要な構成要素である.アプリケーションを構成するアクティビティの一つまたはそれ以上.これらのアクティビティは,生命周期の中で異なる状態を通過することができ,しばしばユーザーインタラクションまたはシステム中断によるものです.アクティビティの主要な状態には, `作成`, `開始`, `再起動`, `停止`, `再起動`,および `破壊される.アクティビティインスタンスの作成時に\"作成\"状態が発生します. \"起動\"状態は,アクティビティがユーザーに可視で, \"再起動\"状態は,アクティビティがユーザーと相互作用しているときに\"再起動\"状態です.アクティビティが集中力を失いながら部分的に目に見える時\"停止\"が目に見えない時\"再起動\"が始まり,活動が終わったら\"破壊\"またはシステムが一時的に破壊しているときに\"停止\"が表示されます.",
+        "links": [
+          {
+            "title": "活動 ライフサイクル",
+            "url": "https://developer.android.com/guide/components/activities/activity-lifecycle",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "-O-G9bg36ut8NnZcdOaop",
+      "type": "subtopic",
+      "label": "タスク&バックスタック",
+      "position": {
+        "x": 603.2670925742796,
+        "y": 794.8587817234683
+      },
+      "size": {
+        "width": 190,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Android の **タスク バックスタック** は,Android がタスクをスタックのような構造で管理し整理する方法を指します.各タスクにはタスクのバックスタックと呼ばれる一連の活動があります.タスクは開かれる順に配置されます.新しいアクティビティが開始されると,スタックのトップに配置され,実行アクティビティになります.以前のアクティビティが一時停止され,バックスタックに配置されます.バックボタンを押すと,現在のアクティビティが破壊され,バックスタックのトップにあるアクティビティが再びアクティブになります.Androidは,このバックスタックコンセプトを使用してタスクとアクティビティ間のナビゲーションを定義します.",
+        "links": [
+          {
+            "title": "任務 と 背筋",
+            "url": "https://developer.android.com/guide/components/activities/tasks-and-back-stack",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "gGdz3j33x0gfrFDp_rw8Z",
+      "type": "subtopic",
+      "label": "暗示 的 な 意図",
+      "position": {
+        "x": 423.9034669074458,
+        "y": 687.9358985850918
+      },
+      "size": {
+        "width": 163,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "**インパクトインパクトインパクトインパクトインパクトインパクトインパクトインパクトインパクトインパクトインパクトインパクトインパクトインパクトインパクトインパクトインパクトインパクトインパクトインパクトインパクトインパクトインパクトインパクトインパクトインパクトインパクトインパクトインパクトインパクトインパクトインパクトインパクトインパクトインパクトインパクトインパクトインパクトインパクトインパクトインパクトインパクトインパクトインパクトインパクトインパクトインパクトインパクトインパクトインパクトインパクトインパクトインパクトインパクトインパクトインパクトインパクトインパクトインパクトインパクトインパクトインパクトインパクトインパクトインパクトインパクトインパクトインパクトインパクトインパクトインパクトインパクトインパクトインパクトインパクトインパクトインパクトインパクトインパクトインパクトインパクトインパクトインパクトインパクトインパクトインパクトインパクトインパクトイン",
+        "links": [
+          {
+            "title": "暗示 的 な 意図",
+            "url": "https://developer.android.com/guide/components/intents-filters#implicit",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "TmIeCF3xVCe5Sy3ITmM31",
+      "type": "subtopic",
+      "label": "明確 な 意図",
+      "position": {
+        "x": 423.9034669074458,
+        "y": 740.9358985850918
+      },
+      "size": {
+        "width": 163,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "**Explicit Intents** は主にアプリケーションの独自の境界内で使用されます. 明確な意図では,意図に応答する必要があるコンポーネントを指定します. したがって,ターゲットコンポーネントは,コンポーネントネーム) `, `setClassClassContext, Class) `,または `setClassName(String, String) `などの方法を呼び出すことで指定する必要があります. つまり,明確な意図は,通常,アプリケーション内の活動を開始,メッセージ放送,サービスを開始するために使用されます. 明確な意図は,システムによって解決されませんが,意図で識別されたコンポーネントに転送されます.",
+        "links": [
+          {
+            "title": "明確 な 意図",
+            "url": "https://developer.android.com/guide/components/intents-filters#explicit",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b-sfh6NoS-APqaNKm5L5S",
+      "type": "subtopic",
+      "label": "意図フィルター",
+      "position": {
+        "x": 423.9034669074458,
+        "y": 793.9358985850918
+      },
+      "size": {
+        "width": 163,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`Intent Filters`は,AndroidにおけるAndroidシステムの不可欠な構成要素であり,その中であなたの活動,サービス,および放送受信機の能力を宣言することができます.意図フィルターは,アプリケーションのマニフェストファイルに含まれる表現であり,その定義は `<intent-filter>`XML要素であります.Androidはこれらのフィルターを使用して,明示的または暗示的な意図のための適切なコンポーネントを決定します.あなたのアプリケーションの意図に対応する能力は,あなたが定義したフィルターに依存します.フィルターは,あなたの活動またはサービスが実行できる `アクション`, `カテゴリー`,および `データを含む条件の集合です.入力される `Intentが定義された `Intent Filters`と一致する場合は,Androidシステムは,あなたのコンポーネント (アクティビティ,サービスまたは放送受信機) に ```を許可します.",
+        "links": [
+          {
+            "title": "意図フィルター",
+            "url": "https://developer.android.com/guide/components/intents-filters",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "jePGzTejFe4ryA5qFFmjl",
+      "type": "topic",
+      "label": "デザインと建築",
+      "position": {
+        "x": 860.4237456884,
+        "y": 1097.697659852384
+      },
+      "size": {
+        "width": 215,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "**デザインアーキテクチャ**は,コードの読みやすさ,維持性,テスト性を高める方法でコードを構造化することを指しています.モデルビューコントローラー (MVC),モデルビューインテント (MVI) などのアーキテクチャを設計する方法はいくつかあります.これらはそれぞれ,データ,論理,およびUI層間の相互作用を定義します.Googleの推奨アーキテクチャパターンは,MVVMパターンの原則に従うAndroidアーキテクチャコンポーネントです.アーキテクチャはすべてのソリューションに適合する硬い構造ではありません.むしろ,ガイドラインとして機能し,必要に応じて調整することができます.",
+        "links": [
+          {
+            "title": "Android アーキテクチャコンポーネント",
+            "url": "https://developer.android.com/topic/libraries/architecture",
+            "type": "official"
+          },
+          {
+            "title": "モデル・ビュー・コントローラー (MVC)",
+            "url": "https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller",
+            "type": "article"
+          },
+          {
+            "title": "モデル・ビュー・プレゼンター (MVP)",
+            "url": "https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93presenter",
+            "type": "article"
+          },
+          {
+            "title": "モデル-View-ViewModel (MVVM)",
+            "url": "https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93viewmodel",
+            "type": "article"
+          },
+          {
+            "title": "モデル・ビュー・インテント (MVI)",
+            "url": "https://www.raywenderlich.com/817602-mvi-architecture-for-android-tutorial-getting-started",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Dp2DOX10u2xJUjB8Okhzh",
+      "type": "subtopic",
+      "label": "フレーム",
+      "position": {
+        "x": 209.53887898054052,
+        "y": 927.42244273972
+      },
+      "size": {
+        "width": 94,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "**FrameLayout** は,Androidのシンプルな ViewGroupサブクラスで,単一の子供ビューまたは重複する子供ビューの積み重ねを保持するように設計されています. 既定的に各子を左上の角に配置し,互いに重複することを可能にします.",
+        "links": [
+          {
+            "title": "Android開発者:フレームレイアウト",
+            "url": "https://developer.android.com/reference/android/widget/FrameLayout",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "U8iMGGOd2EgPxSuwSG39Z",
+      "type": "subtopic",
+      "label": "線形",
+      "position": {
+        "x": 308.8618127280065,
+        "y": 927.42244273972
+      },
+      "size": {
+        "width": 94,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "**LinearLayout**は,すべての子供たちを垂直または水平的に1つの方向に並べているビューグループです. `android:orientation`属性でレイアウト方向を指定できます. **LinearLayout**は,以前のAndroid開発で一般的に使用されていましたが,ConstraintLayoutが導入された後,現代アプリでは使用頻度が低下しました.",
+        "links": [
+          {
+            "title": "Linear Layout",
+            "url": "https://developer.android.com/develop/ui/views/layout/linear",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "yE0qAQZiEC9R8WvCdskpr",
+      "type": "subtopic",
+      "label": "相対性",
+      "position": {
+        "x": 209.53887898054052,
+        "y": 980.42244273972
+      },
+      "size": {
+        "width": 193,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Android の **RelativeLayout** は,子供 の ビュー を 互いの 関連 に 位置 付け する よう に する ViewGroup の 種類 です.ある ルール に 基づいて,子供 の ビュー を 互いの 関連 に 配置 する こと が できる 柔軟 な レイアウト です. **RelativeLayout** は,複雑な UI デザイン を 作成 する ため に 適しています. **RelativeLayout** は,以前の Android 開発 に は よく 使われていた が, `ConstraintLayout` の 導入 に よっ て,現代 アプリ に は よく 使われ ませ ん.",
+        "links": [
+          {
+            "title": "相対的なレイアウト",
+            "url": "https://developer.android.com/develop/ui/views/layout/relative",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3fFNMhQIuuh-NRzSXYpXO",
+      "type": "subtopic",
+      "label": "制限",
+      "position": {
+        "x": 209.53887898054052,
+        "y": 1033.42244273972
+      },
+      "size": {
+        "width": 193,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "RelativeLayoutは,すべてのビューが兄弟のビューと親のレイアウトの間の関係に応じて配置されているため,類似している.しかし,それはリレーティブレイアウトよりも柔軟で使用が簡単です.xmlとジェットパックコンポーズで利用できます.",
+        "links": [
+          {
+            "title": "アンドロイド: XML の 制限 レイアウト",
+            "url": "https://developer.android.com/develop/ui/views/layout/constraint-layout",
+            "type": "official"
+          },
+          {
+            "title": "アンドロイド: コンストラント レイアウト",
+            "url": "https://developer.android.com/develop/ui/compose/layouts/constraintlayout",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "xIvplWfe-uDr9iHjPT1Mx",
+      "type": "subtopic",
+      "label": "リサイクラーView",
+      "position": {
+        "x": 209.53887898054052,
+        "y": 1086.42244273972
+      },
+      "size": {
+        "width": 193,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "RecyclerView は,Android開発における最も一般的に使用され,強力なリスト管理ツールです.大規模なデータセットを効率的に表示しやすくします.データを供給し,各項目の外観を定義し,RecyclerView ライブラリーは必要なときに要素をダイナミックに作成します.名前が示すように,RecyclerView は個々の要素をリサイクルします.アイテムがスクリーンからスクロールすると,RecyclerView はそのビューを破壊しません.代わりに,RecyclerView はスクリーンにスクロールした新しいアイテムのためのビューを再利用します.RecyclerView はパフォーマンスとアプリの応答性を向上させ,消費力を削減します.",
+        "links": [
+          {
+            "title": "リサイクラーView 参照 (Android ドキュメント)",
+            "url": "https://developer.android.com/reference/androidx/recyclerview/widget/RecyclerView",
+            "type": "official"
+          },
+          {
+            "title": "リサイクラーView (Android ドキュメント) でダイナミックリストを作成する",
+            "url": "https://developer.android.com/develop/ui/views/layout/recyclerview",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ZuT4JTri-tZYmZkAthnH8",
+      "type": "horizontal",
+      "label": "ホリゾントノード",
+      "position": {
+        "x": 347.5641444978062,
+        "y": 887.6993520650623
+      },
+      "size": {
+        "width": 206,
+        "height": 20
+      },
+      "style": {
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "08Fx-PJiotcpN6ylmgI5d",
+      "type": "label",
+      "label": "要素",
+      "position": {
+        "x": 556.5641444978062,
+        "y": 879.6993520650623
+      },
+      "size": {
+        "width": 89,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "EfxxpCCgOleZwBW5z4UA8",
+      "type": "horizontal",
+      "label": "ホリゾントノード",
+      "position": {
+        "x": 648.5641444978062,
+        "y": 887.6993520650623
+      },
+      "size": {
+        "width": 215,
+        "height": 20
+      },
+      "style": {
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "znvZp24L-PcQwkSObtixs",
+      "type": "subtopic",
+      "label": "テキストView",
+      "position": {
+        "x": 412.2896124351306,
+        "y": 925.8771482860266
+      },
+      "size": {
+        "width": 131,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "TextView は,すべてのAndroidアプリケーションで見られるウィジェットです.このウィジェットは,Androidアプリケーション内のシンプルなテキストを表示するために使用されます.",
+        "links": [
+          {
+            "title": "テキストView",
+            "url": "https://developer.android.com/reference/android/widget/TextView",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2iDJrxjXOt7o2fPp2HfRl",
+      "type": "subtopic",
+      "label": "フラグメント",
+      "position": {
+        "x": 658.2896124351307,
+        "y": 924.9542651476502
+      },
+      "size": {
+        "width": 155,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`Fragment`は,アプリのUIの再利用可能な部分を表します.fragment は独自のレイアウトを定義し管理し,独自のライフサイクルがあり,独自の入力イベントを処理できます.fragments は単独で生きることはできません.それらは活動または別のfragmentによってホストされなければなりません.fragmentのビュー階層はホストのビュー階層の一部になります.",
+        "links": [
+          {
+            "title": "アンドロイド開発者: フラグメント",
+            "url": "https://developer.android.com/guide/fragments",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "boMz0HZlMAsLdCZlpUo-H",
+      "type": "subtopic",
+      "label": "編集テキスト",
+      "position": {
+        "x": 658.2896124351307,
+        "y": 1030.9542651476502
+      },
+      "size": {
+        "width": 155,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`EditText`は,Android Studioの基本的なUI要素で,ユーザがアプリケーション内のテキストを入力して編集できるように使用されます. `TextView`のサブクラスで,ユーザ入力を管理するための追加機能を提供します.",
+        "links": [
+          {
+            "title": "アンドロイド開発者: EditText",
+            "url": "https://developer.android.com/reference/android/widget/EditText",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Mtx0bY0drmaTw8sCM5YTl",
+      "type": "subtopic",
+      "label": "対話",
+      "position": {
+        "x": 412.2896124351306,
+        "y": 978.8771482860266
+      },
+      "size": {
+        "width": 131,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "",
+        "links": [
+          {
+            "title": "アンドロイド開発者:対話",
+            "url": "https://developer.android.com/guide/fragments/dialogs",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "WhfzFOUpm0DFEj7Oeq21R",
+      "type": "subtopic",
+      "label": "ボタン",
+      "position": {
+        "x": 546.2896124351307,
+        "y": 977.95426514765
+      },
+      "size": {
+        "width": 109,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`ボタンはテキスト,アイコン,または両方で構成され,ユーザがタップすると発生するアクションを伝達します.ボタンはユーザがタップすることでアプリケーションと相互作用することを可能にする UI ウィジェットです.ボタンは通常テキスト,アイコン,または両方の組み合わせで構成され,ユーザがタップすると発生するアクションを伝達します.",
+        "links": [
+          {
+            "title": "アンドロイド開発者: ボタン",
+            "url": "https://developer.android.com/develop/ui/views/components/button",
+            "type": "official"
+          },
+          {
+            "title": "ボタンを作成する - Android",
+            "url": "https://developer.android.com/quick-guides/content/create-button",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "BVgO9n7tGlVdiS72-hFSd",
+      "type": "subtopic",
+      "label": "乾杯",
+      "position": {
+        "x": 546.2896124351307,
+        "y": 924.95426514765
+      },
+      "size": {
+        "width": 109,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`toast`は小さなポップアップで操作についての簡単なフィードバックを提供します.メッセージに必要なスペースのみを埋め,現在のアクティビティは可視でインタラクティブなままです.タイムアウト後にトーストは自動的に消えます.",
+        "links": [
+          {
+            "title": "乾杯",
+            "url": "https://developer.android.com/guide/topics/ui/notifiers/toasts",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "A4rtNULX_MoV93IH1Lgqw",
+      "type": "subtopic",
+      "label": "イメージビュー",
+      "position": {
+        "x": 412.2896124351306,
+        "y": 1031.8771482860266
+      },
+      "size": {
+        "width": 131,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "画像リソース,例えばBitmapまたはDrawableリソースを表示する.ImageViewは画像に色彩を適用し,画像スケーリングを処理するためにも一般的に使用されます.",
+        "links": [
+          {
+            "title": "アンドロイド開発者: イメージビュー",
+            "url": "https://developer.android.com/reference/android/widget/ImageView",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Z4Tbd5ClnqCXGPGG09F-G",
+      "type": "subtopic",
+      "label": "底表",
+      "position": {
+        "x": 658.2896124351307,
+        "y": 977.9542651476502
+      },
+      "size": {
+        "width": 155,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`Bottom Sheets`は,画面の下部に固定されている補充コンテンツを含む表面である.標準およびモダルの底部シートの動作を調整するために使用できるいくつかの属性があります. `app:layout_behavior`またはプログラム的に設定することで,xmlで標準的な底部シートに適用できます.",
+        "links": [
+          {
+            "title": "アンドロイド開発者: 底表",
+            "url": "https://developer.android.com/reference/com/google/android/material/bottomsheet/BottomSheetDialog",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "EzLjX4iRT7AxkAOsJYnSU",
+      "type": "subtopic",
+      "label": "リストView",
+      "position": {
+        "x": 546.2896124351307,
+        "y": 1083.95426514765
+      },
+      "size": {
+        "width": 109,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "垂直スクロール可能なビューコレクションを表示し,各ビューがリストの前のビューよりすぐ下の位置にある.リストの表示方法をより近代的で柔軟で性能の高い方法については, `RecyclerView` を使用します.",
+        "links": [
+          {
+            "title": "リストView",
+            "url": "https://developer.android.com/reference/android/widget/ListView",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "amTxz7mS98lkhOrNMJXG_",
+      "type": "subtopic",
+      "label": "引き出し",
+      "position": {
+        "x": 412.2896124351306,
+        "y": 1084.8771482860266
+      },
+      "size": {
+        "width": 131,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "アンドロイドの **ナビゲーションドラワー**は,重要なアプリリンクの間のナビゲーションを簡素化する左からスライドメニューです. `ActionBar`のスライドまたはアイコンを通じて開きます.",
+        "links": [
+          {
+            "title": "アンドロイド開発者: DrawerLayout",
+            "url": "https://developer.android.com/reference/androidx/drawerlayout/widget/DrawerLayout",
+            "type": "official"
+          },
+          {
+            "title": "ナビゲート 引き出し チュートリアル",
+            "url": "https://www.digitalocean.com/community/tutorials/android-navigation-drawer-example-tutorial",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pEBpXv3Jf1AzBNHlvVrG8",
+      "type": "subtopic",
+      "label": "タブ",
+      "position": {
+        "x": 546.2896124351307,
+        "y": 1030.95426514765
+      },
+      "size": {
+        "width": 109,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Android Studioのタブは,コンテンツを複数のセクションに整理するために使用されるUIコンポーネントで,ユーザが対応するタブを選択することによってそれらの間をナビゲートすることができます.このコンポーネントは,アプリケーション内の異なるカテゴリー,設定,またはページなどの異なる種類のコンテンツを単一の画面で提示する必要があるときに一般的に使用されます.",
+        "links": [
+          {
+            "title": "材料タブ",
+            "url": "https://developer.android.com/reference/com/google/android/material/tabs/package-summary",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Xn1VQ-xOT67ZfJJTM4r1p",
+      "type": "subtopic",
+      "label": "アニメーション",
+      "position": {
+        "x": 658.2896124351307,
+        "y": 1083.9542651476502
+      },
+      "size": {
+        "width": 155,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`アニメーションは,アプリで何が起きているかユーザーに知らせるビジュアル・シグナルを追加することができます. UIが新しいコンテンツをロードしたり,新しいアクションが利用可能になったときなど,特に有用です.アニメーションはまた,アプリに洗練された外観を追加し,より質の高い外観と感覚を与えます.",
+        "links": [
+          {
+            "title": "グーグル開発者: アニメーション",
+            "url": "https://developer.android.com/develop/ui/views/animations/overview",
+            "type": "official"
+          },
+          {
+            "title": "グーグル開発者: アニメーション",
+            "url": "https://www.youtube.com/watch?v=N_x7SV3I3P0",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pntwSBbuIfYb8b7WBVfvI",
+      "type": "label",
+      "label": "レイアウト",
+      "position": {
+        "x": 268.5641444978062,
+        "y": 879.6993520650623
+      },
+      "size": {
+        "width": 76,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "qVXAZzZSD9BJBw0ZJsuEm",
+      "type": "horizontal",
+      "label": "ホリゾントノード",
+      "position": {
+        "x": 209.56414449780618,
+        "y": 887.6993520650623
+      },
+      "size": {
+        "width": 56,
+        "height": 20
+      },
+      "style": {
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "60Vm-77rseUqpMiFvp-dA",
+      "type": "subtopic",
+      "label": "ジェットパック コンポーズ",
+      "position": {
+        "x": 1045.3266615963507,
+        "y": 790.1530180045523
+      },
+      "size": {
+        "width": 196,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`Jetpack Compose`は,ネイティブ Android UI を構築するための現代的なツールキットです. ヽJetpack Compose`は,コードが少ない,強力なツール,直感的な Kotlin API を使用して Android で UI の開発を簡素化し,加速します. `Jetpack Compose`は UI の設計に宣言的なアプローチを提供し,アプリケーションの状態の任意の時点での UI の外見を簡単に説明できます. `Compose`は,ビュー階層を更新し, UI の開発をより効率的にします. また,既存の Android アプリとよく統合し,その利点を自分のペースで採用することができます.",
+        "links": [
+          {
+            "title": "ジェットパック コンポーズ",
+            "url": "https://developer.android.com/jetpack/compose",
+            "type": "official"
+          },
+          {
+            "title": "ジェットパック コンポーズ クラッシュコース",
+            "url": "https://www.youtube.com/watch?v=6_wK_Ud8--0",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "xV475jHTlLuHtpHZeXb7P",
+      "type": "subtopic",
+      "label": "アプリのショートカット",
+      "position": {
+        "x": 1026.3266615963507,
+        "y": 955.4258772853128
+      },
+      "size": {
+        "width": 234,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "アンドロイドのアプリショートカットは,デバイスのホームスクリーンからアプリ内の特定のアクションや機能への迅速かつ便利なルートを提供するように設計されています.それらを使用するには,アプリのアイコンを長く押して,ポップアップメニューが利用可能なショートカットとともに表示されます.アプリに応じて,アプリを最初にオープンし,望ましい機能にナビゲートせずにメッセージを送信したり,予約したり,家へナビゲートしたり,他の特定のタスクを実行することができます.これらのショートカットも移動し,さらに速くアクセスするためにホームスクリーンに個別に配置することができます.",
+        "links": [
+          {
+            "title": "アプリのショートカット",
+            "url": "https://developer.android.com/guide/topics/ui/shortcuts",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "o5rzmnaQeiSh9ocvfJPpK",
+      "type": "subtopic",
+      "label": "ナビゲーションコンポーネント",
+      "position": {
+        "x": 1026.3266615963507,
+        "y": 1008.4258772853129
+      },
+      "size": {
+        "width": 234,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "**ナビゲーションコンポーネントは,Android Jetpackの一部であり,Androidアプリでのナビゲーションの実装を簡素化するために設計されています.これらのコンポーネントは,ベストプラクティスを遵守し,ディープリンクを処理し,ディープおよび条件付きナビゲーションを通じて一貫したユーザー体験を提供するのに役立ちます.また,多くの異なるタイプのデバイスでUpとBackアクションを正しく処理するなどの多くの一般的なタスクを自動化します.ナビゲーションコンポーネントはナビゲーショングラフ,NavHost,NavControllerという3つの重要な部分で構成されています.",
+        "links": [
+          {
+            "title": "ナビゲーションコンポーネント",
+            "url": "https://developer.android.com/guide/navigation",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Bz-BkfzsDHAbAw3HD7WCd",
+      "type": "subtopic",
+      "label": "MVI",
+      "position": {
+        "x": 1048.305632371595,
+        "y": 1231.4012119396646
+      },
+      "size": {
+        "width": 101,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "**MVI** `Model-View-Intent`パターンは **MVVM**と **MVP**に類似した反応的な建築パターンで,単向サイクルにおける不変性と処理状態に焦点を当てています.データフローは単向です. `ViewModel`を通してIntentがモデルの状態を更新し,その後 Viewは新しい状態に反応します.これは論理とインターフェースの間に明確な予測可能なサイクルを保証します. *Model: UI状態を表します. これは不変であり,画面を表すのに必要なすべての情報を含んでいます. * View: UI状態を表示し,ユーザーの意図を受け取ります. * Intent:ユーザーの意図は, `ViewModel`によって管理される状態更新を起動します.",
+        "links": [
+          {
+            "title": "コトリンとのMVI",
+            "url": "https://proandroiddev.com/mvi-architecture-with-kotlin-flows-and-channels-d36820b2028d",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pSU-NZtjBh-u0WKTYfjk_",
+      "type": "subtopic",
+      "label": "MVVM",
+      "position": {
+        "x": 1150.8813646431793,
+        "y": 1231.4012119396646
+      },
+      "size": {
+        "width": 113,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`モデル・ビュー・モデル・` (MVVM) パターンは,UI開発で一般的に使用されるソフトウェアアーキテクチャパターンです.アプリケーションの懸念を分離して,コードをよりモジュール化,テスト可能,および維持可能にするように設計されています.コンポーネント: * `モデル`:実際の状態のコンテンツを表すドメインモデル (オブジェクト指向的アプローチ) またはコンテンツを表すデータアクセス層を指します. * `view`:ビューは,ユーザーが画面で見るものの構造,レイアウト,外観です. * `view`:ビューモデルは,公共の属性やコマンドを暴露するビューの抽象化です.ビューモデルは,モデル内のデータの状態として説明されています.",
+        "links": [
+          {
+            "title": "アンドロイド開発者: View Model",
+            "url": "https://developer.android.com/topic/libraries/architecture/viewmodel",
+            "type": "official"
+          },
+          {
+            "title": "ウィキペディア",
+            "url": "https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93viewmodel",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "aF_xFIqTjQbENtC7pkXvJ",
+      "type": "subtopic",
+      "label": "MVP",
+      "position": {
+        "x": 1048.9214711553075,
+        "y": 1284.4012119396646
+      },
+      "size": {
+        "width": 101,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "MVP `Model View Presenter`パターンは,有名な MVC `Model View Controller`パターンの衍生であり,Androidアプリケーションにおけるプレゼンテーションレイヤを組織するための最も人気のあるパターンの1つです. MVP は以下の3つの構成要素に分かれます. * `Model`: アプリへのデータ入力を管理する責任があります.これはしばしばビジネスロジックとデータ操作を処理するインタラクターまたはユースケースです. * `View`:アプリケーションのグラフィック部分の更新を担当します.",
+        "links": [
+          {
+            "title": "モデルビュープレゼンター",
+            "url": "https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93presenter",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "w1A6wPKSd3Yh2luuHV-aE",
+      "type": "subtopic",
+      "label": "MVC",
+      "position": {
+        "x": 1151.8813646431793,
+        "y": 1284.4012119396646
+      },
+      "size": {
+        "width": 110,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "MVCまたは `モデルビューコントローラー`は,関連するプログラム論理を相互接続された3つのコンポーネントに分割するユーザーインターフェースを開発するために一般的に使用されるソフトウェア設計パターンである.構成要素: ----------- * `モデル`:情報の内部表示.これはしばしばインタラクターまたはユースケース * `View`:ユーザーに情報を提示し,ユーザーから受け入れるインターフェース * `コントローラー`:コントローラーには,アプリケーションのユーザーからの入力に対応してモデルおよび/またはビューを更新する論理が含まれます.",
+        "links": [
+          {
+            "title": "MVC",
+            "url": "https://developer.mozilla.org/en-US/docs/Glossary/MVC",
+            "type": "article"
+          },
+          {
+            "title": "モデルビューコントローラ",
+            "url": "https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ZF5XgO7I_J9928bD3CVXo",
+      "type": "subtopic",
+      "label": "リポジトリ パターン",
+      "position": {
+        "x": 1049.3396021840554,
+        "y": 1395.0573321226304
+      },
+      "size": {
+        "width": 214,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`リポジトリ パターン`は,データソースを他のアプリケーションから分離します. 継続的なモデル,ウェブサービス,キャッシュなどの異なるデータソースの間の仲介者として機能します. ネットワークとデータベースコールが ViewModel全体に広がる代わりに,リポジトリクラス内にエンカプセル化されます. この分離により,コードはきれいに,読みやすく,テスト可能になります. データアクセスのための簡単なAPIを提供します.残りのアプリケーションは,データがどこから来ているのかを知らなくてもリポジトリに問いかけます.",
+        "links": [
+          {
+            "title": "リポジトリ パターン",
+            "url": "https://en.wikipedia.org/wiki/Repository_pattern",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "784fiIdKrQDlIm3VIiJQN",
+      "type": "subtopic",
+      "label": "建築家 パターン",
+      "position": {
+        "x": 1051.2829550804522,
+        "y": 1448.0573321226304
+      },
+      "size": {
+        "width": 214,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "アンドロイドの**Builder Pattern**は,複雑なオブジェクトを段階的に構築するために使用されます.オブジェクトの構築をその表現から切り離します.このパターンは, `Builder`クラスを含みます. `Product`クラスを構築するために使用されます.Builderクラスには,通常,製品を構築するために使用される各部品の方法があります.また,最終製品を返す方法があります.ビルダーパターンは,オブジェクトを作成するための複数の方法がある場合や,オブジェクトがコンストラクタのために多くのパラメータを必要とする場合,有用です.",
+        "links": [
+          {
+            "title": "建築家 パターン",
+            "url": "https://developer.android.com/kotlin/style-guide#builder-pattern",
+            "type": "official"
+          },
+          {
+            "title": "アンドロイドビルダー パターン",
+            "url": "https://medium.com/kayvan-kaseb/builder-design-pattern-in-android-a38dccb75485",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "DeOxj6RzQBYfEWV-M1Ybm",
+      "type": "subtopic",
+      "label": "工場のパターン",
+      "position": {
+        "x": 1051.2829550804522,
+        "y": 1501.0573321226304
+      },
+      "size": {
+        "width": 214,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "**Factory Pattern**はクリエイティブデザインパターンの一部である.このパターンは超級クラスでオブジェクトを作成するためのインターフェースを提供します.しかし,サブクラスが作成されるオブジェクトの種類を変更することを可能にします.クライアントコードと具体的なオブジェクトの間に抽象層を導入します.通常,これはコンストラクタを使用する代わりにオブジェクトを作成するためにファクトリーメソッドを使用して達成されます.クラスのインスタンスは通常,インタフェースで指定され,クラスを実装し,または衍生クラスによってオーバーリードされるベースオプションクラスに実装される `ファクトリーメソッドと呼ばれる方法によって作成されます.ファクトリーメソッドは,一般的なスーパークラスを共有する複数の可能なクラスの1つからクラスのインスタンスを作成する方法を提供したいときに使用されます.ファクトリーパターンの基本的な例は以下です:公開抽象クラス 動物 {公開抽象文字列作成Sound(); }公開クラス 犬の拡張動物 { @override公開文字列作成Sound() { 返信 \"Woof\"; }公開クラス猫の拡張動物 { @override公開文字列作成Sound) { 返信 \"Meow\"; } }公開クラス動物Factory {公開文字列作成動物) { if (\"Dog\". Catequalstype)) { { 返信新しい犬((); }他の場合 (\"Cat\".equalstype)) { 返信新しい); }返信無効; } } }",
+        "links": [
+          {
+            "title": "アンドロイド: 工場パターン",
+            "url": "https://developer.android.com/guide/components/intents-filters#factory",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "N_auRfGKkeIIc-qiHLkR_",
+      "type": "subtopic",
+      "label": "観察者パターン",
+      "position": {
+        "x": 1051.2829550804522,
+        "y": 1557.6137520699554
+      },
+      "size": {
+        "width": 214,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "**Observer Pattern**は,オブジェクトとして知られるオブジェクトが,その依存者のリストを保持し,オブザーバーと呼ばれる状態の変化を自動的に通知するソフトウェア設計パターンです.これは通常,その方法の一つを呼び出すことで行われます.主に分布式イベント処理システムを実装するために使用され,従うための良い慣習と見なされ,デザインをより堅牢で柔軟でスケーラブル化します.観察される対象は,オブジェクトを誘発し,オブザーバーが聴いている変化またはイベントに反応します.Androidでは,LiveData`, `RxJava`, `Flow`,および他の反応性ストリームなどの観測可能なライブラリがオブザーバーパターンの実装を可能にします.",
+        "links": [
+          {
+            "title": "観察者パターン",
+            "url": "https://en.wikipedia.org/wiki/Observer_pattern",
+            "type": "article"
+          },
+          {
+            "title": "観察者パターン",
+            "url": "https://refactoring.guru/design-patterns/observer",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "W-WTIiQml8dLK6i_V69JK",
+      "type": "subtopic",
+      "label": "流れ",
+      "position": {
+        "x": 1059.3396021840554,
+        "y": 1613.1260426182998
+      },
+      "size": {
+        "width": 199,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`Flow`は,アンドロイド開発における Kotlin Coroutines ライブラリの一部である. Kotlin Coroutinesは,複数の値を連続的に発射できるタイプで,任意のデータストリームまたは即時でないイベントストリームで作業するのに最適です. Observablesと同様に, `Flow`はオブザーバーパターンに基づいています.つまり,値を発射し,これらの排出を観察し,反応することができます.しかし, `Flow`は,内蔵されたバックプレッシャー処理と,これらの流れを連続的に変換,フィルタリング,または組み合わせることができる能力が付いています. Coroutinesと共に, `Flow`は再呼び戻し地獄の問題なしでより予測可能で簡素化された並列設計を奨励します.",
+        "links": [
+          {
+            "title": "流れ",
+            "url": "https://kotlinlang.org/docs/flow.html",
+            "type": "official"
+          },
+          {
+            "title": "流れ: コロウチン",
+            "url": "https://kotlinlang.org/docs/flow-coroutines.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "xk0vnWr7uESdzYRxwFjoK",
+      "type": "subtopic",
+      "label": "RxJava",
+      "position": {
+        "x": 1165.3396021840554,
+        "y": 1666.1260426182998
+      },
+      "size": {
+        "width": 93,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "JVM の Reactive Extensions を代表する RxJava は,Java と Android エコシステムにおけるライブラリで,開発者が非同期,イベントベースのプログラムを書き込むことができます.これは反応的プログラミング原理に従って開発され,多スレッド操作をサポートします.変数,データ構造,入力などからデータストリームを作成できます.これらのストリームは,データ処理のために機能的プログラミング方法を使用して使用できます.",
+        "links": [
+          {
+            "title": "GitHubでRxJava",
+            "url": "https://github.com/ReactiveX/RxJava",
+            "type": "opensource"
+          }
+        ]
+      }
+    },
+    {
+      "id": "7rbsp1o5bzIJP11BRIoeG",
+      "type": "subtopic",
+      "label": "RxKotlin",
+      "position": {
+        "x": 1059.3396021840554,
+        "y": 1666.1260426182998
+      },
+      "size": {
+        "width": 101,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`RxKotlin`は,便利な拡張機能を追加する軽量ライブラリである.開発者は Kotlin と RxJava をより言語的な方法で使用し,コードをより読みやすく理解できます. `RxJava`は Java ベースの Reactive Extensions の実装であるが, `RxKotlin`は,本質的に Kotlin の機能,例えば構文の簡素性と使いやすさを充分利用するために,拡張機能およびその他の構造を含む包装である.",
+        "links": [
+          {
+            "title": "RxKotlin",
+            "url": "https://github.com/ReactiveX/RxKotlin",
+            "type": "opensource"
+          }
+        ]
+      }
+    },
+    {
+      "id": "TiokceMGU9caqiR0lbFYL",
+      "type": "subtopic",
+      "label": "ライブデータ",
+      "position": {
+        "x": 1059.3396021840554,
+        "y": 1719.1260426182998
+      },
+      "size": {
+        "width": 199,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`LiveData`は,特定のライフサイクル内で観測できるデータ保有者クラスです.これは, `Observer`をライフサイクルオーナーの`とペアに追加することができ,関連している `LiveDataOwner`がアクティブ状態にある場合にのみ,このオブジェクトの変更についてこのオブジェクトに通知されます.`LiveData`は,活動,fragment,またはサービスなどのアプリコンポーネントのライフサイクル状態を尊重し,アクティブライフサイクル状態にあるアプリコンポーネントオブザーバーのみを更新します.さらに,関連している `LiveDataOwner`は,関連している `LifecycleOwner`が破壊された状態に移動すると自動的にオブザーバーを削除します.`LiveData`と `LifecycleOwner`の組み合わせは,アプリケーション構成要素のライフサイクル状態を考慮しているため,適切な,効率的な更新を管理するのに役立ちます.",
+        "links": [
+          {
+            "title": "ライブデータ",
+            "url": "https://developer.android.com/topic/libraries/architecture/livedata",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ZbuCx3ygIZPRS_9fp0AJg",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": 1051.2829550804522,
+        "y": 1822.5939340801478
+      },
+      "size": {
+        "width": 214,
+        "height": 187
+      },
+      "style": {
+        "width": 150,
+        "height": 100,
+        "fontSize": 17
+      },
+      "z_index": -999
+    },
+    {
+      "id": "qtXM9K7wyjOFuEMlZrB3C",
+      "type": "subtopic",
+      "label": "依存症注射",
+      "position": {
+        "x": 1051.2829550804522,
+        "y": 1787.7811417023727
+      },
+      "size": {
+        "width": 214,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`Dependency Injection`は,オブジェクトが独自の依存性を創る必要がない技術である.代わりに,実行時に依存性が提供 (または注射) される.この技術は,Android開発において非常に有益である.緩やかに結合し,簡単にテスト可能なコードを作成するのに役立ちます.例えば,ネットワーク通話を行うためにアプリケーションが要求する `Retrofit`インスタンスは,他の場所で作成され,必要に応じて `Dagger`, `Koin`または `Hilt`のようなライブラリを使用して注射することができます. `ViewModel`インスタンスは,必要なクラスで直接作成するのではなく,注射することもできます.依存性注射を通じて,プラグインはコードを変更し,理解し,維持し,したがって,コードの質を改善することを保証します.",
+        "links": [
+          {
+            "title": "依存症注射",
+            "url": "https://developer.android.com/training/dependency-injection",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "CK7Ce632fdTgxeFsRUVvd",
+      "type": "subtopic",
+      "label": "ナイフ",
+      "position": {
+        "x": 1059.3396021840554,
+        "y": 1843.2934322507172
+      },
+      "size": {
+        "width": 199,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "DaggerはJavaとAndroidの両方のための完全に静的な,コンパイルタイム依存性注射フレームワークです.それはシンプルさと速度に焦点を当てたスクエアによって作成された以前のバージョンの適応です.ダッガーの主な重点は依存性のコンパイルタイム分析,コードのシンプルさ,そして明確さです.依存性を定義するために注釈を使用し,それによってコードの読みやすさと理解に役立ちます.ダッガーは,依存性を注射するために反射の使用を排除し,それによってパフォーマンスを向上させます.インスタンスの寿命を管理するためのカスタムスコープを提供しています.そして依存性は特定のコープの全寿命を通じてシングletonであることを保証します.",
+        "links": [
+          {
+            "title": "ナイフ",
+            "url": "https://dagger.dev/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "UMqZ-jmXKDXKuu8bzqDH_",
+      "type": "subtopic",
+      "label": "コイン",
+      "position": {
+        "x": 1155.3396021840554,
+        "y": 1896.2934322507172
+      },
+      "size": {
+        "width": 103,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "コインは,コトリン開発者向けに開発された軽量依存性注射フレームワークです.機能的な解像度のみを使用します.プロキシなし,コード生成なし,反射なし,コトリンの言語機能を活用することでシンプルさを提供します.コインはAndroidプラットフォームに関連していないが,Androidアーキテクチャコンポーネントやコトリンコルーチンなど,Androidアプリケーションに効率的な統合を可能にする特定の拡張機能を提供します.",
+        "links": [
+          {
+            "title": "コイン",
+            "url": "https://insert-koin.io",
+            "type": "official"
+          },
+          {
+            "title": "Android アーキテクチャコンポーネント",
+            "url": "https://developer.android.com/topic/libraries/architecture/index.html",
+            "type": "official"
+          },
+          {
+            "title": "@officialKotlin Coroutines",
+            "url": "https://kotlinlang.org/docs/reference/coroutines-overview.html",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ooo_k2k_vUBR_jQ7Ke6Et",
+      "type": "subtopic",
+      "label": "ヒルト",
+      "position": {
+        "x": 1060.5878072165665,
+        "y": 1896.2934322507172
+      },
+      "size": {
+        "width": 91,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Hilt は,Android用の依存性注射ライブラリで,プロジェクトで手動依存性注射を設定する際に通常書き込む必要のあるボイラープレートコードを削減します.このライブラリはDaggerライブラリに基づいていますが,実装プロセスを簡素化し,AndroidアプリでDaggerの使用を簡素化します.設定するには,Androidクラスに注釈する必要があります.Hiltは自動的に生成し,あなたのために必要な依存性を提供します.",
+        "links": [
+          {
+            "title": "ヒルト",
+            "url": "https://developer.android.com/training/dependency-injection/hilt-android",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dc7k50PjCYZcElHhCk66p",
+      "type": "subtopic",
+      "label": "コード",
+      "position": {
+        "x": 1059.3396021840554,
+        "y": 1949.2934322507172
+      },
+      "size": {
+        "width": 199,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`Kodein`は,Android開発に適した推奨依存性注射フレームワークの一つである.このオープンソースの Kotlin ライブラリでは,開発者がシングルトン,工場,またはプロバイダー結合などのさまざまな種類の依存性をコンテナまたは `Kodein`モジュールに結合させることで,DIプロセスを簡素化します.以前の宣言ではなく,使用する際の依存性宣言を推進します.使用しやすい,デバッグしやすい,非常にイディオマティックな Kotlin 構造コードを可能にする\"Define in Use\"原則に従います.また,`Kodein`は,Androidのライフサイクルと手を合わせて動作し,Android Componentsなどの人気のあるライブラリと簡単に統合し,機能性を活用します.",
+        "links": [
+          {
+            "title": "コード",
+            "url": "https://insert-kodein.io/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "0fNQWRxst8xRstIfPaPO6",
+      "type": "topic",
+      "label": "収納",
+      "position": {
+        "x": 862.8618127280065,
+        "y": 1242.53766067362
+      },
+      "size": {
+        "width": 145,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "アンドロイドデバイスでは,ストレージは,アプリ,写真,ビデオ,音楽などのデータを保存する場所を指します.内部および外部ストレージは2種類に分類できます.内部ストレージは,アプリに直接リンクされたデータが保存される場所です.このデータはデフォルトでプライベートで,他のアプリではアクセスできません.一方で,外部ストレージは,すべてのアプリがデータを読み書きできる共有空間です.さらに公開およびプライベートディレクトリに分類することができます.公開ディレクトリはすべてのアプリ間で共有されます.プライベートディレクトリはアプリに特定ですが,適切な許可があれば他のアプリによってアクセスできます.",
+        "links": [
+          {
+            "title": "収納",
+            "url": "https://developer.android.com/guide/topics/data/data-storage",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PKql1HY0PLMfp50FRELXL",
+      "type": "subtopic",
+      "label": "共有の優先順位",
+      "position": {
+        "x": 546.4645995838063,
+        "y": 1167.833115751315
+      },
+      "size": {
+        "width": 229,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Shared Preferences は Android で,キー値ペアでデータを保存するために使用されます.アプリケーションの設定や状態などの小さなデータを保存できる小さなデータベースのように動作します.アプリケーションが Shared Preferences に保存されると,アプリケーションが削除または削除された場合でも,ユーザーセッションを通じて保存されます.共有の優先順位内のデータは通常,大量のデータに使用されません.共有の優先順位でデータを保存,取得,編集などのアクションを実行するには, `SharedPreferences.Editor` のインスタンスを使用します.",
+        "links": [
+          {
+            "title": "共有の優先順位ドキュメント",
+            "url": "https://developer.android.com/training/data-storage/shared-preferences",
+            "type": "official"
+          },
+          {
+            "title": "アンドロイドで共有の好み",
+            "url": "https://www.youtube.com/watch?v=rJ3uwqko9Ew",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "GWq3s1iTxQOp1BstHscJ9",
+      "type": "subtopic",
+      "label": "データストア",
+      "position": {
+        "x": 546.4645995838063,
+        "y": 1220.833115751315
+      },
+      "size": {
+        "width": 229,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`DataStore`は,Androidによる新しい,改良されたデータストレージソリューションで, `SharedPreferences`を置き換える. `SharedPreferences`を2つの異なる実装で提供することを理解することが重要です. `Preferences DataStore`と `Proto DataStore`. `Preferences DataStore`は, `SharedPreferences`に似たキー値ペアを使用しますが,より堅固で実行時のカスタム例外をより効率的に処理します. 一方, `Proto DataStore`は,セキュリティを提供するためにデータタイプを使用します. ヽDataStore () は,構造化されたデータをシリアライズするための言語中立,プラットフォーム中立のメカニズムである プロトコル・バッファーの力を活用できます. データストレージ形式として. `DataStore () で動作するデータは,トランザクション中にエラーが発生した場合,すべてのデータが一貫した状態に変更されるので,実行される意味があります.",
+        "links": [
+          {
+            "title": "文書化",
+            "url": "https://developer.android.com/topic/libraries/architecture/datastore",
+            "type": "official"
+          },
+          {
+            "title": "データストアへの導入",
+            "url": "https://www.youtube.com/watch?v=9ws-cJzlJkU&list=PLWz5rJ2EKKc8to3Ere-ePuco69yBUmQ9C",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Bfg4So5RlI09zFNcburJd",
+      "type": "subtopic",
+      "label": "部屋のデータベース",
+      "position": {
+        "x": 546.4645995838063,
+        "y": 1273.833115751315
+      },
+      "size": {
+        "width": 229,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "\"Room\"は,Googleが導入した持続性ライブラリで,SQLiteの全力を活用しながら,強力なデータベースアクセスに役立つSQLiteの抽象層を提供します.Roomはデータベースを作成し,コンパイルタイムチェックされたSQL文字列でクエリを定義します.これらのデータベースは,アプリケーションのデータを表示する作成したデータクラスに属します.Roomは3つの主要なコンポーネントで構成されています: **Database**,アプリケーションのデータテーブルを保持するコンテナ; **Entity**,データベース内のテーブルを表す; **DAO (Data Access Object) **,データベースと相互作用するためのSQLクエリ方法を含む.",
+        "links": [
+          {
+            "title": "部屋のデータベース",
+            "url": "https://developer.android.com/training/data-storage/room",
+            "type": "official"
+          },
+          {
+            "title": "アンドロイド の 部屋 の 完全 の 初心者 の ガイド",
+            "url": "https://www.youtube.com/watch?v=bOd3wO0uFr8&t=10s",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "A4kdaj6AFueUgPI7hwKi5",
+      "type": "subtopic",
+      "label": "ファイルシステム",
+      "position": {
+        "x": 546.4645995838063,
+        "y": 1326.833115751315
+      },
+      "size": {
+        "width": 229,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Androidオペレーティング システムは,ファイルを保存し管理するために特定のファイルシステム構造を使用します.これは主にLinuxファイルシステムに基づいています.特定のAndroid機能があります.ファイルシステムには特定の目的で使用されるいくつかの主要なディレクトリが含まれています.例えば, `/システム`のようなディレクトリにはシステムアプリとファームウェアがあります. `/データ`にはユーザーデータ,設定およびインストールされたアプリケーションが含まれています.そして, `/sdcard`は通常,追加のストレージのための内部または外部SDカードを表します. `/proc`, `/dev`,および `/sys`のようなディレクトリを言及する価値があります.これは仮想ファイルシステムであり,重要なシステムファイルを持っています.Android開発者として,これらのディレクトリを理解することは,Androidのファイルシステムとより効果的に相互作用するのに役立ちます.これらのディレクトリの一部へのアクセスがシステム許可によって制限される可能性があることに注意してください.",
+        "links": [
+          {
+            "title": "Androidファイルシステム",
+            "url": "https://developer.android.com/training/data-storage/",
+            "type": "official"
+          },
+          {
+            "title": "Androidファイルシステム",
+            "url": "https://www.androidauthority.com/android-file-system-1010817/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Yb6aKJMMCxU1QVltWg3Dr",
+      "type": "topic",
+      "label": "ネットワーク",
+      "position": {
+        "x": 860.4237456884,
+        "y": 1431.0377047250465
+      },
+      "size": {
+        "width": 149,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "アンドロイドでは, `Network`コンポーネントは,ユーザー,ユーザーとリモートサーバー,ユーザーとクラウドサービスとの間の通信とインタラクションを可能にする重要な機能を提供します. アンドロイドは,ネットワークとインタラクションするためのさまざまなAPIとサービスを提供します.主なAPIは,ネットワーク接続管理者`, `WifiManager`, `TelephonyManager`,および `BluetoothManager` APIなどです.",
+        "links": [
+          {
+            "title": "ネットワーク",
+            "url": "https://developer.android.com/guide/topics/connectivity",
+            "type": "official"
+          },
+          {
+            "title": "接続管理者",
+            "url": "https://developer.android.com/reference/android/net/ConnectivityManager",
+            "type": "official"
+          },
+          {
+            "title": "Wifi管理者",
+            "url": "https://developer.android.com/reference/android/net/wifi/WifiManager",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dDMRYiqrKyOBnRRQc8zsp",
+      "type": "subtopic",
+      "label": "レトロ",
+      "position": {
+        "x": 825.3442487157158,
+        "y": 1518.6292267165663
+      },
+      "size": {
+        "width": 180,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Retrofitは,Android用のタイプセキュアなHTTPクライアントです.アプリケーションをAPIまたはバックエンドウェブサービスと接続するために設計されています.Retrofitは,HTTP方法 (`GET`, `POST`, `PUT`, `DELETE`, `HEAD`) およびクエリパラメータなどのAPIの操作および要求に関する詳細をコードするために注釈を使用します. **Retrofitが他の類似のライブラリに比べて主なメリットは単純性と直感性であり,すべてのネットワーク通話を効率的に処理します.",
+        "links": [
+          {
+            "title": "改装ドキュメント",
+            "url": "https://square.github.io/retrofit/",
+            "type": "official"
+          },
+          {
+            "title": "アンドロイド・スタジオでのリトローフィット",
+            "url": "https://www.youtube.com/watch?v=KJSBsRKqNwU",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5pVuwOItAhUxxJX8ysAsn",
+      "type": "subtopic",
+      "label": "OKHttp",
+      "position": {
+        "x": 825.3442487157158,
+        "y": 1571.6292267165663
+      },
+      "size": {
+        "width": 180,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`OkHttp`は,非常に効率的なHTTPクライアントで,AndroidアプリまたはJavaを使用する他のプラットフォームでいくつかの高度な機能を可能にする.Squareによって開発され,接続集成,応答キャッシング,リクエストリクエストを含む多くのネットワークタスクを簡素化し,高効率性と容量のために構築されています.OkHttpはネットワークの問題からシームレスに復元し,データの損失を最小限に抑えることができます.図書館は,近代的なTLS暗号化,拡張可能なリクエストと応答モデル,および使いやすさと統合のための流暢なAPIを使用して,エラーが少なく,サービスの品質が向上します.",
+        "links": [
+          {
+            "title": "OKHttp",
+            "url": "https://square.github.io/okhttp/",
+            "type": "official"
+          },
+          {
+            "title": "GitHubでOKHttp",
+            "url": "https://github.com/square/okhttp",
+            "type": "opensource"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ww0fTbdXwVr-QIOClU7ng",
+      "type": "subtopic",
+      "label": "アポロ・アンドロイド",
+      "position": {
+        "x": 825.3442487157158,
+        "y": 1624.6292267165663
+      },
+      "size": {
+        "width": 180,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "**アポロ・アンドロイド**は,アポロコミュニティ開発者によって開発された,AndroidとGraphQLを使用するためのツールセットです.これは Kotlin で完全に書かれたもので,あらゆるAndroidアプリにシームレスに統合するように設計されており,ネットワークを介してデータを収集し,クライアント側でデータを処理します.アポロ・アンドロイドはアンケートや変異を実行し,生成された Kotlin タイプとして結果を返します.また,データを正常化し,さらなる速度向上のために結果をキャッシュします. Android および Kotlin/JVM バックエンド環境の両方で動作します.また,プラグインを最初に実行することで,コンクリエンス処理が簡単かつ効果的です.アポロ・アンドロイドを使用するには,アポロ・アンドロイドを設定し,それをあなたの GraphQL スキーマに指し,GraphQL アンケートを作成します.",
+        "links": [
+          {
+            "title": "アポロ・アンドロイド",
+            "url": "https://www.apollographql.com/docs/kotlin/v2/",
+            "type": "official"
+          },
+          {
+            "title": "アポロ・ドックス",
+            "url": "https://www.apollographql.com/docs/kotlin/",
+            "type": "official"
+          },
+          {
+            "title": "apollographql/apollo-kotlin - Android用のグラフQL",
+            "url": "https://github.com/apollographql/apollo-kotlin",
+            "type": "opensource"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cFYZ2C7yNnY6NHKUNP2Z4",
+      "type": "topic",
+      "label": "アシンクロニズム",
+      "position": {
+        "x": 541.4645995838063,
+        "y": 1431.0377047250465
+      },
+      "size": {
+        "width": 229,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "アンドロイドにおけるアシンクロニズムとは,プログラムの線形流れをフォローすることなく,主操作から独立して実行できる操作を定義する実践である.Androidシステムは,アシンクロノスのプロセスを処理するためにスレッドを使用する.これらのスレッドは,複雑なまたは時間がかかる操作がユーザーインターフェースまたはアプリケーションの他の不可欠な部分に干渉しないように独立して機能する.Androidは,アシンクロノスの作業を実行するためのさまざまなツールを提供する.例えば, `Handler`, `ThreadPoolExecutor`, `IntentService`, `AsyncTask`,および `Loader`など.これらのツールでは,異なるスレッドで作業を実行し,結果を主スレッドに戻す方法を提供します.",
+        "links": [
+          {
+            "title": "アシンクロンなタスク",
+            "url": "https://developer.android.com/guide/background",
+            "type": "official"
+          },
+          {
+            "title": "アシンクロンなタスク実行",
+            "url": "https://medium.com/@cpvasani48/asynchronous-task-execution-in-android-a-guide-with-example-44732744f3b8",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "i_cKmTnGAYw8xpHwZHjAd",
+      "type": "subtopic",
+      "label": "コロータイン",
+      "position": {
+        "x": 541.4645995838063,
+        "y": 1522.7758924094805
+      },
+      "size": {
+        "width": 118,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`Coroutines` は Android で非同期で実行するコードを簡素化するために使用できる同時設計パターンを指します. `Coroutines` は自然で連続的に非同期でブロックするコードを書く方法を提供します. `coroutines` の基本構成要素は,後に停止し再開できる機能である `suspend` 機能です. 非ブロックする非同期コードを書く鍵であり,非同期計算の単一単位を表しています. `coroutines` のこの側面は,メインスレッドをブロックし,アプリケーションが反応しないようにする長期作業を管理するのに役立ちます.",
+        "links": [
+          {
+            "title": "コロータイン",
+            "url": "https://kotlinlang.org/docs/coroutines-overview.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "BeGrA5BDBMZP1Jy7n-wl-",
+      "type": "subtopic",
+      "label": "糸",
+      "position": {
+        "x": 662.4645995838063,
+        "y": 1523.7661110082904
+      },
+      "size": {
+        "width": 109,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Androidでは, `Thread`は同時実行ユニットである.それには独自のコールスタックがあるが,同じプロセスで他のスレッドと状態を共有できる,すなわち同じメモリ領域を共有できる.それらは主にAndroidでバックグラウンドで操作を行うために使用されます.注意すべき重要な側面の一つは,Android UI操作はスレッドセキュアではなく,常にUIスレッドで実行されるべきであるということです. `Threads`の操作は通常は, `Handler`, `Looper`, `MessageQueue`クラスを通じて管理されます.",
+        "links": [
+          {
+            "title": "糸",
+            "url": "https://developer.android.com/guide/components/processes-and-threads",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "zXsNEyRbb8UpEOAUv6FpY",
+      "type": "subtopic",
+      "label": "RxJava",
+      "position": {
+        "x": 541.4645995838063,
+        "y": 1575.7758924094805
+      },
+      "size": {
+        "width": 118,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "RxJava (Reactive Extensions for the JVM) は,Javaで観測可能なシーケンスを使用して非同期およびイベントベースのプログラムを作成するための強力なライブラリです.Android開発者であれば,背景で長期間の操作を実行するためにコールバックとアシンクロタスクを熟知しているかもしれません.しかし,複数のアシンクロタスクとネードされたコールバックを処理すると,読み取りとメンテナンスが難しいコードが生成されます.そのような複雑さを軽減するために,RxJavaは,クリーンと宣言的な方法で観測可能なシーケンスを作成し,変換し,チェーンするツールと方法を提供します.",
+        "links": [
+          {
+            "title": "GitHubでRxJava",
+            "url": "https://github.com/ReactiveX/RxJava",
+            "type": "opensource"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4h37WBpYxRRyw9oH8ge7o",
+      "type": "subtopic",
+      "label": "RxKotlin",
+      "position": {
+        "x": 662.4645995838063,
+        "y": 1576.7661110082904
+      },
+      "size": {
+        "width": 109,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`RxKotlin`は,Android開発のためのJavaの軽量言語拡張機能で,Androidアプリを Kotlin と Reactivex を使用して構築することができます. コトリンに反応式プログラミングパラダイムの力を持ち込み, data ストリームを処理する能力を拡張します. 静態 (例えば,すでに知られている) または動態 (例えば,将来の未知の) のデータストリームを表現し,簡単に様々な操作を実行することができます. `RxKotlin`の主要なコンセプトには Observables, Observers, Schedulersが含まれます. Observables はデータストリームを表し, Observers はデータストリームと相互作用し, Schedulers はどの操作が実行されているかを決定します. RxKotlin は背景作業を管理し,複雑なデータストリーム,および UIs を実行するなど,実行するのに役立ちます.",
+        "links": [
+          {
+            "title": "ReactiveX/RxKotlin - GitHubでRxKotlin",
+            "url": "https://github.com/ReactiveX/RxKotlin",
+            "type": "opensource"
+          }
+        ]
+      }
+    },
+    {
+      "id": "OAb_JD64uGm2tPoue7w6t",
+      "type": "subtopic",
+      "label": "ワークマネージャー",
+      "position": {
+        "x": 541.4645995838063,
+        "y": 1627.84460290515
+      },
+      "size": {
+        "width": 229,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`WorkManager`は,Googleが予測可能で信頼性の高い方法で作業を実行するために導入したAndroidライブラリです.アプリケーションが閉鎖されたり,デバイスが再起動されたりであっても,保証された実行を必要とする作業のために設計されています.API 14 まで後向きに互換性があり,API 23 以上でJobScheduler を使用し,API 14 以上でBroadcastReceiver + AlarmManager を組み合わせて使用しています.デバイス API レベルに関係なく,WorkManager はすべてのAndroid デバイスで動作します.WorkManager では3種類の作業がサポートされています - OneWorkRequest, PeriodicWorkRequest,および DelayedWorkRequest.",
+        "links": [
+          {
+            "title": "ワークマネージャー",
+            "url": "https://developer.android.com/topic/libraries/architecture/workmanager",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ZEdn2yy-IwHN3kOYr2ZbC",
+      "type": "topic",
+      "label": "共通サービス",
+      "position": {
+        "x": 209.56414449780618,
+        "y": 1661.4265444477305
+      },
+      "size": {
+        "width": 229,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "コモンサービスとは,開発者によって使用するためにAndroidシステムによって提供される機能単位またはコンポーネントである.これらのサービスには,ロケーションサービス (デバイスの地理位置を決定するために使用される),通知サービス (ユーザー通知の表示と管理を処理する),センサーサービス (ハードウェアセンサーとの相互作用) などが含まれます.他の一般的なサービスは,ネットワークおよび接続サービス,アカウントマネージャー,データストレージサービスなどです. 開発者は舞台裏の複雑な機能を処理することによって開発プロセスを簡素化し,開発者がアプリケーションの特定のニーズに焦点を当てることができます.",
+        "links": [
+          {
+            "title": "共通サービス",
+            "url": "https://developer.android.com/guide/components/services",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Xv0es_z64vh-QzivMeAT3",
+      "type": "subtopic",
+      "label": "認証",
+      "position": {
+        "x": 223.0349540213482,
+        "y": 1172.1577089522766
+      },
+      "size": {
+        "width": 206,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "AndroidのFirebase Authenticationは,バックエンドサービス,使いやすいSDK,ユーザーをアプリに認証するための UI ライブラリを提供しています.パスワードを使用して認証をサポートします.Google,Facebook,Twitterなどの人気のある連邦認証プロバイダーなど.Firebaseはまた,サインイン,サインアップ,パスワードリセットの機能の統合を容易にします.さらに,役割ベースのデータへのアクセスを実装することによってデータベースをセキュア化し,ユーザーのユニークなアイデンティティに応じて個別化された体験を提供することができます.Firebase Authenticationは認証の2つの方法を提供しています.これらはFirebase AuthenticationまたはGoogleまたはFacebookのような ``連邦認証プロバイダーによって提供される `メール/パスワード`ログインを使用しています.また,カスタムトークンを作成したり,IDトークンを確認したりすることでトークンベースの認証をカバーします.これに加えて,Firebase Authentication は実用的な使用のために Firebase のクライアント SDK と連携し,一部のユーザーにとって長期間のサーバープロセスで動作します.Firebase Authentication は,クラウドストレージとクラウドファイアストア, Firebase Dynamic Links,および Firebase Invites のセキュリティルールを含む,認証を超えた機能の完全なセットを提供します.",
+        "links": [
+          {
+            "title": "ファイアベース認証",
+            "url": "https://firebase.google.com/docs/auth",
+            "type": "official"
+          },
+          {
+            "title": "ファイアベース認証: Android",
+            "url": "https://firebase.google.com/docs/auth/android/start",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "xB4evbD07n1VrHOIpowV4",
+      "type": "subtopic",
+      "label": "クラッシュリティクス",
+      "position": {
+        "x": 223.0349540213482,
+        "y": 1225.1577089522766
+      },
+      "size": {
+        "width": 206,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`Crashlytics`は,アプリの品質を崩す安定性問題を追跡し,優先順位付け,修正するのに役立つ軽量,リアルタイムのクラッシュレポートです. クラッシュに関する迅速かつ正確な情報を提供し,アプリのパフォーマンスについての洞察を得ることができ,アプリがクラッシュしたコードの正確な行列を特定できます. クラッシュリティックスはクラッシュ分析,問題集積,クラッシュにつながったユーザーの活動を追跡する包括的な機能を提供しています. このツールは現在,Googleの `Firebase`プラットフォームの一部ですが,独立した利用することもできます.",
+        "links": [
+          {
+            "title": "クラッシュリティクスドキュメント",
+            "url": "https://firebase.google.com/docs/crashlytics/get-started?platform=android",
+            "type": "official"
+          },
+          {
+            "title": "ファイアベース: クラッシュリチックス",
+            "url": "https://www.youtube.com/watch?v=LhjTAkifr6g",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1Tz-Shj_Tuz2U8llEAcLr",
+      "type": "subtopic",
+      "label": "リモート設定",
+      "position": {
+        "x": 223.0349540213482,
+        "y": 1278.1577089522768
+      },
+      "size": {
+        "width": 206,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Firebase Remote Configは,Firebaseが提供するクラウドサービスです.新しいアプリリリースを必要とせずに,アプリの動作と外観を変更できます.Firebase Remote Config を使用することで,異なるユーザーセグメントのためにアプリをカスタマイズできます.外部からパラメータを変更してアプリの核心側面を管理できます.アプリの改善のためにA/Bテストを行います.アプリの動作と外観を制御するデフォルト値を使用して効率的に動作します.アプリに設定情報が必要な場合,Fireebase Remoteigサーバに要求します.サーバーが更新された値がある場合,これらの値はデフォルト値を置き換え,アプリケーションの動作または外観をニーズに応じて変更します.",
+        "links": [
+          {
+            "title": "リモート設定",
+            "url": "https://firebase.google.com/docs/remote-config/get-started?platform=android",
+            "type": "official"
+          },
+          {
+            "title": "リモート・コンフィギュレーション を 始める",
+            "url": "https://www.youtube.com/watch?v=pcnnbjAAIkI",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "e3vHFaFFMV7kI9q6yf5e9",
+      "type": "subtopic",
+      "label": "クラウドメッセージング",
+      "position": {
+        "x": 223.0349540213482,
+        "y": 1331.1577089522768
+      },
+      "size": {
+        "width": 206,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Firebase Cloud Messaging (FCM) は,あなたのAndroidアプリケーションに信頼性と安全にメッセージを送信できるようにする強力な,バッテリー効率の高いメッセージングサービスです.これは,2種類のメッセージを送信できるようにします. \"通知メッセージ\"と\"データメッセージ\".通知メッセージは主にユーザー通知のために使用され,アプリケーションが前台にある場合にのみ配信されます.一方,データメッセージは,アプリケーションが背景にある場合でも処理することができ,実行され,カスタマイズされたキー値ペアを送信するために使用できます.FCMはまた,共通のテーマに登録した複数のデバイスにメッセージを送信するためのテーマメッセージング,ユーザーデバイスのグループにメッセージを送信するためのデバイスグループメッセージング,クライアントアプリケーションからFCMサーバーに送信するためのアップストリームメッセージングなどのさまざまな追加機能をサポートします.",
+        "links": [
+          {
+            "title": "文書化",
+            "url": "https://firebase.google.com/docs/cloud-messaging/android/client",
+            "type": "official"
+          },
+          {
+            "title": "ファイアベースクラウドメッセージ",
+            "url": "https://www.youtube.com/watch?v=sioEY4tWmLI&list=PLl-K7zZEsYLkuHRCtHTpi6JYHka8oHLft",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3EEfKAd-ppIQpdQSEhbA1",
+      "type": "subtopic",
+      "label": "ファイアストア",
+      "position": {
+        "x": 223.0349540213482,
+        "y": 1384.1577089522768
+      },
+      "size": {
+        "width": 206,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Firestoreは,FirebaseやGoogle Cloudのモバイル,ウェブ,サーバー開発のための柔軟でスケーラブルなデータベースである.Firestoreは,表現的なクエリ,リアルタイム更新,自動的な多地域データ複製などの機能を備えています.他のFirebaseおよびGoogle Cloud製品とのシームレスな統合を提供するように設計されています.クラウドベースのNoSQLデータベースを提供し,データがドキュメントのコレクションとして保存されます.各ドキュメントにはキー値ペアセットが含まれます.Firestoreは持続的なネットワークを保証します.",
+        "links": [
+          {
+            "title": "ファイアストア",
+            "url": "https://firebase.google.com/docs/firestore",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2baqKY9TdQnPS8ydPlXEu",
+      "type": "label",
+      "label": "ファイアベース",
+      "position": {
+        "x": 283.5349540213482,
+        "y": 1435.3087759477473
+      },
+      "size": {
+        "width": 85,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "D4ZXQOKJkyFYNZIy-MJ9Y",
+      "type": "subtopic",
+      "label": "Google アドモブ",
+      "position": {
+        "x": 211.5349540213482,
+        "y": 1483.5309500913381
+      },
+      "size": {
+        "width": 229,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Google AdMob は,アプリ開発者が100万以上のGoogle広告主から広告を表示することでアプリを収益化するために設計されたモバイル広告プラットフォームです. AdMob は,バナー広告,インタースティシャル広告,ビデオ広告など,幅広い広告フォーマットをサポートします. Google Ads Mobile SDK,第三者の広告ネットワーク,およびホーム広告キャンペーンを含む複数のソースから広告を表示できるようにする強力な仲介者を提供します.さらに, AdMob は,ユーザーをよりよく理解し,広告収益を最大化するための分析ツールを提供します.",
+        "links": [
+          {
+            "title": "Google アドモブ",
+            "url": "https://admob.google.com/home/",
+            "type": "official"
+          },
+          {
+            "title": "Google AdMob ドキュメンテーション",
+            "url": "https://admob.google.com/home/get-started/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "m5rumeynEbS8T27pelr0-",
+      "type": "subtopic",
+      "label": "Google Play サービス",
+      "position": {
+        "x": 211.5349540213482,
+        "y": 1536.5309500913381
+      },
+      "size": {
+        "width": 229,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "_Google Play Services_ は,GoogleのAndroidデバイスのための独自の背景サービスとAPIパッケージです.Googleが運営するこのサービスは,Googleサービス認証,同期連絡先,最新のユーザープライバシー設定へのアクセス,および高品質,低電力位置ベースのサービスなどのコア機能を提供します.また,オフライン検索を加速させ,より浸透的な地図を提供し,ゲーム体験を改善します.Google Play Servicesは,Googleが開発していないアプリケーションを含む他のさまざまなアプリケーションの動作において重要な役割を果たします.さらに,オフライン検索を加速させ,より詳細な地図を提供し,ゲーム体験を向上させ,全体的なAndroid体験を改善します.",
+        "links": [
+          {
+            "title": "Google Play サービス",
+            "url": "https://developer.android.com/google/play-services",
+            "type": "official"
+          },
+          {
+            "title": "Google Play サービスドキュメント",
+            "url": "https://developer.android.com/google/play-services/overview.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "S5FVF9rMgVSSDKXJW2GYb",
+      "type": "subtopic",
+      "label": "グーグルマップ",
+      "position": {
+        "x": 211.5349540213482,
+        "y": 1589.5309500913381
+      },
+      "size": {
+        "width": 229,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Google Maps は,Android上で重要なサービスで,強力な,ユーザーフレンドリーなマッピング技術と地元のビジネス情報を提供しています.Google Maps の機能には,ストリートマップ,衛星画像,ストリートの360°パノラマビュー (Street View),リアルタイムトラフィック条件 (Google Traffic),歩行,車,自転車,空中,または公共交通での移動のためのルート計画が含まれます.サービスのインターフェースには,交通密度,公共交通線,サイクリング経路などのさまざまな層を覆う機能が含まれます.Google Maps for Android には,開発者がGoogle Maps サービスの特定の側面をアプリケーションでインターフェースして制御できるようにする API も提供されています.この機能は,Google によって設定された特定の使用制限と要件に準拠します.",
+        "links": [
+          {
+            "title": "グーグルマップ",
+            "url": "https://developers.google.com/maps/documentation/android-sdk/overview",
+            "type": "official"
+          },
+          {
+            "title": "グーグルマップドキュメント",
+            "url": "https://developers.google.com/maps/documentation/android-sdk/intro",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "77F9F3oI5CPgwgM_hxWfa",
+      "type": "topic",
+      "label": "リンティング",
+      "position": {
+        "x": 541.30410704482,
+        "y": 1739.1260426182998
+      },
+      "size": {
+        "width": 182,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`Linting`は,アプリケーションのソースコードを分析して,潜在的なエラー,バグ,スタイリストエラー,および疑わしいコンストラクションを特定するツールです.Lintingという用語は,C言語ソースコードを検証したユニクスユーティリティから来ています.Androidでは,潜在的なJava問題だけでなく,XMLレイアウトファイルもチェックし,ユーザビリティ,パフォーマンス,アクセシビリティに関する問題に関するアラートを提供します.例えば,アプリケーションがクラッシュする要素または他の異常を可能に複製する AndroidManifest.xmlファイルの草案を詳しく調べることができます.",
+        "links": [
+          {
+            "title": "リンティング",
+            "url": "https://developer.android.com/studio/write/lint",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "zMbXQH17Q52opdbitPzj7",
+      "type": "subtopic",
+      "label": "クリント",
+      "position": {
+        "x": 545.0824885942002,
+        "y": 1817.1332359908408
+      },
+      "size": {
+        "width": 81,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`ktlint`は静的コード分析ツールです.高度に一貫したスタイルを強制し, Kotlin の公式のコーディング条約に広範に準拠しています. `ktlint`には,構成オプション (デザインによる) はありません. 唯一の例外は,特定の規則を無効にし,インデントーションサイズを指定します. `ktlint`は,コードをチェックし,自動的に修正することができます. その主な目的は,プロジェクトに統一されたコードスタイルをもたらすことです. コマンドラインにも動作します. 継続的な統合パイプラインに接続できます. また Ant Gradle, Maven 包装機があります. Gradle または Maven をインストールした限り,任意の Android/Kotlin プロジェクトで Kint を使用できます.",
+        "links": [
+          {
+            "title": "クリント",
+            "url": "https://ktlint.github.io/",
+            "type": "official"
+          },
+          {
+            "title": "Ktlint: Kotlin の 静的 コード 解析",
+            "url": "https://github.com/pinterest/ktlint",
+            "type": "opensource"
+          }
+        ]
+      }
+    },
+    {
+      "id": "RUvuCp_JK5MQQT13SSHUV",
+      "type": "subtopic",
+      "label": "検知",
+      "position": {
+        "x": 633.5824885942002,
+        "y": 1817.1332359908408
+      },
+      "size": {
+        "width": 91,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`Detekt` は Kotlin プログラミング言語のための静的コード分析ツールです. Kotlin コンパイラが提供する抽象な構文木で動作し,コマンドラインまたは Gradle ビルドスクリプトのタスクとして実行できます. Detekt は過度に複雑なコードを識別し,それを簡素化するのに役立つ複雑性のレポートを提供します. また,フォーマット,命名条約,例外処理などの問題を含むさまざまな潜在的なバグやコードの匂いをチェックします.さらに, Detekt は高度に構成可能で,プロジェクトのニーズに合わせてチェックの行動を有効にしたり,無効にしたり,変更したりすることができます.",
+        "links": [
+          {
+            "title": "検知",
+            "url": "https://detekt.dev/",
+            "type": "official"
+          },
+          {
+            "title": "検知: Kotlin の 静態 コード 解析",
+            "url": "https://github.com/detekt/detekt",
+            "type": "opensource"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6KbSUAoT_jTudFoIbwMpA",
+      "type": "topic",
+      "label": "デバッグ",
+      "position": {
+        "x": 799.2599844228607,
+        "y": 1949.9848821882983
+      },
+      "size": {
+        "width": 209,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "アンドロイド開発では,コード内のエラーやバグを特定し,修正することが含まれます.いくつかのツールやテクニックを使用してAndroidアプリをデバッグすることができます.例えば,Android Studioは,Android用の主要な統合開発環境 (IDE) である.内蔵のデバッグツールであるAndroid Debug Bridge (ADB) が付属しています.このコマンドラインツールにより,デバイスを通信し,アプリケーションをインストールし,デバッグするなどのさまざまなアクションを実行できます.Android Studioはステップ・バイ・ステップデバッグもサポートしています.",
+        "links": [
+          {
+            "title": "デバッグ",
+            "url": "https://developer.android.com/studio/debug",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "VFOD4JrV8kZ2583G3oT95",
+      "type": "subtopic",
+      "label": "木材",
+      "position": {
+        "x": 801.7599844228607,
+        "y": 1704.1426067976822
+      },
+      "size": {
+        "width": 204,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`Timber`は,Androidの `Log`クラスから特別に拡張されたログインユーティリティツールです.開発者が書くボイラープレートコードの量を削減することを目的としてログインプロセスを簡素化するために構築されています.Android開発者コミュニティの著名な貢献者ジェイク・ワートンによって設計され,維持されています.Timberでは,ログメッセージは次の利用可能なログガーに転送され,手動でログタグを割り当てることの冗長性を軽減します.Timberのシンプルさは,タグを定義せずにログインする能力によって強調されています.最も重要なことは,Timberはデバッグビルドでデバッグメッセージのみをデフォルトでログインし,生産アプリケーション内の潜在的なデータ漏洩を回避します.",
+        "links": [
+          {
+            "title": "GitHubの木材",
+            "url": "https://github.com/JakeWharton/timber",
+            "type": "opensource"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3i4g9ZWgLxKb2UMgRJi4Q",
+      "type": "subtopic",
+      "label": "リーク カナリー",
+      "position": {
+        "x": 801.7599844228607,
+        "y": 1757.1426067976822
+      },
+      "size": {
+        "width": 204,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "LeakCanary は,AndroidとJava用の強力なオープンソースのメモリリーク検出ライブラリです.アプリに統合され,アプリを実行すると,LeakCanary はすぐにメモリリークを追跡し,検出した場合のメモリダンプを捕捉します.調査の後,メモリリークの正確な位置を特定するのに役立つ完全なスタックトラスを提示します.LeakCanary のユーザーフレンドリーなインターフェースを使用して,アプリ内でメモリリークを分析することができます.LeakCanary の最新のバージョンには,アクティビティ,フラグメント,ビュー,ビューモデル,ライブデータなどで漏洩の自動検出などの他の改善が含まれます.",
+        "links": [
+          {
+            "title": "リーク カナリー",
+            "url": "https://square.github.io/leakcanary/",
+            "type": "official"
+          },
+          {
+            "title": "GitHubでLeakCanary",
+            "url": "https://github.com/square/leakcanary",
+            "type": "opensource"
+          }
+        ]
+      }
+    },
+    {
+      "id": "7RKN1FNtRE_BE6QeAQrKb",
+      "type": "subtopic",
+      "label": "チョッカー",
+      "position": {
+        "x": 801.7599844228607,
+        "y": 1810.1426067976822
+      },
+      "size": {
+        "width": 204,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`Chucker` は,Android アプリケーション向けに作成されたオープンソースのデバッグライブラリです.開発者にとって使いやすくて便利なものとして設計されています.このライブラリは,アプリケーション内のすべてのHTTP要求と応答を傍受し記録します.このライブラリは,理解しやすく読みやすいフォーマットでこの情報を視覚化し共有するのに役立ちます.Chuckerの特徴を使用して,アプリケーションから直接入出するHTTPおよびHTTPSトラフィックをすべて確認できます.さらに,サーバーの原始応答を見るためのユーザーフレンドリーなインターフェースなどの優れた機能を提供します.デバッグツールに組み込みネットワークインスペクタがあるように,ネットワーク関連の問題をより効率的に解決することができます.",
+        "links": [
+          {
+            "title": "ChuckerTeam/chucker - GitHubでチャッカー",
+            "url": "https://github.com/ChuckerTeam/chucker",
+            "type": "opensource"
+          },
+          {
+            "title": "チャッカーによるネットワークトラフィック検査",
+            "url": "https://medium.com/tech-takeaways/simple-android-network-traffic-inspection-with-chucker-and-seismic-1e6162c51f64",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ACUJlDDR0jqEohsFzWEoQ",
+      "type": "subtopic",
+      "label": "ジェットパックベンチマーク",
+      "position": {
+        "x": 801.7599844228607,
+        "y": 1863.1426067976822
+      },
+      "size": {
+        "width": 204,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ジェットパックベンチマークは,Android Jetpack Suite内のライブラリで,開発者がアプリのパフォーマンスを迅速かつ正確に測定できるようにします.このライブラリーは,AndroidアプリのCPU,メモリ,IOパフォーマンスを測定するのに役立ちます.開発者はコードを `BenchmarkRule.measureRepeated {}`に包んでベンチマークする特定のコード経路を定義することができます.さらに,自動的にウォーミングを処理し,コードパフォーマンスを測定し,Android Studioのログキャットにベンチマーク結果を出します.",
+        "links": [
+          {
+            "title": "ジェットパックベンチマーク",
+            "url": "https://developer.android.com/studio/profile/benchmark",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ZOQm5OlzCA-h_yxywwDrW",
+      "type": "topic",
+      "label": "テスト",
+      "position": {
+        "x": 210.5417587642338,
+        "y": 1817.1332359908408
+      },
+      "size": {
+        "width": 225,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "**テスト**はアプリ開発プロセスの重要な部分である.アプリをPlay Storeに展開する前にアプリの機能性,性能,可用性,一貫性を検証する.特に使用されるテスト方法は2種類である. **Unit testing**と **Instrumentation Testing**.Unit testingは,名前が示すように,コードの各ユニットまたはセグメントを別々にテストする.Androidの依存性が必要ないため,より速く動作する.",
+        "links": [
+          {
+            "title": "テスト",
+            "url": "https://developer.android.com/training/testing",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "-ONSC-ImGSELbamKmjIlH",
+      "type": "subtopic",
+      "label": "エスプレッソ",
+      "position": {
+        "x": 207.52041671512893,
+        "y": 1735.207699761579
+      },
+      "size": {
+        "width": 118,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "エスプレッソは,AndroidアプリケーションのためのUIテストを作成するためにAndroidが提供するテストフレームワークです.アプリケーションのUIとテストアクションを自動的に同期し,必要なUI活動の完了後のみテストが実行されることを保証します.エスプレッソでは,ボタンをクリックしたり,テキストを入力したり,スクリーンをスライップしたりなどのユーザーインタラクションをプログラム的にシミュレートし,その後 UIの状態を確認して,それが予想通りであることを確認できます.エスプレッソテストはAndroid 4.3 (APIレベル 18) またはそれ以上のデバイスで実行できます.",
+        "links": [
+          {
+            "title": "エスプレッソ",
+            "url": "https://developer.android.com/training/testing/espresso",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "gvGAwjk_nhEgxzZ_c3f6b",
+      "type": "subtopic",
+      "label": "ユニット",
+      "position": {
+        "x": 328.52041671512893,
+        "y": 1735.207699761579
+      },
+      "size": {
+        "width": 107,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "JUnitはJavaプログラミングのための人気のあるテストフレームワークである.このフレームワークはAndroidエコシステム内の多くのテストライブラリやツールに基礎を置くため,Android開発者にとって熟知することが重要です.JUnitの基本的な使用には,単一のテストケースを表す方法を示す記号が含まれます.他の有用な機能は,設定および脱落プロセスを明確に定義することを可能にする `@Before`と `@Afterです.JUnitのもう一つの強力な機能は,パラメータ化されたテストを作成し,異なる入力で効果的に同じテストを複数回実行する能力です.",
+        "links": [
+          {
+            "title": "文書化",
+            "url": "https://developer.android.com/training/testing/local-tests",
+            "type": "official"
+          },
+          {
+            "title": "アンドロイド用のユニット",
+            "url": "https://www.youtube.com/watch?v=jE1vQGVHaQA",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "kc6buUsLAeZeUb4Tk0apM",
+      "type": "topic",
+      "label": "配分",
+      "position": {
+        "x": 603.2670925742796,
+        "y": 2089.695020171181
+      },
+      "size": {
+        "width": 182,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "アンドロイドでの配布は,Androidアプリケーションをユーザーの手に入れる方法やチャネルを指します.Androidオペレーティングシステムの公式アプリストアであるGoogle Play Storeでアプリを配布することを選択できます.このプラットフォームは,世界中のさまざまな国のユーザーにアプリを利用できるようにします.さらに,他の第三者のアプリストアまたは独自のウェブサイトを通じてアプリを配布することも選択できます.さらに,Googleは,国のターゲット,デバイスターゲット,段階的なロールアウトなどの配分オプションを提供します.あなたの配布戦略に応じてカスタマイズすることができます.",
+        "links": [
+          {
+            "title": "Google Play 開発者配布",
+            "url": "https://developer.android.com/distribute",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "T7q_quNaIAuGi96OdnDT1",
+      "type": "subtopic",
+      "label": "ファイアベース配分",
+      "position": {
+        "x": 878.3250908204957,
+        "y": 2057.3464333036
+      },
+      "size": {
+        "width": 206,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Firebase ディストリビューションは,Androidアプリのプレリリースのバージョンを開発チームと共有できるようにするGoogleファイアベース・スイート内の開発ツールです.アプリの公式発売前に複数のテストとチームにアプリバイナリーを配布し,フィードバックを得ることができます.Fireebase ディストリビューションはAndroidとiOSアプリケーションの両方をサポートし,ファイアベースクラッシュリティクスなどの他の機能とともに機能し,アプリケーションのライフサイクルのテストとデバッグの側面を効果的に管理します.",
+        "links": [
+          {
+            "title": "ファイアベース配分",
+            "url": "https://firebase.google.com/docs/app-distribution",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "HgRdgi2Hu4C8YLG5PXfoo",
+      "type": "subtopic",
+      "label": "グーグルプレイストア",
+      "position": {
+        "x": 878.3250908204957,
+        "y": 2111.3464333036
+      },
+      "size": {
+        "width": 208,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "**Google Play Store**はAndroidアプリおよびその他のデジタルメディアコンテンツの公式配信チャンネルです.Googleによって開発され運営されているグローバルオンラインソフトウェアストアです.開発者はGoogle Play コンソールを通じてアプリケーションをGoogle Playに送信します.Google Playの自動化されたシステムは,Google Play Storeで公開される前に,潜在的に悪意のあるコードとコンテンツ違反をスキャンします.ユーザーはAndroidデバイスまたはウェブを通じてこれらのアプリケーションをブラウズし,ダウンロードし,使用することができます.Google Play コンソールを通じて購入,ダウンロード,ユーザーフィードバックを追跡することができます.Androidデバイスの所有者は,店舗からインストールしたアプリケーションの自動更新を設定することもできます.このプラットフォームは複数の言語と複数の支払い方法をサポートし,アクセス可能で顧客フレンドリーになります.",
+        "links": [
+          {
+            "title": "Google Play ストア",
+            "url": "https://play.google.com/store",
+            "type": "official"
+          },
+          {
+            "title": "Google Play ストアドキュメント",
+            "url": "https://developer.android.com/distribute/googleplay",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "_FSlD_qTz5Xo0x3pB6sZI",
+      "type": "subtopic",
+      "label": "署名されたAPK",
+      "position": {
+        "x": 347.5641444978062,
+        "y": 2089.695020171181
+      },
+      "size": {
+        "width": 162,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "** サインされたAPK**は,Play Storeまたは他のAndroid市場での配布のために準備するアプリのバージョンです.プライベートキーを使用してアプリをサインすると,アプリの開発者としてのアイデンティティを認証します.これはAndroidシステムの必須のステップで,オリジナルの開発者からのAPKの更新のみが受け入れられることを保証します.Androidシステムは適切にサインされていない場合,アプリをインストールすることを拒否し,それによってユーザーを潜在的なセキュリティリスクから保護します.",
+        "links": [
+          {
+            "title": "アップをサインする",
+            "url": "https://developer.android.com/studio/publish/app-signing",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Wf9BM0COudf-Wz_ieKqr7",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": 1086.3250908204957,
+        "y": 2057.3464333036
+      },
+      "size": {
+        "width": 21,
+        "height": 103
+      },
+      "style": {
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "FS7mpWrs6zdFRAAsegcyA",
+      "type": "label",
+      "label": "配布方法",
+      "position": {
+        "x": 1106.297678604876,
+        "y": 2090.8464333036
+      },
+      "size": {
+        "width": 153,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "Ju00mr0KLGN2BV6yEQGPt",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": 683.4983518244453,
+        "y": 2309.544858179337
+      },
+      "size": {
+        "width": 21,
+        "height": 104
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#4136D4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "4_e76QafrB419S2INOeKd",
+      "type": "topic",
+      "label": "インターフェイスとナビゲーション",
+      "position": {
+        "x": 855.9237456884,
+        "y": 873.1993520650623
+      },
+      "size": {
+        "width": 224,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Android開発では\",インターフェイス\"と\"ナビゲーション\"の概念が極めて重要です. \"インターフェイス\"は,ユーザーがインタラクションするグラフィックユーザーインターフェイス (GUI) を指します.これにはボタン,テキストフィールド,画像ビュー,スクロールビューおよびユーザーが特定のタスクを実行するためにインタラクションできる他のUI要素が含まれます.XMLやマテリアルデザインのようなツールがAndroidのインターフェイスデザインに使用されます.",
+        "links": [
+          {
+            "title": "Android開発者:インターフェイス",
+            "url": "https://developer.android.com/guide/topics/ui/declaring-layout.html",
+            "type": "official"
+          },
+          {
+            "title": "アンドロイド開発者:ナビゲーション",
+            "url": "https://developer.android.com/guide/navigation",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "RKIW9hDrCd03Bf3djoJvp",
+      "type": "paragraph",
+      "label": "デザイン パターン",
+      "position": {
+        "x": 1047.0688147107603,
+        "y": 1339.8965401994208
+      },
+      "size": {
+        "width": 215,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "borderColor": "#000000",
+        "backgroundColor": "#ffffff",
+        "color": "#000000",
+        "justifyContent": "center",
+        "padding": 16,
+        "textAlign": "center"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "d1G8QZ82y7ez7rLskMZiv",
+      "type": "paragraph",
+      "label": "建築のパターン",
+      "position": {
+        "x": 1047.0688147107603,
+        "y": 1174.6339633778666
+      },
+      "size": {
+        "width": 217,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "borderColor": "#000000",
+        "backgroundColor": "#ffffff",
+        "color": "#000000",
+        "justifyContent": "center",
+        "padding": 16,
+        "textAlign": "center"
+      },
+      "z_index": 999
+    }
+  ],
+  "edges": [
+    {
+      "id": "XX0I26JoVMVXIe_7bVMix",
+      "source": "iogwMmOvub2ZF4zgg6WyF",
+      "target": "_hYN0gEi9BL24nptEtXWU",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "dFn6kGOoJ-0BzJJEb9DSG",
+      "source": "_hYN0gEi9BL24nptEtXWU",
+      "target": "idLHBxhvcIqZTqmh_E8Az",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "arkF7QJJRbCBYWp0crqa2",
+      "source": "_hYN0gEi9BL24nptEtXWU",
+      "target": "os3Pa6W9SSNEzgmlBbglQ",
+      "source_handle": "z2",
+      "target_handle": "y2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "HNVw8OboycWKLEtEbG2bn",
+      "source": "_hYN0gEi9BL24nptEtXWU",
+      "target": "3oInpqvTSSC5_K6i7j8N7",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "auB7Png72XjmhcLr3IJA7",
+      "source": "_hYN0gEi9BL24nptEtXWU",
+      "target": "YKhuRbcUFzo0hTvuTq-Yl",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "2aoDIr80lXSJLW1hIGUkb",
+      "source": "jZ67HhVRelJaxjsCckSSI",
+      "target": "hWA7RtuqltMTmHdcCnmES",
+      "source_handle": "x2",
+      "target_handle": "y1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "m-_y7nLeYFkUKGiacxWA0",
+      "source": "",
+      "target": "NMznG9mo2wzNFnjhg990f",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "G7pXuJfkyt2nWAOHU8yV0",
+      "source": "",
+      "target": "gc_7cuIO2_joKlQRAPDfX",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "2_6Yz3-Agx9_rEN5xW86c",
+      "source": "rrrvATyhXqRgJGWI3z0WF",
+      "target": "AvbMQ5vY3ip1oX_6Yq4ie",
+      "source_handle": "x2",
+      "target_handle": "w2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "kgMI98fg2-mKMgUs0wnjD",
+      "source": "hWA7RtuqltMTmHdcCnmES",
+      "target": "1AJv95mTLpR7L8KBoGym8",
+      "source_handle": "w2",
+      "target_handle": "x1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "ts38Q2ceHs60TJscUBZVE",
+      "source": "hWA7RtuqltMTmHdcCnmES",
+      "target": "0etAs56EeBfh_0IlAaSra",
+      "source_handle": "y2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "ZiMV7umyPdhy3JJDcopR-",
+      "source": "jZ67HhVRelJaxjsCckSSI",
+      "target": "h6ceO0kiBIxNRkPzN3hBY",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "WI-MhbxrehFcVwyGJ5CQJ",
+      "source": "jZ67HhVRelJaxjsCckSSI",
+      "target": "_JlT9oKQ6Yu4UX6l19G8P",
+      "source_handle": "y2",
+      "target_handle": "z2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "qUrLBzvXvJOg53HBfjrOI",
+      "source": "_hYN0gEi9BL24nptEtXWU",
+      "target": "jZ67HhVRelJaxjsCckSSI",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-5Z9o-b3vBA-ITFg86zzYMx2-Suws-7f_6Z1ChpfcnxX2Mw1",
+      "source": "5Z9o-b3vBA-ITFg86zzYM",
+      "target": "Suws-7f_6Z1ChpfcnxX2M",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-Suws-7f_6Z1ChpfcnxX2Mz2-qIzUv8-GgQnkqChEdgD50y1",
+      "source": "Suws-7f_6Z1ChpfcnxX2M",
+      "target": "qIzUv8-GgQnkqChEdgD50",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-Suws-7f_6Z1ChpfcnxX2Mz2-RBABbkzD_uNFwEO-hssZOy2",
+      "source": "Suws-7f_6Z1ChpfcnxX2M",
+      "target": "RBABbkzD_uNFwEO-hssZO",
+      "source_handle": "z2",
+      "target_handle": "y2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-Suws-7f_6Z1ChpfcnxX2Mx2-HlUUGj3dOZ68t4gIjerXhw1",
+      "source": "Suws-7f_6Z1ChpfcnxX2M",
+      "target": "HlUUGj3dOZ68t4gIjerXh",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-HlUUGj3dOZ68t4gIjerXhy2-ZRGsokU313Ky-anWbWK6qz1",
+      "source": "HlUUGj3dOZ68t4gIjerXh",
+      "target": "ZRGsokU313Ky-anWbWK6q",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-HlUUGj3dOZ68t4gIjerXhy2-jl1FsQ5-WGKeFyaILNt_pz1",
+      "source": "HlUUGj3dOZ68t4gIjerXh",
+      "target": "jl1FsQ5-WGKeFyaILNt_p",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-HlUUGj3dOZ68t4gIjerXhy2-j69erqfosSZMDlmKcnnn0z1",
+      "source": "HlUUGj3dOZ68t4gIjerXh",
+      "target": "j69erqfosSZMDlmKcnnn0",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-HlUUGj3dOZ68t4gIjerXhy2-cNeT1dJDfgn0ndPzSxhSLz1",
+      "source": "HlUUGj3dOZ68t4gIjerXh",
+      "target": "cNeT1dJDfgn0ndPzSxhSL",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-HlUUGj3dOZ68t4gIjerXhy2-FVxNjbDBxgf6vkZWw1Awtz1",
+      "source": "HlUUGj3dOZ68t4gIjerXh",
+      "target": "FVxNjbDBxgf6vkZWw1Awt",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-HlUUGj3dOZ68t4gIjerXhy2-5m_7DvInF8C_4Ml1xVI6Lz1",
+      "source": "HlUUGj3dOZ68t4gIjerXh",
+      "target": "5m_7DvInF8C_4Ml1xVI6L",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-HlUUGj3dOZ68t4gIjerXhz2-5s1CqsYCOXjNroDHaGKGay1",
+      "source": "HlUUGj3dOZ68t4gIjerXh",
+      "target": "5s1CqsYCOXjNroDHaGKGa",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-5s1CqsYCOXjNroDHaGKGay2-4_e76QafrB419S2INOeKdw2",
+      "source": "5s1CqsYCOXjNroDHaGKGa",
+      "target": "5Li8J5iR_ZuyIlxX0LYei",
+      "source_handle": "y2",
+      "target_handle": "w2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-kc6buUsLAeZeUb4Tk0apMz2-HgRdgi2Hu4C8YLG5PXfooy1",
+      "source": "kc6buUsLAeZeUb4Tk0apM",
+      "target": "HgRdgi2Hu4C8YLG5PXfoo",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-kc6buUsLAeZeUb4Tk0apMz2-T7q_quNaIAuGi96OdnDT1y2",
+      "source": "kc6buUsLAeZeUb4Tk0apM",
+      "target": "T7q_quNaIAuGi96OdnDT1",
+      "source_handle": "z2",
+      "target_handle": "y2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-5Li8J5iR_ZuyIlxX0LYeix2-4_e76QafrB419S2INOeKdw1",
+      "source": "5Li8J5iR_ZuyIlxX0LYei",
+      "target": "4_e76QafrB419S2INOeKd",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-5Li8J5iR_ZuyIlxX0LYeiy2-nwuVlPmzwJ17mtVQ8Hi9wz1",
+      "source": "5Li8J5iR_ZuyIlxX0LYei",
+      "target": "nwuVlPmzwJ17mtVQ8Hi9w",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-4_e76QafrB419S2INOeKdz2-60Vm-77rseUqpMiFvp-dAx1",
+      "source": "4_e76QafrB419S2INOeKd",
+      "target": "60Vm-77rseUqpMiFvp-dA",
+      "source_handle": "z2",
+      "target_handle": "x1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-4_e76QafrB419S2INOeKdz2-xV475jHTlLuHtpHZeXb7Pw1",
+      "source": "4_e76QafrB419S2INOeKd",
+      "target": "xV475jHTlLuHtpHZeXb7P",
+      "source_handle": "z2",
+      "target_handle": "w1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-4_e76QafrB419S2INOeKdx2-jePGzTejFe4ryA5qFFmjlw2",
+      "source": "4_e76QafrB419S2INOeKd",
+      "target": "jePGzTejFe4ryA5qFFmjl",
+      "source_handle": "x2",
+      "target_handle": "w2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-jePGzTejFe4ryA5qFFmjlz2-d1G8QZ82y7ez7rLskMZivw2",
+      "source": "jePGzTejFe4ryA5qFFmjl",
+      "target": "d1G8QZ82y7ez7rLskMZiv",
+      "source_handle": "z2",
+      "target_handle": "w2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-0fNQWRxst8xRstIfPaPO6y2-PKql1HY0PLMfp50FRELXLz1",
+      "source": "0fNQWRxst8xRstIfPaPO6",
+      "target": "PKql1HY0PLMfp50FRELXL",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-0fNQWRxst8xRstIfPaPO6y2-GWq3s1iTxQOp1BstHscJ9z1",
+      "source": "0fNQWRxst8xRstIfPaPO6",
+      "target": "GWq3s1iTxQOp1BstHscJ9",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-0fNQWRxst8xRstIfPaPO6y2-Bfg4So5RlI09zFNcburJdz1",
+      "source": "0fNQWRxst8xRstIfPaPO6",
+      "target": "Bfg4So5RlI09zFNcburJd",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-0fNQWRxst8xRstIfPaPO6y2-A4kdaj6AFueUgPI7hwKi5z1",
+      "source": "0fNQWRxst8xRstIfPaPO6",
+      "target": "A4kdaj6AFueUgPI7hwKi5",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-Yb6aKJMMCxU1QVltWg3Dry2-cFYZ2C7yNnY6NHKUNP2Z4z2",
+      "source": "Yb6aKJMMCxU1QVltWg3Dr",
+      "target": "cFYZ2C7yNnY6NHKUNP2Z4",
+      "source_handle": "y2",
+      "target_handle": "z2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-cFYZ2C7yNnY6NHKUNP2Z4y2-ZEdn2yy-IwHN3kOYr2ZbCz1",
+      "source": "cFYZ2C7yNnY6NHKUNP2Z4",
+      "target": "ZEdn2yy-IwHN3kOYr2ZbC",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-ZEdn2yy-IwHN3kOYr2ZbCz2-77F9F3oI5CPgwgM_hxWfay1",
+      "source": "ZEdn2yy-IwHN3kOYr2ZbC",
+      "target": "77F9F3oI5CPgwgM_hxWfa",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-77F9F3oI5CPgwgM_hxWfay2-ZOQm5OlzCA-h_yxywwDrWz1",
+      "source": "77F9F3oI5CPgwgM_hxWfa",
+      "target": "ZOQm5OlzCA-h_yxywwDrW",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-ZOQm5OlzCA-h_yxywwDrWx2-6KbSUAoT_jTudFoIbwMpAy1",
+      "source": "ZOQm5OlzCA-h_yxywwDrW",
+      "target": "6KbSUAoT_jTudFoIbwMpA",
+      "source_handle": "x2",
+      "target_handle": "y1",
+      "edge_style": "solid",
+      "line_type": "step",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-6KbSUAoT_jTudFoIbwMpAy2-kc6buUsLAeZeUb4Tk0apMw2",
+      "source": "6KbSUAoT_jTudFoIbwMpA",
+      "target": "kc6buUsLAeZeUb4Tk0apM",
+      "source_handle": "y2",
+      "target_handle": "w2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-6KbSUAoT_jTudFoIbwMpAw2-ACUJlDDR0jqEohsFzWEoQx1",
+      "source": "6KbSUAoT_jTudFoIbwMpA",
+      "target": "ACUJlDDR0jqEohsFzWEoQ",
+      "source_handle": "w2",
+      "target_handle": "x1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-kc6buUsLAeZeUb4Tk0apMy2-_FSlD_qTz5Xo0x3pB6sZIz2",
+      "source": "kc6buUsLAeZeUb4Tk0apM",
+      "target": "_FSlD_qTz5Xo0x3pB6sZI",
+      "source_handle": "y2",
+      "target_handle": "z2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    }
+  ],
+  "content_crawled_at": "2026-04-06T08:38:49.093410+00:00"
+}

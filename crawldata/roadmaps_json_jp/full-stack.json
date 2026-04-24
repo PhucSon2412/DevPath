@@ -1,0 +1,2488 @@
+{
+  "id": "full-stack",
+  "title": "フルスタック",
+  "source_url": "https://roadmap.sh/full-stack",
+  "github_url": "https://github.com/kamranahmedse/developer-roadmap/tree/master/src/data/roadmaps/full-stack",
+  "crawled_at": "2026-04-06T07:36:58.006730+00:00",
+  "type": "flow",
+  "stats": {
+    "total_nodes": 68,
+    "total_edges": 20,
+    "nodes_with_content": 37
+  },
+  "node_types": [
+    "button",
+    "horizontal",
+    "label",
+    "paragraph",
+    "section",
+    "subtopic",
+    "title",
+    "topic",
+    "vertical"
+  ],
+  "edge_styles": [
+    "solid"
+  ],
+  "edge_line_types": [
+    "default",
+    "smoothstep"
+  ],
+  "node_type_description": {
+    "title": "ロードマップの主題",
+    "topic": "主題大 (nhóm kỹ năng)",
+    "subtopic": "Kỹ năng/công nghệ cụ thể cần học",
+    "paragraph": "文は mô tả / chú thích",
+    "vertical": "Đường kết nối dọc (ビジュアルコネクタ)"
+  },
+  "edge_style_description": {
+    "solid": "Kỹ năng bắt buộc / quan trọng",
+    "dashed": "選択 / gợi ý / オルタナティブ"
+  },
+  "nodes": [
+    {
+      "id": "yrZUjoNj7mjOHaZVRiFJV",
+      "type": "horizontal",
+      "label": "ホリゾントノード",
+      "position": {
+        "x": -502.08230823147517,
+        "y": 497.90458777290166
+      },
+      "size": {
+        "width": 63,
+        "height": 20
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "kPPgIGhyoDoJoUJnP-vOY",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": 44.659212053078704,
+        "y": -125.50228984395414
+      },
+      "size": {
+        "width": 356,
+        "height": 103
+      },
+      "style": {
+        "width": 150,
+        "height": 100,
+        "fontSize": 17,
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "tmRyxL2cIei7PVHdOvmuJ",
+      "type": "horizontal",
+      "label": "ホリゾントノード",
+      "position": {
+        "x": 253.00948964805815,
+        "y": 1215.2210153640276
+      },
+      "size": {
+        "width": 85,
+        "height": 20
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "Ju00mr0KLGN2BV6yEQGPt",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": -45.86972326342038,
+        "y": 1834.052389726952
+      },
+      "size": {
+        "width": 21,
+        "height": 104
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#4136D4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "iogwMmOvub2ZF4zgg6WyF",
+      "type": "title",
+      "label": "フルスタック",
+      "position": {
+        "x": -584.5823082314752,
+        "y": -192.89091544360696
+      },
+      "size": {
+        "width": 162,
+        "height": 68
+      },
+      "style": {
+        "fontSize": 28,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "LEijbLyxg4RyutKEM2Y5g",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": -514.0823082314752,
+        "y": -273.89091544360696
+      },
+      "size": {
+        "width": 21,
+        "height": 81
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#0A33FF"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "B0kARTODvCBi0iOF8iiqI",
+      "type": "topic",
+      "label": "HTML",
+      "position": {
+        "x": -395.56446376179997,
+        "y": 43.404587772901664
+      },
+      "size": {
+        "width": 105,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "HTMLはHyperText Markup Language (ハイパーテキストマークアップ言語) を意味する.これはフロントエンドで使用され,CSSを使用してスタイリングし,JavaScriptを使用してインタラクティブなウェブページに構造を与えます.",
+        "links": [
+          {
+            "title": "専用 HTML ロードマップ を 閲覧 する",
+            "url": "https://roadmap.sh/html",
+            "type": "roadmap"
+          },
+          {
+            "title": "HTML 完全 コース 初心者向け",
+            "url": "https://youtu.be/mJgBOIoGihA",
+            "type": "video"
+          },
+          {
+            "title": "HTML 完全コース - ウェブサイト チュートリアル",
+            "url": "https://www.youtube.com/watch?v=pQN-pnXPaVg",
+            "type": "video"
+          },
+          {
+            "title": "HTMLに関するトップ記事を探索する",
+            "url": "https://app.daily.dev/tags/html?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dAJHWmGeiYdzZ1ZjrWz1S",
+      "type": "topic",
+      "label": "CSS",
+      "position": {
+        "x": -251.56446376179997,
+        "y": 43.404587772901664
+      },
+      "size": {
+        "width": 101,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "CSS (Cascading Style Sheets) は,あらゆるウェブサイトのフロントエンドのスタイルに使用される言語である.CSSは,HTMLとJavaScriptとともに,Word Wide Webの基石技術である.",
+        "links": [
+          {
+            "title": "専用CSSロードマップ",
+            "url": "https://roadmap.sh/css",
+            "type": "roadmap"
+          },
+          {
+            "title": "Google の Web.dev  CSS を学ぶ",
+            "url": "https://web.dev/learn/css/",
+            "type": "article"
+          },
+          {
+            "title": "CSS: カスケードスタイルシート MDN",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/CSS",
+            "type": "article"
+          },
+          {
+            "title": "CSS コンプリートコース",
+            "url": "https://youtu.be/n4R2E7O-Ngo",
+            "type": "video"
+          },
+          {
+            "title": "HTML と CSS チュートリアル",
+            "url": "https://www.youtube.com/watch?v=D-h8L5hgW-w",
+            "type": "video"
+          },
+          {
+            "title": "CSSに関するトップ記事を探索する",
+            "url": "https://app.daily.dev/tags/css?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "T9PB6WQf-Fa9NXKKvVOy_",
+      "type": "topic",
+      "label": "ジャワスクリプト",
+      "position": {
+        "x": 28.00948964805815,
+        "y": 43.404587772901664
+      },
+      "size": {
+        "width": 125,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "JavaScript は ページ に インタラクティビティ を 追加 する こと を 許可 し て い ます.Web サイト で 見 た の は スライダー,クリック インタラクション,ポップ アップ など です.",
+        "links": [
+          {
+            "title": "専用 JavaScript ロードマップ を 訪問する",
+            "url": "https://roadmap.sh/javascript",
+            "type": "roadmap"
+          },
+          {
+            "title": "現代のジャワスクリプト チュートリアル",
+            "url": "https://javascript.info/",
+            "type": "article"
+          },
+          {
+            "title": "30日間で 30 つのJavaScript プロジェクトを作成する",
+            "url": "https://javascript30.com/",
+            "type": "article"
+          },
+          {
+            "title": "初心者 の ため の JavaScript クラッシュ コース",
+            "url": "https://youtu.be/hdI2bqOjy3c?t=2",
+            "type": "video"
+          },
+          {
+            "title": "JavaScriptに関するトップ記事を探索する",
+            "url": "https://app.daily.dev/tags/javascript?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mGgx_QTEPmVKf6AijX9fi",
+      "type": "topic",
+      "label": "npm",
+      "position": {
+        "x": 298.1821043313223,
+        "y": 133.40458777290166
+      },
+      "size": {
+        "width": 101,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "npmは,npm, Inc.が管理するJavaScriptプログラミング言語のパッケージマネージャーである.npmはJavaScriptランタイム環境のデフォルトパッケージマネージャーであるNode.js.",
+        "links": [
+          {
+            "title": "NPMの方法",
+            "url": "https://github.com/workshopper/how-to-npm",
+            "type": "opensource"
+          },
+          {
+            "title": "恐竜のための現代のJavaScript",
+            "url": "https://peterxjang.com/blog/modern-javascript-explained-for-dinosaurs.html",
+            "type": "article"
+          },
+          {
+            "title": "npm の 使い方 に 関する 絶対 の 初心 者 の ガイド",
+            "url": "https://nodesource.com/blog/an-absolute-beginners-guide-to-using-npm/",
+            "type": "article"
+          },
+          {
+            "title": "初心者向けNPMチュートリアル",
+            "url": "https://www.youtube.com/watch?v=2V1UUhBJ62Y",
+            "type": "video"
+          },
+          {
+            "title": "NPM クラッシュコース",
+            "url": "https://www.youtube.com/watch?v=jHDhaSSKmB0",
+            "type": "video"
+          },
+          {
+            "title": "NPMに関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/npm?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "WsdUAEaI7FX6DKKhPXUHp",
+      "type": "subtopic",
+      "label": "チェックポイント - 静止ウェブページ",
+      "position": {
+        "x": -351.97806963137555,
+        "y": 133.40458777290166
+      },
+      "size": {
+        "width": 291,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center",
+        "colorType": "a"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "HTML と CSS を 習った の で,静止 な ウェブ ページ を 構築 する こと が でき ます.学習 を 強化 する ため,ロードマップ の 黄色の 段階 に できるだけ 多く の テスト プロジェクト を 構築 する こと を お勧め し て い ます.私が 学習 し た 時 に 従っ た 慣習 は 次 の よう です: * コース を 見 て いる 時 や 本 を 読み て いる 時,インストラクター/著者 と 一緒 に コード する こと を 確認 し て ください. 定期 的 な 間隔 で ビデオ を 停止 し,教え られ て いる 内容 を コード する こと を 確認 し て ください.* YouTube で 検索 し,学習 する テーマ に つい て プロジェクト ベースの チュートリアル を 見 て い ます. インストラクター と 一緒 に コード する こと に は なく: * インストラクター と 一緒 に コード する こと に は なく,同じ プロジェクト を 自分 で 少なくとも 2 から 3 回 作り て ください.ビデオ を 見 なけれ ば なら,インストラクター が その 部分 を 構築 する ビデオ の セクション に 参照してください.プロジェクトアイディア (Project Ideas) ------------- HTML と CSS を学んだので,いくつかアイデアを紹介します. *好きなウェブサイトのデザインをコピーしてみてください.* [Figma.com/file/nh0V05z3NB87ue9v5PcO3R/writings.dev?type=design&node-id=0%3A1&t=2iQplaIojU3AfW-1) をコピーしてみてください.* または [このウェブサイトのウェブページを再構築してみてください]https://www.figma.com/file/nh0V05z3NB87ue9v5PcO3R/writings.dev?type=design&node-id=0%3A1&t=2iQplaIojU3AfW-1) をコピーしてみてください.",
+        "links": []
+      }
+    },
+    {
+      "id": "arAWBttFmMY6g99PcEaeA",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": -117.38142186176219,
+        "y": 69.40458777290166
+      },
+      "size": {
+        "width": 21,
+        "height": 64
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "2DFzoIUjKdAKGjfu_SCfa",
+      "type": "subtopic",
+      "label": "チェックポイント - 互動性",
+      "position": {
+        "x": -23.99051035194185,
+        "y": 133.40458777290166
+      },
+      "size": {
+        "width": 287,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center",
+        "colorType": "a"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "この時点で,JavaScriptを使用してウェブページにインタラクティビティを追加できるはずです.以下のことを学びました. *変数,ループ,データタイプ,条件,機能について知っておきましょう.*マレイやオブジェクト,およびそのデータにアクセスするためのさまざまな方法について知っておきましょう.*DOM要素を選択する方法を知ってください.*DOM要素にイベントリスナーを追加します (例えば,クリック,フォーカス,フォーム提出).*DOM要素を追加して削除するにはJavaScriptを使用してください *DOM要素からクラスを追加して削除してください *外部APIへのHTTPリクエストを作成するためにJavaScriptを使用してください (すなわち,```) *ブラウザーのローカルストレージにデータを保存するためにJavaScriptを使用します あなたのスキルを活用するためのいくつかのアイデアがあります: *ユーザが検索,追加,練習,削除するアイテムを可能にする簡単なタスクリストアプリを作成してください.データを保存するためにローカルストレージを使用します.* ユーザが誰かのGitHubユーザー名を入力し,プロフィール情報を表示できる簡単なウェブページを作成します.データを取得するためにGitHubのAPIを使用できます.例えば,ここは [データを取得するためのサンプルURL]https://api.github.com/users/kamranahmedse).検証とエラー処理を追加することを確認してください.* 基本的な算数操作を行うことができる基本的な計算機アプリを作成します.",
+        "links": []
+      }
+    },
+    {
+      "id": "CVVeXklBu8uEr7oyiSEhQ",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": 191.6185781382378,
+        "y": 71.40458777290166
+      },
+      "size": {
+        "width": 21,
+        "height": 62
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "We2APJpOPTr-VNfowG0kI",
+      "type": "topic",
+      "label": "ゲート",
+      "position": {
+        "x": 162.00948964805815,
+        "y": 316.40458777290166
+      },
+      "size": {
+        "width": 101,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Gitは,小さなプロジェクトから非常に大きなプロジェクトまで,スピードと効率で処理するために設計された無料でオープンソースのバージョン制御システムです.",
+        "links": [
+          {
+            "title": "専用Git&GitHubロードマップ",
+            "url": "https://roadmap.sh/git-github",
+            "type": "roadmap"
+          },
+          {
+            "title": "Gitドキュメント",
+            "url": "https://git-scm.com/",
+            "type": "official"
+          },
+          {
+            "title": "チュートリアル,ニュース,ヒントでGITを学ぶ - アトラシアン",
+            "url": "https://www.atlassian.com/git",
+            "type": "article"
+          },
+          {
+            "title": "Git チットシート",
+            "url": "https://cs.fyi/guide/git-cheatsheet",
+            "type": "article"
+          },
+          {
+            "title": "2025年初心者向けGit&GitHubクラッシュコース",
+            "url": "https://youtu.be/vA5TTz6BXhY?si=GvKMbLL4UBtOq6fh",
+            "type": "video"
+          },
+          {
+            "title": "ダンミーのためのギット・チュートリアル",
+            "url": "https://www.youtube.com/watch?v=mJ-qvsxPHpY",
+            "type": "video"
+          },
+          {
+            "title": "Gitに関するトップ記事を探索する",
+            "url": "https://app.daily.dev/tags/git?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "8sPXL8iClpPqje03ksses",
+      "type": "topic",
+      "label": "GitHub",
+      "position": {
+        "x": -19.56446376179997,
+        "y": 316.40458777290166
+      },
+      "size": {
+        "width": 101,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "GitHubは,Gitを使用してソフトウェア開発およびバージョン制御のためのインターネットホスティングのプロバイダーです. Gitの分散版制御およびソースコード管理機能,および独自の機能を提供しています.",
+        "links": [
+          {
+            "title": "GitHub",
+            "url": "https://github.com",
+            "type": "official"
+          },
+          {
+            "title": "GitHubドキュメント",
+            "url": "https://docs.github.com/en/get-started/quickstart",
+            "type": "official"
+          },
+          {
+            "title": "プロの開発チームでGitを使用する方法",
+            "url": "https://ooloo.io/project/github-flow",
+            "type": "article"
+          },
+          {
+            "title": "GitHubとは何か?",
+            "url": "https://www.youtube.com/watch?v=w3jLJU7DT5E",
+            "type": "video"
+          },
+          {
+            "title": "GitとGitHubの違いは何ですか?",
+            "url": "https://www.youtube.com/watch?v=wpISo9TNjfU",
+            "type": "video"
+          },
+          {
+            "title": "初心者向けGitとGitHub",
+            "url": "https://www.youtube.com/watch?v=RGOj5yH7evk",
+            "type": "video"
+          },
+          {
+            "title": "GitとGitHub - CS50 Beyond 2019",
+            "url": "https://www.youtube.com/watch?v=eulnSXkhE7I",
+            "type": "video"
+          },
+          {
+            "title": "GitHubに関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/github?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "R4aeJNOrfWyVp3ea-qF4H",
+      "type": "subtopic",
+      "label": "チェックポイント - 外部パッケージ",
+      "position": {
+        "x": -26.978069631375547,
+        "y": 215.40458777290166
+      },
+      "size": {
+        "width": 290,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center",
+        "colorType": "a"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "この時点で,あなたは `npm`を使用して外部パッケージをインストールし使用することができます.あなたはおそらく [npmjs.com](https://npmjs.com/) を知っているので,パッケージを検索し,そのドキュメントを読むことができます.あなたはまた, `package.json`ファイルとプロジェクト依存関係を管理するために使用する方法を知っておく必要があります.あなたはまだモジュールバンドラーに入ってツールを構築する必要はありません.ただ単に,あなたのHTMLリンクのシンプルとスクリプトタグを使用して `node_modules`フォルダーにインストールされた依存関係を使用できることを確認してください.プロジェクトに関して,いくつかのアイデアがあります: *ユーザの時間を表示するシンプルなウェブページを作成してください.現在のページに現在の時間を表示し,現在のページに表示するために, [dayjs.js.org] を利用できます.[ホームページのサンプルデザイン]https://i.imgur.com/yGIMGkr.png) * [micromodal][[https://micromodal.vercel.app/#introduction]ライブラリをインストールします. ページをクリックすると,モダルのボタンを作成し,ユーザがドロップダウンからタイムゾーンを選択します.ユーザがタイムゾーンを選択すると,モダルは閉じて,選択されたタイムゾーン内の時間を表示するためにページ上の時間を更新する必要があります.",
+        "links": []
+      }
+    },
+    {
+      "id": "PW10DTLV-5U2ue770SXtM",
+      "type": "horizontal",
+      "label": "ホリゾントノード",
+      "position": {
+        "x": 262.02193036862445,
+        "y": 229.90458777290166
+      },
+      "size": {
+        "width": 85,
+        "height": 20
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "CVCqdPkq_hGQfI8EEi5RC",
+      "type": "topic",
+      "label": "尾風CSS",
+      "position": {
+        "x": -329.47806963137555,
+        "y": 315.40458777290166
+      },
+      "size": {
+        "width": 146,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`flex`, `pt-4`, `text-center`, `rotate-90`など,任意のデザインを直接マークアップに組み立てることができるコンポーネントをスタイリングするのに役立つ原子的なCSSクラスを提供するCSSフレームワーク.",
+        "links": [
+          {
+            "title": "尾風CSS",
+            "url": "https://tailwindcss.com",
+            "type": "official"
+          },
+          {
+            "title": "テイルウィンド CSS 初心者向け 完全コース",
+            "url": "https://www.youtube.com/watch?v=lCxcTsOHrjo",
+            "type": "video"
+          },
+          {
+            "title": "尾風CSSクラッシュコース",
+            "url": "https://www.youtube.com/watch?v=UBOj6rqRUME",
+            "type": "video"
+          },
+          {
+            "title": "テイルウィンド CSS を 使うべきか?",
+            "url": "https://www.youtube.com/watch?v=hdGsFpZ0J2E",
+            "type": "video"
+          },
+          {
+            "title": "Tailwind CSSに関するトップ記事を探索する",
+            "url": "https://app.daily.dev/tags/tailwind-css?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "khoUtTUxdf8udAzN9_CAb",
+      "type": "topic",
+      "label": "反応する",
+      "position": {
+        "x": -444.8178956686777,
+        "y": 315.40458777290166
+      },
+      "size": {
+        "width": 101,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Reactはユーザーインターフェースを構築するための最も人気のあるフロントエンドのJavaScriptライブラリです. React は Node を使用してサーバー上でレンダリングし,React Native を使用してモバイルアプリを動かすことができます.",
+        "links": [
+          {
+            "title": "訪問 専用 反応 ロードマップ",
+            "url": "https://roadmap.sh/react",
+            "type": "roadmap"
+          },
+          {
+            "title": "反応する",
+            "url": "https://react.dev/",
+            "type": "official"
+          },
+          {
+            "title": "反応 を 始める",
+            "url": "https://react.dev/learn/tutorial-tic-tac-toe",
+            "type": "official"
+          },
+          {
+            "title": "初心者向けJSコース",
+            "url": "https://www.youtube.com/watch?v=nTeuhbP7wdE",
+            "type": "video"
+          },
+          {
+            "title": "反応コース - 反応のための初心者チュートリアル",
+            "url": "https://www.youtube.com/watch?v=bMknfKXIFA8",
+            "type": "video"
+          },
+          {
+            "title": "理解はUIレンダリングプロセスに反応する",
+            "url": "https://www.youtube.com/watch?v=i793Qm6kv3U",
+            "type": "video"
+          },
+          {
+            "title": "Reactに関するトップ記事を探索する",
+            "url": "https://app.daily.dev/tags/react?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "zFGWxgLPcZoW7KIzlnSV9",
+      "type": "subtopic",
+      "label": "チェックポイント - 協力作業",
+      "position": {
+        "x": -350.97806963137555,
+        "y": 215.40458777290166
+      },
+      "size": {
+        "width": 290,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center",
+        "colorType": "a"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "GitHubと gitHubを学びましたので,他者と共同で作業する準備ができなければなりません.現在 GitHub プロフィールを設定して,これまで構築したすべてのプロジェクトを GitHub プロフィールに押し付けましょう.GitHub プロフィールのための私のいくつかの推奨事項はこちらです. * リポジトリの名前を小文字で保持し,文字を分離するためにハイフンを使用してください.例えば:`todo-app`ではなく,`TodoApp`または `Todo-App`.*作成する各リポジトリに, `README.md`ファイルを追加してください.このファイルにはプロジェクトの説明が含まれます.リジメントにいくつかの詳細を入れて,プロジェクトについて明確に確認し,誰がそれを現地で実行できるかを確認してください.* レジメファイルにプロジェクトのスナップショットを追加してください.* 作成するすべてのリポジトリに `LICENSE`ファイルを追加します.このファイルには,プロジェクトに使用したいライセンスは含まれます. [choosealicense.com] (https://choosealicense.com/) を使用してライセンスを選択することができます. [私のGitHubプロフィール] (https://github.com/kamranahmedse) をご覧ください.そして,私のリポジトリをどのように構造化したか,そして [私の読み取りファイルの一部がどのように見えるか] (https://github.com/kamranahmedse/aws-cost-clips) を参照してください.",
+        "links": []
+      }
+    },
+    {
+      "id": "8MhESAMICF6j7X3RL9bFE",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": -117.38142186176219,
+        "y": 265.40458777290166
+      },
+      "size": {
+        "width": 21,
+        "height": 73
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "H63WyNiiJ2Yr9HWs98EjR",
+      "type": "paragraph",
+      "label": "バックエンドを学んだ後,これをスキップして再訪してください.",
+      "position": {
+        "x": -459.47806963137555,
+        "y": 396.90458777290166
+      },
+      "size": {
+        "width": 276,
+        "height": 63
+      },
+      "style": {
+        "fontSize": 17,
+        "borderColor": "transparent",
+        "backgroundColor": "TRANSPARENT",
+        "color": "#000000",
+        "textAlign": "center",
+        "justifyContent": "center",
+        "padding": 16
+      },
+      "z_index": 999
+    },
+    {
+      "id": "QfW-odmDYknm_qXNcDu5o",
+      "type": "paragraph",
+      "label": "バックエンド開発を開始する",
+      "position": {
+        "x": -482.08230823147517,
+        "y": 575.9045877729017
+      },
+      "size": {
+        "width": 265,
+        "height": 48
+      },
+      "style": {
+        "fontSize": 17,
+        "borderColor": "transparent",
+        "backgroundColor": "#ffffff",
+        "color": "#000000",
+        "textAlign": "center",
+        "justifyContent": "center",
+        "padding": 16
+      },
+      "z_index": 999
+    },
+    {
+      "id": "7JU1cVggMDoZUV-adGsf-",
+      "type": "subtopic",
+      "label": "チェックポイント - フロントエンドアプリ",
+      "position": {
+        "x": -443.47806963137555,
+        "y": 483.40458777290166
+      },
+      "size": {
+        "width": 260,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center",
+        "colorType": "a"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "この時点で, HTML で Web ページを構造化すること * CSS で Web ページをスタイリングすること * JavaScript で Web ページへのインタラクティビティを追加すること * Web ページを操作するために DOM API を使用すること * HTTP 要求を行うために Fetch API を使用すること * 約束を理解し,非同期コードを書くために `async`/`wait`構文を使用すること * npm で外部図書館をインストールし使用すること * Git でコードを制御するバージョン * GitHub にコードを押し付けることしかし,現代のフロントエンドアプリケーションは,主にReact,Vue,Angularのようなフレームワークで構築されていることを覚えておいてください.したがって,あなたはいつでもそれらのうち少なくとも1つを学ぶべきです.これはあなたが必要とするフロントエンドの基礎の終わりを意味します.我々は現在バックエンド開発に移行します.バックエンド開発を続けながら,フロントエンド開発には多くのものがあることを知ってください.そしてあなたの旅の後に [フロントエンドロードマップ] (/フロントエンド) をチェックすることを忘れないでください.",
+        "links": []
+      }
+    },
+    {
+      "id": "_aA6Hp4KkgJeptqo8oKTg",
+      "type": "topic",
+      "label": "Node.js",
+      "position": {
+        "x": 7.00948964805815,
+        "y": 574.9045877729017
+      },
+      "size": {
+        "width": 146,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Node.js はオープンソースとクロスプラットフォームのJavaScriptランタイム環境です.ほぼあらゆる種類のプロジェクトに人気のあるツールです.Node.js はブラウザの外で V8 JavaScript エンジンを実行します.Node.js は非常にパフォーマンスを可能にします.Node.js アプリは,すべてのリクエストに新しいスレッドを作成することなく,単一のプロセスで実行されます.Node.js は標準ライブラリにアシンクロなI/O原始のセットを提供し,JavaScript コードをブロックするのを防止します.一般的に,Node.js のライブラリはブロックしないパラダイムを使用して書かれています.",
+        "links": [
+          {
+            "title": "専用Node.jsロードマップを訪問する",
+            "url": "https://roadmap.sh/nodejs",
+            "type": "roadmap"
+          },
+          {
+            "title": "Node.js ウェブサイト",
+            "url": "https://nodejs.org/en/about/",
+            "type": "official"
+          },
+          {
+            "title": "Node.js 公式サイトを学ぶ",
+            "url": "https://nodejs.org/en/learn/getting-started/introduction-to-nodejs",
+            "type": "official"
+          },
+          {
+            "title": "Node.js と Express.js 全コース",
+            "url": "https://www.youtube.com/watch?v=Oe421EPjeBE",
+            "type": "video"
+          },
+          {
+            "title": "Node.jsに関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/nodejs?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "qCV1wiNSXj4OSHyMqxRIK",
+      "type": "paragraph",
+      "label": "私は Node.js をお勧めします. JavaScript をすでに熟知しているので,選択するのが簡単です.",
+      "position": {
+        "x": -26.978069631375547,
+        "y": 431.40458777290166
+      },
+      "size": {
+        "width": 445,
+        "height": 101
+      },
+      "style": {
+        "fontSize": 17,
+        "borderColor": "transparent",
+        "backgroundColor": "TRANSPARENT",
+        "color": "#000000",
+        "textAlign": "left",
+        "justifyContent": "center",
+        "padding": 16
+      },
+      "z_index": 999
+    },
+    {
+      "id": "0QKpvDD33C3WCmNGtRanp",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": -104.20433957685361,
+        "y": 531.9045877729017
+      },
+      "size": {
+        "width": 21,
+        "height": 130
+      },
+      "style": {
+        "stroke": "#000000"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "WqNcVZ8IkyqEubdd9JCa1",
+      "type": "label",
+      "label": "バックエンドはここから始まります",
+      "position": {
+        "x": -283.06446376179997,
+        "y": 630.9045877729017
+      },
+      "size": {
+        "width": 174,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "JGu0TKwAw-ieiG92BytYI",
+      "type": "subtopic",
+      "label": "チェックポイント  CLI アプリ",
+      "position": {
+        "x": -47.99051035194185,
+        "y": 651.9045877729017
+      },
+      "size": {
+        "width": 302,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center",
+        "colorType": "a"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "この時点で,あなたは Node.js またはあなたが選んだバックエンドプログラミング言語を使用した CLI アプリケーションを構築することができます.あなたは: * ファイルを読み書きする CLI アプリケーションを構築する必要があります * 命令行参数解析 * HTTP リクエストを作成する * JSON解析 * 第三者のライブラリ (例えば CSV ファイル解析のためのライブラリ) を使用します.**ヒント**は, [GitHub の検索 API] (https://developer.github.com/v3/search/#search-repositories) * ディレクトリ内の大量のリネームファイルを使用できます.**ヒント**は, [fs] (https://nodejs.org/api/fs.html) と [path] (https://nodejs.org/api/path.html) を使用できます. * CLI アプリケーションを書き込み,入力として入力し,そのディレクトリ内のすべての画像を圧縮します. 輸出経路のオプションを受け入れなければなりません. 輸出が与えられていない場合は,圧縮された画像をそのまま圧縮して,輸出経路に書き込む必要があります.**ヒント**は, [sharp] (https://github.com/lovell/sharp) を使用できます.",
+        "links": []
+      }
+    },
+    {
+      "id": "o72NM00uoHXswkadhqVVW",
+      "type": "horizontal",
+      "label": "ホリゾントノード",
+      "position": {
+        "x": 253.00948964805815,
+        "y": 666.4045877729017
+      },
+      "size": {
+        "width": 85,
+        "height": 20
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "vmHbWdmMHF53otXIrqzRV",
+      "type": "topic",
+      "label": "残りのAPI",
+      "position": {
+        "x": -117.38142186176219,
+        "y": 847.9045877729017
+      },
+      "size": {
+        "width": 151,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "REST,またはRepresentational State Transferは,ウェブ上のコンピュータシステム間の標準を提供するための建築スタイルであり,システム同士のコミュニケーションを容易にする.",
+        "links": [
+          {
+            "title": "REST APIとは何か?",
+            "url": "https://www.redhat.com/en/topics/api/what-is-a-rest-api",
+            "type": "article"
+          },
+          {
+            "title": "ロイ・フィールドンズの論文章 代表国家移転 (REST)",
+            "url": "https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm",
+            "type": "article"
+          },
+          {
+            "title": "レスト を 学べる: レスト の 教訓",
+            "url": "https://restapitutorial.com/",
+            "type": "article"
+          },
+          {
+            "title": "RESTful APIとは何か? RESTとHTTPの説明",
+            "url": "https://www.youtube.com/watch?v=Q-BpqyOT3a8",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3EtGLO6cwkLc1-o9gwFNk",
+      "type": "subtopic",
+      "label": "チェックポイント  シンプルなCRUDアプリ",
+      "position": {
+        "x": -49.99051035194191,
+        "y": 779.7210153640276
+      },
+      "size": {
+        "width": 304,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center",
+        "colorType": "a"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "**CRUD**は **Create, Read, Update, and Delete**という意味です. Web アプリケーション,データベース,および API で作業するとき,任意のデータ上で実行できる4つの基本操作です.プログラミング言語とデータベースについて知っているので,データベースと相互作用する単純な CLI アプリケーションを構築することができます. APIについてはまだ話していませんが,CRUD 操作を練習するには API が不要です.以下は,CRUD操作を練習するために構築できるCLIアプリケーションの一部です: * 次のオプションを持つCLIのためのシンプルな todoリストアプリケーション: * `--new` 新しい todo項目を追加する * `--リスト [すべての待たせな状態の状態はあり]` Todo項目リスト * `--done [id]` Todo項目更新する * `--delete [id]` 削除する Todo項目削除する * `--help` すべての利用可能なオプションをリストする * `--version` アプリケーションのバージョンを印刷する",
+        "links": []
+      }
+    },
+    {
+      "id": "BQV2ycD-EnmssO1idTgx9",
+      "type": "horizontal",
+      "label": "ホリゾントノード",
+      "position": {
+        "x": 253.00948964805815,
+        "y": 794.2210153640276
+      },
+      "size": {
+        "width": 85,
+        "height": 20
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "vHojhJYjiN0IwruEqi1Dv",
+      "type": "topic",
+      "label": "JWT 著者",
+      "position": {
+        "x": -257.06446376179997,
+        "y": 847.9045877729017
+      },
+      "size": {
+        "width": 123,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "JSON Web Token (JSON Web Token) は,JSON オブジェクトとして情報を安全に転送するために使用されるトークンベースの暗号化オープン標準/方法論である.クライアントとサーバーは,JWTを使用して情報を安全に共有し,JSON オブジェクトとクレームを含む.JWTはコンパクトで設計されており,URL内で使用に安全であり,SSOコンテキストに最適です.",
+        "links": [
+          {
+            "title": "jwt.io",
+            "url": "https://jwt.io/",
+            "type": "official"
+          },
+          {
+            "title": "JSON Web トークンへの導入",
+            "url": "https://jwt.io/introduction",
+            "type": "official"
+          },
+          {
+            "title": "JWT は 何 です か",
+            "url": "https://www.akana.com/blog/what-is-jwt",
+            "type": "article"
+          },
+          {
+            "title": "JWT は 何 です か,なぜ JWT を 使う べき です か",
+            "url": "https://www.youtube.com/watch?v=7Q17ubqLfaM",
+            "type": "video"
+          },
+          {
+            "title": "JWT は 何 です か",
+            "url": "https://www.youtube.com/watch?v=926mknSW9Lo",
+            "type": "video"
+          },
+          {
+            "title": "JWT認証チュートリアル - Node.js",
+            "url": "https://www.youtube.com/watch?v=mbsmsi7l3r4",
+            "type": "video"
+          },
+          {
+            "title": "JWT に 関する トップ 記事 を 調べる",
+            "url": "https://app.daily.dev/tags/jwt?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Onfd7Sl8LG2sjh2aQY7gb",
+      "type": "topic",
+      "label": "レディス",
+      "position": {
+        "x": -460.08230823147517,
+        "y": 847.9045877729017
+      },
+      "size": {
+        "width": 101,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Redis はオープンソース (BSDライセンス) で,データベース,キャッシュ,メッセージブローカー,ストリーミングエンジンとして使用される内メモリデータ構造のストアです.Redis は文字列,ハッシュ,リスト,セット,範囲クエリ,ビットマップ,ハイパーログ,地理空間インデックス,ストリームなどのデータ構造を提供しています.Redis は内蔵された複製,Lua スクリプト,LRU排放,トランザクション,およびディスク上の持続性の異なるレベルを有し,Redis Sentinel およびRedis Cluster で自動パーティションを通じて高い可用性を提供しています.",
+        "links": [
+          {
+            "title": "専念 レディス ロードマップ を 訪問する",
+            "url": "https://roadmap.sh/redis",
+            "type": "roadmap"
+          },
+          {
+            "title": "レディスウェブサイト",
+            "url": "https://redis.io/",
+            "type": "official"
+          },
+          {
+            "title": "レディスドキュメント",
+            "url": "https://redis.io/docs/latest/",
+            "type": "official"
+          },
+          {
+            "title": "レディス大学",
+            "url": "https://university.redis.io/academy",
+            "type": "official"
+          },
+          {
+            "title": "100秒でレディス",
+            "url": "https://www.youtube.com/watch?v=G1rOthIU-uo",
+            "type": "video"
+          },
+          {
+            "title": "Node.js で Redis キャッシング",
+            "url": "https://www.youtube.com/watch?v=oaJq1mQ3dFI",
+            "type": "video"
+          },
+          {
+            "title": "レディスに関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/redis?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "SHTSvMDqI7X1_ZT7-m--n",
+      "type": "topic",
+      "label": "Linuxの基礎",
+      "position": {
+        "x": -576.5823082314752,
+        "y": 1145.3143775154215
+      },
+      "size": {
+        "width": 146,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "UNIXの知識は,ほとんどすべての種類の開発に必要なもので,あなたが書くコードの大半は,UNIX/Linuxマシンに最終的に展開される可能性が高い.Linuxは,ほぼすべてのニーズに対応するシンプルでエレガントなオペレーティングシステムを提供する自由とオープンソースソフトウェア運動の骨髄となっています.",
+        "links": [
+          {
+            "title": "専用 Linux ロードマップ を 訪問する",
+            "url": "https://roadmap.sh/linux",
+            "type": "roadmap"
+          },
+          {
+            "title": "Coursera - Unixコース",
+            "url": "https://www.coursera.org/courses?query=unix",
+            "type": "course"
+          },
+          {
+            "title": "Linuxの基礎",
+            "url": "https://dev.to/rudrakshi99/linux-basics-2onj",
+            "type": "article"
+          },
+          {
+            "title": "ユニックス / Linux チュートリアル",
+            "url": "https://www.tutorialspoint.com/unix/index.htm",
+            "type": "article"
+          },
+          {
+            "title": "Linux オペレーティングシステム - クラッシュコース",
+            "url": "https://www.youtube.com/watch?v=ROjZy1WbCIA",
+            "type": "video"
+          },
+          {
+            "title": "Linuxに関するトップ記事を探索する",
+            "url": "https://app.daily.dev/tags/linux?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "gSUWhfd0DQoJjDpHEkk0i",
+      "type": "horizontal",
+      "label": "ホリゾントノード",
+      "position": {
+        "x": -504.47806963137555,
+        "y": 970.0850398450953
+      },
+      "size": {
+        "width": 100,
+        "height": 20
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "v4NF25lJElAtkU0Rm6Fob",
+      "type": "subtopic",
+      "label": "チェックポイント  完全なアプリ",
+      "position": {
+        "x": -459.47806963137555,
+        "y": 955.5850398450953
+      },
+      "size": {
+        "width": 265,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center",
+        "colorType": "a"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "この時点で,あなたは完全なアプリケーションを構築するために必要なすべてを持っている必要があります: * ユーザがインタラクションできるレスポンス型フロントエンドを持っている * JWT認証でセキュアなバックエンド APIを持っている * データを保存するデータベースを持っている この時点で,あなたが自分の知識を固めるためにできる限り自分で構築を練習する必要があります.インスピレーションが必要な場合は,以下のようなアイデアがあります: * ユーザが登録し,ログインし,ブログを設定し,投稿を書き込むことができる簡単なブログアプリケーションを構築します.* ユーザがテンプレートを選択し,変更し,公開できる単一ページサイトビルダーです.**ヒント** デザインテンプレートを保存するためにファイルシステムが必要になります. テンプレートファイルにはユーザデータに置き換える場所があります.* シンプルな電子商取引アプリケーションを構築し,ユーザーには2種類あり,すなわち.**セーラー**ができます:売り手として登録,ログイン,店舗を設定,製品を追加,製品編集,製品削除,受信注文表示,更新注文状態 (待機,送信,配送), **購入者**が登録できる,ログイン,すべての売り手による商品を閲覧する,商品をカートに追加,チェックアウト,注文履歴表示,注文を表示,注文をキャンセル,売り手プロフィール表示,売り手製品を表示 これらはスタートするためのいくつかのアイデアです.あなたが望むものを作ることができます.目標は,完全なアプリケーションをゼロから構築することを練習することです.",
+        "links": []
+      }
+    },
+    {
+      "id": "Oav7YPRBmsE1gVhEURckg",
+      "type": "horizontal",
+      "label": "ホリゾントノード",
+      "position": {
+        "x": -560.0823082314752,
+        "y": 1037.8143775154215
+      },
+      "size": {
+        "width": 243,
+        "height": 20
+      },
+      "style": {
+        "stroke": "#000000"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "Dj2QhtEuuIgKc2CvgFGyK",
+      "type": "label",
+      "label": "DevOpsはここから始まる",
+      "position": {
+        "x": -473.2578102157039,
+        "y": 1051.3143775154215
+      },
+      "size": {
+        "width": 166,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "cUOfvOlQ_0Uu1VX3i67kJ",
+      "type": "topic",
+      "label": "基本 AWS サービス",
+      "position": {
+        "x": -241.7043395768536,
+        "y": 1145.3143775154215
+      },
+      "size": {
+        "width": 210,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "AWSにはいくつかのサービスがありますが,すべてを知っておく必要はありません.始められる一般的なものはEC2,VPC,S3,Route53およびSESです.",
+        "links": [
+          {
+            "title": "AWS VPCで起動し実行する",
+            "url": "https://cs.fyi/guide/up-and-running-with-aws-vpc",
+            "type": "article"
+          },
+          {
+            "title": "AWS EC2で稼働する",
+            "url": "https://cs.fyi/guide/up-and-running-with-aws-ec2",
+            "type": "article"
+          },
+          {
+            "title": "VPCの基礎",
+            "url": "https://cloudcasts.io/course/vpc-basics",
+            "type": "article"
+          },
+          {
+            "title": "EC2 必須事項",
+            "url": "https://cloudcasts.io/course/ec2-essentials",
+            "type": "article"
+          },
+          {
+            "title": "AWS EC2 に Node App を展開する",
+            "url": "https://youtu.be/oHAQ3TzUTro",
+            "type": "video"
+          },
+          {
+            "title": "AWS VPC & 初心者向けサブネット",
+            "url": "https://youtu.be/TUTqYEZZUdc",
+            "type": "video"
+          },
+          {
+            "title": "AWS ルート 53 の DNS",
+            "url": "https://www.youtube.com/watch?v=yRIY7BJohfo",
+            "type": "video"
+          },
+          {
+            "title": "Node Back End から S3 に画像をアップロードする",
+            "url": "https://www.youtube.com/watch?v=NZElg91l_ms",
+            "type": "video"
+          },
+          {
+            "title": "AWSに関するトップ記事を探索する",
+            "url": "https://app.daily.dev/tags/aws?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6oBIxYj8WPcUHidQ99tus",
+      "type": "subtopic",
+      "label": "EC2",
+      "position": {
+        "x": -239.56446376179997,
+        "y": 1087.3143775154215
+      },
+      "size": {
+        "width": 71,
+        "height": 51
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Amazon Elastic Compute Cloud (EC2) は,仮想サーバーの形で拡張可能なコンピューティング容量を提供するウェブサービスである.EC2を使用して,コンピューティング要件が変化するにつれて,インフラストラクチャを迅速に向上または下へスケールできます.このサービスは,新しいサーバーインスタンスを取得および起動するのに必要な時間を効果的に削減し,アプリケーションのニーズに応じて容量を簡単に調整することができます.",
+        "links": [
+          {
+            "title": "アマゾン AWS EC2",
+            "url": "https://aws.amazon.com/ec2/",
+            "type": "official"
+          },
+          {
+            "title": "AWS EC2で稼働する",
+            "url": "https://cs.fyi/guide/up-and-running-with-aws-ec2",
+            "type": "article"
+          },
+          {
+            "title": "EC2 必須事項",
+            "url": "https://cloudcasts.io/course/ec2-essentials",
+            "type": "article"
+          },
+          {
+            "title": "AWS EC2 に Node App を展開する",
+            "url": "https://youtu.be/oHAQ3TzUTro",
+            "type": "video"
+          },
+          {
+            "title": "AWS EC2に関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/aws-ec2?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "QtL-bLKtWIdH00K6k_PdC",
+      "type": "subtopic",
+      "label": "VPC",
+      "position": {
+        "x": -165.56446376179997,
+        "y": 1087.3143775154215
+      },
+      "size": {
+        "width": 71,
+        "height": 51
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center",
+        "colorType": "c"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "VPC は **Virtual Private Cloud** を意味し, AWS が提供する不可欠なサービスで, AWS クラウド内でプライベートで孤立したセクションを作成し,独自の仮想ネットワークを定義できます. より安全で制御された環境を提供し,個人ネットワーク内のリソースを簡単に起動し管理することができます.",
+        "links": [
+          {
+            "title": "アマゾン AWS VPC",
+            "url": "https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vpc.html",
+            "type": "official"
+          },
+          {
+            "title": "AWS VPCで起動し実行する",
+            "url": "https://cs.fyi/guide/up-and-running-with-aws-vpc",
+            "type": "article"
+          },
+          {
+            "title": "VPCの基礎",
+            "url": "https://cloudcasts.io/course/vpc-basics",
+            "type": "article"
+          },
+          {
+            "title": "AWS VPC & 初心者向けサブネット",
+            "url": "https://youtu.be/TUTqYEZZUdc",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5zyYpu9cyuTFwQCjTbHpS",
+      "type": "subtopic",
+      "label": "道路53",
+      "position": {
+        "x": -239.56446376179997,
+        "y": 1032.3143775154215
+      },
+      "size": {
+        "width": 104,
+        "height": 51
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Route53 は AWS の ドメイン名システム (DNS) サービスで,ユーザーのリクエストをWeb アプリケーションまたはインフラストラクチャ内の他のリソースに接続する上で重要な役割を果たします.Route53 を使用すると,ドメインを簡単に管理し,トラフィックをリダイレクトし,ドメイン関連の設定を構成できます.高可用性,低遅延,および他の AWS リソースとの統合を含むいくつかの利点があります.",
+        "links": [
+          {
+            "title": "道路53",
+            "url": "https://aws.amazon.com/route53/",
+            "type": "official"
+          },
+          {
+            "title": "アマゾン路53",
+            "url": "https://www.youtube.com/watch?v=RGWgfhZByAI",
+            "type": "video"
+          },
+          {
+            "title": "AWS ルート 53 ドメイン名",
+            "url": "https://www.youtube.com/watch?v=jDz4j_kkyLA",
+            "type": "video"
+          },
+          {
+            "title": "AWS ルート 53 の DNS",
+            "url": "https://www.youtube.com/watch?v=yRIY7BJohfo&t=2s",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "B-cphY7Imnv6JBMujVIF7",
+      "type": "subtopic",
+      "label": "SES",
+      "position": {
+        "x": -133.7043395768536,
+        "y": 1032.3143775154215
+      },
+      "size": {
+        "width": 101,
+        "height": 51
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Amazon SES (Simple Email Service) は,開発者,マーケティング担当者,および企業に対してマーケティング,トランザクション,通知メールを送信・受信するために特別に設計されたスケーラブル,柔軟かつ費用対効果の高いクラウドベースの電子メールサービスです.SESは,特に大量の電子メールを送信する必要がある場合,高い配信能力,信頼性,使用しやすさを提供しているため,有用です.",
+        "links": [
+          {
+            "title": "アマゾン AWS SES",
+            "url": "https://aws.amazon.com/ses/",
+            "type": "official"
+          },
+          {
+            "title": "AWS SESで連絡フォームを提出する",
+            "url": "https://www.youtube.com/watch?v=HiHflLTqiwU",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "n2Xp_ijJ2OS8xhE7xMWxk",
+      "type": "subtopic",
+      "label": "S3",
+      "position": {
+        "x": -91.56446376179997,
+        "y": 1087.3143775154215
+      },
+      "size": {
+        "width": 60,
+        "height": 51
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "S3 は,クラウドでファイルを保存できるようにするサービスです. 簡単なサービスで,ファイルを保存してユーザーに配信できます.",
+        "links": [
+          {
+            "title": "アマゾン AWS S3",
+            "url": "https://aws.amazon.com/s3/",
+            "type": "official"
+          },
+          {
+            "title": "Node Back End から S3 に画像をアップロードする",
+            "url": "https://www.youtube.com/watch?v=NZElg91l_ms",
+            "type": "video"
+          },
+          {
+            "title": "S3 バケット ステティック ウェブサイト",
+            "url": "https://www.youtube.com/watch?v=RoY3ekCCxKc&list=PL0X6fGhFFNTcU-_MCPe9dkH6sqmgfhy_M",
+            "type": "video"
+          },
+          {
+            "title": "AWS S3に関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/aws-s3?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "fKzuMTsf6XL_0Ik6t8SAX",
+      "type": "paragraph",
+      "label": "チェックポイント を 活用 し,学ぶ こと を 実践 する こと を 忘れないでください.各 チェックポイント に は,知識 を 強化 する ため に プロジェクト の 構想 が あり ます.",
+      "position": {
+        "x": 58.49718479195076,
+        "y": 923.8143775154215
+      },
+      "size": {
+        "width": 342,
+        "height": 139
+      },
+      "style": {
+        "fontSize": 17,
+        "borderColor": "#000000",
+        "backgroundColor": "#ffffff",
+        "color": "#000000",
+        "textAlign": "left",
+        "justifyContent": "center",
+        "padding": 16
+      },
+      "z_index": 999
+    },
+    {
+      "id": "y1SFX7uvWaCy4OYBnECLu",
+      "type": "topic",
+      "label": "モニット",
+      "position": {
+        "x": 290.52193036862445,
+        "y": 1266.5238331844262
+      },
+      "size": {
+        "width": 89,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "アプリケーションの健康をモニタリングする際には,さまざまなオプションがあります.私のお気に入りのモニタリングスタックはPrometheusとGrafanaですが,設定と設定は少し圧倒的かもしれません.よりシンプルなソリューションを探している場合は, **Monit**はサービス,プロセス,ファイル,ディレクトリ,デバイス,およびネットワーク接続などのシステムリソースをモニタリングおよび管理するために利用できる素晴らしい代替品です.",
+        "links": [
+          {
+            "title": "モニット",
+            "url": "https://mmonit.com/monit/",
+            "type": "official"
+          },
+          {
+            "title": "モニットドキュメント",
+            "url": "https://mmonit.com/monit/documentation/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "HGhnbMg6jh6cAmUH4DtOx",
+      "type": "topic",
+      "label": "PostgreSQL",
+      "position": {
+        "x": 262.02193036862445,
+        "y": 716.9045877729017
+      },
+      "size": {
+        "width": 146,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "PostgreSQLは,拡張性とSQLのコンプライアンスを強調する無料でオープンソースの関係データベース管理システムです.",
+        "links": [
+          {
+            "title": "PostgreSQL DBAロードマップを訪問する",
+            "url": "https://roadmap.sh/postgresql-dba",
+            "type": "roadmap"
+          },
+          {
+            "title": "PostgreSQL ウェブサイト",
+            "url": "https://www.postgresql.org/",
+            "type": "official"
+          },
+          {
+            "title": "PostgreSQL を 学ぶ - 初心者 の ため の 完全な チュートリアル",
+            "url": "https://www.postgresqltutorial.com/",
+            "type": "article"
+          },
+          {
+            "title": "PostgreSQL チュートリアル - 初心者向け 完全なコース",
+            "url": "https://www.youtube.com/watch?v=qw--VYLpxG4",
+            "type": "video"
+          },
+          {
+            "title": "初心者向け 卒業後のチュートリアル",
+            "url": "https://www.youtube.com/watch?v=eMIxuk0nOkU",
+            "type": "video"
+          },
+          {
+            "title": "PostgreSQLに関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/postgresql?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "J2_IWAb1s9zZcxOY3NXm2",
+      "type": "subtopic",
+      "label": "チェックポイント 部署",
+      "position": {
+        "x": 16.00948964805815,
+        "y": 1200.7210153640276
+      },
+      "size": {
+        "width": 248,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center",
+        "colorType": "a"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "AWS の基礎知識を知っていたので,アプリケーションを AWS に部署できるはずです.すべての AWS サービスを利用する必要はありませんが,おそらくこれからは始めることができます. * AMI (例えばUbuntu の最新バージョン) を使って EC2 インスタンスを設定します. * SSH を作成したキーペアを使用して EC2 インスタンスの内部にインストールします. * EC2 インスタンスの上で Node.js をインストールします. * EC2 インスタンスの上で Git をインストールします. * GitHub からアプリケーションをクローンします. * EC2 インスタンスの上でデータベースをインストールし,構成します.PostgreSQL) *EC2インスタンスのセキュリティグループがHTTPとHTTPSトラフィックを許可していることを確認します. *EC2インスタンスの公開IPアドレスを使ってアプリケーションにアクセスしてみてください. *Route53 (または他のドメイン名プロバイダー) を使用してドメイン名を購入または設定し,EC2インスタンスの公開IPアドレスを参照してください. *https://roadmap.sh/guides/setup-and-auto-renew-ssl-certificates) を使ってHTTPを設定します. *そして voilla!あなたはアプリケーションをAWSに展開しました!",
+        "links": [
+          {
+            "title": "AWS EC2 に Node App を展開する",
+            "url": "https://youtu.be/oHAQ3TzUTro",
+            "type": "video"
+          },
+          {
+            "title": "CI/CDに関するトップ記事を探求する",
+            "url": "https://app.daily.dev/tags/cicd?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "863KMXcFJzInvTp_-Ldmz",
+      "type": "topic",
+      "label": "GitHub アクション",
+      "position": {
+        "x": 103.00948964805815,
+        "y": 1392.5238331844262
+      },
+      "size": {
+        "width": 160,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "GitHub Actionsは,GitHubが提供するワークフロー自動化ツールで,アプリケーション開発プロセスにおける様々なタスクを自動化するために使用できます.",
+        "links": [
+          {
+            "title": "専用Git&GitHubロードマップ",
+            "url": "https://roadmap.sh/git-github",
+            "type": "roadmap"
+          },
+          {
+            "title": "GitHub アクション",
+            "url": "https://github.com/features/actions",
+            "type": "official"
+          },
+          {
+            "title": "GitHub アクション ドキュメンテーション",
+            "url": "https://docs.github.com/en/actions",
+            "type": "official"
+          },
+          {
+            "title": "アップを DevOps するための5つの方法",
+            "url": "https://www.youtube.com/watch?v=eB0nUzAI7M8",
+            "type": "video"
+          },
+          {
+            "title": "DevOps CI/CD 100秒で説明される",
+            "url": "https://www.youtube.com/watch?v=scEDHsr3APg",
+            "type": "video"
+          },
+          {
+            "title": "GitHubに関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/github-actions?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "zh4DYU0QpAolXJ6wE0CEe",
+      "type": "horizontal",
+      "label": "ホリゾントノード",
+      "position": {
+        "x": 253.00948964805815,
+        "y": 1340.2210153640276
+      },
+      "size": {
+        "width": 85,
+        "height": 20
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "NQmEl27eBPYhivcXdOEz3",
+      "type": "subtopic",
+      "label": "チェックポイント  監視",
+      "position": {
+        "x": 16.00948964805815,
+        "y": 1325.7210153640276
+      },
+      "size": {
+        "width": 248,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center",
+        "colorType": "a"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "モニターを使用してアプリケーションのモニタリングとAutorestartsを実装する必要があります.Autorestartsについては, [pm2](https://pm2.keymetrics.io/) を使用することもできます. 以下は,アプリケーションのために実装すべきモニタの一部です. * CPU 使用 *メモリ使用 * ディスク使用 * ネットワーク使用 * サービス利用可能 * プロセス利用可能 モニットは,多くのサービスのための既存の設定で提供されています. `/etc/monit/conf-available`で見つけることができます. `/etc/monit/conf-enabled`にコピーし,必要に応じて変更できます.",
+        "links": []
+      }
+    },
+    {
+      "id": "rFXupYpUFfp7vZO8zh614",
+      "type": "topic",
+      "label": "不可能",
+      "position": {
+        "x": -327.56446376179997,
+        "y": 1392.5238331844262
+      },
+      "size": {
+        "width": 102,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Ansible は,YAML で独自の宣言言語を使用するオープンソースの設定管理,アプリケーション展開およびプロビジョニングツールです. Ansible はエージェントレスで,機能するためには SSH または Powershell を介して Windows リモート管理を通じてリモート接続のみが必要です.",
+        "links": [
+          {
+            "title": "不可能",
+            "url": "https://www.ansible.com/",
+            "type": "official"
+          },
+          {
+            "title": "必要な文書",
+            "url": "https://docs.ansible.com/",
+            "type": "official"
+          },
+          {
+            "title": "開始 ガイド",
+            "url": "https://www.ansible.com/resources/get-started",
+            "type": "official"
+          },
+          {
+            "title": "初心者 の ため に 難しい 完全 コース",
+            "url": "https://www.youtube.com/watch?v=9Ua2b06oAr4",
+            "type": "video"
+          },
+          {
+            "title": "Ansibleに関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/ansible?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "WJIx6JGqxoNT-vKk4LMQp",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": -128.06446376179997,
+        "y": 1366
+      },
+      "size": {
+        "width": 21,
+        "height": 50
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "liaY1GnlOateB_ZKBjNpY",
+      "type": "subtopic",
+      "label": "チェックポイント  CI/CD",
+      "position": {
+        "x": -226.56446376179997,
+        "y": 1325.7210153640276
+      },
+      "size": {
+        "width": 218,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center",
+        "colorType": "a"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "現在,インフラストラクチャのセットアップが完了したので,部署プロセスを自動化する時間です.ここでIC/CDが登場します.IC/CDが何であるかわからない場合は,DevOps CI/CDを100秒で説明してください. (https://www.youtube.com/watch?v=scEDHsr3APg)",
+        "links": []
+      }
+    },
+    {
+      "id": "2kKHuQZScu7hCDgQWxl5u",
+      "type": "topic",
+      "label": "テラフォーム",
+      "position": {
+        "x": -560.0823082314752,
+        "y": 1468.728630371825
+      },
+      "size": {
+        "width": 121,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Terraformは非常に人気のあるオープンソースの Infrastructure as Code (IaC) ツールで,さまざまなクラウドおよびサービスプロバイダー API で使用できます. Terraform は,インフラストラクチャへの不変なアプローチに焦点を当てています.",
+        "links": [
+          {
+            "title": "専用テラフォームのロードマップ",
+            "url": "https://roadmap.sh/terraform",
+            "type": "roadmap"
+          },
+          {
+            "title": "テラフォームウェブサイト",
+            "url": "https://www.terraform.io/",
+            "type": "official"
+          },
+          {
+            "title": "テラフォームドキュメント",
+            "url": "https://www.terraform.io/docs",
+            "type": "official"
+          },
+          {
+            "title": "地形CDK",
+            "url": "https://www.terraform.io/cdktf",
+            "type": "official"
+          },
+          {
+            "title": "テラフォーム・チュートリアル",
+            "url": "https://learn.hashicorp.com/terraform",
+            "type": "official"
+          },
+          {
+            "title": "Terraform ビデオへの入門",
+            "url": "https://www.youtube.com/watch?v=h970ZBgKINg&ab_channel=HashiCorp",
+            "type": "video"
+          },
+          {
+            "title": "Terraformに関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/terraform?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "gJhoy4tQwP4Gtwh0wL343",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": -473.2578102157039,
+        "y": 1365.182006288024
+      },
+      "size": {
+        "width": 21,
+        "height": 50
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "sO_9-l4FECbaqiaFnyeXO",
+      "type": "subtopic",
+      "label": "チェックポイント 自動化",
+      "position": {
+        "x": -571.7578102157039,
+        "y": 1324.9030216520516
+      },
+      "size": {
+        "width": 252,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center",
+        "colorType": "a"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "現在 ansible を学び,アプリケーションの展開を自動化するために使用できます.この時点で,サーバーにEC2 インスタンスを設定する際に手動で実行したステップを自動化すること,すなわちSSH をサーバーにインストールすること, Node.js, Git, PostgreSQL, Application を実行することなどです.これらのことを自動化するアンsible プレイブックを書いて,SSH を入れずに新しいEC2 インスタンスを自動化して,すべての依存を手動でインストールするかどうかを確認してください.",
+        "links": []
+      }
+    },
+    {
+      "id": "b7EdI-25v_eVMkqTBa0se",
+      "type": "horizontal",
+      "label": "ホリゾントノード",
+      "position": {
+        "x": -498,
+        "y": 1552.5384432996068
+      },
+      "size": {
+        "width": 100,
+        "height": 20
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "YVMyHFSCVF-GgXydq-SFJ",
+      "type": "subtopic",
+      "label": "チェックポイント  インフラ",
+      "position": {
+        "x": -415.56446376179997,
+        "y": 1538.0384432996068
+      },
+      "size": {
+        "width": 260,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center",
+        "colorType": "a"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ローダーマップで手動で AWS コンソールにログインし,サービスをセットアップしなければならなかったことを覚えておられます.テラフォームを知っていたので,テラフォームを使ってアプリケーションのインフラを作成するプロセスを自動化して,デプロイメントが完全に自動化されます.つまり,あなたは: *テラフォームを使用してインフラストラクチャのセットアップ *GitHub アクションを使用したアンシブルCI/CDを使用したプロビジョニング * モニットを使用したモニタリング そしてそれだけです!あなたはローダーマップを成功に完了し,現在はフルスタック開発者です. あけましておめでとう!",
+        "links": []
+      }
+    },
+    {
+      "id": "2bi7EWaC5QIWX6_Vl6988",
+      "type": "paragraph",
+      "label": "",
+      "position": {
+        "x": 72.1182771963982,
+        "y": -101.66069241448308
+      },
+      "size": {
+        "width": 26,
+        "height": 25
+      },
+      "style": {
+        "fontSize": 17,
+        "borderColor": "#000000",
+        "backgroundColor": "#fcff00",
+        "color": "#ffffff",
+        "textAlign": "left",
+        "justifyContent": "flex-start",
+        "padding": 3
+      },
+      "z_index": 999
+    },
+    {
+      "id": "aaWX__NQvUofoN1VzwgD0",
+      "type": "label",
+      "label": "学ぶ 重要な テーマ",
+      "position": {
+        "x": 102.99749010787673,
+        "y": -107.16069241448308
+      },
+      "size": {
+        "width": 158,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "kvS4x6z7YWJjMpkpU01yh",
+      "type": "paragraph",
+      "label": "",
+      "position": {
+        "x": 72.1182771963982,
+        "y": -68.28925019287855
+      },
+      "size": {
+        "width": 26,
+        "height": 25
+      },
+      "style": {
+        "fontSize": 17,
+        "borderColor": "#000000",
+        "backgroundColor": "#000000",
+        "color": "#000000",
+        "textAlign": "left",
+        "justifyContent": "flex-start",
+        "padding": 3
+      },
+      "z_index": 999
+    },
+    {
+      "id": "7HLG5FTMmOWGS-mOpqnQh",
+      "type": "label",
+      "label": "プロジェクトアイデアと提案",
+      "position": {
+        "x": 102.99749010787673,
+        "y": -71.16069241448308
+      },
+      "size": {
+        "width": 249,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "X8Gvqj2h4wkfA1Cx2d1iW",
+      "type": "paragraph",
+      "label": "あなたがすでにフルスタック開発者なら,以下のトラックをご覧ください.",
+      "position": {
+        "x": -297.06446376179997,
+        "y": -251.15106699547107
+      },
+      "size": {
+        "width": 311,
+        "height": 55
+      },
+      "style": {
+        "fontSize": 17,
+        "borderColor": "transparent",
+        "backgroundColor": "transparent",
+        "color": "#000000",
+        "textAlign": "left",
+        "justifyContent": "flex-start",
+        "padding": 0
+      },
+      "z_index": 999
+    },
+    {
+      "id": "7cbUuhyNE2SoZbm2Zh_t7",
+      "type": "paragraph",
+      "label": "このロードマップのターゲット対象は 完全な開発を目指す 初心者です",
+      "position": {
+        "x": -297.06446376179997,
+        "y": -122.15106699547107
+      },
+      "size": {
+        "width": 311,
+        "height": 80
+      },
+      "style": {
+        "fontSize": 17,
+        "borderColor": "transparent",
+        "backgroundColor": "transparent",
+        "color": "#000000",
+        "textAlign": "left",
+        "justifyContent": "flex-start",
+        "padding": 0
+      },
+      "z_index": 999
+    }
+  ],
+  "edges": [
+    {
+      "id": "reactflow__edge-iogwMmOvub2ZF4zgg6WyFx2-mGgx_QTEPmVKf6AijX9fiy2",
+      "source": "iogwMmOvub2ZF4zgg6WyF",
+      "target": "B0kARTODvCBi0iOF8iiqI",
+      "source_handle": "x2",
+      "target_handle": "y2",
+      "edge_style": "solid",
+      "line_type": "smoothstep",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-B0kARTODvCBi0iOF8iiqIz2-mGgx_QTEPmVKf6AijX9fiy2",
+      "source": "B0kARTODvCBi0iOF8iiqI",
+      "target": "dAJHWmGeiYdzZ1ZjrWz1S",
+      "source_handle": "z2",
+      "target_handle": "y2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-khoUtTUxdf8udAzN9_CAbz2-mGgx_QTEPmVKf6AijX9fiw1",
+      "source": "T9PB6WQf-Fa9NXKKvVOy_",
+      "target": "mGgx_QTEPmVKf6AijX9fi",
+      "source_handle": "z2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "smoothstep",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-dAJHWmGeiYdzZ1ZjrWz1Sz2-khoUtTUxdf8udAzN9_CAby2",
+      "source": "dAJHWmGeiYdzZ1ZjrWz1S",
+      "target": "T9PB6WQf-Fa9NXKKvVOy_",
+      "source_handle": "z2",
+      "target_handle": "y2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-mGgx_QTEPmVKf6AijX9fix2-We2APJpOPTr-VNfowG0kIz2",
+      "source": "mGgx_QTEPmVKf6AijX9fi",
+      "target": "We2APJpOPTr-VNfowG0kI",
+      "source_handle": "x2",
+      "target_handle": "z2",
+      "edge_style": "solid",
+      "line_type": "smoothstep",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-We2APJpOPTr-VNfowG0kIy2-khoUtTUxdf8udAzN9_CAbz1",
+      "source": "We2APJpOPTr-VNfowG0kI",
+      "target": "8sPXL8iClpPqje03ksses",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-8sPXL8iClpPqje03kssesy2-khoUtTUxdf8udAzN9_CAbz1",
+      "source": "8sPXL8iClpPqje03ksses",
+      "target": "CVCqdPkq_hGQfI8EEi5RC",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-2kKHuQZScu7hCDgQWxl5uy2-khoUtTUxdf8udAzN9_CAbz2",
+      "source": "CVCqdPkq_hGQfI8EEi5RC",
+      "target": "khoUtTUxdf8udAzN9_CAb",
+      "source_handle": "y2",
+      "target_handle": "z2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-khoUtTUxdf8udAzN9_CAby2-QfW-odmDYknm_qXNcDu5oy1",
+      "source": "khoUtTUxdf8udAzN9_CAb",
+      "target": "QfW-odmDYknm_qXNcDu5o",
+      "source_handle": "y2",
+      "target_handle": "y1",
+      "edge_style": "solid",
+      "line_type": "smoothstep",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-QfW-odmDYknm_qXNcDu5oz2-2kKHuQZScu7hCDgQWxl5uy1",
+      "source": "QfW-odmDYknm_qXNcDu5o",
+      "target": "_aA6Hp4KkgJeptqo8oKTg",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-2kKHuQZScu7hCDgQWxl5ux2-cUOfvOlQ_0Uu1VX3i67kJz1",
+      "source": "HGhnbMg6jh6cAmUH4DtOx",
+      "target": "vmHbWdmMHF53otXIrqzRV",
+      "source_handle": "x2",
+      "target_handle": "z1",
+      "edge_style": "solid",
+      "line_type": "smoothstep",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-vmHbWdmMHF53otXIrqzRVy2-cUOfvOlQ_0Uu1VX3i67kJz2",
+      "source": "vmHbWdmMHF53otXIrqzRV",
+      "target": "vHojhJYjiN0IwruEqi1Dv",
+      "source_handle": "y2",
+      "target_handle": "z2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-vHojhJYjiN0IwruEqi1Dvy2-cUOfvOlQ_0Uu1VX3i67kJz1",
+      "source": "vHojhJYjiN0IwruEqi1Dv",
+      "target": "Onfd7Sl8LG2sjh2aQY7gb",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-Onfd7Sl8LG2sjh2aQY7gby2-cUOfvOlQ_0Uu1VX3i67kJw1",
+      "source": "Onfd7Sl8LG2sjh2aQY7gb",
+      "target": "SHTSvMDqI7X1_ZT7-m--n",
+      "source_handle": "y2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "smoothstep",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-SHTSvMDqI7X1_ZT7-m--nz2-cUOfvOlQ_0Uu1VX3i67kJy2",
+      "source": "SHTSvMDqI7X1_ZT7-m--n",
+      "target": "cUOfvOlQ_0Uu1VX3i67kJ",
+      "source_handle": "z2",
+      "target_handle": "y2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-cUOfvOlQ_0Uu1VX3i67kJz2-2kKHuQZScu7hCDgQWxl5uw2",
+      "source": "cUOfvOlQ_0Uu1VX3i67kJ",
+      "target": "y1SFX7uvWaCy4OYBnECLu",
+      "source_handle": "z2",
+      "target_handle": "w2",
+      "edge_style": "solid",
+      "line_type": "smoothstep",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-_aA6Hp4KkgJeptqo8oKTgz2-HGhnbMg6jh6cAmUH4DtOxw1",
+      "source": "_aA6Hp4KkgJeptqo8oKTg",
+      "target": "HGhnbMg6jh6cAmUH4DtOx",
+      "source_handle": "z2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "smoothstep",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-y1SFX7uvWaCy4OYBnECLux2-2kKHuQZScu7hCDgQWxl5uz1",
+      "source": "y1SFX7uvWaCy4OYBnECLu",
+      "target": "863KMXcFJzInvTp_-Ldmz",
+      "source_handle": "x2",
+      "target_handle": "z1",
+      "edge_style": "solid",
+      "line_type": "smoothstep",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-863KMXcFJzInvTp_-Ldmzy2-2kKHuQZScu7hCDgQWxl5uz2",
+      "source": "863KMXcFJzInvTp_-Ldmz",
+      "target": "rFXupYpUFfp7vZO8zh614",
+      "source_handle": "y2",
+      "target_handle": "z2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-rFXupYpUFfp7vZO8zh614y2-2kKHuQZScu7hCDgQWxl5uw1",
+      "source": "rFXupYpUFfp7vZO8zh614",
+      "target": "2kKHuQZScu7hCDgQWxl5u",
+      "source_handle": "y2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "smoothstep",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    }
+  ],
+  "content_crawled_at": "2026-04-06T09:32:36.791317+00:00"
+}

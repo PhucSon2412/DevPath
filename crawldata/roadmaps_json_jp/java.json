@@ -1,0 +1,4275 @@
+{
+  "id": "java",
+  "title": "Java",
+  "source_url": "https://roadmap.sh/java",
+  "github_url": "https://github.com/kamranahmedse/developer-roadmap/tree/master/src/data/roadmaps/java",
+  "crawled_at": "2026-04-06T07:37:10.643354+00:00",
+  "type": "flow",
+  "stats": {
+    "total_nodes": 117,
+    "total_edges": 44,
+    "nodes_with_content": 86
+  },
+  "node_types": [
+    "button",
+    "horizontal",
+    "label",
+    "paragraph",
+    "section",
+    "subtopic",
+    "title",
+    "topic",
+    "vertical"
+  ],
+  "edge_styles": [
+    "dashed",
+    "solid"
+  ],
+  "edge_line_types": [
+    "default",
+    "simplebezier",
+    "smoothstep"
+  ],
+  "node_type_description": {
+    "title": "ロードマップの主題",
+    "topic": "主題大 (nhóm kỹ năng)",
+    "subtopic": "Kỹ năng/công nghệ cụ thể cần học",
+    "paragraph": "文は mô tả / chú thích",
+    "vertical": "Đường kết nối dọc (ビジュアルコネクタ)"
+  },
+  "edge_style_description": {
+    "solid": "Kỹ năng bắt buộc / quan trọng",
+    "dashed": "選択 / gợi ý / オルタナティブ"
+  },
+  "nodes": [
+    {
+      "id": "CdLumO1g7RNbOkwUFkVC3",
+      "type": "horizontal",
+      "label": "ホリゾントノード",
+      "position": {
+        "x": 1216.3696984675892,
+        "y": 1636.8196545591995
+      },
+      "size": {
+        "width": 157,
+        "height": 20
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.65,
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "VheIOU0XKrEw_5M-Wv4yv",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": 1022.3252013753893,
+        "y": 1620.015947794886
+      },
+      "size": {
+        "width": 195,
+        "height": 124
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "8Ej86dM3j55V5r29WHTef",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": 839.8929054677501,
+        "y": 1619.5740097760008
+      },
+      "size": {
+        "width": 187,
+        "height": 168
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "phhoZcCGuVm_zYFfcArb8",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": 699.482369832682,
+        "y": 1618.4390443834811
+      },
+      "size": {
+        "width": 146,
+        "height": 169
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "iv_f10rCHm21sz5hesZxj",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": 1688.2217949048954,
+        "y": 1645.8131791964786
+      },
+      "size": {
+        "width": 21,
+        "height": 104
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.65,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "l40LZhtS-ldRtJ2cgiiXc",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": 1577.5469679422956,
+        "y": 1649.8131791964786
+      },
+      "size": {
+        "width": 21,
+        "height": 100
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.65,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "7HWfRgtCU9Dv2N_3oHwYe",
+      "type": "horizontal",
+      "label": "ホリゾントノード",
+      "position": {
+        "x": 945.0073106597292,
+        "y": 1515.8599244017678
+      },
+      "size": {
+        "width": 96,
+        "height": 20
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.65
+      },
+      "z_index": 999
+    },
+    {
+      "id": "BUES6hALwmHMS0oAKPKz0",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": 782.5073106597292,
+        "y": 1116.3203519457165
+      },
+      "size": {
+        "width": 21,
+        "height": 166
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.6
+      },
+      "z_index": 999
+    },
+    {
+      "id": "pbxsWeOonIRXRxPpdV-zo",
+      "type": "horizontal",
+      "label": "ホリゾントノード",
+      "position": {
+        "x": 818.6618709488598,
+        "y": 1178.2990031143668
+      },
+      "size": {
+        "width": 170,
+        "height": 20
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.6
+      },
+      "z_index": 999
+    },
+    {
+      "id": "myugQ4WCRi1GGRZJ8uu5k",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": 808.6618709488598,
+        "y": 1115.3203519457165
+      },
+      "size": {
+        "width": 21,
+        "height": 75
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.6
+      },
+      "z_index": 999
+    },
+    {
+      "id": "ofYL6wlERXJaXuKL075zY",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": 703.0073106597292,
+        "y": 1280.8599244017678
+      },
+      "size": {
+        "width": 243,
+        "height": 270
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "FY6qOOwg_pdFKoYPVOeys",
+      "type": "horizontal",
+      "label": "ホリゾントノード",
+      "position": {
+        "x": 1478.3696984675892,
+        "y": 1176.8203519457165
+      },
+      "size": {
+        "width": 65,
+        "height": 20
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.65
+      },
+      "z_index": 999
+    },
+    {
+      "id": "ekkBrbM8BtpMu3TpHadYb",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": 1251.596805689261,
+        "y": 889.688197690446
+      },
+      "size": {
+        "width": 229,
+        "height": 322
+      },
+      "style": {
+        "width": 150,
+        "height": 100,
+        "fontSize": 17,
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "FyTlaUqrK5h3e5mWwkvVg",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": 1018.5552405844742,
+        "y": 524.0085042417479
+      },
+      "size": {
+        "width": 450,
+        "height": 316
+      },
+      "style": {
+        "width": 150,
+        "height": 100,
+        "fontSize": 17,
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "o5yOEJFOR-wScK0GWPuQq",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": 701.5073106597292,
+        "y": 403.3478959395741
+      },
+      "size": {
+        "width": 249,
+        "height": 440
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "hp15XdmPlKKTbYnrYfCBl",
+      "type": "title",
+      "label": "Java",
+      "position": {
+        "x": 1193.3343015809069,
+        "y": -6.124142006891191
+      },
+      "size": {
+        "width": 100,
+        "height": 68
+      },
+      "style": {
+        "fontSize": 28,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "2TGq1y2QthnxxN-FfToSe",
+      "type": "topic",
+      "label": "基礎 を 学ぶ",
+      "position": {
+        "x": 1125.8343015809069,
+        "y": 187.97715893815337
+      },
+      "size": {
+        "width": 235,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Java は 1995 年,Sun Microsystems が最初にリリースしたプログラミング言語とコンピューティングプラットフォームである.Java は,実装依存度が少なくなるために設計された汎用,クラスベースの,オブジェクト指向的なプログラミング言語である.アプリケーション開発のためのコンピューティングプラットフォームである.Java は高速で安全で信頼できる.したがって,ラップトップ,データセンター,ゲームコンソール,科学超コンピュータ,携帯電話などでJava アプリケーションを開発するために広く使用されています.Java の基本的な構文,データタイプ,変数,条件,機能,データ構造,パッケージなどについて学びましょう.",
+        "links": [
+          {
+            "title": "ハイパースキル (ジェットブレインズアカデミー) によってジャワへの導入",
+            "url": "https://hyperskill.org/tracks/8",
+            "type": "course"
+          },
+          {
+            "title": "Java の 首",
+            "url": "https://www.amazon.co.uk/Head-First-Java-3rd-Brain-Friendly/dp/1491910771",
+            "type": "article"
+          },
+          {
+            "title": "ジャワ語 で 考える",
+            "url": "https://www.amazon.co.uk/Thinking-Java-Eckel-Bruce-February/dp/B00IBON6C6",
+            "type": "article"
+          },
+          {
+            "title": "効果的なJava",
+            "url": "https://www.amazon.com/Effective-Java-Joshua-Bloch/dp/0134685997",
+            "type": "article"
+          },
+          {
+            "title": "ジャワ: 初心者向けガイド",
+            "url": "https://www.amazon.co.uk/Java-Beginners-Guide-Herbert-Schildt/dp/1260463559",
+            "type": "article"
+          },
+          {
+            "title": "Java: 完全な参照",
+            "url": "https://www.amazon.co.uk/gp/product/B09JL8BMK7/ref=dbs_a_def_rwt_bibl_vppi_i2",
+            "type": "article"
+          },
+          {
+            "title": "初心者向けジャワ・チュートリアル",
+            "url": "https://youtu.be/eIrMbAQSU34",
+            "type": "video"
+          },
+          {
+            "title": "Java + DSA + 面接準備コース (初心者向け)",
+            "url": "https://youtube.com/playlist?list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ",
+            "type": "video"
+          },
+          {
+            "title": "Javaに関するトップ記事を探索する",
+            "url": "https://app.daily.dev/tags/java?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "rj8ATHPvFP-QtD9mDLY0Z",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": 1232.8343015809069,
+        "y": -98.12414200689119
+      },
+      "size": {
+        "width": 21,
+        "height": 92
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.75,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "OlbQNB6YXZjO1J7D0lZU1",
+      "type": "subtopic",
+      "label": "基本構文",
+      "position": {
+        "x": 699.1618709488599,
+        "y": 81.97715893815337
+      },
+      "size": {
+        "width": 248,
+        "height": 50
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "基礎を理解することは,堅固な基礎の鍵です.このセクションでは,基本的な用語,命名コンベンション,予約されたキーワード,表現,声明,データ構造,OOP,パッケージ,などを学びます. * プリント出力使用 --> System.out.println(); * ユーザーからの入力を取得 --> スキャナーまたはバッファレードリーダークラスを使用できます.",
+        "links": [
+          {
+            "title": "ジャワ言語の基礎",
+            "url": "https://dev.java/learn/language-basics",
+            "type": "official"
+          },
+          {
+            "title": "Java - 基本的な構文",
+            "url": "https://www.youtube.com/watch?v=81piDKqPxjQ",
+            "type": "video"
+          },
+          {
+            "title": "初心者向けジャワ・チュートリアル",
+            "url": "https://www.youtube.com/watch?v=RRubcjpTkks",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5g9mmi01WeZ4aDqNzwx_V",
+      "type": "subtopic",
+      "label": "データタイプ",
+      "position": {
+        "x": 699.1618709488599,
+        "y": 187.97715893815337
+      },
+      "size": {
+        "width": 248,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Java の変数は,Java のプログラムを実行中にデータ値を保存するデータコンテナである.各変数は,その持つことができる値の種類と量を指定するデータタイプが割り当てられる.変数は,データのメモリ場所の名前である.Java の変数は主に3種類である.ローカル,インスタンス,ステティック.データタイプは,2つのグループに分けられる - *プリミティブ - バイト,ショート,イント,ロング,フローート,ダブル,ブーリアン,チャール *非プリミティブ - ストリング,アレイ,クラス,エンーム,レコード",
+        "links": [
+          {
+            "title": "Java データタイプ",
+            "url": "https://jenkov.com/tutorials/java/variables.html",
+            "type": "article"
+          },
+          {
+            "title": "データタイプと変数とは?",
+            "url": "https://jenkov.com/tutorials/java/data-types.html",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sG_3ZQIE1-FQXQkk-OduQ",
+      "type": "subtopic",
+      "label": "条件",
+      "position": {
+        "x": 1522.5338845627668,
+        "y": 239.38076562915717
+      },
+      "size": {
+        "width": 234,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Java には以下の条件がある: * `if` を使って実行されるコードブロックを指定する,指定された条件が正しい場合 * `else` を使って実行されるコードブロックを指定する,同じ条件が間違っている場合 * `else if` を使ってテストする新しい条件を指定する,最初の条件が間違っている場合 * `switch` を使って実行されるコードブロックを指定する * `?,:` オペレーターを使って,一行条件を指定する",
+        "links": [
+          {
+            "title": "条件の申告とは?",
+            "url": "https://www.educative.io/answers/what-are-conditional-statements-in-programming",
+            "type": "article"
+          },
+          {
+            "title": "Java の 条件 と ループ",
+            "url": "https://youtu.be/ldYLYRNaucM",
+            "type": "video"
+          },
+          {
+            "title": "スイッチステートメント + Java でネストケース",
+            "url": "https://youtu.be/mA23x39DjbI",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5khApwg1FZ-0qorsLyH-F",
+      "type": "subtopic",
+      "label": "アレイ",
+      "position": {
+        "x": 1522.5338845627668,
+        "y": 186.38076562915717
+      },
+      "size": {
+        "width": 234,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "アレイは,隣接するメモリ場所に同じデータタイプの要素のコレクションを保存するために使用される基本的なデータ構造である.それらは,単一の変数名とインデックスを使用して複数の値を組織し,アクセスする方法を提供します.アレイの各要素は, 0 から始まるインデックスを使用して直接アクセスできます.",
+        "links": [
+          {
+            "title": "Java アレイ",
+            "url": "https://jenkov.com/tutorials/java/arrays.html",
+            "type": "article"
+          },
+          {
+            "title": "Java アレイズ チュートリアル",
+            "url": "https://www.youtube.com/watch?v=ei_4Nt7XWOw",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JHUhVEjWFXTn6-wKcKevg",
+      "type": "subtopic",
+      "label": "ループ",
+      "position": {
+        "x": 1522.5338845627668,
+        "y": 292.38076562915717
+      },
+      "size": {
+        "width": 234,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Javaおよび他のプログラミング言語では,ループはプログラムの一部を何度も繰り返すために使用されます.Javaでは四種類のループがあります: `for`, `forEach`, `while`, `do...while`. * `for`ループの構文は `for(初期化;条件;インクリメント/デクレメント) {}` * `forE`ループの構文は `for(_data type variable:array_name) {}`",
+        "links": [
+          {
+            "title": "Java でループです",
+            "url": "https://www.programiz.com/java-programming/for-loop",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "VBNcAO0STaZJ1iV9A7utv",
+      "type": "subtopic",
+      "label": "変数と範囲",
+      "position": {
+        "x": 699.1618709488599,
+        "y": 240.97715893815337
+      },
+      "size": {
+        "width": 248,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "変数は,プログラム内のデータを保持するコンテナのようなものです.各変数は名前,タイプ (整数,テキスト,ブーリアンなど) と値を持っています.変数の範囲は,コード内のその変数をどこにアクセスし,利用できるかを決定します.その範囲を理解することは,名前衝突を避けるために不可欠であり,プログラムの異なる部分内でデータが正しくアクセスされていることを確認します.",
+        "links": [
+          {
+            "title": "Java 変数",
+            "url": "https://jenkov.com/tutorials/java/variables.html",
+            "type": "article"
+          },
+          {
+            "title": "Java 変数 範囲",
+            "url": "https://www.baeldung.com/java-variable-scope",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "yNDbk6r5wFqBi25xmIRF_",
+      "type": "subtopic",
+      "label": "鋳造型",
+      "position": {
+        "x": 699.1618709488599,
+        "y": 293.97715893815337
+      },
+      "size": {
+        "width": 248,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "タイプキャスティング (Type Casting) は,あるデータ型から別のデータ型に変数を変換するプロセスである.異なるタイプの変数間の操作を行う必要がある場合,または別のタイプの変数の1つのタイプの値を別のタイプの変数に保存する必要がある場合,しばしば必要である.Javaでは,タイプキャスティングは暗黙 (自動) または明示 (キャスティングオペレーターの必要性) がある.",
+        "links": [
+          {
+            "title": "ジャワ で タイプ する こと: 知ら なけれ ば なら ない すべて",
+            "url": "https://www.simplilearn.com/tutorials/java-tutorial/type-casting-in-java",
+            "type": "article"
+          },
+          {
+            "title": "Java タイプ キャスティング (例付き)",
+            "url": "https://www.programiz.com/java-programming/typecasting",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "aEaBobzFWv0mJHGAbgxKY",
+      "type": "subtopic",
+      "label": "弦 と 方法",
+      "position": {
+        "x": 1522.5338845627668,
+        "y": 80.38076562915717
+      },
+      "size": {
+        "width": 234,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "文字列は,文字や文言のような文字の連続で,プログラミングでテキストを表すものです.メソッドは,文字列の長さを探す,ケース (大文字または小文字) を変更する,またはその部分を取り出すなど,これらの文字列で実行できるアクションです.これらの方法により,テキストデータを効果的に操作し,作業することができます.",
+        "links": [
+          {
+            "title": "Java 文字列",
+            "url": "https://jenkov.com/tutorials/java/strings.html",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ziD_XwzJSFQP_3iLjq9pA",
+      "type": "subtopic",
+      "label": "数学操作",
+      "position": {
+        "x": 1522.5338845627668,
+        "y": 133.38076562915717
+      },
+      "size": {
+        "width": 234,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "数学の操作には数値を用いて計算を行うことが含まれます.これらの操作には加算,減算,倍数,分割,モジュール (残りを探す) が含まれます. 数学的問題を解くための基本的な構成要素であり,プログラミングでデータを操作するものです.",
+        "links": [
+          {
+            "title": "Java 数学",
+            "url": "https://jenkov.com/tutorials/java/math-operators-and-math-class.html",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "QgWalJLIb6Fw0HhN1wb02",
+      "type": "subtopic",
+      "label": "プログラム の 生涯 サイクル",
+      "position": {
+        "x": 699.1618709488599,
+        "y": 134.97715893815337
+      },
+      "size": {
+        "width": 248,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Javaでは,プログラムライフサイクルはコードを実行するために複数の異なる段階で構成されています.プロセスは,開発者がIDEまたはテキストエディタを使用してJavaソースコードを `.java`ファイルに書き込むことで始まります.このコードはJavaコンパイラ (javac) によって `.class`ファイルに保存されたバイトコードにコンパイルされ,コンパイル中に文法とタイプチェックが行われます.プログラムが実行されると,Java バーチャルマシン (JVM) はバイナリーデータの読み込み,検証と準備のためのリンク,クラス要素の初期化を含むプロセスを通して,これらのコンパイルされたクラスファイルをメモリにロードします.その後,JVMはバイトコードのセキュリティコンプライアンスを確認し,バイトコードをネイティブマシンコードに翻訳するために Just-In-Time (JIT) コンパイルを実行し,システムリソースを管理しながらプログラム指示を実行します.実行中に,JVMは未使用物体からのメモリを回収することによってゴミ収集を処理し,最終的にプログラム終了時にすべてのリソースをリリースします.このアーキテクチャはJavaの\"一度書き,どこでも実行する\"機能を可能にします.バイトコードは,互換性のあるJVMを持つ任意のデバイスで実行できます.",
+        "links": [
+          {
+            "title": "Java の プログラム の 生涯 サイクル",
+            "url": "https://www.startertutorials.com/corejava/life-cycle-java-program.html",
+            "type": "article"
+          },
+          {
+            "title": "JVMがJavaコードを実行する方法",
+            "url": "https://www.cesarsotovalero.net/blog/how-the-jvm-executes-java-code.html",
+            "type": "article"
+          },
+          {
+            "title": "Java で JIT vs AOT コンパイル",
+            "url": "https://bell-sw.com/blog/compilation-in-java-jit-vs-aot/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "LenPrQwxFsE1UVbXO_dE7",
+      "type": "subtopic",
+      "label": "クラスと対象",
+      "position": {
+        "x": 712.0073106597292,
+        "y": 462.3478959395741
+      },
+      "size": {
+        "width": 230,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "クラスは,そのクラスのオブジェクトが持つ特徴 (属性) と行動 (方法) を定義する. クラスはテンプレートとして,オブジェクトはそのテンプレートから作成された特定のインスタンスを考える.",
+        "links": [
+          {
+            "title": "Javaクラスとオブジェクト",
+            "url": "https://www.programiz.com/java-programming/class-objects",
+            "type": "article"
+          },
+          {
+            "title": "Javaクラスとオブジェクト",
+            "url": "https://www.youtube.com/watch?v=IUqKuGNasdM",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "xTwJYcA6ldgaw3yGmbDEd",
+      "type": "subtopic",
+      "label": "属性 と 方法",
+      "position": {
+        "x": 712.0073106597292,
+        "y": 515.3478959395741
+      },
+      "size": {
+        "width": 230,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "属性とは,あるオブジェクトに関するデータを保持し,その状態や特徴を定義する変数である.メソッドは,あるオブジェクトの行動を定義する関数で,そのオブジェクトが行動や操作を実行できるようにする.属性と方法は,クラス内のオブジェクトのデータと行動をまとめます.",
+        "links": [
+          {
+            "title": "Javaクラス",
+            "url": "https://jenkov.com/tutorials/java/classes.html",
+            "type": "article"
+          },
+          {
+            "title": "Java メソッド",
+            "url": "https://jenkov.com/tutorials/java/methods.html",
+            "type": "article"
+          },
+          {
+            "title": "Java の 特性",
+            "url": "https://jenkov.com/tutorials/java-collections/properties.html",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "KYndNwfQcwRCf3zCXOwd_",
+      "type": "subtopic",
+      "label": "アクセス仕様",
+      "position": {
+        "x": 712.0073106597292,
+        "y": 568.3478959395741
+      },
+      "size": {
+        "width": 230,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Java のアクセス指定 (またはアクセス修正) は,クラス,方法,コンストラクター,および他のメンバーの可視性またはアクセシビリティを制御するキーワードである.これらのメンバーがどこからアクセスできるかを決定する.Javaは4つのアクセス指定を提供します: `プライベート`, `デフォルト` (キーワードなし), `保護`,および `パブリック`,それぞれ異なるレベルのアクセス制御を提供しています.",
+        "links": [
+          {
+            "title": "Java アクセス モディファー",
+            "url": "https://jenkov.com/tutorials/java/access-modifiers.html",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ZcNxO6qIXIg7RaWYnZj2e",
+      "type": "subtopic",
+      "label": "静的キーワード",
+      "position": {
+        "x": 712.0073106597292,
+        "y": 621.3478959395741
+      },
+      "size": {
+        "width": 230,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`static`キーワードは,クラスの特定のインスタンスの代わりに,クラスに属するメンバー (変数と方法) を作成するために使用されます.つまり,そのクラスのすべてのオブジェクトが共有する静数変数のコピーが1つしかありません.また,オブジェクトを作成する必要なしに,クラス名を直接使用して静数メンバーにアクセスできます.静数方法は静数変数にアクセスし,他の静数方法を呼び出すだけです.",
+        "links": [
+          {
+            "title": "Java スタティック キーワード の 例 に よっ て 説明 さ れ て いる",
+            "url": "https://www.freecodecamp.org/news/java-static-keyword-explained/",
+            "type": "article"
+          },
+          {
+            "title": "Java の 静態 と 非静態 の フィールド",
+            "url": "https://jenkov.com/tutorials/java/fields.html#static-and-non-static-fields",
+            "type": "article"
+          },
+          {
+            "title": "Javaの\"静態\"キーワードのガイド",
+            "url": "https://www.baeldung.com/java-static",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "zDBW20W2XMCtNTG3emJ_A",
+      "type": "subtopic",
+      "label": "巣の種",
+      "position": {
+        "x": 712.0073106597292,
+        "y": 726.5225969995055
+      },
+      "size": {
+        "width": 230,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "巣のクラスとは,別のクラス内で定義されたクラスである.内部のクラスを含むクラスは,外部クラスとして知られる.巣のクラスは,プライベートであると宣言されたとしても,外部クラスのメンバーにアクセスできます.これらは,論理的に一つの場所にのみ使用されるクラスをグループ化する方法であり,封装と維持性を高めます.",
+        "links": [
+          {
+            "title": "Java の 巣 の クラス",
+            "url": "https://jenkov.com/tutorials/java/nested-classes.html",
+            "type": "article"
+          },
+          {
+            "title": "ジャワ の 巣 の クラス の ガイド",
+            "url": "https://www.baeldung.com/java-nested-classes",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "DZ4BX4NYeCQbjGSj56lng",
+      "type": "subtopic",
+      "label": "OOPの基礎",
+      "position": {
+        "x": 1522.5338845627668,
+        "y": 345.38076562915717
+      },
+      "size": {
+        "width": 234,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "オブジェクト指向式プログラミング (OOP) は,フィールド (属性) の形でデータと手順 (方法) の形でコードを含んでいる\"オブジェクト\"を中心としたプログラミングパラダイムである.OOPは,モジュール性,抽象性,相続性,ポリモルフィズムを可能にするようなオブジェクトに関連するデータと行動をグループ化し,再利用可能なコードを作成することに焦点を当てています.これらの概念は,現実世界のエンティティとその相互作用を反映する方法でコードを組織し,構造化するのに役立ちます.",
+        "links": [
+          {
+            "title": "Javaクラスとオブジェクト",
+            "url": "https://jenkov.com/tutorials/java/classes.html",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "zNHDLv26Xn3oMrDVSAP1Z",
+      "type": "paragraph",
+      "label": "対象型 プログラミング",
+      "position": {
+        "x": 1075.0552405844742,
+        "y": 416.3478959395741
+      },
+      "size": {
+        "width": 337,
+        "height": 52
+      },
+      "style": {
+        "fontSize": 20,
+        "borderColor": "transparent",
+        "backgroundColor": "transparent",
+        "color": "#000000",
+        "textAlign": "center",
+        "justifyContent": "center",
+        "padding": 16
+      },
+      "z_index": 999
+    },
+    {
+      "id": "ryMPhTTScI9pJMkQsZaaM",
+      "type": "label",
+      "label": "OOPの基礎",
+      "position": {
+        "x": 762.5073106597292,
+        "y": 416.3478959395741
+      },
+      "size": {
+        "width": 129,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "X6xl98_RqAQY79baHmRRI",
+      "type": "horizontal",
+      "label": "ホリゾントノード",
+      "position": {
+        "x": 949.5073106597292,
+        "y": 432.3478959395741
+      },
+      "size": {
+        "width": 140,
+        "height": 20
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.65,
+        "strokeDasharray": "0",
+        "strokeLinecap": "round"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "sHYmeXbdREoxrru0PZ3Px",
+      "type": "label",
+      "label": "OOPについてもっと",
+      "position": {
+        "x": 1170.5552405844742,
+        "y": 533.5536247250346
+      },
+      "size": {
+        "width": 146,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "Ax2ouIZgN1DpPzKDy4fwp",
+      "type": "subtopic",
+      "label": "鎖定方法",
+      "position": {
+        "x": 981.8343015809069,
+        "y": 632.5536247250346
+      },
+      "size": {
+        "width": 210,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "メソッドチェーンリングは,複数のメソッド呼び出しが同じオブジェクトで,単一の記述で連続的に実行されるプログラミング技術である.チェーン内の各メソッドはオブジェクトを返し,返されたオブジェクトで次のメソッドを呼び出すことを可能にします.このアプローチは,一時変数と中間ステップの必要性を減らすことでコードの読みやすさと簡素性を高めます.",
+        "links": [
+          {
+            "title": "@GeeksforGeeks@Method Chaining in Java の例で",
+            "url": "https://www.geeksforgeeks.org/java/method-chaining-in-java-with-examples/",
+            "type": "article"
+          },
+          {
+            "title": "Java でメソッドチェーンの達成方法",
+            "url": "https://stackoverflow.com/questions/21180269/how-to-achieve-method-chaining-in-java",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ey1f8IsdAlDv1O3E_tNog",
+      "type": "subtopic",
+      "label": "エナム",
+      "position": {
+        "x": 981.8343015809069,
+        "y": 685.5536247250346
+      },
+      "size": {
+        "width": 101,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Enums は,名前の定数の一群を代表するJavaの特殊データタイプである.これは,先定値の特定のセットのみを担うことができるタイプを定義することを可能にします.これは変数が持つ可能性のある値を制限することによって,コードをより読みやすくし,エラーの発生率を減らすことができます.",
+        "links": [
+          {
+            "title": "Java Enums",
+            "url": "https://jenkov.com/tutorials/java/enums.html",
+            "type": "article"
+          },
+          {
+            "title": "Java Enums",
+            "url": "https://www.programiz.com/java-programming/enums",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Ajuc_rHObqMQBXLqRIuxh",
+      "type": "subtopic",
+      "label": "最終的なキーワード",
+      "position": {
+        "x": 712.0073106597292,
+        "y": 674.3478959395741
+      },
+      "size": {
+        "width": 230,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Java の `最終`キーワードは,変数,方法,またはクラスに制限を適用するために使用される非アクセス変数です.変数に適用すると,変数の値が初期化後常数になります.方法に適用すると,方法がサブクラスに覆われるのを防ぐ.クラスに適用すると,クラスがサブクラス (継承) されるのを防ぐ.",
+        "links": [
+          {
+            "title": "Java 最終キーワード",
+            "url": "https://www.baeldung.com/java-final",
+            "type": "article"
+          },
+          {
+            "title": "Java の最終的なキーワードはどのように動作するのですか? 私はまだオブジェクトを修正することができます",
+            "url": "https://stackoverflow.com/questions/15655012/how-does-the-final-keyword-in-java-work-i-can-still-modify-an-object",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3qowgj1pas1X7oRric9eU",
+      "type": "subtopic",
+      "label": "対象生命周期",
+      "position": {
+        "x": 981.8343015809069,
+        "y": 579.5536247250346
+      },
+      "size": {
+        "width": 210,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "オブジェクトライフサイクルは,オブジェクトが作成 (メモリ配置) から破壊 (メモリ回収) まで行なう一連の段階を指します.これらの段階には,オブジェクトがもはや必要でないときにオブジェクト作成,初期化,使用,および最終的にゴミ収集が含まれます.このライフサイクルの理解は,効率的なメモリ管理およびリソースの漏洩を防ぐために不可欠です.",
+        "links": []
+      }
+    },
+    {
+      "id": "qdA6bK9ZkP8p0_NH_wMuj",
+      "type": "subtopic",
+      "label": "抽象化",
+      "position": {
+        "x": 1365.6267811847088,
+        "y": 579.0404190441817
+      },
+      "size": {
+        "width": 139,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Java の抽象キーワードは,直接にインスタンスできないクラスやメソッドを宣言するために使用されます.またはサブクラスによって実装する必要があります.これはJava の抽象メカニズムの重要な部分であり,開発者が他のクラスのためのブループリントを提供する抽象クラスとメソッドを定義することを可能にします.",
+        "links": [
+          {
+            "title": "Java 抽象 クラス",
+            "url": "https://jenkov.com/tutorials/java/abstract-classes.html",
+            "type": "article"
+          },
+          {
+            "title": "Java インターフェース対抽象クラス",
+            "url": "https://jenkov.com/tutorials/java/interfaces-vs-abstract-classes.html",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PXpPEmCEBUKRjwP3B5LzJ",
+      "type": "subtopic",
+      "label": "遺産",
+      "position": {
+        "x": 1197.6267811847088,
+        "y": 579.5536247250346
+      },
+      "size": {
+        "width": 165,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "継承は,新しいクラス (サブクラスまたは派生クラスと呼ばれる) が既存のクラス (スーパークラスまたはベースクラスと呼ばれる) からプロパティと行動を取得するオブジェクト指向プログラミングの基本的な概念です. これにより,コードを再利用し,クラス間の階層的な関係を構築し,より組織的で維持可能なコードベースを促進します.サブクラスには新しい属性や方法を追加したり,既存の属性を優先したりすることによってスーパークラスを拡張することができます.",
+        "links": [
+          {
+            "title": "ジャワ の 遺産",
+            "url": "https://jenkov.com/tutorials/java/inheritance.html",
+            "type": "article"
+          },
+          {
+            "title": "ジャワ語 の 遺産 に 例 を 挙げ て い ます",
+            "url": "https://www.digitalocean.com/community/tutorials/inheritance-java-example",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "y-i56f1P_mMdvyBr7J4XE",
+      "type": "subtopic",
+      "label": "メソッド 過積載 / 過積載",
+      "position": {
+        "x": 1197.6267811847088,
+        "y": 685.5536247250346
+      },
+      "size": {
+        "width": 307,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "メソッドオーバーロードは,同じクラスで複数のメソッドを同じ名前で,異なるパラメータ (異なる数,種類,またはパラメータの順序) で定義することを可能にします.一方,メソッドオーバーロードは,サブクラスがすでにそのスーパークラスで定義されているメソッドの特定の実装を提供するときに発生します.オーバーロードが起こるためには,メソッド署名 (名前とパラメータ) はスーパークラスとサブクラスの両方で同じである必要があります.",
+        "links": [
+          {
+            "title": "Javaでオーバーロードとオーバーロード",
+            "url": "https://www.digitalocean.com/community/tutorials/overriding-vs-overloading-in-java",
+            "type": "article"
+          },
+          {
+            "title": "Java 遺産 チュートリアル",
+            "url": "https://jenkov.com/tutorials/java/inheritance.html",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Kjdj862xnz8fqDYE3HKhC",
+      "type": "subtopic",
+      "label": "静的対動的結合",
+      "position": {
+        "x": 1197.6267811847088,
+        "y": 739.5536247250346
+      },
+      "size": {
+        "width": 307,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "静的結合は,初期結合とも呼ばれ,コンパイル時に起こります.コンパイル者は変数の種類に基づいてどの方法が呼び出されるかを正確に知っています.動力結合または遅延結合は実行時に起こります.呼び出される特定の方法は,変数の種類ではなく実際のオブジェクトタイプに基づいて決定され,より柔軟性とポリモルフィズムを可能にします.",
+        "links": [
+          {
+            "title": "Java で 静的 と 動的 結合",
+            "url": "https://www.baeldung.com/java-static-dynamic-binding",
+            "type": "article"
+          },
+          {
+            "title": "スタティック・ダイナミック・バインディング (Java) の例",
+            "url": "https://beginnersbook.com/2013/04/java-static-dynamic-binding/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6wTRN2PYC6zM_Txkekx53",
+      "type": "subtopic",
+      "label": "インターフェース",
+      "position": {
+        "x": 1366.9652858056302,
+        "y": 632.5536247250346
+      },
+      "size": {
+        "width": 139,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Java のインターフェースは,クラスの蓝図である. インターフェイスを実装すると主張する場合は,クラスが実装しなければならない一連の方法を指定する. 契約として考えてください.契約を\"署名する\"クラス (インターフェイスを実装する) は,特定の行動 (方法) を提供することに同意します.インターフェースには常数 (静止最終変数) も含まれます. 彼らはJava で抽象化と多重相続を達成するのに役立ちます.",
+        "links": [
+          {
+            "title": "Java のインターフェース",
+            "url": "https://jenkov.com/tutorials/java/interfaces.html",
+            "type": "article"
+          },
+          {
+            "title": "Java インターフェイス の ガイド",
+            "url": "https://www.baeldung.com/java-interfaces",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "iH9wSsOK4a77pS7U0Yu5z",
+      "type": "subtopic",
+      "label": "包装",
+      "position": {
+        "x": 1197.6267811847088,
+        "y": 632.5536247250346
+      },
+      "size": {
+        "width": 164,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "封装は,データとそのデータ上で動作する方法が単一の単位として結合されるオブジェクト指向式プログラミングの基本的な概念である.この単位は,しばしばクラスである.オブジェクトの内部状態を外の世界から隠し,それと相互作用するための制御されたインターフェースのみを暴露する.これは,データを偶然の変更から保護し,コードの維持と変更を容易にする.",
+        "links": [
+          {
+            "title": "Java - 封装",
+            "url": "https://www.tutorialspoint.com/java/java_encapsulation.htm",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "VqLV7kolfRFnvOuJAvzlg",
+      "type": "subtopic",
+      "label": "記録",
+      "position": {
+        "x": 1087.8343015809069,
+        "y": 685.5536247250346
+      },
+      "size": {
+        "width": 104,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "記録はJavaの特殊なタイプのクラスで,不可変なデータを保持するように設計されています.そのヘッダーで宣言されたコンポーネントに基づいて,自動で `=() `, `hashCode() `, `toString() ` のような方法を生成します. ボイラープレートコードを削減します.レコードは,データの転送オブジェクト (DTO) または単純なデータアゲゲゲレットを作成するのに有用です.その主な目的はデータを保存しアクセスすることです.",
+        "links": [
+          {
+            "title": "Java レコード",
+            "url": "https://jenkov.com/tutorials/java/record.html",
+            "type": "article"
+          },
+          {
+            "title": "Java レコード",
+            "url": "https://www.youtube.com/watch?v=xs7DiEIHW0U",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "60POZOjwHSdKYL6rfkyEy",
+      "type": "subtopic",
+      "label": "パッケージ",
+      "position": {
+        "x": 712.0073106597292,
+        "y": 780.5225969995055
+      },
+      "size": {
+        "width": 230,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "パッケージは,主にクラスとインターフェースを含む名前空間である.例えば,標準クラス `ArrayList`は,パッケージ `java.util`です.このクラスでは,この構文が曖昧さがないため,完全に資格のある名前と呼ばれます.異なるパッケージのクラスには同じ名前があります.例えば,異なるクラス `java.util.Date`と `java.sql.Date`があります.クラスでパッケージが宣言されていない場合,そのパッケージはデフォルトパッケージです. パッケージを作成するには,このコマンドを使用します -> javac -d ディレクトリ javafilename",
+        "links": [
+          {
+            "title": "Java の パッケージ",
+            "url": "https://docs.oracle.com/javase/8/docs/api/java/lang/Package.html",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dg_UpaO8TzIN7w_QZ1n-6",
+      "type": "subtopic",
+      "label": "初期化ブロック",
+      "position": {
+        "x": 981.8343015809069,
+        "y": 739.5536247250346
+      },
+      "size": {
+        "width": 210,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Java の初期化ブロックは,クラスのインスタンスの作成時に実行されるコードのブロックである.コンストラクタに呼びかける前にインスタンスの変数を初期化したり設定作業を実行するために使用される.新しいオブジェクトが作成されたたびに実行されるインスタンスの初期化ブロックと,クラスが初めてロードされたときに一度のみ実行される静态初期化ブロックは,2種類あります.",
+        "links": [
+          {
+            "title": "Java でスタティックとインスタンスの初期化ブロック",
+            "url": "https://www.baeldung.com/java-static-instance-initializer-blocks",
+            "type": "article"
+          },
+          {
+            "title": "Java インスタンスの初期化ブロックについて",
+            "url": "https://blogs.oracle.com/javamagazine/post/java-instance-initializer-block",
+            "type": "article"
+          },
+          {
+            "title": "初期化ブロックとは?",
+            "url": "https://stackoverflow.com/questions/3987428/what-is-an-initialization-block",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3r0Er9XZHovIZz3gNyj4A",
+      "type": "subtopic",
+      "label": "値で表す / 参照で表す",
+      "position": {
+        "x": 981.8343015809069,
+        "y": 792.3789236651032
+      },
+      "size": {
+        "width": 523,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "函数または方法への参数転送の2つの異なる方法である. 函数によって,変数の値のコピーが函数に転送されるため,関数内のパラメータに変更は元の変数に影響しない. 参照によって,変数への直接参照が転送されます. つまり,関数内のパラメータに変更は直接元の変数に影響します.",
+        "links": [
+          {
+            "title": "Java は Pass-by-Value, Not Pass-by-Reference",
+            "url": "https://www.baeldung.com/java-pass-by-value-or-pass-by-reference",
+            "type": "article"
+          },
+          {
+            "title": "Javaは\"パスバイ参照\"か\"パスバイ値\"か?",
+            "url": "https://stackoverflow.com/questions/40480/is-java-pass-by-reference-or-pass-by-value",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "c--y6GcKj9am0CBdu_Hnt",
+      "type": "topic",
+      "label": "注記",
+      "position": {
+        "x": 1538.5338845627668,
+        "y": 684.5892688143869
+      },
+      "size": {
+        "width": 218,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "アノテーションは,プログラムに関するデータを提供するメタデータの一形態である. コードに関する追加情報を提供するために使用されますが,プログラムそのものの一部ではありません. アノテーションは,エラーを検出または警告を抑制するためにコンパイラによって使用され,プログラムの動作を変更するために実行時に使用することもできます.",
+        "links": [
+          {
+            "title": "Java アノテーション チュートリアル",
+            "url": "https://jenkov.com/tutorials/java/annotations.html",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "00_q6I95eO-PUUrKpPFY8",
+      "type": "topic",
+      "label": "ランブダ表現",
+      "position": {
+        "x": 1538.5338845627668,
+        "y": 632.0714467697107
+      },
+      "size": {
+        "width": 218,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Lambda表現は,基本的に実行されるための短いコードブロックです.機能性を方法論,またはコードをデータとして扱うことができます.それらを匿名方法として考えてください. 名前のない方法です. 必要な場所に直接書き込むことができます. 特に機能的なインターフェースに対処するとき,コードがより簡潔で読みやすくなります.",
+        "links": [
+          {
+            "title": "ジャワ・ランブダ表現",
+            "url": "https://jenkov.com/tutorials/java/lambda-expressions.html",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "kdxy8Zssnc5lJjdmjUyMc",
+      "type": "topic",
+      "label": "モジュール",
+      "position": {
+        "x": 1538.5338845627668,
+        "y": 737.107090859063
+      },
+      "size": {
+        "width": 218,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Java の モジュールは,コードを再利用可能で独立した単位に整理する方法です. パッケージよりも高い抽象性を提供し,コードのどの部分が他のモジュールに暴露され,どれがプライベートに保たれているかを制御することができます.これは,モジュール間の依存を明示的に宣言することによって,封装を強化し,セキュリティを改善し,依存管理を簡素化します.",
+        "links": [
+          {
+            "title": "Java モジュール",
+            "url": "https://jenkov.com/tutorials/java/modules.html",
+            "type": "article"
+          },
+          {
+            "title": "Java 9 モジュール化に関するガイド",
+            "url": "https://www.baeldung.com/java-modularity",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a-EQiBUlSgdZba1mW36op",
+      "type": "subtopic",
+      "label": "Array vs ArrayList",
+      "position": {
+        "x": 1263.3696984675892,
+        "y": 937.5225017715202
+      },
+      "size": {
+        "width": 204,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "アレイリストとアレイリストは,Javaで要素のコレクションを保存する方法の両方です.アレイは,同じデータタイプの要素の固定サイズ,順序列です.そのサイズを宣言すると,変更することはできません.一方,アレイリストは,ダイナミックでサイズ変更可能なアレイ実装です.必要に応じて拡大または縮小することができ,初期サイズを心配せずに要素を追加または削除することができます.",
+        "links": [
+          {
+            "title": "Java アレイ",
+            "url": "https://jenkov.com/tutorials/java/arrays.html",
+            "type": "article"
+          },
+          {
+            "title": "Java アレイリスト",
+            "url": "https://jenkov.com/tutorials/java-collections/list.html",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "XjkNd5WJ9yxW48dwHQNkZ",
+      "type": "subtopic",
+      "label": "セット",
+      "position": {
+        "x": 1263.3696984675892,
+        "y": 990.5225017715202
+      },
+      "size": {
+        "width": 101,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "集合は,単一の要素の集合を保存するデータ構造である.これは,集合内で重複値が許されないことを意味します.集合は,メンバーシップ (集合に要素が存在する場合) をチェックする効率的な方法を提供し,連合,交差,差などの操作を実行します.",
+        "links": [
+          {
+            "title": "Javaセット",
+            "url": "https://jenkov.com/tutorials/java-collections/set.html",
+            "type": "article"
+          },
+          {
+            "title": "Javaセットインターフェイスと実装",
+            "url": "https://www.digitalocean.com/community/tutorials/java-set",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "eKtdDtiJygKQ4PuEylFQY",
+      "type": "subtopic",
+      "label": "地図",
+      "position": {
+        "x": 1367.3054548486343,
+        "y": 990.5225017715202
+      },
+      "size": {
+        "width": 101,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "マップは,キー値ペアでデータを保存するデータ構造です.各キーがユニークで,特定の値にマップします.その定義 (値) を探すために単語 (キー) を使用する辞書のように考えてください.マップは,関連するキーに基づいて効率的に値を回収,追加,または削除することができます.",
+        "links": [
+          {
+            "title": "ジェネリック・マップ (Java)",
+            "url": "https://jenkov.com/tutorials/java-generics/generic-map.html",
+            "type": "article"
+          },
+          {
+            "title": "ジャワマップ",
+            "url": "https://jenkov.com/tutorials/java-collections/map.html",
+            "type": "article"
+          },
+          {
+            "title": "Java コンクリントマップ",
+            "url": "https://jenkov.com/tutorials/java-util-concurrent/concurrentmap.html",
+            "type": "article"
+          },
+          {
+            "title": "Java SortedMap",
+            "url": "https://jenkov.com/tutorials/java-collections/sortedmap.html",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ThoWhXb4vUvNfE70_wMfa",
+      "type": "subtopic",
+      "label": "排隊",
+      "position": {
+        "x": 1263.3696984675892,
+        "y": 1043.5225017715202
+      },
+      "size": {
+        "width": 102,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "排列は,ファースト・イン・ファースト・アウト (FIFO) 原則に従う基本的なデータ構造です.それを商店の行のように考えてください. 排列に最初に加入する人は,最初にサービスされる人です. 列の後部 (enqueue) に要素が追加され,前部 (dequeue) から削除されます.",
+        "links": [
+          {
+            "title": "Java キュー",
+            "url": "https://jenkov.com/tutorials/java-collections/queue.html",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "DzfE_9WLAp-BrG3C1-MwU",
+      "type": "subtopic",
+      "label": "スタック",
+      "position": {
+        "x": 1263.3696984675892,
+        "y": 1096.5225017715204
+      },
+      "size": {
+        "width": 101,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "スタックとは,Last-In,First-Out (LIFO) 原則に従う基本的なデータ構造である.プレートのスタックを想像してください.あなたは上からプレートを追加または削除するだけです.これはスタックに追加された最後の要素が削除される最初の要素であることを意味します.スタックは関数呼び出しを管理し,表現を評価し,アンコール/リドー機能を実装するために使用されます.",
+        "links": [
+          {
+            "title": "Java スタック チュートリアル",
+            "url": "https://jenkov.com/tutorials/java-collections/stack.html",
+            "type": "article"
+          },
+          {
+            "title": "Java スタック の ガイド",
+            "url": "https://www.baeldung.com/java-stack",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "DWO2-EPIUeKK5aQGiTuKc",
+      "type": "subtopic",
+      "label": "排水",
+      "position": {
+        "x": 1367.3054548486343,
+        "y": 1043.5225017715202
+      },
+      "size": {
+        "width": 101,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "排列 (dequeue) は,排列の前 (頭) と後 (尾) の両方から要素を追加して削除するデータ構造である.通常の排列 (FIFO - First-In, First-Out) と異なり,排列は,FIFOと LIFO (Last-In, First-Out) の両方の操作に柔軟性を提供します.これは,各端から要素にアクセスまたは変更する必要があるさまざまなアルゴリズムとデータ管理タスクを実装するのに有用になります.",
+        "links": [
+          {
+            "title": "Java Deque チュートリアル",
+            "url": "https://jenkov.com/tutorials/java-collections/deque.html",
+            "type": "article"
+          },
+          {
+            "title": "ジャワ・デック",
+            "url": "https://www.programiz.com/java-programming/deque",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "-17LFO72I8RKjJRMXct9k",
+      "type": "subtopic",
+      "label": "イテレーター",
+      "position": {
+        "x": 1367.3054548486343,
+        "y": 1096.5225017715204
+      },
+      "size": {
+        "width": 101,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Iterator は,集合 (リストまたはセットなど) を一度に要素を1つ通して行けるようにするオブジェクトである.集合の基礎構造を知ることなく,要素を順序的にアクセスする標準的な方法を提供します.次の要素が存在するかどうかを確認するために,次の要素と次の要素が存在するかどうかを確認するために, `hasNext() `のような方法を使用できます.",
+        "links": [
+          {
+            "title": "Java Iterator チュートリアル",
+            "url": "https://jenkov.com/tutorials/java-collections/iterator.html",
+            "type": "article"
+          },
+          {
+            "title": "Java Iterable チュートリアル",
+            "url": "https://jenkov.com/tutorials/java-collections/iterable.html",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PX4ZcshR0QtsPElyZzSel",
+      "type": "label",
+      "label": "コレクション",
+      "position": {
+        "x": 1314.3696984675892,
+        "y": 898.3203519457165
+      },
+      "size": {
+        "width": 102,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "eL4pc6SaNiKP48PzN7mNe",
+      "type": "subtopic",
+      "label": "一般的なコレクション",
+      "position": {
+        "x": 1263.3696984675892,
+        "y": 1152.0111884486032
+      },
+      "size": {
+        "width": 207,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Java ジェネリックメソッドとジェネリッククラスは,プログラマが単一のメソッド宣言で,関連するメソッドの集合,または単一のクラス宣言で,関連するタイプの集合を指定することを可能にします.",
+        "links": [
+          {
+            "title": "ジャワ - 一般薬",
+            "url": "https://www.tutorialspoint.com/java/java_generics.htm",
+            "type": "article"
+          },
+          {
+            "title": "ジャワにおけるジェネリック薬",
+            "url": "https://www.youtube.com/watch?v=XMvznsY02Mk",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Z_rjrHtWp1Zp1G2YN0KfD",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": 1638.356875320924,
+        "y": 831.2420992601204
+      },
+      "size": {
+        "width": 21,
+        "height": 109
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.65
+      },
+      "z_index": 999
+    },
+    {
+      "id": "l9fxK8K9fcUqR7hs5TkWU",
+      "type": "topic",
+      "label": "オプション",
+      "position": {
+        "x": 1538.5338845627668,
+        "y": 789.6249129037391
+      },
+      "size": {
+        "width": 218,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "オプションは,非ゼロ値を含まないコンテナオブジェクトである.それらは主に値の欠乏を表すために使用され, null を返却する必要性を回避し,NullPointerExceptions に導致する. オプションは,値が存在するかどうかを明示的に確認し,値が欠けている場合をより制御的かつ読みやすい方法で処理する方法を提供します.",
+        "links": [
+          {
+            "title": "選択式 に 関する ガイド",
+            "url": "https://www.baeldung.com/java-optional",
+            "type": "article"
+          },
+          {
+            "title": "Java オプション",
+            "url": "https://dzone.com/articles/optional-in-java",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "g9P3548F38tYGjevBc42w",
+      "type": "topic",
+      "label": "例外処理",
+      "position": {
+        "x": 1538.5338845627668,
+        "y": 520.5536247250346
+      },
+      "size": {
+        "width": 218,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Java の エクセプション処理は,実行時間のエラーを処理するための効果的な手段の一つで,アプリケーションの定期的な流れが保たれるようにします.Java エクセプション処理は,クラスNotFoundException,IOException,SQLException,RemoteExceptionなどの実行時間のエラーを処理するためのメカニズムです.例外の3種類があります - 1.チェックされたエクセプション - コンパイル時にチェックされたエクセプション.例 - IOException 2.チェックされていないエクセプション -実行時にチェックされたエクセプション.例 - NullPointerException 3.エラー - 回復できない.例 - OutOfMemoryError",
+        "links": [
+          {
+            "title": "Java の 例外 を 理解 する",
+            "url": "https://www.youtube.com/watch?v=W-N2ltgU-X4",
+            "type": "video"
+          },
+          {
+            "title": "Java 例外処理",
+            "url": "https://www.youtube.com/watch?v=1XAfapkBQjk",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "D1woaibP6qkuqmBQkZrhO",
+      "type": "horizontal",
+      "label": "ホリゾントノード",
+      "position": {
+        "x": 1174.7508238192552,
+        "y": 1178.2990031143668
+      },
+      "size": {
+        "width": 78,
+        "height": 20
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.65
+      },
+      "z_index": 999
+    },
+    {
+      "id": "_W84u4UXMSY0zvy6RJvFi",
+      "type": "topic",
+      "label": "ウェブフレームワーク",
+      "position": {
+        "x": 1250.6499336025647,
+        "y": 1501.4989519840194
+      },
+      "size": {
+        "width": 232,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "フレームワークは,元に書かれたコードを持つツールで,テンプレートまたは骨格として機能し,必要なときにコードを埋めることでアプリケーションを作成するために再利用できます. これにより,開発者はすべてのコードラインを何度もゼロから作成する余分なコストなしでアプリケーションをプログラムすることができます.",
+        "links": []
+      }
+    },
+    {
+      "id": "xoryfi4SpJlkz-PV05ql6",
+      "type": "subtopic",
+      "label": "春 (春靴)",
+      "position": {
+        "x": 1250.6499336025647,
+        "y": 1315.2594233874954
+      },
+      "size": {
+        "width": 232,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Spring Boot はオープンソースのマイクロサービスベースのJavaウェブフレームワークです. Spring Boot フレームワークは,コードベース内のプリビルドコードを使用して完全に構成可能な完全生産準備的環境を作成します.マイクロサービスアーキテクチャは,埋め込みアプリケーションサーバーを含む完全に閉じられたアプリケーションを提供します.",
+        "links": [
+          {
+            "title": "春のブートロードマップ を 訪問 する",
+            "url": "https://roadmap.sh/spring-boot",
+            "type": "roadmap"
+          },
+          {
+            "title": "春の靴",
+            "url": "https://spring.io/projects/spring-boot/",
+            "type": "official"
+          },
+          {
+            "title": "スプリングブートとは?",
+            "url": "https://www.ibm.com/cloud/learn/java-spring-boot",
+            "type": "article"
+          },
+          {
+            "title": "春のブートチュートリアル",
+            "url": "https://www.javaguides.net/2021/07/spring-boot-tutorial-for-beginners.html",
+            "type": "article"
+          },
+          {
+            "title": "春の靴を習う",
+            "url": "https://www.baeldung.com/spring-boot",
+            "type": "article"
+          },
+          {
+            "title": "春のブートチュートリアル",
+            "url": "https://youtu.be/vtPkZShrvXQ",
+            "type": "video"
+          },
+          {
+            "title": "初心者向け 春の靴",
+            "url": "https://youtu.be/UfOxcrxhC0s",
+            "type": "video"
+          },
+          {
+            "title": "スプリング・フレームワークに関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/spring?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "kN-mXxqUPNJNsJGQ0U_7J",
+      "type": "subtopic",
+      "label": "プレイフレームワーク",
+      "position": {
+        "x": 1250.6499336025647,
+        "y": 1421.2594233874954
+      },
+      "size": {
+        "width": 232,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "プレイフレームワークは,モデルビューコントローラーパターンを可能にする高生産性のあるウェブアプリケーションフレームワークである.これはスカラで書かれていますが,JVMでコンパイルされ実行される他のプログラミング言語にも使用できます.例えばJava.",
+        "links": [
+          {
+            "title": "プレイフレームワークウェブサイト",
+            "url": "https://www.playframework.com/",
+            "type": "official"
+          },
+          {
+            "title": "プレイフレームワークとは何か?",
+            "url": "https://en.wikipedia.org/wiki/Play_Framework",
+            "type": "article"
+          },
+          {
+            "title": "プレイフレームワークの入門",
+            "url": "https://www.baeldung.com/java-intro-to-the-play-framework",
+            "type": "article"
+          },
+          {
+            "title": "プレイフレームワークの紹介",
+            "url": "https://youtu.be/bLrmnjPQsZc",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "w-kcKPh8U0P_jtT90_1Xy",
+      "type": "subtopic",
+      "label": "クォークス",
+      "position": {
+        "x": 1250.6499336025647,
+        "y": 1368.2594233874954
+      },
+      "size": {
+        "width": 114,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "",
+        "links": [
+          {
+            "title": "公式サイト",
+            "url": "https://quarkus.io/",
+            "type": "official"
+          },
+          {
+            "title": "クォークスに関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/quarkus?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "aqTfDatV26H0rOAhyQo0q",
+      "type": "label",
+      "label": "スプリングブートが推奨されます",
+      "position": {
+        "x": 1246.1499336025647,
+        "y": 1255.4420481297732
+      },
+      "size": {
+        "width": 241,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "81N1cZLue_Ii0uD5CV6kZ",
+      "type": "topic",
+      "label": "ツール を 作る",
+      "position": {
+        "x": 1006.8720474064457,
+        "y": 1502.013322952089
+      },
+      "size": {
+        "width": 181,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ビルドツールとは,ソフトウェアをコンパイル,組み立て,展開するプロセスを自動化するプログラムまたはコマンドラインユーティリティである.ビルドツールはコードをコンパイルするだけでなく,パッケージ管理,依存処理,継続的な統合システムにも役立ちます.",
+        "links": []
+      }
+    },
+    {
+      "id": "VdL_fAHxmRbuF0J627beA",
+      "type": "subtopic",
+      "label": "マヴェン",
+      "position": {
+        "x": 1006.8720474064457,
+        "y": 1317.2276953646335
+      },
+      "size": {
+        "width": 181,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Mavenは,主にJavaプロジェクトに使用されるオープンソースのビルドツールです.",
+        "links": [
+          {
+            "title": "スタートする",
+            "url": "https://maven.apache.org/guides/getting-started/",
+            "type": "article"
+          },
+          {
+            "title": "マヴェン で 春季 の プロジェクト を 構築 する",
+            "url": "https://www.baeldung.com/spring-with-maven",
+            "type": "article"
+          },
+          {
+            "title": "マヴェンに関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/maven?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "rmDIm5dqtdlNfPhvpqS7-",
+      "type": "subtopic",
+      "label": "グラデル",
+      "position": {
+        "x": 1006.8720474064457,
+        "y": 1370.2276953646335
+      },
+      "size": {
+        "width": 181,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Gradle はオープンソースのビルド自動化ツールで,ソフトウェアエンジニアが高性能ソフトウェア製品をテスト,構築,リリースするのに役立ちます.さらに, Gradle は多言語開発をサポートしています.現在,Gradle のサポート言語には Java, Kotlin, Groovy, Scala, C/C++, JavaScript などがあります.",
+        "links": [
+          {
+            "title": "グラデル",
+            "url": "https://gradle.org/",
+            "type": "official"
+          },
+          {
+            "title": "スプリングブートプロジェクトを Gradle で構築する",
+            "url": "https://www.baeldung.com/spring-boot-gradle-plugin",
+            "type": "article"
+          },
+          {
+            "title": "グラデル・チュートリアル",
+            "url": "https://youtu.be/kONQCIAcWeI",
+            "type": "video"
+          },
+          {
+            "title": "グラドール と 協力 する",
+            "url": "https://youtu.be/6V6G3RyxEMk",
+            "type": "video"
+          },
+          {
+            "title": "Gradle に関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/gradle?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6FMj9tMAQPii_1kLtHJLk",
+      "type": "subtopic",
+      "label": "バゼル",
+      "position": {
+        "x": 1006.8720474064457,
+        "y": 1423.2276953646335
+      },
+      "size": {
+        "width": 181,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Bazelは,Make,Maven,Gradleに似たオープンソースのビルド・テストツールです.人間に読み取れる,高レベルのビルド言語を使用しています.Bazelは複数の言語でプロジェクトをサポートし,複数のプラットフォームのためのアウトプットを構築します.高速,信頼性のある,再生可能なビルドのために設計されており,大規模なコードベースと複雑なプロジェクトに適しています.",
+        "links": [
+          {
+            "title": "ベーゼルから始めること",
+            "url": "https://bazel.build/start",
+            "type": "article"
+          },
+          {
+            "title": "Bazel で Java プロジェクト を 構築 する",
+            "url": "https://earthly.dev/blog/build-java-projects-with-bazel/",
+            "type": "article"
+          },
+          {
+            "title": "バゼル 建設 道具 の 紹介",
+            "url": "https://www.baeldung.com/bazel-build-tool",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "zItXmuluDtl6HkTYQ7qMh",
+      "type": "topic",
+      "label": "依存症注射",
+      "position": {
+        "x": 1538.5338845627668,
+        "y": 941.8599244017678
+      },
+      "size": {
+        "width": 218,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Dependency Injection (DI) は,オブジェクトが外部源から自らを作成するのではなく,自らを依存するものを受信する設計パターンである.つまり,クラスは機能するために必要なオブジェクトを取得する方法について心配する必要はありません.代わりに,それらのオブジェクトは,通常,コンストラクター,セッター方法,またはインターフェースを通じてクラスに\"注入\"されます.これは緩やかな結合を促進し,コードをよりテスト可能で維持できます.",
+        "links": [
+          {
+            "title": "依存症注射 チュートリアル",
+            "url": "https://jenkov.com/tutorials/dependency-injection/index.html",
+            "type": "article"
+          },
+          {
+            "title": "Java 依存 インジェクション デザイン パターン 例 チュートリアル",
+            "url": "https://www.digitalocean.com/community/tutorials/java-dependency-injection-design-pattern-example-tutorial",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "M0ybgK1JCycXhZ1dEpCFo",
+      "type": "topic",
+      "label": "I/O事業",
+      "position": {
+        "x": 1538.5338845627668,
+        "y": 1109.3203519457165
+      },
+      "size": {
+        "width": 218,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "I/O オペレーション (Input/Output Operations) は,プログラムが外部世界とどのように相互作用するかを扱います.これは,ファイル,ネットワーク接続,キーボードなどのソースからのデータを読み取り,ファイル,コンソール,またはネットワークソケットなどの目的地にデータを書き込みます.本質的には,プログラムが情報を受信し,結果を送信するメカニズムです.",
+        "links": [
+          {
+            "title": "Java IO チュートリアル",
+            "url": "https://jenkov.com/tutorials/java-io/index.html",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "NowpzyPVFcX082j5YS5i8",
+      "type": "topic",
+      "label": "ファイル操作",
+      "position": {
+        "x": 1538.5338845627668,
+        "y": 1162.3203519457165
+      },
+      "size": {
+        "width": 218,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ファイルの読み書き,削除,ファイルやフォルダーなどで作業する方法を学びます. また,API コールや受信応答の解析を学びます. * `FileWriter` - このクラスは,ファイルに文字を書いてファイルを作成するのに役立ちます * `FileReader` - このクラスは,ファイルから文字の形式のデータを読み取るために役立ちます * `File.lines(Paths.get(\"file.txt\"))) ` - ファイルをストリームとして処理します. Java 8 * `File.readString / Files.writeString` - ファイル全体を読み取り,文字列にします - Java 11 から",
+        "links": [
+          {
+            "title": "Java の ファイル と 作業 する 方法",
+            "url": "https://www.marcobehler.com/guides/java-files",
+            "type": "article"
+          },
+          {
+            "title": "(旧) Java HttpURLConnection 例 - Java HTTP リクエスト GET, POST",
+            "url": "https://www.digitalocean.com/community/tutorials/java-httpurlconnection-example-java-http-request-get-post",
+            "type": "article"
+          },
+          {
+            "title": "新しいJava Httpクライアント",
+            "url": "https://www.baeldung.com/java-9-http-client",
+            "type": "article"
+          },
+          {
+            "title": "Java で HTTP 要求を行う 5 つの方法",
+            "url": "https://www.twilio.com/blog/5-ways-to-make-http-requests-in-java",
+            "type": "article"
+          },
+          {
+            "title": "ファイルの行列をJavaで読む",
+            "url": "https://mkyong.com/java8/java-8-stream-read-a-file-line-by-line/",
+            "type": "article"
+          },
+          {
+            "title": "Java で String にファイルを読み込む様々な方法",
+            "url": "https://howtodoinjava.com/java/io/java-read-file-to-string-examples/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "H-TpLxAx_BnJhyFc4HK6M",
+      "type": "label",
+      "label": "(v)",
+      "position": {
+        "x": 1354.1499336025647,
+        "y": 1273.5598732714204
+      },
+      "size": {
+        "width": 25,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "shqS9-hg__mkOtnnl_I4l",
+      "type": "topic",
+      "label": "通貨",
+      "position": {
+        "x": 973.8343015809069,
+        "y": 1162.3203519457165
+      },
+      "size": {
+        "width": 218,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "同期性とは,プログラムが複数のタスクを同時に実行する能力である.これは必ずしも同じ瞬間に実行されていることを意味するものではなく,実行が時間とともに重なり合っていることを意味します.これはマルチスレッドのような技術によって達成され,単一のプログラムが同時に実行できる複数のスレッドに分かれ,または非同期プログラミングによって,タスクが開始され,プログラムが最初のタスクを完了するまで待つことなく他のタスクを実行し続けることができる.",
+        "links": [
+          {
+            "title": "Java コンクリエーションとマルチスレッド・チュートリアル",
+            "url": "https://jenkov.com/tutorials/java-concurrency/index.html",
+            "type": "article"
+          },
+          {
+            "title": "実践におけるジャワの対称性",
+            "url": "https://www.baeldung.com/java-concurrency",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "u_YysD7Bpnq-xkFX5yJGz",
+      "type": "subtopic",
+      "label": "糸",
+      "position": {
+        "x": 973.8343015809069,
+        "y": 1073.5225017715202
+      },
+      "size": {
+        "width": 218,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Java でのスレッドは,プログラムを実行中に行われている方向または経路です.一般的に,すべてのプログラムには,JVM または Java 仮想マシンによってプログラムを実行開始時に提供されるメインスレッドとして知られる少なくとも1つのスレッドがあります.正しいマルチスレッドアプリケーションを書くことは複雑で,高度なテーマです.パラレルストリーム,スレッドセーフ コレクション,エクセクチュアサービスなどのものが役立ちます.",
+        "links": [
+          {
+            "title": "ジャワ語 の 糸",
+            "url": "https://jenkov.com/tutorials/java-concurrency/index.html",
+            "type": "article"
+          },
+          {
+            "title": "Java 糸のチュートリアル",
+            "url": "https://www.youtube.com/watch?v=TCd8QIS-2KI",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "vJSq1GJLIMQ6IIB8CMK8g",
+      "type": "subtopic",
+      "label": "仮想スレッド",
+      "position": {
+        "x": 973.8343015809069,
+        "y": 1020.5225017715202
+      },
+      "size": {
+        "width": 218,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "仮想スレッドは,Java Virtual Machine (JVM) が管理する軽量スレッドである.従来のオペレーティングシステムスレッドとは異なり,作成と管理は比較的高価である.仮想スレッドは,非常に軽量で,数百万個が作成できるように設計されています.従来のスレッドに関連したオーバーヘッドなしで多数の同時操作を処理できるコードを書くことを容易にするため,Javaアプリケーションのスケーラビリティと同時性を改善することを目的としています.",
+        "links": [
+          {
+            "title": "Java 21 バーチャルスレッド: ブラッド,私のロックはどこですか?",
+            "url": "https://netflixtechblog.com/java-21-virtual-threads-dude-wheres-my-lock-3052540e231d",
+            "type": "article"
+          },
+          {
+            "title": "仮想スレッド vs Java のスレッド",
+            "url": "https://www.baeldung.com/java-virtual-thread-vs-thread",
+            "type": "article"
+          },
+          {
+            "title": "Java 仮想スレッド の 究極 の ガイド",
+            "url": "https://rockthejvm.com/articles/the-ultimate-guide-to-java-virtual-threads",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "wEc7pSVU5G2c6Zqmtb_1k",
+      "type": "subtopic",
+      "label": "Java メモリモデル",
+      "position": {
+        "x": 973.8343015809069,
+        "y": 967.5225017715202
+      },
+      "size": {
+        "width": 218,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Java メモリモデル (JMM) は,Java内のスレッドがメモリとどのように相互作用するかを定義します.異なるスレッドが共有変数にどのように書き込むか,何時見ることができるかを指定し,同期プログラムにおけるデータ可視性とレース条件などの問題を解決します.JMMは,メモリ同期と順序の規則を確立することによって,マルチスレッドのJavaプログラムが異なるハードウェアアーキテクチャで予測可能なように振る舞うことを保証します.",
+        "links": [
+          {
+            "title": "Java メモリモデル",
+            "url": "https://jenkov.com/tutorials/java-concurrency/java-memory-model.html",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "U4Wx3MH3LgJLa0n9Ne0Br",
+      "type": "subtopic",
+      "label": "揮発性キーワード",
+      "position": {
+        "x": 973.8343015809069,
+        "y": 915.3203519457165
+      },
+      "size": {
+        "width": 218,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Java の `volatile`キーワードは,インスタンスの変数に適用できる変数です.すべてのスレッドが変数の最も最新の値を表示することを保証します. `volatile`なしでは,各スレッドが変数の独自のコピーをキャッシュし,複数のスレッドが同時にアクセスし,変更するときに不一致を引き起こす可能性があります. `volatile` を使用すると,スレッドがメインメモリから変数の値を直接読み出し,変更をメインメモリに直接書き込み,スレッドのローカルキャッシュを回避します.",
+        "links": [
+          {
+            "title": "Java 揮発性キーワード",
+            "url": "https://jenkov.com/tutorials/java-concurrency/volatile.html",
+            "type": "article"
+          },
+          {
+            "title": "Java の 変形 な キーワード の ガイド",
+            "url": "https://www.baeldung.com/java-volatile",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "_wV2VQq6MIY1rVHjK8pfu",
+      "type": "topic",
+      "label": "暗号化",
+      "position": {
+        "x": 702.0073106597292,
+        "y": 914.3203519457165
+      },
+      "size": {
+        "width": 222,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "暗号化とは,敵の存在において安全な通信のための技術を実践および研究である.暗号化によって読み取れるデータ (素文) を読み取れないフォーマット (暗号文) に変換し,その後暗号文を解読を通じて素文に変換する.暗号化は,機密性,整体性,認証,および情報の否定を保証するためにアルゴリズムとキーを使用する.",
+        "links": [
+          {
+            "title": "Java暗号化チュートリアル",
+            "url": "https://jenkov.com/tutorials/java-cryptography/index.html",
+            "type": "article"
+          },
+          {
+            "title": "Java開発者向け暗号化101",
+            "url": "https://www.youtube.com/watch?v=itmNhVckTPc",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "9h20XVRli7TDq0QIJwX2U",
+      "type": "topic",
+      "label": "日期と時間",
+      "position": {
+        "x": 701.1618709488599,
+        "y": 966.5225017715202
+      },
+      "size": {
+        "width": 224,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "日付と時間 (date and time) はプログラミングにおける非常に重要な概念です.Javaは,日付と時間 (date and time) に関する多くのクラスを提供しています.",
+        "links": [
+          {
+            "title": "Java の日付と時間 API",
+            "url": "https://chamalwr.medium.com/datetime-api-in-java-2aef5df1c39b",
+            "type": "article"
+          },
+          {
+            "title": "ジャワ の 日 と 時 の 紹介",
+            "url": "https://www.baeldung.com/java-8-date-time-intro",
+            "type": "article"
+          },
+          {
+            "title": "Java SE 8 日時",
+            "url": "https://www.oracle.com/technical-resources/articles/java/jf14-date-time.html",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "UGccAJeFA636IiCySl-zF",
+      "type": "label",
+      "label": "機能的プログラミング",
+      "position": {
+        "x": 711.0073106597292,
+        "y": 1507.8599244017678
+      },
+      "size": {
+        "width": 227,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "1Mk_zXxCCcUoX-gFxtlnf",
+      "type": "subtopic",
+      "label": "機能構成",
+      "position": {
+        "x": 711.0073106597292,
+        "y": 1394.8599244017678
+      },
+      "size": {
+        "width": 227,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "機能構成は,新しい関数を生成するために2つまたは複数の関数を組み合わせるプロセスである.結果の関数は,各関数を順序的に適用し,次の関数の入力として1つの関数の出力を転送する. これにより,よりシンプルで再利用可能な関数を結びつけることで複雑な操作を構築することができます.",
+        "links": [
+          {
+            "title": "Java の 機能 的 な 構成",
+            "url": "https://jenkov.com/tutorials/java-functional-programming/functional-composition.html",
+            "type": "article"
+          },
+          {
+            "title": "Java 機能プログラミング",
+            "url": "https://www.baeldung.com/java-functional-programming",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dz6bCmB4dgA7VVZ448cN6",
+      "type": "subtopic",
+      "label": "高級の職務",
+      "position": {
+        "x": 711.0073106597292,
+        "y": 1288.8599244017678
+      },
+      "size": {
+        "width": 227,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ハイオーダー関数は,他の関数を аргументとして受け入れたり,返信関数を結果として受け入れたりできる関数です.この機能は,操作を抽象化することで,より柔軟かつ再利用可能なコードを可能にします.本質的に,あなたは行動をデータとして転送することができ,コードをよりダイナミックで異なる状況に適応できます.",
+        "links": [
+          {
+            "title": "Java ハイオーダー関数",
+            "url": "https://jenkov.com/tutorials/java-functional-programming/higher-order-functions.html",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "SityDdjhhNZ9CO3Tg0VI9",
+      "type": "subtopic",
+      "label": "機能インターフェース",
+      "position": {
+        "x": 711.0073106597292,
+        "y": 1341.8599244017678
+      },
+      "size": {
+        "width": 227,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "機能接口は,抽象方法のみを含む接口である.それらは複数のデフォルトまたは静的方法を持つことができるが,実装する必要がある方法は1つのみである.これらの接口は,単方法操作に対処する際に簡潔で読み取れるコードを可能にするために,ラムダ表現と方法参照を使用して使用することができます.",
+        "links": [
+          {
+            "title": "Java 機能インターフェース",
+            "url": "https://jenkov.com/tutorials/java-functional-programming/functional-interfaces.html",
+            "type": "article"
+          },
+          {
+            "title": "Java 機能インターフェース",
+            "url": "https://www.baeldung.com/java-8-functional-interfaces",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "WHxAwfdKHQSOg0TLX05EG",
+      "type": "subtopic",
+      "label": "ストリーム API",
+      "position": {
+        "x": 711.0073106597292,
+        "y": 1447.8599244017678
+      },
+      "size": {
+        "width": 227,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Java は Java 8 に java.util.stream と呼ばれる新しい追加パッケージを提供しています.このパッケージはクラス,インターフェイス,および enum で構成され,要素の機能型操作を可能にします. java.util.stream パッケージをインポートすることでストリームを使用できます.",
+        "links": [
+          {
+            "title": "Java 8 ストリーム API チュートリアル",
+            "url": "https://www.baeldung.com/java-8-streams",
+            "type": "article"
+          },
+          {
+            "title": "ストリーム API チュートリアル Java 8+",
+            "url": "https://www.youtube.com/watch?v=VNovNwHr9jY",
+            "type": "video"
+          },
+          {
+            "title": "Java 8 ストリーム チュートリアル",
+            "url": "https://www.youtube.com/watch?v=t1-YZ6bF-g0",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JeMG0gU8IVRBZgczjXmPi",
+      "type": "topic",
+      "label": "ネットワーク",
+      "position": {
+        "x": 700.0073106597292,
+        "y": 1018.7246515973238
+      },
+      "size": {
+        "width": 224,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "* Java ネットワークは,資源を共有できるように,2つ以上のコンピューティングデバイスを結びつける概念である. * Java ソケット プログラミングは,異なるコンピューティングデバイス間でデータを共有する機能を提供します. * ソケットは,ネットワーク上で実行中の2つのプログラム間の双向通信リンクのエンドポイントである. ソケットは, TCP 層がデータを送信するアプリケーションを識別できるように,ポート番号に結びついている.",
+        "links": [
+          {
+            "title": "ソケット",
+            "url": "https://docs.oracle.com/javase/tutorial/networking/sockets/index.html",
+            "type": "article"
+          },
+          {
+            "title": "Java ネットワーク",
+            "url": "https://www.tutorialspoint.com/java/java_networking.htm",
+            "type": "article"
+          },
+          {
+            "title": "ソケットプログラミングとは?",
+            "url": "https://youtu.be/BqBKEXLqdvI",
+            "type": "video"
+          },
+          {
+            "title": "ネットワークに関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/networking?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C7rB3jkshHFN7TkHRJPlz",
+      "type": "topic",
+      "label": "定期 的 な 表現",
+      "position": {
+        "x": 700.0073106597292,
+        "y": 1073.5225017715202
+      },
+      "size": {
+        "width": 224,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "通常表現は,検索パターンを定義する文字の配列である.これらのパターンは文字の組み合わせを文字列に匹配するために使用されます.テキストとデータを検索,編集,または操作するために使用できます.通常の表現はテキストベースのデータで働く強力な柔軟な方法を提供します.",
+        "links": [
+          {
+            "title": "Java の 正規表現 チュートリアル",
+            "url": "https://jenkov.com/tutorials/java-regex/index.html",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "fV-gW51jhna2__Ln2HIIh",
+      "type": "topic",
+      "label": "データベース アクセス",
+      "position": {
+        "x": 1529.0338845627668,
+        "y": 1500.3599244017678
+      },
+      "size": {
+        "width": 221,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Java でオブジェクトをデータベース内の関係性エンティティにマッピングするプログラミング方法. 言い換えれば,関係性データベースとオブジェクト指向プログラミング言語間のデータを変換する.Java で人気のあるORMツール/フレームワークは: * Spring Data JPA * Hibernate * Ebean",
+        "links": [
+          {
+            "title": "ORM チュートリアル",
+            "url": "https://www.altexsoft.com/blog/object-relational-mapping/",
+            "type": "article"
+          },
+          {
+            "title": "Java データベース: ライブラリとAPIの概要",
+            "url": "https://www.marcobehler.com/guides/java-databases",
+            "type": "article"
+          },
+          {
+            "title": "Javaに関するトップ記事を探索する",
+            "url": "https://app.daily.dev/tags/java?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "WzWOxBUKKg6LeuBmVesc2",
+      "type": "subtopic",
+      "label": "春のデータ JPA",
+      "position": {
+        "x": 1554.5338845627668,
+        "y": 1417.8469443073327
+      },
+      "size": {
+        "width": 170,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Spring Data JPAは,実際に必要とされる量まで努力を削減することによって,データアクセス層の実装を大幅に改善することを目指しています.開発者として,カスタム検索方法を含むリポジトリインターフェースを書き込み, Springは実装を自動的に提供します.",
+        "links": [
+          {
+            "title": "春のデータ JPA",
+            "url": "https://spring.io/projects/spring-data-jpa",
+            "type": "official"
+          },
+          {
+            "title": "春のデータJPAへの導入",
+            "url": "https://www.baeldung.com/the-persistence-layer-with-spring-data-jpa",
+            "type": "article"
+          },
+          {
+            "title": "スプリングデータ JPA チュートリアル",
+            "url": "https://youtu.be/XszpXoII9Sg",
+            "type": "video"
+          },
+          {
+            "title": "春のブートチュートリアル - 春のデータ JPA",
+            "url": "https://youtu.be/8SGI_XS5OPw",
+            "type": "video"
+          },
+          {
+            "title": "スプリング・フレームワークに関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/spring?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "UEiDzzodyEu5O1xFAFDly",
+      "type": "subtopic",
+      "label": "冬眠",
+      "position": {
+        "x": 1554.5338845627668,
+        "y": 1364.8469443073327
+      },
+      "size": {
+        "width": 170,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Hibernate はオープンソースのオブジェクト関係マッピングツールで,Webアプリケーションのための関係データベースにオブジェクト向けドメインモデルをマッピングするためのフレームワークを提供します. Hibernate はJPAの仕様を実装します.パフォーマンスは重要なため, Hibernate は第一レベルと第2レベルのキャッシングをサポートします.",
+        "links": [
+          {
+            "title": "冬眠",
+            "url": "https://hibernate.org/",
+            "type": "official"
+          },
+          {
+            "title": "第2レベルのキャッシュ説明",
+            "url": "https://hazelcast.com/glossary/hibernate-second-level-cache/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "X2rJ3BY1ytFKsbJqJETFu",
+      "type": "subtopic",
+      "label": "エビーン",
+      "position": {
+        "x": 1554.5338845627668,
+        "y": 1311.8469443073327
+      },
+      "size": {
+        "width": 170,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Ebean は Java で書かれたオブジェクト関係マッピングツールです. 宣言するエンティティのための標準 JPA 注記をサポートします.しかし,持続するための API をはるかにシンプルに提供します.実際には, Ebean アーキテクチャについて言及に値する点の一つは,セッションレスであり,エンティティを完全に管理していないことを意味します.",
+        "links": [
+          {
+            "title": "エベアン",
+            "url": "https://ebean.io/",
+            "type": "official"
+          },
+          {
+            "title": "エベアン文書",
+            "url": "https://ebean.io/docs/",
+            "type": "official"
+          },
+          {
+            "title": "エベアンのガイド",
+            "url": "https://www.baeldung.com/ebean-orm",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "d9F5Wt8onY125DLuzNULg",
+      "type": "topic",
+      "label": "ログイン・フレームワーク",
+      "position": {
+        "x": 1529.0338845627668,
+        "y": 1622.3196545591995
+      },
+      "size": {
+        "width": 221,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ログ付けは,開発者にエラーを追跡するのに役立つ重要な機能です. ログファイルをキャプチャする能力を提供します. ログ付けはアプリケーションの完全な追跡情報を提供し,アプリケーションに発生する際に重大な障害を記録します. ログ付けには3つの構成要素があります: ログガー, ログリングハンドラーまたはアペンダントおよびレイアウトまたは ログリングフォーマッター.",
+        "links": [
+          {
+            "title": "Java ログインの導入",
+            "url": "https://www.baeldung.com/java-logging-intro",
+            "type": "article"
+          },
+          {
+            "title": "Java ログリングフレームワーク",
+            "url": "https://en.wikipedia.org/wiki/Java_logging_framework",
+            "type": "article"
+          },
+          {
+            "title": "Java で ログイン する 方法",
+            "url": "https://www.marcobehler.com/guides/java-logging",
+            "type": "article"
+          },
+          {
+            "title": "Javaに関するトップ記事を探索する",
+            "url": "https://app.daily.dev/tags/java?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "okC1uMdyfIJAhX_R9Npsw",
+      "type": "subtopic",
+      "label": "ログバック",
+      "position": {
+        "x": 1532.5469679422956,
+        "y": 1716.8068987197155
+      },
+      "size": {
+        "width": 111,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ログバックはJavaコミュニティで最も広く使用されているログングフレームワークの一つです.その前任であるLog4jの代わりです.Logbackはより速い実装を提供し,設定のオプションを増やし,古いログファイルをアーカイブする柔軟性を提供します.",
+        "links": [
+          {
+            "title": "公式サイト",
+            "url": "https://logback.qos.ch/manual/configuration.html",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sFaNj_1MviaTc6UIfjXl6",
+      "type": "subtopic",
+      "label": "ログ4j2",
+      "position": {
+        "x": 1648.2217949048954,
+        "y": 1716.8068987197155
+      },
+      "size": {
+        "width": 101,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Apache Log4j はJavaベースのログインユーティリティです.Log4j Java ライブラリの役割は,アプリケーションがスムーズに動作し,何が起こっているか判断し,エラーが発生するときにデバッグプロセスに役立つ情報をログインすることです.ログインライブラリは,通常ログファイルまたはデータベースにメッセージを書きます.Log4j2は,人気があり影響力のあるlog4jライブラリの更新されたバージョンで,Javaエコシステム全体で長年広く使用されています.バージョン 2.xは,前者のすべてのログイン機能を維持し,その基盤をいくつか重要な改善,特にパフォーマンス分野において構築しています.",
+        "links": [
+          {
+            "title": "公式サイト",
+            "url": "https://logging.apache.org/log4j/2.x/manual/configuration.html",
+            "type": "article"
+          },
+          {
+            "title": "ログ4j は 説明しました: 知っておくべきすべて",
+            "url": "https://www.techtarget.com/whatis/feature/Log4j-explained-Everything-you-need-to-know",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "LGlZHKqyQ-aWtHnhklhgn",
+      "type": "subtopic",
+      "label": "SLF4J",
+      "position": {
+        "x": 1532.5469679422956,
+        "y": 1769.8068987197155
+      },
+      "size": {
+        "width": 111,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "SLF4JまたはJavaのためのシンプルログ・ファケードは,Log4j2またはLogbackなどの様々なJavaログ・フレームワークのための抽象層である.これは,コード変更を必要とせずに,展開時に異なるログ・フレームワークを接続することを可能にします.",
+        "links": [
+          {
+            "title": "公式サイト",
+            "url": "https://www.slf4j.org/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Fn7aAaGbwYsAp4xLuuFud",
+      "type": "subtopic",
+      "label": "ミニログ",
+      "position": {
+        "x": 1648.2217949048954,
+        "y": 1769.8068987197155
+      },
+      "size": {
+        "width": 101,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "TinylogはJavaとAndroid用の軽量オープンソースのログフレームワークで,使いやすさのために最適化されています.",
+        "links": [
+          {
+            "title": "公式サイト",
+            "url": "https://tinylog.org/v1/",
+            "type": "official"
+          },
+          {
+            "title": "ティニログ v2",
+            "url": "https://tinylog.org/v2/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "LgpsnXV0CTvTspjnsd0Rd",
+      "type": "topic",
+      "label": "テスト",
+      "position": {
+        "x": 1300.7385519848222,
+        "y": 1621.8196545591995
+      },
+      "size": {
+        "width": 121,
+        "height": 50
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ソフトウェアテストは,ソフトウェア開発者が適切なソフトウェアを構築していることを知ることができる.開発プロセスの一部として (しばしば継続的な統合ツールを使用して) テストを実行すると,コードの信頼性を高め,後退を防ぐことができます.",
+        "links": [
+          {
+            "title": "ソフトウェア テスト は 何 です か",
+            "url": "https://www.guru99.com/software-testing-introduction-importance.html",
+            "type": "article"
+          },
+          {
+            "title": "テストピラミッド",
+            "url": "https://www.browserstack.com/guide/testing-pyramid-for-test-automation",
+            "type": "article"
+          },
+          {
+            "title": "Javaに関するトップ記事を探索する",
+            "url": "https://app.daily.dev/tags/java?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "9UbRG752qxJdUwmqEAjN3",
+      "type": "subtopic",
+      "label": "JDBC",
+      "position": {
+        "x": 1554.5338845627668,
+        "y": 1258.8469443073327
+      },
+      "size": {
+        "width": 170,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "JDBCは,Javaプログラミングでデータベースと相互作用するために使用されるAPI (API) です.JDBCのクラスとインターフェースは,アプリケーションが指定されたデータベースにユーザーの要求を送信することを可能にします.",
+        "links": [
+          {
+            "title": "IBM:JDBCとは何か",
+            "url": "https://www.ibm.com/docs/en/informix-servers/12.10?topic=started-what-is-jdbc",
+            "type": "article"
+          },
+          {
+            "title": "Javaに関するトップ記事を探索する",
+            "url": "https://app.daily.dev/tags/java?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ahcnPvftbi83gtiqV6VTP",
+      "type": "label",
+      "label": "ユニットテスト",
+      "position": {
+        "x": 712.482369832682,
+        "y": 1739.4390443834811
+      },
+      "size": {
+        "width": 120,
+        "height": 32
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "hY1-sEpTmpaj1PregdkFf",
+      "type": "subtopic",
+      "label": "ユニット",
+      "position": {
+        "x": 712.482369832682,
+        "y": 1626.4390443834811
+      },
+      "size": {
+        "width": 120,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "JUnitはJavaのテストフレームワークです.",
+        "links": [
+          {
+            "title": "ユニット",
+            "url": "https://junit.org/junit5",
+            "type": "official"
+          },
+          {
+            "title": "JUnitドキュメント",
+            "url": "https://junit.org/junit5/docs/current/user-guide/",
+            "type": "official"
+          },
+          {
+            "title": "JUnitのチュートリアル",
+            "url": "https://www.guru99.com/junit-tutorial.html",
+            "type": "article"
+          },
+          {
+            "title": "基礎JUnitチュートリアル",
+            "url": "https://www.baeldung.com/junit-5",
+            "type": "article"
+          },
+          {
+            "title": "JUnit クラッシュコースでテスト",
+            "url": "https://www.youtube.com/watch?v=flpmSXVTqBI",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "XU2C8bF9ICej8LS7ZGTTv",
+      "type": "subtopic",
+      "label": "テストNG",
+      "position": {
+        "x": 712.482369832682,
+        "y": 1679.4390443834811
+      },
+      "size": {
+        "width": 120,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "TestNGはJUnitとNUnitからインスパイアされたテストフレームワークですが,より強力で使いやすくするいくつかの新しい機能を導入しています.",
+        "links": [
+          {
+            "title": "テスト",
+            "url": "https://testng.org",
+            "type": "official"
+          },
+          {
+            "title": "テストドキュメント",
+            "url": "https://testng.org/doc/documentation-main.html",
+            "type": "official"
+          },
+          {
+            "title": "テスト・チュートリアル",
+            "url": "https://www.guru99.com/all-about-testng-and-selenium.html",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "lI6ST4WcGtPdKSoWIxStg",
+      "type": "label",
+      "label": "統合テスト",
+      "position": {
+        "x": 854.3929054677501,
+        "y": 1740.5740097760008
+      },
+      "size": {
+        "width": 160,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "gB4XUR9nCdF1-dOEwGcHi",
+      "type": "subtopic",
+      "label": "確信 を 持てる",
+      "position": {
+        "x": 854.3929054677501,
+        "y": 1627.5740097760008
+      },
+      "size": {
+        "width": 160,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Java で REST サービスをテストし検証することは,Ruby や Groovy などのダイナミック言語よりも難しくなります.REST Assured はこれらの言語をJava ドメインに使用する簡素性をもたらします.",
+        "links": [
+          {
+            "title": "安心する",
+            "url": "https://rest-assured.io/",
+            "type": "official"
+          },
+          {
+            "title": "保証されたドキュメント",
+            "url": "https://github.com/rest-assured/rest-assured/wiki",
+            "type": "opensource"
+          },
+          {
+            "title": "安心 する ため の ガイド",
+            "url": "https://www.baeldung.com/rest-assured-tutorial",
+            "type": "article"
+          },
+          {
+            "title": "REST APIに関するトップ記事を探索する",
+            "url": "https://app.daily.dev/tags/rest-api?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "U2BqOY49HaII6mKQB3SVt",
+      "type": "subtopic",
+      "label": "JMeter",
+      "position": {
+        "x": 854.3929054677501,
+        "y": 1680.5740097760008
+      },
+      "size": {
+        "width": 160,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Apache JMeter は,ウェブアプリケーションに焦点を当てて,さまざまなサービスのパフォーマンスを分析および測定するためのロードテストツールとして使用できる Apache プロジェクトです.",
+        "links": [
+          {
+            "title": "Apache JMeter ウェブサイト",
+            "url": "https://jmeter.apache.org/",
+            "type": "article"
+          },
+          {
+            "title": "テストに関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/testing?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "BFX3fjnFTHVnNnqMudZoK",
+      "type": "label",
+      "label": "行動 テスト",
+      "position": {
+        "x": 1046.8252013753893,
+        "y": 1693.015947794886
+      },
+      "size": {
+        "width": 145,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "UFDy19TNkykRsKv4vRsVJ",
+      "type": "subtopic",
+      "label": "キュウリ-JVM",
+      "position": {
+        "x": 1030.3252013753893,
+        "y": 1633.015947794886
+      },
+      "size": {
+        "width": 178,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "キュウリは 行動駆動開発 (BDD) をサポートするテストツールです テクニカル知識に関係なく 誰でも理解できるテストを書く方法を提供します",
+        "links": [
+          {
+            "title": "キュウリ",
+            "url": "https://cucumber.io/",
+            "type": "official"
+          },
+          {
+            "title": "キュウリ文書",
+            "url": "https://cucumber.io/docs/cucumber/",
+            "type": "official"
+          },
+          {
+            "title": "Java の キュウリ-JVM",
+            "url": "https://automationpanda.com/2017/10/24/cucumber-jvm-for-java/",
+            "type": "article"
+          },
+          {
+            "title": "キュウリ-JVM 5 強化キュウリ表現",
+            "url": "https://www.youtube.com/watch?v=jCzpxvAJoZM",
+            "type": "video"
+          },
+          {
+            "title": "JVMに関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/jvm?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mLM1HJf6_pxrUDOmb45ew",
+      "type": "subtopic",
+      "label": "笑うこと > 笑うこと",
+      "position": {
+        "x": 1022.3252013753893,
+        "y": 1738.4390443834811
+      },
+      "size": {
+        "width": 197,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "モッキングは,単位のテストから外部依存を排除し,制御された環境全体を感知します.モッキングの伝統的な方法は,テストしたいクラスと相互作用する他のすべてのクラスをモッキングします.モッキングの共通の目標は: *データベース接続 * Web サービス * スロークラス * 副作用を持つクラス * 非決定的行動を持つクラス",
+        "links": [
+          {
+            "title": "Mockito - Java の Mocking Framework",
+            "url": "https://site.mockito.org/",
+            "type": "article"
+          },
+          {
+            "title": "テストに関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/testing?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "xi0QAi4kXm3-IFKgopnOP",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": 1359.8343015809069,
+        "y": 2016.2880407433463
+      },
+      "size": {
+        "width": 21,
+        "height": 85
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "OrkJa48HIDmrLOgCBpimA",
+      "type": "subtopic",
+      "label": "ジャバリン",
+      "position": {
+        "x": 1368.6499336025647,
+        "y": 1368.2594233874954
+      },
+      "size": {
+        "width": 114,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Javalin は Java と Kotlin の 軽量 な ウェブ フレームワーク で,使いやすい,直感 的 な,楽しい もの で 設計 さ れ て い ます.開発 者 たち は,最小限の ボイラープレート コード で ウェブ アプリケーション や API を 迅速 に 構築 する こと を 可能 に し て い ます. Javalin は ルーティング, リクエスト 処理, レスポンス 生成 に 関する シンプル な アプローチ を 提供 する こと に 焦点を当て て い ます.",
+        "links": [
+          {
+            "title": "ジャヴァリン ウェブサイト",
+            "url": "https://javalin.io/",
+            "type": "official"
+          },
+          {
+            "title": "Javalin で REST API を作成する",
+            "url": "https://www.baeldung.com/javalin-rest-microservices",
+            "type": "article"
+          }
+        ]
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "XX0I26JoVMVXIe_7bVMix",
+      "source": "iogwMmOvub2ZF4zgg6WyF",
+      "target": "_hYN0gEi9BL24nptEtXWU",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "dFn6kGOoJ-0BzJJEb9DSG",
+      "source": "_hYN0gEi9BL24nptEtXWU",
+      "target": "idLHBxhvcIqZTqmh_E8Az",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "arkF7QJJRbCBYWp0crqa2",
+      "source": "_hYN0gEi9BL24nptEtXWU",
+      "target": "os3Pa6W9SSNEzgmlBbglQ",
+      "source_handle": "z2",
+      "target_handle": "y2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "HNVw8OboycWKLEtEbG2bn",
+      "source": "_hYN0gEi9BL24nptEtXWU",
+      "target": "3oInpqvTSSC5_K6i7j8N7",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "auB7Png72XjmhcLr3IJA7",
+      "source": "_hYN0gEi9BL24nptEtXWU",
+      "target": "YKhuRbcUFzo0hTvuTq-Yl",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "2aoDIr80lXSJLW1hIGUkb",
+      "source": "jZ67HhVRelJaxjsCckSSI",
+      "target": "hWA7RtuqltMTmHdcCnmES",
+      "source_handle": "x2",
+      "target_handle": "y1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "m-_y7nLeYFkUKGiacxWA0",
+      "source": "",
+      "target": "NMznG9mo2wzNFnjhg990f",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "G7pXuJfkyt2nWAOHU8yV0",
+      "source": "",
+      "target": "gc_7cuIO2_joKlQRAPDfX",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "2_6Yz3-Agx9_rEN5xW86c",
+      "source": "rrrvATyhXqRgJGWI3z0WF",
+      "target": "AvbMQ5vY3ip1oX_6Yq4ie",
+      "source_handle": "x2",
+      "target_handle": "w2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "kgMI98fg2-mKMgUs0wnjD",
+      "source": "hWA7RtuqltMTmHdcCnmES",
+      "target": "1AJv95mTLpR7L8KBoGym8",
+      "source_handle": "w2",
+      "target_handle": "x1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "ts38Q2ceHs60TJscUBZVE",
+      "source": "hWA7RtuqltMTmHdcCnmES",
+      "target": "0etAs56EeBfh_0IlAaSra",
+      "source_handle": "y2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "ZiMV7umyPdhy3JJDcopR-",
+      "source": "jZ67HhVRelJaxjsCckSSI",
+      "target": "h6ceO0kiBIxNRkPzN3hBY",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "WI-MhbxrehFcVwyGJ5CQJ",
+      "source": "jZ67HhVRelJaxjsCckSSI",
+      "target": "_JlT9oKQ6Yu4UX6l19G8P",
+      "source_handle": "y2",
+      "target_handle": "z2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "qUrLBzvXvJOg53HBfjrOI",
+      "source": "_hYN0gEi9BL24nptEtXWU",
+      "target": "jZ67HhVRelJaxjsCckSSI",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-hp15XdmPlKKTbYnrYfCBlx2-Rhk7BrJqNEXQT3LGlGLM6w1",
+      "source": "hp15XdmPlKKTbYnrYfCBl",
+      "target": "2TGq1y2QthnxxN-FfToSe",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-Rhk7BrJqNEXQT3LGlGLM6y2-OlbQNB6YXZjO1J7D0lZU1z1",
+      "source": "2TGq1y2QthnxxN-FfToSe",
+      "target": "OlbQNB6YXZjO1J7D0lZU1",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-Rhk7BrJqNEXQT3LGlGLM6y2-QgWalJLIb6Fw0HhN1wb02z1",
+      "source": "2TGq1y2QthnxxN-FfToSe",
+      "target": "5g9mmi01WeZ4aDqNzwx_V",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-Rhk7BrJqNEXQT3LGlGLM6y2-VBNcAO0STaZJ1iV9A7utvz1",
+      "source": "2TGq1y2QthnxxN-FfToSe",
+      "target": "VBNcAO0STaZJ1iV9A7utv",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-Rhk7BrJqNEXQT3LGlGLM6y2-yNDbk6r5wFqBi25xmIRF_z1",
+      "source": "2TGq1y2QthnxxN-FfToSe",
+      "target": "yNDbk6r5wFqBi25xmIRF_",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-Rhk7BrJqNEXQT3LGlGLM6z2-5khApwg1FZ-0qorsLyH-Fy1",
+      "source": "2TGq1y2QthnxxN-FfToSe",
+      "target": "5khApwg1FZ-0qorsLyH-F",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-Rhk7BrJqNEXQT3LGlGLM6z2-sG_3ZQIE1-FQXQkk-OduQy1",
+      "source": "2TGq1y2QthnxxN-FfToSe",
+      "target": "sG_3ZQIE1-FQXQkk-OduQ",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-Rhk7BrJqNEXQT3LGlGLM6z2-DZ4BX4NYeCQbjGSj56lngy1",
+      "source": "2TGq1y2QthnxxN-FfToSe",
+      "target": "JHUhVEjWFXTn6-wKcKevg",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-Rhk7BrJqNEXQT3LGlGLM6z2-KcIUQ5XpOI6WTA9wrqzn3y2",
+      "source": "2TGq1y2QthnxxN-FfToSe",
+      "target": "KcIUQ5XpOI6WTA9wrqzn3",
+      "source_handle": "z2",
+      "target_handle": "y2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-2TGq1y2QthnxxN-FfToSez2-ziD_XwzJSFQP_3iLjq9pAy1",
+      "source": "2TGq1y2QthnxxN-FfToSe",
+      "target": "ziD_XwzJSFQP_3iLjq9pA",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-2TGq1y2QthnxxN-FfToSez2-aEaBobzFWv0mJHGAbgxKYy1",
+      "source": "2TGq1y2QthnxxN-FfToSe",
+      "target": "aEaBobzFWv0mJHGAbgxKY",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-2TGq1y2QthnxxN-FfToSey2-QgWalJLIb6Fw0HhN1wb02z1",
+      "source": "2TGq1y2QthnxxN-FfToSe",
+      "target": "QgWalJLIb6Fw0HhN1wb02",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-Rhk7BrJqNEXQT3LGlGLM6y2-LenPrQwxFsE1UVbXO_dE7w2",
+      "source": "Rhk7BrJqNEXQT3LGlGLM6",
+      "target": "LenPrQwxFsE1UVbXO_dE7",
+      "source_handle": "y2",
+      "target_handle": "w2",
+      "edge_style": "dashed",
+      "line_type": "simplebezier",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-2TGq1y2QthnxxN-FfToSez2-DZ4BX4NYeCQbjGSj56lngy1",
+      "source": "2TGq1y2QthnxxN-FfToSe",
+      "target": "DZ4BX4NYeCQbjGSj56lng",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-2TGq1y2QthnxxN-FfToSex2-zNHDLv26Xn3oMrDVSAP1Zw2",
+      "source": "2TGq1y2QthnxxN-FfToSe",
+      "target": "zNHDLv26Xn3oMrDVSAP1Z",
+      "source_handle": "x2",
+      "target_handle": "w2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-FyTlaUqrK5h3e5mWwkvVgx2-XUikvUeIXLl34LP6HFrAIw1",
+      "source": "FyTlaUqrK5h3e5mWwkvVg",
+      "target": "XUikvUeIXLl34LP6HFrAI",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-kdxy8Zssnc5lJjdmjUyMcy2-8n5A3GTRV3WpEnCa4yGamz1",
+      "source": "kdxy8Zssnc5lJjdmjUyMc",
+      "target": "8n5A3GTRV3WpEnCa4yGam",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-zNHDLv26Xn3oMrDVSAP1Zx2-FyTlaUqrK5h3e5mWwkvVgw1",
+      "source": "zNHDLv26Xn3oMrDVSAP1Z",
+      "target": "FyTlaUqrK5h3e5mWwkvVg",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-zNHDLv26Xn3oMrDVSAP1Zz2-g9P3548F38tYGjevBc42ww1",
+      "source": "zNHDLv26Xn3oMrDVSAP1Z",
+      "target": "g9P3548F38tYGjevBc42w",
+      "source_handle": "z2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "smoothstep",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-g9P3548F38tYGjevBc42wx2-00_q6I95eO-PUUrKpPFY8w1",
+      "source": "g9P3548F38tYGjevBc42w",
+      "target": "00_q6I95eO-PUUrKpPFY8",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-81N1cZLue_Ii0uD5CV6kZw2-6FMj9tMAQPii_1kLtHJLkx2",
+      "source": "81N1cZLue_Ii0uD5CV6kZ",
+      "target": "6FMj9tMAQPii_1kLtHJLk",
+      "source_handle": "w2",
+      "target_handle": "x2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-zItXmuluDtl6HkTYQ7qMhx2-M0ybgK1JCycXhZ1dEpCFow2",
+      "source": "zItXmuluDtl6HkTYQ7qMh",
+      "target": "M0ybgK1JCycXhZ1dEpCFo",
+      "source_handle": "x2",
+      "target_handle": "w2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-LgpsnXV0CTvTspjnsd0Rdw2-kN-mXxqUPNJNsJGQ0U_7Jx1",
+      "source": "_W84u4UXMSY0zvy6RJvFi",
+      "target": "kN-mXxqUPNJNsJGQ0U_7J",
+      "source_handle": "w2",
+      "target_handle": "x1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-LgpsnXV0CTvTspjnsd0Rdy2-81N1cZLue_Ii0uD5CV6kZz2",
+      "source": "_W84u4UXMSY0zvy6RJvFi",
+      "target": "81N1cZLue_Ii0uD5CV6kZ",
+      "source_handle": "y2",
+      "target_handle": "z2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-JeMG0gU8IVRBZgczjXmPiw2-u_YysD7Bpnq-xkFX5yJGzx1",
+      "source": "shqS9-hg__mkOtnnl_I4l",
+      "target": "u_YysD7Bpnq-xkFX5yJGz",
+      "source_handle": "w2",
+      "target_handle": "x1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-_W84u4UXMSY0zvy6RJvFiz2-LgpsnXV0CTvTspjnsd0Rdy1",
+      "source": "_W84u4UXMSY0zvy6RJvFi",
+      "target": "fV-gW51jhna2__Ln2HIIh",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-LgpsnXV0CTvTspjnsd0Rdw2-WzWOxBUKKg6LeuBmVesc2x1",
+      "source": "fV-gW51jhna2__Ln2HIIh",
+      "target": "WzWOxBUKKg6LeuBmVesc2",
+      "source_handle": "w2",
+      "target_handle": "x1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-fV-gW51jhna2__Ln2HIIhx2-LgpsnXV0CTvTspjnsd0Rdw1",
+      "source": "fV-gW51jhna2__Ln2HIIh",
+      "target": "d9F5Wt8onY125DLuzNULg",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-d9F5Wt8onY125DLuzNULgy2-LgpsnXV0CTvTspjnsd0Rdz2",
+      "source": "d9F5Wt8onY125DLuzNULg",
+      "target": "LgpsnXV0CTvTspjnsd0Rd",
+      "source_handle": "y2",
+      "target_handle": "z2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-d9F5Wt8onY125DLuzNULgy2-d9F5Wt8onY125DLuzNULgy1",
+      "source": "d9F5Wt8onY125DLuzNULg",
+      "target": "d9F5Wt8onY125DLuzNULg",
+      "source_handle": "y2",
+      "target_handle": "y1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    }
+  ],
+  "content_crawled_at": "2026-04-06T09:44:08.986592+00:00"
+}

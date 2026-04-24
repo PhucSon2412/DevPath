@@ -38,6 +38,24 @@ const userSchema = new mongoose.Schema(
       of: String,
       default: new Map(),
     },
+    qaRecommendation: {
+      model: { type: String, default: '' },
+      generatedAt: { type: Date, default: null },
+      summary: { type: String, default: '' },
+      recommendations: {
+        type: [
+          {
+            roadmapId: { type: String, required: true },
+            score: { type: Number, required: true },
+            reason: {
+              en: { type: String, default: '' },
+              ja: { type: String, default: '' },
+            },
+          },
+        ],
+        default: [],
+      },
+    },
   },
   {
     timestamps: true, // createdAt, updatedAt

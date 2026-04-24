@@ -1,0 +1,5596 @@
+{
+  "id": "php",
+  "title": "PHP",
+  "source_url": "https://roadmap.sh/php",
+  "github_url": "https://github.com/kamranahmedse/developer-roadmap/tree/master/src/data/roadmaps/php",
+  "crawled_at": "2026-04-06T07:37:28.660398+00:00",
+  "type": "flow",
+  "stats": {
+    "total_nodes": 185,
+    "total_edges": 56,
+    "nodes_with_content": 120
+  },
+  "node_types": [
+    "button",
+    "horizontal",
+    "label",
+    "linksgroup",
+    "paragraph",
+    "section",
+    "subtopic",
+    "title",
+    "topic",
+    "vertical"
+  ],
+  "edge_styles": [
+    "dashed",
+    "solid"
+  ],
+  "edge_line_types": [
+    "default",
+    "simplebezier",
+    "smoothstep"
+  ],
+  "node_type_description": {
+    "title": "ロードマップの主題",
+    "topic": "主題大 (nhóm kỹ năng)",
+    "subtopic": "Kỹ năng/công nghệ cụ thể cần học",
+    "paragraph": "文は mô tả / chú thích",
+    "vertical": "Đường kết nối dọc (ビジュアルコネクタ)"
+  },
+  "edge_style_description": {
+    "solid": "Kỹ năng bắt buộc / quan trọng",
+    "dashed": "選択 / gợi ý / オルタナティブ"
+  },
+  "nodes": [
+    {
+      "id": "JdMITvYygFHULtbW-267m",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": 881.9180934525762,
+        "y": 3363.2511474107714
+      },
+      "size": {
+        "width": 21,
+        "height": 123
+      },
+      "style": {
+        "strokeDasharray": "0",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "WobnwQysg22KeqQUfFq3c",
+      "type": "horizontal",
+      "label": "ホリゾントノード",
+      "position": {
+        "x": 1041.4180934525762,
+        "y": 3331.0269640131846
+      },
+      "size": {
+        "width": 147,
+        "height": 20
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.5
+      },
+      "z_index": 999
+    },
+    {
+      "id": "33xDnONCKXab3GnA_QgR0",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": 1186.8762749805198,
+        "y": 3007.512902256284
+      },
+      "size": {
+        "width": 184,
+        "height": 166
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "pc14qPNQD6yLbN54QCFrw",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": 732.9180934525762,
+        "y": 3002.580124766453
+      },
+      "size": {
+        "width": 300,
+        "height": 271
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "gn5qNP3VTmmQE2tT6o-vS",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": 444.87747700920465,
+        "y": 3001.1243840820907
+      },
+      "size": {
+        "width": 239,
+        "height": 382
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "4DITxbB38FakSCzjsQ0Js",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": 770.668796508003,
+        "y": 2757.8091148195394
+      },
+      "size": {
+        "width": 203,
+        "height": 109
+      },
+      "style": {
+        "width": 150,
+        "height": 100,
+        "fontSize": 17,
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "O-VQ9xI9U_dcv1eXC10Pm",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": 1239.6168887792574,
+        "y": 2591.870465591149
+      },
+      "size": {
+        "width": 241,
+        "height": 105
+      },
+      "style": {
+        "width": 150,
+        "height": 100,
+        "fontSize": 17,
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "k2geFuCziHUELrMsMYMom",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": 864.1096183840161,
+        "y": 2465.815593385017
+      },
+      "size": {
+        "width": 211,
+        "height": 221
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "nWYHpcvp1RT1gSqs1Dqcs",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": 1239.9723696321892,
+        "y": 2458.216035499366
+      },
+      "size": {
+        "width": 241,
+        "height": 112
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "A_lYlCAkORf0LldseIxtz",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": 708.7340367056072,
+        "y": 1747.4173970557417
+      },
+      "size": {
+        "width": 326,
+        "height": 329
+      },
+      "style": {
+        "width": 150,
+        "height": 100,
+        "fontSize": 17,
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "1mXQQdSdlKkWfjlT47nE0",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": 431.52449280028634,
+        "y": 1750.3006388732697
+      },
+      "size": {
+        "width": 212,
+        "height": 106
+      },
+      "style": {
+        "width": 150,
+        "height": 100,
+        "fontSize": 17,
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "CORVHVLE5hxVl5fd4jVhd",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": 1074.4015161102686,
+        "y": 1648.8680076368641
+      },
+      "size": {
+        "width": 410,
+        "height": 266
+      },
+      "style": {
+        "width": 150,
+        "height": 100,
+        "fontSize": 17,
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "dv4WVzUCQ6d95AfBqdqQV",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": 439.116943359375,
+        "y": 1080.671875
+      },
+      "size": {
+        "width": 256,
+        "height": 223
+      },
+      "style": {
+        "width": 150,
+        "height": 100,
+        "fontSize": 17,
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "RjrP6TuYhXhW3uuZgqurX",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": 1213.7247832613762,
+        "y": 1255.3927959830828
+      },
+      "size": {
+        "width": 273,
+        "height": 224
+      },
+      "style": {
+        "width": 150,
+        "height": 100,
+        "fontSize": 17,
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "hitsVjqeIuzCP0VUZRXkS",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": 1213.7247832613762,
+        "y": 1082.386458543616
+      },
+      "size": {
+        "width": 273,
+        "height": 177
+      },
+      "style": {
+        "width": 150,
+        "height": 100,
+        "fontSize": 17,
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "bN07oOEWH_UrXKfpp8MB0",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": 443.57600354059275,
+        "y": 520.2840671348815
+      },
+      "size": {
+        "width": 248,
+        "height": 170
+      },
+      "style": {
+        "width": 150,
+        "height": 100,
+        "fontSize": 17
+      },
+      "z_index": -999
+    },
+    {
+      "id": "BxU_vv4FsalsT1Hq0qRRK",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": 1202.276875479259,
+        "y": 353.8062332403956
+      },
+      "size": {
+        "width": 295,
+        "height": 171
+      },
+      "style": {
+        "width": 150,
+        "height": 100,
+        "fontSize": 17,
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "iogwMmOvub2ZF4zgg6WyF",
+      "type": "title",
+      "label": "PHP",
+      "position": {
+        "x": 903.4180934525762,
+        "y": 0.8384927221259204
+      },
+      "size": {
+        "width": 97,
+        "height": 68
+      },
+      "style": {
+        "fontSize": 28,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "_hYN0gEi9BL24nptEtXWU",
+      "type": "topic",
+      "label": "PHPへの導入",
+      "position": {
+        "x": 836.4180934525762,
+        "y": 176.58467727912247
+      },
+      "size": {
+        "width": 231,
+        "height": 50
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "PHP (Hypertext Preprocessor) は,ダイナミックなウェブページとアプリケーションを作成するために使用される強力なスクリプト言語です.データベースと無縫のインタラクション,コンテンツの制御,セッショントラッキング,クッキーを容易に提供します.オープンソース言語であるため,柔軟性,速度,セキュリティのために開発者によって好まれています.テキストを印刷するための簡単な PHP コードです: <?php エコ\"Hello, World!\"; ?> ここで,PHPの\"echo\"コマンドは\",または複数の文字列を出力するのに役立ちます.",
+        "links": [
+          {
+            "title": "PHP",
+            "url": "https://www.php.net/",
+            "type": "official"
+          },
+          {
+            "title": "PHPドキュメント",
+            "url": "https://www.php.net/docs.php",
+            "type": "official"
+          },
+          {
+            "title": "PHP チュートリアル",
+            "url": "https://www.phptutorial.net/",
+            "type": "article"
+          },
+          {
+            "title": "インタラクティブでPHPを学ぶ",
+            "url": "https://www.learn-php.org/about",
+            "type": "article"
+          },
+          {
+            "title": "PHPへの導入",
+            "url": "https://www.youtube.com/watch?v=KBT2gmAfav4",
+            "type": "video"
+          },
+          {
+            "title": "PHP チュートリアル - 完全コース",
+            "url": "https://www.youtube.com/watch?v=OK_JCtrrv-c",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5Irad96FtU3TkNZRK7x_8",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": 941.4180934525762,
+        "y": -100.16150727787408
+      },
+      "size": {
+        "width": 21,
+        "height": 101
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "xi0QAi4kXm3-IFKgopnOP",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": 881.9180934525762,
+        "y": 3602.2511474107714
+      },
+      "size": {
+        "width": 21,
+        "height": 85
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "b2CuLrhsUNnb4OxI6RRAS",
+      "type": "subtopic",
+      "label": "進化 と 歴史",
+      "position": {
+        "x": 1202.276875479259,
+        "y": 147.20498499489238
+      },
+      "size": {
+        "width": 295,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "PHPは,最初は個人ホームページを表している.これはウェブ開発に使用される人気のスクリプト言語である.ラスマス・レルドーフは1994年に作成し,それ以来,Cで書かれた単純なCGIバイナリーのセットから,フル機能言語へと大きく進化した.PHPの旅にはいくつかのバージョンが含まれ,PHP3は再書きの解析器とオブジェクト指向プログラミングへのより良いアプローチを導入した.PHP8.0は,いくつかの最適化,JITコンパイル,およびユニオンタイプを導入した.",
+        "links": [
+          {
+            "title": "PHP の歴史",
+            "url": "https://www.php.net/history",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6sHRQTcoKL3TlgNJlwyx8",
+      "type": "subtopic",
+      "label": "PHP バージョンと機能",
+      "position": {
+        "x": 1202.276875479259,
+        "y": 201.20498499489238
+      },
+      "size": {
+        "width": 295,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "PHP (Hypertext Preprocessor) のバージョンは,各リリースに新しい機能,改善,バグ修正が付与されているため,極めて重要です. PHP のバージョンは,1995年にリリースされた PHP 1.0 から始まり,数年にわたって改善されています.執筆時点での最新のバージョンは PHP 8.0 です.JIT コンパイラ,名前の議論,マッチ式,その他のような機能を導入しました. PHP 7.4 または 8.0 のような公式サポートされたバージョンに固執すると,セキュリティ更新とパフォーマンスの改善が保証されます.例えば,コード `echo \"現在の PHP バージョン: \" . phpversion;;`は,使用中の PHP バージョンを教えてくれます.",
+        "links": [
+          {
+            "title": "バージョンと特徴",
+            "url": "https://www.php.net/manual/en/history.php.php",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "_LhLDVZjLt1DoAP1NuUES",
+      "type": "subtopic",
+      "label": "PHPとは何か?",
+      "position": {
+        "x": 541.9703341237284,
+        "y": 176.58467727912247
+      },
+      "size": {
+        "width": 185,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "PHP (Hypertext Preprocessor) は,Web開発に好まれる人気のあるサーバーサイドスクリプト言語です.汎用的でダイナミックで,HTMLコードにシームレスに埋め込むことができます.PHPスクリプトはサーバー上で実行され,結果はシンプルなHTMLとしてブラウザに送り返されます.",
+        "links": [
+          {
+            "title": "PHPとは何か?",
+            "url": "https://www.php.net/manual/en/introduction.php",
+            "type": "official"
+          },
+          {
+            "title": "PHPへの導入",
+            "url": "https://www.phptutorial.net/php-tutorial/what-is-php/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "qA7UjGPRBRZaBdgHTS5o3",
+      "type": "paragraph",
+      "label": "開発環境",
+      "position": {
+        "x": 804.9180934525762,
+        "y": 288.0969042437795
+      },
+      "size": {
+        "width": 294,
+        "height": 65
+      },
+      "style": {
+        "fontSize": 20,
+        "borderColor": "transparent",
+        "backgroundColor": "transparent",
+        "color": "#000000",
+        "textAlign": "center",
+        "justifyContent": "center",
+        "padding": 16
+      },
+      "z_index": 999
+    },
+    {
+      "id": "3_TuxOSzBuktBlBF05r_z",
+      "type": "topic",
+      "label": "PHP をインストールする",
+      "position": {
+        "x": 1202.276875479259,
+        "y": 296.0969042437795
+      },
+      "size": {
+        "width": 295,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "PHP をインストールすることは,PHP アプリケーションの開発を開始するための不可欠なプロセスです.PHP をWindows,macOS,およびLinux のさまざまなディストリビューションでインストールできます.PHP を取得するための場所には,公式のPHP ウェブサイト,Linux の APT や MacOS の Homebrew などのパッケージマネージャー,または Web サーバーとデータベースとともに PHP を提供する XAMPP や WAMP などのバンドルソリューションが含まれます.インストールが成功した後,インストールを確認するために簡単な PHP スクリプトを実行できます.例は, `<?php エコ 'Hello, World!'; ?>`,ウェブ ブラウザでアクセスすると\"Hello, World!\"が表示されるべきです.",
+        "links": [
+          {
+            "title": "設置ガイド",
+            "url": "https://www.php.net/manual/en/install.php",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "36Y1HkHxhuxh2qVQB8NVE",
+      "type": "subtopic",
+      "label": "WAMP",
+      "position": {
+        "x": 1214.3239413874203,
+        "y": 366.334479565516
+      },
+      "size": {
+        "width": 91,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "WAMPは,Windowsシステム上でPHPウェブアプリケーションを開発するために使用される人気のあるソフトウェアスタックである.Windows,Apache,MySQL,およびPHPの略称として機能するWAMPは,ローカルウェブサーバーを設定するために必要なすべてのコンポーネントを提供します.ApacheはHTTPリクエストを処理するために使用され,MySQLはデータベースを管理し,PHPはプログラミング言語として機能します.WAMPを使用するメリットは,これらのコンポーネントをすべてプリートして,開発者にとって時間を節約するためです.公式ウェブサイトからWAMPをダウンロードできます.インストール後,インターネット接続を必要とせずにローカルでPHPスクリプトのテストを行うことができます.",
+        "links": [
+          {
+            "title": "ウィンドウのインストール",
+            "url": "https://www.php.net/manual/en/install.windows.manual.php",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "-wniKEBwbF0Fi1fHpF-Gc",
+      "type": "subtopic",
+      "label": "XAMPP",
+      "position": {
+        "x": 1308.3239413874203,
+        "y": 366.334479565516
+      },
+      "size": {
+        "width": 91,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "XAMPPは,クロスプラットフォーム (X),Apacheサーバー (A),MariaDB (M),PHP (P) とPerl (P) を代表するオープンソース開発環境です.PHPで作業している場合は,テストまたは開発目的のためにローカルウェブサーバーを作成するため,便利なツールです.特にプロジェクトでデータベースを使用することを計画している場合は有用です.このプロジェクトにはMariaDBが含まれます. PHPと無縫に統合され,サーバー,スクリプト言語,データベースを統合されたプラットフォームからトラブルが少なく管理できます.XAMPPは設定と管理についてより多いため,コードサンプルはここでは適用されません.詳細については,公式のPHPドキュメントを参照してください.",
+        "links": [
+          {
+            "title": "Apache2をインストールする",
+            "url": "https://www.php.net/manual/en/install.windows.apache2.php",
+            "type": "official"
+          },
+          {
+            "title": "XAMPP",
+            "url": "https://www.apachefriends.org/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "t7p7TU2khaxsZPYAdwFAA",
+      "type": "subtopic",
+      "label": "MAMP",
+      "position": {
+        "x": 1402.3239413874203,
+        "y": 366.334479565516
+      },
+      "size": {
+        "width": 81,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "MAMPはMacintosh,Apache,MySQL,PHPを意味する.開発者がローカルサーバー環境を実行できるようにする人気のあるソフトウェアスタックである.他の技術スタックが異なる言語やプラットフォーム特有の開発により関連があるかもしれないが,MAMPはPHP開発に非常に有益である.MAMPはPHP開発者がシステム上のローカルホスト環境でコードを実行することを可能にする.テストとデバッグをより簡単にする.MAMPはすべての必要なソフトウェアパッケージ (Apache,MySQL,PHP) を1つの便利なインストールにまとめて,開発者が不器用で信頼性の高い一貫した開発環境を作成するのをサポートする.しかし,アシスタントとして,私はPHPでのコーディングと直接関連していないため,このトピックのためのサンプルコードを提供することはできません.",
+        "links": [
+          {
+            "title": "MAMP",
+            "url": "https://www.mamp.info/en/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "7LjxtrmgJtTJc0_kP83Tr",
+      "type": "subtopic",
+      "label": "ランプ",
+      "position": {
+        "x": 1215.3239413874203,
+        "y": 420.334479565516
+      },
+      "size": {
+        "width": 267,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "LAMPはLinux OS,Apache HTTP Server,MySQL関係データベース管理システム,PHPの組み合わせを指します.Webサイトを作成し,ホストするための人気のあるスタックです.PHPでは,LAMPは幅広いダイナミックなウェブサイトとアプリケーションをサポートする堅固でオープンソースのWeb開発プラットフォームです.コンテンツ管理システム (CMS),フォーラム,または電子商取引ショップの開発を計画していると仮定します.LAMPスタックの一部として,PHPは柔軟な開発環境を提供するのに役立ちます.ここで,PHPはMySQLと手を組んでデータベースにアクセスし管理し,クエリした結果を取得し,クライアント側に送る前にApache HTTPサーバーによるHTMLページに埋め込みます.",
+        "links": [
+          {
+            "title": "PHPランプ",
+            "url": "https://www.php.net/manual/en/introduction.php",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "SCp3PCqxAYbM9iBgLCG4_",
+      "type": "label",
+      "label": "ローカルサーバー",
+      "position": {
+        "x": 1297.3239413874203,
+        "y": 478.2656548567517
+      },
+      "size": {
+        "width": 113,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "usBwcXnWuUlaN71q1nbED",
+      "type": "paragraph",
+      "label": "基礎 を 学ぶ",
+      "position": {
+        "x": 831.9180934525762,
+        "y": 406.8062332403956
+      },
+      "size": {
+        "width": 267,
+        "height": 62
+      },
+      "style": {
+        "fontSize": 20,
+        "borderColor": "transparent",
+        "backgroundColor": "transparent",
+        "color": "#000000",
+        "textAlign": "center",
+        "justifyContent": "center",
+        "padding": 16
+      },
+      "z_index": 999
+    },
+    {
+      "id": "hzBUHSuFwLYNooF_vEmrs",
+      "type": "subtopic",
+      "label": "PHP の基本的な構文",
+      "position": {
+        "x": 444.05794812125305,
+        "y": 305.8123134600021
+      },
+      "size": {
+        "width": 247,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "PHP 構文は一般的にC スタイル構文に似ていると考えられており,コードブロックは,丸い括弧で定義され,変数はドル記号 ($) で始まり,記述は半角 (;) で終わります.これは,C のような言語を熟知しているプログラマにとって比較的簡単に学ぶことができます. PHP 脚本は,ウェブページ内で PHP コードが実行されるべき場所を示すための開設タグ \"\"を使用して HTML に埋め込まれています.",
+        "links": [
+          {
+            "title": "基本構文",
+            "url": "https://www.php.net/manual/en/langref.php",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "D0BtyxyjIBcpfn5wP23WC",
+      "type": "subtopic",
+      "label": "変数と範囲",
+      "position": {
+        "x": 444.05794812125305,
+        "y": 358.8123134600021
+      },
+      "size": {
+        "width": 247,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "変数は,PHPの中心部であり,スクリプトで後に使用できるデータを保存することができます.その値は文字列,整数,配列,オブジェクトを含む様々な種類である可能性があります.変数に関しては,PHPはローカルおよびグローバル範囲の両方を持っています.ローカル範囲は,定義された関数内でのみアクセス可能な変数を指しますが,グローバル範囲は,スクリプトの任意の部分に変数がアクセス可能なことを意味します.しかし,関数の内部でグローバル変数を使用するには,それをグローバルと宣言する必要があります.ここは短い例: $x = 10; //global function variable test (() {global $x; // global variable echo $x; } test(); //print 10",
+        "links": [
+          {
+            "title": "変数と範囲",
+            "url": "https://www.php.net/manual/en/language.variables.scope.php",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "srIHPZabaCGdB5VvUXaMa",
+      "type": "subtopic",
+      "label": "データタイプ",
+      "position": {
+        "x": 444.05794812125305,
+        "y": 411.8123134600021
+      },
+      "size": {
+        "width": 247,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "PHP は,いくつかの種類のデータをサポートする柔軟で広く使用されている言語である.これらの種類には整数,浮動点数,文字列,配列,オブジェクト,NULL,および多くのものが含まれます.異なるデータタイプにより,開発者はアプリケーションでデータを効率的に管理し処理することができます.例えば,PHP の整数データタイプは -2,147,483,648 と 2,147,483,647 の間の非十分数である可能性があります.ここに,変数に異なるデータタイプを割り当てる小さなサンプル PHP コードスニペットがあります: $text = \"Hello world!\"; // String $number = 1234; //整数 $decimal number = 12.34; //浮動点番号 $boolean = true; // Boolean",
+        "links": [
+          {
+            "title": "データタイプ",
+            "url": "https://www.php.net/manual/en/language.types.php",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2ykzBBdYhWuM-neGf0AWP",
+      "type": "subtopic",
+      "label": "エコ",
+      "position": {
+        "x": 457.2038189111306,
+        "y": 532.0359440485736
+      },
+      "size": {
+        "width": 116,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "'echo' は PHP の言語構造であり,一般的にブラウザに1つまたは複数の文字列を出力するために使用されます.このコマンドは機能のように振る舞わないため,混乱を避けるために必要な場合を除く括弧を必要としません.また, 'echo' は複数のパラメータもサポートしていることを指摘する価値があります.",
+        "links": []
+      }
+    },
+    {
+      "id": "NQUmO90sqe7fnzod3Ia8H",
+      "type": "subtopic",
+      "label": "プリント",
+      "position": {
+        "x": 579.5613249380067,
+        "y": 532.0359440485736
+      },
+      "size": {
+        "width": 101,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "PHP の 'print' ステートメントは,一か複数の文字列を出力するために使用される内蔵機能である. 'echo'とは異なり,言語構造ではなく返却値である.しかし,表現を使用しているため,遅い. 'print' 出力するテキストまたは数値データは直接表示または変数に保存することができます.例えば,文字列を印刷するには, `print\"Hello, World!\");`,および変数で使用するために, `echo $variable;`は適当です.",
+        "links": [
+          {
+            "title": "プリント",
+            "url": "https://www.php.net/manual/en/function.print.php",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JCCeVC0hOrvIeyfg1ScKA",
+      "type": "subtopic",
+      "label": "var_dump",
+      "position": {
+        "x": 457.2038189111306,
+        "y": 586.0359440485736
+      },
+      "size": {
+        "width": 116,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Var\\_dump は,特定の変数のデータタイプと値を出すため,デバッグするのに非常に便利な内蔵PHP機能です.これには,そのようなタイプを与えられた場合,アレイ要素とオブジェクトプロパティが含まれます.あなたのPHPコードと喧嘩し,あなたの変数が予想通りに振る舞っていないとみれば,var\\_dump を使用すると,あなたが何をやっているのかすぐに示できます.下の簡単な使用例を見てください. $myVar = array ((\"Hello\",\"World!\"); var_dump (($myVar); これはアレイ内の各要素のサイズと詳細を表示します.",
+        "links": [
+          {
+            "title": "var_dump",
+            "url": "https://www.php.net/manual/en/function.var-dump.php",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "wsC7OGXOyfCY4pLLNrR2v",
+      "type": "subtopic",
+      "label": "プリント_r",
+      "position": {
+        "x": 579.5613249380067,
+        "y": 586.0359440485736
+      },
+      "size": {
+        "width": 101,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "PHP の print\\_r 機能は,単純な値からより複雑で多次元なマレイやオブジェクトまで,変数に関する人間読める情報を印刷するために使用されます.デバッグする際には,エコーまたは印刷機能よりも変数の内容に関するより多くの情報を提供します.例えば,コードの `$array = array('apple', 'banana', 'cherry'); print_r($array);`,それは Array ( \\[0\\] apple \\[1\\] => \\[2\\] => banana => cherry) を表示します.",
+        "links": [
+          {
+            "title": "プリント_r",
+            "url": "https://www.php.net/manual/en/function.print-r.php",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "d_Ei1E5a0j425i9Jf6ffd",
+      "type": "label",
+      "label": "輸出とデバッグ",
+      "position": {
+        "x": 471.57600354059275,
+        "y": 645.0359440485736
+      },
+      "size": {
+        "width": 192,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "pzReF4C0mcCWAnpfIJbwl",
+      "type": "subtopic",
+      "label": "キャスティングデータタイプ",
+      "position": {
+        "x": 443.57600354059275,
+        "y": 465.2656548567518
+      },
+      "size": {
+        "width": 247,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "PHPは,松散なタイピング言語として,変数のタイプを変更したり,あるデータタイプのインスタンスを別のデータタイプに変換したりすることができます.この操作はキャスティングとして知られています.キャスティングを使用するときは,状況に依存します.操作のためにデータタイプに対する明示的な制御を望むときに推奨されます.構文は,変数の前に意図されたタイプを括弧に置くことを意味します.例えば,文字列を整数に変換したい場合は: `$myVar = \"123\"; $intVar = (int) $myVar;`.ここで, `$intVarは `$myVarの整数表示になります.覚えておいてください,元の変数タイプは変わっていません. PHPでキャスティングの例は以下です: <php $foo = 10; //foobarは整数 = (bool) $foo = (bool) $foo = (bool) $foo = ?",
+        "links": [
+          {
+            "title": "鋳造型",
+            "url": "https://www.php.net/manual/en/language.types.type-juggling.php",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "IhKjvT6CjRz4dsSU7SNQo",
+      "type": "topic",
+      "label": "配列",
+      "position": {
+        "x": 898.6653816802288,
+        "y": 550.8389471104808
+      },
+      "size": {
+        "width": 134,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "PHP のアレイは,特定のキー値ペアコレクションに複数の要素を保存する基本的なデータ構造である. PHP はアレイのための広範なサポートを提供し,データセットや複雑なコレクションを保存するのに便利である.",
+        "links": [
+          {
+            "title": "配列",
+            "url": "https://www.php.net/manual/en/language.types.array.php",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "j2S8dP3HlAOOoZdpj-7Dx",
+      "type": "subtopic",
+      "label": "索引列",
+      "position": {
+        "x": 847.6653816802288,
+        "y": 638.3938270860801
+      },
+      "size": {
+        "width": 236,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "PHP のインデックスされた配列は,デフォルトで0 から始まる数値インデックスを通じてアクセスされる値を保存します.特定の順序でアイテムのリストを持っている場合,これは特に有用かもしれません.例えば,インデックスされた配列をあなたのお気に入りの書籍のリストを表すために使用し,各本は0から開始します.この例では,配列内の個々のアイテム,本,その特定のインデックスによってアクセスできます. 配列 () 関数または短い配列文法 \\[\\]を使用して,インデックスされた配列を宣言することができます.例: $books = [\"The Great Gatsby\", \"Moby Dick\", \"To Kill a Mockingbird\"]; //Outputs \"The Great Gatsby\"エコー $books[0];",
+        "links": [
+          {
+            "title": "索引列",
+            "url": "https://www.php.net/manual/en/language.types.array.php",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "i_NRsOJNNp7AOqMgu5Jg8",
+      "type": "subtopic",
+      "label": "アソシエティブ・アレイ",
+      "position": {
+        "x": 847.6653816802288,
+        "y": 691.3938270860801
+      },
+      "size": {
+        "width": 236,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "PHPにおけるアソシエティブ・アレイは,数値の代わりに名前のキーを使用するアレイの一種である.これは,それぞれの値が対応する文字列キーでアクセスできるデータを保存するより人間読める方法を提供します.アソシエティブ・アレイの例として,キーとして名前とそれに対応する年齢を値として保存することができます.ここでは短い例: $ages = [\"ピーター\" => 35, \"ジョン\" => 42, \"メアリー\" => 27 ];この場合,ジョンの年齢を知るには,単に `echo $ages['ジョン']`を使用します.",
+        "links": [
+          {
+            "title": "PHP ドキュメンテーション - アソシエティブ アレイ",
+            "url": "https://www.php.net/manual/en/language.types.array.php",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "uARTOZ-ZwugSmbCJoRS5Y",
+      "type": "subtopic",
+      "label": "多次元アレイ",
+      "position": {
+        "x": 847.6653816802288,
+        "y": 744.3938270860801
+      },
+      "size": {
+        "width": 236,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "PHP の多次元配列は,一または複数の配列を含む配列の一種である.本質的に,それは配列の配列である.これは,テーブルやマトリックスのような構造的な方法でデータを保存することを可能にします.基本的な考えは,各配列値が,また,別の配列であるということです.例えば,各ユーザー (主要な配列要素) に関する情報を保存することができます.各ユーザー (電子郵件,ユーザー名など) に関するいくつかの詳細が含まれます.例: $users = [\"John\", \"john@example.com\", \"john123\"], [\"Jane\", \"jane@example.com\", \"jane123\"], [\"e@Doe.com\", \"doe123\"];",
+        "links": [
+          {
+            "title": "多次元アレイ",
+            "url": "https://www.php.net/manual/en/language.types.array.php",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "38YksjvhXCbgnHqkl57Cz",
+      "type": "topic",
+      "label": "条件",
+      "position": {
+        "x": 1281.7145382950125,
+        "y": 776.0734823224142
+      },
+      "size": {
+        "width": 147,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "PHP の条件は,他のプログラミング言語と同様に,コードに分岐することを可能にします.つまり,プログラムは変数または表現の状態に基づいて特定のコードの部分を実行することを選択することができます. PHP の最も一般的な条件式記述は\",if\", \"else\",および\"elseif\"です.",
+        "links": [
+          {
+            "title": "制御構造",
+            "url": "https://www.php.net/manual/en/language.control-structures.php",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "-McOv-ZPTGayX7Mx2Thw1",
+      "type": "subtopic",
+      "label": "もし/他の場合",
+      "position": {
+        "x": 1232.6842719582237,
+        "y": 557.8314394557128
+      },
+      "size": {
+        "width": 86,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "PHPでは,if/else条件式記述は,特定の条件に基づいてプログラムの流れを制御する基本的な構成要素である. 'if'条件が正しいとき,コードのブロックが実行されます.その条件が満たされない場合 (または誤り),プログラムはコードのブロックを実行し, 'else'式に進みます. これにより,異なる状況を動的に処理することができます.このコンセプトの簡単な例は: $number = 10; if ($number > 5) { echo \"The number is greater than 5\"; } else { echo \"The number is not greater than 5\"; }この例では,輸出は\"The number is greater than 5\"になります.",
+        "links": [
+          {
+            "title": "もし-他のもの",
+            "url": "https://www.php.net/manual/en/control-structures.elseif.php",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "bgJ9-m6Fiu3VCc-NZlbpn",
+      "type": "subtopic",
+      "label": "スイッチ",
+      "position": {
+        "x": 1321.6842719582237,
+        "y": 557.8314394557128
+      },
+      "size": {
+        "width": 76,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "スイッチ記述は,コードを簡素化し,複数の異なる可能性を持つ1つの値を比較する必要があるときに読みやすさを向上させる特殊条件の記述である. \"if...else\"条件のチェーンを使用する代替法であり,比較するケースが多くある場合に特に有用である.スイッチ表現は1回のみ評価され,その値は各ケースと比較されます.マッチが見つかったとき,PHPは関連コードブロックを実行します.ここに基本的なスイッチ記述があります: $fruit = \"apple\"; switch ($fruit) {ケース \"apple\": echo \"you chose apple.\"; break; echo case \"you chose apple.\"; break; echo case \"you chose banana.\"; break; default: echo \"invalid choice. \"; // Outputs: You chose apple.スイッチステートメントは コードをよりきれいにし,管理が容易になります. 特に複数の条件に対応する場合です.",
+        "links": [
+          {
+            "title": "スイッチ",
+            "url": "https://www.php.net/manual/en/control-structures.switch.php",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3gNzX-bw2iqur7U7-_W38",
+      "type": "subtopic",
+      "label": "匹敵する",
+      "position": {
+        "x": 1400.6842719582237,
+        "y": 557.8314394557128
+      },
+      "size": {
+        "width": 76,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "匹敵式は,PHPの不可欠な機能であり,PHP 8.0でスイッチ声明の代替として導入されている.スイッチ声明と比較して,匹敵式は,断片式声明を必要とせず,より簡潔であるため,より安全である.匹敵式は,パターンを匹配するための優れたツールであることができる.例: $message = match ($statusCode) { 200, 300 => 'OK', 400 => 'error', default => 'unknown status code', };このコードでは, `$statusCode`の値に基づいて, `match`表現は, `$statusメッセージに特定のテキストを割り当てます. `$statusコードが 200, 300,または 400でない場合は, `default `ケースが適用されます.コードを実行した後, ``メッセージは, `$status表現の変数を含む.",
+        "links": [
+          {
+            "title": "匹敵する",
+            "url": "https://www.php.net/manual/en/control-structures.match.php",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "w0ntgFBhgGd5RUFd-qlPK",
+      "type": "subtopic",
+      "label": "ゼロ・コアレクシング・オペレータ",
+      "position": {
+        "x": 1233.7145382950125,
+        "y": 611.8314394557128
+      },
+      "size": {
+        "width": 243,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "PHP の Null Coalescing Operator (??) は,設定されていない変数を処理するためのシンプルで有用なツールです.変数が値を持たない場合,開発者がデフォルト値を提供できるようにします. 変数が値を持たない場合,それは三角形オペレータに似ているが,変数が真実か偽か確認する代わりに,設定されているか否かをチェックします.これはオプションの関数引数またはフォーム入力処理のための便利なツールになります.例: `$ユーザー名 = $_POST['ユーザー名';'] ?? 'ゲスト`.この行では,POST数列に'ユーザー名'が設定された場合,$ユーザー名はその値に設定されます.そうでなければ, 'ゲスト'に設定されます.",
+        "links": [
+          {
+            "title": "ゼロ・コアレクシング・オペレータ",
+            "url": "https://www.php.net/manual/en/migration70.new-features.php#migration70.new-features.null-coalesce-op",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1NXSk8VZDr89jQTTkOL7x",
+      "type": "subtopic",
+      "label": "ゼロ・セーフ・オペレータ",
+      "position": {
+        "x": 1233.7145382950125,
+        "y": 664.8314394557128
+      },
+      "size": {
+        "width": 243,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Null Safe Operator は,PHPの便利な機能で,オブジェクトで作業するときにしばしば発生する問題を扱います. 無効かもしれないオブジェクトのプロパティまたはメソッドにアクセスしようとします.致命的なエラーの代わりに,PHP Null Safe Operator (??->で表示される) は,無効値を安全に返却させ,コードをより強固にする.ここは簡単な例です. $session?->user?->nameを考慮してください. $sessionまたはuserが無効であれば,PHPはさらなる実行を停止し,単に無効に戻します.これは予測不能なデータを処理する際にPHPをより回復力を高めます.",
+        "links": [
+          {
+            "title": "基礎 - 手帳",
+            "url": "https://www.php.net/manual/en/language.oop5.basic.php",
+            "type": "official"
+          },
+          {
+            "title": "PHP RFC: Nullsafe オペレーター",
+            "url": "https://wiki.php.net/rfc/nullsafe_operator",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "qwt8xN4vuTrY-D0czYITI",
+      "type": "topic",
+      "label": "ループ",
+      "position": {
+        "x": 1281.7145382950125,
+        "y": 868.0734823224142
+      },
+      "size": {
+        "width": 147,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "PHPでは,ループの種類が4つあります. 'while', 'do-while', 'for'および 'foreach'.このループは,条件が正しい限り,巣のコードを実行し続けます. 'do-while'ループは,コードのブロックを少なくとも一度実行し,その条件に基づいて実行し続けます.または停止します.この例では,ループは5回実行され, $i が毎回1倍増加し, 0 から 4 までの数値を出します.",
+        "links": [
+          {
+            "title": "ループ",
+            "url": "https://www.php.net/manual/en/language.control-structures.php",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "VLRLymQmLfscrBfzXKvHi",
+      "type": "subtopic",
+      "label": "常数",
+      "position": {
+        "x": 444.05794812125305,
+        "y": 694
+      },
+      "size": {
+        "width": 247,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "PHP の定数 は,スクリプトの実行中に変化しない固定値である.ウェブサイトのURL,企業の名前,またはハードコードされたデータベース接続文字列などの頻繁に再利用される値に便利である.変数とは異なり,定数が定義されると,定義されず,割り当てられることはありません.定数はデフォルトでケースセンシティブであるが,過失される可能性があります.定義 () 関数またはコンストのキーワードを使用して定義されます.例えば, Pi の値を保持するために定数を作成し,スクリプトで次のように呼び出すことができます.定義 () \"PI\", 3.14);エコー PI; //出力: 3.14",
+        "links": [
+          {
+            "title": "常数",
+            "url": "https://www.php.net/manual/en/language.constants.php",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "WiGv7vi7Mtw-YqPMcnnyw",
+      "type": "topic",
+      "label": "機能",
+      "position": {
+        "x": 868.4180934525762,
+        "y": 868.0734823224142
+      },
+      "size": {
+        "width": 178,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "PHP の関数は,特定のタスクを実行し,アプリケーション全体で再利用できるコードの自立ブロックです.関数は\"関数\"という単語で定義され,その後に名前があり,返却\"という記述を使用して値を返します.関数を使用するには,単にその名前で呼び出す必要があります.機能の動作に影響を与えるために,パラメータを関数にも渡すことができます.ここに簡単な関数があります:関数挨拶($name) {返信\"Hello, \" . $name; } echo挨拶(\"John\"); //出力:Hello, John 上記のコードでは\",挨拶\"は\"name\"というパラメータを要約する関数です. \"Hello, \"は名前と結合して結果を返します.",
+        "links": [
+          {
+            "title": "機能",
+            "url": "https://www.php.net/manual/en/language.functions.php",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1nODJchgSuWbcvSlxnWeE",
+      "type": "subtopic",
+      "label": "機能宣言",
+      "position": {
+        "x": 438.01123046875,
+        "y": 784.3385009765625
+      },
+      "size": {
+        "width": 259,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "函数とは,特定のタスクを実行するコードのブロックである.複数回呼び出せる再利用可能なコードである.PHPでは,関数は `function`キーワードを使用して宣言され,関数名と括弧が付随する.関数名はユニークで記述的であるべきである.括弧には,関数に転送されるパラメータが含まれます.関数ボディは,曲げな括弧の中に閉じられています `{}`.関数あいさつ($name) {エコー\"Hello, \" . $name; } この場合\",あいさつ\"は関数名, \"$name\"はパラメーター,そして\"エコー\"Hello, \" . $name;\"は操作である.",
+        "links": [
+          {
+            "title": "ユーザー定義関数",
+            "url": "https://www.php.net/manual/en/functions.user-defined.php",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mpQKoBzsOa-5iWo08sOhQ",
+      "type": "subtopic",
+      "label": "パラメータ/リターン値",
+      "position": {
+        "x": 438.01123046875,
+        "y": 837.3385009765625
+      },
+      "size": {
+        "width": 259,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "PHP 関数のパラメータは,呼び出されると関数が受け取ることを期待する入力を指定します. 文字列,整数,配列,またはオブジェクトなどのさまざまな種類である可能性があります. PHP では,パラメータのデフォルト値をサポートし,参照を通過します. PHP では,関数の実行を終了し,値を返却するために\"返却\"という記述がしばしば使用されます.返却値は任意のデータタイプである可能性があります. ここでは簡単な例があります:関数を追加Numbers($num1,$num2) {$sum = $num1 + $num2;返却 $sum; } echo addNumbers(3, 4); //出力: 7 上記コードでは, `$num1`と `$num2`はパラメータであり,これらの数の合計は返却値です.",
+        "links": [
+          {
+            "title": "パラメータ/リターン値",
+            "url": "https://www.php.net/manual/en/functions.arguments.php",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "RgVP99rJJ8FVecIA45w20",
+      "type": "subtopic",
+      "label": "デフォルト / オプションパラメータ",
+      "position": {
+        "x": 438.01123046875,
+        "y": 890.3385009765625
+      },
+      "size": {
+        "width": 259,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "PHPでは,あなたの関数パラメータにデフォルト値を割り当てることができます.これらはデフォルトまたはオプションパラメータと呼ばれます.関数参数をオプションにしたい場合,これは例外的に有用です.関数を呼び出すときに値が提供されていない場合,代わりにデフォルト値を使用します.ここに簡単なコード例があります:関数挨拶($name = \"ゲスト\") {エコー\"Hello, $name!\"; } greet(); //出力: こんにちは,ゲスト! greet\"John\"); //出力: こんにちは,ジョン!",
+        "links": [
+          {
+            "title": "デフォルトパラメータ",
+            "url": "https://www.php.net/manual/en/functions.arguments.php#functions.arguments.default",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "RkNjYva8o_jXp9suz5YdG",
+      "type": "subtopic",
+      "label": "名前の議論",
+      "position": {
+        "x": 438.01123046875,
+        "y": 943.3385009765625
+      },
+      "size": {
+        "width": 259,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "PHP 8.0 で導入された,PHP の名前のアルグメントは,関数呼び出しの位置ではなく,その名前によって必要なパラメータの値を指定することを可能にします. これにより,コードがより読みやすくなり,エラーを軽減し,重要でないアルグメントをスキップすることが可能になります.ここに名前のアルグメントを使用するアレイ\\_fill() 関数があります: <?php $a = array_fill(start_index: 0, count: 100, value: 50);このコードスニペットでは,パラメータは関数定義の順序によってではなく,その名前 (\"start\\_index\", 'count\", 'value') によって通過します.",
+        "links": [
+          {
+            "title": "名前の議論",
+            "url": "https://www.php.net/manual/en/functions.arguments.php#functions.named-arguments",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Nr5m6wQLp7VyG3AucrSc8",
+      "type": "subtopic",
+      "label": "匿名機能",
+      "position": {
+        "x": 846.9180934525762,
+        "y": 968.8385009765625
+      },
+      "size": {
+        "width": 221,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "PHP の匿名関数は,指定された名前を持たない関数です. コールバックパラメータの値として最も頻繁に使用されますが,他の多くの方法で使用できます.匿名関数を作成すると,親範囲から変数を相続することもできます. 以下は基本的な使用例です: $greet =関数($name) {printf(\"Hello %s\\r\\n\", $name); }; $greet('World'); $greet'PHP'); この例では,匿名関数を作成し, `$greet'に割り当てます. その後,この匿名変数を $greet と 'World' と 'PHP' を аргументとして呼びます.",
+        "links": [
+          {
+            "title": "匿名機能",
+            "url": "https://www.php.net/manual/en/functions.anonymous.php",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mP1BIkqbWVVTU-zZv1ZL6",
+      "type": "subtopic",
+      "label": "矢印機能",
+      "position": {
+        "x": 846.9180934525762,
+        "y": 1074.8385009765625
+      },
+      "size": {
+        "width": 221,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "矢印関数は,匿名関数を作成するためにより簡潔な構文を提供します.現代JavaScriptから熱心に借りた機能は,PHPの機能プログラミングの信頼性を大幅に向上します.通常のPHP閉鎖とPHP矢印関数間の主要な違いは,親の範囲から変数を自動的にキャプチャすることです.",
+        "links": [
+          {
+            "title": "矢印機能",
+            "url": "https://www.php.net/manual/en/functions.arrow.php",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "x7hA2KAzJIjc-prgCEw6V",
+      "type": "subtopic",
+      "label": "リコールバック機能",
+      "position": {
+        "x": 846.9180934525762,
+        "y": 1021.8385009765625
+      },
+      "size": {
+        "width": 221,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "PHP のコールバック関数は,他の関数に議論として転送される関数である.受信関数は,必要に応じてこの関数を呼び出すことができる.コールバック関数は,その構造を変更せずに関数の行動をカスタマイズできるため,柔軟または再利用可能なコードを定義するためにしばしば使用されます.",
+        "links": [
+          {
+            "title": "リコールバック機能",
+            "url": "https://www.php.net/manual/en/language.types.callable.php",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "D9ybK5INH5zSOcYMb5ZPi",
+      "type": "subtopic",
+      "label": "繰り返す",
+      "position": {
+        "x": 846.9180934525762,
+        "y": 1127.8385009765625
+      },
+      "size": {
+        "width": 221,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "PHP に適用されるように,リキュレーションは,問題を解くために自らを呼び出す関数を指します.リキュレーション機能は,主問題を解くまで,問題の小さな部分を解くことで自己を区別します.それをより簡単に解くことができる小さなタスクに分割するように考えてください.しかし,リキュレーション機能が明確な停止点を持っていることを確認するために注意深く設計する必要があります.そうでなければ,それは無限ループを生む可能性があります. PHP の単純なリキュレーション機能の簡単な例は,関数カウントダウン (($count) {エコー $count) {count$count > 0) {countdown (count) {countdown (count) $count - 1); } }countdown (count) }) 5);この例では,関数 `` ` ` ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ ヽ",
+        "links": [
+          {
+            "title": "機能 - 繰り返す",
+            "url": "https://www.php.net/manual/en/language.functions.php",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "rtmytETfyyLdcXUC0QyzL",
+      "type": "subtopic",
+      "label": "異なる機能",
+      "position": {
+        "x": 846.9180934525762,
+        "y": 1180.8385009765625
+      },
+      "size": {
+        "width": 221,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "PHP の変数関数は,任意の数々の議論を受け入れることができる関数である.これは,不定数の議論を可能にするため,より大きな柔軟性を与えます.関数議論の前に\"...' を追加することによって変数関数を作成できます.関数を呼び出すときに提供する任意の数々の議論は,一般的な数列関数を使用して処理できる数列として扱われます.簡単なコード例:関数合計(...$数) {返信数列_$数); }回響合計(1,2,3,4); この関数は,10 をプリントします. この関数は任意の数々の議論を受け入れ,それらを一緒に追加します.",
+        "links": [
+          {
+            "title": "異なる機能",
+            "url": "https://www.php.net/manual/en/functions.arguments.php#functions.variable-arg-list",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "fBym6pkzRkNh0LWyCg3Bv",
+      "type": "paragraph",
+      "label": "ファイル処理",
+      "position": {
+        "x": 1265.2247832613762,
+        "y": 977.3385009765625
+      },
+      "size": {
+        "width": 170,
+        "height": 53
+      },
+      "style": {
+        "fontSize": 20,
+        "borderColor": "transparent",
+        "backgroundColor": "transparent",
+        "color": "#000000",
+        "textAlign": "center",
+        "justifyContent": "center",
+        "padding": 16
+      },
+      "z_index": 999
+    },
+    {
+      "id": "Kaaqu-mN7xvHN6CbIn616",
+      "type": "subtopic",
+      "label": "要求する",
+      "position": {
+        "x": 1221.6842719582237,
+        "y": 1094.6412495554816
+      },
+      "size": {
+        "width": 101,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "\"require\"ステートメントは,コードを実行する際に特定のファイルを組み込み,評価するために使用される PHP の内蔵機能である.これは,複数のスクリプトで機能,クラス,または要素の共有を可能にするため,PHP の重要な部分である.コードの再利用性と整頓性を促進します.必要なファイルが欠けている場合,PHP は致命的なエラーを引き起こし,コードを実行停止します.基本的な構文は `require 'filename';`.",
+        "links": [
+          {
+            "title": "要求する",
+            "url": "https://www.php.net/manual/en/function.require.php",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "-CyJbsg2ho3RvfzKnJj5C",
+      "type": "subtopic",
+      "label": "要求_一度",
+      "position": {
+        "x": 1326.7145382950125,
+        "y": 1094.6412495554816
+      },
+      "size": {
+        "width": 150,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "PHPは\"require\\_once\"を有効な方法で別の PHP ファイルに組み込む方法として使用します.この機能には興味深い特異性があります. PHP は,ファイルが以前に含まれていたかどうかを確認し,そうであれば,ファイルを再び含まれません.これは冗長な関数宣言,変数値変更,またはコーディングループの問題を回避するのに役立ちます.しかし, \"require\\_once\"は\"include\\_once\"とは異なることを忘れないでください.重要な違いはエラー処理にあります. \"require\\_once\"で指定されたファイルが見つからない場合, PHP は致命的なエラーを発射し,スクリプトを実行停止します.しかし, \"include\\_once\"は警告のみ生成します.<?php require_once('somefile.php'); ?> このコードは,すべての機能とコードを 'somefile.php'から取り出し,現在のファイルに含まれます.",
+        "links": [
+          {
+            "title": "要求_一度",
+            "url": "https://www.php.net/manual/en/function.require-once.php",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hKfv7V6bl2LXssq9Ffi7C",
+      "type": "subtopic",
+      "label": "含める",
+      "position": {
+        "x": 1222.9377956995395,
+        "y": 1148.3736308489026
+      },
+      "size": {
+        "width": 101,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "PHP の 'include' 記述は,一つのファイルに書かれたコードを別のファイルに挿入するための有用な方法である.主に同じコードが複数のファイルで使用する必要がある場合,冗長性を回避し,コードのメンテナンスを容易にする際に使用されます.ファイルが見つからない場合は, PHP は警告を発行しますが,スクリプトの残りの部分を実行し続けます.簡単な例があります: <?php は 'filename.php' を含む. ?> このコードスニペットでは, 'filename.php' は,あなたが挿入したいコードを含むファイルです.ただ単に 'filename.php' を,実際に挿入したいファイルパスに置き換えます.",
+        "links": [
+          {
+            "title": "含める",
+            "url": "https://www.php.net/manual/en/function.include.php",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "SwtLDgyPmDry20qS4FBfH",
+      "type": "subtopic",
+      "label": "含まれ_一度",
+      "position": {
+        "x": 1327.9680620363283,
+        "y": 1148.3736308489026
+      },
+      "size": {
+        "width": 150,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`include_once`ステートメントは,PHPのファイル処理ツールキットの一部で,開発者が別のPHPファイルにPHPファイルを組み込むことができますが,一度実行のみです.この方法で,含まれているファイルで定義された機能またはオブジェクトが重複されないことを確認できます.これはコードをDRY (Don't Repeat Yourself) とクリーンに保つのに役立ちます.ここは小さな例です: include_once 'database.php'; $db = new Database();この単純なコードスニペットでは,私たちは `database.php`ファイルを一度に組み込み, `database`クラスにアクセスできます.",
+        "links": [
+          {
+            "title": "含まれ_一度",
+            "url": "https://www.php.net/manual/en/function.include-once.php",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "CNrhogom5tjAOY6ancboh",
+      "type": "label",
+      "label": "ファイル を 含め 要求する",
+      "position": {
+        "x": 1243.2247832613762,
+        "y": 1207.6117717284694
+      },
+      "size": {
+        "width": 214,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "two4UycJaCfSp6jQqtTAb",
+      "type": "subtopic",
+      "label": "ファイルの書き込み",
+      "position": {
+        "x": 1222.7247832613762,
+        "y": 1320.0547643279947
+      },
+      "size": {
+        "width": 255,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ファイル書き込みはPHPで重要な役割を果たし,データを保存し,後で修正することができます.このプロセスはファイルを開き,望ましいデータを書き込み,それを閉じます.書き込みは異なる機能を使用して行うことができますが, `fwrite() `は最も一般的に使用されるものです.ファイルポインタとデータの文字列を書き出すために,2つの議論が必要です.例えば,コードの短いスニペットがあります: $file = 'data.txt'; $current = file_get_contents($file); $ Datacurrent .= \"New\\n\"; file_put_contents($file, $current);このコードでは, `file_get_contents) が現在のデータを取得するために使用され,新しいデータが添加され,そして `_contents) はファイル書き戻すために使用されます.",
+        "links": [
+          {
+            "title": "ファイルの書き込み",
+            "url": "https://www.php.net/manual/en/function.fwrite.php",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "S9wTlkbv9-R6dohhZ47hs",
+      "type": "subtopic",
+      "label": "ファイルを読む",
+      "position": {
+        "x": 1222.7247832613762,
+        "y": 1267.0547643279947
+      },
+      "size": {
+        "width": 255,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`fgets() ` 関数は,ファイル一行一行ずつ読み取れるが, `fread() ` 関数は,指定されたバイト数を読み取れる. 一行でファイル全体を読み取るために, `file_get_contents() ` を使用してください. `fclose) `) と終わってから常にファイルを閉じることを忘れないでください. `fgets (r) `: $file = fopen(\"example.txt\", \"r\"); if) { {while (($line = fgets$file !== false) {echoline; }fclose {((((); }error file 'error } を使った小さな例です.",
+        "links": [
+          {
+            "title": "ファイルシステム操作",
+            "url": "https://www.php.net/manual/en/book.filesystem.php",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tgIyG6vHWpe9sz6lHmj5a",
+      "type": "subtopic",
+      "label": "ファイル許可",
+      "position": {
+        "x": 1222.7247832613762,
+        "y": 1373.0547643279947
+      },
+      "size": {
+        "width": 255,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ファイル管理におけるファイル権限は,ファイルを読み,書き,実行できる. PHP アプリケーションのセキュリティと適切な機能に不可欠です.ファイルと作業する際には, `chmod() `, `is_readable() `,および `is_writable() `のような機能を使用して権限を管理できます.通常,ファイルの権限を変更するために, `chmod() `を使用します.最初のパラメーターはファイル名であり,第2パラメーターはモードです.例えば, `chmod (($ファイル, 0755) `は,読み,書き,実行する権限を所有者に割り当てます.他のすべての人が読み,実行する権限のみを有します.ファイルが読み取れるか書き取れるかを知るために, `is_readable (`) または `_writable (`) `).",
+        "links": [
+          {
+            "title": "ファイルシステム機能",
+            "url": "https://www.php.net/manual/en/ref.filesystem.php",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "xpvaGtnZo9BL3HfKCzsV_",
+      "type": "label",
+      "label": "ファイル操作",
+      "position": {
+        "x": 1282.7247832613762,
+        "y": 1433.3927959830828
+      },
+      "size": {
+        "width": 135,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "t6N8bYfapkiiFMPdYmqpq",
+      "type": "horizontal",
+      "label": "ホリゾントノード",
+      "position": {
+        "x": 1064.3239413874203,
+        "y": 1381.5547643279947
+      },
+      "size": {
+        "width": 151,
+        "height": 20
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.5
+      },
+      "z_index": 999
+    },
+    {
+      "id": "3oLk2mHY-nDgNXmaOZzEr",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": 849.0727748893542,
+        "y": 1257.9136754807616
+      },
+      "size": {
+        "width": 218,
+        "height": 222
+      },
+      "style": {
+        "width": 150,
+        "height": 100,
+        "fontSize": 17,
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "DB2cxZE58WCCavW2PNwmf",
+      "type": "subtopic",
+      "label": "JSON処理",
+      "position": {
+        "x": 857.0727748893542,
+        "y": 1322.5756438256735
+      },
+      "size": {
+        "width": 199,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "PHP の JSON 処理は,JSON フォーマットされたデータの処理,読み取り,操作を指します.JSON,またはJavaScript オブジェクトノテーションは,読みやすさと堅強さのために世界中で使用される汎用的なデータフォーマットです.PHP は JSON をネイティブにサポートし, JSON ファイルまたは JSON 暗号化された文字列からデータを抽出するために使用され,変数 PHP に変換されます.簡単な例です: // アレイを作成 $data = array('a' => 1, 'b' => 2, 'c' => 3); // アレイを JSON 文字列にエンコードする $json = json_encode($data); エコ $json; // 出力: {\"a\":1,\"b\":2,\"c\":3} // JSON 文字列を再び $decoded = json_decode($json, true); print_r($decoded); // 出力: Array ([a] => 1 [b] => 2 [c] 3 =>)",
+        "links": [
+          {
+            "title": "JSON マニュアル",
+            "url": "https://www.php.net/manual/en/book.json.php",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "MRDjEjbkMpk7shcWAoPOF",
+      "type": "subtopic",
+      "label": "CSV処理",
+      "position": {
+        "x": 857.0727748893542,
+        "y": 1269.5756438256735
+      },
+      "size": {
+        "width": 199,
+        "height": 50
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "CSV処理は,PHPでCSV (Comma Separated Values) ファイルを処理することを指す.これは表データ管理に非常に有用な操作である.PHPはCSV ファイルを効果的に処理するためにいくつかの重要な機能を提供します.例えば, `fgetcsv() `は,CSV ファイルに行列を並べて読むことができます. `fputcsv() `は, CSV ファイルに行列を並べて書くことができます. そして, `str_getcsv() `は,CSV ファイルの文字列をアレイに解析することができます. CSV ファイルを読む簡単な例: if (($handle = fopen(\"sample.csv\", \"r\") !== FALSE) { {$data = fgetcsv$handle, 1000, \") !== FALSE) {print_r(((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((",
+        "links": [
+          {
+            "title": "CSV処理",
+            "url": "https://php.net/manual/en/ref.fileinfo.php",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ggkWo0DRSSDDkHpbiyUyf",
+      "type": "subtopic",
+      "label": "XML処理",
+      "position": {
+        "x": 857.0727748893542,
+        "y": 1375.5756438256735
+      },
+      "size": {
+        "width": 199,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "PHP の XML 処理は XML 文書の操作と解釈を可能にします. PHP の XML Parser 拡張機能は,文字列やファイルから XML データを解析するのに役立ちます.これはイベント主導の処理機能を提供します.大規模な XML 解析時に特に便利です. PHP で XML を処理するには,まず XML 解析器を作成し,要素の開始と終了,文字データなどのためのハンドル機能を設定し,その後 XML データを解析します. `xml_parser_create() `, `xml_set_element_handler() `, `xml_parse) `,および `xml_parser_start_free) `機能が登場します. ここでは, PHP で XML 解析を示す短いスニペットがあります: $parserser = xml_parser_set_create(((((_handler_element, \"Eparse_parse_ml\"; $parse_parse_ml; $parse_parse_ml);",
+        "links": [
+          {
+            "title": "XML処理",
+            "url": "https://www.php.net/manual/en/book.xml.php",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "qEQHasW-P1aIenzurfCNB",
+      "type": "label",
+      "label": "ファイル操作",
+      "position": {
+        "x": 882.5727748893542,
+        "y": 1437.0547643279947
+      },
+      "size": {
+        "width": 135,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "_V2EY4z-CTE4g-HtjU_ov",
+      "type": "paragraph",
+      "label": "HTTP / リクエスト処理",
+      "position": {
+        "x": 428.57600354059275,
+        "y": 1364.6251986376292
+      },
+      "size": {
+        "width": 278,
+        "height": 56
+      },
+      "style": {
+        "fontSize": 20,
+        "borderColor": "transparent",
+        "backgroundColor": "transparent",
+        "color": "#000000",
+        "textAlign": "center",
+        "justifyContent": "center",
+        "padding": 16
+      },
+      "z_index": 999
+    },
+    {
+      "id": "IxzVu2Uxmtw9koAB7nP3J",
+      "type": "horizontal",
+      "label": "ホリゾントノード",
+      "position": {
+        "x": 710.8998998140942,
+        "y": 1382.6251986376292
+      },
+      "size": {
+        "width": 139,
+        "height": 20
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.5
+      },
+      "z_index": 999
+    },
+    {
+      "id": "tn_iIfaJZVtPK6vFds7FH",
+      "type": "topic",
+      "label": "HTTP メソッド",
+      "position": {
+        "x": 438.01123046875,
+        "y": 1022.6412495554816
+      },
+      "size": {
+        "width": 259,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "PHPでは,特定の URL によって識別されたリソースで実行されるアクションを定義する方法であるHTTP方法を処理することができます.PHPでは,$\\_SERVER超グローバルアレイを特定のリクエストのHTTP方法を識別するために使用できます.通常はGET,POST,PUT,DELETEまたはHEADです.例えば,リクエストがPOSTリクエストであるかどうかを識別するには, `if ($_SERVER['REQUEST_METHOD'] == 'POST') { //あなたのコードをここで }`.",
+        "links": [
+          {
+            "title": "HTTP メソッド",
+            "url": "https://www.php.net/manual/en/reserved.variables.server.php",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "GFYGFVfxkOoPI5mI4zSt1",
+      "type": "subtopic",
+      "label": "$_GET",
+      "position": {
+        "x": 449.05794812125305,
+        "y": 1090.8385009765625
+      },
+      "size": {
+        "width": 115,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "$\\_GET は PHP で,HTTP GET メソッドで送信されたフォームデータを収集するために使用される事前定義されたアレイです. URL のクエリ文字列で送信されたデータを処理またはインタラクションする必要があります.例えば,GET メソッドを使用したフォームがあれば,このグローバル $\\_GET アレイでフォーム要素の値を取得できます.例: <form method=\"get\" action=\"test.php\"> Name: <input type=\"text=\"name=\"fname\"> <input type=\"submit\"> </form> $\\_GET を使って,URL: echo \"Name is: \" . $_GET[fname'name's] から\"fname\"値を取得できます.",
+        "links": [
+          {
+            "title": "$_GET",
+            "url": "https://www.php.net/manual/en/reserved.variables.get.php",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "qNG-a4iIO-puZsMwAMzYC",
+      "type": "subtopic",
+      "label": "$_POST",
+      "position": {
+        "x": 569.5613249380067,
+        "y": 1090.8385009765625
+      },
+      "size": {
+        "width": 111,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`$_POST` は,HTTP POST メソッドで提出されたフォームデータを収集するために使用される超グローバル変数です. PHP スクリプトは,このデータにアクセスできるのは,`$_POST` を介してです.あなたのウェブページにシンプルなHTMLフォームがあるとします.ユーザーがこのフォームを提出すると,入力されたデータは,`$_POST` を使用して取得できます.ここは短い例です. <?php if ($_SERVER[\"REQUEST_METHOD\"] == \"POST\") {$name = $_POST[\"name\"]; } ?> このコードでは,`$_POST[\"name\"]はフォームの\"name\"フィールドで値を取得します.常に入力される前に,常に$ san_POSTを入力します.",
+        "links": [
+          {
+            "title": "$_POST",
+            "url": "https://www.php.net/manual/en/reserved.variables.post.php",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "A6rfW4uJhyfAX2b18_EEC",
+      "type": "subtopic",
+      "label": "$_REQUEST",
+      "position": {
+        "x": 450.5613249380067,
+        "y": 1144.8385009765625
+      },
+      "size": {
+        "width": 233,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "$\\_REQUEST は,$\\_GET,$\\_POST,および$\\_COOKIEの両方の内容を含むPHP超グローバル変数です.GETおよびPOST方法の両方で送信されたデータを収集するために使用されます.またCookies.$\\_REQUESTは,データ送信に使用された方法に関心がない場合は有用です.しかし,セキュリティ上の脆弱性につながる可能性があるため,その使用は一般的に推奨されません.簡単な例は $ = $_REQUEST['name'];この声明は,GETまたはPOST方法の両方で送信された\"name\"フィールドの値を保存します.セキュリティ上の問題を避けるために常にユーザ入力を浄化することを忘れないでください.",
+        "links": [
+          {
+            "title": "$_REQUEST",
+            "url": "https://www.php.net/manual/en/reserved.variables.request.php",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "7Ja2at_N9tRTlvSGahrqn",
+      "type": "subtopic",
+      "label": "$_SERVER",
+      "position": {
+        "x": 450.5613249380067,
+        "y": 1198.8385009765625
+      },
+      "size": {
+        "width": 233,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`$_SERVER`は,ヘッダー,パス,スクリプトの位置に関する情報を保持するPHPのスーパーグローバルです. $\\_SERVERは,ウェブサーバーによって作成されたサーバー変数を含むアソシエティブ・アレイです.これには特定の環境構成,サーバー署名,PHPスクリプトのパスと詳細,クライアントデータ,およびアクティブリクエスト/レスポンスのシーケンスを含む.その多くの用途の中で, `$_SERVER['REMOTE_ADDR']は,訪問者のIPを取得するのに役立ちます.",
+        "links": [
+          {
+            "title": "$_SERVER",
+            "url": "https://www.php.net/reserved.variables.server",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1fD7xL7hD9Dv62ksAy-fF",
+      "type": "label",
+      "label": "超グローバル変数",
+      "position": {
+        "x": 471.616943359375,
+        "y": 1258.6117717284694
+      },
+      "size": {
+        "width": 191,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "sYI7f1PYP7G30_Uj2mZRv",
+      "type": "topic",
+      "label": "フォーム処理",
+      "position": {
+        "x": 459.82440195890786,
+        "y": 1483.9375240903669
+      },
+      "size": {
+        "width": 216,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "フォーム処理は一般的なウェブ機能であり,PHPではかなり単純です.通常はウェブフォームを通じてユーザーからのデータを受け入れ,そのデータを処理し,処理し,保存するためにPHPを使用します.PHPは,フォームデータを収集するのに役立つ超グローバルな配列 (`$_GET`, `$_POST`,および `$_REQUEST`) を提供します.ユーザーから名前を受け入れて表示するフォームの簡単な例についてお話ししましょう.",
+        "links": [
+          {
+            "title": "HTMLフォーム処理",
+            "url": "https://www.php.net/manual/en/tutorial.forms.php",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "HNo8QO4aPbvgePiA4l6tq",
+      "type": "topic",
+      "label": "ファイルアップロード",
+      "position": {
+        "x": 459.82440195890786,
+        "y": 1536.9375240903669
+      },
+      "size": {
+        "width": 216,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "PHPでファイルをアップロードすることは,多くのアプリケーションで一般的に使用される機能です.これは通常,あなたの PHP スクリプトでアップロードされたファイルを管理できるようにする `$_FILES`スーパーグローバルアレイを使用して行われます.ファイルの詳細は, `name`, `type`, `size`などを含みます.複数のアップロードの場合,各ファイルにはインデックスも存在します. `move_uploaded_file() `機能は,アップロードされたファイルを望ましいディレクトリに移動するために使用されます.ファイルアップロードを受け入れるときにセキュリティ考慮事項に注意することを忘れないでください.",
+        "links": [
+          {
+            "title": "ファイルアップロード",
+            "url": "https://www.php.net/manual/en/features.file-upload.php",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "CGehmZjcgTWC7fQAvxmNW",
+      "type": "topic",
+      "label": "国家管理",
+      "position": {
+        "x": 1005.0540073590632,
+        "y": 1535.4829936268172
+      },
+      "size": {
+        "width": 205,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "PHPにおけるステート管理は,アプリケーション内のユーザーの活動を追跡することを意味します. HTTP プロトコールは以前のインタラクションを保存しないため.通常,これらのデータにはログイン情報,フォーム入力データなどのユーザー詳細が含まれます. PHPにおけるステート管理の一般的な方法はセッションおよびクッキーを介してです.セッションはサーバー側でステートデータを保持し,クライアント側でセッション識別子を保持することによって動作します.注意,セッションの情報はユーザーのセッションが終了するまでアクティブになります.一方,クッキーはクライアント側でデータを保存します.有効期限があるため,またはユーザが削除するまでです. PHPでクッキーを設定する方法です: ` セットクッキー\",\"テスト\",時間\" + 3600, '/');`.セッションにアクセスするには,スーパーグローバルアレイ: ` ` SESON` ` ` SESONSION$[vvvvcolor] \"` ` ` `;",
+        "links": [
+          {
+            "title": "セットクッキー",
+            "url": "https://php.net/manual/en/function.setcookie.php",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "so03-fK7E2WvTm6XsPq4i",
+      "type": "subtopic",
+      "label": "クッキー",
+      "position": {
+        "x": 1298.2881913021563,
+        "y": 1512.4589710787736
+      },
+      "size": {
+        "width": 184,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "クッキーはPHPのステート管理の重要な部分である.ユーザのブラウザにデータを保存することが可能で,次回の要求ごとにサーバーに送り返される.これは異なるページまたは訪問の間での持続的なデータを可能にします.PHPでクッキーを設定するには, `setcookie() `機能を使用できます.例えば, `setcookie(\"ユーザー\"\",ジョン・ドー\",時間() + (86400 * 30),\"/\");`は\"ユーザー\"という名前のクッキーを設定し,その値は\"ジョン・ドー\" (John Doe) 30日後に終了します. `/`というパスパラメータが設定されたため,クッキーはウェブサイト全体で利用可能になります. クッキーの値を復元するには,グローバルの `$_COOKIE$配列: `echo_COOKIE_user[`]\"を使用できます.",
+        "links": [
+          {
+            "title": "クッキー",
+            "url": "https://www.php.net/manual/en/features.cookies.php",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "qobzzgzArNHLLn9Oiqc6G",
+      "type": "subtopic",
+      "label": "セッション",
+      "position": {
+        "x": 1298.2881913021563,
+        "y": 1565.4589710787736
+      },
+      "size": {
+        "width": 184,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "セッションは,後のアクセスを通じて特定のデータを保存する方法を提供します.Cookieとは異なり,情報はユーザーのコンピュータではなくサーバーに保存されます.これは,ユーザーのログインステータスやユーザー選択などの特定のユーザーのセッションに関連する情報をプラットフォームに保存したいときに特に有用です.PHPでセッションが起動すると,ユーザーのためにユニークなセッションIDが生成されます.このIDはユーザーのブラウザのクッキーを介して転送され,追跡されます.セッションを開始するには,PHP関数\\_startを使用します.セッションで値を保存するには,$\\_SESSION超グローバルアレイを使用します.例えば, `$_SESSION['ユーザー名'] = 'John';セッション変数 'John`' を割り当てます.",
+        "links": [
+          {
+            "title": "セッション",
+            "url": "https://www.php.net/manual/en/book.session.php",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "93oEIZttb85S23C1fLraP",
+      "type": "subtopic",
+      "label": "入力認証",
+      "position": {
+        "x": 1084.6650523820535,
+        "y": 1658.5423714507278
+      },
+      "size": {
+        "width": 204,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "入力認証はPHPセキュリティの重要な側面です.さらに処理される前に,ユーザーが提供するデータが期待されるフォーマットにあるかどうかを確認します.これはSQLインジェクション,クロスサイトスクリプト (XSS) など潜在的なセキュリティリスクを防ぐのに役立ちます.簡単なフォーム入力認証の例を挙げてみましょう: if (filter_var($email, FILTER_VALIDATE_EMAIL)) { echo(\"メールは有効です\"); } { echo\"メールは有効ではありません\"); } このコードは,データの有効なメールアドレスであることを確認するためにPHPの組み込みの `Filter_var() `機能を使用します.そうでなければ,有効なデータが入力されるまでフォームが提出されません.",
+        "links": [
+          {
+            "title": "入力認証",
+            "url": "https://www.php.net/manual/en/book.filter.php",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "DxqQrToZSayWplKdCkTgT",
+      "type": "subtopic",
+      "label": "XSS予防",
+      "position": {
+        "x": 1084.6650523820535,
+        "y": 1711.2766664136475
+      },
+      "size": {
+        "width": 204,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "クロスサイトスクリプト (Cross Site Scripting,通常XSSとして知られる) は,ウェブセキュリティにおける明らかなリスクであり,PHPも対処しなければならない.誰かがあなたのサイトに危険なコードを挿入することができ,ユーザが実行することができます.PHPでXSSを防ぐために,開発者は潜在的に有害な文字から逃れるために `htmlspecialchars (特殊文字) を展開する必要があります.この機能は,特定の文字をHTMLエンティティに変換し,リスクを軽減します.例えば,'<'は'<'になります.これを実装するためのPHPコードのサンプル:$secure_text = htmlschars (($raw_text, ENT_QUOTES, 'UTF-8');このコードでは, ``$raw_textにはリスクのあるユーザー入力が含まれます.",
+        "links": [
+          {
+            "title": "特殊な表記",
+            "url": "https://www.php.net/manual/en/function.htmlspecialchars.php",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "801vB_JMas4ucriUmfrLg",
+      "type": "subtopic",
+      "label": "SQL インジェクション",
+      "position": {
+        "x": 1290.8373057946285,
+        "y": 1658.5423714507278
+      },
+      "size": {
+        "width": 184,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "SQL インジェクション (SQL Injection) は,PHPの重要なセキュリティテーマである.攻撃者がクエリ内の暗黒なSQLコードを滑らせることができるコードインジェクション技術である.この攻撃は,データ操作や損失を引き起こし,データベースを危険にさらす可能性があります.これを防ぐために,PHPはMySQLiまたはPDO拡張機能で準備された声明の使用を奨励します.脆弱なコードスニペットの例は: `$無防備_変数 = $_POST['user_input']; mysqli_query($link, \"INSERT INTO`テーブル ```コラム`) VALUES ('無防備_変数') \"); (?) `. `$stmt = $p-safe> INSERT'SERT'SERT' (((((`) ``) VALUTE_VALUTE' (`) ` (`) `) ヽ (`) ヽ (`) ヽ (`) ヽ (`) ヽ (`)",
+        "links": [
+          {
+            "title": "SQL インジェクション",
+            "url": "https://www.php.net/manual/en/security.database.sql-injection.php",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "J9yIXZTtwbFzH2u4dI1ep",
+      "type": "subtopic",
+      "label": "CSRF保護",
+      "position": {
+        "x": 1290.8373057946285,
+        "y": 1711.2723714507279
+      },
+      "size": {
+        "width": 184,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "PHPにおけるクロスサイトリクエスト偽造 (CSRF) 保護は,ウェブサイトがユーザーの許可なしにユーザーの名によって実行される不必要な行動に対して自衛できる方法である.潜在的な有害な活動からユーザーを保護するセキュリティの重要な側面である.例は,ユーザーがウェブサイトにログインし,欺瞞的なリンクをクリックするように欺かれた場合,CSRF 攻撃が誘発される可能性があります.そのような攻撃からあなたの PHP アプリケーションを保護するために,あなたは毎セッションにユニークなトークンを生成し,すべてのフォームの送信のための隠されたフィールドとしてそれを含むことができます.その後,あなたはどんなアクションを実行する前にサーバー側でこのトークンを確認する必要があります.<?php // CSRFトークンを生成する if( empty($_SESSION['csrf'])) { $_SESSION['csrf'] = bin2hex(random_bytes(32)); } // CSRFトークンを検証する if(isset($_POST['csrf']) && $_POST['csrf'] === $_SESSION['csrf']) { //有効な CSRFトークンを実行する } ?>",
+        "links": [
+          {
+            "title": "PHP チュートリアル CSRF",
+            "url": "https://www.phptutorial.net/php-tutorial/php-csrf/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JbWFfJiCRrXDhnuIx_lqx",
+      "type": "subtopic",
+      "label": "パスワードのハッシング",
+      "position": {
+        "x": 1084.6650523820535,
+        "y": 1764.0109613765671
+      },
+      "size": {
+        "width": 204,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "パスワードハッシング (Password Hashing) は,PHPにおけるセキュリティの重要な側面である.これは,単純文字のパスワードを簡単に逆転できないユニークなハッシュに変換することを含みます.PHPの内蔵機能 - `password_hash() `と `password_verify() ` - は,通常,この目的のために使用されます. `password_hash() ` は,強力な単向ハッシングアルゴリズムを使用して新しいパスワードハッシングを作成しますが, `password_verify() `は,与えられたハッシングが提供されたパスワードに一致しているかどうかをチェックします.これは悪意のあるアクターに元のパスワードを取得することが非常に困難です.",
+        "links": [
+          {
+            "title": "パスワードのハッシング",
+            "url": "https://www.php.net/manual/en/function.password-hash.php",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "HJJzKYXdK4BWITLP4APLZ",
+      "type": "subtopic",
+      "label": "アウト・メカニズム",
+      "position": {
+        "x": 1290.8373057946285,
+        "y": 1764.0023714507279
+      },
+      "size": {
+        "width": 184,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "PHP アプリケーションを開発する際には,セキュリティは常に優先事項であり,認証メカニズムは非常に核心です. システムリソースにアクセスする前にユーザーのアイデンティティを適切に確立することを保証します. PHP はセッションベースの認証,トークンベースの認証,HTTP認証など認証を実装するためのいくつかの方法を提供します.",
+        "links": [
+          {
+            "title": "アウト・メカニズム",
+            "url": "https://www.php.net/manual/en/features.http-auth.php",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tfC1tCrbvH5J43WUpG9Yb",
+      "type": "subtopic",
+      "label": "浄化技術",
+      "position": {
+        "x": 1083.2331533695394,
+        "y": 1816.732371450728
+      },
+      "size": {
+        "width": 392,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "浄化技術 (Sanitization Techniques) は,PHPのセキュリティ基盤の重要な部分で,ユーザが提供するデータがスクリプト内で安全に使用されることを保証します. データベースに有害なデータが挿入したり,アプリケーションに危険をもたらす可能性がある他の方法で使用されることも防ぐことができます. データから不必要な文字を取り除く機能が含まれます. 例えば,PHPの `フィルター_var() `機能はテキストを浄化するために適用できます. $dirty_data = \"<p>We love PHP!</p><script>alert('Virus!')</script>\"; $clean_data = filter_$dirty_data, FILTER_SANITE_STRING); echo $clean_data;",
+        "links": [
+          {
+            "title": "浄化技術",
+            "url": "https://www.php.net/manual/en/function.filter-var.php",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ESNhqQpKQ-SmCOBDTObk-",
+      "type": "label",
+      "label": "安全の基礎",
+      "position": {
+        "x": 1202.2331533695394,
+        "y": 1870.732371450728
+      },
+      "size": {
+        "width": 154,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "ujVb9PtG6AlDUPLk_SWUU",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": 1141.1650523820535,
+        "y": 1584.4829936268172
+      },
+      "size": {
+        "width": 21,
+        "height": 66
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.75
+      },
+      "z_index": 999
+    },
+    {
+      "id": "77uKH6zwzzEycoZkGotpK",
+      "type": "paragraph",
+      "label": "データベースと作業",
+      "position": {
+        "x": 646.8998998140942,
+        "y": 1651.5423714507278
+      },
+      "size": {
+        "width": 267,
+        "height": 56
+      },
+      "style": {
+        "fontSize": 20,
+        "borderColor": "transparent",
+        "backgroundColor": "transparent",
+        "color": "#000000",
+        "textAlign": "center",
+        "justifyContent": "center",
+        "padding": 16
+      },
+      "z_index": 999
+    },
+    {
+      "id": "ViaJCS5_Zngyrm6F01s3J",
+      "type": "horizontal",
+      "label": "ホリゾントノード",
+      "position": {
+        "x": 905.4015161102686,
+        "y": 1669.5423714507278
+      },
+      "size": {
+        "width": 170,
+        "height": 20
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.75
+      },
+      "z_index": 999
+    },
+    {
+      "id": "cJtPz1RMN1qDE4eRdv4N_",
+      "type": "subtopic",
+      "label": "PDO",
+      "position": {
+        "x": 440.0625618910087,
+        "y": 1761.283325430209
+      },
+      "size": {
+        "width": 82,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "PDO (PHP Data Objects) は,PHPのデータベースと作業するための軽量で一貫した方法を提供するPHPのインターフェースです.PDOは,あなたのPHPコードを変更せずに任意のデータベースを使用し,コードをデータベースに独立させることができます.さらに,強力なエラー処理を提供し,SQLインジェクション攻撃を防ぐために準備された声明を使用できます.以下は,PDOを使用してMySQLデータベースからデータを接続し,取得する方法です: {$pdo =新しいPDO'mysql:host=localhost;dbname=test', 'ユーザー名', 'パスワード'); $stmt = $pdo-ECT>クエリSEL *From myTable'); whilerow = $stmt->fetch {$row['name] . \"\\n \"; } } } (PDOe) エコ: {$message-ection: {$message-ection: {$message-ection: }); {$message-ection: {$message-ection: } .",
+        "links": [
+          {
+            "title": "データオブジェクト",
+            "url": "https://www.php.net/manual/en/book.pdo.php",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "YLuo0oZJzTCoiZoOSG57z",
+      "type": "subtopic",
+      "label": "ミュウミュウ ティンバーランド ミュウミュウ ティンバーランド ミュウミュウ ティンバーランド ミュウミュウ ティンバーランド ミュウミュウ ティンバーランド ミュウミュウ ティンバーランド ミュウミュウ ティンバーランド ミュウミュウ ティンバーランド",
+      "position": {
+        "x": 528.6846520369628,
+        "y": 1761.283325430209
+      },
+      "size": {
+        "width": 106,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "MySQLi は PHP の拡張機能で,PHP プログラムが MySQL データベースと接続できます.この拡張機能は, PHP を使用した MySQL データベースでクエリを実行し,データを取得し,複雑な操作を行う能力を提供します. MySQLi は,オブジェクト指向的および手順インターフェースがあり,準備された声明,複数の声明,トランザクションをサポートします.ここでは,MySQL データベースに接続するために MySQLi を使用する基本的な例があります: $servername = \"localhost\"; $username = \"username\"; $password = \"password\"; $dbname = \"myDB\"; // Connectionconn = 新しい mysqli($username, $username, $password, $db); //接続をチェックします ($n-word>connect_er) {(接続が故障します: \" .n-connect_er\");",
+        "links": [
+          {
+            "title": "ミュウミュウ ティンバーランド ミュウミュウ ティンバーランド ミュウミュウ ティンバーランド ミュウミュウ ティンバーランド ミュウミュウ ティンバーランド ミュウミュウ ティンバーランド ミュウミュウ ティンバーランド ミュウミュウ ティンバーランド",
+            "url": "https://www.php.net/manual/en/book.mysqli.php",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6bK1pQ7pM3oowXyKNYIty",
+      "type": "label",
+      "label": "データベース接続",
+      "position": {
+        "x": 443.02449280028634,
+        "y": 1815.285090377886
+      },
+      "size": {
+        "width": 189,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "SeqGIfcLuveZ2z5ZSXcOd",
+      "type": "subtopic",
+      "label": "対象関連マッピング (ORM)",
+      "position": {
+        "x": 717.3722164373969,
+        "y": 1757.1918715106722
+      },
+      "size": {
+        "width": 309,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "オブジェクト関連マッピング (ORM) は,PHPで使用される一般的な技術で,オブジェクト指向プログラミング言語を使用して互換性のないタイプシステム間のデータを変換する.本質的に,PHP開発者はOOP標準を使用してデータベースと作業し,長いSQLクエリを書くのを避けることで時間を節約します.PHPで一般的に使用されるORMの一つはドクトリンです.例えば,製品表にデータを保存するには,SQLではなくOOP型のコードを使用します: $product = new Product(); $product->setName'New Product'); $entityManager->persist$product->$flush();",
+        "links": [
+          {
+            "title": "オブジェクト関係マッピング (ORM) とは",
+            "url": "https://stackoverflow.com/questions/1279613/what-is-an-orm-how-does-it-work-and-how-should-i-use-one#answer-1279678",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FY-F6n9j29hQrnFry3VGb",
+      "type": "subtopic",
+      "label": "データベース取引",
+      "position": {
+        "x": 717.3722164373969,
+        "y": 1809.9418715106722
+      },
+      "size": {
+        "width": 309,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "PHPでデータベース取引は,データベースシステム内で実行される作業の単位を指す.この技術は,アカウント間のマネー転送などの重要な作業に対処する際に不可欠である.データ一貫性が不可欠である.トランザクションの一部が失敗した場合,トランザクション全体が失敗します.",
+        "links": [
+          {
+            "title": "PDO取引",
+            "url": "https://www.php.net/manual/en/pdo.transactions.php",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "txUyPR_tdC8iTJV3RtvBz",
+      "type": "subtopic",
+      "label": "コネクション・プーリング",
+      "position": {
+        "x": 717.3722164373969,
+        "y": 1862.6918715106722
+      },
+      "size": {
+        "width": 309,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "コネクション・プーリングは,データベースと複数のオープンな接続を管理および維持するためにPHPで使用される技術です.接続を継続的に開くと閉じる時間のオーバーヘッドを削減し,リソースの効率的な利用を保証します.コネクション・プーリングはデータベースで開かれた接続の数を制限し,代わりに既存のアクティブ接続のプールを再利用し,PHPアプリケーションのパフォーマンスを大幅に向上させます.PHPスクリプトがデータベースと通信する必要があるとき,このプールから接続を借りて,操作を実行し,それをプールに戻します.PHPプラグインには接続・プーリングのネイティブサポートがないが,MySQLでPostSQLまたは 'mysqlnd\\_ms'を使用するときに\"pgBouncer\"などの第三者のツールを通じて達成できます.接続を統合することが推奨されています 通信量の高い PHP アプリケーションがある場合",
+        "links": [
+          {
+            "title": "コネクション・プーリング",
+            "url": "https://www.php.net/manual/en/oci8.connection.php",
+            "type": "official"
+          },
+          {
+            "title": "データベース エクステンション",
+            "url": "https://www.php.net/manual/en/refs.database.php",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "M1nVsh_sCSFJRf6-7Ttsj",
+      "type": "subtopic",
+      "label": "性能最適化",
+      "position": {
+        "x": 717.3722164373969,
+        "y": 1915.4418715106722
+      },
+      "size": {
+        "width": 309,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "PHPでAdvanced Database Techniques にリンクされた Performance Optimization は,データベース 駆動 アプリケーションが効率的に実行されることを保証します.これは,EXPLAIN SQL コマンド,デノーマライゼーション,キャッシング クエリ 結果などのテクニックを含みます.例えば,効果的なテクニックは,キャッシングクエリ 結果です.これは,データベース コールの数を大幅に削減できます.PHP は,データをシリアル化および非リアル化する機能を提供します.結果セットをシリアル化形式で保存し,必要に応じて,迅速に回収し,非リアル化し, voila,データベース コールなしでデータを準備できます. PHP でMySQL クエリをキャッシングする簡単な例があります: $query = \"SEL * FROM_MPECT\"; $cache_file = '/t/cache/' .md5($query); if (file_exists($cache_file)) { $result_set = unserialize(file_get_contents($cache_file)); } else { $result= mysql_query($query); $result_set= array(); while ($row = mysql_fetch_array($result)) { $result_set[]= $row; } file_put_contents($cache_file, serialize($result_set)); }",
+        "links": [
+          {
+            "title": "MySQL パフォーマンス最適化",
+            "url": "https://www.php.net/manual/en/book.mysql.php",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "meplwvmHMtI3Sb_fyodzZ",
+      "type": "subtopic",
+      "label": "データベース移行",
+      "position": {
+        "x": 717.3722164373969,
+        "y": 1968.1918715106722
+      },
+      "size": {
+        "width": 309,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "データベース移行は,データベースのスキーマの変更を追跡するのに役立ちます.データベースのバージョンから別のバージョンに移行しやすくします. 移行は,データベースのデザインを繰り返し進化させ,開発,ステージ化,および生産サーバーにこれらの更新プログラムを適用することができます. これは多くの手動作業を節約できます. しかしそれ以上に,移行はすべての環境で一貫性を維持し,意外な行動の可能性を軽減します. PHP には標準的な組み込み移行メカニズムはありませんが,Laravelのような強力で人気のある PHP フレームワークは移行のための堅固なソリューションを持っています.",
+        "links": []
+      }
+    },
+    {
+      "id": "pfX7PZgDo-QB2E35wTlwT",
+      "type": "label",
+      "label": "高級データベース技術",
+      "position": {
+        "x": 738.7340367056072,
+        "y": 2028.039362390491
+      },
+      "size": {
+        "width": 264,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "-uTMq6j24oe-_6XHfYfxE",
+      "type": "horizontal",
+      "label": "ホリゾントノード",
+      "position": {
+        "x": 642.4180934525762,
+        "y": 1793.3006388732697
+      },
+      "size": {
+        "width": 68,
+        "height": 20
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.75
+      },
+      "z_index": 999
+    },
+    {
+      "id": "uH9DTrDCBmBzXlup8KG3G",
+      "type": "paragraph",
+      "label": "対象型 プログラミング",
+      "position": {
+        "x": 428.57600354059275,
+        "y": 2133.3309656555534
+      },
+      "size": {
+        "width": 315,
+        "height": 47
+      },
+      "style": {
+        "fontSize": 20,
+        "borderColor": "transparent",
+        "backgroundColor": "transparent",
+        "color": "#000000",
+        "textAlign": "center",
+        "justifyContent": "center",
+        "padding": 16
+      },
+      "z_index": 999
+    },
+    {
+      "id": "EczRVrMg8N-aIvwmuHaBx",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": 528.6846520369628,
+        "y": 1856.1918715106722
+      },
+      "size": {
+        "width": 21,
+        "height": 270
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.75
+      },
+      "z_index": 999
+    },
+    {
+      "id": "PIuplWreo7PFG3Mdn2t6W",
+      "type": "subtopic",
+      "label": "クラスと対象",
+      "position": {
+        "x": 1177.5047837090656,
+        "y": 1970.824874826043
+      },
+      "size": {
+        "width": 287,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "PHPはオブジェクト指向的プログラミングをサポートし,クラスやオブジェクトを通じてマルチパラダイムでコーディングを行う方法を提供しています.クラスとは,すべての能力,性質,方法を包むオブジェクトを作成するための蓝図のようなものです.一方,オブジェクトは,クラスの方法と相互作用し,その性質を変更できるクラスの一例です.PHPでは,キーワード\"クラス\"を使用してクラスを定義し,その内にある属性と方法を設定し,次に\"新しい\"を使用してそのクラスのオブジェクトを作成できます.",
+        "links": [
+          {
+            "title": "クラス",
+            "url": "https://www.php.net/manual/en/language.oop5.php",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "oNUt1oT8pYBVvH0S2P6cb",
+      "type": "subtopic",
+      "label": "建設者/破壊者",
+      "position": {
+        "x": 1177.5047837090656,
+        "y": 2023.824874826043
+      },
+      "size": {
+        "width": 287,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "コンストラクターとディストラクターメソッドは,PHPにおけるオブジェクト指向プログラミング (OOP) の基本構成要素である.コンストラクターとは,オブジェクトを作成時に自動的に実行される特別なタイプの方法であり,しばしばプロパティ値またはデフォルト行動を設定するために使用されます.一方,ディストラクターとは,オブジェクトが破壊されるときに自動的に呼び出す方法であり,清掃活動に最適です.基本的な例は以下です:クラステスト {公開$値;コンストラクターメソッド公開機能 __construct($val) { $this->値 = $val; } //ディストラクターメソッド公開機能 __destruct() {エコー\"オブジェクトが破壊されています. // } } $obj =新しいテストクラス\"Hello World\"); echo $obj->値; // Disys: Hello World // And when the script ends, \"Object\" is being destroyed. // }",
+        "links": [
+          {
+            "title": "PHP コンストラクターとデストラクター",
+            "url": "https://www.php.net/manual/en/language.oop5.decon.php",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "MRAPXshy9RoYdReY6grf_",
+      "type": "subtopic",
+      "label": "特性 と 方法",
+      "position": {
+        "x": 1177.5047837090656,
+        "y": 2076.824874826043
+      },
+      "size": {
+        "width": 287,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "属性および方法は,PHPにおけるオブジェクト指向プログラミング (OOP) の基本構成要素である.属性とは,変数と同じであり,オブジェクトが使用する必要がある情報を保持する.方法とは,関数に似ている.オブジェクトの属性に対してアクションを実行する.PHPでは,属性とは,可視性キーワード (公開,保護,またはプライベート) を使用して宣言され,規則的な変数宣言が続く.メソッドは,関数のように宣言されるが,クラス内にあります.簡単な例:クラスカー {公 $color; //プロパティ // メソッド公関数セットColor($color) {this->color = $color; } } この例では, `$color`は属性であり, `$color() はメソッドである.",
+        "links": [
+          {
+            "title": "特性 と 方法",
+            "url": "https://www.php.net/manual/en/language.oop5.properties.php",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "RD2RaBmA2XWkEa13PTCTX",
+      "type": "subtopic",
+      "label": "アクセス仕様",
+      "position": {
+        "x": 1177.5047837090656,
+        "y": 2129.824874826043
+      },
+      "size": {
+        "width": 287,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "アクセス仕様 (access specifiers) とは,PHPではクラスコンテキストで使われるキーワードで,プロパティ,メソッド,コンスタントの可視性とアクセシビリティを定義する.PHPは,公開,プライベート,保護された3種類のアクセス仕様をサポートします. \"公開\"の指定されたプロパティまたはメソッドは,どこにでもアクセスできます. \"プライベート\"は,それらを定義するクラス内でのみアクセスできます. \"保護された\"は,クラス内で,そして相続および親クラスによってアクセスできます.例を示します.",
+        "links": [
+          {
+            "title": "アクセス仕様と可視性",
+            "url": "https://www.php.net/manual/en/language.oop5.visibility.php",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "qlkpwXfOc1p7j37hrzffI",
+      "type": "subtopic",
+      "label": "静的方法と性質",
+      "position": {
+        "x": 1177.5047837090656,
+        "y": 2182.824874826043
+      },
+      "size": {
+        "width": 287,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "PHP の静止方法と属性は,クラスのインスタンスの代わりにクラスに属します.これは,クラスのオブジェクトを作成せずにアクセスできます.静止方法は,静止キーワードで宣言され,範囲解像度オペレータがフォローするクラス名を使用して直接呼び出すことができます.同様に,静止属性は,静止キーワードで定義されますが,クラスメソッドの中でさえ直接アクセスできません.静止方法によってアクセスする必要があります.ここは簡単な例です:クラス MyClass {静止 $myStaticProperty = \"Hello, world\";静止関数 myStaticMethod() {回帰::$myStaticProperty; } } エコ MyClass::StaticMethod); この例では,私たちは直接 MyClassから `` ` ` ` ヽ ヽ ヽ ヽ ヽ ヽ ヽ",
+        "links": [
+          {
+            "title": "静的方法と性質",
+            "url": "https://www.php.net/manual/en/language.oop5.static.php",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "c5q2e_jyMt8Pir5Od3lRi",
+      "type": "subtopic",
+      "label": "遺産",
+      "position": {
+        "x": 1177.5047837090656,
+        "y": 2235.824874826043
+      },
+      "size": {
+        "width": 287,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "オブジェクト指向プログラミング (OOP) の基本的な概念である遺伝子は,PHPがサポートする機能です.他のクラスの拡張であり,その方法と性質を継承するクラスを作成することができます.この概念は,コードの再利用を促進するため,より柔軟かつ維持可能なコードを作成することを可能にします.例えば\",車両\"のクラスがあり,\"自動車\"のクラスを作りたいと考えてください.自動車は車両の一種なので,私たちの\"自動車\"のクラスから\"車両\"のクラスに継承することは意味があります.クラス 車両 {公共 $color;機能ドライブ() { echo \"Driving...\"; } } クラス 自動車拡張 車両 {機能ホーン() { echo \"Beeping...\"; } } $myCar = new Car(); $myCar->drive(); // 車両からドライブ方法を継承 $myCar->drive();",
+        "links": [
+          {
+            "title": "遺産",
+            "url": "https://www.php.net/manual/en/language.oop5.inheritance.php",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "yTviiPFR5b_dr3WyxdxxQ",
+      "type": "topic",
+      "label": "OOPの基本事項",
+      "position": {
+        "x": 821.7340367056072,
+        "y": 2131.3309656555534
+      },
+      "size": {
+        "width": 213,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "PHPでは,Object-Oriented Programming (OOP) Fundamentals は,クラス,オブジェクト,プロパティ,メソッドなどの重要な側面をカバーする.OOPは効率的なコード再利用性を促進し,コードの管理と変更を容易にする.例えば,ここでは,PHPでメソッドとプロパティを持つクラスを表すコードスニペットがあります.",
+        "links": [
+          {
+            "title": "OOP",
+            "url": "https://php.net/manual/en/language.oop5.basic.php",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "BOWGF4ovKzGC_3MFQET9p",
+      "type": "paragraph",
+      "label": "より多くのOOPコンセプト",
+      "position": {
+        "x": 809.2340367056072,
+        "y": 2364.1556421815417
+      },
+      "size": {
+        "width": 238,
+        "height": 47
+      },
+      "style": {
+        "fontSize": 20,
+        "borderColor": "transparent",
+        "backgroundColor": "transparent",
+        "color": "#000000",
+        "textAlign": "center",
+        "justifyContent": "center",
+        "padding": 16
+      },
+      "z_index": 999
+    },
+    {
+      "id": "gtq5KrghF28f5G8nuDcYQ",
+      "type": "subtopic",
+      "label": "ポリモルフィズム",
+      "position": {
+        "x": 452.29056395515977,
+        "y": 2205.9056421815417
+      },
+      "size": {
+        "width": 218,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ポリモルフィズム (Polymorphism) は,PHPがサポートするオブジェクト指向式プログラミングの核心概念である.PHPは,異なる基礎形式のためにひとつのインターフェースを使用するメカニズムを提供し,異なるオブジェクトがデータタイプに基づいて異なる処理を可能にします.PHPでは,ポリモルフィズムは継承とインターフェースを通じて達成できます.例えば,親クラス\"形\"と子クラス\"円\",矩形\"などがあります.それらはすべて\"描画\"方法を持つが,異なる実装があります.それはクラスに限定されません.また,各クラスが同じ方法のための異なるコードを持つ同じインターフェースを持つ異なるクラスを実装することによってインターフェースを持つポリモルフィズムを使用することもできます.この概念を示した小さなサンプルコードは: <?php インターフェース形 {公共機能 draw(); } クラス Circle が Shape {公共機能 draw() { エコ \"円を描画する \"; } } クラス Rectangle が Shape {公共機能 draw() { エコ \"矩形を描画する \"; } } 機能 drawShape(Shape $shape) { $shape->draw(); } drawShapeShape(new Circle()); drawShape(new Rectangle()); ?> これは, 'Shape' インターフェースに従うだけで,より多くの形を追加するスケーラブルな方法を作成します.",
+        "links": [
+          {
+            "title": "ポリモルフィズム",
+            "url": "https://www.phptutorial.net/php-oop/php-polymorphism/",
+            "type": "opensource"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ub79EkMiOmPBwXLRuYFL8",
+      "type": "subtopic",
+      "label": "抽象クラス",
+      "position": {
+        "x": 452.29056395515977,
+        "y": 2258.6556421815417
+      },
+      "size": {
+        "width": 218,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "PHP の抽象なクラスは,単独でインスタンスできないものです.それらは単に他のクラスの模様であり,事前に定義された構造を提供します.クラスを抽象として宣言することで,それらを実装することなくメソッドを定義できます.後のクラスは抽象なクラスを継承する際に,これらの未定義メソッドを実装する必要があります.",
+        "links": [
+          {
+            "title": "抽象クラス",
+            "url": "https://www.php.net/manual/en/language.oop5.abstract.php",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "vu0H-TsD7hkJgOQbSRj92",
+      "type": "subtopic",
+      "label": "インターフェース",
+      "position": {
+        "x": 452.29056395515977,
+        "y": 2311.4056421815417
+      },
+      "size": {
+        "width": 218,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "PHP のインターフェースは,クラス設計の蓝図として機能します.それらは,クラスが特定の契約に従っていることを保証します.これらの方法がどのように機能すべきかを定義することなく.PHP は厳格にタイプされた言語ではないため,インターフェースは,連続性と予測性を維持するために大きなコードベースで特に有用である可能性があります.例えば,PHPでは,インターフェース\"iTemplate\"は\"setVariable\"と\"getHtml\"の方法で定義できます.このインターフェースを実装するすべてのクラスはこの方法を定義する必要があります.以下はスニペットです:インターフェース iTemplate {公共機能セットVariable($name, $var);公共機能 getHtml($template); }クラス テンプレート iTemplate {プライベート $vars = アレイ();公共機能セットVariable($name, $var) { $this->vars[$name] = $var; }公共機能 getHtml($template) { foreach($this->varsとして $name => $value) { $template = str_replace('{'$name .'}', $value, $template); } return $template; }",
+        "links": [
+          {
+            "title": "インターフェース",
+            "url": "https://www.php.net/manual/en/language.oop5.interfaces.php",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "GR09ns9B-0cONQaQ_uj-7",
+      "type": "subtopic",
+      "label": "特徴",
+      "position": {
+        "x": 452.29056395515977,
+        "y": 2364.1556421815417
+      },
+      "size": {
+        "width": 218,
+        "height": 48
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Traits は PHP の概念で,開発者が機能性を拡張するためにクラスで使用できる再利用可能なコードを作成できるようにするものです. これは,開発者が複数の独立したクラスで一連の方法を自由に再利用できるようにすることで,単一の継承の複雑さを減らす方法です. Trait: trait Greeting {public function sayHello() { return \"Hello\"; } } } user class {user use Greeting; } $user = new User(); echo $user->sayHello(); // Outputs: Hello:上記のコードスニペットでは, `` ` ` User ` クラスで利用されているので,そのメソッドを使用することができます.",
+        "links": [
+          {
+            "title": "特徴",
+            "url": "https://www.php.net/manual/en/language.oop5.traits.php",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "9raJ06lKRZITbjWeLil-F",
+      "type": "subtopic",
+      "label": "名前空間",
+      "position": {
+        "x": 452.29056395515977,
+        "y": 2415.9056421815417
+      },
+      "size": {
+        "width": 218,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "PHP の名前空間は,名前衝突が起こらないようにアイテムを封装する方法です.コードが拡大すると,クラス,インターフェース,機能,または定数が同じ名前を持つ状況が発生し,混乱やエラーを引き起こす可能性があります.名前空間はこれらのアイテムをグループ化することによって救助します. PHP ファイルの上にあるキーワード\"namespace\"を使用して名前空間を宣言します.この宣言の下にあるすべてのクラス,機能,または変数は,別の名前空間が宣言されるまで,またはファイルが終了するまで名前空間の一部です.それは,あなたの家でスポーツ機器を保存するためにのみ新しい部屋を作成するようなものです.これは,あなたのテニスラケットを見つけるのを容易にするため,あなたは混ざったアイテムに満ちたクローゼットで周りを回る必要はありません.これは簡単な例です. 名前空間 MyNamespace\\SubNamespace; 機能表示 Greeting() {エコー 'Hello World!'; }",
+        "links": [
+          {
+            "title": "名前空間",
+            "url": "https://www.php.net/manual/en/language.namespaces.php",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "rSXsPWto7Jeyw3Szl9pvf",
+      "type": "subtopic",
+      "label": "魔法の方法",
+      "position": {
+        "x": 452.29056395515977,
+        "y": 2468.6556421815417
+      },
+      "size": {
+        "width": 218,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "PHP マジックメソッドは,言語のハックと考えられ,開発者に特定の言語構造にオブジェクトがどのように反応するかを変更する方法を提供します.マジックメソッドは\",\\_\\_\\_\"から始まる\"\\_\\_\\_\"の特殊な機能である.例えば: `__コンストラクター() `, `__ダストラクター(), __コール(), __get(), __セット) `等.特定のアクションが発生するときに特定のタスクを自動的に実行できるようにします.例えば, `__コンストラクター) `) ⌒) ⌒) ⌒がオブジェクトが作成されたときに実行されますが,オブジェクトがもはや不要になったときにトリガーします. `__コンストラクター`の特殊な機能を見てみましょう.",
+        "links": [
+          {
+            "title": "魔術 的 な 方法",
+            "url": "https://www.php.net/manual/en/language.oop5.magic.php",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "KEE50C6lOS4eX8sAbfhYe",
+      "type": "subtopic",
+      "label": "依存性注射",
+      "position": {
+        "x": 452.29056395515977,
+        "y": 2521.4056421815417
+      },
+      "size": {
+        "width": 218,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "依存性注射は,主にクラス依存性を管理するために使用される設計パターンです.ここで,クラスが独自の依存性を創造する責任を持つのではなく,注射器 (\"クライアント\") が要求をクラス (\"サービス\") に転送し,制御を集中させ,コードを単一の責任原則に従うように奨励します.簡単な例として,Bクラスの方法を使用する必要がある状況を考えてみましょう.B内のAクラスのオブジェクトを作成する代わりに,依存性注射で,AクラスのインスタンスをBに転送します.class A {関数表示() { echo 'Hello, PHP依存性注射!'; } } } class B { private $a; public function __construct(A $classAInstance) { $this->a = $classAInstance; } public function callDisplayOwn() { $this->a->display(); } } $instanceA = new A(); $instanceB = new B($instanceA); $instanceB->callDisplayOwn); // output: \"Hello, PHP依存性注射!\"",
+        "links": [
+          {
+            "title": "PHP で依存性注射を理解する",
+            "url": "https://php-di.org/doc/understanding-di.html",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sPW-Ti2VyNYzxq6EYkbn7",
+      "type": "subtopic",
+      "label": "タイプ申告",
+      "position": {
+        "x": 452.29056395515977,
+        "y": 2574.1556421815417
+      },
+      "size": {
+        "width": 218,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "タイプ宣言 (Type Hints) は,関数が受け取る変数の種類や返還すべき値の種類を指定するオプションを提供する PHPの機能です.コードを迅速にデバッグするのに役立つだけでなく,コードを読みやすくします. PHPでは,タイプ宣言は関数内のパラメータ (パラメータタイプ宣言) と関数からの返還値の両方 (返還タイプ宣言) である.クラス,インターフェース,コール可能,およびスケラー型 (int, float, string, bool) に適用できます.例:関数追加 $a, intb: int {返還 $a + $b; }追加1, 2); //プリント: 3 この例では,関数\"追加\"は積数のみを受け入れ,また整数も返還します.",
+        "links": [
+          {
+            "title": "タイプ申告",
+            "url": "https://www.php.net/manual/en/functions.arguments.php#functions.arguments.type-declaration",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "oAED9Fd5FFTB2Dm7Vi2JF",
+      "type": "paragraph",
+      "label": "フレームワークとツール",
+      "position": {
+        "x": 1242.0047837090656,
+        "y": 2364.1556421815417
+      },
+      "size": {
+        "width": 238,
+        "height": 47
+      },
+      "style": {
+        "fontSize": 20,
+        "borderColor": "transparent",
+        "backgroundColor": "transparent",
+        "color": "#000000",
+        "textAlign": "center",
+        "justifyContent": "center",
+        "padding": 16
+      },
+      "z_index": 999
+    },
+    {
+      "id": "zsscRQZIq5o0JZir9hlz-",
+      "type": "subtopic",
+      "label": "ララベル",
+      "position": {
+        "x": 1250.06690385191,
+        "y": 2470.216035499366
+      },
+      "size": {
+        "width": 104,
+        "height": 50
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Laravel は Web アプリケーション開発に最適で,優れた PHP フレームワークで,開発者に生産性を高める多くの機能を提供します.Laravel は,ルーティング,セッション,キャッシング,認証などの複雑なタスクを処理するために PHP の力を活用し, PHP 開発者がアプリケーションを構築することをはるかに簡単で速くします.Laravel の MVC アーキテクチャはクリーンで DRY コードを促進し,ビジネスロジックをUI から分離し,スケーラビリティとメンテナンスを大幅に改善します.",
+        "links": [
+          {
+            "title": "ララベル",
+            "url": "https://laravel.com/",
+            "type": "official"
+          },
+          {
+            "title": "Laravel インストール",
+            "url": "https://laravel.com/docs/11.x/installation",
+            "type": "official"
+          },
+          {
+            "title": "ララベルのドキュメント",
+            "url": "https://laravel.com/docs",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "57VSMVePOr9qUD5x_LNdf",
+      "type": "subtopic",
+      "label": "シンフォニー",
+      "position": {
+        "x": 1359.671056276999,
+        "y": 2470.216035499366
+      },
+      "size": {
+        "width": 113,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Symfony は,PHPコンポーネントのセットであり,Webプロジェクトのためのフレームワークである.Webアプリケーションの作成とメンテナンスを加速させ,繰り返されるコーディングタスクを置き換えることを目的としています.Symfony は,PHP依存管理者であるComposer を使用して,そのコンポーネントを管理します.以下は,新しいSymfonyプロジェクトを作成する例です.コンポーネント作成プロジェクト・シンフォニー/ウェブサイト-骨格 myproject これは\"myproject\"ディレクトリに新しいSymfonyプロジェクトをダウンロードしてインストールします.Symfonyのコンポーネントは,ルーティング,テンプレート作成,またはフォーム処理などのタスクを完了するのに役立つ再利用可能なPHPライブラリです.",
+        "links": [
+          {
+            "title": "シンフォニー",
+            "url": "https://symfony.com/",
+            "type": "official"
+          },
+          {
+            "title": "シンフォニーのドキュメント",
+            "url": "https://symfony.com/doc/current/index.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Qz5SD_EDrAZBMBDyjpTtH",
+      "type": "label",
+      "label": "人気フレームワーク",
+      "position": {
+        "x": 1273.4723696321892,
+        "y": 2525.216035499366
+      },
+      "size": {
+        "width": 174,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "yVFDu2aTiEZ4PWMdKdW2P",
+      "type": "subtopic",
+      "label": "作曲家",
+      "position": {
+        "x": 875.2233988247604,
+        "y": 2476.9009287155754
+      },
+      "size": {
+        "width": 190,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Composer は現代的な PHP 開発における基本的なツールです.プロジェクト依存の管理を簡素化し,必要なものを宣言し,プロジェクトに自動的にリソースをインストールできます.例えば,あなたの PHP プロジェクトに特定のライブラリが必要であれば, Composer は適切なバージョンを取り出し,プロジェクトに利用可能であることを確認します. Composer を使用して依存を追加する方法の一例です: Composer は Vendor/package を必要とします.このコマンドはプロジェクトに `vendor/package` 依存を追加します.",
+        "links": [
+          {
+            "title": "作曲家",
+            "url": "https://getcomposer.org/",
+            "type": "official"
+          },
+          {
+            "title": "作曲家文書",
+            "url": "https://getcomposer.org/doc/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "xZf2jjnCVHwYfDH2hs9kR",
+      "type": "subtopic",
+      "label": "包装機",
+      "position": {
+        "x": 875.2233988247604,
+        "y": 2529.9009287155754
+      },
+      "size": {
+        "width": 190,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "パッケージジストは,PHPの主要なパッケージリポジトリで,PHPのパッケージ依存をホストして配布するためのサービスを提供しています.開発者はそれを利用して,PHPパッケージをアップロードし,世界的に他の開発者と共有することができます.Composerと連携して,Pakagistは,PHPのパッケージバージョンを管理し,PHPの依存を解決するのに役立ちます.",
+        "links": [
+          {
+            "title": "包装機",
+            "url": "https://packagist.org/",
+            "type": "official"
+          },
+          {
+            "title": "パッケージドキュメント",
+            "url": "https://getcomposer.org/doc/01-basic-usage.md#package-versions",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "qFiTsf6Es-gwqe6J6bdL1",
+      "type": "subtopic",
+      "label": "自動充電",
+      "position": {
+        "x": 875.2233988247604,
+        "y": 2582.9009287155754
+      },
+      "size": {
+        "width": 190,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "自動ロードは PHP の便利な機能で,必要に応じてクラスやファイルの自動ロードを可能にします.例えば,スクリプトにまだ含まれていないクラスがあり,そのクラスをインスタンスティングしている場合は, PHP は標準的な PHP オートロード条約に準拠しているため,自動的にそのクラスファイルをあなたのために含まれます.この機能は,ファイルを手動に追加または要求する必要性を削減し,コードをクリーンで管理に効率的にします.簡単な例は: spl_autoload_(registerfunction ($class_name) { $class_name . '.php'; });obj = new MyClass $();この例では, PHP は MyClass がインスタンスティングされたときに MyClass.php ファイルを自動的にロードします.",
+        "links": [
+          {
+            "title": "自動充電",
+            "url": "https://www.php.net/manual/en/language.oop5.autoload.php",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "CQwvbTXeYxm4yKTnbgQ-P",
+      "type": "label",
+      "label": "パッケージ管理",
+      "position": {
+        "x": 874.1096183840161,
+        "y": 2641.164794921875
+      },
+      "size": {
+        "width": 190,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "CQksvYg9NAk4xhlAsYwlW",
+      "type": "horizontal",
+      "label": "ホリゾントノード",
+      "position": {
+        "x": 1074.1650523820535,
+        "y": 2491.4009287155754
+      },
+      "size": {
+        "width": 167,
+        "height": 20
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.75
+      },
+      "z_index": 999
+    },
+    {
+      "id": "Ckno7MXH8tSaegNekAiuL",
+      "type": "horizontal",
+      "label": "ホリゾントノード",
+      "position": {
+        "x": 1073.1650523820535,
+        "y": 2640.9009287155754
+      },
+      "size": {
+        "width": 167,
+        "height": 20
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.75
+      },
+      "z_index": 999
+    },
+    {
+      "id": "NfBKKwG2GGBPppOjoLLBg",
+      "type": "subtopic",
+      "label": "PHPUnit",
+      "position": {
+        "x": 1248.6842719582237,
+        "y": 2602.164794921875
+      },
+      "size": {
+        "width": 111,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "PHPUnitはPHPで広く使用されているテストフレームワークです.自動テストは,開発者が自分のコード機能を期待するように確保できるようにします.PHPUnitを使用して,コードベースの機能を確認するためにPHPでテストケースを書くことができます.ソフトウェアの個々の部分を検証するユニットテストを実行するのに特に便利です.PHPUnitはいくつかの種類の主張をサポートし,あらゆるテスト要件に対応できます.これは簡単な PHPUnit テストケースです: <?php 使用 PHPUnit\\Framework\\TestCase; クラス StackTest は TestCase {公開機能テストPushAndPop() を拡張します { $stack = []; $this->assertEquals(0,count($stack)); array_push($stack, 'foo'); $this->assertEquals('foo', $stack[count($stack)-1]); $this->assertEquals((1,count$stack)); $this->assertEquals'foo', array_pop$stack)); $this->assertEquals(0,$stack) } } } } }> この例では,数列の'push'と 'pop'機能をテストします.",
+        "links": [
+          {
+            "title": "PHP ユニット",
+            "url": "https://phpunit.de/getting-started/phpunit-7.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "d6MydchA52HIxfAUjmZui",
+      "type": "subtopic",
+      "label": "害虫",
+      "position": {
+        "x": 1364.3239413874203,
+        "y": 2602.164794921875
+      },
+      "size": {
+        "width": 107,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Pestは,PHPUnitの革新的な優雅なテストフレームワークである.PHPUnitのスタイリッシュで簡素な代替として考えてください.Pestは,表現的で柔軟なテストケースを有効にしてPHPコードのテストを風にする.従来のPHPUnitテストを統合する能力を妨害することなく,ボイラープレートコードを最小限に抑えるために,より高いレベルの抽象を提供します.例えば,Pestを使用すると,テストケースは閉幕を書くほど簡単になります. it(' has homepage', function () { $response = get('/'); $response->assertStatus(200); });",
+        "links": [
+          {
+            "title": "害虫",
+            "url": "https://pestphp.com/",
+            "type": "official"
+          },
+          {
+            "title": "害虫の設置",
+            "url": "https://pestphp.com/docs/installation",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "X0mFrPsMoaoVxe9FSJ0OQ",
+      "type": "label",
+      "label": "テストツール",
+      "position": {
+        "x": 1299.9723696321892,
+        "y": 2656
+      },
+      "size": {
+        "width": 117,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "6eWgZVLV479oQzl0fu-Od",
+      "type": "topic",
+      "label": "スタイルツール",
+      "position": {
+        "x": 1310.8216274255997,
+        "y": 2756
+      },
+      "size": {
+        "width": 175,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "PHP のスタイルツールは,主に PHP プロジェクト全体で一貫したコーディングスタイルを維持するのに役立つ標準コードツールです. PHP_CodeSniffer はこのカテゴリーで人気のあるツールです. PHP, JavaScript, CSS ファイルをトークン化し,定義されたコード標準の違反を検知します. PHP_CodeSnifferの使用の短い例は,コマンドラインで実行します: `phpcs /path/to/code/myfile.php`. PHP CS Fixer などの他のツールでは標準コード違反を自動的に修正できます.",
+        "links": [
+          {
+            "title": "PHPコード品質ツール",
+            "url": "https://www.jetbrains.com/help/phpstorm/php-code-quality-tools.html",
+            "type": "article"
+          },
+          {
+            "title": "PHP_CodeSniffer",
+            "url": "https://github.com/PHPCSStandards/PHP_CodeSniffer/",
+            "type": "opensource"
+          }
+        ]
+      }
+    },
+    {
+      "id": "fSpvZ_4kGFMbFVCWhA8vn",
+      "type": "subtopic",
+      "label": "PHPCodeSniffer",
+      "position": {
+        "x": 1310.8216274255997,
+        "y": 2852.2828197635763
+      },
+      "size": {
+        "width": 175,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "PHP CodeSniffer は,あなたのPHPコードが定義されたコーディング基準に準拠することを保証するために使用されるツールです. これは,あなたのコードをトークン化して,以前に設定されたルールセットの違反を検知し,インデントメント,スペース,命名コンベンションなどの側面をカバーします.これはプロジェクトとチーム間でコードの一貫性を維持するのに役立ちます.読み,理解,メンテナンスが容易になります.",
+        "links": [
+          {
+            "title": "PHP_CodeSniffer",
+            "url": "https://github.com/PHPCSStandards/PHP_CodeSniffer/",
+            "type": "opensource"
+          }
+        ]
+      }
+    },
+    {
+      "id": "r07k_hT2z2EiIBH4q3F7-",
+      "type": "subtopic",
+      "label": "PHP CS フィクサー",
+      "position": {
+        "x": 1310.8216274255997,
+        "y": 2905.2828197635763
+      },
+      "size": {
+        "width": 175,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "PHP CS Fixer は PHP 開発者向けの貴重なユーティリティで,コードを特定のコーディング基準に準拠するように調べ,修正します.この強力なツールでは,手動コードレビューと修正に費やされた時間と労力を軽減します. PHP コードの構文,外観,構造をレビューし,自動的に発見された問題を修正できます. PHP CS Fixer は PSR-1, PSR-2, Symfony 規格などをサポートします. PHP CS Fixer を使用する方法の一例です.まず,コンポーザー:コンポーザーグローバルでインストールします.その後,プロジェクトディレクトリで friendssofphp/php-cs-fixer を実行します. php-cs-path-fixer / fix-to-your-php-files",
+        "links": [
+          {
+            "title": "CS フィクサー",
+            "url": "https://cs.symfony.com/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PrG_5dyBblXsWYYRcOJMa",
+      "type": "topic",
+      "label": "静的分析",
+      "position": {
+        "x": 1078.7233988247604,
+        "y": 2756
+      },
+      "size": {
+        "width": 158,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "PHPにおける静的分析は,実行前にソースコードを検査する方法である.特定の入力 (ダイナミック分析) でプログラムをテストする代わりに,静的分析は実行せずにコード内の潜在的な問題を発見することに焦点を当てます.依存性問題,未使用変数,未宣言属性などの複雑な問題を特定し,発見するのに役立ちます.PHPStanや詩篇のようなツールを使用して,この静的分析機能が PHPで提供されます.例えば,PHPStanを使用すると,単に Composer を介してインストールし,コードベースに対して実行する必要があります.composer -dev phpstan/php ./vendor/bin/php pstststststststststststststststststststststststststst stststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststststしかし,その恩恵を全うするために,これらのツールには適切な配置と定期的な使用が必要であることを理解してください.",
+        "links": [
+          {
+            "title": "PHP スタン",
+            "url": "https://phpstan.org/",
+            "type": "official"
+          },
+          {
+            "title": "PHP スタン - スタート",
+            "url": "https://phpstan.org/user-guide/getting-started",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "12k71gNfwAcT9K5aLWgbZ",
+      "type": "subtopic",
+      "label": "PHPStan",
+      "position": {
+        "x": 1070.2233988247604,
+        "y": 2859.456645871666
+      },
+      "size": {
+        "width": 175,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "PHPStan は PHP の ステティック 分析 ツール で,コード の バグ を 発見 する こと に 焦点を 向け て い ます.プログラム が 実行 さ れ て いる 時 に 動作 する ダイナミック 分析 に 違い,ステティック 分析 は,コード を 実行 さ なけれ ば なら ない よう に 解析 し て い ます. PHPStan は,コード の テスト を 書き出す 前 に も,bug の クラスを 捕らえる こと が でき ます.したがって, PHP の 開発 に は 価値 的 な ツール に なり ます.例えば, PHPStan は,未定義 の 配列 キー に アクセス する こと や,存在しない 方法 を 呼び出す こと の よう な 問題 を 防ぐ こと が でき ます.以下は PHPStan を 使用 する 方法 の 基本例 です. // を インストール する PHPStan を 用い て 構成 者 $ 作 者 を 要求する --dev phpstan/phpstan // コード を 分析 する $ 販売 者/bin/phpstan src を 分析 する",
+        "links": [
+          {
+            "title": "PHP スタン",
+            "url": "https://phpstan.org/user-guide/getting-started",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "B45YVzov8X_iOtneiFEqa",
+      "type": "subtopic",
+      "label": "パン",
+      "position": {
+        "x": 1165.193892614335,
+        "y": 2912.4566458716663
+      },
+      "size": {
+        "width": 81,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Phan は,PHP 言語のために特別に作成された静的分析ツールで,実行前にコードの一般的な問題を捉えるのに非常に有用です.PHP コード内の構文と行動を分析し,宣言されていない変数,タイプ不一致性,キャッチされていない例外などの問題を検出できます.興味深いことに,Phan には特定の強さがあります. PHP の異なる機能間の関係を理解し,微妙で複雑なバグを見つけるのに効果的なツールです.それを使用するには,単にコンポーザーを使用してインストールして,プロジェクトディレクトリで\"phan\"コマンドを実行してください.<?php // Phan サンプル使用は 'vendor/autoload.php' を必要とする. // Composer autoload を使用してファイルを自動ロードする. Phan\\Phan を使用する. Phan\\CLI を使用する. $code = \"<?php 関数追加(int $a,int $b): int { return $a + $b; } echo add('hello', 'world');\"; // タイプエラーのあるコード Phan::analyzeFile('test.php',$ サンプル); 上記は PHP 関数のタイプエラーをチェックする.",
+        "links": [
+          {
+            "title": "パン",
+            "url": "https://phan.github.io/",
+            "type": "official"
+          },
+          {
+            "title": "パン/パン",
+            "url": "https://github.com/phan/phan",
+            "type": "opensource"
+          }
+        ]
+      }
+    },
+    {
+      "id": "T1XD93j6Lkpl88JSmys9b",
+      "type": "subtopic",
+      "label": "詩篇",
+      "position": {
+        "x": 1071.193892614335,
+        "y": 2912.4566458716663
+      },
+      "size": {
+        "width": 91,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "詩篇は,PHPに合わせた人気のある静態分析ツールです.コードを実行する前に,構文エラー,未使用変数,タイプ不一致を含むコードの潜在的な問題を特定します.これはコードの品質と維持性を改善するのに役立ちます. これはかなり強力で,そのテンプレート/インターフェースシステムを 사용하여複雑なシナリオを理解することもできます.詩篇であなたのPHPコードを分析するには,単にインストールして,PHPファイルまたはディレクトリに実行する必要があります.例.",
+        "links": [
+          {
+            "title": "詩編 の 書籍",
+            "url": "https://psalm.dev/docs/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "_3kirB7iU8ZHdwu3C6X3T",
+      "type": "label",
+      "label": "外部統合",
+      "position": {
+        "x": 783.668796508003,
+        "y": 2765.559012420851
+      },
+      "size": {
+        "width": 177,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "KC6D81-T-FwQc7Osw1rlY",
+      "type": "subtopic",
+      "label": "カール",
+      "position": {
+        "x": 782.8163275601296,
+        "y": 2805.6288664025246
+      },
+      "size": {
+        "width": 76,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "cURLは,PHPスクリプト内の外部サーバーへのリクエストを行う柔軟な方法である.CURLは,クライアントURLを表す.これは,さまざまな種類のURLに基づいてさまざまな種類のネットワーク通信方法を容易にするライブラリです.例えば,REST APIにアクセスするために,ファイルダウンロードまたはフォームデータを投稿するためにPHPのcURL機能を使用することができます.以下は,基本的なPHP cURL例です.APIからデータを取得します: $ch = curl_init); curl_setopt(((ch,CURLOPT_URL, \"http://example.com/api/data\"); curl_setopt($ch,CURLOPT_RETURNTRANSFER, 1); $result = curl_exec$ch; ifl_((((((@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
+        "links": [
+          {
+            "title": "カール",
+            "url": "https://curl.se/",
+            "type": "official"
+          },
+          {
+            "title": "PHP で cURL",
+            "url": "https://www.php.net/manual/en/book.curl.php",
+            "type": "official"
+          },
+          {
+            "title": "カール/カール",
+            "url": "https://github.com/curl/curl",
+            "type": "opensource"
+          }
+        ]
+      }
+    },
+    {
+      "id": "_Al4NXKVQAnk8OikwvXCL",
+      "type": "subtopic",
+      "label": "グズル",
+      "position": {
+        "x": 862.8163275601296,
+        "y": 2805.6288664025246
+      },
+      "size": {
+        "width": 98,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Guzzle は PHP で HTTP リクエストを作成することを簡素化する PHP HTTP クライアントです. HTTP リクエストを送信するためのシンプルで強力な方法を提供します. あなたがしばしば API や他の HTTP リクエストを処理する場合は, Guzzle はあなたの生活を簡素化できます.シンプルな GET リクエストを送信,POST リクエストでファイルをアップロードする,または例外処理を使用してエラーを処理するすべてに最適です.",
+        "links": [
+          {
+            "title": "グズルドキュメント",
+            "url": "https://docs.guzzlephp.org/en/stable/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "SD9k16UlVve9WtNMDA5Za",
+      "type": "topic",
+      "label": "PHP-FIG",
+      "position": {
+        "x": 483.05794812125305,
+        "y": 2754.164794921875
+      },
+      "size": {
+        "width": 162,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "PHP-FIG (PHP Framework Interoperability Group) とは,PHPのエコシステムの重要な部分である.このグループは,PHPのフレームワーク,ライブラリ,および他のPHPベースのソフトウェアの相互運用性を促進するPHP標準を作成することを主な目的としています.このグループは,ほとんどの近代的なPHPコードが遵守するPSR規格に責任があります.典型的には,コーディングスタイル,ログガーインターフェース,httpキャッシュなどに関するガイドラインを提供します.それぞれのPSRは,PHPコードをより一貫して維持できるように設計されています.PHP-FIGの標準に従うことで,開発者はプロジェクト内で第三者のコードを統合し,活用する能力を高めます.",
+        "links": [
+          {
+            "title": "PHP FIG",
+            "url": "https://www.php-fig.org/psr/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3tONibbRgK7HCwGTE2Gqw",
+      "type": "subtopic",
+      "label": "PSR規格",
+      "position": {
+        "x": 483.05794812125305,
+        "y": 2663.5778818678305
+      },
+      "size": {
+        "width": 162,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "PHP Framework Interop Group (PHP-FIG) は,PHP開発者向けに統一かつ互換性のあるコーディング慣習を提供するために,PHP標準勧告 (PSR) 規格を導入した.PSR規格は,コードスタイル (PSR-1,PSR-2),オートローディング (PSR-4),その他などのさまざまなコーディング側面をカバーしている.PHPコミュニティは,これらの規格を広く受け入れ,クリーンでフォローしやすいコードを書くことに貢献している.以下は,PHPにおけるPSR-4オートローディング基準を説明するスニペットです: // Autoloader spl_autoload_register ($class) { //Director namespace to directory structure $class = str_replace'(\\\\',DIRECTORY_SEPARATOR, $class) '.",
+        "links": [
+          {
+            "title": "PSR規格",
+            "url": "https://www.php-fig.org/psr/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "wovWgSJsUDWgAuqWE45wv",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": 1429.3239413874203,
+        "y": 2696.870465591149
+      },
+      "size": {
+        "width": 21,
+        "height": 61
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.5
+      },
+      "z_index": 999
+    },
+    {
+      "id": "H3zHxetW5HPKp-31GFOnR",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": 1431.8239413874203,
+        "y": 2803.164794921875
+      },
+      "size": {
+        "width": 21,
+        "height": 50
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "wIaG8FvXY1l89Vmc2Rj-e",
+      "type": "horizontal",
+      "label": "ホリゾントノード",
+      "position": {
+        "x": 972.2233988247604,
+        "y": 2770.5
+      },
+      "size": {
+        "width": 108,
+        "height": 20
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.5
+      },
+      "z_index": 999
+    },
+    {
+      "id": "YCo5bnHpjGFfH9xCAgRJh",
+      "type": "horizontal",
+      "label": "ホリゾントノード",
+      "position": {
+        "x": 641.668796508003,
+        "y": 2770.5
+      },
+      "size": {
+        "width": 131,
+        "height": 20
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.5
+      },
+      "z_index": 999
+    },
+    {
+      "id": "okaY9JLgjz8JRaVAgz9Dr",
+      "type": "paragraph",
+      "label": "高級PHPトピック",
+      "position": {
+        "x": 437.05794812125305,
+        "y": 2881.338492722126
+      },
+      "size": {
+        "width": 254,
+        "height": 47
+      },
+      "style": {
+        "fontSize": 20,
+        "borderColor": "transparent",
+        "backgroundColor": "transparent",
+        "color": "#000000",
+        "textAlign": "center",
+        "justifyContent": "center",
+        "padding": 16
+      },
+      "z_index": 999
+    },
+    {
+      "id": "z1IO3hBgTht06oJutACrV",
+      "type": "label",
+      "label": "性能最適化",
+      "position": {
+        "x": 456.87747700920465,
+        "y": 3336.1243840820907
+      },
+      "size": {
+        "width": 216,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "_Dh78x_tPLqZweg--qZFQ",
+      "type": "subtopic",
+      "label": "プロファイリング技術",
+      "position": {
+        "x": 453.87747700920465,
+        "y": 3009.1243840820907
+      },
+      "size": {
+        "width": 222,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "プロフィーリングは,PHP内の分析プロセスで,アプリケーションのパフォーマンスを最適化することに焦点を当てています. プロフィーリングツールを使用し,しばしばプロフィーリングツールを使用して,低性能を引き起こすPHPコードのボトルネックと問題的なセクションを特定します.そのようなツールの一つは,各行のコードが実行される方法についての詳細な情報を提供するXdebugです.このプロセスは,実行するのにどれくらい時間がかかるのか,どの部分がより多くのメモリ消費し,どの機能/方法が最も頻繁に使用されているかを理解するのに役立ちます.したがって,最適化戦略を可能にします.Xdebug: xde_start_tracebug) を使用する方法のスニペットです.",
+        "links": [
+          {
+            "title": "Xdebug プロファイラー",
+            "url": "https://xdebug.org/docs/profiler",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Av-BMa57RvrLlAXLffOH0",
+      "type": "subtopic",
+      "label": "キャッシング 策略",
+      "position": {
+        "x": 453.87747700920465,
+        "y": 3062.1243840820907
+      },
+      "size": {
+        "width": 222,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "キャッシング戦略は,PHPにおけるパフォーマンス最適化に不可欠である.キャッシングは,高価な操作の結果を一時的に保存することによって,アプリケーションの速度を最小限に抑え,後でリニューアルに利用できるようにします.PHPで使用されるキャッシング技術の中には,オプコードキャッシング,オブジェクトキャッシング,データベースクエリキャッシング,または全ページキャッシングが含まれます.例えば,OPcacheは,メモリにプリコンパイルされたスクリプトバイトコードを保存することによって,PHPの性能を改善するオプコードキャッシングシステムであり,すべての要求でスクリプトをロードおよび解析する必要性を否定します.",
+        "links": [
+          {
+            "title": "オッパケ",
+            "url": "https://www.php.net/manual/en/book.opcache.php",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "bt7dK2PcOZ72B9HXPyMwL",
+      "type": "subtopic",
+      "label": "記憶管理",
+      "position": {
+        "x": 453.87747700920465,
+        "y": 3115.1243840820907
+      },
+      "size": {
+        "width": 222,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "メモリ管理はPHPパフォーマンス最適化の重要な部分です.効率的なメモリ使用は,あなたのPHPアプリケーションの速度と信頼性を大幅に高めることができます.PHPは自動的に未使用メモリを清掃するゴミ収集器を提供します.しかし,スクリプトのメモリ使用を理解して管理することは,リソースをより良く利用することができます.例えば, `unset() `機能は,もはや使用されていない変数を破壊することによってメモリを解放するのに役立ちます.例は: $string = \"これは長い文字列で多くのメモリを使います!\"; echo memory_get_usage(); //出力: 36640 unset $string); echo memory_get_usage; //出力: 36640 このコードスニペットでは,メモリが同じまま使用されていることに気づきます.これは,PHPのメモリマネージャーの変数の参照数だけ減少し,スクリプト実行終了時にメモリがクリアされるからです.不必要なデータストレージを回避し,固有のPHP機能を使用することで,メモリ管理を最適化することができます.",
+        "links": [
+          {
+            "title": "記憶管理",
+            "url": "https://www.php.net/manual/en/features.gc.php",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "VpwwF8j5ZtXVSbzNfE7Sx",
+      "type": "subtopic",
+      "label": "設定調整",
+      "position": {
+        "x": 453.87747700920465,
+        "y": 3168.1243840820907
+      },
+      "size": {
+        "width": 222,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "PHP のパフォーマンス最適化のために,設定調節は重要なステップです. PHP アプリケーションのパフォーマンスを向上させるために,あなたの php.ini ファイル内のいくつかの設定を操作できます.例えば, `memory_limit`は,スクリプトが消費できる最大限のメモリ量を指定するキーパラメータです.この設定を最適化することで,PHP スクリプトがすべてのサーバーリソースを消費するのを防ぐことができます. 同様に, `max_execution_time`を調整するとスクリプトが実行される時間を制限します.制限的な設定が問題を引き起こす可能性があるため,慎重に設定してください.以下は,これらのパラメータを変更する方法の簡単な例です: //更新するメモリ_max_limit ini_('memory_limit','256M'); // Uptime_execution_time_set ini'(_execution_max'300');",
+        "links": [
+          {
+            "title": "設定調整",
+            "url": "https://www.php.net/manual/en/ini.core.php",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "NieqZd1juaNYoZOrB7e31",
+      "type": "subtopic",
+      "label": "オプコードキャッシング",
+      "position": {
+        "x": 453.87747700920465,
+        "y": 3221.1243840820907
+      },
+      "size": {
+        "width": 222,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "オプコードキャッシングは,PHPのパフォーマンスを大幅に向上させる技術です.メモリにプリコンパイルされたスクリプトバイトコードを保存することで動作します.したがって,PHPが各リクエストでスクリプトをロードおよび解析する必要性を排除します.オプコードキャッシングのために,OPCache拡張子はPHPでしばしば使用されます.これにより,PHPスクリプトのコンパイルされたバージョンは,後のリクエストのために保存されます.コード解析とコンパイルのオーバーヘッドを削減します.その結果,アプリケーションはより高速な実行とCPUの使用を経験します.PHP.ini構成ファイルでOPCacheを有効にする方法の一例は:opcache.enable=1 opcache.memory_consumption=128 opcache.max_accelerated_files=4000 opcache.revalidate_q60fre=60fre",
+        "links": [
+          {
+            "title": "オプコードキャッシング",
+            "url": "https://www.php.net/manual/en/book.opcache.php",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "VhyYNGhOdKKrz_-uTkrjD",
+      "type": "subtopic",
+      "label": "システムコマンドを実行する",
+      "position": {
+        "x": 742.4180934525762,
+        "y": 3010.580124766453
+      },
+      "size": {
+        "width": 281,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "PHPは,開発者にPHPスクリプトからシステムコマンドを直接呼び出す柔軟性を提供します.これは,システムコマンドを実行するセキュリティリスクのため,これらの機能を慎重に使用することが重要です. exec() 機能を使用する簡単な例があります: <?php //はすべての行列 exec'ls's, $output を出します); $$out を $$out として予測します.",
+        "links": [
+          {
+            "title": "執行機能",
+            "url": "https://www.php.net/manual/en/ref.exec.php",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "NTKUMgsKGYISIyhgOJPQn",
+      "type": "subtopic",
+      "label": "プロセス制御",
+      "position": {
+        "x": 742.4180934525762,
+        "y": 3063.580124766453
+      },
+      "size": {
+        "width": 281,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "プロセス制御は,PHPシステムインタラクションの重要な側面であり,より大きなPHPスクリプト内の子供プロセスを管理する能力に関係しています.PHPのプロセス制御拡張機能によって,PHPはこれらの子供プロセスを効率的に作成,監視,制御することができます.これらの機能は,単線PHPスクリプトを管理し,単線PHPスクリプトにマルチスレッド機能を導入することによって,堅固なクライアント-サーバーシステムを開発するのに役立ちます.例えば,pcntl\\_fork() 機能を使用して新しい子供プロセスを作成するとき,親プロセスの返済値は新しく作成された子供プロセスのPIDであり,子供のプロセスでは,'0'が返されます.覚えておいて,この機能は,デフォルトでPHPで有効ではありません.<?php $pid = pcntl_fork(); if ($pid == -1) { die('could not fork'); } else if ($pid) { // we are the parent pcntl_wait($status); // Zombie children } else { // we are the child } ?>",
+        "links": [
+          {
+            "title": "プロセス制御",
+            "url": "https://www.php.net/manual/en/ref.pcntl.php",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "fitjnLYKLHJ2P5G7JAvzm",
+      "type": "subtopic",
+      "label": "環境変数",
+      "position": {
+        "x": 742.4180934525762,
+        "y": 3116.580124766453
+      },
+      "size": {
+        "width": 281,
+        "height": 50
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "環境変数は,システム上のソフトウェアの行動に影響を与える方法を提供します.それらは名前/値ペアで構成され,あなたのPHPアプリケーションが使用するディレクトリパス,ユーザー名,またはパスワードを指定するために様々な目的で使用されます. `putenv() `関数を使用してPHP環境変数を設定し,それらを返却することができます.例えば,環境変数\"FOO\"を\"バー\"に設定したい場合は,次のようにすることができます: putenv(\"FOO=バー\");そして次に, echo getenv\"FOO\"のように,値を返却することができます.環境変数を設定するシステムメソッドを使って設定する必要があります",
+        "links": [
+          {
+            "title": "環境変数",
+            "url": "https://www.php.net/manual/en/function.putenv.php",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "DTaAZaU1CwzW7esoDhj85",
+      "type": "subtopic",
+      "label": "設定ファイル",
+      "position": {
+        "x": 742.4180934525762,
+        "y": 3170.580124766453
+      },
+      "size": {
+        "width": 281,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "設定ファイルは,データベース接続情報,エラー報告,および他の多くの PHP 設定をハードコーディングなしで管理するのに役立つため,PHP アプリケーションを柔軟かつ安全にするため,構成ファイルは PHP アプリケーションにとって不可欠です. PHP はこれらの設定を保持するために\"php.ini\" ファイルを使用します.このファイル内の値をアクセスして変更することで設定を変更できます.例えば,最大ファイルアップロードサイズを調整するには, `upload_max_filesize`指示を変更することができます.しかし, `php.ini`ファイルへの変更はサーバーが再起動した後のみ有効になります.",
+        "links": [
+          {
+            "title": "PHP コンフィギュレーション",
+            "url": "https://www.php.net/manual/en/ini.list.php",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "qp5Xi12c0qcSzTanzJq0Z",
+      "type": "label",
+      "label": "システム相互作用",
+      "position": {
+        "x": 798.9180934525762,
+        "y": 3230.580124766453
+      },
+      "size": {
+        "width": 168,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "VqqfBbME7nkMk7SeK4kxQ",
+      "type": "horizontal",
+      "label": "ホリゾントノード",
+      "position": {
+        "x": 682.5613249380067,
+        "y": 3025.580124766453
+      },
+      "size": {
+        "width": 52,
+        "height": 20
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.5
+      },
+      "z_index": 999
+    },
+    {
+      "id": "bnNgbziFgsgr0HtGkVTYW",
+      "type": "horizontal",
+      "label": "ホリゾントノード",
+      "position": {
+        "x": 1032.372216437397,
+        "y": 3023.6243840820907
+      },
+      "size": {
+        "width": 155,
+        "height": 20
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.5
+      },
+      "z_index": 999
+    },
+    {
+      "id": "KcavBCDfV-jrLoq33oGd5",
+      "type": "label",
+      "label": "デバッグツール",
+      "position": {
+        "x": 1206.3762749805198,
+        "y": 3130.512902256284
+      },
+      "size": {
+        "width": 145,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "lFoHoMRywCWa056ii5cKQ",
+      "type": "subtopic",
+      "label": "Xdebug",
+      "position": {
+        "x": 1194.8762749805198,
+        "y": 3015.512902256284
+      },
+      "size": {
+        "width": 168,
+        "height": 51
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Xdebug は PHP の拡張機能で,デバッグとプロフィーリング機能を提供しています. これは,コードが何をしているのかを理解し,バグを追跡し,パフォーマンスを最適化するのに役立つ強力なツールです. Xdebug を使用すると,断点を設定し,変数を観察し,コードを一度に一行を踏み出すことができます.例えば,Xdebug を使用し始めるには,まずそれをインストールし,次にコードに初期化する必要があります: <?php xdebug_start_trace(); // あなたのコードはここ... xdebug_stop_trace); ?> Xdebug は,バグ追跡とテストを大幅に加速させ, PHP 開発者のツールキットで不可欠なツールとなります.",
+        "links": [
+          {
+            "title": "Xdebug",
+            "url": "https://xdebug.org/",
+            "type": "official"
+          },
+          {
+            "title": "Xdebugドキュメント",
+            "url": "https://xdebug.org/docs/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "KpQb5Zh3GUcbYUyXHvyu2",
+      "type": "subtopic",
+      "label": "ゼンドデバガー",
+      "position": {
+        "x": 1194.8762749805198,
+        "y": 3070.512902256284
+      },
+      "size": {
+        "width": 168,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Zend Debugger は PHP スクリプトの問題を識別するために使用される PHP デバッグ拡張機能です. 論理エラーなどのコードの問題を監視し,修正し,ウェブアプリケーションの全体的なパフォーマンスを向上させるのに役立ちます. 基本的に,詳細なデバッグデータを提供し,スクリプトとのリアルタイムインタラクションを促進することによって,サーバーサイド PHP スクリプトをデバッグするためのシンプルで強力な方法になります. PHP と Zend Debugger を使用すると,コードベースの質を大幅に向上させ,開発段階でかなりの時間を節約できます. Zend Debugger の短い使用例では,デバッグセッションを設定し, `zend_debugger_connector_address (`) 機能を使用してデバッグアドレスを返します.",
+        "links": [
+          {
+            "title": "ゼンドデバガー",
+            "url": "https://www.zend.com/topics/Debugger-API",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "0sSCn2V5p-m5zuE8ubCx_",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": 1186.8762749805198,
+        "y": 3242.5269640131846
+      },
+      "size": {
+        "width": 184,
+        "height": 166
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "nwsvebWwCbfmy2ks1q6Kh",
+      "type": "label",
+      "label": "ウェブサーバー",
+      "position": {
+        "x": 1221.3762749805198,
+        "y": 3365.5269640131846
+      },
+      "size": {
+        "width": 115,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "KMQqePqAjQ-ReDwHqeofx",
+      "type": "subtopic",
+      "label": "アパッチ",
+      "position": {
+        "x": 1194.8762749805198,
+        "y": 3250.5269640131846
+      },
+      "size": {
+        "width": 168,
+        "height": 51
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Apache は PHP アプリケーションを効率的にホストできる人気のある Web サーバーです. Apache は PHP とよく統合され,その `mod_php` モジュールを使用して,あなたの PHP スクリプトを実行するための安定的かつ一貫した環境を提供します.この互換性により,PHP ページは,サーバー上で実行されるファイルだけでなく,ウェブサイトの一部であるかのように提供されます.",
+        "links": [
+          {
+            "title": "Apache PHP ドキュメンテーション",
+            "url": "https://www.php.net/manual/en/install.unix.apache2.php",
+            "type": "official"
+          },
+          {
+            "title": "アパッチ",
+            "url": "https://httpd.apache.org/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "aspZpACHEKOsi_Er5FYPY",
+      "type": "subtopic",
+      "label": "イングンクス",
+      "position": {
+        "x": 1194.8762749805198,
+        "y": 3305.5269640131846
+      },
+      "size": {
+        "width": 168,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Nginx は PHP アプリケーションのリバースプロキシサーバーとして使用され,クライアントの要求とロードバランスを管理するのに役立ちます.従来のサーバーとは異なり,Nginx は多くの同時接続をより効率的に処理し,PHPコンテンツをより速く配信するのに重要な役割を果たします.PHPでは,Nginx の共通の構成の一つは PHP-FPM (FastCGI プロセスマネージャー) を含む.FastCGI は以前の CGI (Common Gateway Interface) の変異であり,多くの要求に対応し,PHP アプリケーションのパフォーマンスを改善する長生きな PHP プロセスを可能にします.例えば,PHP ファイルのサービスのためのNginx サーバーの構成には,このような指示が含まれます.",
+        "links": [
+          {
+            "title": "Nginxドキュメント",
+            "url": "https://nginx.org/en/docs/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "xz_XU3RNTleqzeG8jiL1j",
+      "type": "horizontal",
+      "label": "ホリゾントノード",
+      "position": {
+        "x": 1370.8373057946285,
+        "y": 3025.080124766453
+      },
+      "size": {
+        "width": 105,
+        "height": 20
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.5
+      },
+      "z_index": 999
+    },
+    {
+      "id": "szbK3mnYAi7WHyZpDRDTZ",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": 1465.6842719582237,
+        "y": 3033.6243840820907
+      },
+      "size": {
+        "width": 21,
+        "height": 311
+      },
+      "style": {
+        "strokeDasharray": "0",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "7uTIanigHQopkfWfPnDzb",
+      "type": "horizontal",
+      "label": "ホリゾントノード",
+      "position": {
+        "x": 1368.8373057946285,
+        "y": 3334.1243840820907
+      },
+      "size": {
+        "width": 109,
+        "height": 20
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.5
+      },
+      "z_index": 999
+    },
+    {
+      "id": "AoGS-5MSkp8gtJFQVPSBE",
+      "type": "subtopic",
+      "label": "PHP-FPM",
+      "position": {
+        "x": 453.87747700920465,
+        "y": 3274.1243840820907
+      },
+      "size": {
+        "width": 222,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "PHP-FPM,または PHP FastCGI プロセスマネージャーは,PHP アプリケーションをサービスするための堅固かつ効率的な方法です. PHP アプリケーションの速度と処理効率を,それぞれのリクエストを孤立させることで劇的に向上させ,作業が相互に干渉するのを防止します.PHP-FPM を使用すると,サーバーは遅延なしでより多くの同時訪問者を処理することができます.例えば,NGINX で PHP-FPM を使用し始めるには,この設定をNGINX サーバーブロックに追加することができます:場所 ~ \\.php$ { try_files $uri =404; fastcgi_pass unix:/var/run/php/php7.4-fpm.sock; fastcgi_index.php; fastcgi_param SCRIPT_FILENAME $fastdocument_root_s_s_s_s_s; fastcgi_param };入力する PHP リクエストは,入力される場所である.",
+        "links": [
+          {
+            "title": "PHP FPM",
+            "url": "https://www.php.net/manual/en/install.fpm.php",
+            "type": "official"
+          }
+        ]
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "reactflow__edge-iogwMmOvub2ZF4zgg6WyFx2-_hYN0gEi9BL24nptEtXWUw1",
+      "source": "iogwMmOvub2ZF4zgg6WyF",
+      "target": "_hYN0gEi9BL24nptEtXWU",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-_hYN0gEi9BL24nptEtXWUy2-_LhLDVZjLt1DoAP1NuUESz1",
+      "source": "_hYN0gEi9BL24nptEtXWU",
+      "target": "_LhLDVZjLt1DoAP1NuUES",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-_hYN0gEi9BL24nptEtXWUz2-b2CuLrhsUNnb4OxI6RRASy1",
+      "source": "_hYN0gEi9BL24nptEtXWU",
+      "target": "b2CuLrhsUNnb4OxI6RRAS",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-_hYN0gEi9BL24nptEtXWUz2-6sHRQTcoKL3TlgNJlwyx8y1",
+      "source": "_hYN0gEi9BL24nptEtXWU",
+      "target": "6sHRQTcoKL3TlgNJlwyx8",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-_hYN0gEi9BL24nptEtXWUx2-qA7UjGPRBRZaBdgHTS5o3w1",
+      "source": "_hYN0gEi9BL24nptEtXWU",
+      "target": "qA7UjGPRBRZaBdgHTS5o3",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-qA7UjGPRBRZaBdgHTS5o3y2-OdUXxPZaAIgiqd46L26dYz1",
+      "source": "qA7UjGPRBRZaBdgHTS5o3",
+      "target": "OdUXxPZaAIgiqd46L26dY",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-qA7UjGPRBRZaBdgHTS5o3z2-3_TuxOSzBuktBlBF05r_zy1",
+      "source": "qA7UjGPRBRZaBdgHTS5o3",
+      "target": "3_TuxOSzBuktBlBF05r_z",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-BxU_vv4FsalsT1Hq0qRRKy2-usBwcXnWuUlaN71q1nbEDz1",
+      "source": "BxU_vv4FsalsT1Hq0qRRK",
+      "target": "usBwcXnWuUlaN71q1nbED",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-oKbeLp4YB8rI1Q3vi0EnGx2-JCCeVC0hOrvIeyfg1ScKAy2",
+      "source": "oKbeLp4YB8rI1Q3vi0EnG",
+      "target": "JCCeVC0hOrvIeyfg1ScKA",
+      "source_handle": "x2",
+      "target_handle": "y2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-usBwcXnWuUlaN71q1nbEDy2-hzBUHSuFwLYNooF_vEmrsz1",
+      "source": "usBwcXnWuUlaN71q1nbED",
+      "target": "hzBUHSuFwLYNooF_vEmrs",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-usBwcXnWuUlaN71q1nbEDy2-D0BtyxyjIBcpfn5wP23WCz1",
+      "source": "usBwcXnWuUlaN71q1nbED",
+      "target": "D0BtyxyjIBcpfn5wP23WC",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-usBwcXnWuUlaN71q1nbEDy2-srIHPZabaCGdB5VvUXaMaz1",
+      "source": "usBwcXnWuUlaN71q1nbED",
+      "target": "srIHPZabaCGdB5VvUXaMa",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-usBwcXnWuUlaN71q1nbEDy2-IhKjvT6CjRz4dsSU7SNQoz1",
+      "source": "usBwcXnWuUlaN71q1nbED",
+      "target": "pzReF4C0mcCWAnpfIJbwl",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-usBwcXnWuUlaN71q1nbEDy2-bN07oOEWH_UrXKfpp8MB0z1",
+      "source": "usBwcXnWuUlaN71q1nbED",
+      "target": "bN07oOEWH_UrXKfpp8MB0",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-usBwcXnWuUlaN71q1nbEDx2-IhKjvT6CjRz4dsSU7SNQow1",
+      "source": "usBwcXnWuUlaN71q1nbED",
+      "target": "IhKjvT6CjRz4dsSU7SNQo",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-IhKjvT6CjRz4dsSU7SNQox2-j2S8dP3HlAOOoZdpj-7Dxw1",
+      "source": "IhKjvT6CjRz4dsSU7SNQo",
+      "target": "j2S8dP3HlAOOoZdpj-7Dx",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-IhKjvT6CjRz4dsSU7SNQoz2-WiGv7vi7Mtw-YqPMcnnywy1",
+      "source": "IhKjvT6CjRz4dsSU7SNQo",
+      "target": "38YksjvhXCbgnHqkl57Cz",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-WiGv7vi7Mtw-YqPMcnnyww2-1NXSk8VZDr89jQTTkOL7xx1",
+      "source": "38YksjvhXCbgnHqkl57Cz",
+      "target": "1NXSk8VZDr89jQTTkOL7x",
+      "source_handle": "w2",
+      "target_handle": "x1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-qwt8xN4vuTrY-D0czYITIy2-WiGv7vi7Mtw-YqPMcnnywz2",
+      "source": "qwt8xN4vuTrY-D0czYITI",
+      "target": "WiGv7vi7Mtw-YqPMcnnyw",
+      "source_handle": "y2",
+      "target_handle": "z2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-38YksjvhXCbgnHqkl57Czx2-qwt8xN4vuTrY-D0czYITIw1",
+      "source": "38YksjvhXCbgnHqkl57Cz",
+      "target": "qwt8xN4vuTrY-D0czYITI",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-WiGv7vi7Mtw-YqPMcnnywy2-1nODJchgSuWbcvSlxnWeEz2",
+      "source": "WiGv7vi7Mtw-YqPMcnnyw",
+      "target": "1nODJchgSuWbcvSlxnWeE",
+      "source_handle": "y2",
+      "target_handle": "z2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-WiGv7vi7Mtw-YqPMcnnywy2-mpQKoBzsOa-5iWo08sOhQz1",
+      "source": "WiGv7vi7Mtw-YqPMcnnyw",
+      "target": "mpQKoBzsOa-5iWo08sOhQ",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-WiGv7vi7Mtw-YqPMcnnywy2-RgVP99rJJ8FVecIA45w20z1",
+      "source": "WiGv7vi7Mtw-YqPMcnnyw",
+      "target": "RgVP99rJJ8FVecIA45w20",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-WiGv7vi7Mtw-YqPMcnnywy2-RkNjYva8o_jXp9suz5YdGz1",
+      "source": "WiGv7vi7Mtw-YqPMcnnyw",
+      "target": "RkNjYva8o_jXp9suz5YdG",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-WiGv7vi7Mtw-YqPMcnnywx2-Nr5m6wQLp7VyG3AucrSc8w1",
+      "source": "WiGv7vi7Mtw-YqPMcnnyw",
+      "target": "Nr5m6wQLp7VyG3AucrSc8",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-fBym6pkzRkNh0LWyCg3Bvx2-hitsVjqeIuzCP0VUZRXkSw1",
+      "source": "fBym6pkzRkNh0LWyCg3Bv",
+      "target": "hitsVjqeIuzCP0VUZRXkS",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-WiGv7vi7Mtw-YqPMcnnywz2-fBym6pkzRkNh0LWyCg3Bvy1",
+      "source": "WiGv7vi7Mtw-YqPMcnnyw",
+      "target": "fBym6pkzRkNh0LWyCg3Bv",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-_V2EY4z-CTE4g-HtjU_ovw2-dv4WVzUCQ6d95AfBqdqQVx1",
+      "source": "_V2EY4z-CTE4g-HtjU_ov",
+      "target": "dv4WVzUCQ6d95AfBqdqQV",
+      "source_handle": "w2",
+      "target_handle": "x1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-_V2EY4z-CTE4g-HtjU_ovx2-sYI7f1PYP7G30_Uj2mZRvw1",
+      "source": "_V2EY4z-CTE4g-HtjU_ov",
+      "target": "sYI7f1PYP7G30_Uj2mZRv",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-HNo8QO4aPbvgePiA4l6tqz2-CGehmZjcgTWC7fQAvxmNWy1",
+      "source": "HNo8QO4aPbvgePiA4l6tq",
+      "target": "CGehmZjcgTWC7fQAvxmNW",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-CGehmZjcgTWC7fQAvxmNWz2-so03-fK7E2WvTm6XsPq4iy2",
+      "source": "CGehmZjcgTWC7fQAvxmNW",
+      "target": "so03-fK7E2WvTm6XsPq4i",
+      "source_handle": "z2",
+      "target_handle": "y2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-CGehmZjcgTWC7fQAvxmNWz2-qobzzgzArNHLLn9Oiqc6Gy1",
+      "source": "CGehmZjcgTWC7fQAvxmNW",
+      "target": "qobzzgzArNHLLn9Oiqc6G",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-77uKH6zwzzEycoZkGotpKy2-1mXQQdSdlKkWfjlT47nE0w2",
+      "source": "77uKH6zwzzEycoZkGotpK",
+      "target": "1mXQQdSdlKkWfjlT47nE0",
+      "source_handle": "y2",
+      "target_handle": "w2",
+      "edge_style": "solid",
+      "line_type": "smoothstep",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-uH9DTrDCBmBzXlup8KG3Gz2-yTviiPFR5b_dr3WyxdxxQy2",
+      "source": "uH9DTrDCBmBzXlup8KG3G",
+      "target": "yTviiPFR5b_dr3WyxdxxQ",
+      "source_handle": "z2",
+      "target_handle": "y2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-yTviiPFR5b_dr3WyxdxxQz2-PIuplWreo7PFG3Mdn2t6Wy1",
+      "source": "yTviiPFR5b_dr3WyxdxxQ",
+      "target": "PIuplWreo7PFG3Mdn2t6W",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-yTviiPFR5b_dr3WyxdxxQz2-oNUt1oT8pYBVvH0S2P6cby1",
+      "source": "yTviiPFR5b_dr3WyxdxxQ",
+      "target": "oNUt1oT8pYBVvH0S2P6cb",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-yTviiPFR5b_dr3WyxdxxQz2-MRAPXshy9RoYdReY6grf_y1",
+      "source": "yTviiPFR5b_dr3WyxdxxQ",
+      "target": "MRAPXshy9RoYdReY6grf_",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-yTviiPFR5b_dr3WyxdxxQz2-RD2RaBmA2XWkEa13PTCTXy1",
+      "source": "yTviiPFR5b_dr3WyxdxxQ",
+      "target": "RD2RaBmA2XWkEa13PTCTX",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-yTviiPFR5b_dr3WyxdxxQz2-qlkpwXfOc1p7j37hrzffIy1",
+      "source": "yTviiPFR5b_dr3WyxdxxQ",
+      "target": "qlkpwXfOc1p7j37hrzffI",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-yTviiPFR5b_dr3WyxdxxQz2-c5q2e_jyMt8Pir5Od3lRiy1",
+      "source": "yTviiPFR5b_dr3WyxdxxQ",
+      "target": "c5q2e_jyMt8Pir5Od3lRi",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-yTviiPFR5b_dr3WyxdxxQx2-BOWGF4ovKzGC_3MFQET9pw1",
+      "source": "yTviiPFR5b_dr3WyxdxxQ",
+      "target": "BOWGF4ovKzGC_3MFQET9p",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-BOWGF4ovKzGC_3MFQET9py2-gtq5KrghF28f5G8nuDcYQz1",
+      "source": "BOWGF4ovKzGC_3MFQET9p",
+      "target": "gtq5KrghF28f5G8nuDcYQ",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-BOWGF4ovKzGC_3MFQET9py2-ub79EkMiOmPBwXLRuYFL8z1",
+      "source": "BOWGF4ovKzGC_3MFQET9p",
+      "target": "ub79EkMiOmPBwXLRuYFL8",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-BOWGF4ovKzGC_3MFQET9py2-vu0H-TsD7hkJgOQbSRj92z1",
+      "source": "BOWGF4ovKzGC_3MFQET9p",
+      "target": "vu0H-TsD7hkJgOQbSRj92",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-BOWGF4ovKzGC_3MFQET9py2-GR09ns9B-0cONQaQ_uj-7z1",
+      "source": "BOWGF4ovKzGC_3MFQET9p",
+      "target": "GR09ns9B-0cONQaQ_uj-7",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-BOWGF4ovKzGC_3MFQET9py2-9raJ06lKRZITbjWeLil-Fz1",
+      "source": "BOWGF4ovKzGC_3MFQET9p",
+      "target": "9raJ06lKRZITbjWeLil-F",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-BOWGF4ovKzGC_3MFQET9py2-rSXsPWto7Jeyw3Szl9pvfz1",
+      "source": "BOWGF4ovKzGC_3MFQET9p",
+      "target": "rSXsPWto7Jeyw3Szl9pvf",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-BOWGF4ovKzGC_3MFQET9py2-KEE50C6lOS4eX8sAbfhYez1",
+      "source": "BOWGF4ovKzGC_3MFQET9p",
+      "target": "KEE50C6lOS4eX8sAbfhYe",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-BOWGF4ovKzGC_3MFQET9py2-sPW-Ti2VyNYzxq6EYkbn7z1",
+      "source": "BOWGF4ovKzGC_3MFQET9p",
+      "target": "sPW-Ti2VyNYzxq6EYkbn7",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-BOWGF4ovKzGC_3MFQET9pz2-oAED9Fd5FFTB2Dm7Vi2JFy1",
+      "source": "BOWGF4ovKzGC_3MFQET9p",
+      "target": "oAED9Fd5FFTB2Dm7Vi2JF",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-oAED9Fd5FFTB2Dm7Vi2JFx2-nWYHpcvp1RT1gSqs1Dqcsw1",
+      "source": "oAED9Fd5FFTB2Dm7Vi2JF",
+      "target": "nWYHpcvp1RT1gSqs1Dqcs",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-PrG_5dyBblXsWYYRcOJMax2-12k71gNfwAcT9K5aLWgbZw1",
+      "source": "PrG_5dyBblXsWYYRcOJMa",
+      "target": "12k71gNfwAcT9K5aLWgbZ",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-6eWgZVLV479oQzl0fu-Ody2-PrG_5dyBblXsWYYRcOJMaz1",
+      "source": "6eWgZVLV479oQzl0fu-Od",
+      "target": "PrG_5dyBblXsWYYRcOJMa",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-SD9k16UlVve9WtNMDA5Zaw2-3tONibbRgK7HCwGTE2Gqwx1",
+      "source": "SD9k16UlVve9WtNMDA5Za",
+      "target": "3tONibbRgK7HCwGTE2Gqw",
+      "source_handle": "w2",
+      "target_handle": "x1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-SD9k16UlVve9WtNMDA5Zax2-okaY9JLgjz8JRaVAgz9Drw1",
+      "source": "SD9k16UlVve9WtNMDA5Za",
+      "target": "okaY9JLgjz8JRaVAgz9Dr",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-okaY9JLgjz8JRaVAgz9Drx2-gn5qNP3VTmmQE2tT6o-vSw1",
+      "source": "okaY9JLgjz8JRaVAgz9Dr",
+      "target": "gn5qNP3VTmmQE2tT6o-vS",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    }
+  ],
+  "content_crawled_at": "2026-04-06T09:59:16.696189+00:00"
+}

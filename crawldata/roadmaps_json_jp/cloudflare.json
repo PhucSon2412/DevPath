@@ -1,0 +1,4813 @@
+{
+  "id": "cloudflare",
+  "title": "クラウドフレア",
+  "source_url": "https://roadmap.sh/cloudflare",
+  "github_url": "https://github.com/kamranahmedse/developer-roadmap/tree/master/src/data/roadmaps/cloudflare",
+  "crawled_at": "2026-04-06T07:36:20.604578+00:00",
+  "type": "flow",
+  "stats": {
+    "total_nodes": 119,
+    "total_edges": 73,
+    "nodes_with_content": 97
+  },
+  "node_types": [
+    "button",
+    "horizontal",
+    "label",
+    "linksgroup",
+    "paragraph",
+    "section",
+    "subtopic",
+    "title",
+    "topic",
+    "vertical"
+  ],
+  "edge_styles": [
+    "dashed",
+    "solid"
+  ],
+  "edge_line_types": [
+    "default",
+    "simplebezier",
+    "smoothstep"
+  ],
+  "node_type_description": {
+    "title": "ロードマップの主題",
+    "topic": "主題大 (nhóm kỹ năng)",
+    "subtopic": "Kỹ năng/công nghệ cụ thể cần học",
+    "paragraph": "文は mô tả / chú thích",
+    "vertical": "Đường kết nối dọc (ビジュアルコネクタ)"
+  },
+  "edge_style_description": {
+    "solid": "Kỹ năng bắt buộc / quan trọng",
+    "dashed": "選択 / gợi ý / オルタナティブ"
+  },
+  "nodes": [
+    {
+      "id": "82oZ5FJok15X5aetL1UaA",
+      "type": "horizontal",
+      "label": "ホリゾントノード",
+      "position": {
+        "x": -8.952745032276027,
+        "y": 1189.4754953712302
+      },
+      "size": {
+        "width": 174,
+        "height": 20
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.75
+      },
+      "z_index": 999
+    },
+    {
+      "id": "8BW3ScLDYa_4DkBksLlJM",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": -256.51237120830484,
+        "y": 1274.8942173748287
+      },
+      "size": {
+        "width": 229,
+        "height": 104
+      },
+      "style": {
+        "width": 150,
+        "height": 100,
+        "fontSize": 17
+      },
+      "z_index": -999
+    },
+    {
+      "id": "kJXPzUulKPhawgbEK7n9l",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": 468.5985688843266,
+        "y": 413.00061202347564
+      },
+      "size": {
+        "width": 286,
+        "height": 431
+      },
+      "style": {
+        "width": 150,
+        "height": 100,
+        "fontSize": 17,
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "7kxbi3VJONZHcjRNhrnTH",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": 120.89946958507927,
+        "y": 80.88749407694564
+      },
+      "size": {
+        "width": 658,
+        "height": 276
+      },
+      "style": {
+        "width": 150,
+        "height": 100,
+        "fontSize": 17,
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "c58fcsthBlVfzfr-MHdpF",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": 231.89029212267985,
+        "y": -109.59925177765109
+      },
+      "size": {
+        "width": 21,
+        "height": 66
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "Ji35JsKgUQXN4DJGEgTAC",
+      "type": "title",
+      "label": "クラウドフレア",
+      "position": {
+        "x": 157.39029212267985,
+        "y": -44.59925177765109
+      },
+      "size": {
+        "width": 170,
+        "height": 68
+      },
+      "style": {
+        "fontSize": 28,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "PcYnYAAkKMbzoiCnBfjqO",
+      "type": "subtopic",
+      "label": "ジャワスクリプトの基礎",
+      "position": {
+        "x": 133.39946958507926,
+        "y": 134.38749407694564
+      },
+      "size": {
+        "width": 299,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "JavaScriptは,主にウェブサイトにインタラクティビティとダイナミックな機能を追加するために使用される汎用的で高レベルのプログラミング言語です.ブラウザで実行され,HTMLとCSSを操作し,ユーザーイベントに対応し,Web APIと相互作用するクライアントサイドスクリプトを可能にします.JavaScriptはCloudflare Workerのコア言語で,Cloudflareのエッジネットワーク上で実行されるサーバーレス関数を書き出すことができます.あなたはそれを利用してHTTPリクエストと応答を傍受し変更し,ウェブサイトの行動をカスタマイズし,ダイナミックなアプリケーションを構築します.JavaScriptの変数,機能,アシンクロなプログラミング (約束,アシンクロン/待ち),およびDOM操作を理解することは Cloudflare Workerの開発に不可欠です.スタティックタイピングの利点を提供する JavaScript にコンパイルするTypeScript を使用することもできます",
+        "links": [
+          {
+            "title": "専用 JavaScript ロードマップ を 訪問する",
+            "url": "https://roadmap.sh/javascript",
+            "type": "roadmap"
+          },
+          {
+            "title": "JavaScript · Cloudflare ワーカー",
+            "url": "https://developers.cloudflare.com/workers/languages/javascript/",
+            "type": "official"
+          },
+          {
+            "title": "ジャワスクリプトの基礎",
+            "url": "https://developer.mozilla.org/en-US/curriculum/core/javascript-fundamentals/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q9oQTt_NqhdWvJfA5XH1V",
+      "type": "subtopic",
+      "label": "基本コマンドライン知識",
+      "position": {
+        "x": 133.39946958507926,
+        "y": 187.38749407694564
+      },
+      "size": {
+        "width": 299,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "クラウッドフレイヤーで働くときだけでなく,開発者としても基本的なコマンドラインコマンドを知ることは必須です. ディレクトリをナビゲートする,ファイル管理,テキスト編集,パッケージ管理などの基礎を学びましょう.",
+        "links": [
+          {
+            "title": "Cloudflare Wrangler CLI",
+            "url": "https://developers.cloudflare.com/workers/wrangler/",
+            "type": "official"
+          },
+          {
+            "title": "初心者向け コマンドライン・プライマー",
+            "url": "https://lifehacker.com/a-command-line-primer-for-beginners-5633909",
+            "type": "article"
+          },
+          {
+            "title": "初心者向け コマンドライン",
+            "url": "https://thelinuxcode.com/command-line-for-beginners-how-to-use-the-terminal-like-a-pro/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "9iSdASlRxyod9YwZ2IUry",
+      "type": "subtopic",
+      "label": "HTTP と Web プロトコル",
+      "position": {
+        "x": 133.39946958507926,
+        "y": 240.38749407694564
+      },
+      "size": {
+        "width": 299,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "HTTPとウェブプロトコルを理解することは Cloudflare の機能を活用するために不可欠です. HTTP 方法 (GET, POST),ステータスコード,ヘッダー,キャッシングメカニズムは,Cloudflare がアプリケーションと相互作用する方法を直接影響します.Cloudflare は HTTP/2 と HTTP/3 のような近代的なプロトコルをサポートし,パフォーマンスを改善します.TLS/SSL に馴染みを持つことは安全な通信にとって不可欠であり,CORS (Cross-Origin Resource Sharing) のようなコンセプトは API リクエストを処理する際に重要です.Cloudflare の機能は,キャッシングルやページルなどのプロトコルをベースに動作します.",
+        "links": [
+          {
+            "title": "HTTPとは何か?",
+            "url": "https://www.cloudflare.com/en-gb/learning/ddos/glossary/hypertext-transfer-protocol-http/",
+            "type": "article"
+          },
+          {
+            "title": "HTTP の概要",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C08pIguX1N45Iw0kh0Fvu",
+      "type": "subtopic",
+      "label": "Git の 基礎",
+      "position": {
+        "x": 133.39946958507926,
+        "y": 293.3874940769456
+      },
+      "size": {
+        "width": 299,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "2005年,Linus Torvaldsによって作成され,ソフトウェア開発中にソースコードの変更を追跡し,複数の開発者が非線形開発で一緒に作業することを可能にします.Gitはすべての変更の完全な履歴を維持し,バージョン間の簡単なロールバックと比較を可能にします.分散した性質は,開発者はオフラインワークとバックアップを可能にするリポジトリの完全なコピーを持っていることを意味します.Gitの主要な機能には,ブランチングと合併機能,コミットのためのステージエリア,および pull リクエストなどのコラボレーションワークフローのサポートが含まれます.スピード,柔軟性,強固なブランチング・マージング機能により,特にオープンソースプロジェクトやチームコラボレーションにおいて,ソフトウェア開発において最も広く使用されているバージョン制御システムとなっています.",
+        "links": [
+          {
+            "title": "専用Git&GitHubロードマップ",
+            "url": "https://roadmap.sh/git-github",
+            "type": "roadmap"
+          },
+          {
+            "title": "Git 統合 - Cloudflare ページ",
+            "url": "https://developers.cloudflare.com/pages/configuration/git-integration/",
+            "type": "official"
+          },
+          {
+            "title": "Gitドキュメント",
+            "url": "https://git-scm.com/doc",
+            "type": "official"
+          },
+          {
+            "title": "Git チットシート",
+            "url": "https://cs.fyi/guide/git-cheatsheet",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dSBYTGGkol3MAXyg7G7_J",
+      "type": "subtopic",
+      "label": "Node.js と NPM",
+      "position": {
+        "x": 442.39946958507926,
+        "y": 136.38749407694564
+      },
+      "size": {
+        "width": 324,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Node.js は,クライアントのブラウザの外でウェブアプリケーションを実行するために使用されるオープンソース,クロスプラットフォームランタイム環境とライブラリです.サーバーサイドプログラミングに使用され,主に伝統的なWebサイトやバックエンド API サービスなどの非ブロック,イベント駆動のサーバーに使用されますが,当初はリアルタイム,プッシュベースのアーキテクチャを考慮して設計されました.各ブラウザはJS エンジンの独自のバージョンがあり, node.js はGoogle Chrome V8 JavaScript エンジンをベースに構築されています.npm (Node Package Manager) は Node.js の標準パッケージマネージャです.2つ目は,オープンソースの Node.js プロジェクトを公開するためのオンラインリポジトリです. 2つ目は,パッケージのインストール,バージョン管理,依存管理に役立つこのリポジトリと相互作用するためのコマンドラインユーティリティです.",
+        "links": [
+          {
+            "title": "専用Node.jsロードマップを訪問する",
+            "url": "https://roadmap.sh/nodejs",
+            "type": "roadmap"
+          },
+          {
+            "title": "Node.js ドキュメンテーション",
+            "url": "https://nodejs.org/en/",
+            "type": "official"
+          },
+          {
+            "title": "NPM",
+            "url": "https://www.docs.npmjs.com/",
+            "type": "official"
+          },
+          {
+            "title": "NPM の 紹介",
+            "url": "https://nodejs.org/en/learn/getting-started/an-introduction-to-the-npm-package-manager",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "zR84MFLL6y0dygz9hXXPA",
+      "type": "subtopic",
+      "label": "タイプスクリプト の 基礎",
+      "position": {
+        "x": 442.39946958507926,
+        "y": 189.38749407694564
+      },
+      "size": {
+        "width": 324,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "タイプスクリプトは JavaScript のスーパーセットで,静的なタイピングを追加します. 開発中にタイプ関連の問題を捕まえることでコードの維持性を向上させ,エラーを軽減します. Cloudflare ワーカーズでは,TypeScript が開発体験を向上させることができます. 変数,機能パラメータ,返却値のためのタイプを定義し,コードをより予測可能にする. タイプスクリプト コードは Cloudflare ワーカーズに展開する前に JavaScript にコンパイルされます. TypeScript を使用することで,より優れたツールリング,自動完成,および再構成が可能になり,より堅固かつスケーラブルなサーバーレスアプリケーションにつながります.",
+        "links": [
+          {
+            "title": "専用タイプスクリプト ロードマップ を 閲覧する",
+            "url": "https://roadmap.sh/typescript",
+            "type": "roadmap"
+          },
+          {
+            "title": "タイプスクリプトドキュメント",
+            "url": "https://www.typescriptlang.org/docs/",
+            "type": "official"
+          },
+          {
+            "title": "タイプスクリプト 手帳",
+            "url": "https://www.typescriptlang.org/docs/handbook/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Isl5anwDvb1MacA-JH4ej",
+      "type": "subtopic",
+      "label": "サーバーレスアーキテクチャを理解する",
+      "position": {
+        "x": 442.39946958507926,
+        "y": 242.38749407694564
+      },
+      "size": {
+        "width": 324,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "サーバーレスアーキテクチャは,サーバーを管理せずにコードを実行することを可能にします.Cloudflare Workersはこの主要な実装です.Cloudflare Workersでは,JavaScript/TypeScript機能をCloudflareのエッジネットワークに部署し,HTTPリクエストに対応して実行します.サーバーレスとは,サーバーを提供したり維持したりしないことを意味します.Cloudflareはスケーリングとインフラストラクチャを処理します.このモデルは,より速い部署,ペイ・パー・ユース価格設定,および運用オーバーヘッドを削減できます.あなたはコードに焦点を当て,Cloudflareは基礎インフラストラクチャーを処理し,パフォーマンスの高いおよびスケーラブルなアプリケーションを構築するのに理想的です.",
+        "links": [
+          {
+            "title": "サーバーレスアーキテクチャとは何か?",
+            "url": "https://cloud.google.com/discover/what-is-serverless-architecture",
+            "type": "article"
+          },
+          {
+            "title": "サーバーレスコンピューティングとは? - Serverless Computing Explain@",
+            "url": "https://aws.amazon.com/what-is/serverless-computing/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L3L2_HrESg8SuStKNID8l",
+      "type": "label",
+      "label": "必須条件",
+      "position": {
+        "x": 214.8994695850793,
+        "y": 93.38749407694564
+      },
+      "size": {
+        "width": 136,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "QifY92ONTomFx_FwRxPJI",
+      "type": "label",
+      "label": "基礎開発技能",
+      "position": {
+        "x": 511.89946958507926,
+        "y": 93.38749407694564
+      },
+      "size": {
+        "width": 205,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "7XrG-k9T12u84Pwp4YwaY",
+      "type": "paragraph",
+      "label": "労働者の核心概念",
+      "position": {
+        "x": 111.5,
+        "y": 460.64601177168015
+      },
+      "size": {
+        "width": 265,
+        "height": 62
+      },
+      "style": {
+        "fontSize": 20,
+        "borderColor": "transparent",
+        "backgroundColor": "transparent",
+        "color": "#000000",
+        "textAlign": "left",
+        "justifyContent": "flex-start",
+        "padding": 16
+      },
+      "z_index": 999
+    },
+    {
+      "id": "TB6vGzDgGZ9yAd9MGR7vw",
+      "type": "subtopic",
+      "label": "労働者ランタイム環境",
+      "position": {
+        "x": -286.42440139623136,
+        "y": 224.9890672390103
+      },
+      "size": {
+        "width": 289,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ワーカーズランタイム環境は,Cloudflareのエッジネットワーク上で動作する軽量なJavaScript実行環境である.V8をベースとする.ChromeとNode.jsを動かす同じエンジンだが,速度とセキュリティのために最適化されている.従来のNode.js環境と比較して,ワーカーズにはグローバル変数とAPIへのアクセスが限られている. HTTP 要求と応答処理に焦点を当てています.キャッシング,KV ストレージ,リクエスト情報へのアクセスのためのAPIを提供します.",
+        "links": [
+          {
+            "title": "従業員の働き · Cloudflare",
+            "url": "https://developers.cloudflare.com/workers/reference/how-workers-works/",
+            "type": "official"
+          },
+          {
+            "title": "オープンソースワーカーズランタイム",
+            "url": "https://blog.cloudflare.com/workerd-open-source-workers-runtime/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "aGWLomYHGkIfn7GFc0_Yl",
+      "type": "subtopic",
+      "label": "エッジコンピューティングの基礎",
+      "position": {
+        "x": -286.42440139623136,
+        "y": 277.9890672390103
+      },
+      "size": {
+        "width": 289,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "エッジコンピューティングはコンピューティングをユーザーに近づけ,遅延を最小限に抑える.Cloudflare Workersはこれを体現します.あなたのコードは Cloudflare のグローバルネットワークのサーバーで,ユーザーの近くで実行されます.これはネットワークホップを削減し,応答時間を改善します.エッジの論理を実行することで,コンテンツをパーソナライズし,要求をフィルターし,送受信を最適化できます.中央サーバーにトラフィックを転送する必要はありません.Workersのエッジコンピューティングは,より速く,より応答的アプリケーションとユーザー体験を向上させます.",
+        "links": [
+          {
+            "title": "エッジコンピューティングとは - Cloudflare Docs",
+            "url": "https://www.cloudflare.com/learning/serverless/glossary/what-is-edge-computing/",
+            "type": "official"
+          },
+          {
+            "title": "エッジコンピューティングとは何か?",
+            "url": "https://www.howtogeek.com/devops/what-is-edge-computing-is-it-more-than-a-buzzword/",
+            "type": "article"
+          },
+          {
+            "title": "エッジ コンピューティング は 何 です か",
+            "url": "https://www.udemy.com/course/edge-computing/",
+            "type": "course"
+          }
+        ]
+      }
+    },
+    {
+      "id": "HNEXPU6r_T7UYvwLv2wnt",
+      "type": "subtopic",
+      "label": "要求/応答処理",
+      "position": {
+        "x": -286.42440139623136,
+        "y": 330.9890672390103
+      },
+      "size": {
+        "width": 289,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Cloudflare ワーカーは HTTP リクエストと応答を傍受し,修正する上で優れている.リクエストが Cloudflare に当たると,ワーカーはリクエストの詳細 (ヘッダー,URL,方法) を検査し,行動を起こすことができます.URLを書き直し,ヘッダーを変更するか,まったく異なる応答を提供することもできます.同様に,ワーカーはオリジナルのサーバーからの応答を傍受し,コンテンツを変更し,キャッシングのためのヘッダーを追加したり,キャッシュされたバージョンを直接提供することもできます.このレベルの制御により,強力なカスタマイゼーションとウェブトラフィックの最適化が可能になります.",
+        "links": [
+          {
+            "title": "要求 と 応答",
+            "url": "https://developers.cloudflare.com/workers/runtime-apis/request",
+            "type": "official"
+          },
+          {
+            "title": "引入 API",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "_2UnRlbUplHvs5-Stj4O4",
+      "type": "subtopic",
+      "label": "運行時間 API と APIs を取得する",
+      "position": {
+        "x": -286.42440139623136,
+        "y": 383.9890672390103
+      },
+      "size": {
+        "width": 289,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Cloudflare Workers の内では,Fetch API は外部サービスやオリジナルのサーバーへの HTTP 要求を行うための主なツールです.ブラウザ内のFetch API に似ていますが,Workers 環境に適応しています.Runtime API は,KV ストレージ (持続的なデータ),Durable Objects (ステートなアプリケーション) 等の Cloudflare 専用機能へのアクセスを提供します.これらの API は,Workers が Cloudflare のインフラストラクチャと相互作用し,シンプルなリクエスト/レスポンスの処理を超えた強力なアプリケーションを構築することができます.",
+        "links": [
+          {
+            "title": "作業員にAPIを運ぶ",
+            "url": "https://developers.cloudflare.com/workers/runtime-apis/fetch",
+            "type": "official"
+          },
+          {
+            "title": "引入 API",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "i6L9FI6fBDXr0XtMrc_uR",
+      "type": "subtopic",
+      "label": "労働者のライフサイクル",
+      "position": {
+        "x": -286.42440139623136,
+        "y": 436.9890672390103
+      },
+      "size": {
+        "width": 289,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Cloudflare Workerのライフサイクルは短くてステートレスです. 要求が Cloudflare のエッジに当たると各呼び出しが始まります. 要求を処理するために Worker はコードを実行します. 応答が送信されると (またはエラーが発生すると), Worker のインスタンスは終了します. KV や Durable Objects などのサービスを使用しない限り,要求の間には恒久的な状態はありません. このステートレスな性質はスケーラビリティと迅速な応答時間を保証します. このライフサイクルの理解は,高量のリクエストを処理できる効率的な Worker を設計するのに不可欠です.",
+        "links": [
+          {
+            "title": "労働者のRPC - ライフサイクル",
+            "url": "https://developers.cloudflare.com/workers/runtime-apis/rpc/lifecycle/",
+            "type": "official"
+          },
+          {
+            "title": "従業員の働き · Cloudflare",
+            "url": "https://developers.cloudflare.com/workers/reference/how-workers-works/",
+            "type": "official"
+          },
+          {
+            "title": "オープンソースワーカーズランタイム",
+            "url": "https://blog.cloudflare.com/workerd-open-source-workers-runtime/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "WZSi9inWPhqZQvDN-C8BV",
+      "type": "subtopic",
+      "label": "サービス 義務",
+      "position": {
+        "x": -286.42440139623136,
+        "y": 489.9890672390103
+      },
+      "size": {
+        "width": 289,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Service Bindings は Cloudflare ワーカーが他の Cloudflare サービスと無縫に統合できるようにします. KV ストレージ,耐久性オブジェクト,R2 ストレージ,その他のワーカーなどのリソースにアクセスするための安全かつ効率的な方法を提供します.API キーまたは直接のネットワーク コールを使用する代わりに,Service Bindings はワーカーと接続されたサービス間の直接の接続を作り,構成を簡素化し,パフォーマンスを向上させます. Cloudflare 生態系の全力を活用する複雑なアプリケーションを構築するために不可欠です.",
+        "links": [
+          {
+            "title": "サービスバインド - ランタイム API",
+            "url": "https://developers.cloudflare.com/workers/runtime-apis/bindings/service-bindings/",
+            "type": "official"
+          },
+          {
+            "title": "サービスリンク · Cloudflare",
+            "url": "https://developers.cloudflare.com/workers/platform/service-bindings/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "uBjcQ9PJUfwzu5N_2CNjN",
+      "type": "subtopic",
+      "label": "キャッシング 策略",
+      "position": {
+        "x": -286.42440139623136,
+        "y": 542.9890672390103
+      },
+      "size": {
+        "width": 289,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Cloudflare ワーカーはキャッシングに関する細かな制御を可能にします. キャッシュ API を使用して,源サーバーを回避して,あなたのワーカーの内部で直接応答を保存し取り戻すことができます.戦略には: - **キャッシュ-ファースト:** キャッシュからサービス,利用可能な場合,他の場合,源からキャッシュします. - **ネットワーク-ファースト:** 常に源からキャッシュし,後のリクエストのために応答をキャッシュします. - **ステー・ウィンドウ・リバリデート:** キャッシュから直ちにサービス,その後バックグラウンドでキャッシュを更新します. また, HTTP キャッシュヘッダー (キャッシュ-コントロール,終了) を操作して,Cloudflare の CDN コンテンツのキャッシュを制御することができます. 効率的なキャッシュはパフォーマンスを向上させ,源サーバーの負荷を軽減するために不可欠です.",
+        "links": [
+          {
+            "title": "キャッシュ · Cloudflare ワーカー",
+            "url": "https://developers.cloudflare.com/workers/runtime-apis/cache/",
+            "type": "official"
+          },
+          {
+            "title": "キャッシュ の 動作 · Cloudflare ワーカー",
+            "url": "https://developers.cloudflare.com/workers/reference/how-the-cache-works/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "aStbAF4zraqhJ-N3RH4ha",
+      "type": "subtopic",
+      "label": "ミドルウェア パターン",
+      "position": {
+        "x": -286.42440139623136,
+        "y": 595.9890672390103
+      },
+      "size": {
+        "width": 289,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Cloudflare Workerのミドルウェアパターンは,要求や応答をモジュラルの方法で処理するために機能を連鎖することを可能にします.各ミドルウェア機能は,連鎖内の次の機能に要求/応答を転送する前に特定のタスク (例えば認証,ログイン,ヘッダー変更) を実行します.これはコードの再利用,懸念の分離,およびより簡単なメンテナンスを促進します.ミドルウェアを構成することで,複雑なリクエスト処理パイプラインを構築できます.",
+        "links": [
+          {
+            "title": "ミドルウェア · Cloudflare ページ",
+            "url": "https://developers.cloudflare.com/pages/functions/middleware/",
+            "type": "official"
+          },
+          {
+            "title": "Cloudflare ワーカーのミドルウェア アーキテクチャ",
+            "url": "https://boxesplusarrows.com/blog/a-middleware-architecture-for-cloudflare-workers/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "9ef2VPCru8lCmRxxGe-Eo",
+      "type": "subtopic",
+      "label": "結束",
+      "position": {
+        "x": -286.42440139623136,
+        "y": 648.9890672390103
+      },
+      "size": {
+        "width": 289,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Cloudflare ワーカーでは,Bindings は,ワーカーを外部リソースまたはサービスに接続する構成です.これらの構成には以下が含まれます: - **KV 名前空間:** KV 名前空間にリンクすることで,ワーカーがデータを読み書きすることができます. - **Durable Objects:** Bindings はワーカーがアクセスできるダブルオブジェクト名空間を指定します. - **Service Bindings:** Queues などの他のワーカーまたは Cloudflare サービスに接続します. - **Secrets:** 機密データ (API キー) を安全に保存します. - **Environment Variables:** 環境の特定設定を設定します.Bindings は `wrangler.l`tomファイルで定義され,ワーカーが外部と対話する安全な方法を提供します.",
+        "links": [
+          {
+            "title": "結束 (env) · Cloudflare ワーカー",
+            "url": "https://developers.cloudflare.com/workers/runtime-apis/bindings/",
+            "type": "official"
+          },
+          {
+            "title": "ワーカーバインディング · Cloudflare ワーカー AI",
+            "url": "https://developers.cloudflare.com/workers-ai/configuration/bindings/",
+            "type": "official"
+          },
+          {
+            "title": "設定 - Wrangler · Cloudflare ワーカー",
+            "url": "https://developers.cloudflare.com/workers/wrangler/configuration/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "g4hjyQF8-SpjPi8mYtIsk",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": 233,
+        "y": 15.028193715390685
+      },
+      "size": {
+        "width": 21,
+        "height": 66
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.5
+      },
+      "z_index": 999
+    },
+    {
+      "id": "imU-blmfZ__YCFynXZ8aI",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": 233.5,
+        "y": 356.88749407694564
+      },
+      "size": {
+        "width": 21,
+        "height": 104
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.5
+      },
+      "z_index": 999
+    },
+    {
+      "id": "IubwhdnyWtjpejkGOfnPy",
+      "type": "paragraph",
+      "label": "フレームワークとツール",
+      "position": {
+        "x": 111.5,
+        "y": 597.5006120234757
+      },
+      "size": {
+        "width": 265,
+        "height": 62
+      },
+      "style": {
+        "fontSize": 20,
+        "borderColor": "transparent",
+        "backgroundColor": "transparent",
+        "color": "#000000",
+        "textAlign": "left",
+        "justifyContent": "flex-start",
+        "padding": 16
+      },
+      "z_index": 999
+    },
+    {
+      "id": "-8MsWNvuqwQCbLpOx_kov",
+      "type": "subtopic",
+      "label": "ホノ",
+      "position": {
+        "x": 493.52297244223314,
+        "y": 463.23202364103037
+      },
+      "size": {
+        "width": 101,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Hono は,Web 規格に基づいて構築された小型でシンプルで超高速なWeb フレームワークです.JavaScript の実行時に動作します.Cloudflare ワーカーズ,Fastly Compute,Deno,Bun,Vercel,Netlify,AWS Lambda,Lambda@Edge,および Node.js.Hono は,基礎以上のサポートで知られています.Hono は,有名なJavaScript Express フレームワークに似たシンプルなWeb アプリケーションフレームワークです.フロントエンドはありません.しかし,CDN エッジで実行され,ミドルウェアと組み合わせるとより大きなアプリケーションを構築することができます.",
+        "links": [
+          {
+            "title": "ホノ文書",
+            "url": "https://hono.dev/docs/",
+            "type": "official"
+          },
+          {
+            "title": "Hono.js: 大きな可能性のある小さなフレームワーク",
+            "url": "https://medium.com/@appvintechnologies/hono-js-a-small-framework-with-big-potential-15a093fc5c07",
+            "type": "article"
+          },
+          {
+            "title": "ホノJSの例",
+            "url": "https://github.com/honojs/examples",
+            "type": "opensource"
+          },
+          {
+            "title": "Hono を 素早く 開始 する: 簡単な 設定 ガイド",
+            "url": "https://dev.to/koshirok096/quick-start-with-hono-simple-setup-guide-bite-sized-article-lhe",
+            "type": "article"
+          },
+          {
+            "title": "Hono JS チュートリアル",
+            "url": "https://www.youtube.com/watch?v=gY-TK33G6kQ",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "15jl6CSCkqnh_eFfysLDM",
+      "type": "subtopic",
+      "label": "イッティ ルーター",
+      "position": {
+        "x": 598.5229724422331,
+        "y": 463.23202364103037
+      },
+      "size": {
+        "width": 126,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Itty Router は,Cloudflare の ワーカー や ページ を サポート する \"少なく は 多い\" の モットー を 持つ 軽量 な ルーター です.他の ライブラリ は,より 広い 視聴 者 を 喜ばせる ため に 機能 クリップ / 膨らみ を 抱え て い ます が, Itty Router は,Itty に 追加 さ れ た 単一の バイト を 痛々 に 考慮 し て い ます. バッテリー を 備えた バージョン に は ~450 バイト から ~970 バイト まで の ルーター オプション が あります.内蔵 デフォルト,エラー 処理,フォーマット など を 備える.それに加えて,以下の 概念 は,YOUR コード を 小さく (そして 読み取れる) ように することを 目的としています.",
+        "links": [
+          {
+            "title": "ITTyドキュメント",
+            "url": "https://itty.dev/itty-router/",
+            "type": "official"
+          },
+          {
+            "title": "Itty ルーター を 始める",
+            "url": "https://itty.dev/itty-router/getting-started",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Tzx93tvoGrc9_fKQqkorN",
+      "type": "subtopic",
+      "label": "ワングラー",
+      "position": {
+        "x": 493.52297244223314,
+        "y": 652.7216082137738
+      },
+      "size": {
+        "width": 118,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`Wrangler`は Cloudflare ワーカーのコマンドラインインターフェース (CLI) です. `Wrangler`はワーカーの開発,テスト,デプロイメントのプロセスを簡素化します. `wrangler`では: - 新しいワーカーのプロジェクトを作成します. - ローカルでワーカーを開発します. - Cloudflare にワーカーをデプロイします. - 秘密と環境変数を管理します. - 他の Cloudflare サービスへのリンクを設定します. `Wrangler`はワーカーのワークフロー全体を効率化します.",
+        "links": [
+          {
+            "title": "ワングラードキュメント",
+            "url": "https://developers.cloudflare.com/workers/wrangler/",
+            "type": "official"
+          },
+          {
+            "title": "ワングラー コマンド",
+            "url": "https://developers.cloudflare.com/workers/wrangler/commands//",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "uoaOrypiMkyoikXvTHeVS",
+      "type": "subtopic",
+      "label": "DevTools 統合",
+      "position": {
+        "x": 493.52297244223314,
+        "y": 707.1589098955067
+      },
+      "size": {
+        "width": 243,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Cloudflare Workers は標準的なブラウザ DevTools を使用してデバッグすることができます.ローカル環境 (例えば,Miniflare) で Workers を実行する場合,コードを検査し,ブレイクポイントを設定し,実行を進めるために Chrome DevTools または同様のツールを使用できます.また,DevTools コンソールに情報を輸出するために `console.log` ステートメントを使用できます.この統合により,デバッグ Workers はより直感的で効率的です.",
+        "links": [
+          {
+            "title": "Cloudflare ワーカーをデバッグする",
+            "url": "https://developers.cloudflare.com/workers/playground/#devtools",
+            "type": "official"
+          },
+          {
+            "title": "Chrome DevTools",
+            "url": "https://developer.chrome.com/docs/devtools",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "8Y6TIYoWIXrxtmzDVdS0b",
+      "type": "subtopic",
+      "label": "CI/CDパイプライン",
+      "position": {
+        "x": 493.52297244223314,
+        "y": 774.7087100899473
+      },
+      "size": {
+        "width": 243,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "CI/CD (Continuous Integration/Continuous Deployment) パイプラインは,Cloudflare ワーカーを構築し,テストし,デプロイするプロセスを自動化します.GitHub Actions,GitLab CI,CircleCIなどの一般的な CI/CD プラットフォームは,コード変更がリポジトリに押されたときに自動的にワーカーをデプロイするパイプラインを作成するために使用できます.これらのパイプラインには,通常,リントリング,テスト,ビルディング,デプロイメントなどのステップが含まれます.",
+        "links": [
+          {
+            "title": "ワークフローを自動化する - Github アクション",
+            "url": "https://github.com/features/actions",
+            "type": "official"
+          },
+          {
+            "title": "CI/CDパイプライン - GitLab",
+            "url": "https://docs.gitlab.com/ee/ci/pipelines/",
+            "type": "official"
+          },
+          {
+            "title": "継続的な統合と配達 - CircleCI",
+            "url": "https://circleci.com/",
+            "type": "official"
+          },
+          {
+            "title": "シンプルで柔軟で信頼性の高いCI/CDツール - トラヴィスCI",
+            "url": "https://www.travis-ci.com/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ssvZh7zn9xUY2Wi-F_d4J",
+      "type": "label",
+      "label": "API ルータ",
+      "position": {
+        "x": 549.3509487035327,
+        "y": 421.75533719211336
+      },
+      "size": {
+        "width": 109,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "LkvWKmUklK1-n8dQB4w2U",
+      "type": "label",
+      "label": "フロントエンドフレームワーク",
+      "position": {
+        "x": 522.5229724422331,
+        "y": 522.7553371921133
+      },
+      "size": {
+        "width": 185,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "zSwio18XdBfqwSneAx_AP",
+      "type": "subtopic",
+      "label": "フロントエンド フレームワーク",
+      "position": {
+        "x": 493.52297244223314,
+        "y": 558.7553371921133
+      },
+      "size": {
+        "width": 243,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "いくつかのフロントエンドフレームワークは Cloudflare ページに部署または Cloudflare ワーカーズで使用できます.人気の選択肢は: - ** React:** Create React App や Next.js を使用して部署します. - ** Vue.js:** Vue CLI や Nuxt.js を使用して部署します. - ** Angular:** Angular CLI を使用して部署します. - ** Svelte:** SvelteKit を使用して部署します. - ** Astro**: Astro CLI を使用して部署します. Cloudflare ページはこれらのフレームワークのための最適化されたビルドと部署を提供しています. ワーカーズのために,これらのワークスは,端端でダイナミックなコンテンツを表示するために使用できます.",
+        "links": [
+          {
+            "title": "反応する",
+            "url": "https://react.dev/",
+            "type": "official"
+          },
+          {
+            "title": "Vue.js",
+            "url": "https://vuejs.org/",
+            "type": "official"
+          },
+          {
+            "title": "角形",
+            "url": "https://angular.dev/",
+            "type": "official"
+          },
+          {
+            "title": "薄い",
+            "url": "https://svelte.dev/",
+            "type": "official"
+          },
+          {
+            "title": "アストロ",
+            "url": "https://astro.build/",
+            "type": "official"
+          },
+          {
+            "title": "フレームワークガイド",
+            "url": "https://developers.cloudflare.com/pages/framework-guides/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "diIGB553YTGIw2qYRSj0X",
+      "type": "label",
+      "label": "建設/展開",
+      "position": {
+        "x": 530.30644608346,
+        "y": 616.7216082137738
+      },
+      "size": {
+        "width": 172,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "o4sBgniPmLqwej6TlIPcl",
+      "type": "subtopic",
+      "label": "ミニフラワー",
+      "position": {
+        "x": 615.3833983689781,
+        "y": 652.7216082137738
+      },
+      "size": {
+        "width": 119,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Miniflare は Cloudflare ワーカーのローカル シミュレーターです. ローカルマシンの Cloudflare ワーカーのランタイム環境を模倣し, Cloudflare に部署せずにワーカーをテストすることができます. Miniflare は KV ストレージ,耐久物体,サービス 結合などの機能をサポートし,ローカル 開発とデバッグのための貴重なツールとなっています. 迅速かつ信頼性の高いローカル テスト環境を提供することで開発サイクルを加速します.",
+        "links": [
+          {
+            "title": "ミニフラワー - クラウドフラワーワーカー",
+            "url": "https://developers.cloudflare.com/workers/testing/miniflare/",
+            "type": "official"
+          },
+          {
+            "title": "クラウドフラワー/ミニフラワー",
+            "url": "https://github.com/cloudflare/miniflare",
+            "type": "opensource"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3BGY76hTLAE8PY7OXQtNR",
+      "type": "paragraph",
+      "label": "ストレージ ソリューション",
+      "position": {
+        "x": 138.5,
+        "y": 768.6355963444237
+      },
+      "size": {
+        "width": 211,
+        "height": 67
+      },
+      "style": {
+        "fontSize": 20,
+        "borderColor": "transparent",
+        "backgroundColor": "transparent",
+        "color": "#000000",
+        "textAlign": "center",
+        "justifyContent": "center",
+        "padding": 16
+      },
+      "z_index": 999
+    },
+    {
+      "id": "1dGFfQauOgHP7T4ReMpCU",
+      "type": "topic",
+      "label": "労働者 KV",
+      "position": {
+        "x": -255.0107846621675,
+        "y": 777.6355963444237
+      },
+      "size": {
+        "width": 229,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Workers KV は,世界中のデータを保存し,取り戻すことができるデータストレージです.Workers KV を使用して,低遅延で高読量をサポートする動的で性能の高いAPIとウェブサイトを構築できます.",
+        "links": [
+          {
+            "title": "Cloudflare ワーカー KV ドキュメンテーション",
+            "url": "https://developers.cloudflare.com/kv/",
+            "type": "official"
+          },
+          {
+            "title": "Cloudflare ワーカーと KV ストレージの使い方",
+            "url": "https://www.youtube.com/watch?v=NGk2HxV0Xkg",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "EBTHbXOOZiqrcYJvKhcWV",
+      "type": "subtopic",
+      "label": "キー値オペレーション",
+      "position": {
+        "x": -255.0107846621675,
+        "y": 853.0363756231689
+      },
+      "size": {
+        "width": 229,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Cloudflare Workers は,Key-Value ストアにデータを読み書きするためのシンプルな API を提供します.データを保存するには `put` 方法を使用し,復元するには `get` 方法を使用できます. `delete` 方法により,ストアからデータを削除できます.KV ストアは,構成データ,ユーザーセッション,および迅速にアクセスする必要がある他のデータを保存するのに最適です.",
+        "links": [
+          {
+            "title": "キー・バリューペア を 読む",
+            "url": "https://developers.cloudflare.com/kv/api/read-key-value-pairs/",
+            "type": "official"
+          },
+          {
+            "title": "Cloudflare KV 結合 API",
+            "url": "https://developers.cloudflare.com/workers/runtime-apis/kv",
+            "type": "official"
+          },
+          {
+            "title": "Cloudflare ワーカーズ KV  Cloudflare ドキュメント",
+            "url": "https://developers.cloudflare.com/workers/runtime-apis/kv/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sQlRIYLnZcugATgpogJmw",
+      "type": "subtopic",
+      "label": "メタデータ処理",
+      "position": {
+        "x": -255.0107846621675,
+        "y": 906.0363756231687
+      },
+      "size": {
+        "width": 229,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Cloudflare Workers は,リクエスト方法,URL,ヘッダ等を含むリクエストに関するメタデータにアクセスできるようにします.このメタデータをアプリケーションの動作をカスタマイズしたり,キャッシング,認証,レート制限などの機能を実装したりすることができます.メタデータは, `fetch` イベントと `scheduled` イベントの両方で利用できます. ダイナミックで適応可能なアプリケーションを構築するための強力なツールです.",
+        "links": [
+          {
+            "title": "要求 と 応答",
+            "url": "https://developers.cloudflare.com/workers/runtime-apis/request",
+            "type": "official"
+          },
+          {
+            "title": "予定されたイベント管理者",
+            "url": "https://developers.cloudflare.com/workers/runtime-apis/scheduled-event",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "i64-aCpZHygq76fBU6eXD",
+      "type": "subtopic",
+      "label": "大量事業",
+      "position": {
+        "x": -255.0107846621675,
+        "y": 959.0363756231687
+      },
+      "size": {
+        "width": 229,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Cloudflare Workers は KV ストアで大量操作を行うことができます.単一のリクエストで複数の操作を実行するために `batch` メソッドを使用できます. これは外部ソースからデータをインポートしたり,複数のレコードを一度に更新したりなどの作業に役立ちます.大量操作は効率的でスケーラブルで,大量のデータを簡単に処理することができます.",
+        "links": [
+          {
+            "title": "労働者 KV",
+            "url": "https://blog.cloudflare.com/workers-kv-is-ga/",
+            "type": "official"
+          },
+          {
+            "title": "ワーカーズ KV ランタイム API",
+            "url": "https://developers.cloudflare.com/workers/runtime-apis/kv",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "OgW-iIrJZ5-sOWKnFpIZd",
+      "type": "subtopic",
+      "label": "キャッシングパターン",
+      "position": {
+        "x": -255.0107846621675,
+        "y": 1012.0363756231689
+      },
+      "size": {
+        "width": 229,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "キャッシングは,性能の高いアプリケーションを構築する上で重要な側面である.Cloudflare ワーカーは,アプリケーションのパフォーマンスを最適化するために使用できるいくつかのキャッシングパターンを提供します.これらのパターンは次のとおりです. - **Cache-First:** キャッシングは,利用可能な場合,キャッシングから提供されます. - **Network-First:**常にキャッシングから提供されます.次回のリクエストに対する応答をキャッシングします. - **Stay-While-Revalidate:** キャッシングから直ちに提供します.その後,バックグラウンドでキャッシングを更新します.また, HTTP キャッシングヘッダー (Cache-Control,Expires) を操作して,Cloudflare の CDN コンテンツのキャッシングを制御することができます.",
+        "links": [
+          {
+            "title": "キャッシュ の 動作 · Cloudflare ワーカー",
+            "url": "https://developers.cloudflare.com/workers/reference/how-the-cache-works/",
+            "type": "official"
+          },
+          {
+            "title": "キャッシング 策略",
+            "url": "https://docs.aws.amazon.com/whitepapers/latest/database-caching-strategies-using-redis/caching-patterns.html",
+            "type": "article"
+          },
+          {
+            "title": "ステティックとダイナミックなコンテンツをキャッシングする",
+            "url": "https://www.cloudflare.com/learning/cdn/caching-static-and-dynamic-content/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "gxLUlXGuaY5Q-0xmBgQwz",
+      "type": "topic",
+      "label": "R2 収納",
+      "position": {
+        "x": 158.27909338877345,
+        "y": 991.6457010436021
+      },
+      "size": {
+        "width": 173,
+        "height": 50
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Cloudflare R2 Storage は,退出料なしで高速で信頼性があり,手頃な価格のストレージを提供する分散型オブジェクトストレージサービスです.Amazon S3やGoogle Cloud Storage などのサービスと競合するように設計されています.R2は,構造化されていない大量のデータを (画像,ビデオ,文書) ストレージし,Cloudflare のグローバルネットワークを通じて世界中のどこからでも迅速にアクセスできます.その主要な利点は,退出帯域幅の料金がないため,データ回収需要が高いアプリケーションにコスト効率的です.",
+        "links": [
+          {
+            "title": "Cloudflare R2 ゼロ エグレス料 オブジェクトストレージ",
+            "url": "https://www.cloudflare.com/developer-platform/products/r2/",
+            "type": "official"
+          },
+          {
+            "title": "Cloudflare R2 ドキュメンテーション",
+            "url": "https://developers.cloudflare.com/r2/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "K9iW2H6riKwddWmpWJFJw",
+      "type": "subtopic",
+      "label": "オブジェクト保存",
+      "position": {
+        "x": 468.5985688843266,
+        "y": 885.6457010436021
+      },
+      "size": {
+        "width": 286,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Cloudflare R2 は,退出料なしで高速,信頼性のある,手頃な価格のストレージを提供するオブジェクトストレージです.Cloudflare ワーカーズとシームレスに動作するように設計されており,ユーザーの近くでデータを保存し取り戻すことができます.R2 は静態資産,ユーザー生成コンテンツ,および迅速かつ頻繁にアクセスする必要がある他のデータを保存するのに最適です.退出料の欠如により,従来のクラウドストレージプロバイダーにコスト効率的な代替品になります.",
+        "links": [
+          {
+            "title": "オブジェクトストレージとは何か?",
+            "url": "https://www.cloudflare.com/learning/cloud/what-is-object-storage/",
+            "type": "official"
+          },
+          {
+            "title": "Cloudflare R2 ゼロ エグレス料 オブジェクトストレージ",
+            "url": "https://www.cloudflare.com/developer-platform/products/r2/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "BPahk1qH9Hk11tsE2hw3A",
+      "type": "subtopic",
+      "label": "大規模なファイル処理",
+      "position": {
+        "x": 468.5985688843266,
+        "y": 938.6457010436021
+      },
+      "size": {
+        "width": 286,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Cloudflare で大規模なファイルを処理するには,サイズ制限を超越し,効率的な配信を確保するための戦略が必要です.テクニックには以下が含まれます: - ** ストリーミング:** メモリ使用を減らすためにファイルをブロックに処理する. - ** 範囲要求:** ファイルの要求された部分のみを処理する. - ** Cloudflare ストリーム:** 大規模なビデオファイルのために Cloudflare のビデオストリーミングサービスを利用する. - ** R2 統合:** 大規模なファイルを R2 で保存し,ワーカーズを通じて配信する.これらの方法は, Cloudflare のグローバルネットワークを利用しながら,大規模なファイルを効果的に処理できるようにします.",
+        "links": [
+          {
+            "title": "復元可能および大きなファイル · Cloudflare ストリーム",
+            "url": "https://developers.cloudflare.com/stream/uploading-videos/resumable-uploads/",
+            "type": "official"
+          },
+          {
+            "title": "Cloudflare R2 制限",
+            "url": "https://developers.cloudflare.com/r2/platform/limits/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3jU5753Uza2aS-gZo7w4k",
+      "type": "subtopic",
+      "label": "資産管理",
+      "position": {
+        "x": 468.5985688843266,
+        "y": 991.6457010436021
+      },
+      "size": {
+        "width": 286,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Cloudflare R2 は効率的な資産管理のために使用できます. R2 に画像,ビデオ,その他の静态資産を保存し,Cloudflare の CDN を介して直接配信できます. これにより,オリジンサーバーの負荷を軽減し,ウェブサイトのパフォーマンスを向上します. Cloudflare ワーカーズとの R2 の統合により,即時画像変換または他の資産処理タスクを実行することができます. R2 のバージョンサポートは,あなたの資産の異なるバージョンを管理するのに役立ちます.",
+        "links": [
+          {
+            "title": "Cloudflare ページでR2 を静态資産保存として使用する",
+            "url": "https://developers.cloudflare.com/pages/tutorials/use-r2-as-static-asset-storage-for-pages/",
+            "type": "official"
+          },
+          {
+            "title": "Cloudflare R2 ゼロ エグレス料 オブジェクトストレージ",
+            "url": "https://www.cloudflare.com/developer-platform/products/r2/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "UNE6XK4su5r2jcxhY7hOG",
+      "type": "subtopic",
+      "label": "バケット・オペレーション",
+      "position": {
+        "x": 468.5985688843266,
+        "y": 1044.645701043602
+      },
+      "size": {
+        "width": 286,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Cloudflare R2では,バケットはオブジェクトを保存するためのコンテナです. - **バケットを作成する:**データを整理するために新しいバケットを作成する. - **リストバケット:**アカウント内のすべてのバケットをリストする. - **削除バケット:**もはや必要のないバケットを削除する (空っぽである必要があります). - **バケットポリシーを設定する:**バケットへのアクセス制御ポリシーを設定する.これらの操作は通常,R2 API,Cloudflareダッシュボード,または命令行ツールである `wrangler`を使用して実行されます.",
+        "links": [
+          {
+            "title": "バケット · Cloudflare R2",
+            "url": "https://developers.cloudflare.com/r2/buckets/",
+            "type": "official"
+          },
+          {
+            "title": "新しいバケットを作成する · Cloudflare R2",
+            "url": "https://developers.cloudflare.com/r2/buckets/create-buckets/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "YvgmmF9sWfURgijFV7E31",
+      "type": "subtopic",
+      "label": "バケットライフサイクル",
+      "position": {
+        "x": 468.5985688843266,
+        "y": 1097.645701043602
+      },
+      "size": {
+        "width": 286,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "R2 バケットのライフサイクルは,作成,使用 (オブジェクトを保存し,取得) および最終的に削除を含む.データを保管するためにバケットを作成します.オブジェクトはバケット内でアップロードされ,アクセスされ,管理されます.Cloudflare には他のストレージプロバイダーのようにライフサイクルのルールが組み込まれていないため,オブジェクトの有効期限は通常Workersを通じてカスタムロジックを必要とします.最後に,バケットがもはや不要になり,空っぽであることを確認した後,削除することができます.",
+        "links": [
+          {
+            "title": "バケット · Cloudflare R2",
+            "url": "https://developers.cloudflare.com/r2/buckets/",
+            "type": "official"
+          },
+          {
+            "title": "バケットライフサイクル · Cloudflare R2",
+            "url": "https://developers.cloudflare.com/api/resources/r2/subresources/buckets/subresources/lifecycle/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mKN0Ta3zSk7PCm_uHYKFN",
+      "type": "topic",
+      "label": "D1",
+      "position": {
+        "x": 158.27909338877345,
+        "y": 1174.9754953712302
+      },
+      "size": {
+        "width": 173,
+        "height": 50
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Cloudflare D1 は Cloudflare の エッジ ネットワークで実行するように設計されたサーバーレス SQL データベースです. データをユーザーに近づくように保存し,クエリすることができます. 遅延を軽減し,アプリケーションパフォーマンスを向上します. D1 は SQLite に基づいており,Cloudflare ワーカーズから直接アクセスできます.従来のデータベース サーバーを管理せずに動力的でデータ駆動したアプリケーションを構築することは簡単です.",
+        "links": [
+          {
+            "title": "Cloudflare D1 ドキュメンテーション",
+            "url": "https://developers.cloudflare.com/d1/",
+            "type": "official"
+          },
+          {
+            "title": "D1 から 始める",
+            "url": "https://developers.cloudflare.com/d1/get-started/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PnhP47woPJb_JnLpMMiTw",
+      "type": "subtopic",
+      "label": "計画管理",
+      "position": {
+        "x": -256.51237120830484,
+        "y": 1114.6280432813637
+      },
+      "size": {
+        "width": 229,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Cloudflare D1 でデータベースの構造を管理することは,標準的な SQL Data Definition Language (DDL) ステートメントを使用して表,列,データタイプ,プライマリキー,外国キー,インデックスを定義することです. D1 は SQLite に基づいているので,SQLite に対応する構文を使用します. `wrangler`のようなツールでは SQL スクリプトを実行するためのコマンドを提供し,データベースのスキーマを作成して変更できます. 通常,アプリケーションのデータ要件に基づいてスキーマを設計し,その設計を SQL DDL ステートメントに翻訳します.データインテグリティと効率性を確保するために,データタイプに注意深く考慮する必要があります.",
+        "links": [
+          {
+            "title": "スケマ認証 · Cloudflare API シールド",
+            "url": "https://developers.cloudflare.com/api-shield/security/schema-validation/",
+            "type": "official"
+          },
+          {
+            "title": "スケマ認証を設定する · Cloudflare API シールド",
+            "url": "https://developers.cloudflare.com/api-shield/security/schema-validation/configure/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "M8rSSVFUHixgWZRfaBPHb",
+      "type": "subtopic",
+      "label": "移住",
+      "position": {
+        "x": -256.51237120830484,
+        "y": 1167.6280432813637
+      },
+      "size": {
+        "width": 229,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "アプリケーションが進化するにつれて,データベースのスキーマは変更する必要があります.データベース移行は,これらの変更を制御され,繰り返される方法で適用するための構造的な方法を提供します.D1では,通常,スキーマを変更するために必要な `ALTER TABLE`ステートメントを含む SQL スクリプトを作成します (例えば,新しい列を追加し,列の名前変更,データタイプを変更します).その後,この移行スクリプトをD1データベースに対して実行するために, `wrangler`または同様のツールを使用できます.移行スクリプトをバージョン化し,データの不一致性またはエラーを避けるために正しい順序で適用することが重要です.移行管理ツールを使用して,移行をより効果的に追跡し,適用することを検討してください.",
+        "links": [
+          {
+            "title": "データベース移行: DB移行の種類は何ですか?",
+            "url": "https://www.prisma.io/dataguide/types/relational/what-are-database-migrations",
+            "type": "article"
+          },
+          {
+            "title": "現実世界におけるデータベース移行",
+            "url": "https://blog.jetbrains.com/idea/2025/02/database-migrations-in-the-real-world/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "65xDESm6jbHWkVO4NgHqx",
+      "type": "subtopic",
+      "label": "問い合わせの最適化",
+      "position": {
+        "x": -256.51237120830484,
+        "y": 1220.6280432813637
+      },
+      "size": {
+        "width": 229,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "SQLクエリを最適化することは,Cloudflare D1で良いパフォーマンスを達成するために不可欠です.特にデータベースが成長するにつれて.D1は SQLiteのクエリオプティマイザーを利用し,クエリを実行する最も効率的な方法を自動的に探します.しかし,最良の実践に従ってパフォーマンスを大幅に向上させることができます. - **インデックスを使用:**データをフィルターまたはソートするクエリを加速するために,インデックスは不可欠です. `WHERE`条項, `JOIN`条件,および `ORDER BY`条項で頻繁に使用される列でインデックスを作成します.- ** Full Table Scans を避ける:** Full Table Scans は,特に大きなテーブルで遅くなることがあります.- **効率的な SQL:** を書き込み,適切な `JOIN` タイプを使用し, `SELECT *` (必要な列を指定する) を使用し,できるだけ早くデータをフィルタリングするために `WHERE` 条項を使用します.- **Query Performance を分析する:** SQLite の `EXPLAIN QUERY PLAN` コマンドを使用して,クエリがどのように実行されているかを分析します.これは,潜在的なボトルネックと改善すべき領域を特定するのに役立ちます.- **デノーマライゼーションを考慮してください:** いくつかの場合,データベースをデノーマライズする (結合を避けるために冗長なデータを追加する) はクエリパフォーマンスを改善できますが,ストレージスペースの増加と潜在的なデータ不一致性のコストで来ます.",
+        "links": [
+          {
+            "title": "尋問パラメータとキャッシュされた回答",
+            "url": "https://developers.cloudflare.com/automatic-platform-optimization/reference/query-parameters/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "MpWO1sroeF106SEMU1V1a",
+      "type": "subtopic",
+      "label": "降水",
+      "position": {
+        "x": -245.87814569065125,
+        "y": 1285.958502239233
+      },
+      "size": {
+        "width": 101,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Drizzle ORM (TypeScript ORM) は, Cloudflare D1 を使用して,データベースとインタラクションするためのタイプセキュアで開発者よりフレンドリーな方法を提供できる TypeScript ORM (Object-Relational Mapper) です.Drizzle は,TypeScript コードを使用してデータベーススキーマを定義し,TypeScript コードを使用してクエリビルダーを提供します.Type-secure方法でSQLクエリを構築するのに役立ちます.Drizzle はデータベースインタラクションを簡素化し,コードメンテナンス性を向上させ,SQLインジェクション脆弱性のリスクを軽減できます.また移行をサポートし,時間の経過とともにスキーマ変更を管理しやすくします.",
+        "links": [
+          {
+            "title": "降水",
+            "url": "https://orm.drizzle.team/",
+            "type": "official"
+          },
+          {
+            "title": "ドリズル概要",
+            "url": "https://orm.drizzle.team/docs/overview",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "h3MHLZZwkYqqb5PSfMhpB",
+      "type": "subtopic",
+      "label": "プリズマ",
+      "position": {
+        "x": -141.87814569065125,
+        "y": 1285.958502239233
+      },
+      "size": {
+        "width": 101,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "プリズマは,タイプセキュアなデータベースクライアントと移行ツールを提供する人気のあるオープンソースのORMです.特定のデータベースアダプタに依存しているため,Cloudflare D1 に直接互換性がないが,プリズマはD1 アダプタまたはCloudflare ワーカーズ内のカスタマイズされたデータアクセスレイヤーとともに使用できます.このアプローチは,D1 をデータベースとして使用しながらプリズマのタイプセキュリティ,クエリビルダー,および移行機能を活用することができます.",
+        "links": [
+          {
+            "title": "プリズマ",
+            "url": "https://www.prisma.io/",
+            "type": "official"
+          },
+          {
+            "title": "プリズマドキュメント",
+            "url": "https://www.prisma.io/docs",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brZctR1PMK6yErGIfRo_G",
+      "type": "label",
+      "label": "フレームワーク",
+      "position": {
+        "x": -197.51237120830484,
+        "y": 1337.3942173748287
+      },
+      "size": {
+        "width": 111,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "QmxWfOTVNW6WTEbPtEqev",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": -19.528343636044667,
+        "y": 1114.6280432813637
+      },
+      "size": {
+        "width": 21,
+        "height": 207
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.75
+      },
+      "z_index": 999
+    },
+    {
+      "id": "9MlFtF1q0eis4YmCEmIir",
+      "type": "paragraph",
+      "label": "持続的な実行",
+      "position": {
+        "x": 544.982416535137,
+        "y": 1174.9754953712302
+      },
+      "size": {
+        "width": 206,
+        "height": 48
+      },
+      "style": {
+        "fontSize": 20,
+        "borderColor": "transparent",
+        "backgroundColor": "transparent",
+        "color": "#000000",
+        "textAlign": "center",
+        "justifyContent": "center",
+        "padding": 16
+      },
+      "z_index": 999
+    },
+    {
+      "id": "zyRgTtlng6idboSgL9YTt",
+      "type": "topic",
+      "label": "排列",
+      "position": {
+        "x": 581.982416535137,
+        "y": 1288.4799140839043
+      },
+      "size": {
+        "width": 132,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Cloudflare Queues は,アプリケーションの異なる部分を切り離すことができるメッセージキューサービスです. ワーカーまたは他のサービス間で信頼性の高いメッセージを送信・受信を可能にします. このアシンクロン通信は,背景処理,トラフィックのピークを処理し,耐性のあるアプリケーションを構築するなどの作業に役立ちます.受信サービスが一時的に利用できない場合でも,キューはメッセージが配信されることを保証します.",
+        "links": [
+          {
+            "title": "クラウドフレアキュー · クラウドフレアキュー",
+            "url": "https://developers.cloudflare.com/queues/",
+            "type": "official"
+          },
+          {
+            "title": "排列 は どの よう に 行なわ れ ます か",
+            "url": "https://developers.cloudflare.com/queues/reference/how-queues-works/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "EFA8m0EdhygxcBWzwmbnT",
+      "type": "subtopic",
+      "label": "メッセージ処理",
+      "position": {
+        "x": 541.982416535137,
+        "y": 1389.7759268553775
+      },
+      "size": {
+        "width": 212,
+        "height": 50
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Cloudflare Queuesでは,メッセージ処理は,プロデューサー (通常はワーカー) から列にメッセージを送信し,その後に消費者が (他のワーカーまたはサービス) によって列からメッセージを消費することを意味します.消費者は,データを変換したり,APIを呼んだり,データベースを更新したりなどのタスクを実行し,各メッセージを処理します.キューは少なくとも一度の配信を保証します.つまり,エラーが発生しても,メッセージは少なくとも一度に消費者に届きます.消費者は,列からメッセージを削除するために成功した処理を認めることができます.",
+        "links": [
+          {
+            "title": "クラウドフレアキュー · クラウドフレアキュー",
+            "url": "https://developers.cloudflare.com/queues/",
+            "type": "official"
+          },
+          {
+            "title": "排列 は どの よう に 行なわ れ ます か",
+            "url": "https://developers.cloudflare.com/queues/reference/how-queues-works/",
+            "type": "official"
+          },
+          {
+            "title": "ストリーム処理とメッセージ処理の違い",
+            "url": "https://stackoverflow.com/questions/41744506/difference-between-stream-processing-and-message-processing",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "qgvDGyLjc6lMmVPjHozFM",
+      "type": "subtopic",
+      "label": "背景の仕事",
+      "position": {
+        "x": 541.982416535137,
+        "y": 1443.7759268553775
+      },
+      "size": {
+        "width": 212,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Cloudflare Queues は,バックグラウンドの作業を処理するのに最適です.要求/応答サイクルの中で直接時間を要するタスクを実行する代わりに,タスクを記述するメッセージを並べることができます.別のワーカーが消費者として行動し,これらのメッセージをバックグラウンドで処理します.これはアプリケーションの応答性を向上させ,画像処理,電子メールを送信,またはデータ分析などのタスクをブロックせずに処理することができます.",
+        "links": [
+          {
+            "title": "Cloudflare の 列",
+            "url": "https://developers.cloudflare.com/queues/",
+            "type": "official"
+          },
+          {
+            "title": "サーバーレス アプリケーションのバックグラウンド・ジョブ",
+            "url": "https://dispatched.dev/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "MInAsLLJtIq6WQDSj5yGH",
+      "type": "subtopic",
+      "label": "料金制限",
+      "position": {
+        "x": 541.982416535137,
+        "y": 1496.7759268553775
+      },
+      "size": {
+        "width": 212,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Cloudflare Queues は,速度制限を実装するために使用できます.すべてのリクエストを直接処理する代わりに,それらを排列することができます.消費者ワーカーは,制御された速度で排列からのメッセージを処理します. これにより,バックエンドシステムは突然のトラフィック増加によって圧倒されるのを防ぐことができます. お客様の処理速度をバックエンドサービスの容量に対応するように調整できます.",
+        "links": [
+          {
+            "title": "Cloudflare の 排列 - 排列 & 料金制限",
+            "url": "https://developers.cloudflare.com/queues/tutorials/handle-rate-limits/",
+            "type": "official"
+          },
+          {
+            "title": "料金制限のベストプラクティス - Cloudflare Docs",
+            "url": "https://developers.cloudflare.com/waf/rate-limiting-rules/best-practices/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Grl59SjY31Q3sgf9uX-xf",
+      "type": "subtopic",
+      "label": "死文字列",
+      "position": {
+        "x": 541.982416535137,
+        "y": 1549.7759268553775
+      },
+      "size": {
+        "width": 212,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "デッド・レター・キュー (DLQ) は,強力なメッセージ・キューシステムの重要な部分である.Cloudflare Queuesでは,複数のリトリエの後で成功して処理できないメッセージが送信される別のキューである.これは,問題のあるメッセージを隔離し,連続的な故障を引き起こすのを防ぐことができます.その後,DLQ内のメッセージを調査して,根本的な問題を特定し,修正することができます.",
+        "links": [
+          {
+            "title": "DLQとは何か? - デッド・レターキュー説明 - AWS",
+            "url": "https://aws.amazon.com/what-is/dead-letter-queue/",
+            "type": "article"
+          },
+          {
+            "title": "デッド・レター・キュー",
+            "url": "https://en.wikipedia.org/wiki/Dead_letter_queue",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "G-xBbtaniYFRE9Dgs18px",
+      "type": "topic",
+      "label": "耐久性のある物体",
+      "position": {
+        "x": 159.9816756636405,
+        "y": 1288.4799140839043
+      },
+      "size": {
+        "width": 173,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Cloudflare 耐久性オブジェクトは,Cloudflare のエッジ ネットワーク上で非常に一貫したシングルアクター実行環境を提供します.ステートレスであるワーカーとは異なり,ステートレスオブジェクトはステートを維持し,複数のリクエストとユーザー間で連携とデータ一貫性を要求するアプリケーションを構築することができます.コラボレーションアプリケーション,リアルタイムゲーム,その他のステートレスサービスの構築に最適です.",
+        "links": [
+          {
+            "title": "Cloudflare 耐久性オブジェクト - Cloudflare ドキュメント",
+            "url": "https://developers.cloudflare.com/durable-objects/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "EQjhRlM7zpANNWkypScIl",
+      "type": "subtopic",
+      "label": "国家管理",
+      "position": {
+        "x": 124.98167566364049,
+        "y": 1394.4160042707758
+      },
+      "size": {
+        "width": 243,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Durable Objects は状態管理で優れている. Durable Object の各インスタンスは独自の持続的なストレージがあり,複数のリクエストで状態を維持できます.アプリケーション状態を管理するために外部データベースやキャッシュレイヤーの必要性を排除します.",
+        "links": [
+          {
+            "title": "耐久性オブジェクトとは何か? - Cloudflare 文書",
+            "url": "https://developers.cloudflare.com/durable-objects/what-are-durable-objects/",
+            "type": "official"
+          },
+          {
+            "title": "耐久性オブジェクト状態 · Cloudflare 耐久性オブジェクト",
+            "url": "https://developers.cloudflare.com/durable-objects/api/state/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "RYm0oBFCxm-S-aCwZ21p6",
+      "type": "subtopic",
+      "label": "調整",
+      "position": {
+        "x": 124.98167566364049,
+        "y": 1447.4160042707758
+      },
+      "size": {
+        "width": 243,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "耐久性オブジェクトは,異なるクライアントまたはワーカーの間の調整を促進します.各オブジェクトは,その状態の単一の一貫したビューを持っているため,アクションを調整するための中央点として機能することができます.複数のクライアントが同じ耐久性オブジェクトと相互作用することができ,オブジェクトはアクションが一貫して予測可能な順に実行されることを保証できます.これは複数のユーザーが同じデータで作業する必要があるコラボアプリケーションを構築するのに役立ちます.",
+        "links": [
+          {
+            "title": "耐久性のある物体",
+            "url": "https://www.cloudflare.com/developer-platform/products/durable-objects/",
+            "type": "official"
+          },
+          {
+            "title": "耐久性物体 (DO)",
+            "url": "https://www.lambrospetrou.com/articles/durable-objects-cloudflare/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "36w4Q73XkCwo5Cva0XsF8",
+      "type": "subtopic",
+      "label": "頑固さ",
+      "position": {
+        "x": 124.98167566364049,
+        "y": 1500.4160042707758
+      },
+      "size": {
+        "width": 243,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "持続可能オブジェクトは内蔵の持続性を提供します. 持続可能オブジェクト内に保存されているデータは自動的に Cloudflare のストレージインフラストラクチャに保存されます. データを明示的に保存またはロードする必要はありません. 持続可能オブジェクトは持続性を自動的に処理します. これにより開発が簡素化され,サーバーの故障に直面してもアプリケーションの状態が持続可能で信頼性が保証されます.",
+        "links": [
+          {
+            "title": "アクセス 耐久性オブジェクト ストレージ - Cloudflare ドキュメント",
+            "url": "https://developers.cloudflare.com/durable-objects/best-practices/access-durable-objects-storage/",
+            "type": "official"
+          },
+          {
+            "title": "恒久的なオブジェクトにおける内存状態",
+            "url": "https://developers.cloudflare.com/durable-objects/reference/in-memory-state/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "rxxibrJUo1rQ3XCuUIP59",
+      "type": "subtopic",
+      "label": "トランザクション・オペレーション",
+      "position": {
+        "x": 124.98167566364049,
+        "y": 1553.4160042707758
+      },
+      "size": {
+        "width": 243,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "持続可能オブジェクトはトランザクション操作をサポートします.単一のトランザクション内で複数の操作を実行することができ,すべての操作が成功するか,いずれも成功しないことを保証します.これはデータの一貫性を維持し,部分的な更新を防止します.トランザクション中にエラーが発生した場合,持続可能オブジェクトは自動的にすべての変更を後回し,データを一貫した状態に置き去ります.",
+        "links": [
+          {
+            "title": "耐久性オブジェクトストレージ · Cloudflare耐久性オブジェクト",
+            "url": "https://developers.cloudflare.com/durable-objects/api/storage-api/",
+            "type": "official"
+          },
+          {
+            "title": "トランザクションストレージ · Cloudflare 耐久性オブジェクト",
+            "url": "https://developers.cloudflare.com:2096/durable-objects/api/transactional-storage-api/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "rAl7zXcODiqIpS__3qf1A",
+      "type": "topic",
+      "label": "ワークフロー",
+      "position": {
+        "x": -256.2583309760692,
+        "y": 1428.0801885474361
+      },
+      "size": {
+        "width": 177,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Cloudflare Workflowは,視覚的,コードなし/低コードインターフェイスを通じてタスクを自動化し,さまざまな Cloudflare サービスをオーケストラできるようにします.さまざまなイベント (例えば HTTP 要求,スケジュールされたトリガー) に基づいてトリガーするワークフローを作成し,HTTP ヘッダーを変更したり,ルーティングトラフィック,または外部 API に統合するなどのアクションを実行できます.複雑な構成を簡素化し,広範なコーディング知識を必要とせずに繰り返されるタスクを自動化するように設計されています.",
+        "links": [
+          {
+            "title": "Cloudflare ワークフロー · Cloudflare",
+            "url": "https://developers.cloudflare.com/workflows/",
+            "type": "official"
+          },
+          {
+            "title": "Cloudflare ワークフローの起動",
+            "url": "https://github.com/cloudflare/workflows-starter",
+            "type": "opensource"
+          }
+        ]
+      }
+    },
+    {
+      "id": "yTtjbO_dji8ssSaOAKpCV",
+      "type": "paragraph",
+      "label": "高級 な 機能",
+      "position": {
+        "x": -292.2583309760692,
+        "y": 1529.9764904620736
+      },
+      "size": {
+        "width": 249,
+        "height": 55
+      },
+      "style": {
+        "fontSize": 20,
+        "borderColor": "transparent",
+        "backgroundColor": "transparent",
+        "color": "#000000",
+        "textAlign": "center",
+        "justifyContent": "center",
+        "padding": 16
+      },
+      "z_index": 999
+    },
+    {
+      "id": "a0S0_JLwLLNGLUAHrqG4P",
+      "type": "topic",
+      "label": "労働者 AI",
+      "position": {
+        "x": -256.2583309760692,
+        "y": 1634.6916034998312
+      },
+      "size": {
+        "width": 177,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Cloudflare Workers AIは,あなたのユーザーに近い Cloudflare のグローバルネットワークで AI の推論を直接実行できるようにします. これにより,集中的な AI サーバーにデータを送信する必要性がなくなり,遅延を軽減し,AI 駆動したアプリケーションのパフォーマンスを向上します. Workers AI を使用して画像認識,自然言語処理,および感情分析などのタスクを実行できます.",
+        "links": [
+          {
+            "title": "ワーカーズ AI - Cloudflare ドキュメント",
+            "url": "https://developers.cloudflare.com/workers-ai/",
+            "type": "official"
+          },
+          {
+            "title": "モデル · Cloudflare ワーカー AI",
+            "url": "https://developers.cloudflare.com/workers-ai/models/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "zMwmoCUp9429_aXU-Bz4H",
+      "type": "subtopic",
+      "label": "テキスト生成",
+      "position": {
+        "x": -277.7583309760692,
+        "y": 1721.8046659749807
+      },
+      "size": {
+        "width": 220,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ワーカーズAIは,Cloudflareのエッジネットワークでテキスト生成タスクを直接実行できるようにします.以前に訓練されたモデルを使用したり,コンテンツ作成,チャットボット応答,言語翻訳などのさまざまな目的のためにテキストを作成するために独自のモデルを細かく調節したりできます.エッジでテキスト生成を実行すると,遅延を軽減し,AIで動かすアプリケーションの応答性を向上します.",
+        "links": [
+          {
+            "title": "適切な テキスト 生成 モデル を 選ぶ",
+            "url": "https://developers.cloudflare.com/workers-ai/tutorials/how-to-choose-the-right-text-generation-model/",
+            "type": "official"
+          },
+          {
+            "title": "促す · Cloudflare ワーカー AI",
+            "url": "https://developers.cloudflare.com/workers-ai/guides/prompting/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "S7laV14zsx31O0Tsj2SRL",
+      "type": "subtopic",
+      "label": "画像処理",
+      "position": {
+        "x": -277.7583309760692,
+        "y": 1774.8046659749807
+      },
+      "size": {
+        "width": 220,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ワーカーズAIは,クラウドフレアワーカーズ内で人工知能モデルを直接実行し,端端に強力な画像処理機能を可能にします. ワーカーズAIを使用して,以下のようなタスクを実行できます: - 画像認識 - オブジェクト検出 - 画像分類 - 画像サイズ変更と最適化 これは,ユーザに近いリアルタイムで画像を分析し操作するスマートなアプリケーションを構築することができます.",
+        "links": [
+          {
+            "title": "ワーカーズAIを使用して画像生成器を作成する方法",
+            "url": "https://developers.cloudflare.com/workers-ai/tutorials/image-generation-playground/",
+            "type": "official"
+          },
+          {
+            "title": "Cloudflare イメージを始めてみてください",
+            "url": "https://developers.cloudflare.com/images/get-started/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "HJbJ8OxjJzznYwLlIOSO2",
+      "type": "subtopic",
+      "label": "言語認識",
+      "position": {
+        "x": -277.7583309760692,
+        "y": 1827.8046659749807
+      },
+      "size": {
+        "width": 220,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Workers AI を使用して Cloudflare の edge ネットワークで直接スピーチからテキストのモデルを実行し,オーディオデータのリアルタイムトランスクリプションを可能にすることができます.これは声検索,声コマンド,ライブキャプションなどのアプリケーションに役立ちます.",
+        "links": [
+          {
+            "title": "Whisper - Cloudflare ワーカー AI",
+            "url": "https://developers.cloudflare.com/workers-ai/models/whisper/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "QxPoNHsL-Pj_z3aU6qEP4",
+      "type": "subtopic",
+      "label": "AIモデル統合",
+      "position": {
+        "x": -277.7583309760692,
+        "y": 1880.8046659749807
+      },
+      "size": {
+        "width": 220,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ワーカーズAIは,識別タスクのためにCloudflareのエッジネットワークでAIモデルを直接実行する能力を提供します.これには画像認識 (画像内のオブジェクトまたはシーンを識別する) と自然言語理解 (感情,意図,またはエンティティのためのテキストを分析する) が含まれます.エッジでAIモデル認識を実行することにより,遅延を削減し,AIで動かすアプリケーションの応答性を改善することができます.",
+        "links": [
+          {
+            "title": "Cloudflare + AI",
+            "url": "https://ai.cloudflare.com/",
+            "type": "official"
+          },
+          {
+            "title": "Cloudflare AIモデル統合",
+            "url": "https://developers.cloudflare.com/ai-gateway/integrations/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "NWGVtH1vxQuO4lly0Omuy",
+      "type": "topic",
+      "label": "矢量化",
+      "position": {
+        "x": 79.83264623685739,
+        "y": 1634.6916034998312
+      },
+      "size": {
+        "width": 125,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Cloudflare Vectorize は,高度次元ベクトルを保存し,クエリできるようにするベクトルデータベースで,よく類似性検索と推奨エンジンなどのタスクのために機械学習で使用されます.Workers AIでVectorize を使用することで,クラウドフレイアのエッジネットワーク上でリアルタイム AI 駆動した検索と推奨を直接実行するアプリケーションを構築できます.",
+        "links": [
+          {
+            "title": "矢量化に関する紹介 - Cloudflare Docs",
+            "url": "https://developers.cloudflare.com/vectorize/get-started/intro/",
+            "type": "official"
+          },
+          {
+            "title": "Cloudflare 矢量化",
+            "url": "https://developers.cloudflare.com/vectorize/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "UIWaR1ZdjSm0UAS69Kz_5",
+      "type": "subtopic",
+      "label": "矢量埋め込み",
+      "position": {
+        "x": 40.332646236857386,
+        "y": 1724.2807234618997
+      },
+      "size": {
+        "width": 204,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Cloudflare Vectorize は,類似性検索や推奨エンジンなどのタスクでしばしば機械学習で使用される高次元ベクトルを保存し,クエリできるようにします.Workers AI で Vectorize を使用することで,クラウドフレイアのエッジネットワーク上でリアルタイム AI 駆動した検索と推奨を直接実行するアプリケーションを構築できます.",
+        "links": [
+          {
+            "title": "矢量データベース - Cloudflare ドキュメント",
+            "url": "https://developers.cloudflare.com/vectorize/reference/what-is-a-vector-database/",
+            "type": "official"
+          },
+          {
+            "title": "Cloudflare 矢量化",
+            "url": "https://developers.cloudflare.com/vectorize/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pg3GtykCegK411DYDN8sN",
+      "type": "subtopic",
+      "label": "類似性 の 探求",
+      "position": {
+        "x": 40.332646236857386,
+        "y": 1777.2807234618997
+      },
+      "size": {
+        "width": 204,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Cloudflare はベクトルデータベースであるVectorize を提供し,類似性検索を可能にします.データ (テキスト,画像,オーディオ) をベクトルとして埋め込み,次にクエリベクトルに基づいて最も類似したベクトルを見つけるためにVectorize を使用できます.これは推奨システム,コンテンツ発見,および類似したアイテムを見つけることが重要な他のアプリケーションに使用されます.",
+        "links": [
+          {
+            "title": "Cloudflare 矢量化 - Cloudflare",
+            "url": "https://developers.cloudflare.com/vectorize/",
+            "type": "official"
+          },
+          {
+            "title": "seemueller-io/hyphalbase",
+            "url": "https://github.com/seemueller-io/hyphalbase",
+            "type": "opensource"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Ep9_oV_YnkbH1gHM-n3gO",
+      "type": "subtopic",
+      "label": "人工知能による検索",
+      "position": {
+        "x": 40.332646236857386,
+        "y": 1830.2807234618997
+      },
+      "size": {
+        "width": 204,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Cloudflare Workers,Workers AI,Vectorize を使用してAIを駆動した検索を構築できます. 1. **Embed Data:** Workers AI を使用してデータ (例えばテキスト,画像) のベクトル埋め込みを作成します. 2. **Store Embeddings:** これらの埋め込みをVectorize に保存します. 3. **Search:** ユーザーが検索するとき,Workers AI を使用して検索クエリを埋め込み,その後Vectorize を使用してデータベースで最も類似した埋め込みを見つけます. 4. **Return Results:** 相応のデータアイテムを検索結果として返します.",
+        "links": [
+          {
+            "title": "Cloudflare + AI",
+            "url": "https://ai.cloudflare.com/",
+            "type": "official"
+          },
+          {
+            "title": "Cloudflare エージェント",
+            "url": "https://developers.cloudflare.com/agents/",
+            "type": "official"
+          },
+          {
+            "title": "Cloudflare Workers AI を AI 駆動した検索を構築するために使用する方法",
+            "url": "https://dev.to/charlestehio/how-to-use-cloudflare-workers-ai-for-building-an-ai-powered-search-bar-51jn",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "LoT3NtpNj9uAgQRV-MD_E",
+      "type": "topic",
+      "label": "ストリーム",
+      "position": {
+        "x": 346.6978266236106,
+        "y": 1634.6916034998312
+      },
+      "size": {
+        "width": 125,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Cloudflare Stream は,動画をグローバルにアップロード,エンコード,配信することを容易にする動画ストリーミングプラットフォームです.異なるデバイスとネットワーク条件のためのエンコーディングを含むビデオストリーミングのすべての複雑さを処理し,信頼性と高品質の視聴体験を提供します. Stream は Cloudflare の CDN と無縫に統合され,世界中のユーザーに迅速かつ効率的なビデオ配信を保証します.",
+        "links": [
+          {
+            "title": "Cloudflare ストリーム - Cloudflare ドキュメンテーション",
+            "url": "https://www.cloudflare.com/developer-platform/products/cloudflare-stream/",
+            "type": "official"
+          },
+          {
+            "title": "Cloudflare ストリーム - Cloudflare ブログ",
+            "url": "https://blog.cloudflare.com/tag/cloudflare-stream/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "zQp7XfDKWJgMf2LexRJhN",
+      "type": "subtopic",
+      "label": "ビデオ 配信",
+      "position": {
+        "x": 312.1978266236106,
+        "y": 1721.3878759780328
+      },
+      "size": {
+        "width": 194,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Cloudflare Stream は,ビデオ配信のための包括的なソリューションを提供します. - **エンコード:** 異なるデバイスと帯域幅のためのビデオを自動的にコードします. - ** ストレージ:** ビデオを安全に保存します. - ** CDN:** ビデオをクラウドフレイアの CDN で迅速な再生のために世界中で配信します. - ** プレーヤー:** カスタマイズ可能なビデオプレーヤーを提供します.これは高品質のビデオ体験を提供するプロセスを簡素化します.",
+        "links": [
+          {
+            "title": "Cloudflare で ビデオ を 配信 する",
+            "url": "https://developers.cloudflare.com/support/more-dashboard-apps/cloudflare-stream/delivering-videos-with-cloudflare/",
+            "type": "official"
+          },
+          {
+            "title": "ストリーム配信 - Cloudflare Stream",
+            "url": "https://www.cloudflare.com/application-services/solutions/stream-delivery/",
+            "type": "official"
+          },
+          {
+            "title": "Cloudflare ストリーム - Cloudflare",
+            "url": "https://www.cloudflare.com/developer-platform/products/cloudflare-stream/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "RiQSPAV9uRFgwQFJckTFV",
+      "type": "subtopic",
+      "label": "ライブストリーミング",
+      "position": {
+        "x": 312.1978266236106,
+        "y": 1774.3878759780328
+      },
+      "size": {
+        "width": 194,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Cloudflare Stream はライブストリーミングをサポートします. OBS Studio や Wirecast のようなツールを使用して Cloudflare に動画をストリーミングできます. Stream はエンコーディング,配信,再生を処理します. これにより,グローバルオーディエンスに簡単にライブイベントを配信できます.",
+        "links": [
+          {
+            "title": "Cloudflare ストリーム",
+            "url": "https://www.cloudflare.com/developer-platform/products/cloudflare-stream/",
+            "type": "official"
+          },
+          {
+            "title": "Cloudflare ストリームでサーバーレス ライブストリーミング",
+            "url": "https://blog.cloudflare.com/stream-live/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3B6Z7F0D3Sf8ZBlV3kkGx",
+      "type": "subtopic",
+      "label": "ビデオ処理",
+      "position": {
+        "x": 312.1978266236106,
+        "y": 1827.3878759780328
+      },
+      "size": {
+        "width": 194,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Cloudflare は Stream と Workers を 通してビデオ処理機能を提供します. - **Stream:** 自動でコーディング,トランスコード,および適応式ビットレートストリーミングを処理します. - **Workers:** ビデオリクエストを傍受し,ウォーターマークを追加したりメタデータを変更したりなどのカスタマイズされた処理を実行するために Workers を使用できます. これにより,ビデオ配信パイプラインをカスタマイズできます.",
+        "links": [
+          {
+            "title": "Cloudflare ストリーム - Cloudflare",
+            "url": "https://www.cloudflare.com/developer-platform/products/cloudflare-stream/",
+            "type": "official"
+          },
+          {
+            "title": "VODプラットフォーム ビデオオンデマンド ストリーミングソフトウェア",
+            "url": "https://www.cloudflare.com/developer-platform/solutions/video-on-demand/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "8bOWuopxHtBWUSFaVT54P",
+      "type": "topic",
+      "label": "画像",
+      "position": {
+        "x": 561.482416535137,
+        "y": 1634.6916034998312
+      },
+      "size": {
+        "width": 173,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Cloudflare Imagesは,包括的な画像最適化および配信サービスを提供します.異なるデバイスおよびブラウザ向けに自動的に画像をサイズ変更,変換,最適化し,ウェブサイトパフォーマンスを向上させ,帯域幅使用を削減します.また,Cloudflare Images を使用して画像を直接保存および配信することができ,別の画像ホストサービスの必要性を排除します.",
+        "links": [
+          {
+            "title": "画像 · Cloudflare ドキュメント",
+            "url": "https://developers.cloudflare.com/images/",
+            "type": "official"
+          },
+          {
+            "title": "Cloudflare イメージを始めてみてください",
+            "url": "https://developers.cloudflare.com/images/get-started/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "vHQdMgaL2EEr2o_eJmOuV",
+      "type": "topic",
+      "label": "呼び出し",
+      "position": {
+        "x": 561.482416535137,
+        "y": 1753.2807234618997
+      },
+      "size": {
+        "width": 173,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Cloudflare CallsはCloudflareのエッジネットワークに直接リアルタイムのオーディオとビデオアプリケーションを構築するプラットフォームです. ビデオ会議,ライブストリーミング,音声チャットなどのインタラクティブな体験を作成するために必要なインフラとAPIを低遅延とグローバルリーチで提供します.",
+        "links": [
+          {
+            "title": "Cloudflare の 呼び出し",
+            "url": "https://developers.cloudflare.com/calls/",
+            "type": "official"
+          },
+          {
+            "title": "紹介 · Cloudflare の 呼び出し",
+            "url": "https://developers.cloudflare.com/calls/introduction/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "aKEH4ZxI6J1nwjp_AgH5r",
+      "type": "subtopic",
+      "label": "伐採と監視",
+      "position": {
+        "x": -286.42440139623136,
+        "y": 701.9890672390103
+      },
+      "size": {
+        "width": 289,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Cloudflare ワーカーズを理解し,デバッグするには有効なログとモニタリングが不可欠です. 開発中に基本的なログをするために, `console.log` を使用できます. 制作のために,あなたのワーカーズからのログを収集し分析するために専用ログサービスを使用することを検討してください. Cloudflare は,Cloudflare ダッシュボードでモニタリングできるリクエスト数,CPU使用,エラー率などのメトリックを提供します.これらのメトリックに基づいてアラートを設定すると,問題を迅速に識別し,解決することができます.",
+        "links": [
+          {
+            "title": "記録と監視の違いは何ですか?",
+            "url": "https://toxigon.com/logging-vs-monitoring-whats-the-difference",
+            "type": "article"
+          },
+          {
+            "title": "デバッグとログイン · Cloudflare ページ",
+            "url": "https://developers.cloudflare.com/pages/functions/debugging-and-logging/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "z-1Ye5hcNdr9r6Gwdw7mv",
+      "type": "topic",
+      "label": "メール・ワーカー",
+      "position": {
+        "x": 561.482416535137,
+        "y": 1956.3878759780328
+      },
+      "size": {
+        "width": 173,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "メールワーカーは,Cloudflareのメールルーティングサービスを通過するメールトラフィックを傍受し変更することができます. メールワーカーはスパムフィルタリング,メール認証,カスタマイズされたメール処理ロジックなどのタスクを実行するために使用できます.",
+        "links": [
+          {
+            "title": "メールワーカー · Cloudflare メールルーティング",
+            "url": "https://developers.cloudflare.com/email-routing/email-workers/",
+            "type": "official"
+          },
+          {
+            "title": "従業員への経路 メール処理を自動化",
+            "url": "https://blog.cloudflare.com/announcing-route-to-workers/",
+            "type": "official"
+          },
+          {
+            "title": "Cloudflare の 従業員 で 電子メール 配達 サービス を 実装 する",
+            "url": "https://medium.com/@georgechmr/implementing-an-email-delivery-service-with-cloudflare-workers-c141422109d0",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "-lsYPD6JueIV94RybGH_Y",
+      "type": "subtopic",
+      "label": "ルーティング",
+      "position": {
+        "x": 561.482416535137,
+        "y": 2047.265056764798
+      },
+      "size": {
+        "width": 173,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Cloudflare メールワーカーでは,ルーティングは,受信メールを適切な目的地または処理ロジックに送信することを意味します.メールワーカーはメールを傍受し,運命を決定するために定義された規則を使用します.送信者,受信者,主体,その他の基準に基づいてメールをルーティングすることができます.これはメールを転送したり,カスタムロジックを触発したり,望ましくないメッセージを廃棄したりすることができます.効果的なルーティングはメールフローを管理し,カスタムメールワークフローを実装し,受信メールに反応するアプリケーションを構築するのに不可欠です.",
+        "links": [
+          {
+            "title": "メールワーカー · Cloudflare メールルーティング",
+            "url": "https://developers.cloudflare.com/email-routing/email-workers/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6bNUqx5f_w5NuDL25BABN",
+      "type": "subtopic",
+      "label": "処理",
+      "position": {
+        "x": 561.482416535137,
+        "y": 2100.265056764798
+      },
+      "size": {
+        "width": 173,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Cloudflare メールワーカーでは,処理には受信メールコンテンツを操作または分析することが含まれます.メールがワーカーに送信された後,メールのヘッダー,ボディ,アタッチなどのさまざまな側面にアクセスして変更できます.処理には以下のような作業が含まれます. - **コンテンツ変更:**メールボディを変更し,免責声明を追加し,コンテンツを翻訳する. - **データ抽出:**電子メールから情報を解析して他のアプリケーションで使用します. - **スパムフィルタリング:**カスタムスパム検出論理を実装する. - **アタッチメント処理:** アタッチメント処理または保存.",
+        "links": [
+          {
+            "title": "メールワーカー · Cloudflare メールルーティング",
+            "url": "https://developers.cloudflare.com/email-routing/email-workers/",
+            "type": "official"
+          },
+          {
+            "title": "メールワーカールーティング - ランタイム API",
+            "url": "https://developers.cloudflare.com/email-routing/email-workers/runtime-api/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "kdIfqTCcOSvV4KDpjr7nu",
+      "type": "subtopic",
+      "label": "フィルタリング",
+      "position": {
+        "x": 561.482416535137,
+        "y": 2153.265056764798
+      },
+      "size": {
+        "width": 173,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Cloudflare メールワーカーズでは,特定の基準に基づいて電子メールを選択的に処理するプロセスです.従業員がどのメールを処理し,どのように処理するかを決定するルールを定義することができます.フィルタリングは,以下を含むさまざまなメール属性に基づいて行われます. - **送信者/受信者:**特定のメールアドレスまたはドメインに一致する. - **主題線:**主題内のキーワードまたはパターンを探す. - **ヘッダー:**特定のヘッダー値を調べる. - **コンテンツ:**特定のキーワードのメールボディを分析する.フィルタリングを実行することで,従業員が関連するメールのみを処理し,パフォーマンスを最適化し,関連のないメッセージで意図しない行動を防ぐことができます.",
+        "links": [
+          {
+            "title": "メールワーカー · Cloudflare メールルーティング",
+            "url": "https://developers.cloudflare.com/email-routing/email-workers/",
+            "type": "official"
+          },
+          {
+            "title": "Cloudflare の 従業員 で 電子メール 配達 サービス を 実装 する",
+            "url": "https://medium.com/@georgechmr/implementing-an-email-delivery-service-with-cloudflare-workers-c141422109d0",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "vu8yJsS1WccsdcEVUqwNd",
+      "type": "topic",
+      "label": "AIゲートウェイ",
+      "position": {
+        "x": 361.39029212267985,
+        "y": 1956.3878759780328
+      },
+      "size": {
+        "width": 152,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Cloudflare の AI ゲートウェイ は AI ワークロードの管理と最適化 の 中央 ポイントとして機能します. AI 要求のキャッシング,レート 制限,観察性などの機能を提供し,パフォーマンスを向上させ,コストを削減し, AI モデルがどのように使用されているかについての洞察を得ることができます.",
+        "links": [
+          {
+            "title": "Cloudflare + AI",
+            "url": "https://ai.cloudflare.com/",
+            "type": "official"
+          },
+          {
+            "title": "Cloudflare AIゲートウェイ",
+            "url": "https://www.cloudflare.com/developer-platform/products/ai-gateway/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "qkFRW_tJB8_1IYpYskQ5M",
+      "type": "topic",
+      "label": "ブラウザレンダリング",
+      "position": {
+        "x": 74.57806488778613,
+        "y": 1956.3878759780328
+      },
+      "size": {
+        "width": 235,
+        "height": 50
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Cloudflare ブラウザレンダリングは,Cloudflare のエッジ ネットワーク上のヘッドレス ブラウザ環境でウェブページをレンダリングできるようにします.これは PDF を生成する,スクリーンショットを撮影する,またはSEO 目的でコンテンツをプリレンダリングするような作業に役立ちます.エッジでブラウザレンダリングを行うことで,元のサーバーから処理をオフロードし,特定のタイプのWeb アプリケーションのパフォーマンスを改善できます.",
+        "links": [
+          {
+            "title": "ブラウザレンダリング",
+            "url": "https://developers.cloudflare.com/browser-rendering/",
+            "type": "official"
+          },
+          {
+            "title": "ブラウザレンダリング API - ブログ",
+            "url": "https://blog.cloudflare.com/browser-rendering-api-ga-rolling-out-cloudflare-snippets-swr-and-bringing-workers-for-platforms-to-our-paygo-plans/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "76xovsBrKOnlRBVjsqNq1",
+      "type": "topic",
+      "label": "安全と性能",
+      "position": {
+        "x": 74.57806488778613,
+        "y": 2141.5338176098276
+      },
+      "size": {
+        "width": 235,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Cloudflareは,グローバルネットワークを通じてセキュリティとパフォーマンスを大幅に向上させています.DDoS攻撃,ボットトラフィック,その他のウェブ脅威に対して強力な保護を提供し,CDNおよびキャッシングメカニズムを通じてウェブサイトのロードタイムも加速しています.EdgeでSSL/TLS接続を終了し,コンテンツ配信を最適化することで,Cloudflareはユーザーにとって安全で迅速な体験を保証し,遅延を削減し,全体的なウェブサイトの回復力を向上します.**Security:** Cloudflare Email ワーカーは,メールの安全性を向上させることができます. - **Spamとフィッシング検出:** 受信者に届く前に悪意のあるメールを特定し,ブロックするためのカスタムフィルタを実装する.- **Content Sanitization:**悪意のあるスクリプトやリンクなどの潜在的に有害なコンテンツを削除する.- **認証:** スプーフィングやフィッシング攻撃を防ぐために送信者の認証を検証する.- **データ損失防止 (DLP):** メールで送信される敏感な情報を防止する.**パフォーマンス:** メールワーカーがパフォーマンスを影響する: - ** 遅延を削減する:** メールワーカーをユーザーに近づくために処理し,遅延を最小限に抑える.- ** 拡張性:** メールトラフィックの大量をパフォーマンス低下することなく処理する.- ** カスタムルーティング:** メールを適切な目的地に効率的に転送する.- ** 最適化処理:** バトルネックを避けるために軽量なメール処理タスクを実行する.",
+        "links": [
+          {
+            "title": "アプリケーションセキュリティ&パフォーマンスソリューション - Cloudflare",
+            "url": "https://www.cloudflare.com/application-services/solutions/",
+            "type": "official"
+          },
+          {
+            "title": "Cloudflare セキュリティアーキテクチャ",
+            "url": "https://developers.cloudflare.com/reference-architecture/architectures/security/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "8IF7jftushwZrn7JXpC_v",
+      "type": "subtopic",
+      "label": "労働者の安全モデル",
+      "position": {
+        "x": -281.3575478619334,
+        "y": 1982.5338176098273
+      },
+      "size": {
+        "width": 227,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Cloudflare ワーカーは安全な,孤立した環境内で動作します. ワーカーの実行時間は厳格なセキュリティ境界を課し, ワーカーは敏感データにアクセスしたり,他のプロセスに干渉するのを妨げます. ワーカーは外部世界へのアクセスが限られており, 資源を明示的に要求する必要があります. Cloudflare のグローバルネットワークは固有のDDoS 保護を提供し,一般的なウェブ脆弱性を軽減します. この安全な実行環境は, ワーカーはプラットフォームの全体的なセキュリティを損なうことなく, 要求を安全に処理できるようにします.",
+        "links": [
+          {
+            "title": "セキュリティモデル · Cloudflare",
+            "url": "https://developers.cloudflare.com/workers/reference/security-model/",
+            "type": "official"
+          },
+          {
+            "title": "労働者 RPC 可視性とセキュリティモデル - Cloudflare Docs",
+            "url": "https://developers.cloudflare.com/workers/runtime-apis/rpc/visibility/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "uNinrB9wm5ahjGXu5fc0g",
+      "type": "subtopic",
+      "label": "建築を孤立させる",
+      "position": {
+        "x": -281.3575478619334,
+        "y": 2035.5338176098276
+      },
+      "size": {
+        "width": 227,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Cloudflare の Workers の 単離アーキテクチャは,軽量 V8 単離装置に依存する.各 Worker は独自の単離装置で動作し,他の Workers や 基礎インフラストラクチャから強い隔離を提供します.単離装置は迅速に起動し,最小限のリソースを消費し,迅速なスケーリングを可能にします.このアーキテクチャは,Worker のコードが他の Workers に影響を与えるのを防ぐため,セキュリティと安定性を高めます.単離装置は,Worker が脆弱性を含んでいるとしても, Cloudflare ネットワーク全体または他の顧客のアプリケーションを損なうことができないことを保証します.",
+        "links": [
+          {
+            "title": "参照アーキテクチャ · Cloudflare 参照アーキテクチャ",
+            "url": "https://developers.cloudflare.com/reference-architecture/",
+            "type": "official"
+          },
+          {
+            "title": "Cloudflare セキュリティアーキテクチャ",
+            "url": "https://developers.cloudflare.com/reference-architecture/architectures/security/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "KWix4jeNUKJ07Iu95Mqj_",
+      "type": "subtopic",
+      "label": "ウェブセキュリティヘッダ",
+      "position": {
+        "x": -281.3575478619334,
+        "y": 2088.5338176098276
+      },
+      "size": {
+        "width": 227,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ウェブセキュリティヘッダは,ウェブサイトの安全性を向上させるHTTP応答ヘッダです.Cloudflareは,一般的な攻撃から保護するためにこれらのヘッダを簡単に構成することを可能にします.キーヘッダには以下が含まれます. - **コンテンツセキュリティポリシー (CSP):** ブラウザが読み込むことができるリソースを制御します. - ** 厳格な輸送セキュリティ (HSTS):** HTTPS接続を強行します. - ** X-Frame-Options:** クリックジャック攻撃を防止します. - ** X-XSS-Protection:** ブラウザでXSSフィルタリングを可能にします. - ** 参照者政策:** 参照者情報を要求で送信します. Cloudflare はこれらのヘッダを設定し,最小限の努力でウェブサイトセキュリティを改善します.",
+        "links": [
+          {
+            "title": "HTTP ヘッダを設定する - Cloudflare",
+            "url": "https://developers.cloudflare.com/fundamentals/reference/http-headers/",
+            "type": "official"
+          },
+          {
+            "title": "セキュリティ 責任者 に 迅速 な 参照",
+            "url": "https://web.dev/articles/security-headers",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JP5U6c2fZjtkU-Xzwtapx",
+      "type": "subtopic",
+      "label": "料金制限",
+      "position": {
+        "x": -281.3575478619334,
+        "y": 2141.5338176098276
+      },
+      "size": {
+        "width": 227,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Cloudflare Queues は,速度制限を実装するために使用できます.すべてのリクエストを直接処理する代わりに,それらを排列することができます.消費者ワーカーは,制御された速度で排列からのメッセージを処理します. これにより,バックエンドシステムは突然のトラフィック増加によって圧倒されるのを防ぐことができます. お客様の処理速度をバックエンドサービスの容量に対応するように調整できます.",
+        "links": [
+          {
+            "title": "Cloudflare の 排列 - 排列 & 料金制限",
+            "url": "https://developers.cloudflare.com/queues/tutorials/handle-rate-limits/",
+            "type": "official"
+          },
+          {
+            "title": "料金制限のベストプラクティス - Cloudflare Docs",
+            "url": "https://developers.cloudflare.com/waf/rate-limiting-rules/best-practices/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ui3pUfsGMxv4WRzHkgbF0",
+      "type": "subtopic",
+      "label": "キャッシュ API",
+      "position": {
+        "x": -281.3575478619334,
+        "y": 2194.5338176098276
+      },
+      "size": {
+        "width": 227,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Cloudflare のキャッシュ API は,ワーカーのキャッシュ行動をプログラム的に制御できるようにします.あなたは Cloudflare のグローバルキャッシュに応答を保存し,後で取り戻すことができ,起源サーバの負荷を軽減し,パフォーマンスを向上します.キャッシュ API はキャッシュキー,有効期限,および他のパラメータを精細に制御できます. これにより,ダイナミックなコンテンツをキャッシュし,応答をパーソナライズし,特定のユーザーまたはデバイスのためのコンテンツ配信を最適化できます.キャッシュ API は Cloudflare で高性能でスケーラブルなアプリケーションを構築するための強力なツールです.",
+        "links": [
+          {
+            "title": "Cloudflare APIキャッシュ · Cloudflare",
+            "url": "https://developers.cloudflare.com/api-next/resources/cache//",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "INiqdtppBmCthOEXuHb-V",
+      "type": "subtopic",
+      "label": "HTMLの書き換え",
+      "position": {
+        "x": -281.3575478619334,
+        "y": 2247.5338176098276
+      },
+      "size": {
+        "width": 227,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Cloudflare Workers で HTML を書き直すことで,HTML コンテンツを即座に変更できます.Workers を使用して HTML を解析し,要素を操作し,新しいコンテンツを注入できます.一般的な使用例は: - A/B テスト:異なるユーザー向けにコンテンツを動的に変更する. - 個人化:ユーザー特性に基づいて HTML を定量化する. - コンテンツ 注射:分析 スクリプトまたは広告を追加する. - セキュリティ強化:潜在的に有害なコードを削除する. HTML 書き直すことで,ユーザー体験をカスタマイズし,オリジンサーバーを変更せずにウェブサイトを最適化できます.",
+        "links": [
+          {
+            "title": "HTMLRewriter · Cloudflare ワーカー",
+            "url": "https://developers.cloudflare.com/workers/runtime-apis/html-rewriter/",
+            "type": "official"
+          },
+          {
+            "title": "Cloudflare ワーカーに HTMLRewriter API を導入する",
+            "url": "https://blog.cloudflare.com/introducing-htmlrewriter/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sXBxaQtwJ-luGVXdqVXk1",
+      "type": "subtopic",
+      "label": "エッジ SSL/TLS",
+      "position": {
+        "x": -281.3575478619334,
+        "y": 2300.5338176098276
+      },
+      "size": {
+        "width": 227,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Cloudflare の Edge SSL/TLS は,ユーザに近い Cloudflare の edge ネットワークで SSL/TLS 接続を終了します.これは,源サーバーでの接続を終了する際の遅延を軽減し,パフォーマンスを向上します. Cloudflare は,以下を含む様々な SSL/TLS オプションを提供しています: - **Universal SSL:** すべての Cloudflare ユーザーのための無料 SSL 証明書. - **Dedicated SSL:** 特定のドメインのためのカスタム SSL 証明書. - **Origin CA:** Cloudflare とあなたの起源の間の通信を確保するための無料 証明書. Edge SSL/TLS は,性能を最適化しながら,ユーザーとウェブサイトの間の安全な通信を保証します.",
+        "links": [
+          {
+            "title": "SSL/TLS - Cloudflare ドキュメントをはじめましょう",
+            "url": "https://developers.cloudflare.com/ssl/get-started/",
+            "type": "official"
+          },
+          {
+            "title": "エッジ証明書 · Cloudflare SSL/TLS",
+            "url": "https://developers.cloudflare.com/ssl/edge-certificates/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "So-cKAVfbgsw2zzFREu7Q",
+      "type": "subtopic",
+      "label": "ボット管理",
+      "position": {
+        "x": -281.3575478619334,
+        "y": 2353.5338176098276
+      },
+      "size": {
+        "width": 227,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Cloudflare ボット管理は悪意のあるボットトラフィックを特定し軽減します.人間の活動とボット活動を区別するために機械学習と行動分析を使用します.Cloudflare は,その行動と特徴に基づいてボットトラフィックをブロックしたり,挑戦したり,許可することができます.これは,クレジットフィッシング,コンテンツスクラッピング,スパム送信,DDoS攻撃を防止するのに役立ちます.効果的なボット管理はウェブサイトのパフォーマンス,セキュリティ,およびリソース利用を改善します.",
+        "links": [
+          {
+            "title": "Cloudflare ボット管理と保護",
+            "url": "https://www.cloudflare.com/application-services/products/bot-management/",
+            "type": "official"
+          },
+          {
+            "title": "ボットマネジメントとは?",
+            "url": "https://www.cloudflare.com/learning/bots/what-is-bot-management/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "wvurOKbemF4Tt2WZcmqDL",
+      "type": "topic",
+      "label": "統合とワークフロー",
+      "position": {
+        "x": 74.57806488778613,
+        "y": 2254.2760834530172
+      },
+      "size": {
+        "width": 235,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ワークフローは,さまざまなイベントや状況を管理し,対応するために作成できる自動化されたプロセスを指します.これはしばしば,さまざまな Cloudflare 機能を結びつけ,外部サービスと潜在的に統合することを意味します.ワークフローは,以下のようなタスクを自動化することができます: - セキュリティ脅威に対応する - ウェブサイトのパフォーマンスを最適化する - ユーザーアクセス管理する - 遵守ポリシーを実施する Cloudflare の強みは,さまざまなサービスを統合し,自動化されたワークフローを作成する能力にあります. ウェブホックやAPIを使用して Cloudflare を外部プラットフォームと接続できます.ワークフローは,セキュリティイベントに対応する,リアルタイムデータに基づいてパフォーマンスを最適化する,またはユーザーアクセス管理などのタスクを自動化することができます.Cloudflareのグローバルネットワークを活用する 複雑な効率的なシステムを構築できます",
+        "links": [
+          {
+            "title": "CI/CD · Cloudflare ワーカー",
+            "url": "https://developers.cloudflare.com/workers/ci-cd/",
+            "type": "official"
+          },
+          {
+            "title": "Cloudflare ワークフロー",
+            "url": "https://developers.cloudflare.com/workflows/",
+            "type": "official"
+          },
+          {
+            "title": "ワーカーズ・ビルド:ワーカーズ・プラットフォームに構築された統合IC/CD",
+            "url": "https://blog.cloudflare.com/workers-builds-integrated-ci-cd-built-on-the-workers-platform/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "SaHqm7T4FFVrsgyfImo66",
+      "type": "subtopic",
+      "label": "ページの機能",
+      "position": {
+        "x": 58.14668680870477,
+        "y": 2349.674307977968
+      },
+      "size": {
+        "width": 270,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ページ機能 (現在は Cloudflare Functionsの一部) は,Cloudflare Pages プロジェクト内で直接サーバーレスコードを実行できるようにします. これにより,フォーム処理やAPI エンドポイントなどのダイナミックな機能を他の静止サイトに追加できます.それらは静止資産とともに展開され,Cloudflare のエッジネットワークで実行され,低遅延と高いパフォーマンスを保証します.",
+        "links": [
+          {
+            "title": "機能 · Cloudflare ページ",
+            "url": "https://developers.cloudflare.com/pages/functions/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JfpVexcbuWCx_R3EjFmbo",
+      "type": "subtopic",
+      "label": "サービス 義務",
+      "position": {
+        "x": 58.14668680870477,
+        "y": 2402.674307977968
+      },
+      "size": {
+        "width": 270,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Service Bindings は Cloudflare ワーカーが他の Cloudflare サービスと無縫に統合できるようにします. KV ストレージ,耐久性オブジェクト,R2 ストレージ,その他のワーカーなどのリソースにアクセスするための安全かつ効率的な方法を提供します.API キーまたは直接のネットワーク コールを使用する代わりに,Service Bindings はワーカーと接続されたサービス間の直接の接続を作り,構成を簡素化し,パフォーマンスを向上させます. Cloudflare 生態系の全力を活用する複雑なアプリケーションを構築するために不可欠です.",
+        "links": [
+          {
+            "title": "サービスリンク · Cloudflare",
+            "url": "https://developers.cloudflare.com/workers/platform/service-bindings/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "jYAUIKozuhsNK5LbkeAJ6",
+      "type": "subtopic",
+      "label": "従業員間のコミュニケーション",
+      "position": {
+        "x": 58.14668680870477,
+        "y": 2455.674307977968
+      },
+      "size": {
+        "width": 270,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "インターワーカー通信により,さまざまな Cloudflare ワーカーがデータと交流し,共有することができます.これは以下の方法で達成できます. - ** 耐久性オブジェクト:** ワーカーが耐久性オブジェクトを使用して持続的なデータと調整状態を共有することができます. - ** KV ストレージ:** ワーカーが共有された KV 名前空間にデータを読み書きすることができます. - ** Webhooks:** ワーカーが Webhook リクエストを送信することによって別の作業を開始できます.これらの方法は,異なるワーカーが特定のタスクを処理し,共通の目標を達成するために協力する複雑なアプリケーションを構築することができます.",
+        "links": [
+          {
+            "title": "プラットフォームのワーカーが働く方法 - Cloudflare Docs",
+            "url": "https://developers.cloudflare.com/cloudflare-for-platforms/workers-for-platforms/reference/how-workers-for-platforms-works/",
+            "type": "official"
+          },
+          {
+            "title": "Cloudflare の 従業員 の 間 の 協力",
+            "url": "https://dev.to/chimame/cooperation-between-cloudflare-workers-has-become-amazing-thanks-to-rpc-support-4co9",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4g5w6IAdzefdlRTxbRbdS",
+      "type": "subtopic",
+      "label": "エクステル API 統合",
+      "position": {
+        "x": 58.14668680870477,
+        "y": 2508.674307977968
+      },
+      "size": {
+        "width": 270,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Cloudflare Workers は,機能を豊かにするために外部 API と統合できます.Worker の内部で,第三者のサービスにリクエストを行うために fetch() を使用できます.これは: - 外部のソースからデータを回収する. - 外部のシステムにデータを送信する. - API キーまたはトークンを使用して外部サービスで認証する. 外部の API と統合することで,他のプラットフォームの能力を活用する強力なアプリケーションを構築することができます.",
+        "links": [
+          {
+            "title": "API · Cloudflare ワーカー",
+            "url": "https://developers.cloudflare.com/workers/configuration/integrations/apis/",
+            "type": "official"
+          },
+          {
+            "title": "外部サービス · Cloudflare ワーカー",
+            "url": "https://developers.cloudflare.com/workers/configuration/integrations/external-services/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "uOUjI6CPrhZIlz6mRCtOW",
+      "type": "subtopic",
+      "label": "Webhook ハンドリング",
+      "position": {
+        "x": 58.14668680870477,
+        "y": 2561.674307977968
+      },
+      "size": {
+        "width": 270,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Cloudflare は Webhook を処理し,外部 イベント に基づいてアクション を起動できます. Cloudflare ワーカーは Webhook 要求 を受信し,データを処理するように設定できます. これにより, Cloudflare を GitHub, Slack,またはモニタリング ツールなどの他のサービスと統合できます. 外部 サービス で イベント が起こると, Cloudflare Worker に Webhook を送信し,その後, DNS 記録を更新し,キャッシュをクリアし,または通知を送信するなどのアクションを実行できます.",
+        "links": [
+          {
+            "title": "Webhooks を設定する - Cloudflare",
+            "url": "https://developers.cloudflare.com/notifications/get-started/configure-webhooks/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Z9Yywlf7rXFBtxTq5B2Y5",
+      "type": "subtopic",
+      "label": "イベント主導のアーキテクチャ",
+      "position": {
+        "x": 58.14668680870477,
+        "y": 2614.674307977968
+      },
+      "size": {
+        "width": 270,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Cloudflare Workers はイベント主導のアーキテクチャに適しています. 様々なイベントに基づいて Workers を起動できます.例えば: - 入ってくる HTTP リクエスト - 予定されたタスク (Cron Trigger を使用して) - 外部のサービスからの Webhooks これは,リアルタイムでイベントに対応する反応システムを構築することができます. 作業員はイベントを処理し,他のアクションを起動し,複雑なタスクを自動化するチェーン反応を作成します.",
+        "links": [
+          {
+            "title": "イベント 駆動 建築 は 何 です か",
+            "url": "https://www.ibm.com/think/topics/event-driven-architecture",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "gsCRhwwjXuyueaYHSPOVZ",
+      "type": "topic",
+      "label": "開発ツール",
+      "position": {
+        "x": 552.5408714863938,
+        "y": 2254.2760834530172
+      },
+      "size": {
+        "width": 193,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "- **Wrangler:** コマンドラインインターフェース (CLI) は Cloudflare Workers とのインタラクションの主要なツールです.プロジェクト作成,ローカルテスト,デプロイメント,秘密管理などに対応します.Wrangler は開発ライフサイクル全体を簡素化します. **Miniflare:** このローカルシミュレーターは,あなたのマシンで Cloudflare Workers 環境を複製します. KV ストレージ,耐久Objects,キャッシュ API のような機能をサポートします.ローカル開発環境を設定することなく,小さなコードスニペットを迅速にプロトタイプしてテストするのに最適です. **VS Code Extension:** この拡張子はVisual Studio Code と統合され,Cloudflare Workers の構文強調,コード完了,デバッグサポートなどの機能を提供します.",
+        "links": []
+      }
+    },
+    {
+      "id": "n0vIbHmUZHrF4WjEhYdb8",
+      "type": "subtopic",
+      "label": "ワングラー",
+      "position": {
+        "x": 537.0408714863938,
+        "y": 2348.4410077281054
+      },
+      "size": {
+        "width": 223,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Wrangler は Cloudflare ワーカーの構築,部署,管理のためのコマンドラインインターフェース (CLI) ツールです.新しいプロジェクトを作成するためのコマンド,ローカルでワーカーのテスト,Cloudflare のエッジネットワークにコードを部署し,秘密を管理するためのコマンドを提供することによって開発ワークフローを簡素化します.Wrangler は多くのタスクを自動化し,Cloudflare でサーバーのないアプリケーションを開発し,部署することを容易にする.",
+        "links": [
+          {
+            "title": "ワングラードキュメント",
+            "url": "https://developers.cloudflare.com/workers/wrangler/",
+            "type": "official"
+          },
+          {
+            "title": "ワングラー コマンド",
+            "url": "https://developers.cloudflare.com/workers/wrangler/commands//",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "vZHBp4S6WaS5sa5rfUOk-",
+      "type": "subtopic",
+      "label": "ミニフラワー",
+      "position": {
+        "x": 537.0408714863938,
+        "y": 2401.4410077281054
+      },
+      "size": {
+        "width": 223,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Miniflare は Cloudflare Workers の シミュレーターで, Workers を本地でテストすることができます. KV ストレージ,ダラブル オブジェクト,キャッシュ API のような機能を含む Cloudflare Workers の実行時間環境を模倣します. Miniflare は Cloudflare の エッジ ネットワークに展開せずに迅速なイテレーションとデバッグを可能にします. Workers をオフラインまたは制御された環境で開発およびテストするための貴重なツールです.",
+        "links": [
+          {
+            "title": "ミニフラワー - クラウドフラワーワーカー",
+            "url": "https://developers.cloudflare.com/workers/testing/miniflare/",
+            "type": "official"
+          },
+          {
+            "title": "クラウドフラワー/ミニフラワー",
+            "url": "https://github.com/cloudflare/miniflare",
+            "type": "opensource"
+          }
+        ]
+      }
+    },
+    {
+      "id": "G6YQZUQh_x8Qxm1oBseLQ",
+      "type": "subtopic",
+      "label": "DevTools",
+      "position": {
+        "x": 537.0408714863938,
+        "y": 2454.4410077281054
+      },
+      "size": {
+        "width": 223,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Cloudflare ワーカーズがエッジで実行されている従来のブラウザ DevTools を直接使用することはできませんが,同様のデバッグ原理を活用できます.Cloudflare はリアルタイムログインのための `wrangler tail`のようなツールを提供し,リクエスト/レスポンスのヘッダをチェックする能力を提供します. `console.log` を戦略的に Worker コード内で使用し, `wrangler tail` を介して出力を分析することは,変数と実行フローを検査する主要な方法です.",
+        "links": [
+          {
+            "title": "Chrome DevTools",
+            "url": "https://developer.chrome.com/docs/devtools",
+            "type": "official"
+          },
+          {
+            "title": "クローム開発ツール クローム開発者向け",
+            "url": "https://developer.chrome.com/docs/devtools/overview/",
+            "type": "official"
+          },
+          {
+            "title": "Cloudflare ワーカーをデバッグする",
+            "url": "https://developers.cloudflare.com/workers/playground/#devtools",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "jyWxaMx7_nojt5HsyAv7K",
+      "type": "subtopic",
+      "label": "テストフレームワーク",
+      "position": {
+        "x": 537.0408714863938,
+        "y": 2507.4410077281054
+      },
+      "size": {
+        "width": 223,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "テストフレームワークは Cloudflare ワーカーが正しく機能することを保証するために不可欠です.人気のオプションは Jest, Mocha, Chai などです.これらのフレームワークは,ワーカーのためにユニットテスト,統合テスト,エンド・トゥ・エンドテストを書き込むことができます. Cloudflare の環境をシミュレートし,ワーカーが異なる要求やイベントにどのように反応するかテストできます.徹底的なテストは,開発プロセス初期にバグを特定し,修正するのに役立ちます.",
+        "links": [
+          {
+            "title": "テスト - Cloudflare ワーカーズ ドキュメント",
+            "url": "https://developers.cloudflare.com/workers/testing/",
+            "type": "official"
+          },
+          {
+            "title": "ジェスト - 楽しい ジャワスクリプト テスト",
+            "url": "https://jestjs.io/",
+            "type": "article"
+          },
+          {
+            "title": "Vitest - 迅速 な ジャワスクリプト テスト ツール",
+            "url": "https://vitest.dev/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Cy2T8978yUAPGol-yzxv_",
+      "type": "subtopic",
+      "label": "監視ツール",
+      "position": {
+        "x": 537.0408714863938,
+        "y": 2560.4410077281054
+      },
+      "size": {
+        "width": 223,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "監視ツールは Cloudflare アプリケーションのパフォーマンスと健康に関する洞察を提供します. Cloudflare は内蔵の分析を提供しています.しかし,Datadog,New Relic,または Prometheus などの外部モニタリングサービスと統合することもできます.これらのツールは,以下のようなメトリックを追跡することができます: - リクエスト遅延率 - エラーレート - キャッシュヒット比 - リソース使用 これらのメトリックをモニタリングすることによって,パフォーマンスボトルネックスを識別し,セキュリティ脅威を検出し,アプリケーションがスムーズに実行していることを確認できます.",
+        "links": [
+          {
+            "title": "アプリケーションパフォーマンスモニタリングツール",
+            "url": "https://www.cloudflare.com/application-services/solutions/app-performance-monitoring/",
+            "type": "official"
+          },
+          {
+            "title": "ネットワーク監視ツール",
+            "url": "https://www.cloudflare.com/network-services/solutions/network-monitoring-tools/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "TmQC7fTL6b9EsBDYibv4g",
+      "type": "subtopic",
+      "label": "デバッグ テクニック",
+      "position": {
+        "x": 537.0408714863938,
+        "y": 2613.4410077281054
+      },
+      "size": {
+        "width": 223,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Cloudflare Workerのデバッグにはいくつかの技術が含まれます. - **Console Logging:** ヽconsole.log() ヽ を使って変数を出力し,コード実行を追跡します. - **`wrangler tail`:** コマンドラインで Workerからのリアルタイムログを表示します. - **Source Maps:** 簡単にデバッグするために,元のソースに復元されたコードをマッピングします. - **Try-Catch Blocks:** エラーを優雅に処理し,関連情報を記録します. - **Local Testing:** `` を使って,Workersを部署前に現地でテストします. これらの技術により, Workerの問題を効果的に識別し解決できます.",
+        "links": [
+          {
+            "title": "Chrome DevTools",
+            "url": "https://developer.chrome.com/docs/devtools",
+            "type": "official"
+          },
+          {
+            "title": "Cloudflare ワーカーをデバッグする",
+            "url": "https://developers.cloudflare.com/workers/playground/#devtools",
+            "type": "official"
+          },
+          {
+            "title": "Cloudflare ワーカーをデバッグする",
+            "url": "https://blog.cloudflare.com/debugging-cloudflare-workers/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "8WZpSKBHCeYfTEL9tBNKr",
+      "type": "topic",
+      "label": "トンネル",
+      "position": {
+        "x": 562.0408714863938,
+        "y": 1852.987126931784
+      },
+      "size": {
+        "width": 173,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Cloudflare Tunnel は,直接攻撃からあなたの起源を保護し,ネットワークの構成を簡素化します. セキュリティを損なうことなく,ウェブアプリケーション,API,その他のサービスをインターネットに安全に暴露するために Cloudflare Tunnel を使用できます.",
+        "links": [
+          {
+            "title": "クラウドフレアトンネル · Cloudflare Zero Trust",
+            "url": "https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/",
+            "type": "official"
+          },
+          {
+            "title": "トンネルは使いやすい - Cloudflare ブログ",
+            "url": "https://blog.cloudflare.com/ridiculously-easy-to-use-tunnels/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "HKEkt3803YCZEiuKAK03p",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": 421.119142886761,
+        "y": 2279.0426302976457
+      },
+      "size": {
+        "width": 21,
+        "height": 454
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.85
+      },
+      "z_index": 999
+    },
+    {
+      "id": "xi0QAi4kXm3-IFKgopnOP",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": 303.6803864110923,
+        "y": 2841.402758744258
+      },
+      "size": {
+        "width": 21,
+        "height": 85
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    }
+  ],
+  "edges": [
+    {
+      "id": "XX0I26JoVMVXIe_7bVMix",
+      "source": "iogwMmOvub2ZF4zgg6WyF",
+      "target": "_hYN0gEi9BL24nptEtXWU",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "dFn6kGOoJ-0BzJJEb9DSG",
+      "source": "_hYN0gEi9BL24nptEtXWU",
+      "target": "idLHBxhvcIqZTqmh_E8Az",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "arkF7QJJRbCBYWp0crqa2",
+      "source": "_hYN0gEi9BL24nptEtXWU",
+      "target": "os3Pa6W9SSNEzgmlBbglQ",
+      "source_handle": "z2",
+      "target_handle": "y2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "HNVw8OboycWKLEtEbG2bn",
+      "source": "_hYN0gEi9BL24nptEtXWU",
+      "target": "3oInpqvTSSC5_K6i7j8N7",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "auB7Png72XjmhcLr3IJA7",
+      "source": "_hYN0gEi9BL24nptEtXWU",
+      "target": "YKhuRbcUFzo0hTvuTq-Yl",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "2aoDIr80lXSJLW1hIGUkb",
+      "source": "jZ67HhVRelJaxjsCckSSI",
+      "target": "hWA7RtuqltMTmHdcCnmES",
+      "source_handle": "x2",
+      "target_handle": "y1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "m-_y7nLeYFkUKGiacxWA0",
+      "source": "",
+      "target": "NMznG9mo2wzNFnjhg990f",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "G7pXuJfkyt2nWAOHU8yV0",
+      "source": "",
+      "target": "gc_7cuIO2_joKlQRAPDfX",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "2_6Yz3-Agx9_rEN5xW86c",
+      "source": "rrrvATyhXqRgJGWI3z0WF",
+      "target": "AvbMQ5vY3ip1oX_6Yq4ie",
+      "source_handle": "x2",
+      "target_handle": "w2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "kgMI98fg2-mKMgUs0wnjD",
+      "source": "hWA7RtuqltMTmHdcCnmES",
+      "target": "1AJv95mTLpR7L8KBoGym8",
+      "source_handle": "w2",
+      "target_handle": "x1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "ts38Q2ceHs60TJscUBZVE",
+      "source": "hWA7RtuqltMTmHdcCnmES",
+      "target": "0etAs56EeBfh_0IlAaSra",
+      "source_handle": "y2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "ZiMV7umyPdhy3JJDcopR-",
+      "source": "jZ67HhVRelJaxjsCckSSI",
+      "target": "h6ceO0kiBIxNRkPzN3hBY",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "WI-MhbxrehFcVwyGJ5CQJ",
+      "source": "jZ67HhVRelJaxjsCckSSI",
+      "target": "_JlT9oKQ6Yu4UX6l19G8P",
+      "source_handle": "y2",
+      "target_handle": "z2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "qUrLBzvXvJOg53HBfjrOI",
+      "source": "_hYN0gEi9BL24nptEtXWU",
+      "target": "jZ67HhVRelJaxjsCckSSI",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-Ji35JsKgUQXN4DJGEgTACx2-t3Op8UcgDKVeMLNMDePrWw1",
+      "source": "Ji35JsKgUQXN4DJGEgTAC",
+      "target": "t3Op8UcgDKVeMLNMDePrW",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-t3Op8UcgDKVeMLNMDePrWy2-PcYnYAAkKMbzoiCnBfjqOz1",
+      "source": "t3Op8UcgDKVeMLNMDePrW",
+      "target": "PcYnYAAkKMbzoiCnBfjqO",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-7XrG-k9T12u84Pwp4YwaYy2-TB6vGzDgGZ9yAd9MGR7vwz1",
+      "source": "7XrG-k9T12u84Pwp4YwaY",
+      "target": "TB6vGzDgGZ9yAd9MGR7vw",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-7XrG-k9T12u84Pwp4YwaYy2-aGWLomYHGkIfn7GFc0_Ylz1",
+      "source": "7XrG-k9T12u84Pwp4YwaY",
+      "target": "aGWLomYHGkIfn7GFc0_Yl",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-7XrG-k9T12u84Pwp4YwaYy2-HNEXPU6r_T7UYvwLv2wntz1",
+      "source": "7XrG-k9T12u84Pwp4YwaY",
+      "target": "HNEXPU6r_T7UYvwLv2wnt",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-7XrG-k9T12u84Pwp4YwaYy2-_2UnRlbUplHvs5-Stj4O4z1",
+      "source": "7XrG-k9T12u84Pwp4YwaY",
+      "target": "_2UnRlbUplHvs5-Stj4O4",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-7XrG-k9T12u84Pwp4YwaYy2-i6L9FI6fBDXr0XtMrc_uRz1",
+      "source": "7XrG-k9T12u84Pwp4YwaY",
+      "target": "i6L9FI6fBDXr0XtMrc_uR",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-7XrG-k9T12u84Pwp4YwaYy2-WZSi9inWPhqZQvDN-C8BVz1",
+      "source": "7XrG-k9T12u84Pwp4YwaY",
+      "target": "WZSi9inWPhqZQvDN-C8BV",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-7XrG-k9T12u84Pwp4YwaYy2-uBjcQ9PJUfwzu5N_2CNjNz2",
+      "source": "7XrG-k9T12u84Pwp4YwaY",
+      "target": "uBjcQ9PJUfwzu5N_2CNjN",
+      "source_handle": "y2",
+      "target_handle": "z2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-7XrG-k9T12u84Pwp4YwaYy2-aStbAF4zraqhJ-N3RH4haz2",
+      "source": "7XrG-k9T12u84Pwp4YwaY",
+      "target": "aStbAF4zraqhJ-N3RH4ha",
+      "source_handle": "y2",
+      "target_handle": "z2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-7XrG-k9T12u84Pwp4YwaYy2-9ef2VPCru8lCmRxxGe-Eoz2",
+      "source": "7XrG-k9T12u84Pwp4YwaY",
+      "target": "9ef2VPCru8lCmRxxGe-Eo",
+      "source_handle": "y2",
+      "target_handle": "z2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-7XrG-k9T12u84Pwp4YwaYx2-IubwhdnyWtjpejkGOfnPyw1",
+      "source": "7XrG-k9T12u84Pwp4YwaY",
+      "target": "IubwhdnyWtjpejkGOfnPy",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-Ji35JsKgUQXN4DJGEgTACx2-c2YZ7PPCX1jF_RU7C0AqNw2",
+      "source": "Ji35JsKgUQXN4DJGEgTAC",
+      "target": "c2YZ7PPCX1jF_RU7C0AqN",
+      "source_handle": "x2",
+      "target_handle": "w2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-IubwhdnyWtjpejkGOfnPyz2-kJXPzUulKPhawgbEK7n9ly1",
+      "source": "IubwhdnyWtjpejkGOfnPy",
+      "target": "kJXPzUulKPhawgbEK7n9l",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-IubwhdnyWtjpejkGOfnPyx2-3BGY76hTLAE8PY7OXQtNRw1",
+      "source": "IubwhdnyWtjpejkGOfnPy",
+      "target": "3BGY76hTLAE8PY7OXQtNR",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-1dGFfQauOgHP7T4ReMpCUx2-EBTHbXOOZiqrcYJvKhcWVw2",
+      "source": "1dGFfQauOgHP7T4ReMpCU",
+      "target": "EBTHbXOOZiqrcYJvKhcWV",
+      "source_handle": "x2",
+      "target_handle": "w2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-3BGY76hTLAE8PY7OXQtNRy2-1dGFfQauOgHP7T4ReMpCUz1",
+      "source": "3BGY76hTLAE8PY7OXQtNR",
+      "target": "1dGFfQauOgHP7T4ReMpCU",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-3BGY76hTLAE8PY7OXQtNRx2-gxLUlXGuaY5Q-0xmBgQwzw1",
+      "source": "3BGY76hTLAE8PY7OXQtNR",
+      "target": "gxLUlXGuaY5Q-0xmBgQwz",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-gxLUlXGuaY5Q-0xmBgQwzz2-K9iW2H6riKwddWmpWJFJwy1",
+      "source": "gxLUlXGuaY5Q-0xmBgQwz",
+      "target": "K9iW2H6riKwddWmpWJFJw",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-gxLUlXGuaY5Q-0xmBgQwzz2-BPahk1qH9Hk11tsE2hw3Ay1",
+      "source": "gxLUlXGuaY5Q-0xmBgQwz",
+      "target": "BPahk1qH9Hk11tsE2hw3A",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-gxLUlXGuaY5Q-0xmBgQwzz2-3jU5753Uza2aS-gZo7w4ky1",
+      "source": "gxLUlXGuaY5Q-0xmBgQwz",
+      "target": "3jU5753Uza2aS-gZo7w4k",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-gxLUlXGuaY5Q-0xmBgQwzz2-UNE6XK4su5r2jcxhY7hOGy1",
+      "source": "gxLUlXGuaY5Q-0xmBgQwz",
+      "target": "UNE6XK4su5r2jcxhY7hOG",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-gxLUlXGuaY5Q-0xmBgQwzz2-YvgmmF9sWfURgijFV7E31y1",
+      "source": "gxLUlXGuaY5Q-0xmBgQwz",
+      "target": "YvgmmF9sWfURgijFV7E31",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-gxLUlXGuaY5Q-0xmBgQwzx2-mKN0Ta3zSk7PCm_uHYKFNw2",
+      "source": "gxLUlXGuaY5Q-0xmBgQwz",
+      "target": "mKN0Ta3zSk7PCm_uHYKFN",
+      "source_handle": "x2",
+      "target_handle": "w2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-mKN0Ta3zSk7PCm_uHYKFNz2-9MlFtF1q0eis4YmCEmIiry1",
+      "source": "mKN0Ta3zSk7PCm_uHYKFN",
+      "target": "9MlFtF1q0eis4YmCEmIir",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-zyRgTtlng6idboSgL9YTtx2-EFA8m0EdhygxcBWzwmbnTw2",
+      "source": "zyRgTtlng6idboSgL9YTt",
+      "target": "EFA8m0EdhygxcBWzwmbnT",
+      "source_handle": "x2",
+      "target_handle": "w2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-9MlFtF1q0eis4YmCEmIirx2-zyRgTtlng6idboSgL9YTtw1",
+      "source": "9MlFtF1q0eis4YmCEmIir",
+      "target": "zyRgTtlng6idboSgL9YTt",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-zyRgTtlng6idboSgL9YTty2-G-xBbtaniYFRE9Dgs18pxz1",
+      "source": "zyRgTtlng6idboSgL9YTt",
+      "target": "G-xBbtaniYFRE9Dgs18px",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-G-xBbtaniYFRE9Dgs18pxy2-rAl7zXcODiqIpS__3qf1Az1",
+      "source": "G-xBbtaniYFRE9Dgs18px",
+      "target": "rAl7zXcODiqIpS__3qf1A",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-rAl7zXcODiqIpS__3qf1Ax2-yTtjbO_dji8ssSaOAKpCVw1",
+      "source": "rAl7zXcODiqIpS__3qf1A",
+      "target": "yTtjbO_dji8ssSaOAKpCV",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-yTtjbO_dji8ssSaOAKpCVx2-a0S0_JLwLLNGLUAHrqG4Pw1",
+      "source": "yTtjbO_dji8ssSaOAKpCV",
+      "target": "a0S0_JLwLLNGLUAHrqG4P",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-a0S0_JLwLLNGLUAHrqG4Px2-zMwmoCUp9429_aXU-Bz4Hw2",
+      "source": "a0S0_JLwLLNGLUAHrqG4P",
+      "target": "zMwmoCUp9429_aXU-Bz4H",
+      "source_handle": "x2",
+      "target_handle": "w2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-a0S0_JLwLLNGLUAHrqG4Pz2-vHQdMgaL2EEr2o_eJmOuVy2",
+      "source": "a0S0_JLwLLNGLUAHrqG4P",
+      "target": "NWGVtH1vxQuO4lly0Omuy",
+      "source_handle": "z2",
+      "target_handle": "y2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-G-xBbtaniYFRE9Dgs18pxx2-EQjhRlM7zpANNWkypScIlw1",
+      "source": "G-xBbtaniYFRE9Dgs18px",
+      "target": "EQjhRlM7zpANNWkypScIl",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-vHQdMgaL2EEr2o_eJmOuVx2-UIWaR1ZdjSm0UAS69Kz_5w2",
+      "source": "NWGVtH1vxQuO4lly0Omuy",
+      "target": "UIWaR1ZdjSm0UAS69Kz_5",
+      "source_handle": "x2",
+      "target_handle": "w2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-NWGVtH1vxQuO4lly0Omuyz2-vHQdMgaL2EEr2o_eJmOuVy2",
+      "source": "NWGVtH1vxQuO4lly0Omuy",
+      "target": "LoT3NtpNj9uAgQRV-MD_E",
+      "source_handle": "z2",
+      "target_handle": "y2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-vHQdMgaL2EEr2o_eJmOuVx2-zQp7XfDKWJgMf2LexRJhNw2",
+      "source": "LoT3NtpNj9uAgQRV-MD_E",
+      "target": "zQp7XfDKWJgMf2LexRJhN",
+      "source_handle": "x2",
+      "target_handle": "w2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-LoT3NtpNj9uAgQRV-MD_Ez2-8bOWuopxHtBWUSFaVT54Py1",
+      "source": "LoT3NtpNj9uAgQRV-MD_E",
+      "target": "8bOWuopxHtBWUSFaVT54P",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-QxPoNHsL-Pj_z3aU6qEP4x2-SvGk66F2HtuWcMgZ8ILIIw2",
+      "source": "QxPoNHsL-Pj_z3aU6qEP4",
+      "target": "SvGk66F2HtuWcMgZ8ILII",
+      "source_handle": "x2",
+      "target_handle": "w2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-7XrG-k9T12u84Pwp4YwaYy2-aKEH4ZxI6J1nwjp_AgH5rz2",
+      "source": "7XrG-k9T12u84Pwp4YwaY",
+      "target": "aKEH4ZxI6J1nwjp_AgH5r",
+      "source_handle": "y2",
+      "target_handle": "z2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-8bOWuopxHtBWUSFaVT54Px2-vHQdMgaL2EEr2o_eJmOuVw2",
+      "source": "8bOWuopxHtBWUSFaVT54P",
+      "target": "vHQdMgaL2EEr2o_eJmOuV",
+      "source_handle": "x2",
+      "target_handle": "w2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-z-1Ye5hcNdr9r6Gwdw7mvx2--lsYPD6JueIV94RybGH_Yw1",
+      "source": "z-1Ye5hcNdr9r6Gwdw7mv",
+      "target": "-lsYPD6JueIV94RybGH_Y",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-z-1Ye5hcNdr9r6Gwdw7mvy2-vu8yJsS1WccsdcEVUqwNdz2",
+      "source": "z-1Ye5hcNdr9r6Gwdw7mv",
+      "target": "vu8yJsS1WccsdcEVUqwNd",
+      "source_handle": "y2",
+      "target_handle": "z2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-vu8yJsS1WccsdcEVUqwNdy2-qkFRW_tJB8_1IYpYskQ5Mz2",
+      "source": "vu8yJsS1WccsdcEVUqwNd",
+      "target": "qkFRW_tJB8_1IYpYskQ5M",
+      "source_handle": "y2",
+      "target_handle": "z2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-qkFRW_tJB8_1IYpYskQ5Mx2-76xovsBrKOnlRBVjsqNq1w1",
+      "source": "qkFRW_tJB8_1IYpYskQ5M",
+      "target": "76xovsBrKOnlRBVjsqNq1",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-76xovsBrKOnlRBVjsqNq1y2-8IF7jftushwZrn7JXpC_vz1",
+      "source": "76xovsBrKOnlRBVjsqNq1",
+      "target": "8IF7jftushwZrn7JXpC_v",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-76xovsBrKOnlRBVjsqNq1y2-uNinrB9wm5ahjGXu5fc0gz1",
+      "source": "76xovsBrKOnlRBVjsqNq1",
+      "target": "uNinrB9wm5ahjGXu5fc0g",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-76xovsBrKOnlRBVjsqNq1y2-KWix4jeNUKJ07Iu95Mqj_z1",
+      "source": "76xovsBrKOnlRBVjsqNq1",
+      "target": "KWix4jeNUKJ07Iu95Mqj_",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-76xovsBrKOnlRBVjsqNq1y2-JP5U6c2fZjtkU-Xzwtapxz1",
+      "source": "76xovsBrKOnlRBVjsqNq1",
+      "target": "JP5U6c2fZjtkU-Xzwtapx",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-76xovsBrKOnlRBVjsqNq1y2-ui3pUfsGMxv4WRzHkgbF0z1",
+      "source": "76xovsBrKOnlRBVjsqNq1",
+      "target": "ui3pUfsGMxv4WRzHkgbF0",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-76xovsBrKOnlRBVjsqNq1y2-INiqdtppBmCthOEXuHb-Vz1",
+      "source": "76xovsBrKOnlRBVjsqNq1",
+      "target": "INiqdtppBmCthOEXuHb-V",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-76xovsBrKOnlRBVjsqNq1y2-sXBxaQtwJ-luGVXdqVXk1z1",
+      "source": "76xovsBrKOnlRBVjsqNq1",
+      "target": "sXBxaQtwJ-luGVXdqVXk1",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-76xovsBrKOnlRBVjsqNq1y2-So-cKAVfbgsw2zzFREu7Qz1",
+      "source": "76xovsBrKOnlRBVjsqNq1",
+      "target": "So-cKAVfbgsw2zzFREu7Q",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-76xovsBrKOnlRBVjsqNq1x2-wvurOKbemF4Tt2WZcmqDLw1",
+      "source": "76xovsBrKOnlRBVjsqNq1",
+      "target": "wvurOKbemF4Tt2WZcmqDL",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-wvurOKbemF4Tt2WZcmqDLx2-SaHqm7T4FFVrsgyfImo66w2",
+      "source": "wvurOKbemF4Tt2WZcmqDL",
+      "target": "SaHqm7T4FFVrsgyfImo66",
+      "source_handle": "x2",
+      "target_handle": "w2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-wvurOKbemF4Tt2WZcmqDLz2-gsCRhwwjXuyueaYHSPOVZy2",
+      "source": "wvurOKbemF4Tt2WZcmqDL",
+      "target": "gsCRhwwjXuyueaYHSPOVZ",
+      "source_handle": "z2",
+      "target_handle": "y2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-gsCRhwwjXuyueaYHSPOVZx2-n0vIbHmUZHrF4WjEhYdb8w1",
+      "source": "gsCRhwwjXuyueaYHSPOVZ",
+      "target": "n0vIbHmUZHrF4WjEhYdb8",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-vHQdMgaL2EEr2o_eJmOuVx2-8WZpSKBHCeYfTEL9tBNKrw1",
+      "source": "vHQdMgaL2EEr2o_eJmOuV",
+      "target": "8WZpSKBHCeYfTEL9tBNKr",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-8WZpSKBHCeYfTEL9tBNKrx2-z-1Ye5hcNdr9r6Gwdw7mvw2",
+      "source": "8WZpSKBHCeYfTEL9tBNKr",
+      "target": "z-1Ye5hcNdr9r6Gwdw7mv",
+      "source_handle": "x2",
+      "target_handle": "w2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    }
+  ],
+  "content_crawled_at": "2026-04-06T08:58:25.431887+00:00"
+}

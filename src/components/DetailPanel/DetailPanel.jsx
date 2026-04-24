@@ -1,5 +1,6 @@
 import { useEffect, useCallback } from 'react'
 import { X, BookOpen, ExternalLink, FileText, Video, BookMarked, Link2, Podcast, Wrench, GraduationCap, BookOpenCheck, CheckCircle2 } from 'lucide-react'
+import { useLocale } from '../../contexts/LocaleContext'
 import styles from './DetailPanel.module.css'
 
 const typeIcons = {
@@ -20,10 +21,13 @@ export default function DetailPanel({
   onClose,
   progressEnabled = false,
   progressAvailable = false,
+  progressStorageScope = 'account',
   completed = false,
   progressBusy = false,
   onToggleCompleted,
 }) {
+  const { t } = useLocale()
+
   const handleKeyDown = useCallback((e) => {
     if (e.key === 'Escape') onClose()
   }, [onClose])
@@ -62,7 +66,7 @@ export default function DetailPanel({
           <button
             className={styles.closeBtn}
             onClick={onClose}
-            aria-label="Close panel"
+            aria-label={t('detail.closePanel')}
             id="detail-close-btn"
           >
             <X size={18} />
@@ -75,27 +79,34 @@ export default function DetailPanel({
             <div className={styles.progressSection}>
               <div className={styles.sectionLabel}>
                 <CheckCircle2 size={14} />
-                Learning Progress
+                {t('detail.learningProgress')}
               </div>
 
               {progressAvailable ? (
-                <button
-                  type="button"
-                  className={`${styles.progressToggleBtn} ${completed ? styles.progressDone : ''}`}
-                  onClick={onToggleCompleted}
-                  disabled={progressBusy}
-                  id="detail-progress-toggle"
-                >
-                  <CheckCircle2 size={16} />
-                  {progressBusy
-                    ? 'Saving...'
-                    : completed
-                      ? 'Completed (click to mark as not completed)'
-                      : 'Mark as completed'}
-                </button>
+                <>
+                  <button
+                    type="button"
+                    className={`${styles.progressToggleBtn} ${completed ? styles.progressDone : ''}`}
+                    onClick={onToggleCompleted}
+                    disabled={progressBusy}
+                    id="detail-progress-toggle"
+                  >
+                    <CheckCircle2 size={16} />
+                    {progressBusy
+                      ? t('detail.saving')
+                      : completed
+                        ? t('detail.completedToggle')
+                        : t('detail.markCompleted')}
+                  </button>
+                  <p className={styles.progressStorageHint}>
+                    {progressStorageScope === 'account'
+                      ? t('detail.progressSynced')
+                      : t('detail.progressBrowserOnly')}
+                  </p>
+                </>
               ) : (
                 <p className={styles.progressLoginHint}>
-                  Sign in to save your learning progress.
+                    {t('detail.signInHint')}
                 </p>
               )}
             </div>
@@ -106,7 +117,7 @@ export default function DetailPanel({
             <div className={styles.descriptionSection}>
               <div className={styles.sectionLabel}>
                 <BookOpen size={14} />
-                Description
+                {t('detail.description')}
               </div>
               <p className={styles.description}>{description}</p>
             </div>
@@ -117,7 +128,7 @@ export default function DetailPanel({
             <div className={styles.resourcesSection}>
               <div className={styles.sectionLabel}>
                 <FileText size={14} />
-                Resources ({links.length})
+                {t('detail.resources')} ({links.length})
               </div>
               <div className={styles.resourceList}>
                 {links.map((res, i) => {
@@ -146,7 +157,7 @@ export default function DetailPanel({
           {/* No content state */}
           {!description && links.length === 0 && (
             <div className={styles.emptyState}>
-              <p>No detailed content available for this topic yet.</p>
+              <p>{t('detail.noContent')}</p>
             </div>
           )}
         </div>

@@ -1,4 +1,7 @@
 import express from 'express'
+import { readFileSync } from 'fs'
+import { join, dirname } from 'path'
+import { fileURLToPath } from 'url'
 import Roadmap from '../models/Roadmap.js'
 import User from '../models/User.js'
 import auth from '../middleware/auth.js'
@@ -16,6 +19,52 @@ const roadmapSummaryProjection = {
 
 const DONE_STATUS = 'done'
 const STEP_TYPES = new Set(['topic', 'subtopic', 'checklist', 'todo'])
+const SUPPORTED_LANGUAGES = new Set(['en', 'ja'])
+
+const __filename = fileURLToPath(import.meta.url)
+const __dirname = dirname(__filename)
+const CLASSIFICATION_PATH = join(__dirname, '..', '..', 'crawldata', 'roadmap_classification.json')
+const JP_ROADMAPS_DIR = join(__dirname, '..', '..', 'crawldata', 'roadmaps_json_jp')
+const JP_ROADMAP_INDEX_PATH = join(JP_ROADMAPS_DIR, '_index.json')
+
+let roleBasedRoadmapIds = []
+let skillBasedRoadmapIds = []
+let japaneseRoadmapSummaryById = new Map()
+let japaneseRoadmapDetailById = new Map()
+
+try {
+  const classification = JSON.parse(readFileSync(CLASSIFICATION_PATH, 'utf-8'))
+  roleBasedRoadmapIds = (classification.role_based_roadmaps || []).map((item) => item.id)
+  skillBasedRoadmapIds = (classification.skill_based_roadmaps || []).map((item) => item.id)
+} catch (error) {
+  console.warn('Failed to load roadmap classification file:', error.message)
+}
+
+try {
+  const jpIndex = JSON.parse(readFileSync(JP_ROADMAP_INDEX_PATH, 'utf-8'))
+
+  for (const item of jpIndex.roadmaps || []) {
+    if (!item?.id) continue
+
+    japaneseRoadmapSummaryById.set(item.id, {
+      title: item.title,
+      type: item.type,
+      sourceUrl: item.source_url,
+    })
+
+    const fileName = item.file || `${item.id}.json`
+    const filePath = join(JP_ROADMAPS_DIR, fileName)
+
+    try {
+      const detail = JSON.parse(readFileSync(filePath, 'utf-8'))
+      japaneseRoadmapDetailById.set(item.id, detail)
+    } catch (fileError) {
+      console.warn(`Failed to load Japanese roadmap file ${fileName}:`, fileError.message)
+    }
+  }
+} catch (error) {
+  console.warn('Failed to load Japanese roadmap index:', error.message)
+}
 
 function getProgressEntries(progressField) {
   if (progressField instanceof Map) {
@@ -29,16 +78,138 @@ function getProgressEntries(progressField) {
   return []
 }
 
+function pickClassifiedRoadmaps(ids, roadmapById, seenRoadmapIds) {
+  const selected = []
+
+  for (const roadmapId of ids) {
+    if (seenRoadmapIds.has(roadmapId)) {
+      continue
+    }
+
+    const roadmap = roadmapById.get(roadmapId)
+    if (!roadmap) {
+      continue
+    }
+
+    selected.push(roadmap)
+    seenRoadmapIds.add(roadmapId)
+  }
+
+  return selected
+}
+
+function getRequestLanguage(req) {
+  const requestedLang = String(req.query.lang || '').toLowerCase()
+  if (SUPPORTED_LANGUAGES.has(requestedLang)) {
+    return requestedLang
+  }
+  return 'en'
+}
+
+function toPlainRoadmap(roadmap) {
+  if (!roadmap) return roadmap
+  return typeof roadmap.toObject === 'function' ? roadmap.toObject() : { ...roadmap }
+}
+
+function localizeRoadmapSummary(roadmap, language) {
+  const plainRoadmap = toPlainRoadmap(roadmap)
+  if (language !== 'ja') {
+    return plainRoadmap
+  }
+
+  const jpSummary = japaneseRoadmapSummaryById.get(plainRoadmap.roadmapId)
+  if (!jpSummary) {
+    return plainRoadmap
+  }
+
+  return {
+    ...plainRoadmap,
+    title: jpSummary.title || plainRoadmap.title,
+    type: jpSummary.type || plainRoadmap.type,
+    sourceUrl: jpSummary.sourceUrl || plainRoadmap.sourceUrl,
+  }
+}
+
+function localizeRoadmapDetail(roadmap, language) {
+  const plainRoadmap = toPlainRoadmap(roadmap)
+  if (language !== 'ja') {
+    return plainRoadmap
+  }
+
+  const jpRoadmap = japaneseRoadmapDetailById.get(plainRoadmap.roadmapId)
+  if (!jpRoadmap) {
+    return plainRoadmap
+  }
+
+  return {
+    ...plainRoadmap,
+    title: jpRoadmap.title || plainRoadmap.title,
+    type: jpRoadmap.type || plainRoadmap.type,
+    sourceUrl: jpRoadmap.source_url || plainRoadmap.sourceUrl,
+    stats: jpRoadmap.stats || plainRoadmap.stats,
+    node_types: jpRoadmap.node_types || plainRoadmap.node_types,
+    edge_styles: jpRoadmap.edge_styles || plainRoadmap.edge_styles,
+    edge_line_types: jpRoadmap.edge_line_types || plainRoadmap.edge_line_types,
+    node_type_description: jpRoadmap.node_type_description || plainRoadmap.node_type_description,
+    edge_style_description: jpRoadmap.edge_style_description || plainRoadmap.edge_style_description,
+    nodes: Array.isArray(jpRoadmap.nodes) ? jpRoadmap.nodes : plainRoadmap.nodes,
+    edges: Array.isArray(jpRoadmap.edges) ? jpRoadmap.edges : plainRoadmap.edges,
+  }
+}
+
 // ── GET /api/roadmaps ──
 // List all roadmaps (no nodes/edges — lightweight for homepage)
 router.get('/', async (req, res) => {
   try {
+    const language = getRequestLanguage(req)
     const roadmaps = await Roadmap.find(
       { type: 'flow' },
       roadmapSummaryProjection
-    ).sort({ title: 1 })
+    )
 
-    res.json({ total: roadmaps.length, roadmaps })
+    const localizedRoadmaps = roadmaps.map((roadmap) => localizeRoadmapSummary(roadmap, language))
+
+    if (!roleBasedRoadmapIds.length && !skillBasedRoadmapIds.length) {
+      const fallbackRoadmaps = [...localizedRoadmaps].sort(
+        (a, b) => a.title.localeCompare(b.title, language)
+      )
+      return res.json({
+        total: fallbackRoadmaps.length,
+        roadmaps: fallbackRoadmaps,
+        roleBased: { total: 0, roadmaps: [] },
+        skillBased: { total: 0, roadmaps: [] },
+      })
+    }
+
+    const roadmapById = new Map(localizedRoadmaps.map((roadmap) => [roadmap.roadmapId, roadmap]))
+    const seenRoadmapIds = new Set()
+
+    const roleBasedRoadmaps = pickClassifiedRoadmaps(
+      roleBasedRoadmapIds,
+      roadmapById,
+      seenRoadmapIds
+    )
+
+    const skillBasedRoadmaps = pickClassifiedRoadmaps(
+      skillBasedRoadmapIds,
+      roadmapById,
+      seenRoadmapIds
+    )
+
+    const classifiedRoadmaps = [...roleBasedRoadmaps, ...skillBasedRoadmaps]
+
+    res.json({
+      total: classifiedRoadmaps.length,
+      roadmaps: classifiedRoadmaps,
+      roleBased: {
+        total: roleBasedRoadmaps.length,
+        roadmaps: roleBasedRoadmaps,
+      },
+      skillBased: {
+        total: skillBasedRoadmaps.length,
+        roadmaps: skillBasedRoadmaps,
+      },
+    })
   } catch (error) {
     console.error('List roadmaps error:', error)
     res.status(500).json({ message: 'Server error' })
@@ -49,6 +220,7 @@ router.get('/', async (req, res) => {
 // Get current user's favorite roadmap summaries
 router.get('/favorites/me', auth, async (req, res) => {
   try {
+    const language = getRequestLanguage(req)
     const favoriteIds = req.user.favorites || []
 
     if (!favoriteIds.length) {
@@ -60,8 +232,12 @@ router.get('/favorites/me', auth, async (req, res) => {
       roadmapSummaryProjection
     )
 
+    const localizedFavorites = favoriteRoadmaps.map((roadmap) =>
+      localizeRoadmapSummary(roadmap, language)
+    )
+
     // Preserve user-defined favorite ordering
-    const roadmapById = new Map(favoriteRoadmaps.map((roadmap) => [roadmap.roadmapId, roadmap]))
+    const roadmapById = new Map(localizedFavorites.map((roadmap) => [roadmap.roadmapId, roadmap]))
     const orderedRoadmaps = favoriteIds
       .map((roadmapId) => roadmapById.get(roadmapId))
       .filter(Boolean)
@@ -225,6 +401,7 @@ router.delete('/:id/progress', auth, async (req, res) => {
 // Get roadmaps where progress is between 0% and 100%
 router.get('/in-progress/me', auth, async (req, res) => {
   try {
+    const language = getRequestLanguage(req)
     const completedCountByRoadmap = new Map()
 
     getProgressEntries(req.user.progress).forEach(([key, status]) => {
@@ -274,12 +451,16 @@ router.get('/in-progress/me', auth, async (req, res) => {
           return null
         }
 
-        return {
+        const localizedSummary = localizeRoadmapSummary({
           roadmapId: roadmap.roadmapId,
           title: roadmap.title,
           type: roadmap.type,
           sourceUrl: roadmap.sourceUrl,
           stats: roadmap.stats,
+        }, language)
+
+        return {
+          ...localizedSummary,
           progress: {
             completedSteps,
             totalSteps,
@@ -295,7 +476,7 @@ router.get('/in-progress/me', auth, async (req, res) => {
         if (b.progress.completedSteps !== a.progress.completedSteps) {
           return b.progress.completedSteps - a.progress.completedSteps
         }
-        return a.title.localeCompare(b.title)
+        return a.title.localeCompare(b.title, language)
       })
 
     res.json({
@@ -312,6 +493,7 @@ router.get('/in-progress/me', auth, async (req, res) => {
 // Get full roadmap with nodes and edges
 router.get('/:id', async (req, res) => {
   try {
+    const language = getRequestLanguage(req)
     const roadmap = await Roadmap.findOne(
       { roadmapId: req.params.id },
       { _id: 0, __v: 0, createdAt: 0, updatedAt: 0 }
@@ -321,7 +503,7 @@ router.get('/:id', async (req, res) => {
       return res.status(404).json({ message: 'Roadmap not found' })
     }
 
-    res.json(roadmap)
+    res.json(localizeRoadmapDetail(roadmap, language))
   } catch (error) {
     console.error('Get roadmap error:', error)
     res.status(500).json({ message: 'Server error' })

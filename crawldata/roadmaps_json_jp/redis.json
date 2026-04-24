@@ -1,0 +1,6028 @@
+{
+  "id": "redis",
+  "title": "レディス",
+  "source_url": "https://roadmap.sh/redis",
+  "github_url": "https://github.com/kamranahmedse/developer-roadmap/tree/master/src/data/roadmaps/redis",
+  "crawled_at": "2026-04-06T07:37:40.649055+00:00",
+  "type": "flow",
+  "stats": {
+    "total_nodes": 240,
+    "total_edges": 61,
+    "nodes_with_content": 147
+  },
+  "node_types": [
+    "button",
+    "horizontal",
+    "label",
+    "paragraph",
+    "section",
+    "subtopic",
+    "title",
+    "topic",
+    "vertical"
+  ],
+  "edge_styles": [
+    "dashed",
+    "solid"
+  ],
+  "edge_line_types": [
+    "default",
+    "simplebezier",
+    "smoothstep",
+    "step"
+  ],
+  "node_type_description": {
+    "title": "ロードマップの主題",
+    "topic": "主題大 (nhóm kỹ năng)",
+    "subtopic": "Kỹ năng/công nghệ cụ thể cần học",
+    "paragraph": "文は mô tả / chú thích",
+    "vertical": "Đường kết nối dọc (ビジュアルコネクタ)"
+  },
+  "edge_style_description": {
+    "solid": "Kỹ năng bắt buộc / quan trọng",
+    "dashed": "選択 / gợi ý / オルタナティブ"
+  },
+  "nodes": [
+    {
+      "id": "H3njQtlasgGo0-IFiFZqL",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": -773.4644850173872,
+        "y": 3639.6036656653055
+      },
+      "size": {
+        "width": 286,
+        "height": 217
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "jdF_BPDRWuFJpgXw7Rds0",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": -217.03386624713073,
+        "y": 2890.0682184225393
+      },
+      "size": {
+        "width": 232,
+        "height": 323
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "7ETrwXaK2xR1AoS7tTyzW",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": 66.37632224296237,
+        "y": 2962.163811355771
+      },
+      "size": {
+        "width": 194,
+        "height": 253
+      },
+      "style": {
+        "width": 150,
+        "height": 100,
+        "fontSize": 17,
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "NLTXQpEiKE6rNo3tmN-EU",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": -796.6812271795868,
+        "y": 3056.3469766128146
+      },
+      "size": {
+        "width": 271,
+        "height": 173
+      },
+      "style": {
+        "width": 150,
+        "height": 100,
+        "fontSize": 17,
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "7b0qKpLRQkkSzCA_x3bsP",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": -796.5040036977603,
+        "y": 2570.722300491497
+      },
+      "size": {
+        "width": 271,
+        "height": 221
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "dRhBLcgWnvsKEUIEeckVM",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": -796.5040036977603,
+        "y": 2784.821469532407
+      },
+      "size": {
+        "width": 271,
+        "height": 274
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "PXWvq1ezVBU5UJVN887Es",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": -540.6396884459828,
+        "y": 2185.0122972625486
+      },
+      "size": {
+        "width": 204,
+        "height": 217
+      },
+      "style": {
+        "width": 150,
+        "height": 100,
+        "fontSize": 17,
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "Mpt_WSLngBqt131nAm3Ns",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": -270.6768116800821,
+        "y": 2181.7847957820186
+      },
+      "size": {
+        "width": 211,
+        "height": 275
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "VJosvi5KwlePkGxBzmxSH",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": 33.284146851171954,
+        "y": 2182.83501494524
+      },
+      "size": {
+        "width": 209,
+        "height": 326
+      },
+      "style": {
+        "width": 150,
+        "height": 100,
+        "fontSize": 17,
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "4fIp9_ii_gYgEMFFk__BG",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": 34.61791119802774,
+        "y": 1685.4421321950363
+      },
+      "size": {
+        "width": 206,
+        "height": 274
+      },
+      "style": {
+        "width": 150,
+        "height": 100,
+        "fontSize": 17,
+        "backgroundColor": "#ffffff"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "S16vO5EHvxaylsnFzs4Kx",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": -275.3075331630803,
+        "y": 1685.567787907652
+      },
+      "size": {
+        "width": 208,
+        "height": 268
+      },
+      "style": {
+        "width": 150,
+        "height": 100,
+        "fontSize": 17,
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "ifAV_64bREZrJkxFnf7Cy",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": -797.1336432750411,
+        "y": 1759.6382433656738
+      },
+      "size": {
+        "width": 214,
+        "height": 265
+      },
+      "style": {
+        "width": 150,
+        "height": 100,
+        "fontSize": 17,
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "CxiHaw63xmItCGdhpcsiz",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": -797.050798511892,
+        "y": 1463.6928264789822
+      },
+      "size": {
+        "width": 214,
+        "height": 266
+      },
+      "style": {
+        "width": 150,
+        "height": 100,
+        "fontSize": 17,
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "Kjkc8rNezN_LBD5WMrBbE",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": -244.32217668933376,
+        "y": 1319.6577176448873
+      },
+      "size": {
+        "width": 224,
+        "height": 217
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "Czv2TV_JqOuK7vumqw66I",
+      "type": "horizontal",
+      "label": "ホリゾントノード",
+      "position": {
+        "x": -86.76785466292469,
+        "y": 985.5460686385047
+      },
+      "size": {
+        "width": 128,
+        "height": 20
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "JBXkEOLntmMR49axOFbA0",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": 36.126062755501266,
+        "y": 971.0460686385047
+      },
+      "size": {
+        "width": 223,
+        "height": 375
+      },
+      "style": {
+        "width": 150,
+        "height": 100,
+        "fontSize": 17,
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "gY6DBpC01GyAr-e_7FBGK",
+      "type": "horizontal",
+      "label": "ホリゾントノード",
+      "position": {
+        "x": -106.87393724449873,
+        "y": 845.348933004529
+      },
+      "size": {
+        "width": 144,
+        "height": 20
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.5,
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "xUioudlYG1bD0_eR0fNE3",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": 36.126062755501266,
+        "y": 612.577518106665
+      },
+      "size": {
+        "width": 223,
+        "height": 325
+      },
+      "style": {
+        "width": 150,
+        "height": 100,
+        "fontSize": 17,
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "u2TdoI7ILaxYgUUni9W_w",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": -489.964883323405,
+        "y": 1062.001634732462
+      },
+      "size": {
+        "width": 202,
+        "height": 426
+      },
+      "style": {
+        "width": 150,
+        "height": 100,
+        "fontSize": 17
+      },
+      "z_index": -999
+    },
+    {
+      "id": "-NHxqJMM7SscP9pJ3bgD8",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": -799.0705012400213,
+        "y": 1065.348933004529
+      },
+      "size": {
+        "width": 217,
+        "height": 368
+      },
+      "style": {
+        "width": 150,
+        "height": 100,
+        "fontSize": 17,
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "Ljjl_kSEevtaBALxRh2By",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": -633.6381872719934,
+        "y": 620.348933004529
+      },
+      "size": {
+        "width": 203,
+        "height": 317
+      },
+      "style": {
+        "width": 150,
+        "height": 100,
+        "fontSize": 17,
+        "backgroundColor": "#ffffff"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "37hyOMnKf4H2qg27SK2rZ",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": -359.00281520804924,
+        "y": 541.6034591804714
+      },
+      "size": {
+        "width": 305,
+        "height": 165
+      },
+      "style": {
+        "width": 150,
+        "height": 100,
+        "fontSize": 17,
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "vfdrcpstewZ-lBAgCYhvs",
+      "type": "horizontal",
+      "label": "ホリゾントノード",
+      "position": {
+        "x": -100.50281520804924,
+        "y": 286.4007482223489
+      },
+      "size": {
+        "width": 86,
+        "height": 20
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.5
+      },
+      "z_index": 999
+    },
+    {
+      "id": "80UujPXPhvKIJMSM67pwl",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": -16.012444385717174,
+        "y": 266.57327763985427
+      },
+      "size": {
+        "width": 288,
+        "height": 213
+      },
+      "style": {
+        "width": 150,
+        "height": 100,
+        "fontSize": 17,
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "zxoi09oW1HbXNwvc14w9U",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": -359.50281520804924,
+        "y": 264
+      },
+      "size": {
+        "width": 260,
+        "height": 217
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "Qy4AHQE22xHEsBddovVt4",
+      "type": "horizontal",
+      "label": "ホリゾントノード",
+      "position": {
+        "x": -451.1381872719935,
+        "y": 31
+      },
+      "size": {
+        "width": 179,
+        "height": 20
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "L191VgfCbX3ibSIKySpsN",
+      "type": "title",
+      "label": "レディス",
+      "position": {
+        "x": -309.00281520804924,
+        "y": -112.59925177765109
+      },
+      "size": {
+        "width": 159,
+        "height": 68
+      },
+      "style": {
+        "fontSize": 28,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "EskmevvtPn-NlUQf39-6X",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": -240.1381872719934,
+        "y": -182.5992517776511
+      },
+      "size": {
+        "width": 21,
+        "height": 70
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "-3pADOHMDQ0H6ZKNjURyn",
+      "type": "topic",
+      "label": "レディスは何ですか?",
+      "position": {
+        "x": -330.50281520804924,
+        "y": 16.5
+      },
+      "size": {
+        "width": 202,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Redis はオープンソースのデータ構造ストアで,主にデータベース,キャッシュ,メッセージブローカーとして使用されます.文字列,ハッシュ,リスト,セット,並べられたセットなどのさまざまなデータ構造をサポートし,非常に多様性があります.Redis はメモリ内性質により非常に低い遅延で動作し,データへの迅速なアクセスを可能にします.セッション管理,リーダーボード,またはキャッシュメカニズムなどのリアルタイムアプリケーションで使用され,迅速なデータ取得が不可欠です.さらに,Redis はデータセットを定期的にディスクに書き込み,データ信頼性とメモリ速度をバランスすることでデータ持続性をサポートします.",
+        "links": [
+          {
+            "title": "レディスは何ですか?",
+            "url": "https://redis.io/docs/latest/get-started/",
+            "type": "official"
+          },
+          {
+            "title": "レディス の 紹介",
+            "url": "https://redis.io/about/",
+            "type": "official"
+          },
+          {
+            "title": "レディス - ウィキペディア",
+            "url": "https://en.wikipedia.org/wiki/Redis",
+            "type": "article"
+          },
+          {
+            "title": "レディス は 何 を 説明 し て い ます か",
+            "url": "https://www.ibm.com/think/topics/redis",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "M-EXrTDeAEMz_IkEi-ab4",
+      "type": "subtopic",
+      "label": "メモリ内のデータ構造ストア",
+      "position": {
+        "x": -781.1381872719934,
+        "y": -149.5992517776511
+      },
+      "size": {
+        "width": 308,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "内存データベースは,主にデータストレージのための内部メモリに依存する目的で構築されたデータベースです.標準ディスクドライブ (SSD) にアクセスする必要性を排除することによって最小の応答時間を可能にします.内存データベースは,マイクロ秒応答時間を要求するアプリケーションまたはゲームリーダーボード,セッションストア,およびリアルタイムデータ分析などのトラフィックに大きなピークを持つために理想的です.メインメモリデータベース (MMDB),内存データベースシステム (IMDS) とリアルタイムデータベースシステム (RTDB) 用語は,内存データベースにも言及しています.以下のリソースから詳細を学びましょう: - [official@Get Started with In-Memory Data Store]https://award.io/docs/latest/develop/get-started/data-store/) - [@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
+        "links": []
+      }
+    },
+    {
+      "id": "l2aXyO3STnhbFjvUXPpm2",
+      "type": "subtopic",
+      "label": "キー値データベース",
+      "position": {
+        "x": -781.1381872719934,
+        "y": -96.59925177765109
+      },
+      "size": {
+        "width": 202,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "キー値データベースは,キー値ペアの集合としてデータを保存する非関係性 (NoSQL) データベースである.このモデルでは,各データパーツは,対応する値を取得するために使用されるユニークな識別子 (キー) と関連付けられている.この単純な構造は,高いパフォーマンスとスケーラビリティを可能にする.",
+        "links": [
+          {
+            "title": "キー値データベースとは?",
+            "url": "https://redis.io/nosql/key-value-databases/",
+            "type": "official"
+          },
+          {
+            "title": "キー・バリュー・ストア - システムデザイン 面接の基礎",
+            "url": "https://www.youtube.com/watch?v=ozJHmm05EXM",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "eHuBz_zSZK3rubn7nkd7g",
+      "type": "subtopic",
+      "label": "キャッシュ",
+      "position": {
+        "x": -575.1381872719934,
+        "y": -96.59925177765109
+      },
+      "size": {
+        "width": 101,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Redisキャッシュは,アプリケーションのパフォーマンスを向上させるために頻繁にアクセスするデータをキャッシュするために使用される内メモリキー値ストレージです.ディスクではなくメモリでデータをストレージすることで,Redisはデータアクセス遅延を大幅に削減し,セッション管理,データベースクエリ結果をキャッシュし,一時的なデータをストレージするなどの使用例に理想的です.高吞吐量処理とデータ持続性オプションをサポートする能力により,短期的なキャッシュと耐久的なデータストレージの両方で使用できます.次のリソースから詳細を学ぶ: - [@official@Redis Caching] (https://redis.io/solutions/caching/) - [@official@How to use Redis for Query Caching] (https://redis.io/learn/howtos/solutions/microservices/caching) - [@article@Understanding Redis Caching] (https://medium.com/@devlexus/understanding-redis-caching-how-it-works-and-why-its-efficient-99afdbf1b8e0) - [@video@How to use Redis Caching for incredible performance] (https://www.youtube.com/watch?v=-5RTyEim384)",
+        "links": []
+      }
+    },
+    {
+      "id": "mgGJTBU8ofvOzl9gYWhnG",
+      "type": "subtopic",
+      "label": "メッセージブローカー",
+      "position": {
+        "x": -781.1381872719934,
+        "y": -42.59925177765109
+      },
+      "size": {
+        "width": 308,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "メッセージブローカーは,ルーティング,ストレージ,およびメッセージ配信によって異なるサービスまたはアプリケーション間の通信を可能にするミドルウェアシステムである.Redisは,パブ/サブメッセージングパターンのための `PUBLISH`および `SUBSCRIBE`コマンドを使用して軽量メッセージブローカとして機能し,またはタスクキューなどのより高度なメッセージングシナリオのためのリストおよびソートセットを通じて.Redis Streamsは,リアルタイム通信とより複雑なメッセージ処理パイプラインの両方に適したメッセージ持続性,承認,および消費者グループなどの追加の機能を提供し,スケーラブルメッセージングシステムを構築するための効率的なソリューションとなっています.[@official@PUBLISH Command] (https://redis.io/docs/latest/commands/publish/) - [@official@SUBSCRIBE Command] (https://redis.io/docs/latest/commands/subscribe/) - [@article@Redis As a Message Broker] (https://medium.com/shoutloudz/redis-as-a-message-broker-d1a1aeac23c3)",
+        "links": []
+      }
+    },
+    {
+      "id": "Y1xDM_ZweG4IhlwvNK0bA",
+      "type": "label",
+      "label": "レディスの概要 / それは何ですか?",
+      "position": {
+        "x": -757.1381872719934,
+        "y": -190.5992517776511
+      },
+      "size": {
+        "width": 251,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "pwGAa63okLFOBb1g7-fL5",
+      "type": "label",
+      "label": "核心用例",
+      "position": {
+        "x": -698.6381872719934,
+        "y": 24.40074822234891
+      },
+      "size": {
+        "width": 143,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "-TjnSOY8txYrhhxRV1OIl",
+      "type": "subtopic",
+      "label": "キャッシング",
+      "position": {
+        "x": -781.1381872719934,
+        "y": 63.40074822234891
+      },
+      "size": {
+        "width": 101,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Redisキャッシュは,アプリケーションのパフォーマンスを向上させるために頻繁にアクセスするデータをキャッシュするために使用される内メモリキー値ストレージです.ディスクではなくメモリでデータをストレージすることで,Redisはデータアクセス遅延を大幅に削減し,セッション管理,データベースクエリ結果をキャッシュし,一時的なデータをストレージするなどの使用例に理想的です.高吞吐量処理とデータ持続性オプションをサポートする能力により,短期的なキャッシュと耐久的なデータストレージの両方で使用できます.次のリソースから詳細を学ぶ: - [@official@Redis Caching] (https://redis.io/solutions/caching/) - [@official@How to use Redis for Query Caching] (https://redis.io/learn/howtos/solutions/microservices/caching) - [@article@Understanding Redis Caching] (https://medium.com/@devlexus/understanding-redis-caching-how-it-works-and-why-its-efficient-99afdbf1b8e0) - [@video@How to use Redis Caching for incredible performance] (https://www.youtube.com/watch?v=-5RTyEim384)",
+        "links": []
+      }
+    },
+    {
+      "id": "bVJASI7bfSYqYnNhX83ng",
+      "type": "subtopic",
+      "label": "リアルタイム アナリティクス",
+      "position": {
+        "x": -675.1381872719934,
+        "y": 63.40074822234891
+      },
+      "size": {
+        "width": 193,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "レディスにおけるリアルタイムの分析は,生成または受信されるデータに対する即時処理と分析を含みます.ビジネスやアプリケーションがインサイトを得て,即時意思決定を行うことができます. レディスの内存データストレージアーキテクチャは,ユーザー行動のモニタリング,メトリックの追跡,およびリアルタイムのイベント処理などのシナリオに理想的です.リーダーボードのための排列されたセット,イベントログのためのストリーム,およびライブ通知のためのパブ/サブなどのさまざまなデータ構造をサポートすることで, レディスは効率的な集計,查询,およびデータの可視化を促進します.以下のリソースから詳細を学びましょう: - [@official@Real-Analytics with Redis]https://redis./timeresources/real-real-analytics-red/)",
+        "links": []
+      }
+    },
+    {
+      "id": "URxGmhZHr0Y8nyrYj0gJl",
+      "type": "subtopic",
+      "label": "セッション管理",
+      "position": {
+        "x": -781.6381872719934,
+        "y": 116.40074822234891
+      },
+      "size": {
+        "width": 300,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Redis セッション管理は,迅速なアクセスと更新を可能にする,セッションIDをキーとしてキー値ストレージを使用して, Web アプリケーションのユーザーセッション処理を効率的にするために,データベースの速度と多様性を活用します.以下のリソースから詳細を学びましょう: - [@official@Redis Distributed Session Management] (https://redis.io/solutions/session-management/) - [@article@Session Management Basics with Redis] (https://dev.to/kosh096/session-management-basics-with-redis-2o2e)",
+        "links": []
+      }
+    },
+    {
+      "id": "ZCyId3aIoLv3duxoJdk2P",
+      "type": "subtopic",
+      "label": "パブ/サブメッセージ",
+      "position": {
+        "x": -781.6381872719934,
+        "y": 169.4007482223489
+      },
+      "size": {
+        "width": 300,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "レディスのパブ/サブメッセージングは,直接的な接続を必要とせずに,クライアントがチャネルを通じて互いにコミュニケーションをとることを可能にするメッセージングパターンです.このモデルでは,クライアントはメッセージを受け取るために1つまたは複数のチャネルにサインアップし,これらのチャネルにメッセージを公開することができます.メッセージが公開されると,登録されたすべてのクライアントはリアルタイムでメッセージを受け取ります.チャットシステム,ライブ更新,またはイベント放送などの即時通知を必要とするアプリケーションには理想的です. レディスのPub/Subの実装はシンプルで効率的です. `PUBLISH`, `SUBSCRIBE`,および `UNSUBSCRIBE`のようなコマンドをサポートします.詳細は以下の情報源からご覧ください: - [@official@Redis Pub/Sub] (https://redis.io/docs/latest/develop/interact/pubsub/) - [@official@PUBLISH Command] (https://redis.io/docs/latest/commands/publish/) - [@official@SUBSCRIBE Command] (https://redis.io/docs/latest/commands/unsubscribe/) - [@official@UNSUBSCRIBE Command] (https://redis.io/docs/latest/commands/unsubscribe/)",
+        "links": []
+      }
+    },
+    {
+      "id": "Fv1iGX22sApIEifM2IpJz",
+      "type": "subtopic",
+      "label": "リーダーボードとカウンター",
+      "position": {
+        "x": -781.6381872719934,
+        "y": 222.4007482223489
+      },
+      "size": {
+        "width": 300,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "リーダーボードとカウンターは,Redisにとって一般的な使用例であり,排列されたセットと原子のインクリメント操作を活用しています.リーダーボードでは, `ZADD`コマンドは,排列されたセットにスコアを持つメンバーを追加するために使用され,および `ZRANGE`または `ZREVRANGE`は,上位 (または下位) のランキングメンバーを効率的に回収します.これは,Redisをゲームにおけるランキングシステムやトップパフォーマンスのあるエンティティを追跡するための理想的です.カウンターは,原子的に整数値を増加または減少させる `INCR`や `DECR`のようなコマンドを使用して管理されます.これらの操作は軽量でパフォーマンスが高いため,メトリック,分析,またはリソースを制限するための最適なソリューションです.以下のような方法から詳細を学びましょう: -@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
+        "links": []
+      }
+    },
+    {
+      "id": "SQ0078nMNlCtgNgHIJsU1",
+      "type": "label",
+      "label": "主要 な 特徴",
+      "position": {
+        "x": -687.1381872719935,
+        "y": 294.4007482223489
+      },
+      "size": {
+        "width": 117,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "8uRpPJ0iD4XnQPKruQc8P",
+      "type": "subtopic",
+      "label": "データ持続オプション",
+      "position": {
+        "x": -778.6381872719935,
+        "y": 334.4007482223489
+      },
+      "size": {
+        "width": 300,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Redis は,RDB (Redis Database) **スナップショットと **AOF (Append-Only File) ** の2つの主要なデータ持続可能性オプションを提供しています.RDB は,指定された間隔でデータセットのポイントインタイムスナップショットを作成し,不頻繁なバックアップに適しており,スナップショットの間には潜在的なデータ損失があります.AOF は,すべての書き込み操作をログインし,再起動時に再起動します.データ復旧に対するより優れた制御により,より耐久的な持続性を提供します.また,Redes を高速復旧と最小限のデータ損失のバランスのために両方の方法を使用するように設定できます.さらに,Redis は,持続性なくメモリのみモードで実行することをサポートします.",
+        "links": []
+      }
+    },
+    {
+      "id": "uVewcyaFi1Pt2Gs0KrkfA",
+      "type": "subtopic",
+      "label": "豊富なデータ構造",
+      "position": {
+        "x": -778.6381872719935,
+        "y": 387.40074822234897
+      },
+      "size": {
+        "width": 300,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Redis は,文字列,ハッシュ,リスト,セット,範囲クエリ,ビットマップ,ハイパーログ,地理空間インデックス,ストリームなどのデータ構造を提供しています.以下のリソースから詳細をご覧ください: - [@official@Data Structures] (https://redis.io/redis-enterprise/data-structures/) - [@official@Understand Redis Data Types] (https://redis.io/docs/latest/develop/data-types/)",
+        "links": []
+      }
+    },
+    {
+      "id": "5-3pd4rLDqRzMzSRVLdXh",
+      "type": "subtopic",
+      "label": "高性能とスケーラビリティ",
+      "position": {
+        "x": -778.6381872719935,
+        "y": 440.40074822234897
+      },
+      "size": {
+        "width": 300,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "レディスはメモリ内のデータストレージモデルを通じて,非常に高速な読み書き操作を最小の遅延率で可能にします. レディスは,複数のノードで水平的にスケールし,大量のリクエストを同時に処理できるようにするデータパーティショニング,複製,クラスタリングをサポートします.アシンクロな複製と自動エラーオーバーにより,レディスは高可用性を確保し,低遅延と高通量,キャッシング,メッセージング,セッション管理などの低遅延と高通量を必要とするリアルタイムアプリケーションに適しています.[@article@emreemenekse/high-performance-and-scalable-architecture-with-redis-and-net-core-abde36074d26) ]",
+        "links": []
+      }
+    },
+    {
+      "id": "leY33Yw_exuUP5_UX9gcP",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": -465.1381872719935,
+        "y": -178.5992517776511
+      },
+      "size": {
+        "width": 21,
+        "height": 666
+      },
+      "style": {
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "EvWiEx_AoxAht6sKxzW2l",
+      "type": "subtopic",
+      "label": "Redis vs SQL/NoSQL DB",
+      "position": {
+        "x": 0.3618127280066119,
+        "y": 67.40074822234891
+      },
+      "size": {
+        "width": 250,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Redisは,データモデル,パフォーマンス,および使用ケースに関して,従来のSQLとNoSQLデータベースとは大きく異なります.Redisは,文字列,ハッシュ,リスト,セットなどのさまざまなデータ構造をサポートし,柔軟なデータ処理と低遅延アクセスが可能になります.これはキャッシング,リアルタイム分析,セッション管理などの高速操作に理想的です.対照的に,SQLデータベースは,複雑なクエリやトランザクションで優れたテーブルと関係を持つ構造化されたスキーマを使用し,他のNoSQLデータベースは,構造化されていないデータや半構造化されたデータに対応するために文書,グラフ,または広範なコラムモデルを使用することができます.[@article@Redis vs MongoDB] (https://aws.amazon.com/compare/the-difference-between-redis-and-mongodb/) - [@video@Understanding NoSQL vs SQL] (https://www.youtube.com/watch?v=9JHrL0UWrWs)",
+        "links": []
+      }
+    },
+    {
+      "id": "1Af5H0BgdAsRdBCNdHz5v",
+      "type": "subtopic",
+      "label": "レディスをいつ選ぶか?",
+      "position": {
+        "x": 0.3618127280066119,
+        "y": 120.40074822234891
+      },
+      "size": {
+        "width": 250,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Redis は,低遅延と高吞吐量のあるメモリ内でのデータストレージが必要なときに理想的です.特にキャッシング,セッション管理,リアルタイム分析,リーダーボード,メッセージキューに適しています.以下のリソースから詳細を学びましょう: - [@official@Introduction to Redis] (https://redis.io/about/) - [@video@Why Use Redis For All Your Applications] (https://www.youtube.com/watch?v=ZL4cHe3oL84)",
+        "links": []
+      }
+    },
+    {
+      "id": "SGtXqkHKfGO0nQdrVzjdg",
+      "type": "label",
+      "label": "Redis を 地元 に 設置 する",
+      "position": {
+        "x": -325.50281520804924,
+        "y": 276.99999999999994
+      },
+      "size": {
+        "width": 192,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "Bf_kLfmy7_uflqC9N0-jt",
+      "type": "subtopic",
+      "label": "パッケージ管理器を使用する",
+      "position": {
+        "x": -351.50281520804924,
+        "y": 316
+      },
+      "size": {
+        "width": 244,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Redis は Linux, MacOS, WSL2 で yum, apt, brew などのプラットフォーム特有のパッケージ管理者を通じてインストールできます.以下のリソースから詳細を学びましょう: - [@official@Install via apt] (https://redis.io/docs/latest/operate/oss_and_stack/install/install/install/install/install-stack/linux/) - [@official@Install via brew] (https://redis.io/docs/latest/install/latest/operate/oss_and_stack/install/install/install/install-redis/install-redis-redis-on-mac-os/oss) - [@official@Install on WSL2] (https://redis.io/docs/latest/operate/and_stack/is/is/red/is/red-red-on-windows/install/install)",
+        "links": []
+      }
+    },
+    {
+      "id": "yBZ79s6mzGdj5AnX2H_Hy",
+      "type": "subtopic",
+      "label": "プリコンパイルしたバイナリー",
+      "position": {
+        "x": -351.50281520804924,
+        "y": 368.99999999999994
+      },
+      "size": {
+        "width": 244,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Redis は Linux と macOS を含むさまざまなプラットフォームとオペレーティング システムにコンパイル・およびインストールできます. Redis バイナリは C コンパイラと libc 以外の依存関係がありません.以下のリソースから詳細を学びましょう.",
+        "links": []
+      }
+    },
+    {
+      "id": "TDxv0q7jlZ26uZYYlneem",
+      "type": "subtopic",
+      "label": "Docker を使用する",
+      "position": {
+        "x": -351.50281520804924,
+        "y": 421.99999999999994
+      },
+      "size": {
+        "width": 244,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Redis Community EditionはDockerにインストールできますが,モデリング機能にアクセスし,検索・クエリデータにアクセスし,Redisをベクトルデータベースとして使用するためにRedis Community Editionのインストールを完了することが推奨されています.以下のリソースから詳細をご覧ください: - [@official@How can I install Redis on Docker?] (https://redis.io/kb/doc/1hcec8xg9w/how-can-i-install-redis-on-docker) - [@official@redis/redis-stack-server] (https://hub.docker.com/r/redis/redis/redis-stack-server)",
+        "links": []
+      }
+    },
+    {
+      "id": "gw04IG5uImCHxcFnOAAwy",
+      "type": "paragraph",
+      "label": "レディス の 開始",
+      "position": {
+        "x": -374.1381872719934,
+        "y": 136.5066900921993
+      },
+      "size": {
+        "width": 289,
+        "height": 60
+      },
+      "style": {
+        "fontSize": 20,
+        "borderColor": "transparent",
+        "backgroundColor": "transparent",
+        "color": "#000000",
+        "textAlign": "center",
+        "justifyContent": "flex-start",
+        "padding": 16
+      },
+      "z_index": 999
+    },
+    {
+      "id": "QXwoHEeisL4d6dpJOwYkU",
+      "type": "paragraph",
+      "label": "レディス対他のデータベース",
+      "position": {
+        "x": -1.0028152080492418,
+        "y": 11
+      },
+      "size": {
+        "width": 241,
+        "height": 60
+      },
+      "style": {
+        "fontSize": 17,
+        "borderColor": "transparent",
+        "backgroundColor": "transparent",
+        "color": "#000000",
+        "textAlign": "center",
+        "justifyContent": "flex-start",
+        "padding": 16
+      },
+      "z_index": 999
+    },
+    {
+      "id": "nyVArH57QoeDASnYvEk3L",
+      "type": "label",
+      "label": "ランニング・レディス",
+      "position": {
+        "x": 63.44997804720737,
+        "y": 274.8898756040034
+      },
+      "size": {
+        "width": 130,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "43LvShQhmoWQ8Nye7fLkz",
+      "type": "subtopic",
+      "label": "サーバを起動する",
+      "position": {
+        "x": -6.550021952792633,
+        "y": 313.46761791240385
+      },
+      "size": {
+        "width": 270,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Redisサーバーの起動は,プラットフォームに依存し,通常LinuxまたはMacOSでの `システムctl`経由で行われます.以下のリソースから詳細を学びましょう: - [@official@Start and stop Redis on MacOS]https://redis.io/docs/latest/operate/oss_and_stack/install/install-redis/install-redis-on-mac-os/#start-and-stopping-redis-redis-in-the-foreground) - [@official@Start and stop Redis on Ubuntu/Debian]https://redis.io/docs/latest/operate/oss_and_stack/install/wredis/wredis-on-linux/stopping-and-stopping-the-in-install-official-do-install-on-the-ground) - [@official@Start and stop Redis on Ubuntu/Debian]",
+        "links": []
+      }
+    },
+    {
+      "id": "BOGXTjmCLo6WI6mYDsqRu",
+      "type": "subtopic",
+      "label": "Redis CLI を使用して接続する",
+      "position": {
+        "x": -6.550021952792633,
+        "y": 366.46761791240385
+      },
+      "size": {
+        "width": 270,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Redis CLI (`redis-cli`) は,Redis サーバとインタラクションするために使用されるコマンドラインインターフェースです.ユーザーはRedis コマンドを実行し,サーバーを監視し,データを管理し,管理作業を行うことができます.一般的な操作には,鍵を設定し取得し,鍵の有効期限を管理し,サーバーの状態を確認します.CLI はスクリプトと自動化のためのインタラクティブモードと非インタラクティブモードの両方でコマンドを実行することをサポートします.開発者や管理者がRedis インスタンスを直接トラブルシューティングおよび管理するための強力なツールです.以下のリソースから詳細を学びましょう: - [@official@Redis CLI Documentation] (https://redis.io/docs/latest/develop/connect/cli) - [@video@The Line Tool:is-www]https://www.youtube.com/watch?vvGOE=en4G)",
+        "links": []
+      }
+    },
+    {
+      "id": "NhcZM4nUQoSBBf_1qXi6l",
+      "type": "subtopic",
+      "label": "基本コマンド / SET, GET",
+      "position": {
+        "x": -6.550021952792633,
+        "y": 419.46761791240385
+      },
+      "size": {
+        "width": 270,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Redisでは,SET と GET コマンドはキー値ペアを保存し,取り戻すための基本的な操作です.Redis は内存キー値ストアであり,これらのコマンドはRedis のデータと作業の基礎となります.以下のリソースから詳細を学びましょう: - [@official@SET Docs] (https://redis.io/docs/latest/commands/set/) - [@official@GET Docs] (https://redis.io/docs/latest/commands/get/) - [@official@Redis Cheat Sheet] (https://redis.io/le/howtos/quick-start/cheat-sheet)",
+        "links": []
+      }
+    },
+    {
+      "id": "GjKw6hbNV57I2sxuLfkQw",
+      "type": "paragraph",
+      "label": "最初 の ステップ",
+      "position": {
+        "x": 50.987555614282826,
+        "y": 536.2610824325313
+      },
+      "size": {
+        "width": 154,
+        "height": 65
+      },
+      "style": {
+        "fontSize": 20,
+        "borderColor": "transparent",
+        "backgroundColor": "transparent",
+        "color": "#000000",
+        "textAlign": "center",
+        "justifyContent": "center",
+        "padding": 16
+      },
+      "z_index": 999
+    },
+    {
+      "id": "WYVzXLmj_TmqnX3ANzKj7",
+      "type": "label",
+      "label": "基本データ操作",
+      "position": {
+        "x": -302.00281520804924,
+        "y": 550.7610824325313
+      },
+      "size": {
+        "width": 191,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "DOdNkTY1yIMipWA2CD9xH",
+      "type": "subtopic",
+      "label": "そして鍵を手に入れる",
+      "position": {
+        "x": -349.00281520804924,
+        "y": 591.7610824325313
+      },
+      "size": {
+        "width": 285,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Redisでは,設定キーは,単一の識別子 (キー) と関連付けることで鍵を保存する作業を指します.システム内のデータを書き換えるまたは更新するプロセスです.鍵を取得することは,関連する鍵を使用してシステムからデータを回収するプロセスを指します.以下のリソースから詳細を学びましょう: - [@official@Keys] (https://redis.io/docs/latest/commands/keys/) - [@official@SET] (https://redis.io/docs/latest/commands/set/) - [article@Set key values] (https://www.w3resource.com/redis/redis/redis-set-key-value.php)",
+        "links": []
+      }
+    },
+    {
+      "id": "lV_MnUNTB2h925idX0YWk",
+      "type": "subtopic",
+      "label": "DEL",
+      "position": {
+        "x": -349.00281520804924,
+        "y": 644.7610824325313
+      },
+      "size": {
+        "width": 81,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Redis の `DEL` コマンドは,データベースから1つまたは複数のキーを削除するために使用されます.指定されたキーは存在した場合,削除され,コマンドは削除されたキーの数を返します.キーは存在しない場合は,単に無視され,エラーが返されません.このコマンドは,不要または時代遅れのデータを削除することによってメモリを管理するのに有用であり,他の操作から干渉なしにキーを削除することを保証する原子操作です.次の操作から詳細を学びましょう: - [@official resources@DEL](https://redis.io/docs/latest/commands/del/command) - [article@Redis DEL/command] http://www.tutorialspoint./redis/keys_del.htm)",
+        "links": []
+      }
+    },
+    {
+      "id": "U84XgBFPyIbY0W5afH4cx",
+      "type": "subtopic",
+      "label": "データタイプの概要",
+      "position": {
+        "x": -359.00281520804924,
+        "y": 710.6034591804714
+      },
+      "size": {
+        "width": 305,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "レディスはデータ構造サーバであり,その核心として,レディスはキャッシングからイベント処理までさまざまな問題を解決できるネイティブデータタイプのコレクションを提供しています.以下のリソースから詳しくは: - [@official@Understand Redis Data Types] (https://redis.io/docs/latest/develop/data-types/) - [@article@Redis Data Types] (https://www.tutorialspoint.com/redis/redis_data_types.htm)",
+        "links": []
+      }
+    },
+    {
+      "id": "TpW3rvaZYV9D2cHycy2my",
+      "type": "label",
+      "label": "弦,リスト,セット,ハッシュ,ソートセット",
+      "position": {
+        "x": -365.00281520804924,
+        "y": 764.6034591804714
+      },
+      "size": {
+        "width": 317,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "geUnNlWeXEBUs1W3fysRO",
+      "type": "paragraph",
+      "label": "核心データ構造",
+      "position": {
+        "x": -799.6381872719934,
+        "y": 540.2610824325313
+      },
+      "size": {
+        "width": 234,
+        "height": 57
+      },
+      "style": {
+        "fontSize": 20,
+        "borderColor": "transparent",
+        "backgroundColor": "transparent",
+        "color": "#000000",
+        "textAlign": "center",
+        "justifyContent": "center",
+        "padding": 16
+      },
+      "z_index": 999
+    },
+    {
+      "id": "ltF4vCT9ZA2XuUuHnuGnN",
+      "type": "subtopic",
+      "label": "SET",
+      "position": {
+        "x": -624.5705012400213,
+        "y": 631.3489330045289
+      },
+      "size": {
+        "width": 91,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "SET コマンドで定義されたキーが値を保持するように設定され,キーが既に値を保持している場合は,そのタイプに関係なく書き換えられます.以下のリソースから詳細をご覧ください: - [@official@SET](https://redis.io/docs/latest/commands/set/)",
+        "links": []
+      }
+    },
+    {
+      "id": "mQc4H2ZMMSVjh33LJY8mK",
+      "type": "subtopic",
+      "label": "GET",
+      "position": {
+        "x": -530.0705012400213,
+        "y": 631.3489330045289
+      },
+      "size": {
+        "width": 91,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`GET`コマンドは Redis で指定されたキーに関連した値を取得するために使用されます.キーが存在する場合,文字列として値を返します.キーがない場合,ゼロ応答を返します.このコマンドは Redis で保存されたデータにアクセスするために不可欠であり,データベース内のデータを操作および管理するために他のコマンドと併用されることが多い. `GET`コマンドは原子的なもので,コマンドが実行時にデータの一貫したビューを提供します.以下のリソースから詳細を学びましょう: - [@official@GET] - [@redis.io/docs/latest/commands/get/) - [@article@How to get all keys in Redis]https://www.atlassian.com/data/admin/to-keys-how-get-all-redissian)",
+        "links": []
+      }
+    },
+    {
+      "id": "5K9qyC4mrhXYWOC8WSq8C",
+      "type": "subtopic",
+      "label": "INCR",
+      "position": {
+        "x": -624.5705012400213,
+        "y": 683.848933004529
+      },
+      "size": {
+        "width": 91,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`INCR`コマンドは,文字列キーの値を1倍増やすために使用されます.キーは存在しない場合,インクリメント操作を行う前に0値でキーを初期化し,その値が1になります.キーは整数値でない値を含んでいる場合,コマンドはエラーを返します. `INCR`は原子的で,レース条件のない同時環境で使用が安全であるため,カウンターや追跡メトリックなどの使用例に最適です.以下のリソースから詳細をご覧ください: - [@official@INCR(]https://redis.io/docs/latest/commands/incr/)",
+        "links": []
+      }
+    },
+    {
+      "id": "t4BXPofF8OCqH5KHwdYVh",
+      "type": "subtopic",
+      "label": "DECR",
+      "position": {
+        "x": -530.0705012400213,
+        "y": 683.848933004529
+      },
+      "size": {
+        "width": 91,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Redis の `DECR` コマンド は,キー の 整数 値 を 1 倍 に 減らせる.キー が ない なら,その 値 を 減算 する 前 に 0 に 初期化 する.キー が 整数 で は ない 値 を 含んでいる なら,Redis は エラー を 返信 する.この コマンド は,カウンター や 状態 の 変化 を シンプル な 原子 的 な 方法 で 追跡 する ため に 有用 です.以下の 資源 から 詳細 を 学ぶ: - [@official@DECR Documentation] (https://redis.io/docs/latest/commands/decr/) - [@article@Redis String DECR] (https://www.w3resource.com/redis/redis/redis-decr-key.php)",
+        "links": []
+      }
+    },
+    {
+      "id": "cPWd53BO6tm-uy4gqLdtZ",
+      "type": "subtopic",
+      "label": "附属書",
+      "position": {
+        "x": -624.5705012400213,
+        "y": 736.348933004529
+      },
+      "size": {
+        "width": 91,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Redis APPEND コマンドは,キーにいくつかの値を追加するために使用されます.キーが既に存在し,文字列である場合は,このコマンドは文字列の終わりに値を追加します.キーが存在しない場合は,文字列として作成され,次のリソースから詳細を学びます: - [@official@APPEND] (https://redis.io/docs/latest/commands/append/) - [@article@Redis - String Append Command] (https://www.tutorialspoint.com/redis/strings_append.htm)",
+        "links": []
+      }
+    },
+    {
+      "id": "eJQW986HM4Wf1o1i2FnXs",
+      "type": "subtopic",
+      "label": "スターレン",
+      "position": {
+        "x": -530.0705012400213,
+        "y": 736.348933004529
+      },
+      "size": {
+        "width": 91,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "STRLEN コマンドは,定義されたキーに保存されている文字列値の長さを返します.文字列値がキーにサポートされていない場合,エラーが返されます.以下のリソースから詳細をご覧ください: - [@official@STRLEN](https://redis.io/docs/latest/commands/strlen/)",
+        "links": []
+      }
+    },
+    {
+      "id": "JpPwzuJ9dK6b4uWH5rWe6",
+      "type": "label",
+      "label": "一般的な命令",
+      "position": {
+        "x": -620.0705012400213,
+        "y": 840.348933004529
+      },
+      "size": {
+        "width": 178,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "0v8uLWRCbAqEmKKdYaRQW",
+      "type": "subtopic",
+      "label": "さらに 命令",
+      "position": {
+        "x": -624.0705012400213,
+        "y": 788.848933004529
+      },
+      "size": {
+        "width": 186,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Redis 文字列には,基本的な SET と GET 機能を超えたさまざまな操作が含まれます.例としては,MSET と MGET が複数キーを一度に設定し,複数のキーを取得するために,GETSET が古い値を返還しながら新しい値を設定するために,SETEX または PSETEX が有効期限を持つ値を設定するために含まれます.INCRBY と DECRBY のような他のコマンドは,指定された金額で増加または減少を許可しますが,BITCOUNT と BITOP はビットレベルの操作を提供します.以下のリソースから詳細を学びましょう: - [@official@All Redis String Commands]https://redis.io/docs/latest/commands/?group=string]",
+        "links": []
+      }
+    },
+    {
+      "id": "2_E2VwbjTgk4xxTFWfHuV",
+      "type": "subtopic",
+      "label": "使用例",
+      "position": {
+        "x": -624.0705012400213,
+        "y": 876.348933004529
+      },
+      "size": {
+        "width": 186,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "i3Hnt66WKB47UILFmaOl_",
+      "type": "horizontal",
+      "label": "ホリゾントノード",
+      "position": {
+        "x": -55.00281520804924,
+        "y": 558.7610824325313
+      },
+      "size": {
+        "width": 109,
+        "height": 20
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.5
+      },
+      "z_index": 999
+    },
+    {
+      "id": "JboVpV-Oijm52vBYob9nj",
+      "type": "horizontal",
+      "label": "ホリゾントノード",
+      "position": {
+        "x": -561.1381872719934,
+        "y": 558.7610824325313
+      },
+      "size": {
+        "width": 204,
+        "height": 20
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.5
+      },
+      "z_index": 999
+    },
+    {
+      "id": "nS0DHhfy4wxHItgOFhulA",
+      "type": "subtopic",
+      "label": "終了する",
+      "position": {
+        "x": -265.25281520804924,
+        "y": 644.7610824325313
+      },
+      "size": {
+        "width": 106,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "EXPIRE コマンドは,秒でキーにタイム・トゥ・ライブ (TTL) を設定するために使用され,その後キーが自動的に削除されます.ミリ秒で有効期限を指定する必要がある場合は,PEXPIRE コマンドを使用できます.両方のコマンドは,もはや必要のないキーを自動的に削除することでメモリを管理するのに役立ちます.これはキャッシングとセッション管理シナリオにおいて特に有用です.以下のリソースから詳細を学びましょう: - [@official@Expiring Keys]https://redis.io/ebook/part-2-core-concepts/chapter-3-commands-in-redis/3-7-other-commands/3-7-3-3-expiring-keys/) - [@official@EXPio]https://redis.docs/IRE/commands/expire/commands/)",
+        "links": []
+      }
+    },
+    {
+      "id": "Vll7VMmGWSI5XGZ9JpHyl",
+      "type": "subtopic",
+      "label": "TTL",
+      "position": {
+        "x": -156.50281520804924,
+        "y": 644.7610824325313
+      },
+      "size": {
+        "width": 91,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "TTL コマンドは,指定されたキーの残った生存時間を返します.この機能により,Redis クライアントは,特定のキーはデータセットの一部であり続ける数秒をチェックできます.以下のリソースから詳細を学びます: - [@official@TTL](https://redis.io/docs/latest/commands/ttl/)",
+        "links": []
+      }
+    },
+    {
+      "id": "Kq7G89KaZZMFkrH-9WZoS",
+      "type": "subtopic",
+      "label": "熱帯雨林",
+      "position": {
+        "x": -788.5705012400213,
+        "y": 1074.348933004529
+      },
+      "size": {
+        "width": 96,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`LPUSH` は Redis の コマンドで,リストの初め (左) に 1 つ以上の要素を挿入します.リストが存在しない場合は,挿入を行う前に新しいリストを作成します.このコマンドは,操作後にリストの長さを返します. `LPUSH` は,新しい要素が優先される列にアイテムを追加したり,Redis の順序化されたデータ構造を効率的に操作できるようにします.以下のリソースから詳細を学びましょう: - [@official@LPUSH](https://redis.io/docs/latest/commands/lpush/)",
+        "links": []
+      }
+    },
+    {
+      "id": "jC8G1o7yFj7D_PGmOIgcD",
+      "type": "subtopic",
+      "label": "RUSH",
+      "position": {
+        "x": -689.5028152080492,
+        "y": 1074.348933004529
+      },
+      "size": {
+        "width": 96,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "RPUSH コマンドは,定義されたキーに保存されているリストの尾端に指定されたすべての値を挿入します.鍵が存在しない場合は,押す前に空きリストとして作成されます.以下のリソースから詳細をご覧ください: - [@official@RPUSH](https://redis.io/docs/latest/commands/rpush/)",
+        "links": []
+      }
+    },
+    {
+      "id": "voa61RTWMJD3Sk8DNJoVQ",
+      "type": "subtopic",
+      "label": "LPOP",
+      "position": {
+        "x": -788.5705012400213,
+        "y": 1126.848933004529
+      },
+      "size": {
+        "width": 96,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`LPOP` は Redis コマンドで,リストの左側から最初の要素を削除して返します.リストが空いている場合,または存在しない場合,それは `nil` を返します.このコマンドは,FIFO (First-In-First-Out) の順序でキューまたは消費要素を実装するシナリオで使用され,タスク処理,メッセージ処理,リアルタイムアプリケーションで順序化されたデータ流を管理するのに最適です.以下のリソースから詳細をご覧ください: - [@official@LPOP](https://redis.io/docs/latest/commands/lpop/)",
+        "links": []
+      }
+    },
+    {
+      "id": "brUGqWZ287EWtvl9uUbNt",
+      "type": "subtopic",
+      "label": "RPOP",
+      "position": {
+        "x": -689.5028152080492,
+        "y": 1126.848933004529
+      },
+      "size": {
+        "width": 96,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "RPOP コマンドは,保存されたリストの最後の要素と指定されたキーを削除し,返します.デフォルトではリストから単一の要素のみが表示されます.以下のリソースから詳細をご覧ください: - [@official@RPOP](https://redis.io/docs/latest/commands/rpop/)",
+        "links": []
+      }
+    },
+    {
+      "id": "8JTtBy6oD2wFYDizVkcVa",
+      "type": "subtopic",
+      "label": "ランゲ",
+      "position": {
+        "x": -788.5705012400213,
+        "y": 1179.348933004529
+      },
+      "size": {
+        "width": 96,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`LRANGE`は,スタートとストップインデックスで定義されたリストから指定された要素の範囲を回収するRedisコマンドです.インデックスはポジティブ (0 から始まる) またはネガティブ (例えば,最後の要素は -1 です).このコマンドは,メモリにリスト全体をロードせずにリストのサブセットを取得するために一般的に使用され,データをページ化したり,列の部分を見たり,順序されたデータのセグメントを効率的に分析したりするのに役立ちます.以下の情報から詳細を学びましょう: - [@official@LRANGE](https://redis.io/docs/latest/commands/lrange/)",
+        "links": []
+      }
+    },
+    {
+      "id": "hBFEUXtuzUTzWZKp2qWaZ",
+      "type": "subtopic",
+      "label": "LINDEX",
+      "position": {
+        "x": -689.5028152080492,
+        "y": 1179.348933004529
+      },
+      "size": {
+        "width": 96,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`LINDEX` は Redis コマンドで,リストから要素をインデックスで取り出すために使用されます.インデックスはポジティブ (最初の要素は0から始まる) またはネガティブ (例えば,最後の要素は -1 です).インデックスが範囲外であれば,コマンドは `nil` を返します.このコマンドは,リスト内の特定の要素にアクセスするのに有用で,リスト全体を取り出す必要がないため,特定の要素のみが必要な操作に効率的です.以下のリソースから詳細をご覧ください: - [@official@LINDEX]https://redis.io/docs/latest/commands/lindex/)",
+        "links": []
+      }
+    },
+    {
+      "id": "4oCcP9FxDJSDMHCEVBCNa",
+      "type": "subtopic",
+      "label": "LEN",
+      "position": {
+        "x": -788.5705012400213,
+        "y": 1231.848933004529
+      },
+      "size": {
+        "width": 96,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`LLEN` は,指定されたキーで保存されているリストの長さを返却するために使用される Redis コマンドです.リストが存在しない場合,それは返却します `0`.このコマンドは,その内容を回収せずにリスト内の要素の数を迅速にチェックするのに効率的です.",
+        "links": []
+      }
+    },
+    {
+      "id": "9KvHcS5F4Jj5ZXgIAdOQY",
+      "type": "subtopic",
+      "label": "LMOVE",
+      "position": {
+        "x": -689.5028152080492,
+        "y": 1231.848933004529
+      },
+      "size": {
+        "width": 96,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`LMOVE`は,要素を1つのリストから別のリストに原子的に移動するために使用されるRedisコマンドです. 源リストから要素を (左または右端から) ポップアップし,指定されたパラメータ (`LEFT`または `RIGHT`) に基づいて目的リスト (左または右端から) に押し付けます.このコマンドは,レース条件なしに異なるリスト間のキューのようなパターンを実装したり,要素が1つの原子操作で安全に転送されることを確保するため,有用です.以下のリソースから詳細をご覧ください: - [@official@LMOVE]https://redis.io/docs/latest/commands/lmove/)",
+        "links": []
+      }
+    },
+    {
+      "id": "eBeEUYY-IL_CMkcm31lUL",
+      "type": "subtopic",
+      "label": "さらに 命令",
+      "position": {
+        "x": -788.5705012400213,
+        "y": 1284.348933004529
+      },
+      "size": {
+        "width": 196,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Redis Listsには,リストを指定範囲に絞るLTRIM,リストの一つのリストから要素を削除して別のリストに添加するRPOPLPUSH,および要素が利用可能になるまで待つポップ操作をブロックするBLPOPまたはBRPOPなどの操作が含まれます.LPOSのようなコマンドは,要素の位置を見つけるのを可能にします.およびLSETは,指定されたインデックスでリスト要素を更新するために使用されます.これらの追加のコマンドは,リストを操作し,キューベースのパターンを実装し,注文されたデータの効率的な処理を保証し,リストをリアルタイムデータパイプラインとタスク列に非常に適している.以下のリソースから詳細をご覧ください.",
+        "links": []
+      }
+    },
+    {
+      "id": "Iour_R6xJ5PieRjX9t993",
+      "type": "label",
+      "label": "一般的な命令",
+      "position": {
+        "x": -779.5705012400213,
+        "y": 1338.348933004529
+      },
+      "size": {
+        "width": 178,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "XTwNCCtzXvZMdaex4gZEh",
+      "type": "subtopic",
+      "label": "使用例",
+      "position": {
+        "x": -790.5028152080492,
+        "y": 1374.348933004529
+      },
+      "size": {
+        "width": 201,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "Qgkpr9vf9d6-vUg1o8XFj",
+      "type": "topic",
+      "label": "セット",
+      "position": {
+        "x": -439.5819137259901,
+        "y": 982.348933004529
+      },
+      "size": {
+        "width": 101,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "レディスセットは,ユニークなアイテムを追跡し,関係を表現し,セット操作を元に実行するために使用できるメンバーの無秩序な集合です.以下のリソースから詳細をご覧ください: - [@official@Redis Sets](https://redis.io/docs/latest/develop/data-types/sets/)",
+        "links": []
+      }
+    },
+    {
+      "id": "xUKoQps69FFQrJeuhD1pz",
+      "type": "subtopic",
+      "label": "SADD",
+      "position": {
+        "x": -482.464883323405,
+        "y": 1070.501634732462
+      },
+      "size": {
+        "width": 91,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "SADD コマンドは,保存されているセットに指定されたメンバーを追加し,定義されたキーで,すでにセットのメンバーである指定されたメンバーは単に無視されます.以下のリソースから詳細をご覧ください: - [@official@SADD](https://redis.io/docs/latest/commands/sadd/)",
+        "links": []
+      }
+    },
+    {
+      "id": "mQ0ILns53n1By0Tq6xSZI",
+      "type": "subtopic",
+      "label": "メンバー",
+      "position": {
+        "x": -482.464883323405,
+        "y": 1123.251634732462
+      },
+      "size": {
+        "width": 187,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "SMEMBERS コマンドは,キーで定義された集合のすべてのメンバーを返します.以下のリソースから詳細をご覧ください: - [@official@SMEMBERS](https://redis.io/docs/latest/commands/smembers/)",
+        "links": []
+      }
+    },
+    {
+      "id": "WQWVL5GT_scHdgfCtI7WT",
+      "type": "subtopic",
+      "label": "SREM",
+      "position": {
+        "x": -389.03256935537723,
+        "y": 1070.501634732462
+      },
+      "size": {
+        "width": 94,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "SREM コマンドは,定義されたキーで保存されているセットから指定されたメンバーを削除し,セットの一員でない指定されたメンバーは無視されます.以下のリソースから詳細をご覧ください: - [@official@SREM](https://redis.io/docs/latest/commands/srem/)",
+        "links": []
+      }
+    },
+    {
+      "id": "Ji5ghlcGJtlmErHFqVf3d",
+      "type": "subtopic",
+      "label": "メンバー",
+      "position": {
+        "x": -482.464883323405,
+        "y": 1176.001634732462
+      },
+      "size": {
+        "width": 187,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "SISMEMBER コマンドは,メンバーがキーに保存されているセットの一部である場合にボウル値を返します.以下のリソースから詳細をご覧ください: - [@official@SISMEMBER](https://redis.io/docs/latest/commands/sismember/)",
+        "links": []
+      }
+    },
+    {
+      "id": "5aLfNBewK4Dx017qVNO3T",
+      "type": "subtopic",
+      "label": "シンター",
+      "position": {
+        "x": -483.5325693553771,
+        "y": 1228.751634732462
+      },
+      "size": {
+        "width": 101,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "SINTER コマンドは集合のメンバーを返して,すべての与えられた集合が交差する結果になる.存在しない鍵は空集合とみなされます.以下のリソースから詳細を学びましょう: - [@official@SINTER](https://redis.io/docs/latest/commands/sinter/)",
+        "links": []
+      }
+    },
+    {
+      "id": "2gZL4a9aWGKWLa89iyHTc",
+      "type": "subtopic",
+      "label": "SCARD",
+      "position": {
+        "x": -379.5325693553771,
+        "y": 1228.751634732462
+      },
+      "size": {
+        "width": 83,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`SCARD` は Redis コマンドで,セット内のメンバーの数を計算し,指定されたセットのカルダナリティを返します.その集合が存在しない場合は, `SCARD` が返します.このコマンドは,セットのサイズを迅速に決定するために有用です.アプリケーションは,キャンペーンに参加するユーザーをチェックしたり,システム内のユニークなタグの数をチェックしたりなどのユニークなアイテム数に基づいて意思決定をすることができます.以下のリソースから詳細をご覧ください: - [@official@SCARD](https://redis.io/docs/latest/commands/scard/)",
+        "links": []
+      }
+    },
+    {
+      "id": "6QoYa-N2BKNBaRtvNeVNm",
+      "type": "subtopic",
+      "label": "サンリオピューロランド",
+      "position": {
+        "x": -483.5325693553771,
+        "y": 1281.501634732462
+      },
+      "size": {
+        "width": 101,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "SUNION コマンドは集合のメンバーを返します.結果としてすべての集合が結合されます.以下のリソースから詳細をご覧ください: - [@official@SUNION](https://redis.io/docs/latest/commands/sunion/)",
+        "links": []
+      }
+    },
+    {
+      "id": "JX5ajmcUmkshTO-mLF8lH",
+      "type": "subtopic",
+      "label": "SDIFF",
+      "position": {
+        "x": -379.5325693553771,
+        "y": 1281.501634732462
+      },
+      "size": {
+        "width": 83,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "SDIFF コインマンドは,最初のセットと次のすべてのセットの違いの結果,集合のメンバーを返します.以下のリソースから詳細をご覧ください: - [@official@SDIFF](https://redis.io/docs/latest/commands/sdiff/)",
+        "links": []
+      }
+    },
+    {
+      "id": "WMDsN_k9KKTMJoVxvqRe_",
+      "type": "label",
+      "label": "一般的な命令",
+      "position": {
+        "x": -478.464883323405,
+        "y": 1389.552701727933
+      },
+      "size": {
+        "width": 178,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "2SG4Hr9Tuv6cxmGkrKjYZ",
+      "type": "subtopic",
+      "label": "さらに 命令",
+      "position": {
+        "x": -483.0325693553771,
+        "y": 1334.901634732462
+      },
+      "size": {
+        "width": 187,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "3hayYoSZepw7pppBubotg",
+      "type": "subtopic",
+      "label": "使用例",
+      "position": {
+        "x": -481.964883323405,
+        "y": 1429.552701727933
+      },
+      "size": {
+        "width": 185,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "b48EUyFGUeSjtT5fOa_m6",
+      "type": "subtopic",
+      "label": "さらに 命令",
+      "position": {
+        "x": -483.0325693553771,
+        "y": 1334.901634732462
+      },
+      "size": {
+        "width": 187,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Redis Setsには,集合からランダムなメンバーを回収するための SRANDMEMBER,集合からランダムな要素を削除して返還するための SPOP,および集合の間での元素を原子的に移動するための SMOVEなどの高度な操作が含まれます.SSCANのようなコマンドは,大規模な集合でインクリメンタル・イテレーションを可能にし,大規模なデータ構造でパフォーマンス問題を回避します.複雑な集合の操作のために,SINTERSTORE,SUNIONSTORE,SDIFFSTOREは,集合の交差,ユニオン,または違いの結果を新しい集合に保存することができます.これらのコマンドは,基本的な集合の操作の機能を拡張し,効率的な会員テスト,セット操作,および数学集合の計算を可能にします.[@official@All Redis Set Commands]https://redis.io/docs/latest/commands/?group=set]",
+        "links": []
+      }
+    },
+    {
+      "id": "MnC2RVZsbUXRWBHhoS3IG",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": -762.1381872719934,
+        "y": 601.2610824325313
+      },
+      "size": {
+        "width": 21,
+        "height": 399
+      },
+      "style": {
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "Wl23Jh-ASJOQ850yjaTIU",
+      "type": "topic",
+      "label": "文字列",
+      "position": {
+        "x": -794.6381872719934,
+        "y": 754.348933004529
+      },
+      "size": {
+        "width": 101,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Redis の 文字列 は,文字,整数,浮遊列,または画像などの バイナリー データ など,あらゆる種類のデータを含めるため,キーごとに 512 MB のデータまで収納できます. Redis の 文字列 は,基本的な CRUD (Create, Read, Update, Delete) から,数値値を増やし/減小し,データを追加し,サブ文字列を抽出するなどのより複雑な操作まで,幅広い操作をサポートします.以下のリソースから詳細をご覧ください: - [@official@Redis Strings]https://redis.io/docs/latest/develop/data-types/strings/)",
+        "links": []
+      }
+    },
+    {
+      "id": "LKpF1cUo7n_B8_7VYil8G",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": -762.1381872719934,
+        "y": 996.348933004529
+      },
+      "size": {
+        "width": 21,
+        "height": 69
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "4-C4XqACUp4nvcMIj6djF",
+      "type": "topic",
+      "label": "リスト",
+      "position": {
+        "x": -799.0705012400213,
+        "y": 982.348933004529
+      },
+      "size": {
+        "width": 104,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Redis のリストは,文字列要素の順序集合で,インデックスによって要素を押す,ポップする,アクセスするなどの操作を可能にします.リストは,開始または終わりに要素を追加する `LPUSH`と `RPUSH`などのさまざまなコマンドをサポートし,要素を削除する `LPOP`と `RPOP`,および要素の範囲を回収する `LRANGE`です.メッセージキュー,タスク管理,または順序を維持することが不可欠なスタックやキューを実装などの使用例に最適です.リストは,順序化されたデータシーケンスを管理するために非常に柔軟な操作のために動的に成長し,高いパフォーマンスを提供します.以下のリソースから詳細を学びましょう: - [@official@Redis Lists]https://io/docs/developest/data-lists/types/io/",
+        "links": []
+      }
+    },
+    {
+      "id": "wY46Qj5Inw_ClBNI9PB_2",
+      "type": "topic",
+      "label": "ハッシュ",
+      "position": {
+        "x": -205.4360763433994,
+        "y": 831.577518106665
+      },
+      "size": {
+        "width": 144,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Redis のハッシュは,単一のキーまたは地図のようなキー値ペアの集合を単一のキーの下に保存できるようにするデータタイプです.各ハッシュは複数のフィールドを保持することができ,各フィールドには独自の値があり,ハッシュはさまざまな属性を持つオブジェクトまたはエンティティを表すのに理想的です.フィールドを追加 (`HSET`),フィールド値を (`HGET`),フィールドを削除 (`HDEL`),フィールドを繰り返すなどの操作を実行できます.ハッシュはメモリ効率があり,関連データを集めて,ユーザープロファイル,構成設定,または構造化されたデータストレージなどの使用例に適しています.以下のリソースから詳細をご覧ください: - [@ashofficial@Redis Hashes]https://www.docs/lat/h/data-developes/io/",
+        "links": []
+      }
+    },
+    {
+      "id": "BOJzn9SWad9oRRdY_ub01",
+      "type": "subtopic",
+      "label": "HSET",
+      "position": {
+        "x": 44.870749690558,
+        "y": 619.6621339677162
+      },
+      "size": {
+        "width": 101,
+        "height": 52
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`HSET` は,ハッシュ内の指定されたフィールドの値を設定するために使用される Redis コマンドです.フィールドが既に存在している場合は,その値を更新します.そうでなければ,ハッシュにフィールドを追加します.このコマンドは,他のフィールドを変更せずにハッシュ構造内のキー-値ペアを作成および管理するのに役立ちます.新しいフィールドが作成され,既存のフィールドが更新され, Redis ハッシュでの原子更新に効率的に使われます.以下のリソースから詳細をご覧ください: - [@official@HSET](https://redis.io/docs/latest/commands/hset/)",
+        "links": []
+      }
+    },
+    {
+      "id": "MsKg9m5jFwHM2Bzjf-vdu",
+      "type": "subtopic",
+      "label": "HGET",
+      "position": {
+        "x": 148.88342242236251,
+        "y": 621.1621339677162
+      },
+      "size": {
+        "width": 101,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`HGET` は,ハッシュ内の指定されたフィールドの値を取得するために使用される Redis コマンドです.フィールドが存在した場合,その値を返します.そうでない場合は,ハッシュ内の特定のフィールドにアクセスするのに有効です.このコマンドは,ハッシュ構造全体を回収せずに,特定のフィールドにアクセスするのに有効です. Redis ハッシュから選択的なデータしか読み取らないシナリオでは理想的です.以下のリソースから詳細を学びましょう: - [@official@HGET](https://redis.io/docs/latest/commands/hget/)",
+        "links": []
+      }
+    },
+    {
+      "id": "TpR33sJ-tAjeG3jpGTvYR",
+      "type": "subtopic",
+      "label": "ハゲタール",
+      "position": {
+        "x": 44.870749690558,
+        "y": 674.6621339677162
+      },
+      "size": {
+        "width": 101,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`HGETALL`は,指定されたハッシュからすべてのフィールドとその値を回収するRedisコマンドです. フィールド-値ペアの配列としてデータを返すため,ハッシュの内容の完全な表示を得るのに有用になります.しかし,大きなハッシュではメモリ密集型であり,高データ量に対処する際に慎重に使用することをお勧めします.以下のリソースから詳細を学びましょう: - [@official@HGETALL]https://redis.io/docs/latest/commands/hgetall/)",
+        "links": []
+      }
+    },
+    {
+      "id": "E7xFZkqqbzokD5KGTn9zJ",
+      "type": "subtopic",
+      "label": "HDEL",
+      "position": {
+        "x": 148.88342242236251,
+        "y": 674.6621339677162
+      },
+      "size": {
+        "width": 101,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`HDEL` は,ハッシュから指定されたフィールドを削除するために使用される Redis コマンドです.ハッシュに指定されたフィールドが存在する場合は,削除されます.指定されたフィールドが存在しない場合は,無視されます. `HDEL` は,ハッシュ構造全体を削除せずに Redis ハッシュ内のメモリを効率的に管理し,データをきれいにするために有用です.以下のリソースから詳細を学びましょう: - [@official@HDEL]",
+        "links": []
+      }
+    },
+    {
+      "id": "adhLMuSmfYMRyWTwIgnyE",
+      "type": "subtopic",
+      "label": "存在する",
+      "position": {
+        "x": 44.870749690558,
+        "y": 726.6621339677162
+      },
+      "size": {
+        "width": 206,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`HEXISTS` は,特定のフィールドがハッシュ内に存在するかどうかを確認するために使用される Redis コマンドです.フィールドが存在している場合と存在しない場合は, `1` と返します.このコマンドは,更新や削除などの操作を行う前にハッシュ内の特定のフィールドの存在を確認するのに有用です.データ一貫性を確保し,Redisで不必要な操作を避けるのに役立ちます.以下のリソースから詳細を学びましょう: - [@official@HEXISTS](https://redis.io/docs/latest/commands/hexists/)",
+        "links": []
+      }
+    },
+    {
+      "id": "3JTlcdE0621Do-fF7rmvY",
+      "type": "label",
+      "label": "一般的な命令",
+      "position": {
+        "x": 58.870749690558,
+        "y": 835.6621339677162
+      },
+      "size": {
+        "width": 178,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "jtVnUD-na-WffMaS8qYfu",
+      "type": "subtopic",
+      "label": "使用例",
+      "position": {
+        "x": 47.870749690558,
+        "y": 876.6621339677162
+      },
+      "size": {
+        "width": 203,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "QTbkWZ7BpqYmBhUivccPu",
+      "type": "topic",
+      "label": "排列されたセット",
+      "position": {
+        "x": -205.4360763433994,
+        "y": 971.0460686385047
+      },
+      "size": {
+        "width": 144,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Redis の 排列 集合 は,関連 スコア で 排列 さ れ て いる ユニークな 文字列,または メンバー の 集合 です. 1 つ 以上 の 文字列 が 同じ スコア を 持つ 場合,文字列 は 辞書 形式 で 排列 さ れ て い ます.以下 の 資源 から 詳細 を 学ぶ: - [@official@Sorted Sets](https://redis.io/docs/latest/develop/data-types/sorted-sets/)",
+        "links": []
+      }
+    },
+    {
+      "id": "0swsBD0sOY-o5lzibT999",
+      "type": "subtopic",
+      "label": "ZADD",
+      "position": {
+        "x": 44.870749690558,
+        "y": 979.7159079993978
+      },
+      "size": {
+        "width": 101,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ZADD コマンドは,指定されたスコアを持つすべてのメンバーを `key`で定義された分類集合に追加します.以下のリソースから詳細をご覧ください: - [@official@ZADD](https://redis.io/docs/latest/commands/zadd/)",
+        "links": []
+      }
+    },
+    {
+      "id": "3pFChX6YIItrBz9lxu4XM",
+      "type": "subtopic",
+      "label": "ランゲ",
+      "position": {
+        "x": 148.88342242236251,
+        "y": 979.7159079993978
+      },
+      "size": {
+        "width": 101,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ZRANGE コマンドは,ランク,スコアまたはレキオグラフィカル・順序を含む複数の範囲のクエリを実行できます.返された要素の順序は常に最低から最高までであり,逆レキオグラフィカル・順序を使用して任意のスコア関係が解決されます.以下のリソースから詳細を学びましょう: - [@official@ZRANGE](https://redis.io/docs/latest/commands/zrange/)",
+        "links": []
+      }
+    },
+    {
+      "id": "OlbixGa5RmdqEt7snY04j",
+      "type": "subtopic",
+      "label": "ZRANGEBYSCORE",
+      "position": {
+        "x": 44.870749690558,
+        "y": 1085.4042933441044
+      },
+      "size": {
+        "width": 205,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "このコマンドは,指定されたキーで保存されている並べられたセットから要素を回収します.既定のminとmax範囲内に該当するスコアを持つすべての要素を返します.両境界を含む.要素は最低から最高スコアまで順序付けされます.同じスコアを共有する要素については,コマンドは語法順で返します.この順序は,Redis並べられたセットの固有の属性であり,追加の計算を必要としません.以下のリソースから詳細を学びましょう: - [@official@ZRANGEBYSCORE](https://redis.io/docs/latest/commands/zrangebyscore/)",
+        "links": []
+      }
+    },
+    {
+      "id": "m0FZDPwNE71zcwM_gUwz0",
+      "type": "subtopic",
+      "label": "ZREM",
+      "position": {
+        "x": 148.88342242236251,
+        "y": 1033.4059280765664
+      },
+      "size": {
+        "width": 101,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "キーに保存されている並べられたセットから指定されたメンバーを削除します.存在しないメンバーは無視されます.キーが存在し並べられたセットを持っていないときにエラーが返されます.以下のリソースから詳細を学びます: - [@official@ZREM](https://redis.io/docs/latest/commands/zrem/)",
+        "links": []
+      }
+    },
+    {
+      "id": "W4v7FIQr2k-Vbm-HdfKog",
+      "type": "subtopic",
+      "label": "シンクレージー",
+      "position": {
+        "x": 44.870749690558,
+        "y": 1137.9059280765664
+      },
+      "size": {
+        "width": 101,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ZINCRBY は,指定されたインクリメントによって並べられた集合でメンバーのスコアを増やします.対象メンバーが並べられた集合に存在しない場合,追加され,インクリメントの値が割り当てられます.鍵が存在しない場合,ZINCRBY は対象メンバーが唯一のメンバーとしてセットを作成します.以下のリソースから詳細を学びましょう: - [@official@ZINCRBY](https://redis.io/docs/latest/commands/zincrby/)",
+        "links": []
+      }
+    },
+    {
+      "id": "AF_kWM4V8n5Ux06IgEVTl",
+      "type": "subtopic",
+      "label": "ザランク",
+      "position": {
+        "x": 44.870749690558,
+        "y": 1033.4059280765664
+      },
+      "size": {
+        "width": 101,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ZRANKは,キーに保存されている並べられたセットでメンバーのランクを返します.ランクは低から高に順序付けされます.ランクは0に基づいており,最も低いスコアを持つメンバーがランク0を持っていることを意味します.オプションのWITHSCORE引数は,返された要素のスコアでコマンドの返答を補完します.以下のリソースから詳細を学びましょう: - [@official@ZRANK](https://redis.io/docs/latest/commands/zrank/)",
+        "links": []
+      }
+    },
+    {
+      "id": "O-fZM_U-tW0pYtNzN_8Ax",
+      "type": "subtopic",
+      "label": "ZCOUNT",
+      "position": {
+        "x": 148.88342242236251,
+        "y": 1137.9059280765664
+      },
+      "size": {
+        "width": 101,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ZCOUNTは,ターゲティングされた `キー`で排列されたセットの要素数を返します. `min`と `max`の間のスコアです.以下のリソースから詳細をご覧ください: - [@official@ZCOUNT](https://redis.io/docs/latest/commands/zcount/)",
+        "links": []
+      }
+    },
+    {
+      "id": "P6TDUCroLlEI7qePBFHIH",
+      "type": "subtopic",
+      "label": "さらに 命令",
+      "position": {
+        "x": 44.870749690558,
+        "y": 780
+      },
+      "size": {
+        "width": 206,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Redis Hashには,HMSETとHMGETのような操作が含まれる.HMSETとHMGETは,複数のフィールドと値を同時に設定または取得する.HINCRBYとHINCRBYFLOATは,特定の整数または浮遊値でフィールドの値を増加させる.HLENは,ハッシュ内のフィールドの数を得る.HKEYSとHVALSのようなコマンドは,それぞれすべてのフィールド名または値を取得するために使用されます.HSCANは,大きなハッシュを次々と繰り返すことができます.これらのコマンドは,基本的なハッシュオペレーションの機能を拡張し,Redis Hashesは,ユーザープロファイルや構成設定などの構造化されたデータを,効率的なアクセスと更新で保存し,操作するのに理想的です.以下のリソースから詳細を学びましょう: - [official@Allis Hashs]https://h.docs/lat Commands/group/command=Redish?",
+        "links": []
+      }
+    },
+    {
+      "id": "B2KNO28rJqoasbleVgXn7",
+      "type": "label",
+      "label": "一般的な命令",
+      "position": {
+        "x": 63.2537192879729,
+        "y": 1247.2798077525504
+      },
+      "size": {
+        "width": 178,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "lxevY15ZyP43s_JrEqMX7",
+      "type": "subtopic",
+      "label": "使用例",
+      "position": {
+        "x": 46.76039918125758,
+        "y": 1284.3678500599142
+      },
+      "size": {
+        "width": 203,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "o6e_CwxfPoU6qkfWkwKwj",
+      "type": "subtopic",
+      "label": "さらに 命令",
+      "position": {
+        "x": 44.870749690558,
+        "y": 1191.6176737848343
+      },
+      "size": {
+        "width": 206,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Redis Sorted Setsには,ZREVRANGEのような操作があり,要素を逆順に並べ,ZRANGEBYLEXは特定の語法範囲内の要素を回収し,ZINTERSTOREまたはZUNIONSTOREは,複数のソートされたセットで交差点とユニオン操作を実行し,結果を保存します.ZREMrangeBYRANKとZREMRANGEBYSCOREのようなコマンドは,ランクまたはスコア範囲に基づいて要素を削除することができます.以下のリソースから詳細を学びましょう: - [@official@All Redis Sorted Set Commands]https://redis.io/docs/latest/commands/?group=sorted-set)",
+        "links": []
+      }
+    },
+    {
+      "id": "8gyVwKg3Ctt2w15X7xZgC",
+      "type": "paragraph",
+      "label": "レディスとの協力",
+      "position": {
+        "x": -239.32217668933376,
+        "y": 1187.6176737848343
+      },
+      "size": {
+        "width": 214,
+        "height": 57
+      },
+      "style": {
+        "fontSize": 20,
+        "borderColor": "transparent",
+        "backgroundColor": "transparent",
+        "color": "#000000",
+        "textAlign": "center",
+        "justifyContent": "center",
+        "padding": 16
+      },
+      "z_index": 999
+    },
+    {
+      "id": "5SgC-_4Be_XpFmbJH3wH2",
+      "type": "label",
+      "label": "キー管理",
+      "position": {
+        "x": -207.82217668933376,
+        "y": 1493.001634732462
+      },
+      "size": {
+        "width": 151,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "jCaVx5wvsvuyqtwh6m8si",
+      "type": "subtopic",
+      "label": "会議 の 名付け",
+      "position": {
+        "x": -236.32217668933376,
+        "y": 1327.6577176448873
+      },
+      "size": {
+        "width": 208,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Redisでは,組織的で理解可能なデータ構造を維持するために名前の設定が不可欠である.特に大規模なアプリケーションでは,一般的な慣習は,階層キー (例えば, `:`) を階層キー (`user:1001:settings`) の分離器として使用し,グループ関連キー (例えば, `session:`, `cache:`) の前置詞を使用し,鍵の目的と種類を示すための簡潔で記述的な名前を使用する.",
+        "links": []
+      }
+    },
+    {
+      "id": "UlQHqw1dbxZnAKbsWsOgU",
+      "type": "subtopic",
+      "label": "パターンによる回収",
+      "position": {
+        "x": -236.32217668933376,
+        "y": 1380.6577176448873
+      },
+      "size": {
+        "width": 208,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Redis の SCAN コマンドは,COUNT が指定されている場合でも,すべての一致するキーを1回の呼び出しで返却することを保証しないカーサーベースのイテレーターです.代わりに,SCAN はパターンに一致するキーの小小組を返却し,後回の呼び出しを完了するために要求します.Redis は強力なパターンベースのキー回収を提供し,ユーザがワイルドカードパターンを使用して複数のキーを查询できるようにします.この機能は主にKEYS コマンドに依存します.この機能は,柔軟なマッチングのための *, ?,および [] のようなグローブスタイルパターンをサポートします.以下のリソースから詳細をご覧ください: - [@official@SCAN]https://redis.io/docs/latest/commands/scan/)",
+        "links": []
+      }
+    },
+    {
+      "id": "OSIYDYPGz8Vgo9SU9GGH9",
+      "type": "subtopic",
+      "label": "期限切れ",
+      "position": {
+        "x": -236.32217668933376,
+        "y": 1433.6577176448873
+      },
+      "size": {
+        "width": 208,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Redis キーの有効期限は,キーの有効期限 (TTL) を設定し,指定された期間後に自動的に削除することができます.これは,有効期限を秒で設定する `EXPIRE`のようなコマンド,または,より細かな粒度のためにミリ秒を使用する `PEXPIRE`のようなコマンドを使用して達成できます. EX 引数を使用して,単一のコマンドで有効期限と有効期限を持つキーを設定することもできます.有効期限切れのキーは,アクセスまたは定期的なクリーンアップなどの通常の操作中に削除されます.この機能は,効率的なメモリ管理およびセッション管理や一時的なデータストレージが必要なシナリオのために有用です.詳細は以下のリソースからご覧ください. - [@official@PEXPIRE] (https://redis.io/docs/latest/commands/pexpire/) - [@official@EXPIRE] (https://redis.io/docs/latest/commands/expire/)",
+        "links": []
+      }
+    },
+    {
+      "id": "jrgaoDnt_RxTu79hk4hCD",
+      "type": "topic",
+      "label": "レディスにおける原子性",
+      "position": {
+        "x": 45.870749690558,
+        "y": 1403.6577176448873
+      },
+      "size": {
+        "width": 203,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Redis の原子性は,一連の操作が単一で分割できない単位として実行されることを保証する属性を指します.つまり,すべての操作が成功に実行されるか,いずれも実行されない.特に複数の操作が一緒に実行する必要がある場合,原子性は Redis で一貫性を維持するために不可欠です.以下のリソースから詳細を学びましょう: - [@official@Atomicity with Lua] (https://redis.io/learn/develop/rate/java/spring/lua-limiting/fixed-window/reactive-lu) - [@article@Atomicity in Redis operations] (https://caspin.medium.com/atomicity-in-redis-operations-a1d7bc9f4a90)",
+        "links": []
+      }
+    },
+    {
+      "id": "LHlwjN3WHYUBUafzzwsWQ",
+      "type": "topic",
+      "label": "パイプライン",
+      "position": {
+        "x": 45.870749690558,
+        "y": 1488.001634732462
+      },
+      "size": {
+        "width": 203,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Redis のパイプラインングは,クライアントが各コマンド後に個々の応答を待たないうちに複数のコマンドをサーバーに送信できる技術です.代わりに,コマンドはバッチで送信され,応答は最後に一緒に読み取れます. これにより,複数の回帰と関連するネットワークオーバーヘッドと遅延が減少し,特に高量操作で吞吐量が大幅に改善されます.以下のリソースから詳細を学びましょう: - [@official@Redis Pipelining] (https://redis.io/docs/latest/develop/use/pipelining/)",
+        "links": []
+      }
+    },
+    {
+      "id": "7JzeyTrkZ_1_yxMVrqvZU",
+      "type": "topic",
+      "label": "バッチ・オペレーション",
+      "position": {
+        "x": 45.870749690558,
+        "y": 1571.9885116331939
+      },
+      "size": {
+        "width": 203,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Redis の バッチ操作は,単一のネットワーク回帰で複数のコマンドを効率的に実行できるようにします.Redis は一部のデータベース (一連のオペレーションが一緒に送信され,原子的に処理される) のような真のバッチングを持っていないが,個々のネットワークリクエストのオーバーヘッドを削減するために複数のコマンドを一緒に送信する方法を提供します.これらはパイプライン,トランザクション (MULTI/EXEC),Lua スクリプトを含む.次のリソースから詳細を学びましょう: - [@article@Batch Operations in Redis]https://www.compilenrun.com/docs/middleware/redis/redis/redis-batch-operations/) - [@article@Pipelining to Batch Issue Commands) [https://www.alibabacloud.com/help/en/redis/use-cases/use-pelining-to-batch-issue-commands#:~:text=You%20%20can use%20the%20Redis,network%20latency%20and%20improving%20performance.)",
+        "links": []
+      }
+    },
+    {
+      "id": "osbKjF7VIAxtWokGjuYXq",
+      "type": "label",
+      "label": "MSET / MGET",
+      "position": {
+        "x": 83.76039918125758,
+        "y": 1629.099028442399
+      },
+      "size": {
+        "width": 129,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "45ihdIfRW-jI38h-s4Vdc",
+      "type": "paragraph",
+      "label": "高度なデータ構造",
+      "position": {
+        "x": -305.3221766893338,
+        "y": 1567.9885116331939
+      },
+      "size": {
+        "width": 280,
+        "height": 57
+      },
+      "style": {
+        "fontSize": 20,
+        "borderColor": "transparent",
+        "backgroundColor": "transparent",
+        "color": "#000000",
+        "textAlign": "center",
+        "justifyContent": "center",
+        "padding": 16
+      },
+      "z_index": 999
+    },
+    {
+      "id": "0Q3AkE8leWAyYsww3-BHX",
+      "type": "topic",
+      "label": "ビットマップ",
+      "position": {
+        "x": -523.1381872719934,
+        "y": 1571.9885116331939
+      },
+      "size": {
+        "width": 150,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Redisでは,ビットマップは文字列値内の個々のビットを操作できるデータ構造である.Redisにはネイティブの\"ビットマップ\"データタイプがないが,ビットマップを表示するために文字列を使用している.ビットマップのパワーは,ビットレベルでバイナリデータ上で操作を行う能力から得られ,特定のタイプのアプリケーションのメモリ効率が非常に高くなっている.例えば,要素の存在/欠乏を追跡 (日常的なアクティブユーザー,機能など).以下のリソースから詳細を学びましょう: - [@official@Bitmap]https://redis.io/docs/maplatest/develop/data-ty/bits/pes) - [@video@Redis Bitmap Explained]https://youtu.be/oj8LdQJJJJ?PLbZEP=54JJJJJ?",
+        "links": []
+      }
+    },
+    {
+      "id": "B-YUFhPQNdr1KZNupmR5N",
+      "type": "subtopic",
+      "label": "サットビット",
+      "position": {
+        "x": -786.6346077601577,
+        "y": 1474.3345088216322
+      },
+      "size": {
+        "width": 96,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "SETBIT コマンドは,指定されたオフセットのビットを指定されたキーに保存されている文字列値に設定またはクリアします.キーが存在しないとき,新しい文字列値が作成され,文字列が以前定義されたオフセットと同じ値にビットを保持できるように成長します.以下のリソースから詳細を学びましょう: - [@official@SETBIT](https://redis.io/docs/latest/commands/setbit/)",
+        "links": []
+      }
+    },
+    {
+      "id": "0HFLJfcrcSnAVTecG3P8W",
+      "type": "subtopic",
+      "label": "ゲットビット",
+      "position": {
+        "x": -687.5669217281857,
+        "y": 1475.3024555615639
+      },
+      "size": {
+        "width": 96,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Redis の `GETBIT` コマンドは,特定のビット の 値 を 文字列 キーの ある オフセット で 取得します. その 位置 の ビットの 状態 に 基づいて 0 または 1 を 返します. キー が存在しない場合, コマンド は 0 を返します. この コマンド は,存在しない キーを 空き 文字列 と 扱うため. この コマンド は,ビットマップ データ 構造 で 作業 する ため に 特に 有用 です. この コマンド は, 文字列 全体 を 取得 する と比べて 個々のビット の 状態 を より 効率 的 に 確認 する こと を 可能にします. 以下 の 資源 から 詳細 を 学べます: - [@https@GETBIT](ps://redis.io/docs/latest/commands/getbit/)",
+        "links": []
+      }
+    },
+    {
+      "id": "jpcyXSSib7q4WBPmpgnXA",
+      "type": "subtopic",
+      "label": "BITCOUNT",
+      "position": {
+        "x": -787.24296378698,
+        "y": 1580.9782502455694
+      },
+      "size": {
+        "width": 196,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Redis の BITCOUNT コマンドは,特定のキーで格納された値で 1 に設定されたビット数 (すなわち,バイナリ 1s の数) をカウントするために使用されます. Redis は文字列値がバイナリデータとして格納されるので,BITCOUNT コマンドはバイナリ暗号化されたデータにおけるビットを効率的に追跡し数えるようなビットを含む操作に有用になります.以下のリソースから詳細を学びましょう: - [@official@BITCOUNT]https://redis.io/docs/latest/commands/bitcount/) - [@article@BITCOUNT]https://upstashcount.com/sddocs/redis/ks/ts/commands/bitmap/bitcount)",
+        "links": []
+      }
+    },
+    {
+      "id": "tkrxArg_oYH0aQfM8NkD2",
+      "type": "subtopic",
+      "label": "BITOP",
+      "position": {
+        "x": -786.6346077601577,
+        "y": 1526.9782502455694
+      },
+      "size": {
+        "width": 96,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Redis の `BITOP` コマンドは,文字列をバイナリーデータとして処理し,一つまたは複数の文字列キー (AND, OR, XOR, NOT) でビット方向操作を行います.結果は,宛先キーに保存されます.このコマンドは,フラグを集めたときやビットマップデータ構造を扱うときのように,Redis で直接バイナリーデータを操作および分析するのに有用です.以下のリソースから詳細を学びましょう: - [@official@BITOP] (https://redis.io/docs/latest/commands/bitop/) - [@article@BITOP Explained] (https://www.io dragonflydb.io/docs/command-reference/strings/bitop)",
+        "links": []
+      }
+    },
+    {
+      "id": "Df1Eu7CuA-ARYii9JVvnm",
+      "type": "subtopic",
+      "label": "BITPOS",
+      "position": {
+        "x": -687.5669217281857,
+        "y": 1527.946196985501
+      },
+      "size": {
+        "width": 96,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Redis の `BITPOS` コマンドは,文字列キーで 1 または 0 に設定された最初のビット の位置を見つけるために使用されます.検索のために,開始と終了のバイト範囲を指定できます. ビットマップ内の特定のビットを迅速に特定する必要のあるシナリオで使用されます.例えば,大きなデータセットでフラグまたはステータスの最初の発生を特定します.以下のリソースから詳細を学びましょう: - [@official@BITPOS] (https://redis.io/docs/latest/commands/bitpos/) - [@article@BITPOS Documentation] (https://upstash.com/docs/redis/sdks/py/commands/map/bitpos)",
+        "links": []
+      }
+    },
+    {
+      "id": "i2qZKBU9LJ8c6z8wKt_Eb",
+      "type": "label",
+      "label": "一般的な命令",
+      "position": {
+        "x": -777.24296378698,
+        "y": 1635.8291147642672
+      },
+      "size": {
+        "width": 178,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "s7PEr-5TAm5EGJm0RSjPJ",
+      "type": "subtopic",
+      "label": "使用例",
+      "position": {
+        "x": -785.24296378698,
+        "y": 1671.8291147642672
+      },
+      "size": {
+        "width": 194,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "cszjT3YK8oyhGpqLTQzwX",
+      "type": "topic",
+      "label": "HyperLogLog",
+      "position": {
+        "x": -523.1381872719934,
+        "y": 1867.6382433656738
+      },
+      "size": {
+        "width": 150,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "HyperLog は Redis の確率データ構造で,最小のメモリ使用率を持つ大規模なデータセットのカーディナリティ (すなわち,単一の要素の数) を効率的に推定するために使用されます.実際の要素を保存する代わりに,圧縮された表示を維持し,典型的なエラー率 0.81% のカーディナリティを推定することができます. `PFADD`, `PFCOUNT`, `PFMERGE`のようなコマンドは,要素を追加し,カウントを取得し,HyperLogLogs を統合するために使用されます.この構造は,正確なカウントが不要である特定の訪問者追跡またはカウントイベントなどのアプリケーションに理想的です.しかし,メモリ消費量は kriticalです.[https://redis.io/docs/latest/develop/data-types/probabilistic/hyperloglogs/) - [@video@Redis HyperLogLog Explained](https://www.youtube.com/watch?v=MunL8nnwscQ)",
+        "links": []
+      }
+    },
+    {
+      "id": "8a4DmPZrX2xGZ7zdWxS63",
+      "type": "subtopic",
+      "label": "PFADD",
+      "position": {
+        "x": -787.1336432750411,
+        "y": 1822.4395748673794
+      },
+      "size": {
+        "width": 194,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`PFADD`コマンドは,データセットのカーディナリティ (ユニークな要素数) を推定するために設計されたHyperLogLogデータ構造に要素を追加するために使用されます. `PFADD`を使用して要素を追加すると,Redisは実際の要素を保存せずに内部構造を更新し,メモリ消費量が低いことを保証します.このコマンドはHyperLogLogが変更された場合 (つまり新しいユニークな要素が追加された場合) と `0`を返します.",
+        "links": []
+      }
+    },
+    {
+      "id": "JWT30KIJQHVw0MXI5sGR6",
+      "type": "subtopic",
+      "label": "PFCOUNT",
+      "position": {
+        "x": -787.1336432750411,
+        "y": 1875.4395748673794
+      },
+      "size": {
+        "width": 194,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`PFCOUNT` は,HyperLogLog構造物の1つまたは複数のユニークな要素の推定数を取得するために使用されるRedisコマンドです.典型的なエラー率の0.81%で,大型データセットで非常に効率的になります.最小のメモリを使用すると,複数のHyperLogLogキーで呼び出されたとき, `PFCOUNT` はデータを統合し,複数のセットでユニークな要素を迅速に集めるようにユニットの推定数を返します.以下のリソースから詳細を学びましょう: - [@official@PFCOUNT](https://redis.io/docs/latest/commands/pfcount/)",
+        "links": []
+      }
+    },
+    {
+      "id": "s50jr_XOUcxh65-tGCKf5",
+      "type": "subtopic",
+      "label": "PFMERGE",
+      "position": {
+        "x": -787.1336432750411,
+        "y": 1769.4395748673794
+      },
+      "size": {
+        "width": 194,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`PFMERGE`は,複数のHyperLogLogデータ構造を1つのHyperLogLogキーに組み合わせて,すべてのユニークな要素の結合を表す新しい構造を作成するRedisコマンドです.このコマンドは,複数のデータセットで異なる要素のカードナリティを集計して推定したいときに有用です.結果となるHyperLogLogは,合併したユニークな要素の推定数を得るために,`PFCOUNT`を使用して查询することができます.以下のリソースから詳細を学びましょう: - [@official@PFMERGE](https://redis.io/docs/latest/commands/pfmerge/)",
+        "links": []
+      }
+    },
+    {
+      "id": "EiVMoU64Omo8DOV7h6nBr",
+      "type": "label",
+      "label": "一般的な命令",
+      "position": {
+        "x": -779.1336432750411,
+        "y": 1927.5036813875156
+      },
+      "size": {
+        "width": 178,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "XPeCvikPuu6EJ8UcOLGPh",
+      "type": "subtopic",
+      "label": "使用例",
+      "position": {
+        "x": -787.1336432750411,
+        "y": 1963.5036813875156
+      },
+      "size": {
+        "width": 194,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "zXs_9n2yEb_eVi0WuOQKH",
+      "type": "topic",
+      "label": "流れ",
+      "position": {
+        "x": -242.30753316308028,
+        "y": 1998.5036813875156
+      },
+      "size": {
+        "width": 142,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Redis ストリームは,添付のみログのように動作するデータ構造ですが,典型的な添付のみログで見られる限界を克服するために複数の操作を実行することもできます.これらのには,消費者グループなどの O(1) 時間および複雑な消費戦略におけるランダムアクセスが含まれます.以下のリソースから詳細を学びましょう: - [@official@Redis Streams] (https://redis.io/docs/latest/develop/data-types/streams/) - [@official@Transport Layer Security Documentation] (https://redis.io/docs/latest/operate/rc/security/database-security/tls-ssl/)",
+        "links": []
+      }
+    },
+    {
+      "id": "7isWhgrUA6M5IGM2U2tm4",
+      "type": "subtopic",
+      "label": "XADD",
+      "position": {
+        "x": -265.08695195283053,
+        "y": 1695.0200165881924
+      },
+      "size": {
+        "width": 101,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "XADD コマンドは,ストリームデータ構造に新しいエントリを追加するために使用されます.これは,単一のエントリとして1つまたは複数のフィールド値ペアを追加し,自動的に各新しいエントリにユニークなIDを割り当てることができます.以下のリソースから詳細を学びましょう: - [@official@XADD](https://redis.io/docs/latest/commands/xadd/)",
+        "links": []
+      }
+    },
+    {
+      "id": "4sKiAtX5aIL4NDsQkilNC",
+      "type": "subtopic",
+      "label": "XREAD",
+      "position": {
+        "x": -161.52821095958973,
+        "y": 1694.0520698482605
+      },
+      "size": {
+        "width": 86,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "XREAD コマンドは,1つまたは複数のストリームからのデータを読み取り,最後に受信したIDより大きなIDを持つエントリのみ返します.以下のリソースから詳細をご覧ください: - [@official@XREAD](https://redis.io/docs/latest/commands/xread/)",
+        "links": []
+      }
+    },
+    {
+      "id": "CiYFuYE8XudZkR6AW2NQ7",
+      "type": "subtopic",
+      "label": "異国",
+      "position": {
+        "x": -265.08695195283053,
+        "y": 1747.5200165881924
+      },
+      "size": {
+        "width": 101,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ストリームからメッセージを取得するために使用されるXRANGEコマンド. ストリームのIDに基づいて一連のメッセージを查询し,年代順に返却することができます. このコマンドはストリームの歴史の一部を読むのに特に有用であり,効率的なデータ取得と処理を可能にします.以下のリソースから詳細を学びましょう: - [@official@XRANGE](https://redis.io/docs/latest/commands/xrange/)",
+        "links": []
+      }
+    },
+    {
+      "id": "DQJCMEw13lELcw_AwLfrT",
+      "type": "subtopic",
+      "label": "XLEN",
+      "position": {
+        "x": -161.52821095958973,
+        "y": 1746.5520698482605
+      },
+      "size": {
+        "width": 86,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "XLEN コマンドは,ストリームの長さを測定し,その中のエントリーの数を返します.このシンプルで強力なコマンドは,コンテンツを回収せずにストリームの大きさを評価する簡単な方法を提供します.他のRedisタイプとは異なり,長さゼロのストリームが可能なので,XLENはTYPEまたはEXISTSと組み合わせて使用されるべきです.以下のリソースから詳細を学びましょう: - [@official@XLEN](https://redis.io/docs/latest/commands/xlen/)",
+        "links": []
+      }
+    },
+    {
+      "id": "1eNIiXzA2XjiIDS_df1YR",
+      "type": "label",
+      "label": "一般的な命令",
+      "position": {
+        "x": -260.35633423807275,
+        "y": 1855.4492672979154
+      },
+      "size": {
+        "width": 178,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "zXlSBfa-Gi9_GhSYEzre3",
+      "type": "subtopic",
+      "label": "使用例",
+      "position": {
+        "x": -263.85633423807275,
+        "y": 1895.4492672979154
+      },
+      "size": {
+        "width": 185,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "4-z4hDKm86qQatYnmE21R",
+      "type": "subtopic",
+      "label": "さらに 命令",
+      "position": {
+        "x": -264.9240202700449,
+        "y": 1800.7982003024445
+      },
+      "size": {
+        "width": 187,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ストリームには,XADDやXREADのような基本コマンドが提供するコア機能を強化するさまざまな操作が含まれます.例としては,ストリームから特定のエントリを取り除くXDEL,古いエントリをカットすることによってストリームのサイズを制御するXTRIM,および複数のクライアントが同じストリームから協調的に読み取れるようにするXGROUPが含まれます. XPENDINGやXCLAIMのようなコマンドは,未処理のメッセージの監視と処理に使用され,データが失われたり処理されていないことを保証します.以下のリソースから詳細を学びましょう: - [@official@All Redis Stream Commands](https://redis.io/docs/latest/commands/?group=stream)",
+        "links": []
+      }
+    },
+    {
+      "id": "_NiUdVQ85qnvryI38k_vQ",
+      "type": "topic",
+      "label": "地質空間指数",
+      "position": {
+        "x": 34.784146851171954,
+        "y": 1998.5036813875156
+      },
+      "size": {
+        "width": 206,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "レディスの地質地質指数は,地理位置ベースのデータを効率的に保存し,查询するために使用され,迅速な地質地質操作が可能になります.レディスはこれらの指数を維持するために分類されたセットデータ構造を使用し,各メンバーは長度と緯度座標によって識別された地理位置を表します.座標は単一の値にコード化され,レディスは位置を追加 (`GEOADD`),近くの位置を探す (`GEOSEARCH`),距離計算 (`GEODIST`) のような操作を行うことができます.このインデックスメカニズムは地質地質データの迅速な回収を可能にするため,マッピングサービス,位置追跡,近距離ベースの検索などのアプリケーションに適しています.次のリソースから詳細を学ぶ: - [@official@Geospatial Indexing] (https://redis.io/docs/latest/develop/interact/search-and-query/indexing/geoindex/) - [@article@Geospatial Indexes in Redis] (https://codesignal.com/learn/courses/redis-data-structures-beyond-basics/lessons/introduction-to-geospatial-indexes-in-redis-using-java)",
+        "links": []
+      }
+    },
+    {
+      "id": "U3N1EgHFs1-YUaB_VrJfw",
+      "type": "subtopic",
+      "label": "ゲオアード",
+      "position": {
+        "x": 43.68805808540674,
+        "y": 1693.57444541618
+      },
+      "size": {
+        "width": 187,
+        "height": 51
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Redis の `GEOADD` コマンドは,格付けされた集合に地理空間データを追加するために使用され,各エントリはメンバー (ユニークな識別子) とそれに対応する長度および緯度座標で構成されます.このコマンドは,位置ベースのデータを効率的に保存し,指定された半径内のメンバーを見つけるか,点間の距離を計算するなどの地理空間查询を可能にします.座標は,迅速な検索と分析を可能にするフォーマットで保存され, `GEOADD`はマッピング,位置追跡,および近距離検索を含むアプリケーションのための強力なツールになります.以下のリソースから詳細を学びましょう: - [@official@GEOADD]https://redis.docs/geolatest/commands/add/commands)",
+        "links": []
+      }
+    },
+    {
+      "id": "OWWDLuGTbdNwME7v2jxVP",
+      "type": "subtopic",
+      "label": "GEOSEARCH",
+      "position": {
+        "x": 43.68805808540674,
+        "y": 1748.57444541618
+      },
+      "size": {
+        "width": 187,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Redis の `GEOSEARCH` コマンドは,指定された地理領域内にメンバーを見つけ,地理空間データを查询するために使用されます.中央点 (緯度と長度) と定義された半径,または境界框の座標に基づいてエントリを検索することができます. コマンドは指定された地理範囲内に属するメンバーの分類されたセットを返します.詳細は以下のリソースからご覧ください. - [@official@GEOADD](https://redis.io/docs/latest/commands/geoadd/) - [@article@Getting Started with Geospatial Search in Redis](https://redis.io/learn/howtos/solutions/geo/getting-started)",
+        "links": []
+      }
+    },
+    {
+      "id": "n7tMR48rdamdpGuCKKiJh",
+      "type": "label",
+      "label": "一般的な命令",
+      "position": {
+        "x": 49.70715514077847,
+        "y": 1856.5838292760734
+      },
+      "size": {
+        "width": 178,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "GNMjrLPkpTphneoQ0GoZF",
+      "type": "subtopic",
+      "label": "使用例",
+      "position": {
+        "x": 46.20715514077847,
+        "y": 1896.5838292760734
+      },
+      "size": {
+        "width": 185,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "FCbdKnkI1ZHGekT6yiGua",
+      "type": "subtopic",
+      "label": "さらに 命令",
+      "position": {
+        "x": 45.13946910880634,
+        "y": 1801.9327622806024
+      },
+      "size": {
+        "width": 187,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Redis Geospatial インデックスには,地理空間集合の2人のメンバー間の距離を計算するGEODIST,地理空間集合のGeohash表示を回収するGEOHASH,および指定されたメンバーの長度と緯度を得るGEOPOSのような操作が含まれます.さらに,GEORADIUSとGEORADIUSBYMEMBERは,坐標または参照メンバーに基づいて特定の半径内のメンバーを検索することを可能にします.以下のリソースから詳細を学びましょう: - [@official@All Redis Geospatial Commands]https://redis.io/docs/latest/commands/?group=geo)",
+        "links": []
+      }
+    },
+    {
+      "id": "9W_jaK1DSEZHRKdPcUM7h",
+      "type": "topic",
+      "label": "パブ/サブ",
+      "position": {
+        "x": 33.284146851171954,
+        "y": 2094.1338220801877
+      },
+      "size": {
+        "width": 209,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Pub/Sub in Redis は,出版/サブスクリプションモデルを通じてクライアントとのリアルタイム通信を可能にする強力なメッセージングパラダイムである.このシステムでは,出版社は,特定のチャンネルにメッセージを送信し,誰が受け取るかを知らずにメッセージを送信する.一方,サブスクリプションは特定のチャンネルに興味を示し,それらのチャンネルに掲載されたメッセージを瞬時に受信する.これはメッセージ制作者を消費者から分離し,柔軟かつ拡張可能な通信を促進する.このモデルの主要なコマンドは,メッセージを送信するための `PUBLISH,チャンネルを聴くために `SUBSCRIBE,メッセージを受け取るのを止めるために `UNSUBSCRIBE.",
+        "links": [
+          {
+            "title": "レディスのパブ/サブ",
+            "url": "https://redis.io/docs/latest/develop/interact/pubsub/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "55BCntuWlaQiLPqNtb-2i",
+      "type": "subtopic",
+      "label": "サブスクリプション",
+      "position": {
+        "x": 44.284146851171954,
+        "y": 2193.028423683739
+      },
+      "size": {
+        "width": 187,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "SUBSCRIBE コマンドは,クライアントを指定されたチャンネルに登録し,サブスクリプションサブセット,すなわち SSUBSCRIBE, PSUBSCRIBEなどに含まれるコマンドを除いて,他のコマンドを発行しない状態に入ります.以下のリソースから詳細をご覧ください: - [@official@SUBSCRIBE](https://redis.io/docs/latest/commands/subscribe/)",
+        "links": []
+      }
+    },
+    {
+      "id": "5gkZzm2F4vu6IxUoJLYbK",
+      "type": "subtopic",
+      "label": "署名できない",
+      "position": {
+        "x": 44.284146851171954,
+        "y": 2246.028423683739
+      },
+      "size": {
+        "width": 187,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "UNSUBSCRIBE コマンドは,指定されたチャンネル,または指定されていない場合,すべてのチャンネルにクライアントのサブスクリプションをキャンセルします.以下のリソースから詳細をご覧ください: - [@official@UNSUBSCRIBE](https://redis.io/docs/latest/commands/unsubscribe/)",
+        "links": []
+      }
+    },
+    {
+      "id": "gIPo-2CNqE1BsOaDzmkCU",
+      "type": "subtopic",
+      "label": "出版",
+      "position": {
+        "x": 44.284146851171954,
+        "y": 2299.028423683739
+      },
+      "size": {
+        "width": 187,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`PUBLISH` は,パブ/サブメッセージングシステム内の特定のチャンネルに送信するために使用される Redis コマンドです.メッセージが公開されたとき,そのチャンネルに登録しているすべてのクライアントはすぐにメッセージを受け取ります.このコマンドはチャットアプリケーション,通知,またはイベント放送などのリアルタイム通信機能を実装するのに役立ちます. `PUBLISH` コマンドは,送信者に確認を返さないため,火災と忘却の基礎で動作し,送信者がメッセージ処理を待つ必要なしに効率的なメッセージ配布を可能にします.以下のリソースから詳細をご覧ください.",
+        "links": []
+      }
+    },
+    {
+      "id": "fu9hfU-5qxDc2psK6-AEm",
+      "type": "label",
+      "label": "一般的な命令",
+      "position": {
+        "x": 48.784146851171954,
+        "y": 2406.028423683739
+      },
+      "size": {
+        "width": 178,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "V-d6q-3Sf0dl5v8xiCQwl",
+      "type": "subtopic",
+      "label": "さらに 命令",
+      "position": {
+        "x": 44.284146851171954,
+        "y": 2352.028423683739
+      },
+      "size": {
+        "width": 187,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Redis Pub/Sub に PSUBSCRIBE と PUNSUBSCRIBE のような操作が含まれています. パターンマッチングを使用してチャネルにサブスクリプションとサブスクリプションを削除し,柔軟なトピックベースのサブスクリプションを可能にします.さらに,PUBSUB CHANNELS はアクティブチャネルをリストし,PUBSUB NUMSUB はチャネルごとにサブスクリプションの数を示し,PUBSUB NUMPAT はアクティブパターンのサブスクリプション数を返します.これらのコマンドは,基本的な公開とサブスクリプション機能を拡張し,よりよい洞察とメッセージングパターンの制御を提供し,リアルタイムイベント放送,チャットアプリケーション,および分散型システムでのサービス間通信に理想的です.以下のリソースから詳細を学びましょう: - [official@Allis Pub/s]",
+        "links": []
+      }
+    },
+    {
+      "id": "MvyE_JUJej0UB9xe8Anfj",
+      "type": "subtopic",
+      "label": "使用例",
+      "position": {
+        "x": 45.284146851171954,
+        "y": 2447.028423683739
+      },
+      "size": {
+        "width": 185,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "YHbWlKrQqptUDbaQVy0_A",
+      "type": "topic",
+      "label": "トランザクション",
+      "position": {
+        "x": -270.6768116800821,
+        "y": 2094.1338220801877
+      },
+      "size": {
+        "width": 211,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Redis トランザクションは,MULTI,EXEC,DISCARD,WATCH コマンドを中心に,単一のステップでコマンドのグループを実行することを可能にします.以下のリソースから詳細を学びましょう: - [@official@Transactions] (https://redis.io/docs/latest/develop/interact/transactions/) - [@official@MULTI] (https://redis.io/docs/latest/commands/multi/) - [@official@EXEC] (https://redis.io/docs/latest/commands/exec/) - [@official@DISCARD] (https://redis.io/docs/latest/commands/discard/) - [@ATCH@official/docs/latest/commands/) ]",
+        "links": []
+      }
+    },
+    {
+      "id": "c-y5Eck8VtSyIf8RAW9p7",
+      "type": "subtopic",
+      "label": "ウォッチ",
+      "position": {
+        "x": -259.6768116800821,
+        "y": 2192.7847957820186
+      },
+      "size": {
+        "width": 189,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "WATCH コマンドは,トランザクションの条件付き実行のために監視される与えられたキーをマークします.これは多鍵トランザクションにおけるレース条件を管理するRedisのアプローチの重要な構成要素です.以下のリソースから詳細を学びましょう: - [@official@WATCH](https://redis.io/docs/latest/commands/watch/)",
+        "links": []
+      }
+    },
+    {
+      "id": "Ljy-Mc0EBBX4_vXfYZ5-4",
+      "type": "subtopic",
+      "label": "EXEC",
+      "position": {
+        "x": -259.6768116800821,
+        "y": 2245.7847957820186
+      },
+      "size": {
+        "width": 189,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Redis の `EXEC`コマンドは, `MULTI`コマンドで開始されたトランザクションを実行するために使用されます. `MULTI` コマンドでトランザクションが開始されたとき,次のコマンドは並びますがすぐに実行されません. `EXEC` を呼び出すと,トランザクションのすべてのコマンドが原子的に実行され,すべてのコマンドが成功するか,いずれも適用されないことを保証します.トランザクションのコマンドが失敗した場合,トランザクション全体が中止されます.これは,単一の作業単位として処理されるべき一連のコマンドを実行する際にデータの完整性を維持するために不可欠です.以下のリソースから詳細をご覧ください.",
+        "links": []
+      }
+    },
+    {
+      "id": "U6hST1MkS16T2CHV3-Ise",
+      "type": "subtopic",
+      "label": "MULTI",
+      "position": {
+        "x": -259.6768116800821,
+        "y": 2298.7847957820186
+      },
+      "size": {
+        "width": 189,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`MULTI`は,トランザクションを開始するために使用されるRedisコマンドで,一連のコマンドを連続して原子的に実行することができます. `MULTI`ブロックを起動した後,コマンドはすぐに実行される代わりに排列されます.すべての望ましいコマンドが追加されると, `EXEC`コマンドは単一の原子操作として実行するように呼び出される.排列中に任意のコマンドにエラーが発生した場合,トランザクションに他のクライアントが干渉できないことを保証します. `MULTI`は,一貫した状態更新を必要とする複雑な操作に理想的です.以下のリソースから詳細を学びましょう: - [@official@MULTI]https://mandis.com/docs/est/commulti/multi/multi/multi/multi/multi/multi/multi/multi/multi/multi/multi/multi/multi/multi/multi/multi/multi/multi/multi/multi/multi/multi/multi/multi/multi/multi/multi/multi/multi/multi/multi/multi/multi/multi/multi/multi/multi/multi/multi/multi/multi/multi/multi/multi/multi/multi/multi/multi/multi/multi/multi/multi/multi/multi/multi/multi/multi/multi/multi/multi/multi/multi/multi/multi/multi/multi/multi/multi/multi/multi/multi/multi/multi/multi/multi/multi/multi/multi/multi/multi/multi/multi/multi/multi/multi/multi/multi/multi/multi/multi/multi/multi/multi/multi/multi/multi/multi/multi/multi)",
+        "links": []
+      }
+    },
+    {
+      "id": "bnqUb3pHb4KzH_vA0JO-o",
+      "type": "label",
+      "label": "一般的な命令",
+      "position": {
+        "x": -254.1768116800821,
+        "y": 2357.7847957820186
+      },
+      "size": {
+        "width": 178,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "msW0Wd2H-6FFNDnjC64t-",
+      "type": "subtopic",
+      "label": "楽観 的 な 鍵",
+      "position": {
+        "x": -259.6768116800821,
+        "y": 2393.7847957820186
+      },
+      "size": {
+        "width": 189,
+        "height": 50
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Redis の楽観的なロックは,トランザクション (`MULTI`および `EXEC`) と組み合わせた `WATCH`コマンドを使用して実装されます.`WATCH`は,トランザクションを開始する前に指定された鍵を変更に監視します. `EXEC` が呼び出される前に,監視された鍵のいずれかが他のクライアントによって修正されれば,トランザクションは中止され, `EXEC`は,排列命令を実行する代わりに ``nil を返します.これは,Redis に従来のロックを必要とせずに同時更新処理を可能にするため,複数のクライアントが同じ鍵を修正するシナリオに理想的です.楽観的なロックは,通常パフォーマンスロックメカニズムに関連したオーバーヘッドを最小限に抑えながら,データの完全性を維持するのに役立ちます.[@official@Optimistic Locking using CHECK & SET](https://redis.io/docs/latest/develop/interact/transactions/#optimistic-locking-using-check-and-set) - [@official@WATCH Command](https://redis.io/docs/latest/commands/watch/) - [@official@MULTI Command](https://redis.io/docs/latest/commands/m/)",
+        "links": []
+      }
+    },
+    {
+      "id": "Veb30QrPYNjUn13dtGbUr",
+      "type": "topic",
+      "label": "ルアスクリプト",
+      "position": {
+        "x": -540.6396884459828,
+        "y": 2094.1338220801877
+      },
+      "size": {
+        "width": 204,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Redis の Lua スクリプトは,ユーザがサーバー側でカスタムスクリプトを原子的に実行できるようにし,複雑な操作を単一のステップで実行できるようにします.Lua スクリプトは `EVAL`または `EVALSHA` コマンドを使用して実行され,単一の実行で複数のキーと値を操作できます.これはネットワークオーバーヘッドを削減し,スクリプトが単一のトランザクションとして実行されるため,データ一貫性を保証します.Lua は一般的に条件アップデート,バッチ処理,および複数のコマンドを単一の操作に組み合わせるような作業に使用され,先進的な使用例のための Redis の柔軟性とパワーを高めます.[www.youtube.com/watch?v=jUuqBZwwkQw) - [@video@Full Lua Programming Crash Course](https://www.youtube.com/watch?v=1srFmjt1Ib0)",
+        "links": []
+      }
+    },
+    {
+      "id": "rjeq3i9oX8IGyQzo--L3c",
+      "type": "subtopic",
+      "label": "EVAL",
+      "position": {
+        "x": -531.1396884459828,
+        "y": 2193.3736263464275
+      },
+      "size": {
+        "width": 185,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`EVAL`コマンドは,Luaスクリプトをサーバー上で直接実行し,原子的に実行できる複雑な操作を可能にします.このコマンドは,Luaスクリプトをスクリプトのキー・アルグメントのリストとともに議論として採用します.スクリプトをサーバーサイドで実行することで, `EVALはクライアントとサーバー間の回帰の数を削減し,パフォーマンスを向上させ,単一の原子操作で複数のコマンドを実行する必要がある操作を可能にします.このコマンドは,Redis内で高度なデータ操作,カスタムロジック,または条件操作を実行するために特に有用です.以下のリソースから詳細をご覧ください.",
+        "links": []
+      }
+    },
+    {
+      "id": "3X0x_PcJGWBVPL-LSVAln",
+      "type": "subtopic",
+      "label": "EVALSHA",
+      "position": {
+        "x": -531.1396884459828,
+        "y": 2246.3736263464275
+      },
+      "size": {
+        "width": 185,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Redis の `EVALSHA` コマンドは,既に `SCRIPT LOAD` コマンドでサーバーにロードされている Lua スクリプトを実行するために使用されます.毎回全スクリプトを送信する代わりに,スクリプトの SHA1 ハッシュを提供します.これはより効率的な実行とネットワークオーバーヘッドを削減できます. `EVAL` のように, `EVALSHA` はキーと議論を受け入れ,サーバーで直接複雑な原子操作を実行できます.このアプローチは,同じスクリプトが複数回実行されるシナリオでは特に有益です.スクリプトのコードを再送信する必要性を回避します.以下のリソースから詳細を学びましょう.",
+        "links": []
+      }
+    },
+    {
+      "id": "ntFfk1RRA5g_dC5McYb9g",
+      "type": "label",
+      "label": "一般的な命令",
+      "position": {
+        "x": -527.6396884459828,
+        "y": 2300.6176330596563
+      },
+      "size": {
+        "width": 178,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "kF_nGo845XDwLkwcQt008",
+      "type": "subtopic",
+      "label": "使用例",
+      "position": {
+        "x": -531.1396884459828,
+        "y": 2341.6176330596563
+      },
+      "size": {
+        "width": 185,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "bQaek7f3dAaZfSUhwovm1",
+      "type": "topic",
+      "label": "忍耐 の 選択肢",
+      "position": {
+        "x": -761.5705012400213,
+        "y": 2430.5411678802984
+      },
+      "size": {
+        "width": 204,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Redis は,RDB (Redis Database Backup) ** と **AOF (Append-Only File) ** を提供します.RDB は,指定された間隔でデータセットのポイントインタイムスナップショットを作成し,最小限のパフォーマンス影響で効率的なストレージを提供し,定期的なバックアップに適しているが,スナップショット間の潜在的なデータ損失を伴います.AOF は,データ保存が不要であるシナリオのために **No Persistence** を利用し,よりリソース密集したリクアリングによってより高いデータ耐久性を提供します.Redis は,RDB と AOF を組み合わせて,より速く復元し,より強い耐久性を確保する**ハイブリッド耐久性モードもサポートします.さらに,メモリ速度と効率性を優先し,データ保存が不要であるシナリオでは **No Persistence** オプションが利用できます.[@official@Data Persistence] (https://redis.io/docs/latest/operate/rc/databases/configuration/data-persistence/) - [@official@Redis Persistence] (https://redis.io/docs/latest/operate/oss_and_stack/management/persistence/)",
+        "links": []
+      }
+    },
+    {
+      "id": "D3pZdAjwPFMRxX1-iyu5-",
+      "type": "subtopic",
+      "label": "RDB は どの よう に 機能 し て い ます か",
+      "position": {
+        "x": -788.4056236984468,
+        "y": 2582.722300491497
+      },
+      "size": {
+        "width": 255,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Redis の RDB (Redis Database Backup) メカニズムは,指定された間隔でデータセットのスナップショットを作成し,コンパクトバイナリファイルとしてディスクに保存します.このプロセスは,手動で, `SAVE`または `BGSAVE` コマンドを通じて,または既定条件に基づいて自動的に起動します.スナップショット中に,Redis は子供プロセスをフォークでRDB ファイルにメモリ内のデータを書き込み,主要なプロセスのブロックされないことを保証します.RDB は軽量で高速なバックアップオプションを提供していますが,スナップショット間でRedis がクラッシュした場合,潜在的なデータ損失につながる可能性があります.詳細は以下のリソースからご覧ください. - [@official@Backup Data] (https://redis.io/docs/latest/operate/rc/databases/back-up-data/) - [@article@About RDB Snapshots] (https://cloud.google.com/memorystore/docs/redis/about-rdb-snapshots)",
+        "links": []
+      }
+    },
+    {
+      "id": "_pb2DPrFUUZabKxWsuFUo",
+      "type": "subtopic",
+      "label": "Save Interval を設定する",
+      "position": {
+        "x": -788.4056236984468,
+        "y": 2635.722300491497
+      },
+      "size": {
+        "width": 255,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Redis の保存間隔を設定すると,メモリからディスクにデータを保存する頻度 (RDB スナップショット) が制御されます. これは, `save` 指示を使用して行われます. `redis.conf` ファイルでです. `save 900 1` は,少なくとも 1 つのキーが 900 秒以内に変更された場合,データセットを保存します. Redis は,性能とデータ耐久性の間の柔軟性を提供する複数の保存間隔を設定できます.以下のリソースから詳しくは: - [@official@Redis Persistence](https://redis.io/docs/latest/operate/oss_and_stack/management/persistence/) - [@video@Understanding Persistence]",
+        "links": []
+      }
+    },
+    {
+      "id": "Z6yJwUkcDX08HoMyf1LwX",
+      "type": "subtopic",
+      "label": "使用例/ベストプラクティス",
+      "position": {
+        "x": -788.4056236984468,
+        "y": 2688.722300491497
+      },
+      "size": {
+        "width": 255,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "cXcTz_u6RL3novZimRdg_",
+      "type": "label",
+      "label": "スナップショット (RDB)",
+      "position": {
+        "x": -746.4056236984468,
+        "y": 2748.722300491497
+      },
+      "size": {
+        "width": 171,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "PTj6oxvpw8vP295WvAI80",
+      "type": "subtopic",
+      "label": "AOFはどのように機能するのですか?",
+      "position": {
+        "x": -788.5040036977603,
+        "y": 2795.239715349408
+      },
+      "size": {
+        "width": 255,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Redis の Append-Only File (AOF) は,すべての書き込み操作を連続順にファイルに記録し,データの耐久性を確保する持続力メカニズムです.各コマンドは AOF ファイルの端に添付され,再起動の場合データセットを再構築するために Redis が再再生できます. AOF ファイルは時間とともに成長し, Redis は冗長なコマンドを削除してコンパクトバージョンを作成するために *AOF 再書き * と呼ばれる自動的なバックグラウンドプロセスを提供します. AOF は通常,デフォルト RDB スナップショットよりも安全です.",
+        "links": []
+      }
+    },
+    {
+      "id": "ibaZ34-laQtUyxAsERi7o",
+      "type": "subtopic",
+      "label": "AOF 書き換え & 圧縮",
+      "position": {
+        "x": -788.5040036977603,
+        "y": 2848.239715349408
+      },
+      "size": {
+        "width": 255,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "持続性は,固体状態ディスク (SSD) などの耐久性ストレージにデータを書き込むことを指します.Redisは,持続可能性オプションの範囲を提供しており,その選択肢の一つは AOF (Append Only File) です.AOF持続性は,サーバーが受信するすべての書き込み操作を記録します.これらの操作は,サーバー起動時に再再生され,元のデータセットを再構築できます.再書きは,現在の追加ファイルの小さな最適化されたバージョンを作成します.以下のリソースから詳細を学びましょう: - [@official@Persistence in Redis] (https://redis.io/docs/latest/operate/oss_and_stack/management/persistence/) - [@video@nabling Redis persistence]https://youtube.be/qBKeUeR0Ep?TPvcFZ-Be-FM) - [https://rep.io/docs/latest/operate/oss_and_stack/management/persistence/) ]",
+        "links": []
+      }
+    },
+    {
+      "id": "9ToKTUqbi-NV5Wcwb21PT",
+      "type": "subtopic",
+      "label": "切り裂き / 腐敗",
+      "position": {
+        "x": -788.5040036977603,
+        "y": 2901.239715349408
+      },
+      "size": {
+        "width": 255,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "短縮と腐敗は,通常,データが意外に切断または変更され,その整体性を損なうシナリオを指します.これは突然の電源故障,システムクラッシュ,またはディスクエラーなどのさまざまな理由で発生します.RedisはRDBスナップショットや AOF (Append-Only File) ログなどの持続力メカニズムを通じてこれらのリスクを軽減します.次のリソースから詳細を学びましょう: - [@official@AOF Advantages] (https://redis.io/docs/latest/operate/oss_and_stack/management/persistence/#aof-advantages) - [@official@of-advantages) - [@official@of-advantages] - [@of-advantages] (https://redis.io/docs/latest/operate/oss_and_stack/management/persistence/#what-should-i-do-if-my-a-of-gets-truncated) - [@official@what-should-i-do-if-my-a-of-gets-corrupted)",
+        "links": []
+      }
+    },
+    {
+      "id": "VvOQUO22ZF8VvDSqHENNU",
+      "type": "subtopic",
+      "label": "使用例",
+      "position": {
+        "x": -788.5040036977603,
+        "y": 2954.239715349408
+      },
+      "size": {
+        "width": 255,
+        "height": 50
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "Y__3QLU4PChySvPtqDtxT",
+      "type": "label",
+      "label": "追加のみファイル (AOF)",
+      "position": {
+        "x": -761.0995417594463,
+        "y": 3012.821469532407
+      },
+      "size": {
+        "width": 198,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "vzp7DUpjklzIA0E9WxJQA",
+      "type": "subtopic",
+      "label": "使用例/ベストプラクティス",
+      "position": {
+        "x": -788.4056236984468,
+        "y": 2688.722300491497
+      },
+      "size": {
+        "width": 255,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "80035BzcB-fKCvD_3N8zE",
+      "type": "subtopic",
+      "label": "忍耐 の 選択肢 は ない",
+      "position": {
+        "x": -796.4056236984468,
+        "y": 2525.722300491497
+      },
+      "size": {
+        "width": 271,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Redis の **No Persistence** オプションは,すべてのデータ持続性メカニズムを無効にし,データもディスクに保存されないことを意味します.RDB スナップショットと AOF (Append-Only File) ログインの両方をオフにすることで設定できます.Redis を持続性なしで実行することは,一時的なデータを保存したり,サーバーの再起動に生き残る必要がないセッションを管理したりするようなデータ持続性よりも高速キャッシングが優先される使用例に理想的です.このオプションはディスクI/Oを削減し,パフォーマンスを最大化しますが,サーバーがシャットダウンまたはクラッシュした場合,すべてのデータが失われたことを意味します.",
+        "links": []
+      }
+    },
+    {
+      "id": "3S-qqOlfr60HR4VvDr4He",
+      "type": "subtopic",
+      "label": "RDB vs AOF ト્રેડオフ",
+      "position": {
+        "x": -788.4056236984468,
+        "y": 3069.0956068302976
+      },
+      "size": {
+        "width": 255,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "RDB (Redis Database Backup) と AOF (Append-Only File) を Redis でデータ持続性について比較する際には,いくつかのトレードオフを考慮する必要があります.**RDB**はパフォーマンスと効率的なストレージのために最適化され,指定された間隔でデータセットのポイントインタイムスナップショットを作成します.単一のファイルをロードし,通常の操作中にディスクI/Oを消費するので起動速度が速い.しかし,サーバーがクラッシュした場合,その間隔で作成された変更が保存されないため,スナップショット間のデータ損失につながる可能性があります.**AOF**が,一方,すべての操作をリアルタイムで記録し,データセットを再構築するために最小限のデータ損失でより細かい復元を可能にします.これはディスクI/Oの増加と,特に頻繁な書き込み操作で潜在的なパフォーマンスオーバーヘッドのコストで起こります.AOFファイルも大幅に成長し,サイズを最適化するために定期的な書き換えを必要とします.以下のリソースから詳細を学びます: - [@official@RDB Advantages] (https://redis.io/docs/latest/operate/oss_and_stack/management/persistence/#rdb-advantages) - [@official@AOF Advantages] (https://redis.io/docs/latest/operate/oss_and_stack/management/persistence/#a-of-advantages) - [@article@AvsOF vs RDB, Which One to Choosehttps://coded.com/news/red/red-a-data-end-back-b-end-a-damn-damn-b-advantages]",
+        "links": []
+      }
+    },
+    {
+      "id": "S5Y26m1oHCQpB-oLCdtac",
+      "type": "subtopic",
+      "label": "ハイブリッド 持続性",
+      "position": {
+        "x": -786.6346077601577,
+        "y": 3121.5956068302976
+      },
+      "size": {
+        "width": 255,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Redisのハイブリッド持続性は,RDB (Redis Database Backup) と AOF (Append-Only File) のメカニズムの両方を組み合わせて,それぞれのメカニズムの利点を活用します.RDBは,既定間隔で効率的なインスタントショットベースのバックアップを提供し,AOFは最小限のデータ損失を確保するためにすべての書き込み操作を記録します. రెディスの両方を利用することで,RDBのコンパクトなインスタントショット (RDBのコンパクトなインスタントショット) と高い耐久性 (AOFの詳細なログから) の間のバランスを達成します.このアプローチは,持続性の種類の両方を単独で使用するデメリットを最小限に抑え,パフォーマンスとデータセキュリティの両方を要求するシナリオのための強力なソリューションを提供します.以下のリソースから詳細を学びましょう: - [@official@Redis Persistence] (https://redis.docs/latest/persate/oss_and_stack/management/persistence/).",
+        "links": []
+      }
+    },
+    {
+      "id": "8zl_DwdRI2MGz6RadV4lE",
+      "type": "label",
+      "label": "正しい 戦略 を 選ぶ",
+      "position": {
+        "x": -762.1812271795868,
+        "y": 3177.5821619503376
+      },
+      "size": {
+        "width": 202,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "0zHluzD25vXl3AYcvbxhx",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": -670.0705012400213,
+        "y": 2479.5411678802984
+      },
+      "size": {
+        "width": 21,
+        "height": 50
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.5,
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "uvwbpHaA6rH6YrHuEdBxh",
+      "type": "paragraph",
+      "label": "複製 / HA",
+      "position": {
+        "x": -485.07050124002126,
+        "y": 2570.722300491497
+      },
+      "size": {
+        "width": 195,
+        "height": 58
+      },
+      "style": {
+        "fontSize": 20,
+        "borderColor": "transparent",
+        "backgroundColor": "transparent",
+        "color": "#000000",
+        "textAlign": "center",
+        "justifyContent": "center",
+        "padding": 16
+      },
+      "z_index": 999
+    },
+    {
+      "id": "rSD8nJ-uNpHJVe5Hn66h7",
+      "type": "topic",
+      "label": "複製の基礎",
+      "position": {
+        "x": -487.52827201104554,
+        "y": 2691.3630425975985
+      },
+      "size": {
+        "width": 200,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Redis の複製は,Redis のインスタンスのデータ (マスター) を Redis のインスタンスの1つまたは複数のインスタンスの (複製) に複製することを可能にするプロセスである.このメカニズムは,データの利用性,信頼性,およびスケーラビリティを向上させる.マスターインスタンスは書き込み操作を受け取ると,これらの変更をレプリカに拡散し,データの最新のコピーを維持することを保証する.Redis の複製はアシンクロンであり,レプリカはマスターに遅れをとる可能性があります.しかし,このデザインは,マスターがレプリカの受信を確認するためにレプリカを待つことなく書き込み操作を処理できるようにすることでパフォーマンスを向上させる.Redis の複製は冗長性を提供するとともに,読み込み操作がレプリカ中に分散し,マスターの読み込みを減らすため,読み込み操作がサポートされます.複製を構成するのは簡単で,マスターとその複製を指定するために `redis.conf`ファイルに最小限の設定が必要です.全体として,複製はレジスタンスとスケーラブルなアプリケーションを構築する上で重要な役割を果たす Redisの基本的な機能です.以下のリソースから詳細を学びましょう: - [@official@Redis Replication](https://redis.io/docs/latest/operate/oss_and_stack/management/replication/)",
+        "links": []
+      }
+    },
+    {
+      "id": "nci3OB1NE1zJHUPfZCOpT",
+      "type": "topic",
+      "label": "レディス・センチネル",
+      "position": {
+        "x": -487.52827201104554,
+        "y": 2744.3630425975985
+      },
+      "size": {
+        "width": 200,
+        "height": 50
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Redis Sentinel は Redis 部署のための強力な高可用性ソリューションとして機能し,包括的な監視,通知,自動故障機能を提供しています. Redis マスターおよびレプリカサーバーを継続的に監督することによって,Sentinel はシステム整体性と故障に対する迅速な対応を保証します.マスターインスタンスの故障の場合,マスターステータスにレプリカを無縫に推進し,最小のダウンタイムでサービス継続性を維持するためにシステムを再構成します.以下のリソースから詳細を学びましょう: - [@official@High Availability with Redis Sentinel] (https://redis.io/docs/latest/operate/oss_and_stack/management/sentinel/)",
+        "links": []
+      }
+    },
+    {
+      "id": "AQiCcHS6dBAAAPloxiXub",
+      "type": "topic",
+      "label": "グループ化",
+      "position": {
+        "x": -487.52827201104554,
+        "y": 2797.3630425975985
+      },
+      "size": {
+        "width": 200,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Redis Clusterは,複数のノードで自動データパーティションを提供し,データ複製を通じて高可用性を確保する Redisの分散実装である.ハッシュスロットシステムを使用してノード間でデータを分割するシェードメカニズムを使用し,各鍵がクラスターのノード間で分散した16,384つのスロットにマッピングされる.Redis Clusterは,マスターとレプリカノードでデータを複製することでエラー耐性を提供し,一部のノードが失敗してもクラスターが動作し続けることを可能にします.このセットアップはスケーラビリティと回復力を要求する大規模なアプリケーションに理想的です.[@official@Scale with Redis Cluster] (https://redis.io/docs/latest/operate/oss_and_stack/management/scaling/) - [@video@How to Create a Cluster in Redis] (https://www.youtube.com/watch?v=N8BkmdZzxDg)",
+        "links": []
+      }
+    },
+    {
+      "id": "zmVjMf9wNHARBS_mBY4lY",
+      "type": "paragraph",
+      "label": "セキュリティ",
+      "position": {
+        "x": -192.0301527130956,
+        "y": 2795.3630425975985
+      },
+      "size": {
+        "width": 124,
+        "height": 53
+      },
+      "style": {
+        "fontSize": 20,
+        "borderColor": "transparent",
+        "backgroundColor": "transparent",
+        "color": "#000000",
+        "textAlign": "center",
+        "justifyContent": "center",
+        "padding": 16
+      },
+      "z_index": 999
+    },
+    {
+      "id": "Qy42paiTUsO8HIwbWTMui",
+      "type": "topic",
+      "label": "認証",
+      "position": {
+        "x": -232.0301527130956,
+        "y": 2574.728124123601
+      },
+      "size": {
+        "width": 204,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Redisの認証は,クライアントがコマンドを実行する前にパスワードで自己認証することを要求することによってサーバーへのアクセスを制限するために使用されるセキュリティ機能です.これは,未承認ユーザーが Redis インスタンスの接続と操作を実行するのを防ぐのに役立ちます.以下のリソースから詳細を学びましょう: - [@official@AUTH](https://redis.io/docs/latest/commands/auth/)",
+        "links": []
+      }
+    },
+    {
+      "id": "wsuKH7YwGDV6GYQbdhA4o",
+      "type": "topic",
+      "label": "ネットワークセキュリティ",
+      "position": {
+        "x": -232.0301527130956,
+        "y": 2627.728124123601
+      },
+      "size": {
+        "width": 204,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Redisのネットワークセキュリティは,サーバーを不正アクセスおよびデータ侵害から保護するための措置を実施することを含む.ベストプラクティスは,Redisを信頼性の高いインターフェースに結合させ,アクセス制限のためにファイアウォールを使用し,パスワード保護のために `requirepass`を設定する.Redisは安全なネットワーク環境で実行されるべきであり,理想的には暗号化された通信のために TLS/SSLを有効にする.さらに, `ACL` (アクセス制御リスト) を使用することで,さまざまなユーザーに細かい権限が与えられます.危険なコマンドを無効にし,適切な認証および認証メカニズムを使用することによって,Redisインスタンスは不正アクセスやサービス拒否攻撃などの一般的な脅威から保護することができます.[@official@Redis Authentication] (https://redis.io/docs/latest/operate/oss_and_stack/management/security/#authentication) - [@official@Redis Network Security] (https://redis.io/docs/latest/operate/rc/security/database-security/network-security/)",
+        "links": []
+      }
+    },
+    {
+      "id": "gdiWwTQg6A-BFHdQBmgmH",
+      "type": "topic",
+      "label": "SSL/TLS暗号化",
+      "position": {
+        "x": -232.0301527130956,
+        "y": 2680.728124123601
+      },
+      "size": {
+        "width": 204,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "SSL/TLS は Redis が バージョン 6 からサポートするオプション機能として,コンパイル時に有効化する必要があります. TLS は SSL 接続とインテリジェンスチェックから読み書きによる通話スタックにオーバーチャーの層を追加し,達成可能な経路の減少につながります.以下のリソースから詳細を学びましょう: - [@official@Redis TLS Support]https://redis.io/docs/latest/operate/oss_and_stack/management/security/encryption/#get-encrypted) - [@official@start-transport Layer Security Documentation]https://redis.io/docs/latest/operate/rc/security/database-security/tls/ss/)",
+        "links": []
+      }
+    },
+    {
+      "id": "k9HeweEN4enuboEppbJiP",
+      "type": "paragraph",
+      "label": "監視 /最適化",
+      "position": {
+        "x": 28.876322242962374,
+        "y": 2740.3630425975985
+      },
+      "size": {
+        "width": 269,
+        "height": 65
+      },
+      "style": {
+        "fontSize": 20,
+        "borderColor": "transparent",
+        "backgroundColor": "transparent",
+        "color": "#000000",
+        "textAlign": "center",
+        "justifyContent": "center",
+        "padding": 16
+      },
+      "z_index": 999
+    },
+    {
+      "id": "q2Jw49QUWCUGIfcEC1bZI",
+      "type": "subtopic",
+      "label": "インフォ",
+      "position": {
+        "x": 78.05051776655154,
+        "y": 2972.2582055339226
+      },
+      "size": {
+        "width": 71,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`INFO`コマンドは,サーバーに関する詳細な情報と統計を含むメモリ使用,CPU負荷,接続されたクライアント,複製状態などを提供する.完全な概要を得るため,議論なしに呼び出したり,特定のセクション (例えば,`INFOメモリ`) を使用してターゲットデータを取得することができます.このコマンドは,管理者がサーバーの現在の状態とパフォーマンスメトリックを理解するのを助けるため,Redisインスタンスを監視し,デバッグするのに役立ちます.以下のリソースから詳細を学びましょう: - [@official@INFO]",
+        "links": []
+      }
+    },
+    {
+      "id": "jBtEiylcedtaE6E20Uk4V",
+      "type": "subtopic",
+      "label": "モニター",
+      "position": {
+        "x": 150.47128940990217,
+        "y": 2972.2582055339226
+      },
+      "size": {
+        "width": 101,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`MONITOR`は,サーバー上で実行されるすべてのコマンドのリアルタイムフィードを提供するRedisコマンドで,各コマンドとその議論が処理されるように表示されます.主にRedisインスタンスの動作をデバッグ,モニタリング,または分析するために使用されます. `MONITOR`は,リアルタイムですべてのコマンドをストリーミングすることによってパフォーマンスを影響するので,生産環境では慎重に使用する必要があります.コマンドパターンを理解し,問題を追跡し,クライアントがRedisサーバーとどのように相互作用するかについての洞察を得るために有用なツールです.以下のリソースから詳細を学びましょう.",
+        "links": []
+      }
+    },
+    {
+      "id": "_Pc7nNLnVFca8Wn3DjOfL",
+      "type": "label",
+      "label": "組み込みツール",
+      "position": {
+        "x": 103.35425900731707,
+        "y": 3027.634878285732
+      },
+      "size": {
+        "width": 127,
+        "height": 34
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "XBPwHgIsXupMsyoOFkJZ0",
+      "type": "subtopic",
+      "label": "再認識",
+      "position": {
+        "x": 78.05051776655154,
+        "y": 3066.634878285732
+      },
+      "size": {
+        "width": 171,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "RedisInsightは,Redis Labsが開発した高度なグラフィックユーザーインターフェース (GUI) ツールで,Redisデータベースの包括的な管理とモニタリング機能を提供します.Redisデータと視覚化および相互作用するための直感的なインターフェースをユーザーに提供し,文字列,ハッシュ,リスト,セット,並べられたセットなどのデータ構造を管理しやすくします.RedisInsightを使用して,ユーザーはデータを查询し,変更したり,コマンドを実行したり,パフォーマンスメトリックをリアルタイムで分析したりすることができます.さらに,RedisInsightは複数のRedisインスタンスのモニタリングをサポートし,管理者が部署中にパフォーマンスと健康を追跡できるようにします.全体として,RedisInsightは複雑なRedis操作を簡素化し,データベースパフォーマンスとデータ管理に関する貴重な洞察を提供することでユーザー体験を向上させます.以下のリソースから詳細を学びましょう: - [@official@RedisInsight] (https://redis.io/insight/) - [@opensource@RedisInsight/RedisInsight - RedisInsight Module on GitHub] (https://git.com/RedisInsight/RedisInsight)",
+        "links": []
+      }
+    },
+    {
+      "id": "y5FPSAi6T-5X9SUfR58_-",
+      "type": "subtopic",
+      "label": "再び指揮官",
+      "position": {
+        "x": 78.05051776655154,
+        "y": 3120.634878285732
+      },
+      "size": {
+        "width": 171,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "RedisCommanderは,ユーザーフレンドリーなインターフェースを通じて,Redisデータベースとのインタラクションを簡素化するウェブベースのGUI管理ツールです.このツールでは,ユーザが簡単にRedisキーとデータ構造をブラウズ,編集,管理することができ,文字列,ハッシュ,リスト,セット,並べられたセットなどのデータタイプの視覚的な表示を提供します.RedisCommanderを使用して,ユーザーは,キーを追加,変更,削除などの一般的な操作を行い,インターフェースから直接コマンドを実行することもできます.このツールでは,キー検索,キー詳細を見る,サーバーパフォーマンスメトリックのモニタリングなどの機能もサポートされています.RedisCommanderは,コマンドラインインタラクションよりもグラフィックインタフェースを好む開発者や管理者にとって特に有用で,Redisインスタンスを管理し,トラブルシューティングやリアルタイムでデータを調査することを容易にする.全体として,生産性を向上させ,Redisデータベース管理作業を簡素化します.以下のリソースから詳細を学びましょう: - [@opensource@joeferner/redis-commander - GitHub](https://github.com/joeferner/redis-commander)",
+        "links": []
+      }
+    },
+    {
+      "id": "gEDpVuVAS0oZv7rlku8LH",
+      "type": "label",
+      "label": "3rd Party ツール",
+      "position": {
+        "x": 99.36093890060175,
+        "y": 3172.716632468731
+      },
+      "size": {
+        "width": 129,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "YFNh64DIbJJPQrm5fquvi",
+      "type": "label",
+      "label": "性能最適化",
+      "position": {
+        "x": -209.03386624713073,
+        "y": 3170.0682184225393
+      },
+      "size": {
+        "width": 216,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "xF0wQYmtwXYkrzvWg5gOO",
+      "type": "subtopic",
+      "label": "記憶管理",
+      "position": {
+        "x": -209.03386624713073,
+        "y": 2951.0682184225393
+      },
+      "size": {
+        "width": 216,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Redisのメモリ管理は,メモリ内構造内のデータストレージを効率的に処理し,パフォーマンスを最大限に発揮し,メモリオーバーフローを防止します.Redisは,メモリ効率的なデータコーディング (例えば, `ziplist`または `intset`),設定された最大メモリポリシーに基づくアクティブおよびパシブ排放戦略,および自動的にスペースを解放するキーが終了する様々なテクニックを使用します.データ維持のために,Redisはスナップショット (RDB) とログリング (AOF) メカニズムを提供しています.さらに, `MEMORY USAGE`と `MEMORY STATS`のようなコマンドはメモリ消費を監視し,特定の使用事例のために例を調整し,最適化することを容易にする.効率的なメモリ管理は,高い可用性,低遅延性,予測可能なパフォーマンスを保証します.次のリソースから詳細を学びましょう: - [@official@MEMORY USAGE Command] (https://redis.io/docs/latest/commands/memory-use/) - [@official@MEMORY STATS Command] (https://redis.io/docs/latest/commands/memory-stats/) - [@article@Memory-Management Best Practices] (https://cloud.google.com/memorystore/docs/redis/memory-management-best-practices)",
+        "links": []
+      }
+    },
+    {
+      "id": "Sd1ENOXSFCz1YqccXjr2A",
+      "type": "subtopic",
+      "label": "マックスメモリポリシー",
+      "position": {
+        "x": -209.03386624713073,
+        "y": 2898.0682184225393
+      },
+      "size": {
+        "width": 216,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Redis の Max Memory Policy は,サーバーが設定された最大メモリ制限に達したときにデータをどのように処理するかを決定します.Redis は, `noeviction` (書き込みのエラーを返します), `allkeys-lru` (最近使用された鍵を最小限に排除する), `volatile-lru` (期限切れセットで最近使用された鍵を最小限に排除する), `allkeys-random` (ランダム鍵を排除する) など,いくつかの排斥ポリシーを提供しています.これらのポリシーにより,Redis は使用事例に基づいてメモリを最適化し,データ利用可用性を維持し,メモリ制限に達するとデータの損失を最小限に抑える.詳細は以下のリソースからご覧ください. - [@official@Database Memory Limits](https://redis.io/docs/latest/operate/rs/databases/memory-performance/memory-limit/) - [@official@eviction policy](https://redis.io/docs/latest/operate/rs/databases/memory-performance/eviction-policy/)",
+        "links": []
+      }
+    },
+    {
+      "id": "yaCWw2KjX58SaPajUAb0d",
+      "type": "subtopic",
+      "label": "ゆっくりとしたログ解析",
+      "position": {
+        "x": -209.03386624713073,
+        "y": 3004.0682184225393
+      },
+      "size": {
+        "width": 216,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "システム内の Redis Slow Log は,指定された時間よりも長くかかるすべてのクエリを記録する.実行時間はクライアントと話すようなI/O操作を含まない.指定されたコマンドを実行するのに必要な時間だけです.以下のリソースから詳細を学びましょう: - [@official@SLOWLOG] (https://redis.io/docs/latest/commands/slowlog/) - [@official@View Redis Slow Log] (https://redis.io/docs/latest/operate/rs/clusters/logging/redis-slow-log/)",
+        "links": []
+      }
+    },
+    {
+      "id": "kgHwK4N-sfh6dHjd_D_me",
+      "type": "subtopic",
+      "label": "リディス基準",
+      "position": {
+        "x": -209.03386624713073,
+        "y": 3057.0682184225393
+      },
+      "size": {
+        "width": 216,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`redis-benchmark`は,さまざまな種類のワークロードをシミュレーションすることによって,Redisサーバのパフォーマンスを測定する Redis で提供されたユーティリティです.このツールでは,毎秒のリクエストや遅延などのメトリックを提供し,さまざまな条件下でRedis コマンドの速度と応答性をテストすることができます.このツールでは, `GET`, `SET`,および `INCR`などの複数のクライアントと異なるコマンドタイプをシミュレーションすることができ,ユーザーがRedis コンフィギュレーションとハードウェアのパフォーマンスを評価できるようにします.パラレル接続数や送信されるリクエスト数などのパラメータを調整することで, `redis-benchmark`はパフォーマンスボトルネックを特定し,構成を最適化し,Redis環境への変化の影響を評価し,能力計画とパフォーマンス調整のための貴重なツールになります.以下のリソースから詳細を学びましょう: - [@official@Redis Benchmark] (https://redis.io/docs/latest/operate/oss_and_stack/management/optimization/benchmarks/) - [@article@How to benchmark the performance of a Redis server] (https://www.digitalocean.com/community/tutorials/how-to-perform-is-benchmark-tests)",
+        "links": []
+      }
+    },
+    {
+      "id": "2p5RF4lVYfRvYTo1Ofm-a",
+      "type": "subtopic",
+      "label": "監視",
+      "position": {
+        "x": -209.03386624713073,
+        "y": 3110.0682184225393
+      },
+      "size": {
+        "width": 216,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Redisでの監視は,サーバーの健康,パフォーマンス,リソース利用を追跡し,最適な動作と問題の早期発見を保証します.メモリ,CPU,クライアントに関する統計を提供する `INFO` (`MONITOR` (リアルタイムコマンドトラッキング),および `SLOWLOG` (遅いクエリをログ) のようなツールとコマンドは,サーバー活動の洞察を提供します.さらに,Redis Sentinel,Prometheus,Grafanaなどの外部ツールがより包括的なモニタリング,アラート,ビジュアライゼーションのために統合されます.効果的なモニタリングは安定を維持し,パフォーマンスを最適化し,潜在的なボトルネックスを解決するのに役立ちます.詳細は以下のリソースからご覧ください. - [@official@Monitoring with Metrics and Alerts] (https://redis.io/docs/latest/operate/rs/clusters/monitoring/) - [@official@MONITOR] (https://redis.io/docs/latest/commands/monitor/)",
+        "links": []
+      }
+    },
+    {
+      "id": "L0t6e1P83aaoa3B9OUT-8",
+      "type": "horizontal",
+      "label": "ホリゾントノード",
+      "position": {
+        "x": 13.997184791950758,
+        "y": 3161.5956068302976
+      },
+      "size": {
+        "width": 53,
+        "height": 20
+      },
+      "style": {
+        "strokeDasharray": "0",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "PSQ274asgr1EEnim7U-eh",
+      "type": "horizontal",
+      "label": "ホリゾントノード",
+      "position": {
+        "x": -307.03386624713073,
+        "y": 3158.0956068302976
+      },
+      "size": {
+        "width": 91,
+        "height": 20
+      },
+      "style": {
+        "strokeDasharray": "0",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "hLIT00Iz7rV56ZBIUhWYn",
+      "type": "topic",
+      "label": "Redis モジュール",
+      "position": {
+        "x": -460.32324473151516,
+        "y": 3143.5956068302976
+      },
+      "size": {
+        "width": 161,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Redis モジュールは,新しいデータタイプ,コマンド,機能を追加することによって,Redis のコア機能を強化する拡張機能です.これらのモジュールは,開発者がコア Redis ソースコードを変更せずに,特定のアプリケーションニーズに適した Redis をカスタマイズして拡張することを可能にします.人気のある Redis モジュールの例としては: 1.**RediSearch**:複雑な検索クエリでデータをインデックスし,クエリする機能を提供します.2.**RedisGraph**:グラフデータベースの機能を追加し,Cypher クエリ言語を使用してグラフデータの保存とクエリを可能にします.3.**RedisJSON:JSON データ構造の処理を容易にし,Redis 内の JSON 文書のストレージ,取得,操作を可能にします.**RedisTimeSeries**:タイムシリーズデータに最適化され,タイムスタンプされたデータを効率的に保存,查询,集計するための機能を提供します.5.**RedisAI**:人工知能機能を統合し,Redis内で直接機械学習モデルの実行を可能にします.これらのモジュールは,リアルタイム分析と検索機能から複雑なデータ関係や機械学習まで,メモリ内のデータベースとしての Redis の性能とシンプルさを維持しながら,幅広い用途のためにRedis を活用できるようにします.",
+        "links": []
+      }
+    },
+    {
+      "id": "jicsfYw56VrbRUt7M8c85",
+      "type": "subtopic",
+      "label": "編集",
+      "position": {
+        "x": -468.32324473151516,
+        "y": 3063.899240143158
+      },
+      "size": {
+        "width": 177,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "RedisJSONは,JSON文書のストレージ,リクエスト,操作を Redis内で直接可能にするRedisモジュールです.JSONデータ構造で作業するためのコマンドの豊富なセットを提供し,ユーザがJSON文書を追加,更新,クエリなどの操作を効率的に実行することができます.RedisJSONを使用して,ユーザーは複雑な嵌まったデータを保存し,特定のフィールドでクエリを実行できます.これにより,追加のデータ変換または処理層を必要とせずに構造化されたデータを処理する必要があるアプリケーションに理想的です.キー機能には,JSONPathクエリ,原子更新,より速いリクエストのためのJSONフィールドをインデックスする能力が含まれます.このモジュールは,レディスの能力を強化し,リアルタイム分析,構成管理,およびJSONデータ構造の柔軟性とパフォーマンスの恩恵を受けるすべてのアプリケーションに適した選択となります.全体として,RedisJSONは,開発者がJSONでネイティブで作業しながら,レディスの速度を活用できるようにします.現代アプリケーションにおけるデータ管理を簡素化します.以下のリソースから詳細を学びましょう: - [@official@RedisJSON] (https://redis.io/json/) - [@opensource@RedisJSON/RedisJSON - GitHub] (https://github.com/RedisJSON/RedisJSON)",
+        "links": []
+      }
+    },
+    {
+      "id": "_GdTXcJO8uJlhPdfrmeXG",
+      "type": "subtopic",
+      "label": "検索",
+      "position": {
+        "x": -468.32324473151516,
+        "y": 2904.899240143158
+      },
+      "size": {
+        "width": 177,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Redis Searchは,豊かなクエリ言語,JSONとハッシュドキュメントのインクリメンタルインデックス,ベクトル検索,フルテキスト検索,ジオスペシャルクエリ,およびアグリエーションを含む強力な検索とクエリ機能を提供することで,Redis体験を強化します.これらの機能により,Redisはドキュメントデータベース,ベクトルデータベース,セカンドリーインデックス,および検索エンジンとして機能し,さまざまなアプリケーションに適しています.以下のリソースから詳細を学びましょう: - [@official@Search and Query] (https://redis.io/docs/latest/operate/oss_and_stack/stack-with-enterprise/search/) - [@video@Query, Indexing and Full-text Search in Redis]https://www.youtube.com/watch?v=inf4TVNZ)",
+        "links": []
+      }
+    },
+    {
+      "id": "RBr8opWSh2TKXC8Fmdg0j",
+      "type": "subtopic",
+      "label": "リディスタイム シリーズ",
+      "position": {
+        "x": -468.32324473151516,
+        "y": 2957.899240143158
+      },
+      "size": {
+        "width": 177,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "RedisTimeSeriesは,タイムシリーズデータを効率的に保存,查询,管理するために特別に設計されたRedis モジュールで,IoTモニタリング,金融データ分析,リアルタイム分析などのアプリケーションに理想的です.ユーザーは,指定された時間間隔で簡単にタイムスタンプされたデータを摂取し,総集計を実行し,最小の遅延でデータを回収することができます.モジュールでは,自動ダウンサンプリング,保存ポリシー,強力な查询機能などの機能をサポートし,ユーザーは時間とともにトレンドとパターンを分析し,タイムシリーズデータと一緒にメタデータを効率的に保存することができます.[@official@RedisTimeSeries] (https://redis.io/timeseries/) - [@official@Time Series Documentation] (https://redis.io/docs/latest/develop/data-types/timeseries/)",
+        "links": []
+      }
+    },
+    {
+      "id": "GwVL5CvbnHsiWb1hVh7lK",
+      "type": "subtopic",
+      "label": "レディスブルーム",
+      "position": {
+        "x": -468.32324473151516,
+        "y": 3010.899240143158
+      },
+      "size": {
+        "width": 177,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "RedisBloom は Redis の能力を拡張する Redis モジュールで,概率データ構造を導入することで,効率的なメンバーシップテストとカウントを可能にし,メモリ使用を最小限に抑えることができます.Bloom フィルター,クッキーフィルター,Count-Min スケッチ,HyperLogLogs などのツールを提供し,開発者が高性能と低メモリオーバーヘッドで大規模なデータセットを管理できるようにします.例えば,Bloom フィルターを使用して,ユーザーは要素がセットに含まれているかどうかを迅速に判断し,ウェブキャッシング,スパム フィルタリング,ネットワークセキュリティなどのアプリケーションに有用になります.Cuckoo フィルタは同様の機能を提供しますが,アイテムの削除を可能にします.Count-Min Sketches は,データセット内の要素の推定数算を可能にするが,HyperLogLogs は効率的なカードナリティ推定を提供する.RedisBloom は,ビッグデータ分析,リアルタイムモニタリング,およびメモリリソースが限られている高通量を必要とするアプリケーションに特に有益です.以下のリソースから詳細を学びましょう: - [@official@RedisBloom] (https://redis.io/probabilistic/source) - [@openso@RedisBloom/RedisBloom - GitHub] (https://github.com/RedisBloom/RedisBloom)",
+        "links": []
+      }
+    },
+    {
+      "id": "vWOOOTjEx8Ycz1NA0xZad",
+      "type": "paragraph",
+      "label": "生産におけるレディスの管理",
+      "position": {
+        "x": -547.3232447315152,
+        "y": 3289.9218306559433
+      },
+      "size": {
+        "width": 335,
+        "height": 58
+      },
+      "style": {
+        "fontSize": 20,
+        "borderColor": "transparent",
+        "backgroundColor": "transparent",
+        "color": "#000000",
+        "textAlign": "center",
+        "justifyContent": "center",
+        "padding": 16
+      },
+      "z_index": 999
+    },
+    {
+      "id": "giyKPtQ-pziA064P8OQD-",
+      "type": "topic",
+      "label": "redis.conf",
+      "position": {
+        "x": 45.96613375286927,
+        "y": 3294.4218306559433
+      },
+      "size": {
+        "width": 207,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`redis.conf`は,Redisがサーバーパラメータを設定し,その行動をカスタマイズするために使用する構成ファイルです.このファイルは,管理者がメモリ制限,持続性オプション (RDBと AOFなどの),ネットワーク構成 (ポートと結合アドレスなどの) およびセキュリティ機能 (パスワード保護およびアクセス管理などの) を含むさまざまな設定を指定できるようにします. `redis.conf`内のキーパラメータには,Redisが使用できる最大限のメモリを設定する`maxmemory`,RDBスナップショット間隔を定義する``,クライアント接続のためのパスワード認証を可能にする`require`が含まれます.[@official@Redis Configuration Documentation] (https://redis.io/docs/latest/operate/oss_and_stack/management/config/) - [@official@Redis Configuration File Example] (https://redis.io/docs/latest/operate/oss_and_stack/management/config-file/)",
+        "links": []
+      }
+    },
+    {
+      "id": "GPsf1hc9hXNKgutGCribk",
+      "type": "label",
+      "label": "重要 な 構成",
+      "position": {
+        "x": 45.96613375286927,
+        "y": 3348.3314038676613
+      },
+      "size": {
+        "width": 207,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "wXRDsNGFckXV_CSiit5sN",
+      "type": "topic",
+      "label": "バックアップと復元",
+      "position": {
+        "x": 41.96613375286927,
+        "y": 3435.2725756087743
+      },
+      "size": {
+        "width": 215,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "レディスデータのバックアップと復元は,データの持続性と信頼性を確保するために不可欠です. レディスは,デフォルトでは,データをメモリに保存し,迅速なアクセスを可能にしますが,故障またはシステム再起動の場合,ディスクにデータを保存するためのメカニズムを提供します. レディスにおけるバックアップと復元の主な方法は,RDBスナップショットとAOF (Append-Only File) です.これらの方法は,特定の使用状況に応じて個別にまたは組み合わせて使用できます.以下のリソースから詳細を学びましょう: - [@official@Backup and Recovery] (https://redis.io/redis-enterprise/technology/backup-disaster-recovery/) - [video@UB@Backup & Restore Redis Cluster with Stash] (https://Amutu.be/Ivv_pyc?zQzAhlce=j4j) - [UB@Backup & Restore Redis Cluster with Stash]",
+        "links": []
+      }
+    },
+    {
+      "id": "-gCy7Uj64KQJ39IYb_Vph",
+      "type": "label",
+      "label": "RDBと AOFファイル",
+      "position": {
+        "x": 65.370749690558,
+        "y": 3489.2725756087743
+      },
+      "size": {
+        "width": 165,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "Cb-KazR4PuR86VX5oT0zi",
+      "type": "topic",
+      "label": "レディスをアップグレードする",
+      "position": {
+        "x": -401.8779496312137,
+        "y": 3434.2725756087743
+      },
+      "size": {
+        "width": 195,
+        "height": 50
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Redisをアップグレードすることは,通常,最小限のダウンタイムとデータインテグリティを確保するために注意深く計画と実行を伴う.このプロセスは一般的に,データをバックアップし,新しい Redis バージョンをインストールし,新しい設定または時代遅れのオプションに対応する構成ファイルを更新し,Redisサーバを再起動する.以下のリソースから詳細を学びましょう: - [@official@Redis Administration] (https://redis.io/docs/latest/operate/oss_and_stack/management/admin/) - [@official@upgrading/restarting a Redis instance without downtime] (https://redis.io/docs/latest/operate/oss_and_stack/management/admin/upgrading-or-restarting-is-restarting-a-instance-without-redred-time)",
+        "links": []
+      }
+    },
+    {
+      "id": "VgqFVVf1rYiSbYLeUO6KL",
+      "type": "label",
+      "label": "停電 時 を 最小 に 減らす",
+      "position": {
+        "x": -398.3779496312137,
+        "y": 3488.032210578755
+      },
+      "size": {
+        "width": 188,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "nUIfTkgm3PlSiqgun1BS7",
+      "type": "topic",
+      "label": "災害 復興",
+      "position": {
+        "x": -727.9644850173872,
+        "y": 3435.2725756087743
+      },
+      "size": {
+        "width": 195,
+        "height": 50
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Redisにおける災害復旧は,サーバークラッシュ,データ腐敗,ネットワーク問題などの故障が発生した場合,データの利用性と完整性を確保するための戦略と実践を含みます.主要なアプローチは,冗長性のためにデータがマスターからレプリカノードにコピーされる Redisの内蔵複製を利用することです.データ復旧のためにスナップショット (RDB) と添付ファイルのみ (AOF) 持続方法が設定され,データ復旧を可能にする.さらに,Redis クラスターを実装することで,自動的な故障機能を提供することができ,ダウンタイムを最小限に抑え,ビジネス継続性を確保するために複数のノードにデータを分散することができます.定期的なバックアップと堅牢なモニタリング災害復旧計画の重要な構成要素でもあります.次のリソースから詳細を学びましょう: - [@official@Backup Disaster Recovery] (https://redis.io/redis-enterprise/technology/backup-disaster-recovery/) - [@article@Disaster Recovery for Redis in the Cloud] (https://www.alibabacloud.com/tech-news/a/redis/gtu8u2afbc-disaster-recovery-for-redis-in-the-cloud-strategies-and-best-practices)",
+        "links": []
+      }
+    },
+    {
+      "id": "8lyXDuZJ-KHl4v2_8Ew1h",
+      "type": "topic",
+      "label": "レディス・エンタープライズ",
+      "position": {
+        "x": -727.9644850173872,
+        "y": 3552.753447069508
+      },
+      "size": {
+        "width": 195,
+        "height": 50
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Redis Enterpriseは,エンタープライズ環境における高可用性,スケーラビリティ,パフォーマンスのために設計された高度な機能で,オープンソースの Redis の能力を拡張する商業的なオファレンスである.これは,複数のノードとデータセンターでシームレス水平スケーリングを可能にする自動シェードリングと複製を提供します.Redis Enterprise は,オンプレミス,クラウド,およびハイブリッド環境を含むさまざまなデプロイメントオプションをサポートし,グローバルアプリケーションのためのアクティブアクティブジオディストリビューションなどの強化されたデータ持続性オプションを提供しています.さらに,ロールベースのアクセス制御 (RBAC),暗号化,監査ログリングなどの高度なセキュリティ機能を含む.レディス・エンタープライズは,データへのアクセスの低遅延と強力なデータ管理機能を必要とするミッション・クリティカルなアプリケーションに特に適しています.これはリアルタイム分析,セッション管理,キャッシングなどの使用事例に理想的です.以下のリソースから詳細を学びましょう: - [@official@Redis Enterprise] (https://redis.io/about/redis-enterprise/) - [@official@Redis Enterprise Software] (https://redis.io/docs/latest/operate/rs/) - [@article@Redis Open Source vs.Enterprise] (https://www.metricfire.com/blog/redis-open-source-vs-enterprise/)",
+        "links": []
+      }
+    },
+    {
+      "id": "RwGWF4dtvfhcORWz7lisg",
+      "type": "label",
+      "label": "企業特徴",
+      "position": {
+        "x": -715.4644850173872,
+        "y": 3813.6036656653055
+      },
+      "size": {
+        "width": 170,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "cybF72wlJyJbHLUjitLvn",
+      "type": "subtopic",
+      "label": "アクティブ - アクティブ 地質分布",
+      "position": {
+        "x": -765.4644850173872,
+        "y": 3647.6036656653055
+      },
+      "size": {
+        "width": 270,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "アクティブ・アクティブ・アーキテクチャは,独立した地理的に分散したクラスターやノードを通じて複数のデータセンターにデータベース情報を配布するデータ耐性アーキテクチャです.独立した処理ノードのネットワークであり,それぞれが共通の複製データベースにアクセスし,すべてのノードがローカルローラテンシーを保証する共通のアプリケーションに参加し,各地域が孤立して実行できるようになります.以下のリソースから詳細を学びましょう: - [@official@Active-Active geo-distribution]https://redis.io/active-active/) - [@video@What is active active geo-distribution]https://youtu.be/x5iHPPZIlg?si=ZZCwU-tDCDIVboXc)",
+        "links": []
+      }
+    },
+    {
+      "id": "sWOFnbh2EyaHRzquz1UeF",
+      "type": "subtopic",
+      "label": "フラッシュでリディス",
+      "position": {
+        "x": -765.4644850173872,
+        "y": 3700.6036656653055
+      },
+      "size": {
+        "width": 270,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Redis on Flash は Redis Enterprise の機能で,従来の RAM と並ぶ SSD (Solid State Drives) を利用して,ユーザが Redis インスタンスのメモリ容量を拡張できる.これは, Redis が知られる高いパフォーマンスを維持しながら,より大きなデータセットを低コストで保存できるようにします.この構成では,頻繁にアクセスされるデータは,高速アクセスのために RAM に留まり,より頻繁に使用されるデータは,Flash ストレージに保存できます.Redis on Flash は,メモリと Flash の間のデータ配置をスマートに管理し,メモリ内の操作の速度を活用してパフォーマンスが最適化されることを確保し,より大きなデータセットの効率的なストレージを可能にします.この機能は,カッシング,リアルタイムの分析,高吞吐量データ処理などの大規模なアプリケーションを含む使用例に特に有益です. 組織が追加のRAMに大規模な投資を必要とせずにビッグデータワークロードを処理できるようにします.以下のリソースから詳細を学びましょう: - [@official@Redis on Flash] (https://redis.io/blog/redis-on-flash-now-3-7x-faster/) - [@official@Redis on Flash Data Sheet] (https://media.trustradius.com/product-downloadables/1V/DT/TCXS6PSOA64L.pdf)",
+        "links": []
+      }
+    },
+    {
+      "id": "ujs77bV8g8-FOm5hBtZFd",
+      "type": "subtopic",
+      "label": "安全と遵守",
+      "position": {
+        "x": -765.4644850173872,
+        "y": 3753.6036656653055
+      },
+      "size": {
+        "width": 270,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Redisのセキュリティとコンプライアンスには,データを保護し,安全なアクセスを確保し,関連する規制基準に準拠するためのさまざまな措置を実施することが含まれます.Redisは,権限のあるユーザーのみへのアクセスを制限する\"`requirepass`指令\"を使用してパスワード認証などのいくつかの内蔵セキュリティ機能を提供します.さらに,Redisは TLS/SSL暗号化をサポートし,クライアントとサーバー間の安全な通信を可能にし,通信中のデータを盗聴と操作から保護します.アクセス制御はRedisのアクセス制御リスト (ACL) によってさらに強化され,管理者はユーザー役割と権限を定義し,ユーザーが実行できるコマンドとアクセスできるキーを制御します.また,Redis を 信頼できる ネットワーク インターフェース に 結合 する よう に 設定 し,潜在的な 脅威 に 接触 を 制限 する こと も 重要 です.以下の 資源 から 詳細 を 学ぶ: - [@official@Redis Security Documentation] (https://redis.io/docs/latest/operate/rs/security/) - [@article@How to Secure Redis] (https://goteleport.com/blog/secure-redis/) - [@video@Rediscover Redis Security] (https://www.youtube.com/watch?v=oD8k3ymbfkY)",
+        "links": []
+      }
+    },
+    {
+      "id": "JlLwy69eQ1bPHAOOJNqjo",
+      "type": "subtopic",
+      "label": "起業を考える時期は?",
+      "position": {
+        "x": -773.4644850173872,
+        "y": 3851.6036656653055
+      },
+      "size": {
+        "width": 286,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Redis Enterpriseは,通常,組織がオープンソースの Redis を超える拡張性,高可用性,高度な機能を必要とする場合,考慮されます.特に高性能要求,複雑なアーキテクチャ,またはミッション・重要な展開を持つ大規模なアプリケーションに価値があります.以下のリソースから詳細を学びましょう: - [@official@About Redis Enterprise] (https://redis.io/about/redis-enterprise/) - [@official@Redis Enterprise] (https://redis.io/enterprise/)",
+        "links": []
+      }
+    },
+    {
+      "id": "RLtk1C3gofHnLJ17x3o5b",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": -149.11049657354835,
+        "y": 3832.8659221702487
+      },
+      "size": {
+        "width": 21,
+        "height": 85
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    }
+  ],
+  "edges": [
+    {
+      "id": "XX0I26JoVMVXIe_7bVMix",
+      "source": "iogwMmOvub2ZF4zgg6WyF",
+      "target": "_hYN0gEi9BL24nptEtXWU",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "dFn6kGOoJ-0BzJJEb9DSG",
+      "source": "_hYN0gEi9BL24nptEtXWU",
+      "target": "idLHBxhvcIqZTqmh_E8Az",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "arkF7QJJRbCBYWp0crqa2",
+      "source": "_hYN0gEi9BL24nptEtXWU",
+      "target": "os3Pa6W9SSNEzgmlBbglQ",
+      "source_handle": "z2",
+      "target_handle": "y2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "HNVw8OboycWKLEtEbG2bn",
+      "source": "_hYN0gEi9BL24nptEtXWU",
+      "target": "3oInpqvTSSC5_K6i7j8N7",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "auB7Png72XjmhcLr3IJA7",
+      "source": "_hYN0gEi9BL24nptEtXWU",
+      "target": "YKhuRbcUFzo0hTvuTq-Yl",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "2aoDIr80lXSJLW1hIGUkb",
+      "source": "jZ67HhVRelJaxjsCckSSI",
+      "target": "hWA7RtuqltMTmHdcCnmES",
+      "source_handle": "x2",
+      "target_handle": "y1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "m-_y7nLeYFkUKGiacxWA0",
+      "source": "",
+      "target": "NMznG9mo2wzNFnjhg990f",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "G7pXuJfkyt2nWAOHU8yV0",
+      "source": "",
+      "target": "gc_7cuIO2_joKlQRAPDfX",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "2_6Yz3-Agx9_rEN5xW86c",
+      "source": "rrrvATyhXqRgJGWI3z0WF",
+      "target": "AvbMQ5vY3ip1oX_6Yq4ie",
+      "source_handle": "x2",
+      "target_handle": "w2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "kgMI98fg2-mKMgUs0wnjD",
+      "source": "hWA7RtuqltMTmHdcCnmES",
+      "target": "1AJv95mTLpR7L8KBoGym8",
+      "source_handle": "w2",
+      "target_handle": "x1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "ts38Q2ceHs60TJscUBZVE",
+      "source": "hWA7RtuqltMTmHdcCnmES",
+      "target": "0etAs56EeBfh_0IlAaSra",
+      "source_handle": "y2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "ZiMV7umyPdhy3JJDcopR-",
+      "source": "jZ67HhVRelJaxjsCckSSI",
+      "target": "h6ceO0kiBIxNRkPzN3hBY",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "WI-MhbxrehFcVwyGJ5CQJ",
+      "source": "jZ67HhVRelJaxjsCckSSI",
+      "target": "_JlT9oKQ6Yu4UX6l19G8P",
+      "source_handle": "y2",
+      "target_handle": "z2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "qUrLBzvXvJOg53HBfjrOI",
+      "source": "_hYN0gEi9BL24nptEtXWU",
+      "target": "jZ67HhVRelJaxjsCckSSI",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-L191VgfCbX3ibSIKySpsNx2-pa2QJLhAv3SPRK_2XcMZxw1",
+      "source": "L191VgfCbX3ibSIKySpsN",
+      "target": "pa2QJLhAv3SPRK_2XcMZx",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-pa2QJLhAv3SPRK_2XcMZxx2--3pADOHMDQ0H6ZKNjURynw2",
+      "source": "pa2QJLhAv3SPRK_2XcMZx",
+      "target": "-3pADOHMDQ0H6ZKNjURyn",
+      "source_handle": "x2",
+      "target_handle": "w2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-L191VgfCbX3ibSIKySpsNx2--3pADOHMDQ0H6ZKNjURynw1",
+      "source": "L191VgfCbX3ibSIKySpsN",
+      "target": "-3pADOHMDQ0H6ZKNjURyn",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge--3pADOHMDQ0H6ZKNjURynx2-gw04IG5uImCHxcFnOAAwyw1",
+      "source": "-3pADOHMDQ0H6ZKNjURyn",
+      "target": "gw04IG5uImCHxcFnOAAwy",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge--3pADOHMDQ0H6ZKNjURynz2-QXwoHEeisL4d6dpJOwYkUy1",
+      "source": "-3pADOHMDQ0H6ZKNjURyn",
+      "target": "QXwoHEeisL4d6dpJOwYkU",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-gw04IG5uImCHxcFnOAAwyx2-zxoi09oW1HbXNwvc14w9Uw1",
+      "source": "gw04IG5uImCHxcFnOAAwy",
+      "target": "zxoi09oW1HbXNwvc14w9U",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-80UujPXPhvKIJMSM67pwlx2-GjKw6hbNV57I2sxuLfkQww1",
+      "source": "80UujPXPhvKIJMSM67pwl",
+      "target": "GjKw6hbNV57I2sxuLfkQw",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-Wl23Jh-ASJOQ850yjaTIUz2-Ljjl_kSEevtaBALxRh2Byy1",
+      "source": "Wl23Jh-ASJOQ850yjaTIU",
+      "target": "Ljjl_kSEevtaBALxRh2By",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-4-C4XqACUp4nvcMIj6djFz2-wY46Qj5Inw_ClBNI9PB_2y2",
+      "source": "4-C4XqACUp4nvcMIj6djF",
+      "target": "Qgkpr9vf9d6-vUg1o8XFj",
+      "source_handle": "z2",
+      "target_handle": "y2",
+      "edge_style": "solid",
+      "line_type": "simplebezier",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-wY46Qj5Inw_ClBNI9PB_2x2-u2TdoI7ILaxYgUUni9W_ww1",
+      "source": "Qgkpr9vf9d6-vUg1o8XFj",
+      "target": "u2TdoI7ILaxYgUUni9W_w",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-Qgkpr9vf9d6-vUg1o8XFjw2-wY46Qj5Inw_ClBNI9PB_2y1",
+      "source": "Qgkpr9vf9d6-vUg1o8XFj",
+      "target": "wY46Qj5Inw_ClBNI9PB_2",
+      "source_handle": "w2",
+      "target_handle": "y1",
+      "edge_style": "solid",
+      "line_type": "simplebezier",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-wY46Qj5Inw_ClBNI9PB_2x2-QTbkWZ7BpqYmBhUivccPuw2",
+      "source": "wY46Qj5Inw_ClBNI9PB_2",
+      "target": "QTbkWZ7BpqYmBhUivccPu",
+      "source_handle": "x2",
+      "target_handle": "w2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-QTbkWZ7BpqYmBhUivccPux2-8gyVwKg3Ctt2w15X7xZgCw1",
+      "source": "QTbkWZ7BpqYmBhUivccPu",
+      "target": "8gyVwKg3Ctt2w15X7xZgC",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-8gyVwKg3Ctt2w15X7xZgCx2-Kjkc8rNezN_LBD5WMrBbEw1",
+      "source": "8gyVwKg3Ctt2w15X7xZgC",
+      "target": "Kjkc8rNezN_LBD5WMrBbE",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-Kjkc8rNezN_LBD5WMrBbEz2-jrgaoDnt_RxTu79hk4hCDy2",
+      "source": "Kjkc8rNezN_LBD5WMrBbE",
+      "target": "jrgaoDnt_RxTu79hk4hCD",
+      "source_handle": "z2",
+      "target_handle": "y2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-jrgaoDnt_RxTu79hk4hCDx2-LHlwjN3WHYUBUafzzwsWQw1",
+      "source": "jrgaoDnt_RxTu79hk4hCD",
+      "target": "LHlwjN3WHYUBUafzzwsWQ",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-LHlwjN3WHYUBUafzzwsWQx2-7JzeyTrkZ_1_yxMVrqvZUw2",
+      "source": "LHlwjN3WHYUBUafzzwsWQ",
+      "target": "7JzeyTrkZ_1_yxMVrqvZU",
+      "source_handle": "x2",
+      "target_handle": "w2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-7JzeyTrkZ_1_yxMVrqvZUy2-45ihdIfRW-jI38h-s4Vdcz1",
+      "source": "7JzeyTrkZ_1_yxMVrqvZU",
+      "target": "45ihdIfRW-jI38h-s4Vdc",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-45ihdIfRW-jI38h-s4Vdcy2-cszjT3YK8oyhGpqLTQzwXz1",
+      "source": "45ihdIfRW-jI38h-s4Vdc",
+      "target": "0Q3AkE8leWAyYsww3-BHX",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-cszjT3YK8oyhGpqLTQzwXy2-CxiHaw63xmItCGdhpcsizz1",
+      "source": "0Q3AkE8leWAyYsww3-BHX",
+      "target": "CxiHaw63xmItCGdhpcsiz",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-0Q3AkE8leWAyYsww3-BHXx2-cszjT3YK8oyhGpqLTQzwXw1",
+      "source": "0Q3AkE8leWAyYsww3-BHX",
+      "target": "cszjT3YK8oyhGpqLTQzwX",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-ifAV_64bREZrJkxFnf7Cyz2-cszjT3YK8oyhGpqLTQzwXy1",
+      "source": "ifAV_64bREZrJkxFnf7Cy",
+      "target": "cszjT3YK8oyhGpqLTQzwX",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-cszjT3YK8oyhGpqLTQzwXx2-zXs_9n2yEb_eVi0WuOQKHy1",
+      "source": "cszjT3YK8oyhGpqLTQzwX",
+      "target": "zXs_9n2yEb_eVi0WuOQKH",
+      "source_handle": "x2",
+      "target_handle": "y1",
+      "edge_style": "solid",
+      "line_type": "step",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-zXs_9n2yEb_eVi0WuOQKHw2-S16vO5EHvxaylsnFzs4Kxx1",
+      "source": "zXs_9n2yEb_eVi0WuOQKH",
+      "target": "S16vO5EHvxaylsnFzs4Kx",
+      "source_handle": "w2",
+      "target_handle": "x1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-zXs_9n2yEb_eVi0WuOQKHz2-9W_jaK1DSEZHRKdPcUM7hy1",
+      "source": "zXs_9n2yEb_eVi0WuOQKH",
+      "target": "_NiUdVQ85qnvryI38k_vQ",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-9W_jaK1DSEZHRKdPcUM7hw2-4fIp9_ii_gYgEMFFk__BGx1",
+      "source": "_NiUdVQ85qnvryI38k_vQ",
+      "target": "4fIp9_ii_gYgEMFFk__BG",
+      "source_handle": "w2",
+      "target_handle": "x1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-_NiUdVQ85qnvryI38k_vQx2-9W_jaK1DSEZHRKdPcUM7hw2",
+      "source": "_NiUdVQ85qnvryI38k_vQ",
+      "target": "9W_jaK1DSEZHRKdPcUM7h",
+      "source_handle": "x2",
+      "target_handle": "w2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-9W_jaK1DSEZHRKdPcUM7hx2-VJosvi5KwlePkGxBzmxSHw1",
+      "source": "9W_jaK1DSEZHRKdPcUM7h",
+      "target": "VJosvi5KwlePkGxBzmxSH",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-9W_jaK1DSEZHRKdPcUM7hy2-YHbWlKrQqptUDbaQVy0_Az1",
+      "source": "9W_jaK1DSEZHRKdPcUM7h",
+      "target": "YHbWlKrQqptUDbaQVy0_A",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-YHbWlKrQqptUDbaQVy0_Ax2-Mpt_WSLngBqt131nAm3Nsw1",
+      "source": "YHbWlKrQqptUDbaQVy0_A",
+      "target": "Mpt_WSLngBqt131nAm3Ns",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-YHbWlKrQqptUDbaQVy0_Ay2-Veb30QrPYNjUn13dtGbUrz2",
+      "source": "YHbWlKrQqptUDbaQVy0_A",
+      "target": "Veb30QrPYNjUn13dtGbUr",
+      "source_handle": "y2",
+      "target_handle": "z2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-Veb30QrPYNjUn13dtGbUrx2-PXWvq1ezVBU5UJVN887Esw2",
+      "source": "Veb30QrPYNjUn13dtGbUr",
+      "target": "PXWvq1ezVBU5UJVN887Es",
+      "source_handle": "x2",
+      "target_handle": "w2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-Veb30QrPYNjUn13dtGbUry2-bQaek7f3dAaZfSUhwovm1w1",
+      "source": "Veb30QrPYNjUn13dtGbUr",
+      "target": "bQaek7f3dAaZfSUhwovm1",
+      "source_handle": "y2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "smoothstep",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-bQaek7f3dAaZfSUhwovm1z2-uvwbpHaA6rH6YrHuEdBxhw1",
+      "source": "bQaek7f3dAaZfSUhwovm1",
+      "target": "uvwbpHaA6rH6YrHuEdBxh",
+      "source_handle": "z2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "smoothstep",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-uvwbpHaA6rH6YrHuEdBxhx2-rSD8nJ-uNpHJVe5Hn66h7w1",
+      "source": "uvwbpHaA6rH6YrHuEdBxh",
+      "target": "rSD8nJ-uNpHJVe5Hn66h7",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-AQiCcHS6dBAAAPloxiXubz2-zmVjMf9wNHARBS_mBY4lYy1",
+      "source": "AQiCcHS6dBAAAPloxiXub",
+      "target": "zmVjMf9wNHARBS_mBY4lY",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-zmVjMf9wNHARBS_mBY4lYw2-gdiWwTQg6A-BFHdQBmgmHx1",
+      "source": "zmVjMf9wNHARBS_mBY4lY",
+      "target": "gdiWwTQg6A-BFHdQBmgmH",
+      "source_handle": "w2",
+      "target_handle": "x1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-Qy42paiTUsO8HIwbWTMuiz2-k9HeweEN4enuboEppbJiPw1",
+      "source": "Qy42paiTUsO8HIwbWTMui",
+      "target": "k9HeweEN4enuboEppbJiP",
+      "source_handle": "z2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "smoothstep",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-k9HeweEN4enuboEppbJiPx2-7ETrwXaK2xR1AoS7tTyzWw2",
+      "source": "k9HeweEN4enuboEppbJiP",
+      "target": "7ETrwXaK2xR1AoS7tTyzW",
+      "source_handle": "x2",
+      "target_handle": "w2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-hLIT00Iz7rV56ZBIUhWYnw2-jicsfYw56VrbRUt7M8c85x2",
+      "source": "hLIT00Iz7rV56ZBIUhWYn",
+      "target": "jicsfYw56VrbRUt7M8c85",
+      "source_handle": "w2",
+      "target_handle": "x2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-hLIT00Iz7rV56ZBIUhWYnx2-vWOOOTjEx8Ycz1NA0xZadw1",
+      "source": "hLIT00Iz7rV56ZBIUhWYn",
+      "target": "vWOOOTjEx8Ycz1NA0xZad",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-vWOOOTjEx8Ycz1NA0xZadz2-giyKPtQ-pziA064P8OQD-y1",
+      "source": "vWOOOTjEx8Ycz1NA0xZad",
+      "target": "giyKPtQ-pziA064P8OQD-",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge--gCy7Uj64KQJ39IYb_Vphx2-8lyXDuZJ-KHl4v2_8Ew1hw2",
+      "source": "GPsf1hc9hXNKgutGCribk",
+      "target": "wXRDsNGFckXV_CSiit5sN",
+      "source_handle": "x2",
+      "target_handle": "w2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-wXRDsNGFckXV_CSiit5sNy2-8lyXDuZJ-KHl4v2_8Ew1hz1",
+      "source": "wXRDsNGFckXV_CSiit5sN",
+      "target": "Cb-KazR4PuR86VX5oT0zi",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-Cb-KazR4PuR86VX5oT0ziy2-nUIfTkgm3PlSiqgun1BS7z2",
+      "source": "Cb-KazR4PuR86VX5oT0zi",
+      "target": "nUIfTkgm3PlSiqgun1BS7",
+      "source_handle": "y2",
+      "target_handle": "z2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-nUIfTkgm3PlSiqgun1BS7x2-8lyXDuZJ-KHl4v2_8Ew1hw2",
+      "source": "nUIfTkgm3PlSiqgun1BS7",
+      "target": "8lyXDuZJ-KHl4v2_8Ew1h",
+      "source_handle": "x2",
+      "target_handle": "w2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-8lyXDuZJ-KHl4v2_8Ew1hx2-H3njQtlasgGo0-IFiFZqLw1",
+      "source": "8lyXDuZJ-KHl4v2_8Ew1h",
+      "target": "H3njQtlasgGo0-IFiFZqL",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    }
+  ],
+  "content_crawled_at": "2026-04-06T10:15:57.569479+00:00"
+}

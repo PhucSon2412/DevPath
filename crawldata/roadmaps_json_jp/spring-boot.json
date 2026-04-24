@@ -1,0 +1,2394 @@
+{
+  "id": "spring-boot",
+  "title": "春の靴",
+  "source_url": "https://roadmap.sh/spring-boot",
+  "github_url": "https://github.com/kamranahmedse/developer-roadmap/tree/master/src/data/roadmaps/spring-boot",
+  "crawled_at": "2026-04-06T07:37:57.467107+00:00",
+  "type": "flow",
+  "stats": {
+    "total_nodes": 50,
+    "total_edges": 34,
+    "nodes_with_content": 45
+  },
+  "node_types": [
+    "button",
+    "linksgroup",
+    "paragraph",
+    "subtopic",
+    "title",
+    "topic",
+    "vertical"
+  ],
+  "edge_styles": [
+    "dashed",
+    "solid"
+  ],
+  "edge_line_types": [
+    "default"
+  ],
+  "node_type_description": {
+    "title": "ロードマップの主題",
+    "topic": "主題大 (nhóm kỹ năng)",
+    "subtopic": "Kỹ năng/công nghệ cụ thể cần học",
+    "paragraph": "文は mô tả / chú thích",
+    "vertical": "Đường kết nối dọc (ビジュアルコネクタ)"
+  },
+  "edge_style_description": {
+    "solid": "Kỹ năng bắt buộc / quan trọng",
+    "dashed": "選択 / gợi ý / オルタナティブ"
+  },
+  "nodes": [
+    {
+      "id": "4qvR1QQzrmoVIVCAsp92H",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": -225.22890816639756,
+        "y": 1663.454217904046
+      },
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "HU7wZWiES3m3xl1-NYP6F",
+      "type": "title",
+      "label": "春の靴",
+      "position": {
+        "x": -309.8175069304428,
+        "y": -32.800633281393
+      },
+      "size": {
+        "width": 189,
+        "height": 68
+      },
+      "style": {
+        "fontSize": 28,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "uqyE79OItPOX33E5FoGel",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": -225.3175069304428,
+        "y": -133.0992517776511
+      },
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.75,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "jy2heDVZuM6ASCXlI1TDn",
+      "type": "topic",
+      "label": "序言",
+      "position": {
+        "x": -329.3175069304428,
+        "y": 233.71361308804387
+      },
+      "size": {
+        "width": 137,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Spring Bootは,Javaベースのエンタープライズアプリケーションを構築するための広く使用されているオープンソースのフレームワークである Spring Frameworkに基づくアプリケーション構築のフレームワークである. Spring Bootは,あなたが\"ただ実行\"できる独立した,生産レベルの Springベースのアプリケーションを作成することを容易にすることを目的としています.",
+        "links": [
+          {
+            "title": "春の靴",
+            "url": "https://spring.io/projects/spring-boot",
+            "type": "official"
+          },
+          {
+            "title": "春の靴 - 紹介",
+            "url": "https://www.tutorialspoint.com/spring_boot/spring_boot_introduction.htm",
+            "type": "article"
+          },
+          {
+            "title": "春の靴 の 紹介",
+            "url": "https://medium.com/adessoturkey/introduction-to-spring-boot-458cb814ec14",
+            "type": "article"
+          },
+          {
+            "title": "スプリングブートって?",
+            "url": "https://www.ibm.com/topics/java-spring-boot",
+            "type": "article"
+          },
+          {
+            "title": "春のブーツコース",
+            "url": "https://spring.academy/courses/spring-boot",
+            "type": "course"
+          }
+        ]
+      }
+    },
+    {
+      "id": "OB--nMudscm0p6RqqfA7T",
+      "type": "subtopic",
+      "label": "構成",
+      "position": {
+        "x": 63.8618127280065,
+        "y": 229.71361308804387
+      },
+      "size": {
+        "width": 230,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "スプリング・コア・コンフィギュレーション (Spring Core Configuration) は,アプリケーションが適切に機能するために必要なさまざまな構成詳細を指定するスプリング・フレームワークを構成するプロセスである.これには,豆を設定したり,豆依存を指定したり,アスペクト ওরিয়েントされたプログラミング (AOP) の側面を構成したり,その他が含まれます.設定はJavaコード,XMLファイル,またはコード内の注釈を使用して行うことができます.",
+        "links": [
+          {
+            "title": "春のフレームワークドキュメント",
+            "url": "https://docs.spring.io/spring/docs/current/spring-framework-reference/",
+            "type": "official"
+          },
+          {
+            "title": "\"春の設定\"のチュートリアル",
+            "url": "https://www.baeldung.com/project-configuration-with-spring",
+            "type": "article"
+          },
+          {
+            "title": "\"春のフレームワーク\"のチュートリアル",
+            "url": "https://www.tutorialspoint.com/spring/index.htm",
+            "type": "article"
+          },
+          {
+            "title": "春の設定 初心者のための春のチュートリアル",
+            "url": "https://www.youtube.com/watch?v=fLs_yULL10g",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C2EQ5J1aJYF9e9Rr2KysT",
+      "type": "subtopic",
+      "label": "依存症注射",
+      "position": {
+        "x": 63.8618127280065,
+        "y": 282.71361308804387
+      },
+      "size": {
+        "width": 230,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "スプリング・ブートでは,オブジェクトとその依存性を管理するために,スプリング・フレームワークの逆転制御 (IoC) コンテナを使用します.IoC コンテナは,オブジェクトを作成し,それらを結合し,ライフサイクルを管理する責任があります.オブジェクトが作成されると,その依存性は生成され,オブジェクトに注入されます.",
+        "links": [
+          {
+            "title": "春季依存性注射",
+            "url": "https://www.baeldung.com/spring-dependency-injection",
+            "type": "article"
+          },
+          {
+            "title": "スプリングブートを使用した依存性注射",
+            "url": "https://medium.com/edureka/what-is-dependency-injection-5006b53af782",
+            "type": "article"
+          },
+          {
+            "title": "依存症の注射を理解する",
+            "url": "https://www.youtube.com/watch?v=GB8k2-Egfv0",
+            "type": "video"
+          },
+          {
+            "title": "依存症注射に関するトップ記事をご覧ください",
+            "url": "https://app.daily.dev/tags/dependency-injection?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PlUU_vzFQ3Xx6Z5XREIYP",
+      "type": "subtopic",
+      "label": "春季IOC",
+      "position": {
+        "x": 63.8618127280065,
+        "y": 335.71361308804387
+      },
+      "size": {
+        "width": 230,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "コントロールの逆転 (IoC) は,依存インジェクション (DI) パターンと組み合わせてしばしば使用されるデザインパターンである.IoCの背後にある基本的な考えは,プログラム内の制御の流れを逆転させるため,プログラムが論理の流れとオブジェクトの作成を制御する代わりに,オブジェクト自体は論理の流れと他のオブジェクトの作成を制御する.Springは,ソフトウェア開発により柔軟かつモジュラルのアプローチを提供するためにIoCとDIを使用する人気のあるJavaフレームワークである.Springベースのアプリケーションにおけるオブジェクトの作成と構成を管理する責任がある.",
+        "links": [
+          {
+            "title": "春のIoC,春の豆 例のチュートリアル",
+            "url": "https://www.digitalocean.com/community/tutorials/spring-ioc-bean-example-tutorial",
+            "type": "article"
+          },
+          {
+            "title": "制御の逆転と春への入門",
+            "url": "https://www.baeldung.com/inversion-control-and-dependency-injection-in-spring",
+            "type": "article"
+          },
+          {
+            "title": "スプリング・フレームワークに関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/spring?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "wV1_I_4czMIxpBionvLs4",
+      "type": "subtopic",
+      "label": "春のAOP",
+      "position": {
+        "x": 63.8618127280065,
+        "y": 388.71361308804387
+      },
+      "size": {
+        "width": 230,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "スプリング AOP (Aspect-Oriented Programming) は,開発者が複数のクラスを切り抜く特定の行動 (すなわち\",アスペクト\") を定義することを可能にするスプリング・フレームワークの特徴である.ログリングやトランザクション管理など.これらの行動 (advice) は,アプリケーション内の特定の\"join points\" (すなわち,プログラムの実行中のポイント) に適用され,アドバイスがどこに適用されるべきかを決定するために\"pointcuts\"を使用する.Spring AOPは,開発者がこれらのクロスカット上の懸念の実装をアプリケーションのビジネス論理から分離させ,コードをよりモジュール化して理解しやすくします.これはまた,同じアドバイスをコードの異なる部分に適用できるので,アドバイスのコードを複製する必要がなく,アプリケーションの柔軟性も高めることができます.",
+        "links": [
+          {
+            "title": "春のAOPチュートリアル",
+            "url": "https://www.simplilearn.com/tutorials/spring-tutorial/spring-aop-aspect-oriented-programming",
+            "type": "article"
+          },
+          {
+            "title": "AOPと春のフレームワーク",
+            "url": "https://www.tutorialspoint.com/spring/aop_with_spring.htm",
+            "type": "article"
+          },
+          {
+            "title": "春のAOPチュートリアル",
+            "url": "https://howtodoinjava.com/spring-aop-tutorial/",
+            "type": "article"
+          },
+          {
+            "title": "スプリング・フレームワークに関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/spring?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "QiNWE4sMTao3cVzjt3yPp",
+      "type": "subtopic",
+      "label": "春のMVC",
+      "position": {
+        "x": 63.8618127280065,
+        "y": 441.71361308804387
+      },
+      "size": {
+        "width": 230,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "スプリングMVCはJavaでWebアプリケーションを構築するためのフレームワークである.これはJavaアプリケーションを構築するためのツールの大規模なエコシステムであるSpring Frameworkの一部である.Spring MVCはモデル-ビュー-コントローラー (MVC) デザインパターンに基づいて構築されており,アプリケーションの懸念をモデル,ビュー,コントローラーという3つの異なるコンポーネントに分割するのに役立ちます.Spring MVCはWebアプリケーションを構築するための強力かつ柔軟な方法を提供し,認証および認証のためのSpring Security,データアクセスのためのSpring Dataなどのスプリングエコシステムの他の部分とうまく統合します.",
+        "links": [
+          {
+            "title": "Web MVC フレームワーク",
+            "url": "https://docs.spring.io/spring-framework/docs/3.2.x/spring-framework-reference/html/mvc.html",
+            "type": "official"
+          },
+          {
+            "title": "春 - MVC フレームワーク",
+            "url": "https://www.tutorialspoint.com/spring/spring_web_mvc_framework.htm",
+            "type": "article"
+          },
+          {
+            "title": "スプリング・フレームワークに関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/spring?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "HdCpfGMrMaXxk5QrtYn3X",
+      "type": "subtopic",
+      "label": "注記",
+      "position": {
+        "x": 63.8618127280065,
+        "y": 494.71361308804387
+      },
+      "size": {
+        "width": 230,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "スプリングブートの主な特徴の一つは,アプリケーションのさまざまな側面を構成し,特定の機能を有効にするために使用される注釈の使用です. スプリングブートで最も一般的に使用される注釈の中には: * `@SpringBootApplication` * `@RestController` * `@Autowired` * `@Value` * `@Enable` * `@Configuration` * `@Bean` これらは,スプリングブートで利用可能な多くの注釈のほんの一部です.セキュリティ,キャッシング,データアクセスなどのアプリケーションのさまざまな側面を構成するために使用できる多くの注釈があります.",
+        "links": [
+          {
+            "title": "春の記号",
+            "url": "https://www.digitalocean.com/community/tutorials/spring-annotations",
+            "type": "article"
+          },
+          {
+            "title": "春の記号",
+            "url": "https://www.techferry.com/articles/spring-annotations.html",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "KdN62IpNgPFMndXfLaYa1",
+      "type": "subtopic",
+      "label": "春の豆 の 範囲",
+      "position": {
+        "x": 63.8618127280065,
+        "y": 547.7136130880439
+      },
+      "size": {
+        "width": 230,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "スプリング・フレームワークでは,豆は,スプリング IoC コンテナによってインスタント化され,組み立てられ,管理される物体である.スプリング・コンテナの重要な特徴の一つは,豆のライフサイクルを管理する能力である.必要に応じて豆を作り,構成し,破壊することを含む.コンテナが豆のライフサイクルを制御する方法の一つは,その範囲を指定することによってである.",
+        "links": [
+          {
+            "title": "春 - ビーン・スクープ",
+            "url": "https://www.tutorialspoint.com/spring/spring_bean_scopes.htm",
+            "type": "article"
+          },
+          {
+            "title": "春の豆のスコープへの迅速なガイド",
+            "url": "https://www.baeldung.com/spring-bean-scopes",
+            "type": "article"
+          },
+          {
+            "title": "春の豆のスコープ",
+            "url": "https://www.digitalocean.com/community/tutorials/spring-bean-scopes",
+            "type": "article"
+          },
+          {
+            "title": "スプリング・フレームワークに関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/spring?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "WrUCyVfFNUpHB8jyjjKna",
+      "type": "subtopic",
+      "label": "用語",
+      "position": {
+        "x": 63.8618127280065,
+        "y": 70.71361308804387
+      },
+      "size": {
+        "width": 138,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Spring Frameworkの基盤である Spring CoreはJavaアプリケーションを構成するためのモデルを提供します.キーコンセプトには **Beans** (JavaオブジェクトはSpringが管理する), **Inversion of Control (IoC) ** (Springは豆のライフサイクルと依存性を管理する) と **Dependency Injection (DI) ** (Springは豆の依存性を提供する) が含まれます. **Spring コンテナ** (特に **ApplicationContext**) はこれらの豆を作成し管理します.Springはまた,クロスカット上の問題を処理するために **Aspect-Oriented Programming (AOP) **, **ApplicationEvent**と **listeners**を使用した分離通信のための **eventモデル**, **Data Access**と **Transactions**の抽象,および **Task Executionと Schedulingのユーティリティも提供しています.",
+        "links": [
+          {
+            "title": "春の靴",
+            "url": "https://spring.io/projects/spring-boot",
+            "type": "official"
+          },
+          {
+            "title": "春の靴 - スタートガイド",
+            "url": "https://spring.io/quickstart",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "yuXN-rD4AyyPYUYOR50L_",
+      "type": "subtopic",
+      "label": "建築",
+      "position": {
+        "x": 63.8618127280065,
+        "y": 123.71361308804387
+      },
+      "size": {
+        "width": 138,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Spring Boot は,各層が直接下の層またはそれ以上の層 (階層構造) と通信する層次アーキテクチャに従います.Spring Boot の4層は以下のとおりです: * **プレゼンテーション層**:HTTP リクエストを処理し,JSON パラメータをオブジェクトに翻訳し,リクエストを認証し,ビジネス層に転送します.* **ビジネス層**:ビジネス層はすべてのビジネス論理を処理します.サービスクラスで構成され,データアクセス層によって提供されるサービスを使用します.また認証と検証を実行します.* **持続層**:持続層にはすべてのストレージ論理が含まれ,およびデータベース列からビジネスオブジェクトを翻訳します.* **データベース層**:データベース層では,CRUD (作成,取得,更新,削除) 操作が実行されます.",
+        "links": [
+          {
+            "title": "スプリングブートアーキテクチャ 詳細説明",
+            "url": "https://www.interviewbit.com/blog/spring-boot-architecture",
+            "type": "article"
+          },
+          {
+            "title": "建築に関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/architecture?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "WGf3W6bdWL0rK0o6O28G2",
+      "type": "subtopic",
+      "label": "なぜスプリングを使うのか?",
+      "position": {
+        "x": 63.8618127280065,
+        "y": 176.71361308804387
+      },
+      "size": {
+        "width": 171,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "スプリングブートでは,スプリングベースのアプリケーションを作成しやすくする機能がいくつか提供されています.例えば: * インベッドアプリケーションサーバー * 自動設定 * プリコンフィギュアしたスタートレーター * パッケージングと配布の簡単さ * 内蔵の健康チェックエンドポイントを通じてモニタリングの簡単さ,管理エンドポイントをカスタマイズする能力.さらに,多くのベストプラクティスとコンベンションが組み込まれ,作業量とボイラープレートコードの開発者が書く必要性を軽減します.",
+        "links": [
+          {
+            "title": "なぜ春なのか?",
+            "url": "https://spring.io/why-spring",
+            "type": "official"
+          },
+          {
+            "title": "春と春の靴: 違いを知ること",
+            "url": "https://www.interviewbit.com/blog/spring-vs-spring-boot",
+            "type": "article"
+          },
+          {
+            "title": "春 と 春 の 靴 の 比較",
+            "url": "https://www.baeldung.com/spring-vs-spring-boot",
+            "type": "article"
+          },
+          {
+            "title": "春靴の利点",
+            "url": "https://www.adservio.fr/post/advantages-of-spring-boot",
+            "type": "article"
+          },
+          {
+            "title": "スプリング・フレームワークに関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/spring?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "KaUdyVWEiZa6lUDRBlOKt",
+      "type": "topic",
+      "label": "春の安全",
+      "position": {
+        "x": -329.3175069304428,
+        "y": 323.0143553645502
+      },
+      "size": {
+        "width": 161,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "スプリングセキュリティはJavaベースのアプリケーションのセキュリティのためのフレームワークです.これは強力な強力で高度にカスタマイズ可能な認証とアクセス制御フレームワークで,ウェブアプリケーションおよびRESTful Webサービスを含む幅広いアプリケーションと簡単に統合できます. スプリングセキュリティは認証と認証の両方のための包括的なセキュリティソリューションを提供し,ウェブと方法レベルの両方でアプリケーションをセキュアに利用できます.",
+        "links": [
+          {
+            "title": "春の安全",
+            "url": "https://spring.io/projects/spring-security",
+            "type": "official"
+          },
+          {
+            "title": "春のセキュリティとは何か",
+            "url": "https://www.javadevjournal.com/spring/what-is-spring-security/",
+            "type": "article"
+          },
+          {
+            "title": "春のセキュリティ: 認証と承認の詳細",
+            "url": "https://www.marcobehler.com/guides/spring-security",
+            "type": "article"
+          },
+          {
+            "title": "セキュリティに関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/security?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ssdk2iAt4avhc8B5tnIzQ",
+      "type": "subtopic",
+      "label": "認証",
+      "position": {
+        "x": -704.3054618325863,
+        "y": 254.25996814340215
+      },
+      "size": {
+        "width": 155,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "スプリングセキュリティは,Javaベースのアプリケーションのセキュリティのためのフレームワークです.その核心機能の一つは認証です.これはユーザーが自分が誰であると主張するかを確認するプロセスです.スプリングセキュリティは,伝統的なユーザー名/パスワードベースの認証のサポート,OAuthやJSON Web Tokens (JWT) などのより近代的な代替手段を含む認証を実装するための幅広いオプションを提供しています.",
+        "links": [
+          {
+            "title": "春の認証",
+            "url": "https://docs.spring.io/spring-security/reference/features/authentication/index.html",
+            "type": "official"
+          },
+          {
+            "title": "春のセキュリティ認証",
+            "url": "https://spring.io/projects/spring-security",
+            "type": "official"
+          },
+          {
+            "title": "スプリングセキュリティ 基本認証",
+            "url": "https://www.baeldung.com/spring-security-basic-authentication",
+            "type": "article"
+          },
+          {
+            "title": "認証に関するトップ記事をご覧ください",
+            "url": "https://app.daily.dev/tags/authentication?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "c7w7Z3Coa81FKa_yAKTse",
+      "type": "subtopic",
+      "label": "許可",
+      "position": {
+        "x": -704.3054618325863,
+        "y": 307.25996814340215
+      },
+      "size": {
+        "width": 145,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "スプリングセキュリティは,ユーザー名およびパスワード認証,OAuth2など,さまざまな認証メカニズムをサポートします.ユーザーが認証されると,スプリングセキュリティは特定のリソースまたは機能へのユーザーのアクセスを許可するために使用できます.特定の方法またはクラスへのアクセスを制御するために使用できるいくつかの注釈があります.",
+        "links": [
+          {
+            "title": "春の許可",
+            "url": "https://docs.spring.io/spring-security/reference/servlet/authorization/index.html",
+            "type": "official"
+          },
+          {
+            "title": "春の先進許可",
+            "url": "https://docs.spring.io/spring-security/site/docs/5.2.11.RELEASE/reference/html/authorization.html",
+            "type": "article"
+          },
+          {
+            "title": "春のセキュリティ: 認証と承認の詳細",
+            "url": "https://www.marcobehler.com/guides/spring-security",
+            "type": "article"
+          },
+          {
+            "title": "許可に関するトップ記事を探索する",
+            "url": "https://app.daily.dev/tags/authorization?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "p7t3RlIIm9U08GFC6azff",
+      "type": "subtopic",
+      "label": "OAuth2",
+      "position": {
+        "x": -704.3054618325863,
+        "y": 360.25996814340215
+      },
+      "size": {
+        "width": 102,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Spring Security OAuth2 図書館は,許可コード授与タイプ (ウェブアプリ) と暗黙授与タイプ (単ページアプリ) の両方に対応しています.また, Spring Security を使用してリソースを保護し,アプリケーションを OAuth2 資源サーバとして構成することもできます.OAuth2 認証プロセスは複雑で時間がかかるが, Spring Security OAuth2 図書館は,便利な構成クラスと注釈を提供することによって開始を簡単にします.",
+        "links": [
+          {
+            "title": "OAuth 2 を Spring Boot で使用する",
+            "url": "https://medium.com/@bubu.tripathy/oauth-2-using-spring-boot-99c17292f228",
+            "type": "article"
+          },
+          {
+            "title": "スプリングブート - JWT で OAuth2",
+            "url": "https://www.tutorialspoint.com/spring_boot/spring_boot_oauth2_with_jwt.htm",
+            "type": "article"
+          },
+          {
+            "title": "春の安全",
+            "url": "https://www.tutorialspoint.com/spring_security/spring_security_with_oauth2.htm",
+            "type": "article"
+          },
+          {
+            "title": "OAuth2 ログインはJavaで簡単になりました:春のブート&春のセキュリティウォークスルー",
+            "url": "https://www.youtube.com/watch?v=us0VjFiHogo",
+            "type": "video"
+          },
+          {
+            "title": "REST API を OAuth 2.0 で保護する",
+            "url": "https://spring.academy/courses/spring-academy-secure-rest-api-oauth2",
+            "type": "course"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1My7mbdwAbRcJoiA50pWW",
+      "type": "subtopic",
+      "label": "JWT 認証",
+      "position": {
+        "x": -704.3054618325863,
+        "y": 413.25996814340215
+      },
+      "size": {
+        "width": 195,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "スプリングセキュリティは,JWT認証と認証をAPIに実装するために使用できます.図書館はJWTベースの認証フィルタを提供し,APIエンドポイントに追加できます.フィルターはリクエストヘッダーに含まれているJWTをチェックし,有効であれば,セキュリティコンテキストに認証情報を設定します.その後,セキュリティコンテキストを使用してAPIエンドポイントの認証チェックを実行できます.",
+        "links": [
+          {
+            "title": "春 に JWT トークン 認証",
+            "url": "https://springframework.guru/jwt-authentication-in-spring-microservices-jwt-token/",
+            "type": "article"
+          },
+          {
+            "title": "REST API の JWT による春のセキュリティ",
+            "url": "https://www.toptal.com/spring/spring-security-tutorial",
+            "type": "article"
+          },
+          {
+            "title": "春の安全 - JWT",
+            "url": "https://www.tutorialspoint.com/spring_security/spring_security_with_jwt.htm",
+            "type": "article"
+          },
+          {
+            "title": "認証に関するトップ記事をご覧ください",
+            "url": "https://app.daily.dev/tags/authentication?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Vx7GXHYuM0ZOB9_ovS6sw",
+      "type": "paragraph",
+      "label": "春の靴",
+      "position": {
+        "x": -286.8175069304428,
+        "y": 441.71361308804387
+      },
+      "size": {
+        "width": 143,
+        "height": 67
+      },
+      "style": {
+        "fontSize": 20,
+        "borderColor": "transparent",
+        "backgroundColor": "transparent",
+        "color": "#000000",
+        "textAlign": "left",
+        "justifyContent": "flex-start",
+        "padding": 16
+      },
+      "z_index": 999
+    },
+    {
+      "id": "JrH2hiu27PhIO1VtrArMa",
+      "type": "topic",
+      "label": "春のブートスタート",
+      "position": {
+        "x": -329.3175069304428,
+        "y": 596.7136130880439
+      },
+      "size": {
+        "width": 201,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "スプリングブートスターは,アプリケーションに組み込める便利な依存性記述のセットです.セキュリティ,データアクセス,ウェブサービスなどのさまざまな機能を提供し,作成に必要なボイラープレートコードと構成量を最小限に抑えるのに役立ちます.",
+        "links": [
+          {
+            "title": "春のブートスタートの入門",
+            "url": "https://www.baeldung.com/spring-boot-starters",
+            "type": "article"
+          },
+          {
+            "title": "スプリング・フレームワークに関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/spring?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "88-h3d7kb-VmUBsnUUXW_",
+      "type": "topic",
+      "label": "自動設定",
+      "position": {
+        "x": -329.3175069304428,
+        "y": 649.7136130880439
+      },
+      "size": {
+        "width": 179,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Spring Bootの自動設定は,特定の依存性と性質の存在に基づいてアプリケーション内の豆や他のコンポーネントを簡単に構成する強力で便利な機能です. ボイラープレート構成コードの必要性を軽減することによって開発者の時間を節約し,性能と注釈を通じて細かく調節することができます.",
+        "links": [
+          {
+            "title": "スプリングブートを使用して自動設定",
+            "url": "https://docs.spring.io/spring-boot/docs/2.0.x/reference/html/using-boot-auto-configuration.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "N7hd3d_XQtvOgnCqdCFt3",
+      "type": "topic",
+      "label": "アクチュエーター",
+      "position": {
+        "x": -329.3175069304428,
+        "y": 702.7136130880439
+      },
+      "size": {
+        "width": 117,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "スプリングブートアクチュエーター (Spring Boot Actuator) は,さまざまな方法でアプリケーションをモニタリングし管理できるようにする制作準備的機能のセットです.アプリケーションの健康と性能に関する情報を暴露するさまざまなエンドポイントを提供し,アプリケーションをシャットダウンしたり,構成をリフレッシュしたりなどのさまざまな管理タスクを実行することができます. スプリングブートアクチュエーターは通常,アプリケーションの健康と性能をモニタリングし,発生する問題を特定するために生産環境で使用されます.アプリケーションの内部機能についての洞察を得るために開発とテスト環境でも使用できます.",
+        "links": [
+          {
+            "title": "スプリングブートアクチュエーターでRESTful Web Service を 構築する",
+            "url": "https://spring.io/guides/gs/actuator-service/",
+            "type": "official"
+          },
+          {
+            "title": "スプリングブートアクチュエーターとは",
+            "url": "https://www.baeldung.com/spring-boot-actuators",
+            "type": "article"
+          },
+          {
+            "title": "スプリング・フレームワークに関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/spring?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ONb0VnSUMY8JBeW3G2mTp",
+      "type": "topic",
+      "label": "埋め込みサーバー",
+      "position": {
+        "x": -329.3175069304428,
+        "y": 755.7136130880439
+      },
+      "size": {
+        "width": 185,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "スプリング・ブートのインベッド・サーバー機能は,アプリケーション内でウェブサーバーを直接実行し,独立したWebサーバーに部署する必要がなく,便利で強力な機能です. これによりWebアプリケーションを開発し,テストし,部署しやすく,また軽量で,起動・停止し,設定が簡単です.",
+        "links": [
+          {
+            "title": "組み込みウェブサーバー  方法  ガイド",
+            "url": "https://docs.spring.io/spring-boot/docs/2.1.9.RELEASE/reference/html/howto-embedded-web-servers.html",
+            "type": "official"
+          },
+          {
+            "title": "春 に 埋め込み サーバー",
+            "url": "https://subscription.packtpub.com/book/application-development/9781789132588/3/ch03lvl1sec24/embedded-servers",
+            "type": "article"
+          },
+          {
+            "title": "埋め込みサーバーとは何か?",
+            "url": "https://www.springboottutorial.com/java-programmer-essentials-what-is-an-embedded-server",
+            "type": "article"
+          },
+          {
+            "title": "埋め込みシステムに関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/embedded?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "h5-HnycxfbJgwalSdXTAz",
+      "type": "topic",
+      "label": "冬眠",
+      "position": {
+        "x": -663.3054618325863,
+        "y": 755.7136130880439
+      },
+      "size": {
+        "width": 248,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Hibernate は Java の フレームワーク で,関係 データベース に オブジェクト 向け の モデル に オブジェクト 関連 マッピング を 提供 し て い ます. hibernate は Java の クラス から データベース テーブル に 提供 し て い ます.また, データ 查询 や 取出し 機能 を 提供 し て い ます.",
+        "links": [
+          {
+            "title": "春 と 冬 の 違い",
+            "url": "https://www.educba.com/spring-vs-hibernate/",
+            "type": "article"
+          },
+          {
+            "title": "春冬の統合例",
+            "url": "https://www.digitalocean.com/community/tutorials/spring-hibernate-integration-example-tutorial",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "H9Z0EvKT_148vD0mR-dUf",
+      "type": "subtopic",
+      "label": "トランザクション",
+      "position": {
+        "x": -704.3054618325863,
+        "y": 560.5044010696047
+      },
+      "size": {
+        "width": 248,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "トランザクションは単に作業単位を表します.そのような場合,一つのステップが失敗した場合,全体取引は失敗します (これは原子性と呼ばれます).トランザクションはACID属性 (原子性,一貫性,隔離および耐久性) によって記述することができます.冬眠フレームワークでは,作業単位を定義するトランザクションインターフェースがあります.トランザクション実装 (JTA,JDBC) から抽象を維持します.",
+        "links": [
+          {
+            "title": "Hibernate トランザクション・マネジメント",
+            "url": "https://www.javaguides.net/2018/12/hibernate-transaction-management-tutorial.html",
+            "type": "article"
+          },
+          {
+            "title": "冬期トランザクション",
+            "url": "https://www.w3schools.blog/hibernate-transaction-management",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "D4ybyh0ydvl9W2_xUcvZ_",
+      "type": "subtopic",
+      "label": "人間関係",
+      "position": {
+        "x": -704.3054618325863,
+        "y": 613.5044010696047
+      },
+      "size": {
+        "width": 248,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "2つのエンティティの間の関係がある場合,テーブルの間には外キー関係がある必要があります.それを参照性整体と呼びます.オブジェクト間の関係を持つ主なメリットは,私たちは一つのオブジェクトで操作を行うことができ,同じ操作はデータベース内の他のオブジェクトに転送することができます.",
+        "links": [
+          {
+            "title": "冬眠 の 深い 関係",
+            "url": "https://www.java4s.com/hibernate/hibernate-relationships-in-depth/",
+            "type": "article"
+          },
+          {
+            "title": "Hibernate - Relationship Mapping を用いる JPA のガイド",
+            "url": "https://stackabuse.com/a-guide-to-jpa-with-hibernate-relationship-mapping/",
+            "type": "article"
+          },
+          {
+            "title": "冬眠マッピング",
+            "url": "https://dzone.com/articles/hibernate-mapping",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Ijmy0J3VyaeTGXtu2VkkQ",
+      "type": "subtopic",
+      "label": "事業体生命周期",
+      "position": {
+        "x": -704.3054618325863,
+        "y": 666.5044010696047
+      },
+      "size": {
+        "width": 248,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Hibernateでは,エンティティの新しいオブジェクトを作成してデータベースに保存するか,データベースからエンティティの既存のデータを取得することができます.これらのエンティティはライフサイクルと接続され,エンティティの各オブジェクトはライフサイクルのさまざまな段階を通過します.主に Hibernateライフサイクルの4つの状態があります.",
+        "links": [
+          {
+            "title": "Hibernate Entity Life Cycle & その状態",
+            "url": "https://www.baeldung.com/hibernate-entity-lifecycle",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pvVLbFQoT50vz_VRK4VbJ",
+      "type": "topic",
+      "label": "春のデータ",
+      "position": {
+        "x": -663.3054618325863,
+        "y": 853.4919152447768
+      },
+      "size": {
+        "width": 248,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "スプリングデータ (Spring Data) は,スプリングベースのアプリケーションにおけるデータアクセスのプロジェクトの一集である.関係型データベース,NoSQLデータストレージ,クラウドベースのデータサービスを含むさまざまなタイプのデータストレージで作業するための共通のインターフェースを提供します.スプリングデータの目標は,異なるデータストレージおよびデータアクセスの技術における一貫性のある高レベルのリポジトリプログラミングモデルを提供することによって,スプリングデータアプリケーションにおけるデータアクセスを簡素化することです.これは開発者がボイラープレートコードを少なく書き,ビジネス論理に焦点を当てることができながら,基盤となるデータストレージの完全な力を利用することができます.",
+        "links": [
+          {
+            "title": "春のデータ",
+            "url": "https://spring.io/projects/spring-data",
+            "type": "official"
+          },
+          {
+            "title": "ソースデータ  一つのAPIでそれらをすべて支配しますか?",
+            "url": "https://www.infoq.com/articles/spring-data-intro/",
+            "type": "article"
+          },
+          {
+            "title": "JPAとは何か,春のデータと春のデータ JPAとは何か",
+            "url": "https://www.amitph.com/jpa-and-spring-data-jpa/",
+            "type": "article"
+          },
+          {
+            "title": "スプリング・フレームワークに関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/spring?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6u08QN-pUeFm3o0h5Scfm",
+      "type": "subtopic",
+      "label": "春のデータ JPA",
+      "position": {
+        "x": -704.3054618325863,
+        "y": 955.8193989499127
+      },
+      "size": {
+        "width": 248,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Spring Data JPAは, Spring アプリケーションのための Java Persistence API (JPA) ベースのリポジトリ (DAO) を簡単に実装するライブラリです.JPAの上で抽象化され,データベースで CRUD (Create, Read, Update, Delete) 操作を行うためのよりシンプルで便利な API を使用できます. Spring Data JPA は,ページ化,ダイナミッククエリ生成など追加の機能も提供します.",
+        "links": [
+          {
+            "title": "春のデータ JPA",
+            "url": "https://spring.io/projects/spring-data-jpa",
+            "type": "official"
+          },
+          {
+            "title": "春のデータJPAへの導入",
+            "url": "https://www.baeldung.com/the-persistence-layer-with-spring-data-jpa",
+            "type": "article"
+          },
+          {
+            "title": "スプリング・フレームワークに関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/spring?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "fy-TphbqkLpR1zvFcr7dg",
+      "type": "subtopic",
+      "label": "ソースデータ MongoDB",
+      "position": {
+        "x": -704.3054618325863,
+        "y": 1008.8193989499127
+      },
+      "size": {
+        "width": 248,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "MongoDBのためのスプリングデータ (Spring Data for MongoDB) は,新しいデータストア向けに馴染みのある一貫したスプリングベースのプログラミングモデルを提供することを目的とした傘のプロジェクトの一部である.",
+        "links": [
+          {
+            "title": "ソースデータ MongoDB",
+            "url": "https://spring.io/projects/spring-data-mongodb",
+            "type": "official"
+          },
+          {
+            "title": "MongoDBチュートリアルとの春ブート統合",
+            "url": "https://www.mongodb.com/compatibility/spring-boot",
+            "type": "official"
+          },
+          {
+            "title": "ソースデータMongoDBへの導入",
+            "url": "https://www.baeldung.com/spring-data-mongodb-tutorial",
+            "type": "article"
+          },
+          {
+            "title": "MongoDBに関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/mongodb?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dd1A-MyzBs_kNOtVG7f1D",
+      "type": "subtopic",
+      "label": "春のデータ JDBC",
+      "position": {
+        "x": -704.3054618325863,
+        "y": 1061.8193989499127
+      },
+      "size": {
+        "width": 248,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Spring Data JDBCは,JDBC (Java Database Connectivity) を使用して関係データベースと相互作用するためのサポートを提供する Spring Data Projectの一部です.JDBC を使用してデータベースと相互作用するためのシンプルで一貫したプログラミングモデルを提供するために設計されています.それでも必要に応じてJDBC の完全なパワーを使用することができます. Spring Data JDBC は SQL クエリを実行するための簡単なテンプレートクラス,データアクセスオブジェクト (DAO) を実装するためのリポジトリ抽象,およびクエリのページ化および分類をサポートします. Java と Kotlin の両方の結果で動作します.",
+        "links": [
+          {
+            "title": "春のデータ JDBC",
+            "url": "https://spring.io/projects/spring-data-jdbc",
+            "type": "official"
+          },
+          {
+            "title": "春のデータ JDBC - 参考文書",
+            "url": "https://docs.spring.io/spring-data/jdbc/docs/current/reference/html/",
+            "type": "article"
+          },
+          {
+            "title": "春のデータJDBCの紹介",
+            "url": "https://www.baeldung.com/spring-data-jdbc-intro",
+            "type": "article"
+          },
+          {
+            "title": "スプリング・フレームワークに関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/spring?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "jU_KHoPUSU_HoIKk0ZpRF",
+      "type": "topic",
+      "label": "マイクロサービス",
+      "position": {
+        "x": -329.3175069304428,
+        "y": 853.4919152447768
+      },
+      "size": {
+        "width": 248,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "スプリングマイクロサービス (Spring Microservices) は,スプリング・フレームワークを使用してマイクロサービスベースのアプリケーションを構築し,管理することを容易にするフレームワークである.マイクロサービス (Microservices) は,大規模なアプリケーションが小さな,独立した展開可能なサービスの集合として構築される建築スタイルである.各サービスは狭く定義された責任を持ち,APIを通じて他のサービスと通信する.",
+        "links": [
+          {
+            "title": "スプリングのマイクロサービス",
+            "url": "https://spring.io/microservices",
+            "type": "official"
+          },
+          {
+            "title": "スプリングブート付きのマイクロサービス",
+            "url": "https://medium.com/omarelgabrys-blog/microservices-with-spring-boot-intro-to-microservices-part-1-c0d24cd422c3",
+            "type": "article"
+          },
+          {
+            "title": "マイクロサービスに関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/microservices?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "VWNDYSw83Vzi2UPQprJ5z",
+      "type": "subtopic",
+      "label": "春の雲",
+      "position": {
+        "x": 63.8618127280065,
+        "y": 853.4919152447768
+      },
+      "size": {
+        "width": 144,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center",
+        "colorType": "h"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "スプリング・クラウドは,スプリング・フレームワークを使用してクラウドネイティブアプリケーションを構築するためのライブラリやツールの一集です.サービス発見,構成管理,回路断路パターンなど,クラウドベースのアプリケーションで使用される一般的なパターンとベストプラクティスの抽象と実装を提供します.",
+        "links": [
+          {
+            "title": "春の雲",
+            "url": "https://spring.io/projects/spring-cloud",
+            "type": "official"
+          },
+          {
+            "title": "春雲  ブートストラップ",
+            "url": "https://www.baeldung.com/spring-cloud-bootstrapping",
+            "type": "article"
+          },
+          {
+            "title": "クラウドに関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/cloud?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "f-i0NX2KOzCh3JwkaSPFo",
+      "type": "subtopic",
+      "label": "スプリング・クラウド・ゲートウェイ",
+      "position": {
+        "x": 63.8618127280065,
+        "y": 641.2298102954034
+      },
+      "size": {
+        "width": 277,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "スプリングクラウドゲートウェイは,APIゲートウェイを構築するためのスプリングフレームワークライブラリです.APIゲートウェイは,アプリケーションとマイクロサービスセットの間の仲介者として機能するサービスです.APIゲートウェイは,他のものなど,リクエストルーティング,構成,プロトコル翻訳に責任があります.認証,レート制限,キャッシングなどのタスクを実行することもできます.",
+        "links": [
+          {
+            "title": "スプリング・クラウド・ゲートウェイ",
+            "url": "https://spring.io/projects/spring-cloud-gateway",
+            "type": "official"
+          },
+          {
+            "title": "スプリング・クラウド・ゲートウェイとは?",
+            "url": "https://tanzu.vmware.com/developer/guides/scg-what-is/",
+            "type": "article"
+          },
+          {
+            "title": "新春の雲門を探検する",
+            "url": "https://www.baeldung.com/spring-cloud-gateway",
+            "type": "article"
+          },
+          {
+            "title": "クラウドに関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/cloud?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "9hG3CB8r41bUb_s8-0u73",
+      "type": "subtopic",
+      "label": "クラウド設定",
+      "position": {
+        "x": 63.8618127280065,
+        "y": 694.2298102954034
+      },
+      "size": {
+        "width": 277,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Spring Cloud Configは,分散アプリケーションの構成属性を管理するためのライブラリです.開発者はアプリケーションの構成属性を外部化することができ,アプリケーションのコードを変更せずに簡単に変更できます.また,複数のアプリケーションの構成属性を保存し管理するための集中的なサーバーを提供し,さまざまな環境で構成を更新し,ロールバックすることを容易にします.",
+        "links": [
+          {
+            "title": "春雲設定",
+            "url": "https://spring.io/projects/spring-cloud-config",
+            "type": "official"
+          },
+          {
+            "title": "スプリングクラウドの設定への迅速な入門",
+            "url": "https://www.baeldung.com/spring-cloud-configuration",
+            "type": "article"
+          },
+          {
+            "title": "スプリングブート - クラウド設定サーバー",
+            "url": "https://www.tutorialspoint.com/spring_boot/spring_boot_cloud_configuration_server.htm",
+            "type": "article"
+          },
+          {
+            "title": "クラウドに関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/cloud?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "kqpSlO--X9-xYxfq1KFVe",
+      "type": "subtopic",
+      "label": "スプリング・クラウド サーキット ブレーカー",
+      "position": {
+        "x": 63.8618127280065,
+        "y": 747.2298102954034
+      },
+      "size": {
+        "width": 277,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "スプリング・クラウド・サーキット・ブレイカー (Spring Cloud Circuit Breaker) は,サーキット・ブレイカーパターンを使用してマイクロサービスベースのアプリケーションの故障耐容性を管理するためのライブラリです.サーキット・ブレイカーパターンは,カスケード故障を予防し,分散型システムの回復力を向上させるための設計パターンです. サービスが応答していないときや失敗したときに検出し,サービスが回復できるように,一時的にそのへのルーティングトラフィックを停止できるサービスの前に\"サーキット・ブレイカー\"プロキシを導入することによってです.",
+        "links": [
+          {
+            "title": "スプリング・クラウド サーキット ブレーカー",
+            "url": "https://spring.io/projects/spring-cloud-circuitbreaker",
+            "type": "official"
+          },
+          {
+            "title": "スプリング・クラウド サーキット ブレーカー の 迅速 な ガイド",
+            "url": "https://www.baeldung.com/spring-cloud-circuit-breaker",
+            "type": "article"
+          },
+          {
+            "title": "スプリング・クラウド - Hystrix を使用したサーキットブレーカー",
+            "url": "https://www.tutorialspoint.com/spring_cloud/spring_cloud_circuit_breaker_using_hystrix.htm",
+            "type": "article"
+          },
+          {
+            "title": "クラウドに関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/cloud?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "EKSXTMSN2xdaleJ4wOV1A",
+      "type": "subtopic",
+      "label": "春雲 オープン フェイン",
+      "position": {
+        "x": 63.8618127280065,
+        "y": 955.2633845627711
+      },
+      "size": {
+        "width": 277,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Spring Cloud OpenFeignは, Spring アプリケーションで宣言性 REST クライアントを作成するためのライブラリです.他のマイクロサービスまたはリモートサービスに簡単にHTTPリクエストを作成できます.要求および応答を処理するために,低レベルのコードを手動で書き込む必要はありません.OpenFeignは,JavaでHTTP クライアントを作成するためのシンプルで軽量なライブラリであるOpenFeign宣言性HTTPクライアントの上に構築されています.",
+        "links": [
+          {
+            "title": "春雲 オープンフェイン",
+            "url": "https://spring.io/projects/spring-cloud-openfeign",
+            "type": "official"
+          },
+          {
+            "title": "スプリングクラウドOpenFeignの紹介",
+            "url": "https://www.baeldung.com/spring-cloud-openfeign",
+            "type": "article"
+          },
+          {
+            "title": "シンプルな Spring Cloud OpenFeign の実装",
+            "url": "https://medium.com/javarevisited/simple-implementation-of-spring-cloud-openfeign-7f022630d01d",
+            "type": "article"
+          },
+          {
+            "title": "クラウドに関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/cloud?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "GsmBGRohWbJ6XOaALFZ8o",
+      "type": "subtopic",
+      "label": "ミクロメーター",
+      "position": {
+        "x": 63.8618127280065,
+        "y": 1008.2633845627711
+      },
+      "size": {
+        "width": 277,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "6sLE6gb5Y477SmO2GhQIG",
+      "type": "subtopic",
+      "label": "ユレカ",
+      "position": {
+        "x": 206.8618127280065,
+        "y": 1008.2633845627711
+      },
+      "size": {
+        "width": 277,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "スプリング・クラウド・ユーレカは,マイクロサービスベースのアーキテクチャにおけるサービス発見のためのライブラリです.サービス発見は,サービスがアドレスをハードコードする必要なしに互いの検索とコミュニケーションをとることを可能にする技術です.ユーレカは,サービスインスタンスの自己登録と他のサービスを名前で発見することを可能にするサービスレジストリです.サービスが互いの検索と通信するためのシンプルで一貫した方法を提供し,リボンとフェインなどの他のスプリング・クラウドライブラリと統合し,負荷バランスと宣言 REST クライアントを提供します.",
+        "links": [
+          {
+            "title": "春の雲 Netflix  ユーレカの紹介",
+            "url": "https://www.baeldung.com/spring-cloud-netflix-eureka",
+            "type": "article"
+          },
+          {
+            "title": "スプリングブート - ユーレカサーバー",
+            "url": "https://www.tutorialspoint.com/spring_boot/spring_boot_eureka_server.htm",
+            "type": "article"
+          },
+          {
+            "title": "春雲 EUREKA を 導入する",
+            "url": "https://www.youtube.com/watch?v=1uNo1NrqsX4",
+            "type": "video"
+          },
+          {
+            "title": "バックエンド開発に関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/backend?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "S-BbOoRD7anvoJrprjoKF",
+      "type": "topic",
+      "label": "春のMVC",
+      "position": {
+        "x": -329.3175069304428,
+        "y": 1216.5088543799602
+      },
+      "size": {
+        "width": 248,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "スプリングMVCは,スプリングフレームワークの一部であるウェブアプリケーションフレームワークである.モデルビューコントローラー (MVC) デザインパターンを使用してウェブアプリケーションを構築することを簡単にするように設計されています.スプリングMVCでは,アプリケーションはモデル,ビュー,コントローラーという3つの主要な構成要素に分かれています.モデルはアプリケーションのデータとビジネス論理を表し,ビューはクライアントのウェブブラウザに送信されるHTMLを生成する責任があり,コントローラーはモデルとビューの間の仲介者として機能し,入ってくるHTTPリクエストを処理し,適切な応答を生成します.",
+        "links": [
+          {
+            "title": "春 - MVC フレームワーク",
+            "url": "https://www.tutorialspoint.com/spring/spring_web_mvc_framework.htm",
+            "type": "article"
+          },
+          {
+            "title": "春のMVCチュートリアル 知っておくべきすべて",
+            "url": "https://www.edureka.co/blog/spring-mvc-tutorial/",
+            "type": "article"
+          },
+          {
+            "title": "スプリング・フレームワークに関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/spring?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "35NTx2eO1j02sjy4m6DPq",
+      "type": "subtopic",
+      "label": "サルブレット",
+      "position": {
+        "x": -704.3054618325863,
+        "y": 1162.1076554015908
+      },
+      "size": {
+        "width": 277,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Spring Servlet は Java クラスで,Spring IoC コンテナのリクエスト処理とライフサイクル管理の中心点として機能します.Spring Framework は,Spring ベースの Web アプリケーションのフロントコントローラとして機能する DispatcherServlet というクラスを提供します.ユーザーがSpring Web アプリケーションにリクエストを行うとき,DispatcherServlet はリクエスト処理,他のコンポーネントに責任を委譲し,最終的にユーザーに応答を返します.DispatcherServlet は,コンテナのライフサイクルも管理します.",
+        "links": [
+          {
+            "title": "ディスパッチャーセルブレット",
+            "url": "https://docs.spring.io/spring-framework/docs/3.0.0.M4/spring-framework-reference/html/ch15s02.html",
+            "type": "official"
+          },
+          {
+            "title": "DispatcherServlet と web.xml は Spring Boot で",
+            "url": "https://www.baeldung.com/spring-boot-dispatcherservlet-web-xml",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Lz0GPMiYzb30iFJdv1dL6",
+      "type": "subtopic",
+      "label": "JSPファイル",
+      "position": {
+        "x": -704.3054618325863,
+        "y": 1215.1076554015908
+      },
+      "size": {
+        "width": 277,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "JSP (JavaServer Pages) は,Javaを使用してダイナミックなウェブページを構築するための技術である.JSPを使用するSpring MVCアプリケーションでは,JSPファイルを使用して MVCパターンのビューコンポーネントが実装されます.JSPファイルにはアプリケーションのプレゼンテーション論理が含まれ,クライアントのウェブブラウザに送信されるHTMLを生成する責任があります.ユーザーがSpring MVCアプリケーションに要求を行うとき,フロントコントローラとして機能するDispatcherServletは,要求を処理し,適切なJSPファイルへの応答を生成する責任を負います.",
+        "links": [
+          {
+            "title": "春のMVC:JSPとタイルズからThymeleafまで",
+            "url": "https://spring.io/blog/2012/10/30/spring-mvc-from-jsp-and-tiles-to-thymeleaf/",
+            "type": "official"
+          },
+          {
+            "title": "JavaServer ページ (JSP) を搭載したスプリングブート",
+            "url": "https://www.baeldung.com/spring-boot-jsp",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "_vS_zdJZegZS6MIKAFyg8",
+      "type": "subtopic",
+      "label": "建築",
+      "position": {
+        "x": -704.3054618325863,
+        "y": 1268.1076554015908
+      },
+      "size": {
+        "width": 277,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "スプリングMVC (Model-View-Controller) は,スプリングフレームワークの一部であるウェブアプリケーションフレームワークである. MVCデザインパターンを使用してウェブアプリケーションを構築しやすくするために設計されています.",
+        "links": [
+          {
+            "title": "スプリングMVCアーキテクチャの概要",
+            "url": "https://terasolunaorg.github.io/guideline/1.0.1.RELEASE/en/Overview/SpringMVCOverview.html",
+            "type": "article"
+          },
+          {
+            "title": "建築に関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/architecture?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sgA06Tu9Y4cEHtfI8CyLL",
+      "type": "subtopic",
+      "label": "構成要素",
+      "position": {
+        "x": -704.3054618325863,
+        "y": 1321.1076554015908
+      },
+      "size": {
+        "width": 277,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Spring MVC (モデル・ビュー・コントローラー) フレームワークには, Web アプリケーションで要求を処理し,適切な応答を生成するために協力するいくつかの重要なコンポーネントがあります.アプリケーションのオブジェクトのライフサイクルを管理するために使用される他のサポートコンポーネントもあります.例えば Spring IoC コンテナとキャッシングとセキュリティなどの追加の機能を提供する異なるインターセプター.",
+        "links": [
+          {
+            "title": "Web MVC フレームワーク",
+            "url": "https://docs.spring.io/spring-framework/docs/3.2.x/spring-framework-reference/html/mvc.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "7Qqrh_Rz_7uAD49g9sDzi",
+      "type": "topic",
+      "label": "テスト",
+      "position": {
+        "x": -329.3175069304428,
+        "y": 1326.5562767322235
+      },
+      "size": {
+        "width": 248,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "スプリングは,コントローラー,サービス,リポジトリ,その他のコンポーネントを含むスプリングアプリケーションのさまざまなコンポーネントを簡単にテストできるようにするテストユーティリティのセットを提供しています.ユニットテスト,統合テストなどに役立つ豊富なテスト注釈,ユーティリティクラスおよびその他の機能があります.",
+        "links": [
+          {
+            "title": "春の テスト は 何 です か",
+            "url": "https://www.developer.com/design/what-is-spring-testing/",
+            "type": "article"
+          },
+          {
+            "title": "春の テスト に 関する 完全な ガイド",
+            "url": "https://www.lambdatest.com/blog/spring-testing/",
+            "type": "article"
+          },
+          {
+            "title": "テストに関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/testing?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Nhx2QiSD_4pVWD17lsCbu",
+      "type": "subtopic",
+      "label": "JPAテスト",
+      "position": {
+        "x": 24.5539544766211,
+        "y": 1270.7911348223495
+      },
+      "size": {
+        "width": 162,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Spring JPA (Java Persistence API) は, Spring アプリケーションでデータベースおよび他のデータストアとの作業を容易にするライブラリです. Spring JPA は,データベースと相互作用するためにJava Persistence API (JPA) を使用し,異なるデータストアと作業するための抽象層を提供します.",
+        "links": [
+          {
+            "title": "スプリングブートと@DataJpaTestでJPAクエリをテストする",
+            "url": "https://reflectoring.io/spring-boot-data-jpa-test/",
+            "type": "article"
+          },
+          {
+            "title": "@DataJpaTest例は,サンプリングデータリポジトリユニットテスト",
+            "url": "https://www.bezkoder.com/spring-boot-unit-test-jpa-repo-datajpatest/",
+            "type": "article"
+          },
+          {
+            "title": "春靴 の テスト",
+            "url": "https://www.baeldung.com/spring-boot-testing",
+            "type": "article"
+          },
+          {
+            "title": "Javaに関するトップ記事を探索する",
+            "url": "https://app.daily.dev/tags/java?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5d1BERqTKNJMKiBcqa8Ie",
+      "type": "subtopic",
+      "label": "偽のMVC",
+      "position": {
+        "x": 185.5539544766211,
+        "y": 1270.7911348223495
+      },
+      "size": {
+        "width": 162,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Spring's MockMvc は,実際のウェブサーバーを必要とせずに Spring MVC コントローラーをテストできるクラスです.これは, Spring アプリケーションのためのテストユーティリティのセットを提供する Spring Test モジュールの一部です.",
+        "links": [
+          {
+            "title": "春のモックMVCチュートリアル",
+            "url": "https://zetcode.com/spring/mockmvc/",
+            "type": "article"
+          },
+          {
+            "title": "スプリングブートモックMVC例",
+            "url": "https://howtodoinjava.com/spring-boot2/testing/spring-boot-mockmvc-example/",
+            "type": "article"
+          },
+          {
+            "title": "春の統合試験",
+            "url": "https://baeldung.com/integration-testing-in-spring",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "p91CaVPh5GMzFU0yEU_hl",
+      "type": "subtopic",
+      "label": "@SpringBootTest アノテーション",
+      "position": {
+        "x": 24.5539544766211,
+        "y": 1325.2397561529822
+      },
+      "size": {
+        "width": 298,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`@SpringBootTest` この注釈は,テストのための Spring ApplicationContext の完全に構成されたインスタンスを作成するために使用されます. 本物のアプリケーション環境でコントローラー,サービス,リポジトリを含むアプリケーションのコンポーネントをテストするために使用できます.",
+        "links": [
+          {
+            "title": "注記インターフェイス スプリングブートテスト",
+            "url": "https://docs.spring.io/spring-boot/docs/current/api/org/springframework/boot/test/context/SpringBootTest.html",
+            "type": "official"
+          },
+          {
+            "title": "スプリングブートと@SpringBootTestでテスト",
+            "url": "https://reflectoring.io/spring-boot-test/",
+            "type": "article"
+          },
+          {
+            "title": "春靴 の テスト",
+            "url": "https://www.baeldung.com/spring-boot-testing",
+            "type": "article"
+          },
+          {
+            "title": "スプリング・フレームワークに関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/spring?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "i77NTa0hpGGBjmql9u_CT",
+      "type": "subtopic",
+      "label": "@モックビーン アノテーション",
+      "position": {
+        "x": 24.5539544766211,
+        "y": 1378.2397561529822
+      },
+      "size": {
+        "width": 298,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`MockBean`は,春のアプリケーションコンテキストで豆の偽装実装を作成するために使用できる春の注釈です.テストがMockBeanで注釈されたとき,春は指定された豆の偽装実装を作成し,アプリケーションコンテキストに追加します.その後,偽装豆はテスト中に実際の豆を置き換えるために使用できます.",
+        "links": [
+          {
+            "title": "アノテーション インターフェイス モックビーン",
+            "url": "https://docs.spring.io/spring-boot/docs/current/api/org/springframework/boot/test/mock/mockito/MockBean.html",
+            "type": "official"
+          },
+          {
+            "title": "Mockito.mock() vs @Mock vs @MockBean",
+            "url": "https://www.baeldung.com/java-spring-mockito-mock-mockbean",
+            "type": "article"
+          },
+          {
+            "title": "スプリングブート @モックビーンの例",
+            "url": "https://howtodoinjava.com/spring-boot2/testing/spring-mockbean-annotation/",
+            "type": "article"
+          }
+        ]
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "xy-edge__C2N5yOxCtdn_R6ceWvQlyz2-wV1_I_4czMIxpBionvLs4y2",
+      "source": "jy2heDVZuM6ASCXlI1TDn",
+      "target": "wV1_I_4czMIxpBionvLs4",
+      "source_handle": "z2",
+      "target_handle": "y2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__C2N5yOxCtdn_R6ceWvQlyz2-QiNWE4sMTao3cVzjt3yPpy1",
+      "source": "jy2heDVZuM6ASCXlI1TDn",
+      "target": "QiNWE4sMTao3cVzjt3yPp",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__C2N5yOxCtdn_R6ceWvQlyz2-PlUU_vzFQ3Xx6Z5XREIYPy1",
+      "source": "jy2heDVZuM6ASCXlI1TDn",
+      "target": "PlUU_vzFQ3Xx6Z5XREIYP",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__C2N5yOxCtdn_R6ceWvQlyz2-C2EQ5J1aJYF9e9Rr2KysTy1",
+      "source": "jy2heDVZuM6ASCXlI1TDn",
+      "target": "C2EQ5J1aJYF9e9Rr2KysT",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__C2N5yOxCtdn_R6ceWvQlyz2-OB--nMudscm0p6RqqfA7Ty1",
+      "source": "jy2heDVZuM6ASCXlI1TDn",
+      "target": "OB--nMudscm0p6RqqfA7T",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__C2N5yOxCtdn_R6ceWvQlyz2-HdCpfGMrMaXxk5QrtYn3Xy1",
+      "source": "jy2heDVZuM6ASCXlI1TDn",
+      "target": "HdCpfGMrMaXxk5QrtYn3X",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__C2N5yOxCtdn_R6ceWvQlyz2-KdN62IpNgPFMndXfLaYa1y1",
+      "source": "jy2heDVZuM6ASCXlI1TDn",
+      "target": "KdN62IpNgPFMndXfLaYa1",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__C2N5yOxCtdn_R6ceWvQlyz2-WGf3W6bdWL0rK0o6O28G2y1",
+      "source": "jy2heDVZuM6ASCXlI1TDn",
+      "target": "WGf3W6bdWL0rK0o6O28G2",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__C2N5yOxCtdn_R6ceWvQlyz2-yuXN-rD4AyyPYUYOR50L_y1",
+      "source": "jy2heDVZuM6ASCXlI1TDn",
+      "target": "yuXN-rD4AyyPYUYOR50L_",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__C2N5yOxCtdn_R6ceWvQlyz2-WrUCyVfFNUpHB8jyjjKnay1",
+      "source": "jy2heDVZuM6ASCXlI1TDn",
+      "target": "WrUCyVfFNUpHB8jyjjKna",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__jy2heDVZuM6ASCXlI1TDnx2-C2N5yOxCtdn_R6ceWvQlyw1",
+      "source": "jy2heDVZuM6ASCXlI1TDn",
+      "target": "KaUdyVWEiZa6lUDRBlOKt",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__C2N5yOxCtdn_R6ceWvQlyy2-ssdk2iAt4avhc8B5tnIzQz1",
+      "source": "KaUdyVWEiZa6lUDRBlOKt",
+      "target": "ssdk2iAt4avhc8B5tnIzQ",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__C2N5yOxCtdn_R6ceWvQlyy2-c7w7Z3Coa81FKa_yAKTsez1",
+      "source": "KaUdyVWEiZa6lUDRBlOKt",
+      "target": "c7w7Z3Coa81FKa_yAKTse",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__C2N5yOxCtdn_R6ceWvQlyy2-p7t3RlIIm9U08GFC6azffz1",
+      "source": "KaUdyVWEiZa6lUDRBlOKt",
+      "target": "p7t3RlIIm9U08GFC6azff",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__C2N5yOxCtdn_R6ceWvQlyy2-dd1A-MyzBs_kNOtVG7f1Dz1",
+      "source": "KaUdyVWEiZa6lUDRBlOKt",
+      "target": "1My7mbdwAbRcJoiA50pWW",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__C2N5yOxCtdn_R6ceWvQlyx2-Vx7GXHYuM0ZOB9_ovS6sww1",
+      "source": "KaUdyVWEiZa6lUDRBlOKt",
+      "target": "Vx7GXHYuM0ZOB9_ovS6sw",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__Vx7GXHYuM0ZOB9_ovS6swx2-JrH2hiu27PhIO1VtrArMaw2",
+      "source": "Vx7GXHYuM0ZOB9_ovS6sw",
+      "target": "JrH2hiu27PhIO1VtrArMa",
+      "source_handle": "x2",
+      "target_handle": "w2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__ONb0VnSUMY8JBeW3G2mTpy2-ZWFWkB61L8UbG-SREw6SJz2",
+      "source": "ONb0VnSUMY8JBeW3G2mTp",
+      "target": "h5-HnycxfbJgwalSdXTAz",
+      "source_handle": "y2",
+      "target_handle": "z2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__ZWFWkB61L8UbG-SREw6SJw2-dd1A-MyzBs_kNOtVG7f1Dx1",
+      "source": "h5-HnycxfbJgwalSdXTAz",
+      "target": "Ijmy0J3VyaeTGXtu2VkkQ",
+      "source_handle": "w2",
+      "target_handle": "x1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__h5-HnycxfbJgwalSdXTAzx2-ZWFWkB61L8UbG-SREw6SJw1",
+      "source": "h5-HnycxfbJgwalSdXTAz",
+      "target": "pvVLbFQoT50vz_VRK4VbJ",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__ZWFWkB61L8UbG-SREw6SJx2-6u08QN-pUeFm3o0h5Scfmw1",
+      "source": "pvVLbFQoT50vz_VRK4VbJ",
+      "target": "6u08QN-pUeFm3o0h5Scfm",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__pvVLbFQoT50vz_VRK4VbJz2-ZWFWkB61L8UbG-SREw6SJy1",
+      "source": "pvVLbFQoT50vz_VRK4VbJ",
+      "target": "jU_KHoPUSU_HoIKk0ZpRF",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__ZWFWkB61L8UbG-SREw6SJz2-VWNDYSw83Vzi2UPQprJ5zy1",
+      "source": "jU_KHoPUSU_HoIKk0ZpRF",
+      "target": "VWNDYSw83Vzi2UPQprJ5z",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__VWNDYSw83Vzi2UPQprJ5zw2-kqpSlO--X9-xYxfq1KFVex2",
+      "source": "VWNDYSw83Vzi2UPQprJ5z",
+      "target": "kqpSlO--X9-xYxfq1KFVe",
+      "source_handle": "w2",
+      "target_handle": "x2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__VWNDYSw83Vzi2UPQprJ5zx2-sgA06Tu9Y4cEHtfI8CyLLw1",
+      "source": "VWNDYSw83Vzi2UPQprJ5z",
+      "target": "EKSXTMSN2xdaleJ4wOV1A",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__jU_KHoPUSU_HoIKk0ZpRFx2-7Qqrh_Rz_7uAD49g9sDziw2",
+      "source": "jU_KHoPUSU_HoIKk0ZpRF",
+      "target": "S-BbOoRD7anvoJrprjoKF",
+      "source_handle": "x2",
+      "target_handle": "w2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__7Qqrh_Rz_7uAD49g9sDziy2-Lz0GPMiYzb30iFJdv1dL6z2",
+      "source": "S-BbOoRD7anvoJrprjoKF",
+      "target": "Lz0GPMiYzb30iFJdv1dL6",
+      "source_handle": "y2",
+      "target_handle": "z2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__7Qqrh_Rz_7uAD49g9sDziy2-_vS_zdJZegZS6MIKAFyg8z1",
+      "source": "S-BbOoRD7anvoJrprjoKF",
+      "target": "_vS_zdJZegZS6MIKAFyg8",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__7Qqrh_Rz_7uAD49g9sDziy2-sgA06Tu9Y4cEHtfI8CyLLz1",
+      "source": "S-BbOoRD7anvoJrprjoKF",
+      "target": "sgA06Tu9Y4cEHtfI8CyLL",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__7Qqrh_Rz_7uAD49g9sDziy2-i77NTa0hpGGBjmql9u_CTz1",
+      "source": "S-BbOoRD7anvoJrprjoKF",
+      "target": "35NTx2eO1j02sjy4m6DPq",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__S-BbOoRD7anvoJrprjoKFx2-7Qqrh_Rz_7uAD49g9sDziw1",
+      "source": "S-BbOoRD7anvoJrprjoKF",
+      "target": "7Qqrh_Rz_7uAD49g9sDzi",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__7Qqrh_Rz_7uAD49g9sDziz2-i77NTa0hpGGBjmql9u_CTy1",
+      "source": "7Qqrh_Rz_7uAD49g9sDzi",
+      "target": "i77NTa0hpGGBjmql9u_CT",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__7Qqrh_Rz_7uAD49g9sDziz2-p91CaVPh5GMzFU0yEU_hly1",
+      "source": "7Qqrh_Rz_7uAD49g9sDzi",
+      "target": "p91CaVPh5GMzFU0yEU_hl",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__7Qqrh_Rz_7uAD49g9sDziz2-Nhx2QiSD_4pVWD17lsCbuy1",
+      "source": "7Qqrh_Rz_7uAD49g9sDzi",
+      "target": "Nhx2QiSD_4pVWD17lsCbu",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    }
+  ],
+  "content_crawled_at": "2026-04-06T13:06:09.788948+00:00"
+}

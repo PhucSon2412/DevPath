@@ -1,0 +1,3886 @@
+{
+  "id": "software-design-architecture",
+  "title": "ソフトウェアデザイン & アーキテクチャ",
+  "source_url": "https://roadmap.sh/software-design-architecture",
+  "github_url": "https://github.com/kamranahmedse/developer-roadmap/tree/master/src/data/roadmaps/software-design-architecture",
+  "crawled_at": "2026-04-06T07:37:56.221686+00:00",
+  "type": "flow",
+  "stats": {
+    "total_nodes": 119,
+    "total_edges": 29,
+    "nodes_with_content": 92
+  },
+  "node_types": [
+    "button",
+    "horizontal",
+    "label",
+    "paragraph",
+    "section",
+    "subtopic",
+    "title",
+    "topic",
+    "vertical"
+  ],
+  "edge_styles": [
+    "dashed",
+    "solid"
+  ],
+  "edge_line_types": [
+    "default"
+  ],
+  "node_type_description": {
+    "title": "ロードマップの主題",
+    "topic": "主題大 (nhóm kỹ năng)",
+    "subtopic": "Kỹ năng/công nghệ cụ thể cần học",
+    "paragraph": "文は mô tả / chú thích",
+    "vertical": "Đường kết nối dọc (ビジュアルコネクタ)"
+  },
+  "edge_style_description": {
+    "solid": "Kỹ năng bắt buộc / quan trọng",
+    "dashed": "選択 / gợi ý / オルタナティブ"
+  },
+  "nodes": [
+    {
+      "id": "P72dYqoD4ySm0uRaUOJ5v",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": -182.82822136329878,
+        "y": 1487.9007482223487
+      },
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "qA_Y7AgD-Z6is-1hqOqzH",
+      "type": "horizontal",
+      "label": "ホリゾントノード",
+      "position": {
+        "x": -408.6381872719935,
+        "y": 1568.1208448974862
+      },
+      "size": {
+        "width": 50,
+        "height": 20
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "3DjhvOMcTs6HwQkmnJyqS",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": 240.3618127280065,
+        "y": 1487.9007482223487
+      },
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "6Bx4SL1VB3tkS38lGpiaQ",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": 141.3618127280065,
+        "y": 1058.7051467174065
+      },
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.75
+      },
+      "z_index": 999
+    },
+    {
+      "id": "VbFXAyIhGjJtHs_L0bXk3",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": 235.3618127280065,
+        "y": 1045.9007482223487
+      },
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "efjRPzVNm00Fe6CC3LT1N",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": -168.6381872719935,
+        "y": 1051.7051467174065
+      },
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "SgOLJllVsYIWZZmHzJUK7",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": -168.6381872719935,
+        "y": 691.400748222349
+      },
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.5
+      },
+      "z_index": 999
+    },
+    {
+      "id": "-yVW4ejTnj5vN8y0s_qTa",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": -92.1381872719935,
+        "y": 955.9007482223487
+      },
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "UJ14WYeOlnd8vkKhwqTjP",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": -252.1381872719935,
+        "y": 955.9007482223487
+      },
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "sqpYr4D6lzaJsphbPVfit",
+      "type": "horizontal",
+      "label": "ホリゾントノード",
+      "position": {
+        "x": -413.1381872719935,
+        "y": 680.7051467174066
+      },
+      "size": {
+        "width": 50,
+        "height": 20
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "JyEXyTp5_UxhyRY3ZULZG",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": -705.1381872719935,
+        "y": 1105.9007482223487
+      },
+      "size": {
+        "width": 283,
+        "height": 302
+      },
+      "style": {},
+      "z_index": 999
+    },
+    {
+      "id": "VThkejHxNxNQgqjwDN67c",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": -705.1381872719935,
+        "y": 816.7051467174065
+      },
+      "size": {
+        "width": 150,
+        "height": 100
+      },
+      "style": {
+        "fontSize": 17,
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "kLnJC5PdxpgmRU2X57V64",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": -705.1381872719935,
+        "y": 650.2051467174066
+      },
+      "size": {
+        "width": 150,
+        "height": 100
+      },
+      "style": {
+        "fontSize": 17,
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "JwkzZU185OsVZ5VSUjC0f",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": 94.8618127280065,
+        "y": 205.7051467174066
+      },
+      "size": {
+        "width": 150,
+        "height": 100
+      },
+      "style": {
+        "fontSize": 17,
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "HU7wZWiES3m3xl1-NYP6F",
+      "type": "title",
+      "label": "ソフトウェアデザイン & アーキテクチャ",
+      "position": {
+        "x": -375.6381872719935,
+        "y": -47.09925177765109
+      },
+      "size": {
+        "width": 434,
+        "height": 68
+      },
+      "style": {
+        "fontSize": 28,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "uqyE79OItPOX33E5FoGel",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": -168.6381872719935,
+        "y": -133.0992517776511
+      },
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.75,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "TJZgsxpfOmltUUChMzlEM",
+      "type": "subtopic",
+      "label": "クリーン・コード",
+      "position": {
+        "x": -707.6381872719935,
+        "y": -98.59925177765109
+      },
+      "size": {
+        "width": 283,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "クリーン・コードは,読みやすく,理解し,維持しやすいコードである.コードをより読みやすく,テストされやすく,エラーが少ないようにするために設計された一連の原則に従う.クリーン・コードの主要な原則の中には: - 明確性:コードは読みやすく,理解されやすくなければならない.- 簡素性:コードは可能な限りシンプルで,不必要な複雑性を避けなければならない.- コメント: コメントは,複雑なコードを説明するために使用されず,必要に応じてのみ使用されるべきである.- 命名:変数,機能,クラスには意味のある記述的な名前がある.- フォーマット:コードは読みやすさを改善するために一貫してフォーマットされるべきである.- 機能性:コードは,小さな,単目的の機能とクラスに組織されるべきである.- エラー処理:コードは一貫して予測可能な方法でエラーを処理する必要があります.-テスト:コードはテスト可能でテスト覆盖率が高い必要があります.-再利用可能:コードは再利用可能でモジュラルのように設計されるべきです.-パフォーマンス:コードは効率的でパフォーマンスのあるように設計されるべきです.以下のリンクから詳細を学びましょう: - [@article@Introduction to Clean Code & Software Design Principles]https://workat.tech/machine-coding/tutorial/introduction-clean-code-software-design-principles-nwu4qqc63e09) - [@feed@Explore posts about Programming]https://sh.daref.tags/dev/general-programming=toproad?",
+        "links": []
+      }
+    },
+    {
+      "id": "RgYq3YOJhPGSf5in1Rcdp",
+      "type": "subtopic",
+      "label": "プログラミングパラダイム",
+      "position": {
+        "x": -707.6381872719935,
+        "y": -45.59925177765109
+      },
+      "size": {
+        "width": 283,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "プログラミングパラダイムとは,プログラミング言語を用いた問題を解決する基本的なスタイルまたはアプローチである.異なるプログラミングパラダイムは,コードの組織化と構造化の異なる方法を提供し,異なる強さと弱点を備えています.最も一般的なプログラミングパラダイムの中には: * 強制的なプログラミング * 機能的なプログラミング * 対象型プログラミング * 論理的プログラミング * 宣言的プログラミング",
+        "links": [
+          {
+            "title": "プログラミングパラダイム概要",
+            "url": "https://en.wikipedia.org/wiki/Programming_paradigm",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "qZQDOe2MHBh8wNcmvkLQm",
+      "type": "subtopic",
+      "label": "対象型 プログラミング",
+      "position": {
+        "x": -707.6381872719935,
+        "y": 7.400748222348909
+      },
+      "size": {
+        "width": 283,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "オブジェクト指向プログラミング (OOP) は,クラスの一例である\"オブジェクト\"という概念に基づいたプログラミングパラダイムである.OOPでは,データ (属性) と行動 (方法) の両方を持つオブジェクトを作成するためのブループリントである.OOPの背後にある主なアイデアは,現実世界のオブジェクトとその相互作用をモデル化し,複雑で大規模なソフトウェアシステムを作成するのに適している.",
+        "links": [
+          {
+            "title": "物体 向け の プログラミング を 発見 する",
+            "url": "https://opendsa.cs.vt.edu/ODSA/Books/Everything/html/IntroOO.html",
+            "type": "article"
+          },
+          {
+            "title": "ソフトウェア開発チュートリアル - オブジェクト指向言語とは何か",
+            "url": "https://www.youtube.com/watch?app=desktop&v=SS-9y0H3Si8",
+            "type": "video"
+          },
+          {
+            "title": "一般プログラミングに関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/general-programming?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "p96fNXv0Z4rEEXJR9hAYX",
+      "type": "subtopic",
+      "label": "設計原理",
+      "position": {
+        "x": -707.6381872719935,
+        "y": 60.40074822234891
+      },
+      "size": {
+        "width": 283,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "デザイン原則は,ソフトウェアエンジニアが維持可能,拡張可能,堅牢で理解しやすいシステムを作成するのに役立つ基本的なガイドラインである.それらは数十年にわたるソフトウェアエンジニアリング経験から得られたベストプラクティスを代表し,コードの構造と行動をガイドするために広く使用されます.これらの原則を適用することで,より良いソフトウェアアーキテクチャ,より簡単なデバッグ,およびより良い協力につながる可能性があります.",
+        "links": []
+      }
+    },
+    {
+      "id": "gyQw885dvupmkohzJPg3a",
+      "type": "subtopic",
+      "label": "デザイン パターン",
+      "position": {
+        "x": -707.6381872719935,
+        "y": 113.40074822234891
+      },
+      "size": {
+        "width": 283,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "デザインパターンは,ソフトウェア開発で発生する一般的な問題に対する一般的解決法である.これらのパターンは,一般的なデザイン問題に対する証明された解決策を記述し,伝える方法を提供し,デザインのための共通の語彙を提供します.それらは特定のプログラミング言語または技術に固有のものではないが,多くの異なる文脈に適用できる方法で問題と解決策を記述する.いくつかの異なるタイプのデザインパターンは,以下を含む: * 創作パターン * 構造パターン * 行動パターン * 建築パターン",
+        "links": [
+          {
+            "title": "概要 - ソフトウェア 設計 パターン",
+            "url": "https://en.wikipedia.org/wiki/Software_design_pattern",
+            "type": "article"
+          },
+          {
+            "title": "設計パターンの説明,イメージング,簡素化",
+            "url": "https://refactoring.guru/design-patterns/what-is-pattern",
+            "type": "article"
+          },
+          {
+            "title": "デザイン パターン は 何 です か",
+            "url": "https://www.youtube.com/watch?v=BWprw8UHIzA",
+            "type": "video"
+          },
+          {
+            "title": "デザインパターンに関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/design-patterns?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "XBCxWdpvQyK2iIG2eEA1K",
+      "type": "subtopic",
+      "label": "建築原理",
+      "position": {
+        "x": -707.6381872719935,
+        "y": 166.4007482223489
+      },
+      "size": {
+        "width": 283,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "建築原理とは,ソフトウェアアーキテクチャの設計と開発を指すためのガイドラインや規則をまとめたものです.これらの原則は,生成されたアーキテクチャが維持可能であり,拡張可能であり,理解し,変更しやすいことを保証することを目的としています.一般的な建築原則の中には,懸念の分離,モジュール性,緩やかな結合,および高い凝縮が含まれます.さらに,建築原則は設計パターンの組み合わせでしばしば使用されます.これは一般的なソフトウェア設計問題の再利用可能なソリューションです.",
+        "links": [
+          {
+            "title": "建築原理への入門",
+            "url": "https://learn.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/architectural-principles",
+            "type": "article"
+          },
+          {
+            "title": "ソフトウェアデザインの原則",
+            "url": "https://www.youtube.com/watch?v=TO9igqkPtfc",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "En_hvwRvY6k_itsNCQBYE",
+      "type": "subtopic",
+      "label": "建築スタイル",
+      "position": {
+        "x": -707.6381872719935,
+        "y": 219.4007482223489
+      },
+      "size": {
+        "width": 283,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ソフトウェアにおけるアーキテクチャスタイルは,ソフトウェアシステムの全体的な設計と組織,および設計を指すために使用される原理とパターンを指します.これらのスタイルは,システムの設計のための一般的な枠組みを提供し,システムが適切に構造化され,維持可能であり,拡張可能であることを確認するために使用することができます.ソフトウェアにおける一般的なアーキテクチャスタイルの中には: *マイクロサービス:システムは小さな,独立した,そして緩やかに結合されたサービスの集合として構築されている. * イベント駆動:システムが変化のために継続的に調査するのではなく,発生する特定のイベントに反応する. * 層次:システムが特定の責任を持つ各層に分けられ,各層が明確に定義されたインターフェースを通じて他の層と通信する.* サービス指向: システムはネットワークを通じてアクセスできるサービスの集合として構築される場合. * データ中心: システムはデータの処理よりもデータの保管,取得,操作に焦点を当てている場合. * 構成要素ベースの: システムは再利用可能で独立したソフトウェア構成要素で構成されている場合. * ドメイン駆動: システムはコアビジネスドメインとビジネスエンティティを中心に組織されている場合.",
+        "links": [
+          {
+            "title": "ソフトウェアアーキテクチャ&スタイルとは?",
+            "url": "https://study.com/academy/lesson/software-architecture-styles-patterns-components.html",
+            "type": "article"
+          },
+          {
+            "title": "ソフトウェアエンジニアリングにおける建築スタイルの種類",
+            "url": "https://www.youtube.com/watch?v=2Pp0BcXN9YY",
+            "type": "video"
+          },
+          {
+            "title": "今日 企業 ソフトウェア 開発 に 用い られ て いる 10 つの 建築 パターン",
+            "url": "https://www.youtube.com/watch?v=brt3ao8bvqy",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "jq916t7svaMw5sFOcqZSi",
+      "type": "subtopic",
+      "label": "建築のパターン",
+      "position": {
+        "x": -707.6381872719935,
+        "y": 272.4007482223489
+      },
+      "size": {
+        "width": 283,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "建築パターンは,特定のタイプのソフトウェアシステムに対してうまく機能していることが証明された一連のソリューションです.それらはソフトウェアシステムを設計および構築するための共通の語彙とベストプラクティスのセットを提供し,開発者がより良い設計決定を下すのに役立ちます.いくつかの一般的な建築パターンは以下のとおりです: *モデル-ビュー-コントローラー (MVC):システムのユーザーインターフェース,ビジネスロジック,およびデータストレージコンポーネントを分離するためのパターン. *マイクロサービス:ネットワーク応答で通信する小さな,独立した展開可能なサービスの集合としてのシステム構築のためのパターン. * イベント駆動: イベントに対応してアクションを実行するシステム構築のためのパターン.* 層次化:システムを層次に組織するパターンで,各層がその上の層に特定の一連のサービスを提供する.* パイプ・アンド・フィルター:パイプラインで相互に接続された独立した,再利用可能な処理要素の一連のシステム構築のためのパターン.* コマンド-クエリ 責任分離 (CQRS): コマンドの処理 (システムの状態を変更する) をクエリの処理 (システムから情報を取得する) から分離するパターン. * ブラックボード:複数の独立したモジュールまたはサブシステムによってアクセスし,変更できる中央集成された情報保管庫を作成するパターン.* マイクロカーネル:カーネルモードで実行するコードの量を最小限に抑え,ユーザモードプロセスに可能な限り多くの機能を移動することを目的とするパターン. * サーバーレス: 開発者がサーバーを配置・管理せずにアプリケーションとサービスを構築・実行できるようにするデザインパターン. * メッセージキューとストリーム: システムの異なるコンポーネントを分離し,それらの間の非同期通信を可能にするパターン. * イベントソース: 現在の状態ではなく,システムの状態へのすべての変更を一連の出来事として保存するパターン.",
+        "links": [
+          {
+            "title": "概要 - 建築パターン",
+            "url": "https://en.wikipedia.org/wiki/Architectural_pattern",
+            "type": "article"
+          },
+          {
+            "title": "企業ソフトウェア開発で使用される建築パターン",
+            "url": "https://www.youtube.com/watch?v=BrT3AO8bVQY",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "WrzsvLgo7cf2KjvJhtJEC",
+      "type": "subtopic",
+      "label": "企業パターン",
+      "position": {
+        "x": -707.6381872719935,
+        "y": 325.4007482223489
+      },
+      "size": {
+        "width": 283,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "エンタープライズ・パターンは,エンタープライズ・ソフトウェア開発における一般的に発生する問題に対する文書化され,再利用可能なソリューションである.これらのパターンは,堅固でスケーラブルで維持可能なエンタープライズアプリケーションを設計するための語彙とベストプラクティスのセットを提供し,データアクセス,同期性,配分,および Legacy システムとの統合などの繰り返し発生する課題に対処する.複雑なアーキテクチャおよびデザイン問題を解決するための計画として機能し,一貫性を促進し,開発時間を短縮する.",
+        "links": [
+          {
+            "title": "企業ソフトウェアアーキテクチャ パターン:究極のガイド",
+            "url": "https://www.rishabhsoft.com/blog/enterprise-software-architecture-patterns",
+            "type": "article"
+          },
+          {
+            "title": "企業統合パターンは?",
+            "url": "https://www.youtube.com/watch?v=WNm3QmJadNs",
+            "type": "video"
+          },
+          {
+            "title": "エンタープライズに関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/enterprise?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "uLYSP9v3y51h8Ttdt5ije",
+      "type": "label",
+      "label": "テーマのミニマップ",
+      "position": {
+        "x": -643.6381872719935,
+        "y": -146.5992517776511
+      },
+      "size": {
+        "width": 155,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "08qKtgnhJ3tlb5JKfTDf5",
+      "type": "topic",
+      "label": "クリーン・コード 原則",
+      "position": {
+        "x": -298.1381872719935,
+        "y": 307.4007482223489
+      },
+      "size": {
+        "width": 216,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "クリーンコード原則は,理解し,維持し,変更しやすいコードを書くためのガイドラインである.これらの原則は,コラボレーションを改善し,エラーの可能性を減らすために読みやすさ,シンプルさ,複雑さを軽減することを強調する.最終的に,目標は,読みやすく理解できるソースコードを作成することです.",
+        "links": [
+          {
+            "title": "クリーン・コードとソフトウェアデザインの原則の紹介",
+            "url": "https://workat.tech/machine-coding/tutorial/introduction-clean-code-software-design-principles-nwu4qqc63e09",
+            "type": "article"
+          },
+          {
+            "title": "一般プログラミングに関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/general-programming?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2SOZvuEcy8Cy8ymN7x4L-",
+      "type": "subtopic",
+      "label": "一貫性 を 保ち なけれ ば なり ませ ん",
+      "position": {
+        "x": 108.99419451849974,
+        "y": 218.4007482223489
+      },
+      "size": {
+        "width": 335,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "一貫性とは,一貫したパターンを維持することを意味します.これはシステム全体で一貫した命名条約,データ構造,インターフェースを使用すること,確立された設計原則とベストプラクティスを遵守することを含むことができます.一貫性はシステムをより維持可能,理解可能,拡張可能にするために役立ちます.",
+        "links": [
+          {
+            "title": "清潔なコードを書くための10つの秘訣",
+            "url": "https://www.pluralsight.com/blog/software-development/10-steps-to-clean-code",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6Cd1BbGsmPJs_5jKhumyV",
+      "type": "subtopic",
+      "label": "コメントよりも意味のある名前",
+      "position": {
+        "x": 108.99419451849974,
+        "y": 271.4007482223489
+      },
+      "size": {
+        "width": 335,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "システム の 変数,関数,クラス など の 異なる 構成 要素 に 明確な 記述 的 な 名前 を 与える 慣行 を 遵守 する こと が でき ます.これは,各 構成 要素 の 目的 と その 意図 さ れ た 使い 目的 を 明確に 伝える こと に よっ て,システム を より 理解 できる と 維持 できる よう に する こと に 役立ち ます.",
+        "links": [
+          {
+            "title": "プログラミング の 名前 に 関する ガイド",
+            "url": "https://levelup.gitconnected.com/a-guide-for-naming-things-in-programming-2dc2d74879f8",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "81WOL1nxb56ZbAOvxJ7NK",
+      "type": "subtopic",
+      "label": "インデンテーションとコードスタイル",
+      "position": {
+        "x": 108.99419451849974,
+        "y": 324.4007482223489
+      },
+      "size": {
+        "width": 335,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "インデントおよびコードスタイルは,読みやすさと維持性を向上させるためにソースコードの一貫したフォーマットを指します.これは,プロジェクト全体でホワイトスペース,ラインブレイク,および命名コンベンションを標準化された方法で使用することを含む.目標は,開発者にとって視覚的に魅力的で理解しやすいコードを作成することです.一貫したインデントはコードの構造を強調し,制御フローをフォローし,論理的なブロックを識別することを容易にする.指定,コメント,およびその他のフォーマットするルールを規定する特定のコードスタイルに従うことで,コードベースの明確性と一貫性がさらに向上します.",
+        "links": [
+          {
+            "title": "クリーン・コード  フォーマット",
+            "url": "https://www.baeldung.com/cs/clean-code-formatting",
+            "type": "article"
+          },
+          {
+            "title": "一般プログラミングに関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/general-programming?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "XEwC6Fyf2DNNHQsoGTrQj",
+      "type": "subtopic",
+      "label": "方法 / クラス / ファイルを小さくする",
+      "position": {
+        "x": 108.99419451849974,
+        "y": 377.4007482223489
+      },
+      "size": {
+        "width": 335,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "大規模なモノリシックなコンポーネントではなく,特定の目的を果たす小さな,集中的なコンポーネントを設計・実装する必要があります.これは個々のコンポーネントを理解し,テストし,変更しやすくすることで,システムのメンテナンス性とスケーラビリティを改善するのに役立ちます.",
+        "links": []
+      }
+    },
+    {
+      "id": "5S5A5wCJUCNPLlHJ5fRjU",
+      "type": "subtopic",
+      "label": "純粋な機能",
+      "position": {
+        "x": 108.99419451849974,
+        "y": 430.4007482223489
+      },
+      "size": {
+        "width": 335,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "純粋な関数は,入力値によってのみ,副作用なしに出力が決定されるプログラミングの関数の一種である.つまり,同じ入力に対して,純粋な関数は常に同じ出力を返却し,その範囲外の状態を変更しない.それらは決定的で予測可能であり,コードをテストし,推論することを容易にする.",
+        "links": [
+          {
+            "title": "JAVASCRIPT FUNCTIONS チュートリアル",
+            "url": "https://www.youtube.com/watch?v=ZXxahQS1PN8",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "qZzl0hAD2LkShsPql1IlZ",
+      "type": "subtopic",
+      "label": "サイクロマティック複雑性を最小限に抑える",
+      "position": {
+        "x": 108.99419451849974,
+        "y": 483.40074822234897
+      },
+      "size": {
+        "width": 335,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "サイクロマティック複雑性は,プログラムのソースコードを通じて線性的に独立した経路の数を測定する.この経路は,関数またはコードブロック内の決定点数 (`if`, `for`, `while`, `case`) に基づいて計算される.高いサイクロマティック複雑性は,実行可能な実行経路の数が増えたため理解,テスト,および維持が難しくなるコードを示します.この複雑性を軽減することで,コード内の制御流と論理を簡素化させ,より読みやすく,信頼性の高いソフトウェアにつながります.",
+        "links": [
+          {
+            "title": "サイクロマティック 複雑性を 軽減するには?",
+            "url": "https://kasp9023.medium.com/how-to-make-your-code-more-readable-focus-on-the-happy-path-and-reduce-cyclomatic-complexity-66802b8897b5",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "yyKvmutbxu3iVHTuqr5q4",
+      "type": "subtopic",
+      "label": "ゼロ,ブーランを過ぎない",
+      "position": {
+        "x": 108.99419451849974,
+        "y": 536.400748222349
+      },
+      "size": {
+        "width": 335,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ゼロまたはブーリアンを通過することは,プログラムで予想外の行動とデバッグするのが難しいエラーにつながる可能性があります.システムアーキテクチャでは,ゼロまたはブーリアンを通過することを避けるいくつかの方法があります: * 値がないことを示すために,ゼロの代わりにオプションまたはおそらくタイプを使用します.これは値が欠けていることを明確にし,ゼロ参照例外を防止します.* 函数引数のデフォルト値を使用し,それらをゼロまたはブーリアンであることを許可する代わりに使用します.これは,ゼロまたはブーリアン値をチェックする必要性をなくし,エラーの可能性を軽減します.* ゼロオブジェクトパターンを使用して,値を定義された動作を持つ特別なオブジェクトに置き換えます.これは,ゼロ値をチェックする必要性をなくし,コードをより読みやすくします.* ブーリアンと作業する際には if-else 式の代わりに Ternary オペレーター (?:) を使用します.これはコードをより簡潔で読みやすくします.* 関数の議論の有効性を確認するためにアセルト関数を使用し,無効であれば例外を投げます.これらのベストプラクティスを遵守することで,システムアーキテクチャはより堅固でエラーの傾向が低いでしょう.",
+        "links": []
+      }
+    },
+    {
+      "id": "OoCCy-3W5y7bUcKz_iyBw",
+      "type": "subtopic",
+      "label": "フレームワークコードを遠ざける",
+      "position": {
+        "x": 108.99419451849974,
+        "y": 589.400748222349
+      },
+      "size": {
+        "width": 335,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "フレームワークコードの距離を保つことは,アプリケーションのコードをフレームワークのコードから分離することを意味します.そうすることで,アプリケーションのコードベースとフレームワークを独立的に維持し,テストし,アップグレードすることが容易になります.システムアーキテクチャではフレームワークコードを距離に保ついくつかの方法があります: 1.アプリケーションコードをフレームワークコードから分離するために抽象層を使用します.これは,フレームワークの詳細を知らずにアプリケーションコードを書き出すことができます.2.アプリケーションコードからフレームワークコードを分離するために依存性注射を使用します.これは,フレームワークオブジェクトを直接インスタント化することなく,アプリケーションコードの機能を使用することができます.3.アプリケーションコード内のフレームワーク特定ライブラリやクラスを使用しないでください.これにより,将来,必要に応じて別のフレームワークに切り替えることが容易になります.4.アプリケーションコードがフレームワークと相互作用するために標準的なインターフェースを使用します.これは,フレームワークの詳細を知らずにアプリケーションコードを書き出すことができます.5.アプリケーションとフレームワークコードを別々のプロジェクトおよび/またはリポジトリに保管します.これらのベストプラクティスを遵守することで,システムアーキテクチャはより維持可能であり,テスト可能であり,エラーが少なくなり,必要に応じてフレームワークをアップグレードまたは変更することは容易になります.",
+        "links": [
+          {
+            "title": "清潔な建築",
+            "url": "https://pusher.com/tutorials/clean-architecture-introduction/",
+            "type": "article"
+          },
+          {
+            "title": "一般プログラミングに関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/general-programming?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "S1m7ty7Qrzu1rr4Jl-WgM",
+      "type": "subtopic",
+      "label": "正確なコンストラクションを使用する",
+      "position": {
+        "x": 108.99419451849974,
+        "y": 642.400748222349
+      },
+      "size": {
+        "width": 335,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "クリーン・コード原則の文脈では\",正しい構造を使用する\"とは,コードを理解し,維持し,修正しやすくする方法でループ,条件,機能などの適切なプログラミング構造を使用することを指します.正しい構造を使用する際には,コードは論理的かつ直感的に組織され,適切な制御フローステーションとデータ構造を使用して,作業を完了する必要があります.これはまた,コードは,コードを理解し,推論することを難しくする不必要なまたは過度に複雑な構造を使用することを避けるべきであることを意味します.さらに,正しいコンストラクトは,正しい問題のために正しいコンストラクトを使用することを意味します.例えば,数列を繰り返したい場合は,リクッションではなくforループを使用し,また,グローバル変数を使用し,代わりに関数引数と返信値を使用してコードの異なる部分間でデータを転送する必要があります.正しいコンストラクトを使用することで,コードはより読みやすく,より維持可能であり,バグに弱いので,他の開発者がコードを理解し,デバッグし,拡張することを容易にする.",
+        "links": []
+      }
+    },
+    {
+      "id": "mzt7fvx6ab3tmG1R1NcLO",
+      "type": "subtopic",
+      "label": "試験は迅速かつ独立したものでなければなりません",
+      "position": {
+        "x": 108.99419451849974,
+        "y": 695.400748222349
+      },
+      "size": {
+        "width": 335,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "テストを独立した状態に保つことは,テストが信頼性があり,重複可能であり,維持が容易であることを保証します.テストが独立したとき,一つのテストの変更は他のテストの結果に影響しません.システムアーキテクチャでテストを独立した状態を維持するためのいくつかの方法があります. - テストコードをアプリケーションコードから分離するために依存性注射を使用します.これは,アプリケーションオブジェクトを直接インスタント化する必要なしにテストを実行することを可能にします. - データベース,API,その他のサービスなどの外部依存からテストを隔離するためにモークまたはスタブを使用します. - 独立したテストデータを使用し,外部データまたは状態に依存しません. - テストを並行して実行するテストをサポートするテストフレームワークを使用して,テストは相互に独立して実行できます.- テスト駆動開発 (TDD) を使用し,アプリケーションコードを書く前にテストを書く必要があります.これはテストが独立したものであり,コードがテスト可能なことを考慮して書かれたことを保証します. - 予期せぬ結果をもたらす可能性があるため,グローバル状態と共有可能な状態を避ける.以下のリンクから詳細を学びましょう: - [@article@Keeping Tests Valuable] (https://www.checklyhq.com/learn/learn/headless/valuable-tests/) - [@feed@Explore top posts about Testing] (https://app.daily.dev/tags/testing?ref=roadmapsh)",
+        "links": []
+      }
+    },
+    {
+      "id": "JKK6bli3P_cqJ128wPnot",
+      "type": "subtopic",
+      "label": "意味のある名前を使う",
+      "position": {
+        "x": 108.99419451849974,
+        "y": 748.400748222349
+      },
+      "size": {
+        "width": 335,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "意味のある名前を使うことは,コードを明確に,読みやすく,分かりやすくするために重要です.意味のある名前では,変数,関数,クラス,およびコードの他の要素の意図と機能を伝達するのに役立ちます.システムアーキテクチャで意味のある名前を使用するいくつかの方法があります: - 変数,関数,クラス,およびコードの他の要素のための記述的および意味のある名前を使用します.- 変数およびクラスのための camelCase,PascalCaseなどのコードベース全体で一貫した命名慣習を使用します.- 略語および縮写を使用します.- 変数または関数の種類または目的を示すために,意味のある前置詞またはサフィキスを使用する.例えば,ブーリア変数のための\"is\"または\"get\"または,数列変数のための\"list\" - 単文字変数名または,意味を伝わらない\"temp\"または\"x\"などの一般的な名前を使用しないでください.-コードを読みやすくする長すぎるまたは複雑な名前を使用しないでください.以下のリンクから詳細を学びましょう: - [@article@How to Write Meaningful Variable Names?] (https://workat.tech/machine-coding/tutorial/writing-meaningful-variable-names-clean-code-za4m83tiesy0)",
+        "links": []
+      }
+    },
+    {
+      "id": "kp86Vc3uue3IxTN9B9p59",
+      "type": "subtopic",
+      "label": "属している俳優によってコードを整理する",
+      "position": {
+        "x": 108.99419451849974,
+        "y": 801.400748222349
+      },
+      "size": {
+        "width": 335,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "\"コード・バイ・アクター\"は,開発者がソフトウェア開発技術で,そのコードをインタラクションするアクターやエンティティの周りに組織することを奨励する.アクターは,アプリケーション内の特定の役割または機能を果たすユーザー,システム,またはプロセスである可能性があります.このアプローチは,懸念を明確に分離させ,コードをよりモジュール化,再利用可能,そして理解を容易にするのに役立ちます.以下のリンクから詳細を学びましょう: - [@article@Actor Model Architecture] (https://awesome-architecture.com/actor-model-architecture/) - [@article@inversion of control]https://stackoverflow.com/a/72826245) - [@feed@Explore top posts about General Programming]https://www.tagdaily/devs/general-programming=ref=roadmap)?",
+        "links": []
+      }
+    },
+    {
+      "id": "tLbckKmfVxgn59j_dlh8b",
+      "type": "subtopic",
+      "label": "コマンドクエリ分離",
+      "position": {
+        "x": 108.99419451849974,
+        "y": 854.400748222349
+      },
+      "size": {
+        "width": 335,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "コマンドクエリ分離 (CQS) は,方法や関数の責任を2つのカテゴリーに分割するソフトウェア設計原理である.コマンドとクエリはシステムの状態を変える方法であり,クエリは情報を返却する方法であるが,システムの状態を変更しない方法である.",
+        "links": [
+          {
+            "title": "CQS パターン",
+            "url": "https://martinfowler.com/bliki/CommandQuerySeparation.html",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "9naCfoHF1LW1OEsVZGi8v",
+      "type": "subtopic",
+      "label": "シンプルで,頻繁にリファクタリーにする",
+      "position": {
+        "x": 108.99419451849974,
+        "y": 907.400748222349
+      },
+      "size": {
+        "width": 335,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "抽象を作成することはソフトウェア開発の重要な部分ですが,過度に抽象を作成したり,早期に作成したりすることは,不必要な複雑さにつながり,コードを理解し,維持することが難しくなります.システムアーキテクチャにおける急ぎ抽象を回避するいくつかの方法があります. -抽象を作成する前に解決する必要がある問題を理解します. - 単純なソリューションから始め,解決策が複雑すぎていることが明らかになるとのみ抽象を作成します. -抽象を作成する前にコードを簡素化するためにコードリファクタリング技術を使用します. -抽象を作成するために抽象を作成しないでください. -抽象を作成する際に既定の設計パターンと実践を使用します.- 抽象は新しいバグを導入したり,既存の機能を壊したりしないように自動テストを使用します.- 抽象をテスト,デバッグ,推論が簡単になるように作成します.以下のリンクから詳細を学びましょう: - [@article@AHA プログラミング](https://kentcdodds.com/blog/aha-programming)",
+        "links": []
+      }
+    },
+    {
+      "id": "isbQTvteWitvwVwBtwAr3",
+      "type": "horizontal",
+      "label": "ホリゾントノード",
+      "position": {
+        "x": -20.138187271993502,
+        "y": 321.9007482223489
+      },
+      "size": {
+        "width": 50,
+        "height": 20
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "TDhTYdEyBuOnDKcQJzTAk",
+      "type": "topic",
+      "label": "プログラミングパラダイム",
+      "position": {
+        "x": -298.1381872719935,
+        "y": 452.2051467174066
+      },
+      "size": {
+        "width": 234,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "プログラミングパラダイムとは,プログラミング言語を用いた問題を解決する基本的なスタイルまたはアプローチである.異なるプログラミングパラダイムは,コードの組織化と構造化の異なる方法を提供し,異なる強さと弱点を備えています.最も一般的なプログラミングパラダイムの中には: * 強制的なプログラミング * 機能的なプログラミング * 対象型プログラミング * 論理的プログラミング * 宣言的プログラミング",
+        "links": [
+          {
+            "title": "プログラミングパラダイム概要",
+            "url": "https://en.wikipedia.org/wiki/Programming_paradigm",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "VhSEH_RoWFt1z2lial7xZ",
+      "type": "subtopic",
+      "label": "構造化されたプログラミング",
+      "position": {
+        "x": -707.6381872719935,
+        "y": 453.52104026608447
+      },
+      "size": {
+        "width": 284,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "構造化されたプログラミングは,ループ,条件,サブルーチンなどの構造化された制御フロー構造の使用を強調するプログラミングパラダイムである.これは1960年代と1970年代にゴトー声明の広範な使用によって生成された\"スパゲッティコード\"に対する反応として開発された.",
+        "links": [
+          {
+            "title": "構造化されたプログラミング ウィキペディア",
+            "url": "https://en.wikipedia.org/wiki/Structured_programming",
+            "type": "article"
+          },
+          {
+            "title": "一般プログラミングに関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/general-programming?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "YswaOqZNYcmDwly2IXrTT",
+      "type": "subtopic",
+      "label": "機能的プログラミング",
+      "position": {
+        "x": -707.6381872719935,
+        "y": 506.52104026608447
+      },
+      "size": {
+        "width": 284,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "機能プログラミングは,計算を数学機能の評価として扱うプログラミングパラダイムであり,変化状態と変形可能なデータを避けます. 機能の使用を問題解決に強調し,しばしばより高い順序の関数,不変性,リキュレーションを使用します. データを変更する代わりに,機能プログラミングは新しいデータ構造を作成します.",
+        "links": [
+          {
+            "title": "機能 的 な プログラミング は 何 です か",
+            "url": "https://medium.com/javascript-scene/master-the-javascript-interview-what-is-functional-programming-7f218c68b3a0",
+            "type": "article"
+          },
+          {
+            "title": "機能プログラミングに関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/functional-programming?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "VZrERRRYhmqDx4slnZtdc",
+      "type": "subtopic",
+      "label": "対象型 プログラミング",
+      "position": {
+        "x": -707.6381872719935,
+        "y": 559.5210402660845
+      },
+      "size": {
+        "width": 284,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "オブジェクト指向プログラミング (OOP) は,コードを構造化および整理するためにオブジェクトとクラスを使用するプログラミングパラダイムである.OOPでは,オブジェクトは,オブジェクトの性質と行動を定義するテンプレートであるクラスの一例である.OOPは封装,相続,ポリモルフィズムの原則に基づいています.",
+        "links": [
+          {
+            "title": "オブジェクト オーデント プログラミング は 何 です か",
+            "url": "https://www.freecodecamp.org/news/what-is-object-oriented-programming/",
+            "type": "article"
+          },
+          {
+            "title": "OOPの導入",
+            "url": "https://www.geeksforgeeks.org/introduction-of-object-oriented-programming/",
+            "type": "article"
+          },
+          {
+            "title": "OOPに関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/oop?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "HhYdURE4X-a9GVwJhAyE0",
+      "type": "topic",
+      "label": "対象型 プログラミング",
+      "position": {
+        "x": -299.1381872719935,
+        "y": 666.2051467174066
+      },
+      "size": {
+        "width": 275,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "オブジェクト指向プログラミング (OOP) は,クラスの一例である\"オブジェクト\"という概念に基づいたプログラミングパラダイムである.OOPでは,データ (属性) と行動 (方法) の両方を持つオブジェクトを作成するためのブループリントである.OOPの背後にある主なアイデアは,現実世界のオブジェクトとその相互作用をモデル化し,複雑で大規模なソフトウェアシステムを作成するのに適している.",
+        "links": [
+          {
+            "title": "物体 向け の プログラミング を 発見 する",
+            "url": "https://opendsa.cs.vt.edu/ODSA/Books/Everything/html/IntroOO.html",
+            "type": "article"
+          },
+          {
+            "title": "ソフトウェア開発チュートリアル - オブジェクト指向言語とは何か",
+            "url": "https://www.youtube.com/watch?app=desktop&v=SS-9y0H3Si8",
+            "type": "video"
+          },
+          {
+            "title": "一般プログラミングに関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/general-programming?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "0VO_-1g-TS29y0Ji2yCjc",
+      "type": "topic",
+      "label": "モデルによる設計",
+      "position": {
+        "x": -705.1381872719935,
+        "y": 1081.4007482223487
+      },
+      "size": {
+        "width": 283,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center",
+        "colorType": "h"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "モデル駆動設計 (MDD) は,システムの設計が一連のモデルによって表現され,モデルがシステムの開発を推進するために使用されるソフトウェア開発方法論である.MDDは,システムの設計が一連のモデルによって表現され,これらのモデルがシステムのためのコードを生成するために使用できるという考えに基づいている.MDDを使用する主なメリットは,システムの設計と実装の間に懸念を明確に分離することが可能である.モデルはシステムの設計を表し,コードはモデルから生成され,システムを維持し進化させる.さらに,MDDはコードの質も向上させ,コードが生成される前に設計エラーや不一致性をチェックするためにモデルを使用することができる.",
+        "links": [
+          {
+            "title": "モデル駆動設計 理論を実践する",
+            "url": "https://www.todaysoftmag.com/article/1529/model-driven-design-theory-to-practice",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "I25ghe8xYWpZ-9pRcHfOh",
+      "type": "subtopic",
+      "label": "ドメインモデル",
+      "position": {
+        "x": -692.6381872719935,
+        "y": 1138.4007482223487
+      },
+      "size": {
+        "width": 267,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ドメインモデルとは,その領域内のオブジェクトやコンセプトをモデル化し,その間の関係と制約を把握するために使用される特定の領域の知識またはビジネスの表現である.オブジェクト指向式プログラミング (OOP) では,ドメインモデルは通常,クラスとインターフェースの集合で表示され,各クラスまたはインターフェースがドメイン内の特定の概念またはオブジェクトを表す.ドメインモデルは,問題領域の明確な一貫性のある表示を提供し,システムのビジネス要件と制約を把握するために使用されます.また,システムの設計を指針し,システムが解決しようとしている現実世界の問題を正確に反映していることを確認するために使用されます.",
+        "links": [
+          {
+            "title": "ドメインモデルの概要",
+            "url": "https://en.wikipedia.org/wiki/Domain_model",
+            "type": "article"
+          },
+          {
+            "title": "ドメインを駆動したデザイン",
+            "url": "https://khalilstemmler.com/articles/categories/domain-driven-design/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "c6n-wOHylTbzpxqgoXtdw",
+      "type": "subtopic",
+      "label": "クラス バリアント",
+      "position": {
+        "x": -692.6381872719935,
+        "y": 1297.4007482223487
+      },
+      "size": {
+        "width": 267,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "クラスインバリアントは,クラス内の任意のオブジェクトに対して,任意の時点において,真実である必要がある条件の集合である.オブジェクト指向プログラミング (OOP) では,クラスインバリアントは,オブジェクトの有効状態を定義し,オブジェクトが常に有効状態にとどまることを確保するために使用されます.クラスインバリアントは,通常,クラスのコンストラクタで定義され,オブジェクトの状態を変更する任意の操作の前におよび後に,オブジェクトの状態を検証するために使用されるプライベート方法およびデータメンバーを使用して強制されます.次のリンクから詳細をご覧ください. - [@article@Overview of Class invariant] (https://en.wikipedia.org/wiki/Class_invariant) - [@article@オブジェクト指向プログラミングにおけるクラス invariantの概念] (https://arxiv.org/abs/2109.06557)",
+        "links": []
+      }
+    },
+    {
+      "id": "HN160YgryBBtVGjnWxNie",
+      "type": "subtopic",
+      "label": "層次建築",
+      "position": {
+        "x": -692.6381872719935,
+        "y": 1350.4007482223487
+      },
+      "size": {
+        "width": 267,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "層次アーキテクチャとは,システムの機能が層次に分かれ,各層が特定の責任を持ち,その上の層と下の層と相互作用するソフトウェア設計パターンである.層次アーキテクチャの背後にある主なアイデアは,システムの懸念を異なる独立した層に分け,コードをよりモジュール化,理解しやすく,テストし,変更することである.いくつかの種類の層次アーキテクチャがありますが,共通点は以下の3層次アーキテクチャです: *プレゼンテーション層 *ビジネス層 *データアクセス層",
+        "links": [
+          {
+            "title": "ソフトウェアアーキテクチャ パターン  層付きアーキテクチャ",
+            "url": "https://priyalwalpita.medium.com/software-architecture-patterns-layered-architecture-a3b89b71a057",
+            "type": "article"
+          },
+          {
+            "title": "5 ソフトウェア 建築 の 基本 的 な 層",
+            "url": "https://www.indeed.com/career-advice/career-development/what-are-the-layers-in-software-architecture",
+            "type": "article"
+          },
+          {
+            "title": "建築に関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/architecture?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "kWNQd3paQrhMHMJzM35w8",
+      "type": "subtopic",
+      "label": "ドメイン言語",
+      "position": {
+        "x": -692.6381872719935,
+        "y": 1244.4007482223487
+      },
+      "size": {
+        "width": 267,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ドメイン言語は,特定の領域の知識やビジネスについて記述し伝えるために使用される特定の語彙と概念の集合である.ソフトウェア開発では,ドメイン言語は特定の領域内のオブジェクトと概念をモデル化し,それらの間の関係と制約を把握するために使用されます.ドメイン言語は,開発者,ビジネスアナリスト,およびドメイン専門家を含むすべての関係者間で問題領域の共通の理解を提供するために使用されます.また,ソフトウェアシステムは,解決することを意図した現実世界の問題を正確に反映することを確認するために使用されます.",
+        "links": [
+          {
+            "title": "ドメイン特定言語の概要",
+            "url": "https://en.wikipedia.org/wiki/Domain-specific_language",
+            "type": "article"
+          },
+          {
+            "title": "ドメイン言語 (DSL) とは?",
+            "url": "https://www.jetbrains.com/mps/concepts/domain-specific-languages/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "nVaoI4IDPVEsdtFcjGNRw",
+      "type": "subtopic",
+      "label": "アネミック・モデル",
+      "position": {
+        "x": -692.6381872719935,
+        "y": 1191.4007482223487
+      },
+      "size": {
+        "width": 267,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "アネミック・モデル (Anemic Model) とは,ドメイン・モデルの一種で,ドメイン・オブジェクトにはデータ (attribute) と欠陥行動のみが含まれます.アネミック・モデルでは,データ転送・オブジェクト (DTO) とサービスレイヤが行動処理に使用されることが多い.アネミック・モデルは,エンカプセル化と懸念分離の原則を違反しているため,オブジェクト指向プログラミング (OOP) で反パターンと考えられる.アネミック・モデルでは,行動がデータから分離され,通常,別のサービスレイヤで実装され,複雑な,緊密に結合した,維持しにくいコードベースにつながります.",
+        "links": [
+          {
+            "title": "アネミックドメインモデルの概要",
+            "url": "https://en.wikipedia.org/wiki/Anemic_domain_model",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "RMkEE7c0jdVFqZ4fmjL6Y",
+      "type": "subtopic",
+      "label": "抽象クラス",
+      "position": {
+        "x": -692.6381872719935,
+        "y": 864.7051467174065
+      },
+      "size": {
+        "width": 197,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "抽象クラスとは,オブジェクト指向プログラミング (OOP) で,インスタント化できないクラスです.代わりに,他のクラスから継承するテンプレートまたはブループリントとして機能します.抽象クラスには抽象的方法と非抽象的方法の両方が含まれます (抽象方法は実装がない方法であり,彼らは署名のみを持っています).抽象クラスは,関連クラスのグループのために共通のインターフェースと実装を提供するために使用されます.また,すべてのサブクラスによって実装されなければならない共通の行動を定義するために使用されます.抽象クラスから継承するサブクラスには,具体的なクラスと呼ばれます.そして,母クラスで宣言されたすべての抽象方法のための実装を提供する必要があります.",
+        "links": [
+          {
+            "title": "オブジェクト指向プログラミングにおける抽象クラスとは",
+            "url": "https://www.theserverside.com/definition/abstract-class",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hd6GJ-H4p9I4aaiRTni57",
+      "type": "subtopic",
+      "label": "コンクリートクラス",
+      "position": {
+        "x": -692.6381872719935,
+        "y": 917.7051467174065
+      },
+      "size": {
+        "width": 197,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "コンクリートクラスとは,オブジェクト指向プログラミング (OOP) でインスタント化できるクラスであり,それからオブジェクトを作成することができる.コンクリートクラスとは,抽象なクラスから継承した場合,その親クラスで宣言された抽象方法すべてに対して実装を提供するクラスである.コンクリートクラスもまた抽象なクラスから継承しないクラスであり,その場合,すべての方法に対して実装を持つことができる.コンクリートクラスとは,共通の抽象クラスから継承する関連クラスのグループのために特定の実装詳細を提供するために使用される.また,特定のクラスのためのユニークな行動を定義するために使用される.コンクリートクラスには独自の方法と変数があり,親クラス方法も覆すことができます.",
+        "links": []
+      }
+    },
+    {
+      "id": "b-YIbw-r-nESVt_PUFQeq",
+      "type": "subtopic",
+      "label": "範囲/可視性",
+      "position": {
+        "x": -692.6381872719935,
+        "y": 970.7051467174065
+      },
+      "size": {
+        "width": 197,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "スコープ可視性とは,変数,機能,およびプログラム内の他の要素の可視性または可視性を指す.定義されている文脈に依存する.オブジェクト指向プログラミング (OOP) では,スクープ可視性は\"公開\",\"プライベート\",および\"保護された\"などのアクセス変数を使用して制御されます.",
+        "links": []
+      }
+    },
+    {
+      "id": "SrcPhS4F7aT80qNjbv54f",
+      "type": "subtopic",
+      "label": "インターフェース",
+      "position": {
+        "x": -692.6381872719935,
+        "y": 1023.7051467174065
+      },
+      "size": {
+        "width": 197,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "オブジェクト指向プログラミング (OOP) では,インターフェースは,クラスが実装しなければならない契約または一連の方法である.クラスが提供しなければならない共通の方法を定義するが,実装の詳細は提供しない.インターフェースには,方法署名と定数の両方を含むことができる.インターフェースは,関連するクラスの一般的行動を定義し,異なるクラスのオブジェクトがポリモルフィカルに扱われる方法を提供するために使用されます.インターフェースを実行するクラスには,インターフェースで宣言されたすべての方法の実装を提供する必要があります.クラスには複数のインターフェイスを実装できますが,ベースクラスから継承することができます.",
+        "links": [
+          {
+            "title": "インターフェイスとは何か?",
+            "url": "https://www.youtube.com/watch?v=o1jBgdhQsGo",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Dj36yLBShoazj7SAw6a_A",
+      "type": "subtopic",
+      "label": "遺産",
+      "position": {
+        "x": -691.1381872719935,
+        "y": 701.7051467174066
+      },
+      "size": {
+        "width": 125,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "継承は,新しいクラスが既存のクラスの性質と方法を継承することを可能にするオブジェクト指向式プログラミング (OOP) の基本的な概念である.継承されるクラスは親または超級クラスと呼ばれ,継承するクラスは子供またはサブクラスと呼ばれる.継承はコードの再利用を可能にし,階級の階層的な組織を可能にします.子供クラスは親クラスの性質と方法を継承し,それらを追加または覆す可能性があります.継承の主要な利点は,コードを再利用し,クラス間で機能を共有するきれいなかつ組織的な方法を可能にすることです.",
+        "links": [
+          {
+            "title": "遺産の概要 (オブジェクト指向のプログラミング)",
+            "url": "https://en.wikipedia.org/wiki/Inheritance_(object-oriented_programming",
+            "type": "article"
+          },
+          {
+            "title": "プログラミングにおける遺産とは何か?",
+            "url": "https://www.youtube.com/watch?v=ajOYOxCanhE",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4DVW4teisMz8-58XttMGt",
+      "type": "subtopic",
+      "label": "ポリモルフィズム",
+      "position": {
+        "x": -561.6381872719935,
+        "y": 700.2051467174066
+      },
+      "size": {
+        "width": 136,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ポリモルフィズム (Polymorphism) は,オブジェクト指向プログラミング (OOP) の概念で,異なるクラスのオブジェクトを共通の親級のオブジェクトとして扱うことができる.これは,ポリモルフィカル処理を必要とするすべてのクラスのための共通のインターフェースを定義することによって達成される.ポリモルフィズムという言葉はギリシャ語から派生され\",ポリ\"は多く, \"モルフ\"は形式を意味します.ポリモルフィズムには,2種類の種類があります.*ランタイムポリモルフィズム (ダイナミックポリモルフィズムまたは遅い結合とも呼ばれ) は,オブジェクトの種類がランタイムで決定されたときに発生します.これは方法オーバーリディングによって達成され,子供クラスがすでに母クラスで定義されている方法の特定の実装を提供することを可能にします.",
+        "links": [
+          {
+            "title": "プログラミングにおけるポリモルフィズム概要",
+            "url": "https://www.bmc.com/blogs/polymorphism-programming/",
+            "type": "article"
+          },
+          {
+            "title": "プログラミングにおけるポリモルフィズムとは何か?",
+            "url": "https://www.youtube.com/watch?v=tIWm3I_Zu7I",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "VA8FMrhF4non9x-J3urY8",
+      "type": "subtopic",
+      "label": "抽象化",
+      "position": {
+        "x": -691.1381872719935,
+        "y": 754.7051467174066
+      },
+      "size": {
+        "width": 125,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "抽象は,オブジェクト指向プログラミング (OOP) の概念で,オブジェクトの実装詳細を隠し,その本質的な特徴のみを暴露するプロセスを指します.その構造と行動の根本的な複雑さを理解する必要がなくしてオブジェクトの使用を可能にします.抽象の2種類があります: * データ抽象:データの内部表示を隠し,明確に定義されたインターフェースを介してデータの簡素化されたビューを提供することを指します. *行動抽象:オブジェクトの内部行動を隠し,明確に定義されたインターフェースを介してその能力の簡素化されたビューを提供することを指します.",
+        "links": [
+          {
+            "title": "チュートリアル - 抽象",
+            "url": "https://www.youtube.com/watch?v=OF55HZPE7lQ",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "GJxfVjhiLuuc36hatx9dP",
+      "type": "subtopic",
+      "label": "包装",
+      "position": {
+        "x": -561.6381872719935,
+        "y": 753.2051467174066
+      },
+      "size": {
+        "width": 136,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "封装はオブジェクト指向プログラミング (OOP) の概念で,オブジェクトの内部データと行動を定義されたインターフェース内で包み込み,実装詳細を外部から隠す実践を指します.OOPの基本概念の一つであり,データ隠しと情報隠しという概念と密接に関連しています.封装は,オブジェクトのデータとメソッドの可視性とアクセシビリティを制御するためにアクセス変数 (例えば\"公開\",\"プライベート\",および\"保護\") を使用することによって達成されます.例えば,クラス内のデータメンバーは,クラス内の方法によってのみアクセスできます.メソッドは,オブジェクトに参照する任意のコードで呼び出される可能性があります.",
+        "links": [
+          {
+            "title": "包装の概要",
+            "url": "https://en.wikipedia.org/wiki/Encapsulation_(computer_programming",
+            "type": "article"
+          },
+          {
+            "title": "トチュートリアル - プログラミングにおける包装とは何か?",
+            "url": "https://www.youtube.com/watch?v=sNKKxc4QHqA",
+            "type": "video"
+          },
+          {
+            "title": "一般プログラミングに関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/general-programming?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "9dMbo4Q1_Sd9wW6-HSCA9",
+      "type": "topic",
+      "label": "設計原理",
+      "position": {
+        "x": -318.1381872719935,
+        "y": 1019.7051467174065
+      },
+      "size": {
+        "width": 179,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "Izno7xX7wDvwPEg7f_d1Y",
+      "type": "subtopic",
+      "label": "遺産に対する構成",
+      "position": {
+        "x": -319.1381872719935,
+        "y": 1119.400748222349
+      },
+      "size": {
+        "width": 272,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "複合は,複合を用いることよりも,複合的なオブジェクトを作成するために,複合的なオブジェクトを作るためのメカニズムである複合を用いることを示唆するプログラミング原理である.複合は既存のものに基づいて新しいクラスを作成するメカニズムである.複合は,再利用可能なコードを作成するための強力なメカニズムである.しかし,それは緊密に結合し,維持するのが難しいコードにつながる可能性があります.これは,継承されたクラスは親クラスに緊密に結びついているためであり,親クラスへの変更はすべての子クラスに影響を与えます.これは,クラス階層全体に影響を及ぼさずにコードを変更したり拡張したりすることが困難になります.",
+        "links": [
+          {
+            "title": "遺産に関する構成の概要",
+            "url": "https://en.wikipedia.org/wiki/Composition_over_inheritance",
+            "type": "article"
+          },
+          {
+            "title": "教科書 - 遺産 に 関する 構成",
+            "url": "https://www.youtube.com/watch?v=wfMtDGfHWpA",
+            "type": "video"
+          },
+          {
+            "title": "ゲームによって説明される遺産に関する構成",
+            "url": "https://www.youtube.com/watch?v=HNzP1aLAffM&list=PLCl5BUbK0jXt5l18S5UNAoUc4eQ2PJDye",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3eWirbQGbJZd4g7CS1xk_",
+      "type": "label",
+      "label": "基本原則",
+      "position": {
+        "x": -636.1381872719935,
+        "y": 661.2051467174066
+      },
+      "size": {
+        "width": 154,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "9slZPeVCSqU5-5PqaNJOh",
+      "type": "label",
+      "label": "パラダイグムの特徴",
+      "position": {
+        "x": -650.6381872719935,
+        "y": 824.400748222349
+      },
+      "size": {
+        "width": 161,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "DlefJ9JuJ1LdQYC4WSx6y",
+      "type": "subtopic",
+      "label": "変化を収録する",
+      "position": {
+        "x": -319.1381872719935,
+        "y": 1172.7051467174065
+      },
+      "size": {
+        "width": 279,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "変異を封鎖する (encapsulate what varies) は,将来変化する可能性のある部分は,変化しない部分から隔離されるように,コードを組織すべきであると示唆するプログラミング原理である.これは,安定した部分からコードの異なる部分を分離するインターフェースとクラスを作成することによって達成される.変異を封鎖する (encapsulate what varies) は,コードの柔軟性を増やすことができます.変更が必要な場合,コードの残りの部分に影響を及ぼすことなく,封鎖された部分に変更を行うことができます. これによりコードを理解し,テストし,維持しやすくなります.",
+        "links": [
+          {
+            "title": "変異を包み込むとはどういう意味ですか?",
+            "url": "https://softwareengineering.stackexchange.com/questions/337413/what-does-it-mean-when-one-says-encapsulate-what-varies",
+            "type": "article"
+          },
+          {
+            "title": "概要: 異なるもの を 概括 する",
+            "url": "https://bootcamp.uxdesign.cc/software-design-principles-every-developers-should-know-23d24735518e",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "UZeY36dABmULhsHPhlzn_",
+      "type": "subtopic",
+      "label": "抽象化に対するプログラム",
+      "position": {
+        "x": -319.1381872719935,
+        "y": 1225.7051467174065
+      },
+      "size": {
+        "width": 279,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "抽象に対するプログラミングは,コードが特定の実装に結びつかないように,抽象に結びつかないように書くべきだと示唆するプログラミング原理である.これは,実装を指定せずに関連クラスの集団の行動を定義するインターフェースまたは抽象クラスの定義によって達成される.抽象に対するプログラミングは,コードの柔軟性を増やすことができます.変更が必要であれば,それらを使用するコードに影響を及ぼすことなく,抽象の実装に変更を行うことができます.これはコードを理解し,テストし,維持することを容易にする.",
+        "links": [
+          {
+            "title": "抽象原則の概要",
+            "url": "https://en.wikipedia.org/wiki/Abstraction_principle_(computer_programming",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "WzUhKlmFB9alTlAyV-MWJ",
+      "type": "subtopic",
+      "label": "ハリウッドの原則",
+      "position": {
+        "x": -126.6381872719935,
+        "y": 926.400748222349
+      },
+      "size": {
+        "width": 196,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ハリウッド原理は,ソフトウェア開発の原則である. \"電話してはいけない,我々はあなたに電話する\". これは,低レベルのコンポーネントよりも,高レベルのコンポーネントがアプリケーション内の制御の流れを指示すべきであると示唆している.この原則は,制御の逆転 (IoC) と依存性の注射の文脈でしばしば使用されます.伝統的なソフトウェア開発では,低レベルのコンポーネントは,依存する高レベルのコンポーネントを作成し管理する責任があります.IoCで,高レベルのコンポーネントは制御の流れを指示し,低レベルのコンポーネントは独立したメカニズムによって作成され管理されます.",
+        "links": [
+          {
+            "title": "チュートリアル - ハリウッド原則",
+            "url": "https://www.youtube.com/watch?v=lRuygpsXE5s",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "vnLhItObDgp_XaDmplBsJ",
+      "type": "subtopic",
+      "label": "デメテルの法則",
+      "position": {
+        "x": -126.6381872719935,
+        "y": 820.400748222349
+      },
+      "size": {
+        "width": 196,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "最小の知識の原則とも呼ばれ,この項目は以下のとおりです. 実践的には----------- * 他のオブジェクトの内部に呼び出しを鎖するのを避ける. * 直接管理するオブジェクトに通信を制限する. ### 🔹  悪い例 (違反) // コントローラー総量 = order.customer.address.getRegionTaxRate() * order.amount ## 🔹 ✅ 良い例 // コントローラー総量 = order.calculateTotal() 🔹 なぜ重要なのか-----------",
+        "links": [
+          {
+            "title": "解明されたデメーターの法則",
+            "url": "https://en.wikipedia.org/wiki/Law_of_Demeter",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "0rGdh72HjqPZa2bCbY9Gz",
+      "type": "subtopic",
+      "label": "教えて,聞かないで",
+      "position": {
+        "x": -126.6381872719935,
+        "y": 873.400748222349
+      },
+      "size": {
+        "width": 196,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Tell, Don't Ask 原則は,オブジェクトに,その状態についてクエリされ,外部で決定されるよりも何をするべきかを教えられることを強調する.これは,データを所有するオブジェクト内で論理を維持することによってエンカプセル化を促進し,結合を減らす.",
+        "links": [
+          {
+            "title": "教えて,聞かないで",
+            "url": "https://martinfowler.com/bliki/TellDontAsk.html",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3XckqZA--knUb8IYKOeVy",
+      "type": "subtopic",
+      "label": "固体",
+      "position": {
+        "x": -318.1381872719935,
+        "y": 824.7051467174066
+      },
+      "size": {
+        "width": 129,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "SOLIDは,2000年代初頭にロバート・C.マーティンによって最初に導入されたオブジェクト指向ソフトウェア開発の5つの原則を表す略称です.これらの原則は: *シングル責任原則 (SRP) *オープン/閉鎖原則 (OCP) *リスコフ替代原則 (LSP) *インターフェイス分離原則 (ISP) *依存逆転原則 (DIP)",
+        "links": [
+          {
+            "title": "SOLID を 始める",
+            "url": "https://www.bmc.com/blogs/solid-design-principles/",
+            "type": "article"
+          },
+          {
+            "title": "堅固 な 原則",
+            "url": "https://khalilstemmler.com/articles/tags/solid/",
+            "type": "article"
+          },
+          {
+            "title": "チュートリアル - SOLID 原則とは何か?",
+            "url": "https://www.youtube.com/watch?v=aUCo5cy32kE",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ltBnVWZ3UMAuUvDkU6o4P",
+      "type": "subtopic",
+      "label": "乾燥する",
+      "position": {
+        "x": -318.1381872719935,
+        "y": 877.7051467174066
+      },
+      "size": {
+        "width": 129,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "DRY (Don't Repeat Yourself) はソフトウェア開発原理で,コードが重複機能を持つべきでないことを示唆している.冗長性と重複を排除することによって,コードベースを可能な限りシンプルに保つことだ.目的は,システム内のすべての知識が単一の曖昧な方法で表現されることを確保することによって複雑性を軽減し,維持性を向上させることである.DRY原則は,SOLID原則の一部である単一の責任原則 (SRP) とオープン閉ざされた原則 (OCP) と密接に関連している.DRY原則は,システム全体で再利用可能な抽象化を作成することによって重複コードの量を減らすことを目的としている.",
+        "links": [
+          {
+            "title": "繰り返さないこと (DRY) の概要",
+            "url": "https://en.wikipedia.org/wiki/Don%27t_repeat_yourself",
+            "type": "article"
+          },
+          {
+            "title": "プログラミングにおける DRYとは何か?",
+            "url": "https://www.youtube.com/watch?v=Rv3RIc_ziOY",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "eEO-WeNIyjErBE53n8JsD",
+      "type": "subtopic",
+      "label": "ヤグニ",
+      "position": {
+        "x": -318.1381872719935,
+        "y": 930.7051467174066
+      },
+      "size": {
+        "width": 129,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "YAGNI (You Ain't Gonna Need It) は,開発者がすぐに必要でない限り,コードベースに機能を追加すべきでないことを示唆するソフトウェア開発原理である.アイデアは,実際に必要な機能のみを追加することによって,コードベースに不必要な複雑性を生み出すことを避けることである. YAGNI 原則は,SOLID 原則の一部であるシングル責任原則 (SRP) とオープン閉ざされた原則 (OCP) と密接に関連している. YAGNI は,不必要な抽象と機能の作成を回避することによって,コードベースを可能な限りシンプルに保つことを目的としています.",
+        "links": [
+          {
+            "title": "YAGNI (You're Not Gonna Need It) 原則 は 効率 に 役立つ",
+            "url": "https://builtin.com/software-engineering-perspectives/yagni",
+            "type": "article"
+          },
+          {
+            "title": "YAGNI の コーディング ルール は 何 です か",
+            "url": "https://www.youtube.com/watch?v=2vys1q1dKc4",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Jd79KXxZavpnp3mtE1q0n",
+      "type": "topic",
+      "label": "デザイン パターン",
+      "position": {
+        "x": 94.8618127280065,
+        "y": 1019.7051467174065
+      },
+      "size": {
+        "width": 168,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "デザインパターンは,ソフトウェア開発で発生する一般的な問題に対する一般的解決法である.これらのパターンは,一般的なデザイン問題に対する証明された解決策を記述し,伝える方法を提供し,デザインのための共通の語彙を提供します.それらは特定のプログラミング言語または技術に固有のものではないが,多くの異なる文脈に適用できる方法で問題と解決策を記述する.いくつかの異なるタイプのデザインパターンは,以下を含む: * 創作パターン * 構造パターン * 行動パターン * 建築パターン",
+        "links": [
+          {
+            "title": "概要 - ソフトウェア 設計 パターン",
+            "url": "https://en.wikipedia.org/wiki/Software_design_pattern",
+            "type": "article"
+          },
+          {
+            "title": "設計パターンの説明,イメージング,簡素化",
+            "url": "https://refactoring.guru/design-patterns/what-is-pattern",
+            "type": "article"
+          },
+          {
+            "title": "デザイン パターン は 何 です か",
+            "url": "https://www.youtube.com/watch?v=BWprw8UHIzA",
+            "type": "video"
+          },
+          {
+            "title": "デザインパターンに関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/design-patterns?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hlHl00ELlK9YdnzHDGnEW",
+      "type": "subtopic",
+      "label": "GoFデザインパターン",
+      "position": {
+        "x": 188.8618127280065,
+        "y": 1111.4007482223487
+      },
+      "size": {
+        "width": 218,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ギャング・オブ・フォー (GoF) デザインパターンは,オブジェクト指向ソフトウェア開発のためのデザインパターンの集合で,最初にエリック・ガーマ,リチャード・ヘルム,ラルフ・ジョンソン,ジョン・ヴィリサイデス (またギャング・オブ・フォーとも呼ばれている) の著書\"デザインパターン:再利用可能なオブジェクト指向ソフトウェアの要素\"で記述された. GoF デザインパターンは,創造性,構造性,行動性 (Creational, Structural and Behavioral) の3つのカテゴリーに分かれています.",
+        "links": [
+          {
+            "title": "ギャング・オブ・フォー (GoF) デザインパターン",
+            "url": "https://www.digitalocean.com/community/tutorials/gangs-of-four-gof-design-patterns",
+            "type": "article"
+          },
+          {
+            "title": "チュートリアル - 建築家 パターン (四つのデザイン パターンシリーズ)",
+            "url": "https://www.youtube.com/watch?v=_sa2WlAFWQos",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6VoDGFOPHj5p_gvaZ8kTt",
+      "type": "subtopic",
+      "label": "PoSA パターン",
+      "position": {
+        "x": 188.8618127280065,
+        "y": 1164.4007482223487
+      },
+      "size": {
+        "width": 218,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "POSA (Pattern-Oriented Software Architecture) は,変化する要求に対応し,スケールできるソフトウェアシステムを開発するための設計パターンの集合である.これらのパターンは,ケビン・ホフマン (Kevin Hoffman) の著書\"スケーラブル,信頼性の高いサービスのパターン\"で最初に記述された.POSAパターンは4つのカテゴリーに分かれている.",
+        "links": [
+          {
+            "title": "パターン指向ソフトウェアアーキテクチャの概要",
+            "url": "https://en.wikipedia.org/wiki/Pattern-Oriented_Software_Architecture",
+            "type": "article"
+          },
+          {
+            "title": "POSA パターンの例",
+            "url": "https://www.youtube.com/watch?v=iYNa_KcWxCU",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dBq7ni-of5v1kxpdmh227",
+      "type": "topic",
+      "label": "建築原理",
+      "position": {
+        "x": 94.8618127280065,
+        "y": 1553.9007482223487
+      },
+      "size": {
+        "width": 221,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "8Bm0sRhUg6wZtnvtTmpgY",
+      "type": "subtopic",
+      "label": "構成要素原則",
+      "position": {
+        "x": 189.88625207048023,
+        "y": 1289.610395110492
+      },
+      "size": {
+        "width": 240,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ソフトウェアアーキテクチャにおけるコンポーネント原則は,モジュラーで,再利用可能で,理解し,テストし,維持しやすいソフトウェアコンポーネントを設計および実装するためのガイドラインを指します.ソフトウェアアーキテクチャにおける主要なコンポーネント原則の中には: * 高凝縮性 * 低結合性 * 懸念の分離 * インターフェースベースの設計 * 再利用性 * 安定性 * 模組性 * 互動性 これらのコンポーネント原則に従い,ソフトウェアは理解し,維持し,拡張しやすく,バグに弱い方法で開発することができます. また,よりよいコード再利用が可能になり,コードを再テストし,変更しやすくし,また,コンポーネントが異なる文脈で再利用できるため,コード再利用を改善することができます.",
+        "links": [
+          {
+            "title": "構成要素に基づく建築",
+            "url": "https://www.tutorialspoint.com/software_architecture_design/component_based_architecture.htm",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b_PvjjL2ZpEKETa5_bd0v",
+      "type": "subtopic",
+      "label": "政策対詳細",
+      "position": {
+        "x": 189.88625207048023,
+        "y": 1342.610395110492
+      },
+      "size": {
+        "width": 240,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ソフトウェアアーキテクチャでは,政策**と詳細**の区別は,高レベルの決定と低レベルの実装詳細の分離を指します.政策は,システムの全体的な行動と構造を定義する高レベルの決定を指します.これらの決定には,全体的な建築,システムのインターフェース,および主要なコンポーネントおよびそれらの相互作用のようなものが含まれます.政策決定は,しばしば建築家やデザイナーによって作られ,システム全体の方向を設定します.詳細は,政策決定を実行するために必要な低レベルの実装詳細を指します.これらの決定には,システム構成要素を構成する特定のアルゴリズム,データ構造,コードなどのものがあります.詳細はしばしば開発者によって実装され,システムの実際の機能に責任を負う.",
+        "links": []
+      }
+    },
+    {
+      "id": "TXus3R5vVQDBeBag6B5qs",
+      "type": "subtopic",
+      "label": "結合と凝聚力",
+      "position": {
+        "x": 189.88625207048023,
+        "y": 1395.610395110492
+      },
+      "size": {
+        "width": 240,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "結合と結合は,システム内のコンポーネント間の相互依存度を測定するために使用されるソフトウェアアーキテクチャの2つの原則である.結合は,一つのコンポーネントが他のコンポーネントに依存する程度を指します.高い結合は,一つのコンポーネントの変更が他のコンポーネントに影響を与える可能性があり,システムを理解し,テストし,維持することが難しくなります.一方,低結合は,一つのコンポーネントの変更が他のコンポーネントに最小限の影響を及ぼし,システムをよりモジュール化し,理解し,テストし,維持しやすくします.一方,結合は,コンポーネントの責任が相互に関連している程度を指します.高凝縮とは,構成要素が単一の明確な目的を持ち,その機能とデータがすべてその目的に関連していることを意味します.低凝縮とは,構成要素が複数の関連のない責任を持ち,理解し,テストし,維持しやすくすることを意味します.",
+        "links": [
+          {
+            "title": "ソフトウェアエンジニアリングにおける凝縮と結合",
+            "url": "https://www.youtube.com/watch?v=NweTzHYBgYU",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "-Kw8hJhgQH2qInUFj2TUe",
+      "type": "subtopic",
+      "label": "境界線",
+      "position": {
+        "x": 188.8618127280065,
+        "y": 1448.610395110492
+      },
+      "size": {
+        "width": 240,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ソフトウェアアーキテクチャでは,境界線とは,異なるコンポーネントまたはシステム間のインターフェースまたは分離点を指す.これらの境界線は,分散したシステム内の異なるマイクロサービス,またはアプリケーション内の異なる層間のような物理的なもの,または論理的なものになる.境界線は,異なるコンポーネントまたはシステム間の相互作用点を定義し,それらのコンポーネントまたはシステムがどのように相互に通信するかを規定するため重要です.明確な境界線を定義することで,コンポーネントまたはシステム間の相互作用が明確に定義され,論理的に考えられるため,システムを理解し,テストし,維持することが容易になります.",
+        "links": [
+          {
+            "title": "ソフトウェア・アーキテクチャにおける限界",
+            "url": "https://www.open.edu/openlearn/science-maths-technology/approaches-software-development/content-section-1.1.4",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "37xWxG2D9lVuDsHUgLfzP",
+      "type": "topic",
+      "label": "建築スタイル",
+      "position": {
+        "x": -289.3282213632988,
+        "y": 1553.6208448974862
+      },
+      "size": {
+        "width": 191,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "建築スタイルは,ソフトウェアシステムの特徴を定義する原則と制約の集合である.それらは構造,行動,相互作用などの一般的なシステム特性を説明するための語彙と枠組みを提供します.これらのスタイルは,繰り返し設計問題への再利用可能なソリューションを提供し,ソフトウェア体系内のコンポーネントとそれらの関係の組織を指导します.建築スタイルの例には層次建築,マイクロサービス,イベント主導の建築が含まれ,それぞれが特定のシナリオに適している独自の強みと弱点を持っています.",
+        "links": [
+          {
+            "title": "ソフトウェアエンジニアリングにおける建築スタイルの種類",
+            "url": "https://www.youtube.com/watch?v=2Pp0BcXN9YY",
+            "type": "video"
+          },
+          {
+            "title": "今日 企業 ソフトウェア 開発 に 用い られ て いる 10 つの 建築 パターン",
+            "url": "https://www.youtube.com/watch?v=brt3ao8bvqy",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "j9j45Auf60kIskyEMUGE3",
+      "type": "topic",
+      "label": "メッセージ",
+      "position": {
+        "x": -329.3282213632988,
+        "y": 1426.0405202008678
+      },
+      "size": {
+        "width": 197,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center",
+        "colorType": "h"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "メッセージは,イベント駆動アーキテクチャ (EDA),マイクロサービス,メッセージ駆動アーキテクチャ (MDA) を含むいくつかのアーキテクチャスタイルにおける重要な概念です. * イベント駆動アーキテクチャ (EDA) *マイクロサービス *メッセージ駆動アーキテクチャ (MDA) 一般的に,メッセージはシステムの分離とスケーラビリティを可能にする強力なコンセプトで,コンポーネント間の緩やかなカップリングを許可し,新しい機能を追加したり既存の機能を変更したりすることでシステムの柔軟性とスケーラビリティを改善するためにさまざまなアーキテクチャスタイルで使用されています.",
+        "links": [
+          {
+            "title": "ソフトウェアエンジニアリングにおける建築スタイル",
+            "url": "https://shapingsoftware.com/2009/02/09/architectural-styles/",
+            "type": "article"
+          },
+          {
+            "title": "建築 的 な メッセージ パターン",
+            "url": "https://www.redhat.com/architect/architectural-messaging-patterns",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "KtzcJBb6-EcIoXnwYvE7a",
+      "type": "subtopic",
+      "label": "イベント 駆動",
+      "position": {
+        "x": -329.3282213632988,
+        "y": 1320.0405202008678
+      },
+      "size": {
+        "width": 197,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "イベント駆動アーキテクチャ (EDA) は,システムが変化のために継続的に投票するのではなく,発生する特定のイベントに反応するソフトウェア設計パターンである.EDAでは,イベントはコンポーネント間で非同期的に送信されるメッセージであり,コンポーネントは興味のあるイベントに反応する.EDAを使用する主なメリットは,コンポーネント間の懸念を明確に分離させ,システムのスケーラビリティと故障耐容性を向上させることです.",
+        "links": [
+          {
+            "title": "イベント主導のプログラミングの概要",
+            "url": "https://en.wikipedia.org/wiki/Event-driven_programming",
+            "type": "article"
+          },
+          {
+            "title": "イベント駆動アーキテクチャとは何か?",
+            "url": "https://www.redhat.com/en/topics/integration/what-is-event-driven-architecture",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "SX4vOVJY9slOXGwX_q1au",
+      "type": "subtopic",
+      "label": "出版 - 登録",
+      "position": {
+        "x": -329.3282213632988,
+        "y": 1373.0405202008678
+      },
+      "size": {
+        "width": 197,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "出版/サブスクリプションパターンは,出版者が主題にメッセージを送信するメッセージパターンであり,そのメッセージを受け取るために任意の数のサブスクリプションがその主題にサブスクリプションすることができます. 出版/サブスクリプションパターンは\"観察者パターン\"とも呼ばれ,アプリケーションの異なる部分間のコミュニケーションを分離した方法で実装する方法です. 出版/サブスクリプションパターンを利用する主なメリットは,出版社とサブスクリプションの間の懸念を明確に分離させ,システムの柔軟性とスケーラビリティを向上させることです. さらに,コンポーネント間の緩やかな結合を可能にするため,出版社とサブスクリプションはお互いの存在を認識していないため,独立した開発,展開,スケーラブル化が可能である.",
+        "links": [
+          {
+            "title": "チュートリアル - 発行サブスクリプションパターン",
+            "url": "https://en.wikipedia.org/wiki/Publish%E2%80%93subscribe_pattern",
+            "type": "article"
+          },
+          {
+            "title": "Publish-Subscribe アーキテクチャ (例で説明)",
+            "url": "https://www.youtube.com/watch?v=O1PgqUqZKTA",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3V74lLPlcOXFB-QRTUA5j",
+      "type": "topic",
+      "label": "分布される",
+      "position": {
+        "x": -123.39712154422624,
+        "y": 1426.0405202008678
+      },
+      "size": {
+        "width": 197,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center",
+        "colorType": "h"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "分布されたシステムとは,複数のデバイスまたは場所に分布され,ネットワークを通じて接続され,共通の目標を達成するために一緒に作業するソフトウェアコンポーネントの設計と組織を指す. 分布されたシステムを設計する主な課題は,コンポーネントの分布とそれらの間の通信から生じる固有の複雑さに対処することであり,拡張性,故障耐性,およびパフォーマンスを向上させるために負荷バランス,複製,分割などの技術が必要です.さらに,セキュリティと調整は,分布されたシステムの重要な側面でもあります.",
+        "links": [
+          {
+            "title": "分布された建築の概要",
+            "url": "https://www.tutorialspoint.com/software_architecture_design/distributed_architecture.htm",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ZGIMUaNfBwE5b6O1yexSz",
+      "type": "subtopic",
+      "label": "クライアント・サーバー",
+      "position": {
+        "x": -123.37268220175247,
+        "y": 1317.5497203099687
+      },
+      "size": {
+        "width": 197,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "クライアント-サーバーアーキテクチャは,分散型システムで使用される一般的なアーキテクチャパターンで,クライアント (または複数のクライアント) がサーバーにリクエストを送信し,サーバーはそのリクエストに応答します.クライアントとサーバーはインターネットまたはローカルネットワークなどのネットワークを通じて通信する独立したエンティティです.クライアントはユーザーインターフェースを提示し,ユーザー入力処理を担当し,サーバーはリクエスト処理と適切な応答を返却する責任を負います.サーバーはデータストレージ,セキュリティ,ビジネス論理などのタスクも処理することができます.",
+        "links": [
+          {
+            "title": "クライアント-サーバーアーキテクチャの入門",
+            "url": "https://cs.uwaterloo.ca/~m2nagapp/courses/CS446/1195/Arch_Design_Activity/ClientServer.pdf",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Cf9Z2wxBcbnNg_q9PA6xA",
+      "type": "subtopic",
+      "label": "ピアツーピア",
+      "position": {
+        "x": -122.37268220175247,
+        "y": 1370.5497203099687
+      },
+      "size": {
+        "width": 197,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ピアツーピア (P2P) アーキテクチャは,ネットワーク内の各ノードがクライアントとサーバーの両方で機能する分散型コンピューティングアーキテクチャである.P2Pアーキテクチャでは,ネットワークを管理する中央権威またはサーバーはありません.また,各ノードは情報を交換し,リソースを共有し,計算を行うために他のノードと直接通信します.P2Pアーキテクチャを使用する主なメリットは,より分散型でエラー耐性のあるシステムを可能にすることです.中央権威がないため,故障の単一のポイントはありません.一部のノードが故障してもネットワークが機能し続けることができます.さらに,P2Pアーキテクチャは,ネットワーク内のノード数が増加するにつれてスケーラビリティも改善することができます.",
+        "links": [
+          {
+            "title": "同級建築",
+            "url": "https://student.cs.uwaterloo.ca/~cs446/1171/Arch_Design_Activity/Peer2Peer.pdf",
+            "type": "article"
+          },
+          {
+            "title": "ピアツーピアに関するトップ記事を探索する",
+            "url": "https://app.daily.dev/tags/peer-to-peer?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "86Jw9kMBD7YP5nTV5jTz-",
+      "type": "topic",
+      "label": "構造",
+      "position": {
+        "x": -691.6137479295197,
+        "y": 1558.6208448974862
+      },
+      "size": {
+        "width": 197,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center",
+        "colorType": "h"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ソフトウェアにおける構造建築とは,ソフトウェアシステムの構成要素の組織と設計,およびそれらの相互相互作用を指す.システムの物理的組織と異なる構成要素間の関係を扱います.ソフトウェアシステムを設計するために使用できるいくつかの異なる構造建築パターンとスタイルがあります.* イベント駆動: システムが変化のために継続的に調査されるのではなく,発生する特定のイベントに反応する. * クライアント-サーバー: クライアントがサーバーにリクエストを送信し,サーバーがそれらのリクエストに応答する. * ピアツーピア:ネットワーク内の各ノードがクライアントとサーバーの両方で機能する. * コンポーネントベースの:システムが再利用可能で独立したソフトウェアコンポーネントで構成されている. * ドメイン駆動:システムがコアビジネスドメインとビジネスエンティティを中心に組織されている.",
+        "links": []
+      }
+    },
+    {
+      "id": "a0geFJWl-vi3mYytTjYdb",
+      "type": "subtopic",
+      "label": "構成要素に基づく",
+      "position": {
+        "x": -691.6137479295197,
+        "y": 1451.6208448974862
+      },
+      "size": {
+        "width": 197,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ソフトウェアアーキテクチャでは,コンポーネントベースのデザイン (CBD) は,再利用可能で独立したソフトウェアコンポーネントから構成されたソフトウェアシステムを設計するアプローチである.これらのコンポーネントは特定の機能を組み込み,よりモジュール的で柔軟なデザインを可能にするシステム内の異なる部分に簡単に統合することができる.CBDでは,ソフトウェアシステムはコンポーネントのセットに分かれ,それぞれが明確に定義されたインターフェースと特定の責任を有する.これらのコンポーネントは独立した開発,テスト,展開することができ,新しい機能を追加し,既存の機能を変更し,システムを維持することを容易にする.",
+        "links": [
+          {
+            "title": "コンポーネントベースのソフトウェアアーキテクチャ",
+            "url": "https://www.tutorialspoint.com/software_architecture_design/component_based_architecture.htm",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "xYPR_X1KhBwdpqYzNJiuT",
+      "type": "subtopic",
+      "label": "単行本",
+      "position": {
+        "x": -691.6137479295197,
+        "y": 1504.6208448974862
+      },
+      "size": {
+        "width": 197,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "モノリシック・アーキテクチャとは,ソフトウェア・システムが単一,統合された,自立的な単位として構築される設計アプローチである. モノリシック・アーキテクチャでは,システムのすべての構成要素が密接に結合され,相互依存している.これは,システムの一部分の変更がシステムの他の部分に影響を与える可能性があることを意味します. モノリシック・アーキテクチャは,システムの複雑性が管理可能であり,スケーラビリティと柔軟性の必要性がそれほど高い場合,小規模から中規模のシステムに使用されることが多い. モノリシック・アーキテクチャでは,システム全体が典型的には単一の単位として構築され,展開され,実行され,システムを理解し,管理しやすくすることができます.",
+        "links": [
+          {
+            "title": "モノリシック建築の概要",
+            "url": "https://www.atlassian.com/microservices/microservices-architecture/microservices-vs-monolith",
+            "type": "article"
+          },
+          {
+            "title": "モノリシック建築とは何か?",
+            "url": "https://www.techtarget.com/whatis/definition/monolithic-architecture",
+            "type": "article"
+          },
+          {
+            "title": "ソフトウェアアーキテクチャとは何か?",
+            "url": "https://www.youtube.com/watch?v=_07NtoK-Kns",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "IELEJcKYdZ6VN-UIq-Wln",
+      "type": "subtopic",
+      "label": "層付き",
+      "position": {
+        "x": -565.6137479295197,
+        "y": 1504.6208448974862
+      },
+      "size": {
+        "width": 197,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ソフトウェアアーキテクチャでは,レイヤドアーキテクチャは,ソフトウェアシステムが一連のレイヤに分かれ,それぞれが特定の責任を持ち,明確に定義されたインターフェースを通じて他のレイヤスとコミュニケーションをとる設計アプローチである.このアプローチは,各レイヤーを独立して開発し,テストし,展開し,新しい機能を追加し,既存の機能を変更し,システムを維持することを容易にするより模組的で柔軟なデザインを可能にする.レイヤドアーキテクチャは,スケーラビリティと柔軟性の必要性が高い大規模な複雑なシステムに使用される.レイヤドアーキテクチャの各レイヤスは特定の機能に責任があり,明確に定義されたインターフェースを持つ\"ブラックボックス\"として考えられる.層はこれらのインターフェースを通じて互いに通信し,懸念をはっきりと分離させる.",
+        "links": [
+          {
+            "title": "レイヤドアーキテクチャから始めましょう",
+            "url": "https://cs.uwaterloo.ca/~m2nagapp/courses/CS446/1195/Arch_Design_Activity/Layered.pdf",
+            "type": "article"
+          },
+          {
+            "title": "層次建築",
+            "url": "https://www.youtube.com/watch?v=0kpTKLTx8f4",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "WdXJlH985x9GhAQfif26x",
+      "type": "horizontal",
+      "label": "ホリゾントノード",
+      "position": {
+        "x": -325.1381872719935,
+        "y": 1477.9007482223487
+      },
+      "size": {
+        "width": 50,
+        "height": 20
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.65
+      },
+      "z_index": 999
+    },
+    {
+      "id": "2uTlVYj9CvYcqtv9TN_8K",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": -419.6137479295197,
+        "y": 1451.6208448974862
+      },
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.65
+      },
+      "z_index": 999
+    },
+    {
+      "id": "gJYff_qD6XS3dg3I-jJFK",
+      "type": "topic",
+      "label": "建築のパターン",
+      "position": {
+        "x": -289.3282213632988,
+        "y": 1841.7672657344651
+      },
+      "size": {
+        "width": 210,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "CD20zA6k9FxUpMgHnNYRJ",
+      "type": "subtopic",
+      "label": "ドメインによるデザイン",
+      "position": {
+        "x": -705.1381872719935,
+        "y": 1682.7672657344651
+      },
+      "size": {
+        "width": 273,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ドメイン駆動設計 (DDD) は,コアビジネスドメインとビジネスエンティティに基づくソフトウェアシステム設計に使用される建築パターンであり,ソフトウェアシステム内のビジネスドメインの明確かつ正確な表示を作成し,ソフトウェアシステムをビジネス目標と目標に調整することに焦点を当てています.DDDは,ビジネス目標と目標との調整,ドメイン専門家と開発者間の通信を改善し,ビジネスドメインの明確な表現モデル,拡張性および維持性を向上させています.戦略的設計,サブドメイン,限られたコンテキスト,エンティティ,価値オブジェクト, agregate,およびリポジトリなどの一連の原則とパターンを使用して実装されています.",
+        "links": [
+          {
+            "title": "現代のソフトウェアアーキテクチャ (#1):ドメイン主導のデザイン",
+            "url": "https://medium.com/modern-software-architecture/modern-software-architecture-1-domain-driven-design-f06fad8695f9",
+            "type": "article"
+          },
+          {
+            "title": "ドメイン 駆動 的 な デザイン の 概念 が 説明 さ れ て い ます",
+            "url": "https://medium.com/microtica/the-concept-of-domain-driven-design-explained-3184c0fd7c3f",
+            "type": "article"
+          },
+          {
+            "title": "DDD (ドメイン駆動設計) とは",
+            "url": "https://www.youtube.com/watch?v=Tnecs_7OT74",
+            "type": "video"
+          },
+          {
+            "title": "分散型システムのドメイン駆動設計パターン",
+            "url": "https://www.youtube.com/watch?v=i3d_jzpf0gE",
+            "type": "video"
+          },
+          {
+            "title": "ドメイン駆動デザインに関するトップ記事を探求する",
+            "url": "https://app.daily.dev/tags/domain-driven-design?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "-arChRC9zG2DBmuSTHW0J",
+      "type": "subtopic",
+      "label": "モデルビューコントローラ",
+      "position": {
+        "x": -705.1381872719935,
+        "y": 1735.7672657344651
+      },
+      "size": {
+        "width": 273,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Model-View-Controller (MVC) は,ソフトウェアシステムの懸念を3つの異なるコンポーネントに分割する建築パターンである.モデル,ビュー,コントローラ,モデルがシステムのデータとビジネス論理を表す,ビューはシステムのユーザーインターフェースを表す,コントローラがモデルとビューの間の仲介者として機能する.MVCの主な目的はシステムの懸念を分離し,理解し,維持し,進化することを容易にする.",
+        "links": [
+          {
+            "title": "MVC フレームワーク - 紹介",
+            "url": "https://www.tutorialspoint.com/mvc_framework/mvc_framework_introduction.htm",
+            "type": "article"
+          },
+          {
+            "title": "チュートリアル - MVC建築パターン",
+            "url": "https://www.youtube.com/watch?v=e9S90R-Y24Q",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "eJsCCURZAURCKnOK-XeQe",
+      "type": "subtopic",
+      "label": "マイクロサービス",
+      "position": {
+        "x": -705.1381872719935,
+        "y": 1788.7672657344651
+      },
+      "size": {
+        "width": 273,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "マイクロサービス (Microservices) は,小さな,独立した,そして緩やかに結合したサービスの集合としてソフトウェアシステムを設計するために使用されるアーキテクチャパターンです.各サービスは特定の機能に責任があり,独立した開発,展開,スケールすることができます.マイクロサービスアーキテクチャの主な利点は,より柔軟かつスケーラブルなシステムを可能にするだけでなく,故障隔離を改善し,より速い展開を可能にします. イベント駆動アーキテクチャ,CQRS,およびサービス指向アーキテクチャなどの他のアーキテクチャパターンとスタイルと組み合わせてしばしば使用されます.",
+        "links": [
+          {
+            "title": "マイクロサービス概要",
+            "url": "https://microservices.io/patterns/microservices.html",
+            "type": "official"
+          },
+          {
+            "title": "チュートリアル - マイクロサービス アーキテクチャ パターン",
+            "url": "https://www.youtube.com/watch?v=8BPDv038oMI",
+            "type": "video"
+          },
+          {
+            "title": "マイクロサービスデザインパターンから始めましょう",
+            "url": "https://www.youtube.com/watch?v=xuH81XGWeGQ",
+            "type": "video"
+          },
+          {
+            "title": "マイクロサービスに関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/microservices?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Kk7u2B67Fdg2sU8E_PGqr",
+      "type": "subtopic",
+      "label": "黒板のパターン",
+      "position": {
+        "x": -705.1381872719935,
+        "y": 1841.7672657344651
+      },
+      "size": {
+        "width": 273,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ブラックボードの建築パターンは,複数の独立したモジュールまたはサブシステムによってアクセスし,変更できる中央集成された情報保管庫を作成することを可能にするソフトウェア設計パターンである.ブラックボードは,これらのモジュール間の通信と調整メカニズムとして機能し,情報を共有し,共通の目標を達成するために協力できるようにします.このパターンはしばしば人工知能と意思決定システムで使用され,複数のプロセスまたはエージェントが複雑なデータを共有し,推論する必要があります.",
+        "links": [
+          {
+            "title": "ブラックボードの概要 (デザインパターン)",
+            "url": "https://en.wikipedia.org/wiki/Blackboard_(design_pattern",
+            "type": "article"
+          },
+          {
+            "title": "建築パターン: 黒板",
+            "url": "http://www.openloop.com/softwareEngineering/patterns/architecturePattern/arch_Blackboard.htm",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "r-Yeca-gpdFM8iq7f0lYQ",
+      "type": "subtopic",
+      "label": "マイクロカーネル",
+      "position": {
+        "x": -705.1381872719935,
+        "y": 1894.7672657344651
+      },
+      "size": {
+        "width": 273,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "マイクロカーネルは,カーネルモード (すなわちハードウェアリソースへの直接アクセスを持つ特権モード) で実行するコードの量を最小限に抑え,ユーザモードに可能な限り多くの機能を移動することを目的としたオペレーティングシステム設計のアーキテクチャパターンである.これは,メモリ管理,プロセススケジューリング,およびプロセス間通信 (IPC) のような基本的なタスクだけを処理する小さな,ミニマリストなコアカーネルを提供することによって行われる.",
+        "links": [
+          {
+            "title": "マイクロカーネルアーキテクチャの概要",
+            "url": "https://www.oreilly.com/library/view/software-architecture-patterns/9781491971437/ch03.html",
+            "type": "article"
+          },
+          {
+            "title": "マイクロカーネルアーキテクチャ パターン ソフトウェアアーキテクチャ",
+            "url": "https://www.youtube.com/watch?v=h3icQDMRLd8",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5WSvAA3h3lmelL53UJSMy",
+      "type": "subtopic",
+      "label": "サーバーレスアーキテクチャ",
+      "position": {
+        "x": -705.1381872719935,
+        "y": 1947.7672657344651
+      },
+      "size": {
+        "width": 273,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "サーバーレスアーキテクチャは,開発者がサーバーを配置・管理することなく,アプリケーションとサービスを構築・実行できるようにする設計パターンである.代わりに,これらのアプリケーションとサービスは, AWS Lambda,Azure Functions,または Google Cloud Functionsなどの完全に管理された環境で実行され,インフラストラクチャとスケーリングがクラウドプロバイダーによって自動的に処理されます.このアーキテクチャパターンは,主にサーバー管理ではなく,ビジネス論理とイベント主導の実行に焦点を当てています. 開発者はデータベースの変更やストリームに新しいデータの到着などの特定の出来事によって触発される小さな単目的機能でコードを書いて展開することができます.",
+        "links": [
+          {
+            "title": "AWS のサーバーレスアーキテクチャ パターン",
+            "url": "https://waswani.medium.com/serverless-architecture-patterns-in-aws-edeab0e46a32",
+            "type": "article"
+          },
+          {
+            "title": "建築に関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/architecture?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "GAs6NHBkUgxan3hyPvVs7",
+      "type": "subtopic",
+      "label": "メッセージ 列 / ストリーム",
+      "position": {
+        "x": -705.1381872719935,
+        "y": 2000.7672657344651
+      },
+      "size": {
+        "width": 273,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "メッセージのキューとストリームは,システムの異なるコンポーネントを切り離し,それらの間の非同期通信を可能にするために使用されるアーキテクチャパターンです.メッセージのキュー:メッセージのキューは,複数のシステムまたはアプリケーションが相互にメッセージを送信することによって通信することを可能にするソフトウェアコンポーネントです.メッセージはキューに保存され,各メッセージは単一の消費者が処理します.このパターンは,メッセージ生成と消費の速度の変動が高く,送信者と受信者が同時にアクティブである必要はありません.メッセージのキューシステムの例はApache Kafka,RabbitMQ,Amazon SQSです.",
+        "links": [
+          {
+            "title": "システムデザイン メッセージキュー",
+            "url": "https://medium.com/must-know-computer-science/system-design-message-queues-245612428a22",
+            "type": "article"
+          },
+          {
+            "title": "メッセージキューパターンの概要",
+            "url": "https://badia-kharroubi.gitbooks.io/microservices-architecture/content/patterns/communication-patterns/message-queue-pattern.html",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "K8X_-bsiy7gboInPzbiEb",
+      "type": "subtopic",
+      "label": "イベント 調達",
+      "position": {
+        "x": -705.1381872719935,
+        "y": 2053.767265734465
+      },
+      "size": {
+        "width": 273,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "イベントソースは,時間とともに起こったすべての変化の履歴を維持する必要があるシステムを構築するために使用されるアーキテクチャパターンです.このパターンは,現在の状態ではなく,一連の出来事としてシステムの状態のすべての変更を保存します. イベントソースでは,システムの状態のすべての変更がイベントとして扱われ,これらのイベントは,イベントストアとしても知られる添付のみログに保存されます.このシステムの現在の状態は,ログからイベントを再生することによって,任意の時点でイベントログから再構築することができます.",
+        "links": [
+          {
+            "title": "イベント ソース パターン",
+            "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/event-sourcing",
+            "type": "article"
+          },
+          {
+            "title": "イベントソース 例 & 説明",
+            "url": "https://www.youtube.com/watch?v=AUj4M-st3ic&list=PLThyvG1mlMzkRKJnhzvxtSAbY8oxENLUQ&ab_channel=CodeOpinion",
+            "type": "video"
+          },
+          {
+            "title": "建築に関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/architecture?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FysFru2FJN4d4gj11gv--",
+      "type": "subtopic",
+      "label": "SOA",
+      "position": {
+        "x": -705.1381872719935,
+        "y": 2106.767265734465
+      },
+      "size": {
+        "width": 273,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "SOA (Service-Oriented Architecture) は,ネットワークを通じてアクセスできるサービスの集合としてソフトウェアシステムを設計および組織するために使用される建築パターンである.これらのサービスは,再利用可能で新しい機能を作成するために組み合わせられる自律的で独立した機能単位である.SOAサービスは緩やかに結合するように設計されており,他のサービスの実装詳細に依存するものではなく,通常はHTTPまたはSOAPのようなプロトコルを使用して相互通信する.SOAは,再利用可能性,モジュール性,相互運用性,およびスケーラブル性などの他の建築パターンに対していくつかの利点を提供します.Webサービス,REST,マイクロサービスなどのさまざまな技術を使用して実装することができます.",
+        "links": [
+          {
+            "title": "サービス向けアーキテクチャの概要",
+            "url": "https://medium.com/design-microservices-architecture-with-patterns/service-oriented-architecture-1e4716fbca17",
+            "type": "article"
+          },
+          {
+            "title": "チュートリアル - サービス向けアーキテクチャ -SOA",
+            "url": "https://www.youtube.com/watch?v=jNiEMmoTDoE",
+            "type": "video"
+          },
+          {
+            "title": "サービス 向け アーキテクチャ は 何 です か",
+            "url": "https://www.youtube.com/watch?v=_dFJOSR-aFs",
+            "type": "video"
+          },
+          {
+            "title": "建築に関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/architecture?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "IU86cGkLPMXUJKvTBywPu",
+      "type": "subtopic",
+      "label": "CQRS",
+      "position": {
+        "x": -562.1381872719935,
+        "y": 2106.767265734465
+      },
+      "size": {
+        "width": 273,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "CQRS (Command Query Responsibility Segregation) は,ソフトウェアシステムにおけるデータ読み書きの責任を分離するために使用されるアーキテクチャパターンである.CQRSアーキテクチャでは,システムはコマンドサイドとクエリサイドという2つの部分に分かれます.コマンドサイドはコマンド処理とシステムの状態の更新に責任があり,クエリサイドはシステムの現在の状態を読み,結果をクライアントに返す責任があります.コマンドとクエリサイドは異なるデータモデル,ストレージメカニズム,そして異なる技術を使用することができます.",
+        "links": [
+          {
+            "title": "CQRS パターンから始めましょう",
+            "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/cqrs",
+            "type": "article"
+          },
+          {
+            "title": "CQRS ソフトウェア アーキテクチャ パターン: 良い,悪い,醜い",
+            "url": "https://betterprogramming.pub/cqrs-software-architecture-pattern-the-good-the-bad-and-the-ugly-e9d6e7a34daf",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "h0aeBhQRkDxNeFwDxT4Tf",
+      "type": "topic",
+      "label": "企業パターン",
+      "position": {
+        "x": -289.3282213632988,
+        "y": 1975.839200216446
+      },
+      "size": {
+        "width": 194,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "エンタープライズパターンは,エンタープライズソフトウェアアプリケーションの開発で一般的に使用されるデザインパターンの集合である.これらのパターンは,大規模な複雑なソフトウェアシステムの開発で発生する一般的な問題を解決するための共通の語彙とベストプラクティスの集合を提供します.エンタープライズパターンのいくつかの例は,以下のようなものです. *ドメイン駆動デザイン (DDD) *モデルビューコントローラー (MVC) *サービス指向アーキテクチャ (SOA) *コマンドとクエリ責任分離 (CQRS) * イベントソース *マイクロサービス * イベント駆動アーキテクチャ (EDA)",
+        "links": [
+          {
+            "title": "企業ソフトウェアにおけるソフトウェアアーキテクチャ パターン",
+            "url": "https://blog.devgenius.io/10-software-architecture-patterns-in-enterprise-software-development-fabacb5ed0c8",
+            "type": "article"
+          },
+          {
+            "title": "企業統合パターンは?",
+            "url": "https://www.youtube.com/watch?v=WNm3QmJadNs",
+            "type": "video"
+          },
+          {
+            "title": "エンタープライズに関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/enterprise?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "y_Qj7KITSB8aUWHwiZ2It",
+      "type": "subtopic",
+      "label": "DTO",
+      "position": {
+        "x": 99.23920485686646,
+        "y": 1711.8012136557593
+      },
+      "size": {
+        "width": 240,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "データ転送オブジェクトデザインパターン (Data Transfer Object Design Pattern) は,データ転送のためにデータを集計し,エンカプセルするオブジェクトの使用を要求する企業アプリケーションアーキテクチャパターンの1つです.データ転送オブジェクトは,本質的に,データ構造のようなものです.ビジネス論理を含まないが,シリアライゼーションとデセリアライゼーションメカニズムを含みます.",
+        "links": [
+          {
+            "title": "データ転送オブジェクトパターンとマッピング",
+            "url": "https://medium.com/@abdalrhmanalkraien/data-transfer-object-pattern-and-mapper-116508bc9df0",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tb0X1HtuiGwz7YhQ5xPsV",
+      "type": "subtopic",
+      "label": "アイデンティティマップ",
+      "position": {
+        "x": 99.23920485686646,
+        "y": 1764.8012136557593
+      },
+      "size": {
+        "width": 240,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "アイデンティティマップは,データベースからロードされたオブジェクトの地図を維持するために,独自の識別子でキー付けされたエンタープライズアプリケーション開発で使用されるパターンです.同じデータが複数回アクセスされたときに同じオブジェクトの複数のコピーがメモリで作成されないようにするために使用されます. アイデンティティマップパターンは通常,ORM (オブジェクト関係マッピング) ツールとともに使用されます.データベースからオブジェクトがロードされると,それはすでにロードされているかどうかを確認するために最初にアイデンティティマップにチェックされます.そうであれば,既存のオブジェクトが新しいコピーを作成する代わりに返されます.",
+        "links": [
+          {
+            "title": "アイデンティティマップパターンの概要",
+            "url": "https://en.wikipedia.org/wiki/Identity_map_pattern",
+            "type": "article"
+          },
+          {
+            "title": "チュートリアル - アイデンティティマップデザインパターン",
+            "url": "https://youtube.com/watch?v=erDxkIyNudY",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "gQ7Xj8tsl6IlCcyJgSz46",
+      "type": "subtopic",
+      "label": "使用例",
+      "position": {
+        "x": 99.23920485686646,
+        "y": 1817.8012136557593
+      },
+      "size": {
+        "width": 240,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ユーザケースは,システムとユーザ間の相互作用と,特定の目標を達成するために必要なステップを記述する.ユーザケースは,開発チームと関係者の両方が容易に理解できる方法でシステムの要件を把握する方法である.ユーザからの要求に応えてシステムが行う一連のアクションの記述である.使用事例には,通常以下が含まれます: - 行動を開始する役者 (ユーザー) - 役者が達成したい目標 - 目的を達成するために必要なステップ,任意の代替経路またはエラー条件を含む - インタラクションの期待された結果 システム設計と開発を推進するために使用事例がしばしば使用されます. 要求について明確な詳細な理解を提供します.以下のリンクから詳細を学びましょう: - [@article@Use Case Patterns](https://caminao.blog/how-to-implement-symbolic-representations/patterns/functional-patterns/use-case-patterns/)",
+        "links": []
+      }
+    },
+    {
+      "id": "8y0ot5sbplUIUyXe9gvc8",
+      "type": "subtopic",
+      "label": "倉庫",
+      "position": {
+        "x": 99.23920485686646,
+        "y": 1870.8012136557593
+      },
+      "size": {
+        "width": 240,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "リポジトリは,企業アプリケーション開発において,データストレージにアクセスするための一貫した抽象的な方法を提供するために使用されるパターンである.リポジトリは,アプリケーションとデータストレージの間の抽象層として機能し,データアクセスおよび操作のための一貫したシンプルなAPIを提供します.リポジトリは,データアクセスコードを組織し,物体を回収およびストレージする論理を収縮するために使用できるパターンである.リポジトリは,データアクセスの懸念をアプリケーションの残りの部分から分離する方法を提供し,アプリケーションコードを特定のデータストレージ技術ではなくインターフェースに対して書き込むことができます.",
+        "links": [
+          {
+            "title": "倉庫設計パターンの紹介",
+            "url": "https://cubettech.com/resources/blog/introduction-to-repository-design-pattern/",
+            "type": "article"
+          },
+          {
+            "title": "チュートリアル - リポジトリデザインパターン",
+            "url": "https://www.youtube.com/watch?v=mb6bwnEaZ3U",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ndUTgl2YBzOdu1MQKJocu",
+      "type": "subtopic",
+      "label": "マッピング",
+      "position": {
+        "x": 99.23920485686646,
+        "y": 1923.8012136557593
+      },
+      "size": {
+        "width": 240,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "マッパーとは,企業アプリケーション開発において,異なるデータモデル間のマッピングに一貫して抽象的な方法を提供するために使用されるパターンである.アプリケーションとデータストレージの間の抽象層として機能し,データ変換のための一貫してシンプルなAPIを提供します.マッパーとは,データ形式またはモデルから別の形式に変換するために使用できるコンポーネントである.例えば,マッパーを使用してデータベースモデルからドメインモデル,またはドメインモデルからデータ転送オブジェクト (DTO) にデータ変換することができます.",
+        "links": [
+          {
+            "title": "データマッパー パターンの概要",
+            "url": "https://en.wikipedia.org/wiki/Data_mapper_pattern",
+            "type": "article"
+          },
+          {
+            "title": "チュートリアル - マッピング",
+            "url": "https://www.youtube.com/watch?v=7noMLStHcTE",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tyReIY4iO8kmyc_LPafp1",
+      "type": "subtopic",
+      "label": "トランザクションスクリプト",
+      "position": {
+        "x": 99.23920485686646,
+        "y": 1976.8012136557593
+      },
+      "size": {
+        "width": 240,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "トランザクション・スクリプトは,ビジネス・ロジックを単一の手順スクリプトに組織するエンタープライズアプリケーション開発で使用されるパターンである.特定のトランザクションのすべてのロジックが単一のスクリプトまたは機能に含まれている単純なCRUD (作成,読み,更新,削除) 操作に使用される.このパターンは実装し,理解しやすいが,アプリケーションの複雑性が増加するにつれて操作が困難になる.ドメイン駆動設計 (DDD) やアクティブレコードパターンはより複雑なアプリケーションに適している可能性があります.",
+        "links": [
+          {
+            "title": "トランザクションスクリプトパターン",
+            "url": "https://gunnarpeipman.com/transaction-script-pattern/",
+            "type": "article"
+          },
+          {
+            "title": "チュートリアル - トランザクション・スクリプトデザイン パターン",
+            "url": "https://www.youtube.com/watch?v=fnsU9cqcY3I",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "j_SUD3SxpKYZstN9LSP82",
+      "type": "subtopic",
+      "label": "コマンド / 問い合わせ",
+      "position": {
+        "x": 99.23920485686646,
+        "y": 2029.8012136557593
+      },
+      "size": {
+        "width": 240,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "コマンドとクエリ責任分離 (CQRS) パターンは,エンタープライズアプリケーション開発において,コマンド (書き込み) 操作とクエリ (読み込み) 操作を処理する責任をシステム状態を変更する,例えばデータの作成,更新,または削除を行うために分離するために使用する技術である.これらの操作は,データを検証し,適切なビジネス論理を実行する責任のあるコマンド・ハンドラーによって処理される.クエリは,データベースまたはキャッシュからデータを読み取ることなど,システムからデータを回収するために使用される.これらの操作は,適切なクエリを実行し,呼び出し者にデータを返す責任のあるクエリ・ハンドラーによって処理される.",
+        "links": [
+          {
+            "title": "CQRS パターンから始めましょう",
+            "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/cqrs",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Ks6njbfxOHiZ_TrJDnVtk",
+      "type": "subtopic",
+      "label": "価値オブジェクト",
+      "position": {
+        "x": 99.23920485686646,
+        "y": 2082.8012136557595
+      },
+      "size": {
+        "width": 240,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "値オブジェクトは,企業アプリケーション開発において,ドメインコンセプトをモデル化するために使用されるシンプルで変えない値を表現するために使用されるパターンである.それらは通常,エンティティではなく,ドメインにとって重要なデータをエンカプセル化するために使用されます.値オブジェクトは,そのアイデンティティではなく,その価値によって定義されます.つまり,同一価値を持つ2つの値オブジェクトは,そのアイデンティティに関係なく,等価とみなされます.",
+        "links": [
+          {
+            "title": "概要 - 価値目標を実装する",
+            "url": "https://learn.microsoft.com/en-us/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns/implement-value-objects",
+            "type": "article"
+          },
+          {
+            "title": "値オブジェクトへの入門",
+            "url": "https://en.wikipedia.org/wiki/Value_object",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "NpSfbzYtGebmfrifkKsUf",
+      "type": "subtopic",
+      "label": "ドメインモデル",
+      "position": {
+        "x": 99.23920485686646,
+        "y": 2135.8012136557595
+      },
+      "size": {
+        "width": 240,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ドメインモデルは,特定のドメインのビジネスコンセプトとルールを表示するために,企業アプリケーション開発で使用されるパターンです.通常,問題ドメイン,または特定のビジネスの専門分野をモデル化するために使用されます.ドメインモデルは,ドメインの現実世界の概念とエンティティを表示するオブジェクトの集合です.これらのオブジェクトは通常,クラスまたはタイプとしてモデル化され,ドメインに特有のデータと行動を封鎖します.彼らはモデル化されたビジネスコンセプトの状態と行動を表示し,ドメインのルールと制約を強制する責任があります.",
+        "links": [
+          {
+            "title": "概要 - ドメインモデル",
+            "url": "https://sparxsystems.com/enterprise_architect_user_guide/14.0/model_domains/specialized_models.html",
+            "type": "article"
+          },
+          {
+            "title": "チュートリアル - ドメインモデル パターン",
+            "url": "https://www.youtube.com/watch?v=75EGANiqADw",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "VnW_7dl5G0IFL9W3YF_W3",
+      "type": "subtopic",
+      "label": "企業",
+      "position": {
+        "x": 99.23920485686646,
+        "y": 2188.8012136557595
+      },
+      "size": {
+        "width": 240,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "エンティティは,エンタープライズアプリケーション開発において,ユニークなアイデンティティと寿命を持つビジネスコンセプトを表現するために使用されるパターンである.通常,顧客,注文,またはアカウントなどの異なるアイデンティティとライフサイクルを有する実世界のオブジェクトまたはコンセプトをモデル化するために使用されます.エンティティは,そのアイデンティティによって定義され,つまり同じアイデンティティを持つ2つのエンティティは,その状態に関係なく,同じものとみなされます.エンティティは,通常,それらを識別するために使用されるプライマリキーなどのユニークな識別子を持っています.また,その状態を記述する関連性または属性セットを持っています.",
+        "links": []
+      }
+    },
+    {
+      "id": "SYYulHfDceIyDkDT5fcqj",
+      "type": "subtopic",
+      "label": "ORM",
+      "position": {
+        "x": 99.23920485686646,
+        "y": 2241.8012136557595
+      },
+      "size": {
+        "width": 240,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ORMは,エンタープライズアプリケーション開発において,オブジェクト指向プログラミングモデルと関係データベースモデル間のマッピングに使用される技術である.開発者はそのコード内のオブジェクトと作業を可能にし,ORMツールはそれらのオブジェクトを適切なデータベース操作に翻訳することを管理する.ORMは,関係データベースと作業の複雑さを抽象化し,開発者がより高いレベル,オブジェクト指向APIを使用してデータベースと対話できるように設計されています.彼らは,コード内のオブジェクトをデータベース内のテーブルと行にマッピングするライブラリやツールセットを提供します.これは,開発者が複雑なSQLクエリを書くよりも,馴染みのあるオブジェクト指向パラダイムを使用してデータと作業することを可能にします.",
+        "links": [
+          {
+            "title": "なぜO.M.が必要なのか?",
+            "url": "https://enterprisecraftsmanship.com/posts/do-you-need-an-orm/",
+            "type": "article"
+          },
+          {
+            "title": "バックエンド開発に関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/backend?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "k_AR2YBSv077a6RwpCpZT",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": -182.82822136329878,
+        "y": 2024.839200216446
+      },
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "style": {
+        "strokeDasharray": "0",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.55,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "ef-jFKMs8jw3Ti94jem96",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": -183.82822136329878,
+        "y": 2362.6547713337786
+      },
+      "size": {
+        "width": 21,
+        "height": 74
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    }
+  ],
+  "edges": [
+    {
+      "id": "xy-edge__08qKtgnhJ3tlb5JKfTDf5x2-h0aeBhQRkDxNeFwDxT4Tfw1",
+      "source": "08qKtgnhJ3tlb5JKfTDf5",
+      "target": "TDhTYdEyBuOnDKcQJzTAk",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__h0aeBhQRkDxNeFwDxT4Tfy2-VhSEH_RoWFt1z2lial7xZz1",
+      "source": "TDhTYdEyBuOnDKcQJzTAk",
+      "target": "VhSEH_RoWFt1z2lial7xZ",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__h0aeBhQRkDxNeFwDxT4Tfy2-YswaOqZNYcmDwly2IXrTTz1",
+      "source": "TDhTYdEyBuOnDKcQJzTAk",
+      "target": "YswaOqZNYcmDwly2IXrTT",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__h0aeBhQRkDxNeFwDxT4Tfy2-VZrERRRYhmqDx4slnZtdcz1",
+      "source": "TDhTYdEyBuOnDKcQJzTAk",
+      "target": "VZrERRRYhmqDx4slnZtdc",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__TDhTYdEyBuOnDKcQJzTAkx2-h0aeBhQRkDxNeFwDxT4Tfw1",
+      "source": "TDhTYdEyBuOnDKcQJzTAk",
+      "target": "HhYdURE4X-a9GVwJhAyE0",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__9dMbo4Q1_Sd9wW6-HSCA9z2-h0aeBhQRkDxNeFwDxT4Tfy1",
+      "source": "9dMbo4Q1_Sd9wW6-HSCA9",
+      "target": "Jd79KXxZavpnp3mtE1q0n",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__h0aeBhQRkDxNeFwDxT4Tfz2-dBq7ni-of5v1kxpdmh227y1",
+      "source": "37xWxG2D9lVuDsHUgLfzP",
+      "target": "dBq7ni-of5v1kxpdmh227",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__37xWxG2D9lVuDsHUgLfzPx2-h0aeBhQRkDxNeFwDxT4Tfw1",
+      "source": "37xWxG2D9lVuDsHUgLfzP",
+      "target": "gJYff_qD6XS3dg3I-jJFK",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__h0aeBhQRkDxNeFwDxT4Tfy2-Kk7u2B67Fdg2sU8E_PGqrz1",
+      "source": "gJYff_qD6XS3dg3I-jJFK",
+      "target": "Kk7u2B67Fdg2sU8E_PGqr",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__h0aeBhQRkDxNeFwDxT4Tfy2-eJsCCURZAURCKnOK-XeQez1",
+      "source": "gJYff_qD6XS3dg3I-jJFK",
+      "target": "eJsCCURZAURCKnOK-XeQe",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__h0aeBhQRkDxNeFwDxT4Tfy2--arChRC9zG2DBmuSTHW0Jz1",
+      "source": "gJYff_qD6XS3dg3I-jJFK",
+      "target": "-arChRC9zG2DBmuSTHW0J",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__h0aeBhQRkDxNeFwDxT4Tfy2-CD20zA6k9FxUpMgHnNYRJz1",
+      "source": "gJYff_qD6XS3dg3I-jJFK",
+      "target": "CD20zA6k9FxUpMgHnNYRJ",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__h0aeBhQRkDxNeFwDxT4Tfy2-r-Yeca-gpdFM8iq7f0lYQz1",
+      "source": "gJYff_qD6XS3dg3I-jJFK",
+      "target": "r-Yeca-gpdFM8iq7f0lYQ",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__h0aeBhQRkDxNeFwDxT4Tfy2-5WSvAA3h3lmelL53UJSMyz1",
+      "source": "gJYff_qD6XS3dg3I-jJFK",
+      "target": "5WSvAA3h3lmelL53UJSMy",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__h0aeBhQRkDxNeFwDxT4Tfy2-GAs6NHBkUgxan3hyPvVs7z1",
+      "source": "gJYff_qD6XS3dg3I-jJFK",
+      "target": "GAs6NHBkUgxan3hyPvVs7",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__h0aeBhQRkDxNeFwDxT4Tfy2-K8X_-bsiy7gboInPzbiEbz1",
+      "source": "gJYff_qD6XS3dg3I-jJFK",
+      "target": "K8X_-bsiy7gboInPzbiEb",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__h0aeBhQRkDxNeFwDxT4Tfy2-IU86cGkLPMXUJKvTBywPuz1",
+      "source": "gJYff_qD6XS3dg3I-jJFK",
+      "target": "IU86cGkLPMXUJKvTBywPu",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__gJYff_qD6XS3dg3I-jJFKx2-h0aeBhQRkDxNeFwDxT4Tfw1",
+      "source": "gJYff_qD6XS3dg3I-jJFK",
+      "target": "h0aeBhQRkDxNeFwDxT4Tf",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__h0aeBhQRkDxNeFwDxT4Tfz2-tyReIY4iO8kmyc_LPafp1y1",
+      "source": "h0aeBhQRkDxNeFwDxT4Tf",
+      "target": "tyReIY4iO8kmyc_LPafp1",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__h0aeBhQRkDxNeFwDxT4Tfz2-ndUTgl2YBzOdu1MQKJocuy1",
+      "source": "h0aeBhQRkDxNeFwDxT4Tf",
+      "target": "ndUTgl2YBzOdu1MQKJocu",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__h0aeBhQRkDxNeFwDxT4Tfz2-8y0ot5sbplUIUyXe9gvc8y2",
+      "source": "h0aeBhQRkDxNeFwDxT4Tf",
+      "target": "8y0ot5sbplUIUyXe9gvc8",
+      "source_handle": "z2",
+      "target_handle": "y2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__h0aeBhQRkDxNeFwDxT4Tfz2-gQ7Xj8tsl6IlCcyJgSz46y1",
+      "source": "h0aeBhQRkDxNeFwDxT4Tf",
+      "target": "gQ7Xj8tsl6IlCcyJgSz46",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__h0aeBhQRkDxNeFwDxT4Tfz2-tb0X1HtuiGwz7YhQ5xPsVy2",
+      "source": "h0aeBhQRkDxNeFwDxT4Tf",
+      "target": "tb0X1HtuiGwz7YhQ5xPsV",
+      "source_handle": "z2",
+      "target_handle": "y2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__h0aeBhQRkDxNeFwDxT4Tfz2-y_Qj7KITSB8aUWHwiZ2Ity1",
+      "source": "h0aeBhQRkDxNeFwDxT4Tf",
+      "target": "y_Qj7KITSB8aUWHwiZ2It",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__h0aeBhQRkDxNeFwDxT4Tfz2-j_SUD3SxpKYZstN9LSP82y1",
+      "source": "h0aeBhQRkDxNeFwDxT4Tf",
+      "target": "j_SUD3SxpKYZstN9LSP82",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__h0aeBhQRkDxNeFwDxT4Tfz2-Ks6njbfxOHiZ_TrJDnVtky1",
+      "source": "h0aeBhQRkDxNeFwDxT4Tf",
+      "target": "Ks6njbfxOHiZ_TrJDnVtk",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__h0aeBhQRkDxNeFwDxT4Tfz2-NpSfbzYtGebmfrifkKsUfy1",
+      "source": "h0aeBhQRkDxNeFwDxT4Tf",
+      "target": "NpSfbzYtGebmfrifkKsUf",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__h0aeBhQRkDxNeFwDxT4Tfz2-VnW_7dl5G0IFL9W3YF_W3y1",
+      "source": "h0aeBhQRkDxNeFwDxT4Tf",
+      "target": "VnW_7dl5G0IFL9W3YF_W3",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__h0aeBhQRkDxNeFwDxT4Tfz2-SYYulHfDceIyDkDT5fcqjy1",
+      "source": "h0aeBhQRkDxNeFwDxT4Tf",
+      "target": "SYYulHfDceIyDkDT5fcqj",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    }
+  ],
+  "content_crawled_at": "2026-04-06T13:05:26.083309+00:00"
+}

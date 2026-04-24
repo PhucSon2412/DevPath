@@ -1,0 +1,3064 @@
+{
+  "id": "graphql",
+  "title": "グラフQL",
+  "source_url": "https://roadmap.sh/graphql",
+  "github_url": "https://github.com/kamranahmedse/developer-roadmap/tree/master/src/data/roadmaps/graphql",
+  "crawled_at": "2026-04-06T07:37:05.663480+00:00",
+  "type": "flow",
+  "stats": {
+    "total_nodes": 96,
+    "total_edges": 32,
+    "nodes_with_content": 65
+  },
+  "node_types": [
+    "button",
+    "horizontal",
+    "label",
+    "linksgroup",
+    "paragraph",
+    "section",
+    "subtopic",
+    "title",
+    "topic",
+    "vertical"
+  ],
+  "edge_styles": [
+    "dashed",
+    "solid"
+  ],
+  "edge_line_types": [
+    "default"
+  ],
+  "node_type_description": {
+    "title": "ロードマップの主題",
+    "topic": "主題大 (nhóm kỹ năng)",
+    "subtopic": "Kỹ năng/công nghệ cụ thể cần học",
+    "paragraph": "文は mô tả / chú thích",
+    "vertical": "Đường kết nối dọc (ビジュアルコネクタ)"
+  },
+  "edge_style_description": {
+    "solid": "Kỹ năng bắt buộc / quan trọng",
+    "dashed": "選択 / gợi ý / オルタナティブ"
+  },
+  "nodes": [
+    {
+      "id": "SFhbL3KKBd053kCVToTm1",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": 64.95192794899594,
+        "y": 1634.7051467174065
+      },
+      "size": {
+        "width": 150,
+        "height": 100
+      },
+      "style": {
+        "fontSize": 17,
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "BVXPP2J15hss2hF85urjN",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": -709.9579568300146,
+        "y": 1331.2051467174065
+      },
+      "size": {
+        "width": 150,
+        "height": 100
+      },
+      "style": {
+        "fontSize": 17,
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "0YJo_ti1JDu1GRmdC2WzA",
+      "type": "horizontal",
+      "label": "ホリゾントノード",
+      "position": {
+        "x": -103.1381872719935,
+        "y": 1129.355064975886
+      },
+      "size": {
+        "width": 50,
+        "height": 20
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.75,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "QGWApwm1h5K_n0M81b9DH",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": 68.2572052308409,
+        "y": 976.1275563289466
+      },
+      "size": {
+        "width": 150,
+        "height": 100
+      },
+      "style": {
+        "fontSize": 17,
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "D0RHwVcuH4qus_oiCbDo0",
+      "type": "horizontal",
+      "label": "ホリゾントノード",
+      "position": {
+        "x": -459.6381872719935,
+        "y": 989.4675181201998
+      },
+      "size": {
+        "width": 50,
+        "height": 20
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.75,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "C2zefkHdFZjID3CdqXmAy",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": -710.9579568300146,
+        "y": 880.5474215299696
+      },
+      "size": {
+        "width": 150,
+        "height": 100
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": -999
+    },
+    {
+      "id": "zQpkRd7jNV509JOpL6VxX",
+      "type": "horizontal",
+      "label": "ホリゾントノード",
+      "position": {
+        "x": -148.1381872719935,
+        "y": 750.3550649758861
+      },
+      "size": {
+        "width": 50,
+        "height": 20
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.75,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "icm7gi90MRG4vn9KUUaqR",
+      "type": "paragraph",
+      "label": "Int, Float, String, Boolean, ID",
+      "position": {
+        "x": 68.2572052308409,
+        "y": 645.5973159217342
+      },
+      "size": {
+        "width": 253,
+        "height": 62
+      },
+      "style": {
+        "fontSize": 17,
+        "borderColor": "#000000",
+        "backgroundColor": "#ffffff",
+        "color": "#000000",
+        "textAlign": "center",
+        "justifyContent": "flex-start",
+        "padding": 16
+      },
+      "z_index": 999
+    },
+    {
+      "id": "4qvR1QQzrmoVIVCAsp92H",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": -215.3175069304428,
+        "y": 2156.2541881503926
+      },
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "HU7wZWiES3m3xl1-NYP6F",
+      "type": "title",
+      "label": "グラフQL",
+      "position": {
+        "x": -283.3175069304428,
+        "y": -38.879087788307686
+      },
+      "size": {
+        "width": 156,
+        "height": 68
+      },
+      "style": {
+        "fontSize": 28,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "uqyE79OItPOX33E5FoGel",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": -215.3175069304428,
+        "y": -133.0992517776511
+      },
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.75,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "JfXwzkN29UGz17FYHHE3A",
+      "type": "topic",
+      "label": "序言",
+      "position": {
+        "x": -329.8175069304428,
+        "y": 152.4393516042962
+      },
+      "size": {
+        "width": 137,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "GraphQLは,クライアントが1回の呼び出しで必要なデータを正確に要求できるようにするAPIのクエリ言語と実行時間です.予測可能なフォーマットを提供し,複数のAPI呼び出しを削減し,過剰な検索を排除し,従来のRESTAPIよりもデータ回収をより効率的にします.",
+        "links": [
+          {
+            "title": "GraphQLへの導入",
+            "url": "https://graphql.org/learn/",
+            "type": "official"
+          },
+          {
+            "title": "GraphQL で開始する",
+            "url": "https://graphql.org/",
+            "type": "official"
+          },
+          {
+            "title": "GraphQLに関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/graphql?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cMfsRtvzvDZZJ0TqeUOxm",
+      "type": "subtopic",
+      "label": "GraphQLとは何か",
+      "position": {
+        "x": 40.8618127280065,
+        "y": 46.439351604296206
+      },
+      "size": {
+        "width": 303,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "GraphQLは,クライアントが必要なデータを正確に要求できるようにするAPIとサーバーサイドランタイムのためのクエリ言語です.RESTとは異なり,データ構造を定義するためにタイプシステムを使用し,単一の要求で複数のリソースを集めることができ,過剰と不足の問題を軽減します.",
+        "links": [
+          {
+            "title": "GraphQLへの導入",
+            "url": "https://graphql.org/learn/",
+            "type": "official"
+          },
+          {
+            "title": "チュートリアル - グラフQLとは何か?",
+            "url": "https://www.howtographql.com/basics/0-introduction/",
+            "type": "article"
+          },
+          {
+            "title": "GraphQLに関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/graphql?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2rlmLn_yQQV-7DpX1qT98",
+      "type": "subtopic",
+      "label": "グラフQL の 解決 の 問題",
+      "position": {
+        "x": 40.8618127280065,
+        "y": 99.4393516042962
+      },
+      "size": {
+        "width": 303,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "GraphQLは,過剰な検索 (不必要なデータを入手する),過小な検索 (複数の要求が必要),不効率なバージョン作成,柔軟性の欠如を含む主要なAPI問題を解決します.正確なデータ要求,複数のリソースのための単一のクエリ,スキーマ進化を通じてシームレスなバージョン作成,および連邦を通じてマイクロサービス通信を可能にします.",
+        "links": []
+      }
+    },
+    {
+      "id": "J5mU0v491qrm-mr1W3Msd",
+      "type": "subtopic",
+      "label": "グラフ で 考える",
+      "position": {
+        "x": 40.8618127280065,
+        "y": 152.4393516042962
+      },
+      "size": {
+        "width": 303,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "\"グラフで考える\"とは,データがノード (オブジェクト) とエッジ (関係) のグラフとして組織されるグラフQLマインドセットである.このアプローチは,接続されたデータポイント間の関係をフォローすることによって柔軟かつ直感的なクエリを可能にします.",
+        "links": [
+          {
+            "title": "グラフQL - グラフで考える",
+            "url": "https://graphql.org/learn/thinking-in-graphs/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "W_Lg8086ZhrIqtck1sgnb",
+      "type": "topic",
+      "label": "グラフQL 查询",
+      "position": {
+        "x": -329.8175069304428,
+        "y": 260.43935160429623
+      },
+      "size": {
+        "width": 181,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "GraphQLクエリとは,サーバから特定のデータを取得するクライアントの要求である.データ要件に適合する階層構造を使用して,どのフィールドが返還されるべきかを正確に指定する.クエリはGraphQL構文で書かれ,要求されたデータを取得するためにサーバーが実行する.",
+        "links": [
+          {
+            "title": "GraphQL クエリとは何か?",
+            "url": "https://graphql.org/learn/queries/",
+            "type": "official"
+          },
+          {
+            "title": "GraphQLに関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/graphql?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6r9XbwlBtHmJrhviG2cTD",
+      "type": "subtopic",
+      "label": "フロントエンドのグラフQL",
+      "position": {
+        "x": 40.8618127280065,
+        "y": 205.4393516042962
+      },
+      "size": {
+        "width": 303,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "フロントエンドのGraphQLは,アポロ,URQL,またはリレーなどのクライアントで効率的なデータ収集を可能にします. 声明的なデータ要件,インテリジェントキャッシング,リアルタイムサブスクリプション,タイプセキュリティを提供します. フロントエンドアプリケーションが単一のクエリで必要なデータを正確に要求できるようにします.",
+        "links": [
+          {
+            "title": "グラフQLをフロントエンドで開始します",
+            "url": "https://www.howtographql.com/react-apollo/0-introduction/",
+            "type": "article"
+          },
+          {
+            "title": "フロントエンド開発に関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/frontend?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ODQ8zrHc2rsc8PN-APKvz",
+      "type": "subtopic",
+      "label": "バックエンドのグラフQL",
+      "position": {
+        "x": 40.8618127280065,
+        "y": 258.43935160429623
+      },
+      "size": {
+        "width": 303,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "GraphQLのバックエンドは,GraphQLのクエリ,突然変異,サブスクリプションを実行するサーバーの実装を含みます.スケーマを定義し,レズルバーを書く,データソースを管理し,認証/認証を実装し,キャッシングとバッチング戦略を通じてパフォーマンスを最適化します.",
+        "links": [
+          {
+            "title": "バックエンドでGraphQLを使用するには?",
+            "url": "https://www.howtographql.com/",
+            "type": "article"
+          },
+          {
+            "title": "バックエンド開発に関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/backend?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2SU4dcaz7zwGsF7g8FjmI",
+      "type": "subtopic",
+      "label": "クエリとは何か?",
+      "position": {
+        "x": -707.4579568300146,
+        "y": 101.4393516042962
+      },
+      "size": {
+        "width": 193,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "GraphQLでは,クライアントがサーバーからデータを取得するリクエストです. 要求されたデータの属性に対応するフィールドの階層的な木として構造化され,クライアントが予測可能なフォーマットで必要なデータを正確に指定することができます.",
+        "links": [
+          {
+            "title": "グラフQLの紹介 - 問い合わせ",
+            "url": "https://graphql.org/learn/queries/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Pc9H7AcoqJQkWnuhbytyD",
+      "type": "subtopic",
+      "label": "フィールド",
+      "position": {
+        "x": -707.4579568300146,
+        "y": 154.4393516042962
+      },
+      "size": {
+        "width": 193,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "GraphQL のフィールドは,要求されたデータの性質を表す,クエリまたは変更可能な個々のデータです.それらはGraphQL スキーマで定義され,クエリや変異の構成要素として機能し,各タイプにどのようなデータがあるかを指定します.",
+        "links": [
+          {
+            "title": "GraphQL:タイプとフィールド",
+            "url": "https://graphql.org/learn/queries/#fields",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "B77yLU4SuRChSjEbmYwc-",
+      "type": "subtopic",
+      "label": "副名",
+      "position": {
+        "x": -707.4579568300146,
+        "y": 260.43935160429623
+      },
+      "size": {
+        "width": 193,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "GraphQL の アライアスは,質問応答におけるフィールドの名前変更で,同じフィールドを異なった議論で複数回要求する際に,またはクライアント使用に適していないとき,有用である.彼らは応答におけるフィールドを区別し,質問の読みやすさと使用性を向上させる.",
+        "links": [
+          {
+            "title": "GraphQL アライアスは何ですか?",
+            "url": "https://graphql.org/learn/queries/#aliases",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hrpb108R8Gyu3hhzkMYzL",
+      "type": "subtopic",
+      "label": "議論",
+      "position": {
+        "x": -707.4579568300146,
+        "y": 313.43935160429623
+      },
+      "size": {
+        "width": 193,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "GraphQL の議論は,フィルタリング,分類,ページ化,または構成オプションなどの実行詳細を指定するためにフィールドまたは指示に転送される値です.それらはキー-値ペアとして送信され,変数として定義され,フィールド定義によってオプションまたは要求される可能性があります.",
+        "links": [
+          {
+            "title": "グラフQL - 議論",
+            "url": "https://graphql.org/learn/queries/#arguments",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "MnmwccPahqPCzOhqjfbsY",
+      "type": "subtopic",
+      "label": "指示",
+      "position": {
+        "x": -707.4579568300146,
+        "y": 366.43935160429623
+      },
+      "size": {
+        "width": 193,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "GraphQLの指示は,フィールド,オペレーション,およびフラグメントに動作または検証を追加することでクエリを実行を変更します.それらは動作を構成するための議論を取り, @include, @skipなどの内蔵指示,または特定の機能のために開発者が定義したカスタム指示を含むことができます.",
+        "links": [
+          {
+            "title": "グラフQLにおける指令",
+            "url": "https://graphql.org/learn/queries/#directives",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "YZaFEK547FYricfOuANvH",
+      "type": "subtopic",
+      "label": "変数",
+      "position": {
+        "x": -707.4579568300146,
+        "y": 207.43935160429623
+      },
+      "size": {
+        "width": 193,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "GraphQL の変数は,ダイナミックな値をクエリや変異に転送し,柔軟かつ再利用可能になります. $ 符号とタイプで定義され,その値は別の JSON オブジェクトで転送されます.変数はタイプセキュアで,定義されたタイプに一致する値を保証します.",
+        "links": [
+          {
+            "title": "GraphQL の変数への入門",
+            "url": "https://graphql.org/learn/queries/#variables",
+            "type": "official"
+          },
+          {
+            "title": "GraphQL 変数",
+            "url": "https://dgraph.io/docs/graphql/api/variables/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "CehwjrCG_wbUU-TFNCuJn",
+      "type": "subtopic",
+      "label": "フラグメント",
+      "position": {
+        "x": -707.4579568300146,
+        "y": 419.43935160429623
+      },
+      "size": {
+        "width": 193,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "GraphQL の断片は,特定のフィールドを1つまたは複数のタイプから回収する再利用可能なクエリのパーツです. \"断片\"キーワードで定義され,コードの再利用を促進し,重複を軽減し,一般的なフィールド選択を分離することによって複雑なクエリをより維持可能にする.",
+        "links": [
+          {
+            "title": "GraphQL の断片への入門",
+            "url": "https://graphql.org/learn/queries/#fragments",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "jy_91mhFWbpR6sYVbuX1x",
+      "type": "topic",
+      "label": "変異",
+      "position": {
+        "x": -329.8175069304428,
+        "y": 396.6629724396304
+      },
+      "size": {
+        "width": 121,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "GraphQL の変異は,サーバー上のデータを修正するために使用され,記録を作成したり,更新したり,削除したりします.それらはクエリのように構造化されていますが,上位で\"変異\"フィールドを使用し,変更されるデータと操作タイプを指定するフィールドが含まれます.",
+        "links": [
+          {
+            "title": "変異から始めます",
+            "url": "https://graphql.org/learn/queries/#mutations",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "9Q2pGidY-rfkltHq3vChp",
+      "type": "subtopic",
+      "label": "変異とは何か?",
+      "position": {
+        "x": 40.8618127280065,
+        "y": 343.6629724396304
+      },
+      "size": {
+        "width": 249,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "GraphQL の変異は,サーバー上のデータを修正するために使用される操作である.記録を作成したり,更新したり,削除したりします.それらはクエリのように構造化されていますが,上位で\"変異\"フィールドを使用し,変更されるデータと操作タイプを指定するフィールドが含まれます.",
+        "links": [
+          {
+            "title": "変異から始めましょう",
+            "url": "https://graphql.org/learn/mutations/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "AySlY8AyI6jE-cy-qKKOU",
+      "type": "subtopic",
+      "label": "変異 の 複数の 領域",
+      "position": {
+        "x": 40.8618127280065,
+        "y": 396.6629724396304
+      },
+      "size": {
+        "width": 249,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "グラフQLは複数の変異フィールドを含むことで,単一のクエリに複数の変異を可能にします.このアプローチはクライアントとサーバー間の往復の数を減らすことでネットワーク効率を向上させます.",
+        "links": [
+          {
+            "title": "変異における複数のフィールドのガイド",
+            "url": "https://graphql.org/learn/mutations/#multiple-fields-in-mutations",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q9TYEygvUyHourdZIvk8G",
+      "type": "subtopic",
+      "label": "運用名",
+      "position": {
+        "x": 40.8618127280065,
+        "y": 449.6629724396304
+      },
+      "size": {
+        "width": 249,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "操作名は,複数の操作を持つドキュメントの操作をユニークに識別するのに役立つGraphQLクエリおよび変異のためのオプション識別子である.それらは,操作のための有意義な名前を提供し,デバッグを改善し,複雑なアプリケーションでエラー識別を容易にする.",
+        "links": [
+          {
+            "title": "運用名への入門",
+            "url": "https://graphql.org/learn/queries/#operation-name",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "IbEqXlGjsyNLKE9dZrPPk",
+      "type": "topic",
+      "label": "サブスクリプション",
+      "position": {
+        "x": -329.8175069304428,
+        "y": 604.2881469175232
+      },
+      "size": {
+        "width": 148,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "GraphQL のサブスクリプションは,クライアントがサーバー上の特定のイベントまたはデータ変更にサブスクリプションを許可することによって,リアルタイム更新を可能にします.サーバーはオープンな接続を維持し,イベントまたはデータ変更が発生するとすぐにサブスクリプションクライアントにアップデートを送信します.",
+        "links": [
+          {
+            "title": "サブスクリプションとライブ質問 - GraphQLでリアルタイム",
+            "url": "https://the-guild.dev/blog/subscriptions-and-live-queries-real-time-with-graphql",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "RlBc-hWEUOPaEQLTgJa-K",
+      "type": "subtopic",
+      "label": "サブスクリプションとは",
+      "position": {
+        "x": -710.4579568300146,
+        "y": 547.2881469175232
+      },
+      "size": {
+        "width": 267,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "GraphQL のサブスクリプションは,クライアントがサーバー上の特定のイベントやデータ変更をサブスクリプションできるようにして,リアルタイム更新を可能にします.それらは,最高レベルの\"サブスクリプション\"フィールドを持つクエリのように構造化され,イベントが発生するとすぐにクライアントに更新を押し付けます.",
+        "links": [
+          {
+            "title": "GraphQL サブスクリプションはどのように機能するのですか?",
+            "url": "https://the-guild.dev/blog/subscriptions-and-live-queries-real-time-with-graphql",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "kJMyRhasBKfBypent3GxK",
+      "type": "subtopic",
+      "label": "イベント ベース の サブスクリプション",
+      "position": {
+        "x": -710.4579568300146,
+        "y": 604.2881469175232
+      },
+      "size": {
+        "width": 267,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "GraphQLのイベントベースのサブスクリプションは,特定のイベントまたはデータ変更をサブスクリプションすることによってリアルタイム更新を提供します.クライアントはWebSocketsを通じて継続的な接続を維持し,サブスクリプションのイベントが発生したときにライブアップデートを受信し,リアルタイム機能を持つリアクティブアプリケーションを可能にします.",
+        "links": [
+          {
+            "title": "GraphQL サブスクリプション ドキュメンテーション",
+            "url": "https://graphql.org/blog/subscriptions-in-graphql-and-relay/",
+            "type": "official"
+          },
+          {
+            "title": "GraphQL サブスクリプション",
+            "url": "https://the-guild.dev/blog/subscriptions-and-live-queries-real-time-with-graphql",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "CHdzww8_TNfeM6Bp1oTPI",
+      "type": "subtopic",
+      "label": "ライブ 問い合わせ",
+      "position": {
+        "x": -710.4579568300146,
+        "y": 657.2881469175232
+      },
+      "size": {
+        "width": 267,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ライブクエリは,データ変更時にクエリ結果を自動的に更新し,手動サブスクリプション管理なしでリアルタイム同期を提供します.この高度な機能は,特化した GraphQL実装を必要とするが,自動的に新しいデータを保持することによって,反応的なアプリケーションを構築することを簡素化します.",
+        "links": [
+          {
+            "title": "GraphQL ライブクエリ",
+            "url": "https://the-guild.dev/blog/collecting-graphql-live-query-resource-identifier-with-graphql-tools",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "t6XxFB_lx27kS4FE2_GMH",
+      "type": "subtopic",
+      "label": "@defer / @stream指令",
+      "position": {
+        "x": -710.4579568300146,
+        "y": 710.2881469175232
+      },
+      "size": {
+        "width": 267,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Defer と Stream ディレクティブは,インクリメンタルデータ配信のための実験的な GraphQL 機能です. @defer は初期応答時間を改善するために非重要なフィールドを延期し, @stream はリストアイテムを徐々に送信し,大規模なデータセットと遅いロードフィールドでより良いユーザー体験を可能にします.",
+        "links": [
+          {
+            "title": "GraphQL でデフォールとストリーム",
+            "url": "https://the-guild.dev/graphql/yoga-server/docs/features/defer-stream",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "lj1WEh4WbfBsoZFYsi1Yz",
+      "type": "topic",
+      "label": "スケム",
+      "position": {
+        "x": -329.8175069304428,
+        "y": 735.8550649758861
+      },
+      "size": {
+        "width": 108,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "GraphQL スキーマは,Schema Definition Language (SDL) を使用した GraphQL API の構造と機能を定義します.クライアントとサーバー間の契約として機能するタイプ,フィールド, аргумент,関係,ルーツ操作 (Query, Mutation, Subscription) を指定します.",
+        "links": [
+          {
+            "title": "スケマとは何か?",
+            "url": "https://graphql.org/learn/schema/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "jpu0_FAlxtD-H80mPcod5",
+      "type": "subtopic",
+      "label": "タイプシステム",
+      "position": {
+        "x": 68.2572052308409,
+        "y": 537.9979529933375
+      },
+      "size": {
+        "width": 308,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "GraphQLは,アプリケーションで利用可能なデータタイプを定義するタイプシステムで強くタイプされます.Scalar,Object,Query,Mutation,Enumタイプを含む.タイプシステムは,予測可能なAPIインタラクションのためにクライアントとサーバー間の契約として動作するスキーマを定義します.",
+        "links": [
+          {
+            "title": "タイプシステムから始めましょう",
+            "url": "https://graphql.org/learn/schema/#type-system",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "HPdntdgTar1T34CZX8Y6y",
+      "type": "subtopic",
+      "label": "フィールド",
+      "position": {
+        "x": 68.2572052308409,
+        "y": 590.9979529933375
+      },
+      "size": {
+        "width": 308,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "GraphQL のフィールドは,查询または操作可能なデータ単位です.各フィールドには名前,タイプ,オプション説明があり,スケラー値またはオブジェクトを返却することができ,複雑な嵌まったデータ構造を可能にし,フィルタリングのための議論を採取します.",
+        "links": [
+          {
+            "title": "GraphQL:タイプとフィールド",
+            "url": "https://graphql.org/learn/queries/#fields",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "U-tLelmNQtR-pUq-sxU_2",
+      "type": "subtopic",
+      "label": "スカラー",
+      "position": {
+        "x": 81.3770177634091,
+        "y": 707.608352612866
+      },
+      "size": {
+        "width": 308,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "スカラーとは,グラフQLで原始的なデータ型を表す\"葉\"値である.内蔵のスケラーには,ユニークな識別子のためのString,Int, Float,Boolean,IDが含まれます.日付,JSON,または大きな整数などの特定のニーズのためにカスタムスケラーが定義され,基本的な原始的なシステムを超えてタイプシステムを拡張できます.",
+        "links": [
+          {
+            "title": "GraphQL で Scalars を始めましょう",
+            "url": "https://graphql.org/learn/schema/#scalar-types",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "wfOsfb0zSAIdNkwFHfBcw",
+      "type": "subtopic",
+      "label": "エナム",
+      "position": {
+        "x": 68.2572052308409,
+        "y": 776.5973159217342
+      },
+      "size": {
+        "width": 150,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Enums (enumeration types) は,特定の許容値集合に限定された特殊なスケーラーである.それらは許容値に対する議論を検証し,フィールドは常に先程定義されたオプションの有限集合の1つであることをタイプシステムを通じて伝達する.",
+        "links": [
+          {
+            "title": "エナムとは何か?",
+            "url": "https://graphql.org/learn/schema/#enumeration-types",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tc_rjJZrr2x3bp8mcoQ0F",
+      "type": "subtopic",
+      "label": "インターフェース",
+      "position": {
+        "x": 211.8618127280065,
+        "y": 829.5973159217342
+      },
+      "size": {
+        "width": 156,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "GraphQL のインターフェースは,実装型を含むべきフィールドの集合を定義します.同じインターフェースを実装する異なるタイプの共通フィールドクエリを可能にするため,コードの再利用と一貫したAPI設計を促進します.",
+        "links": [
+          {
+            "title": "インターフェイスから始めましょう",
+            "url": "https://graphql.org/learn/schema/#interfaces",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "d2ikbo4sZq7PmaCi5znkd",
+      "type": "subtopic",
+      "label": "リスト",
+      "position": {
+        "x": 68.2572052308409,
+        "y": 829.5973159217342
+      },
+      "size": {
+        "width": 150,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "GraphQL のリストは,アイテムタイプ周辺の平方括弧を使用して定義されたアイテムの順序集合を表します.それらはスケーラー,オブジェクト,または他のリストを含むことができ,スケーマで複雑な嵌まったデータ構造とアレイベースのフィールドリターンを可能にします.",
+        "links": [
+          {
+            "title": "リストから始めましょう",
+            "url": "https://graphql.org/learn/schema/#lists-and-non-null",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "LX9vZpx7yKlf0iR6AtBWz",
+      "type": "subtopic",
+      "label": "対象",
+      "position": {
+        "x": 211.8618127280065,
+        "y": 776.5973159217342
+      },
+      "size": {
+        "width": 156,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "GraphQL のオブジェクトは,クエリや変異の構造を定義するフィールドを代表するタイプである.各フィールドはスケラー値または他のオブジェクトを返却することができ,複雑な巣立データ構造を可能にします.オブジェクトは\"タイプ\"キーワードを使用して定義され,名称とフィールド定義が続く.",
+        "links": [
+          {
+            "title": "オブジェクトタイプとフィールド",
+            "url": "https://graphql.org/learn/schema/#object-types-and-fields",
+            "type": "official"
+          },
+          {
+            "title": "オブジェクトタイプ",
+            "url": "https://graphql.org/graphql-js/object-types/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "59COH3rerJJzKr6vrj4bF",
+      "type": "subtopic",
+      "label": "労働組合",
+      "position": {
+        "x": 68.2572052308409,
+        "y": 881.5973159217342
+      },
+      "size": {
+        "width": 150,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ユニオンではフィールドが複数のタイプを返して,クライアント内のさまざまなタイプに対して異なる処理を可能にします. ユニオンでは,タイプを集めてスケーマの柔軟性を提供しますが,インターフェースのようにタイプ間で共通のフィールドのクエリを許可しません.",
+        "links": [
+          {
+            "title": "GraphQL で Union を始めましょう",
+            "url": "https://graphql.org/learn/schema/#union-types",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "A54vi3Ao7fBHyTuqoH_it",
+      "type": "subtopic",
+      "label": "議論",
+      "position": {
+        "x": 211.8618127280065,
+        "y": 881.5973159217342
+      },
+      "size": {
+        "width": 150,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "GraphQL の議論は,返回されたデータをフィルタまたは修正するために,クエリや変異のフィールドに転送される値です.それらは,ダイナミックなデータ取得を可能にする名前,タイプ,オプションのデフォルト値を持つスキーマで定義されています.",
+        "links": [
+          {
+            "title": "GraphQL で 議論を始める",
+            "url": "https://graphql.org/learn/schema/#arguments",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2q3TO7k_byrLI7LkcCplG",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": 37.678457293951865,
+        "y": 540.4979529933375
+      },
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.75
+      },
+      "z_index": 999
+    },
+    {
+      "id": "iYkHCKTsjtvo40f3eZoet",
+      "type": "topic",
+      "label": "認証",
+      "position": {
+        "x": -329.8175069304428,
+        "y": 855.4546928118529
+      },
+      "size": {
+        "width": 119,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "GraphQL の検証は,クエリや変異がスケーマ規則と制約に準拠することを保証します.実行前に必要なフィールド,正しいアーグメントタイプ,および値範囲をチェックし,無効な操作を防止し,APIの信頼性を向上します.",
+        "links": [
+          {
+            "title": "GraphQLで検証を開始する",
+            "url": "https://graphql.org/learn/validation/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "72wGg6yP8WnEdmkeKL9vh",
+      "type": "topic",
+      "label": "執行",
+      "position": {
+        "x": -329.8175069304428,
+        "y": 974.9675181201998
+      },
+      "size": {
+        "width": 121,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "GraphQLでの実行は,クエリまたは突然変異を実行し,クライアントに結果を返すプロセスである. GraphQL エンジンは,最終的な応答を生成するために解析,検証,データ回収手順を実行し,さまざまなソースからデータを取得するために解決機能を調整します.",
+        "links": [
+          {
+            "title": "GraphQLで実行を開始する",
+            "url": "https://graphql.org/learn/execution/",
+            "type": "official"
+          },
+          {
+            "title": "執行への入門",
+            "url": "https://graphql.org/graphql-js/execution/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "AlJlHZD3_SPoLNaqdM-pB",
+      "type": "subtopic",
+      "label": "根の畑",
+      "position": {
+        "x": -710.4579568300146,
+        "y": 806.4546928118529
+      },
+      "size": {
+        "width": 267,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ルーツフィールドは,GraphQLクエリおよび変異におけるクライアントに利用可能なトップレベルのフィールドです.クライアントのリクエストのエントリーポイントとして機能し,サーバ上のデータを修正するためのクエリフィールドと変異フィールドがあります.",
+        "links": [
+          {
+            "title": "根 の 畑 を 始め て ください",
+            "url": "https://graphql.org/learn/execution/#root-fields-resolvers",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "VDur5xYBC0LJtQgDrSEyj",
+      "type": "subtopic",
+      "label": "解決器",
+      "position": {
+        "x": -710.4579568300146,
+        "y": 859.4546928118529
+      },
+      "size": {
+        "width": 267,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center",
+        "colorType": "h"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "解析器は,GraphQL 查询および変異における各フィールドのデータを取得する機能です.スケーマで定義され,GraphQL サーバによって実行され,データベース,API,または他のソースからデータを回収し,クライアントに返します.",
+        "links": [
+          {
+            "title": "解決法 の ガイド",
+            "url": "https://the-guild.dev/blog/better-type-safety-for-resolvers-with-graphql-codegen",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "uPpsj2kCdgKsJpmTaw86u",
+      "type": "subtopic",
+      "label": "シンクロン",
+      "position": {
+        "x": -690.9579568300146,
+        "y": 917.4883475571679
+      },
+      "size": {
+        "width": 227,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "GraphQL の同期解像機は,外部操作を待たないうちにすぐに実行し,直接結果を返します.任意の値を返還する前に実行を完了します.",
+        "links": [
+          {
+            "title": "GraphQL実行",
+            "url": "https://graphql.org/learn/execution/",
+            "type": "official"
+          },
+          {
+            "title": "決定 を 理解 する 人",
+            "url": "https://www.apollographql.com/docs/apollo-server/data/resolvers/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tbDvQBtLRAcD-xYX9V7Va",
+      "type": "subtopic",
+      "label": "アシンクロン",
+      "position": {
+        "x": -690.9579568300146,
+        "y": 970.4883475571679
+      },
+      "size": {
+        "width": 227,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "GraphQL のアシンクロンレスルバーは,即時値ではなく約束を返却する機能です.結果返還する前にデータベースクエリやAPI コールのような外部操作を待機させ,ブロックしない実行を可能にします.",
+        "links": [
+          {
+            "title": "アシンクロン症について始めましょう",
+            "url": "https://graphql.org/learn/execution/#asynchronous-resolvers",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "QFUOmJlPkkjpcl1vJxg9h",
+      "type": "subtopic",
+      "label": "スカラー強制",
+      "position": {
+        "x": -690.9579568300146,
+        "y": 1023.4883475571679
+      },
+      "size": {
+        "width": 227,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "グラフQLのスケーラー強制は,期待されるタイプと一致しないが,成功に変換できる場合,入力値を1タイプから別のタイプに変換します.このプロセスは,タイプ変換を処理する強制機能を持つカスタムスケーラータイプを使用して実装されます.",
+        "links": [
+          {
+            "title": "スカラー強迫から始めましょう",
+            "url": "https://graphql.org/learn/execution/#scalar-coercion",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sJ1_c3e08aehiqNMbIEEP",
+      "type": "subtopic",
+      "label": "リスト",
+      "position": {
+        "x": -690.9579568300146,
+        "y": 1076.488347557168
+      },
+      "size": {
+        "width": 227,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "GraphQL のリストは,順序化されたアイテムの集合を表し,フィールドの返却タイプとして使用できます. スカラーやオブジェクトを含むあらゆる種類のアイテムを含みます. 解析機能は,通常,データベースまたはAPIからの数列としてデータを返却します.",
+        "links": [
+          {
+            "title": "リストと非ゼロから始めましょう",
+            "url": "https://graphql.org/learn/schema/#lists-and-non-null",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "I4wNBXV4xEZ0LWBhv5FwF",
+      "type": "subtopic",
+      "label": "認証",
+      "position": {
+        "x": -710.9579568300146,
+        "y": 1144.5474215299696
+      },
+      "size": {
+        "width": 267,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "GraphQL の検証は,フィールドアクセス,タイプ正確性,入力制限を検証することによって,查询および変異がスケーマ規則に準拠することを保証します.GraphQL サーバは実行前にすべての入力操作を検証し,不正な查询に対して違反に関する具体的な詳細を返します.",
+        "links": [
+          {
+            "title": "GraphQLで検証を開始する",
+            "url": "https://graphql.org/learn/validation/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "zQHifboRreE4OgJ7GnUlp",
+      "type": "subtopic",
+      "label": "結果 を 生み出す",
+      "position": {
+        "x": -710.9579568300146,
+        "y": 1198.5474215299696
+      },
+      "size": {
+        "width": 267,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "GraphQL で結果を生成することは,クエリや突然変異に対する最終的な応答を生成することを意味します.このプロセスには,要求を解析し,スキーマに対して検証し,データを取得するための解析符を実行し,クエリ要件に応じて応答をフォーマットする.",
+        "links": [
+          {
+            "title": "GraphQL を 始める",
+            "url": "https://graphql.org/learn/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "jk64WxDch-mqf3_8SdY-D",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": -468.4579568300146,
+        "y": 803.9546928118529
+      },
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.75
+      },
+      "z_index": 999
+    },
+    {
+      "id": "inhjhH-7xJyX8o4DQqErF",
+      "type": "topic",
+      "label": "インターネット で 奉仕 する",
+      "position": {
+        "x": -329.8175069304428,
+        "y": 1114.371143674773
+      },
+      "size": {
+        "width": 207,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "インターネット上でGraphQLをサービスすることは,公共のIPアドレスまたはドメイン名を通じてクライアントにGraphQLサーバをアクセスできるようにすることです.これは,GraphQLエンドポイントを公開するためにリバースプロキシ,クラウドサービス,またはサーバーレス機能を使用して行うことができます.",
+        "links": [
+          {
+            "title": "HTTP で サービス への導入",
+            "url": "https://graphql.org/learn/serving-over-http/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Ya0ORdmEHEPpp1GAzMLVT",
+      "type": "label",
+      "label": "HTTP に関するグラフQL",
+      "position": {
+        "x": 117.2572052308409,
+        "y": 987.3919731117412
+      },
+      "size": {
+        "width": 176,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "V3bgswBFr1xames3F8S_V",
+      "type": "subtopic",
+      "label": "グラフQL 超 HTTP 仕様",
+      "position": {
+        "x": 80.7572052308409,
+        "y": 1034.3919731117412
+      },
+      "size": {
+        "width": 245,
+        "height": 69
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "GraphQL over HTTP 仕様では,要求/応答フォーマット,ステータスコード,コンテンツタイプを含む HTTP で GraphQL を配信するための標準慣行を定義します.異なる GraphQL 実装間の相互運用性を確保し,プラットフォーム間の API 行動に一致するガイドラインを提供します.",
+        "links": []
+      }
+    },
+    {
+      "id": "UYwuUVTeurwODV4_Kdt_W",
+      "type": "subtopic",
+      "label": "キャッシング",
+      "position": {
+        "x": 80.7572052308409,
+        "y": 1087.3919731117412
+      },
+      "size": {
+        "width": 245,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "GraphQLのキャッシングは,再利用のためのクエリ結果を保存することによってパフォーマンスを向上させる.戦略にはHTTPキャッシング,レスポンスのキャッシング,バッチリクエストのためのデータローダー,および冗長なAPIコールを削減し,ユーザー体験を改善するためにクライアントレベルで標準化キャッシングが含まれます.GraphQLで使用できるキャッシングにはいくつかの種類があります: *クライアントサイドキャッシング *サーバーサイドキャッシング *CDNキャッシング",
+        "links": [
+          {
+            "title": "キャッシングを始める",
+            "url": "https://graphql.org/learn/caching/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "v9gVexHfDkpG9z3NL5S-9",
+      "type": "subtopic",
+      "label": "バッチング",
+      "position": {
+        "x": 194.7572052308409,
+        "y": 1087.3919731117412
+      },
+      "size": {
+        "width": 245,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "GraphQL の バッチングは,ネットワークのオーバーヘッドを削減し,パフォーマンスを向上させるために複数のクエリを単一のクエリに組み合わせます. DataLoader は,データベースのクエリをバッチングしキャッシュする一般的なパターンで,N+1クエリの問題を解決し,データ収集効率を最適化します.",
+        "links": [
+          {
+            "title": "DataLoader",
+            "url": "https://github.com/graphql/dataloader",
+            "type": "opensource"
+          },
+          {
+            "title": "N+1 問題 の 解決",
+            "url": "https://shopify.engineering/solving-the-n-1-problem-for-graphql-through-batching",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "i-zcfN6RNXhA_sb7DcIon",
+      "type": "subtopic",
+      "label": "許可",
+      "position": {
+        "x": 80.7572052308409,
+        "y": 1139.5474215299696
+      },
+      "size": {
+        "width": 245,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "GraphQL の権限は,ユーザの役割や許可に基づいて GraphQL のスケーマ内の特定のフィールド,タイプ,または操作へのアクセスを制御するプロセスを指します.ユーザの役割または許可に基づいてアプリケーション内の特定のデータまたは機能へのアクセスを制限することができます. GraphQL で権限を実装する方法はいくつかがあります: * ミドルウェアを使用する * スケーマ指令を使用する * データソース層を使用する",
+        "links": [
+          {
+            "title": "許可 を 入手 する",
+            "url": "https://graphql.org/learn/authorization/",
+            "type": "official"
+          },
+          {
+            "title": "許可に関するトップ記事を探索する",
+            "url": "https://app.daily.dev/tags/authorization?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ud-BWNe_McqpZXHtlXPyr",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": 68.2572052308409,
+        "y": 1200.1275563289466
+      },
+      "size": {
+        "width": 150,
+        "height": 100
+      },
+      "style": {
+        "fontSize": 17,
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "st02HY5-DEab1pYXkBc3S",
+      "type": "label",
+      "label": "WebSockets 上のグラフQL",
+      "position": {
+        "x": 92.7572052308409,
+        "y": 1211.3919731117412
+      },
+      "size": {
+        "width": 228,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "A-PQ3_FVuCK3Eud75hsdj",
+      "type": "subtopic",
+      "label": "仕様",
+      "position": {
+        "x": 80.7572052308409,
+        "y": 1258.3919731117412
+      },
+      "size": {
+        "width": 245,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "GraphQLの仕様は,GraphQLのクエリ言語,タイプシステム,実行アルゴリズム,認証ルールを定義する公式標準です.異なるGraphQL実装間で一貫性を確保し,GraphQLサービスとツールを構築する開発者の権威的な参照として機能します.",
+        "links": [
+          {
+            "title": "GraphQLの仕様",
+            "url": "https://spec.graphql.org/",
+            "type": "official"
+          },
+          {
+            "title": "GraphQL財団",
+            "url": "https://foundation.graphql.org/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2YLm_S1j_832pb1OGSNaM",
+      "type": "subtopic",
+      "label": "リアルタイム",
+      "position": {
+        "x": 80.7572052308409,
+        "y": 1311.3919731117412
+      },
+      "size": {
+        "width": 245,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Realtime GraphQLは,サブスクリプションを通じてライブデータ更新を可能にし,データ変更時にクライアントが即時通知を受け取ることを可能にします.WebSockets,Server-Sent Events,またはアンケートを使用して実装され,即時データ同期を必要とするチャットアプリケーション,ライブフィード,およびコラボツールにとって不可欠です.",
+        "links": [
+          {
+            "title": "GraphQLでリアルタイムで開始する",
+            "url": "https://the-guild.dev/blog/subscriptions-and-live-queries-real-time-with-graphql",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "GzwPvLybxTJM96fUhQUOi",
+      "type": "subtopic",
+      "label": "許可",
+      "position": {
+        "x": 192.7572052308409,
+        "y": 1311.3919731117412
+      },
+      "size": {
+        "width": 245,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "GraphQL の権限は,ユーザの役割や許可に基づいて GraphQL のスケーマ内の特定のフィールド,タイプ,または操作へのアクセスを制御するプロセスを指します.ユーザの役割または許可に基づいてアプリケーション内の特定のデータまたは機能へのアクセスを制限することができます. GraphQL で権限を実装する方法はいくつかがあります: * ミドルウェアを使用する * スケーマ指令を使用する * データソース層を使用する",
+        "links": [
+          {
+            "title": "許可 を 入手 する",
+            "url": "https://graphql.org/learn/authorization/",
+            "type": "official"
+          },
+          {
+            "title": "許可に関するトップ記事を探索する",
+            "url": "https://app.daily.dev/tags/authorization?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cH2FSWgKxQbBoI0tI-QNH",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": 68.2572052308409,
+        "y": 1373.1275563289466
+      },
+      "size": {
+        "width": 150,
+        "height": 100
+      },
+      "style": {
+        "fontSize": 17,
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "F4nR2VZ4k1uekWXINoMKH",
+      "type": "label",
+      "label": "SSEに対するグラフQL",
+      "position": {
+        "x": 92.7572052308409,
+        "y": 1384.3919731117412
+      },
+      "size": {
+        "width": 165,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "O8k-m6s9B_uXkLsXKVFnL",
+      "type": "subtopic",
+      "label": "仕様",
+      "position": {
+        "x": 81.7572052308409,
+        "y": 1431.3919731117412
+      },
+      "size": {
+        "width": 245,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "GraphQLの仕様は,GraphQLの核心言語,タイプシステム,実行モデル,認証ルールを定義します.GraphQL財団によって維持され,すべてのGraphQL実装がプラットフォーム間の相互運用性と一貫性を確保するために遵守しなければならない技術的基盤を提供します.",
+        "links": [
+          {
+            "title": "GraphQLの仕様",
+            "url": "https://spec.graphql.org/",
+            "type": "official"
+          },
+          {
+            "title": "GraphQL財団",
+            "url": "https://foundation.graphql.org/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "G50ZMlmP7Ru5LcFne5Rhu",
+      "type": "subtopic",
+      "label": "許可",
+      "position": {
+        "x": 81.7572052308409,
+        "y": 1484.3919731117412
+      },
+      "size": {
+        "width": 245,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "GraphQLの認証は,ユーザーの許可と役割に基づいてデータと操作へのアクセスを制御します.スキーマレベル,フィールドレベル,または解析器内で実装できます.ユーザーがさまざまな認証および許可戦略を通じて見る許可を受けたデータのみにアクセスすることを保証します.GraphQLで許可を実行する方法はいくつかがあります: *ミドルウェアを使用する *スキーマ指令を使用する *データソースレイヤを使用する",
+        "links": [
+          {
+            "title": "許可 を 入手 する",
+            "url": "https://graphql.org/learn/authorization/",
+            "type": "official"
+          },
+          {
+            "title": "許可に関するトップ記事を探索する",
+            "url": "https://app.daily.dev/tags/authorization?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1mBWGT53bwy8JHSnf_6lr",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": 37.678457293951865,
+        "y": 979.4979529933375
+      },
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.75
+      },
+      "z_index": 999
+    },
+    {
+      "id": "Uf8XxJPs7RzKVhlxiQdbB",
+      "type": "topic",
+      "label": "ページページ",
+      "position": {
+        "x": -329.8175069304428,
+        "y": 1262.3919731117412
+      },
+      "size": {
+        "width": 126,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "GraphQL のページ化では,大きなデータセットを小さなブロックに分割することで処理します.一般的なアプローチは,カーソルベースのページ化 (安定したページ化のためのカーソルを使用する) とオフセットベースのページ化 (スキップ/テイクを使用する) を含む.パフォーマンスと一貫性のためにカーソルベースのページ化が好ましい.",
+        "links": [
+          {
+            "title": "ページ を 閲覧 する こと を 始める",
+            "url": "https://graphql.org/learn/pagination/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Qab1pyIZiJ3Z9q8CuEsc-",
+      "type": "paragraph",
+      "label": "実施",
+      "position": {
+        "x": -305.3175069304428,
+        "y": 1469.2051467174065
+      },
+      "size": {
+        "width": 188,
+        "height": 67
+      },
+      "style": {
+        "fontSize": 20,
+        "borderColor": "transparent",
+        "backgroundColor": "transparent",
+        "color": "#000000",
+        "textAlign": "center",
+        "justifyContent": "center",
+        "padding": 16
+      },
+      "z_index": 999
+    },
+    {
+      "id": "jCzrMElTo-c9xGcpPOOPl",
+      "type": "subtopic",
+      "label": "GraphQL.js",
+      "position": {
+        "x": -690.9579568300146,
+        "y": 1502.7051467174065
+      },
+      "size": {
+        "width": 131,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "GraphQL.js は JavaScript と Node.js の GraphQL の参照実装です. GraphQL 問い合わせの解析,検証,実行のためのコア機能を提供し,JavaScript 生態系における他の多くの GraphQL ツールとライブラリの基盤として機能します.",
+        "links": [
+          {
+            "title": "GraphQL.js リポジトリ",
+            "url": "https://github.com/graphql/graphql-js",
+            "type": "official"
+          },
+          {
+            "title": "GraphQL.js ドキュメンテーション",
+            "url": "https://graphql.org/graphql-js/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "9nVo95gRNGHGIbaJQPH1x",
+      "type": "subtopic",
+      "label": "グラフQL 行",
+      "position": {
+        "x": -690.9579568300146,
+        "y": 1392.3919731117412
+      },
+      "size": {
+        "width": 142,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "GraphQL Goは,Goプログラミング言語を使用したGraphQLサーバーとクライアントを実装することを指しています.人気のあるライブラリには,スケーマ・ファースト開発のためのgraphql-go/graphql,コード・ファースト世代のための99designs/gqlgenが含まれています.Goの強力なタイピングとパフォーマンスにより,スケーラブルなGraphQL APIを構築するのに最適です.",
+        "links": [
+          {
+            "title": "グラフql-go/グラフql",
+            "url": "https://github.com/graphql-go/graphql",
+            "type": "opensource"
+          },
+          {
+            "title": "99デザイン/gqlgen",
+            "url": "https://github.com/99designs/gqlgen",
+            "type": "opensource"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1q77xUifPS5sLx5tktXxF",
+      "type": "label",
+      "label": "実行する",
+      "position": {
+        "x": -690.9579568300146,
+        "y": 1350.3919731117412
+      },
+      "size": {
+        "width": 163,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "qmlQ3184CZ9HgvRHVcPT6",
+      "type": "label",
+      "label": "ジャワスクリプト実装",
+      "position": {
+        "x": -690.9579568300146,
+        "y": 1460.7051467174065
+      },
+      "size": {
+        "width": 221,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "7szipojhVb2VoL3VcS619",
+      "type": "subtopic",
+      "label": "GraphQL Java",
+      "position": {
+        "x": -690.9579568300146,
+        "y": 1606.589806690877
+      },
+      "size": {
+        "width": 156,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "GraphQL Java は,Java アプリケーションにGraphQL APIを実装するための人気のあるライブラリです.このライブラリは,スケーマ・ファースト開発機能,ランタイムクエリ実行,およびスプリングブートおよび他のJavaフレームワークとよく統合され,エンタープライズ GraphQL実装のための堅固な選択となっています.",
+        "links": [
+          {
+            "title": "GraphQL Java リポジトリ",
+            "url": "https://github.com/graphql-java/graphql-java",
+            "type": "official"
+          },
+          {
+            "title": "GraphQL Java ドキュメンテーション",
+            "url": "https://www.graphql-java.com/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "-STVQpKbY5I9eTExdJ6mc",
+      "type": "label",
+      "label": "Java実装",
+      "position": {
+        "x": -690.9579568300146,
+        "y": 1563.589806690877
+      },
+      "size": {
+        "width": 176,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "XD0hNlAu05_ZYgv8JvEp1",
+      "type": "paragraph",
+      "label": "サーバー",
+      "position": {
+        "x": -305.3175069304428,
+        "y": 1641.2051467174065
+      },
+      "size": {
+        "width": 107,
+        "height": 67
+      },
+      "style": {
+        "fontSize": 20,
+        "borderColor": "transparent",
+        "backgroundColor": "transparent",
+        "color": "#000000",
+        "textAlign": "center",
+        "justifyContent": "center",
+        "padding": 16
+      },
+      "z_index": 999
+    },
+    {
+      "id": "_8RiK9B8endMNBjiKsazU",
+      "type": "label",
+      "label": "ジャワスクリプト",
+      "position": {
+        "x": 87.7572052308409,
+        "y": 1649.2051467174065
+      },
+      "size": {
+        "width": 96,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "N-vsu-wvOikuoTbzdgX3X",
+      "type": "subtopic",
+      "label": "グラフql-http",
+      "position": {
+        "x": 87.7572052308409,
+        "y": 1694.2051467174065
+      },
+      "size": {
+        "width": 249,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "GraphQL over HTTPは,GraphQLのクエリや変異がHTTPで輸送される方法を定義する仕様である.要求/応答フォーマット,HTTP方法,ステータスコード,ヘッダを標準化し,さまざまな実装間で一貫したGraphQL API通信を保証する.",
+        "links": [
+          {
+            "title": "HTTP 仕様に対するグラフQL",
+            "url": "https://graphql.github.io/graphql-over-http/",
+            "type": "official"
+          },
+          {
+            "title": "graphql-http ライブラリー",
+            "url": "https://github.com/graphql/graphql-http",
+            "type": "opensource"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Gotb1xtxySCVC5MrnkPSs",
+      "type": "subtopic",
+      "label": "グラフQL ヨガ",
+      "position": {
+        "x": 87.7572052308409,
+        "y": 1747.2051467174065
+      },
+      "size": {
+        "width": 249,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "GraphQL Yoga は Express.js に構築された Node.js のオープンソースの GraphQL サーバライブラリです. 内蔵認証,認証,データ認証,リアルタイム更新のためのサブスクリプションサポートを備えた最小のボイラープレートセットアップを提供します. GraphQL サーバの開発を簡素化します.",
+        "links": [
+          {
+            "title": "グラフQLアーマー - ヨガサーバー2",
+            "url": "https://the-guild.dev/blog/improved-security-with-graphql-armor-support-for-yoga-server-2",
+            "type": "article"
+          },
+          {
+            "title": "GraphQLに関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/graphql?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "o_VkyoN6DmUUkfl0u0cro",
+      "type": "subtopic",
+      "label": "アポロサーバー",
+      "position": {
+        "x": 87.7572052308409,
+        "y": 1800.2051467174065
+      },
+      "size": {
+        "width": 249,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "アポロサーバーはJavaScriptでGraphQLサーバーを構築するための人気のあるオープンソースライブラリです.認証,認証,データ認証,リアルタイムサブスクリプションのための内蔵機能を持つ解析,検証,解析,フォーマット応答を実行するためのツールを提供します.",
+        "links": [
+          {
+            "title": "アポロ・チュートリアル - 紹介",
+            "url": "https://www.howtographql.com/react-apollo/0-introduction/",
+            "type": "article"
+          },
+          {
+            "title": "アポロに関するトップ記事を探求する",
+            "url": "https://app.daily.dev/tags/apollo?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "iTV2H8clmRTOksul4v38p",
+      "type": "subtopic",
+      "label": "メルキュリウス",
+      "position": {
+        "x": 87.7572052308409,
+        "y": 1853.2051467174065
+      },
+      "size": {
+        "width": 249,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Mercurius は Fastify の 高性能の GraphQL サーバー ライブラリで,優れたパフォーマンスと最小のメモリ使用を提供しています. 迅速でスケーラブルな GraphQL API を構築するために,スキーマ・ファースト開発,内蔵キャッシング,サブスクリプションサポート,Fastify のエコシステムと統合を提供します.",
+        "links": [
+          {
+            "title": "メルキュロス貯蔵庫",
+            "url": "https://github.com/mercurius-js/mercurius",
+            "type": "opensource"
+          },
+          {
+            "title": "メルキュロス文書",
+            "url": "https://mercurius.dev/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "lUOOZDUJOgktHf07nGzCJ",
+      "type": "horizontal",
+      "label": "ホリゾントノード",
+      "position": {
+        "x": -127.31750693044279,
+        "y": 1665.7051467174065
+      },
+      "size": {
+        "width": 50,
+        "height": 20
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.75
+      },
+      "z_index": 999
+    },
+    {
+      "id": "WFO_AwmbUJPAFj0tFClJg",
+      "type": "paragraph",
+      "label": "顧客",
+      "position": {
+        "x": -305.3175069304428,
+        "y": 1796.2051467174065
+      },
+      "size": {
+        "width": 100,
+        "height": 67
+      },
+      "style": {
+        "fontSize": 20,
+        "borderColor": "transparent",
+        "backgroundColor": "transparent",
+        "color": "#000000",
+        "textAlign": "center",
+        "justifyContent": "center",
+        "padding": 16
+      },
+      "z_index": 999
+    },
+    {
+      "id": "4IugiCX3rnKv5ak50sqGm",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": -707.048072051004,
+        "y": 1755.7051467174065
+      },
+      "size": {
+        "width": 150,
+        "height": 100
+      },
+      "style": {
+        "fontSize": 17,
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "3lQ4cxevkw0p8v7fHm4I7",
+      "type": "label",
+      "label": "ジャワスクリプト",
+      "position": {
+        "x": -686.2427947691591,
+        "y": 1770.2051467174065
+      },
+      "size": {
+        "width": 96,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "datKo3vPDwXoyVskcrdkc",
+      "type": "subtopic",
+      "label": "グラフql-http",
+      "position": {
+        "x": -686.2427947691591,
+        "y": 1815.2051467174065
+      },
+      "size": {
+        "width": 249,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "GraphQL HTTP は HTTP プロトコル上で GraphQL を配信するための仕様です. これは,主に要求体内の JSON パイロードを持つ POST リクエストを使用し,応答体内の結果を受信するための標準方法を定義します.",
+        "links": [
+          {
+            "title": "GraphQL HTTPの概要",
+            "url": "https://graphql.org/graphql-js/express-graphql/#graphqlhttp",
+            "type": "official"
+          },
+          {
+            "title": "GraphQL HTTP で開始する",
+            "url": "https://graphql.org/learn/serving-over-http/",
+            "type": "official"
+          },
+          {
+            "title": "GraphQLに関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/graphql?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Ab_ngkf6bmejvcp9okuw6",
+      "type": "subtopic",
+      "label": "リレー",
+      "position": {
+        "x": -686.2427947691591,
+        "y": 1868.2051467174065
+      },
+      "size": {
+        "width": 249,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "React アプリケーション向けに設計された Facebook の GraphQL クライアントで,パフォーマンスとデータ一貫性を強調しています. フレグメント,自動クエリ最適化,ページ化処理,スケーラブルで効率的な GraphQL アプリケーションを構築するための厳密なコンベンションを使用しています.",
+        "links": [
+          {
+            "title": "GraphQLコード生成器 & リレーコンパイラ",
+            "url": "https://the-guild.dev/blog/graphql-codegen-relay-compiler",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "D5O7ky5eXwm_Ys1IcFNaq",
+      "type": "subtopic",
+      "label": "アポロクライアント",
+      "position": {
+        "x": -686.2427947691591,
+        "y": 1921.2051467174065
+      },
+      "size": {
+        "width": 249,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "アポロクライアントはJavaScript用の人気のGraphQLクライアントライブラリで,データ収集,キャッシング,ステート管理を提供しています.効率的なGraphQLベースのアプリケーションを構築するためにReact ハック,インテリジェントキャッシング,楽観的なUI更新,エラー処理を提供します.",
+        "links": [
+          {
+            "title": "なぜアポロクライアントはフロントエンドなのか?",
+            "url": "https://www.howtographql.com/react-apollo/0-introduction/",
+            "type": "article"
+          },
+          {
+            "title": "アポロに関するトップ記事を探求する",
+            "url": "https://app.daily.dev/tags/apollo?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "WP0Oo_YMfLBlXqDQQtKes",
+      "type": "subtopic",
+      "label": "ウルクール",
+      "position": {
+        "x": -686.2427947691591,
+        "y": 1974.2051467174065
+      },
+      "size": {
+        "width": 249,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "URQLは,React,Vue,Svelte用の軽量で高度にカスタマイズ可能な GraphQL クライアントです.キャッシング,リアルタイムサブスクリプション,オフラインサポート,拡張機能のための交換とモジュラルのアーキテクチャを提供しています.",
+        "links": [
+          {
+            "title": "urql - 形成可能な研究室",
+            "url": "https://formidable.com/open-source/urql/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "BjJfMCOatN2_3TVt-6GnG",
+      "type": "horizontal",
+      "label": "ホリゾントノード",
+      "position": {
+        "x": -452.3175069304428,
+        "y": 1820.7051467174065
+      },
+      "size": {
+        "width": 50,
+        "height": 20
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.75
+      },
+      "z_index": 999
+    },
+    {
+      "id": "UOQYh4L1q1XAl7EuxlQ3m",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": -215.3175069304428,
+        "y": 1874.2541881503926
+      },
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.75
+      },
+      "z_index": 999
+    }
+  ],
+  "edges": [
+    {
+      "id": "xy-edge__HU7wZWiES3m3xl1-NYP6Fx2-08qKtgnhJ3tlb5JKfTDf5w1",
+      "source": "HU7wZWiES3m3xl1-NYP6F",
+      "target": "JfXwzkN29UGz17FYHHE3A",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__4U-HZQGH7kaWCB94Xy8Mhz2-2rlmLn_yQQV-7DpX1qT98y2",
+      "source": "JfXwzkN29UGz17FYHHE3A",
+      "target": "2rlmLn_yQQV-7DpX1qT98",
+      "source_handle": "z2",
+      "target_handle": "y2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__4U-HZQGH7kaWCB94Xy8Mhz2-cMfsRtvzvDZZJ0TqeUOxmy1",
+      "source": "JfXwzkN29UGz17FYHHE3A",
+      "target": "cMfsRtvzvDZZJ0TqeUOxm",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__4U-HZQGH7kaWCB94Xy8Mhz2-VhSEH_RoWFt1z2lial7xZy2",
+      "source": "JfXwzkN29UGz17FYHHE3A",
+      "target": "J5mU0v491qrm-mr1W3Msd",
+      "source_handle": "z2",
+      "target_handle": "y2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__JfXwzkN29UGz17FYHHE3Az2-6r9XbwlBtHmJrhviG2cTDy2",
+      "source": "JfXwzkN29UGz17FYHHE3A",
+      "target": "6r9XbwlBtHmJrhviG2cTD",
+      "source_handle": "z2",
+      "target_handle": "y2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__JfXwzkN29UGz17FYHHE3Az2-ODQ8zrHc2rsc8PN-APKvzy1",
+      "source": "JfXwzkN29UGz17FYHHE3A",
+      "target": "ODQ8zrHc2rsc8PN-APKvz",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__cSXsu17F1Oy34Wp6J-N3Cy2-YZaFEK547FYricfOuANvHz1",
+      "source": "W_Lg8086ZhrIqtck1sgnb",
+      "target": "YZaFEK547FYricfOuANvH",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__cSXsu17F1Oy34Wp6J-N3Cy2-B77yLU4SuRChSjEbmYwc-z1",
+      "source": "W_Lg8086ZhrIqtck1sgnb",
+      "target": "B77yLU4SuRChSjEbmYwc-",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__cSXsu17F1Oy34Wp6J-N3Cy2-hrpb108R8Gyu3hhzkMYzLz1",
+      "source": "W_Lg8086ZhrIqtck1sgnb",
+      "target": "hrpb108R8Gyu3hhzkMYzL",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__cSXsu17F1Oy34Wp6J-N3Cy2-MnmwccPahqPCzOhqjfbsYz2",
+      "source": "W_Lg8086ZhrIqtck1sgnb",
+      "target": "MnmwccPahqPCzOhqjfbsY",
+      "source_handle": "y2",
+      "target_handle": "z2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__cSXsu17F1Oy34Wp6J-N3Cy2-CehwjrCG_wbUU-TFNCuJnz1",
+      "source": "W_Lg8086ZhrIqtck1sgnb",
+      "target": "CehwjrCG_wbUU-TFNCuJn",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__cSXsu17F1Oy34Wp6J-N3Cy2-Pc9H7AcoqJQkWnuhbytyDz1",
+      "source": "W_Lg8086ZhrIqtck1sgnb",
+      "target": "Pc9H7AcoqJQkWnuhbytyD",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__cSXsu17F1Oy34Wp6J-N3Cy2-2SU4dcaz7zwGsF7g8FjmIz1",
+      "source": "W_Lg8086ZhrIqtck1sgnb",
+      "target": "2SU4dcaz7zwGsF7g8FjmI",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__W_Lg8086ZhrIqtck1sgnbx2-cSXsu17F1Oy34Wp6J-N3Cw1",
+      "source": "W_Lg8086ZhrIqtck1sgnb",
+      "target": "jy_91mhFWbpR6sYVbuX1x",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__cSXsu17F1Oy34Wp6J-N3Cz2-AySlY8AyI6jE-cy-qKKOUy1",
+      "source": "jy_91mhFWbpR6sYVbuX1x",
+      "target": "AySlY8AyI6jE-cy-qKKOU",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__cSXsu17F1Oy34Wp6J-N3Cz2-q9TYEygvUyHourdZIvk8Gy1",
+      "source": "jy_91mhFWbpR6sYVbuX1x",
+      "target": "q9TYEygvUyHourdZIvk8G",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__cSXsu17F1Oy34Wp6J-N3Cz2-9Q2pGidY-rfkltHq3vChpy1",
+      "source": "jy_91mhFWbpR6sYVbuX1x",
+      "target": "9Q2pGidY-rfkltHq3vChp",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__jy_91mhFWbpR6sYVbuX1xx2-cSXsu17F1Oy34Wp6J-N3Cw1",
+      "source": "jy_91mhFWbpR6sYVbuX1x",
+      "target": "IbEqXlGjsyNLKE9dZrPPk",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__cSXsu17F1Oy34Wp6J-N3Cy2-RlBc-hWEUOPaEQLTgJa-Kz2",
+      "source": "IbEqXlGjsyNLKE9dZrPPk",
+      "target": "RlBc-hWEUOPaEQLTgJa-K",
+      "source_handle": "y2",
+      "target_handle": "z2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__cSXsu17F1Oy34Wp6J-N3Cy2-kJMyRhasBKfBypent3GxKz1",
+      "source": "IbEqXlGjsyNLKE9dZrPPk",
+      "target": "kJMyRhasBKfBypent3GxK",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__cSXsu17F1Oy34Wp6J-N3Cy2-CHdzww8_TNfeM6Bp1oTPIz1",
+      "source": "IbEqXlGjsyNLKE9dZrPPk",
+      "target": "CHdzww8_TNfeM6Bp1oTPI",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__cSXsu17F1Oy34Wp6J-N3Cy2-sJ1_c3e08aehiqNMbIEEPz1",
+      "source": "IbEqXlGjsyNLKE9dZrPPk",
+      "target": "t6XxFB_lx27kS4FE2_GMH",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__IbEqXlGjsyNLKE9dZrPPkx2-cSXsu17F1Oy34Wp6J-N3Cw1",
+      "source": "IbEqXlGjsyNLKE9dZrPPk",
+      "target": "lj1WEh4WbfBsoZFYsi1Yz",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__lj1WEh4WbfBsoZFYsi1Yzx2-cSXsu17F1Oy34Wp6J-N3Cw2",
+      "source": "lj1WEh4WbfBsoZFYsi1Yz",
+      "target": "iYkHCKTsjtvo40f3eZoet",
+      "source_handle": "x2",
+      "target_handle": "w2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__iYkHCKTsjtvo40f3eZoetx2-cSXsu17F1Oy34Wp6J-N3Cw1",
+      "source": "iYkHCKTsjtvo40f3eZoet",
+      "target": "72wGg6yP8WnEdmkeKL9vh",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__72wGg6yP8WnEdmkeKL9vhx2-cSXsu17F1Oy34Wp6J-N3Cw2",
+      "source": "72wGg6yP8WnEdmkeKL9vh",
+      "target": "inhjhH-7xJyX8o4DQqErF",
+      "source_handle": "x2",
+      "target_handle": "w2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__inhjhH-7xJyX8o4DQqErFx2-cSXsu17F1Oy34Wp6J-N3Cw1",
+      "source": "inhjhH-7xJyX8o4DQqErF",
+      "target": "Uf8XxJPs7RzKVhlxiQdbB",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__JfXwzkN29UGz17FYHHE3Ax2-W_Lg8086ZhrIqtck1sgnbw2",
+      "source": "JfXwzkN29UGz17FYHHE3A",
+      "target": "W_Lg8086ZhrIqtck1sgnb",
+      "source_handle": "x2",
+      "target_handle": "w2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__8YdlLJ_Ki8NxgVzMNeyzox2-mZPU_kbBDBV5j0kaEO-tjw2",
+      "source": "Uf8XxJPs7RzKVhlxiQdbB",
+      "target": "Qab1pyIZiJ3Z9q8CuEsc-",
+      "source_handle": "x2",
+      "target_handle": "w2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__BVXPP2J15hss2hF85urjNz2-WFO_AwmbUJPAFj0tFClJgy1",
+      "source": "BVXPP2J15hss2hF85urjN",
+      "target": "Qab1pyIZiJ3Z9q8CuEsc-",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__Qab1pyIZiJ3Z9q8CuEsc-x2-WFO_AwmbUJPAFj0tFClJgw2",
+      "source": "Qab1pyIZiJ3Z9q8CuEsc-",
+      "target": "XD0hNlAu05_ZYgv8JvEp1",
+      "source_handle": "x2",
+      "target_handle": "w2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__XD0hNlAu05_ZYgv8JvEp1x2-WFO_AwmbUJPAFj0tFClJgw1",
+      "source": "XD0hNlAu05_ZYgv8JvEp1",
+      "target": "WFO_AwmbUJPAFj0tFClJg",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    }
+  ],
+  "content_crawled_at": "2026-04-06T09:39:25.468284+00:00"
+}

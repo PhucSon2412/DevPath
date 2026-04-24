@@ -1,0 +1,6240 @@
+{
+  "id": "system-design",
+  "title": "システム設計",
+  "source_url": "https://roadmap.sh/system-design",
+  "github_url": "https://github.com/kamranahmedse/developer-roadmap/tree/master/src/data/roadmaps/system-design",
+  "crawled_at": "2026-04-06T07:38:03.234185+00:00",
+  "type": "flow",
+  "stats": {
+    "total_nodes": 194,
+    "total_edges": 41,
+    "nodes_with_content": 147
+  },
+  "node_types": [
+    "button",
+    "horizontal",
+    "label",
+    "linksgroup",
+    "paragraph",
+    "section",
+    "subtopic",
+    "title",
+    "topic",
+    "vertical"
+  ],
+  "edge_styles": [
+    "dashed",
+    "solid"
+  ],
+  "edge_line_types": [
+    "default",
+    "simplebezier",
+    "smoothstep"
+  ],
+  "node_type_description": {
+    "title": "ロードマップの主題",
+    "topic": "主題大 (nhóm kỹ năng)",
+    "subtopic": "Kỹ năng/công nghệ cụ thể cần học",
+    "paragraph": "文は mô tả / chú thích",
+    "vertical": "Đường kết nối dọc (ビジュアルコネクタ)"
+  },
+  "edge_style_description": {
+    "solid": "Kỹ năng bắt buộc / quan trọng",
+    "dashed": "選択 / gợi ý / オルタナティブ"
+  },
+  "nodes": [
+    {
+      "id": "9_t9UR6FVSn41Ha8kfbyJ",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": -72.56981288497383,
+        "y": 3316.7871372731006
+      },
+      "size": {
+        "width": 277,
+        "height": 202
+      },
+      "style": {},
+      "z_index": 999
+    },
+    {
+      "id": "2dBw7KwXyXzZAZUSw0EAy",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": 198.11213811444725,
+        "y": 3045.9996104690044
+      },
+      "size": {
+        "width": 284,
+        "height": 474
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "yy2gnfWzDpMa1KChmfrgy",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": -71.63171528418138,
+        "y": 3045.5183671746804
+      },
+      "size": {
+        "width": 273,
+        "height": 255
+      },
+      "style": {},
+      "z_index": 999
+    },
+    {
+      "id": "IG4lMqEfFCgQyz3tyiGgk",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": -351.21273166220635,
+        "y": 3044.7840884377797
+      },
+      "size": {
+        "width": 283,
+        "height": 255
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "iCaCrvC5uord0zs0UtP4a",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": 198.5,
+        "y": 2288.4915694361566
+      },
+      "size": {
+        "width": 21,
+        "height": 65
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.65,
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "wM_Z9VLxO_vpwR1Kfx_qK",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": 342.5,
+        "y": 2288.4915694361566
+      },
+      "size": {
+        "width": 21,
+        "height": 65
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.65,
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "FT5tOhtkEXCcUj3xRKsVW",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": -341.19669367734,
+        "y": 2275.713852028059
+      },
+      "size": {
+        "width": 334,
+        "height": 628
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "UQKMEfR6t72oqk0qTfYi9",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": 19.21310958899096,
+        "y": 2364.5836910533135
+      },
+      "size": {
+        "width": 235,
+        "height": 461
+      },
+      "style": {
+        "backgroundColor": "#ffffff"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "HAkZP9cC1VtsnANNLNKn2",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": 249.79296473841032,
+        "y": 2363.4915694361566
+      },
+      "size": {
+        "width": 286,
+        "height": 568
+      },
+      "style": {
+        "backgroundColor": "#ffffff"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "-0XsGJCcC8hIaPgNPMsoC",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": 23.85602569580078,
+        "y": 1707.6321590449484
+      },
+      "size": {
+        "width": 21,
+        "height": 50
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.75,
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "gvSx-FcbHjuuSYICrv2BW",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": 144.5499950268134,
+        "y": 1708.6321590449484
+      },
+      "size": {
+        "width": 21,
+        "height": 50
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.75,
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "ii6jsjup_8pRe5mBK0iJt",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": 79,
+        "y": 1575.3071977542106
+      },
+      "size": {
+        "width": 21,
+        "height": 85
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.75
+      },
+      "z_index": 999
+    },
+    {
+      "id": "O3b90NuLijJq9a-WuPXDs",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": -303.0983379795378,
+        "y": 1581.6321741814686
+      },
+      "size": {
+        "width": 214,
+        "height": 126
+      },
+      "style": {
+        "width": 150,
+        "height": 100,
+        "fontSize": 17,
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "rLSI7a7h09MxAXM86LfpN",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": 502.52556355171316,
+        "y": 1481.6321590449484
+      },
+      "size": {
+        "width": 251,
+        "height": 331
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "vwomvb6mMBiKcd9jg7iWI",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": 502.52556355171316,
+        "y": 1220.615307718412
+      },
+      "size": {
+        "width": 251,
+        "height": 270
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "fXbUXsM1KbLqTyeOIGMJN",
+      "type": "horizontal",
+      "label": "ホリゾントノード",
+      "position": {
+        "x": -94.44015059681118,
+        "y": 1143.7994626720824
+      },
+      "size": {
+        "width": 70,
+        "height": 20
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.5
+      },
+      "z_index": 999
+    },
+    {
+      "id": "Abp4pD1x7gM8zFInV-6SK",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": -302.4401505968112,
+        "y": 891.2722684546688
+      },
+      "size": {
+        "width": 209,
+        "height": 270
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "FWDXTm_Fu7E2X0r6L4xkf",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": -302.683453649206,
+        "y": 1151.5927435005694
+      },
+      "size": {
+        "width": 209,
+        "height": 330
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#0d0d0d"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "FwGeTZ0ItXYI9Nn5skyx0",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": 292.88281941246055,
+        "y": 845.4632786581586
+      },
+      "size": {
+        "width": 21,
+        "height": 202
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.75
+      },
+      "z_index": 999
+    },
+    {
+      "id": "JTHRP_HfSOwmqJErt9tGB",
+      "type": "horizontal",
+      "label": "ホリゾントノード",
+      "position": {
+        "x": 351.3560256958008,
+        "y": 566.171875
+      },
+      "size": {
+        "width": 80,
+        "height": 20
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "bCRi5W6CHyle35zUo56er",
+      "type": "horizontal",
+      "label": "ホリゾントノード",
+      "position": {
+        "x": 23.85602569580078,
+        "y": 566.171875
+      },
+      "size": {
+        "width": 95,
+        "height": 20
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "urVudVWogiwLJMybuf7f8",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": 428.8560256958008,
+        "y": 551.671875
+      },
+      "size": {
+        "width": 328,
+        "height": 206
+      },
+      "style": {
+        "width": 150,
+        "height": 100,
+        "fontSize": 17,
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "sM7epahS3ZKtTKcpC7aYw",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": -303.1439743041992,
+        "y": 500.171875
+      },
+      "size": {
+        "width": 166,
+        "height": 146
+      },
+      "style": {
+        "width": 150,
+        "height": 100,
+        "fontSize": 17,
+        "backgroundColor": "#fcfcfc",
+        "borderColor": "#000000"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "FguoNXuSg-7m3z5dp0fp6",
+      "type": "horizontal",
+      "label": "ホリゾントノード",
+      "position": {
+        "x": 21.361812728006612,
+        "y": 387.87833957831333
+      },
+      "size": {
+        "width": 109,
+        "height": 20
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "MRD8SlWGmk8hoaZL6U690",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": -304.6381872719934,
+        "y": 260.40074822234897
+      },
+      "size": {
+        "width": 327,
+        "height": 163
+      },
+      "style": {
+        "width": 150,
+        "height": 100,
+        "fontSize": 17,
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "iogwMmOvub2ZF4zgg6WyF",
+      "type": "title",
+      "label": "システム設計",
+      "position": {
+        "x": 114.5,
+        "y": 73.40074822234891
+      },
+      "size": {
+        "width": 229,
+        "height": 68
+      },
+      "style": {
+        "fontSize": 28,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "_hYN0gEi9BL24nptEtXWU",
+      "type": "topic",
+      "label": "序言",
+      "position": {
+        "x": 105.5,
+        "y": 214.37833957831333
+      },
+      "size": {
+        "width": 247,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "システム設計とは,特定の要件を満たすためにシステムの要素,およびそれらの相互作用および関係を定義するプロセスである.このプロセスには,問題記述を取り,より小さなコンポーネントに分割し,システムの全体的な目標を達成するために効果的に協力するように各コンポーネントを設計するプロセスが含まれます.このプロセスには,通常,現在のシステムを分析し (存在する場合) 欠陥を特定し,新しいシステムのための詳細な計画を作成し,要求を満たすように設計をテストするプロセスが含まれます.これは複数の設計,テスト,および洗練を伴う繰り返しプロセスです.ソフトウェアエンジニアリングにおいて,システムデザインは,ソフトウェアシステムの建築とコンポーネントを含む高度な設計に焦点を当てたソフトウェア開発プロセスの一段階である.また,ソフトウェアエンジニアの面接プロセスの重要な側面の一つである.ほとんどの企業が専用のシステムデザイン面接ラウンドがあり,そこで候補者に特定の問題声明のためにシステムを設計するよう要求する.候補者は体系構造,コンポーネント,およびそれらの相互作用を含むシステムの詳細な設計を提出する.また,設計に関わるトレードオフと彼らが検討した代替案についても議論する.",
+        "links": []
+      }
+    },
+    {
+      "id": "idLHBxhvcIqZTqmh_E8Az",
+      "type": "subtopic",
+      "label": "システムデザインとは何か?",
+      "position": {
+        "x": 432.83333333333337,
+        "y": 188
+      },
+      "size": {
+        "width": 308,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "システム設計とは,特定の要件を満たすためにシステムの要素,およびそれらの相互作用および関係を定義するプロセスである.このプロセスには,問題記述を取り,より小さなコンポーネントに分割し,システムの全体的な目標を達成するために効果的に協力するように各コンポーネントを設計するプロセスが含まれます.このプロセスには,通常,現在のシステムを分析し (存在する場合) 欠陥を特定し,新しいシステムのための詳細な計画を作成し,要求を満たすように設計をテストするプロセスが含まれます.これは複数の設計,テスト,および洗練を伴う繰り返しプロセスです.ソフトウェアエンジニアリングでは,システムデザインはソフトウェア開発プロセスの段階であり,アーキテクチャとコンポーネントを含むソフトウェアシステムの高度な設計に焦点を当てています.",
+        "links": [
+          {
+            "title": "システム 設計: パターン,例,技術 の 完全な ガイド",
+            "url": "https://swimm.io/learn/system-design/system-design-complete-guide-with-patterns-examples-and-techniques",
+            "type": "article"
+          },
+          {
+            "title": "システム設計に関する包括的なガイド",
+            "url": "https://www.crio.do/blog/a-comprehensive-guide-to-system-design/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "os3Pa6W9SSNEzgmlBbglQ",
+      "type": "subtopic",
+      "label": "システムデザインの方法",
+      "position": {
+        "x": 432.83333333333337,
+        "y": 242
+      },
+      "size": {
+        "width": 308,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "システム設計にアプローチする際には,いくつかのステップがあります. * **問題を理解する**:あなたが解決しようとしている問題とシステムの要件に関する情報を収集する.ユーザとそのニーズ,およびシステムのいかなる制約または制限も識別する.* **システムの範囲を識別する:**システムの境界線を定義する.システムが行うことと行かないことを含む.* **既存のシステムを研究および分析する:** 過去に構築された類似したシステムを見て,何がうまく機能し,何がうまく機能しなかったかを識別する.この情報を設計決定を伝えるために使用する.* **高度なデザインを作成する:**システムの主要な構成要素とどのように相互作用するかを概説する.これは,システムの建築の粗略図,またはシステムが実行するプロセスを概説するフローチャートを含むことができます.* **設計を精製する:** 設計の詳細に取り組むにつれて,すべての要件を満たす完全な詳細な設計が完成するまで繰り返して精製します.* **設計を文書化します:** 将来の参照とメンテナンスのために設計の詳細なドキュメントを作成します.* ** システムを継続的に監視し改善します:** システム設計は単一のプロセスではなく,変化する要件を満たすために継続的に監視し改善する必要があります.",
+        "links": [
+          {
+            "title": "システムデザインの方法",
+            "url": "https://github.com/donnemartin/system-design-primer#how-to-approach-a-system-design-interview-question",
+            "type": "opensource"
+          },
+          {
+            "title": "システムデザインに関する質問は?",
+            "url": "https://www.hiredintech.com/system-design",
+            "type": "article"
+          },
+          {
+            "title": "私のシステムデザインテンプレート",
+            "url": "https://leetcode.com/discuss/career/229177/My-System-Design-Template",
+            "type": "article"
+          },
+          {
+            "title": "建築とシステム設計のインタビューの入門",
+            "url": "https://www.youtube.com/watch?v=ZgdS0EUmn70",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Yj8mGmDmELssP8D_Ujh0F",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": 218.5,
+        "y": -24.59925177765109
+      },
+      "size": {
+        "width": 21,
+        "height": 93
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "e_15lymUjFc6VWqzPnKxG",
+      "type": "topic",
+      "label": "性能対スケーラビリティ",
+      "position": {
+        "x": 105.5,
+        "y": 267.37833957831333
+      },
+      "size": {
+        "width": 247,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "サービスが追加されたリソースに比例する方法で ** 性能を増加させる場合 ** 拡張可能です.一般的に,パフォーマンスを増加させるということは,より多くの作業ユニットを提供することを意味します.しかし,データセットが成長する時などのより大きな作業ユニットを処理することも可能です.パフォーマンスとスケーラビリティを考える別の方法: * 性能の問題がある場合,あなたのシステムは単一のユーザーに遅い. * 拡張性の問題がある場合,あなたのシステムは単一のユーザーに速く,重い負荷下で遅い.",
+        "links": [
+          {
+            "title": "拡張性,可用性,安定性パターン",
+            "url": "https://www.slideshare.net/jboner/scalability-availability-stability-patterns/",
+            "type": "article"
+          },
+          {
+            "title": "拡張性 に つい て の 言葉",
+            "url": "https://www.allthingsdistributed.com/2006/03/a_word_on_scalability.html",
+            "type": "article"
+          },
+          {
+            "title": "性能対スケーラビリティ",
+            "url": "https://blog.professorbeekums.com/performance-vs-scalability/",
+            "type": "article"
+          },
+          {
+            "title": "性能に関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/performance?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "O3wAHLnzrkvLWr4afHDdr",
+      "type": "topic",
+      "label": "遅延と通過力",
+      "position": {
+        "x": 105.5,
+        "y": 320.37833957831333
+      },
+      "size": {
+        "width": 247,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "遅延と吞吐量はシステムのパフォーマンスの2つの重要な指標である. ** 遅延**は,システムが要求に応答するのにかかる時間を指す. ** 遅延**は,システムが同時に処理できる要求数を指す.一般的に,最大限の吞吐量と許容可能な遅延を目指すべきです.",
+        "links": [
+          {
+            "title": "システムデザイン: 遅延対通力",
+            "url": "https://cs.fyi/guide/latency-vs-throughput/",
+            "type": "article"
+          },
+          {
+            "title": "遅延と通過率を理解する",
+            "url": "https://community.cadence.com/cadence_blogs_8/b/fv/posts/understanding-latency-vs-throughput",
+            "type": "article"
+          },
+          {
+            "title": "遅延と通過力 - MIT",
+            "url": "https://www.youtube.com/watch?v=3HIV4MnLGCw",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "uJc27BNAuP321HQNbjftn",
+      "type": "topic",
+      "label": "入手可能性対一貫性",
+      "position": {
+        "x": 105.5,
+        "y": 373.37833957831333
+      },
+      "size": {
+        "width": 247,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "可用性とは,システムの機能不全にもかかわらず,クライアントにサービスを提供する能力を指す.これは,システムが稼働している時間の割合で測定され,その稼働時間としても知られる.一方,一貫性とは,すべてのクライアントが同じデータを同時に見る性質を指す.システムに保存されているデータの完全性を維持するために重要です.分散型システムでは,しばしば可用性と一貫性との間の妥協である.可用性を優先するシステムは,一貫性を犠牲にすることが可能で,一貫性を優先するシステムは,可用性を犠牲にすることが可能である.異なる分散型システムは,複製またはコンセンサスアルゴリズムを使用するなど,可用性と一貫性との間のトレードオフをバランスするために異なるアプローチを使用します.",
+        "links": [
+          {
+            "title": "CAPFAQ",
+            "url": "https://github.com/henryr/cap-faq",
+            "type": "opensource"
+          },
+          {
+            "title": "CAP定理が再検討された",
+            "url": "https://robertgreiner.com/cap-theorem-revisited/",
+            "type": "article"
+          },
+          {
+            "title": "CAP定理への簡単な英語の導入",
+            "url": "http://ksat.me/a-plain-english-introduction-to-cap-theorem",
+            "type": "article"
+          },
+          {
+            "title": "CAP定理",
+            "url": "https://www.youtube.com/watch?v=_RbsFXWRZ10&t=1s",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tcGdVQsCEobdV9hgOq3eG",
+      "type": "subtopic",
+      "label": "CAP定理",
+      "position": {
+        "x": -294.6381872719934,
+        "y": 363.37833957831333
+      },
+      "size": {
+        "width": 305,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "CAP定理によれば,分散型システムでは,以下の2つの保証のみをサポートできます. * **一致性** - すべての読書は最新の書き込みやエラーを受け取ります * ** 入手可能性** - すべての要求は,最新のバージョンの情報を含んでいる බවට保証なしに応答を受けます * ** パーティション許容性** - ネットワーク故障による任意のパーティションにもかかわらず,システムは継続的に動作します ネットワークは信頼性がないため,パーティション許容性をサポートする必要があります. 一貫性と利用性の間のソフトウェアのトレードオフを行う必要があります.CP - 一貫性とパーティション許容性 ----------------------------------------------- パーティションノードからの応答を待つことでタイムアウトエラーが発生します.CPは,あなたのビジネスニーズに原子的な読み書きが必要であれば良い選択です.AP - 入手可能性とパーティション容量 ------------------------------------------------- 応答は,どのノードでも利用可能なデータの最も簡単に利用可能なバージョンを返します.これは最新のものではないかもしれません.パーティションが解決されると,テキストが拡散するのに時間がかかるかもしれません.APは,ビジネスが [最終的な一貫性] (https://github.com/donnemartin/system-design-primer#eventual-consistency) を許可する必要がある場合,または外部システムがエラーにもかかわらず継続的に動作する必要がある場合,APは良い選択です.",
+        "links": [
+          {
+            "title": "CAPFAQ",
+            "url": "https://github.com/henryr/cap-faq",
+            "type": "opensource"
+          },
+          {
+            "title": "CAP理論の再検討",
+            "url": "http://robertgreiner.com/2014/08/cap-theorem-revisited/",
+            "type": "article"
+          },
+          {
+            "title": "CAP定理への簡単な英語の導入",
+            "url": "http://ksat.me/a-plain-english-introduction-to-cap-theorem",
+            "type": "article"
+          },
+          {
+            "title": "CAP定理",
+            "url": "https://www.youtube.com/watch?v=k-Yaq8AHlFA",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "m4xqKqnCvrCc13oO86z1h",
+      "type": "label",
+      "label": "AP - 入手可能性 + パーティション許容性",
+      "position": {
+        "x": -294.6381872719934,
+        "y": 276
+      },
+      "size": {
+        "width": 295,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "2b5j0CJbR1NahDu9VmB6F",
+      "type": "label",
+      "label": "CP - 一貫性 + 分割許容性",
+      "position": {
+        "x": -294.6381872719934,
+        "y": 316.87833957831333
+      },
+      "size": {
+        "width": 312,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "GHe8V-REu1loRpDnHbyUn",
+      "type": "topic",
+      "label": "一貫性 パターン",
+      "position": {
+        "x": 105.5,
+        "y": 426.37833957831333
+      },
+      "size": {
+        "width": 247,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "一貫性パターンは,分布式システムでデータを保存し管理する方法,およびそのデータをユーザーとアプリケーションに利用する方法を指します.一貫性パターンは3種類に分類されます: * 強固な一貫性 * 弱い一貫性 * 最終的な一貫性 これらのパターンのそれぞれには独自の利点とデメリットがあり,どのパターンを使用するかは,アプリケーションまたはシステムの特定の要求に依存します.",
+        "links": [
+          {
+            "title": "分布されたシステムにおける一貫性パターン",
+            "url": "https://cs.fyi/guide/consistency-patterns-week-strong-eventual/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "EKD5AikZtwjtsEYRPJhQ2",
+      "type": "subtopic",
+      "label": "一貫性 が 弱っ て いる",
+      "position": {
+        "x": 455.3560256958008,
+        "y": 373.671875
+      },
+      "size": {
+        "width": 263,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "データが更新された後,その後の読み取り操作がすぐに変更を反映することを保証することはありません.読み取りは最近の書き込みを見ることができます.",
+        "links": [
+          {
+            "title": "分布されたシステムにおける一貫性パターン",
+            "url": "https://cs.fyi/guide/consistency-patterns-week-strong-eventual/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "rRDGVynX43inSeQ9lR_FS",
+      "type": "subtopic",
+      "label": "最終的な一貫性",
+      "position": {
+        "x": 455.3560256958008,
+        "y": 426.671875
+      },
+      "size": {
+        "width": 263,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "最終的な一貫性とは,弱い一貫性の一形態である.データに更新が行われた後,最終的には次の読み込み操作に可視化されます.データは非同期的に複製され,データのすべてのコピーが最終的に更新されることを保証します.",
+        "links": [
+          {
+            "title": "分布されたシステムにおける一貫性パターン",
+            "url": "https://cs.fyi/guide/consistency-patterns-week-strong-eventual/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JjB7eB8gdRCAYf5M0RcT7",
+      "type": "subtopic",
+      "label": "堅い一貫性",
+      "position": {
+        "x": 455.33333333333337,
+        "y": 480.671875
+      },
+      "size": {
+        "width": 263,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "データが更新された後,それ以降の読み込み操作にはすぐに可視化されます.データは同期的に複製され,すべてのコピーが同時に更新されることを保証します.",
+        "links": [
+          {
+            "title": "分布されたシステムにおける一貫性パターン",
+            "url": "https://cs.fyi/guide/consistency-patterns-week-strong-eventual/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ezptoTqeaepByegxS5kHL",
+      "type": "topic",
+      "label": "入手可能なパターン",
+      "position": {
+        "x": 105.5,
+        "y": 551.671875
+      },
+      "size": {
+        "width": 247,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "可用性パターンは,システムが故障や予期せぬ事件に直面しても,運用可能であり,ユーザーにアクセス可能であることを確保するために使用される確立された建築アプローチである.これらのパターンは,システム設計に冗長性,故障耐容性,回復メカニズムを組み込むことで,ダウンタイムを最小限に抑え,一貫したサービスレベルを維持することに焦点を当てています.それらは潜在的な故障点に対処し,事業継続性を確保するための構造的な方法を提供します.",
+        "links": [
+          {
+            "title": "システム設計における高可用性 始動システムのための15つの戦略",
+            "url": "https://www.designgurus.io/blog/high-availability-system-design-basics",
+            "type": "article"
+          },
+          {
+            "title": "システム設計:可用性パターン",
+            "url": "https://dev.to/decoders_lord/system-design-availability-patterns-104i",
+            "type": "article"
+          },
+          {
+            "title": "高可用性のためのデザインパターンは 何で99.999%の稼働時間が得られますか?",
+            "url": "https://www.youtube.com/watch?v=LdvduBxZRLs",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L_jRfjvMGjFbHEbozeVQl",
+      "type": "subtopic",
+      "label": "失敗",
+      "position": {
+        "x": -290.6439743041992,
+        "y": 583.171875
+      },
+      "size": {
+        "width": 141,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Failover (故障) とは,故障が発生した場合にバックアップコンポーネントまたはシステムを持つことが必要である.故障が発生した場合にバックアップコンポーネントまたはシステムを継ぐことが必要である.故障システムでは,リクエスト処理に責任のあるプライマリコンポーネントと,待機状態にあるセカンドリー (またはバックアップ) コンポーネントがあります.プライマリコンポーネントは故障をモニターし,故障が発生した場合,副コンポーネントが活性化され,その業務を引き継ぐことができます.これは,システムが最小の障害で機能し続けることを可能にします.故障は,アクティブ-パシブ,アクティブ-アクティブ,ホット-スタンバイなど様々な方法で実装できます.アクティブ-パシブ --------------アクティブ-パシブ-オーバーで,アクティブ-パシブ・スタンバイサーバーの待機とパシブ・サーバーの間に心拍子が送信されます.心拍が中断された場合,被動サーバーはアクティブのIPアドレスを取り,サービスを再開する.停電時間の長さは,被動サーバーが既に\"熱\"の待機状態で実行しているかどうか,または\"冷\"の待機状態から起動する必要があるかどうかによって決定されます.アクティブサーバーのみがトラフィックを処理します.アクティブ-パシブ・ファイルオーバーはマスター・スラブ・ファイルオーバーとも呼ばれます.アクティブ-アクティブ ------------- アクティブ-アクティブでは,両方のサーバーがトラフィックを管理し,その間の負荷を分散しています.サーバーが公開されている場合,DNSは両方のサーバーの公開 IPについて知っておく必要があります.サーバーが内部面している場合,両方の論理はアプリケーションサーバーについて知っておく必要があります.アクティブ-アクティブ・ファイルオーバーはマスター-ファイルオーバーとも呼ばれます.Failover のデメリット ------------------------- * Fail-over は,より多くのハードウェアと追加的な複雑性を追加します.* パシブに新規に記述されたデータが複製される前に,アクティブシステムが失敗した場合,データの損失の可能性があります.",
+        "links": [
+          {
+            "title": "失敗する",
+            "url": "https://github.com/donnemartin/system-design-primer?tab=readme-ov-file#fail-over",
+            "type": "opensource"
+          },
+          {
+            "title": "アクティブ・パシブ 対 アクティブ・アクティブ 失敗者",
+            "url": "https://www.serverion.com/uncategorized/active-passive-vs-active-active-failover/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "d_Cg6Zjyf2HEs0l5cpX8P",
+      "type": "label",
+      "label": "アクティブ - アクティブ",
+      "position": {
+        "x": -281.6439743041992,
+        "y": 511.171875
+      },
+      "size": {
+        "width": 123,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "OUz9JOof4kkNAIsTzklS3",
+      "type": "label",
+      "label": "アクティブ - パシティブ",
+      "position": {
+        "x": -287.6439743041992,
+        "y": 542.171875
+      },
+      "size": {
+        "width": 135,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "vJkqOyqXGa-aRjx3M1H-K",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": -141.14397430419922,
+        "y": 500.171875
+      },
+      "size": {
+        "width": 166,
+        "height": 146
+      },
+      "style": {
+        "width": 150,
+        "height": 100,
+        "fontSize": 17,
+        "backgroundColor": "#fcfcfc",
+        "borderColor": "#000000"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "0RQ5jzZKdadYY0h_QZ0Bb",
+      "type": "subtopic",
+      "label": "複製",
+      "position": {
+        "x": -128.64397430419922,
+        "y": 583.171875
+      },
+      "size": {
+        "width": 141,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "複製は,同じデータの複数のコピーを異なる場所に保存することを伴う利用可能性パターンである.故障が発生した場合,データを別の場所から取り戻すことができる.複製の2つの主要な種類があります.マスター-マスター・複製とマスター-スラブ複製.* **マスター-マスター・複製:** このタイプの複製では,複数のサーバーが\"マスター\"として構成され,それぞれが読み書き操作を受け入れることができます.これは高い利用可能性を確保し,いずれかのサーバーが失敗した場合に引き継ぐことができます.しかし,複数のサーバーが同じデータを同時に更新した場合,このタイプの複製は紛争を引き起こす可能性があります.* **マスター・スラブ複製:** このタイプの複製では,1つのサーバーが\"マスター\"として指定され,すべての書き込み操作を処理する一方,複数の\"スラブ\"サーバーは読み込み操作を処理する.マスターが失敗した場合,奴隷の1人がその代わりに昇進することができます.このタイプの複製はマスター-マスター複製と比較して設定とメンテナンスが簡単です.",
+        "links": [
+          {
+            "title": "複製:可用性パターン",
+            "url": "https://github.com/donnemartin/system-design-primer#replication",
+            "type": "opensource"
+          },
+          {
+            "title": "データベース複製 導入:種類と利点",
+            "url": "https://www.enjoyalgorithms.com/blog/introduction-to-database-replication-system-design",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mKV71c9XnnRbgVlmwlsbw",
+      "type": "label",
+      "label": "主人 - 奴隷",
+      "position": {
+        "x": -121.14397430419922,
+        "y": 511.171875
+      },
+      "size": {
+        "width": 127,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "K8xJZfEGkwOFcqb7CRJ7f",
+      "type": "label",
+      "label": "マスター - マスター",
+      "position": {
+        "x": -127.64397430419922,
+        "y": 542.171875
+      },
+      "size": {
+        "width": 140,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "uHdrZllrZFAnVkwIB3y5-",
+      "type": "subtopic",
+      "label": "数字 で 入手 できる",
+      "position": {
+        "x": 441.3560256958008,
+        "y": 695.921875
+      },
+      "size": {
+        "width": 304,
+        "height": 50
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "利用可能性は,サービスが利用可能である時間の割合として,通常,利用可能性は9数で測定される.99.99%利用可能性のサービスには4つの9が表示される.99.9%可用性 - 3 9 秒: ------------------------------ 持続可能 停滞時間 ------------------------------------ 年間停滞時間 年間停滞時間 年間停滞時間 年間停滞時間 年間停滞時間 年間停滞時間 年間停滞時間 年間停滞時間 年間停滞時間 年間停滞時間 年間停滞時間 年間停滞時間 年間停滞時間 年間停滞時間 年間停滞時間 年間停滞時間 年間停滞時間 年間停滞時間 年間停滞時間 年間停滞時間 年間停滞時間 年間停滞時間 年間停滞時間 年間停滞時間 年間停滞時間 年間停滞時間 年間停滞時間 年間停滞時間 年間停滞時間 年間停滞時間 年間停滞時間 年間停滞時間 年間停滞時間 年間停滞時間 年間停滞時間 年間停滞時間 年間停滞時間 年間停滞時間 年間停滞時間 年間停滞時間 年間停滞時間 年間停滞時間 年間停滞時間 年間停滞時間 年間停滞時間 年間停滞時間 年間停滞時間 年間停滞時間 年間停滞時間 年間停滞時間 年間停滞時間 年間停滞時間 年間停滞時間 期間 年間停滞時間### 連続して可用性 < 100% の2つの構成要素が並列に並列に並列時,総可用性が減少します:可用性 (合計) =可用性 (Foo) *可用性 (Bar) ◎ `Foo`と `Bar`のそれぞれが99.9%の可用性を持っていたら,並列で総可用性が99.8%になります.#####並列に可用性 < 100% の2つの構成要素が並列に並列に並列時,総可用性が増加します:可用性 (総) =1 - (1 -可用性 (Foo)) * (1 -可用性 (Bar)) `Foo`と `Bar`のそれぞれが99.9%の可用性を持っていたら,並列で総可用性が99.99%になります.",
+        "links": [
+          {
+            "title": "システム設計における利用可能性",
+            "url": "https://www.enjoyalgorithms.com/blog/availability-system-design-concept/",
+            "type": "article"
+          },
+          {
+            "title": "稼働時間計算機:稼働時間の99.9%に相当する稼働時間",
+            "url": "https://uptime.is/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "0mI68m25Zrhj6Uoc1om2B",
+      "type": "label",
+      "label": "99.9% 入手可能 - 3 9",
+      "position": {
+        "x": 445.3560256958008,
+        "y": 571.671875
+      },
+      "size": {
+        "width": 227,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "rgadr3yf8Xq_1kCEJ0exf",
+      "type": "label",
+      "label": "99.99% 入手可能 - 4 9",
+      "position": {
+        "x": 445.3560256958008,
+        "y": 611.421875
+      },
+      "size": {
+        "width": 226,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "XJrLBec_U4QXa7IOecFbL",
+      "type": "label",
+      "label": "パラレル対シーケンスでの利用可能性",
+      "position": {
+        "x": 445.3560256958008,
+        "y": 651.171875
+      },
+      "size": {
+        "width": 278,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "DOESIlBThd_wp2uOSd_CS",
+      "type": "topic",
+      "label": "背景の仕事",
+      "position": {
+        "x": -38.450004973186594,
+        "y": 708.671875
+      },
+      "size": {
+        "width": 219,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "システム設計におけるバックグラウンドワークは,システムの主要な実行流から独立して,バックグラウンドで実行されるタスクを指します.これらのタスクは通常,ユーザーまたは他の外部エージェントではなく,システム自体によって開始されます.バックグラウンドワークは,さまざまな目的のために使用できます.例えば: *古いデータを清掃したり,レポートを作成したり,データベースをバックアップしたりなどのメンテナンスタスクを実行します. *大量のデータを処理します.例えばデータインポート,データ輸出,データ変換など. *通知またはメッセージを送信します.例えば,電子メール通知を送信したり,ユーザーにプッシュ通知を送信したりします. *長時間のコンピューティングを実行する:機械学習またはデータ分析など.",
+        "links": [
+          {
+            "title": "過去 の 仕事 - 最高 の 慣行",
+            "url": "https://learn.microsoft.com/en-us/azure/architecture/best-practices/background-jobs",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "NEsPjQifNDlZJE-2YLVl1",
+      "type": "subtopic",
+      "label": "イベント 駆動",
+      "position": {
+        "x": -300.8123473873875,
+        "y": 682.5759021485857
+      },
+      "size": {
+        "width": 187,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "イベント主導の呼び出しは,背景タスクを起動するためにトリガーを使用します.イベント主導のトリガーを使用する例としては: * UIまたは他のタスクは,列にメッセージを置きます.メッセージには,ユーザが注文するなどの,実行されたアクションに関するデータが含まれます.背景タスクは,この列に聴き,新しいメッセージの到着を検出します.メッセージを読み,その内のデータを背景タスクへの入力として使用します.このパターンは,非同期的なメッセージベースの通信として知られています.* UIまたは他のタスクは,ストレージ内の値を保存または更新します.背景タスクはストレージを監視し,更新を検知します.データを読み,背景タスクへの入力として使用します.* UIまたは他の作業は,HTTPS URI,またはWebサービスとして暴露されるAPIなどのエンドポイントへの要求を行います.その要求の一環として,バックグラウンドタスクを完了するために必要なデータを転送します.エンドポイントまたはウェブサービスはバックグラウンドタスクを呼び出します.このタスクはデータを入力として使用します.",
+        "links": [
+          {
+            "title": "過去 の 仕事 - 出来事 に 基づく 引き出物",
+            "url": "https://learn.microsoft.com/en-us/azure/architecture/best-practices/background-jobs#event-driven-triggers",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "zoViI4kzpKIxpU20T89K_",
+      "type": "subtopic",
+      "label": "スケジュールを動かす",
+      "position": {
+        "x": -300.8123473873875,
+        "y": 735.5759021485857
+      },
+      "size": {
+        "width": 187,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "スケジュール主導の呼び出しは,バックグラウンドタスクを起動するためにタイマーを使用します.スケジュール主導のトリガーを使用する例としては: * アプリケーション内で本地的に実行されているタイマーまたはアプリケーションのオペレーティングシステムの一部として,定期的にバックグラウンドタスクを呼び出します.* Azure Logic Appsなどの別のアプリケーションで実行されているタイマーは,定期的にAPIまたはWebサービスに要求を送信します.APIまたはWebサービスがバックグラウンドタスクを呼び出します.* 別々のプロセスまたはアプリケーションタスクは,特定の時間遅延後,または特定の時間後にバックグラウンドを呼び出するタイマーを起動します.スケジュールによる請求に適したタスクの典型的な例には,パッチ処理のルーチン (ユーザーの最近の行動に基づいて関連製品のリストを更新するなど),ルーチンデータ処理のタスク (インデックス更新または累積された結果を生成するなど),日々のレポートのデータ分析,データ保持の清掃,データ一貫性チェックなどが含まれます.",
+        "links": [
+          {
+            "title": "スケジュール - 背景 の 仕事",
+            "url": "https://learn.microsoft.com/en-us/azure/architecture/best-practices/background-jobs#schedule-driven-triggers",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2gRIstNT-fTkv5GZ692gx",
+      "type": "subtopic",
+      "label": "返事 成果",
+      "position": {
+        "x": -300.8123473873875,
+        "y": 808.5503059007614
+      },
+      "size": {
+        "width": 187,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "バックグラウンド作業は,バックグラウンドタスクを呼び出したUIまたはプロセスから別のプロセス,または別の場所に異同期的に実行されます.理想的には,バックグラウンドタスクは\"火と忘れ\"操作であり,実行進捗はUIまたはコールプロセスに影響しません.これは,コールプロセスはタスクの完了を待たないことを意味します.したがって,タスクが終了するときに自動的に検出することはできません.",
+        "links": [
+          {
+            "title": "結果 を 返し する - 背景 の 仕事",
+            "url": "https://learn.microsoft.com/en-us/azure/architecture/best-practices/background-jobs#returning-results",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Uk6J8JRcKVEFz4_8rLfnQ",
+      "type": "topic",
+      "label": "ドメイン名システム",
+      "position": {
+        "x": -38.450004973186594,
+        "y": 808.5503059007614
+      },
+      "size": {
+        "width": 219,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ドメイン名システム (DNS) は, [www.example.com]のようなドメイン名をIPアドレスに翻訳します.DNSは階層的なもので,上位レベルの権威のあるサーバーがいくつかあります.あなたのルーターまたはISPは検索時にどのDNSサーバーに連絡するかについての情報を提供します.低レベルのDNSサーバーキャッシュマッピングは,DNS拡散遅延によりステイになり得る.DNS結果は,ライブ時間 (TTL) によって決定される特定の時間のためにあなたのブラウザーまたはOSによってキャッシュすることもできます.* CNAME (カノニカル) - 名前を別の名前または CNAME ([example.com] (http://example.com) に (www.example.com) に (http://www.example.com) に (http://www.example.com)) または A レコードに指します. [CloudFlare] (https://www.cloudflare.com/dns/) と [Route53] (https://aws.amazon.com/route53/) のようなサービスは,管理された DNS サービスを提供します.一部の DNS サービスでは,さまざまな方法でトラフィックをルーティングすることができます.",
+        "links": [
+          {
+            "title": "ドメイン名システムから始める",
+            "url": "https://github.com/donnemartin/system-design-primer#domain-name-system",
+            "type": "opensource"
+          },
+          {
+            "title": "DNSとは何か?",
+            "url": "https://www.cloudflare.com/learning/dns/what-is-dns/",
+            "type": "article"
+          },
+          {
+            "title": "遅延に基づく",
+            "url": "https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/routing-policy.html#routing-policy-latency",
+            "type": "article"
+          },
+          {
+            "title": "地質定位に基づく",
+            "url": "https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/routing-policy.html#routing-policy-geo",
+            "type": "article"
+          },
+          {
+            "title": "体重の丸いロビン",
+            "url": "https://www.jscape.com/blog/load-balancing-algorithms",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "O730v5Ww3ByAiBSs6fwyM",
+      "type": "topic",
+      "label": "コンテンツ配信ネットワーク",
+      "position": {
+        "x": 238.5,
+        "y": 808.5503059007614
+      },
+      "size": {
+        "width": 262,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "コンテンツ配信ネットワーク (CDN) は,ユーザーに近い場所からコンテンツを配信するプロキシサーバーの世界的に分布したネットワークです.一般的に,HTML/CSS/JS,写真,ビデオなどの静态ファイルがCDNから配信されています.しかし,AmazonのCloudFrontなどのCDNはダイナミックコンテンツをサポートします.サイトのDNS解像度はクライアントに連絡するサーバーを指示します.CDNからコンテンツを配信することは,2つの方法でパフォーマンスを大幅に向上させることができます.",
+        "links": [
+          {
+            "title": "CDNへの導入",
+            "url": "https://github.com/donnemartin/system-design-primer#content-delivery-network",
+            "type": "opensource"
+          },
+          {
+            "title": "Push と Pull CDN の 違い",
+            "url": "http://www.travelblogadvice.com/technical/the-differences-between-push-and-pull-cdns/",
+            "type": "article"
+          },
+          {
+            "title": "コンテンツ配信ネットワークについて",
+            "url": "https://en.wikipedia.org/wiki/Content_delivery_network",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "uIerrf_oziiLg-KEyz8WM",
+      "type": "subtopic",
+      "label": "CDNを押す",
+      "position": {
+        "x": 572.1868989634623,
+        "y": 838.4632786581586
+      },
+      "size": {
+        "width": 183,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Push CDN は,サーバーに変更が発生するたびに新しいコンテンツを受信します.コンテンツを提供すること,CDNに直接アップロードし,CDNを指す URL を書き直すための完全な責任を負います.コンテンツが期限切れと更新されたときに設定できます.コンテンツは新しくまたは変更された場合にのみアップロードされます.トラフィックを最小限に抑えながら,ストレージを最大限にします.少量トラフィックを持つサイトまたは更新されていないコンテンツを持つサイトは,しばしばPush CDN でうまく動作します.コンテンツは,定期的に再引き出す代わりに,一度 CDN に配置されます.",
+        "links": [
+          {
+            "title": "CDNへの導入",
+            "url": "https://github.com/donnemartin/system-design-primer#content-delivery-network",
+            "type": "opensource"
+          }
+        ]
+      }
+    },
+    {
+      "id": "HkXiEMLqxJoQyAHav3ccL",
+      "type": "subtopic",
+      "label": "CDNを引っ張る",
+      "position": {
+        "x": 572.1868989634623,
+        "y": 785.4632786581586
+      },
+      "size": {
+        "width": 183,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Pull CDN は,最初のユーザーがコンテンツを要求するときにサーバーから新しいコンテンツを把握します.コンテンツをサーバーに残して,CDNを指すURLを書き直します. これにより,CDNにコンテンツがキャッシュされるまで,要求が遅くなる.コンテンツがキャッシュされる期間を決定するタイム・トゥ・ライブ (TTL). CDNのストレージスペースを最小限に抑えるが,ファイルが終了し,実際に変更される前に引き出される場合,冗長なトラフィックを生成することができます.トラフィックが重量なサイトは,CDNに引き込む前にうまく動作します.トラフィックが最近 CDNに残っている要求されたコンテンツのみでより均等に広がっているため.",
+        "links": [
+          {
+            "title": "CDNへの導入",
+            "url": "https://github.com/donnemartin/system-design-primer#content-delivery-network",
+            "type": "opensource"
+          },
+          {
+            "title": "Push と Pull CDN の 違い",
+            "url": "http://www.travelblogadvice.com/technical/the-differences-between-push-and-pull-cdns/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "14KqLKgh090Rb3MDwelWY",
+      "type": "topic",
+      "label": "負荷バランサー",
+      "position": {
+        "x": 238.5,
+        "y": 1029.2994626720824
+      },
+      "size": {
+        "width": 167,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "負荷バランサーは,アプリケーションサーバーやデータベースなどのコンピューティングリソースに受信するクライアントの要求を配布します.各ケースでは,負荷バランサーはコンピューティングリソースから適切なクライアントに応答を返します.負荷バランサーは,以下のように有効です: * 不健康なサーバーへの要求を防止する * 資源の過負荷を防止する * 単一の故障点を排除するのに役立つ 負荷バランサーはハードウェア (高価) またはHAProxyなどのソフトウェアで実装できます.* **SSLの終了** - 入ってくるリクエストを解読し,バックエンドサーバーがこれらの潜在的に高価な操作を実行する必要がないようにサーバーの応答を暗号化します * 各サーバーにX.509証明書をインストールする必要性を排除します * **セッション持続性** - クッキーを発行し,特定のクライアントのリクエストを同じインスタンスに転送します Web アプリがセッションを追跡しない場合 負荷バランサーのデメリット ------------------------------ * 負荷バランサーは十分なリソースがない場合や適切に構成されていない場合,パフォーマンスボトルネックになることがあります.* 単一の負荷バランサーは単一の故障点であり,複数の負荷バランサーの設定により複雑性がさらに増加します.",
+        "links": [
+          {
+            "title": "拡張性",
+            "url": "https://cs.fyi/guide/scalability-for-dummies",
+            "type": "article"
+          },
+          {
+            "title": "NGINXアーキテクチャ",
+            "url": "https://www.nginx.com/blog/inside-nginx-how-we-designed-for-performance-scale/",
+            "type": "article"
+          },
+          {
+            "title": "HAProxy アーキテクチャガイド",
+            "url": "http://www.haproxy.org/download/1.2/doc/architecture.txt",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ocdcbhHrwjJX0KWgmsOL6",
+      "type": "subtopic",
+      "label": "LB vs リバースプロキシ",
+      "position": {
+        "x": 502.27648583084766,
+        "y": 923.2994626720824
+      },
+      "size": {
+        "width": 251,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "* 負荷バランサーを部署することは,複数のサーバーを持つときに有用である.しばしば,負荷バランサーは,同じ機能を果たすサーバのセットにトラフィックを転送する. * 逆代理は,たった一つのウェブサーバーまたはアプリケーションサーバーでさえ有用であり,上記のセクションで説明されている利点を開くことができます. * NGINXとHAProxyのようなソリューションは,レイヤ7の逆代理と負荷バランスを両方のサポートすることができます.逆代理のデメリット: ------------------------------- * 逆代理を導入すると複雑性が増加します. * 単一の逆代理は単一の故障点であり,複数の逆代理 (すなわち,故障) を設定すると複雑性がさらに増加します.",
+        "links": [
+          {
+            "title": "リバースプロキシ vs 負荷バランサー",
+            "url": "https://www.nginx.com/resources/glossary/reverse-proxy-vs-load-balancer/",
+            "type": "article"
+          },
+          {
+            "title": "NGINXアーキテクチャ",
+            "url": "https://www.nginx.com/blog/inside-nginx-how-we-designed-for-performance-scale/",
+            "type": "article"
+          },
+          {
+            "title": "HAProxy アーキテクチャガイド",
+            "url": "http://www.haproxy.org/download/1.2/doc/architecture.txt",
+            "type": "article"
+          },
+          {
+            "title": "リバースプロキシ",
+            "url": "https://en.wikipedia.org/wiki/Reverse_proxy",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "urSjLyLTE5IIz0TFxMBWL",
+      "type": "subtopic",
+      "label": "負荷バランス アルゴリズム",
+      "position": {
+        "x": 502.27648583084766,
+        "y": 976.2994626720824
+      },
+      "size": {
+        "width": 251,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "負荷バランサーとは,サーバーの負荷を抑えられるソフトウェアまたはハードウェアデバイスである.負荷バランスのアルゴリズムは,負荷バランサーがサーバー間のネットワークトラフィックを分配するために使用する論理である (アルゴリズムは既定規則のセットである).負荷バランスのための2つの主要なアプローチがあります.ダイナミックな負荷バランスは,各サーバーの現在の状態を考慮してトラフィックを適切に分配するアルゴリズムを使用します.静的負荷バランスはこれらの調整を行わずにトラフィックを分配します.一部の静的アルゴリズムは,特定の順序またはランダムにグループ内の各サーバーに同じ量のトラフィックを送信します.",
+        "links": [
+          {
+            "title": "負荷バランスアルゴリズムの種類",
+            "url": "https://www.cloudflare.com/learning/performance/types-of-load-balancing-algorithms/",
+            "type": "article"
+          },
+          {
+            "title": "アルゴリズムに関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/algorithms?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "e69-JVbDj7dqV_p1j1kML",
+      "type": "subtopic",
+      "label": "7 層 負荷バランス",
+      "position": {
+        "x": 502.27648583084766,
+        "y": 1029.2994626720824
+      },
+      "size": {
+        "width": 251,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "レイヤ7のロードバランサーは,アプリケーションレイヤを見て,要求の配布方法を決定する.これはヘッダー,メッセージ,クッキーの内容を含む可能性があります.レイヤ7のロードバランサーは,ネットワークトラフィックを終了し,メッセージを読み,ロードバランス決定を下し,選択されたサーバーに接続します.例えば,レイヤ7のロードバランサーは,より敏感なユーザー請求トラフィックをセキュリティ強化されたサーバーに転送しながら,ビデオをホストするサーバーにビデオトラフィックを転送することができます.柔軟性によって,レイヤ4のロードバランスは,レイヤ7よりも少ない時間とコンピューティングリソースを必要とします.",
+        "links": []
+      }
+    },
+    {
+      "id": "MpM9rT1-_LGD7YbnBjqOk",
+      "type": "subtopic",
+      "label": "4 層 負荷バランス",
+      "position": {
+        "x": 502.27648583084766,
+        "y": 1082.2994626720824
+      },
+      "size": {
+        "width": 251,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "4 層の負荷バランサーは,要求の配布方法を決定するために,輸送層の情報を調べます.一般的に,これはヘッダー内のソース,目的地 IP アドレス,ポートを含むが,パケットの内容ではありません. 4 層の負荷バランサーは,ネットワークアドレスの翻訳 (NAT) を実行し,上流サーバからネットワークパケットを転送します.",
+        "links": [
+          {
+            "title": "4 層 負荷バランス",
+            "url": "https://www.f5.com/glossary/layer-4-load-balancing",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "IkUCfSWNY-02wg2WCo1c6",
+      "type": "subtopic",
+      "label": "水平スケーリング",
+      "position": {
+        "x": 502.27648583084766,
+        "y": 1135.2994626720824
+      },
+      "size": {
+        "width": 251,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "負荷バランサーは水平スケーリングにも役立つし,性能と可用性を向上させる. 商品機器を使用してスケーリングを行うことはコスト効率が高く,より高価なハードウェアで単一のサーバーをスケーリングするよりも高い可用性をもたらします. 垂直スケーリングと呼ばれるものです. 商品ハードウェアで働く人材を専門企業システムよりも雇うのは簡単です.ホリゾナルのスケーリングのデメリット ------------------------------------------- * ホリゾナルのスケーリングは複雑性を導入し,サーバーのクローンを含みます * サーバーはステートレスでなければならない:セッションやプロフィール画像のようなユーザー関連データを含まないべきです * セッションはデータベース (SQL,NoSQL) や恒久的なキャッシュ (Redis, Memcached) などの集中的なデータストレージで保存することができます. * キャッシュやデータベースなどのダウンストリームサーバーは,アップストリームサーバーがスケーリングするにつれて,より多くの同時接続を処理する必要があります.",
+        "links": []
+      }
+    },
+    {
+      "id": "XXuzTrP5UNVwSpAk-tAGr",
+      "type": "topic",
+      "label": "適用層",
+      "position": {
+        "x": -38.450004973186594,
+        "y": 1029.2994626720824
+      },
+      "size": {
+        "width": 184,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ウェブレイヤをアプリケーションレイヤ (プラットフォームレイヤとしても知られる) から分離することで,両方のレイヤを独立的にスケールして構成することができます.新しいAPIを追加することで,追加のウェブサーバーを追加することなく,アプリケーションサーバーを追加されます.単一の責任原則は,小さなサービスと独立したサービスが一緒に働くことを推奨します.小さなサービスを持つ小さなチームは,急速な成長のためにより攻撃的に計画を立てることができます. ![]https://i.imgur.com/F0cjurv.png) デメリット ------------- * 緩やかに接続されたサービスを持つアプリケーションレイヤを追加するには,アーキテクチャル操作,プロセスビューポイント (モノリシックシステムに対して) から異なるアプローチが必要です. * マイクロサービスは,デプロイメントと操作に関して複雑さを追加することができます.",
+        "links": [
+          {
+            "title": "規模のための建築システムへの入門",
+            "url": "http://lethain.com/introduction-to-architecting-systems-for-scale/#platform_layer",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "UKTiaHCzYXnrNw31lHriv",
+      "type": "subtopic",
+      "label": "マイクロサービス",
+      "position": {
+        "x": -38.450004973186594,
+        "y": 889.9959916278779
+      },
+      "size": {
+        "width": 184,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "\"アプリケーションレイヤ\"に関する議論には,マイクロサービスが関連している.これは独立した展開可能な,小さな,モジュラルのサービスのセットとして説明することができる.各サービスはユニークなプロセスを実行し,ビジネス目標に奉仕するために明確に定義された軽量なメカニズムを通じてコミュニケーションをとる.",
+        "links": [
+          {
+            "title": "マイクロサービスへの導入",
+            "url": "https://aws.amazon.com/microservices/",
+            "type": "article"
+          },
+          {
+            "title": "マイクロサービス - ウィキペディア",
+            "url": "https://en.wikipedia.org/wiki/Microservices",
+            "type": "article"
+          },
+          {
+            "title": "マイクロサービス",
+            "url": "https://martinfowler.com/articles/microservices.html",
+            "type": "article"
+          },
+          {
+            "title": "マイクロサービスに関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/microservices?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Nt0HUWLOl4O77elF8Is1S",
+      "type": "subtopic",
+      "label": "サービス 発見",
+      "position": {
+        "x": -38.450004973186594,
+        "y": 942.9959916278779
+      },
+      "size": {
+        "width": 184,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "[Consul] (https://www.consul.io/docs/index.html), [Etcd] (https://coreos.com/etcd/docs/latest),および [Zookeeper] (http://www.slideshare.net/sauravhaloi/introduction-to-apache-zookeeper) のようなシステムは,登録された名前,アドレス,ポートを追跡することによって,サービスを互いの検索に役立ちます. [Health checks] (https://www.consul.io/intro/get-started/checks.html) は,サービスの完整性を確認するのに役立ちます.",
+        "links": [
+          {
+            "title": "サービス・ディスカバリーへの入門",
+            "url": "https://github.com/donnemartin/system-design-primer#Service-Discovery",
+            "type": "opensource"
+          },
+          {
+            "title": "サービス型アーキテクチャとは何か?",
+            "url": "https://en.wikipedia.org/wiki/Service-oriented_architecture",
+            "type": "article"
+          },
+          {
+            "title": "建築に関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/architecture?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5FXwwRMNBhG7LT5ub6t2L",
+      "type": "topic",
+      "label": "データベース",
+      "position": {
+        "x": -38.450004973186594,
+        "y": 1129.2994626720824
+      },
+      "size": {
+        "width": 184,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "適切なデータベースを選択することは,システムのパフォーマンス,スケーラビリティ,および全体的な成功に大きな影響を与える可能性があるため,重要な決定です.適切なデータベースを選択することが重要な主な理由の一つは: * 性能:異なるデータベースには異なるパフォーマンス特性があり,間違ったデータベースを選択すると性能が低下し,応答時間が遅くなる可能性があります.* スケーラビリティ:システムが成長し,データの量は増加するにつれて,データベースはそれに応じてスケーラすることが必要です.一部のデータベースは他のデータよりも大量のデータを処理するのに適しています.* データモデリング:異なるデータベースには異なるデータモデリング能力があり,適切なデータベースを選択することでデータを一貫して組織的に保つことができます.*データインテグリティ:データインテグリティを維持する際には,制限の強制など,異なる機能があり,データセキュリティのレベルが異なる可能性があります.* サポートとメンテナンス:一部のデータベースにはより活発なコミュニティとよりよいドキュメントがあり,助けとリソースを簡単に見つけることができます.",
+        "links": [
+          {
+            "title": "最初の100万ユーザーにスケールアップする",
+            "url": "https://www.youtube.com/watch?v=kKjm4ehYiMs",
+            "type": "video"
+          },
+          {
+            "title": "バックエンド開発に関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/backend?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "KLnpMR2FxlQkCHZP6-tZm",
+      "type": "subtopic",
+      "label": "SQL vs NoSQL",
+      "position": {
+        "x": -38.450004973186594,
+        "y": 1221.833610961679
+      },
+      "size": {
+        "width": 184,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "MySQL と PostgreSQL などの SQL データベースは,構造化・関係性・データと固定式・スキーマを使用するのに最も適しています.それらは,強力な ACID (Atomicity, Consistency, Isolation, Durability) トランザクションを提供し,複雑なクエリやリンクをサポートします.MongoDB と Cassandra などの NoSQL データベースは,構造化・非関係性・データに最も適しており,柔軟なスキーマを使用します.それらは,大量のデータに対して高度なスケーラビリティとパフォーマンスを提供しており,ビッグデータやリアルタイムウェブアプリケーションで使用されることが多い.SQL と NoSQL の選択は,プロジェクトの特定の使用事例と要件に依存します.複雑な関係性を持つ構造化されたデータを保管し,クエリする必要がある場合,SQL データベースはおそらくより良い選択です.大規模なスケーラビリティとパフォーマンスを備えた大量の構造化されていないデータを保存し,查询する必要がある場合,NoSQLデータベースはより良い選択かもしれません.",
+        "links": [
+          {
+            "title": "SQL vs NoSQL: 違い",
+            "url": "https://www.sitepoint.com/sql-vs-nosql-differences/",
+            "type": "article"
+          },
+          {
+            "title": "SQLとNoSQLデータベースの違いは?",
+            "url": "https://www.ibm.com/blog/sql-vs-nosql/",
+            "type": "article"
+          },
+          {
+            "title": "NoSQL vs SQL データベース",
+            "url": "https://www.mongodb.com/nosql-explained/nosql-vs-sql",
+            "type": "article"
+          },
+          {
+            "title": "NoSQLに関するトップ記事を探索する",
+            "url": "https://app.daily.dev/tags/nosql?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dc-aIbBwUdlwgwQKGrq49",
+      "type": "subtopic",
+      "label": "複製",
+      "position": {
+        "x": -294.683453649206,
+        "y": 1165.5927435005694
+      },
+      "size": {
+        "width": 193,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "複製は,データベースからデータベースにデータをコピーするプロセスである.複製は,データベースの可用性とスケーラビリティを増やすために使用される.複製は,2種類の複製である.マスター・スラブとマスター・マスター.マスター・スラブ複製: ------------------------- マスターは読み書き,複製は読み書きを1つまたは複数のスラブに提供する. 奴隷はまた,木のような方法で追加のスラブに複製することができます.マスターがオフラインになった場合,システムは,奴隷がマスターに昇格されるまで読み書きモードで動作し続けることができます.マスター-マスター複製: ------------------------------------------ 両方のマスターは読み書き,書き書き,相互に協調します.両方のマスターがダウンすると システムが読み書きの両方で 動作し続けることができます",
+        "links": []
+      }
+    },
+    {
+      "id": "FX6dcV_93zOfbZMdM_-li",
+      "type": "subtopic",
+      "label": "破片する",
+      "position": {
+        "x": -294.683453649206,
+        "y": 1218.5927435005694
+      },
+      "size": {
+        "width": 193,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "シェードリングは,異なるデータベースにデータを配布するので,各データベースはデータのサブセットのみを管理できます.ユーザーデータベースを例として挙げると,ユーザーの数が増加するにつれて,より多くのシェードがクラスターに追加されます.連邦の利点と同様に,シェードリングは読み書きトラフィック,複製が少なく,キャッシュが多くなります.インデックスサイズも減少し,通常より速いクエリでパフォーマンスを改善します.一つのシェードがダウンすると,他のシェードはまだ動作します.データ損失を避けるために,いくつかの形式の複製を追加する必要があります.連邦のように,単一の中央マスターシリアライティングは書きません.",
+        "links": [
+          {
+            "title": "シェードが来る",
+            "url": "http://highscalability.com/blog/2009/8/6/an-unorthodox-approach-to-database-design-the-coming-of-the.html",
+            "type": "article"
+          },
+          {
+            "title": "シェード (データベースアーキテクチャ)",
+            "url": "https://en.wikipedia.org/wiki/Shard_(database_architecture",
+            "type": "article"
+          },
+          {
+            "title": "バックエンド開発に関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/backend?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "DGmVRI7oWdSOeIUn_g0rI",
+      "type": "subtopic",
+      "label": "連邦",
+      "position": {
+        "x": -294.683453649206,
+        "y": 1271.5927435005694
+      },
+      "size": {
+        "width": 193,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "連邦 (または機能分割) は,データベースを機能によって分割する.例えば,単一の単一データベースの代わりに,3つのデータベースを持つことができます:フォーラム,ユーザー,および製品,その結果,各データベースへの読み書きトラフィックが少なくなり,複製遅延が少なくなります.より小さなデータベースは,メモリに収納できるより多くのデータをもたらし,その結果,改善されたキャッシュローカリティのためにより多くのキャッシュヒットをもたらします.単一の中央マスターシリアライティングの書き込みがなければ,並行で書き込みし,吞吐量を増加します.",
+        "links": []
+      }
+    },
+    {
+      "id": "Zp9D4--DgtlAjE2nIfaO_",
+      "type": "subtopic",
+      "label": "デノーマライゼーション",
+      "position": {
+        "x": -294.683453649206,
+        "y": 1324.5927435005694
+      },
+      "size": {
+        "width": 193,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "デノーマライゼーションは,いくつかの書き込み性能の代償で読書のパフォーマンスを向上させようとします.高額な結合を避けるためにデータの冗長なコピーが複数のテーブルに書き込まれます.PostgreSQLやOracleなどのRDBMSは,冗長な情報を保存し,冗長なコピーを一貫性的に保つ作業を処理する物体化されたビューをサポートします.データが連邦や分割などの技術で配布されると,データセンター間の結合管理はさらに複雑性を高めます.デノーマライゼーションはそのような複雑な結合の必要性を回避する可能性があります.",
+        "links": [
+          {
+            "title": "デノーマライゼーション",
+            "url": "https://en.wikipedia.org/wiki/Denormalization",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "fY8zgbB13wxZ1CFtMSdZZ",
+      "type": "subtopic",
+      "label": "SQL 調節",
+      "position": {
+        "x": -294.683453649206,
+        "y": 1377.5927435005694
+      },
+      "size": {
+        "width": 193,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "SQLチューニングとは,パフォーマンス基準を満たさない SQL ステートメントを診断・修復する試みである.これは幅広いテーマであり,参考として多くの本が書かれています.ボトルネックスをシミュレートして発見するためにベンチマークとプロフィールすることが重要です. *ベンチマーク - ab のようなツールで高負荷の状況をシミュレートします. * プロフィール - 遅いクエリログのようなツールを有効にします.パフォーマンス問題を追跡するのに役立ちます.ベンチマークとプロフィーリングは以下の最適化を指す可能性があります.",
+        "links": [
+          {
+            "title": "SQL Tuning - Oracleへの導入",
+            "url": "https://docs.oracle.com/en/database/oracle/oracle-database/23/tgsql/introduction-to-sql-tuning.html#GUID-B653E5F3-F078-4BBC-9516-B892960046A2",
+            "type": "official"
+          },
+          {
+            "title": "PostgreSQLで単なる人間のためのクエリ最適化",
+            "url": "https://towardsdatascience.com/query-optimization-for-mere-humans-in-postgresql-875ab864390a/",
+            "type": "article"
+          },
+          {
+            "title": "SQLに関するトップ記事を探求する",
+            "url": "https://app.daily.dev/tags/sql?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "uyrV_iIIQQvEDSUM9gt7H",
+      "type": "label",
+      "label": "RDBMS",
+      "position": {
+        "x": -239.183453649206,
+        "y": 1437.5927435005694
+      },
+      "size": {
+        "width": 78,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "KFtdmmce4bRkDyvFXZzLN",
+      "type": "subtopic",
+      "label": "キー・バリュー ストア",
+      "position": {
+        "x": -294.4401505968112,
+        "y": 899.2722684546688
+      },
+      "size": {
+        "width": 193,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "キー・バリュー・ストアでは,通常は `O(1) ` を読み書きし,メモリまたはSSD によってバックアップされます.データストアでは,単語文字の順序でキーを維持し,キー範囲を効率的に取得することができます.キー・バリュー・ストアでは,値のあるメタデータの保存を可能にします.キー・バリュー・ストアでは,高い性能を提供し,シンプルなデータモデルまたはメモリ内キャッシュ層などの急速に変化するデータに使用されます.",
+        "links": [
+          {
+            "title": "キー値データベース",
+            "url": "https://en.wikipedia.org/wiki/Key%E2%80%93value_database",
+            "type": "article"
+          },
+          {
+            "title": "キー/値表を使用するデメリットは何ですか?",
+            "url": "https://stackoverflow.com/questions/4056093/what-are-the-disadvantages-of-using-a-key-value-table-over-nullable-columns-or",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "didEznSlVHqqlijtyOSr3",
+      "type": "subtopic",
+      "label": "ドキュメントストア",
+      "position": {
+        "x": -294.4401505968112,
+        "y": 952.2722684546688
+      },
+      "size": {
+        "width": 193,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ドキュメントストレージは,ドキュメント (XML, JSON,バイナリー,など) を中心とするもので,ドキュメントは特定のオブジェクトのためのすべての情報をストレージします.ドキュメントストレージは,ドキュメントの内部構造に基づいたクエリのためのAPIまたはクエリ言語を提供します.注意,多くのキー値ストレージには,値のメタデータと作業するための機能が含まれています.これらの2つのストレージタイプ間の線を模糊します.基礎的な実装に基づいて,ドキュメントはコレクション,タグ,メタデータ,またはディレクトリによって組織されます.ドキュメントを組織またはグループ化しても,ドキュメントには互いに完全に異なるフィールドがあります.",
+        "links": [
+          {
+            "title": "文書型データベース",
+            "url": "https://en.wikipedia.org/wiki/Document-oriented_database",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "WHq1AdISkcgthaugE9uY7",
+      "type": "subtopic",
+      "label": "ワイドコラムストア",
+      "position": {
+        "x": -294.4401505968112,
+        "y": 1005.2722684546688
+      },
+      "size": {
+        "width": 193,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "広い列庫の基本データ単位は列 (名前/値ペア) です.列は列家族 (SQLテーブルに類似する) にグループ化できます.スーパー列家族はさらに列の列家族をグループ化できます.各列を並列キーで独立したアクセスし,同じ行鍵を持つ列は並列を形成します.各値にはバージョン作成と紛争解決のためのタイムスタンプが含まれます.GoogleはBigtableを最初の広い列庫として導入しました.これはHadoopエコシステムでしばしば使用されるオープンソースのHBase,そしてFacebookからカッサンドラに影響を与えた.BigTable,HBase,Cassandraなどの店舗は語彙順序で鍵を保持し,選択的なキー範囲を効率的に取り戻すことができます.",
+        "links": [
+          {
+            "title": "ビッグテーブルアーキテクチャ",
+            "url": "https://www.read.seas.harvard.edu/~kohler/class/cs239-w08/chang06bigtable.pdf",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6RLgnL8qLBzYkllHeaI-Z",
+      "type": "subtopic",
+      "label": "グラフデータベース",
+      "position": {
+        "x": -294.4401505968112,
+        "y": 1058.2722684546688
+      },
+      "size": {
+        "width": 193,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "グラフデータベースでは,各ノードが記録であり,各弧は2つのノード間の関係である.グラフデータベースは,多くの外国キーまたは多くの対多くの関係を持つ複雑な関係を表現するために最適化されています.グラフデータベースは,ソーシャルネットワークなどの複雑な関係を持つデータモデルに高いパフォーマンスを提供します.それらは比較的新しく,まだ広く使用されていません.開発ツールやリソースを見つけるのはより困難かもしれません.多くのグラフはREST APIでのみアクセスできます.",
+        "links": [
+          {
+            "title": "グラフデータベース",
+            "url": "https://en.wikipedia.org/wiki/Graph_database",
+            "type": "article"
+          },
+          {
+            "title": "NoSQLへの導入",
+            "url": "https://www.youtube.com/watch?v=qI_g07C_Q5I",
+            "type": "video"
+          },
+          {
+            "title": "バックエンド開発に関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/backend?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "de-uXrRy3XDwZbLyXXluK",
+      "type": "label",
+      "label": "NoSQL",
+      "position": {
+        "x": -234.44015059681118,
+        "y": 1115.2232701331175
+      },
+      "size": {
+        "width": 73,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "-X4g8kljgVBOBcf1DDzgi",
+      "type": "topic",
+      "label": "キャッシング",
+      "position": {
+        "x": 238.5,
+        "y": 1261.115307718412
+      },
+      "size": {
+        "width": 167,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "キャッシングとは,初期データソースを查询する必要なしに,頻繁にアクセスするデータを一時的なストレージ場所,キャッシュと呼ばれる場所に保存するプロセスです.これは,データソースにアクセスしなければならない時間を減らすことでアプリケーションのパフォーマンスを向上させることができます.キャッシング戦略はいくつかあります: * フレッシュ・アワード * 裏書き * 書き込み * キャッシュ・サイド また,キャッシュをいくつかの場所に保存することができます.例としては: * クライアントキャッシング * CDNキャッシング * ウェブサーバーキャッシング * データベースキャッシング * アプリケーションキャッシング",
+        "links": [
+          {
+            "title": "キャッシング 策略",
+            "url": "https://medium.com/@mmoshikoo/cache-strategies-996e91c80303",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Bgqgl67FK56ioLNFivIsc",
+      "type": "subtopic",
+      "label": "前々 の 爽快さ",
+      "position": {
+        "x": 512.0255635517132,
+        "y": 1230.326180649652
+      },
+      "size": {
+        "width": 232,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "キャッシュを設定して,その有効期限が終わるまで,最近アクセスしたキャッシュエントリを自動的にリフレッシュできます.リフレッシュ・アワードは,将来にどのアイテムが必要になる可能性が正確に予測できれば,遅延と読み込みが低下する可能性があります.リフレッシュ・アワードのデメリット: ------------------------------ *将来にどのアイテムが必要になる可能性が正確に予測されないことは,リフレッシュ・アワードがない場合よりも性能が低下する可能性があります. ![](https://i.imgur.com/sBXb7lb.png)",
+        "links": [
+          {
+            "title": "キャッシュから内存データグリッドへ",
+            "url": "http://www.slideshare.net/tmatyashovsky/from-cache-to-in-memory-data-grid-introduction-to-hazelcast",
+            "type": "article"
+          },
+          {
+            "title": "キャッシング戦略: 前向きのパターンを刷新する",
+            "url": "https://www.enjoyalgorithms.com/blog/refresh-ahead-caching-pattern",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "vNndJ-MWetcbaF2d-3-JP",
+      "type": "subtopic",
+      "label": "書き込み",
+      "position": {
+        "x": 512.0255635517132,
+        "y": 1283.326180649652
+      },
+      "size": {
+        "width": 232,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Writ-behindでは,アプリケーションは以下の操作を行います: * キャッシュに入力を追加/更新する * データストアに入力を非同期的に書き込み,書き込み性能を改善する _------------------------------------ * キャッシュがコンテンツがデータストアにヒットする前にダウンした場合,データ損失が発生する可能性があります. * キャッシュを書き込みまたは書き込みを行うよりも,書き込みを実行することは複雑です. ![スケーラビリティ,利用可能性,安定性,パターン]https://i.imgur.com/XDsb7RS.png)",
+        "links": [
+          {
+            "title": "拡張性,可用性,安定性,パターン",
+            "url": "http://www.slideshare.net/jboner/scalability-availability-stability-patterns/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "RNITLR1FUQWkRbSBXTD_z",
+      "type": "subtopic",
+      "label": "書き込み",
+      "position": {
+        "x": 512.0255635517132,
+        "y": 1336.326180649652
+      },
+      "size": {
+        "width": 232,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "アプリケーションはキャッシュを主要データストレージとして使用し,データを読み書き込み,データベースに読み書きを行う. * アプリケーションはキャッシュに入力を追加/更新します. * キャッシュはデータストレージへの入力を同期的に書き込みます. * 返信 アプリケーションコード: set_user(12345, {\"foo\": \"bar\"}) キャッシュコード: def set_user(user_id, values): user = db.query(\"UPDATE Users WHERE id = {0}\", user_id, values) cache.set(_id, user) Write-throughは書き込み操作による全体的な操作です.しかし,後に書かれたキャッシュデータの読み取りは高速です.ユーザは通常,データ更新時にデータよりも遅延を許容しています.データ読み込みは安定していません.デメリット ------------- * 新しいノードが故障やスケーリングにより作成されると,新しいノードがデータベースにエントリが更新されるまでキャッシュしない.書き込みと併せてキャッシュアウトすることで,この問題を軽減できます.",
+        "links": [
+          {
+            "title": "拡張性,可用性,安定性,パターン",
+            "url": "http://www.slideshare.net/jboner/scalability-availability-stability-patterns/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "bffJlvoLHFldS0CluWifP",
+      "type": "subtopic",
+      "label": "保存する",
+      "position": {
+        "x": 512.0255635517132,
+        "y": 1389.326180649652
+      },
+      "size": {
+        "width": 232,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "アプリケーションはストレージから読み書きを担当します.キャッシュはストレージと直接相互作用しません.アプリケーションは次のことをします: *キャッシュのエントリを探してキャッシュを失くします. *データベースからキャッシュを入力します. *キャッシュにエントリを追加します. * 返信入力 def get_user, user_id): user = cache.get(\"user.{0}\", user_id) がユーザである場合 None: user = db.query(\"SELECT * FROM users WHERE user_id = {0}\", user_id) がユーザでない場合 None: key = \"user.{0}\".format(user_id) cache.(key, json.dumps cacheuser)) 返信ユーザー [Memca] [https://memcached.org/) は一般的にこの方法で使用されます.[キャッシュサイド] [https://i.imgur.com/Ujf0awN.png]",
+        "links": [
+          {
+            "title": "キャッシュから内存データグリッドへ",
+            "url": "https://www.slideshare.net/tmatyashovsky/from-cache-to-in-memory-data-grid-introduction-to-hazelcast",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "AUCyMMaN7s2OnCEMo2-Or",
+      "type": "label",
+      "label": "戦略",
+      "position": {
+        "x": 580.5255635517132,
+        "y": 1447.615307718412
+      },
+      "size": {
+        "width": 95,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "RHNRb6QWiGvCK3KQOPK3u",
+      "type": "subtopic",
+      "label": "クライアントキャッシング",
+      "position": {
+        "x": 514.5255635517132,
+        "y": 1496.6321590449484
+      },
+      "size": {
+        "width": 227,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "クライアントサイドキャッシングとは,クライアントのデバイスに頻繁にアクセスするデータをサーバーではなく,クライアントのデバイスに保存する慣行を指します.このタイプのキャッシングは,クライアントがサーバーからデータを要求する時間を減らすことでアプリケーションのパフォーマンスを改善するのに役立ちます.クライアントサイドキャッシングの一般的な例の一つは,頻繁にアクセスするウェブページとリソースをキャッシングするウェブブラウザです.ユーザーがウェブページを訪問すると,ブラウザはブラウザのキャッシングでページとそのリソース (イメージ,スタイルシート,スクリプトなど) のコピーを保存します.ユーザーが同じページを再び訪問した場合,ブラウザはサーバーからキャッシングされたバージョンとリソースをリクエストする代わりに,ページの読み込み時間を短縮することができます.クライアントサイドキャッシングのもう一つの例は,アプリケーションレベルのキャッシングである.モバイルアプリなどの一部のアプリケーションは,パフォーマンスを向上させ,ネットワーク上で転送する必要があるデータの量を減らすために,クライアントデバイス上のデータをキャッシングすることができます.クライアントサイドキャッシングは,サーバーの負荷を削減し,ページの負荷時間を高速化し,ネットワークトラフィックを削減するなどのいくつかの利点があります.しかし,クライアント側のキャッシングが適切に管理されていない場合,クライアントデバイス上のメモリまたはディスクスペースを消費する場合,古いデータの可能性などのいくつかのデメリットもあります.",
+        "links": [
+          {
+            "title": "HTTP キャッシング",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Caching",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Kisvxlrjb7XnKFCOdxRtb",
+      "type": "subtopic",
+      "label": "CDNキャッシング",
+      "position": {
+        "x": 514.5255635517132,
+        "y": 1549.6321590449484
+      },
+      "size": {
+        "width": 227,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "コンテンツ配信ネットワーク (CDN) は,世界中のさまざまな場所に戦略的に配置されているサーバーの分散型ネットワークである.CDNの主な目的は,エンドユーザーに高可用性と高性能のコンテンツを提供することです.エンドユーザーに近いサーバーに頻繁にアクセスしたコンテンツをキャッシュすることによって.CDNを使用しているウェブサイトからコンテンツを要求すると,CDN は最初に要求されたコンテンツが近くのサーバーのキャッシュで利用可能かどうかをチェックします.キャッシュでコンテンツが見つかった場合,それは近くのサーバーからユーザーに提供されます.キャッシュでコンテンツが見つからない場合は,元のサーバー (コンテンツのオリジナルソース) から要求され,将来の要求のために近くのサーバーにキャッシュされます.CDNキャッシングは,データの移動に必要な距離を縮小し,源サーバーの負荷を軽減し,コンテンツをエンドユーザーに迅速に配信できるようにすることで,ウェブサイトの性能と可用性を大幅に向上させることができます.",
+        "links": []
+      }
+    },
+    {
+      "id": "o532nPnL-d2vXJn9k6vMl",
+      "type": "subtopic",
+      "label": "ウェブサーバーキャッシング",
+      "position": {
+        "x": 514.5255635517132,
+        "y": 1602.6321590449484
+      },
+      "size": {
+        "width": 227,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "[リバースプロキシ] (https://github.com/donnemartin/system-design-primer#reverse-proxy-web-server) と [Varnish] (https://www.varnish-cache.org/) などのキャッシュは,静態および動的なコンテンツを直接配信することができます. Web サーバーは,アプリケーションサーバーに連絡することなく,リクエストをキャッシュで返却することができます.",
+        "links": []
+      }
+    },
+    {
+      "id": "BeIg4jzbij2cwc_a_VpYG",
+      "type": "subtopic",
+      "label": "データベースキャッシング",
+      "position": {
+        "x": 514.5255635517132,
+        "y": 1655.6321590449484
+      },
+      "size": {
+        "width": 227,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "データベースキャッシングは,データベースへの負荷を軽減し,アプリケーションのパフォーマンスを改善するために,一時的なストレージ場所 (キャッシュ) でデータベースから頻繁にアクセスされたデータを保存することを意味します.同じデータに関するデータベースを繰り返し問い合わせる代わりに,アプリケーションは最初にキャッシュをチェックします.データが存在している場合 (キャッシュヒット),それはキャッシュから回収されます.データベースのクエリよりもはるかに速くです.データがキャッシュにない場合 (キャッシュミス),アプリケーションはデータベースを查询し,データを回収し,将来の使用のためにキャッシュに保存し,アプリケーションに返します.",
+        "links": [
+          {
+            "title": "データベースキャッシング",
+            "url": "https://aws.amazon.com/caching/database-caching/",
+            "type": "article"
+          },
+          {
+            "title": "データベースキャッシングの導入",
+            "url": "https://www.prisma.io/dataguide/managing-databases/introduction-database-caching",
+            "type": "article"
+          },
+          {
+            "title": "データベースキャッシング戦略",
+            "url": "https://medium.com/@sesmiat/database-caching-strategies-f5e40c3c9b74",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5Ux_JBDOkflCaIm4tVBgO",
+      "type": "subtopic",
+      "label": "アプリケーションキャッシング",
+      "position": {
+        "x": 514.5255635517132,
+        "y": 1708.6321590449484
+      },
+      "size": {
+        "width": 227,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Memcached と Redis などの内存キャッシュは,アプリケーションとデータストレージの間のキー値ストアである.データが RAM に保存されているため,データがディスクに保存される典型的なデータベースよりもはるかに速い. RAM はディスクよりも限られているため, [キャッシュ無効化] (https://en.wikipedia.org/wiki/Cache_algorithms) のようなアルゴリズムは,https://en.wikipedia.org/wiki/Cache_replacement_policies#Least_recently_used_(\\LRU\\)) で, '冷たい'エントリを無効化し, RAM で 'ホット' データを維持するのに役立ちます. Redis には,次の追加機能があります. * 持続性オプション * 一般的に,構成されたファイルセットやデータセットなどの,通常は,キャッシュベースのクローンや自動クローンが難しくなるため,回避する必要があります.",
+        "links": [
+          {
+            "title": "アプリケーションキャッシングの入門",
+            "url": "https://github.com/donnemartin/system-design-primer#application-caching",
+            "type": "opensource"
+          }
+        ]
+      }
+    },
+    {
+      "id": "84N4XY31PwXRntXX1sdCU",
+      "type": "topic",
+      "label": "アシンクロニズム",
+      "position": {
+        "x": 238.5,
+        "y": 1377.615307718412
+      },
+      "size": {
+        "width": 167,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "アシンクロンなワークフローは,他の場合線上で行われる高価な作業の要求時間を短縮するのに役立ちます.また,データの定期的な集積などの時間を要する作業を事前に行うことで役立ちます.",
+        "links": [
+          {
+            "title": "マイクロサービス の パターン - Sync vs Async",
+            "url": "https://medium.com/inspiredbrilliance/patterns-for-microservices-e57a2d71ff9e",
+            "type": "article"
+          },
+          {
+            "title": "オーバーロード時に反圧を施す",
+            "url": "http://mechanical-sympathy.blogspot.com/2012/05/apply-back-pressure-when-overloaded.html",
+            "type": "article"
+          },
+          {
+            "title": "リトルの法則",
+            "url": "https://en.wikipedia.org/wiki/Little%27s_law",
+            "type": "article"
+          },
+          {
+            "title": "メッセージキューとタスクキューの違いは何ですか?",
+            "url": "https://www.quora.com/What-is-the-difference-between-a-message-queue-and-a-task-queue-Why-would-a-task-queue-require-a-message-broker-like-RabbitMQ-Redis-Celery-or-IronMQ-to-function",
+            "type": "article"
+          },
+          {
+            "title": "すべて数字ゲームだ",
+            "url": "https://www.youtube.com/watch?v=1KRYH75wgy4",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "YiYRZFE_zwPMiCZxz9FnP",
+      "type": "subtopic",
+      "label": "背面 の 圧力",
+      "position": {
+        "x": -39.821155651437266,
+        "y": 1324.5699820487132
+      },
+      "size": {
+        "width": 190,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "排列が大きく増える場合,排列サイズはメモリよりも大きくなり,キャッシュが失われ,ディスクが読み取られ,パフォーマンスも遅くなります. [バックプレッシャー] (http://mechanical-sympathy.blogspot.com/2012/05/apply-back-pressure-when-overloaded.html) は,排列のサイズを制限することで助けることができます.したがって,排列中の作業のための高通量率と良い応答時間を維持します.排列が満たされると,クライアントはサーバーを忙しくしたり, HTTP 503 コードを後で再試したりします.クライアントは後でリクエストを再試すことができます.おそらく [ eksponential backoff ] (https://en.wikipedia.org/wiki/Exponential_backoff) で).",
+        "links": []
+      }
+    },
+    {
+      "id": "a9wGW_H1HpvvdYCXoS-Rf",
+      "type": "subtopic",
+      "label": "任務列",
+      "position": {
+        "x": -39.821155651437266,
+        "y": 1377.5699820487132
+      },
+      "size": {
+        "width": 190,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "タスクキューは,タスクとその関連データを受信し,実行し,その結果を提供します.それらはスケジューリングをサポートし,バックグラウンドで計算密集した作業を実行するために使用できます. [Celery](https://docs.celeryproject.org/en/stable/) はスケジューリングをサポートし,主に Python サポートがあります.",
+        "links": [
+          {
+            "title": "セルリー - 配分された任務列",
+            "url": "https://docs.celeryq.dev/en/stable/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "37X1_9eCmkZkz5RDudE5N",
+      "type": "subtopic",
+      "label": "メッセージのキュー",
+      "position": {
+        "x": -39.821155651437266,
+        "y": 1430.5699820487132
+      },
+      "size": {
+        "width": 190,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "メッセージのキューはメッセージを受け取り,保持し,送信します.もし操作がインラインで実行するには遅すぎると,次のワークフローを持つメッセージのキューを使用できます. * アプリケーションはキューに仕事を公開し,その後に仕事の状態をユーザーに通知します * 労働者はキューから仕事を拾い上げ,処理し,その後に作業が完了したことを信号します.ユーザはブロックされず,作業は背景で処理されます.この期間中に,クライアントは選択的に作業が完了したように見えるようにする小さな処理を行う可能性があります.例えば,ツイートを投稿すると,ツイートがあなたのタイムラインに瞬時に投稿されることがあります.しかし,あなたのツイートが実際にすべてのフォロワーに配信されるまで,時間がかかることがあります.",
+        "links": [
+          {
+            "title": "レディスは何ですか?",
+            "url": "https://redis.io/",
+            "type": "article"
+          },
+          {
+            "title": "ラビットMQのメッセージキュー",
+            "url": "https://www.rabbitmq.com/",
+            "type": "article"
+          },
+          {
+            "title": "アマゾン SQSの概要",
+            "url": "https://aws.amazon.com/sqs/",
+            "type": "article"
+          },
+          {
+            "title": "アパッチ・カフカ",
+            "url": "https://kafka.apache.org/",
+            "type": "article"
+          },
+          {
+            "title": "初心者向けRabbitMQ",
+            "url": "https://www.cloudamqp.com/blog/part1-rabbitmq-for-beginners-what-is-rabbitmq.html",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "8FbjRx2vPtjeayul0aczD",
+      "type": "label",
+      "label": "キャッシングの種類",
+      "position": {
+        "x": 553.5255635517132,
+        "y": 1768.6321590449484
+      },
+      "size": {
+        "width": 149,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "3ewsWpHDMS3XBucSnG3Ab",
+      "type": "horizontal",
+      "label": "ホリゾントノード",
+      "position": {
+        "x": 404.5,
+        "y": 1275.615307718412
+      },
+      "size": {
+        "width": 99,
+        "height": 20
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.75,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "3pRi8M4xQXsehkdfUNtYL",
+      "type": "topic",
+      "label": "無力な作戦",
+      "position": {
+        "x": 238.5,
+        "y": 1526.3071977542106
+      },
+      "size": {
+        "width": 226,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Idempotent オペレーションとは,最初のアプリケーションを超えて結果を変更することなく複数回適用できる操作である.つまり,操作が idempotent である場合,一度または複数回実行しても同じ効果を持つことになる.また, [idempotent] (https://en.wikipedia.org/wiki/Idempotence#Computer_science_meaning) オペレーションの利点を理解することが重要です.特にメッセージまたはタスクキューを使用すると,処理を _exactly once_を保証しない.多くのキューシステム _at least once_メッセージ配信または処理を保証します.これらのシステムは,例えば,地理的地域間で完全に同期化されていないため,実装または設計のいくつかの側面を簡素化します.タスクキューが実行する操作を無力に設計することで,このデザイントレードオフを承認したキューシステムを使用することができます.",
+        "links": [
+          {
+            "title": "無力な作戦とは?",
+            "url": "https://stackoverflow.com/questions/1077412/what-is-an-idempotent-operation",
+            "type": "article"
+          },
+          {
+            "title": "アイデンポテント作戦の概要",
+            "url": "https://www.baeldung.com/cs/idempotent-operations",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "xqPpYbDLE8si-QW58dswv",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": 311.5,
+        "y": 1426.615307718412
+      },
+      "size": {
+        "width": 21,
+        "height": 101
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.65
+      },
+      "z_index": 999
+    },
+    {
+      "id": "uQFzD_ryd-8Dr1ppjorYJ",
+      "type": "topic",
+      "label": "コミュニケーション",
+      "position": {
+        "x": 11.356025695800781,
+        "y": 1525.7191455814577
+      },
+      "size": {
+        "width": 155,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ネットワークプロトコルは今日のシステムの重要な部分であり,いかなるシステムも孤立して存在することはできません.それらはすべて互いに通信する必要があります. HTTP, TCP, UDPなどのネットワークプロトコルについて学びましょう.また,RPC,REST,GraphQL,gRPCなどのアーキテクチャスタイルについて学びましょう.",
+        "links": []
+      }
+    },
+    {
+      "id": "I_nR6EwjNXSG7_hw-_VhX",
+      "type": "subtopic",
+      "label": "HTTP",
+      "position": {
+        "x": -302.4401505968112,
+        "y": 1525.7191455814577
+      },
+      "size": {
+        "width": 76,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "HTTPはクライアントとサーバー間の暗号化およびデータ輸送の方法である.これはリクエスト/レスポンスのプロトコルである.クライアントがリクエストを発行し,サーバーはリクエストに関する関連するコンテンツと完了状態情報で応答を発行する.HTTPは自律で,要求と応答がロードバランス,キャッシング,暗号化,圧縮を実行する多くの中間ルーターおよびサーバーを通じて流れるようにします.基本的な HTTP リクエストは動詞 (方法) とリソース (エンドポイント) からなる.下には一般的なHTTP動詞があります: Verb 解像 解像 解像 解像 保存可能 保存可能 解像 解像 解像 解像 解像 解像 解像 解像 解像 解像 解像 解像 解像 解像 解像 解像 解像 解像 解像 解像 解像 解像 解像 解像 解像 解像 解像 解像 解像 解像 解像 解像 解像 解像 解像 解像 解像 解像 解像 解像 解像 解像 解像 解像 解像 解像 解像 解像 解像 解像 解像 解像 解像 解像 解像 解像 解像 解像 解像 解像 解像 解像 解像 解像 解像 解像 解像 解像 解像 解像 解像 解像 解像 解像 解像 解像 解像",
+        "links": [
+          {
+            "title": "HTTP に関する知っておくべきすべて",
+            "url": "https://cs.fyi/guide/http-in-depth",
+            "type": "article"
+          },
+          {
+            "title": "HTTP は 何 です か",
+            "url": "https://www.nginx.com/resources/glossary/http/",
+            "type": "article"
+          },
+          {
+            "title": "HTTP プロトコルと TCP プロトコルの違いは何ですか?",
+            "url": "https://www.quora.com/What-is-the-difference-between-HTTP-protocol-and-TCP-protocol",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2nF5uC6fYKbf0RFgGNHiP",
+      "type": "subtopic",
+      "label": "TCP",
+      "position": {
+        "x": -223.94015059681118,
+        "y": 1525.7191455814577
+      },
+      "size": {
+        "width": 66,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "TCP (トランスミッション制御プロトコル) は,IPネットワーク上でデータを送信するために使用される接続型,信頼性のある,秩序あるプロトコルです.データ転送開始前に送信者と受信者の間の接続を確立し,データパケットが誤りなく正しいシーケンスで到着することを保証し,失われたパケットのリトランスミッションおよびネットワーク渋滞管理のためのフロー制御のメカニズムを提供します.",
+        "links": [
+          {
+            "title": "TCPとは何か?",
+            "url": "https://github.com/donnemartin/system-design-primer#transmission-control-protocol-tcp",
+            "type": "opensource"
+          },
+          {
+            "title": "HTTP プロトコルと TCP プロトコルの違いは何ですか?",
+            "url": "https://www.quora.com/What-is-the-difference-between-HTTP-protocol-and-TCP-protocol",
+            "type": "article"
+          },
+          {
+            "title": "ゲームプログラミングのためのネットワーク",
+            "url": "http://gafferongames.com/networking-for-game-programmers/udp-vs-tcp/",
+            "type": "article"
+          },
+          {
+            "title": "TCPとUDPプロトコル間の主要な違い",
+            "url": "http://www.cyberciti.biz/faq/key-differences-between-tcp-and-udp-protocols/",
+            "type": "article"
+          },
+          {
+            "title": "TCP と UDP の違い",
+            "url": "http://stackoverflow.com/questions/5970383/difference-between-tcp-and-udp",
+            "type": "article"
+          },
+          {
+            "title": "送信制御プロトコル",
+            "url": "https://en.wikipedia.org/wiki/Transmission_Control_Protocol",
+            "type": "article"
+          },
+          {
+            "title": "ユーザーデータグラム プロトコル",
+            "url": "https://en.wikipedia.org/wiki/User_Datagram_Protocol",
+            "type": "article"
+          },
+          {
+            "title": "Facebookで memcacheをスケーリングする",
+            "url": "http://www.cs.bu.edu/~jappavoo/jappavoo.github.com/451/papers/memcache-fb.pdf",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "LC5aTmUKNiw9RuSUt3fSE",
+      "type": "subtopic",
+      "label": "UDP",
+      "position": {
+        "x": -155.44015059681118,
+        "y": 1525.7191455814577
+      },
+      "size": {
+        "width": 66,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "UDP は接続性のないものです.データグラム (パケットに類似する) はデータグラムレベルでのみ保証されます.データグラムは順序外で目的地に到達する可能性があります.またはまったく届かないかもしれません.UDP は渋滞制御をサポートしません.TCP のサポートの保証がなければ,UDP は一般的により効率的です.UDP は放送し,サブネット上のすべてのデバイスにデータグラムを送信することができます.これは DHCP で有用です.クライアントはIP アドレスを受けていないため,IP アドレスなしで TCP がストリーミングする方法を防止します.UDP は信頼性が低いが,VoIP,ビデオチャット,ゲーム,およびリアルタイムマルチプレイストリーミングなどのリアルタイム使用ケースでうまく動作します.",
+        "links": [
+          {
+            "title": "ゲームプログラミングのためのネットワーク",
+            "url": "http://gafferongames.com/networking-for-game-programmers/udp-vs-tcp/",
+            "type": "article"
+          },
+          {
+            "title": "TCPとUDPプロトコル間の主要な違い",
+            "url": "http://www.cyberciti.biz/faq/key-differences-between-tcp-and-udp-protocols/",
+            "type": "article"
+          },
+          {
+            "title": "TCP と UDP の違い",
+            "url": "http://stackoverflow.com/questions/5970383/difference-between-tcp-and-udp",
+            "type": "article"
+          },
+          {
+            "title": "送信制御プロトコル",
+            "url": "https://en.wikipedia.org/wiki/Transmission_Control_Protocol",
+            "type": "article"
+          },
+          {
+            "title": "ユーザーデータグラム プロトコル",
+            "url": "https://en.wikipedia.org/wiki/User_Datagram_Protocol",
+            "type": "article"
+          },
+          {
+            "title": "Facebookで memcacheをスケーリングする",
+            "url": "http://www.cs.bu.edu/~jappavoo/jappavoo.github.com/451/papers/memcache-fb.pdf",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ixqucoAkgnphWYAFnsMe-",
+      "type": "subtopic",
+      "label": "RPC",
+      "position": {
+        "x": -293.8857859406101,
+        "y": 1591.990516401245
+      },
+      "size": {
+        "width": 86,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "RPCでは,クライアントが別のアドレススペース,通常はリモートサーバーで手順を実行させる.手順は,ローカル手順コールであるかのようにコード化され,クライアントプログラムからサーバーと通信する方法の詳細を抽象化します.リモートコールは,通常ローカルコールよりも遅いし,信頼性が低いため,ローカルコールとRPCコールを区別するのに役立ちます.人気のある RPCフレームワークには [Protobuf] (https://developers.google.com/proto-buffers/), [Thrift(]https://thrift.apache.org/),および [Avro] (https://avro.apache.org/docs/current/).* クライアントスタブ手順 - マーシャル (パック) 手順 id と 議論をリクエストメッセージに変換します.* クライアント通信モジュール - OS はクライアントからサーバーへメッセージを送信します.* サーバー通信モジュール - OS は,受信するパケットをサーバースタブ手順に転送します.* サーバースタブ手順 - 結果を解散し,手順 id に一致するサーバー手順を呼び出し,与えられた議論を通過します.* サーバー応答は上記の手順を逆順に繰り返します. サンプル RPC コール: GET /someoperation?data=anId POST /anoperation {\"data\":\"anId\";\"otherdata\":\"other value\" } RPC は行動暴露に焦点を当てています.RPCは,内部通信の理由のためによく使用されます.RPCのデメリット ------------------ * RPC クライアントはサービス実装と密接に結びつきます.* 新しい操作または使用例ごとに新しい API が定義されなければならない.* RPC をデバッグすることは難しいかもしれません.* 既存のテクノロジーを箱から外して利用することができません.例えば, [RPC 呼び出しが適切にキャッシュされていることを確認するために追加の努力が必要かもしれません [http://etherealbits.com/2012/12/debunking-the-myths-of-rpc-rest/) ] [Squid]http://www.squid-cache.org/) のようなキャッシュサーバーで).",
+        "links": [
+          {
+            "title": "RPCとは何か?",
+            "url": "https://github.com/donnemartin/system-design-primer#remote-procedure-call-rpc",
+            "type": "opensource"
+          },
+          {
+            "title": "バックエンド開発に関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/backend?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6-bgmfDTAQ9zABhpmVoHV",
+      "type": "subtopic",
+      "label": "レスト",
+      "position": {
+        "x": -293.8857859406101,
+        "y": 1644.990516401245
+      },
+      "size": {
+        "width": 86,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "RESTは,クライアント/サーバーモデルを強制するアーキテクチャスタイルで,クライアントはサーバーが管理するリソースの集合で動作します.サーバーは,リソースを操作したり新しい表示を得ることができるリソースやアクションの表示を提供します.すべての通信はステートレスでキャッシュ可能である必要があります.RESTfulインターフェースの4つの性質があります: *リソースを識別 (HTTPのURI) - どんな操作にもかかわらず同じ URIを使用します.*表示で変更 (HTTPのVerbs) - 動詞,ヘッダー,およびボディを使用します.* 自己記述エラーメッセージ (HTTPのステータスレスポン) - ステータスコードを使用してください,車輪を再発明しないでください.* HATEOAS (HTTPのHTMLインターフェース) - ウェブサービスはブラウザで完全にアクセス可能である必要があります.RESTはデータを暴露することに焦点を当てています.クライアント/サーバーの結合を最小限に抑え,公共のHTTPAPIに使用される.RESTはURI,ヘッダーによる表示,GET,POST,PUT,DELETE,PATCHなどの動詞によるアクションを通じてリソースを暴露するより一般的な統一的な方法を使用します.Statelessであるため,RESTは水平スケーリングとパーティショニングに最適です.",
+        "links": [
+          {
+            "title": "REST は 何 です か",
+            "url": "https://github.com/donnemartin/system-design-primer#representational-state-transfer-rest",
+            "type": "opensource"
+          },
+          {
+            "title": "RESTful APIを使用するデメリットは何ですか?",
+            "url": "https://www.quora.com/What-are-the-drawbacks-of-using-RESTful-APIs",
+            "type": "article"
+          },
+          {
+            "title": "REST APIに関するトップ記事を探索する",
+            "url": "https://app.daily.dev/tags/rest-api?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Hw2v1rCYn24qxBhhmdc28",
+      "type": "subtopic",
+      "label": "gRPC",
+      "position": {
+        "x": -204.2836423217721,
+        "y": 1593.7013893324854
+      },
+      "size": {
+        "width": 101,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "gRPCは,リモートプロセスコール (RPC) APIを構築するための高性能,オープンソースのフレームワークです.プロトコルバッファーデータシリアライゼーションフォーマットに基づいており,C#,Java,Pythonを含むさまざまなプログラミング言語をサポートしています.",
+        "links": [
+          {
+            "title": "gRPCとは何か?",
+            "url": "https://www.wallarm.com/what/the-concept-of-grpc",
+            "type": "article"
+          },
+          {
+            "title": "gRPCに関するトップ記事を探求する",
+            "url": "https://app.daily.dev/tags/grpc?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "jwv2g2Yeq-6Xv5zSd746R",
+      "type": "subtopic",
+      "label": "グラフQL",
+      "position": {
+        "x": -204.2836423217721,
+        "y": 1645.759886389313
+      },
+      "size": {
+        "width": 101,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "GraphQL は API を構築するためのクエリ言語と実行時間です.クライアントが必要なデータの構造を定義し,サーバーがそれを返します.これは従来のREST APIとは異なり,サーバーが固定されたエンドポイントセットを暴露し,クライアントが返却するデータと作業する必要があります.",
+        "links": [
+          {
+            "title": "GraphQLサーバー",
+            "url": "https://www.howtographql.com/basics/3-big-picture/",
+            "type": "article"
+          },
+          {
+            "title": "GraphQLとは何か?",
+            "url": "https://www.redhat.com/en/topics/api/what-is-graphql",
+            "type": "article"
+          },
+          {
+            "title": "GraphQLに関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/graphql?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "p--uEm6klLx_hKxKJiXE5",
+      "type": "topic",
+      "label": "性能抗パターン",
+      "position": {
+        "x": -32,
+        "y": 1659.6321590449484
+      },
+      "size": {
+        "width": 243,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "システム設計におけるパフォーマンスアンチパターンは,システム内の低性能につながる一般的なエラーまたは非最適的慣行を指します.これらのパターンは,システムの異なるレベルで発生し,デザインの不良,最適化の欠如,または作業負荷の理解の欠如などのさまざまな要因によって引き起こされることがあります.パフォーマンスアンチパターンのいくつかの例は, * **N+1クエリ:** システムが関連するデータを回収するためにデータベースに複数のクエリを行う場合が発生します.すべての必要なデータを回収するために単一のクエリを使用するのではなく.* **チャッティインターフェース:** システムが外部サービスまたはAPIにあまりにも多くの小規模で頻繁なリクエストを行う場合が発生します.* **無制限データ:** これは,システムが手作業に必要なデータよりも多くのデータを回収または処理すると発生し,リソース使用の増加とパフォーマンスの低下につながります.* **不効率アルゴリズム:** これは,システムが手作業に適していないアルゴリズムを使用すると発生し,リソース使用の増加とパフォーマンスの低下につながります.",
+        "links": [
+          {
+            "title": "クラウドアプリケーションの性能反パターン",
+            "url": "https://learn.microsoft.com/en-us/azure/architecture/antipatterns/",
+            "type": "article"
+          },
+          {
+            "title": "性能に関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/performance?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hxiV2uF7tvhZKe4K-4fTn",
+      "type": "subtopic",
+      "label": "忙しいデータベース",
+      "position": {
+        "x": 96.17222469280483,
+        "y": 1738.5954266172366
+      },
+      "size": {
+        "width": 176,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "システム設計における繁忙なデータベースは,大量のリクエストやトランザクションを処理しているデータベースを指す.これは,システムが高いトラフィックを経験しているときまたはデータベースが処理しているワークロードのために適切に最適化されていない場合が発生する.これはパフォーマンス劣化,リソース利用の増加,デッドロックと争い,データ不一致につながる可能性があります.繁忙なデータベースに対処するには,スケーリングアウト,スケーマ最適化,キャッシング,インデックスなどのいくつかのアプローチが取れます.",
+        "links": [
+          {
+            "title": "繁忙なデータベース反パターン",
+            "url": "https://learn.microsoft.com/en-us/azure/architecture/antipatterns/busy-database/",
+            "type": "article"
+          },
+          {
+            "title": "データベースに関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/database?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "i_2M3VloG-xTgWDWp4ngt",
+      "type": "subtopic",
+      "label": "忙しいフロントエンド",
+      "position": {
+        "x": 96.17222469280483,
+        "y": 1791.5954266172366
+      },
+      "size": {
+        "width": 176,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "繁忙なフロントエンドは,ウェブサーバー,CDN,ブラウザなどのシステムのユーザー面部が効率的に管理できる作業よりも多くの作業を処理しているときに起こります. これにより,ページの読み込みが遅れる,応答が遅れる,またはタイムアウトが発生します.一般的な原因は,同時使用者過多,静止資産が大きい,クライアント側での重量レンダリング,キャッシングレイヤーの欠落があります.応答性を向上するために,CDNを使用して静止ファイルをキャッシュし,スクリプトを最適化し,怠慢な読み込みスクリプトを最適化し,複数のサーバー間でリクエストをバランスし,不必要な API コールを減らすことができます.",
+        "links": [
+          {
+            "title": "繁忙なフロントエンドの反パターン",
+            "url": "https://learn.microsoft.com/en-us/azure/architecture/antipatterns/busy-front-end/",
+            "type": "article"
+          },
+          {
+            "title": "フロントエンド開発に関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/frontend?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "0IzQwuYi_E00bJwxDuw2B",
+      "type": "subtopic",
+      "label": "シャッティ I/O",
+      "position": {
+        "x": 96.17222469280483,
+        "y": 1844.5954266172366
+      },
+      "size": {
+        "width": 176,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "膨大な数のI/Oリクエストの累積効果は,パフォーマンスと応答力に大きな影響を与える.ネットワークコールおよびその他のI/O操作は,計算作業と比較して本質的に遅い.各I/Oリクエストには,一般的に重要なオーバーヘッドがあり,多数のI/O操作の累積効果は,システムを遅らせる可能性があります.ここで会話的なI/Oのいくつかの一般的な原因があります. * 別々のリクエストとしてデータベースに個々のレコードを読み書き * HTTPリクエストのシリーズとして単一の論理操作を実行する * ディスク上のファイルに読み書き",
+        "links": [
+          {
+            "title": "シャッティI/O反パターン",
+            "url": "https://learn.microsoft.com/en-us/azure/architecture/antipatterns/chatty-io/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6u3XmtJFWyJnyZUnJcGYb",
+      "type": "subtopic",
+      "label": "異邦人 の 引き寄せ",
+      "position": {
+        "x": -150.96939176792688,
+        "y": 1952.198253700603
+      },
+      "size": {
+        "width": 243,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "システム設計における外来抽出は,特定のタスクまたは操作に必要なデータよりも多くのデータを回収する慣行を指します.システムが特定の作業量のために最適化されていない場合や,システムがデータ要件に対処するために適切に設計されていない場合が発生します.外来抽出は,以下のような多くの問題につながる可能性があります: *パフォーマンス劣化 *リソース利用の増加 *ネットワークトラフィック増加 *ユーザー体験の低下",
+        "links": [
+          {
+            "title": "エクステリアン・トレッシング・アンチパターン",
+            "url": "https://learn.microsoft.com/en-us/azure/architecture/antipatterns/extraneous-fetching/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "lwMs4yiUHF3nQwcvauers",
+      "type": "subtopic",
+      "label": "誤った例",
+      "position": {
+        "x": -150.96939176792688,
+        "y": 1740.198253700603
+      },
+      "size": {
+        "width": 243,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "システム設計における不適切なインスタンテーションとは,物体,クラスまたはサービスの不必要なインスタンスを作成する慣行を指し,これはパフォーマンスおよびスケーラビリティの問題を引き起こす可能性があります.システムが適切に設計されていないとき,コードが効率的に書かれていないとき,またはコードが特定の使用例のために最適化されていないとき.",
+        "links": [
+          {
+            "title": "不適切なインスタンス・アンチパターン",
+            "url": "https://learn.microsoft.com/en-us/azure/architecture/antipatterns/improper-instantiation/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "p1QhCptnwzTGUXVMnz_Oz",
+      "type": "subtopic",
+      "label": "モノリシック 持続性",
+      "position": {
+        "x": -150.96939176792688,
+        "y": 1793.198253700603
+      },
+      "size": {
+        "width": 243,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Monolithic Persistenceは,アプリケーションまたはシステムのための単一,単一データベースの使用を指します.このアプローチは,シンプルで小規模なシステムに使用できますが,システムが成長し進化するにつれて,ボトルネックになり,スケーラビリティが低下し,柔軟性が制限され,複雑性が増加します.これらの制限に対処するために,マイクロサービス,シャードリング,およびNoSQLデータベースなどのいくつかのアプローチが採用されます.",
+        "links": [
+          {
+            "title": "モノリシック パーシステンス アンチパターン",
+            "url": "https://learn.microsoft.com/en-us/azure/architecture/antipatterns/monolithic-persistence/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "klvHk1_e03Jarn5T46QNi",
+      "type": "subtopic",
+      "label": "キャッシングなし",
+      "position": {
+        "x": 96.17222469280483,
+        "y": 1950.5954266172366
+      },
+      "size": {
+        "width": 176,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "複数の同時リクエストを処理するクラウドアプリケーションが同じデータを繰り返し取得する際には,キャッシングの反パターンは発生しません.これはパフォーマンスとスケーラビリティを低下させることができます.データがキャッシングされていない場合,それはいくつかの不快な行動を引き起こす可能性があります.",
+        "links": [
+          {
+            "title": "キャッシングの反パターンがない",
+            "url": "https://learn.microsoft.com/en-us/azure/architecture/antipatterns/no-caching/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "r7uQxmurvfsYtTCieHqly",
+      "type": "subtopic",
+      "label": "騒々しい隣人",
+      "position": {
+        "x": -150.96939176792688,
+        "y": 1846.198253700603
+      },
+      "size": {
+        "width": 243,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "騒音の隣人は,システムの一つのコンポーネントまたは複数のコンポーネントが不均衡な量の共有リソースを使用している状況を指す.これは,リソースの争いと他のコンポーネントのパフォーマンスの低下につながります.システムがワークロードを処理するために適切に設計または構成されていない場合,またはコンポーネントが予想外の行動をしている場合が発生します.騒音の隣人のシナリオの例は,以下のとおりです: * 共有サーバー上のユーザーの一人が大量のCPUまたはメモリを使用し,同じサーバー上の他のユーザーにとってパフォーマンスの低下につながります. * 共有サーバー上のプロセスの一つのプロセスは大量のI/Oを使用し,他のプロセスは遅いI/Oを経験し,遅延期が増加します.* ネットワークの帯域幅を大量に消費するアプリケーションで,他のアプリケーションは経路量が減少します.",
+        "links": [
+          {
+            "title": "騒音な隣人反パターン",
+            "url": "https://learn.microsoft.com/en-us/azure/architecture/antipatterns/noisy-neighbor/noisy-neighbor",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "LNmAJmh2ndFtOQIpvX_ga",
+      "type": "subtopic",
+      "label": "嵐を繰り返す",
+      "position": {
+        "x": 96.17222469280483,
+        "y": 1897.5954266172366
+      },
+      "size": {
+        "width": 176,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "リトリ・ストームとは,短時間で大量にリトリ・ストームが開始され,トラフィックとリソース利用が大幅に増加する状況を指します.システムが故障に対処するために適切に設計されていない場合やコンポーネントが意外に振る舞う場合が発生します.これはパフォーマンス劣化,リソース利用の増加,ネットワークトラフィックの増加,ユーザー体験の低下につながる可能性があります.リトリ・ストームに対処するには,エクスポネンシャルバックオフ,サーキット破損,モニタリングとアラートなどのいくつかのアプローチが採用されることができます.",
+        "links": [
+          {
+            "title": "嵐抗パターンを再試す",
+            "url": "https://learn.microsoft.com/en-us/azure/architecture/antipatterns/retry-storm/",
+            "type": "article"
+          },
+          {
+            "title": "分布されたシステムで再試される嵐を避ける方法",
+            "url": "https://faun.pub/how-to-avoid-retry-storms-in-distributed-systems-91bf34f43c7f",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Ihnmxo_bVgZABDwg1QGGk",
+      "type": "subtopic",
+      "label": "同期I/O",
+      "position": {
+        "x": -150.96939176792688,
+        "y": 1899.198253700603
+      },
+      "size": {
+        "width": 243,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "I/Oが完了する間に呼び出しスレッドをブロックすることは,パフォーマンスを低下させ,垂直スケーラビリティに影響を与えます.I/Oが完了する間に,同期I/O操作が呼び出しスレッドをブロックします.呼び出しスレッドは待機状態に入り,この間間に有用な作業を行うことができず,処理リソースを無駄にします.I/Oの一般的な例は: *データベースまたは任意の持続的なストレージにデータを取得または維持することがあります.*ウェブサービスにリクエストを送信する.* 列からメッセージを送信する,またはリクエストからメッセージを取得する.* ローカルファイルに書き込みまたは読み取り.この反パターンは通常,操作を実行する最も直感的な方法であるため発生します.* アプリケーションはリクエストから応答を必要とする.* アプリケーションは,I/Oのための同期方法のみを提供するライブラリを使用します.*外部ライブラリは内部で同期I/O操作を実行します.単一の同期I/O呼び出しは,通話チェーン全体をブロックできます.",
+        "links": [
+          {
+            "title": "同期I/O抗パターンとは?",
+            "url": "https://learn.microsoft.com/en-us/azure/architecture/antipatterns/synchronous-io/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hDFYlGFYwcwWXLmrxodFX",
+      "type": "topic",
+      "label": "監視",
+      "position": {
+        "x": 278.5,
+        "y": 2042.9719489680733
+      },
+      "size": {
+        "width": 146,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "クラウドで動作する分散型アプリケーションとサービスは,その性質により,多くの動く部品を構成する複雑なソフトウェアの部品です.生産環境では,ユーザーがシステムを使用する方法を追跡し,資源利用を追跡し,一般的にシステムの健康とパフォーマンスを監視することが重要です.この情報を診断支援として,問題を発見し,修正し,潜在的な問題を発見し,発生するのを防ぐのに役立ちます.",
+        "links": [
+          {
+            "title": "監視と診断のガイドライン",
+            "url": "https://learn.microsoft.com/en-us/azure/architecture/best-practices/monitoring",
+            "type": "article"
+          },
+          {
+            "title": "監視に関するトップ記事を探索する",
+            "url": "https://app.daily.dev/tags/monitoring?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hkjYvLoVt9xKDzubm0Jy3",
+      "type": "subtopic",
+      "label": "健康監視",
+      "position": {
+        "x": 522.0707860146841,
+        "y": 1883.9719489680733
+      },
+      "size": {
+        "width": 232,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "医療モニタリングの目的は,システムの現在の健康状態を瞬時に把握し,システムのすべての構成要素が予想通り機能していることを確認することです.",
+        "links": [
+          {
+            "title": "システム の 健康 監視",
+            "url": "https://learn.microsoft.com/en-us/azure/architecture/best-practices/monitoring#health-monitoring",
+            "type": "article"
+          },
+          {
+            "title": "監視に関するトップ記事を探索する",
+            "url": "https://app.daily.dev/tags/monitoring?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "rVrwaioGURvrqNBufF2dj",
+      "type": "subtopic",
+      "label": "入手可能性の監視",
+      "position": {
+        "x": 522.0707860146841,
+        "y": 1936.9719489680733
+      },
+      "size": {
+        "width": 232,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "本当に健全なシステムには,システムを構成するコンポーネントとサブシステムが利用可能である必要があります.利用可能モニタリングは健康モニタリングと密接に関連しています.しかし,健康モニタリングはシステムの現在の健康状態の直接的な見方を提供しますが,利用可能モニタリングは,システムの利用可能性とそのコンポーネントの利用性を追跡し,システムの稼働時間に関する統計を生成します.",
+        "links": [
+          {
+            "title": "入手可能性の監視",
+            "url": "https://learn.microsoft.com/en-us/azure/architecture/best-practices/monitoring#availability-monitoring",
+            "type": "article"
+          },
+          {
+            "title": "監視に関するトップ記事を探索する",
+            "url": "https://app.daily.dev/tags/monitoring?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "x1i3qWFtNNjd00-kAvFHw",
+      "type": "subtopic",
+      "label": "性能モニタリング",
+      "position": {
+        "x": 522.0707860146841,
+        "y": 1989.9719489680733
+      },
+      "size": {
+        "width": 232,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "システムがますますストレスにさらされるにつれて (ユーザー数の増加により),これらのユーザーがアクセスするデータセットのサイズが増加し,一または複数のコンポーネントの故障の可能性が増加する.しばしば,コンポーネント故障は性能の低下が先行する.そのような減少を検出できれば,状況を修正するために積極的な措置をとることができます.",
+        "links": [
+          {
+            "title": "性能モニタリング",
+            "url": "https://learn.microsoft.com/en-us/azure/architecture/best-practices/monitoring#performance-monitoring",
+            "type": "article"
+          },
+          {
+            "title": "監視に関するトップ記事を探索する",
+            "url": "https://app.daily.dev/tags/monitoring?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "I_NfmDcBph8-oyFVFTknL",
+      "type": "subtopic",
+      "label": "安全監視",
+      "position": {
+        "x": 522.0707860146841,
+        "y": 2042.9719489680733
+      },
+      "size": {
+        "width": 232,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "機密データを含むすべての商業システムにはセキュリティ構造が実装されなければならない.セキュリティメカニズムの複雑性は通常データの敏感性の関数である.ユーザの認証を必要とするシステムでは,以下の記録をする必要があります. * 認証されたユーザーによって実行されたすべての操作および認証されたユーザーによってアクセスされたすべてのリソースの詳細.* ユーザーがセッションを終了してサインアウトしたとき.モニタリングはシステムに対する攻撃を検出するのに役立ちます.例えば,多くの失敗したサインイン試みは大力攻撃を示唆する可能性があります.予期せぬリクエストの増加は分散的サービス拒否 (DDoS) 攻撃の結果である可能性があります.ログイン脆弱性を持つシステムは,ユーザーが実際にログインする必要がなく,外の世界にリソースを無意に暴露する可能性があります.",
+        "links": [
+          {
+            "title": "安全監視",
+            "url": "https://learn.microsoft.com/en-us/azure/architecture/best-practices/monitoring#security-monitoring",
+            "type": "article"
+          },
+          {
+            "title": "監視に関するトップ記事を探索する",
+            "url": "https://app.daily.dev/tags/monitoring?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "eSZq74lROh5lllLyTBK5a",
+      "type": "subtopic",
+      "label": "使用監視",
+      "position": {
+        "x": 522.0707860146841,
+        "y": 2095.9719489680733
+      },
+      "size": {
+        "width": 232,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "使用モニタリングはアプリケーションの機能とコンポーネントがどのように使用されているかを追跡する.オペレーターは収集されたデータを使用して: *どの機能が広く使用されているかを決定し,システム内の潜在的なホットスポットを決定する.高トラフィック要素は,より均等に負荷を分散するために機能的なパーティショニングまたは複製によって利益を得ることができる.オペレーターは,この情報を利用して,どの機能がめったに使用され,将来のシステムのバージョンで退役または置き換える可能性があるかを確認することもできます. *通常の使用下でシステムの運用イベントに関する情報を取得します.例えば,電子商取引サイトでは,取引数の統計情報を記録し,そのために責任を負う顧客の量についての統計情報を記録することができます.顧客数が増加するにつれて,この情報は容量計画に使用できます.* システムのパフォーマンスや機能にユーザーの満足度を検出する (おそらく間接的に).例えば,電子商取引システムにおける多くの顧客が購物車を定期的に放棄した場合,これはチェックアウト機能の問題によるものかもしれません.* 請求情報生成する.商業アプリケーションまたはマルチテナンスのサービスは,顧客が使用するリソースのために顧客を請求することがあります.* クォータを執行します.マルチテナンスのシステム内のユーザーは,特定の期間中に支払った処理時間またはリソースの使用量を上回った場合,アクセス制限または処理を制限することができます.",
+        "links": [
+          {
+            "title": "使用監視",
+            "url": "https://learn.microsoft.com/en-us/azure/architecture/best-practices/monitoring#usage-monitoring",
+            "type": "article"
+          },
+          {
+            "title": "監視に関するトップ記事を探索する",
+            "url": "https://app.daily.dev/tags/monitoring?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Q0fKphqmPwjTD0dhqiP6K",
+      "type": "subtopic",
+      "label": "装置",
+      "position": {
+        "x": 522.0707860146841,
+        "y": 2148.9719489680733
+      },
+      "size": {
+        "width": 232,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "機器はモニタリングプロセスの重要な部分である.システムの性能と健康に関する有意義な決定は,最初にこれらの決定を行うことができるデータを捕捉した場合のみ行うことができます.機器を使用することで収集した情報は,動作を評価し,問題を診断し,手動で追跡 (およびデバッグ) を実行するためにリモート生産サーバにサインインする必要なしに意思決定を可能にするのに十分なものでなければなりません.機器データは通常,ログを追跡するために書かれたメトリックと情報を含む.",
+        "links": [
+          {
+            "title": "申請の手段",
+            "url": "https://learn.microsoft.com/en-us/azure/architecture/best-practices/monitoring#instrumenting-an-application",
+            "type": "article"
+          },
+          {
+            "title": "オープンテレメトリを用いた楽器化",
+            "url": "https://opentelemetry.io/docs/concepts/what-is-opentelemetry",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "IwMOTpsYHApdvHZOhXtIw",
+      "type": "subtopic",
+      "label": "視覚化と警告",
+      "position": {
+        "x": 522.0707860146841,
+        "y": 2201.9719489680733
+      },
+      "size": {
+        "width": 232,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "監視システムの重要な側面は,オペレータがあらゆる傾向や問題を迅速に認識できるようにデータを提示する能力である.また,注意を必要とする重要な出来事が発生した場合,オペレータに迅速に通知する能力も重要です.",
+        "links": [
+          {
+            "title": "データ を 視覚化 し,警報 を 送る",
+            "url": "https://learn.microsoft.com/en-us/azure/architecture/best-practices/monitoring#visualizing-data-and-raising-alerts",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "8ZK2iHO4D3cONYu2JN74F",
+      "type": "paragraph",
+      "label": "このセクションで示されているデザインパターンは,様々な重要性があります.すべてをマスターする必要はありません.それぞれを概要するだけで,スケーラブルなシステムを設計する方法について少しの洞察が得られます.",
+      "position": {
+        "x": -302.4401505968112,
+        "y": 2038.9719489680733
+      },
+      "size": {
+        "width": 463,
+        "height": 140
+      },
+      "style": {
+        "fontSize": 17,
+        "borderColor": "#000000",
+        "backgroundColor": "#ffffff",
+        "color": "#000000",
+        "textAlign": "left",
+        "justifyContent": "flex-start",
+        "padding": 16
+      },
+      "z_index": 999
+    },
+    {
+      "id": "THlzcZTNnPGLRiHPWT-Jv",
+      "type": "topic",
+      "label": "クラウドデザイン パターン",
+      "position": {
+        "x": 138.5,
+        "y": 2250.9719489680733
+      },
+      "size": {
+        "width": 286,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "クラウドデザインパターンは,クラウドプラットフォームで動作するシステムを構築する際に発生する一般的な問題への解決法である.これらのパターンは,クラウドのスケーラビリティ,柔軟性,およびペ・パー・ユース価格設定などのユニークな特徴を利用できるシステムを設計および実装する方法を提供します.いくつかの一般的なクラウドデザインパターンはスケーラビリティ,エラスティシティ,フォルトトレランス,マイクロサービス,サーバーレス,データ管理,フロントエンドとバックエンド分離,ハイブリッドを含む.",
+        "links": [
+          {
+            "title": "クラウドデザイン パターン",
+            "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/",
+            "type": "article"
+          },
+          {
+            "title": "クラウドに関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/cloud?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "MPrL72ZLsxJeLKHHCIo3s",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": 342.5,
+        "y": 2091.9719489680733
+      },
+      "size": {
+        "width": 21,
+        "height": 161
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.65
+      },
+      "z_index": 999
+    },
+    {
+      "id": "dsWpta3WIBvv2K9pNVPo0",
+      "type": "topic",
+      "label": "メッセージ",
+      "position": {
+        "x": 249.79296473841032,
+        "y": 2338.9915694361566
+      },
+      "size": {
+        "width": 286,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "メッセージングは,メッセージキュー,メッセージブローカー,イベントバスのようなメッセージング技術を使用して,異なるコンポーネントまたはシステム間の通信と調整を可能にするパターンです.このパターンは送信者と受信者の分離を可能にし,スケーラブルで柔軟なシステムを構築するために使用できます.",
+        "links": [
+          {
+            "title": "メッセージング クラウド パターン",
+            "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/category/messaging",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "VgvUWAC6JYFyPZKBRoEqf",
+      "type": "subtopic",
+      "label": "順序的なコンボイ",
+      "position": {
+        "x": 260.7929647384103,
+        "y": 2395.9915694361566
+      },
+      "size": {
+        "width": 267,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "シーケンスコンボイ (Sequential Convoy) は,一連のタスク,またはコンボイを特定の順序で実行することを可能にするパターンです.このパターンは,一連の依存タスクが正しい順序で実行されることを確保し,タスクの実行中にエラーまたは失敗を処理するために使用できます.ワークフローやトランザクションなどのシナリオで使用できます.ステートマシン,ワークフロー,トランザクションなどのさまざまな技術を使用して実装できます.",
+        "links": [
+          {
+            "title": "シーケンシャルコンボイとは?",
+            "url": "https://learn.microsoft.com/en-us/biztalk/core/sequential-convoys",
+            "type": "article"
+          },
+          {
+            "title": "概要 - 順序的なコンボイパターン",
+            "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/sequential-convoy",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "uR1fU6pm7zTtdBcNgSRi4",
+      "type": "subtopic",
+      "label": "スケジューリングエージェント監督",
+      "position": {
+        "x": 260.7929647384103,
+        "y": 2448.9915694361566
+      },
+      "size": {
+        "width": 267,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "分散型アクションを単一の操作として調整する.いずれかのアクションが失敗した場合,失敗を透明に処理しようとするか,または実行された作業を無効にすると,全体的な操作が成功するか失敗する.これは分散型システムに回復力を追加し,一時的な例外,長期間の故障,プロセス故障により失敗するアクションを復元し,再試することを可能にします.",
+        "links": [
+          {
+            "title": "スケジュラー エージェント 監督 パターン",
+            "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/scheduler-agent-supervisor",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "LncTxPg-wx8loy55r5NmV",
+      "type": "subtopic",
+      "label": "排列に基づく負荷レベル付け",
+      "position": {
+        "x": 260.7929647384103,
+        "y": 2501.9915694361566
+      },
+      "size": {
+        "width": 267,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "任務と呼び出すサービス間のバッファーとして機能するキューを使用して,サービスが故障したり,タスクがタイムアウトになる可能性があります.これは,タスクとサービスの両方の可用性と応答性に対する需要のピークの影響を最小限に抑えるのに役立ちます.",
+        "links": [
+          {
+            "title": "列を基に負荷を平衡するパターン",
+            "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/queue-based-load-leveling",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2ryzJhRDTo98gGgn9mAxR",
+      "type": "subtopic",
+      "label": "発行者/登録者",
+      "position": {
+        "x": 260.7929647384103,
+        "y": 2554.9915694361566
+      },
+      "size": {
+        "width": 267,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "送信者と受信者に結合せずに,複数の興味のある消費者にイベントをアシンクロン的に発表するアプリケーションを可能にします.",
+        "links": [
+          {
+            "title": "発行者 - 登録者パターン",
+            "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/publisher-subscriber",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "DZcZEOi7h3u0744YhASet",
+      "type": "subtopic",
+      "label": "優先順位列",
+      "position": {
+        "x": 260.7929647384103,
+        "y": 2607.9915694361566
+      },
+      "size": {
+        "width": 267,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "サービスに送信されたリクエストを優先するため,優先順位が高いリクエストは,優先順位低いリクエストよりも早く受信および処理されます.個々のクライアントに異なるサービスレベルの保証を提供するアプリケーションでは,このパターンは有用です.",
+        "links": [
+          {
+            "title": "優先順位列のパターン",
+            "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/priority-queue",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "siXdR3TB9-4wx_qWieJ5w",
+      "type": "subtopic",
+      "label": "パイプとフィルター",
+      "position": {
+        "x": 260.7929647384103,
+        "y": 2660.9915694361566
+      },
+      "size": {
+        "width": 267,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "複雑な処理を行うタスクを再利用可能な個別要素に分解する.これは,処理を行うタスク要素を独立した展開およびスケールできるようにすることでパフォーマンス,スケーラビリティ,および再利用性を向上させることができます.",
+        "links": [
+          {
+            "title": "パイプとフィルターパターン",
+            "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/pipes-and-filters",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "9Ld07KLOqP0ICtXEjngYM",
+      "type": "subtopic",
+      "label": "競合する消費者",
+      "position": {
+        "x": 260.7929647384103,
+        "y": 2713.9915694361566
+      },
+      "size": {
+        "width": 267,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "複数の同時消費者が同じメッセージングチャンネルで受信したメッセージを処理できるようにする.複数の同時消費者がいる場合,システムでは複数のメッセージを同時に処理し,吞吐量を最適化し,スケーラビリティと可用性を向上させ,ワークロードをバランスすることができます.",
+        "links": [
+          {
+            "title": "消費者の競争パターン",
+            "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/competing-consumers",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "aCzRgUkVBvtHUeLU6p5ZH",
+      "type": "subtopic",
+      "label": "コーレグラフィー",
+      "position": {
+        "x": 260.7929647384103,
+        "y": 2766.9915694361566
+      },
+      "size": {
+        "width": 267,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "システムの各構成要素が,中央の制御点に頼るのではなく,ビジネス取引のワークフローに関する意思決定プロセスに参加させる.",
+        "links": [
+          {
+            "title": "コレオグラフィーのパターン",
+            "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/choreography",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "kl4upCnnZvJSf2uII1Pa0",
+      "type": "subtopic",
+      "label": "請求書チェック",
+      "position": {
+        "x": 260.7929647384103,
+        "y": 2819.9915694361566
+      },
+      "size": {
+        "width": 267,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "大きなメッセージをクレームチェックとペイロードに分けます.クレームチェックをメッセージングプラットフォームに送信し,ペイロードを外部サービスに保存します.このパターンは,大きなメッセージが処理され,メッセージングバスとクライアントが圧倒されるか遅れるかから守ります.このパターンはコストを削減するのに役立ちます. ストレージは通常メッセージングプラットフォームが使用するリソースユニットよりも安いため.",
+        "links": [
+          {
+            "title": "請求チェック - クラウドデザインパターン",
+            "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/claim-check",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "eNFNXPsFiryVxFe4unVxk",
+      "type": "subtopic",
+      "label": "アシンクリクエスト応答",
+      "position": {
+        "x": 261.7929647384103,
+        "y": 2872.9915694361566
+      },
+      "size": {
+        "width": 266,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "バックエンド処理はフロントエンドホストから分離し,バックエンド処理はアシンクロン化する必要があるが,フロントエンドには明確な対応が必要です.",
+        "links": [
+          {
+            "title": "アシンクロンなリクエスト・レスポンスパターン",
+            "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/async-request-reply",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "W0cUCrhiwH_Nrzxw50x3L",
+      "type": "topic",
+      "label": "データ管理",
+      "position": {
+        "x": 19.21310958899096,
+        "y": 2338.9915694361566
+      },
+      "size": {
+        "width": 235,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "データの管理はクラウドアプリケーションの主要な要素であり,品質属性のほとんどに影響を与えます.データは通常,パフォーマンス,スケーラビリティまたは利用可能性などの理由で異なる場所や複数のサーバーでホストされます.これはさまざまな課題を提示することができます.例えば,データの一貫性が維持され,通常は異なる場所間でデータを同期する必要があります.",
+        "links": [
+          {
+            "title": "データ管理パターン",
+            "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/category/data-management",
+            "type": "article"
+          },
+          {
+            "title": "データ管理に関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/data-management?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "stZOcr8EUBOK_ZB48uToj",
+      "type": "subtopic",
+      "label": "バレットキー",
+      "position": {
+        "x": 27.21310958899096,
+        "y": 2397.0836910533135
+      },
+      "size": {
+        "width": 219,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "アプリケーションからのデータ転送をオフロードするために,クライアントに特定のリソースへの直接アクセスが制限されているトークンを使用します.これはクラウドホストのストレージシステムまたはキューを使用するアプリケーションで特に有用であり,コストを最小限に抑え,スケーラビリティとパフォーマンスを最大限に高めることができます.",
+        "links": [
+          {
+            "title": "バレットキー パターン",
+            "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/valet-key",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "-lKq-LT7EPK7r3xbXLgwS",
+      "type": "subtopic",
+      "label": "静的コンテンツホスト",
+      "position": {
+        "x": 27.21310958899096,
+        "y": 2450.0836910533135
+      },
+      "size": {
+        "width": 219,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "スタティックコンテンツをクラウドベースのストレージサービスに部署し,クライアントに直接配信できます.これは潜在的に高価なコンピューティングインスタンスの必要性を軽減できます.",
+        "links": [
+          {
+            "title": "静的コンテンツホストパターン",
+            "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/static-content-hosting",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "R6YehzA3X6DDo6oGBoBAx",
+      "type": "subtopic",
+      "label": "破片する",
+      "position": {
+        "x": 27.21310958899096,
+        "y": 2503.0836910533135
+      },
+      "size": {
+        "width": 219,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "シェードリング (Sharding) は,システムの性能,スケーラビリティ,利用可能性を改善するため,複数のサーバーで大きなデータセットを水平に分割する技術です.これは,データセットを小さなブロックに分割し,シェードと呼ばれるもので,複数のサーバーにシェードを配布します.各シェードは自主であり,他のシェードから独立して管理およびスケーラできます.シェードリングはスケーラビリティ,利用可能性,地理分布などのシナリオで使用できます.シェードリングは,範囲ベースのシェードリング,ディレクトリベースのシェードリングなどのいくつかの異なるアルゴリズムを使用して実装できます.",
+        "links": [
+          {
+            "title": "粉砕パターン",
+            "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/sharding",
+            "type": "article"
+          },
+          {
+            "title": "バックエンド開発に関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/backend?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "WB7vQ4IJ0TPh2MbZvxP6V",
+      "type": "subtopic",
+      "label": "物質 的 な 見方",
+      "position": {
+        "x": 27.21310958899096,
+        "y": 2556.0836910533135
+      },
+      "size": {
+        "width": 219,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "必要なクエリオペレーションに理想的なフォーマットが設定されていない場合,1つまたは複数のデータストアでのデータに対するプリポップビューを生成します.これは効率的なクエリおよびデータ抽出をサポートし,アプリケーションのパフォーマンスを向上させるのに役立ちます.",
+        "links": [
+          {
+            "title": "素材化 ビュー パターン",
+            "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/materialized-view",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "AH0nVeVsfYOjcI3vZvcdz",
+      "type": "subtopic",
+      "label": "インデックス表",
+      "position": {
+        "x": 27.21310958899096,
+        "y": 2609.0836910533135
+      },
+      "size": {
+        "width": 219,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "データ ストア の フィールド 上 で 索引 を 作成 する.この パターン は,アプリケーション が データ ストア から 取得 する データを より 迅速 に 特定 する こと を 許し て,クエリ 性能 を 改善 する こと が でき ます.",
+        "links": [
+          {
+            "title": "インデックス表パターン",
+            "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/index-table",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "7OgRKlwFqrk3XO2z49EI1",
+      "type": "subtopic",
+      "label": "イベント 調達",
+      "position": {
+        "x": 27.21310958899096,
+        "y": 2662.0836910533135
+      },
+      "size": {
+        "width": 219,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ドメイン内のデータの現在の状態を保存する代わりに,そのデータに対して行われた全一連のアクションを記録するために,添付のみのストアを使用します.ストアは記録システムとして機能し,ドメインオブジェクトを現体化するために使用できます.これは複雑なドメインでのタスクを簡素化し,データモデルとビジネスドメインを同期する必要性を回避し,パフォーマンス,スケーラビリティ,レスポンシビリティを改善します.また,トランザクションデータに一貫性を提供し,補償アクションを可能にする完全な監査経路と履歴を維持することができます.",
+        "links": [
+          {
+            "title": "イベント調達パターン",
+            "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/event-sourcing",
+            "type": "article"
+          },
+          {
+            "title": "建築に関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/architecture?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "LTD3dn05c0ruUJW0IQO7z",
+      "type": "subtopic",
+      "label": "CQRS",
+      "position": {
+        "x": 27.21310958899096,
+        "y": 2715.0836910533135
+      },
+      "size": {
+        "width": 219,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "CQRSは,データストレージの読み込みと更新操作を分離するパターンであるコマンドとクエリ責任分離を表しています.アプリケーションに CQRS を実装すると,性能,スケーラビリティ,セキュリティが最大化できます.CQRS に移行することで作成された柔軟性は,システムが時間とともにより良く進化し,更新コマンドがドメインレベルで合併衝突を引き起こすのを防ぐことができます.",
+        "links": [
+          {
+            "title": "CQRSパターン",
+            "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/cqrs",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PK4V9OWNVi8StdA2N13X2",
+      "type": "subtopic",
+      "label": "キャッシュ・アウト",
+      "position": {
+        "x": 27.21310958899096,
+        "y": 2768.0836910533135
+      },
+      "size": {
+        "width": 219,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "データストレージからキャッシュに需要に応じてデータをロードします. これによりパフォーマンスが向上し,キャッシュに保存されたデータと,その底にあるデータストレージのデータとの間の一貫性を維持するのに役立ちます.",
+        "links": [
+          {
+            "title": "キャッシュ・アウト パターン",
+            "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/cache-aside",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PtJ7-v1VCLsyaWWYHYujV",
+      "type": "topic",
+      "label": "設計・実施",
+      "position": {
+        "x": -342.19669367734,
+        "y": 2251.213852028059
+      },
+      "size": {
+        "width": 335,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "優れた設計は,コンポーネント設計と部署における一貫性と一貫性,管理と開発を簡素化するための維持可能性,および他のアプリケーションおよび他のシナリオでコンポーネントおよびサブシステムの使用を可能にする再利用性などの要素を含む.設計および実装期間の決定は,クラウドホストアプリケーションおよびサービスの品質および所有コスト全体に大きな影響を与えます.",
+        "links": [
+          {
+            "title": "設計と実施パターン",
+            "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/category/design-implementation",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "VIbXf7Jh9PbQ9L-g6pHUG",
+      "type": "subtopic",
+      "label": "絞首刑者フィグ",
+      "position": {
+        "x": -334.19669367734,
+        "y": 2308.213852028059
+      },
+      "size": {
+        "width": 168,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "徐々に特定の機能の一部を新しいアプリケーションとサービスで置き換えることで,古いシステムを増進的に移行します.古いシステムの機能が置き換えられるにつれて,新しいシステムは最終的に古いシステムのすべての機能を置き換え,古いシステムを窒息させ,それを退役させることができます.",
+        "links": [
+          {
+            "title": "\"絞首刑者\"とは何か?",
+            "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/strangler-fig",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "izPT8NfJy1JC6h3i7GJYl",
+      "type": "subtopic",
+      "label": "静的コンテンツホスト",
+      "position": {
+        "x": -334.19669367734,
+        "y": 2361.213852028059
+      },
+      "size": {
+        "width": 319,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "スタティックコンテンツをクラウドベースのストレージサービスに部署し,クライアントに直接配信できます.これは潜在的に高価なコンピューティングインスタンスの必要性を軽減できます.",
+        "links": [
+          {
+            "title": "静的コンテンツホストパターン",
+            "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/static-content-hosting",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "AAgOGrra5Yz3_eG6tD2Fx",
+      "type": "subtopic",
+      "label": "サイドカー",
+      "position": {
+        "x": -162.19669367733997,
+        "y": 2308.213852028059
+      },
+      "size": {
+        "width": 147,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "アプリケーションのコンポーネントを別々のプロセスまたはコンテナに配置して,分離と封装を提供します.このパターンは,アプリケーションが異質なコンポーネントと技術から構成されるようにすることもできます.このパターンはバイクに接続されたサイドカーに似ているため,サイドカーと呼ばれます.このパターンは,サイドカーが母アプリケーションに接続され,アプリケーションのためのサポート機能を提供します.サイドカーはまた母アプリケーションと同じライフサイクルを共有し,母と一緒に作成され退役されます.サイドカーパターンは時にサイドキックパターンと呼ばれ,分解パターンです.",
+        "links": [
+          {
+            "title": "サイドカーパターン",
+            "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/sidecar",
+            "type": "article"
+          },
+          {
+            "title": "インフラに関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/infrastructure?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "WkoFezOXLf1H2XI9AtBtv",
+      "type": "subtopic",
+      "label": "パイプとフィルター",
+      "position": {
+        "x": -334.19669367734,
+        "y": 2468.872440135695
+      },
+      "size": {
+        "width": 169,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "複雑な処理を行うタスクを再利用可能な個別要素に分解する.これは,処理を行うタスク要素を独立した展開およびスケールできるようにすることでパフォーマンス,スケーラビリティ,および再利用性を向上させることができます.",
+        "links": [
+          {
+            "title": "管とフィルター の 建築 スタイル",
+            "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/pipes-and-filters",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "beWKUIB6Za27yhxQwEYe3",
+      "type": "subtopic",
+      "label": "リーダー選挙",
+      "position": {
+        "x": -334.19669367734,
+        "y": 2414.429860708825
+      },
+      "size": {
+        "width": 169,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "分布されたアプリケーションで協力するインスタンスの集合によって実行されるアクションを調整し,他のインスタンスの管理を担当するリーダーとして1インスタンスを選択します.これは,インスタンスの相互衝突,共有リソースの争いを引き起こさないこと,または他のインスタンスの実行に意図せず干渉しないことを確保するのに役立ちます.",
+        "links": [
+          {
+            "title": "リーダー選挙パターン",
+            "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/leader-election",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "LXH_mDlILqcyIKtMYTWqy",
+      "type": "subtopic",
+      "label": "ゲートウェイ ルーティング",
+      "position": {
+        "x": -334.1966936773399,
+        "y": 2523.4562087989852
+      },
+      "size": {
+        "width": 319,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "1 つのエンドポイントを使用した複数のサービスまたは複数のサービスインスタンスのルートリクエスト.このパターンは,あなたがしたいときに有用です: * リクエストに基づいて,1 つのエンドポイントで複数のサービスを表示し,適切なサービスへのルート * 負荷バランスまたは利用可能性のために,1 つのエンドポイントで同じサービスの複数のインスタンスを表示し,異なるバージョンのトラフィックを異なるバージョンで表示する",
+        "links": [
+          {
+            "title": "ゲートウェイ ルーティング パターン",
+            "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/gateway-routing",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "0SOWAA8hrLM-WsG5k66fd",
+      "type": "subtopic",
+      "label": "ゲートウェイ・オフロード",
+      "position": {
+        "x": -334.1966936773399,
+        "y": 2576.4562087989852
+      },
+      "size": {
+        "width": 319,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ゲートウェイプロクシーに共有または専門サービス機能をオフロードする.このパターンは,アプリケーションの他の部分からゲートウェイにSSL証明書の使用などの共有サービス機能を移動することによってアプリケーション開発を簡素化することができます.",
+        "links": [
+          {
+            "title": "ゲートウェイ 脱荷パターン",
+            "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/gateway-offloading",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "bANGLm_5zR9mqMd6Oox8s",
+      "type": "subtopic",
+      "label": "ゲートウェイ 統合",
+      "position": {
+        "x": -334.1966936773399,
+        "y": 2629.4562087989852
+      },
+      "size": {
+        "width": 319,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ゲートウェイを使用して複数の個々のリクエストを単一のリクエストに統合します.クライアントが操作を実行するために異なるバックエンドシステムに複数の呼び出しを行う場合,このパターンは有用です.",
+        "links": [
+          {
+            "title": "ゲートウェイ 統合パターン",
+            "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/gateway-aggregation",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "BrgXwf7g2F-6Rqfjryvpj",
+      "type": "subtopic",
+      "label": "外部コンフィギュレーションストア",
+      "position": {
+        "x": -334.1966936773399,
+        "y": 2682.4562087989852
+      },
+      "size": {
+        "width": 319,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "配置情報をアプリケーションデプロイメントパケットから集中的な場所に移動します. これにより,構成データの管理と制御が容易になり,アプリケーションやアプリケーションインスタンスの間で構成データを共有することができます.",
+        "links": [
+          {
+            "title": "外部コンフィギュレーション ストア パターン",
+            "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/external-configuration-store",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ODjVoXnvJasPvCS2A5iMO",
+      "type": "subtopic",
+      "label": "計算資源の統合",
+      "position": {
+        "x": -334.1966936773399,
+        "y": 2735.4562087989852
+      },
+      "size": {
+        "width": 319,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "複数のタスクまたは操作を単一のコンピューティングユニットに統合します. これによりコンピューティングリソースの利用が増加し,クラウドホストアプリケーションでコンピューティング処理を行うことに関連するコストと管理オーバーヘッドを削減できます.",
+        "links": [
+          {
+            "title": "コンピューティングリソース 統合パターン",
+            "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/compute-resource-consolidation",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ivr3mh0OES5n86FI1PN4N",
+      "type": "subtopic",
+      "label": "CQRS",
+      "position": {
+        "x": -160.69669367733997,
+        "y": 2414.429860708825
+      },
+      "size": {
+        "width": 144,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "CQRSは,データストレージの読み込みと更新操作を分離するパターンであるコマンドとクエリ責任分離を表しています.アプリケーションに CQRS を実装すると,性能,スケーラビリティ,セキュリティが最大化できます.CQRS に移行することで作成された柔軟性は,システムが時間とともにより良く進化し,更新コマンドがドメインレベルで合併衝突を引き起こすのを防ぐことができます.",
+        "links": [
+          {
+            "title": "CQRSパターン",
+            "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/cqrs",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "n4It-lr7FFtSY83DcGydX",
+      "type": "subtopic",
+      "label": "フロントエンドのバックエンド",
+      "position": {
+        "x": -334.1966936773399,
+        "y": 2788.4562087989852
+      },
+      "size": {
+        "width": 319,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "特定のフロントエンドアプリケーションまたはインターフェイスで消費される個別なバックエンドサービスを作成します.このパターンは複数のインターフェイスのために単一のバックエンドをカスタマイズすることを避ける場合有用です.このパターンは最初にサム・ニューマンによって説明されました.",
+        "links": [
+          {
+            "title": "フロントエンドのパターンのバックエンド",
+            "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/backends-for-frontends",
+            "type": "article"
+          },
+          {
+            "title": "フロントエンド開発に関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/frontend?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4hi7LvjLcv8eR6m-uk8XQ",
+      "type": "subtopic",
+      "label": "腐敗 防止 層",
+      "position": {
+        "x": -334.1966936773399,
+        "y": 2841.4562087989852
+      },
+      "size": {
+        "width": 319,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "異なるサブシステム間のファサードまたはアダプター層を実装する.この層は,一つのサブシステムが他のサブシステムに提出する要求を翻訳する.アプリケーションの設計が外部サブシステムへの依存によって制限されないようにするためにこのパターンを使用します.このパターンは最初にエリック・エバンスによって記述されました ドメイン駆動設計.",
+        "links": [
+          {
+            "title": "防腐層パターン",
+            "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/anti-corruption-layer",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Hja4YF3JcgM6CPwB1mxmo",
+      "type": "subtopic",
+      "label": "大使",
+      "position": {
+        "x": -160.69669367733997,
+        "y": 2468.872440135695
+      },
+      "size": {
+        "width": 144,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "顧客サービスまたはアプリケーションの代わりにネットワークリクエストを送信するヘルパーサービスを作成する.大使サービスはクライアントとコローケーションされているプロセス外代理として考えることができます.このパターンは,モニタリング,ログイン,ルーティング,セキュリティ (TLSなどの) およびレジレンシーパターンなどの一般的なクライアント接続タスクを言語アグノスティックな方法でオフロードするのに役立ちます.ネットワーク機能を拡張するために,古いアプリケーションまたは変更するのが難しい他のアプリケーションと一緒にしばしば使用されます.",
+        "links": [
+          {
+            "title": "大使のパターン",
+            "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/ambassador",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "DYkdM_L7T2GcTPAoZNnUR",
+      "type": "topic",
+      "label": "信頼性パターン",
+      "position": {
+        "x": 526.7929647384103,
+        "y": 2958.0321887577434
+      },
+      "size": {
+        "width": 187,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "これらのパターンは,故障に対応し,高いパフォーマンスを維持し,障害から迅速に回復するシステムを設計および実装する方法を提供します.一部の一般的な信頼性パターンは,故障,サーキットブレイカー,リトリ,ブルヘッド,バックプレッシャー,キャッシュ-アサイド,イデメポテンントオペレーション,ヘルスケアエンドポイントモニタリングを含む.",
+        "links": [
+          {
+            "title": "信頼性パターン",
+            "url": "https://learn.microsoft.com/en-us/azure/architecture/framework/resiliency/reliability-patterns",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "DOvQbApZ6k15FwOTAi9kP",
+      "type": "horizontal",
+      "label": "ホリゾントノード",
+      "position": {
+        "x": -348.2070352615897,
+        "y": 2972.5321887577434
+      },
+      "size": {
+        "width": 876,
+        "height": 20
+      },
+      "style": {
+        "strokeDasharray": "0",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "Xzkvf4naveszLGV9b-8ih",
+      "type": "topic",
+      "label": "入手可能性",
+      "position": {
+        "x": -352.21273166220635,
+        "y": 3020.2840884377797
+      },
+      "size": {
+        "width": 284,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "利用可能性は,稼働時間の割合として測定され,システムが機能的で動作する時間の割合を定義します.利用可能性はシステムエラー,インフラストラクチャの問題,悪意のある攻撃,システム負荷によって影響されます.クラウドアプリケーションは通常,ユーザーにサービスレベル契約 (SLA) を提供します.",
+        "links": [
+          {
+            "title": "入手可能なパターン",
+            "url": "https://learn.microsoft.com/en-us/azure/architecture/framework/resiliency/reliability-patterns#availability",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FPPJw-I1cw8OxKwmDh0dT",
+      "type": "subtopic",
+      "label": "部署スタンプ",
+      "position": {
+        "x": -344.21273166220635,
+        "y": 3077.2840884377797
+      },
+      "size": {
+        "width": 266,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "配備スタンプパターンは,複数のワークロードまたはレンタをホストおよび操作するために異質なリソースのグループをプロビジョニング,管理,モニタリングを含む.個々のコピーはスタンプ,または時にはサービスユニット,スケールユニット,またはセルと呼ばれます.マルチレンタ環境では,すべてのスタンプまたはスケールユニットは既定数のレンタに対応できます.ソリューションをほぼ線性的にスケールするために複数のスタンプを配備し,ますます多くのレンタに対応できます.このアプローチはソリューションのスケーラビリティを改善し,複数の地域でインスタンスを部署し,顧客データを分離することができます.",
+        "links": [
+          {
+            "title": "配備スタンプパターン",
+            "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/deployment-stamp",
+            "type": "article"
+          },
+          {
+            "title": "部署スタンプ 101",
+            "url": "https://blog.devgenius.io/deployment-stamps-101-7c04a6f704a2",
+            "type": "article"
+          },
+          {
+            "title": "CI/CDに関するトップ記事を探求する",
+            "url": "https://app.daily.dev/tags/cicd?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Ml9lPDGjRAJTHkBnX51Un",
+      "type": "subtopic",
+      "label": "地質学部",
+      "position": {
+        "x": -344.21273166220635,
+        "y": 3130.2840884377797
+      },
+      "size": {
+        "width": 111,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Geode パターンは,地理的なノードの集合にバックエンドサービスの集合を部署し,それぞれがどの地域でも任意のクライアントに任意のリクエストをサービスすることができます.このパターンは,世界中のリクエスト処理を配布することにより,遅延率を向上させ,可用性を増加させ,アクティブアクティブスタイルでリクエストをサービスすることができます.",
+        "links": [
+          {
+            "title": "地質パターン",
+            "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/geodes",
+            "type": "article"
+          },
+          {
+            "title": "ゲオードとは何か? ゲオードとは何か? ゲオードとは何か?",
+            "url": "https://study.com/academy/lesson/geode-formation-types-appearance.html",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cNJQoMNZmxNygWAJIA8HI",
+      "type": "subtopic",
+      "label": "健康エンドポイントモニタリング",
+      "position": {
+        "x": -344.21273166220635,
+        "y": 3183.2840884377797
+      },
+      "size": {
+        "width": 266,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "外部のツールが暴露されたエンドポイントを通じて定期的な間隔でアクセスできるアプリケーションの機能チェックを実行します.これはアプリケーションとサービスの正常に動作していることを確認するのに役立ちます.",
+        "links": [
+          {
+            "title": "健康 エンドポイントモニタリングパターン",
+            "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/health-endpoint-monitoring",
+            "type": "article"
+          },
+          {
+            "title": "健康エンドポイントのモニタリングパターンを説明する",
+            "url": "https://www.oreilly.com/library/view/java-ee-8/9781788830621/5012c01e-90ca-4809-a210-d3736574f5b3.xhtml",
+            "type": "article"
+          },
+          {
+            "title": "監視に関するトップ記事を探索する",
+            "url": "https://app.daily.dev/tags/monitoring?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "-M3Zd8w79sKBAY6_aJRE8",
+      "type": "subtopic",
+      "label": "排列に基づく負荷レベル付け",
+      "position": {
+        "x": -344.21273166220635,
+        "y": 3236.2840884377797
+      },
+      "size": {
+        "width": 266,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "任務と呼び出すサービス間のバッファーとして機能するキューを使用して,サービスが故障したり,タスクがタイムアウトになる可能性があります.これは,タスクとサービスの両方の可用性と応答性に対する需要のピークの影響を最小限に抑えるのに役立ちます.",
+        "links": [
+          {
+            "title": "列を基に負荷を平衡するパターン",
+            "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/queue-based-load-leveling",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6YVkguDOtwveyeP4Z1NL3",
+      "type": "subtopic",
+      "label": "窒息する",
+      "position": {
+        "x": -227.44015059681118,
+        "y": 3129.7840884377797
+      },
+      "size": {
+        "width": 151,
+        "height": 50
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "アプリケーションの例,個別のレンタ,またはサービス全体によって使用されるリソースの消費を制御する.これは,需要の増加がリソースに極端な負荷を及ぼす場合でも,システムが継続的に機能し,サービスレベルの合意を満たすことができる.",
+        "links": [
+          {
+            "title": "窒息するパターン",
+            "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/throttling",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "wPe7Xlwqws7tEpTAVvYjr",
+      "type": "topic",
+      "label": "高可用性",
+      "position": {
+        "x": -71.63171528418138,
+        "y": 3021.0183671746804
+      },
+      "size": {
+        "width": 273,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Azure インフラストラクチャは地理,地域,可用性ゾーンで構成され,故障の爆発半径を制限し,顧客アプリケーションとデータへの潜在的な影響を制限します.Azure 可用性ゾーン構造は,データセンターの故障から保護し,顧客に高い可用性 (HA) を提供するためのソフトウェアとネットワークソリューションを提供するために開発されました. HA 建築では,高い回復力,低遅延性,コストのバランスがあります.",
+        "links": [
+          {
+            "title": "高可用性 パターン",
+            "url": "https://learn.microsoft.com/en-us/azure/architecture/framework/resiliency/reliability-patterns#high-availability",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Ze471tPbAwlwZyU4oIzH9",
+      "type": "subtopic",
+      "label": "部署スタンプ",
+      "position": {
+        "x": -63.63171528418138,
+        "y": 3078.0183671746804
+      },
+      "size": {
+        "width": 257,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "配備スタンプパターンは,複数のワークロードまたはレンタをホストおよび操作するために異質なリソースのグループをプロビジョニング,管理,モニタリングを含む.個々のコピーはスタンプ,または時にはサービスユニット,スケールユニット,またはセルと呼ばれます.マルチレンタ環境では,すべてのスタンプまたはスケールユニットは既定数のレンタに対応できます.ソリューションをほぼ線性的にスケールするために複数のスタンプを配備し,ますます多くのレンタに対応できます.このアプローチはソリューションのスケーラビリティを改善し,複数の地域でインスタンスを部署し,顧客データを分離することができます.",
+        "links": [
+          {
+            "title": "配備スタンプパターン",
+            "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/deployment-stamp",
+            "type": "article"
+          },
+          {
+            "title": "部署スタンプ 101",
+            "url": "https://blog.devgenius.io/deployment-stamps-101-7c04a6f704a2",
+            "type": "article"
+          },
+          {
+            "title": "CI/CDに関するトップ記事を探求する",
+            "url": "https://app.daily.dev/tags/cicd?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6hOSEZJZ7yezVN67h5gmS",
+      "type": "subtopic",
+      "label": "地質学部",
+      "position": {
+        "x": -63.63171528418138,
+        "y": 3131.0183671746804
+      },
+      "size": {
+        "width": 124,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Geode パターンは,地理的なノードの集合にバックエンドサービスの集合を部署し,それぞれがどの地域でも任意のクライアントに任意のリクエストをサービスすることができます.このパターンは,世界中のリクエスト処理を配布することにより,遅延率を向上させ,可用性を増加させ,アクティブアクティブスタイルでリクエストをサービスすることができます.",
+        "links": [
+          {
+            "title": "地質パターン",
+            "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/geodes",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "uK5o7NgDvr2pV0ulF0Fh9",
+      "type": "subtopic",
+      "label": "健康エンドポイントモニタリング",
+      "position": {
+        "x": -63.63171528418138,
+        "y": 3184.0183671746804
+      },
+      "size": {
+        "width": 257,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "外部のツールが暴露されたエンドポイントを通じて定期的な間隔でアクセスできるアプリケーションの機能チェックを実行します.これはアプリケーションとサービスの正常に動作していることを確認するのに役立ちます.",
+        "links": [
+          {
+            "title": "健康 エンドポイントモニタリングパターン",
+            "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/health-endpoint-monitoring",
+            "type": "article"
+          },
+          {
+            "title": "健康エンドポイントのモニタリングパターンを説明する",
+            "url": "https://www.oreilly.com/library/view/java-ee-8/9781788830621/5012c01e-90ca-4809-a210-d3736574f5b3.xhtml",
+            "type": "article"
+          },
+          {
+            "title": "監視に関するトップ記事を探索する",
+            "url": "https://app.daily.dev/tags/monitoring?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "IR2_kgs2U9rnAJiDBmpqK",
+      "type": "subtopic",
+      "label": "パーゲージ",
+      "position": {
+        "x": 64.36828471581862,
+        "y": 3131.4996104690044
+      },
+      "size": {
+        "width": 129,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ブルゲッドパターンは,故障を許容するアプリケーションデザインの一種である.ブルゲッドアーキテクチャでは,アプリケーションの要素がプールに隔離され,一つが故障した場合,他の部分は機能し続けます.船体の分割されたパーティション (ブルゲッド) の名前にちなんで命名されています.船体のボディが損なわれた場合,損傷したセクションだけが水で満たされ,船が沈むのを防ぐ.",
+        "links": [
+          {
+            "title": "パーゲージのパターン",
+            "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/bulkhead",
+            "type": "article"
+          },
+          {
+            "title": "ブルゲードから始めましょう",
+            "url": "https://dzone.com/articles/resilient-microservices-pattern-bulkhead-pattern",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "D1OmCoqvd3-_af3u0ciHr",
+      "type": "subtopic",
+      "label": "サーキットブレーカー",
+      "position": {
+        "x": -63.63171528418138,
+        "y": 3235
+      },
+      "size": {
+        "width": 257,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "リモートサービスまたはリソースに接続する際には,変化する時間が必要となる故障を処理します.これはアプリケーションの安定性と回復力を向上させることができます.",
+        "links": [
+          {
+            "title": "サーキットブレーカー設計パターン",
+            "url": "https://en.wikipedia.org/wiki/Circuit_breaker_design_pattern",
+            "type": "article"
+          },
+          {
+            "title": "サーキットブレーカーの概要",
+            "url": "https://medium.com/geekculture/design-patterns-for-microservices-circuit-breaker-pattern-276249ffab33",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "wlAWMjxZF6yav3ZXOScxH",
+      "type": "topic",
+      "label": "回復力",
+      "position": {
+        "x": 198.11213811444725,
+        "y": 3021.4996104690044
+      },
+      "size": {
+        "width": 284,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "耐久性とは,故意と悪意の両方の故障に対処し,故障から回復するシステムの能力である.アプリケーションがしばしば多租客であるクラウドホスティングの性質により,共有プラットフォームサービスを利用し,リソースと帯域幅に競合し,インターネット上で通信し,商品ハードウェアで実行されるため,一時的なおよびより永久的な故障が起こる可能性が増加する.インターネットの接続性,洗練度と攻撃の量の増加により,セキュリティ障害の可能性が増加する.故障を検知し,迅速かつ効率的に回復することは,耐久性を維持するために必要である.",
+        "links": [
+          {
+            "title": "回復力 パターン",
+            "url": "https://learn.microsoft.com/en-us/azure/architecture/framework/resiliency/reliability-patterns#resiliency",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PLn9TF9GYnPcbpTdDMQbG",
+      "type": "subtopic",
+      "label": "パーゲージ",
+      "position": {
+        "x": 208.11213811444725,
+        "y": 3078.4996104690044
+      },
+      "size": {
+        "width": 266,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ブルゲッドパターンは,故障を許容するアプリケーションデザインの一種である.ブルゲッドアーキテクチャでは,アプリケーションの要素がプールに隔離され,一つが故障した場合,他の部分は機能し続けます.船体の分割されたパーティション (ブルゲッド) の名前にちなんで命名されています.船体のボディが損なわれた場合,損傷したセクションだけが水で満たされ,船が沈むのを防ぐ.",
+        "links": [
+          {
+            "title": "パーゲージのパターン",
+            "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/bulkhead",
+            "type": "article"
+          },
+          {
+            "title": "ブルゲードから始めましょう",
+            "url": "https://dzone.com/articles/resilient-microservices-pattern-bulkhead-pattern",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "O4zYDqvVWD7sMI27k_0Nl",
+      "type": "subtopic",
+      "label": "サーキットブレーカー",
+      "position": {
+        "x": 208.11213811444725,
+        "y": 3131.4996104690044
+      },
+      "size": {
+        "width": 266,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "リモートサービスまたはリソースに接続する際には,変化する時間が必要となる故障を処理します.これはアプリケーションの安定性と回復力を向上させることができます.",
+        "links": [
+          {
+            "title": "サーキットブレーカー設計パターン",
+            "url": "https://en.wikipedia.org/wiki/Circuit_breaker_design_pattern",
+            "type": "article"
+          },
+          {
+            "title": "サーキットブレーカーの概要",
+            "url": "https://medium.com/geekculture/design-patterns-for-microservices-circuit-breaker-pattern-276249ffab33",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "MNlWNjrG8eh5OzPVlbb9t",
+      "type": "subtopic",
+      "label": "トランザクションを補償する",
+      "position": {
+        "x": 208.11213811444725,
+        "y": 3184.4996104690044
+      },
+      "size": {
+        "width": 266,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "1 つまたは複数のステップが失敗した場合,最終的に一貫した操作を定義する一連のステップで実行された作業をキャンセルします.最終的な一貫性モデルに従う操作は,複雑なビジネスプロセスとワークフローを実装するクラウドホストアプリケーションで一般的に見られます.",
+        "links": [
+          {
+            "title": "トランザクションパターンの補償",
+            "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/compensating-transaction",
+            "type": "article"
+          },
+          {
+            "title": "補償取引の入門",
+            "url": "https://en.wikipedia.org/wiki/Compensating_transaction",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "CKCNk3obx4u43rBqUj2Yf",
+      "type": "subtopic",
+      "label": "健康エンドポイントモニタリング",
+      "position": {
+        "x": 208.11213811444725,
+        "y": 3237.4996104690044
+      },
+      "size": {
+        "width": 266,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "外部のツールが暴露されたエンドポイントを通じて定期的な間隔でアクセスできるアプリケーションの機能チェックを実行します.これはアプリケーションとサービスの正常に動作していることを確認するのに役立ちます.",
+        "links": [
+          {
+            "title": "健康 エンドポイントモニタリングパターン",
+            "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/health-endpoint-monitoring",
+            "type": "article"
+          },
+          {
+            "title": "健康エンドポイントのモニタリングパターンを説明する",
+            "url": "https://www.oreilly.com/library/view/java-ee-8/9781788830621/5012c01e-90ca-4809-a210-d3736574f5b3.xhtml",
+            "type": "article"
+          },
+          {
+            "title": "監視に関するトップ記事を探索する",
+            "url": "https://app.daily.dev/tags/monitoring?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "AJLBFyAsEdQYF6ygO0MmQ",
+      "type": "subtopic",
+      "label": "リーダー選挙",
+      "position": {
+        "x": 208.11213811444725,
+        "y": 3290.4996104690044
+      },
+      "size": {
+        "width": 266,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "分布されたアプリケーションで協力するインスタンスの集合によって実行されるアクションを調整し,他のインスタンスの管理を担当するリーダーとして1インスタンスを選択します.これは,インスタンスの相互衝突,共有リソースの争いを引き起こさないこと,または他のインスタンスの実行に意図せず干渉しないことを確保するのに役立ちます.",
+        "links": [
+          {
+            "title": "リーダー選挙パターン",
+            "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/leader-election",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "NybkOwl1lgaglZPRJQJ_Z",
+      "type": "subtopic",
+      "label": "排列に基づく負荷レベル付け",
+      "position": {
+        "x": 208.11213811444725,
+        "y": 3343.4996104690044
+      },
+      "size": {
+        "width": 266,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "任務と呼び出すサービス間のバッファーとして機能するキューを使用して,サービスが故障したり,タスクがタイムアウトになる可能性があります.これは,タスクとサービスの両方の可用性と応答性に対する需要のピークの影響を最小限に抑えるのに役立ちます.",
+        "links": [
+          {
+            "title": "列を基に負荷を平衡するパターン",
+            "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/queue-based-load-leveling",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "xX_9VGUaOkBYFH3jPjnww",
+      "type": "subtopic",
+      "label": "もう一度やってみてください",
+      "position": {
+        "x": 208.11213811444725,
+        "y": 3396.4996104690044
+      },
+      "size": {
+        "width": 266,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "アプリケーションがサービスまたはネットワークリソースに接続しようとすると,失敗した操作を透明に再試みることで,一時的な故障を処理できるようにします. これにより,アプリケーションの安定性が向上します.",
+        "links": [
+          {
+            "title": "復試パターン",
+            "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/retry",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "RTEJHZ26znfBLrpQPtNvn",
+      "type": "subtopic",
+      "label": "スケジュール担当者 監督者",
+      "position": {
+        "x": 208.11213811444725,
+        "y": 3449.4996104690044
+      },
+      "size": {
+        "width": 266,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "分散型アクションを単一の操作として調整する.いずれかのアクションが失敗した場合,失敗を透明に処理しようとするか,または実行された作業を無効にすると,全体的な操作が成功するか失敗する.これは分散型システムに回復力を追加し,一時的な例外,長期間の故障,プロセス故障により失敗するアクションを復元し,再試することを可能にします.",
+        "links": [
+          {
+            "title": "スケジュラー エージェント 監督 パターン",
+            "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/scheduler-agent-supervisor",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ZvYpE6-N5dAtRDIwqcAu6",
+      "type": "topic",
+      "label": "セキュリティ",
+      "position": {
+        "x": -72.56981288497383,
+        "y": 3292.2871372731006
+      },
+      "size": {
+        "width": 275,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "セキュリティは,情報システムに対する悪意のある攻撃 (および運用技術システムに対する攻撃に対する安全保証) に対する機密性,誠実性,可用性保証を提供します.これらの保証を失うことは,あなたの事業運営と収益,および市場の組織の評判に悪影響を及ぼす可能性があります.セキュリティを維持するには,確立された慣行 (セキュリティ衛生) を遵守し,脆弱性と積極的な攻撃を迅速に検出し,修復するために警戒する必要があります.",
+        "links": [
+          {
+            "title": "セキュリティパターン",
+            "url": "https://learn.microsoft.com/en-us/azure/architecture/framework/security/security-patterns",
+            "type": "article"
+          },
+          {
+            "title": "セキュリティに関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/security?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "lHPl-kr1ArblR7bJeQEB9",
+      "type": "subtopic",
+      "label": "連邦的アイデンティティ",
+      "position": {
+        "x": -57.56981288497383,
+        "y": 3349.2871372731006
+      },
+      "size": {
+        "width": 247,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "認証を外部アイデンティティプロバイダーに委託します. これにより開発を簡素化し,ユーザー管理の要件を最小限に抑え,アプリケーションのユーザー体験を改善できます.",
+        "links": [
+          {
+            "title": "連邦化されたアイデンティティパターン",
+            "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/federated-identity",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "DTQJu0AvgWOhMFcOYqzTD",
+      "type": "subtopic",
+      "label": "ゲートキーパー",
+      "position": {
+        "x": -57.56981288497383,
+        "y": 3402.2871372731006
+      },
+      "size": {
+        "width": 247,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "アプリケーションやサービスを保護し,クライアントとアプリケーションまたはサービスとの間の仲介者として機能する専用ホストインスタンスを使用し,リクエストを検証し,消毒し,リクエストとデータをそれらの間で転送します.これはセキュリティの追加層を提供し,システムの攻撃面を制限できます.",
+        "links": [
+          {
+            "title": "ゲートキーパーパターン",
+            "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/gatekeeper",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "VltZgIrApHOwZ8YHvdmHB",
+      "type": "subtopic",
+      "label": "バレットキー",
+      "position": {
+        "x": -57.56981288497383,
+        "y": 3455.2871372731006
+      },
+      "size": {
+        "width": 247,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "アプリケーションからのデータ転送をオフロードするために,クライアントに特定のリソースへの直接アクセスが制限されているトークンを使用します.これはクラウドホストのストレージシステムまたはキューを使用するアプリケーションで特に有用であり,コストを最小限に抑え,スケーラビリティとパフォーマンスを最大限に高めることができます.",
+        "links": [
+          {
+            "title": "バレットキー パターン",
+            "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/valet-key",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "xi0QAi4kXm3-IFKgopnOP",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": 134.33680999419494,
+        "y": 3681.8813239972997
+      },
+      "size": {
+        "width": 21,
+        "height": 85
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    }
+  ],
+  "edges": [
+    {
+      "id": "XX0I26JoVMVXIe_7bVMix",
+      "source": "iogwMmOvub2ZF4zgg6WyF",
+      "target": "_hYN0gEi9BL24nptEtXWU",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "dFn6kGOoJ-0BzJJEb9DSG",
+      "source": "_hYN0gEi9BL24nptEtXWU",
+      "target": "idLHBxhvcIqZTqmh_E8Az",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "arkF7QJJRbCBYWp0crqa2",
+      "source": "_hYN0gEi9BL24nptEtXWU",
+      "target": "os3Pa6W9SSNEzgmlBbglQ",
+      "source_handle": "z2",
+      "target_handle": "y2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-GHe8V-REu1loRpDnHbyUnz2-rRDGVynX43inSeQ9lR_FSy1",
+      "source": "GHe8V-REu1loRpDnHbyUn",
+      "target": "rRDGVynX43inSeQ9lR_FS",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-GHe8V-REu1loRpDnHbyUnz2-EKD5AikZtwjtsEYRPJhQ2y1",
+      "source": "GHe8V-REu1loRpDnHbyUn",
+      "target": "EKD5AikZtwjtsEYRPJhQ2",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-GHe8V-REu1loRpDnHbyUnz2-JjB7eB8gdRCAYf5M0RcT7y1",
+      "source": "GHe8V-REu1loRpDnHbyUn",
+      "target": "JjB7eB8gdRCAYf5M0RcT7",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-GHe8V-REu1loRpDnHbyUnx2-ezptoTqeaepByegxS5kHLw2",
+      "source": "GHe8V-REu1loRpDnHbyUn",
+      "target": "ezptoTqeaepByegxS5kHL",
+      "source_handle": "x2",
+      "target_handle": "w2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-ezptoTqeaepByegxS5kHLx2-DOESIlBThd_wp2uOSd_CSz1",
+      "source": "ezptoTqeaepByegxS5kHL",
+      "target": "DOESIlBThd_wp2uOSd_CS",
+      "source_handle": "x2",
+      "target_handle": "z1",
+      "edge_style": "solid",
+      "line_type": "smoothstep",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-zoViI4kzpKIxpU20T89K_x2-2gRIstNT-fTkv5GZ692gxw1",
+      "source": "zoViI4kzpKIxpU20T89K_",
+      "target": "2gRIstNT-fTkv5GZ692gx",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-DOESIlBThd_wp2uOSd_CSy2-NEsPjQifNDlZJE-2YLVl1z2",
+      "source": "DOESIlBThd_wp2uOSd_CS",
+      "target": "NEsPjQifNDlZJE-2YLVl1",
+      "source_handle": "y2",
+      "target_handle": "z2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-DOESIlBThd_wp2uOSd_CSy2-zoViI4kzpKIxpU20T89K_z1",
+      "source": "DOESIlBThd_wp2uOSd_CS",
+      "target": "zoViI4kzpKIxpU20T89K_",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-DOESIlBThd_wp2uOSd_CSx2-O730v5Ww3ByAiBSs6fwyMw1",
+      "source": "DOESIlBThd_wp2uOSd_CS",
+      "target": "Uk6J8JRcKVEFz4_8rLfnQ",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-Uk6J8JRcKVEFz4_8rLfnQz2-O730v5Ww3ByAiBSs6fwyMy1",
+      "source": "Uk6J8JRcKVEFz4_8rLfnQ",
+      "target": "O730v5Ww3ByAiBSs6fwyM",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-O730v5Ww3ByAiBSs6fwyMz2-HkXiEMLqxJoQyAHav3ccLy1",
+      "source": "O730v5Ww3ByAiBSs6fwyM",
+      "target": "HkXiEMLqxJoQyAHav3ccL",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-O730v5Ww3ByAiBSs6fwyMz2-uIerrf_oziiLg-KEyz8WMy1",
+      "source": "O730v5Ww3ByAiBSs6fwyM",
+      "target": "uIerrf_oziiLg-KEyz8WM",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-14KqLKgh090Rb3MDwelWYz2-ocdcbhHrwjJX0KWgmsOL6y1",
+      "source": "14KqLKgh090Rb3MDwelWY",
+      "target": "ocdcbhHrwjJX0KWgmsOL6",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-14KqLKgh090Rb3MDwelWYz2-urSjLyLTE5IIz0TFxMBWLy1",
+      "source": "14KqLKgh090Rb3MDwelWY",
+      "target": "urSjLyLTE5IIz0TFxMBWL",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-14KqLKgh090Rb3MDwelWYz2-e69-JVbDj7dqV_p1j1kMLy2",
+      "source": "14KqLKgh090Rb3MDwelWY",
+      "target": "e69-JVbDj7dqV_p1j1kML",
+      "source_handle": "z2",
+      "target_handle": "y2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-14KqLKgh090Rb3MDwelWYz2-MpM9rT1-_LGD7YbnBjqOky1",
+      "source": "14KqLKgh090Rb3MDwelWY",
+      "target": "MpM9rT1-_LGD7YbnBjqOk",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-14KqLKgh090Rb3MDwelWYz2-IkUCfSWNY-02wg2WCo1c6y1",
+      "source": "14KqLKgh090Rb3MDwelWY",
+      "target": "IkUCfSWNY-02wg2WCo1c6",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-14KqLKgh090Rb3MDwelWYy2-XXuzTrP5UNVwSpAk-tAGrz2",
+      "source": "14KqLKgh090Rb3MDwelWY",
+      "target": "XXuzTrP5UNVwSpAk-tAGr",
+      "source_handle": "y2",
+      "target_handle": "z2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-XXuzTrP5UNVwSpAk-tAGrw2-Nt0HUWLOl4O77elF8Is1Sx2",
+      "source": "XXuzTrP5UNVwSpAk-tAGr",
+      "target": "Nt0HUWLOl4O77elF8Is1S",
+      "source_handle": "w2",
+      "target_handle": "x2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-XXuzTrP5UNVwSpAk-tAGrx2-84N4XY31PwXRntXX1sdCUw1",
+      "source": "XXuzTrP5UNVwSpAk-tAGr",
+      "target": "5FXwwRMNBhG7LT5ub6t2L",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-84N4XY31PwXRntXX1sdCUx2-KLnpMR2FxlQkCHZP6-tZmw2",
+      "source": "5FXwwRMNBhG7LT5ub6t2L",
+      "target": "KLnpMR2FxlQkCHZP6-tZm",
+      "source_handle": "x2",
+      "target_handle": "w2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-5FXwwRMNBhG7LT5ub6t2Lz2-84N4XY31PwXRntXX1sdCUw1",
+      "source": "5FXwwRMNBhG7LT5ub6t2L",
+      "target": "-X4g8kljgVBOBcf1DDzgi",
+      "source_handle": "z2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "smoothstep",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge--X4g8kljgVBOBcf1DDzgix2-84N4XY31PwXRntXX1sdCUw2",
+      "source": "-X4g8kljgVBOBcf1DDzgi",
+      "target": "84N4XY31PwXRntXX1sdCU",
+      "source_handle": "x2",
+      "target_handle": "w2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-84N4XY31PwXRntXX1sdCUy2-a9wGW_H1HpvvdYCXoS-Rfz1",
+      "source": "84N4XY31PwXRntXX1sdCU",
+      "target": "a9wGW_H1HpvvdYCXoS-Rf",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-84N4XY31PwXRntXX1sdCUy2-37X1_9eCmkZkz5RDudE5Nz1",
+      "source": "84N4XY31PwXRntXX1sdCU",
+      "target": "37X1_9eCmkZkz5RDudE5N",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-84N4XY31PwXRntXX1sdCUy2-YiYRZFE_zwPMiCZxz9FnPz1",
+      "source": "84N4XY31PwXRntXX1sdCU",
+      "target": "YiYRZFE_zwPMiCZxz9FnP",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-3pRi8M4xQXsehkdfUNtYLy2-uQFzD_ryd-8Dr1ppjorYJz1",
+      "source": "3pRi8M4xQXsehkdfUNtYL",
+      "target": "uQFzD_ryd-8Dr1ppjorYJ",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-uQFzD_ryd-8Dr1ppjorYJy2-LC5aTmUKNiw9RuSUt3fSEz2",
+      "source": "uQFzD_ryd-8Dr1ppjorYJ",
+      "target": "LC5aTmUKNiw9RuSUt3fSE",
+      "source_handle": "y2",
+      "target_handle": "z2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-p--uEm6klLx_hKxKJiXE5z2-hDFYlGFYwcwWXLmrxodFXw1",
+      "source": "p--uEm6klLx_hKxKJiXE5",
+      "target": "hDFYlGFYwcwWXLmrxodFX",
+      "source_handle": "z2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "smoothstep",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-hDFYlGFYwcwWXLmrxodFXz2-I_NfmDcBph8-oyFVFTknLy1",
+      "source": "hDFYlGFYwcwWXLmrxodFX",
+      "target": "I_NfmDcBph8-oyFVFTknL",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-hDFYlGFYwcwWXLmrxodFXz2-hkjYvLoVt9xKDzubm0Jy3y1",
+      "source": "hDFYlGFYwcwWXLmrxodFX",
+      "target": "hkjYvLoVt9xKDzubm0Jy3",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-hDFYlGFYwcwWXLmrxodFXz2-rVrwaioGURvrqNBufF2djy1",
+      "source": "hDFYlGFYwcwWXLmrxodFX",
+      "target": "rVrwaioGURvrqNBufF2dj",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-hDFYlGFYwcwWXLmrxodFXz2-x1i3qWFtNNjd00-kAvFHwy1",
+      "source": "hDFYlGFYwcwWXLmrxodFX",
+      "target": "x1i3qWFtNNjd00-kAvFHw",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-hDFYlGFYwcwWXLmrxodFXz2-eSZq74lROh5lllLyTBK5ay1",
+      "source": "hDFYlGFYwcwWXLmrxodFX",
+      "target": "eSZq74lROh5lllLyTBK5a",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-hDFYlGFYwcwWXLmrxodFXz2-Q0fKphqmPwjTD0dhqiP6Ky1",
+      "source": "hDFYlGFYwcwWXLmrxodFX",
+      "target": "Q0fKphqmPwjTD0dhqiP6K",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-hDFYlGFYwcwWXLmrxodFXz2-IwMOTpsYHApdvHZOhXtIwy1",
+      "source": "hDFYlGFYwcwWXLmrxodFX",
+      "target": "IwMOTpsYHApdvHZOhXtIw",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-THlzcZTNnPGLRiHPWT-Jvy2-PtJ7-v1VCLsyaWWYHYujVz1",
+      "source": "THlzcZTNnPGLRiHPWT-Jv",
+      "target": "PtJ7-v1VCLsyaWWYHYujV",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-THlzcZTNnPGLRiHPWT-Jvz2-DYkdM_L7T2GcTPAoZNnURw1",
+      "source": "THlzcZTNnPGLRiHPWT-Jv",
+      "target": "DYkdM_L7T2GcTPAoZNnUR",
+      "source_handle": "z2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "smoothstep",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    }
+  ],
+  "content_crawled_at": "2026-04-06T13:10:17.332713+00:00"
+}

@@ -1,0 +1,3832 @@
+{
+  "id": "terraform",
+  "title": "テラフォームをマスターする",
+  "source_url": "https://roadmap.sh/terraform",
+  "github_url": "https://github.com/kamranahmedse/developer-roadmap/tree/master/src/data/roadmaps/terraform",
+  "crawled_at": "2026-04-06T07:38:05.882645+00:00",
+  "type": "flow",
+  "stats": {
+    "total_nodes": 118,
+    "total_edges": 95,
+    "nodes_with_content": 110
+  },
+  "node_types": [
+    "button",
+    "label",
+    "linksgroup",
+    "paragraph",
+    "section",
+    "subtopic",
+    "title",
+    "topic",
+    "vertical"
+  ],
+  "edge_styles": [
+    "dashed",
+    "solid"
+  ],
+  "edge_line_types": [
+    "default",
+    "smoothstep"
+  ],
+  "node_type_description": {
+    "title": "ロードマップの主題",
+    "topic": "主題大 (nhóm kỹ năng)",
+    "subtopic": "Kỹ năng/công nghệ cụ thể cần học",
+    "paragraph": "文は mô tả / chú thích",
+    "vertical": "Đường kết nối dọc (ビジュアルコネクタ)"
+  },
+  "edge_style_description": {
+    "solid": "Kỹ năng bắt buộc / quan trọng",
+    "dashed": "選択 / gợi ý / オルタナティブ"
+  },
+  "nodes": [
+    {
+      "id": "1sQIF1NLOsdBFJ3-izGq6",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": 145.09516084313918,
+        "y": 2627.9187080995052
+      },
+      "size": {
+        "width": 21,
+        "height": 96
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "PWsbqxaFSeU64B8E7ONZn",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": -492.5813050739364,
+        "y": 1202.6185818911601
+      },
+      "size": {
+        "width": 263,
+        "height": 400
+      },
+      "style": {
+        "width": 150,
+        "height": 100,
+        "fontSize": 17
+      },
+      "z_index": -999
+    },
+    {
+      "id": "2e8USwDY3mi53rDIGnQOq",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": -496.6267326449455,
+        "y": 463
+      },
+      "size": {
+        "width": 223,
+        "height": 337
+      },
+      "style": {
+        "width": 150,
+        "height": 100,
+        "fontSize": 17
+      },
+      "z_index": -999
+    },
+    {
+      "id": "-PDYmhSQlGbLLFBJQ-Fo3",
+      "type": "title",
+      "label": "テラフォームをマスターする",
+      "position": {
+        "x": -82.52142387891507,
+        "y": -265.8160596822612
+      },
+      "size": {
+        "width": 298,
+        "height": 68
+      },
+      "style": {
+        "fontSize": 28,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "C9JZEtVtDFfhmw6DuHtcx",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": 55.97857612108493,
+        "y": -376.8160596822612
+      },
+      "size": {
+        "width": 21,
+        "height": 106
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5
+      },
+      "z_index": 999
+    },
+    {
+      "id": "h6qRrUe-bn25s0UkxU600",
+      "type": "topic",
+      "label": "序言",
+      "position": {
+        "x": -43.52142387891507,
+        "y": -51
+      },
+      "size": {
+        "width": 220,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Terraformは,HashiCorpによって設計された強力なツールで,さまざまなクラウドプロバイダーでインフラストラクチャを安全かつ効率的に設定,管理,更新するのに役立ちます. シンプルなコードフォーマットを使用してサーバー,ストレージ,ネットワークなどのクラウドリソースを定義する方法として考えてください. これにより,インフラストラクチャを自動化,共有,管理することが容易になり,すべてが一貫性があり,必要に応じて迅速に複製または変更することができます.",
+        "links": [
+          {
+            "title": "テラフォームウェブサイト",
+            "url": "https://www.terraform.io/",
+            "type": "official"
+          },
+          {
+            "title": "テラフォームドキュメント",
+            "url": "https://developer.hashicorp.com/terraform",
+            "type": "official"
+          },
+          {
+            "title": "初心者向け テラフォーム",
+            "url": "https://www.youtube.com/watch?v=SLB_c_ayRMo",
+            "type": "video"
+          },
+          {
+            "title": "Terraformに関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/terraform?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "CU9V3iRdssamsG-xMouXT",
+      "type": "subtopic",
+      "label": "テラフォームとは何か?",
+      "position": {
+        "x": -500.0774561984448,
+        "y": -104.5
+      },
+      "size": {
+        "width": 301,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Terraformは,HashiCorpによって設計された強力なツールで,さまざまなクラウドプロバイダーでインフラストラクチャを安全かつ効率的に設定,管理,更新するのに役立ちます. シンプルなコードフォーマットを使用してクラウドリソースを定義する方法として考えてください. これにより,インフラストラクチャを自動化,共有,管理し,すべてが一貫性があり,必要に応じて迅速に複製または変更することができます.以下のリソースから詳細を学びましょう: - [@official@What is Terraform?]https://developer.haship.com/terraform/intro#what-is-terraform) - [@article@What is-terraformhttps://www.varonis.com/blog/blog/is-terraform) - [video@What is-terraform Explained in 2 Minutes?https://www.yov.com/UGA?v=UGA?v=UGA?v=UGA?v=UGA]",
+        "links": []
+      }
+    },
+    {
+      "id": "hRIDJHIxWc5Iav7tsu8l-",
+      "type": "subtopic",
+      "label": "使い方 と 利益",
+      "position": {
+        "x": -500.0774561984448,
+        "y": -51
+      },
+      "size": {
+        "width": 301,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Terraform を使用することで多くの利点があります.インフラストラクチャをコード (IaC) として定義し,人読,バージョン化,共有できるようにします.マルチクラウドサポートにより,さまざまなクラウドプロバイダーおよび本地環境でリソースを一貫して管理できます.インフラストラクチャのプロビジョニングと管理を自動化することによって, Terraform は手動エラーを削減し,展開を加速します.バージョン制御統合により,変更を追跡し,必要に応じて後回し,チームメンバーと効果的に協働できます.Terraform のテンプレートとモジュールの使用は,プロジェクトと環境全体で構成の一貫性と再利用性を保証します.その状態管理能力は,効率的な更新のために既存のリソースを追跡します.次のリソースから詳細を学びましょう: - [@official@Use Cases of Terraform] (https://developer.hashicorp.com/terraform/intro/use-cases#use-cases) - [@article@9 Terraform Use Cases for Your Infrastructure as Code] (https://spacelift.io/blog/terraform-use-cases) - [@video@Terraform Use-cases] (https://www.youtube.com/watch?v=0M4IvedbLJ4)",
+        "links": []
+      }
+    },
+    {
+      "id": "AYtBLFU1nowEq-EVlXrEZ",
+      "type": "subtopic",
+      "label": "テラフォームを設置する",
+      "position": {
+        "x": -500.0774561984448,
+        "y": 56
+      },
+      "size": {
+        "width": 301,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Terraform をインストールするには, Terraform の公式サイトからオペレーティング システム の適切な パッケージをダウンロードする必要があります.ダウンロード後,パケットを解除し,実行可能 を,システム の PATH に含まれている ディレクトリ に移動します. これにより,端末から Terraform コマンドを実行できます.詳細なインストール 指示については,以下のリンクを参照してください.",
+        "links": [
+          {
+            "title": "Terraform をインストールする",
+            "url": "https://developer.hashicorp.com/terraform/install",
+            "type": "official"
+          },
+          {
+            "title": "Terraform CLIを設置する",
+            "url": "https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli",
+            "type": "official"
+          },
+          {
+            "title": "Ubuntu に Terraform をインストールする",
+            "url": "https://www.youtube.com/watch?v=LM3RLgNu7tU",
+            "type": "video"
+          },
+          {
+            "title": "MacOS に Terraform をインストールする",
+            "url": "https://www.youtube.com/watch?v=ViMwnReV1A8",
+            "type": "video"
+          },
+          {
+            "title": "Windows 10/11 に Terraform をインストールする",
+            "url": "https://www.youtube.com/watch?v=qj4cOSYr7po",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "UsINvx84pBF1hp8XoLF4c",
+      "type": "subtopic",
+      "label": "CaC対 IaC",
+      "position": {
+        "x": -500.0774561984448,
+        "y": 2.5
+      },
+      "size": {
+        "width": 301,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999,
+      "content": {
+        "description": "CaC (Configuration as Code) と IaC (Infrastructure as Code) は,インフラストラクチャのリソースを管理するための方法ですが,異なることに焦点を当てています.CaCは,ユーザー設定やアプリ設定などのサーバー内のソフトウェアと設定を設定し管理します.CaC ツールには,Ansible と Puppet が含まれています.IaC は,仮想マシン,ネットワーク,およびストレージなどの基礎インフラストラクチャを管理します.IaC ツールには Terraform と AWS CloudFormation が含まれます.地形:何が違うのか? (https://www.youtube.com/watch?v=rx4Uh3jv1cA) - [@article@IaC vs CaC] (https://medium.com/@cloudhacks_/infrastructure-as-code-iac-vs-configuration-as-code-cac-unraveling-the-differences-24fbce05ae25)",
+        "links": []
+      }
+    },
+    {
+      "id": "GlIXmCuvR_C81RMeMM1Kz",
+      "type": "topic",
+      "label": "プロジェクト初期化",
+      "position": {
+        "x": 55.97857612108493,
+        "y": 227.60563595038883
+      },
+      "size": {
+        "width": 251,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Terraformでプロジェクト初期化には,インフラストラクチャをコードとして管理するために必要な構成ファイルとディレクトリ構造を設定する必要があります. `terraform init`コマンドは,作業ディレクトリを初期化し,必要なプロバイダープラグインをダウンロードし,ステートファイルを保存するためのバックエンド設定を設定するので,このプロセスにおいて極めて重要です.このコマンドは,プロジェクトが適切に構成され,次の Terraform コマンドに備えており,効率的で組織的なインフラストラクチャ管理の基礎を築くことを保証します.[developer.hashicorp.com/Learn Terraform: The Init Command] (https://developer.hashicorp.com/terraform/cli/commands/init) - [@official@Initialize Terraform Configuration] (https://developer.hashicorp.com/terraform/tutorials/cli/init) - [@article@Terraform Init] (https://spacelift.io/blog/terraform-init) - [@video@Learn Terraform: The Init Command] (https://www.youtube.com/watch?v=82lsMLqWjS4)",
+        "links": []
+      }
+    },
+    {
+      "id": "ZRVv9onD7KGz1cJLcsnwy",
+      "type": "topic",
+      "label": "提供者",
+      "position": {
+        "x": -173.5,
+        "y": 225.60563595038883
+      },
+      "size": {
+        "width": 169,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Terraform Providers は,さまざまな外部 API とのインタラクションを可能にするプラグインです.彼らはリソースの種類とデータソースを定義することによってリソースのライフサイクルを管理します.各プロバイダーには,通常認証詳細とエンドポイントの URL を含む構成が必要です.プロバイダーは `provider`ブロックで指定され,複数のプロバイダーが単一の Terraform プロジェクトで異なるプラットフォームでリソースを管理するために使用できます.[developer.hashicorp.com/terraform/language/providers#providers] (https://developer.hashicorp.com/terraform/language/providers#providers) - [@article@Understanding Terraform Providers] (https://docs.aws.amazon.com/prescriptive-guidance/latest/getting-started-terraform/providers.html) - [@video@terraform providers] (https://www.youtube.com/watch?v=Kd7ddHBR2ec)",
+        "links": []
+      }
+    },
+    {
+      "id": "iIjUG_N_mQtLHG25v4-xg",
+      "type": "subtopic",
+      "label": "テラフォームレジストリ",
+      "position": {
+        "x": -500.4436404961119,
+        "y": 173.60563595038883
+      },
+      "size": {
+        "width": 231,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Terraform Registryは, Terraform モジュールおよびプロバイダーを発見し,共有し,使用するための集中的なリポジトリです.ユーザーに既製の設定をブラウズしてダウンロードすることができ,ベストプラクティスの迅速な統合を可能にします.レジストリはバージョン作成をサポートし,一貫した展開を保証し,各モジュールおよびプロバイダーのための詳細なドキュメントを含みます.ユーザーは,コミュニティコラボレーションと再利用を促進する独自のモジュールをレジストリに公開することもできます.以下のリソースから詳細を学びましょう: - [@official@Terraform Registry]https://registry.terraform.io/) - [@article@Terraform Registry Guide]https://spacelift.blog/terraform-registry) - [video@Terraform-registry Modules and Watch]https://www.youtube.com/Vv/Sq?v=qv8dv)",
+        "links": []
+      }
+    },
+    {
+      "id": "JJ-QhLWqT0luis_kVDVHW",
+      "type": "subtopic",
+      "label": "プロバイダーを構成する",
+      "position": {
+        "x": -500.4436404961119,
+        "y": 227.60563595038883
+      },
+      "size": {
+        "width": 231,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Terraform の プロバイダー の 設定 は Terraform の 構成 ファイル の `provider` ブロック に 必要な プロバイダー を 指定 する こと を 含みます.この ブロック に 認証 認証 資格,地域,その他の プロバイダー 特定 パラメータ の よう な 設定 が 含まれ て い ます. 必要な プラグイン を ダウンロード し,インストール する ため に `terraform init` を使用 し て プロバイダー の 初期化 が 必要 です. 複数 の 構成 を 提供 者 の アニライス で 管理 する こと が でき,同じ プロバイダー の 中 で の 異なる 環境 や アカウント の 間で 資源 管理 を 可能 に する こと が でき ます.以下 の リソース から 詳細 を 学ぶ: - [@official@Providers Overview] (https://developer.hashicorp.com/form/language/providers##) - [@article@How To Use Terraform Providers] (https://www.env0./blog/how-to-com-com-terraform-providers-terraform-providers)",
+        "links": []
+      }
+    },
+    {
+      "id": "bnQ2YLHd7E-vRxX3PnUEX",
+      "type": "subtopic",
+      "label": "バージョン",
+      "position": {
+        "x": -500.4436404961119,
+        "y": 281.60563595038883
+      },
+      "size": {
+        "width": 231,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Terraform の プロバイダー バージョンを指定することで,さまざまな環境で一貫して予測可能な行動が確保されます. Terraform 0.13 で廃止され, Terraform 0.13 で削除された プロバイダー ブロック内の `version ` メタ議論を使用する代わりに,プロバイダー バージョン 制限は,現在 `required_providers` ブロックで定義されるべきです.このアプローチは,プロバイダー アップデートによる意外な変更や互換性問題を防止し,インフラストラクチャ管理の安定性と信頼性を高めます. プロバイダー アップデートがいつ,どのように適用されるかを制御し,あなたのインフラストラクチャコードが期待される プロバイダー機能と実行されることを保証します.[@official@Requiring Providers] (https://developer.hashicorp.com/terraform/language/providers/requirements#requiring-providers) より詳しくは",
+        "links": []
+      }
+    },
+    {
+      "id": "qhO7CY-1_vuh2BVJYQCzh",
+      "type": "topic",
+      "label": "Hashicorp Config.言語 (HCL)",
+      "position": {
+        "x": 252.04933440247441,
+        "y": 83.78872809922237
+      },
+      "size": {
+        "width": 375,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999,
+      "content": {
+        "description": "HashiCorp コンフィギュレーション言語 (HCL) は,HashiCorpによって構築されたコンフィギュレーション言語で,HashiCorpエコシステム内の製品をコンフィギュレーションするために使用されています.人間の読みやすいスタイルで,HCLはJSONやYAMLなどの一般的なコンフィギュレーション言語と高レベルのスクリプト言語のバランスをとるために設計されています.Terraformロードマップに関連して,HCLはTerraform コンフィギュレーションファイルを書く主な言語であり,したがって記述的な方法でデータセンターインフラストラクチャを定義し提供する基本的な部分となっています.以下のリソースから詳細をご覧ください: - [@official@Terraform Language Documentation] (https://developer.haship.com/terraform/language) - [https://opensource@HCL Repository] (https://github.com/hcl/hhaship)",
+        "links": []
+      }
+    },
+    {
+      "id": "twR3k9D-qDr1CbyW6K0Fs",
+      "type": "subtopic",
+      "label": "インフラストラクチャーは何ですか?",
+      "position": {
+        "x": -500.0774561984448,
+        "y": -158
+      },
+      "size": {
+        "width": 301,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Infrastructure as Code (IaC) は,物理的なハードウェア構成やインタラクティブな構成ツールではなく,機械読めるコンフィギュレーションファイルを通じてコンピューティングインフラストラクチャを管理し,プロビジョニングを伴う DevOpsとクラウドコンピューティングの実践である.このアプローチは,インフラストラクチャ部署におけるバージョン制御,自動化,一貫性を可能にする.なぜ重要なのか? (https://www.hashicorp.com/resources/what-is-infrastructure-as-code) - [@article@What is Infrastructure as Code?] (https://www.redhat.com/en/topics/automation/what-is-infrastructure-as-code-iac) - [@video@What is Infrastructure as Code?] (https://www.youtube.com/watch?v=zWw2wuiKd5o)",
+        "links": []
+      }
+    },
+    {
+      "id": "Hma2IgatFME8STHPwpeMG",
+      "type": "subtopic",
+      "label": "HCLとは何か?",
+      "position": {
+        "x": -41.9647371906687,
+        "y": 56.5
+      },
+      "size": {
+        "width": 218,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999,
+      "content": {
+        "description": "HCL (HashiCorp Configuration Language) は,DevOpsツールのための人間の読みやすい言語である.インフラストラクチャ管理とサービスオーケストレーションを明確に管理可能な方法でコード化するために使用されます.Terraformを含むいくつかのHashiCorp製品は,HCLを主要な構成言語として使用します.Terraformはクラウドリソースを効率的に提供および管理するためにHCLを使用します.その明確な構文と構造は,Terraformロードマップの目標に一致するリソースモジュールと構成を作成するのに不可欠です.",
+        "links": []
+      }
+    },
+    {
+      "id": "LaD0H7XhoEEaXbcwjxAbw",
+      "type": "subtopic",
+      "label": "基本構文",
+      "position": {
+        "x": -41.9647371906687,
+        "y": 110.5
+      },
+      "size": {
+        "width": 218,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999,
+      "content": {
+        "description": "HashiCorp設定言語 (HCL) の基本構文にはブロック,属性,表現を定義する要素が含まれています.ブロックは,キーワードで識別され,曲げな括弧で閉じられている `ソース`, `module`, `provider`のような基本単位です.属性はブロック内のキー値ペアで,鍵は文字列であり,値は文字列,番号,または他のデータタイプである可能性があります.表現は,他のリソースへの変数,関数,参照を埋め込むことが可能であり,ダイナミックな構成を可能にします.以下のリソースから詳細を学びましょう. https://github.com/hashicorp/hcl/blob/main/hclsensyntax/spec.md)",
+        "links": []
+      }
+    },
+    {
+      "id": "BYydmFc2e-YPCC4MCWmh2",
+      "type": "topic",
+      "label": "資源",
+      "position": {
+        "x": -173.5,
+        "y": 404
+      },
+      "size": {
+        "width": 169,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999,
+      "content": {
+        "description": "リソースは,仮想マシン,ストレージバケット,データベース,仮想プライベートクラウドなどのインフラストラクチャの構成要素を表します. プロバイダーリソースへのアクセスは,プロジェクト初期化が成功した後で,お望みのプロバイダーを宣言した後になります.以下のリソースから詳細を学びましょう: - [@official@Resource Blocks] (https://developer.hashicorp.com/terraform/language/resources/syntax) - [@video@Define Infrastructure Terraform Resources] Withhttps://developer.hashicorp.com/terraform/tutorials/configuration-language/resource)",
+        "links": []
+      }
+    },
+    {
+      "id": "BgZu7Xao5GjR8StVL7qhM",
+      "type": "subtopic",
+      "label": "資源の行動",
+      "position": {
+        "x": -500.4436404961119,
+        "y": 350
+      },
+      "size": {
+        "width": 231,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999,
+      "content": {
+        "description": "資源の振る舞いは, Terraform ファイルで指定された構成に従ってリソースが管理,作成,更新,破壊される様子を含む.各リソースブロックは,望ましい属性を指定し, Terraform は現実のインフラストラクチャがこれらの仕様に対応することを保証します.設定を初めて書き込む場合,定義されたリソースは設定の中にのみ存在し,適用されるまでターゲットプラットフォームに反映されない.設定が適用される時, Terraform は実行計画を生成し,新しいリソースを作成したり,既存のリソースを更新したり,もはや必要のないリソースを削除したりなどの,望ましい状態に到達するために必要なアクションを決定します.次のリソースから詳細を学びましょう: - [@official@Behaviour](https://developer.hashicorp.com/terraform/language/resources/behavior) - [@article@Terraform Resource Syntax, Behavior and State](https://terraformguru.com/terraform-certification-using-azure-cloud/09-Resource-Syntax-and-Behavior/)",
+        "links": []
+      }
+    },
+    {
+      "id": "76kp98rvph_8UOXZR-PBC",
+      "type": "subtopic",
+      "label": "資源生命周期",
+      "position": {
+        "x": -500.4436404961119,
+        "y": 404
+      },
+      "size": {
+        "width": 231,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999,
+      "content": {
+        "description": "各 Terraform リソースはライフサイクルに準拠する:作成,更新または再作成,破壊. `terraform を実行する際には,各リソース: *設定で存在するが状態では無いが,作成される *設定と状態で存在するが,変更されたが,更新される *設定と状態で存在するが,変更されたが,APIの制限により更新できないが,破壊され,再作成される *状態で存在するが, (もはや) 構成では破壊されない `ライフサイクルメタ аргументを使用して,一定の範囲に変更することができる.次のリソースから詳細を学びましょう: - [@official@terraform/language/developer.hashicorp.com/terraform/language/resources/behavior#how-terraform-applies-a-configuration) - [@official@The lifecycle Meta-Argument](https://developer.hashicorp.com/terraform/language/meta-arguments/lifecycle) - [@Article@Terraform Resource Lifecycle Meta-Argument](https://spacelift.io/blog/form-resource-lifecycle)",
+        "links": []
+      }
+    },
+    {
+      "id": "EIsex6gNHDRYHn0o2spzi",
+      "type": "subtopic",
+      "label": "依存する",
+      "position": {
+        "x": -482.3801979348366,
+        "y": 523.6056359503888
+      },
+      "size": {
+        "width": 193,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Terraform の depend_on メタアルグメントは,リソース間の依存を明示的に宣言するために使用され,指定された依存するリソースが成功に適用された後のみ1つまたは複数のリソースが作成または破壊されることを保証します.これは Terraform による暗黙依存性分析によって自動的に検出されないリソース依存を管理するのに不可欠です. depend_on を使用することで,リソース作成,変更,または破壊の正しい順序を強制することができます.これは,特定のリソースが効果的に管理される前に存在し,構成されなければならない複雑なインフラストラクチャの設定において特に有用です.このメタ・アルグメントはTerraform構成の信頼性と予測性を高めます 次のリソースから詳しくはこちらから学びます. [@official@Terraform Docs - depends_on] (https://developer.hashicorp.com/terraform/language/meta-arguments/depends_on) - [@article@How to Use Terraform depends_on] (https://spacelift.io/blog/terraform-depends-on) - [@video@How to use Terraform_on tag])",
+        "links": []
+      }
+    },
+    {
+      "id": "kyScfijEntX9H1mp7tmej",
+      "type": "subtopic",
+      "label": "計算する",
+      "position": {
+        "x": -482.3801979348366,
+        "y": 577.1056359503888
+      },
+      "size": {
+        "width": 193,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Terraform の カウント メタ アルグメント は,作成する特定のリソースのインスタンスの数を指定することを可能にします.カウントを数値値に設定することで, Terraform は 0 からカウントまでインデックスされたリソースの複数のインスタンスを動的に生成します.これは,複数の仮想マシンまたはストレージバケットを作成するなどの複数の同一または類似したリソースを必要とするインフラストラクチャを管理するのに有用です.Count を使用すると,変数または表現に基づいて値を設定することによって条件的にリソースを作成できます.構成をより柔軟にし,冗長性を軽減します.リソースの各インスタンスは,count.index値を使用してユニークに参照できます.各リソースインスタンスのより細かい制御とカスタマイゼーションを可能にします.注:同じリソースでカウントとフォローを遅らせることはできません.以下のリソースから詳細を学びましょう: - [@official@Terraform Docs - count] (https://developer.hashicorp.com/terraform/language/meta-arguments/count) - [@article@Terraform by Example - count] (https://www.terraformbyexample.com/count) - [@video@Conditional blocks in Terraform using count] (https://www.youtube.com/watch?v=RVoIqWkN_gI)",
+        "links": []
+      }
+    },
+    {
+      "id": "gcdg_GhAacIWzv19ITTE_",
+      "type": "subtopic",
+      "label": "それぞれに",
+      "position": {
+        "x": -482.3801979348366,
+        "y": 630.6056359503888
+      },
+      "size": {
+        "width": 193,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Terraform の for_each メタアルグメントは,集合または地図に基づいたリソースの複数のインスタンスを作成できるようにします.単純整数を使用するカウントとは異なり,for_each は特定の集合または地図から特定のキー値ペアに関連付けられているため,より細細かい,ダイナミックなリソース作成を可能にします.このメタアルグメントは,セットまたは地図のキーおよび値から得られたユニークな構成を持つリソースを作成するのに特に有用です.for_eachを活用することで,リソースのコレクションをより効率的に管理することができ,各インスタンスは個別的に参照され,特定のキーに基づいてカスタマイズすることができます.注:同じリソースで `_e`と `countを宣言することはできません.次のリソースから詳細を学びましょう: - [@official@Terraform Docs - for_each] (https://developer.hashicorp.com/terraform/language/meta-arguments/for_each) - [@article@Terraform by Example - for_each] (https://www.terraformbyexample.com/for_each) - [@video@Terraform for loops] (https://www.youtube.com/watch?v=4qO7WK6D3cA)",
+        "links": []
+      }
+    },
+    {
+      "id": "5FLOFTP_nCa3qi1wbV4qE",
+      "type": "subtopic",
+      "label": "提供者",
+      "position": {
+        "x": -482.3801979348366,
+        "y": 684.1056359503888
+      },
+      "size": {
+        "width": 193,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`provider` meta-argument in Terraform は,リソースのためにどのプロバイダー設定を使用するかを指定し,リソースタイプ名に基づいてデフォルトプロバイダー選択を優先します.同じプロバイダの複数の設定が要求されるシナリオで,例えば異なる地域または環境でリソースを管理する場合,これは有用です. `provider` argument を設定することで,リソースが指定されたプロバイダー設定を使用していることを確認できます.この alias によって識別され,マルチプロバイダーまたはマルチ地域部署における制御と柔軟性を高めます.この meta-argumentは, Terra が基本的なインフラプロバイダーとどのように相互作用するかを正確に指示するために不可欠です.次のリソースから詳細を学ぶ: - [@official@Terraform Docs - 提供者]https://developer.hashicorp.com/terraform/language/meta-arguments/resource-provider) - [@article@Terraform by Example - 提供者](https://www.terraformbyexample.com/providers/)",
+        "links": []
+      }
+    },
+    {
+      "id": "0A8zTuCXVmcruJdfH3cNu",
+      "type": "subtopic",
+      "label": "ライフサイクル",
+      "position": {
+        "x": -482.3801979348366,
+        "y": 737.6056359503888
+      },
+      "size": {
+        "width": 193,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Terraform のライフサイクルのメタ議論は,作成,更新,削除中にリソースの行動をカスタマイズします.これは create_before_destroy などの設定を含みます.これは古いリソースが破壊される前に新しいリソースが作成されることを保証し,ダウンタイムを防止します.prevent_destroy は,意外な削除からリソースを保護し,更新中に無視する属性を指定し, Terraform の変更を誘発することなく外部修正を可能にします.これらのオプションは,リソース管理に精細な制御を提供し,必要なインフラストラクチャの状態が最小の障害とリソースライフサイクルの正確な処理で維持されることを保証します.次のリソースから詳細を学びましょう: - [@official@Terraform Docs - Lifecycle] (https://developer.hashicorp.com/terraform/language/meta-arguments/lifecycle) - [@article@Terraform Resource Lifecycle] (https://spacelift.io/blog/terraform-resource-lifecycle) - [@article@Understanding the Lifecycle Block] (https://dev.to/pwd9000/terraform-understanding-the-lifecycle-block-4f6e)",
+        "links": []
+      }
+    },
+    {
+      "id": "TPd00dRndj1P8674KTTrm",
+      "type": "subtopic",
+      "label": "メタアルグメント",
+      "position": {
+        "x": -496.6267326449455,
+        "y": 463
+      },
+      "size": {
+        "width": 223,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999,
+      "content": {
+        "description": "テラフォームリソースのメタ・アルグメントは,配置内でリソースがどのように管理され,相互作用するかに追加的な制御を提供します.以下のリソースから詳細を学びましょう: - [@article@MetaArguments in Terraform] (https://muditmathur121.medium.com/meta-arguments-in-terraform-aaaa6e3734e6) - [@article@Terraform Meta-Arguments] (https://www.devopsschool.com/blog/terraform-tutorials-meta-arguments/) - [@video@Resource Arguments] (https://www.youtube.com/watch?v=7JraLCfroyE)",
+        "links": []
+      }
+    },
+    {
+      "id": "Iv-ZRTeVmvk7l7X9nk3ds",
+      "type": "paragraph",
+      "label": "始めること",
+      "position": {
+        "x": 346.5493344024744,
+        "y": -59.5
+      },
+      "size": {
+        "width": 186,
+        "height": 66
+      },
+      "style": {
+        "fontSize": 20,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "AY7_xUeCl6ilqZzg1YFoP",
+      "type": "topic",
+      "label": "変数",
+      "position": {
+        "x": 118.61932240319987,
+        "y": 548.1056359503888
+      },
+      "size": {
+        "width": 231,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Terraformは変数を使用して構成をより柔軟かつ再利用可能にする.変数は,デフォルト値,コマンドラインフラッグ,環境変数,または別々の `.tfvars`ファイルを含む様々な方法によって `.tf`ファイルで宣言され,割り当てられる.文字列,番号, bool,リスト,地図などの複数のデータタイプをサポートする.このシステムは,インフラストラクチャとしてコードが異なる環境や使用事例によりダイナミックで適応できるようにします.次のリソースから詳細を学びましょう: - [@official@Input Variables] (https://developer.hashicorp.com/terraform/language/values/variables) - [@article@How To Use Terraform Variables] (https://spacelift.io/blog/how-to-use-terraform-variables) - [@video@Learn How to Use Terraform Variable] (https://www.youtube.com/watch?v=oArutYYvQ_Y)",
+        "links": []
+      }
+    },
+    {
+      "id": "VxMse1VTZAUtVhpKv1OHS",
+      "type": "subtopic",
+      "label": "入力変数",
+      "position": {
+        "x": 118.61932240319987,
+        "y": 354.19695330839784
+      },
+      "size": {
+        "width": 231,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Terraform 入力変数は,変数ブロックを使用して宣言されるモジュールのパラメータである.複数のデータタイプ,デフォルト値,記述をサポートする.ユーザはモジュールを呼び出すときまたは Terraform を実行するときに値を提供する. `var.<name>`構文を通じてアクセスされる入力変数は,さまざまな展開シナリオに適応できる柔軟で再利用可能なインフラストラクチャテンプレートを可能にします.それらはセキュリティに敏感にマークされ,通常は `variables.tf`ファイルで定義されます.詳細は以下のリソースからご覧ください: - [@official@Define Input Variables] (https://developer.hashicorp.com/terraform/tutorials/aws-get-started/aws-variables) - [@article@Terraform Input and Output Variables Explained] (https://kodekloud.com/blog/terraform-variables-explained/) - [@video@Terraform Basics: Input Variables] (https://www.youtube.com/watch%3Fv%3D2f65JhfYmIo)",
+        "links": []
+      }
+    },
+    {
+      "id": "HUiodBFIp_rsQDkf3WgbI",
+      "type": "subtopic",
+      "label": "タイプ制限",
+      "position": {
+        "x": 118.61932240319987,
+        "y": 408.19695330839784
+      },
+      "size": {
+        "width": 231,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999,
+      "content": {
+        "description": "テラフォーム変数型制限は,入力変数に対して許容されるデータ型を指定する.その中には原始型 (文字列,番号, bool),複合型 (リスト,セット,地図,オブジェクト),および指定されていないタイプなどが含まれます.制限は特定の構造,嵌入型,または値範囲を強制することができます.変数ブロックのタイプ引数で定義され,早期にエラーを検出し,構成全体で正しい変数使用を保証します.以下のリソースから詳細を学びましょう: - [@official@Variable Type Constraints] (https://developer.hashicorp.com/form/language/expressions/type-constraints) - [@video@Terraform Type Constraints]https://www.youtube.com/watch?v=hNZEQfV4Q)",
+        "links": []
+      }
+    },
+    {
+      "id": "fm8oUyNvfdGWTgLsYANUr",
+      "type": "subtopic",
+      "label": "環境変数",
+      "position": {
+        "x": 118.61932240319987,
+        "y": 693.028179751944
+      },
+      "size": {
+        "width": 231,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999,
+      "content": {
+        "description": "環境変数はTerraformのさまざまな側面をカスタマイズするために使用できます.これらの変数をテラフォームのデフォルト行動を変えるために設定できます.例えば,動詞率を増やす,ログファイルパス更新,ワークスペースを設定するなど.環境変数はオプションであり,テラフォームはデフォルトでそれらを必要としません.以下のリソースから詳細を学びましょう: - [@official@Environment Variables]",
+        "links": []
+      }
+    },
+    {
+      "id": "rdphcVd-Vq972y4H8CxIj",
+      "type": "subtopic",
+      "label": "変数定義ファイル",
+      "position": {
+        "x": 118.61932240319987,
+        "y": 462.19695330839784
+      },
+      "size": {
+        "width": 231,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Terraform `variables.tf`ファイルは,モジュールまたはコンフィギュレーションのための入力変数宣言を中心化します.通常,複数の変数ブロックが含まれ,それぞれが単一の入力変数と名称,タイプ制限,オプションのデフォルト値,および説明を定義します.このファイルは,コンフィギュレーションで使用されるすべての変数のための単一の参照点として機能し,読みやすさとメンテナナビリティを高めます.義務ではありませんが, `variables.tf`を使用することは,モジュールが期待する入力を組織し,文書化する一般的な慣行です.次のリソースから詳細を学ぶ: - [@official@Parameterize Your Configuration](https://developer.hashicorp.com/terraform/tutorials/configuration-language/variables#parameterize-your-configuration) - [@video@You should be using tfvars vs. variables in Terraform](https://www.youtube.com/watch?v=BHWM4D2GJvI)",
+        "links": []
+      }
+    },
+    {
+      "id": "U2n2BtyUrOFLnw9SZYV_w",
+      "type": "subtopic",
+      "label": "検証規則",
+      "position": {
+        "x": 118.61932240319987,
+        "y": 747.028179751944
+      },
+      "size": {
+        "width": 231,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999,
+      "content": {
+        "description": "検証規則は,変数にカスタム・カスタム・カスタム・カスタム・カスタム・カスタム・カスタム・カスタム・カスタム・カスタム・カスタム・カスタム・カスタム・カスタム・カスタム・カスタム・カスタム・カスタム・カスタム・カスタム・カスタム・カスタム・カスタム・カスタム・カスタム・カスタム・カスタム・カスタム・カスタム・カスタム・カスタム・カスタム・カスタム・カスタム・カスタム・カスタム・カスタム・カスタム・カスタム・カスタム・カスタム・カスタム・カスタム・カスタム・カスタム・カスタム・カスタム・カスタム・カスタム・カスタム",
+        "links": []
+      }
+    },
+    {
+      "id": "1mFih8uFs3Lc-1PLgwiAU",
+      "type": "subtopic",
+      "label": "地元の価値観",
+      "position": {
+        "x": 118.61932240319987,
+        "y": 639.028179751944
+      },
+      "size": {
+        "width": 231,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999,
+      "content": {
+        "description": "地元の値は,地形モジュール内の名前によって直接複数回使用するために,任意の表現に割り当てられた名前として理解できます. 地元の値はローカルと呼ばれ, `ローカルズ・`ブロックを使用して宣言することができます. 地元の値は文字直立定数,リソース属性,変数,または他のローカル値である可能性があります. 地元の値は,モジュールで複数回使用する必要がある表現または値を定義するのに役立ちます. 地元の値を更新することで値が簡単に更新できます. 地元の値は, `ローカルズ・`引数を使用してアクセスできます.次のリソースから詳細を学びましょう: - [公式@ローカルズ@ローカルズ]https://developer.com/terraform/language/values/als)",
+        "links": []
+      }
+    },
+    {
+      "id": "7GK4fQf1FRKrZgZkxNahj",
+      "type": "topic",
+      "label": "輸出",
+      "position": {
+        "x": 421.67581888099835,
+        "y": 445.17143609267055
+      },
+      "size": {
+        "width": 183,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Terraform アウトプートはコンフィギュレーションまたはモジュールから選択された値を暴露し,ユーザーまたは他のモジュールにアクセスできるようにします. 出力ブロックで定義され,通常は `outputs.tf`ファイルで,リソース属性または他のコンピューティング値を参照することができます.出力物は,操作を適用した後で表示され, terraform 出力コマンドを使用して查询され,モジュールまたは外部システム間の情報を転送するのに不可欠です.以下のリソースから詳細を学びましょう: - [@official@Output Values]https://de.hashicorp.com/terraform/language/values/outputs) - [@io@Terraform Output Values]https://spacelift.blog/terraform-output) - [www@@Learn Terraform Developers in 4 Minutes]https://www.youtube.com/watch?v=i2i2i2i2i2i2i2i2i2i2i2i2i2i2i2i2i2i2i2i2i2i2i2i2i2i2i2i2i2i2i2i2i2i2i2i2i2i2i2i2i2i2i2i2i2i2i2i2i2i2i2i2i2i2i2i2i2i2i2i2i2i2i2i2i2i2i2i2i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i3i",
+        "links": []
+      }
+    },
+    {
+      "id": "31fa8kBzCEn-uCrTSoPM4",
+      "type": "subtopic",
+      "label": "アウトプットシンタックス",
+      "position": {
+        "x": 421.67581888099835,
+        "y": 260.2419617113332
+      },
+      "size": {
+        "width": 183,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Terraform の出力構文は, Terraform の構成を適用した後でアクセスできるようにする値を定義するために使用されます.基本的な構文は: ```hcl 出力 \"name\" { value = expression description = \"Optional description\" sensitive = bool } ``` `name`は,出力のためのユニークな識別子です.`value`は,出力される結果となる表現です.`description`は,オプションであり,文脈を提供します.`sensitive`は,敏感なデータをマークするブールフラッグです.[developer.hashicorp.com/terraform/tutorials/configuration-language/outputs) - [developer.hashicorp.com/terraform/language/values/outputs#declaring-an-output-value] - [@article@Terraform Output Values: Complete Guide & Examples] - [https://spacelift.io/blog/form-output) - [@article@Terraform:output a field from a module]",
+        "links": []
+      }
+    },
+    {
+      "id": "8giL6H5944M2L0rwxjPso",
+      "type": "subtopic",
+      "label": "敏感な結果",
+      "position": {
+        "x": 421.67581888099835,
+        "y": 314.2419617113332
+      },
+      "size": {
+        "width": 183,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Terraform 敏感輸出は, Terraform 構成で敏感情報を保護するために使用される機能です.出力が敏感であるとマークされた場合, Terraform はコンソール出力においてその値を隠し,実際の値ではなく `<敏感>`として表示します.パスワードや API キーなどの敏感データを保護するために重要です.出力を敏感であるとマークするには,出力ブロック内の敏感な参数を使用します: ``hcl 出力 \"database_password\" { value = aws_db_instance.example.password sensitive = true } ``` 敏感出力はまだプログラム的にアクセス可能であり,明確なテキストで状態に書き込まれていますが,その値はログとコンソールに隠されています.この機能は,チームメンバーやCI/CDパイプラインで Terraformの構成や出力を共有する際にセキュリティを維持するのに役立ちます.以下のリソースから詳細を学びましょう: - [@article@How to output sensitive data in Terraform]https://support.hashicorp.com/hc/en-us/articles/5175257151891-How-to-output-sensitive-data-with-Terraform) - [@official@Suppressing values in CLI output]https://developer.haship.com/hashiform/language/values/outputs#corensive-suppressing-values-in-cli-output)",
+        "links": []
+      }
+    },
+    {
+      "id": "DB-p_S4Ce4tDWF4wDiGSt",
+      "type": "subtopic",
+      "label": "前提条件",
+      "position": {
+        "x": 421.67581888099835,
+        "y": 369.2419617113332
+      },
+      "size": {
+        "width": 183,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Terraform 前条件は, Terraform がリソースを作成または変更しようとする前に構成または状態を検証するリソースまたはデータブロック内の宣言チェックです. 論理テストとカスタム故障通知のための条件論を指定するために条件論を使用します. 前条件は,誤った設定を早期に把握し,ビジネスルールを執行し,リソース操作の前に依存性が満たされていることを保証します.以下のリソースから詳細を学びましょう: - [@official@Custom Condition Checks]https://developer.hashicorp.com/terraform/language/values/outputs#custom-condition-checks) - [video@@Using Precondition and Post-condition Blocks in Terraform]https://www.youtube.com/watch?v=55v8LuSnvk)",
+        "links": []
+      }
+    },
+    {
+      "id": "Xes24SqkwSaO844kLbClj",
+      "type": "topic",
+      "label": "フォーマット & 検証",
+      "position": {
+        "x": 421.67581888099835,
+        "y": 893.9158262891483
+      },
+      "size": {
+        "width": 185,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Terraform `format` と `validate` は,Terraform 構成の清潔かつ正しい構成を維持するための2つの必須コマンドです. - `terraform fmt` は自動的にTerraform 構成のファイルを一貫したスタイルにフォーマットします.インデントメントを調整し,議論を並べ,ブロックと議論を分類します.このコマンドはチームプロジェクトでコードの読みやすさと一貫性を維持するのに役立ちます.- `terraform validate` はTerraform 構成の構文と内部一貫性をチェックします.構成が構文的に有効であり,参照が正しい,属性名とタイプが適切であることを確認します.このコマンドは開発プロセス初期に,インフラへの変更を適用しようとする前に,エラーを検出します.[@article@Validate, format, lint, secure, and test Terraform IaC]https://tech.aabouzaid.com/2020/04/validate-format-lint-and-test-terraform-iac-ci.html) - [@official@Terraform Validate - Documentation]https://developer.hashicorp.com/terraform/cliform/commands/validate) - [@official@Terraform Format - Documentation]https://developer.hashicorp.com/cliform/commands/fmt) - [@@Terraform Validate Configuration Locally]https://developer.hashicorp.io/blog/terraform-validate)",
+        "links": []
+      }
+    },
+    {
+      "id": "78bGm8J5Y1I8H4qioOvWb",
+      "type": "subtopic",
+      "label": "テラフォーム fmt",
+      "position": {
+        "x": 135.13390102607866,
+        "y": 834.9158262891483
+      },
+      "size": {
+        "width": 186,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999,
+      "content": {
+        "description": "terraform fmt は Terraform のコマンドで,自動的に構成ファイルを一貫したスタイルにフォーマットします.インデントを調整し,議論を並べ,ブロックと議論をアルファベティ的に分類します.コマンドは,現在のディレクトリとサブディレクトリに Terraform の構成ファイルを (.tf と .tfvars) を書き直します.プロジェクトとチーム間で一貫したコーディングスタイルを維持するために使用され,読みやすさを向上し,合併衝突を軽減します.コマンドは,サブディレクトリ内のフォーマットファイルにリクルシブ,違いを示すためにチェック,または変更なしにフォーマットを検証するために -diff のようなオプションで実行できます. Terraform の開発ワークフローで Terraform fmt を定期的に使用することは最良の実践と考えられています.次のリソースから詳細を学びましょう: - [@official@Terraform fmt Documentation] (https://developer.hashicorp.com/terraform/cli/commands/fmt) - [@article@Using Terraform fmt Command to Format Your Terraform Code] (https://spacelift.io/blog/terraform-fmt) - [@video@How to auto-format Terraform code] (https://www.youtube.com/watch?v=kZX3KLOZvhY)",
+        "links": []
+      }
+    },
+    {
+      "id": "wdYLjB-tKg76B7YcnhevQ",
+      "type": "subtopic",
+      "label": "テラフォームの検証",
+      "position": {
+        "x": 135.13390102607866,
+        "y": 888.9158262891483
+      },
+      "size": {
+        "width": 186,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999,
+      "content": {
+        "description": "検証コマンドは, Terraform コードが展開前に文法的に正しいことを確認するのに役立ちます.これは,欠けている属性または不正な依存性による誤った設定を防ぐのに役立ちます.時間節約,効率を向上させ,コストを削減します.以下のリソースから詳細を学びましょう: - [@article@Terraform Validate Examples](https://www.env0.com/blog/terraform-validate-command-practical-examples-and-best-practices)",
+        "links": []
+      }
+    },
+    {
+      "id": "YftsQYpcqJqBKPjy5tWOq",
+      "type": "subtopic",
+      "label": "TFLint",
+      "position": {
+        "x": 135.13390102607866,
+        "y": 942.9158262891483
+      },
+      "size": {
+        "width": 186,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999,
+      "content": {
+        "description": "TFLintはTerraformコードのための第三者の拡張可能なリンクです.潜在的なエラーを検出し,ベストプラクティスを執行し,コードの一貫性を維持するためにTerraform構成の静的な分析を実行します.主要な特徴は:テラフォームの検証が欠けている可能性がある潜在的なエラーをチェックし,命名条約とコードスタイルルールを強制し,時代遅れの文法やリソースタイプを特定し,クラウドプロバイダーに特定のチェックを提供します.TFLintは .tflint.hclファイルを使用して構成可能であり,カスタムルールをサポートします.自動化されたコード品質チェックのための CI/CDパイプラインに統合することができます.公式ツールではありませんが,TFLintはテラフォームコミュニティの構築された情報認証ツールを補完し,コードとしてのプロジェクトにおける全体的なコード品質と信頼性を改善するために広く利用されています.[https://github.com/terraform-linters/tflint) - [@article@TFLintとは何かとTerraform Codeをどのようにリンクするか] (https://spacelift.io/blog/what-is-tflint) - [@video@Quick Tech - TFLint] (https://www.youtube.com/watch?v=-BKWpI4Olpw)",
+        "links": []
+      }
+    },
+    {
+      "id": "pjmOK1MEMnIV_zAlaOF01",
+      "type": "topic",
+      "label": "部署",
+      "position": {
+        "x": 231.28270901908832,
+        "y": 1175.1483572741179
+      },
+      "size": {
+        "width": 174,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Terraform定義されたインフラストラクチャ部署にはいくつかの重要なステップが含まれます: - `terraform init` - `terraform plan` - `terraform app`を使用して構成を適用します.以下のリソースから詳細を学ぶことができます: - [@official@The Core Terraform Workflow](https://developer.hashicorp.com/terraform/intro/core-workflow)",
+        "links": []
+      }
+    },
+    {
+      "id": "LDxAXmTKyvogvgUpvN5pT",
+      "type": "subtopic",
+      "label": "テラフォームプラン",
+      "position": {
+        "x": 231.28270901908832,
+        "y": 1025.1758182495494
+      },
+      "size": {
+        "width": 174,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`terraform plan`は,実行計画を作成し,Terraformがインフラストラクチャにどのような変更を行うかを示すコマンドです.現在の状態を構成ファイルで定義された望ましい状態と比較し,作成,変更,または削除するリソースの詳細なリストを出します.重要なことに,インフラストラクチャに実際の変更を加えず,変更を加える前に潜在的な問題を特定するのに役立ちます.プランは,後に実行またはレビューのためにファイルに保存することができます.このコマンドは,実装前に変更をレビューするのに不可欠です.特に複雑な環境で,コードレビューおよびCI/CDパイプラインで一般的に提案されたインフラストラクチャ変更を検証するために使用されます.テラフォームプランはプレビューを提供していますが,外部要因やAPIの制限により,常にすべての変更を予測することができないことに注意してください.次のリソースから詳しくは: - [@official@Terraform Plan Documentation] (https://developer.hashicorp.com/terraform/cli/commands/plan) - [@course@Create a Terraform plan] (https://developer.hashicorp.com/terraform/tutorials/cli/plan) - [@video@Terraform - Terraform Plan] (https://www.youtube.com/watch?v=9v08h-Oaelo) - (https://article@Terraform plan and how it works) (https://developer.hashicorp.com/terraform/blog/terraform-plan)",
+        "links": []
+      }
+    },
+    {
+      "id": "LDpj-LY_SOXzno04D-Y25",
+      "type": "subtopic",
+      "label": "テラフォームが適用される",
+      "position": {
+        "x": 231.28270901908832,
+        "y": 1079.5470680880394
+      },
+      "size": {
+        "width": 174,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`terraform apply`は,Terraformの設定ファイルで定義された変更を実行するために使用されるコマンドです.指定されたインフラストラクチャリソースを設定,更新,または削除して,望ましい状態に一致します.変更を行う前に,テラフォームプランに似た計画を表示し,確認を提示します. -auto-approveフラグを使用しない限り.Applyは現在のインフラストラクチャ状態を反映するためにステートファイルを更新し,Terraformが時間とともにリソースを追跡し管理できるようにします.リソース間の依存関係を処理し,正しい順序で作成します.次のリソースから詳細を学びましょう: - [@official@Terraform Apply Documentation] (https://developer.hashicorp.com/terraform/cli/commands/apply) - [@course@Apply Terraform設定] (https://developer.hashicorp.com/terraform/tutorials/cli/apply) - [@article@Terraform Apply Command: Options, Examples and Best Practices] (https://www.env0.com/blog/terraform-apply-guide-command-options-and-examples)",
+        "links": []
+      }
+    },
+    {
+      "id": "KXlLlaR0_S7gE_ZB1hNEd",
+      "type": "topic",
+      "label": "検査 / 状態を変更する",
+      "position": {
+        "x": -492.5813050739364,
+        "y": 1159.6185818911601
+      },
+      "size": {
+        "width": 263,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Terraformは,実際のインフラストラクチャを変更せずに追跡されたリソースを管理できるように,状態を検査および修正するためのツールを提供します.これらの機能は,ユーザーが現在の状態を人間読めるフォーマットで閲覧し,状態内のすべてのリソースをリストし,特定のリソースに関する詳細な情報を取得することができます.状態の修正のために, Terraformは,状態内のリソースまたは異なる状態ファイルに移動する方法を提供し,実際のリソースを削除せずに状態からリソースを削除し,実際のインフラストラクチャに匹敵する状態を更新します.これらのツールは Terraformの状態と実際のインフラストラクチャとの間の不一致を調和させるのに不可欠です.また,異なる Terraform構成または作業場でのリソースを管理するために.しかし,不適切な変更は,国家と実際のインフラとの間の不一致につながる可能性があるため,国家の変更は慎重に実行されるべきである.",
+        "links": [
+          {
+            "title": "検査する国",
+            "url": "https://developer.hashicorp.com/terraform/cli/state/inspect",
+            "type": "official"
+          },
+          {
+            "title": "テラフォーム状態の管理方法 ステップバイ・ステップガイド",
+            "url": "https://meriemterki.medium.com/how-to-manage-terraform-state-a-step-by-step-guide-b615bd6ee0de",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "vAFFgKSthyj_3Lxt-Z6pg",
+      "type": "subtopic",
+      "label": "グラフ",
+      "position": {
+        "x": -478.95485736954026,
+        "y": 1220.8017074542047
+      },
+      "size": {
+        "width": 104,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999,
+      "content": {
+        "description": "テラフォームグラフコマンドは,構成または実行計画の視覚表示を生成します.DOTフォーマットでリソースとその依存性のグラフを作成し,Graphvizのようなツールを使用してイメージに変換できます.この視覚的な支援は,開発者が複雑なリソース関係を理解し,リソースの注文における潜在的な問題を識別し,インフラストラクチャの全体的な構造を視覚化するのに役立ちます.テラフォーム構成の異なる側面を示し,リソース依存性,データフロー,モジュール関係を含む.主にデバッグおよびドキュメント目的で使用されているが,グラフコマンドは,利益関係者または教育目的でインフラストラクチャデザインを提示するためにも価値があります.大規模で複雑なプロジェクトでは特に便利です 資源の相互依存性を理解することは困難です.以下のリソースから詳細を学びましょう: - [@official@graph command] (https://developer.hashicorp.com/terraform/cli/commands/graph) - [@article@How to Generate Images with Terraform Graph Command] (https://spacelift.io/blog/terraform-graph) - [@video@Terraform  Resource Graph] (https://www.youtube.com/watch?v=YbnBstMyVEI) - [@vizopensource@Graph] (https://gitlab.com/graphviz/graphviz)",
+        "links": []
+      }
+    },
+    {
+      "id": "Y-mgCkDpawt5NrMwDH9Ki",
+      "type": "subtopic",
+      "label": "リスト",
+      "position": {
+        "x": -477.95485736954026,
+        "y": 1272.8017074542047
+      },
+      "size": {
+        "width": 103,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Terraform リスト コマンドは Terraform ステート内のリソースのリストを表示するために使用されます.このコマンドは,現在の設定で Terraform が管理しているすべてのリソースの迅速な概要を提供します.このコマンドは,大きなまたは複雑なインフラストラクチャと作業する際に特に有用であり,開発者が Terraform の制御下にあるリソースを迅速に確認できるようにします.輸出には,管理されたリソースの種類と名前が含まれ,インフラストラクチャの特定の要素を簡単に識別できます.これは,状態の内容を確認またはさらなる検査または変更のためのリソースを識別するために,他の状態操作コマンドと一緒にしばしば使用されます.[@official@Terraform State List]https://developer.hashicorp.com/terraform/cli/commands/state/list]",
+        "links": []
+      }
+    },
+    {
+      "id": "kw32gb4HSeCEoBwkeziS_",
+      "type": "subtopic",
+      "label": "出力",
+      "position": {
+        "x": -371.0055726743278,
+        "y": 1272.8017074542047
+      },
+      "size": {
+        "width": 130,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Terraform 出力コマンドは, Terraform 状態から出力変数の値を抽出するために使用されます. Terraform 設定で定義された出力値を適用した後で表示できます.このコマンドは,IP アドレス,リソース ID,または計算値などのインフラに関する情報を取得するのに役立ちます.その後スクリプトで使用したり,他のシステムに転送することができます.議論なしで実行すると,すべての出力を表示します.特定の出力名を指定して特定の値を取得できます.このコマンドは JSON を含む異なる出力フォーマットをサポートし,他のツールまたはワークフローと簡単に統合できます.これは,CI/CD パイプラインまたはより大きな自動化プロセスの一部として Terraform が使用される場合特に価値があります.次のリソースから詳細を学ぶ: - [@official@Terraform output command](https://developer.hashicorp.com/terraform/cli/commands/output) - [@article@Terraform output](https://learning-ocean.com/tutorials/terraform/terraform-output/)",
+        "links": []
+      }
+    },
+    {
+      "id": "inbTto9Qukdj6egRJ0Zh9",
+      "type": "topic",
+      "label": "掃除する",
+      "position": {
+        "x": 21.43440720317426,
+        "y": 1175.1483572741179
+      },
+      "size": {
+        "width": 160,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Terraformを使用した後に清掃することは,作成されたインフラストラクチャリソースを削除し,関連する状態を管理することを意味します.このための主要なコマンドは,現在の Terraform 構成によって管理されているすべてのリソースを削除する `terraform destroy`です.それは破壊計画を表示し,継続する前に確認が必要です.破壊後,もはや必要がない場合,状態ファイルを削除またはアーカイブする必要があります.部分的な清掃のために,あなたは, `terraform 状態 rm`を使用して状態から特定のリソースを削除し,それらを削除するために, `terraform apply`を実行することができます.不必要なコストとセキュリティリスクを回避するために,すべてのリソースが適切に削除されることを確認することが重要です.重要な資源の意外な削除を防ぐために,特に共有または生産環境において,破壊計画を常に注意深く検討してください.次のリソースから詳細を学びましょう: - [@article@How to Destroy Terraform Resources](https://spacelift.io/blog/how-to-destroy-terraform-resources)",
+        "links": []
+      }
+    },
+    {
+      "id": "LPI13FILvkD55hWcWbPrV",
+      "type": "subtopic",
+      "label": "地形破壊",
+      "position": {
+        "x": 11.93440720317426,
+        "y": 1079.5470680880394
+      },
+      "size": {
+        "width": 179,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999,
+      "content": {
+        "description": "terraform destroy は Terraform 構成によって管理されているすべてのリソースを削除するために使用されるコマンドです.実行前にすべてのリソースと確認の提示を削除する計画を作成します.このコマンドは,一時的な環境を清掃または完全なインフラストラクチャを廃止するのに有用です.適切な破壊を保証するために,その依存性の逆順でリソースを削除します.強力な Terraform 破壊は,特に共有または生産環境で,データの損失につながる可能性があるため,慎重に管理されない場合,慎重にリソースの除去をより細かな制御のために, terraform 状態コマンドと一緒にしばしば使用されます.破壊後, Terraform は変更を反映するために状態ファイルを更新しますが,プロジェクトが完全に廃止されている場合,このファイルを管理または削除することが重要です.次のリソースから詳細を学びましょう: - [@official@Terraform Destroy Documentation]https://developer.hashicorp.com/terraform/cli/commands/destroy) - [@article@How to destroy Terraform resources]https://spacelift.io/blog/how-to-destroy-terraform-resources) - [@course@Destroy infrastructure]https://developer.hashicorp.com/terraform/tutorials/aws-get-started/aws-destroy)",
+        "links": []
+      }
+    },
+    {
+      "id": "i-TQe48edt3Va_oZGVBLX",
+      "type": "paragraph",
+      "label": "国家管理",
+      "position": {
+        "x": -188.4848179138105,
+        "y": 1007.1758182495494
+      },
+      "size": {
+        "width": 217,
+        "height": 67
+      },
+      "style": {
+        "fontSize": 20,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "5xAE-9viD7DP_ugQ6NE_C",
+      "type": "topic",
+      "label": "州",
+      "position": {
+        "x": -130.4848179138105,
+        "y": 910.9259081174217
+      },
+      "size": {
+        "width": 101,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Terraform状態は,管理されたインフラストラクチャの現在の状態を追跡する Terraform の重要な概念です.通常は terraform.tfstate というファイルに保存されます.この状態は,あなたの設定に実際のリソースをマッピングします.この状態は Terraform が مطلوبの設定を達成するために必要な変更を決定することを可能にします. 機密情報を含んでおり,S3 や Terraform Cloud などのリモートバックエンドで安全に保存されるべきです.状態は,状態間のリソースを移動したり,管理からリソースを削除したりなどのタスクのために terraform 状態コマンドを使用して操作できます.適切な状態管理は,協力作業にとって不可欠であり,チームメンバー間で一貫性を確保し, Terraform がインフラストラクチャに正確な計画と変更を適用できるようにします.[developer.hashicorp.com/terraform/language/state] (https://developer.hashicorp.com/terraform/language/state) - [@article@Purpose of Terraform state] (https://developer.hashicorp.com/terraform/language/state/purpose) - [@video@Managing Terraform state files] (https://www.youtube.com/watch?v=UDBVCzg2IRo)",
+        "links": []
+      }
+    },
+    {
+      "id": "pDm08NBVwGf9rAIZC_ZIR",
+      "type": "subtopic",
+      "label": "遠隔状態",
+      "position": {
+        "x": -205.4848179138105,
+        "y": 819.6207586927989
+      },
+      "size": {
+        "width": 251,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Terraform リモートステートとは,チームコラボレーションを可能にし,セキュリティを向上させ,状態の一貫性を保証します.一般的なリモートバックエンドには AWS S3,Azure Blob Storageなどのクラウドストレージサービス,または Terraform Cloudなどの管理サービスが含まれます.リモートステートは複数のチームメンバーが同じインフラストラクチャで安全に作業できるようにし,ステートファイル損失を防止し,同時に変更を避けるためのロックメカニズムを提供することができます.初期設定はより複雑であるが,リモート状態は生産環境とチームベースの Terraform ワークフローのベストプラクティと考えられています.以下のリソースから詳細を学びましょう: - [@official@Remote state] (https://developer.hashicorp.com/terraform/language/state/remote) - [@official@The terraform_remote_state Data Source] (https://developer.hashicorp.com/terraform/language/state/remote-state-data) - [@video@Terraform remote state backends explained] (https://www.youtube.com/watch?v=jSoMQCBxp7E)",
+        "links": []
+      }
+    },
+    {
+      "id": "GseYuG9wT8H9R_enxWzuQ",
+      "type": "subtopic",
+      "label": "国営ロック",
+      "position": {
+        "x": -205.4848179138105,
+        "y": 765.6207586927989
+      },
+      "size": {
+        "width": 251,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Terraform ステートロックは,同じステートファイルの同時修正を防止するメカニズムで,潜在的な衝突やデータ腐敗を回避する.有効化された場合, Terraform は状態を変更する操作を行う前にロックを取得します.例えば,適用または破壊.ロックが利用できない場合は,設定に応じて Terraform が待機するか失敗します.ステートロックは,S3 と DynamoDB,Azure Blob Storage,および Terraform Cloud を含む多くのバックエンドタイプによって自動的にサポートされます.複数のユーザーまたは自動化プロセスが同時に変更を試みることができるチーム環境にとって重要です.データインテグリティのために不可欠であるが,閉じ込められたロックが操作をブロックするのを防ぐために適切なロック管理を実装することが重要です.[developer.hashicorp.com/terraform/language/state/locking) - [@official@State Storage and Locking] (https://developer.hashicorp.com/terraform/language/state/backends) - [@video@Terraform - State locking] (https://www.youtube.com/watch?v=QdDCUpggmrw)",
+        "links": []
+      }
+    },
+    {
+      "id": "L7wAMGi_yU-Bbc9fXlmxZ",
+      "type": "subtopic",
+      "label": "既存の資源を輸入する",
+      "position": {
+        "x": -205.4848179138105,
+        "y": 711.6207586927989
+      },
+      "size": {
+        "width": 251,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Terraform ステートインポートは,既存のリソースを Terraform 管理の下に置くために使用されるコマンドです.このコマンドは Terraform ステートに Terraform ステートの外で作成されたリソース (例えば,手動または他のツールによって) を追加できます.このコマンドは Terraform ステートに Terraform ステートインポートとリアル・ワールド ステートインポートの識別子である2つの主要な議論を取り入れます.実行すると,実際のインフラストラクチャを変更せずに,ステートファイルにリソースを追加します.これは既存のリソースを持つ環境で Terraform を採用したり,状態と現実が異なったシナリオから回復したりするのに役立ちます.インポートした後,輸入されたリソースに一致する Terraform ファイルに対応する構成を書き込む必要があります.Terraform v1.5.0 以降では,任意の Terraform コンフィギュレーションファイルで `import`ブロックを作成することもできます.以下のリソースから詳細を学びます: - [@official@Terraform import command](https://developer.hashicorp.com/terraform/cli/import) - [@article@Terraform import:それが何であり,どのように使用するか] (https://terrateam.io/blog/terraform-import) - [@video@Exploring the Import Block in Terraform 1.5](https://www.youtube.com/watch?v=fhzn_00EDZ0)",
+        "links": []
+      }
+    },
+    {
+      "id": "a0rUMnYluVUGhyhlDK5S8",
+      "type": "subtopic",
+      "label": "ステートファイルの分割",
+      "position": {
+        "x": -205.4848179138105,
+        "y": 657.6207586927989
+      },
+      "size": {
+        "width": 251,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Terraformのステートファイルを分割することは,大きなステートを小さく,管理可能な部分に分割することを意味します.これは通常 Terraformのワークスペースを使用してまたは独自のステートファイルを持つ独立したモジュールにリソースを組織することによって行われます.このプロセスは複雑なインフラストラクチャを管理し,パフォーマンスを向上させ,より細かなアクセス制御を可能にします.既存のステートを分割するには, `terraformのステート mv` を使用してリソースを州間で移動できます.または `terraformのステート rm` 以降は,新しい構成で `terraformのインポートです.このアプローチは,大規模なプロジェクトに有利で,チームがインフラストラクチャの異なる部分で独立した作業を可能にします.しかし,分割された状態間の依存関係を管理するために注意深く計画する必要があります.適切な状態分割は,より効率的なワークフロー,より簡単なトラブルシューティング,および大規模なテラフォーム展開における組織構造とのよりよい調整につながります.以下のリソースから詳細を学びましょう: - [@video@Organizing Terraform with multiple states] (https://www.youtube.com/watch?v=5TfgdKXr45I) - [@article@How to divide state files] (https://support.hashicorp.com/hc/en-us/articles/7955227415059-How-to-Split-State-Files) - [@article@Introducing terra-state-split] (https://www.shebanglabs.io/moving-between-terraform-resources-different-states/)",
+        "links": []
+      }
+    },
+    {
+      "id": "1T35eNO18qoyXcX7S-Jox",
+      "type": "subtopic",
+      "label": "バージョン作成",
+      "position": {
+        "x": -205.4848179138105,
+        "y": 603.6207586927989
+      },
+      "size": {
+        "width": 251,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Terraform ステート バージーニングは,時間とともにステートファイルの複数のバージョンを維持する慣行を指す. Terraform は内蔵バージョンーリングを提供していないが,バージョンーリングをサポートするバックエンド設定,例えば Amazon S3 とバージョンーリングが有効または Terraform Cloud を介して通常達成されます.このアプローチは,チームが変更を追跡し,必要に応じて以前の状態にロールバックし,インフラストラクチャ変更の監査追跡を維持することを可能にします.バージョンーリングは,事故状態の腐敗や削除から回復し,時間の経過とともにインフラストラクチャの進化を理解するのに役立ちます.[@official@State Versions API](https://developer.hashicorp.com/terraform/cloud-docs/api-docs/state-versions)",
+        "links": []
+      }
+    },
+    {
+      "id": "16vLOPP9lTCuBh0q-UVMk",
+      "type": "subtopic",
+      "label": "敏感なデータ",
+      "position": {
+        "x": -205.4848179138105,
+        "y": 549.6207586927989
+      },
+      "size": {
+        "width": 251,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Terraformのステートファイルにはしばしばパスワード,APIキー,およびリソース構成で使用される他の秘密などの敏感データが含まれます.このデータは,ステートファイル内の素文で保存され,ファイルが侵害された場合,セキュリティリスクが生じます.これを緩和するために, Terraformはいくつかのアプローチを提供しています.ログに表示されないように,暗号化されたリモートバックエンドを使用して,ステートストレージ,ステートファイルへの厳格なアクセス制御を実施し,外部秘密管理システムを使用します.ステートファイルを敏感と適切に保護することが重要です.高度に敏感な環境では,一部のチームは Terraformの外で特定の秘密を完全に保存することを選択し,実行時に注入します.テラフォーム部署におけるインフラストラクチャの秘密の機密性を維持するために,機密な情報に関する国家ファイルを定期的に監査し,適切なセキュリティ対策を実施することが不可欠です.以下のリソースから詳細を学びましょう: - [@official@Terraform 機密データ] (https://developer.hashicorp.com/terraform/language/state/sensitive-data) - [@official@Handling Sensitive Values in State] (https://developer.hashicorp.com/form/plugin/best-practices/sensitive-state) - [@video@Terraform  機密データを保護する] (https://www.youtube.com/watch?v=yLc1YkB7DFo)",
+        "links": []
+      }
+    },
+    {
+      "id": "jas0XILqCUXjWRk3ZoSEO",
+      "type": "topic",
+      "label": "国家にとって最善の慣行",
+      "position": {
+        "x": -479.5813050739364,
+        "y": 910.9259081174217
+      },
+      "size": {
+        "width": 237,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Terraform ステート・ベスト・プラクティスはセキュリティ,一貫性,コラボレーションに焦点を当てています.- ステート・ファイルをS3や Terraform Cloudなどの暗号化,バージョン制御のバックエンドで遠隔保存して,チームアクセスを可能にし,セキュリティを強化します.- 同期修正を防止するためにステートロックを実行します. ワークスペースまたは異なる環境のための別々のステートファイルを使用します.- ステートファイルを定期的にバックアップし,ロールバック機能のためのバージョンアップを可能にします.- ステートに直接敏感なデータを保存しないでください. その代わりに,秘密管理ツールを使用します.- ステートファイルをバージョン制御であなたの Terraform 構成から分離してください.- メンテナンスとトラブルシューティングのためのステートサブコマンドを使用します. ステートファイルへのアクセスを制限するためにアクセス制御を実行します.- ステート内の未使用されたリソースを定期的にレビューして清掃してください.これらの実践は,特にチーム環境や複雑なインフラストラクチャにおいて,安全な,効率的で管理可能な Terraform ワークフローを維持するのに役立ちます.以下のリソースから詳細を学びましょう: - [@article@Managing Terraform State  Best Practices & Examples] (https://spacelift.io/blog/terraform-state) - [@article@Best Practices for Terraform State File Management] (https://www.cloudthat.com/resources/blog/best-practices-for-terraform-state-file-management) - [@video@Managing Terraform State Files - What are your options?] (https://www.youtube.com/watch?v=IEKf8)",
+        "links": []
+      }
+    },
+    {
+      "id": "jvHtSRLuCXJrGIiesgbE-",
+      "type": "subtopic",
+      "label": "-適用される代替オプション",
+      "position": {
+        "x": -478.95485736954026,
+        "y": 1379.5845327398724
+      },
+      "size": {
+        "width": 238,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Terraform の `-replace`フラグは,リソースを汚すことで特定のリソースの置き換えを強制するためにアプリケーションまたはプランコマンドで使用されます.このフラグは,指定されたリソースを更新する代わりに削除して再作成するよう Terraform に指示します.特定の属性を作成後に変更できない場合など,リソースを完全に再生する必要があるときに有用です.フラグは通常, Terraform がリソースが自動的に置き換えを必要としていることを検知できない場合,またはテストまたはトラブルシューティング目的で置き換えを強制したい場合に使用されます.強力な場合でも,このフラグは,データ損失につながる可能性があるため,特に状態のリソースで慎重に使用する必要があります.資源の望ましい構成状態を達成するために,現場で更新が十分でないシナリオで使用されています.以下のリソースから詳細を学びましょう: - [@official@Forcing Re-creation of Resources] (https://developer.hashicorp.com/terraform/cli/state/taint) - [@article@Terraform Taint, Untaint, Replace  如何に使うか (例) ] (https://spacelift.io/blog/terraform-taint) - [@video@Terraform Taint Is Bad Actually - Replace Instead) ] (https://www.youtube.com/watch?v=T1fuYGjV0)",
+        "links": []
+      }
+    },
+    {
+      "id": "7DZB2VeyuouFXOdFEfeZt",
+      "type": "subtopic",
+      "label": "展示",
+      "position": {
+        "x": -371.0055726743278,
+        "y": 1220.8017074542047
+      },
+      "size": {
+        "width": 130,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999,
+      "content": {
+        "description": "terraform show コマンドは,現在の状態または保存されたプランファイルの人間の読みやすいビューを表示します.議論なしで使用すると,すべてのリソースとその属性を含む管理されたインフラストラクチャの現在の状態を提示します.保存されたプランファイルへのパスを与えられた場合,そのプランを適用することによって行われる変更を表示します.このコマンドは,インフラストラクチャの現在の状態を検査したり,特定のリソースの詳細を確認したり,またはそれらを適用する前に計画された変更をレビューするのに役立ちます.出力には敏感な情報が含まれているので,安全でない環境で結果を共有または表示する際には注意を払う必要があります.以下のリソースから詳細を学びましょう: - [@official@Terraform show](https://developer.hashicorp.com/terraform/cli/commands/show) - [@official@Terraform state show](https://developer.hashicorp.com/terraform/cli/commands/state/show)",
+        "links": []
+      }
+    },
+    {
+      "id": "uR6Vjm8cek9JRzZV0iTXh",
+      "type": "subtopic",
+      "label": "rm",
+      "position": {
+        "x": -478.95485736954026,
+        "y": 1324.8017074542047
+      },
+      "size": {
+        "width": 104,
+        "height": 50
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Terraform ステート rm コマンドは,実際のインフラストラクチャを破壊せずに Terraform ステートからリソースを削除するために使用されます. Terraform でリソースを削除せずに管理するのを止めたいとき,または別のステートファイルにリソースを移動する必要があるとき,このコマンドは有用です.このコマンドは,ステートから削除するリソースを指定する議論として,一つまたは複数のリソースアドレスを必要とします.削除後, Terraform はこれらのリソースを追跡したり管理したりすることはありません.しかし,これらのリソースはインフラストラクチャに存在し続けます.このコマンドは,あなたの Terraform 構成とインフラストラクチャの実際の状態の間の不一致性を生み出す可能性があるため,慎重に使用する必要があります.[developer.hashicorp.com/terraform/cli/commands/state/rm) - [@article@Terraform State Rm: State File から Resource を削除する方法] (https://spacelift.io/blog/terraform-state-rm) - [@video@Terraform-state-rm)",
+        "links": []
+      }
+    },
+    {
+      "id": "0xVXwjWPFXDGRw_3p6th6",
+      "type": "subtopic",
+      "label": "mv",
+      "position": {
+        "x": -371.0055726743278,
+        "y": 1324.8017074542047
+      },
+      "size": {
+        "width": 130,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999,
+      "content": {
+        "description": "terraform state mv コマンドは, Terraform 状態内のリソースを Terraform 状態または別々の状態ファイルの間に移動するために使用されます.実際のインフラストラクチャを変更せずに,状態を再構成することができます.このコマンドは, Terraform 構成を再構成したり,モジュールの間でリソースを移動したり,大きな状態ファイルを小さいものに分けるときに有用です.このコマンドは,リソースのソースと目的地アドレスの2つの議論を必要とします.このコマンドは,移動したリソースへのすべての参照を更新し,将来の操作が新しい位置でリソースを正しくターゲットにすることを保証します.この機能は,複雑なプロジェクトを再編したり,組織ニーズを変更する際に特に価値があります.しかし,誤った動きが状態の不一致性につながる可能性があるため,慎重に使用する必要があります.次のリソースから詳細を学ぶ: - [@official@Terraform State mv](https://developer.hashicorp.com/terraform/cli/commands/state/mv) - [@official@Moving Resources](https://developer.hashicorp.com/terraform/cli/state/move) - [@video@Terraform  Terraform State MV ](https://www.youtube.com/watch?v=i10IMXn3l0o)",
+        "links": []
+      }
+    },
+    {
+      "id": "nx53xkJqovG-KCxZwihF1",
+      "type": "label",
+      "label": "基本/高度なコマンド",
+      "position": {
+        "x": -481.5504047782006,
+        "y": 1612.6185818911601
+      },
+      "size": {
+        "width": 243,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "R2AORYmc1NgGTqLZY5Fu-",
+      "type": "topic",
+      "label": "モジュール",
+      "position": {
+        "x": -110.4848179138105,
+        "y": 1311.1185818911601
+      },
+      "size": {
+        "width": 121,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Terraform モジュールは,一連のリソース,その構成,および相互接続を組み込む再利用可能なコンポーネントである.それらは,異なるプロジェクトまたは同じプロジェクト内で共有および再利用できる論理的で自立的な単位に Terraform コードを組織することを可能にする.モジュールは,インフラストラクチャ部署におけるコードの再利用,維持性,一貫性を促進する.彼らは入力変数を受け入れ,輸出値を生成し,他のモジュールの内嵌することができる.モジュールを使用して,チームは標準化されたインフラストラクチャコンポーネントを作成し,ベストプラクティスを執行し,複雑な構成を簡素化することができます.モジュールは,地元のディレクトリ,バージョン制御システム,または Terraform Registryのような公共レジストリから調達することができます.モジュールの効果的な利用は,コードの重複を大幅に削減し,インフラストラクチャ管理を改善し,スケーラブルで維持可能な Terraform 構成の作成を可能にします.",
+        "links": [
+          {
+            "title": "モジュールの概要 - 設定言語",
+            "url": "https://developer.hashicorp.com/terraform/language/modules",
+            "type": "official"
+          },
+          {
+            "title": "テラフォームモジュール",
+            "url": "https://developer.hashicorp.com/terraform/language/modules",
+            "type": "official"
+          },
+          {
+            "title": "モジュール - テラフォームレジストリ",
+            "url": "https://registry.terraform.io/browse/modules",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6W4_akHG9YtvN6dpbZnG-",
+      "type": "subtopic",
+      "label": "Root vs Child モジュール",
+      "position": {
+        "x": -175.4848179138105,
+        "y": 1400.6185818911601
+      },
+      "size": {
+        "width": 251,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Terraformでは,ルーツと子供モジュールは,構成内のモジュール階層の異なるレベルを指します.ルーツモジュールは, Terraform が実行される作業ディレクトリ内の構成ファイルの主なセットです.それはあなたの Terraform プロジェクトのエントリーポイントであり,通常他のモジュールを呼びます.反対に,子供モジュールは,ルーツモジュールまたは他のモジュールによって呼び出されるモジュールです.それらは特定のリソース構成を封鎖する再利用可能なコンポーネントです.ルーツモジュールは,全体的なアーキテクチャを定義し,完全なインフラストラクチャを作成するために子供モジュールを構成します.子供モジュールは,特定の重複可能なタスクまたはリソースグループに焦点を当てます.この階層は,テラフォームコードの組織化,再利用可能性,維持性を向上させ,複雑なインフラストラクチャを管理可能な,モジュラルの構成要素に分割することを可能にします.以下のリソースから詳細を学びましょう: - [@official@The root module]https://developer.hashicorp.com/terraform/language/modules#the-root-module) - [@official@Child modules]https://developer.hashicorp.com/terraform/language/modules#child-modules) - [@article@What is the difference between Terraform \"Module\" and \"Child module\"]https://stackflow.com/questions/77671412/module-between-the-terraform-module-child-and-module-and-what)",
+        "links": []
+      }
+    },
+    {
+      "id": "AAg_iFggkEZNL12-6nkgK",
+      "type": "subtopic",
+      "label": "発行されたモジュールの使用",
+      "position": {
+        "x": -175.4848179138105,
+        "y": 1453.6185818911601
+      },
+      "size": {
+        "width": 251,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Terraformで公開されたモジュールを使用することは,インフラストラクチャコードにプリビルドされた,しばしばコミュニティによって貢献されたモジュールを組み込むことを意味します.これらのモジュールは通常, Terraform レジストリまたは他のバージョン制御システムを通じて利用できます.それらは一般的なインフラストラクチャコンポーネントのための準備ができている構成を提供し,時間を節約し,最良の実践を促進します.公開されたモジュールを使用するには,そのソース (通常はURLまたはレジストリパス) と Terraform 構成内のバージョンを指定します.その後,入力変数を通過することによってモジュールを構成できます.公開されたモジュールは,単純なリソース包装から複雑な,多資源構成まで範囲があります.彼らは開発時間の短縮,標準化された実装,およびコミュニティでテストされたソリューションなどの利点を提供しています.しかし,制作環境で使用する前に,公開されたモジュールをレビューし理解することが重要です. 特定の要件とセキュリティ基準を満たしていることを確認するために.次のリソースから詳細を学びましょう: - [@opensource@Terraform Registry - Modules] (https://registry.terraform.io/browse/modules) - [@official@Publishing Modules] (https://developer.hashicorp.com/terraform/registry/modules/publish) - [@video@Terraform - Publish Modules] (https://www.youtube.com/watch?v=9vBp1D3myH8)",
+        "links": []
+      }
+    },
+    {
+      "id": "wQN1QrK9VB_fHlXrBzDoU",
+      "type": "subtopic",
+      "label": "ローカル・モジュールの作成",
+      "position": {
+        "x": -175.4848179138105,
+        "y": 1506.6185818911601
+      },
+      "size": {
+        "width": 251,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Terraform でローカル モジュールの作成は,プロジェクト内の再利用可能なパッケージに関連するリソースの集合を組織することを意味します.ローカル モジュールを作成するには,通常,プロジェクト構造内で新しいディレクトリを作成し,その中に Terraform 構成ファイル (`.tf`) を配置します.これらのファイルは,モジュールのリソース,変数,および輸出を定義します.モジュールは,モジュールのブロックを使用してローカルパスをモジュールのディレクトリに指定し,ローカル モジュールは,プロジェクト内の共通のインフラストラクチャパターンを封装して再利用するために有用であり,コードの組織と維持性を向上します.彼らはカスタマイズメントのための入力を受け入れ,呼び出す変数設定で使用するための輸出を提供することができます.ローカル・モジュールは,複雑なインフラストラクチャを管理可能で論理的なコンポーネントに分解し,プロジェクト全体におけるリソース構成を標準化するために特に有益です.以下のリソースから詳細を学びましょう: - [@official@Build and use a local module]https://developer.hashicorp.com/terraform/tutorials/modules/module-create) - [@article@How to create reusable infrastructure with Terraform modules]https://blog.gruntwork.io/how-to-create-reusable-infrastructure-with-terra-modules-25526d65f73d) - [video@Creating a module in Terraform@]https://www.youtube.com/watchv=OL2AlsdNaQ?",
+        "links": []
+      }
+    },
+    {
+      "id": "NsBJTYH9KXvjJuhPzjE_L",
+      "type": "subtopic",
+      "label": "入力/出力",
+      "position": {
+        "x": -175.4848179138105,
+        "y": 1559.6185818911601
+      },
+      "size": {
+        "width": 251,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Terraform の モジュールの入力と出力 は,モジュールの内部で変数ブロックを使用して定義され,モジュールの使用時にモジュールの振る舞いをカスタマイズすることができます.デフォルト値とタイプ制限があります.モジュールを呼び出すとき,入力が議論として提供されます.出力ブロックを使用して定義された出力 輸出は,モジュールのリソースから特定の値を暴露し,呼び出しモジュールに利用できます.これは,モジュールの間でデータを転送したり,構成の他の部分で使用したりすることができます.出力には計算された値,リソース属性,または Terraform の任意の表現が含まれます.適切に設計されたインプットとアウトプットは,さまざまな構成に簡単に統合できる柔軟で再利用可能なモジュールを作成するために不可欠です.以下のリソースから詳細を学びましょう: - [@official@Accessing Module Output Values](https://developer.hashicorp.com/terraform/language/modules/syntax#accessing-module-output-values)",
+        "links": []
+      }
+    },
+    {
+      "id": "gTMPK0tfs2JYgoL7SAGW6",
+      "type": "subtopic",
+      "label": "模組 ベストプラクティス",
+      "position": {
+        "x": -175.4848179138105,
+        "y": 1612.6185818911601
+      },
+      "size": {
+        "width": 251,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Terraform モジュールの最良の実践は,再利用可能,維持可能,および拡張可能なインフラストラクチャコンポーネントを作成することに焦点を当てています.- モジュールは,単一の目的があり,柔軟性を念頭に置いて設計され,カスタマイズするための入力変数を使用する必要があります.- 内部の詳細を過剰に暴露することなく,必要な情報を提供するために,出力を慎重に選択する必要があります.- モジュールをバージョン化し,変更を管理するために意味式バージョンを使用します.- モジュールを小さく,単一の責任の原則に従い集中します.- モジュールを詳細に文書化してください.使用例および入力/出力説明を含む. - モジュールの間で一貫した命名条約と構造を使用します.- モジュールを孤立してシステムの一部としてテストします.-環境全体で変化する可能性のあるハードコード値を避ける.- 複雑な構造にネードされたモジュールを使用することを考慮してください.しかし,過剰なネードを注意してください.-改善を加え,ベストプラクティスを維持するために定期的にモジュールをレビューし,リファクタリングしてください.以下のリソースから詳細を学びましょう: - [@official@Module Best Practices] (https://developer.hashicorp.com/terraform/tutorials/modules/module#module-best-practices) - [@article@Terraform Modules Guide: Best Practices & Examples] (https://www.env0.com/blog/terra-modules) - [@video@Best practices for modularizing a Terraform project Platform 2023] (https://www.youtube.com/watch=byzwaT3conform?ng)",
+        "links": []
+      }
+    },
+    {
+      "id": "6vs1VvjeILgAPLL6g7dfy",
+      "type": "topic",
+      "label": "供給者",
+      "position": {
+        "x": 130.7491819418687,
+        "y": 1313.1185818911601
+      },
+      "size": {
+        "width": 138,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Terraform の プロバイザー は,リソース作成または破壊の一環として,ローカルまたはリモートマシンでスクリプトまたはその他のアクションを実行するために使用されます.彼らは, Terraform の宣言モデルを超えた構成管理作業を可能にします.プロバイザー は,スクリプトを実行したり,ファイルをアップロードしたり,リソース上で他のツールを実行したりすることができます.一般的なタイプには,ローカル-exec (Terraform を実行するマシンでコマンドを実行する) とリモート-exec (リモートリソースでコマンドを実行する) が含まれます.強力な一方で,プロバイザー は, Terraform の実行が予測可能で無効になるため,控えめに使用されるべきです.ネイティブ Terraform 資源または能力が不足している場合,彼らはしばしば最後のリゾートとして見られます.最良の実践は,プロビジョナーに頼る代わりに,アンシブルやシェフのような専用の構成管理ツールを使用することを提案します.プロビジョナーが使用された場合,無力で,潜在的な失敗を優雅に処理するように設計されるべきです.以下のリソースから詳細を学びましょう: - [@official@Provisioners - Terraform](https://developer.hashicorp.com/terraform/language/resources/provisioners/syntax)",
+        "links": []
+      }
+    },
+    {
+      "id": "CmmoshFC1dKE4y3SMN2bl",
+      "type": "subtopic",
+      "label": "いつ 使うべきか",
+      "position": {
+        "x": 371.2253434939207,
+        "y": 1260.994946966457
+      },
+      "size": {
+        "width": 238,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Terraform の プロバイザーは,特に他の宣言オプションが不足している場合,慎重に使用されるべきである.Terraform のリソース構成やデータソースを通じて達成できないタスクに適している.一般的なシナリオは,新しく作成されたサーバーで初期化スクリプトを実行すること,プロバイダー特定リソースに該当しないソフトウェアをインストールすること,または一度のセットアップタスクを実行することを含む.プロバイザーは,設定管理ツールを起動したり, Terraform が直接管理できない複雑な状態の操作を処理するのに有用である.しかし, Terraform の実行を予測可能にし,管理するのが困難である可能性があるため,最後の手段と見なされるべきである.可能な限り,クラウド-init スクリプト,カスタム画像,または別々の構成管理ツールを使用することを好みます.プロビジュアーが必要になると, Terraform の望ましい状態の一貫性を維持するために無力で失敗に耐えられるように設計してください.以下のリソースから詳細を学びましょう: - [@article@Why You Should Use Terraform Provisioners as a Final Option]https://thomasthornton.cloud/2023/05/11/my-thoughts-on-why-you-should-use-terraform-provisioners-as-a-final-option/) - [@article@Why Terraform Provisioners Are The Last Resort?]https://k21academy.com/terraform-iac/terraform-provisioners/)",
+        "links": []
+      }
+    },
+    {
+      "id": "CJfCpRN_oVf6n_EfLNJSV",
+      "type": "subtopic",
+      "label": "創造 / 時間 の 破壊",
+      "position": {
+        "x": 371.2253434939207,
+        "y": 1314.994946966457
+      },
+      "size": {
+        "width": 238,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Terraformの作成と破壊時間のプロビジュアーは,リソースのライフサイクルの特定の時点でのアクションを実行するために使用されます.リソースが作成された後に作成時間のプロビジュアーは実行され,リソースが破壊される前に実行されます.新しく作成されたサーバーを初期化したり,ソフトウェアをインストールしたり,アプリケーションを構成したりするようなタスクに有用です.廃棄時間のプロビジュアーは,通常,削除前にロードバランサーからサーバーの登録を解除などのクリーンアップタスクに使用されます.両方のタイプはリソースブロック内で指定することができます.失敗する作成時間のプロビジュアーは,リソースの作成が失敗し,リソースを不完全な状態に置き去ります.資源の破壊を防ぐことができませんが,外部資源を不一致状態に置く可能性があります. Terraformの状態を一貫して管理する能力に及ぼす潜在的影響のために,両方のタイプは慎重に使用し,無力で故障耐性を持つように設計されるべきです.[developer.hashicorp.com/terraform/language/resources/provisioners/syntax#creation-time-provisioners] - [@official@Destroy Time Provisioners] - [https://developer.hashicorp.com/terraform/language/resources/provisioners/syntax#destroy-time-provisioners) - [@official@How to: Terraform destroy time-provisioners] - [https://support.hashicorp.com/hc/en-us/articles/11119498958-08-to-Terraform-Destroy-time-provisioners]",
+        "links": []
+      }
+    },
+    {
+      "id": "Qch8k6e4pS8OlmG_sI0hH",
+      "type": "subtopic",
+      "label": "ファイルプロビジョナー",
+      "position": {
+        "x": 371.2253434939207,
+        "y": 1368.994946966457
+      },
+      "size": {
+        "width": 238,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Terraformファイルプロビジュアーは, Terraform を実行するマシンから新しいリソースにファイルまたはディレクトリをコピーするために使用されます.構成ファイル,スクリプト,または他の必要なデータをリモートシステムにアップロードするような作業に有用です.ファイルプロビジュアーは,単一のファイルをコピーしたり,リクルシブ的にディレクトリをコピーすることもできます.ファイルベースのまたはインラインコンテンツ転送を可能にするソースとコンテンツの議論の両方をサポートします.このプロビジュアーは,アップロードされたスクリプトを実行するためにリモート exec プロビジュアと併用されます.単純なファイル転送に便利であるが,セキュリティインパクトを考慮することが重要です.特に敏感データに対処する際に.より複雑なまたは大規模な作業のために,専用の設定管理ツールが優先されます.ファイルのプロビジョナーは,新しく作成されたリソースを起動または構成するために必要な小さな,直接的なファイル転送に最も適しています.次のリソースから詳細を学びましょう: - [@official@Terraform File Provisioner] (https://developer.hashicorp.com/terraform/language/resources/provisioners/file) - [@article@The File Provisioner] (https://learning-ocean.com/tutorials/terraform/terraform-file-provisioner/)",
+        "links": []
+      }
+    },
+    {
+      "id": "g2F5-nX4Aw-xWZiypNbnL",
+      "type": "subtopic",
+      "label": "ローカル-exec プロバイザー",
+      "position": {
+        "x": 371.2253434939207,
+        "y": 1422.994946966457
+      },
+      "size": {
+        "width": 238,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Terraform の lokal-exec provisioner は,リソースが作成された後, Terraform を実行するマシンで lokal コマンドの実行を可能にします. リモートリソースではなく,ローカルで実行する必要があるタスクに有用です.この provisioner は,スクリプトを実行したり,ローカルファイルを更新したり,クラウドリソースの作成に基づいてローカルプロセスを触発したりできます.一般的な使用例には,ローカル・インベントリを更新したり,ローカル・通知を触発したり,新しく作成されたリソースと相互作用するローカル・スクリプトを実行したりします.強力なものですが,ローカル・exec コマンドは,ローカル・環境に依存する Terraform 操作ができるため,賢明に使用されるべきです. lokal-exec コマンドは,リソース自体に影響し, Terraform の状態に追跡されないので,これらのリソースを idempotent に設計することが重要です.複雑なエラー処理やステートマネジメントを必要としないシンプルでローカル操作に最適です.以下のリソースから詳細を学びましょう: - [@official@local-exec Provisioner] (https://developer.hashicorp.com/terraform/language/resources/provisioners/local-exec) - [@video@Terraform - Local exec] (https://www.youtube.com/watch?v=2dVq8L2LBc0) - [@article@Local-Exec Provisioner] (https://learning-ocean.com/tutorials/terraform/terraform/terraform-local-exec-provisioner/)",
+        "links": []
+      }
+    },
+    {
+      "id": "JQE3_KakBXZdMVP_pPFNS",
+      "type": "subtopic",
+      "label": "リモート・exec プロバイザー",
+      "position": {
+        "x": 371.2253434939207,
+        "y": 1476.994946966457
+      },
+      "size": {
+        "width": 238,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Terraformのリモート exec プロビジュアーは,リモートリソースに直接スクリプトを呼び出すために使用されます.このプロビジュアーは,新しく作成されたリソースに必要なソフトウェアのインストール,構成,または他の設定などのタスクに使用されます.リモートシステム上のコマンドリストまたはスクリプトファイルを実行できます.リモート exec プロビジュアーには,リモートシステムへのアクセス方法を指定するための接続ブロックが必要です.通常は Linux の SSH または Windows の WinRM を使用します.初期設定タスクに使用するのに有用であるが,一般的にこのプロビジュアーを節約的に使用し,複雑なまたは継続的な管理タスクのためにより強力な構成管理ツールを選択することが推奨されます.リモート・エクゼクによって実行されるスクリプトが無力であり,潜在的なネットワーク問題やその他の故障を優雅に処理するために注意を払う必要があります.以下のリソースから詳細を学びましょう: - [@official@Remote-exec provisioner] (https://developer.hashicorp.com/terraform/language/resources/provisioners/remote-exec) - [@article@Terraform remote-exec provisioner] (https://learning-ocean.com/tutorials/terraform/terraform/terraform/remote-exec-provisioner/) - [@video@Terraform - remote-exec] (https://www.youtube.com/watch?v=DXbLvGeRw)",
+        "links": []
+      }
+    },
+    {
+      "id": "HEr-BBxE3jRKTqRnguds1",
+      "type": "subtopic",
+      "label": "カスタム・サプライヤー",
+      "position": {
+        "x": 371.2253434939207,
+        "y": 1530.994946966457
+      },
+      "size": {
+        "width": 238,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Terraformのカスタムプロビジョナーは,開発者が Terraformのプロビジョニング能力を内蔵オプションを超えて拡張することを可能にします.これらはGoプログラミング言語と Terraformのプラグイン SDK を使用して作成されます.カスタムプロビジョナーは,特定のインフラストラクチャニーズまたは組織要件に合わせた専門的なタスクを実行できます.彼らは内蔵プロビジョナーと同じライフサイクルに従います.リソース作成または破壊中に実行します.カスタムプロビジョナーを開発するには, TerraformのアーキテクチャとGoプログラミングを深く理解する必要があります.彼らはプロプライエタリシステムと Terraformを統合したり,複雑な組織特有のプロビジョニング論理を実装するのに役立ちます.しかし,カスタムプロビジョナーには保守費が増加し,テラフォームのアップグレードを複雑にするため,慎重にアプローチする必要があります.多くの場合,カスタム機能の強い必要がない限り,既存のプロビジョナーまたは別々の構成管理ツールを使用することが好ましい.以下のリソースから詳細を学びましょう: - [@official@Terraform Provisioners](https://developer.hashicorp.com/terraform/language/resources/provisioners/syntax) - [@article@Terraform Provisioners - なぜあなたはそれらを避けるべきか]https://spacelift.io/blog/terraform-provisioners)",
+        "links": []
+      }
+    },
+    {
+      "id": "huXZz55P7kVJwTn5BS_Wk",
+      "type": "topic",
+      "label": "データソース",
+      "position": {
+        "x": 103.7491819418687,
+        "y": 1650.3182630381161
+      },
+      "size": {
+        "width": 192,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Terraform データ ソースは,Terraform 構成の内で使用される外部システムまたは既存のリソースからの情報を回収することを可能にします.それらは,リソース定義で使用できるデータを查询し,取り出す方法を提供し,構成をよりダイナミックで適応できます.データ ソースはリソースを作成したり管理したりしません.代わりに,既存のデータを読み取ります.一般的な用途は,AMI ID を取得したり,IP 範囲を探したり,既存のインフラストラクチャコンポーネントに関する情報を取り出すことも含まれます.データ ソースは Terraform 構成ファイル内のデータ ブロックを使用して定義され,要求されるデータをフィルタまたは指定するための議論を受け入れることができます.それらは,既存のインフラストラクチャまたは外部システムと統合し,より柔軟かつ文脈意識のあるリソース管理を促進します.詳細は以下の情報源からご覧ください. - [@official@Terraformデータソース] (https://developer.hashicorp.com/terraform/language/data-sources) - [@article@Terraformデータソース どのように利用されているか] (https://spacelift.io/blog/terraform-data-sources-how-the-are-used) - [@video@Data Sources in Terraform] (https://www.youtube.com/watch?v=Y92Q5nW5-5g)",
+        "links": []
+      }
+    },
+    {
+      "id": "tB4zfwY4E3GmXo-XQwS-l",
+      "type": "topic",
+      "label": "テンプレートファイル",
+      "position": {
+        "x": 391.2253434939207,
+        "y": 1650.3182630381161
+      },
+      "size": {
+        "width": 215,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Terraform テンプレートファイルは,カスタマイズ可能,再利用可能な構成スニペットを作成するための強力な機能です.これらのファイルは,通常は, `.tftpl`拡張子で,実行時に変数で埋められるプレイスホルダーを含みます.Terraform は,これらのファイルを処理するために,変数を実際の値に置き換える `テンプレートファイル` 機能を使用します.このアプローチは,パラメータ化する必要がある構成ファイル,スクリプト,またはテキストベースのコンテンツを生成するのに有用です.テンプレートファイルは,モジュラリティを強化し, Terraform 構成で重複を減らす.それらは,一般的にEC2 インスタンスのユーザーデータスクリプトを作成し,複雑な JSON 構成を生成したり,動力的なコンテンツを必要とするテキストベースのリソースを準備するのに使用されます.`テンプレートファイル`機能は,ファイルの内容を読み,そのテンプレート構文を特定の変数の集合で表現し,ダイナミックで柔軟なリソース構成を可能にします.以下のリソースから詳細を学びます: - [@official@templatefile function](https://developer.hashicorp.com/terraform/language/functions/templatefile) - [@article@What are Terraform templates?] (https://spacelift.io/blog/terraform-templates) - [@video@Using templatefile in Terraform] (https://www.youtube.com/watch?v=cRYYFCekO)",
+        "links": []
+      }
+    },
+    {
+      "id": "wSh7bbPswcFAzOicX8VPx",
+      "type": "subtopic",
+      "label": "ステート・プル/プッシュ",
+      "position": {
+        "x": -478.95485736954026,
+        "y": 1433.5845327398724
+      },
+      "size": {
+        "width": 238,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`terraform状態 pull` と `terraform状態 push` コマンドは,リモートバックエンドで Terraform状態を管理するために使用されます. `pull` コマンドは,設定されたバックエンドから現在の状態を回収し,それを stdout に輸出し,リモート状態の検査またはバックアップを可能にします.デバッグまたは手動状態操作を行うのに有用です. `push` コマンドは,設定されたバックエンドにローカル状態ファイルをアップロードし,既存のリモート状態をオーバーライティングします.これは通常,バックアップを復元または手動で状態の差異を調和するために使用されます.両方のコマンドは,注意深く使用する必要があります.特に押す,重要な状態情報をオーバーライティングする可能性があるため.[developer.hashicorp.com/terraform/cli/commands/state/pull) - [@official@Command - State push] (https://developer.hashicorp.com/terraform/cli/commands/state/state/push) - [@article@Migrate Workspace State Using Terraform State Push / Pull] (https://support.hashicorp.com/hc/en-us/articles/360001151948-Migrate-Workspace-State-Using-Terraform-State-Push-Pull)",
+        "links": []
+      }
+    },
+    {
+      "id": "Os6AOXp1CVI_Bh3NYnX17",
+      "type": "subtopic",
+      "label": "代替提供国",
+      "position": {
+        "x": -478.95485736954026,
+        "y": 1487.6185818911601
+      },
+      "size": {
+        "width": 238,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Terraform の terraform `state 代替-プロバイダー` コマンドは,実際のインフラストラクチャを変更せずに,ステートファイル内のプロバイダー情報を更新するために使用されます.このコマンドは,プロバイダの名前空間の変更を含むプロバイダの新しい主要なバージョンに移行する際に特に有用です.ユーザーはステートファイル内のリソースに関連したプロバイダーを変更し, Terraform に将来の運用でこれらのリソースを管理するために異なるプロバイダーを使用することを効果的に指示します.このコマンドは,プロバイダー移行またはアップグレードの際に,特に大規模なインフラストラクチャにおいて,ステート一貫性を維持するために不可欠です.実際のリソースを修正していないが, Terraformのどのプロバイダが管理するために使用すべきかについての理解を更新し,リソースリクリエーションを必要とせずにスムーズなプロバイダー移行を容易にします.以下のリソースから詳細を学びましょう: - [@official@Command - state replacement-provider](https://developer.hashicorp.com/terraform/cli/commands/state/replace-provider)",
+        "links": []
+      }
+    },
+    {
+      "id": "Trpi2ZlnXZVYJCibE2bQ8",
+      "type": "subtopic",
+      "label": "国家強制解鎖",
+      "position": {
+        "x": -478.95485736954026,
+        "y": 1540.6185818911601
+      },
+      "size": {
+        "width": 238,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Terraform の terraform `state フォース・ロック・ロック・`コマンドは,ステートロックを手動でロックする際に使用されます.ステートロックは,同じステートで同時操作を防止するメカニズムですが,クラッシュやネットワーク問題によりロックが適切にリリースされない場合もあります.このコマンドは,管理者がロックを強制的に削除し,さらに Terraform 操作を進めることを可能にします.複数のユーザーが同時に状態を変更しようとすると,ステート腐敗を引き起こす可能性があるため,非常に慎重に使用する必要があります.フォース・ロックを使用する前に,他の Terraform 操作が本当に進行中であることを確認することが重要です.このコマンドは,通常,ロック問題解決の最後の手段であり,ロックが誤って保持され,対立する操作が行われていないと確信している場合にのみ使用されるべきです.以下のリソースから詳細を学びましょう: - [@official@Command: force-unlock] (https://developer.hashicorp.com/terraform/cli/commands/force-unlock) - [@article@Terraform force-unlock command] (https://spacelift.io/blog/form-terra-force-unlock) - [@video@Terraform  Force Unlock] (https://www.youtube.com/watch?v=qVs9pX)",
+        "links": []
+      }
+    },
+    {
+      "id": "nFq-64JQoYAKjN9YkmOfO",
+      "type": "topic",
+      "label": "作業場",
+      "position": {
+        "x": 391.2253434939207,
+        "y": 1740.1440518001546
+      },
+      "size": {
+        "width": 215,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Terraform ワークスペースは,一つの構成で複数の異なるインフラストラクチャリソースを管理できるようにする.同じ構成のための状態の別々のインスタンスを作成する方法を提供し,ユーザーが主要なインフラストラクチャに影響を及ぼすことなく異なる環境 (開発,ステージ化,生産など) を維持したり,変更を実験したりする.各ワークスペースには独自の状態ファイルがあり,リソースの孤立した管理を可能にします.ワークスペースは,生産に適用する前に変更をテストしたり,異なる環境での設定のわずかな変動を管理したりするために特に有用です. Terraform CLI コマンドを使用して簡単に切り替えることができます.より大きな環境違いのために,別々の構成ディレクトリまたはステートファイルがより適切かもしれません.以下のリソースで詳細を学びましょう: - [@official@Workspaces](https://developer.hashicorp.com/terraform/language/state/workpaces) - [@article@Terraform workspacesとは何か?] (https://spacelift.io/blog/terraform-workpaces) - [@video@Structuring Repositories for Terraform Workspaces - Hashicorp((https://www.youtube.com/watch?v=IDLGpkRmDXg)",
+        "links": []
+      }
+    },
+    {
+      "id": "O194eWh529jj4VDhKxNSj",
+      "type": "topic",
+      "label": "CI / CD 統合",
+      "position": {
+        "x": 103.7491819418687,
+        "y": 1740.1440518001546
+      },
+      "size": {
+        "width": 193,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999,
+      "content": {
+        "description": "CI/CDの Terraform への統合は,継続的な統合と継続的な展開パイプラインにインフラとしてのコードの実践を組み込むことを意味します.この統合は,ソフトウェア配信ワークフローの一部として Terraform 構成の計画,検証,適用プロセスを自動化します.典型的な設定では,CI/CD パイプラインは,構文をチェックし,計画を生成し,インフラへの変更を適用するために Terraform コマンドを実行します.このアプローチは,インフラストラクチャの変更がアプリケーションコードとともにバージョン化,テスト,および一貫して展開されることを保証します.主要な側面は, Terraform 構成の自動テスト,アクセスキーなどの敏感なデータの安全な処理,インフラストラクチャの変更のための承認プロセスを実装します.",
+        "links": []
+      }
+    },
+    {
+      "id": "weIlGqGN15U8BH1yE9moA",
+      "type": "subtopic",
+      "label": "GitHub アクション",
+      "position": {
+        "x": -176.67021968822544,
+        "y": 1689.8098315747784
+      },
+      "size": {
+        "width": 183,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999,
+      "content": {
+        "description": "GitHub Actions で Terraform を使用すると,GitHub ベースの CI/CD パイプラインの一部として自動化されたインフラストラクチャ管理が可能になります.この統合により,変更がリポジトリに押し込まれるときに Terraform 構成の自動計画,検証,および適用が可能になります.典型的なワークフローステップにはコードをチェックアウトし, Terraform を設定し,作業ディレクトリを初期化し,プランとアプリケーションのような Terraform コマンドを実行します.GitHub Actions は異なる環境で Terraform を実行し,ステートファイルを管理し,秘密を安全に処理するために設定できます.適切な許可を設定し,敏感データのために GitHub 秘密を使用することが重要です.[https://docs.github.com/en/actions) - [@official@Automate Terraform with GitHub Actions] (https://developer.hashicorp.com/terraform/tutorials/automation/github-actions) - [@article@Terraform with GitHub Actions: How to Manage & Scale] (https://spacelift.io/blog/github-actions-terraform) - [@opensource@setup-terraform] (https://github.com/hashicorp/setup-terraform)",
+        "links": []
+      }
+    },
+    {
+      "id": "6OoAdvikyp0byMH2oZhyQ",
+      "type": "subtopic",
+      "label": "円CI",
+      "position": {
+        "x": -176.67021968822544,
+        "y": 1742.8098315747784
+      },
+      "size": {
+        "width": 183,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999,
+      "content": {
+        "description": "CircleCIと Terraform を統合することで,CircleCI の継続的な統合と展開パイプライン内の自動化されたインフラストラクチャ管理が可能になります.このセットアップは,アプリケーションコードの変更とともに一貫して繰り返されるインフラストラクチャ部署を可能にします.典型的な CircleCI 構成では, init, plan, and apply などの Terraform コマンドを実行するために仕事が定義されます.ワークフローにはコードをチェックアウトするための手順, Terraform を設定し,ステートファイルを管理する手順が含まれます.CircleCI の環境変数とコンテキストは,クラウドプロバイダの認証などの敏感なデータを安全に保存しアクセスするために使用できます.CircleCI のパラレリズム機能は,複雑なセットアップで Terraform をより速く実行するために利用できます.次のリソースから詳細を学ぶ: - [@official@Deploy Infrastructure with Terraform and CircleCI]https://developer.hashicorp.com/terraform/tutorials/automation/circle-ci) - [@opensource@CircleCI Terraform Orb]https://circleci.com/developer/orbs/orb/circleci/terraform) - [@article@How I deployed terraform resources with CircleCI]https://medium.com/nerd-for-tech/how-i-deployed-terraform-resources-with-circleci-628aa29ed514)",
+        "links": []
+      }
+    },
+    {
+      "id": "fH27mGrdnkDQCrGGDFU6p",
+      "type": "subtopic",
+      "label": "GitLab CI",
+      "position": {
+        "x": -176.67021968822544,
+        "y": 1795.8098315747784
+      },
+      "size": {
+        "width": 183,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999,
+      "content": {
+        "description": "GitLab CI を使用すると,GitLab の CI/CD パイプライン内の自動化されたインフラストラクチャ管理が可能になります.Terraform の典型的な GitLab CI パイプラインには,検証,計画,および変更の適用の段階が含まれます.パイプラインは,コードを押すまたは合併する要求で Terraform コマンドを自動的に実行するように設定できます.GitLab CI 変数は,クラウド認証などの敏感な情報を安全に保存するために使用されます.GitLab の環境や承認などのネイティブ機能は,さまざまな展開段階を管理し,変更が適用される時に制御することができます.次のリソースから詳細を学びましょう: - [@official@Infrastructure as Code with Terraform and GitLab] (https://docs.gitlab.com/ee/user/infrastructure/iac/) - [@article@How to Implement GitLab CI/CD Pipeline with Terraform] (https://spacelift.io/blog/gitlab-terraform) - [@video@Automate deploying to AWS using Terraform with GitLab CICD pipeline] (https://www.youtube.com/watch?v=oqoqzM_WBqZc)",
+        "links": []
+      }
+    },
+    {
+      "id": "qFpaqOSoefTyKxmI-FRZt",
+      "type": "subtopic",
+      "label": "ジェンキンズ",
+      "position": {
+        "x": -176.67021968822544,
+        "y": 1850.293045770098
+      },
+      "size": {
+        "width": 183,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ジェンキンズとの Terraform を使用すると,ジェンキンズベースの CI/CDパイプライン内の自動化されたインフラストラクチャ管理が可能になります.この統合は,アプリケーションビルドとともに一貫して繰り返されるインフラストラクチャ部署を可能にします.典型的なセットアップでは,ジェンキンズの仕事やパイプラインは, `init`, `plan`,および `apply`などの Terraform コマンドを実行するように構成されています.ジェンキンズは各環境のためのパラメータまたは別々の仕事を使用して異なる環境を管理できます.適切な認証管理はクラウドプロバイダーアクセスキーを安全に処理するために不可欠です.ジェンキンズの豊かなプラグインエコシステムは,ビジュアライゼーションと通知機能などの追加機能で Terraform ワークフローを向上させることができます.次のリソースから詳細を学びましょう: - [@article@Terraform with Jenkins  ワークフローを管理する方法]https://spacelift.io/blog/terraform-jenkins) - [£article@Jenkins CI/CDパイプラインで Terraform を実行する方法.]https://blog.digger.dev/how-to-run-terraform-in-jenkins/) - [@video@How to Use Terraform and Jenkins to Automate Infrastructure Setup](https://www.youtube.com/watch?v=kIDiP3Unj7Y)",
+        "links": []
+      }
+    },
+    {
+      "id": "QSftI21seX6I_xPonlfmU",
+      "type": "topic",
+      "label": "テスト",
+      "position": {
+        "x": 102.7491819418687,
+        "y": 1936.256462446644
+      },
+      "size": {
+        "width": 193,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999,
+      "content": {
+        "description": "テラフォームコードのテストには,インフラストラクチャの信頼性と正確性を確保するための複数のアプローチが含まれます.これには,文法検証,ベストプラクティスのリントリング,モジュールのユニットテスト,リソース作成を検証するための統合テスト,予想される変更をレビューするためのプランテスト,組織政策のコンプライアンステストが含まれます.TFLintなどのツールとテラテストのようなフレームワークは一般的に使用されています.CI/CDパイプラインにおける自動テストは,早期にエラーを検知し,コード品質を維持するのに役立ちます.偽のプロバイダーが実際のインフラストラクチャに影響を及ぼさずにテストに使用され,プロパティベースのテストは異なる組み合わせを探索します.有効なテスト戦略は,実行時間やリソースコストなどの要因を考慮して,徹底性と実用性をバランスします.",
+        "links": []
+      }
+    },
+    {
+      "id": "V7_NnDIY1MefV_xjCCsnI",
+      "type": "subtopic",
+      "label": "ユニットテスト",
+      "position": {
+        "x": 392.5412450366284,
+        "y": 1830.256462446644
+      },
+      "size": {
+        "width": 215,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Terraformユニットテストは,個々のモジュールまたはコンポーネントの行動を隔離的に検証することに焦点を当てています.通常は,特定の入力を与えられたモジュールに期待される輸出とリソース構成を検証する小さな集中したテストケースを作成します.Terratestのようなツール,Goライブラリは,これらのテストの書き込みと実行に一般的に使用されます.Terraform用のユニットテストは,リソースが正しく定義されているか,カウントとfor_eachのメタ・アルグメントが予想通り動作しているか,または出力値は正しく計算されているか,チェックすることができます.これらのテストは,様々なシナリオをシミュレーションするために偽データまたは最小限の実際のインフラストラクチャを使用します.資源の実際の作成を保証していないが,ユニットテストは論理エラーを迅速に検出し,モジュールインターフェースが意図されたように動作し,モジュールが進化するにつれてコードの質を維持するのに役立ちます.以下のリソースから詳細を学びましょう: - [@official@Integration or Unit Testing] (https://developer.hashicorp.com/terraform/language/tests#integration-or-unit-testing) - [@article@Terraform Unit Tests] (https://www.hashicorp.com/blog/testing-hashicorp-terra#unit-tests)",
+        "links": []
+      }
+    },
+    {
+      "id": "bjozhkpOI9UjjNfmT5HhY",
+      "type": "subtopic",
+      "label": "契約試験",
+      "position": {
+        "x": 392.5412450366284,
+        "y": 1883.256462446644
+      },
+      "size": {
+        "width": 215,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Terraform 契約テストは,インフラコードの異なるモジュールまたはコンポーネント間のインターフェースと相互作用を検証することに焦点を当てています.このアプローチは,モジュールが正しく一緒に動作し,予想される入力/出力契約に準拠することを保証します.契約テストは,通常,モジュールが正しい入力変数を受け入れ,予想される出力を生成し,適切な属性を持つリソースを作成することを検証します.それらはしばしば偽データまたは最小限の実際のインフラストラクチャを使用したテスト装置を設定します.目標は,不一致する変数タイプまたは予期せぬリソース構成などの統合問題を早期に把握することです.契約テストは,モジュールバージョン間で一貫性を維持し,一つのモジュールへの変更が依存するモジュールを破らないことを保証します.このタイプのテストは,インフラストラクチャの異なるコンポーネントで複数のチームが作業している大型,モジュール型テラフォームプロジェクトにおいて特に価値のあるものです.以下のリソースから詳細を学びましょう: - [@official@Terraform Contract Tests] (https://www.hashicorp.com/blog/testing-hashicorp-terraform#contract-tests) - [@article@Contract Testing: An Introduction and Guide] (https://www.blazemeter.com/blog/contract-testing#:~:text=Contract%20testing%20testing%20on%20verifying,services%20that%20rely%20on%20it) - [video@w@Contract testing for microservices is a must!] (https://www.youtube.com/watch?vQFQQQQQQQQQ8q=)",
+        "links": []
+      }
+    },
+    {
+      "id": "ENkLj3z6hR2cKT7rBhYp5",
+      "type": "subtopic",
+      "label": "統合テスト",
+      "position": {
+        "x": 392.5412450366284,
+        "y": 1936.256462446644
+      },
+      "size": {
+        "width": 215,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Terraform 統合テストは,Terraform 構成が実際のクラウドリソースとサービスで正しく動作していることを確認することを意味します.これらのテストは,実際のインフラストラクチャコンポーネントを作成し,それらと相互作用し,その後それらを破壊し,リソースがライブ環境で適切に配置され,構成されていることを確認します.統合テストは,通常,Terraform 構成を適用するプロセスを自動化するために Terratest やカスタマイズされたスクリプトを使用します.結果となるインフラストラクチャを検証し,後に清掃します.彼らは正しいリソース作成,相互依存するリソースの適切な構成,および全体的なシステム行動を確認します.統合テストは,ユニットテストよりも時間がかかり,費用がかかりますが,現実世界のシナリオではTerraformコードの信頼性に高い信頼性を提供します. APIの制限や予期せぬサービス行動などの実際のクラウドサービスと相互作用するときにのみ発生する問題を把握するために不可欠です.以下のリソースから詳細を学びましょう: - [@official@Integration Testing or Unit Testing] (https://developer.hashicorp.com/terraform/language/tests#integration-or-unit-testing) - [@video@Learn Terraform - Integration and End-to-End Testing]https://www.youtube.com/watch?v=gdcc1WzMwBzY) - [article@Integration tests] (https://developer.hashicorp.com/terraforming/corp-corp-blog-tests)",
+        "links": []
+      }
+    },
+    {
+      "id": "QqwlAtz7VfrMtNEGpT5Sa",
+      "type": "subtopic",
+      "label": "試験 の 終わり から 終わり まで",
+      "position": {
+        "x": 392.5412450366284,
+        "y": 1989.256462446644
+      },
+      "size": {
+        "width": 215,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999,
+      "content": {
+        "description": "テラフォーム端から端までテストは,実際の利用シナリオをシミュレーションし,初期から最終まで,インフラ展開プロセスをすべて検証することを意味します.これらのテストは,完全な環境を作成するためにテラフォームの完全な構成を適用し,すべてのコンポーネントの機能性と相互作用を検証し,インフラを破壊します.エンドから端までテストには,ネットワーク接続性,アプリケーション展開,および全体的なシステムのパフォーマンスのチェックが含まれます.それらは複数のテラフォームモジュールと外部システムを含み,インフラストラクチャを統合された単位としてテストすることができます.資源密集し,時間がかかるが,これらのテストはインフラストラクチャの正確性と信頼性に対する最高レベルの信頼性を提供します.インフラストラクチャの異なる部分間の複雑な相互作用から生じる問題を検出するのに特に価値があります.エンドツーエンドテストは通常,他のタイプのテストよりも頻繁に実行されます.しばしばリリースプロセスまたは主要な変更認証の一環としてです.以下のリソースから詳細を学びましょう: - [@article@Getting Started: End to End Tests]https://tf2project.io/docs/getting-started/end-to-end-tests.html) - [@article@End-to-end tests]https://www.hashicorp.com/blog/testing-hashicorp-terra#end-to-end-tests) - [@video@End To Form Testing On Terra With Terratest]https://www.youtube.com/watch?vvzLv6b)",
+        "links": []
+      }
+    },
+    {
+      "id": "H3_So6qX-s2131WHGR_GO",
+      "type": "subtopic",
+      "label": "試験モジュール",
+      "position": {
+        "x": 392.5412450366284,
+        "y": 2042.256462446644
+      },
+      "size": {
+        "width": 215,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Terraform モジュールのテストには,それらの機能性,再利用性,正確性を孤立してより大きなシステムの一部として検証することが含まれます.このプロセスは通常,個々のモジュールの行動を検証するためのユニットテスト,他のコンポーネントとの適切な相互作用を確保するための統合テスト,時には複雑なモジュールの端から端までテストを含む.テストはしばしば,リソースの作成,輸出の検証,クリーンアップを自動化するためにTerratestまたはカスタムスクリプトのようなツールを使用します.重要な側面は,さまざまな入力組み合わせのテスト,リソースの属性および輸出の検証,および idempotencyの確保を含む.モジュールのテストはまた,エッジケースとエラー条件の適切な処理をチェックすることを含む.初期設定の努力が必要ですが,徹底的なモジュールテストは信頼性を高め,リファクタリングを容易にし,全体的なインフラコード品質を改善します.以下のリソースから詳細を学びましょう: - [@official@Write Terraform Tests] (https://developer.hashicorp.com/terraform/tutorials/configuration-language/test) - [@video@Terraform Module Testing] (https://www.youtube.com/watch?v=1LInIWM_2UQ) - [@official@Terraform Test] (https://developer.hashicorp.com/terraform/language/tests)",
+        "links": []
+      }
+    },
+    {
+      "id": "ECcHo0KTDN27MuVTC-Fwy",
+      "type": "topic",
+      "label": "スケーリングテラフォーム",
+      "position": {
+        "x": -180.4848179138105,
+        "y": 1936.256462446644
+      },
+      "size": {
+        "width": 183,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999,
+      "content": {
+        "description": "スケーリング・テラフォームは,大規模な複雑なインフラストラクチャ部署を効率的に管理するための戦略を含みます.主要なアプローチは,再利用性と維持性を向上させるための構成をモジュラライズし,異なる環境のためにワークスペースまたは別々のステートファイルを使用し,ロックメカニズムを持つリモートステートストレージを実装すること.効率的なステートマネジメントは,動作時間を短縮するためにステート分割を伴うことが重要です.テラフォームのCI/CDパイプラインを採用することで,部署プロセスを自動化し標準化するのに役立ちます.適切なアクセス制御を実施し,テラフォームのクラウドやエンタープライズのような機能を使用してチームコラボレーションとガバナンスが重要になります. -パラレリズムとターゲットアプリケーションを使用するパフォーマンス最適化技術など,大規模な変更を管理するのに役立ちます.規模が増加するにつれて,コスト管理,セキュリティ,およびコンプライアンスに関する考慮が顕著になる. 効果的なスケーリングはインフラストラクチャ管理における集中制御と分散したチーム自律の間のバランスを必要とする.",
+        "links": []
+      }
+    },
+    {
+      "id": "zCU02_5Pide5BZiuMuqEU",
+      "type": "subtopic",
+      "label": "大国 の 分断",
+      "position": {
+        "x": -490.26733623226676,
+        "y": 1759.9060085371989
+      },
+      "size": {
+        "width": 215,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999,
+      "content": {
+        "description": "大規模な Terraform 状態を分割することは,単一状態のファイルを小さく管理可能な単位に分解することを意味します.このアプローチは,パフォーマンスを向上させ,国家腐敗のリスクを軽減し,大規模なインフラストラクチャで並行作業を可能にするために不可欠です.戦略には,リソースを Terraform 作業スペースに並べたり,異なる論理的なコンポーネントまたは環境のための異なる状態ファイルを使用することが含まれます.このプロセスはしばしば,州間の資源を移動するために `terraform 状態 mv` を使用します.または `terraform 状態 rm` に続いて,新しい構成で``を輸入します.分断状態間の依存関係を管理するために注意深く計画することが不可欠です.利点には,より速い適用時間,同時に修正する衝突のリスクを軽減し,より細かなアクセス制御を許容する能力が含まれます.より多くのリソースについては, `State`トピックでステートファイルの分割をご覧ください.",
+        "links": []
+      }
+    },
+    {
+      "id": "RtwZy60ruRpskmgr1qYYf",
+      "type": "subtopic",
+      "label": "パラレルリズム",
+      "position": {
+        "x": -489.23643593653094,
+        "y": 1811.9060085371989
+      },
+      "size": {
+        "width": 215,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Terraform パラレルリズムは,複数のリソースを同時に作成,変更,または破壊する能力を指します.デフォルトでは, Terraform は最大10つのリソースインスタンスを同時に操作します.このパラレル実行は,大きな構成を適用するのに必要な時間を大幅に削減できます.パラレルリズムのレベルは, Terraform コマンドの `-パラレルリズムのフラグを介してまたは構成設定を通じて調整できます.パラレルリズムの増加は,特に大規模なインフラストラクチャで,操作を加速させるが,クラウドプロバイダーの API エンドポイントへの負荷を増やすこともできます.API 速度制限とリソース依存性とのパラレルリズムのバランスをバランスすることが重要です.一部のリソースまたはプロバイダは,パラレル操作をサポートしない可能性があります.そして Terraform は自動的にこれらの操作をシリア化します.パラレルリズムの有効な利用は,エラーを起こさず,サービス制限を超えずにパフォーマンスを最適化するためのリソース依存性とプロバイダの能力を理解する必要があります.以下のリソースから詳細を学びましょう: - [@article@PARALLELISM環境変数を設定する際の検討]https://support.hashicorp.com/hc/en-us/articles/10348130482451-Considerations-when-set-the-TFE-PARALLELISM-environment-variable) - [@official@Walking the graph]https://developer.hashicorp.com/terraform/internals/graph#walking-the-graph)",
+        "links": []
+      }
+    },
+    {
+      "id": "wL3WWhjPEgFmumOmCPRDf",
+      "type": "subtopic",
+      "label": "部署 ワークフロー",
+      "position": {
+        "x": -489.23643593653094,
+        "y": 1863.9060085371989
+      },
+      "size": {
+        "width": 215,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999,
+      "content": {
+        "description": "スケーリングのためのTerraformデプロイメントワークフローは,通常,大規模なインフラストラクチャを管理するために最適化されたいくつかの重要な段階を含みます.機能部門のコード開発から始まり,シンタックスチェック,リントリング,ユニットテストを含む自動テストが続きます.ドラッグリクエストはレビューのためのプラン世代を誘発します.承認後,変更は主要な部門に合併し,CI/CDパイプラインを起動します.このパイプラインは統合およびおそらくエンド-トゥ-エンドテストを含むより包括的なテストを実行します.大規模なインフラストラクチャでは,ワークフローはしばしば段階的なデプロイメントを含みます.より低い環境から始まり,徐々に生産に移行します.異なる環境を管理するために部分的なアプリケーションまたは作業場の使用を含む可能性があります.プロセスには重要な手動変更の承認ゲートが含まれます.ステートマネジメントは重要なものになり,しばしばロックとリモートバックドを使用します.部署の進捗状況を追跡し,問題を早期に把握するためにモニタリングとログリングが統合されています.以下のリソースから詳細を学びましょう: - [@official@The Core Terraform Workflow] (https://developer.hashicorp.com/terraform/intro/core-workflow) - [@video@Terraform Basics: Core Workflow] (https://www.youtube.com/watch?v=sqLD39xqcx0) - [@video@Advanced Concepts and Faster Workflow in the Terraform Language] (https://www.youtube.com/watch?v=J8J7ixBNF-M)",
+        "links": []
+      }
+    },
+    {
+      "id": "AEtW6j2GcfZz7IXk4sM6c",
+      "type": "subtopic",
+      "label": "テラグラント",
+      "position": {
+        "x": -490.26733623226676,
+        "y": 1967.9060085371989
+      },
+      "size": {
+        "width": 215,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Terragrunt は Terraform の 薄い 包装 で,設定 を DRY (Don't Repeat Yourself) に 維持 する,複数の Terraform モジュール で 作業 する,そして リモート 状態 を 管理 する 追加の ツール を 提供 し て い ます.コード 複製 を 軽減 し,複数の 環境 の 管理 を 簡素化 し て 大規模 の インフラストラクチャ を 管理 する に 役立ち ます.主要な 機能 は,入力 や バック エンド 構成 を 中央 に 定義 し て Terraform コード DRY を 保持 する 能力 を 含め,複数の モジュール で 一度に Terraform コマンド を 実行 し,各 モジュール の リモート 状態 を 自動 に 管理 し て い ます.Terragrunt は,異なる 環境 で Terraform モジュール の 使用 を 容易 に 変容 し,パラメーター の 挿入 を 可能に する こと に よっ て 便利 に なり ます.複雑なマルチ環境の設定では特に便利です.Terraformの構成で一貫性を維持し,重複を減らすことが重要です.以下のリソースから詳細を学びましょう: - [@official@Terragrunt Website](https://terragrunt.gruntwork.io/) - [@opensource@gruntwork-io/terragrunt](https://github.com/gruntwork-io/terragrunt) - [@article@Terragrunt Tutorial:例と使用事例](https://www.env0.com/blog/terragrunt)",
+        "links": []
+      }
+    },
+    {
+      "id": "oANePqjkwtNMwvV-_W0B7",
+      "type": "subtopic",
+      "label": "低コスト",
+      "position": {
+        "x": -490.26733623226676,
+        "y": 2019.9060085371989
+      },
+      "size": {
+        "width": 215,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Infracost は Terraform プロジェクトのためのリアルタイムコスト推定を提供するオープンソースツールです.Terraform 構成ファイルを分析し,AWS,Azure,Google クラウドなどのさまざまなプロバイダーにおけるクラウドリソースの詳細なコスト分解を生成します.Infracost は開発プロセス中にインフラストラクチャの変更によるコストインパクトを示すために,CI/CD パイプラインに統合されます.提案された変更がコストに影響を与える方法を示すdiff output をサポートします.このツールは,クラウド支出を最適化し,インフラストラクチャ開発ライフサイクルを通してコスト意識を維持しようとするチームにとって特に価値があります.Infracost は独立した使用または他のツールと統合され,チームがリソースのプロビジョニングと構成変更に関する知的な決定を下すのに役立ちます.[www.infracost.io/) - [@opensource@infracost/infracost] (https://github.com/infracost/infracost) - [@video@Shifting FinOps 左:ライブデモ] (https://www.youtube.com/watch?v=BQeO137DDo8)",
+        "links": []
+      }
+    },
+    {
+      "id": "uVz9WwVAgMu1ZU0qjqVnc",
+      "type": "subtopic",
+      "label": "秘密管理",
+      "position": {
+        "x": -491.5504047782006,
+        "y": 2128.7229785967743
+      },
+      "size": {
+        "width": 218,
+        "height": 50
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Terraformの秘密管理は,APIキー,パスワード,アクセストークンなどの敏感情報の保護に焦点を当てて,コードとしての安全なインフラストラクチャの重要な側面である.Terraformのファイルに直接秘密を保存する代わりに,HashiCorp Vault,AWS Secrets Manager,またはAzure Key Vaultなどの外部秘密管理システムを使用することを推奨する.これらのシステムは, Terraformが実行中に秘密を安全に取得することを可能にします.CI/CDパイプラインでは,秘密を実行時に安全に注入し,バージョン制御システムに委ねることを避けることが不可欠です.秘密の定期的な回転とアクセス監査によりセキュリティがさらに向上します.以下のリソースから詳細を学びましょう: - [@official@Inject Secrets with Vault]https://developer.hashicorp.com/terraform/tutorials/secrets) - [@article@Terraform Secrets - How to manage them]https://spacelift.io/blog/terraform-secrets) - [@article@A comprehensive guide to managing secrets in your Terraform code]https://blog.gruntwork.io/a-comprehensive-guide-to-managing-secrets-in-your-terraform-code-d586-19551)",
+        "links": []
+      }
+    },
+    {
+      "id": "z0PcbgpHbR6Fm07-On4P8",
+      "type": "subtopic",
+      "label": "コンプライアンス / センチネル",
+      "position": {
+        "x": -491.5504047782006,
+        "y": 2181.7229785967743
+      },
+      "size": {
+        "width": 218,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Hashicorp Sentinel は Terraform Cloud と Terraform Enterprise を含むHashiCorp のエンタープライズ製品と統合されたポリシーとしてのコードフレームワークです.組織がインフラストラクチャ部署全体で標準化された細粒度のポリシーを定義し,執行できるようにします. Terraform が変更を適用する前にセキュリティコンプライアンス,コストマネジメント,またはオペレーティング・ベストプラクティスを確認するためにSentinel ポリシーが書き込まれます.これらのポリシーは Terraform のプランと状態を評価するルールを定義するためにドメインの特定言語を使用し,開発プロセス初期に潜在的な問題を捉えることを可能にします.Sentinel は非コンプライアンスインフラストラクチャの変更が適用されないことを防止する強制的なポリシー,またはデプロイメントを阻止しない警告を与える助言ポリシーを執行できます.詳細は以下の情報源からご覧ください. - [@official@Terraform and Sentinel] (https://developer.hashicorp.com/sentinel/docs/terraform) - [@article@Enforce policy-as-code] (https://www.terraform.io/use-cases/enforce-policy-as-code) - [@opensource@hashicorp/terraform-sentinel-policies] (https://github.com/hashicorp/terraform-sentinel-policies)",
+        "links": []
+      }
+    },
+    {
+      "id": "Vxo_gNdFl3CZXV7GLPqjD",
+      "type": "subtopic",
+      "label": "トリヴィー",
+      "position": {
+        "x": -180.4848179138105,
+        "y": 2349.1529114234504
+      },
+      "size": {
+        "width": 183,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Trivyは包括的なオープンソースのセキュリティスキャナーで,主にコンテナ画像スキャンで知られていますが,Terraform構成を含むInfrastructure as Code (IaC) 解析もサポートしています.Terraformのインフラストラクチャの設定における脆弱性,クラウドインフラストラクチャの設定における誤った設定,および Terraformコードにおける潜在的なセキュリティリスクを検出できます.Trivyの IaCスキャン機能は,さまざまなクラウドプロバイダーをカバーし,コンプライアンス,セキュリティベストプラクティス,および一般的な誤った設定に関連する問題を特定することができます.このツールは,CI/CDパイプラインに簡単に統合するために設計されています.Trivyの強みは,コンテナ画像からIaCまでのソフトウェア開発ライフサイクルのさまざまな側面で統一されたスキャンソリューションを提供する能力にあります. 開発および部署プロセスを通じてセキュリティを維持するための汎用的なツールです.以下のリソースから詳細を学びましょう: - [@official@Trivy Website] (https://trivy.dev/) - [@opensource@aquasecurity/trivy] (https://github.com/aquasecurity/trivy) - [@article@How to secure Terraform code with Trivy] (https://verifa.io/blog/how-to-secure-terraform-trivy/)",
+        "links": []
+      }
+    },
+    {
+      "id": "MUkbLTMzmaVWbAJj6G3aj",
+      "type": "subtopic",
+      "label": "クイックス",
+      "position": {
+        "x": -180.4848179138105,
+        "y": 2402.1529114234504
+      },
+      "size": {
+        "width": 183,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999,
+      "content": {
+        "description": "KICS (Keeping Infrastructure as Code Secure) は,セキュリティ脆弱性,コンプライアンス問題,インフラストラクチャの誤った設定のために,テラフォーム構成を含むインフラストラクチャ・コード (IaC) ファイルをスキャンするために設計されたオープンソースの静的分析ツールです.複数の IaC テクノロジーとクラウドプロバイダーをサポートし,クラウドネイティブ環境をセキュアにするための包括的なアプローチを提供しています.KICS は,セキュリティ上の潜在的なリスクを検出するために,不安全のデフォルトから業界標準やベストプラクティスの違反まで,強力な既定規則を使用します.このツールにより,カスタムクエリの開発が可能になり,組織は特定のセキュリティおよびコンプライアンスニーズに合わせてスキャンを調整することができます.KICSはCI/CDパイプラインに簡単に統合され,開発ライフサイクルの問題を早期に検出できます.詳細なレポートを作成し,さまざまな出力フォーマットをサポートする能力により,結果を容易に解釈し,他のセキュリティおよびDevOpsツールと統合し,Terraformを通じて管理された安全かつ適合的なインフラストラクチャ部署を維持する貴重な資産となります.以下のリソースから詳細を学びましょう: - [@official@KICS Website] - [@opensource@kics.io/index.html] - [@opensource@checkmarx/kics] - [https://github.com/Checkmarx/kics) - [@video@autorise your Infrastructure-as-Code]https://www.youtube.watch/vvQQQv3yghs?com]",
+        "links": []
+      }
+    },
+    {
+      "id": "3MnZK2V5KhBhw67SyUVPk",
+      "type": "topic",
+      "label": "セキュリティ",
+      "position": {
+        "x": -157.4848179138105,
+        "y": 2126.885999298282
+      },
+      "size": {
+        "width": 137,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Terraformセキュリティは,インフラストラクチャのコードとしての安全かつ適合的な管理を確保するための実践とツールを含む.重要な側面は,暗号化されたリモートバックエンドを使用して,しばしば敏感な情報を含む Terraform ステートファイルのセキュリティを含む.アクセス制御は,人間ユーザーとサービスアカウントの両方にとって最小特権の原則を実装することが重要です.敏感なデータ管理は,ハードコードの認証よりも,ヴォルトシステムまたはクラウドネイティブの秘密管理者を使用することを意味します.コードレビュープロセスにはセキュリティチェックが含まれ,誤設定またはポリシー違反を検出するために自動スキャンツールが統合されることができます.Terraform Sentinelのようなツールでコンプライアンス・コードを実装することで,組織政策の遵守が保証されます.バージョン制御と適切なギット衛生は 監査経路を維持するのに役立ちます",
+        "links": [
+          {
+            "title": "テラフォームセキュリティ",
+            "url": "https://www.terraform.io/cloud-docs/architectural-details/security-model",
+            "type": "official"
+          },
+          {
+            "title": "12 テラフォーム セキュリティ の 最高 の 慣行",
+            "url": "https://spacelift.io/blog/terraform-security",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "NSWG79dEygyl6pb54wLrE",
+      "type": "subtopic",
+      "label": "テラスカン",
+      "position": {
+        "x": -180.4848179138105,
+        "y": 2243.1529114234504
+      },
+      "size": {
+        "width": 183,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Terrascan は,Infrastructure as Code (IaC) のオープンソースの静的コード解析器で, Terraform を含む複数の IaC ツールでコンプライアンスとセキュリティ違反を検知するのに役立ちます.導入前に潜在的なセキュリティリスク,誤った設定,コンプライアンス問題を特定するために, Terraform の設定を事前に定義されたポリシーにスキャンします.Terrascan は CI / CD パイプラインに統合され,開発ライフサイクルの脆弱性を早期に検知できます.これはカスタムポリシーをサポートし,組織が特定のセキュリティとコンプライアンス要件を強制できるようにします.このツールではさまざまなクラウドプロバイダーをカバーし,追加のポリシータイプをサポートするために拡張することができます.詳細は以下のリソースからご覧ください. [@official@Terrascan Website] (https://runterrascan.io/) - [@opensource@tenable/terrascan] (https://github.com/tenable/terrascan) - [@article@What is Terrascan?] (https://spacelift.io/blog/what-is-terrascan)",
+        "links": []
+      }
+    },
+    {
+      "id": "ljj7ngl1N4ezCXQ0o6Y8x",
+      "type": "subtopic",
+      "label": "チェコフ",
+      "position": {
+        "x": -180.4848179138105,
+        "y": 2296.1529114234504
+      },
+      "size": {
+        "width": 183,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999,
+      "content": {
+        "description": "チェコフは,セキュリティとコンプライアンスに関するセキュリティ・コンフィギュレーションを含む,インフラストラクチャ・コード (IaC) ファイルをスキャンするために設計されたオープンソースの静的コード解析ツールです.さまざまなクラウドプロバイダーとセキュリティ・ベストプラクティスをカバーする包括的なアウト・オブ・ザ・ボックスポリシーを提供します.チェコフは,デプロイメント前にテラフォームコードの誤設定,セキュリティリスク,コンプライアンス違反を特定することができ,開発プロセスで残されたセキュリティをシフトするのに役立ちます.このツールでは,Pythonで書かれたカスタムポリシーをサポートし,組織が特定の要件を執行できるようにします.チェコフは,CI/CDパイプラインに簡単に統合され,より良いレポートと他のツールとの統合のために複数の輸出フォーマットを提供します.セキュリティ上のデフォルトからCISベンチマークなどの標準の遵守まで,幅広い問題をスキャンする能力により,安全な,コンプライアントなインフラ展開を維持するための強力な資産となります.以下のリソースから詳細を学びましょう: - [@official@Checkov] (https://www.checkov.io/) - [@opensource@bridgecrewio/checkov] (https://github.com/bridgecrewio/checkov) - [@article@Scanning Terraform Code with Checkov] (https://devopscube.com/terraform-checkov-scan/)",
+        "links": []
+      }
+    },
+    {
+      "id": "erxow5xNRj01WepdFOhVf",
+      "type": "topic",
+      "label": "HCP",
+      "position": {
+        "x": 102.7491819418687,
+        "y": 2238.1443922006224
+      },
+      "size": {
+        "width": 102,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999,
+      "content": {
+        "description": "HCP (HashiCorp Cloud Platform) は, Terraform を含むHashiCorp 製品をサービスとして提供する完全に管理されたプラットフォームです.このプラットフォームは,あらゆるアプリケーションのためのインフラストラクチャを提供,セキュリティ,接続,実行するための集中的な方法を提供しています.HCP は Terraform と無縫に統合し,大規模なインフラストラクチャを管理するための強化された能力を提供します.主要な機能には自動化されたワークフロー,集中的な国家管理,安全なリモート操作が含まれます.このプラットフォームは,チームにインフラストラクチャプロジェクトで協力しやすくする組み込みのコラボレーションツを提供しています.HCP は,インフラストラクチャ全体で規制とセキュリティ基準を維持し,ポリシー執行能力を提供します.HCPは,秘密管理のためのVaultやサービスネットワークのためのConsulなどの他のHashiCorpツールの統合により,クラウドインフラストラクチャ管理のための包括的な生態系を作成しています.このプラットフォームは,インフラストラクチャ運用を効率化し,セキュリティを強化し,マルチクラウド環境で一貫性を維持しようとする組織にとって特に有益です.",
+        "links": []
+      }
+    },
+    {
+      "id": "K_7dB-5cCYzGbwYXXaoiY",
+      "type": "subtopic",
+      "label": "何と何時にHCPを使用するか?",
+      "position": {
+        "x": 334.80472417761484,
+        "y": 2132.1443922006224
+      },
+      "size": {
+        "width": 274,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999,
+      "content": {
+        "description": "HashiCorp Cloud Platform (HCP) は,組織がインフラとしてのコードの実践のために管理可能でスケーラブルなソリューションを必要とするときに最もよく使用されます.マルチクラウド環境での運用を効率化させ,コラボレーションを強化し,一貫したガバナンスを維持しようとするチームにとって特に価値があります.HCPは,テラフォームのワークフローの集中管理,安全なリモート操作,統合された秘密管理が必要であるときに理想的です.大規模な企業または強力なアクセス制御,政策執行,および監査能力を必要とする成長するチームにとって有益です.HCPは,自己管理のHashiCorpツールの複雑性が負担になる時,または運用オーバーヘッドを削減したいときに考慮されるべきです.また,組織が Terraform,Vault,Consulなどの異なるHashiCorp製品との連携を統一,管理された環境で活用したい場合も有用です.インフラストラクチャ管理の需要をスケーリングすることで Terraformの独立実装の能力を超えるときは,プラットフォームが最も効果的です.以下のリソースから詳細を学びましょう: - [@official@Use Cases](https://developer.hashicorp.com/terraform/intro/use-cases)",
+        "links": []
+      }
+    },
+    {
+      "id": "elW7IMBSF0ydmlb7rtI1o",
+      "type": "subtopic",
+      "label": "企業特徴",
+      "position": {
+        "x": 334.80472417761484,
+        "y": 2185.1443922006224
+      },
+      "size": {
+        "width": 274,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999,
+      "content": {
+        "description": "HashiCorp Cloud Platform (HCP) は,大規模なインフラストラクチャ管理を強化するために設計されたいくつかのエンタープライズレベルの機能を提供しています: 1.Terraform 運用のための集中的なワークフロー管理 2.細粒子の許可のための高度な役割ベースのアクセス制御 (RBAC). 3.管理とコンプライアンスのためのセンチネルとコードとしてのポリシー 4.クラウドリソースへの安全なアクセスのためのプライベートネットワーク接続 5. プラットフォーム活動の全面的な追跡のためのログイン監査 6. Vault で統合された秘密管理 7. コンソールを通じてサービスネットワーク機能 8. 多規模クラウドとハイブリッドクラウドサポート 9. リモート状態管理 10. コスト推定と最適化ツール 11. 安全とコンプライアンスのためのカスタマイズ可能なポリシーライブラリ 12. シングルサイン (SSO) およびアイデンティティ連邦 13.インフラストラクチャの提供のためのAPI駆動自動化 14.チームベースのインフラストラクチャ開発のためのコラボ機能 15.継続的なコンプライアンスモニタリングとレポート これらの機能は,企業レベルのインフラストラクチャ管理および DevOps 実践のための堅牢で安全でスケーラブルな環境を提供します.以下のリソースから詳細を学びましょう: - [@official@HashiCorp Cloud Platform] - [@official@hashicorp.com/cloud) - [@official@HCP Terraform Plans and Features] - [https://developer.hashicorp.com/terraform/cloud-docs/overview] - [video@@How The Infrastructure Cloud works] - [https://www.youtube.com/watch?v=zWWGsJrWj5E]",
+        "links": []
+      }
+    },
+    {
+      "id": "RPcsyhIG027uP7KF0hwaY",
+      "type": "subtopic",
+      "label": "認証",
+      "position": {
+        "x": 334.80472417761484,
+        "y": 2238.1443922006224
+      },
+      "size": {
+        "width": 274,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999,
+      "content": {
+        "description": "HCP (HashiCorp Cloud Platform) 認証はTerraform Cloudを含むサービスに安全なアクセス管理を提供します.複数の認証方法をサポートする包括的なアイデンティティとアクセス管理システムを活用します.これらはユーザー名/パスワードの組み合わせ,人気のあるアイデンティティプロバイダーとシングルサインオン (SSO) 統合,およびプログラムアクセスのためのAPIトークンを含む.HCP はエンタープライズレベルの SSO に対して SAML 2.0 をサポートし,既存のアイデンティティ管理システムとシームレスな統合を可能にします.機械対機械通信のために,HCP は主要なサービスで安全な認証を提供し,HCP サービスと自動化されたインタラクションを可能にします.このプラットフォームは,さまざまなリソースとオペレーションでユーザー権限を定義し管理できるようにする,細かな役割ベースのアクセス制御 (RBAC) も提供しています.以下のリソースから詳細を学びましょう: - [@official@HCP Authentication] (https://developer.hashicorp.com/hcp/docs/cli/commands/auth/login) - [@official@Authenticate with HCP] (https://corregistry.terraform.io/providers/haship/hcp/latest/docs/guides/auth) - [@opurce@hashicorp/hcp-auth-login] (https://github.com/corp/hcp-auth-action)",
+        "links": []
+      }
+    },
+    {
+      "id": "JoUWF6AQoreELxFHNi9oo",
+      "type": "subtopic",
+      "label": "作業場",
+      "position": {
+        "x": 334.80472417761484,
+        "y": 2291.1443922006224
+      },
+      "size": {
+        "width": 274,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999,
+      "content": {
+        "description": "HCPワークスペースは,特にTerraform Cloudの文脈では,さまざまなインフラストラクチャを管理するための孤立した環境を提供します.各ワークスペースは特定のTerraform構成と関連付けられ,独自のステートファイル,変数,アクセス制御を維持します.ワークスペースは,プロジェクト,環境,またはチームに基づいてインフラストラクチャを組織し分離できるようにします.複数のチームメンバーがバージョン制御とバージョン変更履歴を維持しながら同じインフラストラクチャで作業できるようにすることで,コラボワークフローをサポートします.HCPワークスペースはリモートステート管理,セキュア変数ストレージ,バージョン制御システムとの統合などの機能を提供しています.また,依存するインフラストラクチャを通じてワークフローを自動化するための実行トリガーも提供します.組み込みアクセス制御により,組織は各ワークスペースのユーザーやチームに特定の許可を与えることで最小特権の原則を執行できます.以下のリソースから詳細を学びます: - [@official@Workspaces](https://developer.hashicorp.com/terraform/cloud-docs/workpaces) - [@article@プロジェクトでワークスペースを組織する]https://developer.hashicorp.com/terraform/tutorials/cloud/projects) - [@video@Projectsを使用してあなたの Terraform Cloudワークスペースを組織する](https://www.youtube.com/watch?v=J1T1tbU6wAU)",
+        "links": []
+      }
+    },
+    {
+      "id": "Z6dG92afC8SGwCFNTx4ac",
+      "type": "subtopic",
+      "label": "VCS統合",
+      "position": {
+        "x": 334.80472417761484,
+        "y": 2344.1443922006224
+      },
+      "size": {
+        "width": 274,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999,
+      "content": {
+        "description": "HCPのバージョン制御システム (VCS) 統合は,特にTerraform Cloudでは,インフラストラクチャコードリポジトリとHCPサービスとの間でのシームレス接続を可能にします.この機能は,チームが Git リポジトリ (GitHub,GitLab,Bitbucketなどのプロバイダーから) をHCPワークスペースに直接リンクできるようにします.設定すると,リンクされたリポジトリに押された変更は自動的に Terraformの実行を対応するワークスペースで起動します.この統合は GitOps ワークフローをサポートし,インフラストラクチャの変更が適切なバージョン制御プロセスを通過することを保証します.統合により,ブランチベースのワークフローもサポートされ,異なるブランチがステージや生産環境のための異なるワークスペースにリンクできるようになります.以下のリソースから詳細を学びます: - [@official@Connecting VCS Providers to HCP Terraform](https://developer.hashicorp.com/terraform/cloud-docs/vcs) - [@official@Use VCS-driven workflow]https://developer.hashicorp.com/formchange/tutorials/cloud-get-started/cloud-vcs-cs) - [@official@Configuring Workspace VCS Connections]https://developer.haship.com/terraform/cloud-docs/workspaces/settings/vcs)",
+        "links": []
+      }
+    },
+    {
+      "id": "nU1WoRtxRF9KeNhzuwNUB",
+      "type": "subtopic",
+      "label": "作業を実行する",
+      "position": {
+        "x": 334.80472417761484,
+        "y": 2397.1443922006224
+      },
+      "size": {
+        "width": 274,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Terraform Cloudの機能であるHCP Run Tasksは, Terraform ワークフローに外部サービスまたはカスタム論理を統合することを可能にします.これらのタスクは Terraform の計画および適用前にまたは後に実行するように構成され,追加の認証,通知,またはデータ処理手順を可能にします.Run Tasks はセキュリティスキャン,コスト推定,カスタムポリシーチェック,または外部ワークフローを起動するなどのさまざまな目的で使用できます.Webhookを通じて実行され,幅広い第三者のサービスまたは内部ツールとの統合が可能になります.この機能は Terraform ワークフローの柔軟性と拡張性を高め,組織が特定のニーズに応じてカスタムプロセスと統合を実行できるようにします.[developer.hashicorp.com/terraform/cloud-docs/workpaces/settings/run-tasks) - [@official@Terraform Registry - Run-tasks] (https://registry.terraform.io/browse/run-tasks) - [@official@Run Tasks API] (https://developer.hashicorp.com/form/cloud-docs/api-docs/run-tasks)",
+        "links": []
+      }
+    },
+    {
+      "id": "6zFuSNOfbPaYIE_t--2nr",
+      "type": "subtopic",
+      "label": "バージョン管理",
+      "position": {
+        "x": -489.23643593653094,
+        "y": 1915.9060085371989
+      },
+      "size": {
+        "width": 215,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Terraform の バージョン 管理は,さまざまな環境やチームメンバーの間で一貫性を維持するために不可欠です. `tfenv`または `tenv`のようなツールにより,開発者は Terraform の異なるバージョン間で簡単に切り替えることができます. `tenv`, `tfenv`, `tfswitch`,その他は,単一のシステムで複数の Terraform バージョンをインストールし管理する バージョン マネージャーです.彼らはチームに異なるプロジェクトのために特定の Terraform バージョンを指定して使用できるようにし,互換性と再生性を確保します.また,バージョンの違いから生じる潜在的な紛争を管理し,バージョンの変更を容易にし,バージョンの要求が異なる複数のプロジェクトで作業をサポートします.`tenv` Terraform,OpenTofu,Terragrunt,Atmos,Terramateをサポートします.以下のリソースから詳細を学びます: - [@opensource@tfenv] (https://github.com/tfutils/tfenv) - [@opensource@tenv] (https://github.com/tofuutils/tenv) - [@article@How to Use tfenv to Manage Multiple Terraform Versions] (https://spacelift.io/blog/tfenv) - [@video@Quick Tech: tfenv] (https://www.youtube.com/watch?v=Smk5PrRPQsU)",
+        "links": []
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "XX0I26JoVMVXIe_7bVMix",
+      "source": "iogwMmOvub2ZF4zgg6WyF",
+      "target": "_hYN0gEi9BL24nptEtXWU",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "dFn6kGOoJ-0BzJJEb9DSG",
+      "source": "_hYN0gEi9BL24nptEtXWU",
+      "target": "idLHBxhvcIqZTqmh_E8Az",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "arkF7QJJRbCBYWp0crqa2",
+      "source": "_hYN0gEi9BL24nptEtXWU",
+      "target": "os3Pa6W9SSNEzgmlBbglQ",
+      "source_handle": "z2",
+      "target_handle": "y2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "HNVw8OboycWKLEtEbG2bn",
+      "source": "_hYN0gEi9BL24nptEtXWU",
+      "target": "3oInpqvTSSC5_K6i7j8N7",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "auB7Png72XjmhcLr3IJA7",
+      "source": "_hYN0gEi9BL24nptEtXWU",
+      "target": "YKhuRbcUFzo0hTvuTq-Yl",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "2aoDIr80lXSJLW1hIGUkb",
+      "source": "jZ67HhVRelJaxjsCckSSI",
+      "target": "hWA7RtuqltMTmHdcCnmES",
+      "source_handle": "x2",
+      "target_handle": "y1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "m-_y7nLeYFkUKGiacxWA0",
+      "source": "",
+      "target": "NMznG9mo2wzNFnjhg990f",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "G7pXuJfkyt2nWAOHU8yV0",
+      "source": "",
+      "target": "gc_7cuIO2_joKlQRAPDfX",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "2_6Yz3-Agx9_rEN5xW86c",
+      "source": "rrrvATyhXqRgJGWI3z0WF",
+      "target": "AvbMQ5vY3ip1oX_6Yq4ie",
+      "source_handle": "x2",
+      "target_handle": "w2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "kgMI98fg2-mKMgUs0wnjD",
+      "source": "hWA7RtuqltMTmHdcCnmES",
+      "target": "1AJv95mTLpR7L8KBoGym8",
+      "source_handle": "w2",
+      "target_handle": "x1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "ts38Q2ceHs60TJscUBZVE",
+      "source": "hWA7RtuqltMTmHdcCnmES",
+      "target": "0etAs56EeBfh_0IlAaSra",
+      "source_handle": "y2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "ZiMV7umyPdhy3JJDcopR-",
+      "source": "jZ67HhVRelJaxjsCckSSI",
+      "target": "h6ceO0kiBIxNRkPzN3hBY",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "WI-MhbxrehFcVwyGJ5CQJ",
+      "source": "jZ67HhVRelJaxjsCckSSI",
+      "target": "_JlT9oKQ6Yu4UX6l19G8P",
+      "source_handle": "y2",
+      "target_handle": "z2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "qUrLBzvXvJOg53HBfjrOI",
+      "source": "_hYN0gEi9BL24nptEtXWU",
+      "target": "jZ67HhVRelJaxjsCckSSI",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge--PDYmhSQlGbLLFBJQ-Fo3x2-UlH9oNKGD37RPAapiPe19w1",
+      "source": "-PDYmhSQlGbLLFBJQ-Fo3",
+      "target": "h6qRrUe-bn25s0UkxU600",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-h6qRrUe-bn25s0UkxU600y2-twR3k9D-qDr1CbyW6K0Fsz1",
+      "source": "h6qRrUe-bn25s0UkxU600",
+      "target": "twR3k9D-qDr1CbyW6K0Fs",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-h6qRrUe-bn25s0UkxU600y2-CU9V3iRdssamsG-xMouXTz1",
+      "source": "h6qRrUe-bn25s0UkxU600",
+      "target": "CU9V3iRdssamsG-xMouXT",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-h6qRrUe-bn25s0UkxU600y2-hRIDJHIxWc5Iav7tsu8l-z1",
+      "source": "h6qRrUe-bn25s0UkxU600",
+      "target": "hRIDJHIxWc5Iav7tsu8l-",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-h6qRrUe-bn25s0UkxU600y2-UsINvx84pBF1hp8XoLF4cz1",
+      "source": "h6qRrUe-bn25s0UkxU600",
+      "target": "UsINvx84pBF1hp8XoLF4c",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-qhO7CY-1_vuh2BVJYQCzhy2-Hma2IgatFME8STHPwpeMGz1",
+      "source": "qhO7CY-1_vuh2BVJYQCzh",
+      "target": "Hma2IgatFME8STHPwpeMG",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-qhO7CY-1_vuh2BVJYQCzhy2-LaD0H7XhoEEaXbcwjxAbwz1",
+      "source": "qhO7CY-1_vuh2BVJYQCzh",
+      "target": "LaD0H7XhoEEaXbcwjxAbw",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-qhO7CY-1_vuh2BVJYQCzhx2-GlIXmCuvR_C81RMeMM1Kzz1",
+      "source": "qhO7CY-1_vuh2BVJYQCzh",
+      "target": "GlIXmCuvR_C81RMeMM1Kz",
+      "source_handle": "x2",
+      "target_handle": "z1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-GlIXmCuvR_C81RMeMM1Kzy2-BYydmFc2e-YPCC4MCWmh2z1",
+      "source": "GlIXmCuvR_C81RMeMM1Kz",
+      "target": "ZRVv9onD7KGz1cJLcsnwy",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-h6qRrUe-bn25s0UkxU600y2-AYtBLFU1nowEq-EVlXrEZz1",
+      "source": "h6qRrUe-bn25s0UkxU600",
+      "target": "AYtBLFU1nowEq-EVlXrEZ",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-BYydmFc2e-YPCC4MCWmh2y2-iIjUG_N_mQtLHG25v4-xgz2",
+      "source": "ZRVv9onD7KGz1cJLcsnwy",
+      "target": "iIjUG_N_mQtLHG25v4-xg",
+      "source_handle": "y2",
+      "target_handle": "z2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-BYydmFc2e-YPCC4MCWmh2y2-JJ-QhLWqT0luis_kVDVHWz1",
+      "source": "ZRVv9onD7KGz1cJLcsnwy",
+      "target": "JJ-QhLWqT0luis_kVDVHW",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-BYydmFc2e-YPCC4MCWmh2y2-bnQ2YLHd7E-vRxX3PnUEXz1",
+      "source": "ZRVv9onD7KGz1cJLcsnwy",
+      "target": "bnQ2YLHd7E-vRxX3PnUEX",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-ZRVv9onD7KGz1cJLcsnwyx2-BYydmFc2e-YPCC4MCWmh2w2",
+      "source": "ZRVv9onD7KGz1cJLcsnwy",
+      "target": "BYydmFc2e-YPCC4MCWmh2",
+      "source_handle": "x2",
+      "target_handle": "w2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-BYydmFc2e-YPCC4MCWmh2y2-BgZu7Xao5GjR8StVL7qhMz2",
+      "source": "BYydmFc2e-YPCC4MCWmh2",
+      "target": "BgZu7Xao5GjR8StVL7qhM",
+      "source_handle": "y2",
+      "target_handle": "z2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-BYydmFc2e-YPCC4MCWmh2y2-76kp98rvph_8UOXZR-PBCz2",
+      "source": "BYydmFc2e-YPCC4MCWmh2",
+      "target": "76kp98rvph_8UOXZR-PBC",
+      "source_handle": "y2",
+      "target_handle": "z2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-BYydmFc2e-YPCC4MCWmh2y2-TPd00dRndj1P8674KTTrmz1",
+      "source": "BYydmFc2e-YPCC4MCWmh2",
+      "target": "TPd00dRndj1P8674KTTrm",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-h6qRrUe-bn25s0UkxU600z2-Iv-ZRTeVmvk7l7X9nk3dsy2",
+      "source": "h6qRrUe-bn25s0UkxU600",
+      "target": "Iv-ZRTeVmvk7l7X9nk3ds",
+      "source_handle": "z2",
+      "target_handle": "y2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-Iv-ZRTeVmvk7l7X9nk3dsx2-qhO7CY-1_vuh2BVJYQCzhw2",
+      "source": "Iv-ZRTeVmvk7l7X9nk3ds",
+      "target": "qhO7CY-1_vuh2BVJYQCzh",
+      "source_handle": "x2",
+      "target_handle": "w2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-BYydmFc2e-YPCC4MCWmh2z2-AY7_xUeCl6ilqZzg1YFoPy2",
+      "source": "BYydmFc2e-YPCC4MCWmh2",
+      "target": "AY7_xUeCl6ilqZzg1YFoP",
+      "source_handle": "z2",
+      "target_handle": "y2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "LSa-zSZfALJuy802_lDcs",
+      "source": "",
+      "target": "VxMse1VTZAUtVhpKv1OHS",
+      "source_handle": "y2",
+      "target_handle": "z2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "c3eEfmK70MUdxgQnu6fGD",
+      "source": "",
+      "target": "HUiodBFIp_rsQDkf3WgbI",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "hoE_zJs7ciR6EgogY8WQT",
+      "source": "",
+      "target": "fm8oUyNvfdGWTgLsYANUr",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-AY7_xUeCl6ilqZzg1YFoPw2-rdphcVd-Vq972y4H8CxIjx1",
+      "source": "AY7_xUeCl6ilqZzg1YFoP",
+      "target": "rdphcVd-Vq972y4H8CxIj",
+      "source_handle": "w2",
+      "target_handle": "x1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-AY7_xUeCl6ilqZzg1YFoPx2-1mFih8uFs3Lc-1PLgwiAUw2",
+      "source": "AY7_xUeCl6ilqZzg1YFoP",
+      "target": "1mFih8uFs3Lc-1PLgwiAU",
+      "source_handle": "x2",
+      "target_handle": "w2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-AY7_xUeCl6ilqZzg1YFoPz2-pjmOK1MEMnIV_zAlaOF01x1",
+      "source": "AY7_xUeCl6ilqZzg1YFoP",
+      "target": "7GK4fQf1FRKrZgZkxNahj",
+      "source_handle": "z2",
+      "target_handle": "x1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-pjmOK1MEMnIV_zAlaOF01w2-DB-p_S4Ce4tDWF4wDiGStx1",
+      "source": "7GK4fQf1FRKrZgZkxNahj",
+      "target": "DB-p_S4Ce4tDWF4wDiGSt",
+      "source_handle": "w2",
+      "target_handle": "x1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-7GK4fQf1FRKrZgZkxNahjx2-pjmOK1MEMnIV_zAlaOF01w1",
+      "source": "7GK4fQf1FRKrZgZkxNahj",
+      "target": "Xes24SqkwSaO844kLbClj",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-pjmOK1MEMnIV_zAlaOF01y2-78bGm8J5Y1I8H4qioOvWbz2",
+      "source": "Xes24SqkwSaO844kLbClj",
+      "target": "78bGm8J5Y1I8H4qioOvWb",
+      "source_handle": "y2",
+      "target_handle": "z2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-pjmOK1MEMnIV_zAlaOF01y2-wdYLjB-tKg76B7YcnhevQz1",
+      "source": "Xes24SqkwSaO844kLbClj",
+      "target": "wdYLjB-tKg76B7YcnhevQ",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-pjmOK1MEMnIV_zAlaOF01y2-LDpj-LY_SOXzno04D-Y25z1",
+      "source": "Xes24SqkwSaO844kLbClj",
+      "target": "YftsQYpcqJqBKPjy5tWOq",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-Xes24SqkwSaO844kLbCljx2-pjmOK1MEMnIV_zAlaOF01z2",
+      "source": "Xes24SqkwSaO844kLbClj",
+      "target": "pjmOK1MEMnIV_zAlaOF01",
+      "source_handle": "x2",
+      "target_handle": "z2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-pjmOK1MEMnIV_zAlaOF01y2-inbTto9Qukdj6egRJ0Zh9z1",
+      "source": "pjmOK1MEMnIV_zAlaOF01",
+      "target": "inbTto9Qukdj6egRJ0Zh9",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-inbTto9Qukdj6egRJ0Zh9y2-i-TQe48edt3Va_oZGVBLXx2",
+      "source": "inbTto9Qukdj6egRJ0Zh9",
+      "target": "i-TQe48edt3Va_oZGVBLX",
+      "source_handle": "y2",
+      "target_handle": "x2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-i-TQe48edt3Va_oZGVBLXw2-jas0XILqCUXjWRk3ZoSEOx1",
+      "source": "i-TQe48edt3Va_oZGVBLX",
+      "target": "5xAE-9viD7DP_ugQ6NE_C",
+      "source_handle": "w2",
+      "target_handle": "x1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-jas0XILqCUXjWRk3ZoSEOw2-pDm08NBVwGf9rAIZC_ZIRx2",
+      "source": "5xAE-9viD7DP_ugQ6NE_C",
+      "target": "pDm08NBVwGf9rAIZC_ZIR",
+      "source_handle": "w2",
+      "target_handle": "x2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-inbTto9Qukdj6egRJ0Zh9w2-LPI13FILvkD55hWcWbPrVx2",
+      "source": "inbTto9Qukdj6egRJ0Zh9",
+      "target": "LPI13FILvkD55hWcWbPrV",
+      "source_handle": "w2",
+      "target_handle": "x2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-pjmOK1MEMnIV_zAlaOF01w2-LDpj-LY_SOXzno04D-Y25x2",
+      "source": "pjmOK1MEMnIV_zAlaOF01",
+      "target": "LDpj-LY_SOXzno04D-Y25",
+      "source_handle": "w2",
+      "target_handle": "x2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-5xAE-9viD7DP_ugQ6NE_Cy2-jas0XILqCUXjWRk3ZoSEOz2",
+      "source": "5xAE-9viD7DP_ugQ6NE_C",
+      "target": "jas0XILqCUXjWRk3ZoSEO",
+      "source_handle": "y2",
+      "target_handle": "z2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-jas0XILqCUXjWRk3ZoSEOx2-tB4zfwY4E3GmXo-XQwS-lw1",
+      "source": "jas0XILqCUXjWRk3ZoSEO",
+      "target": "KXlLlaR0_S7gE_ZB1hNEd",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-tB4zfwY4E3GmXo-XQwS-lx2-gTMPK0tfs2JYgoL7SAGW6w1",
+      "source": "R2AORYmc1NgGTqLZY5Fu-",
+      "target": "6W4_akHG9YtvN6dpbZnG-",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-R2AORYmc1NgGTqLZY5Fu-z2-tB4zfwY4E3GmXo-XQwS-ly1",
+      "source": "R2AORYmc1NgGTqLZY5Fu-",
+      "target": "6vs1VvjeILgAPLL6g7dfy",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-tB4zfwY4E3GmXo-XQwS-lz2-CmmoshFC1dKE4y3SMN2bly2",
+      "source": "6vs1VvjeILgAPLL6g7dfy",
+      "target": "CmmoshFC1dKE4y3SMN2bl",
+      "source_handle": "z2",
+      "target_handle": "y2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-tB4zfwY4E3GmXo-XQwS-lz2-CJfCpRN_oVf6n_EfLNJSVy1",
+      "source": "6vs1VvjeILgAPLL6g7dfy",
+      "target": "CJfCpRN_oVf6n_EfLNJSV",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-tB4zfwY4E3GmXo-XQwS-lz2-Qch8k6e4pS8OlmG_sI0hHy2",
+      "source": "6vs1VvjeILgAPLL6g7dfy",
+      "target": "Qch8k6e4pS8OlmG_sI0hH",
+      "source_handle": "z2",
+      "target_handle": "y2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-tB4zfwY4E3GmXo-XQwS-lz2-g2F5-nX4Aw-xWZiypNbnLy1",
+      "source": "6vs1VvjeILgAPLL6g7dfy",
+      "target": "g2F5-nX4Aw-xWZiypNbnL",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-tB4zfwY4E3GmXo-XQwS-lz2-JQE3_KakBXZdMVP_pPFNSy1",
+      "source": "6vs1VvjeILgAPLL6g7dfy",
+      "target": "JQE3_KakBXZdMVP_pPFNS",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-tB4zfwY4E3GmXo-XQwS-lz2-HEr-BBxE3jRKTqRnguds1y1",
+      "source": "6vs1VvjeILgAPLL6g7dfy",
+      "target": "HEr-BBxE3jRKTqRnguds1",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-6vs1VvjeILgAPLL6g7dfyx2-tB4zfwY4E3GmXo-XQwS-lw1",
+      "source": "6vs1VvjeILgAPLL6g7dfy",
+      "target": "huXZz55P7kVJwTn5BS_Wk",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-huXZz55P7kVJwTn5BS_Wkz2-tB4zfwY4E3GmXo-XQwS-ly1",
+      "source": "huXZz55P7kVJwTn5BS_Wk",
+      "target": "tB4zfwY4E3GmXo-XQwS-l",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-KXlLlaR0_S7gE_ZB1hNEdz2-R2AORYmc1NgGTqLZY5Fu-y1",
+      "source": "KXlLlaR0_S7gE_ZB1hNEd",
+      "target": "R2AORYmc1NgGTqLZY5Fu-",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-tB4zfwY4E3GmXo-XQwS-lx2-nFq-64JQoYAKjN9YkmOfOw1",
+      "source": "tB4zfwY4E3GmXo-XQwS-l",
+      "target": "nFq-64JQoYAKjN9YkmOfO",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-nFq-64JQoYAKjN9YkmOfOy2-O194eWh529jj4VDhKxNSjz1",
+      "source": "nFq-64JQoYAKjN9YkmOfO",
+      "target": "O194eWh529jj4VDhKxNSj",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-O194eWh529jj4VDhKxNSjy2-weIlGqGN15U8BH1yE9moAz1",
+      "source": "O194eWh529jj4VDhKxNSj",
+      "target": "weIlGqGN15U8BH1yE9moA",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-O194eWh529jj4VDhKxNSjy2-6OoAdvikyp0byMH2oZhyQz1",
+      "source": "O194eWh529jj4VDhKxNSj",
+      "target": "6OoAdvikyp0byMH2oZhyQ",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-O194eWh529jj4VDhKxNSjy2-fH27mGrdnkDQCrGGDFU6pz1",
+      "source": "O194eWh529jj4VDhKxNSj",
+      "target": "fH27mGrdnkDQCrGGDFU6p",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-O194eWh529jj4VDhKxNSjy2-qFpaqOSoefTyKxmI-FRZtz1",
+      "source": "O194eWh529jj4VDhKxNSj",
+      "target": "qFpaqOSoefTyKxmI-FRZt",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-O194eWh529jj4VDhKxNSjx2-QSftI21seX6I_xPonlfmUw2",
+      "source": "O194eWh529jj4VDhKxNSj",
+      "target": "QSftI21seX6I_xPonlfmU",
+      "source_handle": "x2",
+      "target_handle": "w2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-QSftI21seX6I_xPonlfmUz2-V7_NnDIY1MefV_xjCCsnIy1",
+      "source": "QSftI21seX6I_xPonlfmU",
+      "target": "V7_NnDIY1MefV_xjCCsnI",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-QSftI21seX6I_xPonlfmUz2-bjozhkpOI9UjjNfmT5HhYy1",
+      "source": "QSftI21seX6I_xPonlfmU",
+      "target": "bjozhkpOI9UjjNfmT5HhY",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-QSftI21seX6I_xPonlfmUz2-ENkLj3z6hR2cKT7rBhYp5y1",
+      "source": "QSftI21seX6I_xPonlfmU",
+      "target": "ENkLj3z6hR2cKT7rBhYp5",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-QSftI21seX6I_xPonlfmUz2-QqwlAtz7VfrMtNEGpT5Say1",
+      "source": "QSftI21seX6I_xPonlfmU",
+      "target": "QqwlAtz7VfrMtNEGpT5Sa",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-QSftI21seX6I_xPonlfmUz2-H3_So6qX-s2131WHGR_GOy2",
+      "source": "QSftI21seX6I_xPonlfmU",
+      "target": "H3_So6qX-s2131WHGR_GO",
+      "source_handle": "z2",
+      "target_handle": "y2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-QSftI21seX6I_xPonlfmUy2-ECcHo0KTDN27MuVTC-Fwyz1",
+      "source": "QSftI21seX6I_xPonlfmU",
+      "target": "ECcHo0KTDN27MuVTC-Fwy",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-ECcHo0KTDN27MuVTC-Fwyy2-zCU02_5Pide5BZiuMuqEUz1",
+      "source": "ECcHo0KTDN27MuVTC-Fwy",
+      "target": "zCU02_5Pide5BZiuMuqEU",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-ECcHo0KTDN27MuVTC-Fwyy2-RtwZy60ruRpskmgr1qYYfz1",
+      "source": "ECcHo0KTDN27MuVTC-Fwy",
+      "target": "RtwZy60ruRpskmgr1qYYf",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-ECcHo0KTDN27MuVTC-Fwyy2-wL3WWhjPEgFmumOmCPRDfz1",
+      "source": "ECcHo0KTDN27MuVTC-Fwy",
+      "target": "wL3WWhjPEgFmumOmCPRDf",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-ECcHo0KTDN27MuVTC-Fwyy2-AEtW6j2GcfZz7IXk4sM6cz1",
+      "source": "ECcHo0KTDN27MuVTC-Fwy",
+      "target": "AEtW6j2GcfZz7IXk4sM6c",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-ECcHo0KTDN27MuVTC-Fwyy2-oANePqjkwtNMwvV-_W0B7z1",
+      "source": "ECcHo0KTDN27MuVTC-Fwy",
+      "target": "oANePqjkwtNMwvV-_W0B7",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-ECcHo0KTDN27MuVTC-Fwyx2-3MnZK2V5KhBhw67SyUVPkw1",
+      "source": "ECcHo0KTDN27MuVTC-Fwy",
+      "target": "3MnZK2V5KhBhw67SyUVPk",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-3MnZK2V5KhBhw67SyUVPky2-uVz9WwVAgMu1ZU0qjqVncz1",
+      "source": "3MnZK2V5KhBhw67SyUVPk",
+      "target": "uVz9WwVAgMu1ZU0qjqVnc",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-3MnZK2V5KhBhw67SyUVPky2-z0PcbgpHbR6Fm07-On4P8z1",
+      "source": "3MnZK2V5KhBhw67SyUVPk",
+      "target": "z0PcbgpHbR6Fm07-On4P8",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-3MnZK2V5KhBhw67SyUVPkx2-NSWG79dEygyl6pb54wLrEw2",
+      "source": "3MnZK2V5KhBhw67SyUVPk",
+      "target": "NSWG79dEygyl6pb54wLrE",
+      "source_handle": "x2",
+      "target_handle": "w2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-erxow5xNRj01WepdFOhVfz2-K_7dB-5cCYzGbwYXXaoiYy2",
+      "source": "erxow5xNRj01WepdFOhVf",
+      "target": "K_7dB-5cCYzGbwYXXaoiY",
+      "source_handle": "z2",
+      "target_handle": "y2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-erxow5xNRj01WepdFOhVfz2-elW7IMBSF0ydmlb7rtI1oy1",
+      "source": "erxow5xNRj01WepdFOhVf",
+      "target": "elW7IMBSF0ydmlb7rtI1o",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-erxow5xNRj01WepdFOhVfz2-RPcsyhIG027uP7KF0hwaYy1",
+      "source": "erxow5xNRj01WepdFOhVf",
+      "target": "RPcsyhIG027uP7KF0hwaY",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-erxow5xNRj01WepdFOhVfz2-JoUWF6AQoreELxFHNi9ooy2",
+      "source": "erxow5xNRj01WepdFOhVf",
+      "target": "JoUWF6AQoreELxFHNi9oo",
+      "source_handle": "z2",
+      "target_handle": "y2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-erxow5xNRj01WepdFOhVfz2-Z6dG92afC8SGwCFNTx4acy1",
+      "source": "erxow5xNRj01WepdFOhVf",
+      "target": "Z6dG92afC8SGwCFNTx4ac",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-erxow5xNRj01WepdFOhVfz2-nU1WoRtxRF9KeNhzuwNUBy2",
+      "source": "erxow5xNRj01WepdFOhVf",
+      "target": "nU1WoRtxRF9KeNhzuwNUB",
+      "source_handle": "z2",
+      "target_handle": "y2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-3MnZK2V5KhBhw67SyUVPkz2-erxow5xNRj01WepdFOhVfw1",
+      "source": "3MnZK2V5KhBhw67SyUVPk",
+      "target": "erxow5xNRj01WepdFOhVf",
+      "source_handle": "z2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-6zFuSNOfbPaYIE_t--2nrz2-ECcHo0KTDN27MuVTC-Fwyy2",
+      "source": "6zFuSNOfbPaYIE_t--2nr",
+      "target": "ECcHo0KTDN27MuVTC-Fwy",
+      "source_handle": "z2",
+      "target_handle": "y2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    }
+  ],
+  "content_crawled_at": "2026-04-06T13:13:19.049799+00:00"
+}

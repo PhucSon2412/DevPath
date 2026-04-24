@@ -1,37 +1,58 @@
 import { useState, useEffect } from 'react'
-import { GitFork, Sparkles, Loader2 } from 'lucide-react'
+import { Link } from 'react-router-dom'
+import { Sparkles, Loader2, BrainCircuit } from 'lucide-react'
 import RoadmapCard from '../../components/RoadmapCard/RoadmapCard'
 import { useAuth } from '../../contexts/AuthContext'
+import { useLocale } from '../../contexts/LocaleContext'
 import styles from './HomePage.module.css'
 
 export default function HomePage() {
-  const [roadmaps, setRoadmaps] = useState([])
+  const [roleRoadmaps, setRoleRoadmaps] = useState([])
+  const [skillRoadmaps, setSkillRoadmaps] = useState([])
   const [loading, setLoading] = useState(true)
   const [search, setSearch] = useState('')
   const [favoriteBusyMap, setFavoriteBusyMap] = useState({})
-  const { isAuthenticated, isFavorite, toggleFavorite } = useAuth()
+  const { loading: authLoading, isFavorite, toggleFavorite } = useAuth()
+  const { language, t } = useLocale()
 
   useEffect(() => {
-    fetch('/api/roadmaps')
+    fetch(`/api/roadmaps?lang=${language}`)
       .then((res) => res.json())
       .then((data) => {
-        setRoadmaps(data.roadmaps || [])
+        const groupedRoleRoadmaps = data.roleBased?.roadmaps || []
+        const groupedSkillRoadmaps = data.skillBased?.roadmaps || []
+        const fallbackRoadmaps = data.roadmaps || []
+
+        if (groupedRoleRoadmaps.length || groupedSkillRoadmaps.length) {
+          setRoleRoadmaps(groupedRoleRoadmaps)
+          setSkillRoadmaps(groupedSkillRoadmaps)
+        } else {
+          setRoleRoadmaps([])
+          setSkillRoadmaps(fallbackRoadmaps)
+        }
         setLoading(false)
       })
       .catch((err) => {
         console.error('Failed to fetch roadmaps:', err)
         setLoading(false)
       })
-  }, [])
+  }, [language])
 
-  const filtered = search
-    ? roadmaps.filter((r) =>
-        r.title.toLowerCase().includes(search.toLowerCase())
-      )
-    : roadmaps
+  const normalizedSearch = search.trim().toLowerCase()
+
+  const filteredRoleRoadmaps = normalizedSearch
+    ? roleRoadmaps.filter((roadmap) => roadmap.title.toLowerCase().includes(normalizedSearch))
+    : roleRoadmaps
+
+  const filteredSkillRoadmaps = normalizedSearch
+    ? skillRoadmaps.filter((roadmap) => roadmap.title.toLowerCase().includes(normalizedSearch))
+    : skillRoadmaps
+
+  const visibleRoadmaps = [...roleRoadmaps, ...skillRoadmaps]
+  const hasAnyFilteredRoadmap = filteredRoleRoadmaps.length > 0 || filteredSkillRoadmaps.length > 0
 
   const handleToggleFavorite = async (roadmapId) => {
-    if (!isAuthenticated) return
+    if (authLoading) return
 
     setFavoriteBusyMap((prev) => ({ ...prev, [roadmapId]: true }))
     try {
@@ -50,34 +71,27 @@ export default function HomePage() {
         <div className={styles.heroContent}>
           <div className={styles.heroBadge}>
             <span className={styles.heroBadgeDot} />
-            Community Driven Roadmaps
+            {t('home.heroBadge')}
           </div>
 
           <h1 className={styles.heroTitle}>
-            Step-by-step{' '}
-            <span className={styles.heroTitleGradient}>learning paths</span>
-            {' '}for modern developers
+            {t('home.heroTitlePrefix')}{' '}
+            <span className={styles.heroTitleGradient}>{t('home.heroTitleHighlight')}</span>
+            {' '}{t('home.heroTitleSuffix')}
           </h1>
 
           <p className={styles.heroSubtitle}>
-            Community-driven roadmaps, guides, and resources to help you
-            pick your path and grow in your career as a developer.
+            {t('home.heroSubtitle')}
           </p>
 
           <div className={styles.heroActions}>
+            <Link to="/qa" className={styles.btnSecondary} id="cta-qa">
+              <BrainCircuit size={18} />
+              {t('home.qaButton')}
+            </Link>
             <a href="#roadmaps" className={styles.btnPrimary} id="cta-explore">
               <Sparkles size={18} />
-              Explore Roadmaps
-            </a>
-            <a
-              href="https://github.com/kamranahmedse/developer-roadmap"
-              target="_blank"
-              rel="noopener noreferrer"
-              className={styles.btnSecondary}
-              id="cta-github"
-            >
-              <GitFork size={18} />
-              View on GitHub
+              {t('home.exploreButton')}
             </a>
           </div>
         </div>
@@ -86,9 +100,9 @@ export default function HomePage() {
       {/* ── Roadmaps Grid ── */}
       <section className={styles.section} id="roadmaps">
         <div className={styles.sectionHeader}>
-          <h2 className={styles.sectionTitle}>Developer Roadmaps</h2>
+          <h2 className={styles.sectionTitle}>{t('home.sectionTitle')}</h2>
           <p className={styles.sectionDesc}>
-            Step by step guides and paths to learn different tools or technologies
+            {t('home.sectionDescription')}
           </p>
         </div>
 
@@ -97,7 +111,7 @@ export default function HomePage() {
           <input
             type="text"
             className={styles.searchInput}
-            placeholder="Search roadmaps..."
+            placeholder={t('home.searchPlaceholder')}
             value={search}
             onChange={(e) => setSearch(e.target.value)}
             id="search-roadmaps"
@@ -107,23 +121,62 @@ export default function HomePage() {
         {loading ? (
           <div className={styles.loadingState}>
             <Loader2 size={32} className={styles.spinner} />
-            <span>Loading roadmaps...</span>
+            <span>{t('home.loadingRoadmaps')}</span>
           </div>
         ) : (
-          <div className={styles.roadmapGrid}>
-            {filtered.map((roadmap, index) => (
-              <RoadmapCard
-                key={roadmap.roadmapId}
-                roadmap={roadmap}
-                index={index}
-                showFavorite={isAuthenticated}
-                isFavorited={isFavorite(roadmap.roadmapId)}
-                favoriteBusy={!!favoriteBusyMap[roadmap.roadmapId]}
-                onToggleFavorite={handleToggleFavorite}
-              />
-            ))}
-            {filtered.length === 0 && (
-              <p className={styles.noResults}>No roadmaps match your search.</p>
+          <div className={styles.groupStack}>
+            <div className={styles.groupSection} id="role-based-group">
+              <div className={styles.groupHeader}>
+                <h3 className={styles.groupTitle}>{t('home.roleBasedTitle')}</h3>
+                <span className={styles.groupCount}>{filteredRoleRoadmaps.length}</span>
+              </div>
+
+              {filteredRoleRoadmaps.length > 0 ? (
+                <div className={styles.roadmapGrid}>
+                  {filteredRoleRoadmaps.map((roadmap, index) => (
+                    <RoadmapCard
+                      key={roadmap.roadmapId}
+                      roadmap={roadmap}
+                      index={index}
+                      showFavorite
+                      isFavorited={isFavorite(roadmap.roadmapId)}
+                      favoriteBusy={!!favoriteBusyMap[roadmap.roadmapId]}
+                      onToggleFavorite={handleToggleFavorite}
+                    />
+                  ))}
+                </div>
+              ) : (
+                <p className={styles.groupEmpty}>{t('home.noRoleMatch')}</p>
+              )}
+            </div>
+
+            <div className={styles.groupSection} id="skill-based-group">
+              <div className={styles.groupHeader}>
+                <h3 className={styles.groupTitle}>{t('home.skillBasedTitle')}</h3>
+                <span className={styles.groupCount}>{filteredSkillRoadmaps.length}</span>
+              </div>
+
+              {filteredSkillRoadmaps.length > 0 ? (
+                <div className={styles.roadmapGrid}>
+                  {filteredSkillRoadmaps.map((roadmap, index) => (
+                    <RoadmapCard
+                      key={roadmap.roadmapId}
+                      roadmap={roadmap}
+                      index={filteredRoleRoadmaps.length + index}
+                      showFavorite
+                      isFavorited={isFavorite(roadmap.roadmapId)}
+                      favoriteBusy={!!favoriteBusyMap[roadmap.roadmapId]}
+                      onToggleFavorite={handleToggleFavorite}
+                    />
+                  ))}
+                </div>
+              ) : (
+                <p className={styles.groupEmpty}>{t('home.noSkillMatch')}</p>
+              )}
+            </div>
+
+            {!hasAnyFilteredRoadmap && (
+              <p className={styles.noResults}>{t('home.noSearchMatch')}</p>
             )}
           </div>
         )}
@@ -132,27 +185,27 @@ export default function HomePage() {
       {/* ── Stats ── */}
       <section className={styles.stats}>
         <div className={styles.sectionHeader}>
-          <h2 className={styles.sectionTitle}>Open Source & Community</h2>
+          <h2 className={styles.sectionTitle}>{t('home.statsTitle')}</h2>
           <p className={styles.sectionDesc}>
-            Built by the community, for the community
+            {t('home.statsDescription')}
           </p>
         </div>
         <div className={styles.statsGrid}>
           <div className={styles.statCard}>
-            <div className={styles.statNumber}>{roadmaps.length}</div>
-            <div className={styles.statLabel}>Roadmaps</div>
+            <div className={styles.statNumber}>{visibleRoadmaps.length}</div>
+            <div className={styles.statLabel}>{t('home.statRoadmaps')}</div>
           </div>
           <div className={styles.statCard}>
             <div className={styles.statNumber}>
-              {roadmaps.reduce((sum, r) => sum + (r.stats?.total_nodes || 0), 0).toLocaleString()}
+              {visibleRoadmaps.reduce((sum, r) => sum + (r.stats?.total_nodes || 0), 0).toLocaleString()}
             </div>
-            <div className={styles.statLabel}>Topics</div>
+            <div className={styles.statLabel}>{t('home.statTopics')}</div>
           </div>
           <div className={styles.statCard}>
             <div className={styles.statNumber}>
-              {roadmaps.reduce((sum, r) => sum + (r.stats?.nodes_with_content || 0), 0).toLocaleString()}
+              {visibleRoadmaps.reduce((sum, r) => sum + (r.stats?.nodes_with_content || 0), 0).toLocaleString()}
             </div>
-            <div className={styles.statLabel}>Resources</div>
+            <div className={styles.statLabel}>{t('home.statResources')}</div>
           </div>
         </div>
       </section>
@@ -161,11 +214,10 @@ export default function HomePage() {
       <footer className={styles.footer} id="footer">
         <div className={styles.footerInner}>
           <span className={styles.footerText}>
-            © 2026 DevPath. Community-driven developer roadmaps.
+            {t('home.footerCopyright')}
           </span>
           <div className={styles.footerLinks}>
-            <a href="https://github.com/kamranahmedse/developer-roadmap" target="_blank" rel="noopener noreferrer" className={styles.footerLink}>GitHub</a>
-            <a href="#roadmaps" className={styles.footerLink}>Roadmaps</a>
+            <a href="#roadmaps" className={styles.footerLink}>{t('home.footerRoadmaps')}</a>
           </div>
         </div>
       </footer>

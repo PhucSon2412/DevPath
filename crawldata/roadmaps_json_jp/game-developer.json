@@ -1,0 +1,5750 @@
+{
+  "id": "game-developer",
+  "title": "ゲーム開発者",
+  "source_url": "https://roadmap.sh/game-developer",
+  "github_url": "https://github.com/kamranahmedse/developer-roadmap/tree/master/src/data/roadmaps/game-developer",
+  "crawled_at": "2026-04-06T07:36:59.364379+00:00",
+  "type": "flow",
+  "stats": {
+    "total_nodes": 164,
+    "total_edges": 45,
+    "nodes_with_content": 144
+  },
+  "node_types": [
+    "button",
+    "horizontal",
+    "label",
+    "paragraph",
+    "subtopic",
+    "title",
+    "topic",
+    "vertical"
+  ],
+  "edge_styles": [
+    "dashed",
+    "solid"
+  ],
+  "edge_line_types": [
+    "default",
+    "simplebezier",
+    "smoothstep"
+  ],
+  "node_type_description": {
+    "title": "ロードマップの主題",
+    "topic": "主題大 (nhóm kỹ năng)",
+    "subtopic": "Kỹ năng/công nghệ cụ thể cần học",
+    "paragraph": "文は mô tả / chú thích",
+    "vertical": "Đường kết nối dọc (ビジュアルコネクタ)"
+  },
+  "edge_style_description": {
+    "solid": "Kỹ năng bắt buộc / quan trọng",
+    "dashed": "選択 / gợi ý / オルタナティブ"
+  },
+  "nodes": [
+    {
+      "id": "o3PyFTPgsW83BXocJQsDJ",
+      "type": "horizontal",
+      "label": "ホリゾントノード",
+      "position": {
+        "x": -260.4072387161244,
+        "y": 1919.7076829543832
+      },
+      "size": {
+        "width": 246,
+        "height": 20
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "77ufRs9I5bQ6-3oqeVEeP",
+      "type": "horizontal",
+      "label": "ホリゾントノード",
+      "position": {
+        "x": -203.23195037554086,
+        "y": 1717.215711596427
+      },
+      "size": {
+        "width": 153,
+        "height": 20
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.5
+      },
+      "z_index": 999
+    },
+    {
+      "id": "4Z4RnLqpSbDJRqzA18Z5k",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": 448.241338239984,
+        "y": 1722.928855367065
+      },
+      "size": {
+        "width": 21,
+        "height": 109
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "Z3SBDE-j5lYzk4Qy5ncS7",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": 39.214820522490754,
+        "y": 1396.7939445578397
+      },
+      "size": {
+        "width": 21,
+        "height": 99
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "EL9CPU70hF4x9ouOQ66Rm",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": -57.08852226085975,
+        "y": 1396.7939445578397
+      },
+      "size": {
+        "width": 21,
+        "height": 170
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "vGVyQfjMJB9sxFRshpV5A",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": -143.58852226085975,
+        "y": 1396.7939445578397
+      },
+      "size": {
+        "width": 21,
+        "height": 99
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "bYFNueU1BFB3eAQ8HXh7n",
+      "type": "horizontal",
+      "label": "ホリゾントノード",
+      "position": {
+        "x": 3.062543592821953,
+        "y": 1253.7939445578397
+      },
+      "size": {
+        "width": 195,
+        "height": 20
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.9,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "x1LxhiMT_mbWJZnoeLcnz",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": 446.89009638382095,
+        "y": 1100.6993653585232
+      },
+      "size": {
+        "width": 21,
+        "height": 77
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "Ee7D0WF54YreyzBG9MKIh",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": -95.90430753953456,
+        "y": 1191.3406441617572
+      },
+      "size": {
+        "width": 21,
+        "height": 66
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "G7_iBEFY0b2FmvLVr0gti",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": -212.09789095083502,
+        "y": 543.2157115964269
+      },
+      "size": {
+        "width": 21,
+        "height": 1184
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.5
+      },
+      "z_index": 999
+    },
+    {
+      "id": "iogwMmOvub2ZF4zgg6WyF",
+      "type": "title",
+      "label": "ゲーム開発者",
+      "position": {
+        "x": -128.73195037554086,
+        "y": -184.83998521803062
+      },
+      "size": {
+        "width": 256,
+        "height": 68
+      },
+      "style": {
+        "fontSize": 28,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "LEijbLyxg4RyutKEM2Y5g",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": -11.231950375540862,
+        "y": -243.55566976101449
+      },
+      "size": {
+        "width": 21,
+        "height": 64
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#0A33FF"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "xwpc_KxehAruFM0pCQnie",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": -5.808218001963041,
+        "y": 2335.039079314256
+      },
+      "size": {
+        "width": 21,
+        "height": 104
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#4136D4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "rQArtuVKGVgLn_fw9yO3b",
+      "type": "topic",
+      "label": "顧客側開発",
+      "position": {
+        "x": -122.23195037554086,
+        "y": -55.32399710033968
+      },
+      "size": {
+        "width": 243,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ゲーム開発において\",クライアントサイド\"という用語は,プレイヤーのマシン (コンソール,コンピュータ,電話など) で発生するすべての操作や活動を指す.クライアント側がグラフィック・レンダリング,ユーザーからの入力処理,時にはゲーム論理処理を担当する.これは,マルチプレイヤー接続を処理し,複数のクライアント間でゲーム状態を同期するサーバー側操作とは異なり,クライアント側では,開発者はパフォーマンス最適化,スムーズなUI/UX,迅速なロードタイム,およびセキュリティを確保し,魅力的な,遅延のないゲーム体験を提供する必要があります.マルチプレイヤーゲームで詐欺を防ぐためにセキュリティも重要です.",
+        "links": [
+          {
+            "title": "クライアントサイドアーキテクチャ",
+            "url": "https://gabrielgambetta.com/client-server-game-architecture.html",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "m1wX27XBWKXZcTMH2U1xp",
+      "type": "topic",
+      "label": "ゲーム数学",
+      "position": {
+        "x": -122.23195037554086,
+        "y": 174.17600289966032
+      },
+      "size": {
+        "width": 243,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "\"ゲーム数学\"は,ゲーム開発の重要な側面で,ゲームメカニクスを作成し,制御するために数学概念の使用を扱う.これは,3Dモデリングのための幾何学,ゲームルールのための論理,スコアシステムのための代数,および動きまたは軌道のトリゴノメトリなどの分野を含む.ゲーム数学を理解することで,開発者は物理シミュレーション,AI行動,および手続き生成などの機能を実装することができます.先進的なトピックには,グラフィック (例えばシェッダー,照明) および連続アニメーションまたは物理のための計算が含まれます.数学的な複雑性はゲームの要求に依存しますが,堅実な基盤はすべてのゲーム開発者にとって不可欠です.以下のリソースから学びましょう: - [article@Game@game]",
+        "links": []
+      }
+    },
+    {
+      "id": "grRf-MmaXimDB4iODOV47",
+      "type": "subtopic",
+      "label": "線形代数",
+      "position": {
+        "x": -519.0712461079418,
+        "y": 18.010149146221465
+      },
+      "size": {
+        "width": 289,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "線形代数は,ゲーム開発における重要な分野である.この分野は,マトリックス,デターミナント,ベクトル,オーガナンス値,オーガナンスベクトルなどを含むベクトル空間とその中の使用された数学的構造を中心に展開する.ゲーム開発の文脈では,線形代数は主にコンピュータグラフィック,物理,AIなどに使用される.開発者が空間変換で作業し,ゲームの3D空間を操作し,批判的に相互作用できるようにする.より広範な文脈では,アルゴリズム,パララックスシフト,多角モデリング,衝突検出などのためのコンピュータプログラミングにおいて重要である.オブジェクト動き,位置計算,ゲーム物理学から,ゲームにおけるダイナミズムを生み出すまで,線形代数は鍵である.",
+        "links": [
+          {
+            "title": "線形代数",
+            "url": "https://en.wikipedia.org/wiki/Linear_algebra",
+            "type": "article"
+          },
+          {
+            "title": "線形代数 完全コース キンバーリー・ブレム",
+            "url": "https://youtube.com/playlist?list=PLl-gb0E4MII03hiCrZa7YqxUMEeEPmZqK\\&si=_r0WDwh94NKJbs_R",
+            "type": "video"
+          },
+          {
+            "title": "数学に関するトップ記事を探求する",
+            "url": "https://app.daily.dev/tags/math?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "yLEyh5XJ3sl8eHD-PoSvJ",
+      "type": "subtopic",
+      "label": "矢量",
+      "position": {
+        "x": -520.0712461079418,
+        "y": 72.01014914622147
+      },
+      "size": {
+        "width": 143,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`ベクター`はゲーム開発における数学的な概念であり,ゲーム物理学の不可欠な部分である.それは大きさと方向の両方を持つ量を表す.ベクトルは,ポジション,速度,加速,または方向などのゲーム内の異なる要素を表すために使用することができます. 3Dゲームでは,一般的に3D座標 (x, y, z) を定義するために使用されます.例えば,ゲームでキャラクターを持っていて,それを向上させたい場合は,向上を指すベクトルを適用します.したがって,ベクトルを操作する方法を理解することはゲーム開発における基本的なスキルです.",
+        "links": [
+          {
+            "title": "ゲーム開発のためのベクトルへの実用的な導入",
+            "url": "https://dev.to/marcbeaujean/practical-introduction-to-vectors-for-game-development-532f",
+            "type": "article"
+          },
+          {
+            "title": "ベクトルへの導入 (セバスチャン・ラグ)",
+            "url": "https://youtu.be/m7VY1T6f8Ak?feature=shared",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Kg6Mg9ieUUGXWX9Lai7B0",
+      "type": "subtopic",
+      "label": "マトリックス",
+      "position": {
+        "x": -374.07124610794176,
+        "y": 71.01014914622147
+      },
+      "size": {
+        "width": 144,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ゲーム開発では**マトリックス**はゲーム数学の基本的な部分である. 3Dゲーム開発において特に重要な行列と列に並べられた数字のグリッドである.これらのマトリックスは通常4x4である.つまり,16つの浮動点数を含んでおり,変換に使用される.それらは空間内の3Dピークのスケーリング,回転,翻訳 (移動) を可能にします.マトリックスを使用して,これらの変換を組み合わせ,変換されたピークは3Dモデルの複製をレンダリングのための2D画面スペースに描画するために使用できます.",
+        "links": [
+          {
+            "title": "マトリックス代数とゲームプログラミング",
+            "url": "https://www.gameludere.com/2019/12/21/matrix-algebra-and-game-programming/",
+            "type": "article"
+          },
+          {
+            "title": "ゲーム開発におけるマトリックス",
+            "url": "https://dev.to/fkkarakurt/matrices-and-vectors-in-game-development-67h",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "XWxW2ZBw3LcQ4DRk4tgAG",
+      "type": "subtopic",
+      "label": "ジオメトリ",
+      "position": {
+        "x": -520.0712461079418,
+        "y": 177.01014914622147
+      },
+      "size": {
+        "width": 144,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ゲーム開発における幾何学とは,ゲーム内の空間要素を定義するために使用される数学的研究を指す.これはゲームの環境内でオブジェクトがどのように相互作用するかを決定するのに不可欠です.特に,幾何学はオブジェクトレンダリング,衝突検出,キャラクター動き,角度と距離の計算などのさまざまな側面で使用されます.開発者はオブジェクトの次元と方向を含むゲームのための空間パラメータを作成することができます. 2D vs 3D,多角形,頂点,網格,およびベクトル,マトリックス,四角形などのより高度なトピックなどの基本的なことを理解することは,この分野にとって不可欠です.",
+        "links": [
+          {
+            "title": "ゲーム ジオメトリ - 数学は楽しい",
+            "url": "https://www.mathsisfun.com/geometry/index.html",
+            "type": "article"
+          },
+          {
+            "title": "ゲオメトリとゲーム用原作",
+            "url": "https://dev.to/fkkarakurt/geometry-and-primitives-in-game-development-1og",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "XABzEU9owCx9-zw1id9xU",
+      "type": "subtopic",
+      "label": "線形変形",
+      "position": {
+        "x": -520.0712461079418,
+        "y": 124.01014914622147
+      },
+      "size": {
+        "width": 289,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`線形変換`または `線形地図`は,数学において,特に線形代数と機能分析分野において重要な概念である.線形変換は,加算とスケラー乘法を保存する変換と考えられる. 言い換えれば,T変換は線形である. `x`と `y`のベクトルペアごとに,等式 (`T(x + y) = T(x) + T(y) `は正しい. 同様に,任意のスケラー (`c`) と任意のベクトル (`x`) に対して,等式 (`Tcx) = cT(x) `も正しい.これは線形等式システム,マトリックス,およびコンピュータゲーム開発を含む多くの領域において非常に有用である.",
+        "links": [
+          {
+            "title": "線形変形",
+            "url": "https://en.wikipedia.org/wiki/Linear_map",
+            "type": "article"
+          },
+          {
+            "title": "数学に関するトップ記事を探求する",
+            "url": "https://app.daily.dev/tags/math?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "r5TcXQsU9s4NlAQIPvZ3U",
+      "type": "subtopic",
+      "label": "洗練された空間",
+      "position": {
+        "x": -373.07124610794176,
+        "y": 177.01014914622147
+      },
+      "size": {
+        "width": 143,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ゲーム数学の文脈では,アファインスペースは,あなたが理解すべき基本的な概念である.それは幾何学と代数の両方に関連した性質を持つ幾何学構造である.アファインスペースの重要な側面は,ポイントとベクトルでより快適に作業することを可能にすることである.ベクトル空間は,大きさと方向の両方を持つベクトルに焦点を当てているが,ポイントを含まない.アファインスペースは,ベクトルを得るために点にベクトルを追加したり,点から点を取り除くことを容易にする.この概念はゲーム開発分野において,特にグラフィックモデル,アニメーション,および運動制御に対処する際に非常に有用であることが証明されています.",
+        "links": [
+          {
+            "title": "洗練された空間",
+            "url": "https://en.wikipedia.org/wiki/Affine_space",
+            "type": "article"
+          },
+          {
+            "title": "狭い空間 を 理解 する",
+            "url": "https://brilliant.org/wiki/affine-spaces/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "SkCreb6g4i-OFtJWhRYqO",
+      "type": "subtopic",
+      "label": "洗練された変形",
+      "position": {
+        "x": -520.0712461079418,
+        "y": 230.01014914622147
+      },
+      "size": {
+        "width": 290,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "**アフェイントランスフォーメーション**は,ゲーム数学の文脈で,点,直線,平面を保存するアフェイン空間間の関数である.また,アフェイントランスフォーメーションの後,並行線の集合は平行のままである.ビデオゲームでは,通常は3D空間におけるオブジェクトの位置を操作するために使用されます.この操作は,ゲーム開発者が翻訳 (オブジェクトを1場所から別の場所に移動する),スケーリング (オブジェクトのサイズを変更する),および回転 (オブジェクトを点周りに回転する) のような複数のトランスフォーメーションを実行することを可能にします.アフェイントランスフォーメーションの重要な特徴は,ポイントのユニーク性を保存することです.これらの変換は,世界座標系ではなく, 物体の座標系に相対的に適用されていることに注意することが重要です.",
+        "links": [
+          {
+            "title": "洗練された変形",
+            "url": "https://www.gamedevs.org/uploads/affine-transformations.pdf",
+            "type": "article"
+          },
+          {
+            "title": "微妙 な 変化 を 理解 する",
+            "url": "https://code.tutsplus.com/understanding-affine-transformations-with-matrix-mathematics--active-10884t",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "iIWEjpkNFBj4R5wQ0mcWY",
+      "type": "topic",
+      "label": "方向性",
+      "position": {
+        "x": -378.07124610794176,
+        "y": 286.51014914622147
+      },
+      "size": {
+        "width": 145,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center",
+        "colorType": "h"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ゲーム開発の文脈では, **Orientation**は3D空間でオブジェクトが指向される側面または方向を指す. 3D空間におけるオブジェクトの指向を決定するために,通常は3つの角度,すなわち:ピッチ,ヤウ,ロールを使用します.これは集合的にエウラーの角度として知られています. **Pitch**はX軸の周回り, **Y軸の周回り, **Roll**はZ軸の周回りです.代替的に,指向はクエーターニオンを使用して表現することもできます.クエーターニオンには,Gimbalロック (3D空間における自由度の一度の喪失) と呼ばれる問題を回避する利点があります.",
+        "links": [
+          {
+            "title": "性格の方向性",
+            "url": "https://medium.com/@dev.szabo.endre/a-bit-e-of-game-dev-math-01-character-movement-with-vectors-effc862a1e4f",
+            "type": "article"
+          },
+          {
+            "title": "ゲーム開発者向けベクトル数学",
+            "url": "https://www.gamedeveloper.com/programming/vector-maths-for-game-dev-beginners",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "zPs_LlDvkfxvvCrk5fXB2",
+      "type": "subtopic",
+      "label": "クアテリアン",
+      "position": {
+        "x": -378.07124610794176,
+        "y": 339.51014914622147
+      },
+      "size": {
+        "width": 145,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "**quaternion**は3次元で回転の概念を拡張する複雑な数値システムである.それは4つの構成要素を含む:1つのリアルと3つの想像的な部分.四旋翼は,回転と方向性の効率的かつ正確な計算のためにゲーム開発で使用される.ギムバルロックのような問題に対する耐性のために,エウラー角などの他の方法よりも特に有用である.その複雑な性質にもかかわらず,四旋翼を理解して実装することは,ゲームの3D回転力学と精度を大幅に向上させることができます.",
+        "links": [
+          {
+            "title": "クエーターニオン を 理解 する",
+            "url": "https://www.3dgep.com/understanding-quaternions/",
+            "type": "article"
+          },
+          {
+            "title": "ユニティ・ドック - クォーターニオン",
+            "url": "https://docs.unity3d.com/ScriptReference/Quaternion.html",
+            "type": "article"
+          },
+          {
+            "title": "互動的に説明された四角形と3D回転",
+            "url": "https://youtu.be/zjMuIxRvygQ?si=ANmFr5k8JMUzBCUC",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L0J2kvveJNsmN9ueXhqKf",
+      "type": "subtopic",
+      "label": "エイラー角",
+      "position": {
+        "x": -378.07124610794176,
+        "y": 392.51014914622147
+      },
+      "size": {
+        "width": 145,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "**エウラー角**は,数学と物理学における3D空間における固体体または坐標システムの方向性を記述するために使用される概念である.通常アルファ (α),ベータ (β),ガマ (γ) と呼ばれる3つの角度を使用し,元の坐標システムの軸周りの3つの連続回転を表す.エウラー角は3つの基本的な回転の連続として任意の回転を表すことができる.しかし,エウラー角はユニークではないことを覚えておいてください.異なる回転の連続は同一の総効果を表すことができる.",
+        "links": [
+          {
+            "title": "ゲーム開発におけるオイラー角度",
+            "url": "https://www.gameludere.com/2020/03/12/euler-angles-hamilton-quaternions-and-video-games/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "YTkOF_33oL1ZkA-loc_DP",
+      "type": "topic",
+      "label": "曲線",
+      "position": {
+        "x": -122.23195037554086,
+        "y": 291.6760028996603
+      },
+      "size": {
+        "width": 243,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center",
+        "colorType": "h"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`カーブ`は,アニメーション,3Dモデリング,UIデザイン,レベルレイアウトなどの分野で使用される滑らかなラインや経路を作成するための数学的ツールです.カーブは複雑な形や動きを簡素化し,線形アプローチと比較してより自然な結果を可能にします.",
+        "links": []
+      }
+    },
+    {
+      "id": "nTiHZXRh2j3_FsBotmlGf",
+      "type": "subtopic",
+      "label": "スプリング",
+      "position": {
+        "x": -122.2319503755408,
+        "y": 345.81015303721455
+      },
+      "size": {
+        "width": 90,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`Spline`は,コンピュータグラフィックスで曲線と表面を生成するために広く使用される数学的機能である. 滑らかな曲線を通じて2点またはそれ以上を結びつけ,往々にしてゲームで経路,移動経路,オブジェクト形状,流動制御を定義するために使用されます. スプリンは2次元に限定され,3次元またはそれ以上の次元に拡張することができます. スプリンの種類には, `Linear`, `Cubic`,および `Bezier` スプリンは含まれます.線形スプリンは点間の直線を生成する一方,立方線とビースプリンは制御点とハンドルの追加によりより多くの制御と複雑性を提供します. スプリンの良い理解とそれらの使用は,ゲームの流動性と視覚的美学を大幅に改善することができます.",
+        "links": [
+          {
+            "title": "数学におけるスペリン",
+            "url": "https://en.wikipedia.org/wiki/Spline_(mathematics",
+            "type": "article"
+          },
+          {
+            "title": "フリーヤ・ホルマーによるスプラインズに関する詳細なビデオ",
+            "url": "https://youtu.be/jvPPXbo87ds?si=JX_G-gS81tOwQwjf",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "m4AuHjEBnHS0wyATG-I1Z",
+      "type": "subtopic",
+      "label": "エルミット",
+      "position": {
+        "x": -28.231950375540805,
+        "y": 345.81015303721455
+      },
+      "size": {
+        "width": 149,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ヘルミット・インターポレーションとは,スムーズな移行を実行するためのゲーム開発における基本的な技術であるヘルミット・インターポレーションを指す.本質的に,ヘルミット・インターポレーションは多項式数学の応用であり,スタート/エンドとして2つのポイントが適用される (通常は3Dポジショナルのベクトルである) と,これらの点にあるタンゲントが曲線の形状を制御する.この技術名はフランスの数学家チャールズ・ヘルミットから派生されている.ヘルミット・インターポレーションは,スムーズなアニメーション,カメラパス,または動きパターンの作成などのゲーム開発のさまざまな側面で有用である.しかし,ヘルミット・インターポレーションは,序列の開始と終了点に対する制御を提供しているものの,曲線の完全な行動を正確に予測することができないことに注意してください.",
+        "links": [
+          {
+            "title": "エルミットインターポレーション",
+            "url": "https://en.wikipedia.org/wiki/Hermite_interpolation",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "DUEEm9sAaZqSI-W-PFZ8f",
+      "type": "subtopic",
+      "label": "ベジール",
+      "position": {
+        "x": -122.2319503755408,
+        "y": 398.81015303721455
+      },
+      "size": {
+        "width": 90,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`ベジエール曲線は,1960年代に自動車のボディを設計するために使用したフランスのエンジニアであるピエール・ベジエール氏にちなんで名付けられた.ベジエール曲線は,少なくとも2つの制御点を持つ,上限がない制御点集合によって定義される.曲線は,最初のおよび最後の制御点の間に計算され,制御点を通過しない.これは曲線の方向にのみ影響する.線形,四方形,立方形ベジエール曲線があるが,より多くの制御点を持つ曲線も可能である.コンピュータグラフィック,アニメーションでは広く使用され,ベクトル画像および形状,テキスト,オブジェクトを作成するためのツールとして広く使用されています.[@article@Bezier Curves for Your Games]http://devmag.org.za/2011/04/05/bzier-curves-a-tutorial/) - [@video@Bezier Curves Explained](https://www.youtube.com/watch?v=pnYccz1Ha34)",
+        "links": []
+      }
+    },
+    {
+      "id": "N9GoA3YvOaKwYjljj6NZv",
+      "type": "subtopic",
+      "label": "カットムール・ロム",
+      "position": {
+        "x": -28.231950375540805,
+        "y": 398.81015303721455
+      },
+      "size": {
+        "width": 149,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "**Catmull-Rom**スプラインは2Dと3Dグラフィックスで使用されるインターポレーションの一形態である.エドウィン・キャットムールとラファエル・ロムにちなんで命名された.それは,一連の点に沿って物体を滑らかに移動する簡単な方法または,グラフィックスに関して,いくつかの点を連結する曲線を滑らかに描く簡単な方法を提供します.これは立方インターポレーションスプラインである.つまり,立方多項式を使用して座標を計算します.これは,キャットムール-ロムをグラフィックスとアニメーションで滑らかで自然な曲線を作成するのに理想的です.また,曲線が方向に突然変化がないことを保証するC1連続性と呼ばれる機能があります.しかし,適切に管理されない場合,点間のループを作成できます.",
+        "links": [
+          {
+            "title": "カットムール・ロム",
+            "url": "https://gamedev.net/forums/topic/535895-catmull-rom-in-shmups/",
+            "type": "article"
+          },
+          {
+            "title": "Catmull Rom Spline - ゲーム開発",
+            "url": "https://gamedev.stackexchange.com/questions/47354/catmull-rom-spline-constant-speed",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5qfoD77wU4ETI7rUSy4Nc",
+      "type": "topic",
+      "label": "投影",
+      "position": {
+        "x": -517.0712461079418,
+        "y": 285.51014914622147
+      },
+      "size": {
+        "width": 136,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center",
+        "colorType": "h"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`プロジェクション` ゲーム数学では,3次元画像が2次元平面,通常はコンピュータ画面に転送される方法を指す.ゲーム開発では,2つの主要なプロジェクションタイプがあります. `オrthographic Projection`と `Perspective Projection`.オrthographic Projectionでは,オブジェクトがカメラから距離を問わずその大きさを維持します.これは2Dゲームや3Dゲームではしばしば使用されます.一方,Perspective Projectionは,遠くのオブジェクトが小さく見える人間の目視を模倣します.この方法は3Dゲームではよりリアルなレンダリングを提供します.ゲーム開発におけるプロジェクションを理解することは,仮想3D空間とオブジェクトが2D閲覧プラットフォームでどのように表示されるかを支配しているため重要です.",
+        "links": [
+          {
+            "title": "メッシュ・トライアングルとポリエドロン",
+            "url": "https://mathworld.wolfram.com/Projection.html",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "LEJymJ2EaAW5FM5LgKW38",
+      "type": "subtopic",
+      "label": "展望",
+      "position": {
+        "x": -517.0712461079418,
+        "y": 338.51014914622147
+      },
+      "size": {
+        "width": 136,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ゲーム開発において, **Perspective**は二次元空間で3次元の世界を作り出す上で重要な役割を果たします.それは私たちの目が距離と深さを認識する方法を模倣し,物体がより遠くに行くにつれて小さく見える.本質的に,これは仮想画面に3D座標を投影することによって達成されます.視点投影は2種類で行われます.深さと大きさの変化を表示する1つの軸と,両軸が変化を表示する2つのポイントです.より現実的なビューを作成し,ゲームビジュアライゼーションと浸透を促進します.重要な側面は,平行線が距離で収束する消化点であるプレイヤーの視点です.",
+        "links": [
+          {
+            "title": "ゲーム の 見方",
+            "url": "https://www.gamedeveloper.com/design/making-the-most-out-of-the-first-person-perspectives",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "d6C1qFv-Tad3AtMBDLI6r",
+      "type": "subtopic",
+      "label": "オートゴーナル",
+      "position": {
+        "x": -517.0712461079418,
+        "y": 391.51014914622147
+      },
+      "size": {
+        "width": 136,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "直角投影または正文投影は,投影の線が投影平面に垂直であるゲーム開発における平行図投影の一種である.これは直角投影を作り,本質的にあらゆる形態の視点を取り除く.見方投影とは異なり,見方から遠く離れたオブジェクトが小さくなっている場合,直角投影のオブジェクトは距離に関係なく同じサイズのままである.直角投影における視角の欠如は,プラットフォームや戦略ゲームなどの特定のタイプのゲームに有用である.CAD (コンピュータ支援設計) と技術図にも一般的に使用される.",
+        "links": [
+          {
+            "title": "オートゴーナル・プロジェクション",
+            "url": "https://medium.com/retronator-magazine/game-developers-guide-to-graphical-projections-with-video-game-examples-part-1-introduction-aa3d051c137d",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "UTBnrQiZ6Bf96yJYIUf3b",
+      "type": "topic",
+      "label": "ゲーム物理学",
+      "position": {
+        "x": 330.39009638382095,
+        "y": 516.4583152599474
+      },
+      "size": {
+        "width": 191,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ゲーム物理学は,仮想環境における物理法則をシミュレートするゲーム開発の不可欠な部分である.このシミュレーションは,物体が衝突や力にどのように移動し,相互作用し,反応するかを定義することによってゲームにリアリズムをもたらします.ゲーム物理学は,キャラクターが2Dまたは3D空間でどのようにジャンプするか,流体動力学やラグドール物理学などのより複雑な機械まで行きます.ゲーム物理学の主な2種類は,よりシンプルで抽象的な\"アーケード物理学\"であり,現実的な物理学\"であり,実際の物理相互作用を完全に再現しようとしています.ゲーム物理学を実装するには,物理学の統合に必要な数学知識とプログラミングスキルの組み合わせが必要です.",
+        "links": [
+          {
+            "title": "ゲーム物理学",
+            "url": "https://en.wikipedia.org/wiki/Game_physics",
+            "type": "article"
+          },
+          {
+            "title": "今日 ゲーム物理のマスター!",
+            "url": "https://www.udemy.com/course/gamephysics/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "0D7KQlF-9ylmILTBBVxot",
+      "type": "topic",
+      "label": "動力",
+      "position": {
+        "x": 312.39009638382095,
+        "y": 429.5296064989004
+      },
+      "size": {
+        "width": 227,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center",
+        "colorType": "h"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ゲーム物理学におけるダイナミックとは,質量,力,速度などの性質を考慮して,物体の動きと相互作用の計算とシミュレーションを指す.その目的は,ゲーム要素の動きが現実の世界での期待と,またはゲームデザイナーが定義した特定の条件に一致することを保証することです.これは通常,運動学 (速度と加速),ニュートンの運動法則,力 (重力や摩擦など) と保存法則 (動力やエネルギーなど) などを含む.これは,ゲーム物体の運動方程式を解決し,衝突を検出し,それらを解決することを含む.ダイナミックとスタティック (静止中の硬体の力のバランスを扱う) は,ゲーム物理シミュレーションの核を形成します.",
+        "links": [
+          {
+            "title": "ゲーム物理学における動力学",
+            "url": "https://americanprofessionguide.com/game-mechanics-and-dynamics/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "HWtU4q-YPXxSi64t43VNF",
+      "type": "subtopic",
+      "label": "マッサージセンター",
+      "position": {
+        "x": 312.39009638382095,
+        "y": 64.52960649890042
+      },
+      "size": {
+        "width": 226,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "**質の中心**は,物体または物体システムとの関係で定義された位置である.通常,符号 \\ ((COM\\) によって表示される.これは,システムのすべての部分の平均位置を指し,その質量に応じて重量化されます.例えば,均等に密集した物体があれば,質の中心はその物体の幾何学的な中心に位置します.ゲームでは,物体の質の中心は,物体に対して力が適用されたときに物体がどのように振る舞うかに重要な影響を与える可能性があります.これは,物体がこれらの力に対してどのように動くかを含む.ゲームにおける物理シミュレーションの現実性に影響を与える可能性があります.",
+        "links": [
+          {
+            "title": "マッサージセンター",
+            "url": "https://medium.com/@brazmogu/physics-for-game-dev-a-platformer-physics-cheatsheet-f34b09064558",
+            "type": "article"
+          },
+          {
+            "title": "リアルなエンジンの物理と遊ぶ - 質量の中心",
+            "url": "https://www.youtube.com/watch?v=JVX7TA8GkzE",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6E2mkXuAzoYnrT1SEIA16",
+      "type": "subtopic",
+      "label": "慣性の瞬間",
+      "position": {
+        "x": 312.39009638382095,
+        "y": 116.52960649890042
+      },
+      "size": {
+        "width": 226,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "回転慣性の瞬間 (**moment of inertia**),回転慣性の瞬間 (rotational inertia) とも呼ばれ,その回転に対する変化に対するオブジェクトの抵抗の測定値である.よりシンプルな言葉で言えば,物体を回転させたり停止させたりするのがどれほど難しいかである.物体の質量と回転軸周りの質量の分布の両方によって決定される.ゲーム開発の背景において,回転慣性の瞬間は,ゲーム内のキャラクター,物体または車両の現実的な動きを作成するために不可欠である.この動きが回転または回転するエンティティを含むシナリオでは特に重要です.これらの物理学の計算と適用により,より浸透し,信頼性の高いゲーム体験が保証されます.",
+        "links": [
+          {
+            "title": "慣性の瞬間",
+            "url": "https://en.wikipedia.org/wiki/Moment_of_inertia",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ejZMnxZ0QrN-jBqo9Vrj8",
+      "type": "subtopic",
+      "label": "加速",
+      "position": {
+        "x": 312.39009638382095,
+        "y": 168.52960649890042
+      },
+      "size": {
+        "width": 122,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "**加速**は時間単位ごとに速度の変化の速さを指します.この物理的概念はゲームダイナミクスに翻訳され,ゲームキャラクターやオブジェクトの動きと速度に影響します.例えば,キャラクターが動き始めたとき,通常,彼らが最高速度に達する前にわずかな遅延があり,その後は移動ボタンを押す限り続きます.これは加速によって引き起こされます.逆に,ボタンがリリースされると,キャラクターは瞬時に停止するのではなく,徐々に減速します.これはマイナス加速である減速によるものです.加速と減速をマスターすることによって,ゲーム開発者はキャラクターのためにより現実的で興味深い動きを作成することができます.",
+        "links": [
+          {
+            "title": "ゲーム の 簡単な 加速",
+            "url": "http://earok.net/sections/articles/game-dev/theory/simplified-acceleration-games",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "m2_wUW2VHMCXHnn5B91qr",
+      "type": "subtopic",
+      "label": "関節",
+      "position": {
+        "x": 436.39009638382095,
+        "y": 168.52960649890042
+      },
+      "size": {
+        "width": 101,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ゲーム開発における関節は主に物理シミュレーションやキャラクターアニメーションの文脈でしばしば使用される2つのオブジェクトの間の接続を指す.これらはハンドルやスプリングなどの現実世界の関節の物理をシミュレートすることができる.開発者は関節の様々な特性,例えばその制約,力,反応を制御することができる.異なるタイプは特定のニーズに適したさまざまな性質を持ちます.例えば,固定関節はオブジェクトを一緒に保持し,ハンドル関節は軸周りの回転を許可し,スプリング関節はオブジェクトを隔離するために力を適用します.",
+        "links": [
+          {
+            "title": "関節への導入",
+            "url": "https://docs.unity3d.com/Manual/Joints.html",
+            "type": "official"
+          },
+          {
+            "title": "ビデオゲーム の キャラクター の 偽装",
+            "url": "https://game-ace.com/blog/character-rigging-for-video-games/",
+            "type": "article"
+          },
+          {
+            "title": "結束 し て いる",
+            "url": "https://simonpham.medium.com/joints-in-unity-f9b602212524",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "qduFRhmrzJ2sn0g7L-tza",
+      "type": "subtopic",
+      "label": "力を発揮する",
+      "position": {
+        "x": 436.39009638382095,
+        "y": 220.52960649890042
+      },
+      "size": {
+        "width": 101,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "**フォース**はゲーム開発において,特にゲームにおける物理学の構築において重要な概念である.ゲーム物理学の文脈において\",フォース\"は,物体がその動き,方向,または幾何学的構造に関して一定の変化を経験させる影響である.これは通常ゲームエンジンで実装され,開発者が定義した重力,摩擦,またはカスタム力などの力を計算する物理シミュレーションの一部である.力を組み込むことはゲームに現実的な感覚を与え,物体が物理法則に従って自然に相互作用することを可能にします.これはレースゲーム,スポーツゲーム,物体間の物理的な相互作用を含むあらゆるゲームなどのジャンルにおいて中心的である.`F = ma`,オブジェクトの加速は,適用された力と直接比例し,その質量と逆比例することを忘れないでください.これらの力のバランスと操作は,ダイナミックで浸透的なゲームプレイの不可欠です.",
+        "links": [
+          {
+            "title": "ゲーム開発のための物理",
+            "url": "https://medium.com/@brazmogu/physics-for-game-dev-a-platformer-physics-cheatsheet-f34b09064558",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "egOcxFTQP7vPIGrxcieuk",
+      "type": "subtopic",
+      "label": "返済",
+      "position": {
+        "x": 313.39009638382095,
+        "y": 220.52960649890042
+      },
+      "size": {
+        "width": 121,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ゲーム開発において,**Restitution**はオブジェクトの物理と密接に関連している属性である.本質的に,復元はオブジェクトの\"ボウンスiness\"を表す.または,より科学的用語では,衝突後に2つのオブジェクトの初期相対速度と最終相対速度の比率を表す.ゲーム物理学において,オブジェクトが衝突するとき,復元は,各オブジェクトがどれだけ反発するか反発するかを計算するために使用されます.復元値は通常0から1の間に落ちます. 0の値はオブジェクトが全く反発しないことを意味し, 1の値は,完全に弾性的な衝突を指す.したがって,衝突値が高くなるほど,衝突後にオブジェクトが反発する値は高くなります.",
+        "links": [
+          {
+            "title": "返済物件",
+            "url": "https://gamedev.stackexchange.com/questions/49616/why-do-restitution-values-less-than-one-still-cause-infinite-bouncing-in-box2d",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Y7HYY5eq7OG42V9yQz0Q1",
+      "type": "subtopic",
+      "label": "角速度",
+      "position": {
+        "x": 313.39009638382095,
+        "y": 272.5296064989004
+      },
+      "size": {
+        "width": 225,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "角速度は,時間単位あたり角の変化の速度を測定する指標である.よりシンプルな言葉で言えば,あるオブジェクトが円周を移動する速度や中心点を回転する速度に対応する.角速度は,通常秒あたりラディアン (rad/s) で測定される.円路で移動するオブジェクトを考えると,角速度は,オブジェクトの周周に沿って移動する角度が変化する速度である.角速度はベクトル量であり,その大きさと方向の両方を含んでいる.角速度ベクトルの方向は右手の規則に従って回転の平面に垂直である.この速度は,物理的模擬とキャラクター制御において重要な役割を果たします.",
+        "links": [
+          {
+            "title": "角速度",
+            "url": "https://allenchou.net/2013/12/game-physics-motion-dynamics-fundamentals/",
+            "type": "article"
+          },
+          {
+            "title": "角速度を理解する",
+            "url": "https://math.libretexts.org/Bookshelves/Precalculus/Book%3A_Trigonometry_(Sundstrom_and_Schlicker",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "WzcmdW_fKHv3gwdBnvI0_",
+      "type": "subtopic",
+      "label": "浮動力",
+      "position": {
+        "x": 312.39009638382095,
+        "y": 324.5296064989004
+      },
+      "size": {
+        "width": 122,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "**浮動性**は,物理学の特定の相互作用を指し,液体に浸透した物体 (例えば水中のゲームキャラクター) が重力に逆らう上向きの力を経験する.これは物体を浮動させたり,軽く見えるさせたりする.ゲーム開発において,浮動性を実装することは,特に水ベースの活動や環境を含むゲームで現実性を高めることができる.浮動性とは,重物体を浮動させたり,軽物体を沈むまで,様々な効果を生み出すために密度と体積の調整によって操作することができる.これを計算するには,通常,物体を球体または他の単純な幾何形に近似し,これをアーキメドスの原理で使用する必要があります.この原理では浮動力とは,物体が放出する液体の重量に等しいと規定しています.ビデオゲームの世界では,プログラミングの浮遊能力は,現実性とプレイ可能性のバランスを取るために複雑な物理方程式と慎重なテストを伴う.次のリソースからもっと学ぶ: - [@article@Buoyancy in Game Development](https://www.gamedeveloper.com/programming/water-interaction-model-for-boats-in-video-games-part-2)",
+        "links": []
+      }
+    },
+    {
+      "id": "Z_U6abGV_wVkTGZ2LVkFK",
+      "type": "subtopic",
+      "label": "線形速度",
+      "position": {
+        "x": 312.39009638382095,
+        "y": 376.5296064989004
+      },
+      "size": {
+        "width": 227,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "**線形速度**は,ゲーム開発において広く使用される物理学の基本的な概念である.この概念は,参照フレームに対してオブジェクトの位置の変化の速度を指す. 位置の変化を時間の変化によって分割することによって計算される.しばしば\"v\"ベクトルで表現される.ゲーム開発において,オブジェクトの線形速度は,速度と方向を制御するために操作することができる.これは物理シミュレーションや動きに依存するゲームプレイ要素の開発において特に重要です.例えば,キャラクターを走らせたりドライブしたり,または異なる速度と方向でオブジェクトを投げたりするために使用することができます.",
+        "links": [
+          {
+            "title": "線形速度",
+            "url": "https://byjus.com/physics/linear-velocity/",
+            "type": "article"
+          },
+          {
+            "title": "数学に関するトップ記事を探求する",
+            "url": "https://app.daily.dev/tags/math?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Hz9R4YGYtD0jAur8rYist",
+      "type": "subtopic",
+      "label": "摩擦",
+      "position": {
+        "x": 436.39009638382095,
+        "y": 324.5296064989004
+      },
+      "size": {
+        "width": 101,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`Friction`はゲームダイナミクスにおける重要な概念である.ゲームの中で,通常は動きを遅らせたり阻害したりして,キャラクターやオブジェクトの動きに現実的な感覚を与えます.例えば,プレイヤーのキャラクターが粗暴なキャラクターと比較して滑らかな表面で走るとき,摩擦はそのキャラクターの速度と制御に影響します.この概念は,車の氷の表面に滑ったり,地形によって歩行速度が変化したり,ボールがロールしたり,最終的に遅れるかに見られます.摩擦を計算する方程式は,通常は `f = μN`,ここで `f`は摩擦の重み, `μ`は摩擦の系数 (二つの表面が相互作用することに依存する),および `N`は摩擦の力 (一般にオブジェクトの正常な力である) です.ゲームの摩擦系数を 望ましい結果に応じて 異なる効果に調整できます",
+        "links": [
+          {
+            "title": "ゲーム開発における摩擦",
+            "url": "https://medium.com/@originallearguy/rub-the-right-way-applying-friction-in-game-design-122bd98de69d",
+            "type": "article"
+          },
+          {
+            "title": "摩擦",
+            "url": "https://youtu.be/t1HWIoDUWXg?si=FmFsIGTSHpLS72vp",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "AdOfOJtLtNgDwuABb6orE",
+      "type": "topic",
+      "label": "衝突検出",
+      "position": {
+        "x": 328.9857878718208,
+        "y": 617.9812781501682
+      },
+      "size": {
+        "width": 191,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center",
+        "colorType": "h"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "**衝突検出**は,ゲーム物理学の重要な側面で,ゲーム環境で2つ以上のオブジェクトが接触するときに計算し応答するコンピュータの能力を扱う.オブジェクトが現実的に相互作用し,互いに通過しないことを確認し,ゲーム世界に意図された方法で影響を与えるためには不可欠です.衝突検出の技術は,ゲームが要求する複雑さに基づいて異なります.シンプルな方法には,オブジェクトを包装する境界ボックスまたは球体が含まれます.これらの球体またはボックスが重なりると,衝突が想定されます.より複雑な方法は,正確な検出のためにオブジェクトの形と容量を考慮します.いくつかのライブラリとゲームエンジンは衝突検出に内蔵サポートを提供し,開発者がゲームで実装することを容易にする.",
+        "links": [
+          {
+            "title": "ゲームにおける衝突検出",
+            "url": "https://developer.mozilla.org/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript/Collision_detection",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "SuemqQuiePab0Qpm2EGy9",
+      "type": "subtopic",
+      "label": "狭い段階",
+      "position": {
+        "x": 328.9857878718208,
+        "y": 724.5601890981626
+      },
+      "size": {
+        "width": 191,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "**Narrow Phase**の衝突検出は,広い段階では既に衝突している可能性があることが判明した物体のカップルの詳細な衝突検査に深く浸透するプロセスである.狭い段階は,本質的に細かな調整プロセスである.広い段階から正面的に検出された後,それは二つの物体間の正確な衝突点を特定し,より詳細な形状表示とより高価なアルゴリズムを含む可能性があります.物理シミュレーションに必要な追加の情報を計算することも可能である (衝突の正確な時間や接触基準など).この段階に使用される通常の方法は,境界框,境界球または分離軸定理を含む.しかし,この方法は,オブジェクトの形状の複雑性とゲームの特定のニーズによって異なります.",
+        "links": [
+          {
+            "title": "ゲーム開発の狭い段階",
+            "url": "https://rocketbrush.com/blog/game-development-process-guide",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "AKd2UpITqBZV7cZszSRps",
+      "type": "subtopic",
+      "label": "広い段階",
+      "position": {
+        "x": 328.9857878718208,
+        "y": 777.5601890981626
+      },
+      "size": {
+        "width": 191,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "**広相衝突検知**は衝突検知プロセスの最初のステップである.その主な機能は,衝突する可能性のある物体のペアを特定することです.可能な衝突を特定する代わりに,各物体の全体を境界框や球のようなシンプルな形状で包み込み,計算数を減らすことを目的としています.この段階の出力は次の段階,しばしば狭い段階と呼ばれる\"候補ペア\"のリストです.",
+        "links": [
+          {
+            "title": "広相衝突検出",
+            "url": "http://buildnewgames.com/broad-phase-collision-detection/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "YLusnwCba7BIdKOYUoY6F",
+      "type": "subtopic",
+      "label": "収束性",
+      "position": {
+        "x": 134.06254359282195,
+        "y": 724.6479448168348
+      },
+      "size": {
+        "width": 137,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center",
+        "colorType": "h"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "コンベクシティはゲーム開発において,特に衝突検出の狭い段階で使用される重要な概念である.形状は,形状内の各2つの点に対して,それらの間の完全な線段が形状内部にある場合,コンベクシティとみなされる.本質的に,コンベクシティの形には,内側を指す角がない.コンベクシティの形は,計算的に処理が簡単であるため,ゲーム開発に大きな利点がある.例えば,分離軸定理 (SAT) とギルバート・ジョンソン・キーティ (GJK) のような衝突検出アルゴリズムでは,入力形はしばしばコンベクシートである.非コンベクシート形またはコンベクシート形は,通常,衝突形検出のためのより複雑な方法を必要とします.",
+        "links": [
+          {
+            "title": "ゲーム開発におけるコンベックス性",
+            "url": "https://www.gamedeveloper.com/game-platforms/understanding-convexity-in-ltv-modelling",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pG_V12qhS4HevoP_KHTvh",
+      "type": "subtopic",
+      "label": "コンベックス",
+      "position": {
+        "x": 134.06254359282195,
+        "y": 799.2235652019868
+      },
+      "size": {
+        "width": 137,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center",
+        "colorType": "h"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ゲーム開発における\"コンベックス\"という用語は,主にゲーム環境内の形状と衝突検出に関連しています.形状は,形状の任意の2つの点間のすべての線段が完全に形状内に位置する場合にコンベックスである.これは,物体がコンベックスであるときに数学計算がより直接的で効率的なことができるため,ゲームにおける衝突検出と物理エンジンをプログラミングする際に不可欠な概念です.これに加えて,多くのレンダリングアルゴリズムはコンベックスな物体でも最適に動作し,ゲームのグラフィックパフォーマンスを改善します.",
+        "links": [
+          {
+            "title": "ゲーム開発におけるコンベックス",
+            "url": "https://dev.to/fkkarakurt/geometry-and-primitives-in-game-development-1og",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "jslk7Gy58VspO1uXGDgBp",
+      "type": "subtopic",
+      "label": "角形",
+      "position": {
+        "x": 134.06254359282195,
+        "y": 853.340644161757
+      },
+      "size": {
+        "width": 137,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center",
+        "colorType": "h"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ゲーム開発において,形は内側角が180度以上の場合\"凸\"であると言われています.よりシンプルに言えば,形は\"内側曲線\"または\"洞窟のような\"インデントレーションがある場合,それは凸である.凸形形とは異なり,凸形形の中に描かれた直線は完全に形の境界内にあり得ません.凸形は,凸形と比較して考慮すべき点と角度が多いため,衝突検出において特にゲーム物理学に複雑さを追加します.これらの形は,凸形や迷宮,ゲームレベル境界やゲームキャラクターなどのゲーム要素で一般的に見られます.凸形の実践的な応用は,ゲームプレイとゲームに必要な現実性のレベルに大きく依存することを覚えておいてください.",
+        "links": [
+          {
+            "title": "凸形とは何か?",
+            "url": "https://dev.to/fkkarakurt/geometry-and-primitives-in-game-development-1og",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "jixffcPBELkhoG0e7Te8g",
+      "type": "subtopic",
+      "label": "コンベックス・ホール",
+      "position": {
+        "x": -115.74983529021279,
+        "y": 799.2235652019868
+      },
+      "size": {
+        "width": 225,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "**コンベックスホールは,ゲーム開発の様々な分野,特に物理エンジンと衝突検出の作成に使用される基本的な概念である.本質的には,それは二次元空間内のポイントの集合を閉じることができる最小のコンベックス多角形である.または3次元空間内のポイントの集合のための最小のコンベックスポリヘドロンである.これは,ポイントの周りに伸ばしてリリースされた場合,ゴムバンドが取る形として考えることができる.計算幾何学では,グラハムのスキャンとクイックホールのような様々なアルゴリズムが急速にコンベックスホールを計算するために開発されている.ゲームエンジンのコンベックス・ホールの使用は,衝突検知のルーチンでのパフォーマンスを劇的に向上させるため,重複をチェックする必要があるポイントが少ないため,これはよりスムーズなゲームプレイを作成するのに役立ちます.",
+        "links": [
+          {
+            "title": "3D用のコンベックス分解",
+            "url": "https://colin97.github.io/CoACD/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "bgP9NpD0DJGqN4VCt65xP",
+      "type": "subtopic",
+      "label": "コンベックス分解",
+      "position": {
+        "x": -115.74983529021279,
+        "y": 853.340644161757
+      },
+      "size": {
+        "width": 225,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`コンベックスデコンポジション`は,複雑なコンベックス形をより単純なコンベックス形に分解することを伴うゲーム開発のプロセスを表す.この技術は,物理的なシミュレーションを含むあらゆるゲーム開発プロジェクトの重要な側面である衝突検出に関与する計算を大幅に簡素化します.具体的には,コンベックス形には\",穴\"または\"穴\"を持つ1つまたは複数の部分があり,コンベックス形にはそのような落ち込みがない.簡素な用語では,内側の角度が180度を超えないまま\"ボールドアウト\"します.したがって,コンベックスデコンポジションは本質的に\",洞窟\"または\"衰退\"を\"ボールドアウト\"のみとするより単純な形に分解するプロセスです.",
+        "links": [
+          {
+            "title": "3D用のコンベックス分解",
+            "url": "https://colin97.github.io/CoACD/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "vmRYaXNVCe0N73xG8bsEK",
+      "type": "subtopic",
+      "label": "交差点",
+      "position": {
+        "x": 134.06254359282195,
+        "y": 671.5601890981626
+      },
+      "size": {
+        "width": 137,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center",
+        "colorType": "h"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`インターセクション`は,ゲーム開発の狭い段階で,潜在的な衝突する2つの物体間の正確な衝突点または衝突点が決定されるコンセプトである.このプロセスは,潜在的な衝突が広い段階で決定された後に行われます.軸に沿った結合ボックス (AABB),分離軸定理 (SAT),球形またはカプセル境界,その他の多くのアルゴリズムは,物体の形状に基づいて異なる交差テストに使用されます.交差点は,接触点,方向および浸透深などの貴重なデータを提供します.",
+        "links": [
+          {
+            "title": "ゲームのための交差点テスト",
+            "url": "https://www.gamedeveloper.com/game-platforms/simple-intersection-tests-for-games",
+            "type": "article"
+          },
+          {
+            "title": "交点ジオメトリ",
+            "url": "https://www.petercollingridge.co.uk/tutorials/computational-geometry/line-line-intersections/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "kSMz7mZ243qMKtT_YD3AD",
+      "type": "subtopic",
+      "label": "SAT",
+      "position": {
+        "x": -22.517250963174092,
+        "y": 618.6479448168349
+      },
+      "size": {
+        "width": 79,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`Sat`,または分離軸定理は,ゲーム開発における衝突検出で頻繁に使用される.その主なメリットは,凸形多角形が交差するか否かを単純かつ迅速に検出するものである.定理は,いくつかの形状の周りの多角形のすべての点を複数の軸に投影して,その後重複をチェックすることによって動作する.しかし,より複雑なモデルまたは多数のオブジェクトを処理する際に比較的時間がかかる可能性があるため,投影を計算しなければならないので,しばしば幅広い段階の検出システムで使用されます. ``の作業にはいくつかの数学概念または視覚的補助が含まれている可能性があります.しかし,これはゲーム開発における使用の基礎です.",
+        "links": [
+          {
+            "title": "分離軸定理",
+            "url": "https://dyn4j.org/2010/01/sat/",
+            "type": "article"
+          },
+          {
+            "title": "分離軸定理を用いた衝突検出",
+            "url": "https://code.tutsplus.com/collision-detection-using-the-separating-axis-theorem--gamedev-169t",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "lwd3Gz9bJEKCIwhXD6m-v",
+      "type": "subtopic",
+      "label": "GJK",
+      "position": {
+        "x": -22.517250963174092,
+        "y": 671.6479448168349
+      },
+      "size": {
+        "width": 79,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "**GJKアルゴリズム** (Gilbert Johnson Keerthi) は,ビデオゲームやシミュレーションにおける凸形物体間の衝突を検出するために広く使用される計算幾何学アルゴリズムである.このアルゴリズムの主要な役割は,凸形2つの交差点を評価することである.このアルゴリズムがユニークで広く使用されるのは,複雑な3次元形を扱うときでさえその効率と精度である.計算を簡素化し,二つの形が交差しているかどうかを判断するために\"ミンコスキー差\"という概念を使用している.",
+        "links": [
+          {
+            "title": "ゲーム ジオメトリ - 数学は楽しい",
+            "url": "https://en.wikipedia.org/wiki/Gilbert-Johnson-Keerthi_distance_algorithm",
+            "type": "article"
+          },
+          {
+            "title": "GJK アルゴリズム",
+            "url": "https://medium.com/@mbayburt/walkthrough-of-the-gjk-collision-detection-algorithm-80823ef5c774",
+            "type": "article"
+          },
+          {
+            "title": "GJKアルゴリズムの説明と実施",
+            "url": "https://www.youtube.com/watch?v=MDusDn8oTSE",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "vWLKYK2KUzV1fO-vQunzW",
+      "type": "subtopic",
+      "label": "EPA",
+      "position": {
+        "x": -22.517250963174092,
+        "y": 724.6479448168348
+      },
+      "size": {
+        "width": 79,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "**EPA** (Expanding Polytope Algorithm) は,衝突検出における2つの形間の浸透深さを計算するために使用される繰り返しアルゴリズムである.物理エンジンとロボット工学では一般的に使用される.アルゴリズムは,以前に適用されたGJKアルゴリズムから生成されたシンプレックスを取り出し,ミンスキー差異境界に向かってポリトープを繰り返して拡張する.その点から起源までのベクトルは浸透ベクトルであり,その大きさは2つの形間の浸透深度に等しい.",
+        "links": [
+          {
+            "title": "EPA: 2D/3Dの衝突応答アルゴリズム - winter.dev",
+            "url": "https://winter.dev/articles/epa-algorithm",
+            "type": "article"
+          },
+          {
+            "title": "EPA (拡張ポリトープアルゴリズム) - dyn4j",
+            "url": "https://dyn4j.org/2010/05/epa-expanding-polytope-algorithm/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PLR_4yoRifoTzkOR4c7ym",
+      "type": "subtopic",
+      "label": "制限量",
+      "position": {
+        "x": 327.9857878718208,
+        "y": 918.2235652019868
+      },
+      "size": {
+        "width": 193,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center",
+        "colorType": "h"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`Bounding Volume`は,より複雑なゲームモデルを完全に包括するシンプルな形である.実際のモデルの交差点をチェックするよりも,境界ボリュームの交差点をチェックすることは安価である.ゲーム開発で一般的に使用される境界ボリュームのいくつかの種類には,軸に沿った境界ボックス (AABBs),境界球,方向性境界ボックス (OBBs) が含まれる.AABBと境界球は,静的な物体で実装し,うまく動作する.OBBは少し複雑で,回転する必要があるダイナミックな物体でしばしば使用されます.",
+        "links": [
+          {
+            "title": "3Dゲームにおける衝突検出",
+            "url": "https://developer.mozilla.org/en-US/docs/Games/Techniques/3D_collision_detection",
+            "type": "article"
+          },
+          {
+            "title": "制限 の 音量 を 視覚化 する",
+            "url": "https://www.haroldserrano.com/blog/visualizing-the-boundary-volume-hierarchy-collision-algorithm",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "aTeYGd4JlPr5txNPyBezn",
+      "type": "subtopic",
+      "label": "AABB",
+      "position": {
+        "x": 177.11202169501337,
+        "y": 918.2235652019866
+      },
+      "size": {
+        "width": 91,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`AABB`は,ゲーム開発において一般的に使用される境界ボックスの形態である.このボックスは,座標システムの軸と直接並列し,ゲームオブジェクトを封鎖するものです.AABBの側面は軸と並列され,特定の計算を行う際に役立つ.軸に並列されていないボックスはより複雑な数学を必要とします.AABBは,主に2つのオブジェクトが衝突する過程にあるかどうかをチェックすることを意味します.AABBは比較的保守的で,境界ボックスの方向性よりも速く並列するボックスを持っていても,よりシンプルで衝突検出に使用されます.",
+        "links": [
+          {
+            "title": "軸を並べた結束箱",
+            "url": "https://gdbooks.gitbooks.io/3dcollisions/content/Chapter1/aabb.html",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "7nGtvbxoEAheiF4IPMfPf",
+      "type": "subtopic",
+      "label": "OBB",
+      "position": {
+        "x": 108.11202169501337,
+        "y": 918.2235652019866
+      },
+      "size": {
+        "width": 66,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "` オリエンテッド・ボインディング・ボックス (OBB) は,コンピュータ・グラフィックとコンピューティング・ジオメトリで用いられる境界容量の一種である. ` オリエンテッド・ボインディング・ボックス (OBB) と異なり, ` オリエンテッド・ボインディング・ボックス (AABB) は軸と並行することを制約していないため,ボックスは回転できます.この方向は通常,オブジェクトのローカル・コーディネートシステムに基づいて選択されます.したがって, ` オリエンテッド・オブジェクトはその回転を維持します. ` オリエンテッド・ボインテッドの属性には,その中心,次元,および計算が含まれます.",
+        "links": [
+          {
+            "title": "OBB vs OBB衝突検出",
+            "url": "https://gamedev.stackexchange.com/questions/25397/obb-vs-obb-collision-detection",
+            "type": "article"
+          },
+          {
+            "title": "方向性 の 制限 箱",
+            "url": "https://gamedev.stackexchange.com/questions/49041/oriented-bounding-box-how-to",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "9Fk3XSINBr2NNdbMtwsIK",
+      "type": "subtopic",
+      "label": "空間分割",
+      "position": {
+        "x": 327.9857878718208,
+        "y": 974.6723516686346
+      },
+      "size": {
+        "width": 193,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center",
+        "colorType": "h"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "\"空間分割\"は,計算幾何学で用いられる技術で,空間内の物体を含む計算をより効率的にするために用いられる.大きな仮想空間をより小さな空間や\"分割\"に分割する.これらの分割は,特定の計算またはクエリに無関係な領域を迅速に排除するために使用され,それによって全体的な計算コストを低下させる.この技術は衝突検出,レンダリング,パスファインディングなどの文脈でゲーム開発で広く使用されています.格子ベースの,木ベースの (QuadtreeやOctreeのような) および空間補充曲線 (Z順序またはヒルバート曲線のような) 方法を含む空間分割には様々な方法があります.",
+        "links": [
+          {
+            "title": "空間分割",
+            "url": "https://en.wikipedia.org/wiki/Space_partitioning",
+            "type": "article"
+          },
+          {
+            "title": "ゲームプログラミングにおける空間分割",
+            "url": "https://gameprogrammingpatterns.com/spatial-partition.html",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "STdvFYM9V0a36IkPXjvrB",
+      "type": "subtopic",
+      "label": "排列・スイープ",
+      "position": {
+        "x": 109.27787544845216,
+        "y": 974.6723516686346
+      },
+      "size": {
+        "width": 160,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "**Sort and Sweep**は,ゲーム開発における衝突検出に使用されるアルゴリズムで,潜在的な交差するオブジェクトを識別するプロセスを最適化します.これがどのように機能するかです.まず,ゲーム内のすべてのオブジェクトは特定の軸 (通常は\"x\"軸) を沿って分類されます.その後,この軸に沿って一線 (\"スイープライン\"として知られる) が移動されます.この線がシーンをスイープするにつれて,この線を横切る任意のオブジェクトは\"アクティブ\"リストに追加されます.オブジェクトがスイープラインと交差していない場合,このリストから削除されます.交差をチェックする唯一のオブジェクトは,この\"アクティブ\"リスト内のチェック数を減らすものです.これにより,スイープとスイープは効率的な空間分割戦略になります.",
+        "links": [
+          {
+            "title": "編成 掃き 編成",
+            "url": "https://leanrada.com/notes/sweep-and-prune/",
+            "type": "article"
+          },
+          {
+            "title": "衝突検出アルゴリズム",
+            "url": "https://notes.billmill.org/visualization/interactive_explainers/sort__sweep_and_prune_-_collision_detection_algorithms.html",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FCc5xwb_G3VsDRXOcg3hV",
+      "type": "subtopic",
+      "label": "BVH",
+      "position": {
+        "x": 208.27787544845216,
+        "y": 1027.6723516686347
+      },
+      "size": {
+        "width": 61,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "BVH (Bunding Volume Hierarchy) は,レンダリングプロセスを加速するために3Dコンピュータグラフィックスで使用されるアルゴリズムである.このアルゴリズムは,木の各ノードが境界ボリュームを表す階層構造を組織する.BVHのルートノードには他のすべてのノードまたは幾何学的なオブジェクトが含まれている.その子ノードは空間の分割を表し,葉ノードはしばしば個々の幾何学的なオブジェクトである.BVHを使用する主な目的は,シーンの大部分をレンダリングプロセスから迅速に排除し,シーン内の個々のオブジェクトを個別に評価する計算負荷を軽減することです.",
+        "links": [
+          {
+            "title": "単一性 単一性 単一体 単一体 単一体 単一体 単一体 単一体 単一体 単一体 単一体 単一体 単一体 単一体 単一体 単一体 単一体 単一体 単一体 単一体 単一体 単一体 単一体 単一体 単一体 単一体 単一体 単一体 単一体 単一体 単一体 単一体 単一体 単一体 単一体 単一体 単一体 単一体 単一体 単一体 単一体 単一体 単一体 単一体 単一体 単一体 単一体 単一体 単一体 単一体 単一体 単一体 単一体 単一体 単一体",
+            "url": "https://github.com/rossborchers/UnityBoundingVolumeHeirachy",
+            "type": "opensource"
+          }
+        ]
+      }
+    },
+    {
+      "id": "XHFV4d6Ab4kWQ3-XcZTyT",
+      "type": "subtopic",
+      "label": "DBVT",
+      "position": {
+        "x": 109.1830419521774,
+        "y": 1027.6723516686347
+      },
+      "size": {
+        "width": 66,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`DBVT`または `Dynamic Bounding Volume Tree`は,衝突検出などの物理シミュレーションで主に使用される加速データ構造である.BVHの一種である (``Bounding Volume Hierarchy`),しかしDBVTのユニークな側面は,動力的なオブジェクトの処理である.名前から示唆されるように,それは,動いているオブジェクトや環境が進化するような変化するシナリオを効率的に処理するために特別に設計されています.典型的なBVHとは異なり,静的なBVHは,物体が動いていると,動力的に木を更新し,衝突のクエリの効率性を維持します.これは主に木の回転を通してや木を完全に再構築するのではなく,ボディングボリュームを修正します.これはDBVTを相当なダイナミックを持つシナリオのための非常に魅力的なオプションにする.詳細は以下のリソースからご覧ください. - [@article@DBVT](https://sopiro.github.io/DynamicBVH/) - [@article@Dynamic Bounding Volume Hierarchies](https://box2d.org/files/ErinCatto_DynamicBVH_Full.pdf)",
+        "links": []
+      }
+    },
+    {
+      "id": "1yK8TH4Pn7Ag8VQoug54i",
+      "type": "subtopic",
+      "label": "CCD",
+      "position": {
+        "x": 328.9857878718208,
+        "y": 670.9812781501682
+      },
+      "size": {
+        "width": 191,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center",
+        "colorType": "c"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "**CCD (Continuous Collision Detection) **は,伝統的な離散衝突よりも高度なゲーム内の衝突を検出するために使用される洗練された技術です.指定された時間枠で衝突をチェックする代わりに,CCDは移動するオブジェクトの全時間段または移動経路の間に起こりうるすべての衝突をチェックします.これは\"トンネル化\"の例を防ぐことができます.物体が1つのフレーム内の異なる点にあるため,離散衝突検出によって検出されない壁や障壁を通過するので,非常に速く移動します.離散検出よりも計算的に重くても,CCDは衝突検出の精度が向上し,正確な動きが必要とされるゲームでは重要な役割を果たします.",
+        "links": [
+          {
+            "title": "連続した衝突検出",
+            "url": "https://docs.unity3d.com/Manual/ContinuousCollisionDetection.html",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "fv5tivGad2P9GRZOodfn2",
+      "type": "topic",
+      "label": "ゲームエンジン",
+      "position": {
+        "x": -270.90430753953456,
+        "y": 516.4583152599474
+      },
+      "size": {
+        "width": 191,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "*ゲームエンジン* は,ビデオゲームの作成と開発を容易にするために設計されたソフトウェア・フレームワークである.開発者は,コンソール,モバイルデバイス,およびパーソナルコンピュータのためのゲームを作成するためにそれらを使用する.ゲームエンジンによって通常提供されるコア機能には,2Dまたは3Dグラフィックのためのレンダリングエンジン (\"レンダー\") が含まれる.物理エンジンまたは衝突検出 (および衝突応答),サウンド,スクリプト,アニメーション,人工知能,ネットワーク,ストリーミング,メモリ管理,およびグラフがあります.ゲームエンジンは,これらの再利用可能なコンポーネントを提供することによって,かなりの開発時間を節約できます.しかし,開発者はまだゲームのニーズに合わせてコードの多くをカスタマイズする必要があります.いくつかの人気のあるユニークなエンジンは,Unity,Unreal Engine, Godot.",
+        "links": [
+          {
+            "title": "ゲームエンジン",
+            "url": "https://en.wikipedia.org/wiki/Game_engine",
+            "type": "article"
+          },
+          {
+            "title": "ゲーム エンジンを選ぶのは簡単だ!",
+            "url": "https://www.youtube.com/watch?v=aMgB018o71U",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "7OffO2mBmfBKqPBTZ9ngI",
+      "type": "subtopic",
+      "label": "ゴドット",
+      "position": {
+        "x": -519.86850729745,
+        "y": 616.7966982100413
+      },
+      "size": {
+        "width": 159,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Godot はオープンソースのマルチプラットフォームゲームエンジンで,機能豊かなユーザーフレンドリーで知られています.世界中の数百人の貢献者によって開発され,2Dと3Dゲームの両方の作成をサポートしています. Godot は独自のスクリプト言語,GDScript を使用していますが,Python に類似していますが,C# もサポートしています.",
+        "links": [
+          {
+            "title": "ゴドトイン/ゴドト",
+            "url": "https://github.com/godotengine/godot",
+            "type": "opensource"
+          },
+          {
+            "title": "ゴドット",
+            "url": "https://godotengine.org/",
+            "type": "official"
+          },
+          {
+            "title": "ゴドト文書",
+            "url": "https://docs.godotengine.org/en/stable/",
+            "type": "official"
+          },
+          {
+            "title": "100秒でゴドット",
+            "url": "https://www.youtube.com/watch?v=QKgTZWbwD1U",
+            "type": "video"
+          },
+          {
+            "title": "チュートリアル - ゴドットでビデオゲームを作る方法",
+            "url": "https://www.youtube.com/watch?v=LOhfqjmasi0",
+            "type": "video"
+          },
+          {
+            "title": "チュートリアル - ゴドットで3Dゲームを作る方法",
+            "url": "https://www.youtube.com/watch?v=ke5KpqcoiIU",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a6H-cZtp3A_fB8jnfMxBR",
+      "type": "subtopic",
+      "label": "リアルなエンジン",
+      "position": {
+        "x": -519.86850729745,
+        "y": 517.7966982100413
+      },
+      "size": {
+        "width": 159,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "**Unreal Engine**は,Epic Gamesによって作成された強力なゲーム開発エンジンです.世界中のゲーム開発者によって使用され,iOS,Android,Windows,Mac,Xbox,PlayStationなどの複数のプラットフォームで高品質のゲームの作成をサポートします.Unreal Engineは,写真リアルなレンダリング,ダイナミックな物理と効果,強固なマルチプレイヤーフレームワーク,およびブループリントと呼ばれる柔軟なスクリプトシステムで知られています.このエンジンはアニメーション,AI,照明,映画撮影,およびポストプロセッシング効果のための専用ツールと機能も完全に装備されています.最新のバージョンであるUnreal Engine 5はリアルタイムグローバルイルミネーションを導入し,フィルム品質のリアルタイムグラフィックスを実現します.",
+        "links": [
+          {
+            "title": "リアルなエンジンドキュメント",
+            "url": "https://dev.epicgames.com/documentation/en-us/unreal-engine/unreal-engine-5-4-documentation",
+            "type": "official"
+          },
+          {
+            "title": "Unreal Engine YouTubeチャンネル",
+            "url": "https://m.youtube.com/channel/UCBobmJyzsJ6Ll7UbfhI4iwQ",
+            "type": "official"
+          },
+          {
+            "title": "100秒で非現実",
+            "url": "https://www.youtube.com/watch?v=DXDe-2BC4cE",
+            "type": "video"
+          },
+          {
+            "title": "不実 の 源 の 異議",
+            "url": "https://discord.gg/unrealsource",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "CeAUEN233L4IoFSZtIvvl",
+      "type": "subtopic",
+      "label": "国産",
+      "position": {
+        "x": -519.86850729745,
+        "y": 570.7966982100413
+      },
+      "size": {
+        "width": 159,
+        "height": 42
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ゲームを作るには,Unreal,Unity3d,Godotなどのツールを使う必要はありません.ゲームを作るにはC++やRustのようなネイティブ言語も使用できます.しかし,あなたは自分自身で多くの作業をし,ゲームエンジンですでにあなたのためにされている多くのことを学ぶ必要があります.",
+        "links": [
+          {
+            "title": "C++ 専用ロードマップ",
+            "url": "https://roadmap.sh/cpp",
+            "type": "roadmap"
+          },
+          {
+            "title": "専用 腐蝕 道路 地図 を 訪問 する",
+            "url": "https://roadmap.sh/rust",
+            "type": "roadmap"
+          },
+          {
+            "title": "C++ で ゲーム開発を学ぶ",
+            "url": "https://learn.microsoft.com/en-us/cpp/overview/game-development-cpp?view=msvc-170",
+            "type": "article"
+          },
+          {
+            "title": "腐り を 用い て ゲーム を 構築 する",
+            "url": "https://rustmeup.com/building-games-with-rust",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "rNeOti8DDyWTMP9FB9kJ_",
+      "type": "subtopic",
+      "label": "ユニット 3D",
+      "position": {
+        "x": -519.86850729745,
+        "y": 464.7966982100413
+      },
+      "size": {
+        "width": 159,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "**Unity 3D**は,2Dと3Dゲームの両方の開発をサポートする汎用的でクロスプラットフォームゲームエンジンです.このゲームエンジンは,ユーザーが AR,VR,モバイル,コンソール,コンピュータを含むさまざまなゲームをC#で作成することができます. スクリプト,アセットバンドリング,シーンビルディング,シミュレーションなどの強力な機能とツールを提供し,開発者がインタラクティブなコンテンツを作成するのを支援します.Unity 3Dは,定期的にチュートリアル,スクリプト,資産,その他を寄与する大規模なアクティブコミュニティも備えています.",
+        "links": [
+          {
+            "title": "団結",
+            "url": "https://unity.com/",
+            "type": "official"
+          },
+          {
+            "title": "ビデオゲーム の ユニット エンジン",
+            "url": "https://unity.com/products/unity-engine",
+            "type": "official"
+          },
+          {
+            "title": "3Dゲームを作成する",
+            "url": "https://docs.unity3d.com/2021.2/Documentation/Manual/Quickstart3DCreate.html",
+            "type": "official"
+          },
+          {
+            "title": "100 秒 で 団結",
+            "url": "https://www.youtube.com/watch?v=iqlH4okiQqg",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4YgbrXLXf5mfaL2tlYkzk",
+      "type": "topic",
+      "label": "プログラミング言語",
+      "position": {
+        "x": -299.40430753953456,
+        "y": 718.8829068777812
+      },
+      "size": {
+        "width": 248,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "プログラミング言語はゲーム開発にとって非常に重要です.ゲームデザインと機能の支柱であるため.さまざまな言語が使用できますが,一部は強さと効率性のために業界で一般的に好まれています.最も人気のある言語にはC++,C#,Javaが含まれます.**C++**,主にビデオゲーム開発に使用される高レベルの言語は,速度と効率のために知られています.**Microsoftが開発したC#**は,Unityゲームエンジンと共に,マルチプラットフォームゲームを開発するために広く使用されています.**Java**は業界でも確立されており,Androidゲームの開発でもよく使用されています.ゲーム開発者にとってプロジェクトの要求と性質に一致する言語を選択することが不可欠です.プログラミング言語を選んでも ゲームの開発に成功するには その構造や論理,能力を深く理解する必要があります",
+        "links": [
+          {
+            "title": "C++ 専用ロードマップ",
+            "url": "https://roadmap.sh/cpp",
+            "type": "roadmap"
+          },
+          {
+            "title": "専用 腐蝕 道路 地図 を 訪問 する",
+            "url": "https://roadmap.sh/rust",
+            "type": "roadmap"
+          },
+          {
+            "title": "専用ジャワロードマップ",
+            "url": "https://roadmap.sh/java",
+            "type": "roadmap"
+          },
+          {
+            "title": "C++ で ゲーム開発を学ぶ",
+            "url": "https://learn.microsoft.com/en-us/cpp/overview/game-development-cpp?view=msvc-170",
+            "type": "article"
+          },
+          {
+            "title": "腐り を 用い て ゲーム を 構築 する",
+            "url": "https://rustmeup.com/building-games-with-rust",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "jsq0UXnIIC0Z_nbK2w48f",
+      "type": "subtopic",
+      "label": "C/C++",
+      "position": {
+        "x": -425.84276797402634,
+        "y": 718.8829068777814
+      },
+      "size": {
+        "width": 91,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "**C**と **C++ (一般的にCPPとして知られる) は,コンピュータ科学における最も基礎的な高等レベルのプログラミング言語のうちの2つである. **C**は1970年代に開発され,手順言語であり,段階的なアプローチに従うことを意味します.その基本的な原則には構造化されたプログラミングと語彙変数範囲が含まれます.一方, **C++**は手順的およびオブジェクト指向プログラミングのパラダイムに従います. \"クラス\"という概念を追加するためにCに拡張として開発されました.オブジェクト指向プログラミングの核心特性である. C++はオーバーロード,例外処理,テンプレートなどの新しい機能を導入することによってC機能を強化します.",
+        "links": [
+          {
+            "title": "C プログラミング言語",
+            "url": "https://en.wikipedia.org/wiki/C_%28programming_language%29",
+            "type": "article"
+          },
+          {
+            "title": "C++ プログラミング言語",
+            "url": "https://en.wikipedia.org/wiki/C%2B%2B",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Ph3ZqmSnwwzUBUC-6dgf-",
+      "type": "subtopic",
+      "label": "C#",
+      "position": {
+        "x": -519.8427679740262,
+        "y": 718.8829068777812
+      },
+      "size": {
+        "width": 91,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "**CSharp (C#) **は,マイクロソフトが開発し維持する現代的なオブジェクト指向プログラミング言語である.主にデスクトップアプリケーションの開発および,より顕著に,Microsoft.Netのフレームワーク内のWindowsアプリケーションに使用される.しかし,言語は多様性があり,ウェブサービス,ウェブサイト,エンタープライズソフトウェア,さらにはモバイルアプリケーション開発でも幅広い用途があります.C#は,シンプルさ,タイプ安全性,コンポーネント指向ソフトウェア開発のサポートで知られています.また,ゲーム開発のための好みの言語の一つである Unityによって採用されています.",
+        "links": [
+          {
+            "title": "C#を学ぶ",
+            "url": "https://learn.microsoft.com/en-us/dotnet/csharp/",
+            "type": "official"
+          },
+          {
+            "title": "C 鋭いプログラミング言語",
+            "url": "https://en.wikipedia.org/wiki/C_Sharp_(programming_language",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "AaRZiItRcn8fYb5R62vfT",
+      "type": "subtopic",
+      "label": "GDScript",
+      "position": {
+        "x": -518.3608206359495,
+        "y": 824.8829068777812
+      },
+      "size": {
+        "width": 185,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "GDScriptは,オープンソースのゲーム開発プラットフォームである Godot Engineのために特別に設計された高レベルのダイナミック型プログラミング言語です. ゲーム論理と機能の使いやすさと急速な開発のために設計されています.GDScriptは,Pythonに馴染みのある開発者向けに学習とコーディングを簡素化し, Godot の豊富な内蔵機能とゲーム専用APIへの直接アクセスを提供します.この言語は Godot のシーンシステムとスクリプト環境と密接に統合され,開発者がゲームオブジェクトを作成し,操作し,入力処理し,ゲーム行動を効率的に制御できるようにします.[https://gdscript.com/) - [@video@How to program in Godot - GDScript Tutorial](https://www.youtube.com/watch?v=e1zJS31tr88)",
+        "links": []
+      }
+    },
+    {
+      "id": "ts9pWxUimvFqfNJYCmNNw",
+      "type": "subtopic",
+      "label": "腐蝕",
+      "position": {
+        "x": -519.8427679740262,
+        "y": 771.8829068777812
+      },
+      "size": {
+        "width": 91,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "**Rust**は,性能と安全性,特に安全な同期性のために設計された近代的なオープンソースのマルチパラダイムプログラミング言語です.最初はゴミ収集なしでメモリ安全性を提供できる言語としてMozilla Researchによって設計されました.それ以来,C++のような言語としばしば有利に比較される機能とパフォーマンスのために人気を得ています.その豊かなタイプシステムと所有モデルは,高度な抽象性を維持しながらメモリ安全性と糸の安全性を保証します.Rustは,強制的な手続き的,同期的なアクター,オブジェクト指向的および純粋な機能的なスタイルの混合をサポートします.",
+        "links": [
+          {
+            "title": "専用 腐蝕 道路 地図 を 訪問 する",
+            "url": "https://roadmap.sh/rust",
+            "type": "roadmap"
+          },
+          {
+            "title": "腐り を 用い て ゲーム を 構築 する",
+            "url": "https://rustmeup.com/building-games-with-rust",
+            "type": "article"
+          },
+          {
+            "title": "腐り を 学ばれ",
+            "url": "https://youtu.be/BpPEoZW5IiY?si=lyBbBPLXQ0HWdJNr",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "AJp_QRLgSG5ETXDIjUjmm",
+      "type": "subtopic",
+      "label": "パイソン",
+      "position": {
+        "x": -425.84276797402634,
+        "y": 771.8829068777812
+      },
+      "size": {
+        "width": 91,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Pythonは,Guido van Rossumによって設計され,1991年に出版された人気の高いレベルのプログラミング言語です.学習と使用のシンプルさにより,初心者にとって素晴らしい選択です.Pythonのデザイン哲学は,重要なインデントメントを使用することでコード読みやすさを強調します.その言語構造とオブジェクト指向的アプローチは,開発者が小規模および大規模なプロジェクトのために明確な論理的なコードを書くのを助けることを目的としています.Pythonは動的にタイプされ,ゴミ収集されています.さらに,手順,オブジェクト指向,機能プログラミングを含む複数のプログラミングパラダイムをサポートします.PythonはしばしばWeb開発,ソフトウェア開発,データベース開発,機械学習などに使用されます.通常ゲーム開発に使用されないが,一部のゲーム開発者は脚本作成と作業自動化のために Python を使用している.",
+        "links": [
+          {
+            "title": "専用 Python ロードマップ を 訪問する",
+            "url": "https://roadmap.sh/python",
+            "type": "roadmap"
+          },
+          {
+            "title": "パイソン",
+            "url": "https://www.python.org/",
+            "type": "official"
+          },
+          {
+            "title": "Python ドキュメンテーション",
+            "url": "https://www.python.org/doc/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "lIb5MeDoqVj6HycveOgTS",
+      "type": "topic",
+      "label": "コンピュータ・グラフィック",
+      "position": {
+        "x": -224.23195037554086,
+        "y": 1238.7939445578397
+      },
+      "size": {
+        "width": 249,
+        "height": 50
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "コンピュータグラフィックス (Computer Graphics) は,視覚コンテンツをデジタルで合成し操作する方法を研究するコンピュータ科学のサブフィールドである.この分野は,専門的なコンピュータソフトウェアとハードウェアを使用して視覚コンテンツを作成し操作する.この分野は主にデジタルゲームやビデオゲーム,映画におけるCGI,および広告のための視覚効果の作成に使用される.この分野は,2つの主要なカテゴリーに分かれます. **ラスターグラフィックス**および **ベクトルグラフィックス**.ビットマップとして知られるラスターグラフィックスには,ドットマトリックスデータ構造を通じて画像の表示が含まれ,ベクトルグラフィックスには,コンピュータグラフィックスにおける画像を表すために多角形の使用が含まれます.これらの方法の両方には独自のシナリオがあります.コンピュータグラフィックスの研究に不可欠な他のコンセプトにはレンダリング (リアルタイムレンダリングとオフラインレンダリングの両方を含む),アニメーション,および3Dモデリングが含まれます.一般的に,ゲーム開発者やアニメーション専門家にとってコンピュータグラフィックスキルは不可欠です.",
+        "links": [
+          {
+            "title": "コンピューター グラフィックス の 紹介",
+            "url": "https://open.umn.edu/opentextbooks/textbooks/420",
+            "type": "article"
+          },
+          {
+            "title": "ビデオゲーム の グラフィック は どの よう に 機能 し ます か",
+            "url": "https://www.youtube.com/watch?v=C8YtdC8mxTU",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JW5c_0JEtO-OiBoXUia6A",
+      "type": "subtopic",
+      "label": "レイ・トレーシング",
+      "position": {
+        "x": -516.9565121239493,
+        "y": 1078.9347422218125
+      },
+      "size": {
+        "width": 204,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "射線追跡は,コンピュータグラフィックスにおけるレンダリング技術で,光の物理的行動をシミュレーションする.影や反射,反射を捕捉し,光を反射するため,高度な視覚的リアリズムを持つ画像を生成する.射線追跡は,カメラ (目) から光源 (光オブジェクト) までの光の経路を追跡し,途中で画像内の各ピクセルの色を計算する.色値計算では,光源が反射または反射したオブジェクトと光源の性質を考慮し,それが環境,点またはスポットであるかどうかが考慮されます.射線追跡アルゴリズムは,スキャンラインレンダリングや\"Z-バッファ\"などのラスター化アルゴリズムの処理が複雑である効果を処理します.",
+        "links": [
+          {
+            "title": "レイ・トレーシングとは?",
+            "url": "https://www.pcmag.com/how-to/what-is-ray-tracing-and-what-it-means-for-pc-gaming",
+            "type": "article"
+          },
+          {
+            "title": "Nvidia GeForce RTX",
+            "url": "https://www.nvidia.com/en-us/geforce/rtx/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "vYNj9nzu90e9xlrzHULnP",
+      "type": "subtopic",
+      "label": "ラステリゼーション",
+      "position": {
+        "x": -516.9565121239493,
+        "y": 1131.9347422218125
+      },
+      "size": {
+        "width": 204,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "コンピュータ・グラフィックスの領域では**Rasterization**は,画像データをビットマップ形式,すなわちピクセルまたはドットに変換するプロセスを指します. 3Dレンダリングでは主に使用され,三次元多角形形が二次元画像に変換され,高さ,幅,色データを保有します.これはスキャン変換プロセスです.グラフィックパイプラインを通じて処理された頂点と原始は,数学的形で断片に変換されます.各断片はラスターグリッドで位置を見つけます.このプロセスはフレームバッファーのピクセルになる断片,画面で見られる最終的なレンダリング画像です.しかし,ラスター化によって画像の解像度が表示されるデバイスに制限されていることに注意することが重要です.",
+        "links": [
+          {
+            "title": "3Dレンダリングラスター化",
+            "url": "https://www.techspot.com/article/1888-how-to-3d-rendering-rasterization-ray-tracing/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "shSRnMf4NONuZ3TGPAoQc",
+      "type": "subtopic",
+      "label": "グラフィック・パイプライン",
+      "position": {
+        "x": -516.9565121239493,
+        "y": 1184.9347422218125
+      },
+      "size": {
+        "width": 204,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "グラフィック・パイプラインは,グラフィック・システムによって3Dモデルを2D画像または画面に表示できる画像に変換するために行われている一連のステップである.これらのステップには,通常変換,剪定,照明,ラスター化,シェーディング,その他のプロセスが含まれます.パイプラインの各ステップは,下流段階で使用されるデータを準備または操作する操作を表します.パイプラインは,シーンの高レベルの説明から始まり,画面にレンダされた最終画像で終了します.効率的なレンダリングと高品質のビジュアライゼーションに役立つため,開発者が学ぶべきコンピュータグラフィックにおける主要なコンセプトです.",
+        "links": [
+          {
+            "title": "グラフィック・パイプライン",
+            "url": "https://www.cs.cornell.edu/courses/cs4620/2020fa/slides/11pipeline.pdf",
+            "type": "article"
+          },
+          {
+            "title": "グラフィック・パイプラインの定義",
+            "url": "https://www.pcmag.com/encyclopedia/term/graphics-pipeline",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "rmtxybcavWV6A53R4ZWgc",
+      "type": "subtopic",
+      "label": "サンプリング",
+      "position": {
+        "x": -516.9565121239493,
+        "y": 1237.9347422218125
+      },
+      "size": {
+        "width": 204,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "**サンプリング**は,連続した数学関数 (画像,信号,光,音) を不規則なデジタル表現に変換する方法である.このプロセスは,定期的な間隔でスナップショットを撮ることで行われます.これはサンプリングという概念を与えてくれます.いくつかの一般的なサンプリング技術には:均一なサンプリング (均等に隔離されたサンプリング),ランダムなサンプリング (ランダムな間隔で取られたサンプリング),および緊張したサンプリング (均等とランダムなサンプリングの間の妥協点) が含まれる.サンプリングの速度は高くなるほど,元の関数を不規則なサンプリングから正確に再構築することができます.効果的なサンプリングは現実的なコンピュータグラフィックを実現する重要な側面です.",
+        "links": [
+          {
+            "title": "テクスチャとサンプリング",
+            "url": "https://cglearn.eu/pub/computer-graphics/textures-and-sampling",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "qIrePusMuvcUva9LMDmDx",
+      "type": "subtopic",
+      "label": "シャダー",
+      "position": {
+        "x": -516.9565121239493,
+        "y": 1293.7939445578397
+      },
+      "size": {
+        "width": 204,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center",
+        "colorType": "h"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "シェッダー (Shader) は,3Dコンピュータグラフィックスで使用されるソフトウェアの一種である.画像データの計算と変換によって質の高い視覚効果を表示するために使用されます.また,シェッダーはオブジェクトの最終色を決定する責任があります.シェッダーにはいくつかの種類があります.頂点シェッダー,幾何学シェッダー,ピクセルシェッダー,および計算シェッダー.これらはそれぞれ,ピクセル,ピクセル,および全体的な幾何学などの画像の特定の属性を操作するためにプログラムされています.現実的で魅力的な視覚体験を生み出すことを目指すゲーム開発者にとって不可欠なツールです.",
+        "links": [
+          {
+            "title": "ビデオ ゲーム の シャダー は 何 です か",
+            "url": "https://www.gamedesigning.org/learn/shaders/",
+            "type": "article"
+          },
+          {
+            "title": "プログラミング グラフィック シェダー の 初心者 の ガイド",
+            "url": "https://gamedevelopment.tutsplus.com/a-beginners-guide-to-coding-graphics-shaders--cms-23313t",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "WVgozaQPFbYthZLWMbNUg",
+      "type": "subtopic",
+      "label": "レンダリング式",
+      "position": {
+        "x": -516.9565121239493,
+        "y": 1347.7939445578397
+      },
+      "size": {
+        "width": 204,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "**レンダー方程式** (Render Equation) は,コンピュータグラフィックスにおける基本的な原理であり,今日の最も先進的な照明アルゴリズムの基礎として機能している.初めて1986年にジェームズ・カジヤによって導入された.この方程式は,特定の環境における物理的な物体と光がどのように相互作用するかを定義する.この方程式は,伝送,吸収,分散,排出などの側面を考慮して光の行動をシミュレートしようとします.この方程式は,正確に解決するために計算的に密集的であることができます.しかし,それを接近して解決するために多くの方法が開発されており,コンピュータグラフィックスで非常に現実的な画像の生成を可能にする.",
+        "links": [
+          {
+            "title": "レンダリング式",
+            "url": "https://en.wikipedia.org/wiki/Rendering_equation",
+            "type": "article"
+          },
+          {
+            "title": "インタラクティブグラフィック 12 - レンダリング方程式",
+            "url": "https://www.youtube.com/watch?v=wawf7Am6xy0",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "eI2jym4AAz3ani-lreSKE",
+      "type": "subtopic",
+      "label": "思考",
+      "position": {
+        "x": -419.9565121239493,
+        "y": 1402.7939445578397
+      },
+      "size": {
+        "width": 107,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center",
+        "colorType": "h"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ゲーム開発における反射,特にシェッダーにおける反射は,現実世界で起こるような物体からの光の反射をシミュレートする現象である.シェッダーは,光源から光線を物体の表面に放出することによってこの効果を複製する.光線が表面に当たると,光の色と角度を計算し,その表面から光がどのように反射すべきかを定義する.シェッダーにおける反射はさらに2種類に分類することができる.スペクラー反射と拡散反射.スペクラー反射は,表面からの光の反射のような反射である.各線は光線が同じが反対の角度で反射される光線で反射される.これらの反射はコンピュータグラフィックスで数値化され,しばしばPhong反射モデルやLambertian反射モデルなどの反射モデルを使用します.",
+        "links": [
+          {
+            "title": "完璧な 思考 を 与える",
+            "url": "https://developer.nvidia.com/blog/rendering-perfect-reflections-and-refractions-in-path-traced-games/",
+            "type": "article"
+          },
+          {
+            "title": "ゲーム の 開発 に 関する 考え方 を どの よう に 使う こと が でき ます か",
+            "url": "https://www.youtube.com/watch?v=R1A86lZ8myQ",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "0g1z5G2dsF4PTIfFAG984",
+      "type": "subtopic",
+      "label": "拡散する",
+      "position": {
+        "x": -416.9565121239493,
+        "y": 1475.952242669871
+      },
+      "size": {
+        "width": 101,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "3Dレンダリングとゲーム開発の世界では \"diffuse\"は散らばる照明や散らばる反射を指す.物体が三次元で現実的に照らされていくための重要な概念です.",
+        "links": [
+          {
+            "title": "アルベド と ディフーズ マップ の 違い",
+            "url": "https://www.a23d.co/blog/difference-between-albedo-and-diffuse-map/",
+            "type": "article"
+          },
+          {
+            "title": "テクスチャー スタイル を 学ぶ ため の 完全な ガイド",
+            "url": "https://cgobsession.com/complete-guide-to-texture-map-types/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "odfZWKtPbb-lC35oeTCNV",
+      "type": "subtopic",
+      "label": "望遠鏡",
+      "position": {
+        "x": -416.9565121239493,
+        "y": 1528.7393171338706
+      },
+      "size": {
+        "width": 101,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`スペクラー・`反射は,鏡のような反射である.これらの場合,光線が吸収されるよりも反射される.インシデンス角度は反射角度に等しい,つまり光が介質に入り,それから反射する角度は,反射した束の角度が同じである.",
+        "links": [
+          {
+            "title": "スペクラー・リフレクション - ウィキ",
+            "url": "https://en.wikipedia.org/wiki/Specular_reflection",
+            "type": "article"
+          },
+          {
+            "title": "鏡 の 反映 - 定期 的 な 反映,鏡,散らか れ た 反映",
+            "url": "https://www.rp-photonics.com/specular_reflection.html",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "THMmnx8p_P0X-dSPoHvst",
+      "type": "subtopic",
+      "label": "マッピング",
+      "position": {
+        "x": -518.5116185559558,
+        "y": 1402.7939445578397
+      },
+      "size": {
+        "width": 96,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center",
+        "colorType": "h"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ゲーム開発における\"マッピング\"は,特にシェッダーの文脈において,主にテクスチャマッピングと通常のマッピングを指す.**テクスチャマッピング**は3Dモデルの表面にテクスチャ (画像または色データ) の適用である.これは2D表面が3Dモデルの表面をどのように巻いているかを定義するプロセスである.または3Dモデルの表面に平らな画像が描かれ,その外観を塗る方法である.これはオブジェクトの色から粗さや反射性まで何でもあり得る.しかし, **Normal Mapping**は,追加の幾何学を加えることなく,3Dモデルの表面に複雑性の幻想を作り出すために使用される技術である.ノーマルマップは,表面の詳細,例えば bumps, grooves, scratchesなどの追加を可能にする特殊なテクスチャーであり,それが実際の幾何学で表現されているかのように光をキャッチし,低多角形モデルがより複雑な形として見えるようにします.",
+        "links": [
+          {
+            "title": "地図の設計",
+            "url": "https://www.gamedeveloper.com/design/designing-maps-that-complement-game-mechanics",
+            "type": "article"
+          },
+          {
+            "title": "ゲーム開発における地図とタイル",
+            "url": "https://code.tutsplus.com/an-introduction-to-creating-a-tile-map-engine--gamedev-10900t",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "iBZ1JsEWI0xuLgUvfWfl-",
+      "type": "subtopic",
+      "label": "質感",
+      "position": {
+        "x": -518.5116185559558,
+        "y": 1475.952242669871
+      },
+      "size": {
+        "width": 96,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`テクストゥー`はオブジェクトの視覚的品質である. `メッシュ`はオブジェクトの形状または `トポロジー`を決定するときは,テクストゥーラはそのオブジェクトの品質を記述する.例えば,球状の網がある場合,それは輝くべきか?それは粗いべきか?岩からか木からか?このような質問は,しばしばテクストゥーを使用して解決される.テクストゥーラはしばしば3Dマッシュに巻かれた2D画像に過ぎない.3Dマッシュは最初にセグメントに分け,展開される.3Dマッシュは2Dマッシュに変換され,このプロセスは\"`UVアンラップリング`\"として知られる.マッシュが開封された後,画像の形式のテクストゥーラは3Dマッシュの2Dマッシュに適用される.この方法で,マッシュを巻く方法を知っています.テクスチャはゲームの視覚的感覚と美学を決定します",
+        "links": [
+          {
+            "title": "テクスチャと材料",
+            "url": "https://gamedevinsider.com/making-games/game-artist/texturing-and-materials/",
+            "type": "article"
+          },
+          {
+            "title": "ニンテンドー テクスチャー の 動作",
+            "url": "https://www.youtube.com/watch?v=WrCMzHngLxI",
+            "type": "video"
+          },
+          {
+            "title": "Pixar Textures の 働き方",
+            "url": "https://www.youtube.com/watch?v=o_I6jxlN-Ck",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "r4UkMd5QURbvJ3Jlr_H9H",
+      "type": "subtopic",
+      "label": "バンプ",
+      "position": {
+        "x": -518.5116185559558,
+        "y": 1528.952242669871
+      },
+      "size": {
+        "width": 96,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`Bump`はテクスチャに非常に似ている.実際はテクスチャの一種である.レンガの壁のテクスチャを考慮すると,幾何学的に処理された場合,壁内に存在する詳細の量は信じられないほど要求的で浪費的であることがますます明らかになる.この不効率性を防ぐために, `bump`の地図が作成されました.伝統的に,フラットテクスチャは, `カラーマップと呼ばれるもののイメージにすぎません.つまり,ピクセルのそれぞれの色がテクスチャを表すべき場所です.フロア,壁,または任意のオブジェクトの写真を撮影すると,その画像は本質的にカラーマップです.2Dマッシュを2Dマッシュに塗って,同じ2Dマッシュを2Dマッシュに塗って,3次元性を模倣するグラフィック効果を生み出します.次のリソースからもっと学びましょう: - [@article@Bump Maps] (https://developer.valvesoftware.com/wiki/Bump_map) - [@video@Normals, Normal maps and Bump maps] (https://www.youtube.com/watch?v=l5PYyzsZED8) - [video@Bump, normal and displacement] (https://www.youtube.com/watch?v=43ra6fNGc)",
+        "links": []
+      }
+    },
+    {
+      "id": "YGeGleEN203nokiZIYJN8",
+      "type": "subtopic",
+      "label": "パララックス",
+      "position": {
+        "x": -518.5116185559558,
+        "y": 1581.952242669871
+      },
+      "size": {
+        "width": 96,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ゲーム開発とグラフィックスにおいて,パララックスとは,視界の異なる2つの線に沿って見られる物体の表面的な位置の変化を指し,それらの2つの線間の傾斜角または半角によって測定される.より単純な言葉で言えば,パララックスとは,前景と比較して異なる速度で背景層を移動することによって,2次元環境で深さの幻想を作り出すために使用される技術である.",
+        "links": [
+          {
+            "title": "パララックス効果",
+            "url": "https://www.encora.com/insights/how-to-take-advantage-of-parallax-in-programming-and-video-games",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "9cBOfj58I4hBlxlQIyV9g",
+      "type": "subtopic",
+      "label": "ホライゾン",
+      "position": {
+        "x": -518.5116185559558,
+        "y": 1634.952242669871
+      },
+      "size": {
+        "width": 96,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "グラフィックスでは,空が地球または海洋のような平面表面に出会う視界を表す水平線を指す.これは視界と芸術における基本的な概念であり,画像に深さと距離感を生み出す基準点として機能する.視界線の配置は,画像の構成と気分に大きく影響を与える可能性があります.高いまたは低い視界線は,視聴者のシーンに対する認識に異なる影響を及ぼします.",
+        "links": [
+          {
+            "title": "消える点",
+            "url": "https://en.wikipedia.org/wiki/Vanishing_point",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1RdyzTI_TXqmct2bIbNh9",
+      "type": "subtopic",
+      "label": "コンピュータアニメーション",
+      "position": {
+        "x": -129.0221800907267,
+        "y": 998.6993653585232
+      },
+      "size": {
+        "width": 205,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "コンピュータアニメーションは,コンピュータを用いて動く画像を作成する芸術を指す.ますますゲーム開発業界における重要な要素になっている.本質的には,2Dアニメーションと3Dアニメーションを2つのカテゴリーに分けられている.ベクトルアニメーションとも呼ばれる2Dアニメーションは,モルフィング,ツインリング,洋剥ぎを含む二次元環境で画像を作成することを含む.一方,CGIとしても知られている3Dアニメーションは,3次元空間におけるオブジェクトとキャラクターを移動させる.アニメーションプロセスは,通常,3次元オブジェクトの数学的な表現を作成します.このオブジェクトは,最終的なアニメーションを作成するために仮想空間内でアニメーターによって操作されます.Unity,Maya,Blenderのようなソフトウェアはゲーム開発においてコンピュータアニメーションに使用されています.",
+        "links": [
+          {
+            "title": "コンピュータアニメーション",
+            "url": "https://www.adobe.com/uk/creativecloud/animation/discover/computer-animation.html",
+            "type": "article"
+          },
+          {
+            "title": "コンピュータアニメーションとは?",
+            "url": "https://unity.com/topics/what-is-computer-animation",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "WK6fLWJq9Vh2ySVrSqd-U",
+      "type": "subtopic",
+      "label": "カラー",
+      "position": {
+        "x": -129.0221800907267,
+        "y": 1051.6993653585232
+      },
+      "size": {
+        "width": 205,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "コンピュータグラフィックスの領域では,色は不可欠な役割を果たします.RGB (赤,緑,青),CYMK (シアン,黄,マゲンタ,黒) などなどのさまざまな色モデルで定義できます.RGBは,色のスペクトラムを生成するために,異なる量で主要な色 (赤,緑,青) を組み合わせる色モデルです.このモデルはデジタルディスプレイでしばしば使用されます.相反,CMYKは色印刷に使用される色モデルです.それは,シアン,マゲンタ,黄,黒を主要な色として使用します.HSL (色,飽和度,軽度) と HSV (色,飽和度,価値) は,人間の認識に基づいて色を表す他の有用なモデルです.コンピュータグラフィックにおける重要な色の要素の一つは,色深さ,また深さとして知られています.[@video@Pixar in a Box - Color]https://www.khanacademy.org/computing/pixar/animate/ball/v/intro-animation)",
+        "links": []
+      }
+    },
+    {
+      "id": "1S1qPogijW2SQCiF7KLZe",
+      "type": "subtopic",
+      "label": "視覚知覚",
+      "position": {
+        "x": -129.0221800907267,
+        "y": 1104.6993653585232
+      },
+      "size": {
+        "width": 205,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "視覚知覚はゲーム開発の基本的な側面であり,コンピュータグラフィックス分野では広く探求されています. ゲームで浸透的でダイナミックな視覚体験を生み出すために不可欠である私たちの目からの視覚情報を解釈し理解する能力を含む.この研究は,光,色,形,形,深さ,動きを理解することを含む.これらは,美学的に愉快で魅力的なグラフィックを作成するための重要な要素である.視覚知覚の充分利用は,ゲーム開発者がゲームの世界と相互作用し,体験する方法を制御し,操作することを可能にする.",
+        "links": [
+          {
+            "title": "視覚心理学と知覚",
+            "url": "https://www.gamedeveloper.com/design/it-s-all-in-your-mind-visual-psychology-and-perception-in-game-design",
+            "type": "article"
+          },
+          {
+            "title": "ビデオゲーム の 概念 を 拡大 する",
+            "url": "https://link.springer.com/chapter/10.1007/978-3-030-45545-3_7",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "RgC9TOc0wbr2QSuvrpIDV",
+      "type": "subtopic",
+      "label": "音声複製",
+      "position": {
+        "x": -129.0221800907267,
+        "y": 1157.6993653585232
+      },
+      "size": {
+        "width": 205,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`Tone Reproduction`または `Tone Mapping`は,コンピュータグラフィックスでは,より限られたダイナミック範囲を持つメディアで高ダイナミック範囲の画像の外観をシミュレートするために使用される技術です.プリントアウト,CRT,LCDモニター,その他のディスプレイは,限られたダイナミック範囲のみを再現できます.この技術はゲーム開発で広く使用され,開発者は視覚体験を改善するために使用します.このプロセスには,シーンから光を取り出し,視覚的外観を保持しながらより小さな色域に映し出します.明るさ,飽和度,色彩に関して.様々な色彩映し算法があります.各には異なるイメージングタスクに適したユニークな属性があります.",
+        "links": [
+          {
+            "title": "トーンマッピング",
+            "url": "https://graphics-programming.org/resources/tonemapping/index.html",
+            "type": "article"
+          },
+          {
+            "title": "ビデオゲーム の 音響 デザイン",
+            "url": "https://www.gamedeveloper.com/audio/sound-design-for-video-games-a-primer",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "lNKSnx79jCQW0AM1bFITr",
+      "type": "horizontal",
+      "label": "ホリゾントノード",
+      "position": {
+        "x": -452.07124610794176,
+        "y": 947.7235652019866
+      },
+      "size": {
+        "width": 323,
+        "height": 20
+      },
+      "style": {
+        "stroke": "#000000",
+        "strokeWidth": 4
+      },
+      "z_index": 999
+    },
+    {
+      "id": "bEF-DIgaMpKyRTw2uAB8R",
+      "type": "label",
+      "label": "深いところへ",
+      "position": {
+        "x": -453.40430753953456,
+        "y": 911.7235652019866
+      },
+      "size": {
+        "width": 155,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 20
+      },
+      "z_index": 999
+    },
+    {
+      "id": "DDN3mn0LTueBhjRzXFcbU",
+      "type": "subtopic",
+      "label": "照明 と 影",
+      "position": {
+        "x": 217.39905342267605,
+        "y": 1145.5450031343512
+      },
+      "size": {
+        "width": 320,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center",
+        "colorType": "h"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "**Lighting and Shadows**はコンピュータグラフィックスにおける重要な要素であり,ゲームのビジュアルリアリズムに大きく貢献する.それらは二次元ディスプレイで3次元空間の深さと感覚を作り出す.**Lighting**はゲーム開発では現実世界の光属性を模倣する.その材料特性や光の強度,方向,色に基づいて光が異なる物体と表面とどのように相互作用するかを計算する.Ray TracingやRasterizationのようなさまざまなアルゴリズムがこれらの相互作用をシミュレーションするために使用されます.リアルな影の生成には複雑な計算,光の位置,ブロックするオブジェクトの形とサイズ,および影響を受けるエリアの距離を考慮する必要があります.シャドーマッピングとシャドー・ボリュームはゲーム開発における影の作成の一般的な技術です.これらの側面への特別な注意は,ゲーム環境における認識された現実性と浸透を劇的に高めることができます.",
+        "links": [
+          {
+            "title": "稲妻 と 影",
+            "url": "https://www.techspot.com/article/1998-how-to-3d-rendering-lighting-shadows/",
+            "type": "article"
+          },
+          {
+            "title": "遊戯 の 照明 の 芸術",
+            "url": "https://3dskillup.com/effective-lighting-for-games/",
+            "type": "article"
+          },
+          {
+            "title": "3D ゲーム の 照明 に 関する 紹介",
+            "url": "https://www.gridpaperstudio.com/post/introduction-to-lighting-in-3d-game-engines-a-beginner-s-guide",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ygtru6fqQ3gpFZRN_I8rP",
+      "type": "subtopic",
+      "label": "影の地図",
+      "position": {
+        "x": 216.131124908341,
+        "y": 1198.5450031343512
+      },
+      "size": {
+        "width": 145,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center",
+        "colorType": "h"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "影映射は,シーンに影を追加するためにコンピュータグラフィックスで使用される技術である.このプロセスは2つのステップを含む - 影映射を生成し,その後シーンをレンダリングする.影映射生成ステップでは,光源の視点からシーンをレンダリングし,深度情報を捕捉する.これは,光から最も近い表面への距離を各光の方向に沿って保存するテクスチャ,影映射図に導致します.シーンレンダリングステップでは,シーンがカメラの視点からレンダリングされます.可視距離の各ポイントでは,表面からの距離が計算され,影映射地図に保存されている相応しい距離と比較されます.点の距離が貯蔵距離よりも大きい場合は,ポイントは影の中にあります.そうでなければ,点は照らされます.この情報は点の色を調整するために使用され,影効果を生成します.",
+        "links": [
+          {
+            "title": "影映射技術",
+            "url": "https://dev.to/hayyanstudio/shadow-mapping-techniques-implementing-shadows-in-3d-scenes-using-shadow-mapping-46hl/",
+            "type": "article"
+          },
+          {
+            "title": "影 の 映射 に 関する 初心 者 の ガイド",
+            "url": "https://gamedev.net/blog/2080/entry-2261232-shadow-mapping-part-1-pcf-and-vsms/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Wq8siopWTD7sylNi0575X",
+      "type": "subtopic",
+      "label": "2D",
+      "position": {
+        "x": 216.131124908341,
+        "y": 1251.5450031343512
+      },
+      "size": {
+        "width": 51,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "2Dゲーム開発は,平面グラフィックを使用して平面な平面でゲームを作成し,通常はxとy座標を使用します.80年代と90年代のクラシックアーケードゲームから,今日のインディゲームの豊富な範囲まで, 2Dゲーム開発はゲーム業界の活発で多様な分野です. 2Dゲームは視覚的に魅力的で懐かしいだけでなく,3Dゲーム開発と比較して開発者が作成するメカニクスによりしばしばアクセスできます.",
+        "links": [
+          {
+            "title": "2Dと3Dゲーム開発",
+            "url": "https://hireindiandevelopers.medium.com/2d-and-3d-game-development-a-comprehensive-guide-7d22c4fdd706",
+            "type": "article"
+          },
+          {
+            "title": "2Dゲームを作る方法",
+            "url": "https://gamemaker.io/en/blog/how-to-make-a-2d-game",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cv1-AwewuqJsZDBI3h84G",
+      "type": "subtopic",
+      "label": "立方体",
+      "position": {
+        "x": 270.131124908341,
+        "y": 1251.5450031343512
+      },
+      "size": {
+        "width": 90,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "コンピュータグラフィックスでは,影の文脈で\"キューブ\"はしばしば\"影の体積\"という概念を視覚化するために,立方形のオブジェクトを使用することを指します. \"影の体積\"という概念を視覚化するために立方形のようなオブジェクトを使用することを指します.立方体の光源が立方形に輝いていることを想像してください.光の視点から,無限に外へ広がった立方形は,体積を形成します.この\"影の体積\"の内部にある任意のオブジェクトは影の中に存在すると考えられています.理解に役立つが,影の体積自体は,常に立方形のような形ではなく,その複雑さは影を投影するオブジェクトに依存します.",
+        "links": [
+          {
+            "title": "立方体を描く",
+            "url": "https://dev-tut.com/2022/unity-draw-a-debug-cube/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Lu38SfZ38y89BffLRMmGk",
+      "type": "subtopic",
+      "label": "カスケード",
+      "position": {
+        "x": 216.131124908341,
+        "y": 1304.5450031343512
+      },
+      "size": {
+        "width": 145,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Cascaded は通常,大きな面積に現実的な影を映す技術である cascaded shadow map を指します.",
+        "links": [
+          {
+            "title": "浅瀬 の 影",
+            "url": "https://www.gamedev.net/forums/topic/632574-cascading-shadow-maps-best-approach-to-learn/4988720/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "VLrcBE1vb6N5fw5YESCge",
+      "type": "subtopic",
+      "label": "光源",
+      "position": {
+        "x": 364.7557147875399,
+        "y": 1198.5450031343512
+      },
+      "size": {
+        "width": 174,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center",
+        "colorType": "h"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ゲーム開発において,光源は,シーンの視覚的な魅力と現実性に影響を与える重要な構成要素である.それは太陽,ランプ,火花などの光を発するゲームシーン内の任意のオブジェクトを表す.光源は静態または動態に分類することができる.静態光源はゲーム中に動かないし変化しない.動態光源は移動することができ,その性質はリアルタイムで変化する.操作できる光源の特性には,強度 (光源はどのように),色,範囲 (光がどこまで広がるのか),方向性,明るいタイプ (点,方向性,またはスポット) が含まれる.",
+        "links": [
+          {
+            "title": "遊戯 の 照明 の 芸術",
+            "url": "https://3dskillup.com/effective-lighting-for-games/",
+            "type": "article"
+          },
+          {
+            "title": "稲妻ゲーム環境",
+            "url": "https://cgcookie.com/posts/art-of-lighting-game-environments",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "foD8K7V0yIxgeXwl687Bv",
+      "type": "subtopic",
+      "label": "方向性",
+      "position": {
+        "x": 364.7557147875399,
+        "y": 1251.5450031343512
+      },
+      "size": {
+        "width": 112,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "方向照明は太陽のような遠くの光源をシミュレートします.それは特定の位置ではなく方向のみを持っています. つまり,光線は平行であり,シーン内のオブジェクトの位置に関係なく一貫した影を投影します.これは太陽光や月光をシミュレートするのに理想的です.",
+        "links": [
+          {
+            "title": "方向照明",
+            "url": "https://www.a23d.co/blog/difference-between-albedo-and-diffuse-map/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "aNhyXWW2b7yKTv8y14zk9",
+      "type": "subtopic",
+      "label": "ポイント",
+      "position": {
+        "x": 478.7557147875399,
+        "y": 1304.5450031343512
+      },
+      "size": {
+        "width": 61,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ポイントライトは,コンピュータグラフィックやゲームで使用される最も一般的なライトの一種です.彼らは現実の世界のランプに似ており,すべての方向に均等に光を放出します.これらのライトはほとんどのゲームエンジンで箱外で利用可能であり,強度,落下,色などのさまざまなカスタマイズ可能なパラメータを提供しています.ポイントライトは最も直接的なタイプのライトであり,迅速かつ直感的にあなたのシーンを照らすのに理想的です.",
+        "links": [
+          {
+            "title": "照明 の 基礎",
+            "url": "https://blog.logrocket.com/lighting-basics-unity/",
+            "type": "article"
+          },
+          {
+            "title": "ライトコンポーネントの種類",
+            "url": "https://docs.unity3d.com/6000.0/Documentation/Manual/Lighting.html",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FetbhcK1RDt4izZ6NEUEP",
+      "type": "subtopic",
+      "label": "スポット",
+      "position": {
+        "x": 478.7557147875399,
+        "y": 1251.5450031343512
+      },
+      "size": {
+        "width": 61,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "スポットライトは,コンピュータグラフィックやゲームで現実世界のスポットライトの振る舞いを模倣する一般的なタイプの光です.その振る舞いを調整するためのパラメータをいくつか提供します.例えば半径,円角,落下,強度 スポットライトは,UnrealとUnityゲームエンジンの両方で簡単に入手可能で,あなたのシーンに現実的でダイナミックな照明を加えるためのアクセシブルかつ強力なツールになります.",
+        "links": [
+          {
+            "title": "コンピュータ・グラフィック 照明",
+            "url": "https://en.wikipedia.org/wiki/Computer_graphics_lighting",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sC3omOmL2DOyTSvET5cDa",
+      "type": "subtopic",
+      "label": "無限",
+      "position": {
+        "x": 364.7557147875399,
+        "y": 1304.5450031343512
+      },
+      "size": {
+        "width": 112,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "インフィニットとは,画面の可視境界を超えて広がるシーンやオブジェクトをレンダリングする概念を指します.これは,開発者がすべての詳細を一度にレンダリングする必要なしに広大な風景や無限の空間をシミュレートできるため,浸透的な環境を作成するのに不可欠です.詳細レベル (LOD),カッティング,および手順生成などの技術がしばしば使用され,無限の幻想を維持しながらパフォーマンスを管理します.",
+        "links": [
+          {
+            "title": "ゲーム で 無限 の 世界 を 解き放つ",
+            "url": "https://sdlccorp.com/post/procedural-generation-unlocking-infinite-worlds-in-gaming/",
+            "type": "article"
+          },
+          {
+            "title": "無限なゲームの世界を創造する",
+            "url": "https://medium.com/@lemapp09/beginning-game-development-creating-infinite-game-worlds-56f8a2ad5ae5",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "OcxesFnB5wO6VXrHYnhz-",
+      "type": "subtopic",
+      "label": "視界と遮蔽",
+      "position": {
+        "x": 219.4111613103055,
+        "y": 1373.480291360171
+      },
+      "size": {
+        "width": 320,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center",
+        "colorType": "h"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "コンピュータグラフィックスにおける\"可視性と遮蔽\"は,特定のオブジェクトのどの部分が特定の視点から見えるか隠されているかを決定するプロセスを指す. \"遮蔽\"は,あるオブジェクトが別のオブジェクトによって視界からブロックされる現象を記述する.この概念を理解することはゲームデザインで現実的なレンダリングを作成するために重要です.リアルタイムエンジンは通常,BSP-ツリー,Quad-ツリーまたはOctreesのようなデータ構造を使用して,遮蔽を迅速に識別します.遮蔽切除とZ-バッファリングなどの高度な技術は,3Dオブジェクトの可視および隠れた部分の表示をさらに最適化するために使用されます.可視性と遮蔽に関連する深さと次元を理解することで,ゲーム開発者はプレゼンテーションとパフォーマンスを向上させる.",
+        "links": [
+          {
+            "title": "封閉式 屠殺 に つい て の 紹介",
+            "url": "https://medium.com/@Umbra3D/introduction-to-occlusion-culling-3d6cfb195c79",
+            "type": "article"
+          },
+          {
+            "title": "コンピューター グラフィックス で 見える",
+            "url": "https://ima.udg.edu/~sellares/ComGeo/VisComGra.pdf",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "MlLYqO_8JDNOwKRvaM-bf",
+      "type": "subtopic",
+      "label": "オークルダー",
+      "position": {
+        "x": 219.196019138284,
+        "y": 1426.480291360171
+      },
+      "size": {
+        "width": 108,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center",
+        "colorType": "h"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ゲーム開発における**Occluder**は,基本的にゲーム環境内の他のオブジェクトを隠すために使用されるツールまたは方法である.隠蔽器として知られる特定のオブジェクトが,カメラの視点から別のオブジェクトへの視線をブロックすると,隠れたまたはブロックされたオブジェクトはレンダリングする必要はありません.このオブジェクトは建物から地形機能まで何でもあり得る.これらの隠蔽器を管理するプロセスは,隠蔽器の処理として知られています.隠蔽器を使用する目的は,ゲームを最適化し,不必要なレンダリングワークロードを減らすことでパフォーマンスを改善することです.しかし,隠蔽器の設定は,ゲームプレイや品質に影響しないように注意深く計画する必要があります.",
+        "links": [
+          {
+            "title": "遮蔽器 と その 使い方",
+            "url": "https://80.lv/articles/occluders-and-how-to-use-them-for-level-design/",
+            "type": "article"
+          },
+          {
+            "title": "隠蔽 切断 チュートリアル",
+            "url": "https://thegamedev.guru/unity-performance/occlusion-culling-tutorial/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1gdDeUPBRco10LpOxug4k",
+      "type": "subtopic",
+      "label": "屠殺",
+      "position": {
+        "x": 329.67908982464064,
+        "y": 1426.480291360171
+      },
+      "size": {
+        "width": 91,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center",
+        "colorType": "h"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "** クールリング**は,ゲーム開発において効率と速度を向上させるためのパフォーマンス最適化策略である. クールリングは,プレイヤーの目に見えない要素やゲームのビューポートの外にある要素を排除することによってレンダリングワークロードを軽減するのに役立ちます. クールリングにはいくつかの種類があり,主な2種類があります. ** フルーストム・クールリング**と ** オークルージョン・クールリング**. フルーストム・クールリングは,カメラの視野の外にあるオブジェクトを排除することを意味します.一方,オークルージョン・クールリングは,他のオブジェクトによって隠されたまたはブロックされたオブジェクトを廃棄します. クールリングは,プレイヤーの体験に必要または価値を追加する要素のみが処理されることを保証します.",
+        "links": [
+          {
+            "title": "ゲーム開発における伐採",
+            "url": "https://medium.com/@niitwork0921/what-is-culling-in-game-design-a97c0b6344dd",
+            "type": "article"
+          },
+          {
+            "title": "不現実エンジンでオブジェクトをカットする",
+            "url": "https://gamedevinsider.com/object-culling-in-unreal-engine/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "xP_VDMu1z9jiVnZaBFKJQ",
+      "type": "subtopic",
+      "label": "クリッピング",
+      "position": {
+        "x": 423.6790898246407,
+        "y": 1426.480291360171
+      },
+      "size": {
+        "width": 117,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center",
+        "colorType": "h"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`Clipping`は,主に3次元シーンを効率的にレンダリングするために使用されるコンピュータグラフィックスにおける基本的な技術である.このプロセスは,視界から外れたまたは他のオブジェクトによって阻害されたシーン内の特定のオブジェクトの部分を排除することを含む.クリッピングはさまざまな方法で起こり得る.最も一般的な方法の一つは,カメラの外部のオブジェクトが完全に廃棄される場合である.クリッピングの目的は,グラフィックハードウェアが処理する必要がある多角線の数を減らすことで,グラフィックレンダリングパイプラインを最適化することです.その結果,これはレンダリングプロセスの速度と全体的なパフォーマンスを向上させるのに役立ちます.",
+        "links": [
+          {
+            "title": "ゲーム の 中 で 剪定 する",
+            "url": "https://www.haroldserrano.com/blog/what-is-clipping-in-opengl",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2ocwC0P1-ZFmjA9EmA1lV",
+      "type": "subtopic",
+      "label": "霧",
+      "position": {
+        "x": 219.196019138284,
+        "y": 1479.480291360171
+      },
+      "size": {
+        "width": 108,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ゲーム開発における霧は,大気条件をシミュレートし,ゲーム環境における深さの認識を高めるために使用される視覚効果を指す.それは視界の梯度を作り,しばしば背景に物体を消すことで,距離でレンダリングされる物体の数を減らすことでパフォーマンスを向上させることができる.霧は,カメラから距離に基づいて物体を徐々に遮蔽する線形霧,または遠隔で霧の密度を急速に増加することによってより劇的な効果を生む.",
+        "links": [
+          {
+            "title": "霧 - グラフィックとGPUプログラミング",
+            "url": "https://gamedev.net/reference/articles/article677.asp",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "UcLGWYu41Ok2NYdLNIY5C",
+      "type": "subtopic",
+      "label": "フルースト",
+      "position": {
+        "x": 330.8563765666081,
+        "y": 1479.480291360171
+      },
+      "size": {
+        "width": 91,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "フルストムカット (frustum culling) は,コンピュータグラフィックスにおける標準的な練習であり,ほとんどすべてのゲームにおいて,視野の外部のオブジェクトをレンダリングしないことでパフォーマンスを最適化するために使用されます.あなたの視野をフルストム,断片化されたピラミッド形として考えてください.最も遠い側は遠くのクリップ平面と呼ばれ,最も近い側は近くのクリップ平面です.このフルストムに該当しないゲーム内の任意のオブジェクトは,性能を改善するためにレンダリングされていないことを意味します.この機能はアンリアル エンジンで組み込まれています.",
+        "links": [
+          {
+            "title": "フルーストム・カッティング",
+            "url": "https://gamedev.net/tutorials/programming/general-and-gameplay-programming/frustum-culling-r4613/",
+            "type": "article"
+          },
+          {
+            "title": "フルーストム・カッティング - ゲーム最適化 101 - 不現実エンジン",
+            "url": "https://www.youtube.com/watch?v=Ql56s1erTMI",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "_1LkU258hzizSIgXipE0b",
+      "type": "subtopic",
+      "label": "ライト",
+      "position": {
+        "x": 330.8563765666081,
+        "y": 1532.480291360171
+      },
+      "size": {
+        "width": 91,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "光は3D環境における照明の視覚的表現を指します. 光が現実の世界でどのように振る舞うかをシミュレートするために使用され,物体やシーンに深さ,音量,現実性を追加します.照明は環境,拡散,鏡像,発射などの異なるタイプに分類され,それぞれが信頼できる,浸透的な視覚体験を生み出す特定の目的を果たします.適切な照明は,雰囲気,雰囲気,およびシーン全体の美学を大幅に向上させ,グラフィックとゲーム開発の不可欠な側面となっています.",
+        "links": [
+          {
+            "title": "ゲーム環境における稲妻",
+            "url": "https://medium.com/my-games-company/using-light-and-color-in-game-development-a-beginners-guide-400edf4a7ae0",
+            "type": "article"
+          },
+          {
+            "title": "遊戯 の 照明 の 芸術",
+            "url": "https://3dskillup.com/effective-lighting-for-games/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "lqfW8hkuN3vWtacrqBBtI",
+      "type": "subtopic",
+      "label": "影",
+      "position": {
+        "x": 330.8563765666081,
+        "y": 1585.480291360171
+      },
+      "size": {
+        "width": 91,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "影はビデオゲームにおける現実性とシーンの深さを高める上で重要な役割を果たします. 3D環境における光と物体の相互作用をシミュレートすることで,より浸透的な体験を作成するのに役立ちます.",
+        "links": [
+          {
+            "title": "影映射技術",
+            "url": "https://dev.to/hayyanstudio/shadow-mapping-techniques-implementing-shadows-in-3d-scenes-using-shadow-mapping-46hl",
+            "type": "article"
+          },
+          {
+            "title": "シャドー・ボリュームを使用してリアルタイム シャドー・キャスティング",
+            "url": "https://www.gamedeveloper.com/business/real-time-shadow-casting-using-shadow-volumes",
+            "type": "article"
+          },
+          {
+            "title": "プログラミング と 影 の 説明",
+            "url": "https://www.youtube.com/watch?v=RJr14qUt624L",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "-r15srXTBLnUGokpXKclH",
+      "type": "subtopic",
+      "label": "多角形",
+      "position": {
+        "x": 423.6790898246407,
+        "y": 1479.480291360171
+      },
+      "size": {
+        "width": 117,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "コンピュータグラフィックおよびゲーム開発において,多角形は,端で接続された頂点から構成される2次元または3次元形である.多角形は,ゲームやシミュレーションにおける物体,キャラクター,環境を表現するために使用される.",
+        "links": [
+          {
+            "title": "多角形と遮蔽",
+            "url": "https://electronics.howstuffworks.com/3do5.htm",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "GHfLMtgmc36OCvjQvW_Su",
+      "type": "subtopic",
+      "label": "ポリエドロン",
+      "position": {
+        "x": 423.6790898246407,
+        "y": 1532.480291360171
+      },
+      "size": {
+        "width": 117,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "パソコングラフィックスやゲーム開発において,ポリエドロンは3D形であり,ボリュームを囲む多角形の集合で構成される.ポリエドロはゲームやシミュレーションにおける物体,キャラクター,環境を表現するために使用される.",
+        "links": [
+          {
+            "title": "メッシュ・トライアングルとポリエドロン",
+            "url": "https://gamedev.stackexchange.com/questions/140978/need-some-insight-on-mesh-triangulation-and-geodesic-spheres",
+            "type": "article"
+          },
+          {
+            "title": "ポリエドロンゲーム物理学",
+            "url": "https://gamedev.net/forums/topic/653589-misc-polyhedon-related-posts-for-game-physics/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "AEAVc8Ih4fctSGGVJG0Np",
+      "type": "subtopic",
+      "label": "ステンシルの影",
+      "position": {
+        "x": 376.39009638382095,
+        "y": 1070.9347422218125
+      },
+      "size": {
+        "width": 162,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`Stencil shadows`は,3Dコンピュータグラフィックスで影を作り出すために使用される技術である.ステンシル影アルゴリズムは,影を3D空間容量として扱うことで動作する.この影の容量の中にいるシーンの一部は影の中にいる.影の容量の外にある場合,それは光の中にいる.影の容量は,光源からの視線に沿って3Dオブジェクトの多角形のシルエットを空間に挤出することによって作成される.相応しい複雑なオブジェクトでは,ステンシルバッファーを満たす縁数または頂点数は,通常,影の地図を計算するのに必要なピクセル数よりも少ないので,ステンシル影はそれに関してより効率的に見える.しかし,このテクニックによって生成された影は,さらに精巧なブロックやブロックの外観がない場合,不現実的に見える.",
+        "links": [
+          {
+            "title": "ステンシル 影 の 実施",
+            "url": "https://devforum.roblox.com/t/stencil-shadows-implementation/2079287",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5ZdQrL9tPyQ4Ho1hecKLD",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": 188.10474936274625,
+        "y": 1143.952242669871
+      },
+      "size": {
+        "width": 21,
+        "height": 509
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.5
+      },
+      "z_index": 999
+    },
+    {
+      "id": "Kx7O7RLp7aPGtOvK8e314",
+      "type": "topic",
+      "label": "グラフィック API",
+      "position": {
+        "x": -227.23195037554086,
+        "y": 1469.952242669871
+      },
+      "size": {
+        "width": 321,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Graphics API (アプリケーションプログラミングインターフェース) は,ゲーム開発者がゲームを構築するために使用するコマンド,機能,プロトコル,ツールの一集である.ゲームとデバイスのハードウェア,通常はコンピュータまたはコンソールとの間のインターフェースを形成し,2Dおよび3Dグラフィック性能をレンダリングするのに役立ちます.多角形を描画,テクスチャ,または照明などの複雑なタスクはAPIによってより管理可能な,より高いレベルのプロセスに組み込まれます.一般的な例はVulkan, DirectX, OpenGL,およびメタルです.各プラットフォームとデバイスで利用可能性と性能が異なります.ゲーム開発に使用できるユニークな機能があります.",
+        "links": [
+          {
+            "title": "ユニットでグラフィック API",
+            "url": "https://docs.unity3d.com/2022.3/Documentation/ScriptReference/PlayerSettings.SetGraphicsAPIs.html",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "bgWFV09AtDv1yJS5t0EaB",
+      "type": "subtopic",
+      "label": "ダイレクトックス",
+      "position": {
+        "x": -173.58852226085975,
+        "y": 1392.283891636011
+      },
+      "size": {
+        "width": 81,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center",
+        "colorType": "h"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "**DirectX**は,マイクロソフトのプラットフォームでマルチメディア,特にゲームプログラミングとビデオに関連するタスクを処理するために開発されたアプリケーションプログラミングインターフェース (API) のコレクションである.これは1995年に最初に導入され,PCゲームにとって重要な構成要素となった.DirectXはハードウェアとソフトウェアの間の仲介者として機能し,ハードウェアの状態を管理し,命令を与えます.DirectXのいくつかの技術には3DグラフィックのためのDirect3D,2DグラフィックのためのDirectDraw,サウンドのためのDirectSound,キーボードとマウスなどの入力デバイスとのインターフェースのためのDirectInputが含まれます.",
+        "links": [
+          {
+            "title": "マイクロソフトのDirectX",
+            "url": "https://visualstudio.microsoft.com/vs/features/directx-game-dev/",
+            "type": "official"
+          },
+          {
+            "title": "DirectX を 学ぶ",
+            "url": "https://learn.microsoft.com/en-us/shows/introduction-to-c-and-directx-game-development/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ffa5-YxRhE3zhWg7KXQ4r",
+      "type": "subtopic",
+      "label": "OpenGL",
+      "position": {
+        "x": -89.58852226085975,
+        "y": 1392.283891636011
+      },
+      "size": {
+        "width": 86,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center",
+        "colorType": "h"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Open GL (オープングラフィックライブラリー) は,2Dと3Dベクトルグラフィックをレンダリングするために設計されたクロス言語,クロスプラットフォームAPIです.グラフィックハードウェアのためのソフトウェアインターフェースとして,Open GLはプログラマに複雑なグラフィック・ビジュアルを詳細に作成する能力を提供します.これは1992年にシリコン・グラフィックス株式会社によって最初に開発され,すぐにグラフィック・レンダリング業界で非常に人気のあるツールになりました.Open GLはCAD,仮想現実,科学的ビジュアライゼーション,情報ビジュアライゼーション,フライトシミュレーションで広く使用されています.リアルタイムレンダリングが必要とされるビデオゲーム制作でも使用されています.APIはさまざまなメーカーからの幅広いハードウェアで動作するように設計されています.オープンソースであるため,Open GLのコードはソフトウェアコミュニティ内の誰でも拡張することができます.",
+        "links": [
+          {
+            "title": "オープングラフィックライブラリ",
+            "url": "https://www.opengl.org/",
+            "type": "official"
+          },
+          {
+            "title": "OpenGL ライブラリ",
+            "url": "https://www.opengl.org/sdk/libs/",
+            "type": "official"
+          },
+          {
+            "title": "OpenGL チュートリアル",
+            "url": "https://youtube.com/playlist?list=PLPaoO-vpZnumdcb4tZc4x5Q-v7CkrQ6M-&si=Mr71bYJMgoDhN9h-",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "CeydBMwckqKll-2AgOlyd",
+      "type": "subtopic",
+      "label": "WebGL",
+      "position": {
+        "x": -40.415232321660085,
+        "y": 1594.409509249386
+      },
+      "size": {
+        "width": 81,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center",
+        "colorType": "h"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`WebGL` (Web Graphics Library) は,プラグインを使用することなく,任意の互換性のあるウェブブラウザ内でインタラクティブな2Dと3Dグラフィックをレンダリングするために使用されるJavaScript APIです.高効率のレンダリングを提供するグラフィック処理ユニットの (GPU) 力を活用します.WebGLプログラムは,JavaScriptで書かれた制御コードとOpenGL シェーディング言語 (GLSL) で書かれたシェーダーコードで構成され,開発者はグラフィックレンダリングの細かい詳細を制御することができます.HTML5と互換性およびウェブをサポートするあらゆるプラットフォームでレンダリングする能力に加えて,WebGLはすべてのウェブ標準に完全に統合され,GPU加速画像処理と効果を容易にします.",
+        "links": [
+          {
+            "title": "WebGL",
+            "url": "https://en.wikipedia.org/wiki/WebGL",
+            "type": "article"
+          },
+          {
+            "title": "WebGL を 始める",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API/Tutorial/Getting_started_with_WebGL",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "wYUDJb-q1rtM4w2QV3Wr1",
+      "type": "subtopic",
+      "label": "HLSL",
+      "position": {
+        "x": -173.58852226085975,
+        "y": 1339.283891636011
+      },
+      "size": {
+        "width": 81,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "**HLSL**は,Microsoft Direct3D APIで使用するために開発した独自のシェーディング言語である.OpenGL - GLSLの同版と同様に,CPUで計算的に高価なレンダリング効果や操作を実行する能力を提供することで,開発者向けにプログラム可能なGPUの力を広げます.HLSLは,伝統的なプログラミング背景から開発者向けにCプログラミング言語に似ている.",
+        "links": [
+          {
+            "title": "HLSL",
+            "url": "https://en.wikipedia.org/wiki/High-Level_Shader_Language",
+            "type": "article"
+          },
+          {
+            "title": "HLSLの比較",
+            "url": "https://docs.vulkan.org/guide/latest/high_level_shader_language_comparison.html",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "j8mWMFMQCEIPUzegDDsm1",
+      "type": "subtopic",
+      "label": "GLSL",
+      "position": {
+        "x": -89.58852226085975,
+        "y": 1339.4861622120663
+      },
+      "size": {
+        "width": 86,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "**GLSL** (Graphics Library Shader Language) は,OpenGL Shading Languageの構文に基づいたCにインスパイアされた高レベルのシェーディング言語である.グラフィックコンテンツの外観を定義するためにグラフィックプログラミングで使用される.GLSLは,開発者が現代のGPU (グラフィック処理ユニット) の力を活用し,グラフィックレンダリングを直接かつ無制限に制御できるようにする.言語の重要な側面は,GPUで実行される小さなプログラムであるシェーダーを作成する能力である.シェーダーは,頂点操作,ピクセル色計算,またはポストプロセッシング効果などのさまざまなグラフィック効果に使用される.",
+        "links": [
+          {
+            "title": "GLSLシェッダー",
+            "url": "https://developer.mozilla.org/en-US/docs/Games/Techniques/3D_on_the_web/GLSL_Shaders",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "EVOiWAeZsIvjLTt3EYu-6",
+      "type": "subtopic",
+      "label": "OpenGL ES",
+      "position": {
+        "x": -125.40723871612443,
+        "y": 1541.409509249386
+      },
+      "size": {
+        "width": 166,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center",
+        "colorType": "h"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "OpenGL ES (Open Graphics Library for Embedded Systems) は,モバイルデバイスや埋め込みシステムなどの計算能力が低いシステムで使用するために設計されたOpenGLの簡素化されたバージョンです.意味的な簡素化にもかかわらず,OpenGL ESは依然として高い汎用性と能力を保持しており,これらのより小さい,より少ない力のあるシステムで高性能の2Dと3Dグラフィックを可能にします.OpenGL ESはモバイルゲーム開発で特に人気があり,AndroidとiOSなどの主要なプラットフォームがそれを完全にサポートしています.APIはいくつかのバージョンに分かれ,最新のバージョンであるOpen ESGL 3.2は2016年にリリースされました.",
+        "links": [
+          {
+            "title": "LVGL  軽くて汎用な埋め込みグラフィックライブラリ",
+            "url": "https://lvgl.io/",
+            "type": "article"
+          },
+          {
+            "title": "埋め込まれた照明",
+            "url": "http://embeddedlightning.com/ugui/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "oEznLciLxZJaulMlBGgg4",
+      "type": "subtopic",
+      "label": "メタル",
+      "position": {
+        "x": -124.41523232166008,
+        "y": 1594.409509249386
+      },
+      "size": {
+        "width": 81,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center",
+        "colorType": "h"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "メタルは,Appleが開発した低レベル,高性能,アプリケーションプログラミングインターフェース (API) です.IOS 8でデビューし,グラフィックとデータ並行計算に専念しています.本質的には,Appleデバイスの近代的な GPU アーキテクチャを活用し,パフォーマンスと電力効率を最適化するために設計されています.このAPIは,iOS,macOS,tvOSを含むさまざまなプラットフォームに適用されます.OpenGLのような高レベルの APIとは異なり,メタルはGPUをより直接的に制御できるように,はるかに低いオーバーヘッドを提供しています.開発者にとって,それはより高いレベルの APIと比較してハードウェアからより良いパフォーマンスを押し出すことが意味しています.メタルを使用して,開発者はGPUをより詳細な視野と制御を有し,より優れたグラフィック・アウトプットとスムーズなパフォーマンスをもたらします.- [@official@Metal Documentation] (https://developer.apple.com/metal/)",
+        "links": []
+      }
+    },
+    {
+      "id": "yPfhJSTFS7a72UcqF1ROK",
+      "type": "subtopic",
+      "label": "バルカン",
+      "position": {
+        "x": -0.7851794775092458,
+        "y": 1392.4861622120663
+      },
+      "size": {
+        "width": 101,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center",
+        "colorType": "h"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ヴァルカン (Vulkan) は,クロノスグループが発行するグラフィック・コンピューティングタスクのための高性能,クロスプラットフォーム APIです.他のグラフィック APIとは異なり,ヴァルカンは開発者にGPUに対する直接的な制御を提供し,マルチコアプロセッサの充分利用を目的とし,3Dアプリケーションにおける显著なパフォーマンスの向上を可能にします.Windows,Linux,Android,iOS,MacOSプラットフォームをサポートします.CPU側では最小限のオーバーヘッドを確保するために,よりバランスの取れたCPU/GPU使用を提供し,ゲームを単一のコアに制限しません.ヴァルカンは,低レベルの機能とより効率的なマルチスレッド機能を提供しているため,OpenGLの後継者として見ることができます.",
+        "links": [
+          {
+            "title": "バルカン",
+            "url": "https://www.vulkan.org/",
+            "type": "official"
+          },
+          {
+            "title": "ヴァルカンとは何か?",
+            "url": "https://docs.vulkan.org/guide/latest/what_is_vulkan.html",
+            "type": "official"
+          },
+          {
+            "title": "ヴァルカンドライバーサポート",
+            "url": "https://developer.nvidia.com/vulkan-driver",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "DvV32n3NoXNEej8Fsqqs2",
+      "type": "subtopic",
+      "label": "SPIR-V",
+      "position": {
+        "x": -0.7851794775092458,
+        "y": 1339.4861622120663
+      },
+      "size": {
+        "width": 101,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`SPIR-V`は,グラフィック・コンピューティングカーネルのためのバイナリ中間言語で,クロノスグループによって定義されています.このプログラミング言語は,低コスト,クロスプラットフォーム3Dグラフィックおよびコンピューティング APIであるヴァルカンによって主に採用され,使用されています.ヴァルカンは,GPUの前に最終的なシェッダーステージとして機能し,直接に`SPIR-V`を消費します.",
+        "links": [
+          {
+            "title": "SPIR概要 - クロノスグループ株式会社",
+            "url": "https://www.khronos.org/spir/",
+            "type": "official"
+          },
+          {
+            "title": "SPIR-V - OpenGL Wiki - クロノスグループ",
+            "url": "https://www.khronos.org/opengl/wiki/SPIR-V",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Hpf_CPmLpCSP8Qo07Kq1X",
+      "type": "topic",
+      "label": "ゲームAI",
+      "position": {
+        "x": -84.04934274317372,
+        "y": 1702.215711596427
+      },
+      "size": {
+        "width": 179,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ゲームAIは人工知能 (AI) のサブフィールドであり,実際の人間プレイヤーのように行動し反応するビデオゲームキャラクターを作成するために使用されます.ゲームAIはシンプルなパズルゲームから複雑な戦略ゲームまで,さまざまなビデオゲームで使用されます.ゲームAIはプレイヤーと相互作用するプレイヤー以外のキャラクター (NPC) を作成し,プレイヤーに挑戦するスマートなライバルを作成することができます.",
+        "links": [
+          {
+            "title": "ゲームAI",
+            "url": "https://medium.com/@alidrsn/game-development-with-ai-strategy-tools-and-examples-7ae77257c062",
+            "type": "article"
+          },
+          {
+            "title": "AI ゲーム開発",
+            "url": "https://modl.ai/ai-game-development/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Ky-95ipdgyPZGAIdqwMCk",
+      "type": "subtopic",
+      "label": "意思決定",
+      "position": {
+        "x": 147.45497250681115,
+        "y": 1702.215711596427
+      },
+      "size": {
+        "width": 231,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center",
+        "colorType": "h"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ゲーム開発において,意思決定はしばしば,プレイできないキャラクターやゲーム環境の振る舞いを決定する論理またはプロセスを指す.決定の3つの主要な種類が使用されます.決定的,ストカスティック,戦略的.決定的意思決定は既定規則に基づいています.ストカスティックな意思決定では,結果は確率に基づいています.ランダム性の要素を提供します.戦略的意思決定には,特定の目標を達成するために一連のアクションを計画することです.意思決定は,特定の条件に基づいて行動を選択することを容易にする **パスファインディングアルゴリズム** (二つの点間の最も短い道を決定する) または **決定木** (特定の条件に基づいて行動を選択する) のようなさまざまな API ツールを使用してガイドすることもできます.意思決定方法の選択は,ゲーム要素の複雑性と行動に大きく依存する.",
+        "links": [
+          {
+            "title": "ゲーム開発における意思決定",
+            "url": "https://www.cgspectrum.com/blog/game-design-decision-making-troy-dunniway",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "rwGivalwv2ozdSlVMSc4U",
+      "type": "subtopic",
+      "label": "決定の樹",
+      "position": {
+        "x": 146.4323839005565,
+        "y": 1755.215711596427
+      },
+      "size": {
+        "width": 231,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "決定木は,ゲーム開発で使用されるグラフィック表示で,ゲームがプレイヤーによって選択される特定の選択によって可能となる結果や経路を可視化するのに役立ちます.木の各枝は,可能な決定,結果,または反応を表し,木の各ノードはゲーム状況またはイベントを表します.決定木は,ゲーム開発者に戦略的デザインを作成し,複雑な敵AIを作成し,ゲームの相互作用またはコースを予測するのに一般的に役立ちます.ゲーム開発者は決定点,可能な選択およびそれらの結果をレイアウトし,ゲームが進む方向を追跡しやすくします.",
+        "links": [
+          {
+            "title": "@記事 決定木",
+            "url": "https://www.gamedeveloper.com/programming/behavior-trees-for-ai-how-they-work",
+            "type": "article"
+          },
+          {
+            "title": "決定 の 木 は 何 です か",
+            "url": "https://www.youtube.com/watch?v=bmP4ppe_-cw",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "aJa_2xkZuSjQ5bt6Kj5oe",
+      "type": "subtopic",
+      "label": "国営機械",
+      "position": {
+        "x": 146.4323839005565,
+        "y": 1808.215711596427
+      },
+      "size": {
+        "width": 231,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "**State Machine**は,ゲーム開発においてゲーム状態や条件を管理するために頻繁に使用される概念モデルである.複数の異なる\"状態\"またはモード,およびそれらの間の移行で構成される.例えば,モバイルゲームには\"スタート画面\",\"プレイ\",\"停止\"および\"ゲームオーバー\"などの状態が含まれる.これらの状態のそれぞれには,特定のコマンドと他の状態への移行のためのルールが付属されます.これはゲームの流れと行動を支配します.AIキャラクター行動,UIシステム,またはゲームレベルの状態で使用できます.ステートマシンはコードを組織化して管理できるようにし,開発者が複雑なゲーム論理を実装することを容易にする.",
+        "links": [
+          {
+            "title": "競技 の 国営 機械",
+            "url": "https://gamedev.net/tutorials/_/technical/game-programming/state-machines-in-games-r2982/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ztoW8fBY73Es624A_tjd7",
+      "type": "subtopic",
+      "label": "行動 樹",
+      "position": {
+        "x": 146.4323839005565,
+        "y": 1861.215711596427
+      },
+      "size": {
+        "width": 231,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "**Behavior Tree**は,ゲーム開発において,主にAIキャラクター行動に使用される意思決定システムである.これらの樹木は,AIキャラクターが事前に定義されたタスクや条件に基づいて行う行動を定義するのに役立ちます.樹木構造は,単一の根から始まり,これらの決定やタスクを表すノードに枝分かれます.タスクは,一点から別の場所に移動したり,攻撃するか撤退するかなどの複雑な決定である可能性があります.このタイプの構造は,木を壊すことなく,または他のタスクに影響を及ぼすことなく,タスクを追加したり,削除したり,変更したりすることは簡単だからです.これは,タスクの複雑さに関係なく,非常に柔軟かつ管理しやすくします.",
+        "links": [
+          {
+            "title": "リアル・エンジン5 チュートリアル - AI 第2部 行動樹",
+            "url": "https://www.youtube.com/watch?v=hbHqv9ov8IM&list=PL4G2bSPE_8uklDwraUCMKHRk2ZiW29R6e&index=3&t=16s",
+            "type": "video"
+          },
+          {
+            "title": "オープン な 行動 の 木",
+            "url": "https://sterberino.github.io/open-behavior-trees-documentation/index.html",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4ZCVUpYrCT14d_JULulLe",
+      "type": "subtopic",
+      "label": "曖昧な論理",
+      "position": {
+        "x": 146.4323839005565,
+        "y": 1914.215711596427
+      },
+      "size": {
+        "width": 231,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "曖昧な論理は,問題解決とシステム制御を解決する数学的論理方法である.伝統的なバイナリーセット (真実または偽) と異なり,曖昧な論理変数は 0 から 1 までの程度の真実値を有する.これは,一部真実の概念を処理することを可能にします.その真実値は完全に真実と完全に偽の間で異なる可能性があります.ゲーム開発において,曖昧な論理は,ゲームをより現実的にするために人工知能でしばしば使用されます.例えば,状況変化にダイナミックに反応する非プレイヤーキャラクター (NPC) をプログラムするために使用され,ゲームプレイがより魅力的でインタラクティブになります.",
+        "links": [
+          {
+            "title": "ゲームへの不透明なログイン",
+            "url": "https://www.michelepirovano.com/pdf/fuzzy_ai_in_games.pdf",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "c6j-30p84vk3MZEF1R2hN",
+      "type": "subtopic",
+      "label": "マルコフシステム",
+      "position": {
+        "x": 146.4323839005565,
+        "y": 1967.215711596427
+      },
+      "size": {
+        "width": 231,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "**マルコフ・システム**または **マルコフ・チェーン**は,ゲーム開発内の意思決定シナリオで使用される統計モデルです.このモデルは\",記憶がないこと\"という概念に基づいています.特定のイベントの確率は,以前のイベントで達成された状態に依存するのみです.これは,それぞれのイベントの確率が以前のイベントで達成された状態に依存する可能なイベントの連続を使用します.マルコフ・システムの一般的な用途は,ゲーム内のAI行動を設計することです.各状態は異なる行動を象徴し,それらの間の移行はマルコフ・チェーン確率によって支配されます.",
+        "links": [
+          {
+            "title": "マルコフシステム",
+            "url": "https://towardsdatascience.com/modeling-games-with-markov-chains-c7b614731a7f",
+            "type": "article"
+          },
+          {
+            "title": "ゲーム開発におけるマルコフチェーンの使用",
+            "url": "https://www.gamedeveloper.com/design/advanced-math-in-game-design-random-walks-and-markov-chains-in-action",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Cuc0xvCAkVyUtwOxO_Uua",
+      "type": "subtopic",
+      "label": "目標 に 基づく 行動",
+      "position": {
+        "x": 146.4323839005565,
+        "y": 2020.215711596427
+      },
+      "size": {
+        "width": 231,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ゲーム開発における目標指向的行動とは,特定の目標やタスクに基づいて意思決定を行う能力を非プレイヤーキャラクター (NPC) に与える人工知能アルゴリズムを指す.これらのNPCはゲーム環境の状況を分析し,特定の目標を達成するための計画を策定し,実行する.これらのアルゴリズムの洗練度は,単純な経路から複雑な問題解決方法まで範囲内にある.行動モデルはハードコード化されていないため,NPCにはより大きな適応性と自主性を提供します.",
+        "links": [
+          {
+            "title": "目標 に 基づく 行動 計画",
+            "url": "https://duckduckgo.com/?q=Goal%20Oriented%20Behaviorin%20Game%20Dev+site:www.gamedeveloper.com",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mUyzX-DXnIKDl-r9o8d38",
+      "type": "subtopic",
+      "label": "運動",
+      "position": {
+        "x": 386.89905342267605,
+        "y": 1702.215711596427
+      },
+      "size": {
+        "width": 146,
+        "height": 50
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center",
+        "colorType": "h"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ゲーム開発とゲームAPI (Application Programming Interface) の文脈では,動きは,ゲームオブジェクトの位置または方向を変更するプロセスを指します.これは,歩行,走行,ジャンプ,飛ぶなどのオブジェクトの動きを制御するためにプログラミング機能を使用することを含む.動きはゲームのダイナミクスを作成する核心であり,ゲーム物理学とゲーム論理の両方に重要です.さまざまなゲームエンジンは動きを操作する異なる方法を提供します.一部のAPIでは,このプロセスは直接新しい位置を設定するほど簡単です.例えば `object.position = new Vector3 (((5,10,0) `.一方,他では,力または速度を変更するような現実世界の物理を伴うより複雑な方法が必要です.",
+        "links": [
+          {
+            "title": "ゲーム の 動き",
+            "url": "https://www.gamedeveloper.com/design/analyzing-core-character-movement-in-3d",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "eoK70YRCz73GmzbNhh5kg",
+      "type": "subtopic",
+      "label": "ボードゲーム",
+      "position": {
+        "x": 387.89905342267605,
+        "y": 1804.215711596427
+      },
+      "size": {
+        "width": 144,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center",
+        "colorType": "h"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "**ボードゲーム**は,規則セットに従って,プレマークされた表面または\"ボード\"に移動または置かれたカウンターやパーツを含むテーブルゲームの一種です.一部のゲームは純粋な戦略に基づいていますが,多くは偶然要素を含んでいます.他のものは純粋に偶然であり,スキルの要素はありません.ゲームは通常プレイヤーが達成することを目指す目標を持っています.初期のボードゲームは2つの軍隊の間の戦いを表しており,ほとんどの現代のボードゲームは,カウンター,勝利ポジション,またはポイントの蓄積に関して敵を倒すことに基づいています.ボードゲームのデジタル化により,開発者はさまざまな **ゲーム API** を使用して魅力的でインタラクティブなボードゲーム体験を作成します.APIは,異なるソフトウェアアプリケーションを構築し,相互作用するためのルールとプロトコルの一組を定義します.ゲームAPIは,ゲームメカニクス,プレイヤーの統計,業績等などのゲーム特有の機能と統合することを開発者に可能にします.",
+        "links": [
+          {
+            "title": "ボードゲームとは?",
+            "url": "https://code.tutsplus.com/how-to-learn-board-game-design-and-development--gamedev-11607a",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "oOjGqicW3eqRwWyIwJdBA",
+      "type": "subtopic",
+      "label": "ミニマックス",
+      "position": {
+        "x": 387.89905342267605,
+        "y": 1859.1290666268271
+      },
+      "size": {
+        "width": 144,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`ミニマックス`は,主に意思決定とゲーム理論,特に2人のプレイヤーでゼロサムゲームで使用される人工知能 (AI) 意思決定アルゴリズムである.すべての可能なゲームシナリオをシミュレーションし,相手が最適なゲームをしていると仮定することによって戦略を策定する. 最悪のシナリオでの潜在的な損失を最小限に抑え,したがって\"最小の最大\"可能なシナリオを作り出す.このアルゴリズムは,効率を高めるためにしばしば `アルファ-ベータ剪裁`技術と組み合わせられる.",
+        "links": [
+          {
+            "title": "ミニマックス",
+            "url": "https://en.wikipedia.org/wiki/Minimax",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "KYCi4d475zZfNwlj6HZVD",
+      "type": "subtopic",
+      "label": "AB 切削",
+      "position": {
+        "x": 387.89905342267605,
+        "y": 1912.1290666268271
+      },
+      "size": {
+        "width": 144,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`アルファベータ切割`は,ゲーム開発などの人工知能 (AI) プログラミングで使用される minimax アルゴリズムの最適化技術です. すでにより良い動きがあるため,検索する必要のないゲームツリーの枝を切断します. アルファとベータの2つのパラメータを使用します.これは最大化プレイヤーが保証される最小スコアと最大化プレイヤーが保証される最大スコアを表します.ゲームツリーの横断中に,最終決定に影響を及ぼすことができない木の枝は探査されません.このプロセスは計算時間とリソースを節約し, minimaxツリーを\"切割\"します.",
+        "links": [
+          {
+            "title": "AB 切削",
+            "url": "https://en.wikipedia.org/wiki/Alpha-beta_pruning",
+            "type": "article"
+          },
+          {
+            "title": "アルファ ベータ 剪裁: その 歴史 に 深く 浸透 する",
+            "url": "https://dev.to/vedantasati03/alpha-beta-pruning-a-deep-dive-into-its-history-implementation-and-functionality-4ojf",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "QD9TfZn3yhGPVwiyJ6d0V",
+      "type": "subtopic",
+      "label": "MCTS",
+      "position": {
+        "x": 387.89905342267605,
+        "y": 1965.1290666268271
+      },
+      "size": {
+        "width": 144,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "\"MCTS\"またはモンテ・カルロ・ツリー・サーチは,複雑な問題を解決するための意思決定方法を利用する検索アルゴリズムで,ボードゲームを含むさまざまなアプリケーションで一般的に実装されています.本质的にはゲームの可能性のある状態のためのノードごとにノードで検索ツリーを構築し,モンテ・カルロシミュレーションを使用して潜在的な結果の統計分析を提供します.ゲームが決定したルールを使用してランダムに動きを生成し,その後これらのシミュレーションの結果に基づいて意思決定します.ボードゲームでは,しばしばゲームシナリオを模倣してAI意思決定を決定するために使用され,その結果,AIシステムをより堅固でシミュレーションに貢献します.",
+        "links": [
+          {
+            "title": "MCTSアルゴリズム",
+            "url": "https://en.wikipedia.org/wiki/Monte_Carlo_tree_search/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Hpk8eOaOepERMmOvUgkxa",
+      "type": "topic",
+      "label": "ゲームAI",
+      "position": {
+        "x": -84.04934274317372,
+        "y": 1905.2076829543832
+      },
+      "size": {
+        "width": 179,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ゲームAIは人工知能 (AI) のサブフィールドであり,実際の人間プレイヤーのように行動し反応するビデオゲームキャラクターを作成するために使用されます.ゲームAIはシンプルなパズルゲームから複雑な戦略ゲームまで,さまざまなビデオゲームで使用されます.ゲームAIはプレイヤーと相互作用するプレイヤー以外のキャラクター (NPC) を作成し,プレイヤーに挑戦するスマートなライバルを作成することができます.",
+        "links": [
+          {
+            "title": "ゲームAI",
+            "url": "https://medium.com/@alidrsn/game-development-with-ai-strategy-tools-and-examples-7ae77257c062",
+            "type": "article"
+          },
+          {
+            "title": "AI ゲーム開発",
+            "url": "https://modl.ai/ai-game-development/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1G4wQLJCBBN0ynvbpc9DG",
+      "type": "horizontal",
+      "label": "ホリゾントノード",
+      "position": {
+        "x": -204.93174897756708,
+        "y": 1824.5505297319055
+      },
+      "size": {
+        "width": 301,
+        "height": 20
+      },
+      "style": {
+        "stroke": "#000000",
+        "strokeWidth": 3.5
+      },
+      "z_index": 999
+    },
+    {
+      "id": "laGrI97zR5SEwbYims5E5",
+      "type": "label",
+      "label": "能力を最大限に発揮する",
+      "position": {
+        "x": -204.93174897756708,
+        "y": 1796.8373859612675
+      },
+      "size": {
+        "width": 168,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "ul5XnVwQCwr4ZaL4kBNpd",
+      "type": "subtopic",
+      "label": "決定学習",
+      "position": {
+        "x": -524.0349097293682,
+        "y": 1790.5591247226812
+      },
+      "size": {
+        "width": 246,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ゲーム開発の分野では,決定学習は,意思決定に役立つパターンを認識し分析する情報システムを指す.特にAIゲーム開発では,意思決定アルゴリズムや人工知能が過去の経験や確立された意思決定樹に基づいて学習し,意思決定を行うようにプログラムされている.これらの決定はゲーム行動,プレイヤーの相互作用,環境の変化などに関することがある.強化学習,ベイジアン方法,決定樹,神経ネットワークなどのさまざまな方法がゲーム開発における意思決定学習を促進するために使用される.",
+        "links": [
+          {
+            "title": "ゲーム開発における決定学習",
+            "url": "https://medium.com/@alidrsn/game-development-with-ai-strategy-tools-and-examples-7ae77257c062",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "aw1BAGqrdBBmUwB6vMF_A",
+      "type": "subtopic",
+      "label": "素朴なベイス分類者",
+      "position": {
+        "x": -524.0349097293682,
+        "y": 1737.5591247226812
+      },
+      "size": {
+        "width": 246,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Naive Bayes Classifierは,分類作業に使用される確率論的な機械学習モデルの一種である.これらの作業は電子メールのフィルタリングから感情分析または文書分類まで இருக்கலாம்.このモデルは,各入力機能が相互に独立していると仮定して動作するため\"naive\"と呼ばれます.この簡易化仮定は,関係する確率の計算が非常に複雑にすることを可能にします.与えられたデータポイントのクラスを予測するためのベイズ定理方程式に従う.この分類は単純に見えるかもしれませんが,複雑な現実状況では独自の状態を維持します.Naive Bayes Classifierは,単純性と高効率性により,機械学習アプリケーションにおける最も信頼性と実践的な方法の一つです.",
+        "links": [
+          {
+            "title": "ナイフ・ベイズ分類器はどのように機能するのですか?",
+            "url": "https://www.machinelearningplus.com/predictive-modeling/how-naive-bayes-algorithm-works-with-example-and-full-code/",
+            "type": "article"
+          },
+          {
+            "title": "テキスト分類 ナイフ・ベイズ分類器",
+            "url": "https://gamedevacademy.org/text-classification-tutorial-with-naive-bayes/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sz1047M8_kScjth84yPwU",
+      "type": "subtopic",
+      "label": "決定 樹 の 学習",
+      "position": {
+        "x": -524.0349097293682,
+        "y": 1896.5591247226812
+      },
+      "size": {
+        "width": 246,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`決定木学習`はゲーム開発において,特にゲームキャラクターのための人工知能の開発において重要な概念である.決定木モデルを使用して情報を予測または分類する機械学習方法の一種である.決定木はフローチャートのようなモデルであり,各内部ノードが属性に関するテストを表し,各枝はそのテストの結果を表し,各葉ノードにはクラスラベル (すべての属性をテストした後の決定) があります.決定木学習モデルを使用して,コンピュータ制御されたキャラクターは異なる条件または状態に基づいて決定を行うことができます.ゲームキャラクターがプレイヤーの行動と常に変化するゲーム環境に適応できるようにすることで,複雑でインタラクティブなゲームプレイ体験を作成する上で重要な役割を果たします.",
+        "links": [
+          {
+            "title": "ゲーム戦略 - リアルタイム決策樹",
+            "url": "https://medium.com/@aleena.sebastian/game-strategy-optimization-using-decision-trees-d4067008eed1",
+            "type": "article"
+          },
+          {
+            "title": "リアルタイム 決定 樹",
+            "url": "https://www.codewithc.com/real-time-decision-trees-in-pygame-ai/",
+            "type": "article"
+          },
+          {
+            "title": "決定 樹 - 友好 的 な 紹介",
+            "url": "https://www.youtube.com/watch?v=HkyWAhr9v8g",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ltkEyfuDxExs7knqs79ya",
+      "type": "subtopic",
+      "label": "深い 学習",
+      "position": {
+        "x": -524.0349097293682,
+        "y": 1949.5591247226812
+      },
+      "size": {
+        "width": 246,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ディープ・ラーニング (Deep Learning) は,人間の脳の構造と機能にインスパイアされた機械学習のサブフィールドで,特に複雑な入力/出力変換を処理するために設計されています.複雑な非線形仮説をモデル化し,大規模なデータセット内で隠されたパターンを発見するために,多くの層を持つ人工ニューラルネットワーク (したがって\"ディープ・ラーニング\"という用語) を使用します.ゲーム開発において,主にゲームエージェント,手続きコンテンツ生成,プレイヤープロフィーリングにおける知的行動や機能を作成する上で,ディープ・ラーニング技術が不可欠です.Google DeepMindのAlphaGoのような人気のある,最先端のゲームでディープ・ラーニング技術の使用について聞いたことがあるかもしれません.Python,R,TensorFlow,Keras,PyTorchなどのコード言語およびディープ・ラーニングのようなフレームワークは一般的にディープ・ラーニングタスクに使用されています.ディープ・ラーニングは ゲーム開発の旅において 重要な変化をもたらします",
+        "links": [
+          {
+            "title": "深い 学習",
+            "url": "https://en.wikipedia.org/wiki/Deep_learning",
+            "type": "article"
+          },
+          {
+            "title": "深く 学ぶ 本",
+            "url": "https://www.deeplearningbook.org/",
+            "type": "article"
+          },
+          {
+            "title": "深い 学習 に 関する 紹介",
+            "url": "https://www.ibm.com/topics/deep-learning",
+            "type": "article"
+          },
+          {
+            "title": "神経ネットワークとは何か?",
+            "url": "https://www.youtube.com/watch?v=aircAruvnKk",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "AoH2r4EOHyZd8YaV24rBk",
+      "type": "subtopic",
+      "label": "人工神経ネットワーク",
+      "position": {
+        "x": -524.0349097293682,
+        "y": 2002.5591247226812
+      },
+      "size": {
+        "width": 246,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "人工ニューラルネットワーク (ANN) は,生物学的ニューラルネットワークからインスピレーションを得ている機械学習の分野である.ANNは観察データから\"学習\"し,それによってゲーム開発を多岐にわたすことができる.それらは,相互接続されたネットワークを通じて情報を処理するノードまたは人工ニューロンで構成される.各ノードの接続は学習中に調整される数値重さがあり,問題解決を最適化するのに役立ちます.ANNは,AI行動改善,手続きコンテンツ生成,ゲームテストなどのゲーム開発のさまざまな側面で使用されます.また,オブジェクト識別やゲーム環境でのアクションなどの画像認識タスクに使用することができます.",
+        "links": [
+          {
+            "title": "ANNとは何か?",
+            "url": "https://www.coursera.org/articles/artificial-neural-network",
+            "type": "article"
+          },
+          {
+            "title": "神経ネットワークとは何か?",
+            "url": "https://www.ibm.com/topics/neural-networks",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "rGEHTfdNeBAX3_XqC-vvI",
+      "type": "subtopic",
+      "label": "強化 学習",
+      "position": {
+        "x": -524.0349097293682,
+        "y": 1843.5591247226812
+      },
+      "size": {
+        "width": 246,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`再強化学習`は,意思決定を目的とした機械学習の一種である.特定の行動を実行し,環境で行動し,得られる結果や報酬/結果を観察することで行動することを学ぶエージェントを含む.再強化学習の主な原則は,良い行動に報酬を与え,悪い行動に罰を与えることである.エージェントは,行動の結果から学び,明確に教えられるのではなく,行動から学ぶ.ゲーム開発の文脈では,最高の結果を達成するために最適な戦略として知られる AI (人工知能) を開発するために強化学習が用いられる.",
+        "links": [
+          {
+            "title": "完璧な 思考 を 与える",
+            "url": "https://developer.nvidia.com/blog/rendering-perfect-reflections-and-refractions-in-path-traced-games/",
+            "type": "article"
+          },
+          {
+            "title": "人工知能は歩くこと (深度強化学習)",
+            "url": "https://m.youtube.com/watch?v=L_4BPjLBF4E",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "-QCv_s22wvTQ-OeQYgBUA",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": -270.90430753953456,
+        "y": 1737.215711596427
+      },
+      "size": {
+        "width": 21,
+        "height": 313
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.5
+      },
+      "z_index": 999
+    },
+    {
+      "id": "9_OcZ9rzedDFfwEYxAghh",
+      "type": "subtopic",
+      "label": "学習",
+      "position": {
+        "x": -228.74983529021276,
+        "y": 1905.2076829543832
+      },
+      "size": {
+        "width": 114,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center",
+        "colorType": "h"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "マシン・ラーニングは,コンピュータが明示的にプログラミングせずに学習する能力を提供する研究分野である.これは,システムがデータから学び,パターンを特定し,最小限の人間の介入で意思決定を行うことができるという考えに基づいた人工知能の分野である.ゲーム開発の観点から,プレイヤーの行動から学び,それに適応できるNPCを作成するために機械学習を使用することができます.",
+        "links": [
+          {
+            "title": "機械学習 - ウィキ",
+            "url": "https://en.wikipedia.org/wiki/Machine_learning",
+            "type": "article"
+          },
+          {
+            "title": "機械学習 の 説明",
+            "url": "https://mitsloan.mit.edu/ideas-made-to-matter/machine-learning-explained",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "CDYszS1U4v95GozB_drbt",
+      "type": "topic",
+      "label": "進歩 的 な レンダリング",
+      "position": {
+        "x": -99.30821800196304,
+        "y": 2105.233172893317
+      },
+      "size": {
+        "width": 208,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "**先端レンダリング**は,3Dモデルまたはシーンを2D画像またはアニメーションに翻訳することを含むゲーム開発に使用される洗練された技術です.先端レンダリング技術は物理的なレンダリング,レイトラシング,グローバルイルミネーション,地下分散,カウスティクス,および体積レンダリングなどの様々な複雑な方法を含むことができます.先端レンダリングの使用は,現実世界で光の振る舞いを描写するために複雑な計算を使用するため,非常に現実的なグラフィックをもたらします.先端レンダリングにはしばしば強力なハードウェアリソースと特殊なソフトウェアツールが必要です.",
+        "links": [
+          {
+            "title": "進歩 的 な レンダリング",
+            "url": "https://www.advances.realtimerendering.com/",
+            "type": "article"
+          },
+          {
+            "title": "リアル タイム レンダリング の 進歩",
+            "url": "https://www.advances.realtimerendering.com/s2024/index.html",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "_i7BXZq-iLxQc3QZRMees",
+      "type": "subtopic",
+      "label": "リアルタイムレイ追跡",
+      "position": {
+        "x": 302.23120414171314,
+        "y": 2105.233172893317
+      },
+      "size": {
+        "width": 217,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center",
+        "colorType": "h"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "**リアルタイムレイ・トラシング**はレンダリング技術における顕著な進歩である.この技術は,それぞれの光線が異なる表面とどのように相互作用するかをシミュレーションすることによって,現実世界での光の働きを模倣することを目的としています.リアルタイムレイ・トラシングでは,光線は視聴者の視点から生成され,現場に送られます.それらは表面を反射したり,材料を通過したり,異なる方向に散らかしたりすることができます.これらの光線は,影を作り,物体の可視性を形作ったりすることができます.リアルタイムレイ・トラシングを特別にしているのは,これらの相互作用をリアルタイムで計算する能力であり,グラフィックはよりダイナミックかつインタラクティブにすることができます.リアルタイムレイ・トラッキングの複雑性は,膨大なコンピューティング力を伴うし,より新しいハードウェアとソフトウェアリリースにおける画期的な特徴となっています.",
+        "links": [
+          {
+            "title": "リアルタイムレイ・トラッキングとは?",
+            "url": "https://www.unrealengine.com/en-US/explainers/ray-tracing/what-is-real-time-ray-tracing",
+            "type": "article"
+          },
+          {
+            "title": "Nvidia RTX リアルタイムレイ・トラッキング",
+            "url": "https://blogs.nvidia.com/blog/rtx-real-time-ray-tracing/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "qoIkw9o8iMx7MzUyVYoR2",
+      "type": "subtopic",
+      "label": "ダイレクトックスレイ追跡",
+      "position": {
+        "x": 302.23120414171314,
+        "y": 2199.3409871463487
+      },
+      "size": {
+        "width": 217,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "DirectX Ray Tracing (DXR) は,DirectX 12で導入された先進的なWindows APIです.ゲーム開発とプロフェッショナルビジュアライゼーションにおける開発に対応するためにリアルタイムで映画品質のレンダリングを提供します.RT Core ハードウェアに非常に効率的で直接的なアクセスを提供します.DXRは,加速構造,Ray tracing pipeline 状態オブジェクト,Shader 表,コマンドリスト方法 (DispatchRays) を追加します.これは,MicrosoftがRay Tracing をリアルタイムレンダリングパイプラインの新しい標準として採用する重要な前進を示しています.開発者にとって,DirectX Ray 追跡は,既存のDirectX 12 プログラミングモデルとの簡単に互換性があるため,既存のエンジンに統合するのが簡単です.しかし,DXRの可能性を本当に最大化するには,グラフィックワークロードと追跡アルゴリズムの両方を深く理解する必要があります.",
+        "links": [
+          {
+            "title": "マイクロソフト・ディレクトックス・レイ・トラッキングの発表",
+            "url": "https://devblogs.microsoft.com/directx/announcing-microsoft-directx-raytracing/",
+            "type": "article"
+          },
+          {
+            "title": "ダイレクトックスレイ追跡",
+            "url": "https://developer.nvidia.com/blog/introduction-nvidia-rtx-directx-ray-tracing/",
+            "type": "official"
+          },
+          {
+            "title": "DX12 レイ・トラッキング",
+            "url": "https://developer.nvidia.com/blog/dx12-raytracing-tutorials/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tDGnV8dGIFr_diz4HcEjr",
+      "type": "subtopic",
+      "label": "バルカン・レイ・トラッキング",
+      "position": {
+        "x": 302.23120414171314,
+        "y": 2252.3409871463487
+      },
+      "size": {
+        "width": 217,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`Vulkan Ray Tracing`は,クロノスグループが開発したオープンソースクロスプラットフォームAPIであるVulkan API (アプリケーションプログラミングインターフェース) の拡張機能である.その主な目的は,開発者にGPUに対するより大きなコントロールを提供し,より優れたパフォーマンスとより効率的なマルチシステムおよびマルチコア使用を可能にすることです.Vulkan Ray Tracing拡張機能は,DirectX Raytracingに似た標準化された射線追跡インターフェースを提供し,リアルタイム射線追跡アプリケーションをVulkan上で構築することができます.この拡張機能には加速構造構築と管理,射線追跡シャダーステージとパイプライン,間接射線追跡ディスパッチなどの機能が含まれます.",
+        "links": [
+          {
+            "title": "NVIDIA ヴォルカン レイ トレーシング トチュオリアル",
+            "url": "https://developer.nvidia.com/rtx/raytracing/vkray",
+            "type": "article"
+          },
+          {
+            "title": "レー・トラッキング ヴァルカン",
+            "url": "https://docs.vulkan.org/guide/latest/extensions/ray_tracing.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "GDLysy3__cbYidEaOmFze",
+      "type": "subtopic",
+      "label": "オプティックス",
+      "position": {
+        "x": 302.23120414171314,
+        "y": 2305.3409871463487
+      },
+      "size": {
+        "width": 217,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`OptiX`は,NVIDIAによって開発されたアプリケーションフレームワークで,グラフィック処理ユニット (GPU) のプログラミングで高性能レイトレーシングを実現する.これは主にリアルタイムグラフィックアプリケーション,科学シミュレーション,およびその他のビジュアルコンピューティングアプリケーションで使用するために設計されています.`OptiX`は,高速で最新のレンダリングを達成するために階層的なオブジェクト加速,プログラム可能なレイ生成,材料シェイディング,ダイナミックなシーン管理などの重要な機能を提供します.この高度に効率的でスケーラブルで柔軟なAPIは,グラフィックレンダリングだけでなく衝突検出と物理シミュレーションのためのアプリケーションのコーディングをサポートします.`OptiX`へのアクセスには,Kepler,Maxwell,Pascal,Volta,Turingおよび後世代のGPUを搭載したNVIDIA GeForce,Quadro,Tesla製品が必要です.",
+        "links": [
+          {
+            "title": "Nvidia の OptiX",
+            "url": "https://developer.nvidia.com/optix/",
+            "type": "official"
+          },
+          {
+            "title": "OptiX APIドキュメント",
+            "url": "https://developer.nvidia.com/rtx/ray-tracing/optix",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "XvFtMHrYsBREmuerE7CGc",
+      "type": "subtopic",
+      "label": "物理 的 に 基づい て 表現 する",
+      "position": {
+        "x": -511.38874871773237,
+        "y": 2105.233172893317
+      },
+      "size": {
+        "width": 262,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center",
+        "colorType": "h"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "PBR (Physically Based Rendering) は,コンピュータグラフィックスにおける技術であり,実際の世界の表面と光の相互作用を模倣することを目的としています.反射から折射まで,光が現実を正確に表現する方法でどのように振る舞うかをモデル化します.PBRモデルは材料の物理的性質,例えば粗さや金属性等を因子化し,レンダリング出力は異なる照明条件下でより一貫して予測可能になります.高度なリアリズムを生成するために複雑な遮光アルゴリズムと光計算を使用します.これを達成するために,多くのPBRシステムは二つの重要なコンポーネントの組み合わせを使用します. 光がオブジェクトからどのように反射されるかを定義する二方向反射分布機能 (BRDF) と,光がオブジェクトの表面の下にどのように分散するかを処理する二方向表面分散反射分布機能 (BSSRDF).",
+        "links": [
+          {
+            "title": "物理 的 に 基づい て 表現 する",
+            "url": "https://dev.epicgames.com/community/learning/tutorials/Yx3q/unreal-engine-physically-based-rendering-pbr-explained-in-depth",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PuhXaRZ-Ql5PCqzMyz3en",
+      "type": "subtopic",
+      "label": "透明性と透明性",
+      "position": {
+        "x": -515.8887487177324,
+        "y": 2247.4742913383143
+      },
+      "size": {
+        "width": 271,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "物理的なレンダリングの領域では, **透明性**と **透明性**は視覚的に本物的で説得力のある画像を作成する上で重要な側面として作用する.透明性とは,光が無障礙にそれを通過することを可能にする物体の性質を指す.したがって,物体を明瞭または見えないものにする.これは通常ガラス,透明なプラスチック,水などの材料で見られる.一方,透明性とは,半透明な物体と光がどのように相互作用するかを記述する.直接通過する代わりに,光が物体に入り,一定の距離を移動し,別の場所に出かける.そのような表面の一般的な例は,人間の皮膚,マーブル,ミルク,またはワックスを含む.グラフィックスにおけるこの効果を達成するための技術は,入ってくる光がオブジェクトの表面の下に散らばり,材料の内部構造を表示する方法で照らされる地下分散を伴う.",
+        "links": [
+          {
+            "title": "OpenGL - ブレンドを学ぶ",
+            "url": "https://learnopengl.com/Advanced-OpenGL/Blending",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "H3hkafXO9zqEnWuwHa38P",
+      "type": "subtopic",
+      "label": "エネルギーの保全",
+      "position": {
+        "x": -515.8887487177324,
+        "y": 2300.4742913383143
+      },
+      "size": {
+        "width": 271,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "物理的なレンダリングの領域では, **透明性**と **透明性**は視覚的に本物的で説得力のある画像を作成する上で重要な側面として作用する.透明性とは,光が無障礙にそれを通過することを可能にする物体の性質を指す.したがって,物体を明瞭または見えないものにする.これは通常ガラス,透明なプラスチック,水などの材料で見られる.一方,透明性とは,半透明な物体と光がどのように相互作用するかを記述する.直接通過する代わりに,光が物体に入り,一定の距離を移動し,別の場所に出かける.そのような表面の一般的な例は,人間の皮膚,マーブル,ミルク,またはワックスを含む.グラフィックスにおけるこの効果を達成するための技術は,入ってくる光がオブジェクトの表面の下に散らばり,材料の内部構造を表示する方法で照らされる地下分散を伴う.",
+        "links": [
+          {
+            "title": "凸形とは何か?",
+            "url": "https://dev.to/fkkarakurt/geometry-and-primitives-in-game-development-1og",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "olY1ibR7kw1yJ58TfU-37",
+      "type": "subtopic",
+      "label": "メタリック性",
+      "position": {
+        "x": -515.8887487177324,
+        "y": 2353.4742913383143
+      },
+      "size": {
+        "width": 271,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "物理的なレンダリング (PBR) では, **メタリック性**は材料の重要な性質であり,それが光と相互作用する方法を影響する.それは二重性属性であり,材料が\"金属\"か\"非金属\"かを示す.金属は高金属性値 (しばしば1),非金属 (木,プラスチックなど) は低金属性値 (しばしば0).興味深いことに,PBRでは\"部分的に金属\"の材料は存在しない ―それはすべてまたは何もない特性である.この性質は色処理にも大きく影響する.金属はスペクラー反射から色を得ているが,非金属はサブサルスキャッティング (拡散) から色を得ている.",
+        "links": [
+          {
+            "title": "PBRにおける金属性",
+            "url": "https://en.wikipedia.org/wiki/Physically_based_rendering",
+            "type": "article"
+          },
+          {
+            "title": "3DゲームにおけるPBRとは何か",
+            "url": "https://www.adobe.com/products/substance3d/discover/pbr.html",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "YrQgfjsdLCIUxrwflpEHO",
+      "type": "subtopic",
+      "label": "マイクロ表面の散布",
+      "position": {
+        "x": -515.8887487177324,
+        "y": 2194.4742913383143
+      },
+      "size": {
+        "width": 271,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "マイクロ表面散布 (Microsurface scattering) は,物理的なレンダリング (PBR) の重要な現象である.このプロセスは,物質の表面に光を浸透させ,物質と相互作用することによって散布する.つまり,光が表面から跳ね回すのではなく,物体に衝突すると,その一部が物体に入り,再び放出する前に内部に散布される.皮膚,マーブル,ミルクなどの透明な材料のより現実的なレンダリングを達成するために鍵である.あなたのゲームでは,光が現実的な素材と説得力のある方法で相互作用する方法を複製するために不可欠と考えます.",
+        "links": [
+          {
+            "title": "表面下レンダリング",
+            "url": "https://gamedev.net/forums/topic/600708-subsurface-scattering/",
+            "type": "article"
+          },
+          {
+            "title": "リアルタイムの地下表面レンダリング",
+            "url": "https://therealmjp.github.io/posts/sss-intro/",
+            "type": "article"
+          },
+          {
+            "title": "表面下散布の種類",
+            "url": "https://www.youtube.com/watch?v=GkjvYSbGHg4",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3in61wmgTAqq7nSJm00p-",
+      "type": "horizontal",
+      "label": "ホリゾントノード",
+      "position": {
+        "x": 441.84147172248663,
+        "y": -40.82399710033968
+      },
+      "size": {
+        "width": 93,
+        "height": 20
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    }
+  ],
+  "edges": [
+    {
+      "id": "reactflow__edge-rQArtuVKGVgLn_fw9yO3bx2-m1wX27XBWKXZcTMH2U1xpw2",
+      "source": "rQArtuVKGVgLn_fw9yO3b",
+      "target": "m1wX27XBWKXZcTMH2U1xp",
+      "source_handle": "x2",
+      "target_handle": "w2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-iogwMmOvub2ZF4zgg6WyFx2-rQArtuVKGVgLn_fw9yO3bw2",
+      "source": "iogwMmOvub2ZF4zgg6WyF",
+      "target": "rQArtuVKGVgLn_fw9yO3b",
+      "source_handle": "x2",
+      "target_handle": "w2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-m1wX27XBWKXZcTMH2U1xpx2-YTkOF_33oL1ZkA-loc_DPw1",
+      "source": "m1wX27XBWKXZcTMH2U1xp",
+      "target": "YTkOF_33oL1ZkA-loc_DP",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-m1wX27XBWKXZcTMH2U1xpy2-grRf-MmaXimDB4iODOV47z1",
+      "source": "m1wX27XBWKXZcTMH2U1xp",
+      "target": "grRf-MmaXimDB4iODOV47",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-m1wX27XBWKXZcTMH2U1xpy2-Kg6Mg9ieUUGXWX9Lai7B0z1",
+      "source": "m1wX27XBWKXZcTMH2U1xp",
+      "target": "Kg6Mg9ieUUGXWX9Lai7B0",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-m1wX27XBWKXZcTMH2U1xpy2-XABzEU9owCx9-zw1id9xUz1",
+      "source": "m1wX27XBWKXZcTMH2U1xp",
+      "target": "XABzEU9owCx9-zw1id9xU",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-m1wX27XBWKXZcTMH2U1xpy2-r5TcXQsU9s4NlAQIPvZ3Uz1",
+      "source": "m1wX27XBWKXZcTMH2U1xp",
+      "target": "r5TcXQsU9s4NlAQIPvZ3U",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-m1wX27XBWKXZcTMH2U1xpy2-SkCreb6g4i-OFtJWhRYqOz1",
+      "source": "m1wX27XBWKXZcTMH2U1xp",
+      "target": "SkCreb6g4i-OFtJWhRYqO",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-m1wX27XBWKXZcTMH2U1xpy2-iIWEjpkNFBj4R5wQ0mcWYz2",
+      "source": "m1wX27XBWKXZcTMH2U1xp",
+      "target": "iIWEjpkNFBj4R5wQ0mcWY",
+      "source_handle": "y2",
+      "target_handle": "z2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-m1wX27XBWKXZcTMH2U1xpz2-4YgbrXLXf5mfaL2tlYkzky1",
+      "source": "m1wX27XBWKXZcTMH2U1xp",
+      "target": "UTBnrQiZ6Bf96yJYIUf3b",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-SuemqQuiePab0Qpm2EGy9y2-vmRYaXNVCe0N73xG8bsEKz2",
+      "source": "SuemqQuiePab0Qpm2EGy9",
+      "target": "vmRYaXNVCe0N73xG8bsEK",
+      "source_handle": "y2",
+      "target_handle": "z2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-vmRYaXNVCe0N73xG8bsEKy2-kSMz7mZ243qMKtT_YD3ADz1",
+      "source": "vmRYaXNVCe0N73xG8bsEK",
+      "target": "kSMz7mZ243qMKtT_YD3AD",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-vmRYaXNVCe0N73xG8bsEKy2-lwd3Gz9bJEKCIwhXD6m-vz2",
+      "source": "vmRYaXNVCe0N73xG8bsEK",
+      "target": "lwd3Gz9bJEKCIwhXD6m-v",
+      "source_handle": "y2",
+      "target_handle": "z2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-vmRYaXNVCe0N73xG8bsEKy2-vWLKYK2KUzV1fO-vQunzWz1",
+      "source": "vmRYaXNVCe0N73xG8bsEK",
+      "target": "vWLKYK2KUzV1fO-vQunzW",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-SuemqQuiePab0Qpm2EGy9y2-YLusnwCba7BIdKOYUoY6Fz2",
+      "source": "SuemqQuiePab0Qpm2EGy9",
+      "target": "YLusnwCba7BIdKOYUoY6F",
+      "source_handle": "y2",
+      "target_handle": "z2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-pG_V12qhS4HevoP_KHTvhy2-jixffcPBELkhoG0e7Te8gz2",
+      "source": "pG_V12qhS4HevoP_KHTvh",
+      "target": "jixffcPBELkhoG0e7Te8g",
+      "source_handle": "y2",
+      "target_handle": "z2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-jslk7Gy58VspO1uXGDgBpy2-bgP9NpD0DJGqN4VCt65xPz2",
+      "source": "jslk7Gy58VspO1uXGDgBp",
+      "target": "bgP9NpD0DJGqN4VCt65xP",
+      "source_handle": "y2",
+      "target_handle": "z2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-YLusnwCba7BIdKOYUoY6Fx2-pG_V12qhS4HevoP_KHTvhw1",
+      "source": "YLusnwCba7BIdKOYUoY6F",
+      "target": "pG_V12qhS4HevoP_KHTvh",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-AKd2UpITqBZV7cZszSRpsx2-PLR_4yoRifoTzkOR4c7ymw1",
+      "source": "AKd2UpITqBZV7cZszSRps",
+      "target": "PLR_4yoRifoTzkOR4c7ym",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-PLR_4yoRifoTzkOR4c7ymy2-aTeYGd4JlPr5txNPyBeznz1",
+      "source": "PLR_4yoRifoTzkOR4c7ym",
+      "target": "aTeYGd4JlPr5txNPyBezn",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-9Fk3XSINBr2NNdbMtwsIKy2-STdvFYM9V0a36IkPXjvrBz1",
+      "source": "9Fk3XSINBr2NNdbMtwsIK",
+      "target": "STdvFYM9V0a36IkPXjvrB",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-9Fk3XSINBr2NNdbMtwsIKy2-FCc5xwb_G3VsDRXOcg3hVz2",
+      "source": "9Fk3XSINBr2NNdbMtwsIK",
+      "target": "FCc5xwb_G3VsDRXOcg3hV",
+      "source_handle": "y2",
+      "target_handle": "z2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-FCc5xwb_G3VsDRXOcg3hVy2-XHFV4d6Ab4kWQ3-XcZTyTz1",
+      "source": "FCc5xwb_G3VsDRXOcg3hV",
+      "target": "XHFV4d6Ab4kWQ3-XcZTyT",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-UTBnrQiZ6Bf96yJYIUf3by2-4YgbrXLXf5mfaL2tlYkzkz2",
+      "source": "UTBnrQiZ6Bf96yJYIUf3b",
+      "target": "fv5tivGad2P9GRZOodfn2",
+      "source_handle": "y2",
+      "target_handle": "z2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-4YgbrXLXf5mfaL2tlYkzky2-rNeOti8DDyWTMP9FB9kJ_z1",
+      "source": "fv5tivGad2P9GRZOodfn2",
+      "target": "rNeOti8DDyWTMP9FB9kJ_",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-4YgbrXLXf5mfaL2tlYkzky2-a6H-cZtp3A_fB8jnfMxBRz2",
+      "source": "fv5tivGad2P9GRZOodfn2",
+      "target": "a6H-cZtp3A_fB8jnfMxBR",
+      "source_handle": "y2",
+      "target_handle": "z2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-4YgbrXLXf5mfaL2tlYkzky2-CeAUEN233L4IoFSZtIvvlz1",
+      "source": "fv5tivGad2P9GRZOodfn2",
+      "target": "CeAUEN233L4IoFSZtIvvl",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-4YgbrXLXf5mfaL2tlYkzky2-7OffO2mBmfBKqPBTZ9ngIz1",
+      "source": "fv5tivGad2P9GRZOodfn2",
+      "target": "7OffO2mBmfBKqPBTZ9ngI",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-UTBnrQiZ6Bf96yJYIUf3bx2-AdOfOJtLtNgDwuABb6orEw1",
+      "source": "UTBnrQiZ6Bf96yJYIUf3b",
+      "target": "AdOfOJtLtNgDwuABb6orE",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-4YgbrXLXf5mfaL2tlYkzky2-jsq0UXnIIC0Z_nbK2w48fz1",
+      "source": "4YgbrXLXf5mfaL2tlYkzk",
+      "target": "jsq0UXnIIC0Z_nbK2w48f",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-THMmnx8p_P0X-dSPoHvstx2-iBZ1JsEWI0xuLgUvfWfl-w1",
+      "source": "THMmnx8p_P0X-dSPoHvst",
+      "target": "iBZ1JsEWI0xuLgUvfWfl-",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-CDYszS1U4v95GozB_drbty2-JW5c_0JEtO-OiBoXUia6Az1",
+      "source": "lIb5MeDoqVj6HycveOgTS",
+      "target": "JW5c_0JEtO-OiBoXUia6A",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-CDYszS1U4v95GozB_drbty2-vYNj9nzu90e9xlrzHULnPz1",
+      "source": "lIb5MeDoqVj6HycveOgTS",
+      "target": "vYNj9nzu90e9xlrzHULnP",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-CDYszS1U4v95GozB_drbty2-shSRnMf4NONuZ3TGPAoQcz1",
+      "source": "lIb5MeDoqVj6HycveOgTS",
+      "target": "shSRnMf4NONuZ3TGPAoQc",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-CDYszS1U4v95GozB_drbty2-rmtxybcavWV6A53R4ZWgcz1",
+      "source": "lIb5MeDoqVj6HycveOgTS",
+      "target": "rmtxybcavWV6A53R4ZWgc",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-eI2jym4AAz3ani-lreSKEx2-0g1z5G2dsF4PTIfFAG984w1",
+      "source": "eI2jym4AAz3ani-lreSKE",
+      "target": "0g1z5G2dsF4PTIfFAG984",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-UTBnrQiZ6Bf96yJYIUf3bw2-0D7KQlF-9ylmILTBBVxotx2",
+      "source": "UTBnrQiZ6Bf96yJYIUf3b",
+      "target": "0D7KQlF-9ylmILTBBVxot",
+      "source_handle": "w2",
+      "target_handle": "x2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-lIb5MeDoqVj6HycveOgTSy2-qIrePusMuvcUva9LMDmDxz1",
+      "source": "lIb5MeDoqVj6HycveOgTS",
+      "target": "qIrePusMuvcUva9LMDmDx",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-CDYszS1U4v95GozB_drbtz2-Ky-95ipdgyPZGAIdqwMCky1",
+      "source": "Hpf_CPmLpCSP8Qo07Kq1X",
+      "target": "Ky-95ipdgyPZGAIdqwMCk",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-Hpf_CPmLpCSP8Qo07Kq1Xx2-CDYszS1U4v95GozB_drbtw1",
+      "source": "Hpf_CPmLpCSP8Qo07Kq1X",
+      "target": "Hpk8eOaOepERMmOvUgkxa",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "simplebezier",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-Hpk8eOaOepERMmOvUgkxax2-CDYszS1U4v95GozB_drbtw1",
+      "source": "Hpk8eOaOepERMmOvUgkxa",
+      "target": "CDYszS1U4v95GozB_drbt",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-XvFtMHrYsBREmuerE7CGcx2-qoIkw9o8iMx7MzUyVYoR2w1",
+      "source": "_i7BXZq-iLxQc3QZRMees",
+      "target": "qoIkw9o8iMx7MzUyVYoR2",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-CDYszS1U4v95GozB_drbtz2-XvFtMHrYsBREmuerE7CGcy2",
+      "source": "CDYszS1U4v95GozB_drbt",
+      "target": "_i7BXZq-iLxQc3QZRMees",
+      "source_handle": "z2",
+      "target_handle": "y2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-CDYszS1U4v95GozB_drbty2-XvFtMHrYsBREmuerE7CGcz1",
+      "source": "CDYszS1U4v95GozB_drbt",
+      "target": "XvFtMHrYsBREmuerE7CGc",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-XvFtMHrYsBREmuerE7CGcx2-YrQgfjsdLCIUxrwflpEHOw1",
+      "source": "XvFtMHrYsBREmuerE7CGc",
+      "target": "YrQgfjsdLCIUxrwflpEHO",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    }
+  ],
+  "content_crawled_at": "2026-04-06T09:35:18.467297+00:00"
+}

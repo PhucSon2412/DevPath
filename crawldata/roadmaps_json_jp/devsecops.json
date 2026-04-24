@@ -1,0 +1,486 @@
+{
+  "id": "devsecops",
+  "title": "DevSecOps",
+  "source_url": "https://roadmap.sh/devsecops",
+  "github_url": "https://github.com/kamranahmedse/developer-roadmap/tree/master/src/data/roadmaps/devsecops",
+  "crawled_at": "2026-04-06T07:36:41.671553+00:00",
+  "type": "content-only",
+  "note": "このロードマップはマークダウン形式のみ,フローチャート形式のノード/エッジはありません.",
+  "stats": {
+    "total_content_files": 94
+  },
+  "content_files": [
+    {
+      "name": "acls@lLWQhvzXn3EpeCf9Mhgyj.md",
+      "path": "src/data/roadmaps/devsecops/content/acls@lLWQhvzXn3EpeCf9Mhgyj.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/devsecops/content/acls%40lLWQhvzXn3EpeCf9Mhgyj.md"
+    },
+    {
+      "name": "alert-types@-j1PH9_z-Eq3jxX6e8VmQ.md",
+      "path": "src/data/roadmaps/devsecops/content/alert-types@-j1PH9_z-Eq3jxX6e8VmQ.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/devsecops/content/alert-types%40-j1PH9_z-Eq3jxX6e8VmQ.md"
+    },
+    {
+      "name": "asymmetric@hz0WFG5ksaBFMpq7ypLgF.md",
+      "path": "src/data/roadmaps/devsecops/content/asymmetric@hz0WFG5ksaBFMpq7ypLgF.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/devsecops/content/asymmetric%40hz0WFG5ksaBFMpq7ypLgF.md"
+    },
+    {
+      "name": "attack-surface-mapping@JztcgG94qZ5trdhfDcRa6.md",
+      "path": "src/data/roadmaps/devsecops/content/attack-surface-mapping@JztcgG94qZ5trdhfDcRa6.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/devsecops/content/attack-surface-mapping%40JztcgG94qZ5trdhfDcRa6.md"
+    },
+    {
+      "name": "audit--compliance-mapping@04_UcLELHkqjBCwliCw7H.md",
+      "path": "src/data/roadmaps/devsecops/content/audit--compliance-mapping@04_UcLELHkqjBCwliCw7H.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/devsecops/content/audit--compliance-mapping%4004_UcLELHkqjBCwliCw7H.md"
+    },
+    {
+      "name": "authentication@iiOWJ7KXyHp_ovVWNmDoc.md",
+      "path": "src/data/roadmaps/devsecops/content/authentication@iiOWJ7KXyHp_ovVWNmDoc.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/devsecops/content/authentication%40iiOWJ7KXyHp_ovVWNmDoc.md"
+    },
+    {
+      "name": "authorization@DYmh1MkmAuXUJOFqnFzWc.md",
+      "path": "src/data/roadmaps/devsecops/content/authorization@DYmh1MkmAuXUJOFqnFzWc.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/devsecops/content/authorization%40DYmh1MkmAuXUJOFqnFzWc.md"
+    },
+    {
+      "name": "automated-patching@HahTEhITEAGaoys1psZqV.md",
+      "path": "src/data/roadmaps/devsecops/content/automated-patching@HahTEhITEAGaoys1psZqV.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/devsecops/content/automated-patching%40HahTEhITEAGaoys1psZqV.md"
+    },
+    {
+      "name": "bash@r3XBfcNtxSraF11YK_5d5.md",
+      "path": "src/data/roadmaps/devsecops/content/bash@r3XBfcNtxSraF11YK_5d5.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/devsecops/content/bash%40r3XBfcNtxSraF11YK_5d5.md"
+    },
+    {
+      "name": "bcrypt@TqmbGC_Q_b3BkU7UkvE-S.md",
+      "path": "src/data/roadmaps/devsecops/content/bcrypt@TqmbGC_Q_b3BkU7UkvE-S.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/devsecops/content/bcrypt%40TqmbGC_Q_b3BkU7UkvE-S.md"
+    },
+    {
+      "name": "build-pipeline-hardening@nkPrYgpM5Mn6C_9u9yAyQ.md",
+      "path": "src/data/roadmaps/devsecops/content/build-pipeline-hardening@nkPrYgpM5Mn6C_9u9yAyQ.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/devsecops/content/build-pipeline-hardening%40nkPrYgpM5Mn6C_9u9yAyQ.md"
+    },
+    {
+      "name": "burp-suite@uAUg6mDDDq7ZyR0IEDxg5.md",
+      "path": "src/data/roadmaps/devsecops/content/burp-suite@uAUg6mDDDq7ZyR0IEDxg5.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/devsecops/content/burp-suite%40uAUg6mDDDq7ZyR0IEDxg5.md"
+    },
+    {
+      "name": "certificate-lifecycle@quUzTCnBnmJoSmIPBGjxk.md",
+      "path": "src/data/roadmaps/devsecops/content/certificate-lifecycle@quUzTCnBnmJoSmIPBGjxk.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/devsecops/content/certificate-lifecycle%40quUzTCnBnmJoSmIPBGjxk.md"
+    },
+    {
+      "name": "cia-triad@k7AtVkkVavHjCVo1hqCc0.md",
+      "path": "src/data/roadmaps/devsecops/content/cia-triad@k7AtVkkVavHjCVo1hqCc0.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/devsecops/content/cia-triad%40k7AtVkkVavHjCVo1hqCc0.md"
+    },
+    {
+      "name": "cloud-security@ou2-KKBNyOxH_IW9s3eE9.md",
+      "path": "src/data/roadmaps/devsecops/content/cloud-security@ou2-KKBNyOxH_IW9s3eE9.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/devsecops/content/cloud-security%40ou2-KKBNyOxH_IW9s3eE9.md"
+    },
+    {
+      "name": "container-security@EnDqfr07RzNZmPIth6wSq.md",
+      "path": "src/data/roadmaps/devsecops/content/container-security@EnDqfr07RzNZmPIth6wSq.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/devsecops/content/container-security%40EnDqfr07RzNZmPIth6wSq.md"
+    },
+    {
+      "name": "containment@CUjGVwPvQytVYqy2zEPuw.md",
+      "path": "src/data/roadmaps/devsecops/content/containment@CUjGVwPvQytVYqy2zEPuw.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/devsecops/content/containment%40CUjGVwPvQytVYqy2zEPuw.md"
+    },
+    {
+      "name": "cryptographic-hashing@EqfPoveYajk61VH-ii_uE.md",
+      "path": "src/data/roadmaps/devsecops/content/cryptographic-hashing@EqfPoveYajk61VH-ii_uE.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/devsecops/content/cryptographic-hashing%40EqfPoveYajk61VH-ii_uE.md"
+    },
+    {
+      "name": "cspm@eTOjfNSzlvbWsyX5an_5w.md",
+      "path": "src/data/roadmaps/devsecops/content/cspm@eTOjfNSzlvbWsyX5an_5w.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/devsecops/content/cspm%40eTOjfNSzlvbWsyX5an_5w.md"
+    },
+    {
+      "name": "ddos-miligation-strategy@ltpquwL_YEvbgMZ2OyNS4.md",
+      "path": "src/data/roadmaps/devsecops/content/ddos-miligation-strategy@ltpquwL_YEvbgMZ2OyNS4.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/devsecops/content/ddos-miligation-strategy%40ltpquwL_YEvbgMZ2OyNS4.md"
+    },
+    {
+      "name": "defense-in-depth-concepts@a4dYHrx1KzhKRtarZT1iy.md",
+      "path": "src/data/roadmaps/devsecops/content/defense-in-depth-concepts@a4dYHrx1KzhKRtarZT1iy.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/devsecops/content/defense-in-depth-concepts%40a4dYHrx1KzhKRtarZT1iy.md"
+    },
+    {
+      "name": "dependency-risk-management@AAd_X7gI-WA7Jh9FKsuE_.md",
+      "path": "src/data/roadmaps/devsecops/content/dependency-risk-management@AAd_X7gI-WA7Jh9FKsuE_.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/devsecops/content/dependency-risk-management%40AAd_X7gI-WA7Jh9FKsuE_.md"
+    },
+    {
+      "name": "devsecops-vs-devops@SJa6UcRcgT08lF8Phnh0X.md",
+      "path": "src/data/roadmaps/devsecops/content/devsecops-vs-devops@SJa6UcRcgT08lF8Phnh0X.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/devsecops/content/devsecops-vs-devops%40SJa6UcRcgT08lF8Phnh0X.md"
+    },
+    {
+      "name": "dns@TnDsOr1iJX3hY7vJRpp7S.md",
+      "path": "src/data/roadmaps/devsecops/content/dns@TnDsOr1iJX3hY7vJRpp7S.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/devsecops/content/dns%40TnDsOr1iJX3hY7vJRpp7S.md"
+    },
+    {
+      "name": "docker@-OWtiqx4YbcOVhtYU0D69.md",
+      "path": "src/data/roadmaps/devsecops/content/docker@-OWtiqx4YbcOVhtYU0D69.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/devsecops/content/docker%40-OWtiqx4YbcOVhtYU0D69.md"
+    },
+    {
+      "name": "edr-strategy@A67WShi92I-TX0iK7Fv0L.md",
+      "path": "src/data/roadmaps/devsecops/content/edr-strategy@A67WShi92I-TX0iK7Fv0L.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/devsecops/content/edr-strategy%40A67WShi92I-TX0iK7Fv0L.md"
+    },
+    {
+      "name": "encryption@0ey7Spq4DoZ-AfXOsMtag.md",
+      "path": "src/data/roadmaps/devsecops/content/encryption@0ey7Spq4DoZ-AfXOsMtag.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/devsecops/content/encryption%400ey7Spq4DoZ-AfXOsMtag.md"
+    },
+    {
+      "name": "endpoint-detection@E2jGo4HeKaeuXYa9-f-vy.md",
+      "path": "src/data/roadmaps/devsecops/content/endpoint-detection@E2jGo4HeKaeuXYa9-f-vy.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/devsecops/content/endpoint-detection%40E2jGo4HeKaeuXYa9-f-vy.md"
+    },
+    {
+      "name": "enterprise-operations@68qVLExPlVrKJweTjd_S5.md",
+      "path": "src/data/roadmaps/devsecops/content/enterprise-operations@68qVLExPlVrKJweTjd_S5.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/devsecops/content/enterprise-operations%4068qVLExPlVrKJweTjd_S5.md"
+    },
+    {
+      "name": "firewalls@LV_uiNRdUi9OrmxQCdeGw.md",
+      "path": "src/data/roadmaps/devsecops/content/firewalls@LV_uiNRdUi9OrmxQCdeGw.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/devsecops/content/firewalls%40LV_uiNRdUi9OrmxQCdeGw.md"
+    },
+    {
+      "name": "forensics@h_kjdN5uGNKLtJ3puQ9RH.md",
+      "path": "src/data/roadmaps/devsecops/content/forensics@h_kjdN5uGNKLtJ3puQ9RH.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/devsecops/content/forensics%40h_kjdN5uGNKLtJ3puQ9RH.md"
+    },
+    {
+      "name": "go@UcBt4BsvLDlsnVy3KKJ1y.md",
+      "path": "src/data/roadmaps/devsecops/content/go@UcBt4BsvLDlsnVy3KKJ1y.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/devsecops/content/go%40UcBt4BsvLDlsnVy3KKJ1y.md"
+    },
+    {
+      "name": "http@WamX-UieM8NxhK6P_bDCB.md",
+      "path": "src/data/roadmaps/devsecops/content/http@WamX-UieM8NxhK6P_bDCB.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/devsecops/content/http%40WamX-UieM8NxhK6P_bDCB.md"
+    },
+    {
+      "name": "iam@-RORxEsNvIPSlnM2TWB3j.md",
+      "path": "src/data/roadmaps/devsecops/content/iam@-RORxEsNvIPSlnM2TWB3j.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/devsecops/content/iam%40-RORxEsNvIPSlnM2TWB3j.md"
+    },
+    {
+      "name": "iam@JDglIowCyRjSoqCcNfkZr.md",
+      "path": "src/data/roadmaps/devsecops/content/iam@JDglIowCyRjSoqCcNfkZr.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/devsecops/content/iam%40JDglIowCyRjSoqCcNfkZr.md"
+    },
+    {
+      "name": "identity-basics@iONpD135a4kd3zR5ufoTx.md",
+      "path": "src/data/roadmaps/devsecops/content/identity-basics@iONpD135a4kd3zR5ufoTx.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/devsecops/content/identity-basics%40iONpD135a4kd3zR5ufoTx.md"
+    },
+    {
+      "name": "ids@L3Mu6rCIu58VyhtxeyLXq.md",
+      "path": "src/data/roadmaps/devsecops/content/ids@L3Mu6rCIu58VyhtxeyLXq.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/devsecops/content/ids%40L3Mu6rCIu58VyhtxeyLXq.md"
+    },
+    {
+      "name": "image-scanning@bPmjX9IPL9Da0XUApY5UF.md",
+      "path": "src/data/roadmaps/devsecops/content/image-scanning@bPmjX9IPL9Da0XUApY5UF.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/devsecops/content/image-scanning%40bPmjX9IPL9Da0XUApY5UF.md"
+    },
+    {
+      "name": "incident-response@V5eQcby9FNcGv68KPj5rH.md",
+      "path": "src/data/roadmaps/devsecops/content/incident-response@V5eQcby9FNcGv68KPj5rH.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/devsecops/content/incident-response%40V5eQcby9FNcGv68KPj5rH.md"
+    },
+    {
+      "name": "input-validation-patterns@lq4nTMBniaxxwPvH5M77Z.md",
+      "path": "src/data/roadmaps/devsecops/content/input-validation-patterns@lq4nTMBniaxxwPvH5M77Z.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/devsecops/content/input-validation-patterns%40lq4nTMBniaxxwPvH5M77Z.md"
+    },
+    {
+      "name": "introduction@-X3GTFpg3kzm0cELAngjb.md",
+      "path": "src/data/roadmaps/devsecops/content/introduction@-X3GTFpg3kzm0cELAngjb.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/devsecops/content/introduction%40-X3GTFpg3kzm0cELAngjb.md"
+    },
+    {
+      "name": "ips@PYH_nc4bktIJoCJA6OC5E.md",
+      "path": "src/data/roadmaps/devsecops/content/ips@PYH_nc4bktIJoCJA6OC5E.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/devsecops/content/ips%40PYH_nc4bktIJoCJA6OC5E.md"
+    },
+    {
+      "name": "ir-lifecycle@X-pvSQnfB2W4992_3eOEy.md",
+      "path": "src/data/roadmaps/devsecops/content/ir-lifecycle@X-pvSQnfB2W4992_3eOEy.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/devsecops/content/ir-lifecycle%40X-pvSQnfB2W4992_3eOEy.md"
+    },
+    {
+      "name": "iso-27001@JBNiSzYD8DSnKfHoKRjMg.md",
+      "path": "src/data/roadmaps/devsecops/content/iso-27001@JBNiSzYD8DSnKfHoKRjMg.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/devsecops/content/iso-27001%40JBNiSzYD8DSnKfHoKRjMg.md"
+    },
+    {
+      "name": "javascript--nodejs@BeUiBY18JHqCKVNtYAHH3.md",
+      "path": "src/data/roadmaps/devsecops/content/javascript--nodejs@BeUiBY18JHqCKVNtYAHH3.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/devsecops/content/javascript--nodejs%40BeUiBY18JHqCKVNtYAHH3.md"
+    },
+    {
+      "name": "key-management-service@l76yFl4lSXnxg5DBbnnID.md",
+      "path": "src/data/roadmaps/devsecops/content/key-management-service@l76yFl4lSXnxg5DBbnnID.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/devsecops/content/key-management-service%40l76yFl4lSXnxg5DBbnnID.md"
+    },
+    {
+      "name": "kubernetes@YveqgdX6eNRFC1zU_q7r1.md",
+      "path": "src/data/roadmaps/devsecops/content/kubernetes@YveqgdX6eNRFC1zU_q7r1.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/devsecops/content/kubernetes%40YveqgdX6eNRFC1zU_q7r1.md"
+    },
+    {
+      "name": "large-scale-identity-strategy@XRnxOPVChkGLQSXX-kUmi.md",
+      "path": "src/data/roadmaps/devsecops/content/large-scale-identity-strategy@XRnxOPVChkGLQSXX-kUmi.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/devsecops/content/large-scale-identity-strategy%40XRnxOPVChkGLQSXX-kUmi.md"
+    },
+    {
+      "name": "learn-a-programming-language@v5FGKQc-_7NYEsWjmTEuq.md",
+      "path": "src/data/roadmaps/devsecops/content/learn-a-programming-language@v5FGKQc-_7NYEsWjmTEuq.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/devsecops/content/learn-a-programming-language%40v5FGKQc-_7NYEsWjmTEuq.md"
+    },
+    {
+      "name": "least-privilege@rK-RToN5JRcclYl23TyYz.md",
+      "path": "src/data/roadmaps/devsecops/content/least-privilege@rK-RToN5JRcclYl23TyYz.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/devsecops/content/least-privilege%40rK-RToN5JRcclYl23TyYz.md"
+    },
+    {
+      "name": "log-analysis@_Kr2_N8021tsZfa0wZ3Vu.md",
+      "path": "src/data/roadmaps/devsecops/content/log-analysis@_Kr2_N8021tsZfa0wZ3Vu.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/devsecops/content/log-analysis%40_Kr2_N8021tsZfa0wZ3Vu.md"
+    },
+    {
+      "name": "monitoring@MMTCo21ap15MrPV64vKka.md",
+      "path": "src/data/roadmaps/devsecops/content/monitoring@MMTCo21ap15MrPV64vKka.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/devsecops/content/monitoring%40MMTCo21ap15MrPV64vKka.md"
+    },
+    {
+      "name": "multi-region-security-planning@eALB73XbtnFF3-PYcLcZq.md",
+      "path": "src/data/roadmaps/devsecops/content/multi-region-security-planning@eALB73XbtnFF3-PYcLcZq.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/devsecops/content/multi-region-security-planning%40eALB73XbtnFF3-PYcLcZq.md"
+    },
+    {
+      "name": "nessus@EqbzAy56Tu8asKNFzuti_.md",
+      "path": "src/data/roadmaps/devsecops/content/nessus@EqbzAy56Tu8asKNFzuti_.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/devsecops/content/nessus%40EqbzAy56Tu8asKNFzuti_.md"
+    },
+    {
+      "name": "network-segmentation@Cr0VAtdu0ZYPOkUU_7vjR.md",
+      "path": "src/data/roadmaps/devsecops/content/network-segmentation@Cr0VAtdu0ZYPOkUU_7vjR.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/devsecops/content/network-segmentation%40Cr0VAtdu0ZYPOkUU_7vjR.md"
+    },
+    {
+      "name": "networking-basics@84HlHz8bHCDtAPGpq7LpX.md",
+      "path": "src/data/roadmaps/devsecops/content/networking-basics@84HlHz8bHCDtAPGpq7LpX.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/devsecops/content/networking-basics%4084HlHz8bHCDtAPGpq7LpX.md"
+    },
+    {
+      "name": "nist@yMb0-A55r1KEsLntOmp5F.md",
+      "path": "src/data/roadmaps/devsecops/content/nist@yMb0-A55r1KEsLntOmp5F.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/devsecops/content/nist%40yMb0-A55r1KEsLntOmp5F.md"
+    },
+    {
+      "name": "nmap-basics@JyXv5vPHCjSBc0J-PpUEV.md",
+      "path": "src/data/roadmaps/devsecops/content/nmap-basics@JyXv5vPHCjSBc0J-PpUEV.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/devsecops/content/nmap-basics%40JyXv5vPHCjSBc0J-PpUEV.md"
+    },
+    {
+      "name": "nmap@0Tci_Ks8jXisin90VqB_D.md",
+      "path": "src/data/roadmaps/devsecops/content/nmap@0Tci_Ks8jXisin90VqB_D.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/devsecops/content/nmap%400Tci_Ks8jXisin90VqB_D.md"
+    },
+    {
+      "name": "openvas@mIcs0fp3T9IwwAvgYyKnY.md",
+      "path": "src/data/roadmaps/devsecops/content/openvas@mIcs0fp3T9IwwAvgYyKnY.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/devsecops/content/openvas%40mIcs0fp3T9IwwAvgYyKnY.md"
+    },
+    {
+      "name": "owasp-top-10@igGASa7AknApWtq57v2Qx.md",
+      "path": "src/data/roadmaps/devsecops/content/owasp-top-10@igGASa7AknApWtq57v2Qx.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/devsecops/content/owasp-top-10%40igGASa7AknApWtq57v2Qx.md"
+    },
+    {
+      "name": "pasta@6A_3p3CzwxFVjJaXahEVr.md",
+      "path": "src/data/roadmaps/devsecops/content/pasta@6A_3p3CzwxFVjJaXahEVr.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/devsecops/content/pasta%406A_3p3CzwxFVjJaXahEVr.md"
+    },
+    {
+      "name": "pki-design-and-failover@nEYMyTKfRDqA2Uc1tCwxv.md",
+      "path": "src/data/roadmaps/devsecops/content/pki-design-and-failover@nEYMyTKfRDqA2Uc1tCwxv.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/devsecops/content/pki-design-and-failover%40nEYMyTKfRDqA2Uc1tCwxv.md"
+    },
+    {
+      "name": "powershell@91lxZEOZ6KF3tY9id2Au8.md",
+      "path": "src/data/roadmaps/devsecops/content/powershell@91lxZEOZ6KF3tY9id2Au8.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/devsecops/content/powershell%4091lxZEOZ6KF3tY9id2Au8.md"
+    },
+    {
+      "name": "python@txcfATz3k89CedFrSZMWj.md",
+      "path": "src/data/roadmaps/devsecops/content/python@txcfATz3k89CedFrSZMWj.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/devsecops/content/python%40txcfATz3k89CedFrSZMWj.md"
+    },
+    {
+      "name": "qualys@Pkud7rAzdV5asF5aGAq7z.md",
+      "path": "src/data/roadmaps/devsecops/content/qualys@Pkud7rAzdV5asF5aGAq7z.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/devsecops/content/qualys%40Pkud7rAzdV5asF5aGAq7z.md"
+    },
+    {
+      "name": "response-strategy@6Q2VIdeSuBZzo7c1qnYLG.md",
+      "path": "src/data/roadmaps/devsecops/content/response-strategy@6Q2VIdeSuBZzo7c1qnYLG.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/devsecops/content/response-strategy%406Q2VIdeSuBZzo7c1qnYLG.md"
+    },
+    {
+      "name": "risk-quantification@V97S_0PrVw3jjHnmcxDgJ.md",
+      "path": "src/data/roadmaps/devsecops/content/risk-quantification@V97S_0PrVw3jjHnmcxDgJ.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/devsecops/content/risk-quantification%40V97S_0PrVw3jjHnmcxDgJ.md"
+    },
+    {
+      "name": "role-based-access@9Tea1ge_l1fls0fyPxMPG.md",
+      "path": "src/data/roadmaps/devsecops/content/role-based-access@9Tea1ge_l1fls0fyPxMPG.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/devsecops/content/role-based-access%409Tea1ge_l1fls0fyPxMPG.md"
+    },
+    {
+      "name": "root-cause-analysis@VyzLkdcLgxfSSFuUS0xO_.md",
+      "path": "src/data/roadmaps/devsecops/content/root-cause-analysis@VyzLkdcLgxfSSFuUS0xO_.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/devsecops/content/root-cause-analysis%40VyzLkdcLgxfSSFuUS0xO_.md"
+    },
+    {
+      "name": "ruby@nKthK-OsFO0TGwptD-Dme.md",
+      "path": "src/data/roadmaps/devsecops/content/ruby@nKthK-OsFO0TGwptD-Dme.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/devsecops/content/ruby%40nKthK-OsFO0TGwptD-Dme.md"
+    },
+    {
+      "name": "rust@V_-gY34XcyIqPcLKtDJZr.md",
+      "path": "src/data/roadmaps/devsecops/content/rust@V_-gY34XcyIqPcLKtDJZr.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/devsecops/content/rust%40V_-gY34XcyIqPcLKtDJZr.md"
+    },
+    {
+      "name": "sboms@MF8AYjKun5SHtumTyuurJ.md",
+      "path": "src/data/roadmaps/devsecops/content/sboms@MF8AYjKun5SHtumTyuurJ.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/devsecops/content/sboms%40MF8AYjKun5SHtumTyuurJ.md"
+    },
+    {
+      "name": "scripting-knowledge@wjJPzrFJBNYOD3SJLzW2M.md",
+      "path": "src/data/roadmaps/devsecops/content/scripting-knowledge@wjJPzrFJBNYOD3SJLzW2M.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/devsecops/content/scripting-knowledge%40wjJPzrFJBNYOD3SJLzW2M.md"
+    },
+    {
+      "name": "secure-api-design@aMu0e6xQ3Rak44F_I7Ish.md",
+      "path": "src/data/roadmaps/devsecops/content/secure-api-design@aMu0e6xQ3Rak44F_I7Ish.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/devsecops/content/secure-api-design%40aMu0e6xQ3Rak44F_I7Ish.md"
+    },
+    {
+      "name": "secure-coding@iHd6XNAUGXn3_d-I_YtTM.md",
+      "path": "src/data/roadmaps/devsecops/content/secure-coding@iHd6XNAUGXn3_d-I_YtTM.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/devsecops/content/secure-coding%40iHd6XNAUGXn3_d-I_YtTM.md"
+    },
+    {
+      "name": "secure-network-zoning@ixiKWBp8m4tP55dBYFzRL.md",
+      "path": "src/data/roadmaps/devsecops/content/secure-network-zoning@ixiKWBp8m4tP55dBYFzRL.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/devsecops/content/secure-network-zoning%40ixiKWBp8m4tP55dBYFzRL.md"
+    },
+    {
+      "name": "sha-256@LKMBv-M9k71yrR2WzN4bK.md",
+      "path": "src/data/roadmaps/devsecops/content/sha-256@LKMBv-M9k71yrR2WzN4bK.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/devsecops/content/sha-256%40LKMBv-M9k71yrR2WzN4bK.md"
+    },
+    {
+      "name": "siem@hnroE_riXvw6BqYdirWBX.md",
+      "path": "src/data/roadmaps/devsecops/content/siem@hnroE_riXvw6BqYdirWBX.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/devsecops/content/siem%40hnroE_riXvw6BqYdirWBX.md"
+    },
+    {
+      "name": "soar-automation@rXS1CIZHu7TA_o7L-vMtV.md",
+      "path": "src/data/roadmaps/devsecops/content/soar-automation@rXS1CIZHu7TA_o7L-vMtV.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/devsecops/content/soar-automation%40rXS1CIZHu7TA_o7L-vMtV.md"
+    },
+    {
+      "name": "soar-concepts@O0aVW37VhZInw9Z9Mghcg.md",
+      "path": "src/data/roadmaps/devsecops/content/soar-concepts@O0aVW37VhZInw9Z9Mghcg.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/devsecops/content/soar-concepts%40O0aVW37VhZInw9Z9Mghcg.md"
+    },
+    {
+      "name": "soc-2@VmDslOmZANHpHmAInFa_j.md",
+      "path": "src/data/roadmaps/devsecops/content/soc-2@VmDslOmZANHpHmAInFa_j.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/devsecops/content/soc-2%40VmDslOmZANHpHmAInFa_j.md"
+    },
+    {
+      "name": "sql-injection-prevention@VPBQh3CSsNA-esuvEHT3X.md",
+      "path": "src/data/roadmaps/devsecops/content/sql-injection-prevention@VPBQh3CSsNA-esuvEHT3X.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/devsecops/content/sql-injection-prevention%40VPBQh3CSsNA-esuvEHT3X.md"
+    },
+    {
+      "name": "stride@EZZsZHxu7__yM2l9tr95-.md",
+      "path": "src/data/roadmaps/devsecops/content/stride@EZZsZHxu7__yM2l9tr95-.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/devsecops/content/stride%40EZZsZHxu7__yM2l9tr95-.md"
+    },
+    {
+      "name": "supply-chain-security@qKHb2e9g_Xuo-nHepICTR.md",
+      "path": "src/data/roadmaps/devsecops/content/supply-chain-security@qKHb2e9g_Xuo-nHepICTR.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/devsecops/content/supply-chain-security%40qKHb2e9g_Xuo-nHepICTR.md"
+    },
+    {
+      "name": "symmetric@mT1cKWZcKXwvopW6BeX-A.md",
+      "path": "src/data/roadmaps/devsecops/content/symmetric@mT1cKWZcKXwvopW6BeX-A.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/devsecops/content/symmetric%40mT1cKWZcKXwvopW6BeX-A.md"
+    },
+    {
+      "name": "threat-modeling-workflows@qfhpMprVX562UuktYN9BZ.md",
+      "path": "src/data/roadmaps/devsecops/content/threat-modeling-workflows@qfhpMprVX562UuktYN9BZ.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/devsecops/content/threat-modeling-workflows%40qfhpMprVX562UuktYN9BZ.md"
+    },
+    {
+      "name": "threat-modeling@XA7JUF00B1locP0xY3T95.md",
+      "path": "src/data/roadmaps/devsecops/content/threat-modeling@XA7JUF00B1locP0xY3T95.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/devsecops/content/threat-modeling%40XA7JUF00B1locP0xY3T95.md"
+    },
+    {
+      "name": "tls@FvU310TuexCsp8QkvxJib.md",
+      "path": "src/data/roadmaps/devsecops/content/tls@FvU310TuexCsp8QkvxJib.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/devsecops/content/tls%40FvU310TuexCsp8QkvxJib.md"
+    },
+    {
+      "name": "vim--nano--emacs@7MavDAydyrt0tOJ6a6xRQ.md",
+      "path": "src/data/roadmaps/devsecops/content/vim--nano--emacs@7MavDAydyrt0tOJ6a6xRQ.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/devsecops/content/vim--nano--emacs%407MavDAydyrt0tOJ6a6xRQ.md"
+    },
+    {
+      "name": "vlans@GPVN-nDitsY1bF_3huqnh.md",
+      "path": "src/data/roadmaps/devsecops/content/vlans@GPVN-nDitsY1bF_3huqnh.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/devsecops/content/vlans%40GPVN-nDitsY1bF_3huqnh.md"
+    },
+    {
+      "name": "wireshark-basics@iHhitN8zToXm4nK1m0OeR.md",
+      "path": "src/data/roadmaps/devsecops/content/wireshark-basics@iHhitN8zToXm4nK1m0OeR.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/devsecops/content/wireshark-basics%40iHhitN8zToXm4nK1m0OeR.md"
+    },
+    {
+      "name": "xss-prevention@ph7rFQFJffi_di133vm3Z.md",
+      "path": "src/data/roadmaps/devsecops/content/xss-prevention@ph7rFQFJffi_di133vm3Z.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/devsecops/content/xss-prevention%40ph7rFQFJffi_di133vm3Z.md"
+    },
+    {
+      "name": "zero-trust-concepts@3UAH70FkQlv5_VbYon4U9.md",
+      "path": "src/data/roadmaps/devsecops/content/zero-trust-concepts@3UAH70FkQlv5_VbYon4U9.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/devsecops/content/zero-trust-concepts%403UAH70FkQlv5_VbYon4U9.md"
+    }
+  ],
+  "nodes": [],
+  "edges": []
+}

@@ -1,0 +1,5934 @@
+{
+  "id": "nodejs",
+  "title": "Node.js",
+  "source_url": "https://roadmap.sh/nodejs",
+  "github_url": "https://github.com/kamranahmedse/developer-roadmap/tree/master/src/data/roadmaps/nodejs",
+  "crawled_at": "2026-04-06T07:37:27.168154+00:00",
+  "type": "flow",
+  "stats": {
+    "total_nodes": 155,
+    "total_edges": 37,
+    "nodes_with_content": 113
+  },
+  "node_types": [
+    "button",
+    "horizontal",
+    "label",
+    "legend",
+    "paragraph",
+    "section",
+    "subtopic",
+    "title",
+    "topic",
+    "vertical"
+  ],
+  "edge_styles": [
+    "dashed",
+    "solid"
+  ],
+  "edge_line_types": [
+    "default",
+    "simplebezier"
+  ],
+  "node_type_description": {
+    "title": "ロードマップの主題",
+    "topic": "主題大 (nhóm kỹ năng)",
+    "subtopic": "Kỹ năng/công nghệ cụ thể cần học",
+    "paragraph": "文は mô tả / chú thích",
+    "vertical": "Đường kết nối dọc (ビジュアルコネクタ)"
+  },
+  "edge_style_description": {
+    "solid": "Kỹ năng bắt buộc / quan trọng",
+    "dashed": "選択 / gợi ý / オルタナティブ"
+  },
+  "nodes": [
+    {
+      "id": "lY0EOkj4UwEQtbHbEnlwS",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": -521.1296292301079,
+        "y": 682.1880786390362
+      },
+      "size": {
+        "width": 224,
+        "height": 162
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "XWHqY5mvMV3eYkysx0Zfp",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": -521.1296292301079,
+        "y": 832.3567490522917
+      },
+      "size": {
+        "width": 224,
+        "height": 224
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "bMMlYdl4jaQnT-rRHGfBc",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": -521.1296292301079,
+        "y": 1047.2877525020792
+      },
+      "size": {
+        "width": 224,
+        "height": 276
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "GKLqJSMrljLEoBM_smemV",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": -519.6255644994952,
+        "y": 1508.0506125880281
+      },
+      "size": {
+        "width": 225,
+        "height": 220
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "AoZfjDaReVr2O4qsoc4vM",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": -520.169165402603,
+        "y": 1718.2304293708296
+      },
+      "size": {
+        "width": 225,
+        "height": 381
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "dEbEgIsHqZpHFAvr5X0x3",
+      "type": "horizontal",
+      "label": "ホリゾントノード",
+      "position": {
+        "x": -292.49114007976596,
+        "y": 1644.6526950801597
+      },
+      "size": {
+        "width": 106,
+        "height": 20
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.75,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "CWqY6-O_dPj_Y37kf_S8o",
+      "type": "horizontal",
+      "label": "ホリゾントノード",
+      "position": {
+        "x": -6.9937473170568865,
+        "y": 1272.7877525020792
+      },
+      "size": {
+        "width": 219,
+        "height": 20
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.75,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "k7wjZ_qFjqBLJlxsNkoK-",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": 342.73640589584414,
+        "y": 1078.063720703125
+      },
+      "size": {
+        "width": 190,
+        "height": 170
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "_FZLVUJZlMUkDB2imFhH_",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": 341.73640589584414,
+        "y": 1242.02072262127
+      },
+      "size": {
+        "width": 191,
+        "height": 275
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "iYn8WyQohBdoi35AxL4-z",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": 211.39975778990492,
+        "y": 1242.6567476363114
+      },
+      "size": {
+        "width": 137,
+        "height": 275
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "ittRdaPElU2wEdDyRRrRz",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": -152.95968546864998,
+        "y": 988.3567490522917
+      },
+      "size": {
+        "width": 21,
+        "height": 663
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.75
+      },
+      "z_index": 999
+    },
+    {
+      "id": "0PrEMLItU5sYKGVCUNt-x",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": -521.6296292301079,
+        "y": 1320.9416664638775
+      },
+      "size": {
+        "width": 225,
+        "height": 164
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "pk5vi2vyY4h8obhkaim2c",
+      "type": "horizontal",
+      "label": "ホリゾントノード",
+      "position": {
+        "x": -296.49114007976596,
+        "y": 962.820597967326
+      },
+      "size": {
+        "width": 131,
+        "height": 20
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.75,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "4DIE9zavh1rma7H5ohMTg",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": 68.04031453135002,
+        "y": 862.3055580184816
+      },
+      "size": {
+        "width": 21,
+        "height": 176
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.75,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "Gwet2IxFjSbwkn_hSERlZ",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": 13.866725520174441,
+        "y": 1036.090167109613
+      },
+      "size": {
+        "width": 243,
+        "height": 160
+      },
+      "style": {
+        "width": 150,
+        "height": 100,
+        "fontSize": 17,
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "hgAgTyNSF4hFhwf4hdbX_",
+      "type": "horizontal",
+      "label": "ホリゾントノード",
+      "position": {
+        "x": -10.633274479825559,
+        "y": 590.2304293708296
+      },
+      "size": {
+        "width": 102,
+        "height": 20
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.75,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "I9jtrQ9MjljnCWjXDD690",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": 68.04031453135002,
+        "y": 473.7304293708296
+      },
+      "size": {
+        "width": 21,
+        "height": 124
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.75,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "bCEICHJzklKBOOuUTTZxI",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": 213.36672552017444,
+        "y": 304.2304293708296
+      },
+      "size": {
+        "width": 21,
+        "height": 731
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.75
+      },
+      "z_index": 999
+    },
+    {
+      "id": "ztNOp7Rs6jcpjUR2vszxU",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": -209.63327447982556,
+        "y": 430.7304293708296
+      },
+      "size": {
+        "width": 200,
+        "height": 427
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "8Iyjko6ZLr93CESSSIkyD",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": 332.36672552017444,
+        "y": 301.73042937082954
+      },
+      "size": {
+        "width": 21,
+        "height": 75
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "gLEIlNbhJ2CzjjPCflwog",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": 285.36672552017444,
+        "y": 376.73042937082954
+      },
+      "size": {
+        "width": 227,
+        "height": 270
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "-JeyS2JglnU1HYh_IGZ4k",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": -60.45968546864998,
+        "y": 213.7159927885748
+      },
+      "size": {
+        "width": 21,
+        "height": 177
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "iyVufU8xJqKnMThnRTJTu",
+      "type": "horizontal",
+      "label": "ホリゾントノード",
+      "position": {
+        "x": -237.16916540260297,
+        "y": 295.2159927885748
+      },
+      "size": {
+        "width": 132,
+        "height": 20
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "PCnnW6w1BsBIIKsM-H9P1",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": -450.63327447982556,
+        "y": 264.73042937082954
+      },
+      "size": {
+        "width": 213,
+        "height": 163
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "-qEO8FEWDKyIYsX_BVhSp",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": 358.76672552017453,
+        "y": 28.715992788574795
+      },
+      "size": {
+        "width": 21,
+        "height": 150
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "iogwMmOvub2ZF4zgg6WyF",
+      "type": "title",
+      "label": "Node.js",
+      "position": {
+        "x": -60.45968546864998,
+        "y": -160.28400721142515
+      },
+      "size": {
+        "width": 136,
+        "height": 68
+      },
+      "style": {
+        "fontSize": 28,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "LEijbLyxg4RyutKEM2Y5g",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": -2.9596854686499796,
+        "y": -230.76957062917046
+      },
+      "size": {
+        "width": 21,
+        "height": 76
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#0A33FF"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "YD5y17K5nqmWaBwYcufZO",
+      "type": "legend",
+      "label": "",
+      "position": {
+        "x": -522.3080206821377,
+        "y": -232.76957062917046
+      },
+      "size": {
+        "width": 349,
+        "height": 124
+      },
+      "style": {},
+      "z_index": 999
+    },
+    {
+      "id": "KDd40JOAvZ8O1mfhTYB3K",
+      "type": "topic",
+      "label": "Node.jsへの導入",
+      "position": {
+        "x": -112.95968546864998,
+        "y": 72.7304293708296
+      },
+      "size": {
+        "width": 241,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Node.js は,クライアントのブラウザの外でウェブアプリケーションを実行するために使用されるオープンソース,クロスプラットフォームランタイム環境およびライブラリです.サーバーサイドプログラミングに使用され,主に伝統的なWebサイトやバックエンド APIサービスなどの非ブロック,イベント駆動のサーバーに展開されていますが,当初はリアルタイム,プッシュベースのアーキテクチャを考慮して設計されました.各ブラウザはJSエンジン独自のバージョンがあり, node.js はGoogle Chrome V8 JavaScriptエンジンで構築されています.",
+        "links": [
+          {
+            "title": "Node.js",
+            "url": "https://nodejs.org/en/",
+            "type": "official"
+          },
+          {
+            "title": "Node.js ドキュメンテーション",
+            "url": "https://nodejs.org/en/docs/",
+            "type": "official"
+          },
+          {
+            "title": "Node.jsに関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/nodejs?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Mp056kNnwsRWeEXuhGPy-",
+      "type": "subtopic",
+      "label": "Node.jsとは何か?",
+      "position": {
+        "x": -518.169165402603,
+        "y": -33.284007211425205
+      },
+      "size": {
+        "width": 282,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "NEZQB0yHPCcKwsESDYbk5",
+        "color": "#38761d",
+        "label": "初心者 トピックス / これから始めましょう",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "Node.js はオープンソースとクロスプラットフォームのJavaScriptランタイム環境です.ほぼあらゆる種類のプロジェクトに人気のあるツールです.Node.js はブラウザの外で V8 JavaScript エンジンを実行します.Node.js は非常にパフォーマンスを可能にします.Node.js アプリは,すべてのリクエストに新しいスレッドを作成することなく,単一のプロセスで実行されます.Node.js は標準ライブラリにアシンクロなI/O原始のセットを提供し,JavaScript コードをブロックするのを防止します.一般的に,Node.js のライブラリはブロックしないパラダイムを使用して書かれています.",
+        "links": [
+          {
+            "title": "Node.js",
+            "url": "https://nodejs.org/en/about/",
+            "type": "official"
+          },
+          {
+            "title": "Node.js - スタート",
+            "url": "https://nodejs.org/en/learn/getting-started/introduction-to-nodejs",
+            "type": "official"
+          },
+          {
+            "title": "Node.jsとは何か?",
+            "url": "https://www.youtube.com/watch?v=uVwtVBpw7RQ",
+            "type": "video"
+          },
+          {
+            "title": "Node.js の仕組みは?",
+            "url": "https://www.youtube.com/watch?v=jOupHNvDIq8",
+            "type": "video"
+          },
+          {
+            "title": "Node.jsに関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/nodejs?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ex8FOKrUlbu4MuEq2czyW",
+      "type": "subtopic",
+      "label": "Node.js はなぜ使われますか?",
+      "position": {
+        "x": -518.169165402603,
+        "y": 19.715992788574795
+      },
+      "size": {
+        "width": 282,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "NEZQB0yHPCcKwsESDYbk5",
+        "color": "#38761d",
+        "label": "初心者 トピックス / これから始めましょう",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "Node.js は cross-platform runtime で,幅広い用途に最適です.その巨大なコミュニティは,開始を簡単にする. JavaScript をコンパイルするために V8 エンジンを使用し,雷速で動作します. Node.js アプリケーションは非常にスケーラブルで維持可能です. Cross-platform サポートは,デスクトップ アプリ,サービスとしてのソフトウェア,そしてモバイル アプリケーションなどのあらゆる種類のアプリケーションの作成を可能にします. Node.js は,イベント駆動で,ブロックしない I/O モデルを使用しているため,開発を簡素化し,促進するために幅広い Node.js パッケージのコレクションが利用できます.",
+        "links": [
+          {
+            "title": "Node.js を学ぶ",
+            "url": "https://nodejs.org/en/learn/getting-started/introduction-to-nodejs",
+            "type": "official"
+          },
+          {
+            "title": "なぜ Node.js を選ぶのか?",
+            "url": "https://medium.com/selleo/why-choose-node-js-b0091ad6c3fc",
+            "type": "article"
+          },
+          {
+            "title": "Node.js を 選ぶ 5 の 理由",
+            "url": "https://www.bitovi.com/blog/5-reasons-to-choose-nodejs",
+            "type": "article"
+          },
+          {
+            "title": "Node.jsに関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/nodejs?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Vrcv5px-3fqmyJnQv3WBK",
+      "type": "subtopic",
+      "label": "Node.js の歴史",
+      "position": {
+        "x": -518.169165402603,
+        "y": 72.7159927885748
+      },
+      "size": {
+        "width": 282,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "NEZQB0yHPCcKwsESDYbk5",
+        "color": "#38761d",
+        "label": "初心者 トピックス / これから始めましょう",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "Node.js は,最初のサーバーサイドのJavaScript環境であるNetscapeのLiveWire Pro Webが導入された約13年後に,2009年にライアン・ダールによって作成された.最初のリリースではLinuxとmacOS Xのみがサポートされた.その開発とメンテナンスはダールが主導し,後にジョイエントがスポンサーとなった.",
+        "links": [
+          {
+            "title": "Rising Stack - タイムライン上の Node.js の歴史",
+            "url": "https://blog.risingstack.com/history-of-node-js/",
+            "type": "article"
+          },
+          {
+            "title": "SAP プレス - Node.js は どの よう に 誕生 し まし た か",
+            "url": "https://blog.sap-press.com/how-did-node.js-come-about",
+            "type": "article"
+          },
+          {
+            "title": "Node.js: ドキュメンタリー 起源物語",
+            "url": "https://youtu.be/LB8KwiiUGy0",
+            "type": "video"
+          },
+          {
+            "title": "Node.jsに関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/nodejs?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ebVb0anYmbD1Y9ZTFXKFp",
+      "type": "subtopic",
+      "label": "Node.js vs ブラウザ",
+      "position": {
+        "x": -518.169165402603,
+        "y": 125.7159927885748
+      },
+      "size": {
+        "width": 282,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "NEZQB0yHPCcKwsESDYbk5",
+        "color": "#38761d",
+        "label": "初心者 トピックス / これから始めましょう",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "ブラウザとNode.js の両方ともJavaScript をプログラミング言語として使用します.ブラウザで実行するアプリを構築することは,Node.js アプリケーションを構築するのとはまったく異なります.常にJavaScriptですが,いくつかの重要な違いにより,体験は根本的に異なります.",
+        "links": [
+          {
+            "title": "Node.js とブラウザの違い",
+            "url": "https://nodejs.org/en/learn/getting-started/differences-between-nodejs-and-the-browser/",
+            "type": "official"
+          },
+          {
+            "title": "Node.jsに関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/nodejs?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "uPJqdMQQJRkTMMhNORDeH",
+      "type": "subtopic",
+      "label": "Node.js コードを実行する",
+      "position": {
+        "x": -518.169165402603,
+        "y": 178.7159927885748
+      },
+      "size": {
+        "width": 282,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "NEZQB0yHPCcKwsESDYbk5",
+        "color": "#38761d",
+        "label": "初心者 トピックス / これから始めましょう",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "Node.js プログラムを実行する通常の方法は,グローバルに利用可能な `node` コマンド (Node.js をインストールすると) を実行し,実行したいファイルの名前を入力します.",
+        "links": [
+          {
+            "title": "コマンドラインから Node.js を実行する",
+            "url": "https://nodejs.org/en/learn/command-line/run-nodejs-scripts-from-the-command-line/",
+            "type": "official"
+          },
+          {
+            "title": "Node.jsに関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/nodejs?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mbGFT6S7mL3bHHEZv0_s2",
+      "type": "topic",
+      "label": "モジュール",
+      "position": {
+        "x": 287.76672552017453,
+        "y": 72.7304293708296
+      },
+      "size": {
+        "width": 163,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "モジュールシステムは,必要なときに他の開発者が書いたコードとインポートコードを分割し,組み込むことができます.単純な言葉で言えば,モジュールとはJavaScriptファイル以外の何ものでもない. Node.js にはプラットフォームの一部である多くの組み込みモジュールがあり,Node.js のインストールが付属しています.例えば,HTTP,fs,path,など.",
+        "links": [
+          {
+            "title": "モジュール: CommonJS モジュール",
+            "url": "https://nodejs.org/api/modules.html#modules-commonjs-modules",
+            "type": "official"
+          },
+          {
+            "title": "CommonJS vs. ES モジュールは Node.js で",
+            "url": "https://blog.logrocket.com/commonjs-vs-es-modules-node-js/",
+            "type": "article"
+          },
+          {
+            "title": "Node.js のモジュール",
+            "url": "https://www.youtube.com/watch?v=9Amxzvq5LY8&",
+            "type": "video"
+          },
+          {
+            "title": "Node.jsに関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/nodejs?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mhjswf17nhq075NTYV5gE",
+      "type": "subtopic",
+      "label": "共同JS",
+      "position": {
+        "x": 301.76672552017453,
+        "y": -53.26957062917046
+      },
+      "size": {
+        "width": 135,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "NEZQB0yHPCcKwsESDYbk5",
+        "color": "#38761d",
+        "label": "初心者 トピックス / これから始めましょう",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "CommonJSとES (EcmaScript) はノードで使用されるモジュールシステムである.CommonJSはデフォルトモジュールシステムである.しかし,最近ノードJS - ESモジュールに新しいモジュールシステムが追加された.CommonJSモジュールでは,モジュール輸入とモジュール輸出に対して,モジュール輸出に対して,モジュール輸入と輸出に対して,Require () 宣言を使用している.",
+        "links": [
+          {
+            "title": "CommonJS vs ESM",
+            "url": "https://blog.logrocket.com/commonjs-vs-es-modules-node-js/",
+            "type": "article"
+          },
+          {
+            "title": "CommonJS を使用する",
+            "url": "https://www.javascripttutorial.net/nodejs-tutorial/nodejs-modules/",
+            "type": "article"
+          },
+          {
+            "title": "ES モジュールを使用する",
+            "url": "https://blog.logrocket.com/es-modules-in-node-today/",
+            "type": "article"
+          },
+          {
+            "title": "CommonJS vs ES モジュール: NodeJS の モジュールと輸入",
+            "url": "https://reflectoring.io/nodejs-modules-imports/",
+            "type": "article"
+          },
+          {
+            "title": "モジュールを使用する",
+            "url": "https://www.youtube.com/watch?v=pP4kjXykbio",
+            "type": "video"
+          },
+          {
+            "title": "Node.jsに関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/nodejs?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mKccfWOhC1Aj4VnaOqryA",
+      "type": "subtopic",
+      "label": "ESM",
+      "position": {
+        "x": 301.76672552017453,
+        "y": -0.2695706291704596
+      },
+      "size": {
+        "width": 135,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "NEZQB0yHPCcKwsESDYbk5",
+        "color": "#38761d",
+        "label": "初心者 トピックス / これから始めましょう",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "ESM (ECMAScript Modules) は,JavaScriptの標準化されたモジュールシステムで,コードの組織化,維持可能,再利用可能な構造を可能にします.ファイル間の関数,オブジェクト,またはプリミティブを組み込み,共有するためにインポートおよび輸出ステートメントを使用します.ESMは静的分析をサポートし,よりよい最適化とツール設定を可能にします.そして,一般的なJavaScript問題を減らすために常に厳格なモードです. Node.jsは, .mjsファイル拡張子または .jsファイルのための package.json で構成されるESMを完全にサポートします.",
+        "links": [
+          {
+            "title": "ESMドキュメント",
+            "url": "https://nodejs.org/api/esm.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "EEnmOcDKPZzY_O1NwP_5j",
+      "type": "subtopic",
+      "label": "作成・輸入",
+      "position": {
+        "x": 287.0448461352869,
+        "y": 144.7159927885748
+      },
+      "size": {
+        "width": 246,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "NEZQB0yHPCcKwsESDYbk5",
+        "color": "#38761d",
+        "label": "初心者 トピックス / これから始めましょう",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "モジュールは,関連する機能に基づいて外部アプリケーションで使用できる独立した論理ファイルに JavaScript コードを収集するものです.Node.js でモジュールを作成する方法は,CommonJSまたはESMを通じて2つあります.",
+        "links": [
+          {
+            "title": "Node.js で CommonJS vs ESM",
+            "url": "https://blog.logrocket.com/commonjs-vs-es-modules-node-js/",
+            "type": "article"
+          },
+          {
+            "title": "Node.js の モジュールとインポート",
+            "url": "https://reflectoring.io/nodejs-modules-imports/",
+            "type": "article"
+          },
+          {
+            "title": "Node.js でモジュールを作成する",
+            "url": "https://www.youtube.com/watch?v=Cxo4UKpHv5s",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PEGHvFT2Eg-1OyfhxYu22",
+      "type": "subtopic",
+      "label": "[グローバル] キーワード",
+      "position": {
+        "x": 287.0448461352869,
+        "y": 197.7159927885748
+      },
+      "size": {
+        "width": 246,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "NEZQB0yHPCcKwsESDYbk5",
+        "color": "#38761d",
+        "label": "初心者 トピックス / これから始めましょう",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "ブラウザでは,トップレベルの範囲はグローバル範囲であり,そのグローバルオブジェクトは `window`オブジェクトと呼ばれます.ブラウザ内で, `var something`は, `window`オブジェクト内の新しいグローバル変数を定義します. Node.jsでは,これは異なります.トップレベルの範囲は **not**グローバル範囲です. Node.js モジュール内の `var somethingは,そのモジュールにローカルになります.",
+        "links": [
+          {
+            "title": "Node.js のグローバルキーワード",
+            "url": "https://nodejs.org/api/globals.html#global",
+            "type": "official"
+          },
+          {
+            "title": "NodeJS の\"グローバル\"オブジェクトとは",
+            "url": "https://stackoverflow.com/questions/43627622/",
+            "type": "article"
+          },
+          {
+            "title": "グローバル・オブジェクトとは何か?",
+            "url": "https://www.youtube.com/watch?v=jn8PZNBmKm0",
+            "type": "video"
+          },
+          {
+            "title": "ノードにおけるグローバルオブジェクト",
+            "url": "https://www.youtube.com/watch?v=PY-AycMkEAg",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "jQJ9aOKtg-O-GhWk5OgCK",
+      "type": "topic",
+      "label": "npm",
+      "position": {
+        "x": -116.45968546864998,
+        "y": 280.7159927885748
+      },
+      "size": {
+        "width": 132,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "npm は Node.js の 標準 パッケージ マネージャー です. これは 2 つのもの です. まず,オープンソースの Node.js プロジェクトを公開するためのオンライン リポジトリです. 第二に,パッケージ インストール,バージョン 管理,依存管理に役立ちます.多くの Node.js ライブラリとアプリケーションが npm で公開され,毎日多く追加されています.",
+        "links": [
+          {
+            "title": "NPMドキュメント",
+            "url": "https://docs.npmjs.com/",
+            "type": "official"
+          },
+          {
+            "title": "NPMとは何か?",
+            "url": "https://nodejs.org/en/learn/getting-started/an-introduction-to-the-npm-package-manager",
+            "type": "official"
+          },
+          {
+            "title": "npm パッケージマネージャーの紹介",
+            "url": "https://nodejs.org/en/learn/getting-started/an-introduction-to-the-npm-package-manager",
+            "type": "official"
+          },
+          {
+            "title": "NPM クラッシュコース",
+            "url": "https://www.youtube.com/watch?v=jHDhaSSKmB0",
+            "type": "video"
+          },
+          {
+            "title": "Node.jsに関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/nodejs?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "l24OMkPAEDnEDAVAMrMuG",
+      "type": "subtopic",
+      "label": "グローバル・インスタレーション",
+      "position": {
+        "x": -434.13327447982556,
+        "y": 272.73042937082954
+      },
+      "size": {
+        "width": 187,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "NEZQB0yHPCcKwsESDYbk5",
+        "color": "#38761d",
+        "label": "初心者 トピックス / これから始めましょう",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "NodeJSとNPMは,依存関係/パッケージをインストールする2つの方法を許可します.ローカルとグローバル.これは主にあなたが取り組んでいる特定のプロジェクトの一部としてパッケージまたは依存関係を追加するときに使用されます.パッケージは,プロジェクト**の下の `node_modules`フォルダ **にインストールされます.さらに, `package.json`ファイルでは,インストールされた依存関係に `dependenciesというラベルの下で新しい行が追加されます.この時点で,パッケージを輸入することによってあなたの NodeJS コードでパッケージを使用することができます.ローカルインストールとは異なり,パッケージと依存関係を**グローバルにインストールできます.これはシステムパスでインストールされ,これらのパッケージはこの特定のプログラム**上で実行されるすべてのコンピュータに利用可能になります.この方法はコマンドラインツールをインストールするためにしばしば使用されます (例えば, `npm`プログラムはグローバルにインストールされた npm パッケージです).",
+        "links": [
+          {
+            "title": "パッケージを本地でダウンロードしてインストールする",
+            "url": "https://docs.npmjs.com/downloading-and-installing-packages-locally",
+            "type": "official"
+          },
+          {
+            "title": "パッケージをグローバルにダウンロード・インストールする",
+            "url": "https://docs.npmjs.com/downloading-and-installing-packages-globally",
+            "type": "official"
+          },
+          {
+            "title": "NPM インストール ドキュメント",
+            "url": "https://docs.npmjs.com/cli/commands/npm-install",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "oYeux7PbveYaVwXRzAg5x",
+      "type": "subtopic",
+      "label": "ローカル・インスタレーション",
+      "position": {
+        "x": -434.13327447982556,
+        "y": 325.73042937082954
+      },
+      "size": {
+        "width": 187,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "NEZQB0yHPCcKwsESDYbk5",
+        "color": "#38761d",
+        "label": "初心者 トピックス / これから始めましょう",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "ローカルにインストールされたパッケージは,パッケージがインストールされているプロジェクトにのみ利用可能であり,グローバルにインストールされたパッケージは,プロジェクトにインストールせずにどこにでも使用できます.",
+        "links": [
+          {
+            "title": "パッケージを本地でダウンロードしてインストールする",
+            "url": "https://docs.npmjs.com/downloading-and-installing-packages-locally",
+            "type": "official"
+          },
+          {
+            "title": "パッケージをグローバルにダウンロード・インストールする",
+            "url": "https://docs.npmjs.com/downloading-and-installing-packages-globally",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "W3YkN2Hc_-3WvvlmR6Kmv",
+      "type": "label",
+      "label": "パッケージをインストールする",
+      "position": {
+        "x": -432.13327447982556,
+        "y": 385.7304293708296
+      },
+      "size": {
+        "width": 183,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "bYBz12FUiJ1qLgdQSGyGK",
+      "type": "subtopic",
+      "label": "パッケージの更新",
+      "position": {
+        "x": -450.63327447982556,
+        "y": 433.73042937082954
+      },
+      "size": {
+        "width": 213,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "NEZQB0yHPCcKwsESDYbk5",
+        "color": "#38761d",
+        "label": "初心者 トピックス / これから始めましょう",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "npm は,プロジェクトの依存関係をインストールし維持するのに役立つさまざまな機能を提供しています.依存関係が新しい機能と修正で更新を受け,新しいバージョンにアップグレードすることをお勧めします.このために,私たちは `npm update`コマンドを使用します.",
+        "links": [
+          {
+            "title": "登録からダウンロードされたパッケージの更新",
+            "url": "https://docs.npmjs.com/updating-packages-downloaded-from-the-registry",
+            "type": "official"
+          },
+          {
+            "title": "Npm チェック アップデートで Npm パッケージを安全に更新する方法",
+            "url": "https://chrispennington.blog/blog/how-to-update-npm-packages-safely-with-npm-check-updates/",
+            "type": "article"
+          },
+          {
+            "title": "すべてのNPM依存を一度に更新する方法",
+            "url": "https://www.youtube.com/watch?v=Ghdfdq17JAY",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "64pgc7rcgboFcNYuOlX8e",
+      "type": "subtopic",
+      "label": "スクリプトを実行する",
+      "position": {
+        "x": -450.63327447982556,
+        "y": 485.73042937082954
+      },
+      "size": {
+        "width": 213,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "NEZQB0yHPCcKwsESDYbk5",
+        "color": "#38761d",
+        "label": "初心者 トピックス / これから始めましょう",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "Node.js では,npm スクリプトはサーバーを起動し,プロジェクトのビルドを開始し,テストを実行するために使用されます.このスクリプトをフォルダの package.json ファイルで定義できます.また,必要に応じて巨大なスクリプトを多くの小さな部分に分けることができます.",
+        "links": [
+          {
+            "title": "スクリプトを実行する",
+            "url": "https://docs.npmjs.com/cli/using-npm/scripts",
+            "type": "official"
+          },
+          {
+            "title": "脚本 の 実行 の 例",
+            "url": "https://riptutorial.com/node-js/example/4592/running-scripts",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "WvxCGVKLvTUVEHeOcUQPg",
+      "type": "subtopic",
+      "label": "npm の作業場",
+      "position": {
+        "x": -450.63327447982556,
+        "y": 537.7304293708296
+      },
+      "size": {
+        "width": 213,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "NEZQB0yHPCcKwsESDYbk5",
+        "color": "#38761d",
+        "label": "初心者 トピックス / これから始めましょう",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "ワークスペースは,単一のトップレベルルーツパケットからあなたのローカルファイルシステムから複数のパケットを管理することをサポートする npm CLI 機能のセットを指す一般的な用語です.",
+        "links": [
+          {
+            "title": "npm の作業場",
+            "url": "https://docs.npmjs.com/cli/using-npm/workspaces",
+            "type": "official"
+          },
+          {
+            "title": "Npm ワークスペースを始める",
+            "url": "https://ruanmartinelli.com/blog/npm-7-workspaces-1/",
+            "type": "article"
+          },
+          {
+            "title": "NPMに関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/npm?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Uh9hmEy7o1EJLg4E--ku2",
+      "type": "subtopic",
+      "label": "パッケージ作成",
+      "position": {
+        "x": -450.63327447982556,
+        "y": 589.7304293708296
+      },
+      "size": {
+        "width": 213,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "iRlgVcCk54BVDA-Rx0kt8",
+        "color": "#000",
+        "label": "先進の話題 / ついにこれを選んで",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "npm パッケージは,特定の機能を再利用可能なパッケージにまとめて, npm または GitHub パッケージなどのパッケージレジストリにアップロードし, npm を使用するプロジェクトにインストールして再利用できるようにします.",
+        "links": [
+          {
+            "title": "現代の npm パッケージを作成するためのベストプラクティス",
+            "url": "https://snyk.io/blog/best-practices-create-modern-npm-package/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dOlzIXBfAPmbY542lNOe6",
+      "type": "subtopic",
+      "label": "セマンティック バージョン",
+      "position": {
+        "x": -112.95968546864998,
+        "y": 352.7304293708296
+      },
+      "size": {
+        "width": 202,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "NEZQB0yHPCcKwsESDYbk5",
+        "color": "#38761d",
+        "label": "初心者 トピックス / これから始めましょう",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "セマンティックバージョンリングは,npmエコシステムで広く採用されているバージョンリングソフトウェアの標準です.ソフトウェアパッケージの変更をユーザーに伝える明確な一貫した方法を提供します.バージョンフォーマット -------------- セマンティックバージョン番号は,点によって分離された3つの部分で構成されています. * MAJOR: API の互換性のない変更があるときに増加します. * MINOR: バックバックスの互換性のある方法で新しい機能が追加されたときに増加します. * PATCH: バグ修正が API に影響を与えないときに増加します. #### 例: 1.2.3 * 1 は主要なバージョンです. * 2 は小バージョンです. * 3 はパッチバージョンです.",
+        "links": [
+          {
+            "title": "Semver.org",
+            "url": "https://semver.org/",
+            "type": "official"
+          },
+          {
+            "title": "中間 - 意味式 翻訳 を 理解 する",
+            "url": "https://medium.com/codex/understanding-semantic-versioning-a-guide-for-developers-dad5f2b70583",
+            "type": "article"
+          },
+          {
+            "title": "デボペディア - セムバー",
+            "url": "https://devopedia.org/semantic-versioning",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "t_kfKdNSKVBPYQ9zF9VqQ",
+      "type": "topic",
+      "label": "エラー処理",
+      "position": {
+        "x": 284.04484613528683,
+        "y": 280.7159927885748
+      },
+      "size": {
+        "width": 158,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "エラー処理は,バグを見つけ,人間的に可能な限り早く解決する方法です.Node.js のエラーは操作またはプログラマーエラーである可能性があります.Node.js のさまざまな種類のエラーを処理する方法を理解するために,以下のリンクをご覧ください.",
+        "links": [
+          {
+            "title": "Node.js エラー処理ベストプラクティス",
+            "url": "https://sematext.com/blog/node-js-error-handling",
+            "type": "article"
+          },
+          {
+            "title": "Node.js でエラー処理",
+            "url": "https://blog.logrocket.com/error-handling-node-js/",
+            "type": "article"
+          },
+          {
+            "title": "Node.jsに関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/nodejs?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Wg7KSpAPxjeFMxC6PBnHO",
+      "type": "subtopic",
+      "label": "ジャワスクリプトエラー",
+      "position": {
+        "x": 293.36672552017444,
+        "y": 543.7304293708296
+      },
+      "size": {
+        "width": 211,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "NEZQB0yHPCcKwsESDYbk5",
+        "color": "#38761d",
+        "label": "初心者 トピックス / これから始めましょう",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "JavaScriptのエラーは,実行されているスクリプトのさまざまな問題について開発者に知らせるために使用されます.これらの問題は,開発者/プログラマが間違った構文を使用した構文エラーであり,誤ったユーザー入力または他の問題によるものかもしれません. JavaScriptにはスクリプトの実行中に発生する6種類のエラーがあります: * EvalError * RangeError * ReferenceError * SyntaxError * TypeError * URIError",
+        "links": [
+          {
+            "title": "JavaScript の エラー タイプ",
+            "url": "https://blog.bitsrc.io/types-of-native-errors-in-javascript-you-must-know-b8238d40e492",
+            "type": "article"
+          },
+          {
+            "title": "JavaScript エラー参照 - MDN",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors",
+            "type": "article"
+          },
+          {
+            "title": "JavaScriptに関するトップ記事を探索する",
+            "url": "https://app.daily.dev/tags/javascript?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "05YY-AhLKzn4Ypr4eow5E",
+      "type": "subtopic",
+      "label": "システムエラー",
+      "position": {
+        "x": 293.36672552017444,
+        "y": 384.73042937082954
+      },
+      "size": {
+        "width": 211,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "NEZQB0yHPCcKwsESDYbk5",
+        "color": "#38761d",
+        "label": "初心者 トピックス / これから始めましょう",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "Node.js は,実行時の環境内で例外が発生するときにシステムエラーを生成します.アプリケーションがオペレーティングシステムの制限を侵害するときに通常発生します.例えば,アプリケーションが存在しないファイルを読み取ろうとする場合,システムエラーが発生します. 以下は,Node.js プログラムを書くときに一般的に発生するシステムエラーです: 1. EACCES - 許可拒否 2. EADDRINUSE - すでに使用されているアドレス 3. ECONNRESET - 同級者による接続リセット 4. EEXIST - ファイルは存在します 5. EISDIR - ファイルはディレクトリです 6. EMFILE - システム内のファイルやディレクトリがあまりにも多くありません 7. ENOENT - そのようなファイルまたはディレクトリはありません 8. ENOTDIR - ディレクトリではありません 9. ENOTEMPTY - ディレクトリが空きません 10. ENOTFOUND - 検索失敗 11. EPERM - 操作は許可されていません EIPE - ETIPED 12. ETIPED 13.",
+        "links": [
+          {
+            "title": "Node.js エラー",
+            "url": "https://nodejs.org/api/errors.html#errors_class_systemerror",
+            "type": "official"
+          },
+          {
+            "title": "@Article@16 Node.js の一般的なエラーとそれらを修正する方法",
+            "url": "https://betterstack.com/community/guides/scaling-nodejs/nodejs-errors/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "wQ4i6_a1EFk9HHc6Sll-3",
+      "type": "subtopic",
+      "label": "ユーザー指定エラー",
+      "position": {
+        "x": 293.36672552017444,
+        "y": 437.73042937082954
+      },
+      "size": {
+        "width": 211,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "NEZQB0yHPCcKwsESDYbk5",
+        "color": "#38761d",
+        "label": "初心者 トピックス / これから始めましょう",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "ユーザが指定したエラーは,内蔵エラークラスであるベースエラーオブジェクトを拡張することで作成できます.この方法でエラーを作成する際,エラーを記述するメッセージ文字列をパスする必要があります.このメッセージはオブジェクト上のメッセージ属性を通じてアクセスできます.エラーオブジェクトにはエラーの名前とエラーが作成されたコードの点を示す名前とスタック属性が含まれます.",
+        "links": [
+          {
+            "title": "Node.js でエラー処理に関する総合ガイド",
+            "url": "https://www.honeybadger.io/blog/errors-nodejs/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "do-tdCUfDtiZHBg4ZO3dC",
+      "type": "subtopic",
+      "label": "断言誤り",
+      "position": {
+        "x": 293.36672552017444,
+        "y": 490.73042937082954
+      },
+      "size": {
+        "width": 211,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "NEZQB0yHPCcKwsESDYbk5",
+        "color": "#38761d",
+        "label": "初心者 トピックス / これから始めましょう",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "Node.js の `AssertionError` は,与えられた表現が真実でないことを `assert` モジュールが決定するときに投げ出されるエラーです. `assert` モジュールは,コードの行動をテストするために使用できる単純な主張テストを提供する内蔵の Node.js モジュールです.",
+        "links": [
+          {
+            "title": "Node.js アセルト",
+            "url": "https://nodejs.org/api/assert.html#new-assertassertionerroroptions",
+            "type": "official"
+          },
+          {
+            "title": "Node.js エラー処理 - 断言 エラー",
+            "url": "https://blog.airbrake.io/blog/nodejs-error-handling/assertionerror-nodejs",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "M0puvsEXH3aniCw0gPjVd",
+      "type": "label",
+      "label": "間違いの種類",
+      "position": {
+        "x": 332.36672552017444,
+        "y": 603.7304293708296
+      },
+      "size": {
+        "width": 133,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "uzOmaTZrHhBxx5plb345Z",
+      "type": "subtopic",
+      "label": "捉え られ ない 例外",
+      "position": {
+        "x": 285.86672552017444,
+        "y": 652.2304293708296
+      },
+      "size": {
+        "width": 227,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "NEZQB0yHPCcKwsESDYbk5",
+        "color": "#38761d",
+        "label": "初心者 トピックス / これから始めましょう",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "JavaScriptエラーが適切に処理されない場合,キャッチされていないExceptionが送信されます.これらはプログラマがエラーを起こしたことを示唆し,それらを最大限の優先順位で処理する必要があります. `uncaughtException`の正しい使用は,プロセスをシャットダウンする前に割り当てられたリソース (例えばファイル記述,ハンドルなど) を同期的に清掃することです. `uncaughtException`の後に正常な動作を再開することは安全ではありません.システムが破損します.アプリケーションがクラッシュし,エラーをログインし,その後ノデモンまたはpm2を使用して自動的にプロセスを再起動することです.",
+        "links": [
+          {
+            "title": "捉えられない例外エラー イベント",
+            "url": "https://nodejs.org/api/process.html#event-uncaughtexception",
+            "type": "official"
+          },
+          {
+            "title": "シャットダウン時に Node.js エラーを処理するためのベストプラクティス",
+            "url": "https://blog.heroku.com/best-practices-nodejs-errors",
+            "type": "article"
+          },
+          {
+            "title": "Node.js の未確認例外",
+            "url": "https://shapeshed.com/uncaught-exceptions-in-node/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3MpxV23lNpuKg0--e_9m7",
+      "type": "subtopic",
+      "label": "アシンクロンエラー処理",
+      "position": {
+        "x": 285.86672552017444,
+        "y": 705.2304293708296
+      },
+      "size": {
+        "width": 227,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "bcE9YSY2vLzRyJQSceY9M",
+        "color": "#9900ff",
+        "label": "中間トピック / 次のトピックを選択",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "誤差は常に処理されなければならない.あなたが同期プログラミングを使用している場合,あなたは試用キャッチを使用することができます.しかし,あなたが同期的な作業をする場合,これは機能しません! Async 誤差はコールバック機能内でのみ処理されます!",
+        "links": [
+          {
+            "title": "アシンクロンエラー",
+            "url": "https://www.mariokandut.com/handling-errors-in-asynchronous-functions-node-js/",
+            "type": "article"
+          },
+          {
+            "title": "アシンクロンなJavaScriptでエラーを処理する最良の方法",
+            "url": "https://dev.to/m__mdy__m/the-best-way-to-handle-errors-in-asynchronous-javascript-16bb",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "wIieXdFtoZWJ-ht8qqWbp",
+      "type": "subtopic",
+      "label": "コールスタック / スタック・トラス",
+      "position": {
+        "x": 285.86672552017444,
+        "y": 758.2304293708296
+      },
+      "size": {
+        "width": 227,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "bcE9YSY2vLzRyJQSceY9M",
+        "color": "#9900ff",
+        "label": "中間トピック / 次のトピックを選択",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "スタックトラスは,プログラムを実行中に特定のインスタンスのアクティブスタックフレームを追跡するために使用されます. スタックトラスは,エラーを引き起こした正確な点を示すため,コードをデバッグする際に有用です.",
+        "links": [
+          {
+            "title": "Node.js でスタックトラスをログインする複数の方法",
+            "url": "https://www.cloudhadoop.com/nodejs-print-stack-trace-error/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "XEGTeGWw05xWYOfUo3POE",
+      "type": "subtopic",
+      "label": "Debugger を使用する",
+      "position": {
+        "x": 285.86672552017444,
+        "y": 811.2304293708296
+      },
+      "size": {
+        "width": 227,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "bcE9YSY2vLzRyJQSceY9M",
+        "color": "#9900ff",
+        "label": "中間トピック / 次のトピックを選択",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "Node.js にはコマンドラインデバッグユーティリティが含まれています. Node.js デバッグクライアントはフル機能のデバッグではありませんが,簡単なステップと検査が可能です.それを使用するには,デバッグするためのスクリプトへの経路が続くインスペクト引数で Node.js を起動してください.例 - `$ノードインスペクト myscript.js`",
+        "links": [
+          {
+            "title": "デバッグ機",
+            "url": "https://nodejs.org/api/debugger.html",
+            "type": "official"
+          },
+          {
+            "title": "ドックスを検査する",
+            "url": "https://nodejs.org/en/learn/getting-started/debugging",
+            "type": "official"
+          },
+          {
+            "title": "Freecodecamp.org - デバッグ",
+            "url": "https://www.freecodecamp.org/news/how-to-debug-node-js-applications/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "YdpJ-DUo8Q5ATRmF4s4YS",
+      "type": "subtopic",
+      "label": "npx",
+      "position": {
+        "x": -86.45968546864998,
+        "y": 193.7159927885748
+      },
+      "size": {
+        "width": 73,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "NEZQB0yHPCcKwsESDYbk5",
+        "color": "#38761d",
+        "label": "初心者 トピックス / これから始めましょう",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "npxは2017年7月にリリースされた npm バージョン 5.2 から入手可能な非常に強力なコマンドです. npm をインストールしたくない場合は, standalone パッケージとして npx をインストールできます. npx は Node.js で構築されたコードを実行し, npm レジストリを通じて公開できます. パッケージ自体をインストールする必要はありません. これは特に新しいツールを試したり,一度のコマンドを実行したり,グローバルインストールが望ましくない共有環境でパッケージを使用したりするのに役立ちます. npx は,パッケージをオン・ザ・フライでダウンロードし,望ましいパッケージを実行し,一時的なインストールを掃除します. これにより,プロジェクトの依存性が薄くなってバージョンの衝突を回避します.",
+        "links": [
+          {
+            "title": "npx",
+            "url": "https://docs.npmjs.com/cli/commands/npx/",
+            "type": "official"
+          },
+          {
+            "title": "npx Node.js パッケージランナーへの導入",
+            "url": "https://medium.com/@maybekatz/introducing-npx-an-npm-package-runner-55f7d4bd282b",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "uE7fvHSTSdebMf5RsNyaY",
+      "type": "topic",
+      "label": "アシンクロプログラミング",
+      "position": {
+        "x": 19.36672552017444,
+        "y": 575.2304293708296
+      },
+      "size": {
+        "width": 231,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "アシンクロン・コードは,主プログラムフローから独立して起こることを意味します.JavaScriptのアシンクロン・機能は他のリクエストをブロックせずに背景で処理されます.それはコードを実行をブロックしないことを保証します.アシンクロン・コードは,いかなる依存関係も秩序もなしに実行します.これはシステム効率と吞吐力を向上します.Webアプリを作るには,処理に必要な時間がかかるアクションを扱うため,アシンクロン・コンセプトの知識が必要です.",
+        "links": [
+          {
+            "title": "Async JSへの導入",
+            "url": "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Introducing/",
+            "type": "article"
+          },
+          {
+            "title": "アシンクロン対シンクロンプログラミング",
+            "url": "https://www.youtube.com/watch?v=Kpn2ajSa92c",
+            "type": "video"
+          },
+          {
+            "title": "Node.jsに関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/nodejs?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "QcOqhuKWOUUUBSiu5Oelv",
+      "type": "subtopic",
+      "label": "約束",
+      "position": {
+        "x": -191.63327447982556,
+        "y": 438.7304293708296
+      },
+      "size": {
+        "width": 174,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "bcE9YSY2vLzRyJQSceY9M",
+        "color": "#9900ff",
+        "label": "中間トピック / 次のトピックを選択",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "約束は通常,最終的に利用可能になる値の代理として定義されます.アシンクロンな関数は,幕後での約束を使用します.したがって,約束の働き方を理解することは\",アシンクロン\"と\"待ち\"の働き方を理解するために不可欠です.約束が呼び出されたら,それは待機状態で開始されます.これは,呼び出し機能が実行し続けることを意味します.約束が解決するまで待機中であり,呼び出し機能に要求されていたデータを与えます.約束を作成する:約束APIは約束コンストラクタを初期化します.新しい約束を公開します.",
+        "links": [
+          {
+            "title": "約束",
+            "url": "https://www.promisejs.org/",
+            "type": "official"
+          },
+          {
+            "title": "約束する 方法",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise",
+            "type": "article"
+          },
+          {
+            "title": "アシンクロンズ・ジャワスクリプト - 約束",
+            "url": "https://www.youtube.com/watch?v=a_8nrslImo4/",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a26qNCyMcT5GsVzxeNCLk",
+      "type": "subtopic",
+      "label": "同期/待機",
+      "position": {
+        "x": -191.63327447982556,
+        "y": 491.7304293708296
+      },
+      "size": {
+        "width": 174,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "bcE9YSY2vLzRyJQSceY9M",
+        "color": "#9900ff",
+        "label": "中間トピック / 次のトピックを選択",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "Async/Await は,より快適な方法で約束と作業するための特殊な構文です.理解し使用しやすい.関数前にキーワードのアシンクを追加すると,関数が約束を返します.そしてキーワードの待機は,その約束が解決するまでJavaScriptを待機させ,結果を返します.",
+        "links": [
+          {
+            "title": "Async/Wait ドキュメンテーション",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function",
+            "type": "official"
+          },
+          {
+            "title": "アシンクスの詳細は待っています",
+            "url": "https://javascript.info/async-await",
+            "type": "article"
+          },
+          {
+            "title": "W3Docs Async/Wait",
+            "url": "https://www.w3docs.com/learn-javascript/async-await.html",
+            "type": "article"
+          },
+          {
+            "title": "Async wait を使用する",
+            "url": "https://www.youtube.com/watch?v=V_Kr9OSfDeU",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "GwInWcbQn18PnzKGXzmln",
+      "type": "subtopic",
+      "label": "コールバック",
+      "position": {
+        "x": -191.63327447982556,
+        "y": 544.7304293708296
+      },
+      "size": {
+        "width": 174,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "bcE9YSY2vLzRyJQSceY9M",
+        "color": "#9900ff",
+        "label": "中間トピック / 次のトピックを選択",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "Node.js は非同期的なプラットフォームであるため,ファイルI/Oが完了するのを待つことはできません. Node.js はコールバックを使用します.コールバックは,特定のタスクの完了時に呼び出される機能です.これはブロックを防止し,その間に他のコードが実行できるようにします.",
+        "links": [
+          {
+            "title": "プログラミング言語における非同期性",
+            "url": "https://nodejs.org/en/learn/asynchronous-work/javascript-asynchronous-programming-and-callbacks",
+            "type": "official"
+          },
+          {
+            "title": "コールバックとは?",
+            "url": "https://developer.mozilla.org/en-US/docs/Glossary/Callback_function",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "W2Dbj4Y78Bgdx7og5xkrg",
+      "type": "subtopic",
+      "label": "setTimeout",
+      "position": {
+        "x": -191.63327447982556,
+        "y": 597.7304293708296
+      },
+      "size": {
+        "width": 174,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "NEZQB0yHPCcKwsESDYbk5",
+        "color": "#38761d",
+        "label": "初心者 トピックス / これから始めましょう",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "設定タイムアウトは指定された期間が終了した後で関数を実行します.時間はミリ秒で宣言されます.",
+        "links": [
+          {
+            "title": "JavaScript MDN ドキュメント",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/API/setTimeout",
+            "type": "article"
+          },
+          {
+            "title": "setIntervalと setTimeout:タイミングイベント",
+            "url": "https://www.youtube.com/watch?v=kOcFZV3c75I",
+            "type": "video"
+          },
+          {
+            "title": "6分でJavaScriptのセットタイムアウトを学べます!",
+            "url": "https://www.youtube.com/watch?v=shWr5DNVeCI",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "T5I-mFKK6bKzXrzkECI0P",
+      "type": "subtopic",
+      "label": "setInterval",
+      "position": {
+        "x": -191.63327447982556,
+        "y": 650.7304293708296
+      },
+      "size": {
+        "width": 174,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "NEZQB0yHPCcKwsESDYbk5",
+        "color": "#38761d",
+        "label": "初心者 トピックス / これから始めましょう",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "`setInterval() `メソッドは,固定遅延後,関数を繰り返し実行するのに役立ちます. `clearInterval() `メソッドによって後に使用できるユニークなインターバル IDを返します. `setInterval() `は,設定タイムアウトに似ているが,違いがあります. コールバック関数を一度実行する代わりに,指定した特定の時間間隔で (ミリ秒で) 永遠に実行します.",
+        "links": [
+          {
+            "title": "スケジュール:設定時間終了と設定間隔",
+            "url": "https://javascript.info/settimeout-setinterval",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "YvTPpoIiSqjDYi0Q10kWh",
+      "type": "subtopic",
+      "label": "立即設定",
+      "position": {
+        "x": -191.63327447982556,
+        "y": 703.7304293708296
+      },
+      "size": {
+        "width": 174,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "bcE9YSY2vLzRyJQSceY9M",
+        "color": "#9900ff",
+        "label": "中間トピック / 次のトピックを選択",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "`setImmediate`関数は,現在のイベントループが実行完了した後,呼び出す関数の実行を遅らせる. 0 ms の遅延で `setTimeout`を呼び出すと非常に似ている.",
+        "links": [
+          {
+            "title": "理解は即座に",
+            "url": "https://nodejs.org/en/learn/asynchronous-work/understanding-setimmediate",
+            "type": "official"
+          },
+          {
+            "title": "理解は即座に",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/setImmediate",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ATu9-29yJWcDOik5FTOgf",
+      "type": "subtopic",
+      "label": "プロセス.nextTick",
+      "position": {
+        "x": -191.63327447982556,
+        "y": 756.7304293708296
+      },
+      "size": {
+        "width": 174,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "bcE9YSY2vLzRyJQSceY9M",
+        "color": "#9900ff",
+        "label": "中間トピック / 次のトピックを選択",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "イベントループが完全に移動するたびに,私たちはそれをティックと呼びます.関数を `process.nextTick() ` に転送すると,次のイベントループティックが起動する前に,エンジンが現在の動作の終わりにこの関数を呼び出すように指示します.",
+        "links": [
+          {
+            "title": "理解プロセス.次Tick()",
+            "url": "https://nodejs.org/en/learn/asynchronous-work/understanding-processnexttick",
+            "type": "official"
+          },
+          {
+            "title": "Node.js プロセス.nextTick (()",
+            "url": "https://nodejs.org/en/docs/guides/event-loop-timers-and-nexttick/",
+            "type": "official"
+          },
+          {
+            "title": "プロセス.nextTick 機能",
+            "url": "https://www.youtube.com/watch?v=-niA5XOlCWI",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2y0pHOHxtkv-X-a6ltLJu",
+      "type": "label",
+      "label": "アシンクロコードの書き込み",
+      "position": {
+        "x": -191.63327447982556,
+        "y": 816.7304293708296
+      },
+      "size": {
+        "width": 174,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "bgEHTBYzRDJqZ6gLqLbsz",
+      "type": "subtopic",
+      "label": "イベント エミッター",
+      "position": {
+        "x": 19.36672552017444,
+        "y": 437.2304293708296
+      },
+      "size": {
+        "width": 155,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "bcE9YSY2vLzRyJQSceY9M",
+        "color": "#9900ff",
+        "label": "中間トピック / 次のトピックを選択",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "Node.js では,イベントは,対応するコールバックを持つ文字列として説明できます.イベントは\",発信\" (または,他の言い換えれば,対応するコールバックが呼び出される) 複数回,または最初に発信されたときにのみ聴くことを選択できます.",
+        "links": [
+          {
+            "title": "イベント エミッターとは?",
+            "url": "https://nodejs.org/en/learn/asynchronous-work/the-nodejs-event-emitter",
+            "type": "official"
+          },
+          {
+            "title": "Node.js でイベントエミッターを使用する",
+            "url": "https://www.digitalocean.com/community/tutorials/using-event-emitters-in-node-js",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b679H8gEBuvrHQ8ik7e96",
+      "type": "subtopic",
+      "label": "イベントループ",
+      "position": {
+        "x": 19.36672552017444,
+        "y": 490.2304293708296
+      },
+      "size": {
+        "width": 155,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "iRlgVcCk54BVDA-Rx0kt8",
+        "color": "#000",
+        "label": "先進の話題 / ついにこれを選んで",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "イベントループは Node.js の最も重要な側面の一つです. なぜこれがそんなに重要なのか? それは Node.js がアシンクロンであり,ブロックしないI/O ができるかを説明しているため, Node.js の\"キラー機能\"を説明しています.",
+        "links": [
+          {
+            "title": "Node.js イベントループ",
+            "url": "https://www.coursera.org/lecture/secure-full-stack-mean-developer/the-node-js-event-loop-j5fbT",
+            "type": "course"
+          },
+          {
+            "title": "Node.JS イベントループ",
+            "url": "https://nodejs.org/en/docs/guides/event-loop-timers-and-nexttick/#what-is-the-event-loop",
+            "type": "official"
+          },
+          {
+            "title": "NodeJS イベントループ",
+            "url": "https://nodejs.org/en/guides/event-loop-timers-and-nexttick",
+            "type": "official"
+          },
+          {
+            "title": "イベント ループ を 遮断 し て は なら ない",
+            "url": "https://nodejs.org/en/guides/dont-block-the-event-loop",
+            "type": "official"
+          },
+          {
+            "title": "JavaScript ビジュアル化: イベントループ",
+            "url": "https://dev.to/lydiahallie/javascript-visualized-event-loop-3dif",
+            "type": "article"
+          },
+          {
+            "title": "Node.js の イベントループ - Mixu の ノードブック",
+            "url": "https://book.mixu.net/node/ch2.html#the-event-loop-understanding-how-node-executes-javascript-code",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "wEK77A6MPQBCBUSJKMiaY",
+      "type": "topic",
+      "label": "ファイルと作業",
+      "position": {
+        "x": 19.36672552017444,
+        "y": 945.7756025940266
+      },
+      "size": {
+        "width": 231,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Node.js のファイルを組み込みの `fs` モジュールでプログラム的に操作できます.この名前は ファイルシステム, の略称で,モジュールには,ローカルマシンでファイルを読み,書き,削除するために必要なすべての機能が含まれています.",
+        "links": [
+          {
+            "title": "ファイルシステムモジュール",
+            "url": "https://nodejs.org/docs/latest/api/fs.html",
+            "type": "official"
+          },
+          {
+            "title": "Node.js の fs モジュールを使用してファイルで作業する方法",
+            "url": "https://www.digitalocean.com/community/tutorials/how-to-work-with-files-using-the-fs-module-in-node-js",
+            "type": "article"
+          },
+          {
+            "title": "Node.jsに関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/nodejs?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "QT2QE2FLkyUDpwMKYkFQL",
+      "type": "subtopic",
+      "label": "プロセス.cwd()",
+      "position": {
+        "x": 358.53666458157085,
+        "y": 893.7756025940266
+      },
+      "size": {
+        "width": 153,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "NEZQB0yHPCcKwsESDYbk5",
+        "color": "#38761d",
+        "label": "初心者 トピックス / これから始めましょう",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "`process.cwd() ` メソッドは Node.js プロセスの現在の作業ディレクトリを返します.",
+        "links": [
+          {
+            "title": "プロセス.cwd()",
+            "url": "https://nodejs.org/api/process.html#processcwd",
+            "type": "official"
+          },
+          {
+            "title": "process.cwd() と __dirnameの違いは何ですか?",
+            "url": "https://stackoverflow.com/questions/9874382/whats-the-difference-between-process-cwd-vs-dirname",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Blzb-fdQZMu6Xq5JDJW0_",
+      "type": "subtopic",
+      "label": "パースモジュール",
+      "position": {
+        "x": 358.53666458157085,
+        "y": 945.7756025940266
+      },
+      "size": {
+        "width": 153,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "NEZQB0yHPCcKwsESDYbk5",
+        "color": "#38761d",
+        "label": "初心者 トピックス / これから始めましょう",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "`path`モジュールは,ファイルとディレクトリ経路を操作するためのユーティリティを提供します.Node.jsコアに組み込まれていて,単にそれを要求して使用できます.",
+        "links": [
+          {
+            "title": "経路文書",
+            "url": "https://nodejs.org/api/path.html",
+            "type": "official"
+          },
+          {
+            "title": "Node.js ファイル経路を学ぶ",
+            "url": "https://nodejs.org/en/learn/manipulating-files/nodejs-file-paths",
+            "type": "official"
+          },
+          {
+            "title": "Node.js のパスモジュール",
+            "url": "https://youtu.be/j95Lwxvi9JY",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b1r1X3XCoPSayQjDBcy54",
+      "type": "subtopic",
+      "label": "fs モジュール",
+      "position": {
+        "x": 358.53666458157085,
+        "y": 997.7756025940266
+      },
+      "size": {
+        "width": 153,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "NEZQB0yHPCcKwsESDYbk5",
+        "color": "#38761d",
+        "label": "初心者 トピックス / これから始めましょう",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "ファイルシステムまたは `fs`モジュールは,JavaScriptを使用してファイルシステムとインタラクションを可能にするノードに組み込まれたモジュールです.すべてのファイルシステム操作には同期式,コールバック,約束ベースのフォームがあり,CommonJS構文とES6モジュールの両方を使用してアクセスできます.",
+        "links": [
+          {
+            "title": "fs モジュール",
+            "url": "https://nodejs.org/api/fs.html",
+            "type": "official"
+          },
+          {
+            "title": "fs を使って",
+            "url": "https://www.youtube.com/watch?v=ZySsdm576wE",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1AaGG660rvZlNYMOA35qO",
+      "type": "subtopic",
+      "label": "名前",
+      "position": {
+        "x": 19.86672552017444,
+        "y": 777.4712346612822
+      },
+      "size": {
+        "width": 130,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "NEZQB0yHPCcKwsESDYbk5",
+        "color": "#38761d",
+        "label": "初心者 トピックス / これから始めましょう",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "ノードスクリプトの `__dirname`は,現在のJavaScriptファイルが所在するフォルダの経路を返します. `__filename`と `__dirname`は,現在実行中のファイルのファイル名とディレクトリ名を取得するために使用されます.",
+        "links": [
+          {
+            "title": "名前",
+            "url": "https://nodejs.org/docs/latest/api/modules.html#__dirname",
+            "type": "official"
+          },
+          {
+            "title": "__dirname の使い方",
+            "url": "https://www.digitalocean.com/community/tutorials/nodejs-how-to-use__dirname",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P2gdwx1qCxvg1Ppfw0aqQ",
+      "type": "subtopic",
+      "label": "__ファイル名",
+      "position": {
+        "x": 18.86672552017444,
+        "y": 830.4712346612822
+      },
+      "size": {
+        "width": 132,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "NEZQB0yHPCcKwsESDYbk5",
+        "color": "#38761d",
+        "label": "初心者 トピックス / これから始めましょう",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "Node.js の `__filename` は実行されたコードのファイル名を返します.コードファイルの絶対経路を示します.次のアプローチは Node.js プロジェクトで `__filename` を実装します.",
+        "links": [
+          {
+            "title": "__ファイル名",
+            "url": "https://nodejs.org/docs/latest/api/modules.html#__filename",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "CWH0ZsxJ8beLvwMYJyH52",
+      "type": "subtopic",
+      "label": "グローブ",
+      "position": {
+        "x": 30.006252682943114,
+        "y": 1045.5645748781312
+      },
+      "size": {
+        "width": 104,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "NEZQB0yHPCcKwsESDYbk5",
+        "color": "#38761d",
+        "label": "初心者 トピックス / これから始めましょう",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "グローブパターンは,ワイルドカード文字と呼ばれるファイル名,ワイルドカードマッチングと呼ばれる文字列を指定するために最も一般的に使用されます.",
+        "links": [
+          {
+            "title": "NPM Glob",
+            "url": "https://www.npmjs.com/package/glob",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "HYTw74rrd7kkOemCxfT9I",
+      "type": "subtopic",
+      "label": "グロービー",
+      "position": {
+        "x": 137.0062526829431,
+        "y": 1047.3055580184816
+      },
+      "size": {
+        "width": 106,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "NEZQB0yHPCcKwsESDYbk5",
+        "color": "#38761d",
+        "label": "初心者 トピックス / これから始めましょう",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "_ ユーザーフレンドリーなグローバルマッチング_ 迅速なグローバルベースですが,多くの有用な機能を追加します.",
+        "links": [
+          {
+            "title": "NPM・グロービー",
+            "url": "https://www.npmjs.com/package/globby",
+            "type": "official"
+          },
+          {
+            "title": "GitHub Globby",
+            "url": "https://github.com/sindresorhus/globby",
+            "type": "opensource"
+          }
+        ]
+      }
+    },
+    {
+      "id": "zDmWGRrgwq3Gjfkyk6crK",
+      "type": "subtopic",
+      "label": "fs-extra",
+      "position": {
+        "x": 30.006252682943114,
+        "y": 1098.5645748781312
+      },
+      "size": {
+        "width": 104,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "NEZQB0yHPCcKwsESDYbk5",
+        "color": "#38761d",
+        "label": "初心者 トピックス / これから始めましょう",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "fs-extra は,ネイティブ fs モジュールに含まれていないファイルシステムメソッドを追加し, fs メソッドに約束のサポートを追加します. また,EMFILE エラーを防ぐために優雅なfs を使用します. fs の置き換えに drop が必要です.",
+        "links": [
+          {
+            "title": "fs-extraパッケージ",
+            "url": "https://www.npmjs.com/package/fs-extra",
+            "type": "official"
+          },
+          {
+            "title": "fs-extra vs fs",
+            "url": "https://ar.al/2021/03/07/fs-extra-to-fs/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "een1zhvgN_33Cu6OiWtyX",
+      "type": "subtopic",
+      "label": "チョキダール",
+      "position": {
+        "x": 137.0062526829431,
+        "y": 1100.3055580184816
+      },
+      "size": {
+        "width": 106,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "NEZQB0yHPCcKwsESDYbk5",
+        "color": "#38761d",
+        "label": "初心者 トピックス / これから始めましょう",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "Chokidar は node. js の オープン ソース の ファイル 監視器 です. ファイル を 数多く 与え,変更 を 監視 し,古い ファイル が 編集 さ れ た か,新しい ファイル が 作成 さ れ た 度に 通知 さ れ ます.",
+        "links": [
+          {
+            "title": "チョキダール",
+            "url": "https://www.npmjs.com/package/chokidar",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ugV0EkY69hs8sa4fE-GYP",
+      "type": "label",
+      "label": "オープンソース パッケージ",
+      "position": {
+        "x": 41.397694667351914,
+        "y": 1153.4969039682844
+      },
+      "size": {
+        "width": 191,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "Ce-dP-OXu0mEm30rzp2hW",
+      "type": "topic",
+      "label": "コマンドラインアプリ",
+      "position": {
+        "x": -245.45968546864998,
+        "y": 945.7756025940266
+      },
+      "size": {
+        "width": 206,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "コマンドライン アプリケーションは,コマンドラインから実行できるアプリケーションです. CLI (コマンドラインインターフェイス) アプリケーションとも呼ばれます.ユーザーは端末コマンドで完全にクライアントと対話できます.自動化および構築ツールには非常に有用です.",
+        "links": [
+          {
+            "title": "Node.js でコマンドラインアプリケーションを作成する",
+            "url": "https://developer.okta.com/blog/2019/06/18/command-line-app-with-nodejs",
+            "type": "article"
+          },
+          {
+            "title": "5分間の Node.js CLIプロジェクト",
+            "url": "https://www.youtube.com/watch?v=_oHByo8tiEY",
+            "type": "video"
+          },
+          {
+            "title": "Node.jsに関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/nodejs?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "fE9C7Resn4EcL-hYHbsaZ",
+      "type": "subtopic",
+      "label": "Dotenv パッケージ",
+      "position": {
+        "x": -506.59047207111564,
+        "y": 743.1880786390362
+      },
+      "size": {
+        "width": 197,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "NEZQB0yHPCcKwsESDYbk5",
+        "color": "#38761d",
+        "label": "初心者 トピックス / これから始めましょう",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "dotenvは,環境変数を `.env`ファイルから `process.env`ファイルに読み込むゼロ依存性モジュールである.コードから分離した環境で設定を保存することは,The Twelve-Factor App方法に基づいている.",
+        "links": [
+          {
+            "title": "process.env ドキュメンテーション",
+            "url": "https://nodejs.org/docs/latest/api/process.html#process_process_env",
+            "type": "official"
+          },
+          {
+            "title": "Dotenv パッケージ",
+            "url": "https://www.npmjs.com/package/dotenv",
+            "type": "official"
+          },
+          {
+            "title": "ドートンブ ドートンブ ドートンブ ドートンブ ドートンブ ドートンブ ドートンブ ドートンブ ドートンブ ドートンブ ドートンブ ドートンブ ドートンブ ドートンブ ドートンブ ドートンブ ドートンブ ドートンブ ドートンブ ドートンブ ドートンブ ドートンブ ドートンブ ドートンブ ドートン",
+            "url": "https://github.com/motdotla/dotenv#readme",
+            "type": "opensource"
+          },
+          {
+            "title": "12 要因 アプリ 方法",
+            "url": "https://12factor.net/config",
+            "type": "article"
+          },
+          {
+            "title": "Dotenv チュートリアル",
+            "url": "https://zetcode.com/javascript/dotenv/",
+            "type": "article"
+          },
+          {
+            "title": "一般プログラミングに関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/general-programming?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "wthXp2YGg3eTMbxsek77C",
+      "type": "subtopic",
+      "label": "process.env",
+      "position": {
+        "x": -506.59047207111564,
+        "y": 690.1880786390362
+      },
+      "size": {
+        "width": 197,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "NEZQB0yHPCcKwsESDYbk5",
+        "color": "#38761d",
+        "label": "初心者 トピックス / これから始めましょう",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "Node.js では, process.env は,実行時に注入されるグローバル変数です.システム環境変数の状態の表示です.環境変数を設定すると,実行時に process.env にロードされ,後でアクセスできます.",
+        "links": [
+          {
+            "title": "Node.js 環境変数を学ぶ",
+            "url": "https://nodejs.org/en/learn/command-line/how-to-read-environment-variables-from-nodejs",
+            "type": "official"
+          },
+          {
+            "title": "Process.env ノード",
+            "url": "https://www.knowledgehut.com/blog/web-development/node-environment-variables",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "XteNExIZN3_g95_dPCopY",
+      "type": "subtopic",
+      "label": "出口/出口コード",
+      "position": {
+        "x": -245.45968546864998,
+        "y": 875.4712346612822
+      },
+      "size": {
+        "width": 206,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "NEZQB0yHPCcKwsESDYbk5",
+        "color": "#38761d",
+        "label": "初心者 トピックス / これから始めましょう",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "退出は node.js プロセスモジュールを使用して Node.js プロセスを終了する方法です.",
+        "links": [
+          {
+            "title": "出口文書",
+            "url": "https://nodejs.org/api/process.html#event-exit",
+            "type": "official"
+          },
+          {
+            "title": "Node.js でプロセスを終了する方法",
+            "url": "https://betterstack.com/community/questions/how-to-exit-in-node-js/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Te9D5ImyMSot506CnstPW",
+      "type": "label",
+      "label": "環境変数",
+      "position": {
+        "x": -501.59047207111564,
+        "y": 796.5361510849657
+      },
+      "size": {
+        "width": 188,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "betuntelnEMSHdatO6VPl",
+      "type": "subtopic",
+      "label": "プロセス.stdin",
+      "position": {
+        "x": -507.59047207111564,
+        "y": 847.3085583597832
+      },
+      "size": {
+        "width": 204,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "NEZQB0yHPCcKwsESDYbk5",
+        "color": "#38761d",
+        "label": "初心者 トピックス / これから始めましょう",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "`process.stdin` は,Node.js の標準入力,通常はキーボードを表すストリームです.Node.js のプログラムがコマンドラインからテキスト入力を受け取ることを可能にします. `readline` モジュールは,インタラクティブなコマンドラインアプリケーションでユーザ入力を操作することを容易にするため, `process.stdin` から入力を読むのに便利なインターフェースを提供します.",
+        "links": [
+          {
+            "title": "プロセス.stdin",
+            "url": "https://nodejs.org/api/process.html#processstdin",
+            "type": "official"
+          },
+          {
+            "title": "Node.js のコマンドラインから入力を受け入れる",
+            "url": "https://nodejs.org/en/learn/command-line/accept-input-from-the-command-line-in-nodejs#accept-input-from-the-command-line-in-nodejs",
+            "type": "official"
+          },
+          {
+            "title": "Node.js プロセス stdin & stdout",
+            "url": "https://nodecli.com/node-stdin-stdout",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "xgsKrUdfB0g0DMQCLK3aY",
+      "type": "subtopic",
+      "label": "提示 パッケージ",
+      "position": {
+        "x": -506.59047207111564,
+        "y": 953.3085583597832
+      },
+      "size": {
+        "width": 203,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "NEZQB0yHPCcKwsESDYbk5",
+        "color": "#38761d",
+        "label": "初心者 トピックス / これから始めましょう",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "プロンプトは,Node.js の内蔵の `Readline` モジュールの上に構築されたより高いレベルでユーザーフレンドリーなインターフェースです.テキスト,パスワード,自動完成,日付などの異なる種類のプロンプトをサポートします.",
+        "links": [
+          {
+            "title": "提示",
+            "url": "https://www.npmjs.com/package/prompts",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "WFJJtIqVoBIhK10XY-d7l",
+      "type": "subtopic",
+      "label": "尋問者 パッケージ",
+      "position": {
+        "x": -507.59047207111564,
+        "y": 900.3085583597832
+      },
+      "size": {
+        "width": 204,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "NEZQB0yHPCcKwsESDYbk5",
+        "color": "#38761d",
+        "label": "初心者 トピックス / これから始めましょう",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "Inquirer.js は,ユーザーからの入力を取得するための一般的なインタラクティブなコマンドラインインターフェースの集合です.これは約束に基づいています.そして,テキスト入力,チェックボックス,選択リスト,その他多くのものを受信し,迅速な質問の連鎖をサポートします.ユーザー入力を必要とする端末アプリケーションを動かすために使用できます.または独自の CLIを構築できます.",
+        "links": [
+          {
+            "title": "尋問者",
+            "url": "https://github.com/SBoudrias/Inquirer.js#readme",
+            "type": "opensource"
+          },
+          {
+            "title": "Inquirer.js でインタラクティブなコマンドラインプロンプトを作成する方法",
+            "url": "https://www.digitalocean.com/community/tutorials/nodejs-interactive-command-line-prompts",
+            "type": "article"
+          },
+          {
+            "title": "Node.js で CLI を Inquirer で作る方法",
+            "url": "https://www.youtube.com/watch?v=0xjfkl9nODQ",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "iI8FZWu3zJ43zYBvwp2XZ",
+      "type": "label",
+      "label": "入力 を 取る",
+      "position": {
+        "x": -463.09047207111564,
+        "y": 1008.3567490522918
+      },
+      "size": {
+        "width": 111,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "lQm-5WxQQTk7ym-_X8Ql6",
+      "type": "label",
+      "label": "印刷出力",
+      "position": {
+        "x": -474.09047207111564,
+        "y": 1280.2877525020792
+      },
+      "size": {
+        "width": 133,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "N2vR1_NyDn4rYLXJzxWBZ",
+      "type": "subtopic",
+      "label": "stdout / stderr",
+      "position": {
+        "x": -504.59047207111564,
+        "y": 1061.2877525020792
+      },
+      "size": {
+        "width": 201,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "NEZQB0yHPCcKwsESDYbk5",
+        "color": "#38761d",
+        "label": "初心者 トピックス / これから始めましょう",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "`process.stdout`プロパティは,プロセスモジュールの内蔵アプリケーションプログラミングインターフェースで,プログラムからデータを送信するために使用されます. Writable Stream to stdout. `write() `方法を実装します. `console.log() `は,フォーマットされた出力または新しい行で `process.stdout.write() `にプリントされます.",
+        "links": [
+          {
+            "title": "プロセス.stdout",
+            "url": "https://nodejs.org/api/process.html#processstdout",
+            "type": "official"
+          },
+          {
+            "title": "process.stdout vs console.log",
+            "url": "https://stackoverflow.com/questions/4976466/difference-between-process-stdout-write-and-console-log-in-node-js/4984464#4984464",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "V4OWIC1cnw8EFyu26Y_dA",
+      "type": "subtopic",
+      "label": "石の包装",
+      "position": {
+        "x": -504.59047207111564,
+        "y": 1114.2877525020792
+      },
+      "size": {
+        "width": 201,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "NEZQB0yHPCcKwsESDYbk5",
+        "color": "#38761d",
+        "label": "初心者 トピックス / これから始めましょう",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "Chalk は,端末アプリケーションで文字列のスタイリングを行うためのクリーンで集中したライブラリです.このライブラリを使用して,コンソールに文字列の色を変更し,フォントの大胆性,フォントの不透明性,およびコンソールに印刷されたメッセージの背景など,異なるスタイリングのメッセージをコンソールにプリントすることができます.",
+        "links": [
+          {
+            "title": "チョーク・ドック",
+            "url": "https://github.com/chalk/chalk#readme",
+            "type": "opensource"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PHLdJylzNZDJBGi8FFsfO",
+      "type": "subtopic",
+      "label": "フィギュレット包装",
+      "position": {
+        "x": -504.59047207111564,
+        "y": 1167.2877525020792
+      },
+      "size": {
+        "width": 201,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "NEZQB0yHPCcKwsESDYbk5",
+        "color": "#38761d",
+        "label": "初心者 トピックス / これから始めましょう",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "このパッケージは,FIGfontの仕様をJavaScriptで完全に実装することを目的としています.これはより大きな文字を表す文字のグラフィックな配置を表しています.ブラウザとNode.jsで動作します.",
+        "links": [
+          {
+            "title": "果物",
+            "url": "https://github.com/patorjk/figlet.js",
+            "type": "opensource"
+          }
+        ]
+      }
+    },
+    {
+      "id": "iW9je5Pq7bjxWZDERv_p5",
+      "type": "subtopic",
+      "label": "クリップ・プロгресス",
+      "position": {
+        "x": -504.59047207111564,
+        "y": 1220.2877525020792
+      },
+      "size": {
+        "width": 201,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "NEZQB0yHPCcKwsESDYbk5",
+        "color": "#38761d",
+        "label": "初心者 トピックス / これから始めましょう",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "CLI-Progress は,CLI アプリケーションのためのカスタマイズされた進捗バーを提供するパッケージです.",
+        "links": [
+          {
+            "title": "CLI-進歩文書",
+            "url": "https://www.npmjs.com/package/cli-progress",
+            "type": "official"
+          },
+          {
+            "title": "CLIに関するトップ記事を探索する",
+            "url": "https://app.daily.dev/tags/cli?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "lT2DDRtbFfEjb_cmsQx8i",
+      "type": "subtopic",
+      "label": "プロセス.argv",
+      "position": {
+        "x": -506.12962923010787,
+        "y": 1328.9416664638775
+      },
+      "size": {
+        "width": 202,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "NEZQB0yHPCcKwsESDYbk5",
+        "color": "#38761d",
+        "label": "初心者 トピックス / これから始めましょう",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "`process.argv` は Node.js ファイルまたは Node.js プロセスを実行するときに送信されるパラメータの配列です.",
+        "links": [
+          {
+            "title": "プロセス.argv",
+            "url": "https://nodejs.org/docs/latest/api/process.html#processargv",
+            "type": "official"
+          },
+          {
+            "title": "コマンドライン 議論 - プログラミングの洞窟",
+            "url": "https://youtu.be/nr7i2HOAjeE",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "BxxLQUI7JcQgF6TK3L5uU",
+      "type": "subtopic",
+      "label": "司令官",
+      "position": {
+        "x": -504.12962923010787,
+        "y": 1381.9416664638775
+      },
+      "size": {
+        "width": 200,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "NEZQB0yHPCcKwsESDYbk5",
+        "color": "#38761d",
+        "label": "初心者 トピックス / これから始めましょう",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "Commander は node.js の軽量で表現的で強力なコマンドラインフレームワークです. Commander.js を使用して,独自のコマンドラインインターフェース (CLI) を作成できます.",
+        "links": [
+          {
+            "title": "司令官パケット",
+            "url": "https://www.npmjs.com/package/commander",
+            "type": "official"
+          },
+          {
+            "title": "JavaScriptに関するトップ記事を探索する",
+            "url": "https://app.daily.dev/tags/javascript?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "NUoma-b5IJUuOssS3yut8",
+      "type": "label",
+      "label": "コマンドライン args",
+      "position": {
+        "x": -491.6296292301079,
+        "y": 1441.9416664638775
+      },
+      "size": {
+        "width": 166,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "fFVCb6aZWRHdNDFt5C09R",
+      "type": "topic",
+      "label": "APIの構築と消費",
+      "position": {
+        "x": -245.45968546864998,
+        "y": 1258.2877525020792
+      },
+      "size": {
+        "width": 258,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "NEZQB0yHPCcKwsESDYbk5",
+        "color": "#38761d",
+        "label": "初心者 トピックス / これから始めましょう",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "APIは,アプリケーションプログラミングインターフェイスの略称であり,それは2つのアプリケーションが互いに話すことができるソフトウェア中介です.",
+        "links": [
+          {
+            "title": "APIとは何か?",
+            "url": "https://aws.amazon.com/what-is/api/",
+            "type": "article"
+          },
+          {
+            "title": "APIとは何か (5分以内に)",
+            "url": "https://youtu.be/ByGJQzlzxQg?si=9EB9lgRvEOgt3xPJ",
+            "type": "video"
+          },
+          {
+            "title": "Node.jsに関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/nodejs?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1vq_KcYR_pkfp1MtXaL75",
+      "type": "subtopic",
+      "label": "Express.js",
+      "position": {
+        "x": 219.39975778990492,
+        "y": 1250.6567476363114
+      },
+      "size": {
+        "width": 121,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Express は Node js の Web アプリケーション フレームワークで,Web およびモバイル アプリケーションを構築するための幅広い機能を提供します.単一ページ,マルチページ,ハイブリッド Web アプリケーションを構築するために使用されます.",
+        "links": [
+          {
+            "title": "Express.js",
+            "url": "https://expressjs.com/",
+            "type": "official"
+          },
+          {
+            "title": "開始 ガイド",
+            "url": "https://expressjs.com/en/starter/installing.html",
+            "type": "official"
+          },
+          {
+            "title": "完全な ガイド を 表す",
+            "url": "https://www.tutorialspoint.com/nodejs/nodejs_express_framework.htm",
+            "type": "article"
+          },
+          {
+            "title": "サンプルプロジェクト",
+            "url": "https://auth0.com/blog/create-a-simple-and-stylish-node-express-app/",
+            "type": "article"
+          },
+          {
+            "title": "Express.jsに関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/express?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "WkU_rI4i-UmNSxb5F9TI-",
+      "type": "subtopic",
+      "label": "熟練する",
+      "position": {
+        "x": 219.39975778990492,
+        "y": 1303.6567476363114
+      },
+      "size": {
+        "width": 121,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Fastifyは,HapiとExpressにインスピレーションを得て,最小のオーバーヘッドと強力なプラグインアーキテクチャで最高の開発者体験を提供することに重点を置くウェブフレームワークです.",
+        "links": [
+          {
+            "title": "加速する",
+            "url": "https://www.fastify.io/",
+            "type": "official"
+          },
+          {
+            "title": "文書 を 加速 する",
+            "url": "https://www.fastify.io/docs/latest/",
+            "type": "official"
+          },
+          {
+            "title": "初心者 スピードチュートリアル",
+            "url": "https://www.youtube.com/watch?v=Lk-uVEVGxOA",
+            "type": "video"
+          },
+          {
+            "title": "Fastify に関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/fastify?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tGD8XLHnfspfv8CbguGwV",
+      "type": "subtopic",
+      "label": "ネストJS",
+      "position": {
+        "x": 219.39975778990492,
+        "y": 1356.6567476363114
+      },
+      "size": {
+        "width": 121,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "NestJSは,効率的でスケーラブルなサーバーサイドアプリケーションを作成するための進歩的な Node.js フレームワークです.",
+        "links": [
+          {
+            "title": "ネストJS",
+            "url": "https://nestjs.com",
+            "type": "official"
+          },
+          {
+            "title": "NestJSドキュメント",
+            "url": "https://docs.nestjs.com",
+            "type": "official"
+          },
+          {
+            "title": "初心者NestJSチュートリアル",
+            "url": "https://www.youtube.com/watch?v=GHTA143_b-s",
+            "type": "video"
+          },
+          {
+            "title": "NestJSに関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/nestjs?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Xa-lA1wbZ9JZ_XpXfhhw5",
+      "type": "subtopic",
+      "label": "ホノ",
+      "position": {
+        "x": 219.39975778990492,
+        "y": 1409.6567476363114
+      },
+      "size": {
+        "width": 121,
+        "height": 53
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Hono は Cloudflare ワーカーズ,Deno,Bun,およびその他のアプリケーションのための軽量でシンプルで高速なウェブフレームワークです.これは高速かつ柔軟な現代的なウェブアプリケーションです.TypScript の内蔵サポートとローカル環境で簡単な開発を提供しています.Hono を使用して,Deno,Bun,および Cloudflare Worker で公開可能なウェブアプリケーションを作成することは簡単です.",
+        "links": [
+          {
+            "title": "ホノ文書",
+            "url": "https://hono.dev/docs/",
+            "type": "official"
+          },
+          {
+            "title": "Hono で Web アプリケーションを作成する",
+            "url": "https://blog.logrocket.com/build-web-application-hono/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "wyBsJ-NSYBS0QfPHPl0j7",
+      "type": "label",
+      "label": "フレームワーク",
+      "position": {
+        "x": 219.39975778990492,
+        "y": 1473.6567476363114
+      },
+      "size": {
+        "width": 121,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "Sjc1YDtbzXyLQH711_3nj",
+      "type": "subtopic",
+      "label": "http モジュール",
+      "position": {
+        "x": 354.73640589584414,
+        "y": 1250.02072262127
+      },
+      "size": {
+        "width": 170,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Node.js の `http` モジュールを利用して API コールをすることもできます. 以下は,2 つの方法です. * `http.get() ` - http GET リクエストを作成します. * `http.request() ` - `http.get() ` に似ていますが,他の種類の http リクエスト (GET リクエストを含む) を送信できます.",
+        "links": [
+          {
+            "title": "Node.js http.get() のドキュメント",
+            "url": "https://nodejs.org/docs/latest-v16.x/api/http.html#httpgeturl-options-callback",
+            "type": "official"
+          },
+          {
+            "title": "Node.js http.request() のドキュメント",
+            "url": "https://nodejs.org/docs/latest-v16.x/api/http.html#httprequesturl-options-callback",
+            "type": "official"
+          },
+          {
+            "title": "Node.js で HTTP クライアントをコア HTTP で作成する方法",
+            "url": "https://www.digitalocean.com/community/tutorials/how-to-create-an-http-client-with-core-http-in-node-js",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "BOLiZg8YDKADMwP01U5ph",
+      "type": "subtopic",
+      "label": "軸",
+      "position": {
+        "x": 354.73640589584414,
+        "y": 1303.02072262127
+      },
+      "size": {
+        "width": 71,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Axios は node.js とブラウザの約束ベースの HTTP クライアントです.ウェブサーバーへのリクエストを行うために使用されます.サーバー側ではネイティブ node.js http モジュールを使用しますが,クライアント (ブラウザ) では XMLHttpRequests を使用します.",
+        "links": [
+          {
+            "title": "アクシオスのドキュメント",
+            "url": "https://axios-http.com/docs/intro",
+            "type": "official"
+          },
+          {
+            "title": "Axios チュートリアル",
+            "url": "https://www.youtube.com/watch?v=6LyagkoRWYA",
+            "type": "video"
+          },
+          {
+            "title": "Axios に関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/axios?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "-_2letLUta5Ymc5eEOKhn",
+      "type": "subtopic",
+      "label": "カイ",
+      "position": {
+        "x": 428.73640589584414,
+        "y": 1303.02072262127
+      },
+      "size": {
+        "width": 95,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Ky は,ブラウザのFetch APIをベースにした微小で優雅なHTTPクライアントです. Ky は現代のブラウザとDenoをターゲットとしています.古いブラウザでは,Fetchポリフィールを変換して使用する必要があります.Node.js では,Got.. 1 KB (minified & gzipped),1ファイル,および依存関係はありません.",
+        "links": [
+          {
+            "title": "Ky パッケージ",
+            "url": "https://www.npmjs.com/package/ky/v/0.9.0",
+            "type": "official"
+          },
+          {
+            "title": "カイ・ドックス",
+            "url": "https://github.com/sindresorhus/ky",
+            "type": "opensource"
+          }
+        ]
+      }
+    },
+    {
+      "id": "B_3rTGQxJneMREXoi2gQn",
+      "type": "subtopic",
+      "label": "引き寄せ",
+      "position": {
+        "x": 355.36672552017444,
+        "y": 1357.02072262127
+      },
+      "size": {
+        "width": 169,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "JavaScript の `fetch() ` メソッドは,サーバーに要求し,ウェブページに情報をロードするために使用されます.この要求は,JSON または XML 形式のデータを返却する任意の API であり得る.このメソッドは約束を返却します.",
+        "links": [
+          {
+            "title": "MDN - Fetch API を使用する",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch",
+            "type": "official"
+          },
+          {
+            "title": "NodeJS グローバルは: 取得",
+            "url": "https://nodejs.org/api/globals.html#fetch",
+            "type": "official"
+          },
+          {
+            "title": "MDN - 約束",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise",
+            "type": "official"
+          },
+          {
+            "title": "FreeCodeCamp 呼び戻しの地獄を回避する",
+            "url": "https://www.freecodecamp.org/news/how-to-deal-with-nested-callbacks-and-avoid-callback-hell-1bc8dc4a2012/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6stiDKubT6XVAOGiJ6wsx",
+      "type": "subtopic",
+      "label": "パッケージが届きました",
+      "position": {
+        "x": 354.73640589584414,
+        "y": 1410.02072262127
+      },
+      "size": {
+        "width": 170,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Got は,Node.js で動作するように明示的に設計されたより軽く,人間に優しい,強力なHTTPリクエストライブラリです. ページ化,RFC対応キャッシングをサポートし,失敗した場合のAPIリクエストを再開し,クッキーをサポートします.",
+        "links": [
+          {
+            "title": "文書を手に入れた",
+            "url": "https://www.npmjs.com/package/got",
+            "type": "official"
+          },
+          {
+            "title": "Node.js で GOT を使って API を消費する方法は?",
+            "url": "https://rapidapi.com/guides/call-apis-got",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "oZIte_LbYlggtiOQWhroc",
+      "type": "label",
+      "label": "API の 呼び出し を する",
+      "position": {
+        "x": 364.23640589584414,
+        "y": 1473.6567476363114
+      },
+      "size": {
+        "width": 146,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "7u2WMxjLx3mMtn0cha4M7",
+      "type": "subtopic",
+      "label": "jsonwebtoken",
+      "position": {
+        "x": 354.73640589584414,
+        "y": 1086.063720703125
+      },
+      "size": {
+        "width": 170,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "JWT,またはJSON-Web-Tokenは,クライアントとサーバーの2人の間でセキュリティ情報を共有するためのオープンスタンダードである.各 JWTには,一連のクレームを含む暗号化された JSON オブジェクトが含まれています.JWTは,トークンが発行された後にクレームを変更できないことを確認するために暗号アルゴリズムを使用して署名されます.",
+        "links": [
+          {
+            "title": "JSON パッケージドキュメント",
+            "url": "https://www.npmjs.com/package/jsonwebtoken",
+            "type": "official"
+          },
+          {
+            "title": "JWT は 何 です か",
+            "url": "https://www.akana.com/blog/what-is-jwt",
+            "type": "article"
+          },
+          {
+            "title": "JWT の 実施",
+            "url": "https://www.youtube.com/watch?v=mbsmsi7l3r4",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mIyv6S9a5dCHkk-JhhjKV",
+      "type": "subtopic",
+      "label": "パスポート.js",
+      "position": {
+        "x": 354.73640589584414,
+        "y": 1139.063720703125
+      },
+      "size": {
+        "width": 170,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Passport.js は Node.js の認証ミドルウェアである.これはエクスプレス アプリで認証を実装することを非常に簡単かつ迅速にする.非常に柔軟かつモジュール化している.ユーザー名とパスワード,Facebook,Twitter,および多くの他のサイトを使用して認証をサポートする\"戦略\"を使用している.",
+        "links": [
+          {
+            "title": "パスポートJS",
+            "url": "https://www.passportjs.org/",
+            "type": "official"
+          },
+          {
+            "title": "パスポートJSドキュメント",
+            "url": "https://www.passportjs.org/docs/",
+            "type": "official"
+          },
+          {
+            "title": "パスポートjを使用したOAuthの実施",
+            "url": "https://www.youtube.com/watch?v=sakQbeRjgwg&list=PL4cUxeGkcC9jdm7QX143aMLAqyM-jTZ2x",
+            "type": "video"
+          },
+          {
+            "title": "JavaScriptに関するトップ記事を探索する",
+            "url": "https://app.daily.dev/tags/javascript?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "aHmeIcvZGVF0SwZe4vuvz",
+      "type": "label",
+      "label": "認証",
+      "position": {
+        "x": 374.23640589584414,
+        "y": 1197.02072262127
+      },
+      "size": {
+        "width": 127,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "swp4wBgA7z-sd64VDkMrw",
+      "type": "topic",
+      "label": "変化を監視する (Dev)",
+      "position": {
+        "x": -245.45968546864998,
+        "y": 1352.02072262127
+      },
+      "size": {
+        "width": 258,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "NEZQB0yHPCcKwsESDYbk5",
+        "color": "#38761d",
+        "label": "初心者 トピックス / これから始めましょう",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "Node.jsでは,変更が有効になるためにプロセスを再起動する必要があります.これはあなたのワークフローに追加のステップを追加します. `nodemon`を使用してプロセスを自動的に再起動することでこの追加ステップを削除できます. Node.js 18.11.0 から,ファイルを変更するたびにアプリケーションを再ロードするために,ノードを `--watch`旗で実行できます.",
+        "links": []
+      }
+    },
+    {
+      "id": "812bVEzxwTsYzLG_PmLqN",
+      "type": "subtopic",
+      "label": "-- 腕時計",
+      "position": {
+        "x": 83.04484613528683,
+        "y": 1326.6567476363114
+      },
+      "size": {
+        "width": 103,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Node.js の `--watch`フラグは,Node.js バージョン19 に導入された強力な機能で,指定されたファイルに変更が検出されたときにいつでも,Node.js アプリケーションを自動的にリロードできるようにします.",
+        "links": [
+          {
+            "title": "Node.js CLI",
+            "url": "https://nodejs.org/api/cli.html",
+            "type": "official"
+          },
+          {
+            "title": "Node.js - Docs を視聴する",
+            "url": "https://nodejs.org/api/cli.html#--watch",
+            "type": "official"
+          },
+          {
+            "title": "中央 - 監視モード",
+            "url": "https://medium.com/@khaled.smq/built-in-nodejs-watch-mode-52ffadaec8a8",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2Ym2jMvov0lZ79aJFaw29",
+      "type": "subtopic",
+      "label": "ノデモン",
+      "position": {
+        "x": 83.04484613528683,
+        "y": 1379.6567476363114
+      },
+      "size": {
+        "width": 103,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Node.jsでは,変更が有効になるためにプロセスを再起動する必要があります.これはあなたのワークフローに追加ステップを追加します.この追加ステップをノデモンまたはPM2を使用して自動的にプロセスを再起動することによって排除できます. `ノデモン`は remによって開発されたコマンドラインインターフェース (CLI) ユーティリティで,ノードアプリを巻き込み,ファイルシステムを監視し,自動的にプロセスを再起動します.",
+        "links": [
+          {
+            "title": "ノデモン",
+            "url": "https://nodemon.io/",
+            "type": "official"
+          },
+          {
+            "title": "PM2",
+            "url": "https://pm2.keymetrics.io/docs/usage/quick-start/",
+            "type": "article"
+          },
+          {
+            "title": "Node.js アプリをNodemonで自動的に再起動する方法",
+            "url": "https://www.digitalocean.com/community/tutorials/workflow-nodemon",
+            "type": "article"
+          },
+          {
+            "title": "Node.jsに関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/nodejs?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "J0ErCAZT5B97ZMogU2JHd",
+      "type": "topic",
+      "label": "テンプレートエンジン",
+      "position": {
+        "x": -245.45968546864998,
+        "y": 1503.1526950801597
+      },
+      "size": {
+        "width": 258,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "NEZQB0yHPCcKwsESDYbk5",
+        "color": "#38761d",
+        "label": "初心者 トピックス / これから始めましょう",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "テンプレートエンジンは,最小コードでHTMLテンプレートを作成するのに役立ちます.また,クライアント側でHTMLテンプレートにデータを注入して最終的なHTMLを作成できます.Node.jsのテンプレートエンジンのいくつかの例は: * Nunjucks * Jade * Vash * EJS * Handlebars * HAML",
+        "links": [
+          {
+            "title": "プグ を 始める",
+            "url": "https://pugjs.org/api/getting-started.html",
+            "type": "official"
+          },
+          {
+            "title": "ハンドルバー パッケージ",
+            "url": "https://www.npmjs.com/package/handlebars",
+            "type": "official"
+          },
+          {
+            "title": "EJS パッケージ",
+            "url": "https://www.npmjs.com/package/ejs",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L-_N7OxxuHCXsdWYBgZGu",
+      "type": "subtopic",
+      "label": "ejs",
+      "position": {
+        "x": 83.68754841750314,
+        "y": 1450.1526950801597
+      },
+      "size": {
+        "width": 94,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "EJS は,純粋なJavaScriptでHTMLマークアップを生成できるテンプレート言語またはエンジンです.Nodejs アプリケーションに最適化するのはこれです.単純に,EJSテンプレートエンジンは,JavaScriptを簡単にHTMLテンプレートに埋め込むのに役立ちます.",
+        "links": [
+          {
+            "title": "EJS",
+            "url": "https://ejs.co/",
+            "type": "official"
+          },
+          {
+            "title": "EJSドキュメント",
+            "url": "https://ejs.co/#docs",
+            "type": "official"
+          },
+          {
+            "title": "EJS パッケージ",
+            "url": "https://www.npmjs.com/package/ejs",
+            "type": "official"
+          },
+          {
+            "title": "EJS を オンライン で 試す",
+            "url": "https://ionicabizau.github.io/ejs-playground/",
+            "type": "article"
+          },
+          {
+            "title": "EJS の 使い方",
+            "url": "https://www.digitalocean.com/community/tutorials/how-to-use-ejs-to-template-your-node-application",
+            "type": "article"
+          },
+          {
+            "title": "ステップバイ・ステップ EJSガイド",
+            "url": "https://codeforgeek.com/ejs-template-engine-in-nodejs/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "O67e2qyhxP5joR5LGyZ2N",
+      "type": "subtopic",
+      "label": "プーグ",
+      "position": {
+        "x": 83.68754841750314,
+        "y": 1503.1526950801597
+      },
+      "size": {
+        "width": 94,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Pug は JavaScript テンプレート エンジンです. ハムルによって大きく影響を受けた高性能テンプレート エンジンで,Node.js とブラウザ向けに JavaScript で実装されています.以前はJade と呼ばれていた.Pug は ハムルによって大きく影響を受けた高性能テンプレート エンジンで, Node.js とブラウザ向けに JavaScript で実装されています.",
+        "links": [
+          {
+            "title": "PugJをはじめました",
+            "url": "https://pugjs.org/api/getting-started.html",
+            "type": "official"
+          },
+          {
+            "title": "Pug テンプレートを使用してノード アプリケーションを作成する方法",
+            "url": "https://blog.bitsrc.io/how-to-build-a-node-application-using-a-pug-template-7319ab1bba69?gi=40b338891148",
+            "type": "article"
+          },
+          {
+            "title": "Pug.js のチュートリアル",
+            "url": "https://zetcode.com/javascript/pugjs/",
+            "type": "article"
+          },
+          {
+            "title": "Node.js + Express - チュートリアル - PugJS テンプレートエンジン",
+            "url": "https://www.youtube.com/watch?v=DSp9ExFw3Ig",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "f2DyjBIglAZ6NoHaRnlzt",
+      "type": "subtopic",
+      "label": "マルコ",
+      "position": {
+        "x": 83.68754841750314,
+        "y": 1556.1526950801597
+      },
+      "size": {
+        "width": 94,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Markoは,CommonJSモジュールにテンプレートをコンパイルし,ストリーミング,アシンクロレンダリング,カスタムタグをサポートする高速で軽量なHTMLベースのテンプレートエンジンです. HTMLはダイナミックで反応的なユーザーインターフェースを構築するための言語として再考されています.",
+        "links": [
+          {
+            "title": "マルコ文書",
+            "url": "https://markojs.com/docs/guides-overview/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5l-lZ8gwVLqqAF_n99vIO",
+      "type": "topic",
+      "label": "データベースと作業",
+      "position": {
+        "x": -245.45968546864998,
+        "y": 1630.1526950801597
+      },
+      "size": {
+        "width": 258,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "NEZQB0yHPCcKwsESDYbk5",
+        "color": "#38761d",
+        "label": "初心者 トピックス / これから始めましょう",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "データベースは,通常コンピュータシステムに電子的に保存される構造化された情報やデータの組織化された集合である.データベースは通常,データベース管理システム (DBMS) によって制御される.",
+        "links": [
+          {
+            "title": "データベースとは何か?",
+            "url": "https://en.wikipedia.org/wiki/Database",
+            "type": "article"
+          },
+          {
+            "title": "データベースとは - AWS",
+            "url": "https://aws.amazon.com/what-is/database/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "NDf-o-WECK02mVnZ8IFxy",
+      "type": "subtopic",
+      "label": "モンゴス",
+      "position": {
+        "x": -511.6255644994952,
+        "y": 1516.0506125880281
+      },
+      "size": {
+        "width": 209,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Mongoose は MongoDB と Node.js の オブジェクトデータモデリング (ODM) ライブラリです. Mongoose は,アプリケーションデータをモデリングするためのシンプルでスキーマベースのソリューションを提供します.組み込み型キャスティング,検証,クエリビルディング,ビジネスロジックハックなどを含みます.",
+        "links": [
+          {
+            "title": "モンゴス",
+            "url": "https://mongoosejs.com",
+            "type": "official"
+          },
+          {
+            "title": "モンゴル文書",
+            "url": "https://mongoosejs.com/docs/guide.html",
+            "type": "official"
+          },
+          {
+            "title": "MongoDB と Mongoose を 始める",
+            "url": "https://www.mongodb.com/developer/languages/javascript/getting-started-with-mongodb-and-mongoose/",
+            "type": "article"
+          },
+          {
+            "title": "モンゴスに関するトップ記事をご覧ください",
+            "url": "https://app.daily.dev/tags/mongoose?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3Qxtf8n6gJYdnRsuqa52Q",
+      "type": "subtopic",
+      "label": "プリズマ",
+      "position": {
+        "x": -511.6255644994952,
+        "y": 1569.0506125880281
+      },
+      "size": {
+        "width": 209,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "プリズマは,TypeScriptエコシステムにおける次の世代のオープンソースのORMを提供します.関係フィルターのための専用APIを提供しています.SQLを書くよりも生産性を高める抽象層を提供します.プリズマは現在, `PostgreSQL`, `MySQL`, `SQL Server`, `SQLite`, `MongoDB`, `CockroachDB`をサポートしています.",
+        "links": [
+          {
+            "title": "プリズマ",
+            "url": "https://www.prisma.io/",
+            "type": "official"
+          },
+          {
+            "title": "プリズマ&モンゴDB ユーチューブ・チュートリアル",
+            "url": "https://www.youtube.com/watch?v=-7r4whMKt1s",
+            "type": "video"
+          },
+          {
+            "title": "プリズマに関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/prisma?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5WqLm53CHDT5uBoMH-iPl",
+      "type": "subtopic",
+      "label": "原住民の運転手",
+      "position": {
+        "x": -511.6255644994952,
+        "y": 1622.0506125880281
+      },
+      "size": {
+        "width": 209,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Node.js の異なるデータベースに接続するもう一つの方法は,データベースが提供する公式のネイティブドライバを使用することです.",
+        "links": [
+          {
+            "title": "MongoDBドライバ",
+            "url": "https://www.mongodb.com/docs/drivers/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mkQ4QoFyoneFCVmAanByl",
+      "type": "label",
+      "label": "NoSQL DB",
+      "position": {
+        "x": -462.1255644994952,
+        "y": 1682.0506125880281
+      },
+      "size": {
+        "width": 110,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "HDDnt79_PCB5JU-KnHKUh",
+      "type": "subtopic",
+      "label": "クネックス",
+      "position": {
+        "x": -512.169165402603,
+        "y": 1837.2304293708296
+      },
+      "size": {
+        "width": 209,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Knex.js は,PostgreSQL,CockroachDB,MSSQL,MySQL,MariaDB,SQLite3,Better-SQLite3,Oracle,Amazon Redshift のための\"バッテリーが含まれている\"SQLクエリビルダーで,柔軟性があり,ポータブルで楽しく使用できるように設計されています.",
+        "links": [
+          {
+            "title": "Knex.js",
+            "url": "https://knexjs.org",
+            "type": "official"
+          },
+          {
+            "title": "Node.jsに関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/nodejs?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JXQF9H4_N0rM7ZDKcCZNn",
+      "type": "subtopic",
+      "label": "降水",
+      "position": {
+        "x": -512.169165402603,
+        "y": 1731.2304293708296
+      },
+      "size": {
+        "width": 209,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "プロジェクトや構造に干渉することなく,自分のプロジェクトを自分の望む方法で構築することができます.Drizzle を使用すると,TypeScriptでデータベーススキームを定義し管理し,SQLのようなまたは関係的な方法でデータにアクセスし,開発者体験を素晴らしいものにするためにオプトインツールを利用できます.",
+        "links": [
+          {
+            "title": "降水",
+            "url": "https://orm.drizzle.team/",
+            "type": "official"
+          },
+          {
+            "title": "ドリズルドキュメント",
+            "url": "https://orm.drizzle.team/docs/overview",
+            "type": "official"
+          },
+          {
+            "title": "ドリズル GitHub",
+            "url": "https://github.com/drizzle-team/drizzle-orm",
+            "type": "opensource"
+          },
+          {
+            "title": "ドリズル を 始める",
+            "url": "https://dev.to/franciscomendes10866/getting-started-with-drizzle-orm-a-beginners-tutorial-4782",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "rk5FtAPDi1TpvWd0yBbtl",
+      "type": "subtopic",
+      "label": "タイプORM",
+      "position": {
+        "x": -512.169165402603,
+        "y": 1784.2304293708296
+      },
+      "size": {
+        "width": 209,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "TypeORM は,NodeJS,Browser,Cordova,PhoneGap,Ionic,React Native,NativeScript,Expo,Electronプラットフォームで実行できるORMであり,TypeScriptおよびJavaScript (ES5,ES6,ES7,ES8) で使用できます.その目的は,常に最新のJavaScript機能をサポートし,データベースを使用するあらゆる種類のアプリケーションを開発するのに役立つ追加の機能を提供することです.",
+        "links": [
+          {
+            "title": "TypeORM ドキュメント",
+            "url": "https://typeorm.io",
+            "type": "official"
+          },
+          {
+            "title": "TypeORM クラッシュコース",
+            "url": "https://www.youtube.com/watch?v=JaTbzPcyiOE",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "fOm-ktIaLqrmA0zln0Bga",
+      "type": "subtopic",
+      "label": "シーケリゼーション",
+      "position": {
+        "x": -512.169165402603,
+        "y": 1890.2304293708296
+      },
+      "size": {
+        "width": 209,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Sequelizeは,Postgres,MySQL,MariaDB,SQLite,DB2,Microsoft SQL Server,Snowflake向けに使いやすい,約束に基づいた Node.js ORMツールである.このツールには,しっかりしたトランザクションサポート,関係,熱心で怠惰な読み込み,読み取り複製等が含まれています.ORMとは何か?ORMはオブジェクト関係マッパーとして知られています.これは,関係データベース内のデータをマッピングし,プログラミング言語 (通常はOOP言語) を使用したプログラマが操作できるプログラムオブジェクトに変換する抽象的なツールです.ORMは,不一致により共存できない2つのデータソース間の詳細をマッピングするためにのみ存在します.",
+        "links": [
+          {
+            "title": "シーケリゼーション",
+            "url": "https://sequelize.org/",
+            "type": "official"
+          },
+          {
+            "title": "Sequelize - NPM パッケージ",
+            "url": "https://www.npmjs.com/package/sequelize",
+            "type": "official"
+          },
+          {
+            "title": "文書を盗む",
+            "url": "https://sequelize.org/docs/v6/getting-started/",
+            "type": "official"
+          },
+          {
+            "title": "Sequelize を 始める",
+            "url": "https://levelup.gitconnected.com/the-ultimate-guide-to-get-started-with-sequelize-orm-238588d3516e",
+            "type": "article"
+          },
+          {
+            "title": "Node.jsに関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/nodejs?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "O7Cy2g_GPxKU6vPfEmNyi",
+      "type": "subtopic",
+      "label": "プリズマ",
+      "position": {
+        "x": -512.169165402603,
+        "y": 1943.2304293708296
+      },
+      "size": {
+        "width": 209,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Prismaは,アプリ開発者がより速く構築し,エラーが少ないことを助けるORMです.データプラットフォーム開発者と組み合わせると,データベースと作業する際に信頼性と可視性を獲得します.",
+        "links": [
+          {
+            "title": "プリズマ",
+            "url": "https://www.prisma.io/",
+            "type": "official"
+          },
+          {
+            "title": "プリズマドキュメント",
+            "url": "https://www.prisma.io/docs/",
+            "type": "official"
+          },
+          {
+            "title": "プリズマに関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/prisma?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "KpC-QYKalUp7VUvnMKBoW",
+      "type": "subtopic",
+      "label": "原住民の運転手",
+      "position": {
+        "x": -512.169165402603,
+        "y": 1996.2304293708296
+      },
+      "size": {
+        "width": 209,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Node.js の異なるデータベースに接続するもう一つの方法は,データベースが提供する公式のネイティブドライバを使用することです.",
+        "links": []
+      }
+    },
+    {
+      "id": "oz3NrL3JEsLiShfBRVJQG",
+      "type": "label",
+      "label": "関連性",
+      "position": {
+        "x": -454.66916540260297,
+        "y": 2056.2304293708294
+      },
+      "size": {
+        "width": 94,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "90NIFfbWjTbyKZKwyJlfI",
+      "type": "topic",
+      "label": "テスト",
+      "position": {
+        "x": 133.7763111160998,
+        "y": 1630.1526950801597
+      },
+      "size": {
+        "width": 127,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "NEZQB0yHPCcKwsESDYbk5",
+        "color": "#38761d",
+        "label": "初心者 トピックス / これから始めましょう",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "ソフトウェアテストは,私たちが作成したものが,私たちが期待する通りに実行していることを確認するプロセスです.テストはバグを予防し,コードの質を改善するために作成されています.最も一般的なテスト方法の2つはユニットテストとエンドツーエンドテストです.一例では,小さなコードスニペットを調べ,二例では,ユーザーフロー全体をテストします.",
+        "links": [
+          {
+            "title": "スピードテスト",
+            "url": "https://vitest.dev/",
+            "type": "official"
+          },
+          {
+            "title": "冗談",
+            "url": "https://jest.io",
+            "type": "official"
+          },
+          {
+            "title": "ソフトウェアテスト",
+            "url": "https://en.wikipedia.org/wiki/Software_testing",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "qjToBaMenW3SDtEfoCbQ6",
+      "type": "subtopic",
+      "label": "スピードテスト",
+      "position": {
+        "x": 367.26672552017453,
+        "y": 1546.2304293708296
+      },
+      "size": {
+        "width": 89,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Vitest は Jest 互換性のある Vite ネイティブ ユニット テスト フレームワークです.Vite の上に構築された強力なテスト ライブラリで,人気が高まっています.Vite は,ユニット,統合,エンド-トゥ-エンド (E2E),スナップショット,機能とコンポーネントのパフォーマンス テストなどのさまざまなテストニーズに使用できます.ESM,TypeScript,JSX.Out-of-box ESM,TypeScript,JSX サポートは esbuild によってサポートされています.Vitest は無料でオープンソースです.",
+        "links": [
+          {
+            "title": "スピードテスト",
+            "url": "https://vitest.dev/",
+            "type": "official"
+          },
+          {
+            "title": "最速のドキュメント",
+            "url": "https://vitest.dev/guide/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "oSLpy31XEcA2nRq9ks_LJ",
+      "type": "subtopic",
+      "label": "ノード:テスト",
+      "position": {
+        "x": 367.26672552017453,
+        "y": 1599.2304293708296
+      },
+      "size": {
+        "width": 169,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`node:test` は Node.js の内蔵モジュールで,シンプルで非同期テストランナーを提供しています.他のコードを書くようにテストの書き方を簡単にするように設計されています.キー機能 * シンプルさ:使用し理解しやすい. * 非同期サポート:非同期コードを優雅に処理します. * サブテスト:テストを階層構造に整理することができます. * ハック:セットアップとティードダウンのためのForeEachとAfterEachのハックを提供します.",
+        "links": [
+          {
+            "title": "テストランナー API ドキュメント",
+            "url": "https://nodejs.org/api/test.html",
+            "type": "official"
+          },
+          {
+            "title": "Node.js テストランナー",
+            "url": "https://nodejs.org/en/learn/test-runner/using-test-runner",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5xrbKv2stKPJRv7Vzf9nM",
+      "type": "subtopic",
+      "label": "冗談",
+      "position": {
+        "x": 458.36672552017444,
+        "y": 1546.2304293708296
+      },
+      "size": {
+        "width": 78,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "JestはシンプルなJavaScriptテストフレームワークです.Bebel,TypeScript,Node,React,Angular,Vueなどのプロジェクトで動作します.",
+        "links": [
+          {
+            "title": "冗談",
+            "url": "https://jestjs.io",
+            "type": "official"
+          },
+          {
+            "title": "ジェストドキュメント",
+            "url": "https://jestjs.io/docs/getting-started",
+            "type": "official"
+          },
+          {
+            "title": "ジェストに関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/jest?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Ix-g9pgJjEI04bSfROvlq",
+      "type": "subtopic",
+      "label": "劇作家",
+      "position": {
+        "x": 367.26672552017453,
+        "y": 1705.2304293708296
+      },
+      "size": {
+        "width": 169,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Playwright は,マイクロソフトがWebアプリケーションのテストと自動化のために開発したオープンソースの自動化ライブラリです. 1 Chromium, Firefox, WebKit ブラウザを制御するための統一 API を提供し,クロスブラウザテストのための汎用的な選択となります. Playwright は,Web ページとインタラクションするための高度な API を提供します.ボタンをクリックし,フォームを記入し,異なるページを介してナビゲートするなどのユーザーアクションをシミュレートするためのスクリプトを書き込むことができます. Playwright は,基礎となるブラウザインタラクションを処理し,テストの書き込みとメンテナンスを容易にします.",
+        "links": [
+          {
+            "title": "劇作家",
+            "url": "https://playwright.dev/",
+            "type": "official"
+          },
+          {
+            "title": "劇作家 ドクターズ",
+            "url": "https://playwright.dev/docs/getting-started-vscode",
+            "type": "official"
+          },
+          {
+            "title": "劇作家 の 始まり",
+            "url": "https://learn.microsoft.com/en-us/shows/getting-started-with-end-to-end-testing-with-playwright/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3Fh3-V1kCZtlUTvEoloIO",
+      "type": "subtopic",
+      "label": "サイプレス",
+      "position": {
+        "x": 367.26672552017453,
+        "y": 1652.2304293708296
+      },
+      "size": {
+        "width": 169,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Cypressは現代ウェブ向けに構築された新しいフロントエンドテストツールです. より速く,より簡単でより信頼性の高いテストを書くことができます.",
+        "links": [
+          {
+            "title": "サイプレス",
+            "url": "https://www.cypress.io/",
+            "type": "official"
+          },
+          {
+            "title": "サイペラス文書",
+            "url": "https://docs.cypress.io/",
+            "type": "article"
+          },
+          {
+            "title": "サイプレス に 関する トップ 記事 を 調べる",
+            "url": "https://app.daily.dev/tags/cypress?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b7ZAEqo0ZU6TNf18Bo0mI",
+      "type": "topic",
+      "label": "伐採",
+      "position": {
+        "x": 133.7763111160998,
+        "y": 1799.2304293708296
+      },
+      "size": {
+        "width": 127,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "NEZQB0yHPCcKwsESDYbk5",
+        "color": "#38761d",
+        "label": "初心者 トピックス / これから始めましょう",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "**Logging**は, `Node.js`アプリケーションの完全なアプリケーションライフサイクルを理解するための不可欠な部分です. 作成からデバッグまで,新しい機能の設計まで,開発過程中のログを見て,エラーをはるかに簡単かつ迅速に修正することができます. **Error**, **warn**, **info**, **debug**は, `Node.js`アプリケーションの基本のログリングレベルです.ログリングは,アプリケーションの実行時の行動に関する情報を継続的に収集することを意味します.",
+        "links": [
+          {
+            "title": "Node.js ログイン",
+            "url": "https://stackify.com/node-js-logging/",
+            "type": "article"
+          },
+          {
+            "title": "伐採のベストプラクティス",
+            "url": "https://blog.appsignal.com/2021/09/01/best-practices-for-logging-in-nodejs.html",
+            "type": "article"
+          },
+          {
+            "title": "伐採",
+            "url": "https://stackify.com/node-js-logging/",
+            "type": "article"
+          },
+          {
+            "title": "ログリングに関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/logging?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Oe9cQCz2lwSaot7miZOta",
+      "type": "subtopic",
+      "label": "ウィンストン",
+      "position": {
+        "x": 368.26672552017453,
+        "y": 1775.7304293708296
+      },
+      "size": {
+        "width": 107,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "winston は,複数のトランスポートをサポートするシンプルで普遍的なログライブラリとして設計されています.トランスポートは基本的にログのストレージデバイスです.各ウィントンロガーにはさまざまなレベルで複数のトランスポートを構成することができます.例えば,エラーログが恒久的なリモート位置 (データベースのような) に保存されることを望みますが,すべてのログはコンソールまたはローカルファイルに輸出されます.",
+        "links": [
+          {
+            "title": "ウィンストン",
+            "url": "https://github.com/winstonjs/winston?tab=readme-ov-file#readme",
+            "type": "opensource"
+          },
+          {
+            "title": "Node.js でログインする ウィンストン の 完全なガイド",
+            "url": "https://betterstack.com/community/guides/logging/how-to-install-setup-and-use-winston-and-morgan-to-log-node-js-applications/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "CTHFGgtXFpke4aPhh5vRY",
+      "type": "subtopic",
+      "label": "モーガン",
+      "position": {
+        "x": 368.26672552017453,
+        "y": 1828.7304293708296
+      },
+      "size": {
+        "width": 107,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "モーガンは,NodeJSおよび express.js ミドルウェアで,HTTP要求とエラーを記録し,デバッグプロセスを簡素化します. ログメッセージのフォーマットを定義する柔軟性を提供し,ログの輸出目的地を覆すのに役立ちます.",
+        "links": [
+          {
+            "title": "モルガンパッケージ",
+            "url": "https://www.npmjs.com/package/morgan",
+            "type": "official"
+          },
+          {
+            "title": "モーガン・デジタル・オーシャンを使う方法",
+            "url": "https://www.digitalocean.com/community/tutorials/nodejs-getting-started-morgan",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "af7n-J7VvbdpZh9lwA773",
+      "type": "topic",
+      "label": "アプリを動かす",
+      "position": {
+        "x": -228.16916540260297,
+        "y": 1800.2304293708296
+      },
+      "size": {
+        "width": 195,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "bcE9YSY2vLzRyJQSceY9M",
+        "color": "#9900ff",
+        "label": "中間トピック / 次のトピックを選択",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "PM2 は,ノードジェススクリプトを永遠に実行できるようにします. アプリケーションがクラッシュした場合, PM2 もあなたのために再起動します.",
+        "links": [
+          {
+            "title": "ノード アプリケーションを常に実行する",
+            "url": "https://devtut.github.io/nodejs/keep-a-node-application-constantly-running.html#use-pm2-as-a-process-manager",
+            "type": "article"
+          },
+          {
+            "title": "Node.jsに関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/nodejs?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "7WAuMMyelUbgwEHtnMmJv",
+      "type": "subtopic",
+      "label": "pm2",
+      "position": {
+        "x": -181.16916540260297,
+        "y": 1718.0506125880281
+      },
+      "size": {
+        "width": 101,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "PM2は,内蔵のロードバランサーを持つNode.js アプリケーションの制作プロセスマネージャです. アプリケーションを永遠に生かして,ダウンタイムなしで再充電し,一般的なシステム管理作業を容易にすることができます.",
+        "links": [
+          {
+            "title": "Pm2",
+            "url": "https://pm2.keymetrics.io/",
+            "type": "official"
+          },
+          {
+            "title": "Pm2 ドキュメンテーション",
+            "url": "https://pm2.keymetrics.io/docs/usage/quick-start/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "KzUmXkwrmU_ssVBjSHAiY",
+      "type": "topic",
+      "label": "糸",
+      "position": {
+        "x": -228.16916540260297,
+        "y": 1929.2304293708294
+      },
+      "size": {
+        "width": 195,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "iRlgVcCk54BVDA-Rx0kt8",
+        "color": "#000",
+        "label": "先進の話題 / ついにこれを選んで",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "Node.js は,単一スレッド言語で,私たちの主要なプロセスに並行して作業する方法を提供しています.現在,マルチコアシステム単一スレッドを注意すると,メモリ効率が非常に高まります.",
+        "links": [
+          {
+            "title": "Single Thread vs Child Process vs Worker Threads vs Cluster in Node.js",
+            "url": "https://alvinlal.netlify.app/blog/single-thread-vs-child-process-vs-worker-threads-vs-cluster-in-nodejs",
+            "type": "article"
+          },
+          {
+            "title": "Node.jsに関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/nodejs?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "lzPrWD3pxQmpbqgYPL-zW",
+      "type": "subtopic",
+      "label": "子どものプロセス",
+      "position": {
+        "x": -228.16916540260297,
+        "y": 2024.2304293708294
+      },
+      "size": {
+        "width": 195,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "child\\_process モジュールは,操作システムコマンドにアクセスすることで,IPC (プロセス間の通信) によって確立された child プロセスを実行する能力をノードに与えます.このモジュール内の3つの主な方法は: `child_process.spawn() ` `child_process.fork() ` `child_process.exec() `",
+        "links": [
+          {
+            "title": "児童プロセスの文書",
+            "url": "https://nodejs.org/api/child_process.html#child-process",
+            "type": "official"
+          },
+          {
+            "title": "コマンドインジェクションに対して Node.js を保護する",
+            "url": "https://www.nodejs-security.com/blog/securing-your-nodejs-apps-by-analyzing-real-world-command-injection-examples",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PkQ_sQ0YFPCZGx4BRgG0t",
+      "type": "subtopic",
+      "label": "クラスター",
+      "position": {
+        "x": -228.16916540260297,
+        "y": 2077.2304293708294
+      },
+      "size": {
+        "width": 195,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Cluster モジュールは,それぞれのアプリケーションスレッドの間の作業負荷を処理するために,それぞれの単一のスレッドで同時に実行される子プロセスの作成を簡単に可能にします.",
+        "links": [
+          {
+            "title": "Node.js クラスター",
+            "url": "https://nodejs.org/api/cluster.html#cluster",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "bH2Iv3BX0ZiWD3lOmC_m_",
+      "type": "subtopic",
+      "label": "労働者 の 糸",
+      "position": {
+        "x": -228.16916540260297,
+        "y": 2130.2304293708294
+      },
+      "size": {
+        "width": 195,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ワーカー・スレッド (Worker thread) は,連続した並行スレッドで,メッセージが実行され,明示的に閉鎖または終了するまで受信されます.ワーカー・スレッドでは,行き詰まりの状況を作り出さずに非常に効率的なアプリケーションを達成できます. ワーカーは,子供のプロセスとは異なり,メモリ交換することができます.",
+        "links": [
+          {
+            "title": "労働者 の 糸",
+            "url": "https://nodejs.org/api/worker_threads.html#worker-threads",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "WrnjjUDXQwwMXQjmgK72U",
+      "type": "topic",
+      "label": "流れ",
+      "position": {
+        "x": 133.7763111160998,
+        "y": 1929.2304293708294
+      },
+      "size": {
+        "width": 127,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "iRlgVcCk54BVDA-Rx0kt8",
+        "color": "#000",
+        "label": "先進の話題 / ついにこれを選んで",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "ストリームはデータ処理の方法の一種で,ノード・ジェスに4種類のストリームがあります. * **Readable**:データを読み取れるストリーム. * **Writable**:データ書き取れるストリーム. * **Duplex**:読み取れるストリーム. * **Transform**:書き取れるストリーム.",
+        "links": [
+          {
+            "title": "ストリーム API ドキュメンテーション",
+            "url": "https://nodejs.org/api/stream.html",
+            "type": "official"
+          },
+          {
+            "title": "Node.js でストリームを理解する",
+            "url": "https://nodesource.com/blog/understanding-streams-in-nodejs",
+            "type": "article"
+          },
+          {
+            "title": "Node.js ストリーム チュートリアル",
+            "url": "https://www.youtube.com/watch?v=GlybFFMXXmQ",
+            "type": "video"
+          },
+          {
+            "title": "Node.jsに関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/nodejs?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ZLNUuDKhJ03Kw7xMVc7IR",
+      "type": "topic",
+      "label": "デバッグ",
+      "position": {
+        "x": 133.7763111160998,
+        "y": 2076.3398245709736
+      },
+      "size": {
+        "width": 127,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "bcE9YSY2vLzRyJQSceY9M",
+        "color": "#9900ff",
+        "label": "中間トピック / 次のトピックを選択",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "デバッグはソフトウェアアプリケーションのエラーを特定し削除するための概念です.ここで,私たちは Node.js アプリケーションのデバッグのテクニックについて学びます.デバッグのためになぜ `console.log() `を使用しないのか? `console.log`を使用してコードをデバッグするには,一般的にアプリを停止し, console.logを追加し,アプリケーションを再起動する無限ループに潜入します.アプリの開発を遅らせるだけでなく,書き込みも汚れ,不必要なコードを作成します.最後に,他の潜在的なログング操作の騒音とともに変数をログアウトしようとすると,デバッグするプロセスは,あなたがデバッグしている値を探すときに困難になる可能性があります.",
+        "links": [
+          {
+            "title": "Node.js - スタート",
+            "url": "https://nodejs.org/en/learn/getting-started/debugging",
+            "type": "official"
+          },
+          {
+            "title": "ウィキペディア - デバッグとは何ですか?",
+            "url": "https://en.wikipedia.org/wiki/Debugging",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "oU9I7KBZoTSXXFmYscEIq",
+      "type": "subtopic",
+      "label": "記憶の漏れ",
+      "position": {
+        "x": 338.7637546958802,
+        "y": 2021.7304293708294
+      },
+      "size": {
+        "width": 195,
+        "height": 50
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ノード.js アプリのCPUとメモリ使用が時間とともに,明らかな理由もなく増加するときにメモリ漏洩が発生します.単純な言葉で言えば,ノード.js メモリ漏洩は,廃棄物収集機によってリリースされていないため,アプリがもはや使用していないヒップ上の孤児メモリブロックです.それは役に立たないメモリブロックです.これらのブロックは時間とともに成長し,メモリがなくなっているため,アプリがクラッシュにつながる可能性があります.",
+        "links": [
+          {
+            "title": "Node.js でメモリ漏洩",
+            "url": "https://sematext.com/blog/nodejs-memory-leaks/",
+            "type": "article"
+          },
+          {
+            "title": "記憶 の 漏れ の 原因",
+            "url": "https://sematext.com/blog/nodejs-memory-leaks/#what-causes-them-common-node-js-memory-leaks",
+            "type": "article"
+          },
+          {
+            "title": "記憶漏洩検出器",
+            "url": "https://sematext.com/blog/nodejs-memory-leaks/#node-js-memory-leak-detectors",
+            "type": "article"
+          },
+          {
+            "title": "一般プログラミングに関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/general-programming?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "DcmGcVlEHL4IV7yPMDpVa",
+      "type": "subtopic",
+      "label": "ノード -- 検査",
+      "position": {
+        "x": 338.7637546958802,
+        "y": 2076.3398245709736
+      },
+      "size": {
+        "width": 195,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Node.js は Node.js アプリケーションをデバッグできるように DevTools ベースのデバッグを内蔵しています.",
+        "links": [
+          {
+            "title": "Chrome DevTools で Node.js をデバッグする",
+            "url": "https://medium.com/@paul_irish/debugging-node-js-nightlies-with-chrome-devtools-7c4a1b95ae27",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "CvkjlOpT34lOHgzQHL40s",
+      "type": "subtopic",
+      "label": "APMを使用する",
+      "position": {
+        "x": 338.7637546958802,
+        "y": 2129.3398245709736
+      },
+      "size": {
+        "width": 195,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "コンテナリクエストを検閲してコードを通過すると,このオプションは生産ではありません. そのため,生産では同じ方法でアプリケーションを現地でデバッグしようとすることは非常に意味があります.生産では,あなたのツールの一つは,コンソールログを見るためにリモートサーバーにログインすることになります. しかし,これは退屈なアプローチかもしれません. 幸いなことに,Stackifyのようなログアググレーゲーションと呼ばれるツールがあります.これらのツールでは,実行中のアプリケーションからログを単一の場所に送信します.彼らはしばしば強力な検索とクエリユーティリティに付いていますので,簡単にログを解析し,視覚化することができます.",
+        "links": [
+          {
+            "title": "APM ログ: より早くデバッグを始める方法",
+            "url": "https://last9.io/blog/apm-logs-for-faster-debugging/",
+            "type": "article"
+          },
+          {
+            "title": "APMを使用してデバッグする",
+            "url": "https://stackify.com/node-js-debugging-tips/",
+            "type": "article"
+          },
+          {
+            "title": "APMに関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/apm?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "SJ01N7vMZkNiIuMYQhdpj",
+      "type": "subtopic",
+      "label": "ゴミ収集",
+      "position": {
+        "x": 338.7637546958802,
+        "y": 1919.3398245709736
+      },
+      "size": {
+        "width": 195,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "JavaScriptではメモリ管理が自動で私たちには見えません.私たちは原始物,オブジェクト,関数を作成します.すべてメモリを必要とします.JavaScriptではメモリ管理の主な概念はアクセシビリティです.",
+        "links": [
+          {
+            "title": "JavaScript ゴミ収集",
+            "url": "https://javascript.info/garbage-collection",
+            "type": "article"
+          },
+          {
+            "title": "JavaScript でメモリ管理",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Memory_Management",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "M62lAWBOrTe99TfpFOQ-Y",
+      "type": "topic",
+      "label": "一般的な内蔵モジュール",
+      "position": {
+        "x": 74.54031453135002,
+        "y": 2249.2304293708294
+      },
+      "size": {
+        "width": 244,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "NEZQB0yHPCcKwsESDYbk5",
+        "color": "#38761d",
+        "label": "初心者 トピックス / これから始めましょう",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "`Node.js`は箱から出てくるコアモジュールです.このモジュールでは,ファイルシステムとの相互作用,URL解析,コンソールへのログイン情報などの特定の標準的な `Node.js`操作を実行するためのツールまたはAPIを提供します.",
+        "links": [
+          {
+            "title": "fs モジュール",
+            "url": "https://nodejs.org/api/fs.html",
+            "type": "official"
+          },
+          {
+            "title": "url モジュール",
+            "url": "https://nodejs.org/api/url.html",
+            "type": "official"
+          },
+          {
+            "title": "コンソールモジュール",
+            "url": "https://nodejs.org/api/console.html",
+            "type": "official"
+          },
+          {
+            "title": "Util モジュール",
+            "url": "https://nodejs.org/api/util.html",
+            "type": "official"
+          },
+          {
+            "title": "イベント モジュール",
+            "url": "https://nodejs.org/api/events.html",
+            "type": "official"
+          },
+          {
+            "title": "os モジュール",
+            "url": "https://nodejs.org/api/os.html",
+            "type": "official"
+          },
+          {
+            "title": "ワーカー・スレッド・モジュール",
+            "url": "https://nodejs.org/api/worker_threads.html",
+            "type": "official"
+          },
+          {
+            "title": "児童プロセスのモジュール",
+            "url": "https://nodejs.org/api/child_process.html",
+            "type": "official"
+          },
+          {
+            "title": "プロセスオブジェクト",
+            "url": "https://nodejs.org/api/process.html",
+            "type": "official"
+          },
+          {
+            "title": "クリプトモジュール",
+            "url": "https://nodejs.org/api/crypto.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "RLtk1C3gofHnLJ17x3o5b",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": -340.2727310549901,
+        "y": 2332.468226966216
+      },
+      "size": {
+        "width": 21,
+        "height": 74
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    }
+  ],
+  "edges": [
+    {
+      "id": "reactflow__edge-KDd40JOAvZ8O1mfhTYB3Ky2-Mp056kNnwsRWeEXuhGPy-z1",
+      "source": "KDd40JOAvZ8O1mfhTYB3K",
+      "target": "Mp056kNnwsRWeEXuhGPy-",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-KDd40JOAvZ8O1mfhTYB3Ky2-ex8FOKrUlbu4MuEq2czyWz1",
+      "source": "KDd40JOAvZ8O1mfhTYB3K",
+      "target": "ex8FOKrUlbu4MuEq2czyW",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-KDd40JOAvZ8O1mfhTYB3Ky2-Vrcv5px-3fqmyJnQv3WBKz2",
+      "source": "KDd40JOAvZ8O1mfhTYB3K",
+      "target": "Vrcv5px-3fqmyJnQv3WBK",
+      "source_handle": "y2",
+      "target_handle": "z2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-KDd40JOAvZ8O1mfhTYB3Ky2-ebVb0anYmbD1Y9ZTFXKFpz1",
+      "source": "KDd40JOAvZ8O1mfhTYB3K",
+      "target": "ebVb0anYmbD1Y9ZTFXKFp",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-KDd40JOAvZ8O1mfhTYB3Ky2-uPJqdMQQJRkTMMhNORDeHz1",
+      "source": "KDd40JOAvZ8O1mfhTYB3K",
+      "target": "uPJqdMQQJRkTMMhNORDeH",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-KDd40JOAvZ8O1mfhTYB3Kz2-mbGFT6S7mL3bHHEZv0_s2y1",
+      "source": "KDd40JOAvZ8O1mfhTYB3K",
+      "target": "mbGFT6S7mL3bHHEZv0_s2",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-mbGFT6S7mL3bHHEZv0_s2y2-jQJ9aOKtg-O-GhWk5OgCKz1",
+      "source": "mbGFT6S7mL3bHHEZv0_s2",
+      "target": "jQJ9aOKtg-O-GhWk5OgCK",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-jQJ9aOKtg-O-GhWk5OgCKz2-t_kfKdNSKVBPYQ9zF9VqQy1",
+      "source": "jQJ9aOKtg-O-GhWk5OgCK",
+      "target": "t_kfKdNSKVBPYQ9zF9VqQ",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-wEK77A6MPQBCBUSJKMiaYz2-QT2QE2FLkyUDpwMKYkFQLy1",
+      "source": "wEK77A6MPQBCBUSJKMiaY",
+      "target": "QT2QE2FLkyUDpwMKYkFQL",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-wEK77A6MPQBCBUSJKMiaYz2-Blzb-fdQZMu6Xq5JDJW0_y1",
+      "source": "wEK77A6MPQBCBUSJKMiaY",
+      "target": "Blzb-fdQZMu6Xq5JDJW0_",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-wEK77A6MPQBCBUSJKMiaYz2-b1r1X3XCoPSayQjDBcy54y1",
+      "source": "wEK77A6MPQBCBUSJKMiaY",
+      "target": "b1r1X3XCoPSayQjDBcy54",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-wEK77A6MPQBCBUSJKMiaYy2-Ce-dP-OXu0mEm30rzp2hWz1",
+      "source": "wEK77A6MPQBCBUSJKMiaY",
+      "target": "Ce-dP-OXu0mEm30rzp2hW",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-swp4wBgA7z-sd64VDkMrwz2-812bVEzxwTsYzLG_PmLqNy1",
+      "source": "swp4wBgA7z-sd64VDkMrw",
+      "target": "812bVEzxwTsYzLG_PmLqN",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-swp4wBgA7z-sd64VDkMrwz2-2Ym2jMvov0lZ79aJFaw29y1",
+      "source": "swp4wBgA7z-sd64VDkMrw",
+      "target": "2Ym2jMvov0lZ79aJFaw29",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-Ce-dP-OXu0mEm30rzp2hWw2-XteNExIZN3_g95_dPCopYx2",
+      "source": "Ce-dP-OXu0mEm30rzp2hW",
+      "target": "XteNExIZN3_g95_dPCopY",
+      "source_handle": "w2",
+      "target_handle": "x2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-J0ErCAZT5B97ZMogU2JHdz2-O67e2qyhxP5joR5LGyZ2Ny1",
+      "source": "J0ErCAZT5B97ZMogU2JHd",
+      "target": "O67e2qyhxP5joR5LGyZ2N",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-J0ErCAZT5B97ZMogU2JHdz2-L-_N7OxxuHCXsdWYBgZGuy1",
+      "source": "J0ErCAZT5B97ZMogU2JHd",
+      "target": "L-_N7OxxuHCXsdWYBgZGu",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-J0ErCAZT5B97ZMogU2JHdz2-f2DyjBIglAZ6NoHaRnlzty1",
+      "source": "J0ErCAZT5B97ZMogU2JHd",
+      "target": "f2DyjBIglAZ6NoHaRnlzt",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-5l-lZ8gwVLqqAF_n99vIOz2-90NIFfbWjTbyKZKwyJlfIy1",
+      "source": "5l-lZ8gwVLqqAF_n99vIO",
+      "target": "90NIFfbWjTbyKZKwyJlfI",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-90NIFfbWjTbyKZKwyJlfIz2-qjToBaMenW3SDtEfoCbQ6y2",
+      "source": "90NIFfbWjTbyKZKwyJlfI",
+      "target": "qjToBaMenW3SDtEfoCbQ6",
+      "source_handle": "z2",
+      "target_handle": "y2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-90NIFfbWjTbyKZKwyJlfIz2-oSLpy31XEcA2nRq9ks_LJy1",
+      "source": "90NIFfbWjTbyKZKwyJlfI",
+      "target": "oSLpy31XEcA2nRq9ks_LJ",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-90NIFfbWjTbyKZKwyJlfIz2-3Fh3-V1kCZtlUTvEoloIOy1",
+      "source": "90NIFfbWjTbyKZKwyJlfI",
+      "target": "3Fh3-V1kCZtlUTvEoloIO",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-90NIFfbWjTbyKZKwyJlfIz2-Ix-g9pgJjEI04bSfROvlqy2",
+      "source": "90NIFfbWjTbyKZKwyJlfI",
+      "target": "Ix-g9pgJjEI04bSfROvlq",
+      "source_handle": "z2",
+      "target_handle": "y2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-90NIFfbWjTbyKZKwyJlfIx2-KzUmXkwrmU_ssVBjSHAiYw1",
+      "source": "90NIFfbWjTbyKZKwyJlfI",
+      "target": "b7ZAEqo0ZU6TNf18Bo0mI",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-KzUmXkwrmU_ssVBjSHAiYz2-Oe9cQCz2lwSaot7miZOtay1",
+      "source": "b7ZAEqo0ZU6TNf18Bo0mI",
+      "target": "Oe9cQCz2lwSaot7miZOta",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-KzUmXkwrmU_ssVBjSHAiYz2-CTHFGgtXFpke4aPhh5vRYy2",
+      "source": "b7ZAEqo0ZU6TNf18Bo0mI",
+      "target": "CTHFGgtXFpke4aPhh5vRY",
+      "source_handle": "z2",
+      "target_handle": "y2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-b7ZAEqo0ZU6TNf18Bo0mIy2-KzUmXkwrmU_ssVBjSHAiYz2",
+      "source": "b7ZAEqo0ZU6TNf18Bo0mI",
+      "target": "af7n-J7VvbdpZh9lwA773",
+      "source_handle": "y2",
+      "target_handle": "z2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-KzUmXkwrmU_ssVBjSHAiYw2-7WAuMMyelUbgwEHtnMmJvx1",
+      "source": "af7n-J7VvbdpZh9lwA773",
+      "target": "7WAuMMyelUbgwEHtnMmJv",
+      "source_handle": "w2",
+      "target_handle": "x1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-af7n-J7VvbdpZh9lwA773x2-KzUmXkwrmU_ssVBjSHAiYw1",
+      "source": "af7n-J7VvbdpZh9lwA773",
+      "target": "KzUmXkwrmU_ssVBjSHAiY",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-KzUmXkwrmU_ssVBjSHAiYx2-lzPrWD3pxQmpbqgYPL-zWw1",
+      "source": "KzUmXkwrmU_ssVBjSHAiY",
+      "target": "lzPrWD3pxQmpbqgYPL-zW",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-KzUmXkwrmU_ssVBjSHAiYz2-WrnjjUDXQwwMXQjmgK72Uy1",
+      "source": "KzUmXkwrmU_ssVBjSHAiY",
+      "target": "WrnjjUDXQwwMXQjmgK72U",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-ZLNUuDKhJ03Kw7xMVc7IRz2-oU9I7KBZoTSXXFmYscEIqy1",
+      "source": "ZLNUuDKhJ03Kw7xMVc7IR",
+      "target": "oU9I7KBZoTSXXFmYscEIq",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-oU9I7KBZoTSXXFmYscEIqw2-SJ01N7vMZkNiIuMYQhdpjx1",
+      "source": "oU9I7KBZoTSXXFmYscEIq",
+      "target": "SJ01N7vMZkNiIuMYQhdpj",
+      "source_handle": "w2",
+      "target_handle": "x1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-ZLNUuDKhJ03Kw7xMVc7IRz2-DcmGcVlEHL4IV7yPMDpVay1",
+      "source": "ZLNUuDKhJ03Kw7xMVc7IR",
+      "target": "DcmGcVlEHL4IV7yPMDpVa",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-ZLNUuDKhJ03Kw7xMVc7IRz2-CvkjlOpT34lOHgzQHL40sy1",
+      "source": "ZLNUuDKhJ03Kw7xMVc7IR",
+      "target": "CvkjlOpT34lOHgzQHL40s",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-WrnjjUDXQwwMXQjmgK72Ux2-ZLNUuDKhJ03Kw7xMVc7IRw1",
+      "source": "WrnjjUDXQwwMXQjmgK72U",
+      "target": "ZLNUuDKhJ03Kw7xMVc7IR",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-ZLNUuDKhJ03Kw7xMVc7IRx2-M62lAWBOrTe99TfpFOQ-Yw1",
+      "source": "ZLNUuDKhJ03Kw7xMVc7IR",
+      "target": "M62lAWBOrTe99TfpFOQ-Y",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    }
+  ],
+  "content_crawled_at": "2026-04-06T09:57:04.101788+00:00"
+}

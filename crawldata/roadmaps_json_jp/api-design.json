@@ -1,0 +1,4261 @@
+{
+  "id": "api-design",
+  "title": "APIの構築",
+  "source_url": "https://roadmap.sh/api-design",
+  "github_url": "https://github.com/kamranahmedse/developer-roadmap/tree/master/src/data/roadmaps/api-design",
+  "crawled_at": "2026-04-06T07:36:07.089023+00:00",
+  "type": "flow",
+  "stats": {
+    "total_nodes": 99,
+    "total_edges": 61,
+    "nodes_with_content": 84
+  },
+  "node_types": [
+    "button",
+    "linksgroup",
+    "paragraph",
+    "section",
+    "subtopic",
+    "title",
+    "topic",
+    "vertical"
+  ],
+  "edge_styles": [
+    "dashed",
+    "solid"
+  ],
+  "edge_line_types": [
+    "default",
+    "step"
+  ],
+  "node_type_description": {
+    "title": "ロードマップの主題",
+    "topic": "主題大 (nhóm kỹ năng)",
+    "subtopic": "Kỹ năng/công nghệ cụ thể cần học",
+    "paragraph": "文は mô tả / chú thích",
+    "vertical": "Đường kết nối dọc (ビジュアルコネクタ)"
+  },
+  "edge_style_description": {
+    "solid": "Kỹ năng bắt buộc / quan trọng",
+    "dashed": "選択 / gợi ý / オルタナティブ"
+  },
+  "nodes": [
+    {
+      "id": "SP-d4YngpYXkeIB9SSD-K",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": 240.93596412339082,
+        "y": 1861.570310981244
+      },
+      "size": {
+        "width": 203,
+        "height": 114
+      },
+      "style": {
+        "width": 150,
+        "height": 100,
+        "fontSize": 17,
+        "borderColor": "TRANSPARENt",
+        "backgroundColor": "TRANSPARENt"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "zL4QEM5xZO8XWXXWrdPuj",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": 244.19846699906657,
+        "y": 1501.3654630729577
+      },
+      "size": {
+        "width": 201,
+        "height": 217
+      },
+      "style": {
+        "width": 150,
+        "height": 100,
+        "fontSize": 17,
+        "borderColor": "TRANSPARENt",
+        "backgroundColor": "TRANSPARENt"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "o3XFXW2HHLBoxlbEnoWdZ",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": -592.469505701316,
+        "y": 1567.7437339754388
+      },
+      "size": {
+        "width": 248,
+        "height": 381
+      },
+      "style": {
+        "width": 150,
+        "height": 100,
+        "fontSize": 17,
+        "backgroundColor": "TRANSPARENt",
+        "borderColor": "TRANSPARENt"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "ludceg3fQVkilNTKWznti",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": -210.7109644352177,
+        "y": 1239.744561558562
+      },
+      "size": {
+        "width": 253,
+        "height": 114
+      },
+      "style": {
+        "width": 150,
+        "height": 100,
+        "fontSize": 17,
+        "backgroundColor": "TRANSPARENt",
+        "borderColor": "TRANSPARENt"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "RkPVaSF9XnX6uHUns_-oC",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": 228.3676576847514,
+        "y": 1267.1153073402706
+      },
+      "size": {
+        "width": 220,
+        "height": 235
+      },
+      "style": {
+        "width": 150,
+        "height": 100,
+        "fontSize": 17,
+        "borderColor": "TRANSPARENt"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "cGWZQjKazJQ0D3nz_AdAX",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": -593.4010478029121,
+        "y": 982.3357132591475
+      },
+      "size": {
+        "width": 231,
+        "height": 279
+      },
+      "style": {
+        "width": 150,
+        "height": 100,
+        "fontSize": 17,
+        "borderColor": "TRANSPARENt",
+        "backgroundColor": "TRANSPARENt"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "iHtjFSkQWMoUNdltNttEd",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": 219.72110595703134,
+        "y": 644.8914213180542
+      },
+      "size": {
+        "width": 269,
+        "height": 297
+      },
+      "style": {
+        "width": 150,
+        "height": 100,
+        "fontSize": 17,
+        "backgroundColor": "TRANSPARENt",
+        "borderColor": "TRANSPARENt"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "junprE7dbMyeovApqhSgr",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": 219.22110595703134,
+        "y": 281.3914213180542
+      },
+      "size": {
+        "width": 270,
+        "height": 228
+      },
+      "style": {
+        "width": 150,
+        "height": 100,
+        "fontSize": 17,
+        "backgroundColor": "TRANSPARENt",
+        "borderColor": "TRANSPARENt"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "wTrcPqj0KpoeOvJf7k3iI",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": -206.8881872719935,
+        "y": 436.40074822234897
+      },
+      "size": {
+        "width": 265,
+        "height": 289
+      },
+      "style": {
+        "width": 150,
+        "height": 100,
+        "fontSize": 17,
+        "backgroundColor": "TRANSPARENt",
+        "borderColor": "TRANSPARENt"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "IzMY2P54llvbVixWxAl7H",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": -571.1381872719934,
+        "y": 123.90074822234897
+      },
+      "size": {
+        "width": 233,
+        "height": 437
+      },
+      "style": {
+        "width": 150,
+        "height": 100,
+        "fontSize": 17
+      },
+      "z_index": -999
+    },
+    {
+      "id": "AZoEY2N7PqAQgUl04E3KF",
+      "type": "title",
+      "label": "APIの構築",
+      "position": {
+        "x": -178.6381872719934,
+        "y": -57.599251777651034
+      },
+      "size": {
+        "width": 208,
+        "height": 68
+      },
+      "style": {
+        "fontSize": 28,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "duKkpzPjUU_-8kyJGHqRX",
+      "type": "topic",
+      "label": "基礎 を 学ぶ",
+      "position": {
+        "x": -198.1381872719934,
+        "y": 123.40074822234897
+      },
+      "size": {
+        "width": 247,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "アプリケーションプログラミングインターフェース (API) は,ソフトウェアアプリケーションが他のソフトウェアアプリケーションまたはサービスからの機能を通信し使用できるようにする近代開発の不可欠な部分である.したがって,APIデザインは,あらゆるソフトウェア開発プロセスの重要な部分となる.さらに,APIデザインの基礎は,APIが何であるか,どのように機能するか,およびREST,SOAP,GraphQLなどのさまざまな種類のAPIを理解することを含む.これは,強力な,ユーザーフレンドリーで,安全なAPIの開発を保証するためにAPIデザインの標準とベストプラクティスを理解することも含む.APIデザインの基礎は,より複雑なAPI設計と開発のための舞台を設定するこの知識にあります.",
+        "links": []
+      }
+    },
+    {
+      "id": "r8M3quACGO2piu0u_R4hO",
+      "type": "subtopic",
+      "label": "APIとは何か",
+      "position": {
+        "x": -570.1381872719934,
+        "y": 63.400748222348966
+      },
+      "size": {
+        "width": 233,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "アプリケーションプログラミングインターフェース (API) は,ソフトウェアアプリケーションが相互に通信する方法を提供します.開発者が取り組んでいるソフトウェアの本質のみを使用できるように,アプリケーションの複雑性を抽象化します.アプリケーションが送信,取得,またはデータを修正するようなタスクを実行するために使用すべき方法とデータフォーマットを定義します.APIを理解することは,現代のソフトウェア開発をマスターするのに不可欠です.主に,アプリケーションがデータと機能を容易に交換し,技術サービスの統合と収束を可能にします.したがって,APIの基本的な礎石はAPIデザインの基礎となる.",
+        "links": [
+          {
+            "title": "APIs を 始める - ポストマン",
+            "url": "https://www.postman.com/what-is-an-api/",
+            "type": "article"
+          },
+          {
+            "title": "API - IBM",
+            "url": "https://www.ibm.com/topics/api",
+            "type": "article"
+          },
+          {
+            "title": "APIとは何か? - AWS",
+            "url": "https://aws.amazon.com/what-is/api/",
+            "type": "article"
+          },
+          {
+            "title": "APIとは何か?",
+            "url": "https://www.youtube.com/watch?v=s7wmiS2mSXY",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2HdKzAIQi15pr3YHHrbPp",
+      "type": "subtopic",
+      "label": "HTTP",
+      "position": {
+        "x": -571.1381872719934,
+        "y": 122.60000000000008
+      },
+      "size": {
+        "width": 233,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "HTTP,またはハイパーテキスト転送プロトコル (Hypertext Transfer Protocol) は,任意のAPIデザインの基本的な要素である.ウェブ上のハイパーメディアデータ,例えばHTMLウェブページやJSONをウェブAPIから転送するために使用されるプロトコルである. HTTPを理解することは API 設計において不可欠である.要求と応答がどのように構築され処理されるべきかについての構造を提供します.エンドポイントがどのように定義され,データがどのように転送され,特定のシナリオを伝達するためにどのような状態コードを使用されるべきかを規定します.HTTP 原則の堅牢な基礎は,より堅固で効率的で安全な API デザインを可能にします.",
+        "links": [
+          {
+            "title": "HTTP に関する知っておくべきすべて",
+            "url": "https://cs.fyi/guide/http-in-depth",
+            "type": "article"
+          },
+          {
+            "title": "HTTPとは何か?",
+            "url": "https://www.cloudflare.com/en-gb/learning/ddos/glossary/hypertext-transfer-protocol-http/",
+            "type": "article"
+          },
+          {
+            "title": "HTTP の概要",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview",
+            "type": "article"
+          },
+          {
+            "title": "HTTP/3 A から Z まで: 核心概念",
+            "url": "https://www.smashingmagazine.com/2021/08/http3-core-concepts-part1/",
+            "type": "article"
+          },
+          {
+            "title": "HTTP クラッシュ コース & 探索",
+            "url": "https://www.youtube.com/watch?v=iYM2zFP3Zn0",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ACALE93mL4gnX5ThRIdRp",
+      "type": "subtopic",
+      "label": "HTTP バージョン",
+      "position": {
+        "x": -560.6381872719934,
+        "y": 183.90074822234897
+      },
+      "size": {
+        "width": 211,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "HTTPまたはハイパーテキスト転送プロトコルは API デザインの世界において重要なものです.HTTP バージョンは,データのパッケージ化および輸送方法,およびウェブサーバーおよびブラウザがコマンドにどのように対応すべきかを指定します.異なるHTTP バージョンとその機能を理解することは API デザイナーにとって不可欠です.それは API が他のソフトウェアとシステムとのコミュニケーションをいかにうまく行うかを直接影響します.HTTP/1.0 から HTTP/2 の初期バージョン,最新のバージョン HTTP/3,各バージョンは速度,データ転送能力,およびセキュリティの改善をもたらします.適切なHTTP バージョンを選択することは API 効率性とパフォーマンスにとって不可欠です.",
+        "links": [
+          {
+            "title": "HTTP の進化",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/Evolution_of_HTTP",
+            "type": "article"
+          },
+          {
+            "title": "HTTP: 1.0 対 1.1 対 2.0 対 3.0",
+            "url": "https://www.baeldung.com/cs/http-versions",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "rADHM-6NAxEjzmgiHefDX",
+      "type": "subtopic",
+      "label": "HTTP メソッド",
+      "position": {
+        "x": -560.6381872719934,
+        "y": 236.40074822234897
+      },
+      "size": {
+        "width": 211,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "HTTP (Hypertext Transfer Protocol) メソッドはAPI設計において重要な役割を果たします.クライアントがサーバーに提出できるリクエストの種類を定義し,クライアントとサーバーの間の相互作用のフレームワークを提供します. HTTP メソッドを理解することは,堅固かつ効果的なAPIを作成するために不可欠です.API設計で使用される一般的なHTTP メソッドの中には,GET,POST,PUT,DELETE,PATCHが含まれます.これらのメソッドはそれぞれ異なる種類のリクエストを表し,APIエンドポイントとのさまざまな相互作用を可能にします.これは,よりダイナミックな,機能的,ユーザーフレンドリーなAPIを作成します.",
+        "links": [
+          {
+            "title": "HTTP メソッド - MDN",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods",
+            "type": "article"
+          },
+          {
+            "title": "HTTP メソッドとは?",
+            "url": "https://blog.postman.com/what-are-http-methods/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "7szYyzLifKsepNU0c2KnN",
+      "type": "subtopic",
+      "label": "HTTP 状態コード",
+      "position": {
+        "x": -560.6381872719934,
+        "y": 288.90074822234897
+      },
+      "size": {
+        "width": 211,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "HTTP ステータスコードはAPI デザインの不可欠な部分であり,サーバーに提出されたリクエストの結果に関する重要な情報を提供します.最初の数字が応答クラスの定義を示す3桁の数字であり,最後の2桁には分類値がありません.例えば\",200\"は成功したHTTP リクエストを表しますが,\"404\"は,要求されたリソースがサーバーで見つからないことを意味します.これらのコードの効率的な使用はAPI の強固性を向上させ,より理解可能でデバッグを容易にする可能性があります.",
+        "links": [
+          {
+            "title": "HTTP 状態コード",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status",
+            "type": "article"
+          },
+          {
+            "title": "HTTP ステータスコードとは?",
+            "url": "https://umbraco.com/knowledge-base/http-status-codes/",
+            "type": "article"
+          },
+          {
+            "title": "HTTP 状態コードのリスト",
+            "url": "https://en.wikipedia.org/wiki/List_of_HTTP_status_codes",
+            "type": "article"
+          },
+          {
+            "title": "5分で説明された HTTP 状態コード",
+            "url": "https://www.youtube.com/watch?v=qmpUfWN7hh4",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "rE-0yibRH6B2UBKp351cf",
+      "type": "subtopic",
+      "label": "HTTP ヘッダー",
+      "position": {
+        "x": -560.6381872719934,
+        "y": 341.40074822234897
+      },
+      "size": {
+        "width": 211,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "HTTP ヘッダは,クライアントとサーバーの間で交換されるデータに関する重要な情報を提供するため,API デザインにおいて重要な役割を果たします.ヘッダは HTTP 要求と応答メッセージの一部であり,標準,非標準,一般的なまたは珍しいヘッダを含むタイプがあります.コンテンツタイプ,認証,応答状態,クッキーなどのパラメータを定義することができます. HTTP ヘッダを理解し,効果的に利用することは,堅固で安全な API を設計する鍵です.よく定義されたヘッダのセットは,データ交換を成功させ,エラーを優雅に処理し,クライアントとサーバー間の全体的な通信を改善します.",
+        "links": [
+          {
+            "title": "HTTP ヘッダー",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers",
+            "type": "article"
+          },
+          {
+            "title": "HTTP ヘッダーとは何か?",
+            "url": "https://blog.postman.com/what-are-http-headers/",
+            "type": "article"
+          },
+          {
+            "title": "HTTPヘッダとHTTPヘッダの種類とは",
+            "url": "https://requestly.com/blog/what-are-http-headers-understand-different-types-of-http-headers/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P-rGIk50Bg7nFmWieAW07",
+      "type": "subtopic",
+      "label": "URL,クエリ&パスパラメータ",
+      "position": {
+        "x": 197.8618127280065,
+        "y": 52.100748222348955
+      },
+      "size": {
+        "width": 284,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "APIを設計する際には,統一的なリソースロケータ (URL),クエリパラメータ,パスパラメータを扱うことが不可欠です.これらのコンポーネントは,APIがデータを送信し取り戻す方法において重要な役割を果たします.URLは,サーバー上のリソースを識別しているため,APIの基盤を形成します.クエリパラメータは,特定の結果をフィルタリングしたり,特定のデータフィールドを分類したりするために使用されます.一方,パスパラメータは,URLに入力される変数データの位置保持者として機能し,データ応答をカスタマイズすることができます. URL,クエリ,およびパラメータの利用を理解することは,効率的でスケーラブル,ユーザーフレンドリーなAPIを作成するために非常に重要です.",
+        "links": [
+          {
+            "title": "HTTP リクエストにおけるパス変数とクエリパラメータを理解する",
+            "url": "https://medium.com/@averydcs/understanding-path-variables-and-query-parameters-in-http-requests-232248b71a8",
+            "type": "article"
+          },
+          {
+            "title": "パラメータを記述する",
+            "url": "https://swagger.io/docs/specification/describing-parameters/",
+            "type": "article"
+          },
+          {
+            "title": "API パラメータの仕組み:クエリ,パス,ヘッダー,ボディ",
+            "url": "https://treblle.com/blog/api-parameters-query-path-header-body",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "UFuX8wcxZQ7dvaQF_2Yp8",
+      "type": "subtopic",
+      "label": "クッキー",
+      "position": {
+        "x": -560.6381872719934,
+        "y": 393.90074822234897
+      },
+      "size": {
+        "width": 211,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "クッキーはAPI (アプリケーションプログラミングインターフェース) の設計において重要な役割を果たします.本質的に,クッキーは,サーバー通信間の関連情報を保存することで,ステートフルなHTTPセッションを可能にするユーザーのブラウザに保存されている小さなデータビットです.API設計では,認証が必要なときに特に有用です.クッキーはセッショントークンを保存することができ,それによってユーザーは複数のセッションまたは異なるウェブページでログインし続けることができます.クッキーは,ユーザーセッションを維持し,ユーザー体験を改善し,ユーザー情報をセキュアにするためにAPI設計に不可欠です.",
+        "links": [
+          {
+            "title": "API クッキーは何ですか? どうやって送信しますか?",
+            "url": "https://apidog.com/articles/what-are-api-cookies/",
+            "type": "article"
+          },
+          {
+            "title": "HTTP クッキーを使用する - Mozilla",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "TX_hg7EobNJhmWKsMCaT1",
+      "type": "subtopic",
+      "label": "内容交渉",
+      "position": {
+        "x": 197.8618127280065,
+        "y": 106.10074822234895
+      },
+      "size": {
+        "width": 284,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "API デザインの文脈では,コンテンツ交渉は,クライアントとサーバーが両者にとって受け入れられるデータ表現についてコミュニケーションをとるプロセスを指します.クライアントが JSON, XML,または HTML などの選択応答フォーマットを表示することを可能にします.このメカニズムは,柔軟かつ適応可能な API を生み出し,その使いやすさを高めます.コンテンツ交渉を理解し,効率的に利用することは,API デザインの基礎をマスターする不可欠な部分です.",
+        "links": [
+          {
+            "title": "内容交渉",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Content_negotiation",
+            "type": "article"
+          },
+          {
+            "title": "内容 交渉 実践",
+            "url": "https://softwaremill.com/content-negotiation-in-practice/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "GRlsBogOlOwuqhMMPyHN3",
+      "type": "subtopic",
+      "label": "CORS",
+      "position": {
+        "x": -559.6381872719934,
+        "y": 446.40074822234897
+      },
+      "size": {
+        "width": 211,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Cross-Origin Resource Sharing (CORS) は API デザインにおける重要な概念である. HTTP ヘッダーを使用してブラウザに,一つの起源で実行されている Web アプリケーションに,別の起源から選択されたリソースへのアクセスを伝えるためのメカニズムである.デフォルトでは, Web ブラウザは, Web ページが由来する域とは異なる域に Web ページを要求することを禁止する. CORS は,安全かつ効果的な域間の通信を保証する API を設計する上で不可欠である.",
+        "links": [
+          {
+            "title": "源間資源共有 (CORS)",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS",
+            "type": "article"
+          },
+          {
+            "title": "CORSとは何か?",
+            "url": "https://aws.amazon.com/what-is/cross-origin-resource-sharing/",
+            "type": "article"
+          },
+          {
+            "title": "CORSは100秒で",
+            "url": "https://www.youtube.com/watch?v=4KHiSt0oLJ0",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "KG3wO86F8Of27fU7QRcsn",
+      "type": "subtopic",
+      "label": "TCP / IP を理解する",
+      "position": {
+        "x": 197.8618127280065,
+        "y": 160.10074822234895
+      },
+      "size": {
+        "width": 284,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "TCP/IPは,インターネット上のホストを接続するために使用される通信プロトコルのセットである.これは,あるコンピュータのプログラムから別のコンピュータのプログラムにバイトのストリームの順序でエラーチェックされた配信を提供します.ネットワーク上でAPIがどのようにコミュニケーションをとるのかを理解したい場合は,TCP/IPの基本的な機能を知ることは不可欠です.このトピックを完全に理解することは,APIデザインの理解を強化し,APIを作成する際により知的な意思決定を助けます.",
+        "links": [
+          {
+            "title": "送信制御プロトコル TCP/IPとは?",
+            "url": "https://www.fortinet.com/resources/cyberglossary/tcp-ip",
+            "type": "article"
+          },
+          {
+            "title": "TCP/IPとは?",
+            "url": "https://www.cloudflare.com/en-gb/learning/ddos/glossary/tcp-ip/",
+            "type": "article"
+          },
+          {
+            "title": "TCP/IPと OSIとは?",
+            "url": "https://www.youtube.com/watch?v=CRdL1PcherM",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "v4nJYD9yiIEUviLPhVTCD",
+      "type": "subtopic",
+      "label": "DNSの基礎",
+      "position": {
+        "x": 197.8618127280065,
+        "y": 214.10074822234895
+      },
+      "size": {
+        "width": 284,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "API デザインの基本要素について議論する際には,DNS (ドメイン名システム) の基礎を無視することはできません.DNSはAPIの機能において基本的な役割を果たし,インターネットの電話帳の相当として機能し,APIが通信に必要な IP アドレスに人間フレンドリーなホスト名を解釈します.この複雑なシステムを理解することは,API デザインにおけるナビゲーションとメッセージングフローをよりよく理解できるようにすることが不可欠です.API 開発者にとって,DNSに関する知識は,接続問題解決,安全な接続を確保し,より効率的な呼び出しでAPI アーキテクチャを最適化するのに大きく役立ちます.",
+        "links": [
+          {
+            "title": "DNSとは何か?",
+            "url": "https://www.cloudflare.com/en-gb/learning/dns/what-is-dns/",
+            "type": "article"
+          },
+          {
+            "title": "DNS の 導入",
+            "url": "https://aws.amazon.com/route53/what-is-dns/",
+            "type": "article"
+          },
+          {
+            "title": "ウェブ開発者向けのDNSレコードクラッシュコース",
+            "url": "https://dev.to/chrisachard/dns-record-crash-course-for-web-developers-35hn",
+            "type": "article"
+          },
+          {
+            "title": "DNS は 100 秒で説明されます",
+            "url": "https://www.youtube.com/watch?v=UVR9lhUGAyU",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "o8i093VQv-T5Qf1yGqU0R",
+      "type": "topic",
+      "label": "異なるAPIスタイル",
+      "position": {
+        "x": -198.1381872719934,
+        "y": 330.40074822234897
+      },
+      "size": {
+        "width": 247,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "アプリケーションプログラミングインターフェース (API) デザインは,すべてに一致する取り組みではありません.APIはさまざまなスタイルで構造化され,それぞれ独自の特性,利点,および使用事例があります.適切なAPIスタイルを早期に識別することは,機能的で効率的で無縫なエンドユーザー体験を確保するために不可欠です.一般的に使用されるAPIスタイルにはREST,SOAP,GraphQL,gRPCが含まれます.これらの多様なAPIスタイルを理解することは,より良い設計選択,効率的な全体的なシステムアーキテクチャを促進し,直感的で使いやすいアプリケーションを促進するのに役立ちます.",
+        "links": [
+          {
+            "title": "API スタイル",
+            "url": "https://www.redhat.com/architect/api-styles",
+            "type": "article"
+          },
+          {
+            "title": "トップ API スタイル",
+            "url": "https://www.youtube.com/watch?v=4vLxWqE94l4",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "BvwdASMvuNQ9DNgzdSZ4o",
+      "type": "subtopic",
+      "label": "残りのAPI",
+      "position": {
+        "x": -196.3881872719935,
+        "y": 438.90074822234897
+      },
+      "size": {
+        "width": 246,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "RESTful APIは,ネットワーク化されたアプリケーションを設計するためのコンベンションの集合である. HTTP 方法を使用してデータを読み,更新,削除する.異なるクライアントが容易に消費できるWeb サービスを構築するためのシンプルで標準化された方法を提供しています.RESTful APIの主要な原則には,ステートレスクライアント-サーバー通信,キャッシング可能なデータ,統一インターフェースが含まれ, API を理解しやすく,柔軟かつ拡張可能にする.さらに,リソースおよびそれらの表示の使用に大きく依存しており,性能,拡張性,シンプルさ,信頼性のために API デザインで人気のある選択となっています.",
+        "links": [
+          {
+            "title": "RESTとは何か?",
+            "url": "https://restfulapi.net/",
+            "type": "article"
+          },
+          {
+            "title": "RESTul APIとは何か?",
+            "url": "https://aws.amazon.com/what-is/restful-api/",
+            "type": "article"
+          },
+          {
+            "title": "RESTful API を 理解 する",
+            "url": "https://www.youtube.com/watch?v=lsMQRaeKNDk",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "TVR-SkErlOHbDKLBGfxep",
+      "type": "subtopic",
+      "label": "シンプルな JSON API",
+      "position": {
+        "x": -196.3881872719935,
+        "y": 492.90074822234897
+      },
+      "size": {
+        "width": 246,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "シンプル JSON (JavaScript Object Notation) APIは,サーバーとウェブアプリケーション間のデータを交換するために JSON を使用する人気のあるAPIまたは\"アプリケーションプログラミングインターフェイス\"の形態です.この方法は,主にシンプルさ,軽量,読みやすさに注目されています.API設計の文脈では,構造化された JSON APIは,開発者がバックエンドと効率的にやり取りし,必要なデータを一貫して理解可能な方法で取り戻すことができます.冗長なデータを減らすから,迅速な解析を可能にするまで,シンプル JSON APIはアプリケーションの全体的なパフォーマンスを改善するために多数の利点を提供します.良い JSON API を設計するには,注意深く計画し,HTTP 方法,エンドポイント,エラー処理メカニズム,そして最も重要なことは,アプリケーションのデータ要件を明確に理解する必要があります.",
+        "links": [
+          {
+            "title": "JSON API の構築の仕様",
+            "url": "https://github.com/json-api/json-api",
+            "type": "opensource"
+          },
+          {
+            "title": "JSON API: 4分で説明",
+            "url": "https://www.youtube.com/watch?v=N-4prIh7t38",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Wwd-0PjrtViMFWxRGaQey",
+      "type": "subtopic",
+      "label": "SOAP API",
+      "position": {
+        "x": -196.3881872719935,
+        "y": 546.900748222349
+      },
+      "size": {
+        "width": 246,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "SOAP (Simple Object Access Protocol) APIは,異なるオペレーティングシステム (Linux,Windowsなど) で実行されているプログラムがハイパーテキスト転送プロトコル (HTTP) と拡張性マークアップ言語 (XML) を使用して通信できるようにする標準通信プロトコルシステムです.APIデザインの文脈では,SOAP APIは,ネットワーク上で主にさまざまなソフトウェアアプリケーション間の相互作用のための堅固かつ明確に定義されたプロセスを提供します.高度に拡張性があり,汎用性があり,幅広い通信プロトコルをサポートします.RESTのような他のAPIタイプと比較してより複雑であるにもかかわらず,SOAP APIは高い信頼性とセキュリティを保証し,特定のビジネスに焦点を当てた,高トランザクションアプリケーションの選択となります.",
+        "links": [
+          {
+            "title": "SOAP APIとは何か?",
+            "url": "https://www.indeed.com/career-advice/career-development/what-is-soap-api",
+            "type": "article"
+          },
+          {
+            "title": "SOAP vs REST 101: 違い を 理解 する",
+            "url": "https://www.soapui.org/learn/api/soap-vs-rest-api/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "MKVcPM2EzAr2_Ieyp9Fu3",
+      "type": "subtopic",
+      "label": "GraphQL API",
+      "position": {
+        "x": -196.3881872719935,
+        "y": 600.900748222349
+      },
+      "size": {
+        "width": 246,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "GraphQL は,オープンソースのデータクエリとAPIの操作言語であり,既存のデータでそれらのクエリを実行するための実行時間です.RESTとは異なり,各エンドポイントのデータ返却構造を事前に定義している GraphQL APIは,タイプシステムを取り巻いて設計され,クライアントアプリケーションがサーバーから必要なデータを正確に指定できるようにします.これは多くの柔軟性と効率をもたらし,サーバーへの回帰が少なく,クライアントアプリケーションのパフォーマンスを大幅に向上させます.小さなプロジェクトを構築しているかどうか,またはエンタープライズ規模なアプリケーションであれ,GraphQL APIを理解して実装することは,よりクリーンで管理可能なコードをもたらします.",
+        "links": [
+          {
+            "title": "専用グラフQLロードマップ",
+            "url": "https://roadmap.sh/graphql",
+            "type": "roadmap"
+          },
+          {
+            "title": "GraphQL ウェブサイト",
+            "url": "https://graphql.org/",
+            "type": "official"
+          },
+          {
+            "title": "パブリックグラフQL API",
+            "url": "https://github.com/graphql-kit/graphql-apis",
+            "type": "opensource"
+          },
+          {
+            "title": "100秒で説明されたグラフQL",
+            "url": "https://www.youtube.com/watch?v=eIQh02xuVw4",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "awdoiCHz7Yc3kYac_iy-a",
+      "type": "topic",
+      "label": "JSON / RESTful API を構築する",
+      "position": {
+        "x": 212.7618127280066,
+        "y": 548.400748222349
+      },
+      "size": {
+        "width": 283,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "JSON/RESTful APIの構築には,Representational State Transfer (REST) の架構上の制約に従うAPIの設計と実装が含まれます.このAPIは,軽量で分かりやすく,普遍的に受け入れられる性質により,情報交換のフォーマットとしてJSON (JavaScript Object Notation) を使用します.JSONを使用したRESTful APIは,スケーラブルで,維持可能で,他のシステムと簡単に統合されるアプリケーションを開発する鍵です.この設計アプローチは,標準的なHTTPプロトコルを使用してサーバー上のリソースにアクセスし,操作できるようにします.さらに,クライアントとサーバーの相互作用がステートレスであることを可能にするため,クライアントからのすべての要求は,要求を理解し,処理するためにサーバーに必要なすべての情報を含む必要があります.",
+        "links": [
+          {
+            "title": "JSON で API を構築する仕様",
+            "url": "https://jsonapi.org/",
+            "type": "official"
+          },
+          {
+            "title": "RESTful API を 作る方法",
+            "url": "https://www.integrate.io/blog/how-to-make-a-rest-api/",
+            "type": "article"
+          },
+          {
+            "title": "REST APIとは何か?",
+            "url": "https://www.youtube.com/watch?v=lsMQRaeKNDk&t=170s",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "9WI_z34jIFXwoUQuChyRU",
+      "type": "subtopic",
+      "label": "REST 原則",
+      "position": {
+        "x": 223.2618127280066,
+        "y": 290.40074822234897
+      },
+      "size": {
+        "width": 262,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "REST (Representational State Transfer) は,API設計で使用される重要な建築スタイルである.このシステムはネットワークを通じて通信する規則と条約を定義する.RESTの主要な特徴は,無国籍性,クライアント-サーバー通信,キャッチャビリティ,および統一的なインターフェースを含む.これらの原則を正しく理解し,適用することは,強固でスケーラブルで高性能なAPIを設計するのに役立ちます.RESTの原則は,望ましい結果を達成するためにリソースとその操作を中心に回転します.これらの原則に従うことで,開発者はAPIの設計がWeb標準に準拠していることを確認し,さまざまなシステムにおける相互運用性を向上させることができます.",
+        "links": [
+          {
+            "title": "REST API 原則 総合的な概要",
+            "url": "https://blog.dreamfactory.com/rest-apis-an-overview-of-basic-principles",
+            "type": "article"
+          },
+          {
+            "title": "REST原則",
+            "url": "https://ninenines.eu/docs/en/cowboy/2.12/guide/rest_principles/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b3qRTLwCC_9uDoPGrd9Bu",
+      "type": "subtopic",
+      "label": "URIデザイン",
+      "position": {
+        "x": 223.2618127280066,
+        "y": 344.40074822234897
+      },
+      "size": {
+        "width": 262,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "URI (Uniform Resource Identifier) は,インターネット上の名前やリソースを識別するために使用される文字列である.URIを慎重に設計することは,理解し,記憶し,使用しやすいスムーズなAPIインターフェースを作成する重要な部分である.良好な URI デザインは,関連するリソースが論理的にグループ化され,APIの使いやすさと維持性に大きく影響を与えることを保証します.",
+        "links": [
+          {
+            "title": "URI設計に関するガイドライン",
+            "url": "https://css-tricks.com/guidelines-for-uri-design/",
+            "type": "article"
+          },
+          {
+            "title": "URIの設計",
+            "url": "https://www.oreilly.com/library/view/restful-web-services/9780596809140/ch04.html",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "itILK2SXvLvAjk1Kul7EK",
+      "type": "subtopic",
+      "label": "バージョン作成戦略",
+      "position": {
+        "x": 223.2618127280066,
+        "y": 398.40074822234897
+      },
+      "size": {
+        "width": 262,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "API バージョン作成は API デザインと管理の重要な構成要素である.新しいビジネス要件と機能強化に対応するために API が時間とともに進化するにつれて,既存のクライアントアプリケーションを壊さない方法で変更を管理することが重要です.これは API デザインにおける効果的なバージョン作成戦略を必要とします. URI バージョン作成,リクエストヘッダー バージョン作成,メディアタイプ バージョン作成などのバージョン作成戦略があります.実装の簡単さ,クライアント互換性,アクセシビリティに基づいて採用されます.各戦略とそのメリット・デメリットを理解することで API デザインとメンテナンビリティが向上します.",
+        "links": [
+          {
+            "title": "API バージョン化とは?",
+            "url": "https://www.postman.com/api-platform/api-versioning/",
+            "type": "article"
+          },
+          {
+            "title": "API バージョン化 ベストプラクティス",
+            "url": "https://kodekloud.com/blog/api-versioning-best-practices/",
+            "type": "article"
+          },
+          {
+            "title": "API をバージョン化する",
+            "url": "https://www.youtube.com/watch?v=Np_Jr6AvCOc",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pgJDzP3pJjhjr5wTRtPJO",
+      "type": "subtopic",
+      "label": "ページページ",
+      "position": {
+        "x": 223.2618127280066,
+        "y": 649.400748222349
+      },
+      "size": {
+        "width": 262,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "頁面化とはAPI設計の重要な側面であり,管理可能な方法で大量のデータを処理するための体系的なアプローチを提供します.圧倒的で効率が悪くなるような単一の応答ですべてのデータを返却する代わりに,APIはこれらのデータをより小さく,より便利なパケットに配信するために頁面化を実装します. これによりクライアントアプリケーションは,パフォーマンスを大幅に向上させ,使用可能性を大幅に向上させ,データを増加させることができます. ページ面化設計と実装は,制限オフセット,カーサーベースのページ面化,または時間ベースのページ面化などの異なる戦略により,それぞれ独自の利点と制限を備えています.効果的なAPIデザインは,ページ面化スタイルを慎重に考慮し,使用やすさ,効率性,スケーラビリティとのバランスを追求する必要があります.",
+        "links": [
+          {
+            "title": "API ページ化について知っておくべきすべて",
+            "url": "https://nordicapis.com/everything-you-need-to-know-about-api-pagination/",
+            "type": "article"
+          },
+          {
+            "title": "REST API - アトラシアンでのページ作成",
+            "url": "https://developer.atlassian.com/server/confluence/pagination-in-the-rest-api/",
+            "type": "article"
+          },
+          {
+            "title": "API ページ設定の有効性を解き放つ",
+            "url": "https://dev.to/pragativerma18/unlocking-the-power-of-api-pagination-best-practices-and-strategies-4b49",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "O7wjldZ3yTA2s_F-UnJw_",
+      "type": "subtopic",
+      "label": "料金制限",
+      "position": {
+        "x": 223.2618127280066,
+        "y": 703.400748222349
+      },
+      "size": {
+        "width": 262,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "料金制限はAPIデザインの重要な側面で,クライアントが指定された時間枠内で API コールの数を定める.これはリソースの割り当てを管理し,APIの濫用を防止し,APIシステムの全体的な健康を維持するのに役立ちます.APIの安定性を確保するために適切な料金制限措置が設けられ,それによってすべての消費者に一貫して信頼できるサービスを提供する必要があります.それは主にクライアントのリクエストの頻度に制限を設定し,それによって個々のユーザがシステムを過負荷させることを防止します.APIの利用性とパフォーマンスを維持するために,慎重に料金制限を設計し実装することが重要です.",
+        "links": [
+          {
+            "title": "料金制限",
+            "url": "https://developer.mozilla.org/en-US/docs/Glossary/Rate_limit",
+            "type": "article"
+          },
+          {
+            "title": "スロットル",
+            "url": "https://developer.mozilla.org/en-US/docs/Glossary/Throttle",
+            "type": "article"
+          },
+          {
+            "title": "跳ね回る",
+            "url": "https://developer.mozilla.org/en-US/docs/Glossary/Debounce",
+            "type": "article"
+          },
+          {
+            "title": "料金制限とボットとは",
+            "url": "https://www.cloudflare.com/en-gb/learning/bots/what-is-rate-limiting/",
+            "type": "article"
+          },
+          {
+            "title": "速度制限技術可視化",
+            "url": "https://smudge.ai/blog/ratelimit-algorithms",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "20KEgZH6cu_UokqWpV-9I",
+      "type": "subtopic",
+      "label": "無力性",
+      "position": {
+        "x": 223.2618127280066,
+        "y": 757.400748222349
+      },
+      "size": {
+        "width": 262,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "API 設計における無効性とは,複数の同一の要求が単一の要求と同じ効果を持つ概念を指します.これは,クライアントがサーバーに同じ要求を送信する数回に関係なく,サーバーの状態は最初の要求後も同じであることを意味します.無効性の高いAPIを設計することは,可靠性のために不可欠です.それは副作用のない再試みを可能にし,分散型システムにおける複雑さを軽減し,不安定なネットワーク条件下でよりよいユーザー体験を提供します.無効性概念を理解することで,あなたのAPIの強固さとエラー耐容性を高めることができます.通常は,RESTful APIにおける `PUT`, `DELET`,そして時には `POST`方法に適用されます.",
+        "links": [
+          {
+            "title": "アイデンポテンシーとは何か?",
+            "url": "https://blog.dreamfactory.com/what-is-idempotency",
+            "type": "article"
+          },
+          {
+            "title": "Idempotent REST API",
+            "url": "https://restfulapi.net/idempotent-rest-apis/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "LByD1vhzunhY1uY1YGZHP",
+      "type": "subtopic",
+      "label": "ハチオアス",
+      "position": {
+        "x": 223.2618127280066,
+        "y": 811.400748222349
+      },
+      "size": {
+        "width": 262,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Hypertext As The Engine Of Application State (HATEOAS) は,RESTful API (アプリケーションプログラミングインターフェース) の設計における重要な概念である.これは,APIが利用可能な相互作用に関するデータと情報を提供することを意味する.ハイパーメディアを利用することで,APIの自己記述性と発見性に寄与する.正しく実装された場合,クライアントは,APIの特定セマンティックではなく,ハイパーメディアに関する一般的な知識のみを必要とします.これはクライアントの実装を大幅に簡素化し,APIを変化に柔軟性のあるものにすることができます.HATEOASの原則は,APIの設計と開発により構造的で標準化されたアプローチを強制することができます.",
+        "links": [
+          {
+            "title": "HATEOAS 駆動 REST API",
+            "url": "https://restfulapi.net/hateoas/",
+            "type": "article"
+          },
+          {
+            "title": "ハチオアス",
+            "url": "https://htmx.org/essays/hateoas/",
+            "type": "article"
+          },
+          {
+            "title": "RESTful API で 憎しみ を 抱える 人 に は 何 が 起こっ て い ます か",
+            "url": "https://www.youtube.com/watch?v=HNTSrytKCoQ",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "zXxEiM5HeOn7W-Vue0tQf",
+      "type": "subtopic",
+      "label": "CRUD 作業を処理する",
+      "position": {
+        "x": 223.2618127280066,
+        "y": 452.40074822234897
+      },
+      "size": {
+        "width": 262,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "APIを設計する際には,さまざまな種類のデータとの相互作用を考慮する必要があります.これらは通常CRUD操作を中心に回転します.作成,読み,更新,削除.APIは銀行アプリまたはソーシャルメディアプラットフォームのために設計されているかどうかにかかわらず,新しいデータを作成し,既存のデータを読み取ったり,更新または変更し,不必要なデータを削除する必要性は普遍的です.したがって,API設計におけるCRUD操作をマスターすることは基本的なスキルです.CRUD操作の効果的な処理はフロントエンドとバックエンドシステム間のシームレスな相互作用を促進し,適切なデータ管理を保証し,それによってユーザー体験を改善します.",
+        "links": [
+          {
+            "title": "Node.js と Express で CRUD API を構築する入門",
+            "url": "https://www.split.io/blog/introduction-to-building-a-crud-api-with-node-js-and-express/",
+            "type": "article"
+          },
+          {
+            "title": "CRUD APIに関する専門家のガイド",
+            "url": "https://www.forestadmin.com/blog/an-experts-guide-to-crud-apis-designing-a-robust-one/",
+            "type": "article"
+          },
+          {
+            "title": "REST API デザインのCRUDを再考 - パレンティール",
+            "url": "https://blog.palantir.com/rethinking-crud-for-rest-api-designs-a2a8287dc2af",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "8tELdagrOaGCf3nMVs8t3",
+      "type": "subtopic",
+      "label": "エラー処理",
+      "position": {
+        "x": 223.2618127280066,
+        "y": 865.400748222349
+      },
+      "size": {
+        "width": 262,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "エラー処理はAPI設計の重要な側面で,APIの生産における安定性,可用性,信頼性を保証します.APIはシステム同士の通信を支援するために設計されています.しかし,これらのシステムが例外やエラーに出会う場合がある可能性があります.これらのエラー発生を予測し,捕捉し,管理するプロセスは\"エラー処理\"と呼ばれるものです.APIデザインの文脈では,要求を実行中に発生する例外またはエラーを特定し,管理し,消費者に知らせるための特定の戦略を定義し,実装します.これを適切に設定することで,より堅固かつシームレスな通信体験を提供し,開発者が問題をより効率的にデバッグして修正できるようにします.",
+        "links": [
+          {
+            "title": "API エラー処理のベストプラクティス",
+            "url": "https://blog.postman.com/best-practices-for-api-error-handling/",
+            "type": "article"
+          },
+          {
+            "title": "REST API エラー処理のベストプラクティス",
+            "url": "https://www.baeldung.com/rest-api-error-handling-best-practices",
+            "type": "article"
+          },
+          {
+            "title": "HTTP API エラーを問題詳細で処理する",
+            "url": "https://www.youtube.com/watch?v=uvTT_0hqhyY",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5CxU3inGcSHp-TDg3BQiY",
+      "type": "subtopic",
+      "label": "RFC 7807 - APIに関する問題詳細",
+      "position": {
+        "x": -165.6381872719934,
+        "y": 865.400748222349
+      },
+      "size": {
+        "width": 327,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "API デザインの実践には,エラーを効果的に,透明に処理することに重要な重点を置く.採用されている広範な規格の中で,RFC 7807またはHTTP API の問題詳細は重要な役割を果たしています.この仕様により,HTTP API から問題やエラーの詳細を送信するための標準化されたフォーマットが提供され,API に関する開発者は標準でないエラーメッセージを解析する必要があり,潜在的なエラーの構造を予測することができます.本質的に,RFC 7807は API の使いやすさと理解を向上させ,より良い開発者体験を提供し,API の効率的な使用を促進します.実装すると,より便利に問題を追跡し,識別し,解決することができます.",
+        "links": [
+          {
+            "title": "RFC 7807 - HTTP APIの問題詳細",
+            "url": "https://datatracker.ietf.org/doc/html/rfc7807",
+            "type": "article"
+          },
+          {
+            "title": "RFC 9457 - HTTP APIの問題詳細",
+            "url": "https://www.rfc-editor.org/rfc/rfc9457.html",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "eUsorPQ8VRLJs28J8dyk2",
+      "type": "paragraph",
+      "label": "API認証と承認",
+      "position": {
+        "x": -318.1381872719934,
+        "y": 728.9974788763272
+      },
+      "size": {
+        "width": 371,
+        "height": 69
+      },
+      "style": {
+        "fontSize": 20,
+        "justifyContent": "flex-start",
+        "textAlign": "left"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "qAolZHf_jp8hCdtqHZwC8",
+      "type": "subtopic",
+      "label": "HTTP キャッシング",
+      "position": {
+        "x": -559.1381872719934,
+        "y": 498.90074822234897
+      },
+      "size": {
+        "width": 211,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "HTTPキャッシングは,APIデザインの重要な側面であり,将来のリクエストを加速するためにHTTPリクエストへの応答のコピーを保存します.APIが同じリクエストを複数回受信すると,それぞれのリクエストを個別に処理する代わりに,以前に保存された応答を使用し,パフォーマンスと効率を向上させることができます.キャッシングはHTTPリクエストと応答のヘッダーによって管理されます.APIデザインにおけるHTTPキャッシングを理解して実装することは,遅延,ネットワークトラフィックを大幅に削減し,APIの速度を向上させることができます.",
+        "links": [
+          {
+            "title": "なぜHTTPキャッシングが API に重要なのか",
+            "url": "https://thenewstack.io/why-http-caching-matters-for-apis/",
+            "type": "article"
+          },
+          {
+            "title": "キャッシング REST API 応答",
+            "url": "https://restfulapi.net/caching/",
+            "type": "article"
+          },
+          {
+            "title": "HTTPキャッシュ",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Caching",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cQnQ9v3mH27MGNwetz3JW",
+      "type": "topic",
+      "label": "認証方法",
+      "position": {
+        "x": -601.4010478029121,
+        "y": 859.6211541412258
+      },
+      "size": {
+        "width": 247,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "アプリケーションプログラミングインターフェース (API) は,ソフトウェア開発における重要な構成要素であり,異なるソフトウェアシステムのコミュニケーションと機能を共有することを可能にします.安全な通信を確保するには,APIトランザクションに関与する当事者を認証することが不可欠です.認証プロセスはAPIユーザーのアイデンティティを確認します.APIを設計する際には多数の認証方法があります.各には独自のメリット・デメリットがあります.これには基本的な認証,APIキー認証,OAuth,JWTなどが含まれます.これらの異なる方法とその最良の使用事例を理解することは,安全かつ効果的なAPIを設計するのに不可欠です.",
+        "links": [
+          {
+            "title": "API認証",
+            "url": "https://www.postman.com/api-platform/api-authentication/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "0FzHERK5AeYL5wv1FBJbH",
+      "type": "subtopic",
+      "label": "基本的著作者",
+      "position": {
+        "x": -583.4010478029121,
+        "y": 983.7533379465866
+      },
+      "size": {
+        "width": 211,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Basic Auth (基本認証) は,ユーザー認証処理のためのAPI設計でしばしば使用される簡単な方法である.この方法では,ユーザー名とパスワードペアで構成されるクライアント認証は,HTTPヘッダー内のフィールドでAPIサーバーに転送されます.サーバーは保護されたリソースへのアクセスを許可する前にこれらの認証を検証します.Basic Authは実装が簡単であるが,より高度な方法と比較して安全性が低いため,暗号化された,暗号化されていないフォーマットで認証を送信します.単純性が優先される場合,または高いセキュリティレベルが要求されない場合ではしばしば使用されます.",
+        "links": [
+          {
+            "title": "基本的な認証",
+            "url": "https://roadmap.sh/guides/basic-authentication",
+            "type": "roadmap"
+          },
+          {
+            "title": "ベーシック・オーター・ジェネレーションヘッダー",
+            "url": "https://www.debugbear.com/basic-auth-header-generator",
+            "type": "article"
+          },
+          {
+            "title": "基本認証 - Swagger.io",
+            "url": "https://swagger.io/docs/specification/authentication/basic-authentication/",
+            "type": "article"
+          },
+          {
+            "title": "基本認証 - Twillio",
+            "url": "https://www.twilio.com/docs/glossary/what-is-basic-authentication",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "QTH7sy9uQZWl6ieBz7erY",
+      "type": "subtopic",
+      "label": "符号 に 基づく 著作物",
+      "position": {
+        "x": -583.4010478029121,
+        "y": 1037.7533379465865
+      },
+      "size": {
+        "width": 211,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "トークンベースの認証はAPIデザインの重要な側面である.これは,ユーザがログインして成功した後,そのアイデンティティを検証するトークンを提供することを含む.トークンを取得すると,ユーザはAPIが提供するリソースとサービスにアクセスするために使用することができます.このトークンは通常クライアントが行う後のHTTPリクエストのヘッダーで通過されます.トークンベースのAuthの主要な利点の一つは,トークンを継続的に保存せずにサーバーによって作成し,チェックすることがあります.これはアプリケーションをより簡単にスケーリングするのに役立ちます.この認証方法は,Webアプリケーションのセキュリティとスケーラビリティを強化し,主にRESTful APIを含む近代的なAPI戦略で使用されます.",
+        "links": [
+          {
+            "title": "符号に基づく認証",
+            "url": "https://roadmap.sh/guides/token-authentication",
+            "type": "roadmap"
+          },
+          {
+            "title": "トークン に 基づく 認証 は 何 です か",
+            "url": "https://www.okta.com/uk/identity-101/what-is-token-based-authentication/",
+            "type": "article"
+          },
+          {
+            "title": "セッション対トークン認証100秒",
+            "url": "https://www.youtube.com/watch?v=UBUNrFtufWo",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tWg68AHLIr1gIZA1za3jp",
+      "type": "subtopic",
+      "label": "JWT",
+      "position": {
+        "x": -583.4010478029121,
+        "y": 1091.7533379465865
+      },
+      "size": {
+        "width": 211,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "JSON Web Token または JWT は,API デザインの領域における2つの当事者間で情報を転送する人気があり安全な方法である.両者間で転送される請求を表示するコンパクトでURL 安全な手段として,彼らは現代のAPIにおけるセキュリティと認証において重要な役割を果たします.これらの請求を暗号化することによって,情報はデジタル署名で検証され信頼され,API エンドポイントが要求を安全かつ信頼できる方法で処理できるようにします. JWT は API デザインで認証と情報交換プロセスを改善する比較的軽量かつスケーラブルな方法です.",
+        "links": [
+          {
+            "title": "JWT 認証",
+            "url": "https://roadmap.sh/guides/jwt-authentication",
+            "type": "roadmap"
+          },
+          {
+            "title": "JSON Web トークンへの導入",
+            "url": "https://jwt.io/introduction",
+            "type": "official"
+          },
+          {
+            "title": "JSON Web トークン",
+            "url": "https://auth0.com/docs/secure/tokens/json-web-tokens",
+            "type": "article"
+          },
+          {
+            "title": "なぜ JWT が 人気 で ある の でしょ う か.",
+            "url": "https://www.youtube.com/watch?v=P2CPd9ynFLg",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "TLuNtQ6HKYQXmglyVk8-t",
+      "type": "subtopic",
+      "label": "OAuth 2.0",
+      "position": {
+        "x": -583.4010478029121,
+        "y": 1145.7533379465865
+      },
+      "size": {
+        "width": 211,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "OAuth 2.0 は,アプリケーションがHTTPサービス,例えばFacebook,GitHub,DigitalOceanなどでユーザーアカウントへの制限されたアクセスを取得できるようにする権限のフレームワークです.ユーザーアカウントをホストするサービスにユーザー認証を委譲し,ユーザーアカウントにアクセスする第三者のアプリケーションを許可することによって動作します.OAuth 2.0 は,リソース所有者,クライアント,リソースサーバー,認証サーバーという4つの役割を定義します.API設計に関して,OAuth 2.0 は有効なアクセストークンを保有するクライアントアプリケーションがAPIのみとインタラクションできるようにすることでAPIエンドポイントを保護するために使用できます.",
+        "links": [
+          {
+            "title": "OAuth",
+            "url": "https://roadmap.sh/guides/oauth",
+            "type": "roadmap"
+          },
+          {
+            "title": "OAuth ウェブサイト",
+            "url": "https://oauth.net/2/",
+            "type": "official"
+          },
+          {
+            "title": "OAuth 2.0とは何か?",
+            "url": "https://auth0.com/intro-to-iam/what-is-oauth-2",
+            "type": "official"
+          },
+          {
+            "title": "OAuth 2 は シンプル な 言葉 で 説明 さ れ て い ます",
+            "url": "https://www.youtube.com/watch?v=ZV5yTm4pT8g",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "eQWoy4CpYP3TJL2bbhPB_",
+      "type": "subtopic",
+      "label": "セッション ベース アウト",
+      "position": {
+        "x": -583.4010478029121,
+        "y": 1199.8443340956667
+      },
+      "size": {
+        "width": 211,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "アプリケーションプログラミングインターフェース (API) はソフトウェアアプリケーションを構築するのに不可欠です.API設計のいくつかの重要な考慮事項の中で,認証とセキュリティを実装する方法が決定されます.Session Based Authentication はAPI設計におけるセキュリティを実装する方法の一つです.この方法は,ユーザーがログイン成功した後,サーバーがユーザーのためにセッションを作成し,セッション識別子と関連付けます.このセッション IDは,クッキーの内部でクライアント側で保存されます.後の要求では,サーバーはAPI コールを処理する前にセッション ID を検証します.サーバーはユーザーがログアウトした後,セッション ID を無効化します.セッションベースの認証を理解することは,安全なAPI設計に不可欠です.特にセキュリティが優先事項であるシナリオやこの方法が普及している古いシステムでは.",
+        "links": [
+          {
+            "title": "セッションに基づく認証",
+            "url": "https://roadmap.sh/guides/session-based-authentication",
+            "type": "roadmap"
+          },
+          {
+            "title": "セッション対トークン認証",
+            "url": "https://www.authgear.com/post/session-vs-token-authentication",
+            "type": "article"
+          },
+          {
+            "title": "セッションベースの認証 - ロードマップ.sh",
+            "url": "https://www.youtube.com/watch?v=gKkBEOq_shs",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "nHbn8_sMY7J8o6ckbD-ER",
+      "type": "topic",
+      "label": "許可の方法",
+      "position": {
+        "x": -210.6381872719934,
+        "y": 1033.5329320277096
+      },
+      "size": {
+        "width": 247,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "API 設計において,認証方法は,データトランザクションのセキュリティと整体性を確保する上で重要な役割を果たします. API は,特定のリソースへのアクセスを許可する前に,ユーザー,システム,またはアプリケーションを識別し検証するメカニズムです.これらの方法には,基本的な認証,OAuth,トークンベースの認証,JSON Web Token (JWT),API キーベースの方法などが含まれます.したがって,これらの方法を理解することで,必要なアクセスを許可しながらリソースを効果的に保護する API を設計する能力を高めます.各方法には独自のメリット・デメリット,使用シナリオ,セキュリティ機能があり,他の状況よりも特定の状況に適しています.",
+        "links": [
+          {
+            "title": "API認証方法",
+            "url": "https://www.pingidentity.com/en/resources/identity-fundamentals/authorization/authorization-methods.html",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "wFsbmMi5Ey9UyDADdbdPW",
+      "type": "subtopic",
+      "label": "役割に基づくアクセス制御 (RBAC)",
+      "position": {
+        "x": 165.00932230336673,
+        "y": 1004.0041963907498
+      },
+      "size": {
+        "width": 353,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "役割ベースのアクセス制御 (RBAC) は,API設計における権限管理の方法であり,組織内の役割に基づいてユーザーにシステムアクセスを割り当てます.RBACは,ユーザーがどのエンドポイントを呼び出せるか,どの操作を実行することが許可されているかを制御するのに不可欠です.API設計の文脈では,RBACはデータセキュリティと整体性を保証するためにさまざまなタイプのユーザーに適切なレベルのアクセスを確保します.ユーザーの仕事機能に基づいて権限を割り当てることによってセキュリティ管理プロセスを簡素化します.",
+        "links": [
+          {
+            "title": "役割に基づくアクセス制御",
+            "url": "https://auth0.com/docs/manage-users/access-control/rbac",
+            "type": "article"
+          },
+          {
+            "title": "役割ベースのアクセス制御 (RBAC) とは",
+            "url": "https://www.redhat.com/en/topics/security/what-is-role-based-access-control",
+            "type": "article"
+          },
+          {
+            "title": "役割ベースのアクセス制御 (RBAC) と属性ベースのアクセス制御 (ABAC)",
+            "url": "https://www.youtube.com/watch?v=rvZ35YW4t5k",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dZTe_kxIUQsc9N3w920aR",
+      "type": "subtopic",
+      "label": "属性ベースのアクセス制御 (ABAC)",
+      "position": {
+        "x": 165.00932230336673,
+        "y": 1058.00419639075
+      },
+      "size": {
+        "width": 352,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "属性ベースのアクセス制御 (ABAC) は,API設計分野における柔軟かつ強力な認証方法である.既定の役割と許可に依存する役割ベースのアクセス制御 (RBAC) から異なり,ABACはポリシーを構築し,意思決定を行うために属性を使用します.これらの属性は,ユーザ,実行したいアクション,ターゲットリソース,または環境に関連付けることができます.ABACにより,より細かなアクセス制御が達成され,それによってAPIのセキュリティと効率を向上させることができます.このアプローチは,アクセス制御要件が多面的で,文脈に依存する複雑な動力的な環境で広く使用されます.",
+        "links": [
+          {
+            "title": "属性ベースのアクセス制御とは?",
+            "url": "https://www.okta.com/uk/blog/2020/09/attribute-based-access-control-abac/",
+            "type": "article"
+          },
+          {
+            "title": "属性ベースのアクセス制御",
+            "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction_attribute-based-access-control.html",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tzUJwXu_scwQHnPPT0oY-",
+      "type": "topic",
+      "label": "APIキー&マネジメント",
+      "position": {
+        "x": -210.6381872719934,
+        "y": 1146.5329320277096
+      },
+      "size": {
+        "width": 247,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "API キーと管理はAPI デザインの不可欠な部分である.API キーとは,ユーザ,開発者,またはプログラムにAPI を呼び出すことを認証するために使用されるユニークな識別子である.これは有効なAPI キーを持つ者だけが要求を行うことができるため,API エンドポイントに対するセキュリティと制御を保証します.API 管理は,組織がAPIの使用を管理し監視できるようにする実践とツールを指します.API 管理には,設計,展開,ドキュメント,セキュリティ,バージョン作成,および分析を含む API のすべての側面が含まれます.両方の要素は,効率的かつ制御されたデータ共有および通信のためのAPI を確保し,組織する上で重要な役割を果たします.",
+        "links": [
+          {
+            "title": "API 鍵管理とは何か?",
+            "url": "https://www.akeyless.io/secrets-management-glossary/api-key-management/",
+            "type": "article"
+          },
+          {
+            "title": "APIキーマネジメント - 定義とベストプラクティス",
+            "url": "https://infisical.com/blog/api-key-management",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5R9yKfN1vItuv__HgCwP7",
+      "type": "topic",
+      "label": "APIドキュメントツール",
+      "position": {
+        "x": 214.72110595703134,
+        "y": 1146.5329320277096
+      },
+      "size": {
+        "width": 247,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "API ドキュメンテーションツール (API Documentation Tools) は,APIデザインの複雑さを技術開発者や非技術関係者に伝える上で重要な役割を果たします.これらのツールは,APIの機能,クラス,返信タイプ,議論等などのすべての要素を含む包括的な,理解しやすい,検索可能なドキュメントを作成するのに役立ちます.詳細なドキュメントは API デザインの中心部であり, API のシームレスな採用,効果的な実装,効率的なトラブルシューティングを促進します.Swagger,DapperDox,ReDocを含むさまざまなツールが存在し,それぞれは API ドキュメンテーション要件に対応するユニークな機能を持っています.",
+        "links": [
+          {
+            "title": "スワガー の 公式 サイト",
+            "url": "https://swagger.io/",
+            "type": "article"
+          },
+          {
+            "title": "DapperDoxの公式サイト",
+            "url": "http://dapperdox.io/",
+            "type": "article"
+          },
+          {
+            "title": "レドックドキュメント",
+            "url": "https://github.com/Redocly/redoc",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5RY7AlfRQydjxWK65Z4cv",
+      "type": "subtopic",
+      "label": "スワガー /オープンAPI",
+      "position": {
+        "x": 232.85884761415554,
+        "y": 1270.9481617844106
+      },
+      "size": {
+        "width": 211,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Swagger (OpenAPIとも呼ばれ,OpenAIと混同してはならない) は,RESTful Web サービスを設計,構築,文書化するために特に使用されるツールの一組です.API 開発者は,明確な,分かりやすいアプローチでAPI を設計するための信じられないような機能のためにそれを大きく依存しています.OpenAPI 仕様 (OAS) を使用することによって,開発者は,さまざまなプログラミング言語で簡単に使用できるRESTful API を正確に定義することができます.この強力な普遍言語は,効果的な,効率的なAPI 設計の重要な構成要素です.",
+        "links": [
+          {
+            "title": "スワガーウェブサイト",
+            "url": "https://swagger.io/",
+            "type": "official"
+          },
+          {
+            "title": "OpenAPI イニチティブ",
+            "url": "https://www.openapis.org/",
+            "type": "official"
+          },
+          {
+            "title": "スワガーって?",
+            "url": "https://blog.hubspot.com/website/what-is-swagger",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "KQAus72RGqx5f-3-YeJby",
+      "type": "subtopic",
+      "label": "郵便局員",
+      "position": {
+        "x": 232.85884761415554,
+        "y": 1427.5717249610107
+      },
+      "size": {
+        "width": 211,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Postman は,APIの設計,テスト,管理のためのWeb開発における人気のあるツールである.コラボレーションプラットフォームとして,APIのライフサイクルの各段階を簡素化し,チーム間のコラボレーションを簡素化する.API設計の文脈では,APIを設計し模倣し,テストを自動化し,ユーザーフレンドリーなインターフェースで応答を観察するために使用することができる.APIエンドポイントは,適切に構造化され,組織化されたAPI設計プロセスのために,Postmanでもコレクションに組織することができます.最終的に,そのユーザーフレンドリーなインターフェースと包括的な機能は,APIデザインの領域において Postman を不可欠なツールとして位置付けます.",
+        "links": [
+          {
+            "title": "郵便局のウェブサイト",
+            "url": "https://www.postman.com/",
+            "type": "official"
+          },
+          {
+            "title": "ポストマン ドックス",
+            "url": "https://www.postman.com/api-documentation-tool/",
+            "type": "official"
+          },
+          {
+            "title": "初心者向け ポストマンチュートリアル",
+            "url": "https://www.youtube.com/watch?v=MFxk5BZulVU",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "LxWHkhlikUaMT2G8YmVDQ",
+      "type": "subtopic",
+      "label": "レッドミー・ドット・コム",
+      "position": {
+        "x": 232.85884761415554,
+        "y": 1323.1560161766106
+      },
+      "size": {
+        "width": 211,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "[Readme.com] (http://Readme.com) はAPIデザインの分野で貴重なツールであり,美しく,ダイナミックで直感的なドキュメントを作成するためのコラボレーションプラットフォームを提供するために知られています. API インターフェースのための明確な,包括的なドキュメントを概説するのに開発者に役立つツールです. [Readme.com] (http://Readme.com) で作成されたAPI ドキュメンテーションは,情報のプレゼンテーションだけでなく,インタラクティブな方法で読者の学習を向上させます.このインタラクティブなアプローチは,API が異なる状況下でどのように振る舞うかを実践的な理解を促進し,洞察を提供します.[Readme.com] (http://Readme.com) を使用して,開発者は学習プロセスを簡素化し,APIを消費し実装することを容易にするユーザー向けドキュメント環境を作成できます.",
+        "links": [
+          {
+            "title": "ReadMe ウェブサイト",
+            "url": "https://readme.com",
+            "type": "official"
+          },
+          {
+            "title": "読んでくれ",
+            "url": "https://github.com/orgs/readmeio/repositories?type=source",
+            "type": "opensource"
+          }
+        ]
+      }
+    },
+    {
+      "id": "OpS2NX1lPTOtfjV1wKtC4",
+      "type": "subtopic",
+      "label": "ストップライト",
+      "position": {
+        "x": 232.85884761415554,
+        "y": 1375.3638705688106
+      },
+      "size": {
+        "width": 211,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ストップライトは,API設計のあらゆる側面を処理するための技術チームのための包括的なプラットフォームを提供する先進的なツールです.ストップライトを利用して,チームはより協働的で効率的な方法でAPIを設計,文書化,開発することができます.このシステムはOpenAPI仕様を使用し,ユーザーがAPIを視覚的に設計することを可能にします.APIドキュメントを自動生成し,API模擬テストを実行し,API管理機能を提供することで,StoplightはAPI開発における設計第一のアプローチを採用する重要な役割を果たします.ストップライトを使用することで,APIは最初から使いやすい,スケーラブル,そして堅固なものに設計され,最終的にはAPIの全体的な開発プロセスと品質を改善します.",
+        "links": [
+          {
+            "title": "ストップライトウェブサイト",
+            "url": "https://stoplight.io/",
+            "type": "official"
+          },
+          {
+            "title": "ライトを止める",
+            "url": "https://github.com/stoplightio",
+            "type": "opensource"
+          }
+        ]
+      }
+    },
+    {
+      "id": "qIJ6dUppjAjOTA8eQbp0n",
+      "type": "topic",
+      "label": "APIセキュリティ",
+      "position": {
+        "x": -207.7109644352177,
+        "y": 1398.532340911712
+      },
+      "size": {
+        "width": 247,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "APIセキュリティは,アプリケーションプログラミングインターフェース (API) をセキュアにするために使用される実践と製品を指します.設計の文脈では,実装された API が安全で安全な方法でその目標を達成することを保証する不可欠な構成要素です.これはデータの保護,未承認アクセス防止,およびAPI をホストするシステムを保護することを含む.APIセキュリティは,API を悪意のある攻撃または未承認アクセスから保護するために使用される戦略,手順,技術を含みます.同時に最適なパフォーマンス,利用可能性,およびデータプライバシーを保証します.",
+        "links": [
+          {
+            "title": "OWASP プロジェクト API セキュリティ",
+            "url": "https://owasp.org/API-Security/editions/2023/en/0x00-toc/",
+            "type": "article"
+          },
+          {
+            "title": "セキュリティに関するトップ記事を探索",
+            "url": "https://app.daily.dev/tags/security?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "G70wvcOM1Isrx5ZBvS2xP",
+      "type": "subtopic",
+      "label": "一般的な脆弱性",
+      "position": {
+        "x": -205.2109644352177,
+        "y": 1251.6104620579213
+      },
+      "size": {
+        "width": 242,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "API デザインは,現代のソフトウェア開発の重要な構成要素であり,さまざまなアプリケーションがデータを通信し共有できるようにします.しかし,APIの使用が拡大するにつれて,セキュリティ脆弱性の可能性も拡大します. API デザインにおける一般的な脆弱性を理解することは,敏感なデータを保護し,安全なシステムを維持するために不可欠です.これらの脆弱性は適切な検証の欠如,脆弱な認証メカニズム,不安全なエンドポイント設定などによって発生する可能性があります.",
+        "links": [
+          {
+            "title": "API脆弱性の概要",
+            "url": "https://apimike.com/api-vulnerabilities",
+            "type": "article"
+          },
+          {
+            "title": "トップ API 脆弱性とそれらを軽減するための6つの方法",
+            "url": "https://brightsec.com/blog/top-api-vulnerabilities-and-6-ways-to-mitigate-them/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q1yaf-RbHIQsOqfzjn4k4",
+      "type": "subtopic",
+      "label": "最高 の 実践",
+      "position": {
+        "x": -205.2109644352177,
+        "y": 1303.8183164501213
+      },
+      "size": {
+        "width": 242,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "API デザインはソフトウェア開発の重要な要素として急速に浮上した.API を設計する際には,最適化,スケーラビリティ,効率性を確保するためにベストプラクティスを遵守することが不可欠である.API デザインにおけるベストプラクティスは,シンプルさ,一貫性,セキュリティ,適切なドキュメンテーションなどの原則を取り巻く.これらの実践は,開発プロセスを平滑させるだけでなく,API をよりユーザーフレンドリー,安定し,簡単に維持することができます.したがって,API デザインにおけるベストプラクティスを遵守することはオプションではなく,より長く持続し,よりよいパフォーマンスを発揮するAPIを作成しようとする開発者や組織にとって必須です.",
+        "links": [
+          {
+            "title": "APIセキュリティのベストプラクティス",
+            "url": "https://roadmap.sh/api-security-best-practices",
+            "type": "roadmap"
+          },
+          {
+            "title": "REST API デザインのベストプラクティス",
+            "url": "https://stackoverflow.blog/2020/03/02/best-practices-for-rest-api-design/",
+            "type": "article"
+          },
+          {
+            "title": "API 設計におけるベストプラクティス",
+            "url": "https://swagger.io/resources/articles/best-practices-in-api-design/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "d9ZXdU73jiCdeNHQv1_DH",
+      "type": "topic",
+      "label": "API 性能",
+      "position": {
+        "x": -590.469505701316,
+        "y": 1467.491632075372
+      },
+      "size": {
+        "width": 247,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "API デザインについて語るとき,私たちの注意を喚起する重要な側面の一つはAPI 性能です.API 性能は,開発されたAPI がタスクを実行し,他のプログラムまたはソフトウェアコンポーネントと通信できる効率と速度を指します.この基本的な側面は,アプリケーションの応答性に影響を直接及ぼし,データの交換,処理,およびエンドユーザーに提示される速度を決定します.API 性能の改善は,しばしばユーザー体験に関連する問題を解決し,API が統合されたアプリケーションの全体的なパフォーマンスを向上させます.したがって,API 性能は,システム間の最適化されたインタラクションの促進と,そのようなインターフェースに依存するデジタル製品の全体的な成功を決定する上で重要な役割を果たします.",
+        "links": [
+          {
+            "title": "API 性能を向上させるための10つのヒント",
+            "url": "https://nordicapis.com/10-tips-for-improving-api-performance/",
+            "type": "article"
+          },
+          {
+            "title": "API 性能を10倍にするトップ7の方法",
+            "url": "https://www.youtube.com/watch?v=zvWKqUiovAM",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "nQpczZUcn-TvrfT80dv0Q",
+      "type": "subtopic",
+      "label": "業績指標",
+      "position": {
+        "x": -585.469505701316,
+        "y": 1568.4353183589587
+      },
+      "size": {
+        "width": 237,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "API 設計パフォーマンスメトリックは,API が効率的で,効率的で,意図された目的に完全に適していることを保証する上で重要な役割を果たします.API の性能は,ユーザー体験と全体的なシステムパフォーマンスに深く影響を与える可能性があります.したがって,一連のパフォーマンスメトリックを定義し,監視することが重要です.これらは応答時間,吞吐量,エラー率,およびシステム健康とリソース利用を測定する他のものを含みます.API デザインの文脈でこれらのメトリックを優先することにより,開発者は機能的な要件を満たすことだけでなく,望ましいパフォーマンスレベルも提供するAPIを作成することができます.",
+        "links": [
+          {
+            "title": "APIパフォーマンスモニタリング",
+            "url": "https://www.catchpoint.com/api-monitoring-tools/api-performance-monitoring",
+            "type": "article"
+          },
+          {
+            "title": "APIモニタリングはAPIパフォーマンスをどのように向上させるのか?",
+            "url": "https://tyk.io/blog/api-product-metrics-what-you-need-to-know/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PrvRCR4HCdGar0vcUbG_a",
+      "type": "subtopic",
+      "label": "キャッシング 策略",
+      "position": {
+        "x": -585.469505701316,
+        "y": 1619.7437339754388
+      },
+      "size": {
+        "width": 237,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "API 設計におけるキャッシングは,データを簡単にアクセスできる場所に一時的に保存する技術として機能する.高速ストレージではなく遅いストレージソースからデータを入手することで,APIの全体的な速度とパフォーマンスを向上させることができます. HTTP キャッシング,データベースキャッシング,アプリケーションキャッシング,CDNキャッシングなどの複数の戦略が実装され,それぞれ独自の利点と考慮事項があります.API デザインの文脈で異なるキャッシング戦略を理解することは,効率的で高性能なAPIを設計するのに不可欠です.",
+        "links": [
+          {
+            "title": "APIのキャッシング戦略",
+            "url": "https://medium.com/@satyendra.jaiswal/caching-strategies-for-apis-improving-performance-and-reducing-load-1d4bd2df2b44",
+            "type": "article"
+          },
+          {
+            "title": "API のパフォーマンスを向上させるためにキャッシング戦略を使用する",
+            "url": "https://www.lonti.com/blog/using-caching-strategies-to-improve-api-performance",
+            "type": "article"
+          },
+          {
+            "title": "キャッシュ システム 開発者 すべて が 知ら なけれ ば なり ませ ん",
+            "url": "https://www.youtube.com/watch?v=dGAgxozNWFE",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "p5wsniYnOS7cbHd92RxGk",
+      "type": "subtopic",
+      "label": "負荷のバランス",
+      "position": {
+        "x": -585.469505701316,
+        "y": 1671.0521495919188
+      },
+      "size": {
+        "width": 237,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "負荷バランスはAPIデザインの分野において重要な役割を果たします.主にサーバーファームまたはサーバープールとしても知られるバックエンドサーバーのグループにネットワークトラフィックを均等かつ効率的に配布することに焦点を当てます.APIデザインに関しては,負荷バランスアルゴリズムを実装することは,単一のサーバが過剰な需要を負担しないように非常に重要です.これはサーバー故障の場合,トラフィックをリルーティングすることによって,高速可用性と信頼性を高め,アプリケーションパフォーマンスを効果的に向上させ,ポジティブなユーザー体験に貢献します.したがって,APIインタラクションに大きく依存するシステムアーキテクチャのスケーラビリティと強固性を確保する重要な戦術です.",
+        "links": [
+          {
+            "title": "負荷 の 均衡 は 何 です か",
+            "url": "https://www.cloudflare.com/en-gb/learning/performance/what-is-load-balancing/",
+            "type": "article"
+          },
+          {
+            "title": "APIにおける負荷バランサー",
+            "url": "https://learn.microsoft.com/en-us/rest/api/load-balancer/",
+            "type": "article"
+          },
+          {
+            "title": "API Gateway vs Load Balancer: アプリケーションに適したものは?",
+            "url": "https://konghq.com/blog/engineering/api-gateway-vs-load-balancer",
+            "type": "article"
+          },
+          {
+            "title": "負荷 均衡 は 何 です か",
+            "url": "https://www.youtube.com/watch?v=sCR3SAVdyCc",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tPVtRV818D8zAAuNbqPNa",
+      "type": "subtopic",
+      "label": "速度の制限/絞り込み",
+      "position": {
+        "x": -585.469505701316,
+        "y": 1722.3605652083988
+      },
+      "size": {
+        "width": 237,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "速度制限 (Rate Limiting) は,クライアントが指定された時間枠内でAPIに提出できるリクエスト数を制御することを目的としたAPIデザインの基本的な側面である.この技術は公正な使用を確保し,セキュリティを強化し,サーバー過負荷を防止し,リソースの均等な配分を可能にします.また,虐待行為またはDDoS攻撃に関連するリスクを最小限に抑えます.効果的な速度制限戦略は,APIの能力とクライアントの合理的なニーズに基づいて制限を定義し,必要に応じてこれらの制限を調整する柔軟性を含みます.速度制限とその重要性を理解することは,回復力のある,安全な,拡張可能なAPIプラットフォームを構築するために不可欠です.",
+        "links": [
+          {
+            "title": "API管理101: 料金制限",
+            "url": "https://tyk.io/learning-center/api-rate-limiting/",
+            "type": "article"
+          },
+          {
+            "title": "API 速度の制限 vs ストロッティング",
+            "url": "https://blog.stoplight.io/best-practices-api-rate-limiting-vs-throttling",
+            "type": "article"
+          },
+          {
+            "title": "システムデザインのコンセプト",
+            "url": "https://www.youtube.com/watch?v=9CIjoWPwAhU",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "-qdwBg7HvwlbLy3IKCRij",
+      "type": "subtopic",
+      "label": "プロファイリングとモニタリング",
+      "position": {
+        "x": -585.469505701316,
+        "y": 1773.6689808248789
+      },
+      "size": {
+        "width": 237,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "プロファイリングとモニタリングは,APIの設計と実装の重要な側面である.この文脈では,APIの動作を分析するプロセスを指し,応答時間,リクエスト率,エラー率,およびAPIの全体的な健康と機能を含むさまざまなパフォーマンスメトリックを理解します.一方,モニタリングは,APIの状態をチェックする継続的なプロセスであり,それが予想通り機能していることを確認し,潜在的な問題や改善に対する早期警告システムを提供します.一緒に,APIのプロファイリングとモニタリングはより信頼できる,効率的で高性能なサービスにつながる可能性があります.",
+        "links": [
+          {
+            "title": "あなたのAPIの健康とパフォーマンスを監視する",
+            "url": "https://learning.postman.com/docs/monitoring-your-api/intro-monitors/",
+            "type": "article"
+          },
+          {
+            "title": "Pintrest の API プロフィーリング",
+            "url": "https://medium.com/pinterest-engineering/api-profiling-at-pinterest-6fa9333b4961",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "DQcAV59vr1-ZRnMfbLXpu",
+      "type": "subtopic",
+      "label": "性能試験",
+      "position": {
+        "x": -585.469505701316,
+        "y": 1824.977396441359
+      },
+      "size": {
+        "width": 237,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "API設計におけるパフォーマンステストは,APIが異なる作業負荷下で信頼性と効率的に動作することを評価し,確認する実践を指す.適切に実行されたパフォーマンステストは,APIの速度,応答時間,信頼性,およびスケーラビリティを検証することができます.API設計の不可欠な側面として,APIがシステム機能に対する期待を効果的に満たしているかどうかをチェックし,最適化の潜在的な領域を示します.性能テストは,意外な故障を防ぐこと,およびAPIの満足度を最適化することによって,ユーザー体験の高水準を維持するために不可欠です.",
+        "links": [
+          {
+            "title": "APIパフォーマンステスト:ステップバイ・ステップガイド",
+            "url": "https://testsigma.com/blog/api-performance-testing/",
+            "type": "article"
+          },
+          {
+            "title": "API のパフォーマンスをテストするためにユーザートラフィックをシミュレートする",
+            "url": "https://learning.postman.com/docs/collections/performance-testing/testing-api-performance/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "R3aRhqCslwhegMfHtxg5z",
+      "type": "topic",
+      "label": "API 統合パターン",
+      "position": {
+        "x": -210.2109644352177,
+        "y": 1544.4353183589587
+      },
+      "size": {
+        "width": 247,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "API インテグレーション パターン (API Integration Patterns) は,API デザインの文脈で,サービス間の通信を可能にするために使用される共通のパラダイムとアプローチを指します.これらのパターンは,異なるAPIがどのように相互作用し,データを交換するかを指示し,ソフトウェアアプリケーションが統合的に動作することを可能にします.さまざまなソフトウェアコンポーネントを接続するための標準方法を提供することによって,アプリケーション開発において重要な役割を果たします.これらのパターンを理解して実装することにより,開発者はより堅固でスケーラブルで相互運用可能なAPIを設計することができます.",
+        "links": [
+          {
+            "title": "API 統合パターン - Dzone",
+            "url": "https://dzone.com/refcardz/api-integration-patterns",
+            "type": "article"
+          },
+          {
+            "title": "API 統合 パターン - 献身",
+            "url": "https://uk.devoteam.com/expert-view/api-integration-patterns/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "kJD1K2-ZkoezFCfpmOM0Z",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": -255.7109644352177,
+        "y": 1661.7437339754388
+      },
+      "size": {
+        "width": 336,
+        "height": 370
+      },
+      "style": {
+        "width": 150,
+        "height": 100,
+        "fontSize": 17,
+        "backgroundColor": "TRANSPARENt",
+        "borderColor": "TRANSPARENt"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "--mmTKhG58_elbUqyn90G",
+      "type": "subtopic",
+      "label": "Synchronous vs Asynchronous API",
+      "position": {
+        "x": -250.7109644352177,
+        "y": 1662.4353183589587
+      },
+      "size": {
+        "width": 326,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "API を設計する際,重要な決定の一つは,同期または非同期 API を作成するかどうかです.同期 API は,接続を開いて,移動する前に応答を待つものであり,したがって順序的に動作するものです.これは効率的で理解しやすいコーディングにつながる可能性がありますが,呼び手はプロセスが完了するまで待つ必要があるため,長いタスクに対処する際にパフォーマンス問題を引き起こす可能性があります.一方,非同期 API は次のタスクに移る前に応答を待たないため,複数の操作が同時に実行される可能性があります.これは,特に複数のリクエストを同時に処理する必要があるアプリケーションでパフォーマンスと応答性の向上につながる可能性があります.しかし,アシンクロンなAPIのコーディングはレース条件やコールバックなどの問題により複雑になることがあります.これらの2種類のAPIデザインの違いを理解することは,効率的で効果的なAPIを作成するために不可欠です.",
+        "links": [
+          {
+            "title": "アシンクロンな API  知っておくべきすべて",
+            "url": "https://blog.hubspot.com/website/asynchronous-api",
+            "type": "article"
+          },
+          {
+            "title": "同期および非同期 API の違い",
+            "url": "https://nordicapis.com/the-differences-between-synchronous-and-asynchronous-apis/",
+            "type": "article"
+          },
+          {
+            "title": "アシンクロンなAPIを理解する",
+            "url": "https://blog.postman.com/understanding-asynchronous-apis/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "oMfOBkVsgiLvFLicOUdx6",
+      "type": "subtopic",
+      "label": "イベント駆動アーキテクチャ",
+      "position": {
+        "x": -250.7109644352177,
+        "y": 1713.7417878080591
+      },
+      "size": {
+        "width": 326,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "イベント駆動アーキテクチャ (EDA) は,イベントの生産,解釈,消費を中心とするソフトウェアデザインコンセプトである.API設計に関して,EDAはシステムに分析,マイクロサービス,および操作を分散させる柔軟性を与え,リアルタイム情報共有と反応を促進する.イベント駆動APIは非同期通信を優先し,アプリケーションが重いデータロードに対処するときに応答性を維持できるようにする.効果的なAPIのために,EDAに遵守することはデータ信頼性,スケーラブル構造の成熟度,効率的なリアルタイムデータ処理能力を提供します.",
+        "links": [
+          {
+            "title": "イベント主導の建築スタイル",
+            "url": "https://learn.microsoft.com/en-us/azure/architecture/guide/architecture-styles/event-driven",
+            "type": "article"
+          },
+          {
+            "title": "イベント主導のアーキテクチャ",
+            "url": "https://aws.amazon.com/event-driven-architecture/",
+            "type": "article"
+          },
+          {
+            "title": "イベント駆動アーキテクチャ: 7分で説明!",
+            "url": "https://www.youtube.com/watch?v=gOuAqRaDdHA",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "MJeUD4fOHaJu1oxk4uQ-x",
+      "type": "subtopic",
+      "label": "APIゲートウェイ",
+      "position": {
+        "x": -250.7109644352177,
+        "y": 1765.752205777561
+      },
+      "size": {
+        "width": 326,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "APIゲートウェイはマイクロサービスアーキテクチャの主要なエントリーポイントとして機能し,しばしばリクエストルーティング,構成,プロトコル翻訳に責任を負う.非ビジネスタスクに対応するための共有層を提供することでAPI設計において重要な役割を果たします.これは,消費者がバックエンドサービスとどのように相互作用するかを簡素化するだけでなく,セキュリティを維持し,ポリシーを実施し,APIの使用に関する分析を提供するのに役立ちます.APIを設計する際に,効率的なAPIゲートウェイを理解して実装することは,これらのゲートウェイが適切に構造化された,スケーラブルなAPIアーキテクチャの重要な構成要素を形成しているため,貴重なスキルです.",
+        "links": [
+          {
+            "title": "APIゲートウェイの役割は?",
+            "url": "https://www.redhat.com/en/topics/api/what-does-an-api-gateway-do",
+            "type": "article"
+          },
+          {
+            "title": "APIゲートウェイとは?",
+            "url": "https://www.ibm.com/blog/api-gateway/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PPeBbooE121zrgNwpVTiA",
+      "type": "subtopic",
+      "label": "マイクロサービスアーキテクチャ",
+      "position": {
+        "x": -250.7109644352177,
+        "y": 1817.410649486862
+      },
+      "size": {
+        "width": 326,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "マイクロサービスアーキテクチャは,APIデザインに関して重要な役割を果たします.これは,明確に定義されたインターフェースを持つ単機能モジュールを構築することに焦点を当てたソフトウェアシステムの開発のユニークな方法を表しています.各マイクロサービスが独自のプロセスを実行し,特定のビジネス目標に奉仕するために明確に定義された軽量メカニズム (しばしばHTTPリソース API) を介して通信します.このアーキテクチャは,大規模で複雑なアプリケーションの迅速かつ信頼性の高い,スケーラブルな展開を可能にします.独立に展開可能なユニットの周りに開発チームの組織を容易にするため,生産性と速度を高めます.APIを設計するとき,柔軟かつスケーラブルな構築を得るためにこのモデルを適応することが不可欠です.",
+        "links": [
+          {
+            "title": "マイクロサービスアーキテクチャとは?",
+            "url": "https://cloud.google.com/learn/what-is-microservices-architecture",
+            "type": "article"
+          },
+          {
+            "title": "マイクロサービスアーキテクチャスタイル",
+            "url": "https://learn.microsoft.com/en-us/azure/architecture/guide/architecture-styles/microservices",
+            "type": "article"
+          },
+          {
+            "title": "5分で説明されたマイクロサービス",
+            "url": "https://www.youtube.com/watch?v=lL_j7ilk7rc",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "IkPZel5zxXWIx90Qx7fZI",
+      "type": "subtopic",
+      "label": "メッセージの列",
+      "position": {
+        "x": -250.7109644352177,
+        "y": 1972.3859806147652
+      },
+      "size": {
+        "width": 326,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "メッセージングキューは API デザインにおいて,特に堅固で,分離された,効率的なシステムを作成する上で基本的な役割を果たします.これらのキューは,送信者 (生産者) から送信されたメッセージやデータをバッファーとして保存し,受信者 (消費者) が独自のペースで回収し処理できるようにします.API デザインの文脈では,このコンセプトは,開発者が大量のデータ処理要件を処理できるようにし,複数のサービス間の非同期通信プロトコルを提供します.API デザインにおけるメッセージングキューの利点には,より優れたシステムスケーラビリティ,故障耐性,および全体的なシステムの回復力の増加が含まれます.",
+        "links": [
+          {
+            "title": "メッセージキューとは何か?",
+            "url": "https://aws.amazon.com/message-queue/",
+            "type": "article"
+          },
+          {
+            "title": "REST API メッセージ列が説明されました",
+            "url": "https://www.youtube.com/watch?v=2idPgA6IN_Q",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "75NVxS0iwoQXxOHCkWQxH",
+      "type": "subtopic",
+      "label": "Webhooks vs 投票",
+      "position": {
+        "x": -250.7109644352177,
+        "y": 1869.069093196163
+      },
+      "size": {
+        "width": 326,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "API 設計におけるサーバー通信とデータ交換を管理する際には,一般的に使用される2つの方法は,Webhooksとアンケートです.これらの2つの戦略は,アップデートとデータ同期を異なる方法で処理します.アンケートは,クライアントがアップデートをチェックするためにサーバーに繰り返し要求する技術です.この場合,情報の交換の速度をクライアントが決定します.逆に,Webhooksは\"プッシュ\"メカニズムで動作します.サーバーは,リアルタイムで効率的なデータ同期を提供し,クライアントにアップデートを送信します.使用する方法を決定することは,データ変更の頻度,サーバーの負荷,アプリケーションのリアルタイムニーズを含むAPI 設計要件の詳細に依存します.",
+        "links": [
+          {
+            "title": "Webhooks,WebSocket,Pub/Sub,およびアンケートを使用する時期",
+            "url": "https://hookdeck.com/webhooks/guides/when-to-use-webhooks",
+            "type": "article"
+          },
+          {
+            "title": "投票対Webhooks:いつ互いを使うか",
+            "url": "https://www.merge.dev/blog/webhooks-vs-polling",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "X68HXAAV-nKo-V4Fu1o72",
+      "type": "subtopic",
+      "label": "バッチ処理",
+      "position": {
+        "x": -250.7109644352177,
+        "y": 1920.7275369054641
+      },
+      "size": {
+        "width": 326,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "バッチ処理とは,API設計における大量データ要求処理の方法を指します.ここで,複数のAPI要求が単一のグループまたは\"バッチ\"としてパッケージ化され処理されます.多数の個々のAPI呼び出しをする代わりに,ユーザーは複数の操作で一バッチリクエストを行うことができます.このアプローチは,複数の接続の確立と閉鎖のオーバーヘッドを削減することによってパフォーマンスと効率を高めることができます.API設計における\"バッチ処理\"という概念は,データ密集したアプリケーションまたはデータ処理の必要性が多いシステムにおいて特に有用です.",
+        "links": [
+          {
+            "title": "API 設計ガイドライン: 大量対バッチ輸入",
+            "url": "https://tyk.io/blog/api-design-guidance-bulk-and-batch-import/",
+            "type": "article"
+          },
+          {
+            "title": "ストリーム対バッチ処理例で説明",
+            "url": "https://www.youtube.com/watch?v=1xgBQTF24mU",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "H22jAI2W5QLL-b1rq-c56",
+      "type": "subtopic",
+      "label": "ウサギ MQ",
+      "position": {
+        "x": -497.66906836651873,
+        "y": 1941.8678842718575
+      },
+      "size": {
+        "width": 146,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "RabbitMQはオープンソースのメッセージブロッカーソフトウェア/システムで,API設計において,特に効率的で効果的なプロセス間通信を促進する重要な役割を担っています.テキスト,バイナリー,またはシリアライズされたオブジェクトなどのさまざまなフォーマットで安全かつ信頼性の高いデータ転送を可能にするために,Advanced Message Queuing Protocol (AMQP) を実装しています.RabbitMQは,スケーラビリティと強度のためにアプリケーションプロセスを分離するのに便利であり,データ配信が安全かつシームレスに起こることを保証します.複数のユーザーまたはサービスコールを同時に処理する方法としてキューを導入します.したがって,APIの応答性とパフォーマンスを向上します.キューシステムではAPIの負荷を均等に消化し,サービスにリクエストデータ処理を可能にします.",
+        "links": [
+          {
+            "title": "RabbitMQ ウェブサイト",
+            "url": "https://www.rabbitmq.com/",
+            "type": "official"
+          },
+          {
+            "title": "RabbitMQへの入門",
+            "url": "https://www.youtube.com/watch?v=bfVddTJNiAw",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "boYX1QcJullypfX4sevdy",
+      "type": "subtopic",
+      "label": "カフカ",
+      "position": {
+        "x": -499.16906836651884,
+        "y": 1996.867884271857
+      },
+      "size": {
+        "width": 149,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Apache Kafka は API デザインの不可欠なリアルタイム,故障耐性,高度に信頼性の高いメッセージングシステムです.主にリアルタイムデータストリーミングアプリケーションとマイクロサービスを構築するために使用されます.高量データと多用登録者サポートの固有の能力のために.API デザインの文脈では,カフカは,クラウドベースのプラットフォームとサービスがリアルタイム環境で相互にシームレスに通信できるようにする強力なメッセージングキューシステムを提供します.さらに,API 設計者は,Producer API,Consumer API, Streams API,Connect APIなどのカフカ API を使用し,カフカエコシステム内のメッセージの送信と操作を可能にします.",
+        "links": [
+          {
+            "title": "カフカのウェブサイト",
+            "url": "https://kafka.apache.org/",
+            "type": "official"
+          },
+          {
+            "title": "アパチェ/カフカ",
+            "url": "https://github.com/apache/kafka",
+            "type": "opensource"
+          },
+          {
+            "title": "カフカは100秒で",
+            "url": "https://www.youtube.com/watch?v=uvb00oaa3k8",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Wpk4TvxcZOJgAoXjrOsZF",
+      "type": "topic",
+      "label": "APIテスト",
+      "position": {
+        "x": 221.19846699906657,
+        "y": 1758.058993623857
+      },
+      "size": {
+        "width": 247,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "APIテストは,アプリケーションプログラミングインターフェース (API) の機能性,信頼性,性能,セキュリティをチェックするプロセスを指します. API 設計では API が正しく,予想通り動作することを保証するため重要な役割を果たします.このタイプのテストにはユーザーインターフェースを必要とせず,主にソフトウェアアーキテクチャのビジネスロジック層に焦点を当てます. API テストは,さまざまなソフトウェアシステム間のデータ通信と応答がエラーフリーで簡素化されることを保証するために不可欠です.",
+        "links": [
+          {
+            "title": "APIテストとは何か?",
+            "url": "https://www.postman.com/api-platform/api-testing/",
+            "type": "article"
+          },
+          {
+            "title": "API テスト:何が,どのようにテストし,ベストプラクティスを行うか",
+            "url": "https://testsigma.com/guides/api-testing/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JvmW78cDm84GNhq8VEYZp",
+      "type": "subtopic",
+      "label": "ユニットテスト",
+      "position": {
+        "x": 247.69846699906657,
+        "y": 1505.4070461854096
+      },
+      "size": {
+        "width": 194,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ユニットテストは,API設計の文脈で,APIの個々のコンポーネントまたは機能を独立してテストするプロセスを指し,各部品が正しく動作していることを確認します.通常は開発段階で行われます.ユニットテストの主な目的は,各コンポーネントを隔離し,その正しい動作を検証することです.それによって,API全体の安定性に信頼を高めます.統合テストのための堅牢な基盤を築き,最終的には,信頼性の高い,バグフリーなAPIにつながります.APIがRESTful,SOAP,またはGraphQLであれ,API設計および開発におけるユニットテストは重要なステップです.",
+        "links": [
+          {
+            "title": "REST API の単位テストの書き方",
+            "url": "https://medium.com/@oyetoketoby80/how-to-write-unit-test-for-your-rest-api-f8f71376273f",
+            "type": "article"
+          },
+          {
+            "title": "ユニットテスト REST API",
+            "url": "https://www.testim.io/blog/unit-test-rest-api/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "qZELS5vw2feS7QfyD7spX",
+      "type": "subtopic",
+      "label": "統合テスト",
+      "position": {
+        "x": 247.69846699906657,
+        "y": 1559.4070461854096
+      },
+      "size": {
+        "width": 194,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "統合テストはAPI設計の重要な側面である.これは個々の単位またはコンポーネントを組み合わせてグループとしてテストするソフトウェアテストのレベルである.API設計における統合テストの主な目的は,統合単位間の相互作用における欠陥と不一致を暴露することである.このテストアプローチは,APIの異なる部品が,必要な機能とパフォーマンスを提供するために,シームレスに連携することを保証します.ネットワーク,データベース,およびパフォーマンスに関連する問題を検出するのに役立ちます.ユニットテストが発見できない.したがって,このレベルのテストはAPIの統合部品の信頼性,効率性,機能性を検証するのに不可欠です.",
+        "links": [
+          {
+            "title": "API 統合テストを実行する方法",
+            "url": "https://www.merge.dev/blog/api-integration-testing",
+            "type": "article"
+          },
+          {
+            "title": "統合テストテンプレート",
+            "url": "https://www.postman.com/templates/fe506090-ca91-4340-bea9-82d2c3d2bb9a/Integration-testing/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6lm3wy9WTAERTqXCn6pFt",
+      "type": "subtopic",
+      "label": "機能テスト",
+      "position": {
+        "x": 247.69846699906657,
+        "y": 1613.4070461854096
+      },
+      "size": {
+        "width": 194,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "API設計の文脈で機能テストは,APIのエンドポイントとキー値ペアを検証することを含みます.サーバー応答が予想通り動作することを保証し,APIが意図されたすべての機能を正しく実行しているか否かを評価します.リクエスト-レスポンスのペア,エラーコード,データ精度などのさまざまなアプローチが使用されます.機能テストは,APIが指定された要件を満たす程度やアプリケーションへの統合に準備ができているかどうかについての貴重な洞察を提供することができます.",
+        "links": [
+          {
+            "title": "API 機能テスト 重要な理由とテスト方法",
+            "url": "https://testsigma.com/blog/api-functional-testing/",
+            "type": "article"
+          },
+          {
+            "title": "API 機能テストとは何か?",
+            "url": "https://www.youtube.com/watch?v=CvJHDKMWofk",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "7JNEx_cbqnAx3esvwZMOd",
+      "type": "subtopic",
+      "label": "負荷試験",
+      "position": {
+        "x": 247.69846699906657,
+        "y": 1667.4070461854096
+      },
+      "size": {
+        "width": 194,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "負荷テストは,さまざまな負荷下で信頼性,効率性,パフォーマンスを保証するAPI設計の重要な側面である.主に,処理できるリクエストの量およびこの限界に達または過負荷されたときにその後の行動に関してAPIの最大容量を特定することに焦点を当てます.さまざまなレベルのユーザー負荷をシミュレーションすることによって,開発者はシステム内のボトルネックまたは故障点を特定し,修正することができ,その結果,全体的なAPI回復力を高めます.",
+        "links": [
+          {
+            "title": "API 負荷テスト - 初心者向けガイド",
+            "url": "https://grafana.com/blog/2024/01/30/api-load-testing/",
+            "type": "article"
+          },
+          {
+            "title": "リアルワールドトラフィックをシミュレーションすることで API 性能をテストする",
+            "url": "https://blog.postman.com/postman-api-performance-testing/",
+            "type": "article"
+          },
+          {
+            "title": "負荷テスト API",
+            "url": "https://www.youtube.com/watch?v=a5hWE4hMOoY",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "bEVCT5QGY3uw0kIfAELKh",
+      "type": "subtopic",
+      "label": "馬鹿げたAPI",
+      "position": {
+        "x": 248.4735203536439,
+        "y": 1861.446054725657
+      },
+      "size": {
+        "width": 194,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "APIモッキングは API デザインとテストの重要な側面である.実際の API が簡単に利用可能になる必要性なしに,システムのさまざまな側面をテストするために実際の API の行動をシミュレートすることを含む.開発およびテストの段階では,API が未定義または API の変更が予想される可能性があります.したがって,モッキングは画面に登場します.そのような場合,ソフトウェア開発者やテスト者がシステムを隔離し,独立して作業するのを助け,テストの入力および出力の制御を強化します.ここで,API の機能性,信頼性,パフォーマンス,セキュリティのテストから重点を置いています.したがって,効果的な API モッキング戦略を理解して実装することで,API デザインと開発プロセスを大幅に効率化することができます.",
+        "links": [
+          {
+            "title": "API の 嘲笑 は 何 です か",
+            "url": "https://katalon.com/resources-center/blog/what-is-api-mocking",
+            "type": "article"
+          },
+          {
+            "title": "APIの嘲笑とは何か (APIの嘲笑とは何か?定義,ガイド,ベストプラクティス)",
+            "url": "https://blog.postman.com/what-is-api-mocking/",
+            "type": "article"
+          },
+          {
+            "title": "RESTFUL API を 嘲笑 する 方法 - 簡単 な 方法!",
+            "url": "https://www.youtube.com/watch?v=tJRN5WBF5Wc",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "NqeBglhzukVMMEF9p2CXc",
+      "type": "subtopic",
+      "label": "契約試験",
+      "position": {
+        "x": 248.4735203536439,
+        "y": 1915.446054725657
+      },
+      "size": {
+        "width": 194,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "契約テストは,堅固で信頼性の高いAPIインフラストラクチャを維持する重要な側面です.API設計の分野では,契約テストは,APIが予想通り動作し,変更が意図された機能性を破らないことを保証する方法を指します.このアプローチは,通常消費者とプロバイダー (API) の2つの異なるシステム間の相互作用を検証し,合意された契約に従うことを保証します.APIのための明確な,簡潔な契約を定義することによって,開発者は一般的なデプロイメント問題を回避し,システム統合プロセスを強化することができます.",
+        "links": [
+          {
+            "title": "契約試験に関する完全なガイド",
+            "url": "https://testsigma.com/blog/api-contract-testing/",
+            "type": "article"
+          },
+          {
+            "title": "API 契約試験開始",
+            "url": "https://saucelabs.com/resources/blog/getting-started-with-api-contract-testing",
+            "type": "article"
+          },
+          {
+            "title": "契約試験",
+            "url": "https://www.postman.com/templates/42247877-8529-429d-acba-4de20c3b5b3b/Contract-testing/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "XD1vDtrRQFbLyKJaD1AlA",
+      "type": "subtopic",
+      "label": "エラー処理 / 再試行",
+      "position": {
+        "x": -585.469505701316,
+        "y": 1876.285812057839
+      },
+      "size": {
+        "width": 237,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "効果的なAPIデザインを作成する際には,エラー処理とリトリースの対処が不可欠な側面を形成する.これは主にAPIが常にエラーフリーではないためであり,ネットワークヒックアップやユーザーからの入力不正確性の事例が発生することが可能である.強力なエラー処理がなければ,そのような発生は簡単に壊滅的なアプリケーション故障または不満足なユーザー体験を引き起こす可能性があります.エラー処理は入力を検証し,例外を管理し,適切なエラーメッセージまたはステータスコードをユーザーに返すことを指すことができます.一方,リトリースの概念は,一時的な故障の間に最大限のリクエストの成功を保証するために登場します.正しく実装されたリトリーを通じて,APIは,順調な操作を保証するよう,リクエストを実行しようと繰り返し試みることができます.",
+        "links": [
+          {
+            "title": "API コールにリテリーを追加することでバックエンドを改善する方法",
+            "url": "https://hackernoon.com/how-to-improve-your-backend-by-adding-retries-to-your-api-calls-83r3udx",
+            "type": "article"
+          },
+          {
+            "title": "回復力のある Web アプリケーションを作る方法",
+            "url": "https://www.youtube.com/watch?v=Gly94hp3Eec",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JE12g5cqnwmgeTle14Vxw",
+      "type": "topic",
+      "label": "リアルタイム API",
+      "position": {
+        "x": 35.36181272800661,
+        "y": 2095.4915595367556
+      },
+      "size": {
+        "width": 171,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "API デザインの分野では,リアルタイムのAPIは,最新データへのアクセスがすぐに提供されるため,重要な価値があります.更新のために定期的なアンケートに頼るのではなく,リアルタイムのAPIは,クライアントとサーバー間のオープンな接続を維持し,即時,双方向的なデータフローを可能にします.これらのAPIは,ライブチャットプログラム,金融取引プラットフォームまたはオンラインマルチプレーヤーゲームなどのリアルタイムの情報を必要とするアプリケーションで使用されます.そのようなAPIを設計するには,接続管理,データ一貫性,高量データストリームの効率的な処理などの要素を慎重に考慮する必要があります.",
+        "links": [
+          {
+            "title": "リアルタイム APIとは?",
+            "url": "https://www.pubnub.com/guides/realtime-api/",
+            "type": "article"
+          },
+          {
+            "title": "リアルタイム APIとは何ですか? いつ使うか?",
+            "url": "https://ably.com/topic/what-is-a-realtime-api",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "UQ8N7gcVpRLAYXgUNHBt5",
+      "type": "subtopic",
+      "label": "ウェブソケット",
+      "position": {
+        "x": 267.72110595703134,
+        "y": 2069.2728071916526
+      },
+      "size": {
+        "width": 194,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Web Sockets は,クライアントとサーバーの間の長時間接続を提供し,メッセージがリアルタイムで二方向的に送信できます.従来の HTTP よりも速く効率的な通信方法を提供することによって,リアルタイム API を作成する上で重要な役割を果たします.API デザインの文脈では,Web Sockets はチャットアプリケーション,ライブスポーツ アップデート,リアルタイム分析などのリアルタイムデータ転送を必要とする API を開発するために使用されます.このパラダイムシフトは,従来の HTTP ベースの API デザインから Web Socket ベースの API デザインにリアルタイム データ処理により反応的でダイナミックで効率的な API を作成するのに役立ちます.",
+        "links": [
+          {
+            "title": "WebSocket API (WebSockets)",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API",
+            "type": "article"
+          },
+          {
+            "title": "ウェブソケットとは何か?",
+            "url": "https://www.pubnub.com/guides/websockets/",
+            "type": "article"
+          },
+          {
+            "title": "ウェブ・ソケット の 働き方",
+            "url": "https://www.youtube.com/watch?v=pnj3Jbho5Ck",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "iNsXTtcIHsI_i-mCfjGYn",
+      "type": "subtopic",
+      "label": "サーバー送信 イベント",
+      "position": {
+        "x": 267.72110595703134,
+        "y": 2123.2728071916526
+      },
+      "size": {
+        "width": 194,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Server-Sent Events (SSE) はリアルタイムのAPIの設計における明示的な概念を表しています.クライアントがリクエストを送信し,サーバーからの応答を待っている伝統的なアプローチとは異なり,SSEは特定のイベントが起こるたびにサーバーにデータをクライアントに送信できるようにします.SSEはリアルタイムのデータが不可欠なリアルタイムのニュース更新,リアルタイムのゲーム,またはライブストリーミングサービスなどのアプリケーションの開発に関して特に基本的なものです.SSEのアプローチでAPIを設計すると,よりダイナミックで応答性の高いユーザー体験が保証されます.",
+        "links": [
+          {
+            "title": "サーバーで送信されたイベントを使用する",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events/Using_server-sent_events",
+            "type": "article"
+          },
+          {
+            "title": "サーバー発送イベント 郵便局 レベルアップ",
+            "url": "https://www.youtube.com/watch?v=KrE044J8jEQ",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "yvdfoly5WHHTq2Puss355",
+      "type": "topic",
+      "label": "基準と遵守",
+      "position": {
+        "x": -363.31358688509135,
+        "y": 2210.5425435400516
+      },
+      "size": {
+        "width": 272,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "APIを設計する際には,標準とコンプライアンスという概念を考慮することが重要です.標準は,開発者に良好な構造と簡単に維持可能な APIを作成するためのガイドとなるルールとベストプラクティスの集合を表しています.エンドポイントの適切な構造,エラー応答の標準化,命名条約,HTTP動詞の使用までです.コンプライアンスとは,RESTやSOAPなどのプロトコル要件や標準を満たすことに重点を置く.さらに,規制された産業内で動作することは,GDPR,HIPAAなどの特定のコンプライアンス対策を必要とします.APIデザインにおけるコンプライアンスはシステム間のデータ転送の相互運用性と安全性を保証します.",
+        "links": [
+          {
+            "title": "APIコンプライアンスとは何か?",
+            "url": "https://tyk.io/learning-center/api-compliance/",
+            "type": "article"
+          },
+          {
+            "title": "APIコンプライアンスとは何か? なぜ重要なのか?",
+            "url": "https://www.traceable.ai/blog-post/achieve-api-compliance",
+            "type": "article"
+          },
+          {
+            "title": "REST API 規格",
+            "url": "https://www.integrate.io/blog/rest-api-standards/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "vZxdswGLHCPi5GSuXEcHJ",
+      "type": "subtopic",
+      "label": "GDPR",
+      "position": {
+        "x": -570.6112846237921,
+        "y": 2102.642324872653
+      },
+      "size": {
+        "width": 124,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "一般データ保護規則 (GDPR) は,欧州連合内における個人データの保管,転送,処理に関するAPIデザインにおける不可欠な標準である.APIデザインに関して,APIがデータをどのように処理し,処理し,データプライバシーとセキュリティに関するGDPRの要求に準拠するかを考慮する必要があります.これには明示的な同意,削除権利,データ移植性,および設計によるプライバシーに関する要件が含まれます.これらの基準に違反することは, usersとクライアントからの大きな罰金だけでなく,信頼を損なう可能性があります.したがって,APIデザイン内のGDPRの影響と統合を理解することは,EUの住民のデータを扱う組織にとって不可欠です.",
+        "links": [
+          {
+            "title": "GDPR",
+            "url": "https://gdpr-info.eu/",
+            "type": "official"
+          },
+          {
+            "title": "ウェブアプリケーションとAPIセキュリティにおけるGDPRコンプライアンスとは?",
+            "url": "https://probely.com/blog/what-is-gdpr-compliance-in-web-application-and-api-security/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "At5exN7ZAx2IzY3cTCzHm",
+      "type": "topic",
+      "label": "APIライフサイクル管理",
+      "position": {
+        "x": -361.55504561899306,
+        "y": 2095.4915595367556
+      },
+      "size": {
+        "width": 268,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "APIライフサイクルの管理は,API設計における重要な側面であり,APIの作成,管理,退職のプロセスを監督する.これは,APIの初期計画,設計,テスト,展開からAPIの最終的な退職までの様々な段階を含む.適切なライフサイクルの管理は,APIが要件を満たし,信頼性があり,エンドユーザーと開発者のニーズに沿って進化することを保証します.さらに,APIのセキュリティ,パフォーマンス,アクセシビリティを維持するのに役立ちます.この包括的なアプローチは,組織がAPIを最大限に活用し,問題を軽減し,デジタル変換を成功させるのに役立ちます.",
+        "links": [
+          {
+            "title": "APIライフサイクルとは?",
+            "url": "https://www.postman.com/api-platform/api-lifecycle/",
+            "type": "article"
+          },
+          {
+            "title": "APIライフサイクル管理とは?",
+            "url": "https://swagger.io/blog/api-strategy/what-is-api-lifecycle-management/",
+            "type": "article"
+          },
+          {
+            "title": "APIのライフサイクルの一日",
+            "url": "https://www.youtube.com/watch?v=VxY_cz0VQXE",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a-_iIE7UdoXzD00fD9MxN",
+      "type": "subtopic",
+      "label": "CCPA",
+      "position": {
+        "x": -570.6112846237921,
+        "y": 2156.642324872653
+      },
+      "size": {
+        "width": 124,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "カリフォルニア消費者プライバシー法 (CCPA) は,米国カリフォルニア州内の個人のプライバシー権利と消費者保護を強化することを目的とした重要な州法である.API設計は,不正な管理とユーザーデータの暴露がこの法律を侵害する可能性があるため,CCPAの遵守に大きな影響を与えます.重要なことに,APIを設計することは,データプライバシー,セキュリティ,ユーザー同意を基礎から考慮することを意味します.プログラム的には,CCPAの遵守は,データアクセス,データ削除,およびオプションアウトリクエストなどのユーザー要求に対応するAPIの構造化を含む可能性があります.",
+        "links": [
+          {
+            "title": "カリフォルニアの消費者プライバシー法 (CCPA)",
+            "url": "https://oag.ca.gov/privacy/ccpa",
+            "type": "official"
+          },
+          {
+            "title": "CCPAとは何か?",
+            "url": "https://www.cloudflare.com/en-gb/learning/privacy/what-is-the-ccpa/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "J0enF8UTVzY3H4n3pbPIF",
+      "type": "subtopic",
+      "label": "PCI DSS",
+      "position": {
+        "x": -570.6112846237921,
+        "y": 2210.642324872653
+      },
+      "size": {
+        "width": 124,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "支払いカード産業データセキュリティ標準 (PCI DSS) は,クレジットカード,デビットカード,キャッシュカードの取引のセキュリティを最適化し,カード保有者が個人情報の不正利用から守ることを目的とした広く受け入れられた政策と手順のセットです.APIデザインの観点から,PCI DSSに準拠するAPIを構築することは,クレジットカード情報を処理,保存または送信する際に不可欠です.これらの基準に従うことで,開発者は安全で安全なAPIエンドポイントを保証するだけでなく,敏感な金融データを保護することによってユーザー間で信頼を築くことができます.",
+        "links": [
+          {
+            "title": "PCI DSSとは何か?",
+            "url": "https://www.itgovernance.co.uk/pci_dss",
+            "type": "article"
+          },
+          {
+            "title": "決済カード業界データセキュリティ標準",
+            "url": "https://en.wikipedia.org/wiki/Payment_Card_Industry_Data_Security_Standard",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "W4WwTmgZGnWmiYsB0ezml",
+      "type": "subtopic",
+      "label": "HIPAA",
+      "position": {
+        "x": -568.8897926825906,
+        "y": 2264.642324872653
+      },
+      "size": {
+        "width": 124,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "HIPAA (Health Insurance Portability and Accountability Act) は,医療産業におけるAPI設計に関して重要な基準である.本質的には,敏感な患者データを保護する権限を提供します.保護された健康情報 (PHI) に関するあらゆる組織は,必要なすべての物理的,ネットワーク,プロセスセキュリティ対策が実施されていることを確認する必要があります.API設計の文脈では,HIPAAの遵守は,これらの重要な保護事項に適合するエンドポイント,データ転送,ストレージ方法を構造化することを意味します.これには暗号化,アクセス制御,監査制御,および整体管理が含まれます.したがって,HIPAAは,医療分野で働くAPIデザイナーにとって基本的な理解です.",
+        "links": [
+          {
+            "title": "HIPAA",
+            "url": "https://www.hhs.gov/hipaa/index.html",
+            "type": "official"
+          },
+          {
+            "title": "HIPAA の 11 件 の 最も 多い 違反",
+            "url": "https://www.youtube.com/watch?v=sN-zLAqYoTo",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mXCKtLUvwVJkHrpHzOecq",
+      "type": "subtopic",
+      "label": "PII",
+      "position": {
+        "x": -570.6112846237921,
+        "y": 2318.642324872653
+      },
+      "size": {
+        "width": 124,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "標準およびコンプライアンスの下で個人識別可能な情報 (PII) はAPIデザインの重要な側面である.APIは,APIがしばしば処理する名前,アドレス,クレジットカード番号などの個人データの安全な処理と送信を指します.この文脈では,APIは個人データの保護を規制するGDPR,HIPAAまたはPCI DSSなどの標準の厳格な遵守の下で構築されなければなりません.これらの基準は,個人データが不正に使用されず,ユーザーのプライバシーが尊重されることを保証します.いかなる違反も,巨額の罰金と会社の評判に損害を与える可能性があります.PIIを理解し,適用される規制に従ってAPIを設計することは,堅固で安全でコンプライアントなAPI設計にとって不可欠です.",
+        "links": [
+          {
+            "title": "個人的に識別可能な情報 (PII):定義,種類,例",
+            "url": "https://www.investopedia.com/terms/p/personally-identifiable-information-pii.asp",
+            "type": "article"
+          },
+          {
+            "title": "個人的 に 識別 できる 情報 は 何 です か",
+            "url": "https://www.ibm.com/topics/pii",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ETSZIZbfsiSgwpAS6HgGp",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": -85.13818727199339,
+        "y": -164.08481519539623
+      },
+      "size": {
+        "width": 21,
+        "height": 94
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "cV_O7RiFmpoI4f1o8lF4B",
+      "type": "vertical",
+      "label": "垂直ノード",
+      "position": {
+        "x": 56.53195030203017,
+        "y": 2493.4716162213053
+      },
+      "size": {
+        "width": 21,
+        "height": 94
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "1DrqtOwxCuFtWQXQ6ZALp",
+      "type": "subtopic",
+      "label": "gRPC API",
+      "position": {
+        "x": -198.46804969796983,
+        "y": 654.900748222349
+      },
+      "size": {
+        "width": 246,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "gRPCは,サービス間の通信に使用されるプラットフォーム無知性シリアライゼーションプロトコルである.Googleによって2015年に設計された REST API の近代的な代替である. HTTP/2 を輸送層として使用するバイナリプロトコルである.モバイルと HTTP/2 を優先する高性能,オープンソース,汎用的な RPC フレームワークである.その主な使用例は,同じアプリケーション内の2つの異なる言語間の通信である.Go と通信するためにPython またはC# と通信するためにJava を使用できます.",
+        "links": [
+          {
+            "title": "gRPCのウェブサイト",
+            "url": "https://grpc.io/",
+            "type": "official"
+          },
+          {
+            "title": "gRPC 紹介",
+            "url": "https://grpc.io/docs/what-is-grpc/introduction/",
+            "type": "official"
+          },
+          {
+            "title": "gRPCの核心概念",
+            "url": "https://grpc.io/docs/what-is-grpc/core-concepts/",
+            "type": "official"
+          },
+          {
+            "title": "スティーヴン・マアーク - gRPC 紹介",
+            "url": "https://youtu.be/XRXTsQwyZSU",
+            "type": "video"
+          },
+          {
+            "title": "gRPCに関するトップ記事を探求する",
+            "url": "https://app.daily.dev/tags/grpc?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "JOhjYmVo9geZEMeeRPidh",
+      "source": "",
+      "target": "",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "89g6rzK2JcZhJ1MAQra8R",
+      "source": "",
+      "target": "",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xMpMq9rxn_DYslWm3_Efz",
+      "source": "",
+      "target": "",
+      "source_handle": "z2",
+      "target_handle": "y2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "-EP79fa9WRfTgvuq5FRaw",
+      "source": "",
+      "target": "",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "1Qdcf_-7xas-XQldfLRjv",
+      "source": "",
+      "target": "",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "CfFazuChYdU7GaJO_TolE",
+      "source": "",
+      "target": "",
+      "source_handle": "x2",
+      "target_handle": "y1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "74bGlBMuedspLPHnGV2LW",
+      "source": "",
+      "target": "",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "XU7kv1zNr-yC063oqWlz2",
+      "source": "",
+      "target": "",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "swvSmJ6SyUFxK9fHwPJTF",
+      "source": "",
+      "target": "",
+      "source_handle": "x2",
+      "target_handle": "w2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "-URcDxULzdZbiMbEx8bBe",
+      "source": "",
+      "target": "",
+      "source_handle": "w2",
+      "target_handle": "x1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "_k4274GmDVM-MViCSYN6K",
+      "source": "",
+      "target": "",
+      "source_handle": "y2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "Tf3d_J21EhC-bcfpqV_o5",
+      "source": "",
+      "target": "",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "gRouAKXdfT8XQV_nzA-wA",
+      "source": "",
+      "target": "",
+      "source_handle": "y2",
+      "target_handle": "z2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "BgmVdQyd7i1SrZj0forT9",
+      "source": "",
+      "target": "",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "1a_QvZPscaIyRxhKH7p-K",
+      "source": "AZoEY2N7PqAQgUl04E3KF",
+      "target": "duKkpzPjUU_-8kyJGHqRX",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "cWesUDXpvCzBEu5BpXefC",
+      "source": "duKkpzPjUU_-8kyJGHqRX",
+      "target": "r8M3quACGO2piu0u_R4hO",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "CVsFgRPHi9vaQWTqSrbFF",
+      "source": "duKkpzPjUU_-8kyJGHqRX",
+      "target": "2HdKzAIQi15pr3YHHrbPp",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "AWgpOpfFNBRrSi_K8RPQg",
+      "source": "duKkpzPjUU_-8kyJGHqRX",
+      "target": "P-rGIk50Bg7nFmWieAW07",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "uJadhS5nJBYewb-YSy7zE",
+      "source": "duKkpzPjUU_-8kyJGHqRX",
+      "target": "TX_hg7EobNJhmWKsMCaT1",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-KQAus72RGqx5f-3-YeJbyz2-KQAus72RGqx5f-3-YeJbyz1",
+      "source": "GRlsBogOlOwuqhMMPyHN3",
+      "target": "GRlsBogOlOwuqhMMPyHN3",
+      "source_handle": "z2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-awdoiCHz7Yc3kYac_iy-az2-KG3wO86F8Of27fU7QRcsny2",
+      "source": "duKkpzPjUU_-8kyJGHqRX",
+      "target": "KG3wO86F8Of27fU7QRcsn",
+      "source_handle": "z2",
+      "target_handle": "y2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-awdoiCHz7Yc3kYac_iy-az2-MKVcPM2EzAr2_Ieyp9Fu3y1",
+      "source": "duKkpzPjUU_-8kyJGHqRX",
+      "target": "v4nJYD9yiIEUviLPhVTCD",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-duKkpzPjUU_-8kyJGHqRXx2-awdoiCHz7Yc3kYac_iy-aw1",
+      "source": "duKkpzPjUU_-8kyJGHqRX",
+      "target": "o8i093VQv-T5Qf1yGqU0R",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-awdoiCHz7Yc3kYac_iy-ax2-wTrcPqj0KpoeOvJf7k3iIw1",
+      "source": "o8i093VQv-T5Qf1yGqU0R",
+      "target": "wTrcPqj0KpoeOvJf7k3iI",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-5R9yKfN1vItuv__HgCwP7z2-awdoiCHz7Yc3kYac_iy-ay1",
+      "source": "o8i093VQv-T5Qf1yGqU0R",
+      "target": "awdoiCHz7Yc3kYac_iy-a",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-awdoiCHz7Yc3kYac_iy-aw2-junprE7dbMyeovApqhSgrx1",
+      "source": "awdoiCHz7Yc3kYac_iy-a",
+      "target": "junprE7dbMyeovApqhSgr",
+      "source_handle": "w2",
+      "target_handle": "x1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-awdoiCHz7Yc3kYac_iy-ax2-iHtjFSkQWMoUNdltNttEdw1",
+      "source": "awdoiCHz7Yc3kYac_iy-a",
+      "target": "iHtjFSkQWMoUNdltNttEd",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-8tELdagrOaGCf3nMVs8t3y2-5CxU3inGcSHp-TDg3BQiYz1",
+      "source": "8tELdagrOaGCf3nMVs8t3",
+      "target": "5CxU3inGcSHp-TDg3BQiY",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-awdoiCHz7Yc3kYac_iy-ay2-eUsorPQ8VRLJs28J8dyk2z1",
+      "source": "awdoiCHz7Yc3kYac_iy-a",
+      "target": "eUsorPQ8VRLJs28J8dyk2",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-eUsorPQ8VRLJs28J8dyk2y2-5R9yKfN1vItuv__HgCwP7w1",
+      "source": "eUsorPQ8VRLJs28J8dyk2",
+      "target": "cQnQ9v3mH27MGNwetz3JW",
+      "source_handle": "y2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-5R9yKfN1vItuv__HgCwP7x2-cGWZQjKazJQ0D3nz_AdAXw1",
+      "source": "cQnQ9v3mH27MGNwetz3JW",
+      "target": "cGWZQjKazJQ0D3nz_AdAX",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-cQnQ9v3mH27MGNwetz3JWz2-5R9yKfN1vItuv__HgCwP7y1",
+      "source": "cQnQ9v3mH27MGNwetz3JW",
+      "target": "nHbn8_sMY7J8o6ckbD-ER",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-5R9yKfN1vItuv__HgCwP7z2-wFsbmMi5Ey9UyDADdbdPWy1",
+      "source": "nHbn8_sMY7J8o6ckbD-ER",
+      "target": "wFsbmMi5Ey9UyDADdbdPW",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-5R9yKfN1vItuv__HgCwP7z2-dZTe_kxIUQsc9N3w920aRy1",
+      "source": "nHbn8_sMY7J8o6ckbD-ER",
+      "target": "dZTe_kxIUQsc9N3w920aR",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-nHbn8_sMY7J8o6ckbD-ERx2-5R9yKfN1vItuv__HgCwP7w1",
+      "source": "nHbn8_sMY7J8o6ckbD-ER",
+      "target": "tzUJwXu_scwQHnPPT0oY-",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-Wpk4TvxcZOJgAoXjrOsZFz2-5R9yKfN1vItuv__HgCwP7y2",
+      "source": "tzUJwXu_scwQHnPPT0oY-",
+      "target": "5R9yKfN1vItuv__HgCwP7",
+      "source_handle": "z2",
+      "target_handle": "y2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-5R9yKfN1vItuv__HgCwP7x2-RkPVaSF9XnX6uHUns_-oCw1",
+      "source": "5R9yKfN1vItuv__HgCwP7",
+      "target": "RkPVaSF9XnX6uHUns_-oC",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-5R9yKfN1vItuv__HgCwP7y2-Wpk4TvxcZOJgAoXjrOsZFz1",
+      "source": "5R9yKfN1vItuv__HgCwP7",
+      "target": "qIJ6dUppjAjOTA8eQbp0n",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-Wpk4TvxcZOJgAoXjrOsZFw2-ludceg3fQVkilNTKWzntix1",
+      "source": "qIJ6dUppjAjOTA8eQbp0n",
+      "target": "ludceg3fQVkilNTKWznti",
+      "source_handle": "w2",
+      "target_handle": "x1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-qIJ6dUppjAjOTA8eQbp0ny2-Wpk4TvxcZOJgAoXjrOsZFz1",
+      "source": "qIJ6dUppjAjOTA8eQbp0n",
+      "target": "d9ZXdU73jiCdeNHQv1_DH",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-Wpk4TvxcZOJgAoXjrOsZFx2-o3XFXW2HHLBoxlbEnoWdZw1",
+      "source": "d9ZXdU73jiCdeNHQv1_DH",
+      "target": "o3XFXW2HHLBoxlbEnoWdZ",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-d9ZXdU73jiCdeNHQv1_DHz2-Wpk4TvxcZOJgAoXjrOsZFy1",
+      "source": "d9ZXdU73jiCdeNHQv1_DH",
+      "target": "R3aRhqCslwhegMfHtxg5z",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "pQSbDAqEripuhCsgK5XMD",
+      "source": "",
+      "target": "kJD1K2-ZkoezFCfpmOM0Z",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-Wpk4TvxcZOJgAoXjrOsZFx2-kJD1K2-ZkoezFCfpmOM0Zw1",
+      "source": "R3aRhqCslwhegMfHtxg5z",
+      "target": "kJD1K2-ZkoezFCfpmOM0Z",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-mXCKtLUvwVJkHrpHzOecqy2-H22jAI2W5QLL-b1rq-c56z2",
+      "source": "IkPZel5zxXWIx90Qx7fZI",
+      "target": "H22jAI2W5QLL-b1rq-c56",
+      "source_handle": "y2",
+      "target_handle": "z2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-mXCKtLUvwVJkHrpHzOecqy2-boYX1QcJullypfX4sevdyz1",
+      "source": "IkPZel5zxXWIx90Qx7fZI",
+      "target": "boYX1QcJullypfX4sevdy",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-Wpk4TvxcZOJgAoXjrOsZFw2-zL4QEM5xZO8XWXXWrdPujx1",
+      "source": "Wpk4TvxcZOJgAoXjrOsZF",
+      "target": "zL4QEM5xZO8XWXXWrdPuj",
+      "source_handle": "w2",
+      "target_handle": "x1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-yvdfoly5WHHTq2Puss355z2-Wpk4TvxcZOJgAoXjrOsZFy1",
+      "source": "R3aRhqCslwhegMfHtxg5z",
+      "target": "Wpk4TvxcZOJgAoXjrOsZF",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "glDT_FnQTOOAyIAPLWFZW",
+      "source": "",
+      "target": "SP-d4YngpYXkeIB9SSD-K",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-Wpk4TvxcZOJgAoXjrOsZFx2-bEVCT5QGY3uw0kIfAELKhw1",
+      "source": "Wpk4TvxcZOJgAoXjrOsZF",
+      "target": "bEVCT5QGY3uw0kIfAELKh",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-Wpk4TvxcZOJgAoXjrOsZFy2-yvdfoly5WHHTq2Puss355w1",
+      "source": "Wpk4TvxcZOJgAoXjrOsZF",
+      "target": "JE12g5cqnwmgeTle14Vxw",
+      "source_handle": "y2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-yvdfoly5WHHTq2Puss355z2-UQ8N7gcVpRLAYXgUNHBt5y1",
+      "source": "JE12g5cqnwmgeTle14Vxw",
+      "target": "UQ8N7gcVpRLAYXgUNHBt5",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-yvdfoly5WHHTq2Puss355z2-iNsXTtcIHsI_i-mCfjGYny2",
+      "source": "JE12g5cqnwmgeTle14Vxw",
+      "target": "iNsXTtcIHsI_i-mCfjGYn",
+      "source_handle": "z2",
+      "target_handle": "y2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-JE12g5cqnwmgeTle14Vxwy2-At5exN7ZAx2IzY3cTCzHmz2",
+      "source": "JE12g5cqnwmgeTle14Vxw",
+      "target": "At5exN7ZAx2IzY3cTCzHm",
+      "source_handle": "y2",
+      "target_handle": "z2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-At5exN7ZAx2IzY3cTCzHmx2-yvdfoly5WHHTq2Puss355w1",
+      "source": "At5exN7ZAx2IzY3cTCzHm",
+      "target": "yvdfoly5WHHTq2Puss355",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-yvdfoly5WHHTq2Puss355y2-vZxdswGLHCPi5GSuXEcHJz1",
+      "source": "yvdfoly5WHHTq2Puss355",
+      "target": "vZxdswGLHCPi5GSuXEcHJ",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-yvdfoly5WHHTq2Puss355y2-a-_iIE7UdoXzD00fD9MxNz1",
+      "source": "yvdfoly5WHHTq2Puss355",
+      "target": "a-_iIE7UdoXzD00fD9MxN",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-yvdfoly5WHHTq2Puss355y2-J0enF8UTVzY3H4n3pbPIFz1",
+      "source": "yvdfoly5WHHTq2Puss355",
+      "target": "J0enF8UTVzY3H4n3pbPIF",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-yvdfoly5WHHTq2Puss355y2-W4WwTmgZGnWmiYsB0ezmlz1",
+      "source": "yvdfoly5WHHTq2Puss355",
+      "target": "W4WwTmgZGnWmiYsB0ezml",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-yvdfoly5WHHTq2Puss355y2-mXCKtLUvwVJkHrpHzOecqz1",
+      "source": "yvdfoly5WHHTq2Puss355",
+      "target": "mXCKtLUvwVJkHrpHzOecq",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-yvdfoly5WHHTq2Puss355z2-jXtqI8k4Abz-vr01IcpWLw1",
+      "source": "yvdfoly5WHHTq2Puss355",
+      "target": "jXtqI8k4Abz-vr01IcpWL",
+      "source_handle": "z2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "step",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    }
+  ],
+  "content_crawled_at": "2026-04-06T08:43:24.065210+00:00"
+}

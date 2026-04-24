@@ -6,6 +6,7 @@ import { dirname, join } from 'path'
 import connectDB from './config/db.js'
 import authRoutes from './routes/auth.js'
 import roadmapRoutes from './routes/roadmaps.js'
+import qaRoutes from './routes/qa.js'
 
 // Load env from server/.env
 const __filename = fileURLToPath(import.meta.url)
@@ -25,6 +26,7 @@ app.use(express.json())
 // Routes
 app.use('/api/auth', authRoutes)
 app.use('/api/roadmaps', roadmapRoutes)
+app.use('/api/qa', qaRoutes)
 
 // Health check
 app.get('/api/health', (req, res) => {

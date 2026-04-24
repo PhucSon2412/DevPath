@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import { ArrowRight, Heart } from 'lucide-react'
+import { useLocale } from '../../contexts/LocaleContext'
 import styles from './RoadmapCard.module.css'
 
 export default function RoadmapCard({
@@ -11,6 +12,8 @@ export default function RoadmapCard({
   onToggleFavorite,
   progress,
 }) {
+  const { t } = useLocale()
+
   return (
     <div
       className={styles.cardWrapper}
@@ -23,7 +26,7 @@ export default function RoadmapCard({
           className={`${styles.favoriteBtn} ${isFavorited ? styles.favoriteActive : ''}`}
           onClick={() => onToggleFavorite?.(roadmap.roadmapId)}
           disabled={favoriteBusy}
-          aria-label={isFavorited ? 'Remove from favorites' : 'Add to favorites'}
+          aria-label={isFavorited ? t('roadmapCard.removeFavorite') : t('roadmapCard.addFavorite')}
           id={`favorite-btn-${roadmap.roadmapId}`}
         >
           <Heart size={16} />
@@ -41,7 +44,7 @@ export default function RoadmapCard({
               {progress ? (
                 <div className={styles.progressMeta}>
                   <span className={styles.progressText}>
-                    {progress.completedSteps}/{progress.totalSteps} steps • {progress.percent}%
+                    {progress.completedSteps}/{progress.totalSteps} {t('roadmapCard.steps')} • {progress.percent}%
                   </span>
                   <div className={styles.progressTrack}>
                     <div className={styles.progressFill} style={{ width: `${progress.percent}%` }} />
@@ -49,7 +52,7 @@ export default function RoadmapCard({
                 </div>
               ) : (
                 <span className={styles.nodeCount}>
-                  {roadmap.stats?.nodes_with_content || 0} topics with content
+                  {roadmap.stats?.nodes_with_content || 0} {t('roadmapCard.topicsWithContent')}
                 </span>
               )}
             <ArrowRight size={16} className={styles.arrow} />

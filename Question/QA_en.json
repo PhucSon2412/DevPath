@@ -1,0 +1,251 @@
+[
+  {
+    "group": "Basic Information & Background",
+    "questions": [
+      {
+        "question": "What is your current year in university?",
+        "type": "multiple_choice",
+        "options": [
+          "1st Year",
+          "2nd Year",
+          "3rd Year",
+          "4th Year",
+          "Graduated",
+          "Other / Career Changer"
+        ],
+        "purpose": "Determine the time to enter the labor market and assign weights to skill-related questions."
+      },
+      {
+        "question": "What is your primary major?",
+        "type": "multiple_choice",
+        "options": [
+          "Computer Science / Software Engineering",
+          "Information Systems / E-commerce",
+          "Information Security",
+          "Computer Networks & Communications",
+          "Artificial Intelligence / Data Science",
+          "Other / Non-IT Major"
+        ],
+        "purpose": "Identify the core theoretical background."
+      },
+      {
+        "question": "How confident are you when reading technical documentation in English?",
+        "type": "multiple_choice",
+        "options": [
+          "Cannot read yet, need translation tools",
+          "Can read short tutorials/guides",
+          "Can fully understand in-depth technical docs and research papers",
+          "No experience reading specialized English documents"
+        ],
+        "purpose": "Evaluate self-learning capability and potential for working in Global Corporations."
+      },
+      {
+        "question": "Besides English, are you learning any other foreign languages to support your IT career?",
+        "type": "multiple_choice",
+        "options": [
+          "No, I am only focusing on English",
+          "Japanese (Aiming for Bridge SE - BrSE or the Japanese market)",
+          "Other (Korean, Chinese, etc.)"
+        ],
+        "purpose": "Branch roadmaps for niche markets, especially BrSE and Japanese outsourcing."
+      }
+    ]
+  },
+  {
+    "group": "Cognitive & Technical Capabilities (Behavioral Evidence)",
+    "questions": [
+      {
+        "question": "What is your real-world algorithm problem-solving level (e.g., LeetCode, Codeforces)?",
+        "type": "multiple_choice",
+        "options": [
+          "Never tried",
+          "Easy - Grasp basic syntax and logic",
+          "Medium - Use data structures and algorithms effectively",
+          "Hard - Optimization mindset and complex problem-solving"
+        ],
+        "purpose": "Assess actual logical ability rather than subjective feelings."
+      },
+      {
+        "question": "How do you usually start when learning a new technology?",
+        "type": "multiple_choice",
+        "options": [
+          "Watch video tutorials and code along",
+          "Read the Official Documentation of that technology",
+          "Build a practical project to learn by doing",
+          "Other / No specific learning method yet"
+        ],
+        "purpose": "Classify learning style and proactiveness (Junior vs. Self-driven mindset)."
+      },
+      {
+        "question": "How willing are you to spend time learning advanced Math, Statistics, or deep Algorithmic concepts?",
+        "type": "scale",
+        "scale_config": {
+          "min": 1,
+          "max": 5,
+          "min_label": "Not willing at all",
+          "max_label": "Very willing (Proactively dive deep)"
+        },
+        "purpose": "Crucial negative signal to filter out deep research fields like AI, Data Science, or Security."
+      }
+    ]
+  },
+  {
+    "group": "Interests & Negative Signals",
+    "questions": [
+      {
+        "question": "Which of the following tasks drains your energy the most if done long-term?",
+        "type": "multiple_choice",
+        "options": [
+          "Tweaking UI elements, colors, and user experience",
+          "Writing system documentation and operational procedures",
+          "Processing raw data, data cleaning, and standardization",
+          "Struggling with environment errors, library installations, Docker/CI-CD configs",
+          "Finding bugs (debugging) and testing error scenarios",
+          "None of the above / I can handle them all well"
+        ],
+        "purpose": "Negative Signal: Extremely important for the AI to filter out career paths that bore or frustrate the user."
+      },
+      {
+        "question": "What kind of product makes you most excited to build?",
+        "type": "multiple_choice",
+        "options": [
+          "A product with a beautiful interface that users can directly see and interact with",
+          "A stable system handling complex backend logic",
+          "Designing workflows and integrating existing tools/APIs into a complete system",
+          "An intelligent system capable of forecasting and learning from data",
+          "Automated infrastructure for fast and secure deployment",
+          "An absolutely secure product that withstands any attack",
+          "Other / Haven't figured out my interests yet"
+        ],
+        "purpose": "Identify the ideal output to map into FE, BE, AI, System Design, DevOps, or Security roles."
+      },
+      {
+        "question": "What is your patience level for tasks requiring high attention to detail (e.g., spotting minor bugs, pixel-perfect adjustments)?",
+        "type": "scale",
+        "scale_config": {
+          "min": 1,
+          "max": 5,
+          "min_label": "Lose interest quickly",
+          "max_label": "Extremely patient"
+        },
+        "purpose": "Assess suitability for QA/QC, Tester, or Frontend Developer roles."
+      }
+    ]
+  },
+  {
+    "group": "Practical Skills & Tech Stack",
+    "questions": [
+      {
+        "question": "Which programming languages can you write code in (including coursework)?",
+        "type": "multiple_choice",
+        "options": [
+          "JavaScript/TypeScript",
+          "Python",
+          "Java/C#",
+          "C/C++",
+          "PHP",
+          "Dart/Kotlin/Swift",
+          "SQL/R",
+          "Other",
+          "Not proficient in any language yet"
+        ],
+        "purpose": "Identify the foundational tech stack."
+      },
+      {
+        "question": "Have you significantly used any Frameworks/Libraries?",
+        "type": "multiple_choice",
+        "options": [
+          "Web (React, Angular, Vue, Nodejs, Django...)",
+          "Mobile (Flutter, React Native...)",
+          "AI/Data (TensorFlow, PyTorch, Pandas...)",
+          "Testing (Selenium, Cypress, JUnit...)",
+          "Other / Specialized Framework",
+          "Never used any framework"
+        ],
+        "purpose": "Determine technical depth in specific domains."
+      },
+      {
+        "question": "What is your proficiency level with source control tools (Git/GitHub)?",
+        "type": "multiple_choice",
+        "options": [
+          "Never used",
+          "Know how to push code for personal backup",
+          "Proficient in teamwork (Branching, Pull Requests, Conflicts)",
+          "Can set up automation processes (CI/CD, GitHub Actions)"
+        ],
+        "purpose": "Assess capability for real-world project collaboration."
+      }
+    ]
+  },
+  {
+    "group": "Experience & Projects",
+    "questions": [
+      {
+        "question": "Have you ever deployed your product to end users?",
+        "type": "multiple_choice",
+        "options": [
+          "Never done any project",
+          "Only ran on a personal machine (Localhost)",
+          "Deployed on Cloud/Hosting platforms (Vercel, AWS, GitHub Pages...)",
+          "Have a live product with real users"
+        ],
+        "purpose": "Classify operational proficiency and product completeness."
+      },
+      {
+        "question": "Briefly describe the project you are most proud of (Specify if it's a school assignment, thesis, or real-world project). What was your role, and what was the hardest technical challenge you solved? (If none, write 'None'):",
+        "type": "text",
+        "purpose": "NLP extraction: AI will extract keywords regarding role, project scale, and complexity of technical thinking."
+      }
+    ]
+  },
+  {
+    "group": "Goals & Working Style",
+    "questions": [
+      {
+        "question": "What is your highest priority for your first job after graduation?",
+        "type": "multiple_choice",
+        "options": [
+          "Attractive income and benefits",
+          "Working with the latest technologies in the market",
+          "An environment with systematic processes and mentors",
+          "Stability and work-life balance",
+          "Other / Personal priorities"
+        ],
+        "purpose": "Suggest company types (Startup, Outsourcing, or Big Tech)."
+      },
+      {
+        "question": "How many hours per week (outside of standard work/study hours) are you willing to spend learning new knowledge?",
+        "type": "multiple_choice",
+        "options": [
+          "Under 5h",
+          "5h - 15h",
+          "Over 15h",
+          "Unfixed / Depends on my mood"
+        ],
+        "purpose": "Evaluate resilience against industry elimination pressure."
+      },
+      {
+        "question": "Do you want to aim for a deep technical expert (Specialist) or a versatile model (Generalist)?",
+        "type": "scale",
+        "scale_config": {
+          "min": 0,
+          "max": 10,
+          "min_label": "Pure Generalist",
+          "max_label": "Pure Specialist"
+        },
+        "purpose": "Guide the candidate's long-term development roadmap."
+      },
+      {
+        "question": "What is your ideal work environment?",
+        "type": "multiple_choice",
+        "options": [
+          "Working independently with high focus",
+          "Working in a team with constant discussion",
+          "A flexible balance between independent and team work",
+          "Other / No real-world environment experience yet"
+        ],
+        "purpose": "Assess soft skills and cultural fit."
+      }
+    ]
+  }
+]

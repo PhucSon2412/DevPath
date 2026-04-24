@@ -1,18 +1,20 @@
 import { useEffect, useState } from 'react'
-import { Link, Navigate } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import { Heart, Loader2, ArrowLeft } from 'lucide-react'
 import RoadmapCard from '../../components/RoadmapCard/RoadmapCard'
 import { useAuth } from '../../contexts/AuthContext'
+import { useLocale } from '../../contexts/LocaleContext'
 import styles from './FavoritesPage.module.css'
 
 export default function FavoritesPage() {
   const {
     loading: authLoading,
-    isAuthenticated,
+    progressStorageScope,
     isFavorite,
     toggleFavorite,
     getFavoriteRoadmaps,
   } = useAuth()
+  const { t } = useLocale()
 
   const [roadmaps, setRoadmaps] = useState([])
   const [loading, setLoading] = useState(true)
@@ -21,10 +23,6 @@ export default function FavoritesPage() {
 
   useEffect(() => {
     if (authLoading) return
-    if (!isAuthenticated) {
-      setLoading(false)
-      return
-    }
 
     let active = true
 
@@ -52,11 +50,7 @@ export default function FavoritesPage() {
     return () => {
       active = false
     }
-  }, [authLoading, isAuthenticated, getFavoriteRoadmaps])
-
-  if (!authLoading && !isAuthenticated) {
-    return <Navigate to="/login" replace />
-  }
+  }, [authLoading, getFavoriteRoadmaps])
 
   const handleToggleFavorite = async (roadmapId) => {
     setFavoriteBusyMap((prev) => ({ ...prev, [roadmapId]: true }))
@@ -78,15 +72,17 @@ export default function FavoritesPage() {
         <div className={styles.heroInner}>
           <div className={styles.heroBadge}>
             <Heart size={14} />
-            Personalized List
+            {t('favorites.badge')}
           </div>
-          <h1 className={styles.title}>Your Favorite Roadmaps</h1>
+          <h1 className={styles.title}>{t('favorites.title')}</h1>
           <p className={styles.subtitle}>
-            Roadmaps you starred are saved to your account and available across browsers.
+            {progressStorageScope === 'account'
+              ? t('favorites.subtitleAccount')
+              : t('favorites.subtitleBrowser')}
           </p>
           <Link to="/" className={styles.backLink} id="favorites-back-home">
             <ArrowLeft size={16} />
-            Back to all roadmaps
+            {t('favorites.backToAll')}
           </Link>
         </div>
       </section>
@@ -95,16 +91,16 @@ export default function FavoritesPage() {
         {loading ? (
           <div className={styles.loadingState}>
             <Loader2 size={32} className={styles.spinner} />
-            <span>Loading favorite roadmaps...</span>
+            <span>{t('favorites.loading')}</span>
           </div>
         ) : error ? (
           <div className={styles.errorState}>{error}</div>
         ) : roadmaps.length === 0 ? (
           <div className={styles.emptyState}>
-            <h2>No favorites yet</h2>
-            <p>Tap the heart icon on any roadmap from the home page to save it here.</p>
+            <h2>{t('favorites.emptyTitle')}</h2>
+            <p>{t('favorites.emptyDescription')}</p>
             <Link to="/" className={styles.exploreBtn} id="favorites-explore-btn">
-              Explore Roadmaps
+              {t('favorites.exploreButton')}
             </Link>
           </div>
         ) : (

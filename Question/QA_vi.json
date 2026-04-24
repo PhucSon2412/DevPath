@@ -1,0 +1,251 @@
+[
+  {
+    "group": "Thông tin cơ bản & Nền tảng",
+    "questions": [
+      {
+        "question": "Bạn hiện là sinh viên năm thứ mấy?",
+        "type": "multiple_choice",
+        "options": [
+          "Năm 1",
+          "Năm 2",
+          "Năm 3",
+          "Năm 4",
+          "Đã tốt nghiệp",
+          "Khác / Người đi làm chuyển ngành"
+        ],
+        "purpose": "Xác định thời điểm gia nhập thị trường lao động và định trọng số cho các câu hỏi kỹ năng."
+      },
+      {
+        "question": "Chuyên ngành chính của bạn là gì?",
+        "type": "multiple_choice",
+        "options": [
+          "Khoa học máy tính / Kỹ thuật phần mềm",
+          "Hệ thống thông tin / Thương mại điện tử",
+          "An toàn thông tin",
+          "Mạng máy tính & Truyền thông",
+          "Trí tuệ nhân tạo / Khoa học dữ liệu",
+          "Khác / Chuyên ngành ngoài IT"
+        ],
+        "purpose": "Xác định nền tảng lý thuyết cốt lõi."
+      },
+      {
+        "question": "Mức độ tự tin khi đọc tài liệu kỹ thuật bằng tiếng Anh?",
+        "type": "multiple_choice",
+        "options": [
+          "Chưa thể đọc hiểu, cần công cụ dịch",
+          "Đọc được các hướng dẫn ngắn (Tutorial)",
+          "Đọc hiểu tốt tài liệu chuyên sâu (Documentation, Research paper)",
+          "Chưa có trải nghiệm đọc tài liệu tiếng Anh chuyên ngành"
+        ],
+        "purpose": "Đánh giá khả năng tự học và tiềm năng làm việc tại Global Corp."
+      },
+      {
+        "question": "Ngoài tiếng Anh, bạn có đang định hướng học thêm ngoại ngữ nào để phục vụ công việc IT không?",
+        "type": "multiple_choice",
+        "options": [
+          "Không, tôi chỉ tập trung vào tiếng Anh",
+          "Tiếng Nhật (Hướng tới vị trí Kỹ sư cầu nối - BrSE hoặc làm cho thị trường Nhật)",
+          "Khác (Tiếng Hàn, Tiếng Trung...)"
+        ],
+        "purpose": "Phân nhánh lộ trình cho các thị trường ngách, đặc biệt là BrSE và Outsourcing thị trường Nhật."
+      }
+    ]
+  },
+  {
+    "group": "Năng lực tư duy & Kỹ thuật (Behavioral Evidence)",
+    "questions": [
+      {
+        "question": "Mức độ giải quyết thuật toán thực tế của bạn (LeetCode, Codeforces, v.v.)?",
+        "type": "multiple_choice",
+        "options": [
+          "Chưa từng thử sức",
+          "Mức độ Dễ (Easy) - Nắm vững syntax và logic cơ bản",
+          "Mức độ Trung bình (Medium) - Sử dụng tốt cấu trúc dữ liệu và giải thuật",
+          "Mức độ Khó (Hard) - Tư duy tối ưu và bài toán phức tạp"
+        ],
+        "purpose": "Đánh giá năng lực logic thực tế thay vì tự nhận xét cảm tính."
+      },
+      {
+        "question": "Khi học một công nghệ mới, bạn thường bắt đầu như thế nào?",
+        "type": "multiple_choice",
+        "options": [
+          "Xem Video hướng dẫn (Tutorial) và gõ theo",
+          "Đọc tài liệu chính thức (Official Doc) của công nghệ đó",
+          "Tự xây dựng một dự án thực tế để vừa làm vừa tìm hiểu",
+          "Khác / Chưa có phương pháp học cụ thể"
+        ],
+        "purpose": "Phân loại phong cách học tập và độ chủ động (Junior vs Self-driven mindset)."
+      },
+      {
+        "question": "Bạn sẵn sàng dành thời gian học các khái niệm Toán học, Thống kê hoặc Giải thuật chuyên sâu?",
+        "type": "scale",
+        "scale_config": {
+          "min": 1,
+          "max": 5,
+          "min_label": "Hoàn toàn không muốn",
+          "max_label": "Rất sẵn sàng (chủ động học sâu)"
+        },
+        "purpose": "Tín hiệu loại trừ quan trọng cho các ngành nghiên cứu sâu như AI, Data Science hoặc Security."
+      }
+    ]
+  },
+  {
+    "group": "Sở thích & Tín hiệu loại trừ (Negative Signals)",
+    "questions": [
+      {
+        "question": "Công việc nào sau đây khiến bạn cảm thấy 'mất năng lượng' nhất khi phải làm lâu dài?",
+        "type": "multiple_choice",
+        "options": [
+          "Căn chỉnh giao diện (UI), màu sắc và trải nghiệm người dùng",
+          "Viết tài liệu hệ thống và quy trình vận hành",
+          "Xử lý dữ liệu thô, làm sạch và chuẩn hóa dữ liệu",
+          "Vật lộn với các lỗi môi trường, cài đặt thư viện, cấu hình Docker/CI-CD",
+          "Tìm lỗi (debug) và kiểm thử các kịch bản lỗi",
+          "Không có cái nào ở trên / Tôi có thể làm tốt tất cả"
+        ],
+        "purpose": "Negative Signal: Cực kỳ quan trọng để AI loại trừ các nghề nghiệp gây chán nản cho user."
+      },
+      {
+        "question": "Bạn cảm thấy hào hứng nhất khi tạo ra sản phẩm như thế nào?",
+        "type": "multiple_choice",
+        "options": [
+          "Sản phẩm có giao diện đẹp, người dùng nhìn thấy và tương tác trực tiếp",
+          "Hệ thống chạy ổn định, xử lý logic phức tạp đằng sau",
+          "Thiết kế luồng hoạt động (workflow), tích hợp các công cụ/API có sẵn thành một hệ thống hoàn chỉnh",
+          "Hệ thống thông minh, có khả năng dự báo và học hỏi từ dữ liệu",
+          "Hạ tầng tự động hóa, triển khai nhanh chóng và an toàn",
+          "Sản phẩm có tính bảo mật tuyệt đối, chống lại mọi cuộc tấn công",
+          "Khác / Chưa xác định được sở thích"
+        ],
+        "purpose": "Xác định output lý tưởng để map vào các vị trí FE, BE, AI, DevOps, System Design, Security."
+      },
+      {
+        "question": "Mức độ kiên nhẫn của bạn khi làm những công việc đòi hỏi sự chi tiết và tỉ mỉ cao (như soi lỗi nhỏ, căn chỉnh pixel)?",
+        "type": "scale",
+        "scale_config": {
+          "min": 1,
+          "max": 5,
+          "min_label": "Rất mau chán",
+          "max_label": "Cực kỳ kiên nhẫn"
+        },
+        "purpose": "Đánh giá sự phù hợp với QA/QC, Tester hoặc Frontend Developer."
+      }
+    ]
+  },
+  {
+    "group": "Kỹ năng thực tế & Tech Stack",
+    "questions": [
+      {
+        "question": "Những ngôn ngữ lập trình nào bạn có thể viết code được (kể cả bài tập trên lớp)?",
+        "type": "multiple_choice",
+        "options": [
+          "JavaScript/TypeScript",
+          "Python",
+          "Java/C#",
+          "C/C++",
+          "PHP",
+          "Dart/Kotlin/Swift",
+          "SQL/R",
+          "Khác",
+          "Chưa thành thạo ngôn ngữ nào"
+        ],
+        "purpose": "Xác định Tech-stack nền tảng."
+      },
+      {
+        "question": "Bạn đã từng sử dụng Framework/Thư viện nào đáng kể chưa?",
+        "type": "multiple_choice",
+        "options": [
+          "Web (React, Angular, Vue, Nodejs, Django...)",
+          "Mobile (Flutter, React Native...)",
+          "AI/Data (TensorFlow, PyTorch, Pandas...)",
+          "Testing (Selenium, Cypress, JUnit...)",
+          "Khác / Framework chuyên biệt",
+          "Chưa từng sử dụng Framework nào"
+        ],
+        "purpose": "Xác định độ sâu kỹ thuật trong từng mảng."
+      },
+      {
+        "question": "Mức độ sử dụng các công cụ quản lý mã nguồn (Git/GitHub)?",
+        "type": "multiple_choice",
+        "options": [
+          "Chưa từng sử dụng",
+          "Biết đẩy code lên để lưu trữ cá nhân",
+          "Thành thạo làm việc nhóm (Branching, Pull Request, Conflict)",
+          "Biết setup quy trình tự động (CI/CD, Action)"
+        ],
+        "purpose": "Đánh giá khả năng làm việc trong dự án thực tế."
+      }
+    ]
+  },
+  {
+    "group": "Kinh nghiệm & Dự án",
+    "questions": [
+      {
+        "question": "Bạn đã từng triển khai (deploy) sản phẩm của mình đến tay người dùng chưa?",
+        "type": "multiple_choice",
+        "options": [
+          "Chưa từng thực hiện dự án nào",
+          "Chỉ chạy trên máy cá nhân (Localhost)",
+          "Đã đưa lên các nền tảng Cloud/Hosting (Vercel, AWS, GitHub Pages...)",
+          "Đã có sản phẩm thực tế có người dùng truy cập"
+        ],
+        "purpose": "Phân loại trình độ vận hành và mức độ hoàn thiện sản phẩm."
+      },
+      {
+        "question": "Mô tả ngắn gọn dự án bạn tự hào nhất (Ghi rõ đây là bài tập trên trường, đồ án, hay dự án thực tế). Vai trò của bạn là gì và bạn đã giải quyết bài toán kỹ thuật nào khó nhất (Nếu chưa có, hãy ghi 'Chưa có'):",
+        "type": "text",
+        "purpose": "NLP extraction: AI sẽ lấy ra các từ khóa quan trọng về vai trò, quy mô dự án và độ phức tạp của tư duy kỹ thuật."
+      }
+    ]
+  },
+  {
+    "group": "Mục tiêu & Cách làm việc",
+    "questions": [
+      {
+        "question": "Ưu tiên lớn nhất của bạn cho công việc đầu tiên sau khi ra trường là gì?",
+        "type": "multiple_choice",
+        "options": [
+          "Thu nhập và phúc lợi hấp dẫn",
+          "Được làm việc với các công nghệ mới nhất thị trường",
+          "Môi trường có quy trình bài bản và có người dẫn dắt (Mentor)",
+          "Sự ổn định và cân bằng giữa công việc - cuộc sống",
+          "Khác / Ưu tiên cá nhân"
+        ],
+        "purpose": "Gợi ý loại hình doanh nghiệp (Startup, Outsourcing, hay Big Tech)."
+      },
+      {
+        "question": "Bạn sẵn sàng dành bao nhiêu giờ mỗi tuần (ngoài giờ làm/học chính) để tự học kiến thức mới?",
+        "type": "multiple_choice",
+        "options": [
+          "Dưới 5h",
+          "5h - 15h",
+          "Trên 15h",
+          "Không cố định / Tùy hứng"
+        ],
+        "purpose": "Đánh giá khả năng chịu đựng áp lực đào thải của ngành."
+      },
+      {
+        "question": "Bạn muốn hướng tới hình mẫu chuyên gia kỹ thuật sâu (Specialist) hay người đa năng (Generalist)?",
+        "type": "scale",
+        "scale_config": {
+          "min": 0,
+          "max": 10,
+          "min_label": "Hoàn toàn Generalist",
+          "max_label": "Hoàn toàn Specialist"
+        },
+        "purpose": "Định hướng lộ trình phát triển lâu dài cho ứng viên."
+      },
+      {
+        "question": "Môi trường làm việc lý tưởng của bạn?",
+        "type": "multiple_choice",
+        "options": [
+          "Làm việc độc lập, tập trung cao độ",
+          "Làm việc nhóm, thảo luận liên tục",
+          "Linh hoạt giữa độc lập và nhóm",
+          "Khác / Chưa có trải nghiệm môi trường thực tế"
+        ],
+        "purpose": "Đánh giá kỹ năng mềm và sự phù hợp văn hóa."
+      }
+    ]
+  }
+]
