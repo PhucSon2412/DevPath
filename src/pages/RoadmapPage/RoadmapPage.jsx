@@ -9,7 +9,6 @@ import styles from './RoadmapPage.module.css'
 const CLICKABLE_TYPES = new Set(['topic', 'subtopic', 'checklist', 'todo'])
 const BG_TYPES = new Set(['section'])
 const CONNECTOR_TYPES = new Set(['vertical', 'horizontal'])
-const LINE_MASK_EXCLUDE_TYPES = new Set(['label'])
 
 // ── Fix bright colors for dark theme ──
 function fixBgColor(color) {
@@ -56,7 +55,14 @@ function getSmartEdgePoints(srcNode, tgtNode) {
   const dx = (tx + tw / 2) - (sx + sw / 2)
   const dy = (ty + th / 2) - (sy + sh / 2)
 
-  if (Math.abs(dy) >= Math.abs(dx)) {
+  // Smart routing bias:
+  // If the target is a main 'topic' and is located below, force vertical down routing regardless of vast X shifts.
+  let isVertical = Math.abs(dy) >= Math.abs(dx)
+  if (tgtNode.type === 'topic' && Math.abs(dy) > 20) {
+    isVertical = true
+  }
+
+  if (isVertical) {
     if (dy >= 0) {
       return {
         src: { px: sx + sw / 2, py: sy + sh, dx: 0, dy: 1 },
@@ -412,7 +418,7 @@ export default function RoadmapPage() {
     const w = node.size?.width ?? 160, h = node.size?.height ?? 40
     const label = node.label || ''
 
-    if (isBoundaryConnector(node)) {
+    if (isBoundaryConnector(node) || node.type === 'legend') {
       return null
     }
 
@@ -526,6 +532,10 @@ export default function RoadmapPage() {
         className={`${styles.nodeGroup} ${typeClass} ${isActive ? styles.active : ''} ${isCompleted ? styles.completed : ''} ${isClickable ? styles.clickable : ''}`}
         onClick={isClickable ? () => setSelectedNode(node) : undefined}
       >
+        <rect x={x} y={y} width={w} height={h}
+          rx={node.type === 'title' ? 8 : 5}
+          style={{ fill: 'var(--bg-primary)' }}
+        />
         <rect className={styles.nodeRect} x={x} y={y} width={w} height={h}
           rx={node.type === 'title' ? 8 : 5}
           style={{
@@ -582,8 +592,6 @@ export default function RoadmapPage() {
   const contentNodes = visibleNodes.filter(
     (node) => !BG_TYPES.has(node.type) && !CONNECTOR_TYPES.has(node.type)
   )
-  const lineMaskNodes = contentNodes.filter((node) => !LINE_MASK_EXCLUDE_TYPES.has(node.type))
-  const lineMaskId = `graph-line-mask-${id || 'roadmap'}`
   const stepNodes = roadmap.nodes.filter((n) => CLICKABLE_TYPES.has(n.type))
   const topicCount = stepNodes.length
   const completedSteps = stepNodes.reduce(
@@ -697,39 +705,8 @@ export default function RoadmapPage() {
             transformOrigin: '0 0',
           }}
         >
-          <defs>
-            <mask id={lineMaskId} maskUnits="userSpaceOnUse">
-              <rect
-                x={bounds.minX}
-                y={bounds.minY}
-                width={bounds.width}
-                height={bounds.height}
-                fill="white"
-              />
-              {lineMaskNodes.map((node) => {
-                const x = node.position?.x ?? 0
-                const y = node.position?.y ?? 0
-                const w = node.size?.width ?? 160
-                const h = node.size?.height ?? 40
-                const rx = node.type === 'title' ? 8 : 5
-
-                return (
-                  <rect
-                    key={`mask-${node.id}`}
-                    x={x}
-                    y={y}
-                    width={w}
-                    height={h}
-                    rx={rx}
-                    fill="black"
-                  />
-                )
-              })}
-            </mask>
-          </defs>
-
           {sectionNodes.map((node) => renderNode(node))}
-          <g mask={`url(#${lineMaskId})`}>
+          <g>
             {roadmap.edges.map((edge, i) => renderEdge(edge, i))}
             {connectorNodes.map((node) => renderNode(node))}
           </g>

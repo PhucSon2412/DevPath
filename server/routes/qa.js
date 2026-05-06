@@ -274,16 +274,44 @@ router.post('/recommendations/generate', async (req, res) => {
       answer: answer.answer,
     }))
 
+    // const prompt = [
+    //   'You are an IT career recommendation assistant.',
+    //   'Use ONLY roadmap IDs from the provided roadmap catalog.',
+    //   'Do not invent roadmap IDs.',
+    //   'Analyze the user answers and produce the top 10 most suitable roadmaps.',
+    //   'Each recommendation must include:',
+    //   '- roadmapId (string, must exist in roadmap catalog)',
+    //   '- score (integer from 0 to 100)',
+    //   '- reason.en (concise English reason)',
+    //   '- reason.ja (concise Japanese reason)',
+    //   'Return STRICT JSON only in this exact shape:',
+    //   '{"summary":"string","recommendations":[{"roadmapId":"string","score":0,"reason":{"en":"string","ja":"string"}}]}',
+    //   'Sort recommendations by descending score.',
+    //   'Roadmap Catalog (English titles):',
+    //   JSON.stringify(roadmapPayload),
+    //   'User Answers:',
+    //   JSON.stringify(answersPayload),
+    // ].join('\n')
+
     const prompt = [
       'You are an IT career recommendation assistant.',
       'Use ONLY roadmap IDs from the provided roadmap catalog.',
       'Do not invent roadmap IDs.',
-      'Analyze the user answers and produce the top 10 most suitable roadmaps.',
+      'Analyze the user answers deeply and produce the top 10 most suitable roadmaps.',
+      'Recommendations must be personalized based on the user answers, interests, preferences, strengths, goals, and working style.',
+      'For each recommendation, explain SPECIFICALLY WHY the roadmap matches the user.',
+      'Do NOT give vague generic reasons.',
+      'Instead, connect the recommendation directly to concrete user answers, behaviors, preferences, or goals.',
       'Each recommendation must include:',
       '- roadmapId (string, must exist in roadmap catalog)',
       '- score (integer from 0 to 100)',
-      '- reason.en (concise English reason)',
-      '- reason.ja (concise Japanese reason)',
+      '- reason.en (specific concise English reason tied to user answers)',
+      '- reason.ja (specific concise Japanese reason tied to user answers)',
+      'The reasons should:',
+      '- mention concrete user preferences, goals, technologies, or behaviors when possible',
+      '- explain why the roadmap fits better than others',
+      '- be concise but informative',
+      '- avoid repeating the exact same template across recommendations',
       'Return STRICT JSON only in this exact shape:',
       '{"summary":"string","recommendations":[{"roadmapId":"string","score":0,"reason":{"en":"string","ja":"string"}}]}',
       'Sort recommendations by descending score.',
@@ -291,7 +319,8 @@ router.post('/recommendations/generate', async (req, res) => {
       JSON.stringify(roadmapPayload),
       'User Answers:',
       JSON.stringify(answersPayload),
-    ].join('\n')
+    ].join('\\n')
+
 
     const ai = new GoogleGenAI({ apiKey })
     const geminiResponse = await ai.models.generateContent({
