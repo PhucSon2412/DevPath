@@ -1,7 +1,6 @@
 import { useState, useEffect, useRef } from 'react'
 import { Link, useLocation } from 'react-router-dom'
-import { Map, BookOpen, LogIn, User, LogOut, ChevronDown, Sun, Moon, Heart, Target, BrainCircuit } from 'lucide-react'
-import { useAuth } from '../../contexts/AuthContext'
+import { Map, BookOpen, Sun, Moon, Heart, Target } from 'lucide-react'
 import { useLocale } from '../../contexts/LocaleContext'
 import styles from './Header.module.css'
 
@@ -18,12 +17,9 @@ function getInitialTheme() {
 export default function Header() {
   const [scrolled, setScrolled] = useState(false)
   const [mobileOpen, setMobileOpen] = useState(false)
-  const [userMenuOpen, setUserMenuOpen] = useState(false)
   const [theme, setTheme] = useState('dark')
   const location = useLocation()
-  const { user, isAuthenticated, logout } = useAuth()
-  const { language, setLanguage, t } = useLocale()
-  const userMenuRef = useRef(null)
+  const { t } = useLocale()
   const themeTransitionTimerRef = useRef(null)
 
   useEffect(() => {
@@ -47,24 +43,7 @@ export default function Header() {
   // Close mobile nav on route change
   useEffect(() => {
     setMobileOpen(false)
-    setUserMenuOpen(false)
   }, [location.pathname])
-
-  // Close user menu on outside click
-  useEffect(() => {
-    const handleClickOutside = (e) => {
-      if (userMenuRef.current && !userMenuRef.current.contains(e.target)) {
-        setUserMenuOpen(false)
-      }
-    }
-    document.addEventListener('mousedown', handleClickOutside)
-    return () => document.removeEventListener('mousedown', handleClickOutside)
-  }, [])
-
-  const handleLogout = () => {
-    logout()
-    setUserMenuOpen(false)
-  }
 
   const toggleTheme = () => {
     const root = document.documentElement
@@ -84,10 +63,6 @@ export default function Header() {
       root.classList.remove('theme-transition')
       themeTransitionTimerRef.current = null
     }, 260)
-  }
-
-  const toggleLanguage = () => {
-    setLanguage(language === 'en' ? 'ja' : 'en')
   }
 
   return (
@@ -130,26 +105,6 @@ export default function Header() {
               {t('header.favorites')}
             </Link>
 
-            <Link
-              to="/qa"
-              className={`${styles.navLink} ${location.pathname.startsWith('/qa') ? styles.active : ''}`}
-              id="nav-qa"
-            >
-              <BrainCircuit size={16} className={styles.navLinkIcon} />
-              {t('header.qa')}
-            </Link>
-
-            <button
-              type="button"
-              className={styles.languageBtn}
-              onClick={toggleLanguage}
-              id="language-toggle-btn"
-              aria-label={t('header.switchLanguage')}
-              title={t('header.switchLanguage')}
-            >
-              <span className={styles.languageCode}>{language === 'en' ? t('header.enShort') : t('header.jaShort')}</span>
-            </button>
-
             <button
               type="button"
               className={styles.themeBtn}
@@ -161,42 +116,6 @@ export default function Header() {
               {theme === 'dark' ? <Sun size={16} /> : <Moon size={16} />}
               <span>{theme === 'dark' ? t('header.light') : t('header.dark')}</span>
             </button>
-
-            {/* Auth Section */}
-            {isAuthenticated ? (
-              <div className={styles.userMenu} ref={userMenuRef}>
-                <button
-                  className={styles.userBtn}
-                  onClick={() => setUserMenuOpen(!userMenuOpen)}
-                  id="user-menu-btn"
-                >
-                  <div className={styles.userAvatar}>
-                    {user.username.charAt(0).toUpperCase()}
-                  </div>
-                  <span className={styles.userName}>{user.username}</span>
-                  <ChevronDown size={14} className={`${styles.chevron} ${userMenuOpen ? styles.chevronOpen : ''}`} />
-                </button>
-
-                {userMenuOpen && (
-                  <div className={styles.dropdown} id="user-dropdown">
-                    <div className={styles.dropdownHeader}>
-                      <div className={styles.dropdownName}>{user.username}</div>
-                      <div className={styles.dropdownEmail}>{user.email}</div>
-                    </div>
-                    <div className={styles.dropdownDivider} />
-                    <button className={styles.dropdownItem} onClick={handleLogout} id="logout-btn">
-                      <LogOut size={16} />
-                      {t('header.signOut')}
-                    </button>
-                  </div>
-                )}
-              </div>
-            ) : (
-              <Link to="/login" className={styles.loginBtn} id="nav-login">
-                <LogIn size={16} />
-                {t('header.signIn')}
-              </Link>
-            )}
           </nav>
 
           {/* Hamburger */}
@@ -230,21 +149,6 @@ export default function Header() {
           {t('header.favorites')}
         </Link>
 
-        <Link to="/qa" className={styles.mobileNavLink} id="mobile-nav-qa">
-          <BrainCircuit size={20} />
-          {t('header.qa')}
-        </Link>
-
-        <button
-          type="button"
-          className={styles.mobileNavLink}
-          onClick={toggleLanguage}
-          id="mobile-language-toggle"
-        >
-          <span className={styles.languageCode}>{language === 'en' ? t('header.enShort') : t('header.jaShort')}</span>
-          {t('header.switchLanguage')}
-        </button>
-
         <button
           type="button"
           className={styles.mobileNavLink}
@@ -254,37 +158,6 @@ export default function Header() {
           {theme === 'dark' ? <Sun size={20} /> : <Moon size={20} />}
           {theme === 'dark' ? t('header.switchToLight') : t('header.switchToDark')}
         </button>
-
-        <div className={styles.mobileNavDivider} />
-
-        {isAuthenticated ? (
-          <>
-            <div className={styles.mobileUserInfo}>
-              <div className={styles.userAvatar}>
-                {user.username.charAt(0).toUpperCase()}
-              </div>
-              <div>
-                <div className={styles.mobileUserName}>{user.username}</div>
-                <div className={styles.mobileUserEmail}>{user.email}</div>
-              </div>
-            </div>
-            <button className={styles.mobileNavLink} onClick={handleLogout} id="mobile-logout">
-              <LogOut size={20} />
-              {t('header.signOut')}
-            </button>
-          </>
-        ) : (
-          <>
-            <Link to="/login" className={styles.mobileNavLink} id="mobile-nav-login">
-              <LogIn size={20} />
-              {t('header.signIn')}
-            </Link>
-            <Link to="/register" className={styles.mobileNavLink} id="mobile-nav-register">
-              <User size={20} />
-              {t('header.createAccount')}
-            </Link>
-          </>
-        )}
       </div>
     </>
   )

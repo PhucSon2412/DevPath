@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react'
-import { Link } from 'react-router-dom'
-import { Sparkles, Loader2, BrainCircuit } from 'lucide-react'
+import { Sparkles, Loader2 } from 'lucide-react'
 import RoadmapCard from '../../components/RoadmapCard/RoadmapCard'
 import { useAuth } from '../../contexts/AuthContext'
 import { useLocale } from '../../contexts/LocaleContext'
@@ -85,10 +84,6 @@ export default function HomePage() {
           </p>
 
           <div className={styles.heroActions}>
-            <Link to="/qa" className={styles.btnSecondary} id="cta-qa">
-              <BrainCircuit size={18} />
-              {t('home.qaButton')}
-            </Link>
             <a href="#roadmaps" className={styles.btnPrimary} id="cta-explore">
               <Sparkles size={18} />
               {t('home.exploreButton')}

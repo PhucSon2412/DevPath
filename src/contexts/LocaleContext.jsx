@@ -1,15 +1,13 @@
 import { createContext, useContext, useEffect, useMemo, useState } from 'react'
 import enMessages from '../locales/en.json'
-import jaMessages from '../locales/ja.json'
 
 const LocaleContext = createContext(null)
 
 const LOCALE_STORAGE_KEY = 'devpath_locale'
-const SUPPORTED_LOCALES = ['en', 'ja']
+const SUPPORTED_LOCALES = ['en']
 
 const MESSAGES = {
   en: enMessages,
-  ja: jaMessages,
 }
 
 function getByPath(source, path) {
@@ -24,12 +22,6 @@ function getInitialLocale() {
   if (SUPPORTED_LOCALES.includes(saved)) {
     return saved
   }
-
-  const browserLanguage = navigator.language?.toLowerCase() || ''
-  if (browserLanguage.startsWith('ja')) {
-    return 'ja'
-  }
-
   return 'en'
 }
 
@@ -38,7 +30,7 @@ export function LocaleProvider({ children }) {
 
   useEffect(() => {
     localStorage.setItem(LOCALE_STORAGE_KEY, locale)
-    document.documentElement.lang = locale === 'ja' ? 'ja' : 'en'
+    document.documentElement.lang = 'en'
   }, [locale])
 
   const setLanguage = (nextLocale) => {
