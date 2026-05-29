@@ -1,11 +1,12 @@
 import { createContext, useContext, useState, useEffect, useCallback } from 'react'
 import { useLocale } from './LocaleContext'
+import { apiUrl } from '../utils/api'
 
 const AuthContext = createContext(null)
 
-const API_BASE = '/api/auth'
-const ROADMAPS_API_BASE = '/api/roadmaps'
-const QA_API_BASE = '/api/qa'
+const API_BASE = apiUrl('/api/auth')
+const ROADMAPS_API_BASE = apiUrl('/api/roadmaps')
+const QA_API_BASE = apiUrl('/api/qa')
 const DONE_STATUS = 'done'
 const STEP_TYPES = new Set(['topic', 'subtopic', 'checklist', 'todo'])
 

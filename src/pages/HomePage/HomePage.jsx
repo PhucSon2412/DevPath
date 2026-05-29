@@ -3,6 +3,7 @@ import { Sparkles, Loader2 } from 'lucide-react'
 import RoadmapCard from '../../components/RoadmapCard/RoadmapCard'
 import { useAuth } from '../../contexts/AuthContext'
 import { useLocale } from '../../contexts/LocaleContext'
+import { apiUrl } from '../../utils/api'
 import styles from './HomePage.module.css'
 
 export default function HomePage() {
@@ -15,7 +16,7 @@ export default function HomePage() {
   const { language, t } = useLocale()
 
   useEffect(() => {
-    fetch(`/api/roadmaps?lang=${language}`)
+    fetch(apiUrl(`/api/roadmaps?lang=${language}`))
       .then((res) => res.json())
       .then((data) => {
         const groupedRoleRoadmaps = data.roleBased?.roadmaps || []

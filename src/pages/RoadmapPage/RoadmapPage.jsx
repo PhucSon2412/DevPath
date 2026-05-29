@@ -4,6 +4,7 @@ import { ArrowLeft, ZoomIn, ZoomOut, RotateCcw, MousePointer2, Hash, Loader2, Ch
 import DetailPanel from '../../components/DetailPanel/DetailPanel'
 import { useAuth } from '../../contexts/AuthContext'
 import { useLocale } from '../../contexts/LocaleContext'
+import { apiUrl } from '../../utils/api'
 import styles from './RoadmapPage.module.css'
 
 const CLICKABLE_TYPES = new Set(['topic', 'subtopic', 'checklist', 'todo'])
@@ -193,7 +194,7 @@ export default function RoadmapPage() {
     setLoading(true)
     setError(null)
     hasInitPanned.current = false
-    fetch(`/api/roadmaps/${id}?lang=${language}`)
+    fetch(apiUrl(`/api/roadmaps/${id}?lang=${language}`))
       .then((res) => {
         if (!res.ok) throw new Error(t('roadmap.notFoundTitle'))
         return res.json()

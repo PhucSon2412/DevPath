@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import { BrainCircuit, Loader2, ArrowLeft, ArrowRight, RotateCcw, Sparkles } from 'lucide-react'
 import { useAuth } from '../../contexts/AuthContext'
 import { useLocale } from '../../contexts/LocaleContext'
+import { apiUrl } from '../../utils/api'
 import styles from './QaPage.module.css'
 
 function flattenRoadmapsPayload(data) {
@@ -57,8 +58,8 @@ export default function QaPage() {
 
       try {
         const [questionsRes, roadmapsRes, savedRecommendation] = await Promise.all([
-          fetch(`/api/qa/questions?lang=${language}`),
-          fetch(`/api/roadmaps?lang=${language}`),
+          fetch(apiUrl(`/api/qa/questions?lang=${language}`)),
+          fetch(apiUrl(`/api/roadmaps?lang=${language}`)),
           getSavedQaRecommendation(),
         ])
 
