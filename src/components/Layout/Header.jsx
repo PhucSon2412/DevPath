@@ -7,17 +7,13 @@ import styles from './Header.module.css'
 const THEME_STORAGE_KEY = 'devpath_theme'
 
 function getInitialTheme() {
-  const savedTheme = localStorage.getItem(THEME_STORAGE_KEY)
-  if (savedTheme === 'light' || savedTheme === 'dark') return savedTheme
-
-  const prefersLight = window.matchMedia('(prefers-color-scheme: light)').matches
-  return prefersLight ? 'light' : 'dark'
+  return 'light'
 }
 
 export default function Header() {
   const [scrolled, setScrolled] = useState(false)
   const [mobileOpen, setMobileOpen] = useState(false)
-  const [theme, setTheme] = useState('dark')
+  const [theme, setTheme] = useState('light')
   const location = useLocation()
   const { t } = useLocale()
   const themeTransitionTimerRef = useRef(null)
@@ -96,26 +92,6 @@ export default function Header() {
               {t('header.inProgress')}
             </Link>
 
-            <Link
-              to="/favorites"
-              className={`${styles.navLink} ${location.pathname.startsWith('/favorites') ? styles.active : ''}`}
-              id="nav-favorites"
-            >
-              <Heart size={16} className={styles.navLinkIcon} />
-              {t('header.favorites')}
-            </Link>
-
-            <button
-              type="button"
-              className={styles.themeBtn}
-              onClick={toggleTheme}
-              id="theme-toggle-btn"
-              aria-label={theme === 'dark' ? t('header.switchToLight') : t('header.switchToDark')}
-              title={theme === 'dark' ? t('header.switchToLight') : t('header.switchToDark')}
-            >
-              {theme === 'dark' ? <Sun size={16} /> : <Moon size={16} />}
-              <span>{theme === 'dark' ? t('header.light') : t('header.dark')}</span>
-            </button>
           </nav>
 
           {/* Hamburger */}
@@ -143,21 +119,6 @@ export default function Header() {
           <Target size={20} />
           {t('header.inProgress')}
         </Link>
-
-        <Link to="/favorites" className={styles.mobileNavLink} id="mobile-nav-favorites">
-          <Heart size={20} />
-          {t('header.favorites')}
-        </Link>
-
-        <button
-          type="button"
-          className={styles.mobileNavLink}
-          onClick={toggleTheme}
-          id="mobile-theme-toggle"
-        >
-          {theme === 'dark' ? <Sun size={20} /> : <Moon size={20} />}
-          {theme === 'dark' ? t('header.switchToLight') : t('header.switchToDark')}
-        </button>
       </div>
     </>
   )

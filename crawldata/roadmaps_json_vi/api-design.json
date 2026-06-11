@@ -1,0 +1,4261 @@
+{
+  "id": "api-design",
+  "title": "Xây dựng API",
+  "source_url": "https://roadmap.sh/api-design",
+  "github_url": "https://github.com/kamranahmedse/developer-roadmap/tree/master/src/data/roadmaps/api-design",
+  "crawled_at": "2026-04-06T07:36:07.089023+00:00",
+  "type": "flow",
+  "stats": {
+    "total_nodes": 99,
+    "total_edges": 61,
+    "nodes_with_content": 84
+  },
+  "node_types": [
+    "button",
+    "linksgroup",
+    "paragraph",
+    "section",
+    "subtopic",
+    "title",
+    "topic",
+    "vertical"
+  ],
+  "edge_styles": [
+    "dashed",
+    "solid"
+  ],
+  "edge_line_types": [
+    "default",
+    "step"
+  ],
+  "node_type_description": {
+    "title": "Tiêu đề chính của lộ trình",
+    "topic": "Chủ đề lớn (nhóm kỹ năng)",
+    "subtopic": "Các kỹ năng/công nghệ cụ thể cần học",
+    "paragraph": "Vùng văn bản mô tả / chú thích",
+    "vertical": "Visual Connector"
+  },
+  "edge_style_description": {
+    "solid": "Kỹ năng bắt buộc / quan trọng",
+    "dashed": "Tùy chọn / gợi ý / phương án thay thế"
+  },
+  "nodes": [
+    {
+      "id": "SP-d4YngpYXkeIB9SSD-K",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": 240.93596412339082,
+        "y": 1861.570310981244
+      },
+      "size": {
+        "width": 203,
+        "height": 114
+      },
+      "style": {
+        "width": 150,
+        "height": 100,
+        "fontSize": 17,
+        "borderColor": "TRANSPARENt",
+        "backgroundColor": "TRANSPARENt"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "zL4QEM5xZO8XWXXWrdPuj",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": 244.19846699906657,
+        "y": 1501.3654630729577
+      },
+      "size": {
+        "width": 201,
+        "height": 217
+      },
+      "style": {
+        "width": 150,
+        "height": 100,
+        "fontSize": 17,
+        "borderColor": "TRANSPARENt",
+        "backgroundColor": "TRANSPARENt"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "o3XFXW2HHLBoxlbEnoWdZ",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": -592.469505701316,
+        "y": 1567.7437339754388
+      },
+      "size": {
+        "width": 248,
+        "height": 381
+      },
+      "style": {
+        "width": 150,
+        "height": 100,
+        "fontSize": 17,
+        "backgroundColor": "TRANSPARENt",
+        "borderColor": "TRANSPARENt"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "ludceg3fQVkilNTKWznti",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": -210.7109644352177,
+        "y": 1239.744561558562
+      },
+      "size": {
+        "width": 253,
+        "height": 114
+      },
+      "style": {
+        "width": 150,
+        "height": 100,
+        "fontSize": 17,
+        "backgroundColor": "TRANSPARENt",
+        "borderColor": "TRANSPARENt"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "RkPVaSF9XnX6uHUns_-oC",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": 228.3676576847514,
+        "y": 1267.1153073402706
+      },
+      "size": {
+        "width": 220,
+        "height": 235
+      },
+      "style": {
+        "width": 150,
+        "height": 100,
+        "fontSize": 17,
+        "borderColor": "TRANSPARENt"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "cGWZQjKazJQ0D3nz_AdAX",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": -593.4010478029121,
+        "y": 982.3357132591475
+      },
+      "size": {
+        "width": 231,
+        "height": 279
+      },
+      "style": {
+        "width": 150,
+        "height": 100,
+        "fontSize": 17,
+        "borderColor": "TRANSPARENt",
+        "backgroundColor": "TRANSPARENt"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "iHtjFSkQWMoUNdltNttEd",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": 219.72110595703134,
+        "y": 644.8914213180542
+      },
+      "size": {
+        "width": 269,
+        "height": 297
+      },
+      "style": {
+        "width": 150,
+        "height": 100,
+        "fontSize": 17,
+        "backgroundColor": "TRANSPARENt",
+        "borderColor": "TRANSPARENt"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "junprE7dbMyeovApqhSgr",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": 219.22110595703134,
+        "y": 281.3914213180542
+      },
+      "size": {
+        "width": 270,
+        "height": 228
+      },
+      "style": {
+        "width": 150,
+        "height": 100,
+        "fontSize": 17,
+        "backgroundColor": "TRANSPARENt",
+        "borderColor": "TRANSPARENt"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "wTrcPqj0KpoeOvJf7k3iI",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": -206.8881872719935,
+        "y": 436.40074822234897
+      },
+      "size": {
+        "width": 265,
+        "height": 289
+      },
+      "style": {
+        "width": 150,
+        "height": 100,
+        "fontSize": 17,
+        "backgroundColor": "TRANSPARENt",
+        "borderColor": "TRANSPARENt"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "IzMY2P54llvbVixWxAl7H",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": -571.1381872719934,
+        "y": 123.90074822234897
+      },
+      "size": {
+        "width": 233,
+        "height": 437
+      },
+      "style": {
+        "width": 150,
+        "height": 100,
+        "fontSize": 17
+      },
+      "z_index": -999
+    },
+    {
+      "id": "AZoEY2N7PqAQgUl04E3KF",
+      "type": "title",
+      "label": "Xây dựng API",
+      "position": {
+        "x": -178.6381872719934,
+        "y": -57.599251777651034
+      },
+      "size": {
+        "width": 208,
+        "height": 68
+      },
+      "style": {
+        "fontSize": 28,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "duKkpzPjUU_-8kyJGHqRX",
+      "type": "topic",
+      "label": "Học các kiến thức cơ bản",
+      "position": {
+        "x": -198.1381872719934,
+        "y": 123.40074822234897
+      },
+      "size": {
+        "width": 247,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Các API (Application Programming Interfaces) là một phần không thể thiếu của phát triển hiện đại, cho phép các ứng dụng phần mềm giao tiếp và sử dụng các hàm từ các ứng dụng hoặc dịch vụ phần mềm khác. Thiết kế API do đó trở thành một phần quan trọng của bất kỳ quy trình phát triển phần mềm nào. Hơn nữa, những cơ bản của thiết kế API bao gồm việc hiểu các nguyên tắc về cái gì là một API, nó hoạt động như thế nào và các loại API khác nhau, chẳng hạn như REST, SOAP và GraphQL. Điều này cũng bao gồm việc hiểu các tiêu chuẩn và phương pháp tốt nhất trong thiết kế API để đảm bảo phát triển các API mạnh mẽ, thân thiện với người dùng và an toàn. Nền tảng của Thiết kế API nằm ở những kiến thức này, tạo tiền đề cho việc thiết kế và phát triển API phức tạp hơn.",
+        "links": []
+      }
+    },
+    {
+      "id": "r8M3quACGO2piu0u_R4hO",
+      "type": "subtopic",
+      "label": "API là gì?",
+      "position": {
+        "x": -570.1381872719934,
+        "y": 63.400748222348966
+      },
+      "size": {
+        "width": 233,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "API (Application Programming Interfaces), hoặc Giao diện lập trình ứng dụng, cung cấp một phương thức để các ứng dụng phần mềm giao tiếp với nhau. Chúng trừu tượng hóa độ phức tạp của các ứng dụng để cho phép các nhà phát triển chỉ sử dụng những thành phần cần thiết của phần mềm họ đang làm việc với. Chúng định nghĩa các phương pháp và định dạng dữ liệu mà một ứng dụng nên sử dụng để thực hiện các tác vụ, chẳng hạn như gửi, truy xuất hoặc sửa đổi dữ liệu. Hiểu biết về API là rất quan trọng để nắm vững phát triển phần mềm hiện đại, chủ yếu vì chúng cho phép các ứng dụng trao đổi dữ liệu và chức năng với nhau một cách dễ dàng, do đó cho phép tích hợp và hội tụ các dịch vụ công nghệ. Do đó, sự hiểu biết vững chắc về những gì API là tạo nên nền tảng cơ bản của thiết kế API.",
+        "links": [
+          {
+            "title": "Bắt đầu với API - Postman",
+            "url": "https://www.postman.com/what-is-an-api/",
+            "type": "article"
+          },
+          {
+            "title": "API - IBM",
+            "url": "https://www.ibm.com/topics/api",
+            "type": "article"
+          },
+          {
+            "title": "API là gì? - AWS",
+            "url": "https://aws.amazon.com/what-is/api/",
+            "type": "article"
+          },
+          {
+            "title": "API là gì?",
+            "url": "https://www.youtube.com/watch?v=s7wmiS2mSXY",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2HdKzAIQi15pr3YHHrbPp",
+      "type": "subtopic",
+      "label": "HTTP",
+      "position": {
+        "x": -571.1381872719934,
+        "y": 122.60000000000008
+      },
+      "size": {
+        "width": 233,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Giao thức HTTP, hay Hypertext Transfer Protocol, là một thành phần cơ bản trong thiết kế của bất kỳ API nào. Đây là giao thức được sử dụng để truyền dữ liệu siêu đa phương tiện trên web, chẳng hạn như trang HTML hoặc JSON từ một Web API. Hiểu biết về HTTP là rất quan trọng trong thiết kế API vì nó cung cấp cấu trúc cho cách các yêu cầu và phản hồi nên được xây dựng và xử lý. Nó quy định cách các điểm cuối (endpoints) được xác định, dữ liệu nên được chuyển đổi như thế nào và mã trạng thái nào nên được sử dụng để truyền tải các tình huống cụ thể. Một nền tảng vững chắc về nguyên tắc HTTP cho phép thiết kế API mạnh mẽ, hiệu quả và an toàn hơn.",
+        "links": [
+          {
+            "title": "Tất cả những gì bạn cần biết về HTTP",
+            "url": "https://cs.fyi/guide/http-in-depth",
+            "type": "article"
+          },
+          {
+            "title": "HTTP là gì?",
+            "url": "https://www.cloudflare.com/en-gb/learning/ddos/glossary/hypertext-transfer-protocol-http/",
+            "type": "article"
+          },
+          {
+            "title": "Tổng quan về HTTP",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview",
+            "type": "article"
+          },
+          {
+            "title": "HTTP/3 Từ A đến Z: Các Khái niệm Nền tảng",
+            "url": "https://www.smashingmagazine.com/2021/08/http3-core-concepts-part1/",
+            "type": "article"
+          },
+          {
+            "title": "Khóa học và khám phá HTTP",
+            "url": "https://www.youtube.com/watch?v=iYM2zFP3Zn0",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ACALE93mL4gnX5ThRIdRp",
+      "type": "subtopic",
+      "label": "Các phiên bản HTTP",
+      "position": {
+        "x": -560.6381872719934,
+        "y": 183.90074822234897
+      },
+      "size": {
+        "width": 211,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Giao thức HTTP (Hypertext Transfer Protocol) đóng vai trò then chốt trong thiết kế API. Các phiên bản HTTP xác định cách dữ liệu nên được đóng gói và truyền tải, cũng như cách máy chủ web và trình duyệt phản hồi các lệnh. Hiểu biết về các phiên bản HTTP khác nhau và các tính năng của chúng là rất quan trọng đối với nhà thiết kế API vì nó ảnh hưởng trực tiếp đến khả năng giao tiếp của một API với phần mềm và hệ thống khác. Từ HTTP/1.0, phiên bản đầu tiên của HTTP đến HTTP/2 và phiên bản mới nhất HTTP/3, mỗi phiên bản đều mang lại những cải tiến về tốc độ, khả năng truyền dữ liệu và bảo mật. Việc lựa chọn một phiên bản HTTP phù hợp là rất quan trọng đối với hiệu quả và hiệu suất của API.",
+        "links": [
+          {
+            "title": "Sự phát triển của HTTP",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/Evolution_of_HTTP",
+            "type": "article"
+          },
+          {
+            "title": "HTTP: 1.0 so với 1.1 so với 2.0 so với 3.0",
+            "url": "https://www.baeldung.com/cs/http-versions",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "rADHM-6NAxEjzmgiHefDX",
+      "type": "subtopic",
+      "label": "Các phương thức HTTP",
+      "position": {
+        "x": -560.6381872719934,
+        "y": 236.40074822234897
+      },
+      "size": {
+        "width": 211,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Các phương thức HTTP (Hypertext Transfer Protocol) đóng một vai trò quan trọng trong thiết kế API. Chúng xác định loại yêu cầu mà một client có thể thực hiện đến máy chủ, cung cấp khung cho sự tương tác giữa client và server. Hiểu biết về các phương thức HTTP là điều cần thiết để tạo ra một API mạnh mẽ và hiệu quả. Một số phương thức HTTP phổ biến được sử dụng trong thiết kế API bao gồm GET, POST, PUT, DELETE và PATCH. Mỗi phương pháp này biểu thị một loại yêu cầu khác nhau, cho phép nhiều tương tác với các endpoint API của bạn. Điều này tạo ra một API động hơn, chức năng hơn và thân thiện với người dùng.",
+        "links": [
+          {
+            "title": "Phương thức HTTP – MDN",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods",
+            "type": "article"
+          },
+          {
+            "title": "Phương thức HTTP là gì? - Postman",
+            "url": "https://blog.postman.com/what-are-http-methods/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "7szYyzLifKsepNU0c2KnN",
+      "type": "subtopic",
+      "label": "Mã Trạng thái HTTP",
+      "position": {
+        "x": -560.6381872719934,
+        "y": 288.90074822234897
+      },
+      "size": {
+        "width": 211,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Mã trạng thái HTTP là một phần thiết yếu của Thiết kế API, cung cấp thông tin quan trọng về kết quả của một yêu cầu được gửi đến máy chủ. Chúng là các số có ba chữ số, trong đó chữ số đầu tiên xác định lớp phản hồi và hai chữ số cuối cùng không có giá trị phân loại nào. Ví dụ, '200' biểu thị một yêu cầu HTTP thành công, trong khi '404' cho biết tài nguyên được yêu cầu không thể tìm thấy trên máy chủ. Việc sử dụng hiệu quả các mã này có thể tăng cường tính mạnh mẽ của API, giúp nó dễ hiểu và dễ gỡ lỗi hơn.",
+        "links": [
+          {
+            "title": "Mã Trạng thái HTTP",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status",
+            "type": "article"
+          },
+          {
+            "title": "Mã trạng thái HTTP là gì?",
+            "url": "https://umbraco.com/knowledge-base/http-status-codes/",
+            "type": "article"
+          },
+          {
+            "title": "Danh sách mã trạng thái HTTP",
+            "url": "https://en.wikipedia.org/wiki/List_of_HTTP_status_codes",
+            "type": "article"
+          },
+          {
+            "title": "Mã trạng thái HTTP giải thích trong 5 phút",
+            "url": "https://www.youtube.com/watch?v=qmpUfWN7hh4",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "rE-0yibRH6B2UBKp351cf",
+      "type": "subtopic",
+      "label": "Đầu báo HTTP",
+      "position": {
+        "x": -560.6381872719934,
+        "y": 341.40074822234897
+      },
+      "size": {
+        "width": 211,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Đầu báo (HTTP Headers) đóng vai trò then chốt trong Thiết kế API vì chúng cung cấp thông tin quan trọng giữa trình duyệt và máy chủ liên quan đến dữ liệu được trao đổi. Đầu báo là một phần của tin nhắn yêu cầu và phản hồi HTTP, bao gồm các loại như Đầu báo Tiêu chuẩn, Đầu báo Không tiêu chuẩn, Đầu báo Phổ biến hoặc Hiếm gặp. Chúng có thể định nghĩa các tham số như kiểu nội dung, xác thực, trạng thái phản hồi, cookie và nhiều hơn nữa. Việc hiểu và sử dụng hiệu quả Đầu báo HTTP là yếu tố then chốt để thiết kế các API mạnh mẽ và an toàn. Một tập hợp đầu báo được định nghĩa tốt đảm bảo trao đổi dữ liệu thành công, xử lý lỗi một cách khéo léo và cải thiện giao tiếp tổng thể giữa trình duyệt và máy chủ.",
+        "links": [
+          {
+            "title": "Đầu báo HTTP",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers",
+            "type": "article"
+          },
+          {
+            "title": "Tiêu đề HTTP là gì?",
+            "url": "https://blog.postman.com/what-are-http-headers/",
+            "type": "article"
+          },
+          {
+            "title": "Tiêu đề HTTP và các loại Tiêu đề HTTP là gì?",
+            "url": "https://requestly.com/blog/what-are-http-headers-understand-different-types-of-http-headers/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P-rGIk50Bg7nFmWieAW07",
+      "type": "subtopic",
+      "label": "URL, Tham Số Truy Vấn & Đường Dẫn",
+      "position": {
+        "x": 197.8618127280065,
+        "y": 52.100748222348955
+      },
+      "size": {
+        "width": 284,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Khi thiết kế API, một phần quan trọng liên quan đến việc xử lý các locator tài nguyên nhất quán (URL), tham số truy vấn và tham số đường dẫn. Các thành phần này đóng vai trò quan trọng trong cách API gửi và lấy dữ liệu. URL là nền tảng của API, vì nó xác định tài nguyên trên máy chủ. Tham số truy vấn được sử dụng để lọc kết quả cụ thể, sắp xếp hoặc hiển thị các trường dữ liệu cụ thể. Mặt khác, tham số đường dẫn đóng vai trò là dấu hiệu thay thế cho dữ liệu biến trong URL, cho phép chúng ta tùy chỉnh phản hồi dữ liệu. Hiểu cách sử dụng URL, truy vấn và tham số đường dẫn là rất quan trọng để tạo ra API hiệu quả, có khả năng mở rộng và thân thiện với người dùng.",
+        "links": [
+          {
+            "title": "Hiểu về Biến đường dẫn và Tham số truy vấn trong Yêu cầu HTTP",
+            "url": "https://medium.com/@averydcs/understanding-path-variables-and-query-parameters-in-http-requests-232248b71a8",
+            "type": "article"
+          },
+          {
+            "title": "Mô tả các tham số",
+            "url": "https://swagger.io/docs/specification/describing-parameters/",
+            "type": "article"
+          },
+          {
+            "title": "Cách API Parameters Hoạt Động: Truy vấn (Query), Đường dẫn (Path), Tiêu đề (Header) và Thân tin nhắn (Body)",
+            "url": "https://treblle.com/blog/api-parameters-query-path-header-body",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "UFuX8wcxZQ7dvaQF_2Yp8",
+      "type": "subtopic",
+      "label": "Cookie",
+      "position": {
+        "x": -560.6381872719934,
+        "y": 393.90074822234897
+      },
+      "size": {
+        "width": 211,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Cookie đóng vai trò quan trọng trong lĩnh vực thiết kế API (Application Programming Interface). Về cơ bản, cookie là các đoạn dữ liệu nhỏ được lưu trữ trên trình duyệt của người dùng, cho phép các phiên HTTP trạng thái, bằng cách lưu trữ thông tin liên quan giữa các giao tiếp máy chủ. Trong thiết kế API, cookie đặc biệt hữu ích khi xác thực người dùng cần thiết. Cookie có thể lưu trữ token phiên, từ đó cho phép người dùng vẫn đăng nhập trong nhiều phiên hoặc trên các trang web khác nhau. Hiểu biết về cookie và cách chúng hoạt động là rất quan trọng trong thiết kế API để duy trì phiên làm việc của người dùng, cung cấp trải nghiệm người dùng tốt hơn và bảo vệ thông tin người dùng.",
+        "links": [
+          {
+            "title": "Cookie API là gì? Làm thế nào để gửi nó?",
+            "url": "https://apidog.com/articles/what-are-api-cookies/",
+            "type": "article"
+          },
+          {
+            "title": "Sử dụng Cookie HTTP - Mozilla",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "TX_hg7EobNJhmWKsMCaT1",
+      "type": "subtopic",
+      "label": "Đàm phán nội dung",
+      "position": {
+        "x": 197.8618127280065,
+        "y": 106.10074822234895
+      },
+      "size": {
+        "width": 284,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Trong bối cảnh thiết kế API, Thương lượng nội dung đề cập đến quá trình giao tiếp giữa khách hàng và máy chủ về biểu diễn dữ liệu chấp nhận được cho cả hai. Nó cho phép khách hàng chỉ ra định dạng phản hồi ưa thích, chẳng hạn như JSON, XML hoặc HTML. Cơ chế này dẫn đến các API linh hoạt và dễ thích ứng, tăng cường khả năng sử dụng của chúng. Hiểu biết và tận dụng hiệu quả thương lượng nội dung là một phần không thể thiếu trong việc nắm vững các nguyên tắc cơ bản về thiết kế API.",
+        "links": [
+          {
+            "title": "Đàm phán nội dung",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Content_negotiation",
+            "type": "article"
+          },
+          {
+            "title": "Đàm phán nội dung trong thực tế",
+            "url": "https://softwaremill.com/content-negotiation-in-practice/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "GRlsBogOlOwuqhMMPyHN3",
+      "type": "subtopic",
+      "label": "CORS",
+      "position": {
+        "x": -559.6381872719934,
+        "y": 446.40074822234897
+      },
+      "size": {
+        "width": 211,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Chia sẻ tài nguyên qua nguồn gốc (CORS) là một khái niệm then chốt trong Thiết kế API. Đây là cơ chế sử dụng tiêu đề HTTP để hướng dẫn trình duyệt cho phép một ứng dụng web chạy ở một nguồn gốc truy cập vào các tài nguyên được chọn từ một nguồn gốc khác. Theo mặc định, trình duyệt web ngăn chặn trang web thực hiện yêu cầu đến một miền khác với miền mà trang web đó phát ra. CORS là hướng dẫn cho phép bạn cấu hình một tập hợp các quy tắc trên máy chủ để xác định những loại yêu cầu chéo miền nào được phép, mang lại sự linh hoạt cần thiết mà không làm giảm tính bảo mật. Hiểu biết về CORS là rất quan trọng khi thiết kế API đảm bảo giao tiếp giữa các miền an toàn và hiệu quả.",
+        "links": [
+          {
+            "title": "Chia sẻ tài nguyên qua nguồn gốc khác (CORS)",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS",
+            "type": "article"
+          },
+          {
+            "title": "CORS là gì?",
+            "url": "https://aws.amazon.com/what-is/cross-origin-resource-sharing/",
+            "type": "article"
+          },
+          {
+            "title": "CORS trong 100 giây",
+            "url": "https://www.youtube.com/watch?v=4KHiSt0oLJ0",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "KG3wO86F8Of27fU7QRcsn",
+      "type": "subtopic",
+      "label": "Hiểu về TCP / IP",
+      "position": {
+        "x": 197.8618127280065,
+        "y": 160.10074822234895
+      },
+      "size": {
+        "width": 284,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Khi thiết kế API, TCP/IP là một khối xây dựng cốt lõi. TCP/IP, viết tắt của Transmission Control Protocol/Internet Protocol, là bộ giao thức truyền thông được sử dụng để kết nối máy chủ trên Internet. Nó cung cấp việc chuyển tiếp có thứ tự, kiểm tra lỗi các luồng byte từ một chương trình trên một máy tính đến một chương trình khác trên một máy tính khác. Nếu bạn muốn hiểu cách API giao tiếp qua mạng, thì việc nắm vững cách hoạt động cơ bản của TCP/IP là điều không thể thiếu. Hiểu đầy đủ chủ đề này sẽ giúp bạn nắm vững thiết kế API và đưa ra các quyết định sáng suốt hơn khi tạo API.",
+        "links": [
+          {
+            "title": "Giao thức Điều khiển luồng TCP/IP là gì?",
+            "url": "https://www.fortinet.com/resources/cyberglossary/tcp-ip",
+            "type": "article"
+          },
+          {
+            "title": "TCP/IP là gì?",
+            "url": "https://www.cloudflare.com/en-gb/learning/ddos/glossary/tcp-ip/",
+            "type": "article"
+          },
+          {
+            "title": "TCP/IP và OSI là gì?",
+            "url": "https://www.youtube.com/watch?v=CRdL1PcherM",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "v4nJYD9yiIEUviLPhVTCD",
+      "type": "subtopic",
+      "label": "Cơ sở DNS",
+      "position": {
+        "x": 197.8618127280065,
+        "y": 214.10074822234895
+      },
+      "size": {
+        "width": 284,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Khi thảo luận về các yếu tố cơ bản của Thiết kế API, các Nguyên tắc Cơ bản của DNS (Hệ thống tên miền) không thể bỏ qua. DNS đóng một vai trò cơ bản trong cách thức hoạt động của API, nó giống như danh bạ của internet, nó giải thích các tên máy chủ thân thiện với người dùng thành địa chỉ IP mà API cần để giao tiếp. Hiểu biết hệ thống phức tạp này là rất quan trọng vì nó cho phép hiểu rõ hơn về luồng điều hướng và thông tin trong Thiết kế API. Đối với nhà phát triển API, kiến thức về DNS có thể giúp giải quyết các vấn đề về kết nối, đảm bảo kết nối an toàn và tối ưu hóa kiến trúc API với các cuộc gọi hiệu quả hơn.",
+        "links": [
+          {
+            "title": "DNS là gì?",
+            "url": "https://www.cloudflare.com/en-gb/learning/dns/what-is-dns/",
+            "type": "article"
+          },
+          {
+            "title": "Giới thiệu về DNS",
+            "url": "https://aws.amazon.com/route53/what-is-dns/",
+            "type": "article"
+          },
+          {
+            "title": "Khóa học Nâng cao về Bản ghi DNS dành cho Nhà phát triển Web",
+            "url": "https://dev.to/chrisachard/dns-record-crash-course-for-web-developers-35hn",
+            "type": "article"
+          },
+          {
+            "title": "Giải thích DNS trong 100 giây",
+            "url": "https://www.youtube.com/watch?v=UVR9lhUGAyU",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "o8i093VQv-T5Qf1yGqU0R",
+      "type": "topic",
+      "label": "Các kiểu API khác nhau",
+      "position": {
+        "x": -198.1381872719934,
+        "y": 330.40074822234897
+      },
+      "size": {
+        "width": 247,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Thiết kế API (Application Programming Interface) không phải là một giải pháp phù hợp với tất cả. Các API có thể được cấu trúc theo nhiều phong cách khác nhau, mỗi phong cách có những đặc điểm, ưu điểm và trường hợp sử dụng riêng. Nhận biết sớm kiểu API phù hợp là rất quan trọng để đảm bảo trải nghiệm người dùng cuối chức năng, hiệu quả và liền mạch. Các kiểu API thường dùng bao gồm REST, SOAP, GraphQL và gRPC. Hiểu biết về các kiểu API đa dạng này sẽ giúp đưa ra các quyết định thiết kế tốt hơn, thúc đẩy kiến trúc hệ thống tổng thể hiệu quả và thúc đẩy một ứng dụng dễ sử dụng và thân thiện với người dùng.",
+        "links": [
+          {
+            "title": "Phong cách API",
+            "url": "https://www.redhat.com/architect/api-styles",
+            "type": "article"
+          },
+          {
+            "title": "Các Phong Cách API Hàng Đầu",
+            "url": "https://www.youtube.com/watch?v=4vLxWqE94l4",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "BvwdASMvuNQ9DNgzdSZ4o",
+      "type": "subtopic",
+      "label": "API dựa trên kiến trúc REST",
+      "position": {
+        "x": -196.3881872719935,
+        "y": 438.90074822234897
+      },
+      "size": {
+        "width": 246,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "RESTful APIs, hoặc các API Representational State Transfer, là một tập hợp các quy ước để thiết kế các ứng dụng mạng. Chúng sử dụng các phương thức HTTP để đọc, cập nhật và xóa dữ liệu. Chúng cung cấp một cách đơn giản và chuẩn hóa để xây dựng các dịch vụ web có thể được tiêu dùng dễ dàng bởi nhiều khách hàng khác nhau. Các nguyên tắc chính của một API RESTful bao gồm giao tiếp giữa máy khách và máy chủ không trạng thái, dữ liệu có thể lưu trong bộ nhớ đệm và giao diện nhất quán, giúp API dễ hiểu, linh hoạt và khả năng mở rộng. Hơn nữa, nó dựa rất nhiều vào việc sử dụng tài nguyên và các biểu diễn của chúng, khiến nó trở thành một lựa chọn phổ biến trong thiết kế API do hiệu suất, khả năng mở rộng, tính đơn giản và độ tin cậy của nó.",
+        "links": [
+          {
+            "title": "REST là gì?",
+            "url": "https://restfulapi.net/",
+            "type": "article"
+          },
+          {
+            "title": "API nào là RESTful?",
+            "url": "https://aws.amazon.com/what-is/restful-api/",
+            "type": "article"
+          },
+          {
+            "title": "Hiểu về các API RESTful",
+            "url": "https://www.youtube.com/watch?v=lsMQRaeKNDk",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "TVR-SkErlOHbDKLBGfxep",
+      "type": "subtopic",
+      "label": "API JSON đơn giản",
+      "position": {
+        "x": -196.3881872719935,
+        "y": 492.90074822234897
+      },
+      "size": {
+        "width": 246,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Các API JSON đơn giản (JavaScript Object Notation) là một dạng API hoặc \"Giao diện lập trình ứng dụng\" phổ biến sử dụng JSON để trao đổi dữ liệu giữa máy chủ và các ứng dụng web. Phương pháp này đã trở nên phổ biến chính yếu nhờ tính đơn giản, nhẹ, dễ đọc. Trong bối cảnh thiết kế API, một API JSON được cấu trúc tốt cho phép nhà phát triển tương tác hiệu quả với backend và lấy chỉ những dữ liệu họ cần theo cách nhất quán và dễ hiểu. Từ việc giảm thiểu dữ liệu dư thừa đến khả năng phân tích nhanh chóng, các API JSON đơn giản mang lại nhiều lợi ích để cải thiện hiệu suất tổng thể của ứng dụng. Thiết kế một API JSON tốt đòi hỏi lập kế hoạch cẩn thận, kiến thức vững chắc về các phương pháp HTTP, điểm cuối (endpoints), cơ chế xử lý lỗi và quan trọng nhất là hiểu rõ yêu cầu dữ liệu của ứng dụng.",
+        "links": [
+          {
+            "title": "Tiêu chuẩn xây dựng API JSON",
+            "url": "https://github.com/json-api/json-api",
+            "type": "opensource"
+          },
+          {
+            "title": "JSON API: Giải thích trong 4 phút",
+            "url": "https://www.youtube.com/watch?v=N-4prIh7t38",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Wwd-0PjrtViMFWxRGaQey",
+      "type": "subtopic",
+      "label": "API SOAP",
+      "position": {
+        "x": -196.3881872719935,
+        "y": 546.900748222349
+      },
+      "size": {
+        "width": 246,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "API SOAP (Giao thức Truy cập Đối tượng Đơn giản) là một hệ thống giao tiếp quy trình chuẩn cho phép các chương trình chạy trên các hệ điều hành khác nhau (như Linux và Windows) giao tiếp bằng cách sử dụng Giao thức Truyền dữ liệu siêu văn bản (HTTP) và Ngôn ngữ đánh dấu mở rộng (XML). Trong bối cảnh thiết kế API, API SOAP cung cấp một quy trình tương tác mạnh mẽ và được xác định rõ ràng giữa các ứng dụng phần mềm khác nhau, chủ yếu trên mạng. Chúng có thể mở rộng, linh hoạt và hỗ trợ nhiều giao thức truyền thông khác nhau. Mặc dù phức tạp hơn so với các loại API khác như REST, API SOAP đảm bảo độ tin cậy và an toàn cao, khiến chúng trở thành lựa chọn cho một số ứng dụng tập trung kinh doanh, có lượng giao dịch lớn.",
+        "links": [
+          {
+            "title": "API SOAP là gì?",
+            "url": "https://www.indeed.com/career-advice/career-development/what-is-soap-api",
+            "type": "article"
+          },
+          {
+            "title": "SOAP vs REST 101: Hiểu Sự Khác Biệt",
+            "url": "https://www.soapui.org/learn/api/soap-vs-rest-api/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "MKVcPM2EzAr2_Ieyp9Fu3",
+      "type": "subtopic",
+      "label": "API dựa trên GraphQL",
+      "position": {
+        "x": -196.3881872719935,
+        "y": 600.900748222349
+      },
+      "size": {
+        "width": 246,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "GraphQL là một ngôn ngữ truy vấn và thao tác dữ liệu mã nguồn mở cho các API, và là runtime để thực thi những truy vấn đó với dữ liệu hiện có của bạn. Khác với REST, nơi bạn có cấu trúc dữ liệu trả về được xác định trước cho mỗi endpoint, các API GraphQL được thiết kế dựa trên một hệ thống kiểu và cho phép ứng dụng client chỉ định chính xác dữ liệu cần từ máy chủ. Điều này mang lại nhiều tính linh hoạt và hiệu quả, dẫn đến ít chuyến đi hơn đến máy chủ và cải thiện đáng kể hiệu suất của ứng dụng client. Cho dù bạn đang xây dựng một dự án nhỏ hay một ứng dụng quy mô doanh nghiệp, việc hiểu và triển khai các API GraphQL có thể mang lại mã sạch hơn, dễ quản lý hơn.",
+        "links": [
+          {
+            "title": "Truy cập Bản đồ Đường dẫn GraphQL chuyên biệt",
+            "url": "https://dev-path-murex.vercel.app/roadmap/graphql",
+            "type": "roadmap"
+          },
+          {
+            "title": "GraphQL Website (Trang web GraphQL)",
+            "url": "https://graphql.org/",
+            "type": "official"
+          },
+          {
+            "title": "API GraphQL công cộng",
+            "url": "https://github.com/graphql-kit/graphql-apis",
+            "type": "opensource"
+          },
+          {
+            "title": "GraphQL Giải thích trong 100 giây",
+            "url": "https://www.youtube.com/watch?v=eIQh02xuVw4",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "awdoiCHz7Yc3kYac_iy-a",
+      "type": "topic",
+      "label": "Xây dựng API JSON / RESTful",
+      "position": {
+        "x": 212.7618127280066,
+        "y": 548.400748222349
+      },
+      "size": {
+        "width": 283,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Xây dựng API JSON/RESTful bao gồm thiết kế và triển khai các API tuân thủ các ràng buộc kiến trúc của Representational State Transfer (REST). Các API này sử dụng JSON (JavaScript Object Notation) làm định dạng để trao đổi thông tin, do tính nhẹ, dễ hiểu và được chấp nhận rộng rãi.",
+        "links": [
+          {
+            "title": "Tiêu chuẩn xây dựng API bằng JSON",
+            "url": "https://jsonapi.org/",
+            "type": "official"
+          },
+          {
+            "title": "Cách Tạo Một API RESTful",
+            "url": "https://www.integrate.io/blog/how-to-make-a-rest-api/",
+            "type": "article"
+          },
+          {
+            "title": "REST API là gì?",
+            "url": "https://www.youtube.com/watch?v=lsMQRaeKNDk&t=170s",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "9WI_z34jIFXwoUQuChyRU",
+      "type": "subtopic",
+      "label": "Nguyên tắc REST",
+      "position": {
+        "x": 223.2618127280066,
+        "y": 290.40074822234897
+      },
+      "size": {
+        "width": 262,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "REST (Representational State Transfer) là một phong cách kiến trúc quan trọng được sử dụng trong thiết kế API. Nó định nghĩa một tập hợp các quy tắc và tiêu chuẩn thông qua đó các hệ thống giao tiếp trên mạng. Các đặc điểm chính của REST bao gồm tính không trạng thái, giao tiếp giữa máy khách và máy chủ, khả năng lưu trữ đệm (cacheability) và giao diện nhất quán. Hiểu và áp dụng đúng các nguyên tắc này có thể giúp trong việc thiết kế các API mạnh mẽ, có khả năng mở rộng và hiệu suất cao. Các nguyên tắc REST xoay quanh tài nguyên và thao tác chúng để đạt được kết quả mong muốn. Bằng cách tuân theo các nguyên tắc này, nhà phát triển có thể đảm bảo rằng thiết kế API của họ phù hợp với tiêu chuẩn web, từ đó cải thiện khả năng tương tác giữa các hệ thống khác nhau.",
+        "links": [
+          {
+            "title": "Nguyên tắc REST API | Tổng quan toàn diện",
+            "url": "https://blog.dreamfactory.com/rest-apis-an-overview-of-basic-principles",
+            "type": "article"
+          },
+          {
+            "title": "Nguyên tắc REST",
+            "url": "https://ninenines.eu/docs/en/cowboy/2.12/guide/rest_principles/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b3qRTLwCC_9uDoPGrd9Bu",
+      "type": "subtopic",
+      "label": "Thiết Kế URI",
+      "position": {
+        "x": 223.2618127280066,
+        "y": 344.40074822234897
+      },
+      "size": {
+        "width": 262,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "URI (Uniform Resource Identifier) là một chuỗi ký tự được sử dụng để xác định một tên hoặc một tài nguyên trên Internet. Thiết kế URI cẩn thận là một phần quan trọng trong việc tạo ra một giao diện API mượt mà, dễ hiểu, dễ nhớ và dễ sử dụng. Thiết kế URI tốt đảm bảo rằng các tài nguyên liên quan được nhóm lại với nhau theo cách logic và có thể ảnh hưởng lớn đến khả năng sử dụng và khả năng bảo trì của một API. Nó bao gồm việc tạo các đường dẫn HTTP chuẩn hóa, trực quan tận dụng bản chất phân cấp của URL để cung cấp cấu trúc tốt hơn cho API. Sự phân cấp này sau đó có thể được sử dụng để mở rộng API theo thời gian mà không làm gián đoạn chức năng của khách hàng hiện tại.",
+        "links": [
+          {
+            "title": "Hướng dẫn thiết kế URI",
+            "url": "https://css-tricks.com/guidelines-for-uri-design/",
+            "type": "article"
+          },
+          {
+            "title": "Thiết kế URI",
+            "url": "https://www.oreilly.com/library/view/restful-web-services/9780596809140/ch04.html",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "itILK2SXvLvAjk1Kul7EK",
+      "type": "subtopic",
+      "label": "Chiến lược phiên bản hóa",
+      "position": {
+        "x": 223.2618127280066,
+        "y": 398.40074822234897
+      },
+      "size": {
+        "width": 262,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Phiên bản API là một thành phần quan trọng của Thiết kế và Quản lý API. Khi các API phát triển theo thời gian để đáp ứng các yêu cầu kinh doanh và cải tiến chức năng mới, điều quan trọng là phải quản lý các thay đổi sao cho không phá vỡ các ứng dụng khách hàng hiện có. Điều này đòi hỏi các chiến lược phiên bản trong thiết kế API. Có nhiều chiến lược phiên bản khác nhau như phiên bản theo URI, phiên bản theo Tiêu đề Yêu cầu, và phiên bản theo Loại Mídia được áp dụng dựa trên sự dễ dàng triển khai, khả năng tương thích với khách hàng và khả năng tiếp cận. Hiểu biết về từng chiến lược và ưu nhược điểm của nó có thể dẫn đến Thiết kế API tốt hơn và khả năng bảo trì.",
+        "links": [
+          {
+            "title": "Phiên bản API là gì?",
+            "url": "https://www.postman.com/api-platform/api-versioning/",
+            "type": "article"
+          },
+          {
+            "title": "Các phương pháp hay nhất về phiên bản API",
+            "url": "https://kodekloud.com/blog/api-versioning-best-practices/",
+            "type": "article"
+          },
+          {
+            "title": "Phiên bản hóa các API của bạn",
+            "url": "https://www.youtube.com/watch?v=Np_Jr6AvCOc",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pgJDzP3pJjhjr5wTRtPJO",
+      "type": "subtopic",
+      "label": "Đề mục hóa trang",
+      "position": {
+        "x": 223.2618127280066,
+        "y": 649.400748222349
+      },
+      "size": {
+        "width": 262,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Đề mục hóa trang là một khía cạnh quan trọng của thiết kế API, cung cấp một phương pháp có hệ thống để xử lý lượng lớn dữ liệu theo cách quản lý được. Thay vì trả về tất cả dữ liệu trong một phản hồi duy nhất, điều này có thể gây quá tải và không hiệu quả, các API sử dụng đề mục hóa trang để cung cấp dữ liệu này thành các phần nhỏ hơn, thuận tiện hơn. Điều này cho phép ứng dụng khách truy xuất dữ liệu theo từng bước và chỉ khi cần thiết, cải thiện đáng kể hiệu suất và khả năng sử dụng. Thiết kế và triển khai đề mục hóa trang có thể khác nhau, với các chiến lược khác nhau như giới hạn-độ lệch, dựa trên con trỏ hoặc dựa vào thời gian, mỗi chiến lược đều có những ưu điểm và nhược điểm riêng. Một thiết kế API hiệu quả nên xem xét cẩn thận kiểu đề mục hóa trang, hướng tới sự cân bằng giữa tính dễ sử dụng, hiệu quả và khả năng mở rộng.",
+        "links": [
+          {
+            "title": "Tất tần tật những điều bạn cần biết về phân trang API",
+            "url": "https://nordicapis.com/everything-you-need-to-know-about-api-pagination/",
+            "type": "article"
+          },
+          {
+            "title": "Đề mục hóa trang trong API REST - Atlassian",
+            "url": "https://developer.atlassian.com/server/confluence/pagination-in-the-rest-api/",
+            "type": "article"
+          },
+          {
+            "title": "Mở khóa sức mạnh của trang tính API",
+            "url": "https://dev.to/pragativerma18/unlocking-the-power-of-api-pagination-best-practices-and-strategies-4b49",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "O7wjldZ3yTA2s_F-UnJw_",
+      "type": "subtopic",
+      "label": "Hạn mức yêu cầu (Rate Limiting)",
+      "position": {
+        "x": 223.2618127280066,
+        "y": 703.400748222349
+      },
+      "size": {
+        "width": 262,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Giới hạn tốc độ là một khía cạnh quan trọng của Thiết kế API, xác định số lượng các cuộc gọi API mà một khách hàng có thể thực hiện trong một khoảng thời gian nhất định. Điều này giúp quản lý việc phân bổ tài nguyên, ngăn chặn lạm dụng API và duy trì sức khỏe tổng thể của hệ thống API. Các biện pháp giới hạn tốc độ phù hợp phải được triển khai để đảm bảo sự ổn định của API, từ đó cung cấp dịch vụ nhất quán và đáng tin cậy cho tất cả người dùng. Nó hoạt động chủ yếu bằng cách đặt giới hạn tần suất các yêu cầu của khách hàng, ngăn không cho bất kỳ cá nhân nào làm quá tải hệ thống. Việc thiết kế và triển khai giới hạn tốc độ một cách cẩn thận là rất quan trọng để duy trì khả dụng và hiệu suất API.",
+        "links": [
+          {
+            "title": "Giới hạn tốc độ",
+            "url": "https://developer.mozilla.org/en-US/docs/Glossary/Rate_limit",
+            "type": "article"
+          },
+          {
+            "title": "Giới hạn",
+            "url": "https://developer.mozilla.org/en-US/docs/Glossary/Throttle",
+            "type": "article"
+          },
+          {
+            "title": "Tạm dừng (khi nhấn nút hoặc nhập liệu)",
+            "url": "https://developer.mozilla.org/en-US/docs/Glossary/Debounce",
+            "type": "article"
+          },
+          {
+            "title": "Rate limiting là gì | Rate limiting và bot",
+            "url": "https://www.cloudflare.com/en-gb/learning/bots/what-is-rate-limiting/",
+            "type": "article"
+          },
+          {
+            "title": "Trực quan hóa Giới hạn tốc độ",
+            "url": "https://smudge.ai/blog/ratelimit-algorithms",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "20KEgZH6cu_UokqWpV-9I",
+      "type": "subtopic",
+      "label": "Idempotency",
+      "position": {
+        "x": 223.2618127280066,
+        "y": 757.400748222349
+      },
+      "size": {
+        "width": 262,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Khái niệm Idempotency trong thiết kế API đề cập đến khái niệm mà nhiều yêu cầu giống hệt nhau có cùng hiệu ứng như một yêu cầu duy nhất. Điều này có nghĩa là bất kể khách hàng gửi bao nhiêu lần yêu cầu giống hệt nhau đến máy chủ, trạng thái của máy chủ vẫn sẽ không thay đổi sau yêu cầu đầu tiên. Thiết kế API để trở nên idempotent là rất quan trọng đối với độ tin cậy, vì nó cho phép thử lại mà không gây ra tác dụng phụ, giảm sự phức tạp trong các hệ thống phân tán và mang lại trải nghiệm người dùng tốt hơn trong điều kiện mạng lưới không ổn định. Hiểu biết về các khái niệm idempotency có thể tăng cường khả năng chịu lỗi và dung sai lỗi của API. Nó thường áp dụng cho các phương thức `PUT`, `DELETE` và đôi khi cả phương thức `POST` trong các API RESTful.",
+        "links": [
+          {
+            "title": "Idempotency là gì?",
+            "url": "https://blog.dreamfactory.com/what-is-idempotency",
+            "type": "article"
+          },
+          {
+            "title": "API Idempotent REST",
+            "url": "https://restfulapi.net/idempotent-rest-apis/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "LByD1vhzunhY1uY1YGZHP",
+      "type": "subtopic",
+      "label": "HATEOAS",
+      "position": {
+        "x": 223.2618127280066,
+        "y": 811.400748222349
+      },
+      "size": {
+        "width": 262,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Hypertext Là Động Cơ Của Trạng Thái Ứng Dụng (HATEOAS) là một khái niệm chính trong thiết kế các API RESTful (Application Programming Interfaces). Nó ngụ ý rằng API cung cấp dữ liệu cũng như thông tin về các tương tác có sẵn. Bằng cách sử dụng hypermedia, nó góp phần vào tính tự mô tả và khả năng khám phá của API. Khi được triển khai đúng cách, khách hàng chỉ cần kiến thức chung về hypermedia, không cần ngữ nghĩa API cụ thể, điều này có thể đơn giản hóa đáng kể việc triển khai khách hàng và làm cho API linh hoạt hơn với các thay đổi. Nguyên tắc HATEOAS có thể đảm bảo một phương pháp có cấu trúc, tiêu chuẩn hơn để thiết kế và phát triển API.",
+        "links": [
+          {
+            "title": "API REST dựa trên HATEOAS",
+            "url": "https://restfulapi.net/hateoas/",
+            "type": "article"
+          },
+          {
+            "title": "HATEOAS",
+            "url": "https://htmx.org/essays/hateoas/",
+            "type": "article"
+          },
+          {
+            "title": "Điều gì đã xảy ra với HATEOAS trong API RESTful?",
+            "url": "https://www.youtube.com/watch?v=HNTSrytKCoQ",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "zXxEiM5HeOn7W-Vue0tQf",
+      "type": "subtopic",
+      "label": "Xử lý các thao tác CRUD",
+      "position": {
+        "x": 223.2618127280066,
+        "y": 452.40074822234897
+      },
+      "size": {
+        "width": 262,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Khi thiết kế API, cần xem xét nhiều loại tương tác với dữ liệu - những điều này thường xoay quanh các thao tác CRUD; Tạo, Đọc, Cập nhật và Xóa. Cho dù API được thiết kế cho ứng dụng ngân hàng hoặc nền tảng truyền thông xã hội, nhu cầu tạo dữ liệu mới, đọc hoặc truy xuất dữ liệu hiện có, cập nhật hoặc sửa đổi dữ liệu đó và xóa dữ liệu không cần thiết đều là phổ quát. Do đó, làm chủ các thao tác CRUD trong thiết kế API là một kỹ năng cơ bản. Xử lý hiệu quả các thao tác CRUD giúp hỗ trợ tương tác liền mạch giữa hệ thống phía trước và phía sau, đồng thời đảm bảo quản lý dữ liệu chính xác, từ đó cải thiện trải nghiệm người dùng.",
+        "links": [
+          {
+            "title": "Giới thiệu về Xây dựng API CRUD với Node.js và Express",
+            "url": "https://www.split.io/blog/introduction-to-building-a-crud-api-with-node-js-and-express/",
+            "type": "article"
+          },
+          {
+            "title": "Hướng dẫn chuyên gia về API CRUD",
+            "url": "https://www.forestadmin.com/blog/an-experts-guide-to-crud-apis-designing-a-robust-one/",
+            "type": "article"
+          },
+          {
+            "title": "Suy nghĩ lại CRUD cho Thiết kế API REST - Palentir",
+            "url": "https://blog.palantir.com/rethinking-crud-for-rest-api-designs-a2a8287dc2af",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "8tELdagrOaGCf3nMVs8t3",
+      "type": "subtopic",
+      "label": "Xử lý lỗi",
+      "position": {
+        "x": 223.2618127280066,
+        "y": 865.400748222349
+      },
+      "size": {
+        "width": 262,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Xử lý lỗi là một khía cạnh quan trọng của thiết kế API, đảm bảo tính ổn định, khả năng sử dụng và độ tin cậy của API trong môi trường sản xuất. Các API được thiết kế để giúp các hệ thống giao tiếp với nhau. Tuy nhiên, có thể xảy ra những tình huống mà các hệ thống này gặp phải ngoại lệ hoặc lỗi. Quá trình dự đoán, bắt và quản lý những sự kiện lỗi này chính là những gì chúng ta gọi là 'Xử lý lỗi'. Trong bối cảnh Thiết kế API, điều này bao gồm việc xác định và triển khai các chiến lược cụ thể để phát hiện, quản lý và thông báo cho người dùng cuối về bất kỳ ngoại lệ hoặc lỗi nào xảy ra trong quá trình thực thi yêu cầu. Cấu hình điều này một cách phù hợp mang lại trải nghiệm giao tiếp mạnh mẽ và liền mạch hơn, cho phép nhà phát triển gỡ lỗi và khắc phục các vấn đề hiệu quả hơn.",
+        "links": [
+          {
+            "title": "Thực hành tốt nhất cho Xử lý lỗi API",
+            "url": "https://blog.postman.com/best-practices-for-api-error-handling/",
+            "type": "article"
+          },
+          {
+            "title": "Thực hành tốt nhất cho Xử lý lỗi REST API",
+            "url": "https://www.baeldung.com/rest-api-error-handling-best-practices",
+            "type": "article"
+          },
+          {
+            "title": "Xử lý lỗi của API HTTP với Chi tiết Vấn đề",
+            "url": "https://www.youtube.com/watch?v=uvTT_0hqhyY",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5CxU3inGcSHp-TDg3BQiY",
+      "type": "subtopic",
+      "label": "RFC 7807 – Chi tiết lỗi cho API",
+      "position": {
+        "x": -165.6381872719934,
+        "y": 865.400748222349
+      },
+      "size": {
+        "width": 327,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Thực hành Thiết kế API bao gồm sự tập trung đáng kể vào việc xử lý lỗi hiệu quả và minh bạch. Trong số các tiêu chuẩn được áp dụng rộng rãi, RFC 7807 hoặc Chi tiết Vấn đề cho API HTTP đóng một vai trò quan trọng. Thông số kỹ thuật này cung cấp định dạng tiêu chuẩn để gửi chi tiết vấn đề hoặc lỗi từ một API HTTP, vì vậy các nhà phát triển tương tác với API không cần phải phân tích các thông báo lỗi không tiêu chuẩn và có thể dự đoán cấu trúc của các lỗi tiềm năng. Về bản chất, RFC 7807 cải thiện khả năng sử dụng và hiểu biết của API, mang lại trải nghiệm tốt hơn cho nhà phát triển và khuyến khích việc sử dụng hiệu quả API. Việc thực hiện nó mở đường cho các hệ thống mạnh mẽ và có trách nhiệm, nơi các vấn đề có thể được theo dõi, xác định và giải quyết thuận tiện hơn.",
+        "links": [
+          {
+            "title": "RFC 7807 – Chi tiết lỗi cho API HTTP",
+            "url": "https://datatracker.ietf.org/doc/html/rfc7807",
+            "type": "article"
+          },
+          {
+            "title": "Chi tiết về Định dạng Phản hồi (Problem Details) cho API HTTP (RFC 9457)",
+            "url": "https://www.rfc-editor.org/rfc/rfc9457.html",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "eUsorPQ8VRLJs28J8dyk2",
+      "type": "paragraph",
+      "label": "API Authentication and Authorization",
+      "position": {
+        "x": -318.1381872719934,
+        "y": 728.9974788763272
+      },
+      "size": {
+        "width": 371,
+        "height": 69
+      },
+      "style": {
+        "fontSize": 20,
+        "justifyContent": "flex-start",
+        "textAlign": "left"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "qAolZHf_jp8hCdtqHZwC8",
+      "type": "subtopic",
+      "label": "Bộ nhớ đệm HTTP",
+      "position": {
+        "x": -559.1381872719934,
+        "y": 498.90074822234897
+      },
+      "size": {
+        "width": 211,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Bộ nhớ đệm HTTP là một khía cạnh quan trọng trong thiết kế API, liên quan đến việc lưu trữ các bản sao của phản hồi cho các yêu cầu HTTP để tăng tốc các yêu cầu trong tương lai. Khi một API nhận được cùng một yêu cầu nhiều lần, thay vì xử lý từng yêu cầu riêng lẻ, nó có thể sử dụng một phản hồi đã lưu trước đó, từ đó cải thiện hiệu suất và khả năng sử dụng. Bộ nhớ đệm được điều khiển bởi các tiêu đề trên các yêu cầu và phản hồi HTTP. Hiểu biết và triển khai bộ nhớ đệm HTTP trong thiết kế API có thể làm giảm đáng kể độ trễ, lưu lượng mạng và tăng tốc độ của một API.",
+        "links": [
+          {
+            "title": "Tại sao Caching HTTP lại quan trọng đối với APIs",
+            "url": "https://thenewstack.io/why-http-caching-matters-for-apis/",
+            "type": "article"
+          },
+          {
+            "title": "Bộ nhớ Cache Phản hồi API REST",
+            "url": "https://restfulapi.net/caching/",
+            "type": "article"
+          },
+          {
+            "title": "Bộ nhớ đệm HTTP",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Caching",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cQnQ9v3mH27MGNwetz3JW",
+      "type": "topic",
+      "label": "Các phương thức xác thực",
+      "position": {
+        "x": -601.4010478029121,
+        "y": 859.6211541412258
+      },
+      "size": {
+        "width": 247,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Các API (Application Programming Interfaces) là các thành phần quan trọng trong phát triển phần mềm cho phép các hệ thống phần mềm khác nhau giao tiếp và chia sẻ chức năng. Để đảm bảo giao tiếp an toàn, điều cần thiết là xác thực các bên liên quan trong các giao dịch API. Quá trình xác thực xác minh danh tính của người dùng API. Có nhiều phương pháp xác thực có sẵn khi thiết kế một API, mỗi phương pháp đều có những ưu và nhược điểm riêng. Điều này bao gồm Basic Authentication, API Key Authentication, OAuth và JWT, v.v. Hiểu biết về các phương pháp khác nhau này và các trường hợp sử dụng tốt nhất của chúng là điều cần thiết để thiết kế các API an toàn và hiệu quả.",
+        "links": [
+          {
+            "title": "API Authentication",
+            "url": "https://www.postman.com/api-platform/api-authentication/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "0FzHERK5AeYL5wv1FBJbH",
+      "type": "subtopic",
+      "label": "Xác thực Cơ bản",
+      "position": {
+        "x": -583.4010478029121,
+        "y": 983.7533379465866
+      },
+      "size": {
+        "width": 211,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Xác thực Cơ bản, hay còn gọi là Basic Authentication, là một phương pháp đơn giản thường được sử dụng trong thiết kế API để xử lý xác thực người dùng. Trong phương pháp này, thông tin xác thực của khách hàng, bao gồm một cặp tên người dùng và mật khẩu, được chuyển đến máy chủ API trong một trường trong tiêu đề HTTP. Máy chủ sau đó xác minh các thông tin này trước khi cấp quyền truy cập vào các tài nguyên được bảo vệ. Mặc dù Basic Auth dễ triển khai, nhưng nó kém an toàn hơn so với các phương pháp nâng cao hơn vì nó liên quan đến việc truyền thông tin đăng nhập ở định dạng mã hóa, nhưng không được mã hóa. Nó thường được sử dụng trong những trường hợp ưu tiên sự đơn giản hoặc mức độ bảo mật cao không cần thiết.",
+        "links": [
+          {
+            "title": "Xác thực Cơ bản",
+            "url": "https://roadmap.sh/guides/basic-authentication",
+            "type": "roadmap"
+          },
+          {
+            "title": "Đầu báo hiệu Xác thực Cơ bản",
+            "url": "https://www.debugbear.com/basic-auth-header-generator",
+            "type": "article"
+          },
+          {
+            "title": "Xác thực cơ bản - Swagger.io",
+            "url": "https://swagger.io/docs/specification/authentication/basic-authentication/",
+            "type": "article"
+          },
+          {
+            "title": "Xác thực cơ bản - Twillio",
+            "url": "https://www.twilio.com/docs/glossary/what-is-basic-authentication",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "QTH7sy9uQZWl6ieBz7erY",
+      "type": "subtopic",
+      "label": "Xác thực dựa trên Token",
+      "position": {
+        "x": -583.4010478029121,
+        "y": 1037.7533379465865
+      },
+      "size": {
+        "width": 211,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Xác thực dựa trên Token là một khía cạnh quan trọng trong thiết kế API. Nó bao gồm việc cung cấp cho người dùng một token để xác minh danh tính của họ sau khi đăng nhập thành công. Sau khi nhận được token, người dùng có thể sử dụng nó để truy cập các tài nguyên và dịch vụ do API cung cấp. Token này thường được truyền trong tiêu đề của các yêu cầu HTTP tiếp theo do khách hàng thực hiện. Một lợi thế chính của xác thực dựa trên Token là các token có thể được tạo và kiểm tra bởi máy chủ mà không cần lưu trữ chúng một cách liên tục, điều này có thể giúp mở rộng ứng dụng dễ dàng hơn. Phương thức xác thực này cải thiện bảo mật và khả năng mở rộng của các ứng dụng web và nó chủ yếu được sử dụng trong các chiến lược API hiện đại, bao gồm cả RESTful APIs.",
+        "links": [
+          {
+            "title": "Xác thực dựa trên Token",
+            "url": "https://roadmap.sh/guides/token-authentication",
+            "type": "roadmap"
+          },
+          {
+            "title": "Xác thực dựa trên Token là gì?",
+            "url": "https://www.okta.com/uk/identity-101/what-is-token-based-authentication/",
+            "type": "article"
+          },
+          {
+            "title": "Phiên vs Xác thực bằng Token trong 100 giây",
+            "url": "https://www.youtube.com/watch?v=UBUNrFtufWo",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tWg68AHLIr1gIZA1za3jp",
+      "type": "subtopic",
+      "label": "JWT",
+      "position": {
+        "x": -583.4010478029121,
+        "y": 1091.7533379465865
+      },
+      "size": {
+        "width": 211,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "JSON Web Tokens, hoặc JWT, là một phương pháp phổ biến và an toàn để chuyển đổi thông tin giữa hai bên trong lĩnh vực thiết kế API. Là một phương tiện nhỏ gọn, an toàn cho URL để biểu diễn các khẳng định (claims) cần được chuyển đổi giữa hai bên, chúng đóng vai trò quan trọng trong bảo mật và ủy quyền trong các API hiện đại. Bằng cách mã hóa các khẳng định này, thông tin có thể được xác minh và tin cậy với chữ ký số - đảm bảo rằng các điểm cuối API có thể xử lý yêu cầu một cách an toàn và đáng tin cậy. JWT là một phương pháp tương đối nhẹ và có khả năng mở rộng, mang lại cải thiện trong quy trình xác thực và trao đổi thông tin trong thiết kế API.",
+        "links": [
+          {
+            "title": "Xác thực JWT",
+            "url": "https://roadmap.sh/guides/jwt-authentication",
+            "type": "roadmap"
+          },
+          {
+            "title": "Giới thiệu về JSON Web Tokens",
+            "url": "https://jwt.io/introduction",
+            "type": "official"
+          },
+          {
+            "title": "JSON Web Tokens",
+            "url": "https://auth0.com/docs/secure/tokens/json-web-tokens",
+            "type": "article"
+          },
+          {
+            "title": "Tại sao JWT phổ biến?",
+            "url": "https://www.youtube.com/watch?v=P2CPd9ynFLg",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "TLuNtQ6HKYQXmglyVk8-t",
+      "type": "subtopic",
+      "label": "OAuth 2.0",
+      "position": {
+        "x": -583.4010478029121,
+        "y": 1145.7533379465865
+      },
+      "size": {
+        "width": 211,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "OAuth 2.0 là một khung ủy quyền cho phép các ứng dụng truy cập hạn chế vào tài khoản người dùng trên một dịch vụ HTTP, chẳng hạn như Facebook, GitHub, DigitalOcean và các dịch vụ khác. Nó hoạt động bằng cách ủy thác xác thực người dùng đến dịch vụ lưu trữ tài khoản người dùng và ủy quyền cho các ứng dụng bên thứ ba truy cập tài khoản người dùng. OAuth 2.0 định nghĩa bốn vai trò: chủ sở hữu tài nguyên (resource owner), client, máy chủ tài nguyên (resource server) và máy chủ ủy quyền (authorization server). Về thiết kế API, OAuth 2.0 có thể được sử dụng để bảo vệ các điểm cuối API bằng cách đảm bảo rằng các ứng dụng client có token truy cập hợp lệ chỉ có thể tương tác với API. Nó cung cấp quy trình làm việc chi tiết và một tập hợp các giao thức để ứng dụng client nhận được quyền ủy quyền truy cập tài nguyên.",
+        "links": [
+          {
+            "title": "Xác thực OAuth",
+            "url": "https://roadmap.sh/guides/oauth",
+            "type": "roadmap"
+          },
+          {
+            "title": "Website OAuth",
+            "url": "https://oauth.net/2/",
+            "type": "official"
+          },
+          {
+            "title": "OAuth 2.0 là gì?",
+            "url": "https://auth0.com/intro-to-iam/what-is-oauth-2",
+            "type": "official"
+          },
+          {
+            "title": "Xác thực OAuth 2 được giải thích một cách đơn giản",
+            "url": "https://www.youtube.com/watch?v=ZV5yTm4pT8g",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "eQWoy4CpYP3TJL2bbhPB_",
+      "type": "subtopic",
+      "label": "Xác thực dựa trên phiên (Session Based Auth)",
+      "position": {
+        "x": -583.4010478029121,
+        "y": 1199.8443340956667
+      },
+      "size": {
+        "width": 211,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Các API (Application Programming Interfaces) là rất quan trọng trong việc xây dựng các ứng dụng phần mềm. Trong số nhiều cân nhắc chính trong thiết kế API, một trong số đó là quyết định cách triển khai xác thực và bảo mật. Xác thực dựa trên phiên là một phương pháp phổ biến để áp dụng bảo mật trong thiết kế API. Phương pháp này xoay quanh việc máy chủ tạo một phiên cho người dùng sau khi họ đăng nhập thành công, liên kết nó với một định danh phiên. Định danh phiên này được lưu trữ bên khách hàng trong một cookie. Đối với các yêu cầu tiếp theo, máy chủ xác minh Định danh phiên trước khi xử lý cuộc gọi API. Máy chủ sẽ hủy phiên sau khi người dùng đăng xuất, do đó làm mất hiệu lực Định danh phiên. Hiểu biết về Xác thực dựa trên phiên là rất quan trọng đối với thiết kế API an toàn, đặc biệt trong các tình huống mà bảo mật là ưu tiên hàng đầu hoặc trong các hệ thống cũ nơi phương pháp này phổ biến.",
+        "links": [
+          {
+            "title": "Xác thực dựa trên phiên (Session Based Authentication)",
+            "url": "https://roadmap.sh/guides/session-based-authentication",
+            "type": "roadmap"
+          },
+          {
+            "title": "Phiên vs Xác thực bằng Token",
+            "url": "https://www.authgear.com/post/session-vs-token-authentication",
+            "type": "article"
+          },
+          {
+            "title": "Roadmap.sh - Lộ trình xác thực dựa trên phiên",
+            "url": "https://www.youtube.com/watch?v=gKkBEOq_shs",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "nHbn8_sMY7J8o6ckbD-ER",
+      "type": "topic",
+      "label": "Các phương thức ủy quyền",
+      "position": {
+        "x": -210.6381872719934,
+        "y": 1033.5329320277096
+      },
+      "size": {
+        "width": 247,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Trong thiết kế API, các phương pháp xác thực đóng vai trò quan trọng trong việc đảm bảo an ninh và tính toàn vẹn của giao dịch dữ liệu. Chúng là cơ chế mà API xác định và xác thực người dùng, hệ thống hoặc ứng dụng trước khi cấp quyền truy cập vào các tài nguyên cụ thể. Các phương pháp này bao gồm Basic Authentication, OAuth, Xác thực dựa trên Token, JSON Web Tokens (JWT), và dựa trên API Key, trong số những phương pháp khác. Vì vậy, hiểu biết về các phương pháp này giúp tăng cường khả năng thiết kế API bảo vệ tài nguyên hiệu quả đồng thời cho phép truy cập cần thiết. Mỗi phương pháp đều có ưu và nhược điểm riêng, các kịch bản sử dụng và tính năng bảo mật khiến chúng phù hợp hơn với một số tình huống nhất định thay vì những tình huống khác.",
+        "links": [
+          {
+            "title": "API Authorization Methods",
+            "url": "https://www.pingidentity.com/en/resources/identity-fundamentals/authorization/authorization-methods.html",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "wFsbmMi5Ey9UyDADdbdPW",
+      "type": "subtopic",
+      "label": "Kiểm soát truy cập dựa trên vai trò (RBAC)",
+      "position": {
+        "x": 165.00932230336673,
+        "y": 1004.0041963907498
+      },
+      "size": {
+        "width": 353,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Kiểm soát truy cập dựa trên vai trò (RBAC) là một phương pháp quản lý ủy quyền trong thiết kế API, gán quyền truy cập hệ thống cho người dùng dựa trên vai trò của họ trong tổ chức. RBAC rất quan trọng để kiểm soát các điểm cuối mà người dùng có thể gọi và các thao tác mà họ được phép thực hiện. Trong bối cảnh thiết kế API, RBAC đảm bảo mức độ truy cập phù hợp cho các loại người dùng khác nhau để đảm bảo an toàn dữ liệu và tính toàn vẹn. Nó đơn giản hóa quy trình quản trị bảo mật bằng cách gán quyền lợi dựa trên chức danh công việc của người dùng, thay vì theo từng cá nhân.",
+        "links": [
+          {
+            "title": "Kiểm soát truy cập dựa trên vai trò",
+            "url": "https://auth0.com/docs/manage-users/access-control/rbac",
+            "type": "article"
+          },
+          {
+            "title": "Kiểm soát truy cập dựa trên vai trò (RBAC) là gì?",
+            "url": "https://www.redhat.com/en/topics/security/what-is-role-based-access-control",
+            "type": "article"
+          },
+          {
+            "title": "Kiểm soát truy cập dựa trên vai trò (RBAC) so với Kiểm soát truy cập dựa trên thuộc tính (ABAC)",
+            "url": "https://www.youtube.com/watch?v=rvZ35YW4t5k",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dZTe_kxIUQsc9N3w920aR",
+      "type": "subtopic",
+      "label": "Kiểm soát truy cập dựa trên thuộc tính (ABAC)",
+      "position": {
+        "x": 165.00932230336673,
+        "y": 1058.00419639075
+      },
+      "size": {
+        "width": 352,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Kiểm soát truy cập dựa trên thuộc tính (ABAC) là một phương pháp ủy quyền linh hoạt và mạnh mẽ trong lĩnh vực Thiết kế API. Khác với Kiểm soát truy cập dựa trên vai trò (RBAC), vốn dựa vào các vai trò và quyền được xác định trước, ABAC sử dụng các thuộc tính để xây dựng chính sách và đưa ra quyết định. Các thuộc tính này có thể liên kết với người dùng, hành động mà họ muốn thực hiện, tài nguyên mục tiêu hoặc môi trường. Với ABAC, có thể đạt được kiểm soát truy cập chi tiết hơn, từ đó cải thiện bảo mật và hiệu quả của API. Phương pháp tiếp cận này được sử dụng rộng rãi trong các môi trường phức tạp và năng động nơi yêu cầu kiểm soát truy cập có thể đa dạng và phụ thuộc sâu vào ngữ cảnh.",
+        "links": [
+          {
+            "title": "Kiểm soát truy cập dựa trên thuộc tính là gì?",
+            "url": "https://www.okta.com/uk/blog/2020/09/attribute-based-access-control-abac/",
+            "type": "article"
+          },
+          {
+            "title": "Kiểm soát truy cập dựa trên thuộc tính",
+            "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction_attribute-based-access-control.html",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tzUJwXu_scwQHnPPT0oY-",
+      "type": "topic",
+      "label": "Khóa API & Quản lý",
+      "position": {
+        "x": -210.6381872719934,
+        "y": 1146.5329320277096
+      },
+      "size": {
+        "width": 247,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Quản lý khóa API và quản lý là một phần thiết yếu của thiết kế API. Một khóa API là một định danh duy nhất được sử dụng để xác thực người dùng, nhà phát triển hoặc chương trình gọi đến một API. Điều này đảm bảo bảo mật và kiểm soát đối với các điểm cuối API, chỉ những người có khóa API hợp lệ mới có thể thực hiện yêu cầu. Quản lý API, ngược lại, đề cập đến các phương pháp và công cụ cho phép một tổ chức quản lý và giám sát việc sử dụng API của mình. Nó bao gồm tất cả các khía cạnh của việc quản lý API, bao gồm thiết kế, triển khai, tài liệu, bảo mật, phiên bản và phân tích. Cả hai yếu tố này đều đóng vai trò quan trọng trong việc đảm bảo quyền truy cập an toàn và có tổ chức vào API để chia sẻ và giao tiếp dữ liệu hiệu quả và được kiểm soát.",
+        "links": [
+          {
+            "title": "Quản lý khóa API là gì?",
+            "url": "https://www.akeyless.io/secrets-management-glossary/api-key-management/",
+            "type": "article"
+          },
+          {
+            "title": "Quản lý Khóa API – Định nghĩa và Thực hành Tốt nhất",
+            "url": "https://infisical.com/blog/api-key-management",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5R9yKfN1vItuv__HgCwP7",
+      "type": "topic",
+      "label": "API Documentation Tools",
+      "position": {
+        "x": 214.72110595703134,
+        "y": 1146.5329320277096
+      },
+      "size": {
+        "width": 247,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "API Documentation Tools are instrumental in conveying the intricacies of API design to both technical developers and non-technical stakeholders. These tools help in creating comprehensive, easy-to-understand, and searchable documentation encompassing all the elements of an API such as its functions, classes, return types, arguments, and more. Thorough documentation is central in API design as it fosters seamless adoption, effective implementation, and efficient troubleshooting of APIs. Various tools exist including Swagger, DapperDox, and ReDoc, each with unique functionalities to suit different API documentation requirements.",
+        "links": [
+          {
+            "title": "Trang web chính thức của Swagger",
+            "url": "https://swagger.io/",
+            "type": "article"
+          },
+          {
+            "title": "Trang Web Chính thức của DapperDox",
+            "url": "http://dapperdox.io/",
+            "type": "article"
+          },
+          {
+            "title": "Tài liệu ReDoc",
+            "url": "https://github.com/Redocly/redoc",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5RY7AlfRQydjxWK65Z4cv",
+      "type": "subtopic",
+      "label": "Swagger / Open API",
+      "position": {
+        "x": 232.85884761415554,
+        "y": 1270.9481617844106
+      },
+      "size": {
+        "width": 211,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Swagger, còn được biết đến là OpenAPI (không nhầm lẫn với OpenAI), là một bộ công cụ được sử dụng đặc biệt để thiết kế, xây dựng và tài liệu hóa các dịch vụ Web RESTful. Các nhà phát triển API dựa vào nó rất nhiều do những tính năng tuyệt vời cho việc thiết kế API với phương pháp rõ ràng và dễ hiểu. Bằng cách sử dụng Thông số OpenAPI (OAS), các nhà phát triển có thể định nghĩa chính xác một API RESTful mà có thể được sử dụng dễ dàng trên nhiều ngôn ngữ lập trình khác nhau. Ngôn ngữ phổ quát mạnh mẽ này là một thành phần quan trọng cho thiết kế API hiệu quả và hiệu quả.",
+        "links": [
+          {
+            "title": "Trang web Swagger",
+            "url": "https://swagger.io/",
+            "type": "official"
+          },
+          {
+            "title": "Chủ động OpenAPI",
+            "url": "https://www.openapis.org/",
+            "type": "official"
+          },
+          {
+            "title": "Swagger là gì?",
+            "url": "https://blog.hubspot.com/website/what-is-swagger",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "KQAus72RGqx5f-3-YeJby",
+      "type": "subtopic",
+      "label": "Postman",
+      "position": {
+        "x": 232.85884761415554,
+        "y": 1427.5717249610107
+      },
+      "size": {
+        "width": 211,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Postman là một công cụ phổ biến trong phát triển web để thiết kế, kiểm thử và quản lý API. Là một nền tảng cộng tác, nó đơn giản hóa từng bước của vòng đời API và tối ưu hóa sự hợp tác giữa các nhóm. Trong ngữ cảnh thiết kế API, nó có thể được sử dụng để thiết kế và tạo mẫu API, tự động hóa kiểm thử và quan sát phản hồi trong giao diện thân thiện với người dùng. Các điểm cuối API (API endpoints) có thể được tổ chức thành các bộ sưu tập (collections) cũng trong Postman để quy trình thiết kế API có cấu trúc và tổ chức tốt. Cuối cùng, giao diện thân thiện với người dùng và các tính năng toàn diện của nó khiến Postman trở thành một công cụ không thể thiếu trong lĩnh vực thiết kế API.",
+        "links": [
+          {
+            "title": "Trang web Postman",
+            "url": "https://www.postman.com/",
+            "type": "official"
+          },
+          {
+            "title": "Tài liệu Postman",
+            "url": "https://www.postman.com/api-documentation-tool/",
+            "type": "official"
+          },
+          {
+            "title": "Hướng dẫn Postman cho người mới bắt đầu",
+            "url": "https://www.youtube.com/watch?v=MFxk5BZulVU",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "LxWHkhlikUaMT2G8YmVDQ",
+      "type": "subtopic",
+      "label": "Readme.com",
+      "position": {
+        "x": 232.85884761415554,
+        "y": 1323.1560161766106
+      },
+      "size": {
+        "width": 211,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "[Readme.com](http://Readme.com) là một công cụ vô giá trong lĩnh vực Thiết kế API, được biết đến với việc cung cấp nền tảng cộng tác để tạo tài liệu hướng dẫn tuyệt đẹp, động và trực quan. Đây là một công cụ giúp các nhà phát triển xây dựng tài liệu rõ ràng, toàn diện cho giao diện API của họ. Tài liệu API được tạo ra bằng [Readme.com](http://Readme.com) không chỉ tập trung vào cách trình bày thông tin mà còn nâng cao sự hiểu biết của người đọc bằng cách làm cho nó tương tác. Cách tiếp cận tương tác này khuyến khích học tập thực tế và cung cấp những hiểu biết về cách API sẽ hoạt động trong các tình huống khác nhau. Với [Readme.com](http://Readme.com), các nhà phát triển có thể tạo ra môi trường tài liệu tập trung vào người dùng, giúp đơn giản hóa quá trình học tập và làm cho API dễ tiêu thụ và triển khai hơn.",
+        "links": [
+          {
+            "title": "Trang Web ReadMe",
+            "url": "https://readme.com",
+            "type": "official"
+          },
+          {
+            "title": "ReadMe",
+            "url": "https://github.com/orgs/readmeio/repositories?type=source",
+            "type": "opensource"
+          }
+        ]
+      }
+    },
+    {
+      "id": "OpS2NX1lPTOtfjV1wKtC4",
+      "type": "subtopic",
+      "label": "Stoplight",
+      "position": {
+        "x": 232.85884761415554,
+        "y": 1375.3638705688106
+      },
+      "size": {
+        "width": 211,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Stoplight là một công cụ tiên tiến cung cấp nền tảng toàn diện cho các nhóm kỹ thuật để xử lý tất cả các khía cạnh của thiết kế API. Bằng cách sử dụng Stoplight, các nhóm có thể thiết kế, tài liệu và phát triển API một cách cộng tác và hiệu quả hơn. Nó sử dụng thông số OpenAPI và cho phép người dùng thiết kế API trực quan, giúp quá trình phát triển API dễ dàng hơn. Với khả năng tự động tạo tài liệu API, thực hiện kiểm thử mô phỏng API và cung cấp các tính năng quản lý API, Stoplight đóng một vai trò quan trọng trong việc áp dụng phương pháp thiết kế trước tiên trong phát triển API. Bằng cách sử dụng Stoplight, API có thể được thiết kế để dễ sử dụng, khả năng mở rộng và mạnh mẽ ngay từ đầu, điều này cuối cùng cải thiện quy trình phát triển tổng thể và chất lượng của các API.",
+        "links": [
+          {
+            "title": "Trang web Stoplight",
+            "url": "https://stoplight.io/",
+            "type": "official"
+          },
+          {
+            "title": "stoplightio",
+            "url": "https://github.com/stoplightio",
+            "type": "opensource"
+          }
+        ]
+      }
+    },
+    {
+      "id": "qIJ6dUppjAjOTA8eQbp0n",
+      "type": "topic",
+      "label": "Bảo mật API (API Security)",
+      "position": {
+        "x": -207.7109644352177,
+        "y": 1398.532340911712
+      },
+      "size": {
+        "width": 247,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Bảo mật API đề cập đến các thực tiễn và sản phẩm được sử dụng để bảo vệ giao diện lập trình ứng dụng (APIs). Trong bối cảnh thiết kế, đây là một thành phần thiết yếu giúp đảm bảo rằng một API triển khai đáp ứng mục tiêu của nó một cách an toàn và bảo mật. Điều này bao gồm bảo vệ dữ liệu, ngăn chặn truy cập trái phép và bảo vệ hệ thống lưu trữ API. Bảo mật API bao gồm các chiến lược, quy trình và công nghệ được sử dụng để bảo vệ API khỏi các cuộc tấn công độc hại hoặc truy cập trái phép đồng thời đảm bảo hiệu suất, khả năng sẵn sàng và quyền riêng tư dữ liệu tối ưu.",
+        "links": [
+          {
+            "title": "Dự án OWASP về Bảo mật API",
+            "url": "https://owasp.org/API-Security/editions/2023/en/0x00-toc/",
+            "type": "article"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Bảo mật",
+            "url": "https://app.daily.dev/tags/security?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "G70wvcOM1Isrx5ZBvS2xP",
+      "type": "subtopic",
+      "label": "Các lỗ hổng phổ biến",
+      "position": {
+        "x": -205.2109644352177,
+        "y": 1251.6104620579213
+      },
+      "size": {
+        "width": 242,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Thiết kế API là một thành phần thiết yếu của phát triển phần mềm hiện đại, cho phép nhiều ứng dụng giao tiếp và chia sẻ dữ liệu. Tuy nhiên, khi việc sử dụng API mở rộng, thì tiềm năng cho các lỗ hổng bảo mật cũng tăng lên. Hiểu biết về các lỗ hổng phổ biến trong thiết kế API là điều cần thiết để bảo vệ dữ liệu nhạy cảm và duy trì một hệ thống an toàn. Những lỗ hổng này có thể phát sinh do thiếu xác thực thích hợp, cơ chế xác thực yếu, cấu hình điểm cuối không an toàn, v.v.",
+        "links": [
+          {
+            "title": "Tổng quan về lỗ hổng API",
+            "url": "https://apimike.com/api-vulnerabilities",
+            "type": "article"
+          },
+          {
+            "title": "Các Điểm Yếu Bảo Mật API Hàng Đầu và 6 Cách Để Giảm Thiểu Chúng",
+            "url": "https://brightsec.com/blog/top-api-vulnerabilities-and-6-ways-to-mitigate-them/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q1yaf-RbHIQsOqfzjn4k4",
+      "type": "subtopic",
+      "label": "Thực hành tốt nhất",
+      "position": {
+        "x": -205.2109644352177,
+        "y": 1303.8183164501213
+      },
+      "size": {
+        "width": 242,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Thiết kế API đã nhanh chóng trở thành một thành phần thiết yếu của phát triển phần mềm. Khi thiết kế một API, điều quan trọng là phải tuân theo các phương pháp hay nhất để đảm bảo tối ưu hóa, khả năng mở rộng và hiệu quả. Các phương pháp hay nhất trong thiết kế API xoay quanh các nguyên tắc như sự đơn giản, tính nhất quán, bảo mật và tài liệu đầy đủ, v.v. Những thực hành này không chỉ làm trơn tru quá trình phát triển mà còn khiến API thân thiện hơn với người dùng, ổn định hơn và dễ bảo trì hơn. Do đó, việc tuân theo các phương pháp hay nhất trong thiết kế API không phải là một lựa chọn mà là điều cần thiết đối với các nhà phát triển và tổ chức muốn tạo ra các API tồn tại lâu hơn và hoạt động tốt hơn.",
+        "links": [
+          {
+            "title": "Các phương pháp hay nhất về Bảo mật API (API Security Best Practices)",
+            "url": "https://dev-path-murex.vercel.app/roadmap/api-security-best-practices",
+            "type": "roadmap"
+          },
+          {
+            "title": "Thực hành tốt nhất cho Thiết kế REST API",
+            "url": "https://stackoverflow.blog/2020/03/02/best-practices-for-rest-api-design/",
+            "type": "article"
+          },
+          {
+            "title": "Thực hành tốt nhất trong Thiết kế API",
+            "url": "https://swagger.io/resources/articles/best-practices-in-api-design/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "d9ZXdU73jiCdeNHQv1_DH",
+      "type": "topic",
+      "label": "Hiệu suất API (API Performance)",
+      "position": {
+        "x": -590.469505701316,
+        "y": 1467.491632075372
+      },
+      "size": {
+        "width": 247,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Khi chúng ta nói về Thiết kế API, một khía cạnh quan trọng đòi hỏi sự chú ý của chúng ta là Hiệu suất API. Hiệu suất API đề cập đến hiệu quả và tốc độ mà một API được phát triển có thể thực hiện các tác vụ và giao tiếp với các chương trình hoặc thành phần phần mềm khác. Khía cạnh cơ bản này có thể ảnh hưởng trực tiếp đến khả năng phản hồi của một ứng dụng, xác định thời gian dữ liệu có thể trao đổi, xử lý và hiển thị cho người dùng cuối. Cải thiện hiệu suất API thường giải quyết các vấn đề liên quan đến trải nghiệm người dùng và tăng cường hiệu suất tổng thể của ứng dụng mà API được tích hợp với. Do đó, Hiệu suất API đóng một vai trò quan trọng vừa trong việc hỗ trợ tương tác tối ưu giữa các hệ thống vừa trong việc xác định thành công chung của các sản phẩm kỹ thuật số dựa trên các giao diện này.",
+        "links": [
+          {
+            "title": "10 Tips for Improving API Performance",
+            "url": "https://nordicapis.com/10-tips-for-improving-api-performance/",
+            "type": "article"
+          },
+          {
+            "title": "7 Cách Tăng Hiệu Năng API 10 Lần",
+            "url": "https://www.youtube.com/watch?v=zvWKqUiovAM",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "nQpczZUcn-TvrfT80dv0Q",
+      "type": "subtopic",
+      "label": "Các chỉ số hiệu năng",
+      "position": {
+        "x": -585.469505701316,
+        "y": 1568.4353183589587
+      },
+      "size": {
+        "width": 237,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "API Design performance metrics play a critical role in ensuring APIs are efficient, effective, and absolutely fit for their intended purpose. The performance of an API can profoundly impact the user experience and overall system performance. Therefore, it is crucial to define and monitor a set of performance metrics. These may include response times, throughput, error rates, and others that measure system health and resource utilization. By prioritizing these metrics in the context of API Design, developers can create APIs that not only meet functional requirements but also deliver desired performance levels.",
+        "links": [
+          {
+            "title": "Giám sát hiệu suất API (API Performance Monitoring)",
+            "url": "https://www.catchpoint.com/api-monitoring-tools/api-performance-monitoring",
+            "type": "article"
+          },
+          {
+            "title": "API Monitoring Cải Thiện Hiệu Năng API Như Thế Nào?",
+            "url": "https://tyk.io/blog/api-product-metrics-what-you-need-to-know/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PrvRCR4HCdGar0vcUbG_a",
+      "type": "subtopic",
+      "label": "Chiến lược Bộ nhớ Cache",
+      "position": {
+        "x": -585.469505701316,
+        "y": 1619.7437339754388
+      },
+      "size": {
+        "width": 237,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Caching trong thiết kế API đóng vai trò là một kỹ thuật cho phép bạn lưu trữ bản sao dữ liệu tạm thời ở những nơi mà bạn có thể truy cập chúng dễ dàng hơn. Bằng cách lấy dữ liệu từ bộ nhớ tốc độ cao thay vì các nguồn lưu trữ chậm hơn, bạn có thể giúp cải thiện tốc độ và hiệu suất tổng thể của API. Nhiều chiến lược như bộ nhớ đệm HTTP, bộ nhớ đệm cơ sở dữ liệu, bộ nhớ đệm ứng dụng và bộ nhớ đệm CDN có thể được triển khai, mỗi chiến lược đều có những ưu điểm và cân nhắc riêng. Hiểu biết về các chiến lược bộ nhớ đệm khác nhau trong bối cảnh thiết kế API là rất quan trọng để thiết kế các API hiệu quả, hoạt động tốt.",
+        "links": [
+          {
+            "title": "Chiến lược Bộ nhớ Cache cho API",
+            "url": "https://medium.com/@satyendra.jaiswal/caching-strategies-for-apis-improving-performance-and-reducing-load-1d4bd2df2b44",
+            "type": "article"
+          },
+          {
+            "title": "Sử dụng Chiến lược Bộ nhớ đệm để cải thiện hiệu suất API",
+            "url": "https://www.lonti.com/blog/using-caching-strategies-to-improve-api-performance",
+            "type": "article"
+          },
+          {
+            "title": "Hệ thống Bộ nhớ Cache Mọi Nhà Phát Triển Nên Biết",
+            "url": "https://www.youtube.com/watch?v=dGAgxozNWFE",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "p5wsniYnOS7cbHd92RxGk",
+      "type": "subtopic",
+      "label": "Cân bằng tải",
+      "position": {
+        "x": -585.469505701316,
+        "y": 1671.0521495919188
+      },
+      "size": {
+        "width": 237,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Cân bằng tải đóng vai trò quan trọng trong lĩnh vực Thiết kế API. Nó chủ yếu tập trung vào việc phân phối đều và hiệu quả lưu lượng mạng trên một nhóm máy chủ backend, còn được gọi là farm máy chủ hoặc pool máy chủ. Trong thiết kế API, việc triển khai các thuật toán cân bằng tải có tầm quan trọng to lớn để đảm bảo không có máy chủ đơn lẻ nào chịu quá nhiều áp lực. Điều này cho phép khả năng sẵn sàng cao và đáng tin cậy bằng cách chuyển hướng lưu lượng truy cập trong trường hợp máy chủ gặp sự cố, từ đó nâng cao hiệu suất ứng dụng và góp phần vào trải nghiệm người dùng tích cực. Do đó, đây là một chiến lược quan trọng để đảm bảo khả năng mở rộng và độ bền vững của kiến trúc hệ thống dựa nhiều vào tương tác API.",
+        "links": [
+          {
+            "title": "Load balancing là gì?",
+            "url": "https://www.cloudflare.com/en-gb/learning/performance/what-is-load-balancing/",
+            "type": "article"
+          },
+          {
+            "title": "Bộ cân bằng tải trong API",
+            "url": "https://learn.microsoft.com/en-us/rest/api/load-balancer/",
+            "type": "article"
+          },
+          {
+            "title": "Cổng API so với Cân bằng tải: Giải pháp nào phù hợp nhất cho ứng dụng của bạn?",
+            "url": "https://konghq.com/blog/engineering/api-gateway-vs-load-balancer",
+            "type": "article"
+          },
+          {
+            "title": "Bộ cân bằng tải là gì?",
+            "url": "https://www.youtube.com/watch?v=sCR3SAVdyCc",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tPVtRV818D8zAAuNbqPNa",
+      "type": "subtopic",
+      "label": "Hạn mức yêu cầu / Giới hạn tốc độ",
+      "position": {
+        "x": -585.469505701316,
+        "y": 1722.3605652083988
+      },
+      "size": {
+        "width": 237,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Giới hạn tốc độ, thường được gọi là Throttling, là một khía cạnh cơ bản của Thiết kế API nhằm kiểm soát số lượng yêu cầu mà một khách hàng có thể thực hiện đến một API trong một khoảng thời gian nhất định. Kỹ thuật này đảm bảo sử dụng công bằng, tăng cường bảo mật, ngăn chặn quá tải máy chủ và cho phép phân phối tài nguyên đồng đều. Nó cũng giảm thiểu rủi ro liên quan đến hành vi lạm dụng hoặc các cuộc tấn công DDoS. Chiến lược giới hạn tốc độ hiệu quả bao gồm xác định các giới hạn dựa trên khả năng của API và nhu cầu hợp lý của khách hàng, với sự linh hoạt để điều chỉnh các giới hạn này khi cần thiết. Hiểu biết về giới hạn tốc độ và tầm quan trọng của nó là rất quan trọng để xây dựng các nền tảng API mạnh mẽ, an toàn và có thể mở rộng.",
+        "links": [
+          {
+            "title": "Quản lý API 101: Giới hạn tốc độ (Rate Limiting)",
+            "url": "https://tyk.io/learning-center/api-rate-limiting/",
+            "type": "article"
+          },
+          {
+            "title": "Sự khác biệt giữa Giới hạn tốc độ và Giảm tải (API Rate Limiting vs. Throttling)",
+            "url": "https://blog.stoplight.io/best-practices-api-rate-limiting-vs-throttling",
+            "type": "article"
+          },
+          {
+            "title": "Giới hạn tốc độ / Giật cổ API | Các khái niệm Thiết kế Hệ thống",
+            "url": "https://www.youtube.com/watch?v=9CIjoWPwAhU",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "-qdwBg7HvwlbLy3IKCRij",
+      "type": "subtopic",
+      "label": "Giám sát và theo dõi hiệu năng (Performance profiling & monitoring)",
+      "position": {
+        "x": -585.469505701316,
+        "y": 1773.6689808248789
+      },
+      "size": {
+        "width": 237,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Khả năng theo dõi và giám sát là những khía cạnh quan trọng của thiết kế và triển khai API. Giám sát, trong ngữ cảnh này, đề cập đến quá trình phân tích hành vi của API để hiểu các chỉ số hiệu suất khác nhau bao gồm thời gian phản hồi, tốc độ yêu cầu, tỷ lệ lỗi và sức khỏe tổng thể cũng như chức năng của API. Mặt khác, giám sát là quy trình liên tục kiểm tra trạng thái của API để đảm bảo nó đang hoạt động như mong đợi đồng thời cung cấp hệ thống cảnh báo sớm về các vấn đề tiềm ẩn và cải tiến. Cùng nhau, việc theo dõi và giám sát API có thể dẫn đến một dịch vụ đáng tin cậy hơn, hiệu quả hơn và có hiệu suất cao hơn.",
+        "links": [
+          {
+            "title": "Giám sát sức khỏe và hiệu suất của các API của bạn.",
+            "url": "https://learning.postman.com/docs/monitoring-your-api/intro-monitors/",
+            "type": "article"
+          },
+          {
+            "title": "Mô phỏng API tại Pinterest",
+            "url": "https://medium.com/pinterest-engineering/api-profiling-at-pinterest-6fa9333b4961",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "DQcAV59vr1-ZRnMfbLXpu",
+      "type": "subtopic",
+      "label": "Kiểm tra hiệu năng",
+      "position": {
+        "x": -585.469505701316,
+        "y": 1824.977396441359
+      },
+      "size": {
+        "width": 237,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Kiểm tra hiệu năng trong thiết kế API đề cập đến việc đánh giá và đảm bảo rằng một API hoạt động đáng tin cậy và hiệu quả dưới các tải khác nhau. Kiểm tra hiệu năng được thực hiện đúng cách có thể xác minh tốc độ, thời gian phản hồi, độ tin cậy và khả năng mở rộng của API. Là một khía cạnh không thể thiếu trong thiết kế API, nó kiểm tra xem API có đáp ứng hiệu quả các kỳ vọng về chức năng hệ thống hay không và cho thấy những lĩnh vực tiềm năng để tối ưu hóa. Kiểm tra hiệu năng là rất quan trọng để duy trì các tiêu chuẩn cao về trải nghiệm người dùng bằng cách ngăn chặn sự cố bất ngờ và tối ưu hóa sự hài lòng của người tiêu dùng API.",
+        "links": [
+          {
+            "title": "Hướng dẫn từng bước về Kiểm thử hiệu suất API (API Performance Testing: A Step-by-Step Guide)",
+            "url": "https://testsigma.com/blog/api-performance-testing/",
+            "type": "article"
+          },
+          {
+            "title": "Mô phỏng lưu lượng người dùng để kiểm tra hiệu suất API",
+            "url": "https://learning.postman.com/docs/collections/performance-testing/testing-api-performance/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "R3aRhqCslwhegMfHtxg5z",
+      "type": "topic",
+      "label": "Các mẫu tích hợp API",
+      "position": {
+        "x": -210.2109644352177,
+        "y": 1544.4353183589587
+      },
+      "size": {
+        "width": 247,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Tích hợp API (API Integration Patterns) trong bối cảnh Thiết kế API đề cập đến các mô hình và phương pháp phổ biến được sử dụng để thiết lập giao tiếp giữa các dịch vụ. Các mẫu này quy định cách các API khác nhau tương tác và trao đổi dữ liệu, cho phép các ứng dụng phần mềm hoạt động liền mạch. Chúng đóng vai trò quan trọng trong phát triển ứng dụng bằng cách cung cấp một phương pháp tiêu chuẩn để kết nối các thành phần phần mềm đa dạng. Bằng cách hiểu và triển khai các mẫu này, nhà phát triển có thể thiết kế các API mạnh mẽ, khả năng mở rộng và tương thích hơn.",
+        "links": [
+          {
+            "title": "Các mẫu tích hợp API – Dzone",
+            "url": "https://dzone.com/refcardz/api-integration-patterns",
+            "type": "article"
+          },
+          {
+            "title": "Các Mô hình Tích Hợp API – Devoteam",
+            "url": "https://uk.devoteam.com/expert-view/api-integration-patterns/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "kJD1K2-ZkoezFCfpmOM0Z",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": -255.7109644352177,
+        "y": 1661.7437339754388
+      },
+      "size": {
+        "width": 336,
+        "height": 370
+      },
+      "style": {
+        "width": 150,
+        "height": 100,
+        "fontSize": 17,
+        "backgroundColor": "TRANSPARENt",
+        "borderColor": "TRANSPARENt"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "--mmTKhG58_elbUqyn90G",
+      "type": "subtopic",
+      "label": "API Đồng bộ so với API Không đồng bộ",
+      "position": {
+        "x": -250.7109644352177,
+        "y": 1662.4353183589587
+      },
+      "size": {
+        "width": 326,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Khi thiết kế API, một quyết định quan trọng là tạo ra API đồng bộ hay không đồng bộ. API đồng bộ giữ kết nối mở và chờ phản hồi trước khi chuyển sang nhiệm vụ tiếp theo, do đó hoạt động theo trình tự. Điều này có thể dẫn đến mã hóa hiệu quả, dễ hiểu nhưng có thể gây ra các vấn đề về hiệu suất khi xử lý các tác vụ dài nếu người gọi phải đợi cho quá trình hoàn thành. Mặt khác, API không đồng bộ không chờ phản hồi trước khi chuyển sang nhiệm vụ tiếp theo, cho phép nhiều hoạt động được thực hiện đồng thời. Điều này có thể cải thiện hiệu suất và khả năng đáp ứng, đặc biệt là trong các ứng dụng cần xử lý nhiều yêu cầu cùng lúc. Tuy nhiên, lập trình cho API không đồng bộ có thể phức tạp do các vấn đề như điều kiện đua và callback. Hiểu biết sự khác biệt giữa hai loại thiết kế API này là rất quan trọng để tạo ra các API hiệu quả và hiệu quả.",
+        "links": [
+          {
+            "title": "API bất đồng bộ — Tất cả những gì bạn cần biết",
+            "url": "https://blog.hubspot.com/website/asynchronous-api",
+            "type": "article"
+          },
+          {
+            "title": "Sự Khác biệt giữa API Đồng bộ và API Không đồng bộ",
+            "url": "https://nordicapis.com/the-differences-between-synchronous-and-asynchronous-apis/",
+            "type": "article"
+          },
+          {
+            "title": "Hiểu về các API bất đồng bộ",
+            "url": "https://blog.postman.com/understanding-asynchronous-apis/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "oMfOBkVsgiLvFLicOUdx6",
+      "type": "subtopic",
+      "label": "Kiến trúc dựa trên sự kiện",
+      "position": {
+        "x": -250.7109644352177,
+        "y": 1713.7417878080591
+      },
+      "size": {
+        "width": 326,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Kiến trúc dựa trên sự kiện (EDA) là một khái niệm thiết kế phần mềm xoay quanh việc sản xuất, giải thích và tiêu thụ các sự kiện. Về thiết kế API, EDA cho phép hệ thống phân tán phân tích, microservice và hoạt động, từ đó thúc đẩy chia sẻ thông tin thời gian thực và phản ứng. Các API dựa trên sự kiện ưu tiên giao tiếp không đồng bộ, cho phép ứng dụng vẫn giữ tính đáp ứng ngay cả khi xử lý các tải dữ liệu nặng. Để có một API hiệu quả, việc tuân thủ EDA mang lại độ tin cậy của dữ liệu, trưởng thành với cấu trúc có thể mở rộng và khả năng xử lý dữ liệu thời gian thực hiệu quả.",
+        "links": [
+          {
+            "title": "Kiến trúc dựa trên sự kiện",
+            "url": "https://learn.microsoft.com/en-us/azure/architecture/guide/architecture-styles/event-driven",
+            "type": "article"
+          },
+          {
+            "title": "Kiến trúc dựa trên sự kiện",
+            "url": "https://aws.amazon.com/event-driven-architecture/",
+            "type": "article"
+          },
+          {
+            "title": "Kiến trúc Dựa trên Sự kiện: Giải thích trong 7 phút!",
+            "url": "https://www.youtube.com/watch?v=gOuAqRaDdHA",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "MJeUD4fOHaJu1oxk4uQ-x",
+      "type": "subtopic",
+      "label": "Cổng API",
+      "position": {
+        "x": -250.7109644352177,
+        "y": 1765.752205777561
+      },
+      "size": {
+        "width": 326,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Các Gateway API đóng vai trò là điểm vào chính trong kiến trúc microservices, thường chịu trách nhiệm định tuyến yêu cầu, tổng hợp và dịch luồng giao thức. Chúng đóng một vai trò quan trọng trong thiết kế API bằng cách cung cấp một lớp chung để xử lý các tác vụ không liên quan đến nghiệp vụ. Điều này không chỉ đơn giản hóa cách người dùng tương tác với các dịch vụ backend mà còn giúp duy trì bảo mật, thực thi chính sách và cung cấp phân tích về việc sử dụng API. Khi thiết kế API, hiểu biết và triển khai hiệu quả các Gateway API là một kỹ năng vô giá, vì các gateway này là thành phần quan trọng của bất kỳ kiến trúc API có cấu trúc tốt và khả năng mở rộng nào.",
+        "links": [
+          {
+            "title": "API Gateway làm những gì?",
+            "url": "https://www.redhat.com/en/topics/api/what-does-an-api-gateway-do",
+            "type": "article"
+          },
+          {
+            "title": "API Gateway là gì?",
+            "url": "https://www.ibm.com/blog/api-gateway/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PPeBbooE121zrgNwpVTiA",
+      "type": "subtopic",
+      "label": "Kiến trúc Microservice",
+      "position": {
+        "x": -250.7109644352177,
+        "y": 1817.410649486862
+      },
+      "size": {
+        "width": 326,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Khi nói đến Thiết kế API, Kiến trúc Microservices đóng một vai trò quan trọng. Nó đại diện cho một phương pháp phát triển hệ thống phần mềm độc đáo tập trung vào việc xây dựng các mô-đun hàm duy nhất với giao diện được xác định rõ ràng. Mỗi dịch vụ micro chạy một quy trình riêng và giao tiếp thông qua một cơ chế nhẹ (thường là tài nguyên API HTTP) để phục vụ một mục tiêu kinh doanh cụ thể. Kiến trúc này cho phép triển khai nhanh chóng, đáng tin cậy và có khả năng mở rộng các ứng dụng phức tạp lớn. Nó tạo điều kiện thuận lợi cho việc tổ chức nhóm phát triển xung quanh các đơn vị có thể triển khai độc lập, từ đó tăng cường năng suất và tốc độ. Khi thiết kế một API, điều quan trọng là phải thích ứng với mô hình này để đạt được cấu trúc linh hoạt và khả năng mở rộng.",
+        "links": [
+          {
+            "title": "Kiến trúc Microservices là gì?",
+            "url": "https://cloud.google.com/learn/what-is-microservices-architecture",
+            "type": "article"
+          },
+          {
+            "title": "Kiến trúc Microservice",
+            "url": "https://learn.microsoft.com/en-us/azure/architecture/guide/architecture-styles/microservices",
+            "type": "article"
+          },
+          {
+            "title": "Dịch vụ Micro trong 5 Phút",
+            "url": "https://www.youtube.com/watch?v=lL_j7ilk7rc",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "IkPZel5zxXWIx90Qx7fZI",
+      "type": "subtopic",
+      "label": "Hàng đợi tin nhắn",
+      "position": {
+        "x": -250.7109644352177,
+        "y": 1972.3859806147652
+      },
+      "size": {
+        "width": 326,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Các hàng đợi tin nhắn đóng vai trò cơ bản trong thiết kế API, đặc biệt là trong việc tạo ra các hệ thống mạnh mẽ, tách rời và hiệu quả. Các hàng đợi này hoạt động như một bộ đệm, lưu trữ tin nhắn hoặc dữ liệu được gửi từ người gửi (người sản xuất), cho phép người nhận (người tiêu thụ) truy xuất và xử lý chúng với tốc độ của riêng họ. Trong bối cảnh thiết kế API, khái niệm này cho phép các nhà phát triển xử lý các yêu cầu về xử lý dữ liệu số lượng lớn, cung cấp giao thức truyền thông không đồng bộ giữa nhiều dịch vụ. Lợi ích của hàng đợi tin nhắn trong thiết kế API bao gồm khả năng mở rộng hệ thống tốt hơn, khả năng chịu lỗi và tăng cường tính bền vững tổng thể của hệ thống.",
+        "links": [
+          {
+            "title": "Hàng đợi tin nhắn là gì?",
+            "url": "https://aws.amazon.com/message-queue/",
+            "type": "article"
+          },
+          {
+            "title": "Các hàng đợi tin nhắn REST API Giải thích",
+            "url": "https://www.youtube.com/watch?v=2idPgA6IN_Q",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "75NVxS0iwoQXxOHCkWQxH",
+      "type": "subtopic",
+      "label": "Webhooks so với Polling",
+      "position": {
+        "x": -250.7109644352177,
+        "y": 1869.069093196163
+      },
+      "size": {
+        "width": 326,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Khi nói đến quản lý giao tiếp máy chủ và trao đổi dữ liệu trong Thiết kế API, hai phương pháp thường được sử dụng là webhooks và polling. Hai chiến lược này xử lý các bản cập nhật và đồng bộ hóa dữ liệu theo những cách khác nhau. Polling là một kỹ thuật trong đó khách hàng lặp lại việc thực hiện yêu cầu để kiểm tra các bản cập nhật. Trong trường hợp này, chính khách hàng xác định tốc độ trao đổi thông tin. Ngược lại, webhooks hoạt động trên cơ chế 'push'. Máy chủ gửi các bản cập nhật đến khách hàng khi chúng xảy ra, cung cấp đồng bộ hóa dữ liệu theo thời gian thực và hiệu quả. Việc xác định phương pháp nào để sử dụng thường phụ thuộc vào các yêu cầu cụ thể của thiết kế API, bao gồm tần suất thay đổi dữ liệu, tải máy chủ và nhu cầu thời gian thực của ứng dụng.",
+        "links": [
+          {
+            "title": "Khi nào nên Sử dụng Webhooks, WebSocket, Pub/Sub, và Polling",
+            "url": "https://hookdeck.com/webhooks/guides/when-to-use-webhooks",
+            "type": "article"
+          },
+          {
+            "title": "So sánh polling với webhooks: khi nào nên sử dụng cái nào hơn",
+            "url": "https://www.merge.dev/blog/webhooks-vs-polling",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "X68HXAAV-nKo-V4Fu1o72",
+      "type": "subtopic",
+      "label": "Xử lý hàng loạt",
+      "position": {
+        "x": -250.7109644352177,
+        "y": 1920.7275369054641
+      },
+      "size": {
+        "width": 326,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Xử lý hàng loạt đề cập đến phương pháp xử lý các yêu cầu dữ liệu thô trong thiết kế API. Ở đây, nhiều yêu cầu API được đóng gói và xử lý như một nhóm hoặc 'batch'. Thay vì thực hiện nhiều cuộc gọi API riêng lẻ, người dùng có thể thực hiện một yêu cầu batch với nhiều hoạt động. Cách tiếp cận này có thể tăng hiệu suất và hiệu quả bằng cách giảm chi phí quản lý thiết lập và đóng các kết nối nhiều lần. Khái niệm ‘xử lý hàng loạt’ trong thiết kế API đặc biệt hữu ích trong các ứng dụng hoặc hệ thống đòi hỏi xử lý khối lượng lớn dữ liệu.",
+        "links": [
+          {
+            "title": "API Design Guidance: Bulk vs Batch Import",
+            "url": "https://tyk.io/blog/api-design-guidance-bulk-and-batch-import/",
+            "type": "article"
+          },
+          {
+            "title": "Xử lý luồng vs Xử lý lô Giải thích với Ví dụ",
+            "url": "https://www.youtube.com/watch?v=1xgBQTF24mU",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "H22jAI2W5QLL-b1rq-c56",
+      "type": "subtopic",
+      "label": "RabbitMQ",
+      "position": {
+        "x": -497.66906836651873,
+        "y": 1941.8678842718575
+      },
+      "size": {
+        "width": 146,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "RabbitMQ là phần mềm/hệ thống trung chuyển tin nhắn mã nguồn mở đóng vai trò quan trọng trong thiết kế API, đặc biệt là trong việc hỗ trợ giao tiếp hiệu quả và nhanh chóng giữa các tiến trình. Nó triển khai Advanced Message Queuing Protocol (AMQP) để cho phép truyền dữ liệu an toàn và đáng tin cậy ở nhiều định dạng khác nhau như văn bản, nhị phân hoặc đối tượng đã được tuần tự hóa. RabbitMQ rất hữu ích trong việc tách rời các quy trình ứng dụng để đạt được khả năng mở rộng và độ bền vững, đồng thời đảm bảo rằng dữ liệu được chuyển giao một cách an toàn và liền mạch. Nó giới thiệu hàng đợi như một phương pháp xử lý nhiều người dùng hoặc cuộc gọi dịch vụ cùng lúc, do đó tăng cường khả năng phản hồi và hiệu suất của API. Hệ thống hàng đợi của nó tinh tế xử lý tải yêu cầu API, cho phép các dịch vụ xử lý dữ liệu đều đặn đồng thời ngăn chặn tình trạng quá tải.",
+        "links": [
+          {
+            "title": "RabbitMQ Website",
+            "url": "https://www.rabbitmq.com/",
+            "type": "official"
+          },
+          {
+            "title": "Giới thiệu về RabbitMQ",
+            "url": "https://www.youtube.com/watch?v=bfVddTJNiAw",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "boYX1QcJullypfX4sevdy",
+      "type": "subtopic",
+      "label": "Kafka",
+      "position": {
+        "x": -499.16906836651884,
+        "y": 1996.867884271857
+      },
+      "size": {
+        "width": 149,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Apache Kafka là một hệ thống nhắn tin thời gian thực, chịu lỗi và đáng tin cậy cao, rất quan trọng đối với thiết kế API. Nó chủ yếu được sử dụng để xây dựng các ứng dụng luồng dữ liệu thời gian thực và microservices do khả năng xử lý dữ liệu khối lượng lớn và hỗ trợ nhiều người đăng ký. Trong bối cảnh thiết kế API, Kafka cung cấp một hàng đợi tin nhắn mạnh mẽ cho phép các nền tảng và dịch vụ đám mây giao tiếp liền mạch trong môi trường thời gian thực. Hơn nữa, các nhà thiết kế API sử dụng các API Kafka như Producer API, Consumer API, Streams API và Connect API, điều này cho phép truyền và thao tác tin nhắn trong hệ sinh thái Kafka.",
+        "links": [
+          {
+            "title": "Trang web Kafka",
+            "url": "https://kafka.apache.org/",
+            "type": "official"
+          },
+          {
+            "title": "apache/kafka",
+            "url": "https://github.com/apache/kafka",
+            "type": "opensource"
+          },
+          {
+            "title": "Kafka trong 100 giây",
+            "url": "https://www.youtube.com/watch?v=uvb00oaa3k8",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Wpk4TvxcZOJgAoXjrOsZF",
+      "type": "topic",
+      "label": "Kiểm thử API",
+      "position": {
+        "x": 221.19846699906657,
+        "y": 1758.058993623857
+      },
+      "size": {
+        "width": 247,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Kiểm thử API đề cập đến quá trình kiểm tra chức năng, độ tin cậy, hiệu suất và bảo mật của Giao diện lập trình ứng dụng (API). Nó đóng một vai trò quan trọng trong thiết kế API vì nó đảm bảo rằng các API hoạt động chính xác và như mong đợi. Loại kiểm thử này không yêu cầu giao diện người dùng và chủ yếu tập trung vào lớp logic nghiệp vụ của kiến trúc phần mềm. Kiểm thử API là điều cần thiết để đảm bảo rằng việc truyền dữ liệu và phản hồi giữa các hệ thống phần mềm khác nhau không có lỗi và được lưu thông một cách trơn tru.",
+        "links": [
+          {
+            "title": "Kiểm thử API là gì?",
+            "url": "https://www.postman.com/api-platform/api-testing/",
+            "type": "article"
+          },
+          {
+            "title": "Kiểm thử API : Nó là gì, Làm thế nào để kiểm tra & Các phương pháp hay nhất",
+            "url": "https://testsigma.com/guides/api-testing/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JvmW78cDm84GNhq8VEYZp",
+      "type": "subtopic",
+      "label": "Kiểm thử Đơn vị",
+      "position": {
+        "x": 247.69846699906657,
+        "y": 1505.4070461854096
+      },
+      "size": {
+        "width": 194,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Kiểm thử Đơn vị, trong bối cảnh thiết kế API, đề cập đến quá trình kiểm tra các thành phần hoặc hàm riêng lẻ của một API độc lập để đảm bảo mỗi phần đều hoạt động chính xác. Nó thường được thực hiện ở giai đoạn phát triển. Mục tiêu chính của Kiểm thử Đơn vị là cô lập từng thành phần và xác minh chức năng hoạt động chính xác của nó, từ đó tăng cường niềm tin vào sự ổn định của API nói chung. Nó tạo nền tảng vững chắc cho kiểm thử tích hợp và cuối cùng dẫn đến các API đáng tin cậy, không lỗi. Bất kể API của bạn là RESTful, SOAP hay GraphQL, kiểm thử đơn vị là một bước quan trọng trong thiết kế và phát triển API.",
+        "links": [
+          {
+            "title": "Cách Viết Kiểm Thử Đơn Vị Cho API REST của Bạn",
+            "url": "https://medium.com/@oyetoketoby80/how-to-write-unit-test-for-your-rest-api-f8f71376273f",
+            "type": "article"
+          },
+          {
+            "title": "Kiểm thử đơn vị một API REST",
+            "url": "https://www.testim.io/blog/unit-test-rest-api/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "qZELS5vw2feS7QfyD7spX",
+      "type": "subtopic",
+      "label": "Kiểm thử tích hợp",
+      "position": {
+        "x": 247.69846699906657,
+        "y": 1559.4070461854096
+      },
+      "size": {
+        "width": 194,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Kiểm thử tích hợp là một khía cạnh quan trọng của thiết kế API. Đây là một mức độ kiểm tra phần mềm trong đó các đơn vị hoặc thành phần riêng lẻ được kết hợp và kiểm tra như một nhóm. Mục đích chính của kiểm thử tích hợp trong thiết kế API là để làm nổi bật các lỗi và sự không nhất quán trong tương tác giữa các đơn vị đã tích hợp. Phương pháp kiểm tra này đảm bảo rằng các bộ phận khác nhau của API hoạt động liền mạch với nhau để cung cấp chức năng và hiệu suất cần thiết. Nó giúp phát hiện các vấn đề liên quan đến mạng, cơ sở dữ liệu và hiệu suất mà kiểm thử đơn vị không thể phát hiện ra. Do đó, mức độ kiểm tra này là rất quan trọng trong việc xác thực độ tin cậy, hiệu quả và chức năng của các thành phần tích hợp của API.",
+        "links": [
+          {
+            "title": "Cách Chạy Kiểm Thử Tích Hợp API",
+            "url": "https://www.merge.dev/blog/api-integration-testing",
+            "type": "article"
+          },
+          {
+            "title": "Mẫu kiểm thử tích hợp",
+            "url": "https://www.postman.com/templates/fe506090-ca91-4340-bea9-82d2c3d2bb9a/Integration-testing/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6lm3wy9WTAERTqXCn6pFt",
+      "type": "subtopic",
+      "label": "Kiểm thử chức năng",
+      "position": {
+        "x": 247.69846699906657,
+        "y": 1613.4070461854096
+      },
+      "size": {
+        "width": 194,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Kiểm thử chức năng trong bối cảnh thiết kế API liên quan đến việc xác thực các điểm cuối và cặp khóa-giá trị của một API. Nó đảm bảo phản hồi của máy chủ hoạt động như mong đợi và đánh giá tính năng của API xem nó có đang thực hiện tất cả các hàm chính xác hay không. Nhiều phương pháp tiếp cận như kiểm tra các cặp yêu cầu-phản hồi, mã lỗi và độ chính xác dữ liệu được sử dụng. Kiểm thử chức năng có thể cung cấp những hiểu biết vô giá về cách một API đáp ứng tốt các yêu cầu đã chỉ định và liệu nó có sẵn sàng để tích hợp vào các ứng dụng hay không.",
+        "links": [
+          {
+            "title": "API Functional Testing – Why Is It Important And How to Test",
+            "url": "https://testsigma.com/blog/api-functional-testing/",
+            "type": "article"
+          },
+          {
+            "title": "Kiểm thử chức năng API là gì?",
+            "url": "https://www.youtube.com/watch?v=CvJHDKMWofk",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "7JNEx_cbqnAx3esvwZMOd",
+      "type": "subtopic",
+      "label": "Kiểm thử tải",
+      "position": {
+        "x": 247.69846699906657,
+        "y": 1667.4070461854096
+      },
+      "size": {
+        "width": 194,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Kiểm thử tải là một khía cạnh quan trọng trong thiết kế API, đảm bảo tính tin cậy, hiệu quả và hiệu suất khi chịu các tải khác nhau. Nó chủ yếu tập trung vào việc xác định khả năng dung lượng tối đa của API về mặt khối lượng yêu cầu mà nó có thể xử lý và hành vi của nó khi ngưỡng này đạt đến hoặc vượt quá tải. Bằng cách mô phỏng các mức tải người dùng khác nhau, các nhà phát triển có thể xác định và khắc phục các tắc nghẽn hoặc điểm yếu trong hệ thống, từ đó nâng cao khả năng phục hồi tổng thể của API.",
+        "links": [
+          {
+            "title": "Hướng dẫn dành cho người mới bắt đầu về Kiểm thử tải API (API Load Testing)",
+            "url": "https://grafana.com/blog/2024/01/30/api-load-testing/",
+            "type": "article"
+          },
+          {
+            "title": "Kiểm tra Hiệu năng API của bạn bằng cách Mô phỏng Lưu lượng Giao thông Thực tế",
+            "url": "https://blog.postman.com/postman-api-performance-testing/",
+            "type": "article"
+          },
+          {
+            "title": "Kiểm thử tải API",
+            "url": "https://www.youtube.com/watch?v=a5hWE4hMOoY",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "bEVCT5QGY3uw0kIfAELKh",
+      "type": "subtopic",
+      "label": "Tạo mẫu (mock) API",
+      "position": {
+        "x": 248.4735203536439,
+        "y": 1861.446054725657
+      },
+      "size": {
+        "width": 194,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Mô phỏng API là một khía cạnh quan trọng của thiết kế và kiểm thử API. Nó bao gồm việc mô phỏng các hành vi của API thực tế để kiểm tra nhiều khía cạnh khác nhau của hệ thống mà không cần đến API thực tế có sẵn. Trong quá trình phát triển và kiểm thử, API có thể chưa được định nghĩa hoặc API có thể thay đổi, do đó mô phỏng xuất hiện. Trong những trường hợp này, nó giúp các nhà phát triển phần mềm và người kiểm thử cô lập hệ thống và làm việc độc lập, tăng cường khả kiểm soát đối với đầu vào và đầu ra của thử nghiệm. Tập trung ở đây bao gồm kiểm tra API cho chức năng, độ tin cậy, hiệu suất và bảo mật. Do đó, hiểu biết và thực hiện các chiến lược mô phỏng API hiệu quả có thể giúp đơn giản hóa đáng kể quy trình thiết kế và phát triển API.",
+        "links": [
+          {
+            "title": "Mocking API là gì? Định nghĩa, Hướng dẫn và Thực hành Tốt nhất",
+            "url": "https://katalon.com/resources-center/blog/what-is-api-mocking",
+            "type": "article"
+          },
+          {
+            "title": "API mocking là gì (Định nghĩa, Hướng dẫn và Thực hành tốt nhất)?",
+            "url": "https://blog.postman.com/what-is-api-mocking/",
+            "type": "article"
+          },
+          {
+            "title": "Cách Mô Phỏng API RESTful - Cách Dễ Dàng!",
+            "url": "https://www.youtube.com/watch?v=tJRN5WBF5Wc",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "NqeBglhzukVMMEF9p2CXc",
+      "type": "subtopic",
+      "label": "Kiểm thử hợp đồng",
+      "position": {
+        "x": 248.4735203536439,
+        "y": 1915.446054725657
+      },
+      "size": {
+        "width": 194,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Kiểm thử hợp đồng là một khía cạnh quan trọng để duy trì cơ sở hạ tầng API mạnh mẽ và đáng tin cậy. Trong lĩnh vực thiết kế API, Kiểm thử hợp đồng đề cập đến phương pháp đảm bảo rằng các API hoạt động như mong đợi và những thay đổi đối với chúng không làm gián đoạn chức năng dự kiến của chúng. Cách tiếp cận này xác thực sự tương tác giữa hai hệ thống khác nhau, thường là người tiêu dùng và nhà cung cấp (API), đảm bảo rằng họ tuân thủ hợp đồng đã thỏa thuận. Bằng cách định nghĩa các hợp đồng rõ ràng và súc tích cho các API của mình, các nhà phát triển có thể tránh các vấn đề triển khai phổ biến và cải thiện quy trình tích hợp hệ thống.",
+        "links": [
+          {
+            "title": "Hướng dẫn toàn diện về Kiểm thử hợp đồng",
+            "url": "https://testsigma.com/blog/api-contract-testing/",
+            "type": "article"
+          },
+          {
+            "title": "Bắt đầu với Kiểm thử Hợp đồng API",
+            "url": "https://saucelabs.com/resources/blog/getting-started-with-api-contract-testing",
+            "type": "article"
+          },
+          {
+            "title": "Kiểm thử hợp đồng",
+            "url": "https://www.postman.com/templates/42247877-8529-429d-acba-4de20c3b5b3b/Contract-testing/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "XD1vDtrRQFbLyKJaD1AlA",
+      "type": "subtopic",
+      "label": "Xử lý lỗi / Thử lại",
+      "position": {
+        "x": -585.469505701316,
+        "y": 1876.285812057839
+      },
+      "size": {
+        "width": 237,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Khi thiết kế API hiệu quả, việc xử lý lỗi và thử lại là một yếu tố thiết yếu. Điều này chủ yếu là do API không phải lúc nào cũng không có lỗi và các sự cố mạng hoặc sai sót nhập liệu từ người dùng có thể xảy ra. Nếu không có xử lý lỗi mạnh mẽ, những tình huống này có thể dễ dàng dẫn đến sự sụp đổ của ứng dụng hoặc trải nghiệm người dùng không hài lòng. Xử lý lỗi có thể bao gồm xác thực đầu vào, quản lý ngoại lệ và trả về các thông báo lỗi hoặc mã trạng thái phù hợp cho người dùng. Đồng thời, khái niệm thử lại được sử dụng để đảm bảo tỷ lệ yêu cầu thành công cao nhất trong trường hợp xảy ra sự cố tạm thời. Thông qua việc triển khai thử lại chính xác, một API có thể lặp lại việc thực thi yêu cầu cho đến khi nó thành công, do đó đảm bảo hoạt động liền mạch.",
+        "links": [
+          {
+            "title": "Hướng dẫn cải thiện Backend bằng cách thêm cơ chế thử lại cho các cuộc gọi API của bạn.",
+            "url": "https://hackernoon.com/how-to-improve-your-backend-by-adding-retries-to-your-api-calls-83r3udx",
+            "type": "article"
+          },
+          {
+            "title": "Cách Tạo Các Ứng Dụng Web Bền Rằng Với Thử Lại",
+            "url": "https://www.youtube.com/watch?v=Gly94hp3Eec",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JE12g5cqnwmgeTle14Vxw",
+      "type": "topic",
+      "label": "API thời gian thực",
+      "position": {
+        "x": 35.36181272800661,
+        "y": 2095.4915595367556
+      },
+      "size": {
+        "width": 171,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Trong lĩnh vực Thiết kế API, API thời gian thực có giá trị đáng kể vì chúng cung cấp quyền truy cập ngay lập tức vào dữ liệu mới nhất khi chúng có sẵn. Thay vì dựa vào polling định kỳ để lấy thông tin cập nhật, API thời gian thực duy trì kết nối mở giữa khách hàng và máy chủ cho phép luồng dữ liệu hai chiều ngay lập tức. Các API này thường được sử dụng trong các ứng dụng yêu cầu thông tin theo thời gian thực như chương trình trò chuyện trực tiếp, nền tảng giao dịch tài chính hoặc trò chơi trực tuyến đa người chơi. Thiết kế các API này đòi hỏi sự cân nhắc cẩn thận về các yếu tố như quản lý kết nối, tính nhất quán dữ liệu và xử lý hiệu quả luồng dữ liệu có khối lượng lớn.",
+        "links": [
+          {
+            "title": "API thời gian thực là gì?",
+            "url": "https://www.pubnub.com/guides/realtime-api/",
+            "type": "article"
+          },
+          {
+            "title": "API thời gian thực là gì và khi nào nên sử dụng chúng?",
+            "url": "https://ably.com/topic/what-is-a-realtime-api",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "UQ8N7gcVpRLAYXgUNHBt5",
+      "type": "subtopic",
+      "label": "Web Sockets",
+      "position": {
+        "x": 267.72110595703134,
+        "y": 2069.2728071916526
+      },
+      "size": {
+        "width": 194,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Web Sockets cung cấp một kết nối lâu dài giữa một client và một server, nơi tin nhắn có thể được gửi hai chiều theo thời gian thực. Chúng đóng vai trò quan trọng trong việc tạo ra các API thời gian thực bằng cách cung cấp phương pháp giao tiếp nhanh chóng và hiệu quả hơn so với HTTP truyền thống. Trong bối cảnh Thiết kế API, Web Sockets được sử dụng để phát triển các API yêu cầu chuyển đổi dữ liệu theo thời gian thực, chẳng hạn như ứng dụng trò chuyện, cập nhật thể thao trực tiếp và phân tích theo thời gian thực. Sự thay đổi này từ thiết kế API dựa trên HTTP truyền thống sang thiết kế API dựa trên Web Socket giúp tạo ra các API phản hồi hơn, linh hoạt và hiệu quả hơn trong việc xử lý dữ liệu theo thời gian thực.",
+        "links": [
+          {
+            "title": "API WebSocket",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API",
+            "type": "article"
+          },
+          {
+            "title": "Web Sockets là gì?",
+            "url": "https://www.pubnub.com/guides/websockets/",
+            "type": "article"
+          },
+          {
+            "title": "Cách Web Sockets Hoạt Động",
+            "url": "https://www.youtube.com/watch?v=pnj3Jbho5Ck",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "iNsXTtcIHsI_i-mCfjGYn",
+      "type": "subtopic",
+      "label": "Sự kiện Truyền tải theo Máy chủ",
+      "position": {
+        "x": 267.72110595703134,
+        "y": 2123.2728071916526
+      },
+      "size": {
+        "width": 194,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Sự kiện Truyền tải theo Máy chủ (SSE) đại diện cho một khái niệm rõ ràng trong thiết kế API thời gian thực. Không giống như các phương pháp truyền thống, nơi một khách hàng gửi yêu cầu và chờ phản hồi từ máy chủ, SSE cho phép máy chủ đẩy dữ liệu đến khách hàng bất cứ khi nào một sự kiện cụ thể xảy ra. SSE đặc biệt quan trọng trong thiết kế API khi phát triển các ứng dụng cần dữ liệu thời gian thực, chẳng hạn như cập nhật tin tức trực tiếp, trò chơi thời gian thực hoặc dịch vụ phát trực tuyến trực tiếp. Thiết kế API với phương pháp SSE đảm bảo trải nghiệm người dùng động và phản hồi hơn.",
+        "links": [
+          {
+            "title": "Sử dụng Server-sent Events",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events/Using_server-sent_events",
+            "type": "article"
+          },
+          {
+            "title": "Sự kiện Truyền tải theo Máy chủ | Postman Level Up",
+            "url": "https://www.youtube.com/watch?v=KrE044J8jEQ",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "yvdfoly5WHHTq2Puss355",
+      "type": "topic",
+      "label": "Tiêu chuẩn và Tuân thủ",
+      "position": {
+        "x": -363.31358688509135,
+        "y": 2210.5425435400516
+      },
+      "size": {
+        "width": 272,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Khi thiết kế API, điều quan trọng là phải xem xét khái niệm về tiêu chuẩn và tuân thủ. Tiêu chuẩn đại diện cho tập các quy tắc và phương pháp tốt nhất hướng dẫn nhà phát triển tạo ra các API có cấu trúc tốt và dễ bảo trì. Chúng có thể bao gồm cấu trúc chính xác của các điểm cuối, chuẩn hóa phản hồi lỗi, tên gọi quy ước và sử dụng động từ HTTP. Tuân thủ ngược lại nhấn mạnh vào việc đáp ứng yêu cầu giao thức hoặc tiêu chuẩn như REST hoặc SOAP. Ngoài ra, hoạt động trong các ngành công nghiệp được quản lý cũng có thể đòi hỏi các biện pháp tuân thủ nhất định như GDPR, HIPAA và những thứ khác. Tuân thủ trong Thiết kế API đảm bảo khả năng tương tác và an toàn của việc truyền dữ liệu giữa các hệ thống.",
+        "links": [
+          {
+            "title": "Tuân thủ API là gì?",
+            "url": "https://tyk.io/learning-center/api-compliance/",
+            "type": "article"
+          },
+          {
+            "title": "Tuân thủ API là gì và tại sao nó lại quan trọng?",
+            "url": "https://www.traceable.ai/blog-post/achieve-api-compliance",
+            "type": "article"
+          },
+          {
+            "title": "Tiêu chuẩn REST API",
+            "url": "https://www.integrate.io/blog/rest-api-standards/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "vZxdswGLHCPi5GSuXEcHJ",
+      "type": "subtopic",
+      "label": "GDPR",
+      "position": {
+        "x": -570.6112846237921,
+        "y": 2102.642324872653
+      },
+      "size": {
+        "width": 124,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Quy định Chung về Bảo vệ Dữ liệu (GDPR) là một tiêu chuẩn thiết yếu trong Thiết kế API giải quyết việc lưu trữ, chuyển đổi và xử lý dữ liệu cá nhân của các cá nhân trong Liên minh Châu Âu. Về mặt Thiết kế API, cần xem xét cách API xử lý, xử lý và bảo mật dữ liệu để tuân thủ các yêu cầu về quyền riêng tư và bảo mật dữ liệu của GDPR. Điều này bao gồm các yêu cầu về sự đồng ý rõ ràng, quyền xóa, khả năng di chuyển dữ liệu và thiết kế theo hướng bảo mật. Không tuân thủ các tiêu chuẩn này không chỉ dẫn đến các khoản tiền phạt nặng nề mà còn có thể làm suy giảm lòng tin từ người dùng và khách hàng. Do đó, hiểu tác động và tích hợp của GDPR trong thiết kế API là rất quan trọng đối với các tổ chức xử lý dữ liệu của cư dân EU.",
+        "links": [
+          {
+            "title": "GDPR",
+            "url": "https://gdpr-info.eu/",
+            "type": "official"
+          },
+          {
+            "title": "Tuân thủ GDPR trong bảo mật ứng dụng Web và API là gì?",
+            "url": "https://probely.com/blog/what-is-gdpr-compliance-in-web-application-and-api-security/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "At5exN7ZAx2IzY3cTCzHm",
+      "type": "topic",
+      "label": "Quản lý Vòng đời API",
+      "position": {
+        "x": -361.55504561899306,
+        "y": 2095.4915595367556
+      },
+      "size": {
+        "width": 268,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Quản lý Vòng đời API (API Lifecycle Management) là một khía cạnh quan trọng trong thiết kế API, giám sát quá trình tạo, quản lý và ngừng hoạt động của các API. Điều này bao gồm nhiều giai đoạn từ lập kế hoạch ban đầu, thiết kế, kiểm thử, triển khai đến việc ngừng hoạt động cuối cùng của API. Quản lý vòng đời API đúng cách đảm bảo rằng một API đáp ứng yêu cầu, đáng tin cậy và phát triển theo nhu cầu của người dùng cuối và nhà phát triển. Hơn nữa, nó giúp duy trì tính bảo mật, hiệu suất và khả năng truy cập của API trong suốt thời gian hoạt động của nó. Cách tiếp cận toàn diện này cho phép các tổ chức tận dụng tối đa API của họ, giảm thiểu rủi ro và thúc đẩy quá trình chuyển đổi số thành công.",
+        "links": [
+          {
+            "title": "API Lifecycle là gì?",
+            "url": "https://www.postman.com/api-platform/api-lifecycle/",
+            "type": "article"
+          },
+          {
+            "title": "Quản lý vòng đời API là gì?",
+            "url": "https://swagger.io/blog/api-strategy/what-is-api-lifecycle-management/",
+            "type": "article"
+          },
+          {
+            "title": "Ngày trong vòng đời của một API",
+            "url": "https://www.youtube.com/watch?v=VxY_cz0VQXE",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a-_iIE7UdoXzD00fD9MxN",
+      "type": "subtopic",
+      "label": "CCPA",
+      "position": {
+        "x": -570.6112846237921,
+        "y": 2156.642324872653
+      },
+      "size": {
+        "width": 124,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Luật Sắc California về Quyền Riêng Tư (CCPA) là một đạo luật bang quan trọng nhằm tăng cường quyền riêng tư và bảo vệ người tiêu dùng cho cá nhân trong California, Hoa Kỳ. Thiết kế API có ảnh hưởng lớn đến việc tuân thủ CCPA, vì quản lý không đúng cách và lộ trình dữ liệu người dùng có thể vi phạm luật này. Quan trọng là, thiết kế API bao gồm việc xem xét quyền riêng tư, bảo mật và sự đồng ý của người dùng ngay từ nền tảng. Về mặt lập trình, tuân thủ CCPA có thể liên quan đến việc cấu trúc API để phản hồi các yêu cầu của người dùng như truy cập dữ liệu, xóa dữ liệu và yêu cầu hủy đăng ký. Nó đặt ra trách nhiệm đáng kể cho nhà phát triển API để thực thi quyền kiểm soát của người dùng đối với dữ liệu và duy trì các tiêu chuẩn bảo vệ dữ liệu nghiêm ngặt.",
+        "links": [
+          {
+            "title": "California Consumer Privacy Act (CCPA)",
+            "url": "https://oag.ca.gov/privacy/ccpa",
+            "type": "official"
+          },
+          {
+            "title": "CCPA là gì?",
+            "url": "https://www.cloudflare.com/en-gb/learning/privacy/what-is-the-ccpa/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "J0enF8UTVzY3H4n3pbPIF",
+      "type": "subtopic",
+      "label": "PCI DSS",
+      "position": {
+        "x": -570.6112846237921,
+        "y": 2210.642324872653
+      },
+      "size": {
+        "width": 124,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Tiêu chuẩn Bảo mật Dữ liệu Ngành Công nghiệp Thẻ Thanh toán (PCI DSS) là một bộ chính sách và quy trình được chấp nhận rộng rãi nhằm tối ưu hóa bảo mật các giao dịch thẻ tín dụng, thẻ ghi nợ và tiền mặt, đồng thời bảo vệ người dùng thẻ khỏi việc sử dụng sai thông tin cá nhân. Về thiết kế API, việc xây dựng API tuân thủ PCI DSS là rất quan trọng khi xử lý, lưu trữ hoặc truyền tải thông tin thẻ thanh toán. Bằng cách tuân thủ các tiêu chuẩn này, nhà phát triển có thể đảm bảo các điểm cuối API an toàn và bảo mật cũng như xây dựng lòng tin với người dùng bằng cách bảo vệ dữ liệu tài chính nhạy cảm của họ.",
+        "links": [
+          {
+            "title": "PCI DSS là gì và làm thế nào để tuân thủ?",
+            "url": "https://www.itgovernance.co.uk/pci_dss",
+            "type": "article"
+          },
+          {
+            "title": "Tiêu chuẩn Bảo mật Dữ liệu Ngành Công nghiệp Thẻ Thanh toán",
+            "url": "https://en.wikipedia.org/wiki/Payment_Card_Industry_Data_Security_Standard",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "W4WwTmgZGnWmiYsB0ezml",
+      "type": "subtopic",
+      "label": "HIPAA",
+      "position": {
+        "x": -568.8897926825906,
+        "y": 2264.642324872653
+      },
+      "size": {
+        "width": 124,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "HIPAA (Health Insurance Portability and Accountability Act) là một tiêu chuẩn quan trọng khi nói đến thiết kế API trong ngành y tế. Về bản chất, nó cung cấp quyền lực để bảo vệ dữ liệu bệnh nhân nhạy cảm. Bất kỳ tổ chức nào làm việc với thông tin sức khỏe được bảo vệ (PHI) phải đảm bảo tất cả các biện pháp an ninh vật lý, mạng và quy trình cần thiết đều có mặt. Trong bối cảnh thiết kế API, tuân thủ HIPAA có nghĩa là cấu trúc các endpoint, phương thức truyền dữ liệu và phương pháp lưu trữ để phù hợp với những biện pháp bảo vệ quan trọng này. Điều này bao gồm mã hóa, kiểm soát truy cập, kiểm soát audit và kiểm soát tính toàn vẹn. Do đó, việc hiểu biết về HIPAA là điều cần thiết đối với các nhà thiết kế API đang làm việc trong lĩnh vực y tế.",
+        "links": [
+          {
+            "title": "HIPAA",
+            "url": "https://www.hhs.gov/hipaa/index.html",
+            "type": "official"
+          },
+          {
+            "title": "11 Vi phạm HIPAA Phổ biến Nhất",
+            "url": "https://www.youtube.com/watch?v=sN-zLAqYoTo",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mXCKtLUvwVJkHrpHzOecq",
+      "type": "subtopic",
+      "label": "PII (Thông tin nhận dạng cá nhân)",
+      "position": {
+        "x": -570.6112846237921,
+        "y": 2318.642324872653
+      },
+      "size": {
+        "width": 124,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Thông tin nhận dạng cá nhân (PII) theo Tiêu chuẩn và Tuân thủ là một khía cạnh quan trọng trong thiết kế API. Nó đề cập đến việc xử lý và truyền dữ liệu cá nhân an toàn như tên, địa chỉ và số thẻ tín dụng, mà API thường xuyên làm việc với chúng. Trong bối cảnh này, API phải được xây dựng tuân thủ nghiêm ngặt các tiêu chuẩn như GDPR, HIPAA hoặc PCI DSS, điều đó quy định bảo vệ dữ liệu cá nhân. Các tiêu chuẩn này đảm bảo rằng dữ liệu cá nhân không bị lạm dụng và quyền riêng tư của người dùng được tôn trọng. Bất kỳ vi phạm nào đều có thể dẫn đến các khoản phạt nặng và gây tổn hại cho uy tín của công ty. Hiểu biết về PII và thiết kế API theo quy định hiện hành là rất quan trọng để tạo ra một thiết kế API mạnh mẽ, an toàn và tuân thủ.",
+        "links": [
+          {
+            "title": "Thông tin nhận dạng cá nhân (PII): Định nghĩa, Các loại và Ví dụ",
+            "url": "https://www.investopedia.com/terms/p/personally-identifiable-information-pii.asp",
+            "type": "article"
+          },
+          {
+            "title": "Thông tin nhận dạng cá nhân là gì?",
+            "url": "https://www.ibm.com/topics/pii",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ETSZIZbfsiSgwpAS6HgGp",
+      "type": "vertical",
+      "label": "nút dọc",
+      "position": {
+        "x": -85.13818727199339,
+        "y": -164.08481519539623
+      },
+      "size": {
+        "width": 21,
+        "height": 94
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "cV_O7RiFmpoI4f1o8lF4B",
+      "type": "vertical",
+      "label": "nút dọc",
+      "position": {
+        "x": 56.53195030203017,
+        "y": 2493.4716162213053
+      },
+      "size": {
+        "width": 21,
+        "height": 94
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "1DrqtOwxCuFtWQXQ6ZALp",
+      "type": "subtopic",
+      "label": "API gRPC",
+      "position": {
+        "x": -198.46804969796983,
+        "y": 654.900748222349
+      },
+      "size": {
+        "width": 246,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "gRPC là một giao thức tuần tự hóa không phụ thuộc nền tảng được sử dụng để giao tiếp giữa các dịch vụ. Được Google thiết kế vào năm 2015, nó là một giải pháp hiện đại thay thế cho REST API. Đây là một giao thức nhị phân sử dụng HTTP/2 làm lớp vận chuyển. Nó là một khung RPC mã nguồn mở, hiệu suất cao và đa năng, ưu tiên cho di động và HTTP/2. Trường hợp sử dụng chính của nó là để giao tiếp giữa hai ngôn ngữ khác nhau trong cùng một ứng dụng. Bạn có thể sử dụng Python để giao tiếp với Go hoặc Java để giao tiếp với C#.",
+        "links": [
+          {
+            "title": "Trang web gRPC",
+            "url": "https://grpc.io/",
+            "type": "official"
+          },
+          {
+            "title": "Giới thiệu về gRPC",
+            "url": "https://grpc.io/docs/what-is-grpc/introduction/",
+            "type": "official"
+          },
+          {
+            "title": "Các khái niệm cốt lõi gRPC",
+            "url": "https://grpc.io/docs/what-is-grpc/core-concepts/",
+            "type": "official"
+          },
+          {
+            "title": "Stephane Maarek - Giới thiệu gRPC",
+            "url": "https://youtu.be/XRXTsQwyZSU",
+            "type": "video"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về gRPC",
+            "url": "https://app.daily.dev/tags/grpc?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "JOhjYmVo9geZEMeeRPidh",
+      "source": "",
+      "target": "",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "89g6rzK2JcZhJ1MAQra8R",
+      "source": "",
+      "target": "",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xMpMq9rxn_DYslWm3_Efz",
+      "source": "",
+      "target": "",
+      "source_handle": "z2",
+      "target_handle": "y2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "-EP79fa9WRfTgvuq5FRaw",
+      "source": "",
+      "target": "",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "1Qdcf_-7xas-XQldfLRjv",
+      "source": "",
+      "target": "",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "CfFazuChYdU7GaJO_TolE",
+      "source": "",
+      "target": "",
+      "source_handle": "x2",
+      "target_handle": "y1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "74bGlBMuedspLPHnGV2LW",
+      "source": "",
+      "target": "",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "XU7kv1zNr-yC063oqWlz2",
+      "source": "",
+      "target": "",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "swvSmJ6SyUFxK9fHwPJTF",
+      "source": "",
+      "target": "",
+      "source_handle": "x2",
+      "target_handle": "w2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "-URcDxULzdZbiMbEx8bBe",
+      "source": "",
+      "target": "",
+      "source_handle": "w2",
+      "target_handle": "x1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "_k4274GmDVM-MViCSYN6K",
+      "source": "",
+      "target": "",
+      "source_handle": "y2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "Tf3d_J21EhC-bcfpqV_o5",
+      "source": "",
+      "target": "",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "gRouAKXdfT8XQV_nzA-wA",
+      "source": "",
+      "target": "",
+      "source_handle": "y2",
+      "target_handle": "z2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "BgmVdQyd7i1SrZj0forT9",
+      "source": "",
+      "target": "",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "1a_QvZPscaIyRxhKH7p-K",
+      "source": "AZoEY2N7PqAQgUl04E3KF",
+      "target": "duKkpzPjUU_-8kyJGHqRX",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "cWesUDXpvCzBEu5BpXefC",
+      "source": "duKkpzPjUU_-8kyJGHqRX",
+      "target": "r8M3quACGO2piu0u_R4hO",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "CVsFgRPHi9vaQWTqSrbFF",
+      "source": "duKkpzPjUU_-8kyJGHqRX",
+      "target": "2HdKzAIQi15pr3YHHrbPp",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "AWgpOpfFNBRrSi_K8RPQg",
+      "source": "duKkpzPjUU_-8kyJGHqRX",
+      "target": "P-rGIk50Bg7nFmWieAW07",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "uJadhS5nJBYewb-YSy7zE",
+      "source": "duKkpzPjUU_-8kyJGHqRX",
+      "target": "TX_hg7EobNJhmWKsMCaT1",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-KQAus72RGqx5f-3-YeJbyz2-KQAus72RGqx5f-3-YeJbyz1",
+      "source": "GRlsBogOlOwuqhMMPyHN3",
+      "target": "GRlsBogOlOwuqhMMPyHN3",
+      "source_handle": "z2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-awdoiCHz7Yc3kYac_iy-az2-KG3wO86F8Of27fU7QRcsny2",
+      "source": "duKkpzPjUU_-8kyJGHqRX",
+      "target": "KG3wO86F8Of27fU7QRcsn",
+      "source_handle": "z2",
+      "target_handle": "y2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-awdoiCHz7Yc3kYac_iy-az2-MKVcPM2EzAr2_Ieyp9Fu3y1",
+      "source": "duKkpzPjUU_-8kyJGHqRX",
+      "target": "v4nJYD9yiIEUviLPhVTCD",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-duKkpzPjUU_-8kyJGHqRXx2-awdoiCHz7Yc3kYac_iy-aw1",
+      "source": "duKkpzPjUU_-8kyJGHqRX",
+      "target": "o8i093VQv-T5Qf1yGqU0R",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-awdoiCHz7Yc3kYac_iy-ax2-wTrcPqj0KpoeOvJf7k3iIw1",
+      "source": "o8i093VQv-T5Qf1yGqU0R",
+      "target": "wTrcPqj0KpoeOvJf7k3iI",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-5R9yKfN1vItuv__HgCwP7z2-awdoiCHz7Yc3kYac_iy-ay1",
+      "source": "o8i093VQv-T5Qf1yGqU0R",
+      "target": "awdoiCHz7Yc3kYac_iy-a",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-awdoiCHz7Yc3kYac_iy-aw2-junprE7dbMyeovApqhSgrx1",
+      "source": "awdoiCHz7Yc3kYac_iy-a",
+      "target": "junprE7dbMyeovApqhSgr",
+      "source_handle": "w2",
+      "target_handle": "x1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-awdoiCHz7Yc3kYac_iy-ax2-iHtjFSkQWMoUNdltNttEdw1",
+      "source": "awdoiCHz7Yc3kYac_iy-a",
+      "target": "iHtjFSkQWMoUNdltNttEd",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-8tELdagrOaGCf3nMVs8t3y2-5CxU3inGcSHp-TDg3BQiYz1",
+      "source": "8tELdagrOaGCf3nMVs8t3",
+      "target": "5CxU3inGcSHp-TDg3BQiY",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-awdoiCHz7Yc3kYac_iy-ay2-eUsorPQ8VRLJs28J8dyk2z1",
+      "source": "awdoiCHz7Yc3kYac_iy-a",
+      "target": "eUsorPQ8VRLJs28J8dyk2",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-eUsorPQ8VRLJs28J8dyk2y2-5R9yKfN1vItuv__HgCwP7w1",
+      "source": "eUsorPQ8VRLJs28J8dyk2",
+      "target": "cQnQ9v3mH27MGNwetz3JW",
+      "source_handle": "y2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-5R9yKfN1vItuv__HgCwP7x2-cGWZQjKazJQ0D3nz_AdAXw1",
+      "source": "cQnQ9v3mH27MGNwetz3JW",
+      "target": "cGWZQjKazJQ0D3nz_AdAX",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-cQnQ9v3mH27MGNwetz3JWz2-5R9yKfN1vItuv__HgCwP7y1",
+      "source": "cQnQ9v3mH27MGNwetz3JW",
+      "target": "nHbn8_sMY7J8o6ckbD-ER",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-5R9yKfN1vItuv__HgCwP7z2-wFsbmMi5Ey9UyDADdbdPWy1",
+      "source": "nHbn8_sMY7J8o6ckbD-ER",
+      "target": "wFsbmMi5Ey9UyDADdbdPW",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-5R9yKfN1vItuv__HgCwP7z2-dZTe_kxIUQsc9N3w920aRy1",
+      "source": "nHbn8_sMY7J8o6ckbD-ER",
+      "target": "dZTe_kxIUQsc9N3w920aR",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-nHbn8_sMY7J8o6ckbD-ERx2-5R9yKfN1vItuv__HgCwP7w1",
+      "source": "nHbn8_sMY7J8o6ckbD-ER",
+      "target": "tzUJwXu_scwQHnPPT0oY-",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-Wpk4TvxcZOJgAoXjrOsZFz2-5R9yKfN1vItuv__HgCwP7y2",
+      "source": "tzUJwXu_scwQHnPPT0oY-",
+      "target": "5R9yKfN1vItuv__HgCwP7",
+      "source_handle": "z2",
+      "target_handle": "y2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-5R9yKfN1vItuv__HgCwP7x2-RkPVaSF9XnX6uHUns_-oCw1",
+      "source": "5R9yKfN1vItuv__HgCwP7",
+      "target": "RkPVaSF9XnX6uHUns_-oC",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-5R9yKfN1vItuv__HgCwP7y2-Wpk4TvxcZOJgAoXjrOsZFz1",
+      "source": "5R9yKfN1vItuv__HgCwP7",
+      "target": "qIJ6dUppjAjOTA8eQbp0n",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-Wpk4TvxcZOJgAoXjrOsZFw2-ludceg3fQVkilNTKWzntix1",
+      "source": "qIJ6dUppjAjOTA8eQbp0n",
+      "target": "ludceg3fQVkilNTKWznti",
+      "source_handle": "w2",
+      "target_handle": "x1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-qIJ6dUppjAjOTA8eQbp0ny2-Wpk4TvxcZOJgAoXjrOsZFz1",
+      "source": "qIJ6dUppjAjOTA8eQbp0n",
+      "target": "d9ZXdU73jiCdeNHQv1_DH",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-Wpk4TvxcZOJgAoXjrOsZFx2-o3XFXW2HHLBoxlbEnoWdZw1",
+      "source": "d9ZXdU73jiCdeNHQv1_DH",
+      "target": "o3XFXW2HHLBoxlbEnoWdZ",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-d9ZXdU73jiCdeNHQv1_DHz2-Wpk4TvxcZOJgAoXjrOsZFy1",
+      "source": "d9ZXdU73jiCdeNHQv1_DH",
+      "target": "R3aRhqCslwhegMfHtxg5z",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "pQSbDAqEripuhCsgK5XMD",
+      "source": "",
+      "target": "kJD1K2-ZkoezFCfpmOM0Z",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-Wpk4TvxcZOJgAoXjrOsZFx2-kJD1K2-ZkoezFCfpmOM0Zw1",
+      "source": "R3aRhqCslwhegMfHtxg5z",
+      "target": "kJD1K2-ZkoezFCfpmOM0Z",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-mXCKtLUvwVJkHrpHzOecqy2-H22jAI2W5QLL-b1rq-c56z2",
+      "source": "IkPZel5zxXWIx90Qx7fZI",
+      "target": "H22jAI2W5QLL-b1rq-c56",
+      "source_handle": "y2",
+      "target_handle": "z2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-mXCKtLUvwVJkHrpHzOecqy2-boYX1QcJullypfX4sevdyz1",
+      "source": "IkPZel5zxXWIx90Qx7fZI",
+      "target": "boYX1QcJullypfX4sevdy",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-Wpk4TvxcZOJgAoXjrOsZFw2-zL4QEM5xZO8XWXXWrdPujx1",
+      "source": "Wpk4TvxcZOJgAoXjrOsZF",
+      "target": "zL4QEM5xZO8XWXXWrdPuj",
+      "source_handle": "w2",
+      "target_handle": "x1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-yvdfoly5WHHTq2Puss355z2-Wpk4TvxcZOJgAoXjrOsZFy1",
+      "source": "R3aRhqCslwhegMfHtxg5z",
+      "target": "Wpk4TvxcZOJgAoXjrOsZF",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "glDT_FnQTOOAyIAPLWFZW",
+      "source": "",
+      "target": "SP-d4YngpYXkeIB9SSD-K",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-Wpk4TvxcZOJgAoXjrOsZFx2-bEVCT5QGY3uw0kIfAELKhw1",
+      "source": "Wpk4TvxcZOJgAoXjrOsZF",
+      "target": "bEVCT5QGY3uw0kIfAELKh",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-Wpk4TvxcZOJgAoXjrOsZFy2-yvdfoly5WHHTq2Puss355w1",
+      "source": "Wpk4TvxcZOJgAoXjrOsZF",
+      "target": "JE12g5cqnwmgeTle14Vxw",
+      "source_handle": "y2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-yvdfoly5WHHTq2Puss355z2-UQ8N7gcVpRLAYXgUNHBt5y1",
+      "source": "JE12g5cqnwmgeTle14Vxw",
+      "target": "UQ8N7gcVpRLAYXgUNHBt5",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-yvdfoly5WHHTq2Puss355z2-iNsXTtcIHsI_i-mCfjGYny2",
+      "source": "JE12g5cqnwmgeTle14Vxw",
+      "target": "iNsXTtcIHsI_i-mCfjGYn",
+      "source_handle": "z2",
+      "target_handle": "y2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-JE12g5cqnwmgeTle14Vxwy2-At5exN7ZAx2IzY3cTCzHmz2",
+      "source": "JE12g5cqnwmgeTle14Vxw",
+      "target": "At5exN7ZAx2IzY3cTCzHm",
+      "source_handle": "y2",
+      "target_handle": "z2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-At5exN7ZAx2IzY3cTCzHmx2-yvdfoly5WHHTq2Puss355w1",
+      "source": "At5exN7ZAx2IzY3cTCzHm",
+      "target": "yvdfoly5WHHTq2Puss355",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-yvdfoly5WHHTq2Puss355y2-vZxdswGLHCPi5GSuXEcHJz1",
+      "source": "yvdfoly5WHHTq2Puss355",
+      "target": "vZxdswGLHCPi5GSuXEcHJ",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-yvdfoly5WHHTq2Puss355y2-a-_iIE7UdoXzD00fD9MxNz1",
+      "source": "yvdfoly5WHHTq2Puss355",
+      "target": "a-_iIE7UdoXzD00fD9MxN",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-yvdfoly5WHHTq2Puss355y2-J0enF8UTVzY3H4n3pbPIFz1",
+      "source": "yvdfoly5WHHTq2Puss355",
+      "target": "J0enF8UTVzY3H4n3pbPIF",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-yvdfoly5WHHTq2Puss355y2-W4WwTmgZGnWmiYsB0ezmlz1",
+      "source": "yvdfoly5WHHTq2Puss355",
+      "target": "W4WwTmgZGnWmiYsB0ezml",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-yvdfoly5WHHTq2Puss355y2-mXCKtLUvwVJkHrpHzOecqz1",
+      "source": "yvdfoly5WHHTq2Puss355",
+      "target": "mXCKtLUvwVJkHrpHzOecq",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-yvdfoly5WHHTq2Puss355z2-jXtqI8k4Abz-vr01IcpWLw1",
+      "source": "yvdfoly5WHHTq2Puss355",
+      "target": "jXtqI8k4Abz-vr01IcpWL",
+      "source_handle": "z2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "step",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    }
+  ],
+  "content_crawled_at": "2026-04-06T08:43:24.065210+00:00"
+}

@@ -1,0 +1,4543 @@
+{
+  "id": "android",
+  "title": "Android",
+  "source_url": "https://roadmap.sh/android",
+  "github_url": "https://github.com/kamranahmedse/developer-roadmap/tree/master/src/data/roadmaps/android",
+  "crawled_at": "2026-04-06T07:36:04.315635+00:00",
+  "type": "flow",
+  "stats": {
+    "total_nodes": 133,
+    "total_edges": 46,
+    "nodes_with_content": 105
+  },
+  "node_types": [
+    "button",
+    "horizontal",
+    "label",
+    "linksgroup",
+    "paragraph",
+    "section",
+    "subtopic",
+    "title",
+    "topic",
+    "vertical"
+  ],
+  "edge_styles": [
+    "dashed",
+    "solid"
+  ],
+  "edge_line_types": [
+    "default",
+    "smoothstep",
+    "step"
+  ],
+  "node_type_description": {
+    "title": "Tiêu đề chính của lộ trình",
+    "topic": "Chủ đề lớn (nhóm kỹ năng)",
+    "subtopic": "Kỹ năng/công nghệ cụ thể cần học",
+    "paragraph": "Vùng văn bản mô tả / chú thích",
+    "vertical": "Visual connection"
+  },
+  "edge_style_description": {
+    "solid": "Kỹ năng bắt buộc / quan trọng",
+    "dashed": "Tùy chọn / gợi ý / phương án thay thế"
+  },
+  "nodes": [
+    {
+      "id": "nNEnhtuqRQCkOtbeJh3ac",
+      "type": "vertical",
+      "label": "nút theo chiều dọc",
+      "position": {
+        "x": 264.517263308397,
+        "y": 1783.4642040306956
+      },
+      "size": {
+        "width": 21,
+        "height": 55
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "jgadqKYuchjukSsYXvwf7",
+      "type": "vertical",
+      "label": "nút theo chiều dọc",
+      "position": {
+        "x": 367.5894636012729,
+        "y": 1783.4642040306956
+      },
+      "size": {
+        "width": 21,
+        "height": 55
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "lpSzZRiNu_vB4yNiNK9Yy",
+      "type": "vertical",
+      "label": "nút theo chiều dọc",
+      "position": {
+        "x": 577.4785985860897,
+        "y": 1759.8444806135112
+      },
+      "size": {
+        "width": 21,
+        "height": 55
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "TiI5E5awSHaz5ZhptOdZn",
+      "type": "vertical",
+      "label": "nút theo chiều dọc",
+      "position": {
+        "x": 589.9645995838063,
+        "y": 1464.7661110082904
+      },
+      "size": {
+        "width": 21,
+        "height": 59
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "aDekGDutpYnpNPNS8f4pF",
+      "type": "vertical",
+      "label": "nút theo chiều dọc",
+      "position": {
+        "x": 706.4645995838063,
+        "y": 1464.7661110082904
+      },
+      "size": {
+        "width": 21,
+        "height": 59
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.5,
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "f-ZMlUJj5USPMHipd9kAM",
+      "type": "vertical",
+      "label": "nút theo chiều dọc",
+      "position": {
+        "x": 957.4237456884,
+        "y": 1460.0377047250465
+      },
+      "size": {
+        "width": 21,
+        "height": 59
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.5,
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "6R1rlADdXShSYwOvN11VK",
+      "type": "vertical",
+      "label": "nút theo chiều dọc",
+      "position": {
+        "x": 957.4237456884,
+        "y": 1130.4012119396646
+      },
+      "size": {
+        "width": 21,
+        "height": 311
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.5
+      },
+      "z_index": 999
+    },
+    {
+      "id": "Yo7mJM0rAN8Rmz_FocBgi",
+      "type": "vertical",
+      "label": "nút theo chiều dọc",
+      "position": {
+        "x": 680.5507988789656,
+        "y": 1759.8444806135112
+      },
+      "size": {
+        "width": 21,
+        "height": 55
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "XmdyFfnM9BlqrEssRjczP",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": 211.5349540213482,
+        "y": 1160.1577089522766
+      },
+      "size": {
+        "width": 229,
+        "height": 314
+      },
+      "style": {
+        "width": 150,
+        "height": 100,
+        "fontSize": 17
+      },
+      "z_index": -999
+    },
+    {
+      "id": "cjH8XWlBk0ZBpvxGJ1gsn",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": 1051.2829550804522,
+        "y": 1592.4265444477305
+      },
+      "size": {
+        "width": 214,
+        "height": 187
+      },
+      "style": {
+        "width": 150,
+        "height": 100,
+        "fontSize": 17
+      },
+      "z_index": -999
+    },
+    {
+      "id": "PF0TVwzQAg76Z1MdLNQk8",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": 414.4034669074458,
+        "y": 641.1530180045523
+      },
+      "size": {
+        "width": 183,
+        "height": 213
+      },
+      "style": {
+        "width": 150,
+        "height": 100,
+        "fontSize": 17,
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "bt3bz2BrOfKDwgYGu6_6S",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": 592.7670925742796,
+        "y": 643.1530180045522
+      },
+      "size": {
+        "width": 211,
+        "height": 211
+      },
+      "style": {
+        "width": 150,
+        "height": 100,
+        "fontSize": 17,
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "0EZuNys_klW8idbCPmAmP",
+      "type": "vertical",
+      "label": "nút theo chiều dọc",
+      "position": {
+        "x": 1195.8618127280065,
+        "y": 393.90074822234897
+      },
+      "size": {
+        "width": 21,
+        "height": 130
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "5Z9o-b3vBA-ITFg86zzYM",
+      "type": "title",
+      "label": "Android",
+      "position": {
+        "x": 664.8618127280065,
+        "y": 173.90074822234897
+      },
+      "size": {
+        "width": 159,
+        "height": 68
+      },
+      "style": {
+        "fontSize": 28,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "XgM_I974PlXAu4AbeqHX1",
+      "type": "vertical",
+      "label": "nút theo chiều dọc",
+      "position": {
+        "x": 733.8618127280065,
+        "y": 100.90074822234897
+      },
+      "size": {
+        "width": 21,
+        "height": 73
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "Suws-7f_6Z1ChpfcnxX2M",
+      "type": "topic",
+      "label": "Chọn một Ngôn ngữ",
+      "position": {
+        "x": 624.8618127280065,
+        "y": 313.40074822234897
+      },
+      "size": {
+        "width": 239,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Khi phát triển cho Android, một bước quan trọng là chọn ngôn ngữ lập trình để sử dụng. Có nhiều ngôn ngữ bạn có thể lựa chọn, nhưng ba ngôn ngữ phổ biến nhất là Java, Kotlin và C++. Java là ngôn ngữ gốc được sử dụng trong phát triển Android và được sử dụng rộng rãi, khiến nó trở thành một lựa chọn tốt cho người mới bắt đầu do lượng tài nguyên và cộng đồng nhà phát triển dồi dào. Kotlin là tùy chọn mới hơn được Google và Android Studio hỗ trợ đầy đủ và giải quyết nhiều hạn chế của Java, khiến nó trở thành một lựa chọn phổ biến đối với nhiều nhà phát triển.",
+        "links": [
+          {
+            "title": "Chọn một Ngôn ngữ",
+            "url": "https://developer.android.com/studio/write/java8-support",
+            "type": "official"
+          },
+          {
+            "title": "Kotlin so với Java",
+            "url": "https://developer.android.com/kotlin",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "qIzUv8-GgQnkqChEdgD50",
+      "type": "subtopic",
+      "label": "Kotlin",
+      "position": {
+        "x": 953.8618127280065,
+        "y": 287.40074822234897
+      },
+      "size": {
+        "width": 131,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Kotlin là một ngôn ngữ lập trình đa mục đích kiểu tĩnh, có giao diện ngầm, được phát triển bởi JetBrains, những người tạo ra các IDE hàng đầu thế giới. Kotlin có cú pháp, biểu cảm và súc tích hơn, cho phép mã dễ đọc và bảo trì hơn. Nó hoàn toàn tương thích với Java và không có bất kỳ hạn chế nào. Nó có thể được sử dụng ở hầu hết mọi nơi Java đang được sử dụng ngày nay, cho phát triển máy chủ, ứng dụng Android và nhiều hơn nữa. Kotlin giới thiệu một số cải tiến cho các nhà lập trình so với Java, khiến nó trở thành lựa chọn ưu tiên đối với nhiều nhà phát triển. Với cơ sở mã ngắn gọn hơn và hỗ trợ các khái niệm lập trình hiện đại - nó chắc chắn là tương lai của phát triển ứng dụng Android.",
+        "links": [
+          {
+            "title": "Kotlin",
+            "url": "https://kotlinlang.org/",
+            "type": "official"
+          },
+          {
+            "title": "Tài liệu Kotlin",
+            "url": "https://kotlinlang.org/docs/home.html",
+            "type": "official"
+          },
+          {
+            "title": "Học Lập trình Kotlin cho Người mới bắt đầu - Cao đẳng Code miễn phí",
+            "url": "https://youtu.be/EExSSotojVI?si=4VPW8ZHa2UMX0HH1",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "RBABbkzD_uNFwEO-hssZO",
+      "type": "subtopic",
+      "label": "Java",
+      "position": {
+        "x": 953.8618127280065,
+        "y": 340.40074822234897
+      },
+      "size": {
+        "width": 131,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Java là một ngôn ngữ lập trình phổ biến được sử dụng cho phát triển Android do tính mạnh mẽ và dễ sử dụng. Cấu trúc hướng đối tượng của nó cho phép các nhà phát triển tạo ra các chương trình mô-đun và mã có thể tái sử dụng. Ngôn ngữ này được xây dựng dựa trên triết lý \"viết một lần, chạy ở mọi nơi\" (WORA), nghĩa là mã Java biên dịch có thể chạy trên tất cả các nền tảng mà không cần biên dịch lại. API và thư viện cốt lõi của Android chủ yếu được viết bằng Java, do đó hiểu biết về Java là điều cơ bản để tạo ra các ứng dụng Android đa dạng và mạnh mẽ.",
+        "links": [
+          {
+            "title": "Con đường phát triển Java",
+            "url": "https://dev-path-murex.vercel.app/roadmap/java",
+            "type": "roadmap"
+          },
+          {
+            "title": "Java",
+            "url": "https://www.oracle.com/java/technologies/javase-jdk11-downloads.html",
+            "type": "official"
+          },
+          {
+            "title": "Tài liệu Java",
+            "url": "https://docs.oracle.com/en/java/javase/11/docs/api/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "HlUUGj3dOZ68t4gIjerXh",
+      "type": "topic",
+      "label": "Các Nguyên Tắc Cơ Bản",
+      "position": {
+        "x": 624.8618127280065,
+        "y": 433.40074822234897
+      },
+      "size": {
+        "width": 239,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "“Các Nguyên tắc Cơ bản” của Android chủ yếu tập trung vào 5 thành phần; Hoạt động, Dịch vụ, Máy thu phát tin nhắn, Nhà cung cấp nội dung và Ý định. **Hoạt động** về cơ bản là những gì bạn thấy trên màn hình của mình; mỗi màn hình trong một ứng dụng là một hoạt động riêng biệt. **Dịch vụ** chạy ở chế độ nền để thực hiện các thao tác kéo dài hoặc để thực hiện công việc cho các quy trình từ xa. Chúng không cung cấp giao diện người dùng. **Máy thu phát tin nhắn** phản hồi các tin nhắn truyền dưới dạng broadcast từ các ứng dụng khác hoặc từ chính hệ thống. Những tin nhắn này thường ở dạng Ý định. **Nhà cung cấp nội dung** quản lý một tập dữ liệu được chia sẻ mà các ứng dụng khác có thể truy vấn hoặc sửa đổi thông qua giao diện có cấu trúc. Cuối cùng, **Ý định** là các đối tượng tin nhắn giúp điều phối giao tiếp giữa các thành phần này. Hiểu biết về năm khái niệm cốt lõi này là chìa khóa để nắm vững các nguyên tắc cơ bản của Android.",
+        "links": [
+          {
+            "title": "Các Nguyên Tắc Cơ Bản",
+            "url": "https://developer.android.com/guide/components/fundamentals",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ZRGsokU313Ky-anWbWK6q",
+      "type": "subtopic",
+      "label": "Môi trường phát triển ứng dụng (IDE)",
+      "position": {
+        "x": 205.8618127280065,
+        "y": 274.40074822234897
+      },
+      "size": {
+        "width": 296,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Môi trường phát triển ứng dụng (IDE) đề cập đến Môi trường Phát triển Tích hợp (IDE) là yếu tố thiết yếu cho việc phát triển ứng dụng Android. Đối với Android, IDE chính là **Android Studio**. IDE chính thức này từ Google bao gồm mọi thứ bạn cần để xây dựng một ứng dụng Android, chẳng hạn như trình soạn thảo mã, công cụ phân tích mã, máy ảo cho tất cả các phiên bản hệ điều hành và cấu hình phần cứng được hỗ trợ của Android, và nhiều hơn nữa. Các IDE phổ biến khác bao gồm **Eclipse** (với plugin Công cụ Phát triển Android), **NetBeans**, và **IntelliJ IDEA**. Mỗi IDE này thường có bộ tính năng chuyên biệt riêng, nhưng tất cả đều được thiết kế để cung cấp các công cụ và dịch vụ cần thiết cho việc phát triển ứng dụng Android. Lựa chọn một IDE thường phụ thuộc vào nhu cầu và sở thích cụ thể của nhà phát triển hoặc nhóm phát triển.",
+        "links": [
+          {
+            "title": "Android Studio",
+            "url": "https://developer.android.com/studio",
+            "type": "official"
+          },
+          {
+            "title": "Tài liệu Android Studio",
+            "url": "https://developer.android.com/studio/intro",
+            "type": "official"
+          },
+          {
+            "title": "Hướng dẫn Android Studio (Phiên bản 2024) - Phần 1",
+            "url": "https://www.youtube.com/watch?v=saKrGCWlJDs",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "jl1FsQ5-WGKeFyaILNt_p",
+      "type": "subtopic",
+      "label": "Cơ sở về Kotlin",
+      "position": {
+        "x": 205.8618127280065,
+        "y": 327.40074822234897
+      },
+      "size": {
+        "width": 296,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Kotlin là một ngôn ngữ súc tích, đa nền tảng và thú vị được phát triển bởi JetBrains. Tìm hiểu cách sử dụng Kotlin cho Android, phía máy chủ và phát triển đa nền tảng, đồng thời khám phá các tính năng, tin tức và cộng đồng của nó. Kotlin là một ngôn ngữ lập trình kiểu tĩnh chạy trên Máy ảo Java (JVM) và có thể được sử dụng để phát triển tất cả các loại ứng dụng Android.",
+        "links": [
+          {
+            "title": "Kotlin",
+            "url": "https://kotlinlang.org/",
+            "type": "official"
+          },
+          {
+            "title": "Kotlin Docs",
+            "url": "https://kotlinlang.org/docs/getting-started.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "j69erqfosSZMDlmKcnnn0",
+      "type": "subtopic",
+      "label": "Cơ sở về OOP (Lập trình hướng đối tượng)",
+      "position": {
+        "x": 205.8618127280065,
+        "y": 380.40074822234897
+      },
+      "size": {
+        "width": 296,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Hiểu biết về `Các Nguyên tắc Cơ bản của Lập Trình Hướng Đối Tượng (OOP)` là rất quan trọng. OOP là một mô hình lập trình sử dụng \"Đối tượng\" - các thực thể chứa cả dữ liệu và các hàm thao tác với dữ liệu. Các khái niệm chính bao gồm `Lớp`, đó là bản thiết kế mà các đối tượng được tạo ra; `Đối tượng`, các phiên bản của một lớp; `Di thừa hưởng`, trong đó một lớp có được thuộc tính từ một lớp khác; `Đa hình`, khả năng của một đối tượng để có nhiều dạng; `Abstraction`, hiển thị chỉ các chi tiết cần thiết và ẩn triển khai khỏi người dùng; và `Encapsulation`, khái niệm về bao bọc dữ liệu và các phương thức làm việc trên dữ liệu trong một đơn vị.",
+        "links": [
+          {
+            "title": "Object-Oriented Programming - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Object-oriented_programming",
+            "type": "official"
+          },
+          {
+            "title": "OOP trong Kotlin",
+            "url": "https://developer.android.com/codelabs/basic-android-kotlin-compose-classes-and-objects",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cNeT1dJDfgn0ndPzSxhSL",
+      "type": "subtopic",
+      "label": "Cấu trúc Dữ liệu và Thuật toán",
+      "position": {
+        "x": 205.8618127280065,
+        "y": 433.40074822234897
+      },
+      "size": {
+        "width": 296,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "“Cấu trúc Dữ liệu” chủ yếu được sử dụng để thu thập, tổ chức và thực hiện các thao tác trên dữ liệu đã lưu hiệu quả hơn. Chúng là những thành phần thiết yếu cho việc thiết kế các ứng dụng Android cấp cao. Các ví dụ bao gồm Mảng, Danh sách liên kết, Stack, Queue, Hash Map và Cây. **Thuật toán** là một chuỗi hướng dẫn hoặc quy tắc để thực hiện một tác vụ cụ thể. Trong Android, thuật toán có thể được sử dụng cho tìm kiếm dữ liệu, sắp xếp hoặc thực hiện logic kinh doanh phức tạp. Một số thuật toán thường dùng là Tìm kiếm nhị phân, Sắp xếp bọt, Sắp xếp chọn lọc, v.v. Hiểu biết sâu sắc về cấu trúc dữ liệu và thuật toán là rất quan trọng để tối ưu hóa hiệu suất và mức tiêu thụ bộ nhớ của các ứng dụng Android.",
+        "links": [
+          {
+            "title": "Cấu trúc Dữ liệu và Thuật toán trên Android",
+            "url": "https://medium.com/@pranamsharma.1997/importance-of-data-structure-and-algorithms-in-android-app-development-75eed9f73909",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FVxNjbDBxgf6vkZWw1Awt",
+      "type": "subtopic",
+      "label": "Gradle là gì và cách sử dụng nó?",
+      "position": {
+        "x": 205.8618127280065,
+        "y": 486.40074822234897
+      },
+      "size": {
+        "width": 296,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Gradle là một hệ thống xây dựng mạnh mẽ được sử dụng trong phát triển Android, cho phép bạn định nghĩa dự án và các phụ thuộc của mình, đồng thời phân biệt giữa các loại build và hương vị khác nhau. Gradle sử dụng một ngôn ngữ cụ thể về miền (DSL) mang lại cho nhà phát triển gần như toàn quyền kiểm soát quá trình xây dựng. Khi bạn kích hoạt một build trong Android Studio, Gradle là công cụ đang hoạt động đằng sau hậu trường để biên dịch và đóng gói ứng dụng của bạn. Nó xem xét các phụ thuộc mà bạn đã khai báo trong các tệp build.gradle và tạo một kịch bản build tương ứng. Sử dụng Gradle trong phát triển Android đòi hỏi phải chỉnh sửa liên tục các tệp build.gradle để quản lý các phụ thuộc ứng dụng, các biến thể build, cấu hình ký tên và các khía cạnh thiết yếu khác liên quan đến việc xây dựng ứng dụng của bạn.",
+        "links": [
+          {
+            "title": "Gradle Build Tool",
+            "url": "https://docs.gradle.org/current/userguide/userguide.html",
+            "type": "official"
+          },
+          {
+            "title": "Tài liệu Gradle",
+            "url": "https://docs.gradle.org/current/userguide/getting_started_eng.html",
+            "type": "official"
+          },
+          {
+            "title": "Khóa học Gradle cho người mới bắt đầu - 55 phút",
+            "url": "https://www.youtube.com/watch?v=R6Z-Sxb837I",
+            "type": "video"
+          },
+          {
+            "title": "Giới thiệu về Gradle cho người mới bắt đầu - 25 phút",
+            "url": "https://youtu.be/-dtcEMLNmn0?si=NuIP-3wNpUrxfTxA",
+            "type": "video"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Gradle",
+            "url": "https://app.daily.dev/tags/gradle?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5m_7DvInF8C_4Ml1xVI6L",
+      "type": "subtopic",
+      "label": "Tạo ứng dụng Hello World cơ bản",
+      "position": {
+        "x": 205.8618127280065,
+        "y": 539.400748222349
+      },
+      "size": {
+        "width": 296,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Ứng dụng \"Hello World\" là một dự án đơn giản mà bạn có thể xây dựng khi mới bắt đầu với phát triển Android. Đây thường là chương trình đầu tiên mà người mới học sẽ làm quen và xây dựng trên một hệ thống mới. Nó thường được coi là dạng chương trình đơn giản nhất hiển thị thông báo cho người dùng - \"Hello, World!\". Trong Android, điều này bao gồm tạo một dự án mới từ Android Studio và thiết lập hoạt động chính (main activity). Tệp tin hoạt động chính chủ yếu được viết bằng Java hoặc Kotlin nơi bạn có thể viết mã để hiển thị thông báo, trong khi giao diện thiết kế có thể được tạo trong tệp XML.",
+        "links": [
+          {
+            "title": "Tạo ứng dụng Android đầu tiên của bạn",
+            "url": "https://developer.android.com/codelabs/basic-android-kotlin-compose-first-app",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5s1CqsYCOXjNroDHaGKGa",
+      "type": "topic",
+      "label": "Kiểm soát Phiên bản",
+      "position": {
+        "x": 1098.7005592047508,
+        "y": 433.40074822234897
+      },
+      "size": {
+        "width": 166,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "_Kiểm soát phiên bản_ là một hệ thống ghi lại các thay đổi đối với một tệp hoặc tập hợp các tệp theo thời gian để bạn có thể truy xuất các phiên bản cụ thể sau này. Một công cụ thiết yếu cho phát triển phần mềm, nó giúp theo dõi các thay đổi, tăng cường cộng tác và quản lý các phiên bản khác nhau của một dự án. Hai loại hệ thống kiểm soát phiên bản phổ biến là Hệ thống Kiểm soát phiên bản tập trung (CVCS) và Hệ thống Kiểm soát phiên bản phân tán (DVCS). CVCS sử dụng máy chủ trung tâm để lưu trữ tất cả các phiên bản của một dự án, với người dùng lấy snapshot từ máy chủ đó. Ví dụ bao gồm SVN và Perforce. Mặt khác, DVCS cho phép nhiều nhà phát triển làm việc trên cùng một dự án đồng thời. Mỗi người dùng đều có bản sao lưu đầy đủ của tất cả các phiên bản công việc. Ví dụ bao gồm Git và Mercurial.",
+        "links": [
+          {
+            "title": "Hệ thống Kiểm soát phiên bản",
+            "url": "https://en.wikipedia.org/wiki/Version_control",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "rqSZ2ATeHbOdIQE9Jlb0B",
+      "type": "subtopic",
+      "label": "Git",
+      "position": {
+        "x": 1160.8618127280065,
+        "y": 340.40074822234897
+      },
+      "size": {
+        "width": 91,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Git là một hệ thống quản lý phiên bản phân tán hiệu quả và linh hoạt được tạo ra bởi Linus Torvalds, người sáng lập Linux. Nó cho phép nhiều nhà phát triển làm việc trên một dự án đồng thời, cung cấp các công cụ để phát triển phi tuyến tính và theo dõi thay đổi trong bất kỳ tập hợp tệp nào. Git có một kho lưu trữ cục bộ với lịch sử và khả năng theo dõi phiên bản đầy đủ, cho phép hoạt động ngoại tuyến, khác với SVN. Nó đảm bảo tính toàn vẹn dữ liệu và cung cấp hỗ trợ mạnh mẽ cho phát triển phi tuyến tính với các tính năng như phân chia và hợp nhất.",
+        "links": [
+          {
+            "title": "Lộ trình Git và GitHub",
+            "url": "https://dev-path-murex.vercel.app/roadmap/git-github",
+            "type": "roadmap"
+          },
+          {
+            "title": "Git",
+            "url": "https://git-scm.com/",
+            "type": "official"
+          },
+          {
+            "title": "Tài liệu Git",
+            "url": "https://git-scm.com/docs",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "H-2eb8fLwz8IKYXbeSVKK",
+      "type": "subtopic",
+      "label": "GitHub",
+      "position": {
+        "x": 1146.3618127280065,
+        "y": 523.900748222349
+      },
+      "size": {
+        "width": 120,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "“GitHub” là một dịch vụ lưu trữ đám mây để quản lý kiểm soát phiên bản phần mềm bằng Git. Nó cung cấp một nền tảng để cho phép nhiều nhà phát triển làm việc cùng một dự án cùng một lúc. Với GitHub, mã có thể được lưu công khai, cho phép cộng tác với các nhà phát triển khác hoặc riêng tư cho các dự án cá nhân. Các tính năng chính của GitHub bao gồm chia sẻ mã, quản lý nhiệm vụ và kiểm soát phiên bản, v.v. GitHub cũng cung cấp các chức năng như theo dõi lỗi, yêu cầu tính năng và quản lý nhiệm vụ cho dự án.",
+        "links": [
+          {
+            "title": "Lộ trình Git và GitHub",
+            "url": "https://dev-path-murex.vercel.app/roadmap/git-github",
+            "type": "roadmap"
+          },
+          {
+            "title": "GitHub",
+            "url": "https://github.com/",
+            "type": "official"
+          },
+          {
+            "title": "Tài liệu GitHub",
+            "url": "https://docs.github.com/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5LFZdUiFYYU_1sYsouyan",
+      "type": "subtopic",
+      "label": "Bitbucket",
+      "position": {
+        "x": 1146.3618127280065,
+        "y": 576.900748222349
+      },
+      "size": {
+        "width": 120,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Bitbucket là dịch vụ lưu trữ dựa trên web thuộc sở hữu của Atlassian. Bitbucket sử dụng hệ thống kiểm soát phiên bản Mercurial hoặc Git, cho phép người dùng quản lý và bảo trì mã nguồn của họ. Nền tảng này chủ yếu được sử dụng để mã hóa và đánh giá mã. Bitbucket cung cấp cả gói trả phí và tài khoản miễn phí. Nó cung cấp tài khoản miễn phí với số lượng kho lưu trữ riêng vô hạn (có thể có tối đa năm người dùng trong trường hợp tài khoản miễn phí) tính đến tháng 9 năm 2010. Ban đầu, nó chỉ hỗ trợ Mercurial. Bitbucket tích hợp với các phần mềm khác của Atlassian như JIRA, HipChat, Confluence và Bamboo.",
+        "links": [
+          {
+            "title": "Bitbucket",
+            "url": "https://bitbucket.org/",
+            "type": "official"
+          },
+          {
+            "title": "Bitbucket dành cho nhà phát triển",
+            "url": "https://www.atlassian.com/software/bitbucket",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Q47BtQphp59NkkZoeNXmP",
+      "type": "subtopic",
+      "label": "GitLab",
+      "position": {
+        "x": 1146.3618127280065,
+        "y": 629.900748222349
+      },
+      "size": {
+        "width": 120,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "GitLab là một công cụ vòng đời phần mềm dựa trên web, cung cấp trình quản lý kho lưu trữ Git, cùng với các tính năng tích hợp liên tục và triển khai quy trình, sử dụng giấy phép mã nguồn mở, được phát triển bởi GitLab Inc. Người dùng có thể quản lý và tạo các dự án và kho lưu trữ phần mềm của họ, đồng thời cộng tác trên các dự án này với các thành viên khác. GitLab cũng cho phép người dùng xem xét phân tích và vấn đề mở của dự án. Nó đứng cạnh các công cụ kiểm soát phiên bản khác như GitHub và Bitbucket, nhưng đi kèm với bộ tính năng và sắc thái bổ sung riêng. Đối với phát triển Android, GitLab có thể đặc biệt hữu ích do hệ thống tích hợp liên tục và triển khai của nó có thể tự động hóa một phần lớn việc kiểm tra và triển khai ứng dụng.",
+        "links": [
+          {
+            "title": "GitLab",
+            "url": "https://about.gitlab.com/",
+            "type": "official"
+          },
+          {
+            "title": "Tài liệu GitLab",
+            "url": "https://docs.gitlab.com/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "-IvRbNv2swO63Xb9UqoHf",
+      "type": "label",
+      "label": "Tải Hosting VCS",
+      "position": {
+        "x": 1149.8618127280065,
+        "y": 687.900748222349
+      },
+      "size": {
+        "width": 113,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "5Li8J5iR_ZuyIlxX0LYei",
+      "type": "topic",
+      "label": "App Components",
+      "position": {
+        "x": 875.4237456884,
+        "y": 632.6963336096359
+      },
+      "size": {
+        "width": 185,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Các ứng dụng Android chủ yếu được cấu tạo từ năm loại thành phần khác nhau: 1. **Hoạt động** (Activities): Đây là các màn hình riêng lẻ mà người dùng có thể tương tác. Bất kỳ hành động UI nào như chạm vào nút hoặc cuộn màn hình thường diễn ra trong một hoạt động. 2. **Dịch vụ** (Services): Khác với hoạt động, dịch vụ chạy nền và không có giao diện người dùng. Chúng được sử dụng cho các thao tác lặp đi lặp lại hoặc thời gian thực thi lâu dài, chẳng hạn như phát nhạc hoặc tải dữ liệu từ một máy chủ. 3. **Máy thu tin nhắn** (Broadcast Receivers): Đây là trình nghe sự kiện. Hệ điều hành Android sử dụng chúng để phản hồi các sự kiện trên toàn hệ thống. 4. **Nhà cung cấp nội dung** (Content Providers): Chúng quản lý và chia sẻ dữ liệu ứng dụng với các ứng dụng khác được cài đặt trên thiết bị. Để đảm bảo an ninh, dữ liệu thường không được chia sẻ giữa các ứng dụng. 5. **Mục đích** (Intents): Chúng đóng vai trò là tin nhắn hoặc lệnh cho hệ thống Android. Chúng được sử dụng để báo hiệu cho hệ thống Android biết rằng một số sự kiện đã xảy ra.",
+        "links": [
+          {
+            "title": "App Fundamentals",
+            "url": "https://developer.android.com/guide/components/fundamentals",
+            "type": "official"
+          },
+          {
+            "title": "Các thành phần Ứng dụng Android",
+            "url": "https://medium.com/android-hunger/android-app-components-activities-fragments-and-intents-ed7373455555",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "nwuVlPmzwJ17mtVQ8Hi9w",
+      "type": "subtopic",
+      "label": "Hoạt động",
+      "position": {
+        "x": 592.7670925742796,
+        "y": 632.6963336096359
+      },
+      "size": {
+        "width": 211,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Hoạt động trong Android là một thành phần quan trọng đại diện cho một màn hình duy nhất với giao diện người dùng. Nó giống như một cửa sổ trong ứng dụng desktop. Các ứng dụng Android thường được cấu tạo từ một hoặc nhiều hoạt động, mỗi hoạt động có giao diện riêng cho phép tương tác của người dùng. Khi một ứng dụng được khởi chạy, một phiên bản của Hoạt động sẽ được tạo ra, bắt đầu vòng đời của ứng dụng đó. Mỗi hoạt động đều có vòng đời riêng (tạo, bắt đầu, tiếp tục, tạm dừng, dừng, hủy) giúp duy trì trạng thái tiến trình của người dùng và Android tự động quản lý các trạng thái này. Các hoạt động cũng có thể có Intent, cho phép chúng tương tác với các thành phần khác như khởi chạy một hoạt động khác hoặc lấy kết quả từ hoạt động đó.",
+        "links": [
+          {
+            "title": "Hoạt động Android",
+            "url": "https://developer.android.com/reference/android/app/Activity",
+            "type": "official"
+          },
+          {
+            "title": "Nắm vững Hoạt động Android",
+            "url": "https://medium.com/deuk/mastering-the-android-activity-lifecycle-best-practices-1d10f15d060a",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PcHmU1c9hqKyzSjwlRPHk",
+      "type": "subtopic",
+      "label": "Dịch vụ",
+      "position": {
+        "x": 210.5417587642338,
+        "y": 634.1262851650183
+      },
+      "size": {
+        "width": 199,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Dịch vụ: Một dịch vụ trong Android là một thành phần ứng dụng thực hiện các thao tác trong nền mà không có giao diện người dùng. Nó có thể được khởi chạy bởi một thành phần ứng dụng, chẳng hạn như một hoạt động, và nó sẽ tiếp tục chạy trong nền ngay cả khi người dùng chuyển sang một ứng dụng khác. Có hai loại dịch vụ trong Android, cụ thể là Dịch vụ đã bắt đầu và Dịch vụ liên kết. Một Dịch vụ đã bắt đầu được sử dụng để thực hiện một thao tác duy nhất, chẳng hạn như tải xuống một tệp lớn. Mặt khác, một Dịch vụ liên kết cung cấp một giao diện máy khách-máy chủ cho phép các thành phần tương tác với dịch vụ, gửi yêu cầu, nhận kết quả và thậm chí thực hiện giao tiếp giữa các quy trình (IPC).",
+        "links": [
+          {
+            "title": "Dịch vụ",
+            "url": "https://developer.android.com/guide/components/services",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "nkcdjrswv0WCzUs48BAt9",
+      "type": "subtopic",
+      "label": "Nhà cung cấp nội dung",
+      "position": {
+        "x": 210.5417587642338,
+        "y": 687.1262851650183
+      },
+      "size": {
+        "width": 199,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Một Nhà cung cấp nội dung trong Android là một thành phần chính cho phép các ứng dụng chia sẻ dữ liệu an toàn với các ứng dụng khác. Chúng hoạt động như một lớp giữa cơ sở dữ liệu và các ứng dụng để tăng cường bảo mật dữ liệu. Các nhà cung cấp nội dung quản lý quyền truy cập vào một tập hợp dữ liệu có cấu trúc bằng cách xử lý giao dịch dữ liệu, thực hiện bảo mật dữ liệu và duy trì sự cô lập giữa các ứng dụng. Chúng cung cấp một giao diện trừu tượng được sử dụng để truy cập dữ liệu, trong khi phương pháp lưu trữ cơ bản (như cơ sở dữ liệu SQLite, web hoặc bất kỳ phương pháp nào khác) vẫn ẩn. Cơ chế này giúp trích xuất dữ liệu từ một nguồn phi quan hệ theo cách có cấu trúc. Chúng thường được sử dụng khi dữ liệu cần được chia sẻ giữa nhiều ứng dụng chứ không chỉ trong một ứng dụng.",
+        "links": [
+          {
+            "title": "Nhà cung cấp nội dung",
+            "url": "https://developer.android.com/guide/topics/providers/content-providers",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tFuAToid1Fkmu96BDtW7K",
+      "type": "subtopic",
+      "label": "Bộ tiếp nhận phát sóng (Broadcast Receiver)",
+      "position": {
+        "x": 210.5417587642338,
+        "y": 740.1262851650183
+      },
+      "size": {
+        "width": 199,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "“Máy thu phát tin nhắn” trong Android là các thành phần phản hồi các thông báo broadcast hệ thống. Chúng có thể được đăng ký để phản hồi một loại tin nhắn broadcast cụ thể hoặc triển khai một máy thu phát tin nhắn được định nghĩa theo người dùng. Mặc dù bạn có thể khởi tạo một tin nhắn broadcast từ ứng dụng của mình, chúng thường được sử dụng để nhận các thông báo hệ thống hoặc giao tiếp với các ứng dụng khác. Tuy nhiên, hãy nhớ rằng chúng không thể hiển thị giao diện người dùng, nhưng chúng có thể bắt đầu hoạt động nếu cần thiết, những hoạt động này lại có giao diện người dùng. Một lớp `BroadcastReceiver` phải ghi đè phương thức `onReceive()` trong đó mỗi tin nhắn được nhận dưới dạng đối tượng `Intent` là tham số.",
+        "links": [
+          {
+            "title": "Bộ tiếp nhận phát sóng (Broadcast Receiver)",
+            "url": "https://developer.android.com/reference/android/content/BroadcastReceiver",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hv_9imIQpthxEaMLXEUHI",
+      "type": "subtopic",
+      "label": "Ý định",
+      "position": {
+        "x": 414.4034669074458,
+        "y": 632.696333609636
+      },
+      "size": {
+        "width": 183,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Ý định (Intent) trong Android là một cơ chế phần mềm được sử dụng để liên kết thời gian chạy muộn giữa các thành phần, chẳng hạn như hoạt động (Activities), nhà cung cấp nội dung (Content Providers) và dịch vụ (Services). Về bản chất, nó là một cấu trúc dữ liệu thụ động lưu trữ mô tả trừu tượng về một thao tác mà hệ thống Android được yêu cầu thực hiện.",
+        "links": [
+          {
+            "title": "Ý định",
+            "url": "https://developer.android.com/reference/android/content/Intent",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FVg438cVBBzqJFkGWVbQM",
+      "type": "subtopic",
+      "label": "Vòng đời Hoạt động",
+      "position": {
+        "x": 603.2670925742796,
+        "y": 688.8587817234683
+      },
+      "size": {
+        "width": 190,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Chu trình hoạt động của một **Hoạt động** (Activity) trong Android là một chuỗi các trạng thái hoặc sự kiện mà một hoạt động có thể trải qua từ khi được tạo ra đến khi bị hủy. Các trạng thái hoặc sự kiện chính bao gồm `onCreate()`, `onStart()`, `onResume()`, `onPause()`, `onStop()`, `onDestroy()` và `onRestart()`. Phương thức `onCreate()` được gọi khi hoạt động được tạo lần đầu, sau đó là `onStart()` khi hoạt động trở nên hiển thị với người dùng. Phương thức `onResume()` thực thi khi người dùng bắt đầu tương tác với ứng dụng. Các phương thức `onPause()` và `onStop()` được gọi khi ứng dụng không còn ở chế độ nền hoặc hiển thị với người dùng. Phương thức `onDestroy()` được sử dụng khi hoạt động đang bị xóa hoàn toàn khỏi bộ nhớ. Phương thức `onRestart()` được gọi sau khi hệ thống dừng hoạt động và chuẩn bị khởi động lại nó. Việc xử lý đúng các trạng thái này đảm bảo việc sử dụng hiệu quả tài nguyên và trải nghiệm người dùng mượt mà.",
+        "links": [
+          {
+            "title": "Vòng đời Hoạt động",
+            "url": "https://developer.android.com/guide/components/activities/activity-lifecycle",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "oUjetA2eduvQIeLcQlLcu",
+      "type": "subtopic",
+      "label": "Thay đổi trạng thái",
+      "position": {
+        "x": 603.2670925742796,
+        "y": 741.8587817234683
+      },
+      "size": {
+        "width": 190,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "\"Hoạt động\" là một thành phần quan trọng đại diện cho một màn hình duy nhất với giao diện người dùng. Một hoặc nhiều hoạt động tích cực tạo nên một Ứng dụng. Các hoạt động này có thể trải qua các trạng thái khác nhau trong vòng đời của chúng, thường do tương tác của người dùng hoặc gián đoạn hệ thống gây ra. Các trạng thái chính của một Hoạt động bao gồm `Created`, `Started`, `Resumed`, `Paused`, `Stopped`, `Restarted` và `Destroyed`. Trạng thái \"Created\" xảy ra khi một phiên bản hoạt động đang được tạo, trạng thái \"Started\" là khi hoạt động có thể nhìn thấy bởi người dùng, trong khi \"Resumed\" là khi hoạt động tương tác với người dùng. Một hoạt động bị \"Paused\" khi nó mất tập trung nhưng vẫn hiển thị một phần, \"Stopped\" khi nó không hiển thị, \"Restarted\" khi hoạt động sắp được khởi chạy và \"Destroyed\" khi hoạt động đã hoàn thành hoặc hệ thống đang tạm thời hủy nó.",
+        "links": [
+          {
+            "title": "Vòng đời Hoạt động",
+            "url": "https://developer.android.com/guide/components/activities/activity-lifecycle",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "-O-G9bg36ut8NnZcdOaop",
+      "type": "subtopic",
+      "label": "Nhiệm vụ và Stack Lịch sử",
+      "position": {
+        "x": 603.2670925742796,
+        "y": 794.8587817234683
+      },
+      "size": {
+        "width": 190,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`Tasks backstack` trong Android đề cập đến cách Android quản lý và sắp xếp các tác vụ theo cấu trúc giống như một ngăn kéo. Mỗi tác vụ có một ngăn kéo các hoạt động, được gọi là stack của tác vụ. Các hoạt động được đặt theo thứ tự chúng được mở. Khi một hoạt động mới được khởi chạy, nó sẽ được đặt ở đỉnh của ngăn kéo và trở thành hoạt động đang chạy, trong khi hoạt động trước đó sẽ bị tạm dừng và đưa vào ngăn kéo phía sau. Khi bạn nhấn nút Back, hoạt động hiện tại sẽ bị hủy và hoạt động ở đầu ngăn kéo phía sau sẽ hoạt động lại. Android định nghĩa cách điều hướng giữa các tác vụ và hoạt động bằng cách sử dụng khái niệm ngăn kéo phía sau này.",
+        "links": [
+          {
+            "title": "Nhiệm vụ và Stack (Backstack)",
+            "url": "https://developer.android.com/guide/components/activities/tasks-and-back-stack",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "gGdz3j33x0gfrFDp_rw8Z",
+      "type": "subtopic",
+      "label": "Ý định ngầm",
+      "position": {
+        "x": 423.9034669074458,
+        "y": 687.9358985850918
+      },
+      "size": {
+        "width": 163,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Intent ngầm không chỉ định thành phần đích một cách rõ ràng như Intent rõ ràng. Thay vào đó, chúng cho phép hệ thống tìm một thành phần phù hợp khớp với mô tả Intent để xử lý yêu cầu. Hệ thống sẽ tìm thấy một hoạt động có thể xử lý intent này bằng cách so sánh phần `<intent-filter>` trong `AndroidManifest.xml` của tất cả các ứng dụng được cài đặt trên thiết bị với Intent ngầm.",
+        "links": [
+          {
+            "title": "Ý định ngầm",
+            "url": "https://developer.android.com/guide/components/intents-filters#implicit",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "TmIeCF3xVCe5Sy3ITmM31",
+      "type": "subtopic",
+      "label": "Ý định rõ ràng",
+      "position": {
+        "x": 423.9034669074458,
+        "y": 740.9358985850918
+      },
+      "size": {
+        "width": 163,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "“Ý định Rõ ràng” chủ yếu được sử dụng trong phạm vi của chính ứng dụng của mình. Với ý định rõ ràng, bạn chỉ định thành phần cần phản hồi với ý định. Do đó, thành phần đích phải được gọi bằng các phương thức như `setComponent(ComponentName)`, `setClass(Context, Class)` hoặc `setClassName(String, String)`. Điều này có nghĩa là ý định rõ ràng thường được sử dụng để khởi động hoạt động, phát sóng tin nhắn hoặc bắt đầu dịch vụ trong ứng dụng. Ý định rõ ràng không được giải quyết bởi hệ thống mà chúng được chuyển đến thành phần được chỉ định trong ý định.",
+        "links": [
+          {
+            "title": "Ý định rõ ràng",
+            "url": "https://developer.android.com/guide/components/intents-filters#explicit",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b-sfh6NoS-APqaNKm5L5S",
+      "type": "subtopic",
+      "label": "Bộ lọc ý định",
+      "position": {
+        "x": 423.9034669074458,
+        "y": 793.9358985850918
+      },
+      "size": {
+        "width": 163,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Intent Filters trong Android là các thành phần thiết yếu của hệ thống Android, nơi bạn có thể tuyên bố khả năng của các hoạt động, dịch vụ và bộ thu nhận tin nhắn của mình. Một Intent Filter là một biểu thức được tìm thấy trong tệp manifest ứng dụng của bạn, được định nghĩa trong phần tử XML `<intent-filter>`. Android sử dụng các bộ lọc này để xác định các thành phần phù hợp cho các intent đến, có thể là rõ ràng hoặc không rõ ràng. Khả năng phản hồi intents của ứng dụng của bạn phụ thuộc vào các bộ lọc mà bạn định nghĩa. Các bộ lọc là một tập hợp các điều kiện bao gồm ‘action’, ‘category’ và ‘data’ mà hoạt động hoặc dịch vụ của bạn có thể thực hiện. Nếu intent đến phù hợp với các Intent Filters đã được định nghĩa, hệ thống Android sẽ cho phép intent đó đến với thành phần (Hoạt động, Dịch vụ hoặc Bộ thu nhận tin nhắn) của bạn.",
+        "links": [
+          {
+            "title": "Bộ lọc ý định",
+            "url": "https://developer.android.com/guide/components/intents-filters",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "jePGzTejFe4ryA5qFFmjl",
+      "type": "topic",
+      "label": "Thiết kế & Kiến trúc",
+      "position": {
+        "x": 860.4237456884,
+        "y": 1097.697659852384
+      },
+      "size": {
+        "width": 215,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "“Kiến trúc Thiết kế” đề cập đến việc cấu trúc mã theo cách tăng cường khả năng đọc, bảo trì và kiểm tra. Có nhiều cách để thiết kế kiến trúc như Model-View-Controller (MVC), Model-View-Intent (MVI). Mỗi phương pháp này định nghĩa sự tương tác giữa dữ liệu, logic và các lớp UI. Mô hình kiến trúc được Google khuyến nghị là Android Architecture Components tuân theo các nguyên tắc của mô hình MVVM. Hãy nhớ rằng kiến trúc không phải là một cấu trúc cứng nhắc phù hợp với tất cả các giải pháp. Thay vào đó, nó phục vụ như một hướng dẫn và có thể điều chỉnh khi cần thiết.",
+        "links": [
+          {
+            "title": "Kiến trúc Ứng dụng Android",
+            "url": "https://developer.android.com/topic/libraries/architecture",
+            "type": "official"
+          },
+          {
+            "title": "Model-View-Controller (MVC)",
+            "url": "https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller",
+            "type": "article"
+          },
+          {
+            "title": "Model-View-Presenter (MVP)",
+            "url": "https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93presenter",
+            "type": "article"
+          },
+          {
+            "title": "Model-View-ViewModel (MVVM)",
+            "url": "https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93viewmodel",
+            "type": "article"
+          },
+          {
+            "title": "Model-View-Intent (MVI)",
+            "url": "https://www.raywenderlich.com/817602-mvi-architecture-for-android-tutorial-getting-started",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Dp2DOX10u2xJUjB8Okhzh",
+      "type": "subtopic",
+      "label": "Khung",
+      "position": {
+        "x": 209.53887898054052,
+        "y": 927.42244273972
+      },
+      "size": {
+        "width": 94,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "“FrameLayout” là một lớp ViewGroup đơn giản trong Android được thiết kế để giữ một con trỏ duy nhất hoặc một chồng các con trỏ con có thể chồng chéo. Nó đặt mỗi con trỏ ở góc trên bên trái theo mặc định và cho phép chúng chồng lên nhau, điều này làm cho nó hữu ích trong các tình huống khi bạn cần lồng các con trỏ trên cùng với nhau, điều này khiến nó hữu ích cho việc lồng các con trỏ trên cùng với nhau.",
+        "links": [
+          {
+            "title": "Nhà phát triển Android: Frame Layout",
+            "url": "https://developer.android.com/reference/android/widget/FrameLayout",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "U8iMGGOd2EgPxSuwSG39Z",
+      "type": "subtopic",
+      "label": "Linear",
+      "position": {
+        "x": 308.8618127280065,
+        "y": 927.42244273972
+      },
+      "size": {
+        "width": 94,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "LinearLayout là một nhóm hiển thị sắp xếp tất cả các con thành một hướng duy nhất, theo chiều dọc hoặc chiều ngang. Bạn có thể chỉ định hướng bố cục bằng thuộc tính `android:orientation`. LinearLayout đã được sử dụng phổ biến trong phát triển Android trước đây, nhưng với sự ra đời của ConstraintLayout, nó ít được sử dụng hơn trong các ứng dụng hiện đại.",
+        "links": [
+          {
+            "title": "Linear Layout",
+            "url": "https://developer.android.com/develop/ui/views/layout/linear",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "yE0qAQZiEC9R8WvCdskpr",
+      "type": "subtopic",
+      "label": "Tương đối",
+      "position": {
+        "x": 209.53887898054052,
+        "y": 980.42244273972
+      },
+      "size": {
+        "width": 193,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Một RelativeLayout trong Android là một loại nhóm hiển thị cho phép bạn định vị các view con tương đối với nhau hoặc tương đối với bố mẹ của chúng. Nó là một bố cục linh hoạt nơi bạn có thể sắp xếp các view con dựa trên các quy tắc nhất định, làm cho nó phù hợp để tạo các thiết kế giao diện người dùng phức tạp. RelativeLayout đã được sử dụng phổ biến trong phát triển Android trước đây, nhưng với sự ra đời của ConstraintLayout, nó ít được sử dụng hơn trong các ứng dụng hiện đại.",
+        "links": [
+          {
+            "title": "Layout Tương đối",
+            "url": "https://developer.android.com/develop/ui/views/layout/relative",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3fFNMhQIuuh-NRzSXYpXO",
+      "type": "subtopic",
+      "label": "Giới hạn (Constraint)",
+      "position": {
+        "x": 209.53887898054052,
+        "y": 1033.42244273972
+      },
+      "size": {
+        "width": 193,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Cho phép bạn tạo bố cục lớn, phức tạp với cây view phẳng—không có nhóm view lồng nhau. Nó tương tự như `RelativeLayout` trong việc tất cả các view được bố trí theo mối quan hệ giữa các view anh chị em và bố cục cha, nhưng linh hoạt hơn RelativeLayout và dễ sử dụng hơn. Nó có sẵn trên XML và Jetpack Compose.",
+        "links": [
+          {
+            "title": "Android: ConstraintLayout trong XML",
+            "url": "https://developer.android.com/develop/ui/views/layout/constraint-layout",
+            "type": "official"
+          },
+          {
+            "title": "Android: ConstraintLayout trong Compose",
+            "url": "https://developer.android.com/develop/ui/compose/layouts/constraintlayout",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "xIvplWfe-uDr9iHjPT1Mx",
+      "type": "subtopic",
+      "label": "RecyclerView",
+      "position": {
+        "x": 209.53887898054052,
+        "y": 1086.42244273972
+      },
+      "size": {
+        "width": 193,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "RecyclerView là công cụ quản lý danh sách được sử dụng phổ biến và mạnh mẽ nhất trong phát triển Android. Nó giúp bạn dễ dàng hiển thị hiệu quả các tập dữ liệu lớn. Bạn cung cấp dữ liệu và định nghĩa cách mỗi mục trông như thế nào, và thư viện RecyclerView sẽ tạo ra các phần tử khi chúng cần thiết. Như tên gọi cho thấy, RecyclerView tái sử dụng các phần tử riêng lẻ này. Khi một mục cuộn ra khỏi màn hình, RecyclerView không phá hủy view của nó. Thay vào đó, RecyclerView tái sử dụng view cho các mục mới đã cuộn lên màn hình. RecyclerView cải thiện hiệu suất và khả năng phản hồi của ứng dụng, đồng thời giảm tiêu thụ điện năng.",
+        "links": [
+          {
+            "title": "Tham khảo RecyclerView (Tài liệu Android)",
+            "url": "https://developer.android.com/reference/androidx/recyclerview/widget/RecyclerView",
+            "type": "official"
+          },
+          {
+            "title": "Tạo danh sách động với RecyclerView (Tài liệu Android)",
+            "url": "https://developer.android.com/develop/ui/views/layout/recyclerview",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ZuT4JTri-tZYmZkAthnH8",
+      "type": "horizontal",
+      "label": "nút ngang",
+      "position": {
+        "x": 347.5641444978062,
+        "y": 887.6993520650623
+      },
+      "size": {
+        "width": 206,
+        "height": 20
+      },
+      "style": {
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "08Fx-PJiotcpN6ylmgI5d",
+      "type": "label",
+      "label": "Các phần tử",
+      "position": {
+        "x": 556.5641444978062,
+        "y": 879.6993520650623
+      },
+      "size": {
+        "width": 89,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "EfxxpCCgOleZwBW5z4UA8",
+      "type": "horizontal",
+      "label": "nút ngang",
+      "position": {
+        "x": 648.5641444978062,
+        "y": 887.6993520650623
+      },
+      "size": {
+        "width": 215,
+        "height": 20
+      },
+      "style": {
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "znvZp24L-PcQwkSObtixs",
+      "type": "subtopic",
+      "label": "TextView",
+      "position": {
+        "x": 412.2896124351306,
+        "y": 925.8771482860266
+      },
+      "size": {
+        "width": 131,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "TextView là một thành phần giao diện (widget) được sử dụng trong mọi ứng dụng Android. Thành phần này dùng để hiển thị văn bản đơn giản bên trong ứng dụng Android.",
+        "links": [
+          {
+            "title": "TextView",
+            "url": "https://developer.android.com/reference/android/widget/TextView",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2iDJrxjXOt7o2fPp2HfRl",
+      "type": "subtopic",
+      "label": "Phần tử",
+      "position": {
+        "x": 658.2896124351307,
+        "y": 924.9542651476502
+      },
+      "size": {
+        "width": 155,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Một Fragment đại diện cho một phần có thể tái sử dụng của giao diện người dùng của ứng dụng của bạn. Một fragment định nghĩa và quản lý bố cục riêng của nó, có vòng đời riêng và có thể xử lý các sự kiện đầu vào riêng. Fragments không thể tồn tại độc lập. Chúng phải được lưu trữ bởi một hoạt động hoặc một fragment khác. Cấu trúc hình ảnh của fragment trở thành một phần của hoặc gắn liền với cấu trúc hình ảnh của host.",
+        "links": [
+          {
+            "title": "Nhà phát triển Android: Fragment",
+            "url": "https://developer.android.com/guide/fragments",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "boMz0HZlMAsLdCZlpUo-H",
+      "type": "subtopic",
+      "label": "EditText",
+      "position": {
+        "x": 658.2896124351307,
+        "y": 1030.9542651476502
+      },
+      "size": {
+        "width": 155,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "EditText là một thành phần giao diện người dùng cơ bản trong Android Studio, được sử dụng để cho phép người dùng nhập và chỉnh sửa văn bản trong một ứng dụng. Nó là một con kế thừa của TextView cung cấp các tính năng bổ sung để xử lý đầu vào của người dùng.",
+        "links": [
+          {
+            "title": "Nhà phát triển Android: EditText",
+            "url": "https://developer.android.com/reference/android/widget/EditText",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Mtx0bY0drmaTw8sCM5YTl",
+      "type": "subtopic",
+      "label": "Hộp thoại",
+      "position": {
+        "x": 412.2896124351306,
+        "y": 978.8771482860266
+      },
+      "size": {
+        "width": 131,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "",
+        "links": [
+          {
+            "title": "Nhà phát triển Android: Thanh đa tự điển (Dialogs)",
+            "url": "https://developer.android.com/guide/fragments/dialogs",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "WhfzFOUpm0DFEj7Oeq21R",
+      "type": "subtopic",
+      "label": "Nút (Buttons)",
+      "position": {
+        "x": 546.2896124351307,
+        "y": 977.95426514765
+      },
+      "size": {
+        "width": 109,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Một `button` bao gồm văn bản hoặc biểu tượng, hoặc cả hai, để truyền tải hành động xảy ra khi người dùng nhấn vào nó. Các nút là các widget giao diện người dùng cho phép người dùng tương tác với ứng dụng bằng cách chạm vào chúng. Một nút thường bao gồm văn bản, biểu tượng hoặc kết hợp của cả hai và truyền tải hành động sẽ diễn ra khi người dùng nhấn vào.",
+        "links": [
+          {
+            "title": "Nhà phát triển Android: Nút (Button)",
+            "url": "https://developer.android.com/develop/ui/views/components/button",
+            "type": "official"
+          },
+          {
+            "title": "Tạo nút - Android",
+            "url": "https://developer.android.com/quick-guides/content/create-button",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "BVgO9n7tGlVdiS72-hFSd",
+      "type": "subtopic",
+      "label": "Toast",
+      "position": {
+        "x": 546.2896124351307,
+        "y": 924.95426514765
+      },
+      "size": {
+        "width": 109,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Một `toast` cung cấp phản hồi đơn giản về một thao tác trong một cửa sổ popup nhỏ. Nó chỉ chiếm đủ không gian cần thiết cho thông báo và hoạt động hiện tại vẫn hiển thị và tương tác. Các toast tự động biến mất sau thời gian chờ.",
+        "links": [
+          {
+            "title": "Toast",
+            "url": "https://developer.android.com/guide/topics/ui/notifiers/toasts",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "A4rtNULX_MoV93IH1Lgqw",
+      "type": "subtopic",
+      "label": "Hình ảnh xem (hoặc View ImageView)",
+      "position": {
+        "x": 412.2896124351306,
+        "y": 1031.8771482860266
+      },
+      "size": {
+        "width": 131,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Hiển thị tài nguyên hình ảnh, ví dụ như tài nguyên Bitmap hoặc Drawable. `ImageView` cũng thường được sử dụng để áp dụng màu sắc cho hình ảnh và xử lý thay đổi kích thước hình ảnh.",
+        "links": [
+          {
+            "title": "Nhà phát triển Android: ImageView",
+            "url": "https://developer.android.com/reference/android/widget/ImageView",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Z4Tbd5ClnqCXGPGG09F-G",
+      "type": "subtopic",
+      "label": "Thanh thả (Bottom Sheet)",
+      "position": {
+        "x": 658.2896124351307,
+        "y": 977.9542651476502
+      },
+      "size": {
+        "width": 155,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Thànhột bề mặt chứa nội dung phụ trợ được neo vào dưới cùng của màn hình. Có nhiều thuộc tính có thể được sử dụng để điều chỉnh hành vi của cả các thànhột bề mặt tiêu chuẩn và mô đun. Các thuộc tính hành vi có thể được áp dụng cho các thànhột bề mặt tiêu chuẩn trong XML bằng cách đặt chúng trên một View con được thiết lập với app:layout_behavior hoặc theo cách lập trình.",
+        "links": [
+          {
+            "title": "Nhà phát triển Android: Bottom Sheets",
+            "url": "https://developer.android.com/reference/com/google/android/material/bottomsheet/BottomSheetDialog",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "EzLjX4iRT7AxkAOsJYnSU",
+      "type": "subtopic",
+      "label": "ListView",
+      "position": {
+        "x": 546.2896124351307,
+        "y": 1083.95426514765
+      },
+      "size": {
+        "width": 109,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Hiển thị một bộ sưu tập có thể cuộn theo chiều dọc các view, trong đó mỗi view được định vị ngay dưới view trước đó trong danh sách. Để có phương pháp hiện đại, linh hoạt và hiệu suất cao hơn để hiển thị danh sách, hãy sử dụng `RecyclerView`.",
+        "links": [
+          {
+            "title": "ListView",
+            "url": "https://developer.android.com/reference/android/widget/ListView",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "amTxz7mS98lkhOrNMJXG_",
+      "type": "subtopic",
+      "label": "Rèo kéo",
+      "position": {
+        "x": 412.2896124351306,
+        "y": 1084.8771482860266
+      },
+      "size": {
+        "width": 131,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`Navigation Drawer` trong Android là một menu trượt từ bên trái giúp điều hướng giữa các liên kết ứng dụng quan trọng. Nó được mở bằng cách trượt hoặc thông qua biểu tượng trong `ActionBar`. Đây là một bảng overlay thay thế một màn hình để hiển thị các tùy chọn.",
+        "links": [
+          {
+            "title": "Nhà phát triển Android: DrawerLayout",
+            "url": "https://developer.android.com/reference/androidx/drawerlayout/widget/DrawerLayout",
+            "type": "official"
+          },
+          {
+            "title": "Hướng dẫn Drawer Navigation",
+            "url": "https://www.digitalocean.com/community/tutorials/android-navigation-drawer-example-tutorial",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pEBpXv3Jf1AzBNHlvVrG8",
+      "type": "subtopic",
+      "label": "Tab",
+      "position": {
+        "x": 546.2896124351307,
+        "y": 1030.95426514765
+      },
+      "size": {
+        "width": 109,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Các tab trong Android Studio là một thành phần giao diện người dùng (UI) được sử dụng để tổ chức nội dung thành nhiều phần, cho phép người dùng điều hướng giữa chúng bằng cách chọn tab tương ứng. Thành phần này thường được sử dụng khi cần trình bày các loại nội dung khác nhau trên một màn hình duy nhất, chẳng hạn như các danh mục, cài đặt hoặc trang trong một ứng dụng.",
+        "links": [
+          {
+            "title": "Thẻ Vật liệu",
+            "url": "https://developer.android.com/reference/com/google/android/material/tabs/package-summary",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Xn1VQ-xOT67ZfJJTM4r1p",
+      "type": "subtopic",
+      "label": "Hiệu ứng chuyển cảnh (Animations)",
+      "position": {
+        "x": 658.2896124351307,
+        "y": 1083.9542651476502
+      },
+      "size": {
+        "width": 155,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Hiệu ứng hình ảnh có thể cung cấp các dấu hiệu thị giác để thông báo cho người dùng về những gì đang diễn ra trong ứng dụng của bạn. Chúng đặc biệt hữu ích khi trạng thái giao diện người dùng thay đổi, chẳng hạn như khi nội dung mới tải hoặc các hành động mới có sẵn. Hiệu ứng hình ảnh cũng làm tăng vẻ ngoài tinh tế cho ứng dụng của bạn, giúp nó có một ngoại hình và cảm giác chất lượng cao hơn.",
+        "links": [
+          {
+            "title": "Nhà phát triển Google: Hoạt hình",
+            "url": "https://developer.android.com/develop/ui/views/animations/overview",
+            "type": "official"
+          },
+          {
+            "title": "Nhà phát triển Google: Hoạt hình",
+            "url": "https://www.youtube.com/watch?v=N_x7SV3I3P0",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pntwSBbuIfYb8b7WBVfvI",
+      "type": "label",
+      "label": "Bố cục (Layouts)",
+      "position": {
+        "x": 268.5641444978062,
+        "y": 879.6993520650623
+      },
+      "size": {
+        "width": 76,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "qVXAZzZSD9BJBw0ZJsuEm",
+      "type": "horizontal",
+      "label": "nút ngang",
+      "position": {
+        "x": 209.56414449780618,
+        "y": 887.6993520650623
+      },
+      "size": {
+        "width": 56,
+        "height": 20
+      },
+      "style": {
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "60Vm-77rseUqpMiFvp-dA",
+      "type": "subtopic",
+      "label": "Jetpack Compose",
+      "position": {
+        "x": 1045.3266615963507,
+        "y": 790.1530180045523
+      },
+      "size": {
+        "width": 196,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Jetpack Compose là một bộ công cụ hiện đại để xây dựng giao diện người dùng gốc Android. Nó đơn giản hóa và tăng tốc quá trình phát triển UI trên Android với ít mã hơn, các công cụ mạnh mẽ và các API Kotlin trực quan. Jetpack Compose cung cấp một phương pháp tiếp cận tường minh để thiết kế UI, nơi bạn có thể chỉ mô tả giao diện của mình sẽ trông như thế nào tại bất kỳ thời điểm nào trong trạng thái ứng dụng của mình, và Compose tự động cập nhật cây giao diện, làm cho phát triển UI hiệu quả hơn. Nó cũng tích hợp tốt với các ứng dụng Android hiện có, cho phép bạn áp dụng lợi ích của nó theo tốc độ của riêng mình.",
+        "links": [
+          {
+            "title": "Jetpack Compose",
+            "url": "https://developer.android.com/jetpack/compose",
+            "type": "official"
+          },
+          {
+            "title": "Khóa học Jetpack Compose",
+            "url": "https://www.youtube.com/watch?v=6_wK_Ud8--0",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "xV475jHTlLuHtpHZeXb7P",
+      "type": "subtopic",
+      "label": "App Shortcuts",
+      "position": {
+        "x": 1026.3266615963507,
+        "y": 955.4258772853128
+      },
+      "size": {
+        "width": 234,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Các phím tắt ứng dụng trên Android được thiết kế để cung cấp các tuyến đường nhanh và thuận tiện đến các hành động hoặc chức năng cụ thể trong ứng dụng của bạn từ màn hình nhà của thiết bị. Để sử dụng chúng, hãy giữ nguyên biểu tượng ứng dụng và một menu thả xuống sẽ xuất hiện với các phím tắt có sẵn. Tùy thuộc vào ứng dụng, bạn có thể gửi tin nhắn, đặt lịch hẹn, điều hướng về nhà hoặc thực hiện một số tác vụ cụ thể khác mà không cần phải mở ứng dụng và điều hướng đến chức năng mong muốn trước tiên. Các phím tắt này cũng có thể được di chuyển và đặt riêng trên màn hình nhà để truy cập nhanh hơn.",
+        "links": [
+          {
+            "title": "App Shortcuts",
+            "url": "https://developer.android.com/guide/topics/ui/shortcuts",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "o5rzmnaQeiSh9ocvfJPpK",
+      "type": "subtopic",
+      "label": "Navigation Components",
+      "position": {
+        "x": 1026.3266615963507,
+        "y": 1008.4258772853129
+      },
+      "size": {
+        "width": 234,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Các `Navigation Components` là một phần của Android Jetpack và được thiết kế để đơn giản hóa việc triển khai điều hướng trong ứng dụng Android của bạn. Các thành phần này giúp bạn tuân theo các phương pháp hay nhất, xử lý deep linking và cung cấp trải nghiệm người dùng nhất quán trên nhiều loại điều hướng sâu và có điều kiện. Chúng cũng tự động hóa nhiều tác vụ phổ biến, chẳng hạn như xử lý chính xác các hành động lên và xuống (Up and Back) trên nhiều loại thiết bị khác nhau. Thành phần Navigation bao gồm ba thành phần chính là Navigation graph, NavHost và NavController.",
+        "links": [
+          {
+            "title": "Navigation Components",
+            "url": "https://developer.android.com/guide/navigation",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Bz-BkfzsDHAbAw3HD7WCd",
+      "type": "subtopic",
+      "label": "MVI",
+      "position": {
+        "x": 1048.305632371595,
+        "y": 1231.4012119396646
+      },
+      "size": {
+        "width": 101,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Pattern `Model-View-Intent` (MVI) là một mẫu kiến trúc phản ứng, tương tự như `MVVM` và `MVP`, tập trung vào tính bất biến và xử lý trạng thái thông qua các chuỗi sự kiện. Dòng dữ liệu diễn ra theo hướng một chiều: Intents cập nhật trạng thái của Model thông qua ViewModel, sau đó View phản hồi lại trạng thái mới. Điều này đảm bảo một vòng lặp rõ ràng và có thể dự đoán giữa logic và giao diện.\n\n*   `Model`: Đại diện cho trạng thái UI. Nó bất biến và chứa tất cả thông tin cần thiết để biểu diễn một màn hình.\n*   `View`: Hiển thị trạng thái UI và nhận các ý định của người dùng.\n*   `Intent`: Các ý định của người dùng kích hoạt cập nhật trạng thái, được quản lý bởi `ViewModel`.",
+        "links": [
+          {
+            "title": "MVI với Kotlin",
+            "url": "https://proandroiddev.com/mvi-architecture-with-kotlin-flows-and-channels-d36820b2028d",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pSU-NZtjBh-u0WKTYfjk_",
+      "type": "subtopic",
+      "label": "MVVM",
+      "position": {
+        "x": 1150.8813646431793,
+        "y": 1231.4012119396646
+      },
+      "size": {
+        "width": 113,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Pattern `Model-View-ViewModel` (MVVM) là một mẫu kiến trúc phần mềm thường được sử dụng trong phát triển UI. Nó được thiết kế để tách biệt các mối quan tâm của một ứng dụng, làm cho mã dễ mô-đun hơn, có thể kiểm tra và bảo trì hơn. Các thành phần: \n\n*   `Model`: Tham chiếu hoặc đến một mô hình miền, đại diện cho nội dung trạng thái (một cách tiếp cận hướng đối tượng), hoặc đến lớp truy cập dữ liệu, đại diện cho nội dung. \n*   `View`: View là cấu trúc, bố cục và giao diện của những gì người dùng thấy trên màn hình.\n*   `ViewModel`: ViewModel là một sự trừu tượng hóa của View, trưng bày các thuộc tính công khai và lệnh. ViewModel đã được mô tả như một trạng thái dữ liệu trong Model.",
+        "links": [
+          {
+            "title": "Nhà phát triển Android: View Model",
+            "url": "https://developer.android.com/topic/libraries/architecture/viewmodel",
+            "type": "official"
+          },
+          {
+            "title": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93viewmodel",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "aF_xFIqTjQbENtC7pkXvJ",
+      "type": "subtopic",
+      "label": "MVP",
+      "position": {
+        "x": 1048.9214711553075,
+        "y": 1284.4012119396646
+      },
+      "size": {
+        "width": 101,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Pattern `Model View Presenter` (MVP) là một dạng kế thừa của mẫu `Model View Controller` (MVC) nổi tiếng và là một trong những mẫu phổ biến nhất để tổ chức lớp biểu diễn trong các ứng dụng Android. MVP được chia thành ba thành phần: \n\n*   `Model`: Trách nhiệm quản lý đầu vào dữ liệu đến ứng dụng. Điều này thường là một Interactor hoặc UseCase, xử lý logic kinh doanh và hoạt động dữ liệu.\n*   `View`: Chịu trách nhiệm cập nhật phần đồ họa của ứng dụng. Nó hoạt động như một view thụ động, chỉ nhận dữ liệu và yêu cầu các hành động được thực hiện.\n*   `Presenter`: Xử lý tất cả logic liên quan đến giao diện đồ họa mà View yêu cầu. Nó cung cấp cho View dữ liệu cần thiết để hiển thị trên màn hình.",
+        "links": [
+          {
+            "title": "Kiểu Mẫu Model View Presenter",
+            "url": "https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93presenter",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "w1A6wPKSd3Yh2luuHV-aE",
+      "type": "subtopic",
+      "label": "MVC",
+      "position": {
+        "x": 1151.8813646431793,
+        "y": 1284.4012119396646
+      },
+      "size": {
+        "width": 110,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "MVC hoặc `Model View Controller` là một mẫu thiết kế phần mềm thường được sử dụng để phát triển giao diện người dùng bằng cách chia logic liên quan thành ba thành phần tương tác. Thành phần: ----------- *   `Model`: Biểu diễn bên trong của thông tin. Điều này có thể là một Interactor hoặc UseCase *   `View`: Giao diện hiển thị thông tin đến và nhận từ người dùng *   `Controller`: Controller chứa logic để cập nhật mô hình và/hoặc view khi phản hồi với đầu vào từ người dùng của ứng dụng.",
+        "links": [
+          {
+            "title": "MVC",
+            "url": "https://developer.mozilla.org/en-US/docs/Glossary/MVC",
+            "type": "article"
+          },
+          {
+            "title": "Kiểu Mẫu Model View Controller",
+            "url": "https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ZF5XgO7I_J9928bD3CVXo",
+      "type": "subtopic",
+      "label": "Mẫu Repository",
+      "position": {
+        "x": 1049.3396021840554,
+        "y": 1395.0573321226304
+      },
+      "size": {
+        "width": 214,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Pattern Lưu trữ tách các nguồn dữ liệu khỏi phần còn lại của ứng dụng. Nó đóng vai trò là người trung gian giữa các nguồn dữ liệu khác nhau, chẳng hạn như mô hình lưu trữ, dịch vụ web hoặc bộ nhớ cache. Thay vì có các cuộc gọi mạng và cơ sở dữ liệu lan rộng khắp ViewModel, chúng được chứa trong một lớp Repository. Sự phân tách này sẽ làm cho mã sạch sẽ, dễ đọc và khả năng kiểm thử. Nó cung cấp một API đơn giản để truy cập dữ liệu, ứng dụng khác không cần biết dữ liệu đến từ đâu nó chỉ hỏi Repository.",
+        "links": [
+          {
+            "title": "Mẫu Repository",
+            "url": "https://en.wikipedia.org/wiki/Repository_pattern",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "784fiIdKrQDlIm3VIiJQN",
+      "type": "subtopic",
+      "label": "Pattern Xây dựng (Builder Pattern)",
+      "position": {
+        "x": 1051.2829550804522,
+        "y": 1448.0573321226304
+      },
+      "size": {
+        "width": 214,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Mẫu Thiết Kế Xây Dựng (Builder Pattern) trong Android được sử dụng để xây dựng các đối tượng phức tạp từng bước một. Nó tách việc xây dựng một đối tượng ra khỏi biểu diễn của nó. Mẫu này bao gồm một lớp `Builder` được sử dụng để xây dựng lớp `Product`. Lớp Builder thường có một phương thức cho mỗi phần có thể được sử dụng để xây dựng một Product. Nó cũng có một phương thức để trả về sản phẩm cuối cùng. Mẫu Builder hữu ích trong các tình huống mà bạn có thể có nhiều cách để tạo ra một đối tượng hoặc khi một đối tượng yêu cầu một số lượng lớn tham số cho trình khởi tạo của nó.",
+        "links": [
+          {
+            "title": "Pattern Xây dựng (Builder Pattern)",
+            "url": "https://developer.android.com/kotlin/style-guide#builder-pattern",
+            "type": "official"
+          },
+          {
+            "title": "Mẫu Kiến trúc Nhà Xây dựng Android",
+            "url": "https://medium.com/kayvan-kaseb/builder-design-pattern-in-android-a38dccb75485",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "DeOxj6RzQBYfEWV-M1Ybm",
+      "type": "subtopic",
+      "label": "Mẫu Xưởng",
+      "position": {
+        "x": 1051.2829550804522,
+        "y": 1501.0573321226304
+      },
+      "size": {
+        "width": 214,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Mẫu Factory là một phần của các Design Patterns về Tạo đối tượng. Mẫu này cung cấp một giao diện để tạo các đối tượng trong lớp siêu kế, nhưng cho phép các lớp con thay đổi loại đối tượng sẽ được tạo ra. Nó giới thiệu một lớp trừu tượng giữa mã nguồn của khách hàng và các đối tượng cụ thể. Thông thường, điều này đạt được bằng cách sử dụng phương thức Factory để tạo các đối tượng thay vì sử dụng các constructor. Một instance của lớp thường được tạo bởi một phương thức, được gọi là `factory method`, có thể được chỉ định trong một interface và triển khai trong các lớp triển khai hoặc được triển khai trong một lớp cơ sở mà có thể được kế thừa bởi các lớp con tùy chọn ghi đè. Mẫu Factory được sử dụng khi chúng ta muốn cung cấp cho người dùng một cách để tạo một instance của một lớp từ một trong nhiều lớp có thể có chung một super class. Dưới đây là một ví dụ cơ bản về Mẫu Factory:\n\n```java\npublic abstract class Animal {\n    public abstract String makeSound();\n}\n\npublic class Dog extends Animal {\n    @Override\n    public String makeSound() {\n        return \"Woof\";\n    }\n}\n\npublic class Cat extends Animal {\n    @Override\n    public String makeSound() {\n        return \"Meow\";\n    }\n}\n\npublic class AnimalFactory {\n    public Animal createAnimal(String type) {\n        if (\"Dog\".equals(type)) {\n            return new Dog();\n        } else if (\"Cat\".equals(type)) {\n            return new Cat();\n        }\n        return null;\n    }\n}\n```",
+        "links": [
+          {
+            "title": "Android: Factory Pattern",
+            "url": "https://developer.android.com/guide/components/intents-filters#factory",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "N_auRfGKkeIIc-qiHLkR_",
+      "type": "subtopic",
+      "label": "Pattern Observer",
+      "position": {
+        "x": 1051.2829550804522,
+        "y": 1557.6137520699554
+      },
+      "size": {
+        "width": 214,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Pattern `Observer Pattern` (Mẫu Quan Sát) là một mẫu thiết kế phần mềm trong đó một đối tượng, được gọi là chủ đề (subject), duy trì danh sách các phụ thuộc của nó, được gọi là người quan sát (observers), và thông báo cho chúng tự động khi có bất kỳ thay đổi trạng thái nào. Điều này thường được thực hiện bằng cách gọi một trong các phương thức của họ. Nó chủ yếu được sử dụng để triển khai hệ thống xử lý sự kiện phân tán và được xem là một phương pháp hay để làm cho thiết kế của bạn mạnh mẽ, linh hoạt và có khả năng mở rộng hơn. Chủ đề sẽ kích hoạt các sự kiện và người quan sát phản ứng với thay đổi hoặc sự kiện mà họ đang lắng nghe. Trong Android, các thư viện quan sátable như `LiveData`, `RxJava`, `Flow` và các luồng phản ứng khác cho phép triển khai mẫu Quan Sát.",
+        "links": [
+          {
+            "title": "Pattern Observer",
+            "url": "https://en.wikipedia.org/wiki/Observer_pattern",
+            "type": "article"
+          },
+          {
+            "title": "Pattern Observer",
+            "url": "https://refactoring.guru/design-patterns/observer",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "W-WTIiQml8dLK6i_V69JK",
+      "type": "subtopic",
+      "label": "Luồng",
+      "position": {
+        "x": 1059.3396021840554,
+        "y": 1613.1260426182998
+      },
+      "size": {
+        "width": 199,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Flow trong phát triển Android là một phần của thư viện Kotlin Coroutines. Nó là một loại có thể phát ra nhiều giá trị tuần tự, khiến nó hoàn hảo để làm việc với bất kỳ luồng dữ liệu nào hoặc bất kỳ luồng sự kiện nào không phải là tức thời. Tương tự như Observables, Flow cũng dựa trên mẫu Observer, nghĩa là nó có thể phát ra các giá trị và những phát hành này có thể được quan sát và phản ứng. Tuy nhiên, Flow đi kèm với khả năng xử lý áp lực ngược tích hợp và khả năng chuyển đổi, lọc hoặc kết hợp các luồng này theo chuỗi. Cùng với Coroutines, Flow khuyến khích một thiết kế đồng thời có tính dự đoán và đơn giản hóa hơn mà không gặp phải vấn đề về \"cú gọi lại địa ngục\".",
+        "links": [
+          {
+            "title": "Luồng",
+            "url": "https://kotlinlang.org/docs/flow.html",
+            "type": "official"
+          },
+          {
+            "title": "Luồng: Coroutine",
+            "url": "https://kotlinlang.org/docs/flow-coroutines.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "xk0vnWr7uESdzYRxwFjoK",
+      "type": "subtopic",
+      "label": "RxJava",
+      "position": {
+        "x": 1165.3396021840554,
+        "y": 1666.1260426182998
+      },
+      "size": {
+        "width": 93,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "RxJava, viết tắt là Reactive Extensions for the JVM, là một thư viện trong hệ sinh thái Java và Android cho phép nhà phát triển viết các chương trình bất đồng bộ, dựa trên sự kiện. Nó được phát triển theo nguyên tắc lập trình phản ứng (reactive programming) và hỗ trợ các hoạt động đa luồng. Một người có thể tạo ra các luồng dữ liệu từ hầu hết mọi thứ - biến, cấu trúc dữ liệu, đầu vào,... và những luồng này có thể được sử dụng với các phương pháp lập trình hàm để xử lý dữ liệu.",
+        "links": [
+          {
+            "title": "RxJava trên GitHub",
+            "url": "https://github.com/ReactiveX/RxJava",
+            "type": "opensource"
+          }
+        ]
+      }
+    },
+    {
+      "id": "7rbsp1o5bzIJP11BRIoeG",
+      "type": "subtopic",
+      "label": "RxKotlin",
+      "position": {
+        "x": 1059.3396021840554,
+        "y": 1666.1260426182998
+      },
+      "size": {
+        "width": 101,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "RxKotlin là một thư viện nhẹ nhàng bổ sung các hàm mở rộng tiện lợi cho RxJava. Nó cho phép nhà phát triển sử dụng RxJava với Kotlin theo cách tự nhiên hơn, giúp mã nguồn dễ đọc và dễ hiểu hơn. Mặc dù RxJava là một triển khai dựa trên Java của Reactive Extensions, RxKotlin về bản chất là một lớp bao bọc (wrapper) bao gồm các hàm mở rộng và các cấu trúc khác để tận dụng tối đa các tính năng của Kotlin, chẳng hạn như sự đơn giản cú pháp và khả năng sử dụng dễ dàng.",
+        "links": [
+          {
+            "title": "RxKotlin",
+            "url": "https://github.com/ReactiveX/RxKotlin",
+            "type": "opensource"
+          }
+        ]
+      }
+    },
+    {
+      "id": "TiokceMGU9caqiR0lbFYL",
+      "type": "subtopic",
+      "label": "LiveData",
+      "position": {
+        "x": 1059.3396021840554,
+        "y": 1719.1260426182998
+      },
+      "size": {
+        "width": 199,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "LiveData là một lớp dữ liệu giữ mà có thể được quan sát trong một chu kỳ đời sống nhất định. Điều này có nghĩa là một Observer có thể được thêm vào cùng với một LifecycleOwner, và Observer này sẽ được thông báo về những thay đổi đối với đối tượng LiveData chỉ khi LifecycleOwner ở trạng thái hoạt động. LiveData tôn trọng trạng thái vòng đời của các thành phần ứng dụng như các hoạt động, fragment hoặc dịch vụ, và nó chỉ cập nhật các thành phần ứng dụng quan sát viên trong một trạng thái vòng đời hoạt động. Hơn nữa, LiveData tự động loại bỏ các Observer khi LifecycleOwner của chúng chuyển sang trạng thái ‘Destroyed’. Sự kết hợp giữa LiveData và LifecycleOwner giúp bạn quản lý các bản cập nhật phù hợp và hiệu quả vì LiveData xem xét trạng thái vòng đời của các thành phần ứng dụng của bạn.",
+        "links": [
+          {
+            "title": "LiveData",
+            "url": "https://developer.android.com/topic/libraries/architecture/livedata",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ZbuCx3ygIZPRS_9fp0AJg",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": 1051.2829550804522,
+        "y": 1822.5939340801478
+      },
+      "size": {
+        "width": 214,
+        "height": 187
+      },
+      "style": {
+        "width": 150,
+        "height": 100,
+        "fontSize": 17
+      },
+      "z_index": -999
+    },
+    {
+      "id": "qtXM9K7wyjOFuEMlZrB3C",
+      "type": "subtopic",
+      "label": "Tiêm Dependency (Dependency Injection)",
+      "position": {
+        "x": 1051.2829550804522,
+        "y": 1787.7811417023727
+      },
+      "size": {
+        "width": 214,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Tiêm Dependencies là một kỹ thuật trong đó một đối tượng không cần phải tạo các phụ thuộc của riêng nó; thay vào đó, các phụ thuộc được cung cấp (hoặc tiêm) tại thời điểm chạy. Kỹ thuật này có lợi ích rất lớn trong Phát triển Android. Nó giúp tạo ra mã kết nối lỏng lẻo và dễ kiểm tra hơn. Ví dụ: phiên bản Retrofit mà ứng dụng của bạn yêu cầu để thực hiện các cuộc gọi mạng có thể được tạo ở nơi khác và có thể được tiêm bất cứ lúc nào cần thiết bằng cách sử dụng các thư viện như Dagger, Koin hoặc Hilt. Các phiên bản ViewModel cũng có thể được tiêm thay vì được tạo trực tiếp trong các lớp cần thiết. Thông qua Tiêm Dependencies, các plugin đảm bảo mã trở nên dễ thay đổi, hiểu và bảo trì hơn, do đó cải thiện chất lượng của mã.",
+        "links": [
+          {
+            "title": "Tiêm Dependency (Dependency Injection)",
+            "url": "https://developer.android.com/training/dependency-injection",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "CK7Ce632fdTgxeFsRUVvd",
+      "type": "subtopic",
+      "label": "Dagger",
+      "position": {
+        "x": 1059.3396021840554,
+        "y": 1843.2934322507172
+      },
+      "size": {
+        "width": 199,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Dagger là một khung phân bổ phụ thuộc tĩnh hoàn toàn, thời gian chạy để biên dịch cho cả Java và Android. Nó là một phiên bản điều chỉnh của một phiên bản trước do Square tạo ra, tập trung vào sự đơn giản và tốc độ. Dagger tập trung chính vào phân tích phụ thuộc thời gian chạy, tính đơn giản của mã và khả năng hiểu rõ. Nó sử dụng chú thích để định nghĩa các phụ thuộc, giúp tăng cường khả năng đọc và hiểu mã. Dagger cũng loại bỏ việc sử dụng reflection để chèn phụ thuộc, do đó cải thiện hiệu suất. Nó cung cấp phạm vi tùy chỉnh để kiểm soát tuổi thọ của các đối tượng và đảm bảo rằng các phụ thuộc là Singleton trên toàn bộ vòng đời của một số phạm vi nhất định.",
+        "links": [
+          {
+            "title": "Dagger",
+            "url": "https://dagger.dev/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "UMqZ-jmXKDXKuu8bzqDH_",
+      "type": "subtopic",
+      "label": "Koin",
+      "position": {
+        "x": 1155.3396021840554,
+        "y": 1896.2934322507172
+      },
+      "size": {
+        "width": 103,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Koin là một framework tiêm dependency nhẹ, được phát triển đặc biệt dành cho nhà phát triển Kotlin. Nó chỉ sử dụng phương pháp giải quyết chức năng (functional resolution) - không có proxy, không tạo mã, không sử dụng reflection và mang lại sự đơn giản bằng cách tận dụng các tính năng của ngôn ngữ Kotlin. Mặc dù Koin không liên quan đến nền tảng Android, nó cung cấp các tiện ích mở rộng cho phép tích hợp hiệu quả vào các ứng dụng Android của bạn, bao gồm Android Architecture Components và Kotlin Coroutines, v.v.",
+        "links": [
+          {
+            "title": "Koin",
+            "url": "https://insert-koin.io",
+            "type": "official"
+          },
+          {
+            "title": "Kiến trúc Ứng dụng Android",
+            "url": "https://developer.android.com/topic/libraries/architecture/index.html",
+            "type": "official"
+          },
+          {
+            "title": "@officialKotlin Coroutines",
+            "url": "https://kotlinlang.org/docs/reference/coroutines-overview.html",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ooo_k2k_vUBR_jQ7Ke6Et",
+      "type": "subtopic",
+      "label": "Hilt",
+      "position": {
+        "x": 1060.5878072165665,
+        "y": 1896.2934322507172
+      },
+      "size": {
+        "width": 91,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Hilt là thư viện Dependency Injection dành cho Android giúp giảm thiểu mã boilerplate mà bạn thường phải viết khi thiết lập Dependency Injection thủ công trong dự án của mình. Nó dựa trên thư viện Dagger, nhưng đơn giản hóa quy trình triển khai và tối ưu hóa việc sử dụng Dagger trong các ứng dụng Android. Để cài đặt, bạn cần chú thích các lớp Android của mình và Hilt sẽ tự động tạo ra và cung cấp các Dependency cần thiết cho bạn.",
+        "links": [
+          {
+            "title": "Hilt",
+            "url": "https://developer.android.com/training/dependency-injection/hilt-android",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dc7k50PjCYZcElHhCk66p",
+      "type": "subtopic",
+      "label": "Kodein",
+      "position": {
+        "x": 1059.3396021840554,
+        "y": 1949.2934322507172
+      },
+      "size": {
+        "width": 199,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Kodein là một trong những framework tiêm phụ thuộc được khuyến nghị phù hợp để phát triển Android. Thư viện mã nguồn mở Kotlin này đơn giản hóa quy trình DI bằng cách cho phép các nhà phát triển liên kết nhiều loại ràng buộc phụ thuộc khác nhau, chẳng hạn như ràng buộc singleton, factory hoặc provider vào các container hoặc module Kodein. Nó thúc đẩy việc tuyên bố phụ thuộc nơi được sử dụng, thay vì tuyên bố trước. Nó tuân theo nguyên tắc “Define in Use” cho phép dễ sử dụng, dễ gỡ lỗi và rất idiomatic Kotlin code. Cũng đáng chú ý là Kodein hoạt động song hành với vòng đời của Android và cung cấp tích hợp dễ dàng với các thư viện phổ biến như Android Architecture Components, tận dụng chức năng của chúng.",
+        "links": [
+          {
+            "title": "Kodein",
+            "url": "https://insert-kodein.io/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "0fNQWRxst8xRstIfPaPO6",
+      "type": "topic",
+      "label": "Lưu trữ",
+      "position": {
+        "x": 862.8618127280065,
+        "y": 1242.53766067362
+      },
+      "size": {
+        "width": 145,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Trên các thiết bị Android, bộ nhớ đề cập đến nơi dữ liệu của bạn được lưu trữ như ứng dụng, ảnh, video và nhạc. Nó có thể được phân loại thành hai loại: bộ nhớ trong và bộ nhớ ngoài. Bộ nhớ trong là nơi dữ liệu được lưu trữ mà gắn liền trực tiếp với ứng dụng của bạn. Dữ liệu này mặc định là riêng tư và không thể truy cập bởi các ứng dụng khác. Bộ nhớ ngoài, ngược lại, là một không gian chung mà tất cả các ứng dụng đều có thể đọc và ghi dữ liệu. Nó có thể được phân loại thêm thành thư mục Công khai và Riêng tư. Các thư mục Công khai được chia sẻ giữa tất cả các ứng dụng trong khi các thư mục Riêng tư cụ thể cho ứng dụng của bạn nhưng có thể được truy cập bởi các ứng dụng khác nếu chúng có quyền phù hợp.",
+        "links": [
+          {
+            "title": "Lưu trữ",
+            "url": "https://developer.android.com/guide/topics/data/data-storage",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PKql1HY0PLMfp50FRELXL",
+      "type": "subtopic",
+      "label": "Shared Preferences",
+      "position": {
+        "x": 546.4645995838063,
+        "y": 1167.833115751315
+      },
+      "size": {
+        "width": 229,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Shared Preferences trong Android được sử dụng để lưu trữ dữ liệu theo cặp khóa-giá trị. Nó hoạt động tương tự như một cơ sở dữ liệu nhỏ, nơi bạn có thể lưu trữ các đoạn dữ liệu nhỏ như cài đặt hoặc trạng thái của ứng dụng. Khi dữ liệu được lưu vào Shared Preferences, nó sẽ tồn tại qua các phiên làm việc người dùng, ngay cả khi ứng dụng của bạn bị tắt hoặc xóa. Dữ liệu trong Shared Preferences thường không được sử dụng cho lượng dữ liệu lớn. Để thực hiện các thao tác như lưu, truy xuất hoặc chỉnh sửa dữ liệu trong Shared Preferences, bạn sử dụng một instance của `SharedPreferences.Editor`.",
+        "links": [
+          {
+            "title": "Tài liệu Shared Preferences",
+            "url": "https://developer.android.com/training/data-storage/shared-preferences",
+            "type": "official"
+          },
+          {
+            "title": "Shared Preferences trong Android",
+            "url": "https://www.youtube.com/watch?v=rJ3uwqko9Ew",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "GWq3s1iTxQOp1BstHscJ9",
+      "type": "subtopic",
+      "label": "Cơ sở dữ liệu",
+      "position": {
+        "x": 546.4645995838063,
+        "y": 1220.833115751315
+      },
+      "size": {
+        "width": 229,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "DataStore là một giải pháp lưu trữ dữ liệu mới và cải tiến cho Android, được thiết kế để thay thế SharedPreferences. Điều quan trọng cần hiểu là nó có hai triển khai khác nhau: Preferences DataStore và Proto DataStore. Preferences DataStore sử dụng các cặp khóa-giá trị tương tự như SharedPreferences, nhưng nó mạnh mẽ hơn và xử lý các ngoại lệ thời gian chạy hiệu quả hơn. Ngược lại, Proto DataStore sử dụng các kiểu dữ liệu tùy chỉnh để cung cấp khả năng kiểm tra kiểu. Nó cho phép bạn tận dụng sức mạnh của Protocol Buffers, một cơ chế tuần tự hóa dữ liệu ngôn ngữ trung lập, nền tảng trung tính để định dạng dữ liệu lưu trữ.",
+        "links": [
+          {
+            "title": "Tài liệu",
+            "url": "https://developer.android.com/topic/libraries/architecture/datastore",
+            "type": "official"
+          },
+          {
+            "title": "Giới thiệu về DataStore",
+            "url": "https://www.youtube.com/watch?v=9ws-cJzlJkU&list=PLWz5rJ2EKKc8to3Ere-ePuco69yBUmQ9C",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Bfg4So5RlI09zFNcburJd",
+      "type": "subtopic",
+      "label": "Cơ sở dữ liệu Room",
+      "position": {
+        "x": 546.4645995838063,
+        "y": 1273.833115751315
+      },
+      "size": {
+        "width": 229,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "\"Phòng\" là thư viện lưu trữ được giới thiệu bởi Google cung cấp một lớp trừu tượng đối với SQLite để giúp truy cập cơ sở dữ liệu mạnh mẽ đồng thời tận dụng tối đa sức mạnh của SQLite. Room hỗ trợ tạo cơ sở dữ liệu và định nghĩa các chuỗi SQL kiểm tra kiểu biên dịch. Các cơ sở dữ liệu này thuộc về các lớp dữ liệu mà bạn tạo, đại diện cho dữ liệu ứng dụng của mình. Room bao gồm ba thành phần chính: **Cơ sở dữ liệu**, một container chứa các bảng dữ liệu của ứng dụng; **Entity**, biểu diễn một bảng trong cơ sở dữ liệu; và **DAO (Đối tượng Truy cập Dữ liệu)**, chứa các phương thức truy vấn SQL để tương tác với cơ sở dữ liệu.",
+        "links": [
+          {
+            "title": "Cơ sở dữ liệu Room",
+            "url": "https://developer.android.com/training/data-storage/room",
+            "type": "official"
+          },
+          {
+            "title": "Hướng dẫn Trọn Bộ cho Room trong Android",
+            "url": "https://www.youtube.com/watch?v=bOd3wO0uFr8&t=10s",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "A4kdaj6AFueUgPI7hwKi5",
+      "type": "subtopic",
+      "label": "Hệ thống tệp tin",
+      "position": {
+        "x": 546.4645995838063,
+        "y": 1326.833115751315
+      },
+      "size": {
+        "width": 229,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Hệ điều hành Android sử dụng cấu trúc Hệ thống Tệp cụ thể để lưu trữ và quản lý tệp. Nó chủ yếu dựa trên Hệ thống Tệp Linux, với một số tính năng đặc biệt của Android. Hệ thống Tệp bao gồm nhiều thư mục chính được sử dụng cho các mục đích cụ thể. Ví dụ, các thư mục như `/system` chứa các ứng dụng hệ thống và firmware, trong khi `/data` chứa dữ liệu người dùng, cài đặt và các ứng dụng đã cài đặt, và `/sdcard` thường đại diện cho thẻ SD nội bộ hoặc bên ngoài để lưu trữ bổ sung. Có một số thư mục như `/proc`, `/dev` và `/sys` là các hệ thống tệp ảo và chứa các tệp hệ thống quan trọng. Với tư cách là nhà phát triển Android, việc hiểu biết các thư mục này có thể giúp bạn tương tác với Hệ thống Tệp của Android hiệu quả hơn. Lưu ý rằng quyền truy cập vào một số thư mục này có thể bị hạn chế tùy thuộc vào quyền hệ thống.",
+        "links": [
+          {
+            "title": "Hệ thống tệp tin Android",
+            "url": "https://developer.android.com/training/data-storage/",
+            "type": "official"
+          },
+          {
+            "title": "Hệ thống tệp tin Android",
+            "url": "https://www.androidauthority.com/android-file-system-1010817/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Yb6aKJMMCxU1QVltWg3Dr",
+      "type": "topic",
+      "label": "Mạng",
+      "position": {
+        "x": 860.4237456884,
+        "y": 1431.0377047250465
+      },
+      "size": {
+        "width": 149,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Trong Android, thành phần `Network` cung cấp các khả năng thiết yếu cho phép giao tiếp và tương tác giữa người dùng, giữa người dùng và máy chủ từ xa, cũng như giữa người dùng và dịch vụ đám mây. Android cung cấp nhiều API và dịch vụ để tương tác với mạng. Các API chính bao gồm API `ConnectivityManager`, `WifiManager`, `TelephonyManager` và `BluetoothManager`, cùng với các API khác. Ví dụ, ConnectivityManager có thể cho bạn biết về các thay đổi liên quan đến kết nối mạng.",
+        "links": [
+          {
+            "title": "Mạng",
+            "url": "https://developer.android.com/guide/topics/connectivity",
+            "type": "official"
+          },
+          {
+            "title": "ConnectivityManager",
+            "url": "https://developer.android.com/reference/android/net/ConnectivityManager",
+            "type": "official"
+          },
+          {
+            "title": "WifiManager",
+            "url": "https://developer.android.com/reference/android/net/wifi/WifiManager",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dDMRYiqrKyOBnRRQc8zsp",
+      "type": "subtopic",
+      "label": "Retro",
+      "position": {
+        "x": 825.3442487157158,
+        "y": 1518.6292267165663
+      },
+      "size": {
+        "width": 180,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Retrofit là một client HTTP kiểu an toàn cho Android. Nó được thiết kế để kết nối ứng dụng của bạn với một API hoặc dịch vụ web phía sau. Retrofit sử dụng các chú thích (annotations) để mã hóa thông tin chi tiết về các hoạt động và yêu cầu của API, chẳng hạn như phương thức HTTP (`GET`, `POST`, `PUT`, `DELETE`, `HEAD`) và các tham số truy vấn. Ưu điểm chính của **Retrofit** so với các thư viện tương tự khác nằm ở sự đơn giản và trực quan, và nó xử lý tất cả các cuộc gọi mạng một cách hiệu quả.",
+        "links": [
+          {
+            "title": "Tài liệu Retrofit",
+            "url": "https://square.github.io/retrofit/",
+            "type": "official"
+          },
+          {
+            "title": "Retrofit trong Android Studio",
+            "url": "https://www.youtube.com/watch?v=KJSBsRKqNwU",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5pVuwOItAhUxxJX8ysAsn",
+      "type": "subtopic",
+      "label": "OkHttp",
+      "position": {
+        "x": 825.3442487157158,
+        "y": 1571.6292267165663
+      },
+      "size": {
+        "width": 180,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "OkHttp là một khách HTTP cực kỳ hiệu quả, cho phép nhiều tính năng nâng cao trong các ứng dụng Android hoặc các nền tảng khác sử dụng Java. Được phát triển bởi Square, nó được xây dựng để có hiệu suất và dung lượng cao, đơn giản hóa nhiều tác vụ mạng, bao gồm bộ nhớ đệm kết nối, bộ nhớ đệm phản hồi và thử lại yêu cầu. OkHttp cho phép phục hồi từ các vấn đề về mạng một cách liền mạch, giảm thiểu sự mất mát dữ liệu. Thư viện đảm bảo ít lỗi hơn và chất lượng dịch vụ cao hơn bằng cách sử dụng mã hóa TLS hiện đại, mô hình yêu cầu và phản hồi có thể mở rộng và API dạng dòng chảy để dễ sử dụng và tích hợp.",
+        "links": [
+          {
+            "title": "OkHttp",
+            "url": "https://square.github.io/okhttp/",
+            "type": "official"
+          },
+          {
+            "title": "OkHttp trên GitHub",
+            "url": "https://github.com/square/okhttp",
+            "type": "opensource"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ww0fTbdXwVr-QIOClU7ng",
+      "type": "subtopic",
+      "label": "Apollo-Android",
+      "position": {
+        "x": 825.3442487157158,
+        "y": 1624.6292267165663
+      },
+      "size": {
+        "width": 180,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "“Apollo Android” là một tập hợp công cụ để sử dụng GraphQL với Android, do cộng đồng Apollo phát triển. Nó được viết hoàn toàn bằng Kotlin và được thiết kế để tích hợp liền mạch với bất kỳ ứng dụng Android nào, giúp thu thập dữ liệu qua mạng và xử lý dữ liệu trên máy khách trở nên dễ dàng. Apollo Android chạy các truy vấn và thay đổi của bạn và trả về kết quả dưới dạng các kiểu Kotlin được tạo. Nó cũng chuẩn hóa dữ liệu và lưu trữ kết quả để cải thiện hiệu suất hơn nữa. Nó hoạt động cả trên Android và môi trường backend Kotlin/JVM. Nó còn là coroutines-first, giúp xử lý đồng thời dễ dàng và hiệu quả. Để sử dụng Apollo Android, bạn sẽ thiết lập plugin, chỉ định nó đến lược đồ GraphQL của bạn và viết các truy vấn GraphQL.",
+        "links": [
+          {
+            "title": "Apollo Android",
+            "url": "https://www.apollographql.com/docs/kotlin/v2/",
+            "type": "official"
+          },
+          {
+            "title": "Apollo Docs",
+            "url": "https://www.apollographql.com/docs/kotlin/",
+            "type": "official"
+          },
+          {
+            "title": "ApolloGraphQL - GraphQL cho Android",
+            "url": "https://github.com/apollographql/apollo-kotlin",
+            "type": "opensource"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cFYZ2C7yNnY6NHKUNP2Z4",
+      "type": "topic",
+      "label": "Asynchronism",
+      "position": {
+        "x": 541.4645995838063,
+        "y": 1431.0377047250465
+      },
+      "size": {
+        "width": 229,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Asynchronism trong Android là một phương pháp định nghĩa các thao tác có thể chạy độc lập từ hoạt động chính mà không tuân theo luồng tuyến của chương trình. Hệ điều hành Android sử dụng luồng để xử lý các quy trình bất đồng bộ. Các luồng này hoạt động độc lập, đảm bảo rằng các hoạt động phức tạp hoặc tốn thời gian không gây gián đoạn giao diện người dùng hoặc các thành phần thiết yếu khác của ứng dụng. Android cung cấp nhiều công cụ để thực hiện các tác vụ bất đồng bộ, chẳng hạn như `Handler`, `ThreadPoolExecutor`, `IntentService`, `AsyncTask` và `Loader` v.v. Các công cụ này cung cấp cách thức để thực thi các tác vụ trên các luồng khác nhau và truyền kết quả trở lại luồng chính.",
+        "links": [
+          {
+            "title": "Tác vụ bất đồng bộ",
+            "url": "https://developer.android.com/guide/background",
+            "type": "official"
+          },
+          {
+            "title": "Thực thi tác vụ bất đồng bộ",
+            "url": "https://medium.com/@cpvasani48/asynchronous-task-execution-in-android-a-guide-with-example-44732744f3b8",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "i_cKmTnGAYw8xpHwZHjAd",
+      "type": "subtopic",
+      "label": "Hệ thống luồng (Coroutines)",
+      "position": {
+        "x": 541.4645995838063,
+        "y": 1522.7758924094805
+      },
+      "size": {
+        "width": 118,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Các luồng hoạt động là một mẫu thiết kế đồng thời mà bạn có thể sử dụng trên Android để đơn giản hóa mã thực thi không đồng bộ. Các luồng hoạt động cung cấp một cách để viết mã đồng thời, không chặn trong một trình tự tự nhiên. Các khối xây dựng cơ bản của các luồng hoạt động là các hàm tạm dừng, đó chỉ đơn giản là các hàm có thể bị tạm dừng và tiếp tục vào một lúc nào đó. Chúng là chìa khóa để viết mã đồng bộ không chặn và đại diện cho một đơn vị tính toán đồng thời duy nhất. Khía cạnh này của các luồng hoạt động khiến chúng hữu ích trong việc quản lý các tác vụ chạy dài có thể chặn luồng chính và gây ra sự không phản hồi cho ứng dụng của bạn.",
+        "links": [
+          {
+            "title": "Hệ thống luồng (Coroutines)",
+            "url": "https://kotlinlang.org/docs/coroutines-overview.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "BeGrA5BDBMZP1Jy7n-wl-",
+      "type": "subtopic",
+      "label": "Luồng",
+      "position": {
+        "x": 662.4645995838063,
+        "y": 1523.7661110082904
+      },
+      "size": {
+        "width": 109,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Trong Android, một `Thread` là đơn vị thực thi đồng thời. Nó có stack gọi riêng của mình, nhưng có thể chia sẻ trạng thái với các thread khác trong cùng một tiến trình, tức là chúng có thể chia sẻ cùng một vùng bộ nhớ. Chúng chủ yếu được sử dụng trong Android để thực hiện các thao tác trong nền. Một khía cạnh quan trọng cần lưu ý là các hoạt động giao diện người dùng (UI) trên Android không an toàn cho luồng (thread-unsafe), nghĩa là chúng nên luôn được thực hiện trên luồng UI. Các hoạt động trên `Thread` thường được quản lý thông qua các lớp `Handler`, `Looper` và `MessageQueue`. Android cũng cung cấp các cấu trúc cấp cao như `AsyncTask` và `Loader` để quản lý thread trong mối quan hệ với giao diện người dùng.",
+        "links": [
+          {
+            "title": "Luồng",
+            "url": "https://developer.android.com/guide/components/processes-and-threads",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "zXsNEyRbb8UpEOAUv6FpY",
+      "type": "subtopic",
+      "label": "RxJava",
+      "position": {
+        "x": 541.4645995838063,
+        "y": 1575.7758924094805
+      },
+      "size": {
+        "width": 118,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "RxJava (Reactive Extensions for the JVM) là một thư viện mạnh mẽ để tạo lập các chương trình bất đồng bộ và dựa trên sự kiện sử dụng chuỗi observable trong Java. Nếu bạn là nhà phát triển Android, bạn có thể đã quen thuộc với callbacks và các tác vụ async để thực hiện các thao tác chạy dài nền. Tuy nhiên, việc xử lý nhiều tác vụ bất đồng bộ và các callback đệ quy có thể tạo ra mã khó đọc và bảo trì. Để giảm bớt những phức tạp này, RxJava cung cấp các công cụ và phương pháp để tạo, chuyển đổi và liên kết các chuỗi Observable một cách sạch sẽ và tường minh.",
+        "links": [
+          {
+            "title": "RxJava trên GitHub",
+            "url": "https://github.com/ReactiveX/RxJava",
+            "type": "opensource"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4h37WBpYxRRyw9oH8ge7o",
+      "type": "subtopic",
+      "label": "RxKotlin",
+      "position": {
+        "x": 662.4645995838063,
+        "y": 1576.7661110082904
+      },
+      "size": {
+        "width": 109,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`RxKotlin` là một phần mở rộng ngôn ngữ nhẹ cho Java dành cho phát triển Android, cho phép xây dựng ứng dụng Android bằng Kotlin với Reactivex. Nó mang lại sức mạnh của mô hình lập trình phản ứng (reactive programming paradigm) đến Kotlin, mở rộng khả năng xử lý luồng dữ liệu bất đồng bộ. Nó cho phép bạn biểu diễn các luồng dữ liệu tĩnh (ví dụ: đã biết trước) hoặc động (ví dụ: chưa biết tương lai), và thực hiện nhiều thao tác khác nhau trên chúng một cách dễ dàng. Các khái niệm chính của `RxKotlin` bao gồm Observable, Observer và Schedulers. Observable đại diện cho luồng dữ liệu, Observer tương tác với luồng dữ liệu, và Schedulers xác định thread nào để thực hiện các thao tác. RxKotlin giúp quản lý các tác vụ nền, xử lý luồng dữ liệu bất đồng bộ và triển khai giao diện người dùng phức tạp, trong số những thứ khác.",
+        "links": [
+          {
+            "title": "ReactiveX/RxKotlin - RxKotlin trên GitHub",
+            "url": "https://github.com/ReactiveX/RxKotlin",
+            "type": "opensource"
+          }
+        ]
+      }
+    },
+    {
+      "id": "OAb_JD64uGm2tPoue7w6t",
+      "type": "subtopic",
+      "label": "WorkManager",
+      "position": {
+        "x": 541.4645995838063,
+        "y": 1627.84460290515
+      },
+      "size": {
+        "width": 229,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "WorkManager là một thư viện Android do Google giới thiệu để thực hiện các tác vụ một cách có thể đoán trước và đáng tin cậy. Nó được thiết kế cho các tác vụ yêu cầu thời gian chạy đảm bảo, ngay cả khi ứng dụng đã bị đóng hoặc thiết bị khởi động lại. Nó tương thích ngược đến API 14 và sử dụng JobScheduler cho API 23 trở lên, đồng thời sử dụng sự kết hợp của BroadcastReceiver + AlarmManager cho API 14 trở lên. Bất kể cấp độ API của thiết bị, WorkManager hoạt động trên tất cả các thiết bị Android. WorkManager hỗ trợ ba loại công việc - OneTimeWorkRequest, PeriodicWorkRequest và DelayedWorkRequest.",
+        "links": [
+          {
+            "title": "WorkManager",
+            "url": "https://developer.android.com/topic/libraries/architecture/workmanager",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ZEdn2yy-IwHN3kOYr2ZbC",
+      "type": "topic",
+      "label": "Dịch vụ Chung (Common Services)",
+      "position": {
+        "x": 209.56414449780618,
+        "y": 1661.4265444477305
+      },
+      "size": {
+        "width": 229,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Dịch vụ Chung là các đơn vị hoặc thành phần chức năng do hệ điều hành Android cung cấp để sử dụng cho nhà phát triển. Các dịch vụ này bao gồm các thứ như Dịch vụ Vị trí (được sử dụng để xác định vị trí địa lý của thiết bị), Dịch vụ Thông báo (xử lý hiển thị và quản lý thông báo cho người dùng) và Dịch vụ Cảm biến (tương tác với cảm biến phần cứng). Các dịch vụ chung khác bao gồm Dịch vụ Mạng và Kết nối, Quản lý Tài khoản, Dịch vụ Lưu trữ Dữ liệu và nhiều hơn nữa. Chúng đơn giản hóa quá trình phát triển bằng cách xử lý các chức năng phức tạp ở phía sau, cho phép nhà phát triển tập trung vào nhu cầu cụ thể của ứng dụng.",
+        "links": [
+          {
+            "title": "Dịch vụ Chung (Common Services)",
+            "url": "https://developer.android.com/guide/components/services",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Xv0es_z64vh-QzivMeAT3",
+      "type": "subtopic",
+      "label": "Xác thực",
+      "position": {
+        "x": 223.0349540213482,
+        "y": 1172.1577089522766
+      },
+      "size": {
+        "width": 206,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Firebase Authentication trên Android cung cấp các dịch vụ backend, SDK dễ sử dụng và thư viện giao diện người dùng được thiết kế sẵn để xác thực người dùng cho ứng dụng của bạn. Nó hỗ trợ xác thực bằng cách sử dụng mật khẩu, các nhà cung cấp danh tính liên minh phổ biến như Google, Facebook và Twitter, và nhiều hơn nữa. Firebase cũng giúp tích hợp chức năng đăng nhập, đăng ký và đặt lại mật khẩu. Hơn nữa, nó có thể được sử dụng để bảo vệ cơ sở dữ liệu của bạn bằng cách thực hiện quyền truy cập dựa trên vai trò đối với dữ liệu và cung cấp trải nghiệm cá nhân hóa theo danh tính duy nhất của người dùng. Firebase Authentication cung cấp hai phương pháp xác thực. Đó là sử dụng đăng nhập ‘email/mật khẩu’ do Firebase Authentication cung cấp hoặc một ‘nhà cung cấp danh tính liên hiệp’ như Google hoặc Facebook. Nó cũng bao gồm xác thực dựa trên token bằng cách tạo các token tùy chỉnh hoặc xác minh các ID token. Ngoài ra, Firebase Authentication hoạt động với các SDK khách của Firebase để sử dụng thực tế và hoạt động cho các quy trình máy chủ chạy dài hạn đối với một số người dùng của bạn. Firebase Authentication cung cấp một bộ khả năng đầy đủ ngay cả vượt xa xác thực để giúp cuộc sống của bạn dễ dàng hơn, bao gồm các Quy tắc Bảo mật cho Lưu trữ đám mây và Firestore, Liên kết đám mây, và Mời đám mây.",
+        "links": [
+          {
+            "title": "Xác thực Firebase",
+            "url": "https://firebase.google.com/docs/auth",
+            "type": "official"
+          },
+          {
+            "title": "Firebase Authentication: Android",
+            "url": "https://firebase.google.com/docs/auth/android/start",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "xB4evbD07n1VrHOIpowV4",
+      "type": "subtopic",
+      "label": "Crashlytics",
+      "position": {
+        "x": 223.0349540213482,
+        "y": 1225.1577089522766
+      },
+      "size": {
+        "width": 206,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Crashlytics là một bộ trình báo lỗi nhẹ, theo thời gian thực giúp bạn theo dõi, ưu tiên và khắc phục các vấn đề về tính ổn định phá hủy chất lượng của ứng dụng. Nó cung cấp thông tin nhanh chóng và chính xác về các sự cố và giúp bạn có được những hiểu biết sâu sắc về hiệu suất của ứng dụng để xác định dòng mã chính xác mà ứng dụng của bạn gặp lỗi. Crashlytics cung cấp một bộ tính năng toàn diện như phân tích lỗi, tổng hợp vấn đề và theo dõi các hoạt động người dùng dẫn đến một lỗi. Công cụ này hiện là một phần của nền tảng Firebase của Google nhưng cũng có thể được sử dụng độc lập.",
+        "links": [
+          {
+            "title": "Tài liệu Crashlytics",
+            "url": "https://firebase.google.com/docs/crashlytics/get-started?platform=android",
+            "type": "official"
+          },
+          {
+            "title": "Firebase: Crashlytics",
+            "url": "https://www.youtube.com/watch?v=LhjTAkifr6g",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1Tz-Shj_Tuz2U8llEAcLr",
+      "type": "subtopic",
+      "label": "Cấu hình từ xa (Remote Config)",
+      "position": {
+        "x": 223.0349540213482,
+        "y": 1278.1577089522768
+      },
+      "size": {
+        "width": 206,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Firebase Remote Config là một dịch vụ đám mây do Firebase cung cấp. Nó cho phép bạn thay đổi hành vi và giao diện của ứng dụng mà không cần phát hành ứng dụng mới. Bằng cách sử dụng Firebase Remote config, bạn có thể tùy chỉnh ứng dụng của mình cho các phân khúc người dùng khác nhau, quản lý các khía cạnh cốt lõi của ứng dụng bằng cách sửa đổi các tham số bên ngoài và tiến hành kiểm tra A/B để cải thiện ứng dụng của bạn. Nó hoạt động hiệu quả bằng cách sử dụng các giá trị mặc định điều khiển hành vi và giao diện của ứng dụng. Khi ứng dụng cần thông tin cấu hình, nó sẽ thực hiện một yêu cầu đến máy chủ Firebase Remote Config. Nếu máy chủ có các giá trị cập nhật, các giá trị này sẽ thay thế các giá trị mặc định, do đó sửa đổi hành vi hoặc giao diện của ứng dụng theo nhu cầu của bạn.",
+        "links": [
+          {
+            "title": "Cấu hình từ xa (Remote Config)",
+            "url": "https://firebase.google.com/docs/remote-config/get-started?platform=android",
+            "type": "official"
+          },
+          {
+            "title": "Bắt đầu với Cấu hình từ xa",
+            "url": "https://www.youtube.com/watch?v=pcnnbjAAIkI",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "e3vHFaFFMV7kI9q6yf5e9",
+      "type": "subtopic",
+      "label": "Thông báo đám mây (Cloud Messaging)",
+      "position": {
+        "x": 223.0349540213482,
+        "y": 1331.1577089522768
+      },
+      "size": {
+        "width": 206,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Firebase Cloud Messaging (FCM) là một dịch vụ nhắn tin mạnh mẽ, tiết kiệm pin cho phép bạn gửi tin nhắn đáng tin cậy và an toàn đến các ứng dụng Android của mình. Nó cho phép bạn gửi hai loại tin nhắn: ‘tin nhắn thông báo’ và ‘tin nhắn dữ liệu’. Tin nhắn thông báo chủ yếu dành cho thông báo người dùng và chỉ được giao hàng khi ứng dụng đang ở chế độ nền. Mặt khác, tin nhắn dữ liệu có thể xử lý ngay cả khi ứng dụng đang ở chế độ nền hoặc bị tắt và có thể được sử dụng để gửi các cặp giá trị khóa tùy chỉnh. FCM cũng hỗ trợ nhiều tính năng bổ sung khác nhau, chẳng hạn như nhắn tin chủ đề để gửi tin nhắn đến nhiều thiết bị đã đăng ký cùng một chủ đề, nhắn tin nhóm thiết bị cho việc gửi tin nhắn đến các nhóm thiết bị người dùng và nhắn tin upstream để gửi tin nhắn từ ứng dụng khách đến máy chủ FCM.",
+        "links": [
+          {
+            "title": "Tài liệu",
+            "url": "https://firebase.google.com/docs/cloud-messaging/android/client",
+            "type": "official"
+          },
+          {
+            "title": "Firebase Cloud Messaging",
+            "url": "https://www.youtube.com/watch?v=sioEY4tWmLI&list=PLl-K7zZEsYLkuHRCtHTpi6JYHka8oHLft",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3EEfKAd-ppIQpdQSEhbA1",
+      "type": "subtopic",
+      "label": "Firestore",
+      "position": {
+        "x": 223.0349540213482,
+        "y": 1384.1577089522768
+      },
+      "size": {
+        "width": 206,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Firestore, thường được gọi là Firebase Firestore hoặc Cloud Firestore, là một cơ sở dữ liệu linh hoạt, có thể mở rộng cho thiết bị di động, web và máy chủ từ Firebase và Google Cloud. Firestore đi kèm với các tính năng như truy vấn biểu cảm, cập nhật theo thời gian thực và sao lưu dữ liệu đa khu vực tự động. Nó được thiết kế để cung cấp tích hợp liền mạch với các sản phẩm Firebase và Google Cloud khác. Nó cung cấp một cơ sở dữ liệu NoSQL dựa trên đám mây, có nghĩa là dữ liệu được lưu trữ dưới dạng các bộ sưu tập tài liệu. Mỗi tài liệu, lần lượt, chứa một tập hợp các cặp khóa-giá trị. Firestore đảm bảo mạng lưới bền vững, vì dữ liệu đồng bộ hóa trên các ứng dụng khách theo thời gian thực, ngay cả khi thiết bị đang ngoại tuyến, giúp bạn dễ dàng hơn trong việc làm việc với dữ liệu phân tán có thể được giữ đồng bộ giữa nhiều khách hàng.",
+        "links": [
+          {
+            "title": "Firestore",
+            "url": "https://firebase.google.com/docs/firestore",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2baqKY9TdQnPS8ydPlXEu",
+      "type": "label",
+      "label": "Firebase",
+      "position": {
+        "x": 283.5349540213482,
+        "y": 1435.3087759477473
+      },
+      "size": {
+        "width": 85,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "D4ZXQOKJkyFYNZIy-MJ9Y",
+      "type": "subtopic",
+      "label": "Google Admob",
+      "position": {
+        "x": 211.5349540213482,
+        "y": 1483.5309500913381
+      },
+      "size": {
+        "width": 229,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Google AdMob là nền tảng quảng cáo di động được thiết kế cho các nhà phát triển ứng dụng để kiếm tiền bằng cách hiển thị quảng cáo từ hơn 1 triệu người quảng cáo của Google. AdMob hỗ trợ nhiều định dạng quảng cáo khác nhau, chẳng hạn như quảng cáo tiêu đề, quảng cáo giữa màn hình, quảng cáo video và nhiều hơn nữa. Nó cung cấp một bên trung gian mạnh mẽ cho phép bạn hiển thị quảng cáo từ nhiều nguồn khác nhau, bao gồm Google Mobile Ads SDK, mạng lưới quảng cáo của bên thứ ba và chiến dịch quảng cáo nội bộ. Hơn nữa, AdMob cung cấp các công cụ phân tích để hiểu rõ hơn về người dùng của bạn và tối đa hóa doanh thu quảng cáo.",
+        "links": [
+          {
+            "title": "Google AdMob",
+            "url": "https://admob.google.com/home/",
+            "type": "official"
+          },
+          {
+            "title": "Tài liệu Google AdMob",
+            "url": "https://admob.google.com/home/get-started/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "m5rumeynEbS8T27pelr0-",
+      "type": "subtopic",
+      "label": "Google Play Services",
+      "position": {
+        "x": 211.5349540213482,
+        "y": 1536.5309500913381
+      },
+      "size": {
+        "width": 229,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "_Google Play Services_ là gói dịch vụ và API nền tảng độc quyền cho thiết bị Android từ Google. Được vận hành bởi Google, dịch vụ cung cấp các chức năng cốt lõi như xác thực cho các dịch vụ Google, đồng bộ liên hệ, truy cập tất cả cài đặt quyền riêng tư mới nhất của người dùng và các dịch vụ dựa trên vị trí có công suất thấp hơn, chất lượng cao hơn. Nó cũng tăng tốc tìm kiếm ngoại tuyến, cung cấp bản đồ chi tiết hơn, cải thiện trải nghiệm chơi game và nhiều hơn nữa. Google Play Services đóng một vai trò quan trọng trong hoạt động của nhiều ứng dụng khác nhau, bao gồm cả những ứng dụng không được phát triển bởi Google. Hơn nữa, nó cải thiện trải nghiệm Android tổng thể bằng cách tăng tốc tìm kiếm ngoại tuyến, cung cấp bản đồ chi tiết hơn, nâng cao trải nghiệm chơi game và nhiều hơn nữa.",
+        "links": [
+          {
+            "title": "Google Play Services",
+            "url": "https://developer.android.com/google/play-services",
+            "type": "official"
+          },
+          {
+            "title": "Tài liệu Google Play Services",
+            "url": "https://developer.android.com/google/play-services/overview.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "S5FVF9rMgVSSDKXJW2GYb",
+      "type": "subtopic",
+      "label": "Google Maps",
+      "position": {
+        "x": 211.5349540213482,
+        "y": 1589.5309500913381
+      },
+      "size": {
+        "width": 229,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Google Maps là một dịch vụ quan trọng trên Android, cung cấp công nghệ bản đồ mạnh mẽ, thân thiện với người dùng và thông tin doanh nghiệp địa phương. Các tính năng của Google Maps bao gồm bản đồ đường phố, hình ảnh vệ tinh, tầm nhìn toàn cảnh 360 độ về các con phố (Street View), điều kiện giao thông theo thời gian thực (Google Traffic) và lập kế hoạch tuyến đường để đi bộ, lái xe, xe đạp hoặc phương tiện công cộng. Giao diện dịch vụ bao gồm một chức năng để hiển thị nhiều lớp như mật độ giao thông, tuyến đường sắt đô thị và các con đường dành cho xe đạp. Google Maps cho Android cũng cung cấp API, cho phép nhà phát triển tương tác với và kiểm soát một số khía cạnh của dịch vụ Google Maps trong ứng dụng của họ. Khả năng này chịu sự giới hạn và yêu cầu nhất định do Google đặt ra.",
+        "links": [
+          {
+            "title": "Google Maps",
+            "url": "https://developers.google.com/maps/documentation/android-sdk/overview",
+            "type": "official"
+          },
+          {
+            "title": "Tài liệu Google Maps",
+            "url": "https://developers.google.com/maps/documentation/android-sdk/intro",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "77F9F3oI5CPgwgM_hxWfa",
+      "type": "topic",
+      "label": "Kiểm tra mã (Linting)",
+      "position": {
+        "x": 541.30410704482,
+        "y": 1739.1260426182998
+      },
+      "size": {
+        "width": 182,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Linting trong Android là một công cụ phân tích mã nguồn của ứng dụng để xác định các lỗi tiềm ẩn, lỗi, lỗi kiểu dáng và cấu trúc đáng ngờ. Thuật ngữ Linting bắt nguồn từ một tiện ích Unix kiểm tra mã nguồn ngôn ngữ C. Trong Android, nó không chỉ kiểm tra các vấn đề Java mà còn cả tệp bố cục XML và cung cấp cảnh báo về các vấn đề mà nó gặp phải liên quan đến khả năng sử dụng, hiệu suất và khả năng tiếp cận. Ví dụ, nó có thể xem xét bản nháp của tệp AndroidManifest.xml của bạn để tìm kiếm sự trùng lặp các thành phần hoặc các bất thường khác sẽ khiến ứng dụng bị sập.",
+        "links": [
+          {
+            "title": "Kiểm tra mã (Linting)",
+            "url": "https://developer.android.com/studio/write/lint",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "zMbXQH17Q52opdbitPzj7",
+      "type": "subtopic",
+      "label": "Ktlint",
+      "position": {
+        "x": 545.0824885942002,
+        "y": 1817.1332359908408
+      },
+      "size": {
+        "width": 81,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ktlint là một công cụ phân tích mã tĩnh. Nó đảm bảo kiểu dáng nhất quán cao và tuân thủ chặt chẽ các quy ước lập trình Kotlin chính thức. ktlint không có bất kỳ tùy chọn cấu hình nào (theo thiết kế). Chỉ có ngoại lệ là tắt một số quy tắc cụ thể và chỉ định kích thước thụt lề. ktlint có thể kiểm tra, cũng như tự động sửa lỗi cho mã của bạn. Mục tiêu chính của nó là mang lại kiểu dáng mã thống nhất cho dự án của bạn. Nó hoạt động trên dòng lệnh, do đó có thể được tích hợp vào luồng liên tục của bạn. Nó cũng có các gói Ant, Gradle và Maven. Bạn có thể sử dụng Ktlint với bất kỳ dự án Android/Kotlin nào miễn là bạn đã cài đặt Gradle hoặc Maven.",
+        "links": [
+          {
+            "title": "Ktlint",
+            "url": "https://ktlint.github.io/",
+            "type": "official"
+          },
+          {
+            "title": "Ktlint: Phân tích mã tĩnh cho Kotlin",
+            "url": "https://github.com/pinterest/ktlint",
+            "type": "opensource"
+          }
+        ]
+      }
+    },
+    {
+      "id": "RUvuCp_JK5MQQT13SSHUV",
+      "type": "subtopic",
+      "label": "Detekt",
+      "position": {
+        "x": 633.5824885942002,
+        "y": 1817.1332359908408
+      },
+      "size": {
+        "width": 91,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Detekt là một công cụ phân tích mã tĩnh cho ngôn ngữ lập trình Kotlin. Nó hoạt động trên cây cú pháp trừu tượng được cung cấp bởi trình biên dịch Kotlin và có thể chạy theo dòng lệnh hoặc như một tác vụ trong kịch bản Gradle của bạn. Detekt cung cấp các báo cáo độ phức tạp có thể được sử dụng để xác định mã quá phức tạp và giúp đơn giản hóa nó. Nó cũng kiểm tra nhiều lỗi tiềm ẩn và mùi mã khác nhau, bao gồm các vấn đề về định dạng, quy tắc đặt tên, xử lý ngoại lệ và hơn thế nữa. Hơn nữa, Detekt rất có thể cấu hình, cho phép bạn bật, tắt hoặc sửa đổi hành vi của các kiểm tra của nó để phù hợp với nhu cầu của dự án của bạn.",
+        "links": [
+          {
+            "title": "Detekt",
+            "url": "https://detekt.dev/",
+            "type": "official"
+          },
+          {
+            "title": "Phân tích Mã tĩnh cho Kotlin",
+            "url": "https://github.com/detekt/detekt",
+            "type": "opensource"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6KbSUAoT_jTudFoIbwMpA",
+      "type": "topic",
+      "label": "Gỡ lỗi",
+      "position": {
+        "x": 799.2599844228607,
+        "y": 1949.9848821882983
+      },
+      "size": {
+        "width": 209,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Gỡ lỗi là một bước quan trọng trong quy trình phát triển ứng dụng. Trong phát triển Android, nó bao gồm xác định và sửa chữa các lỗi, hay còn gọi là bug, trong mã của bạn. Bạn có thể gỡ lỗi các ứng dụng Android bằng nhiều công cụ và kỹ thuật khác nhau. Ví dụ, Android Studio, môi trường phát triển tích hợp (IDE) chính cho Android, đi kèm với một công cụ gỡ lỗi tích hợp sẵn, đó là Android Debug Bridge (ADB). Công cụ dòng lệnh này cho phép bạn giao tiếp với thiết bị của mình và thực hiện nhiều hành động như cài đặt và gỡ lỗi ứng dụng. Android Studio cũng hỗ trợ gỡ lỗi từng bước, trong đó bạn có thể đặt dấu dừng trong mã của mình và kiểm tra trạng thái của ứng dụng tại những điểm đó.",
+        "links": [
+          {
+            "title": "Gỡ lỗi",
+            "url": "https://developer.android.com/studio/debug",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "VFOD4JrV8kZ2583G3oT95",
+      "type": "subtopic",
+      "label": "Timber",
+      "position": {
+        "x": 801.7599844228607,
+        "y": 1704.1426067976822
+      },
+      "size": {
+        "width": 204,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Timber là một công cụ hỗ trợ ghi log được mở rộng đặc biệt từ lớp Log của Android. Nó được xây dựng để đơn giản hóa quá trình ghi log đồng thời giảm thiểu lượng mã boilerplate mà nhà phát triển phải viết. Nó được thiết kế và duy trì bởi Jake Wharton, một đóng góp nổi tiếng trong cộng đồng Nhà phát triển Android. Trong Timber, mỗi thông báo log sẽ được chuyển hướng đến logger khả dụng tiếp theo, giảm sự dư thừa của việc gán nhãn log thủ công. Tính đơn giản của Timber được làm nổi bật bằng khả năng ghi log mà không cần định nghĩa bất kỳ nhãn nào. Quan trọng nhất, Timber chỉ ghi log các tin nhắn trong phiên bản debug theo mặc định, tránh rò rỉ dữ liệu tiềm ẩn trong ứng dụng sản xuất của bạn.",
+        "links": [
+          {
+            "title": "Timber trên GitHub",
+            "url": "https://github.com/JakeWharton/timber",
+            "type": "opensource"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3i4g9ZWgLxKb2UMgRJi4Q",
+      "type": "subtopic",
+      "label": "Leak Canary",
+      "position": {
+        "x": 801.7599844228607,
+        "y": 1757.1426067976822
+      },
+      "size": {
+        "width": 204,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "LeakCanary là một thư viện phát hiện rò rỉ bộ nhớ mã nguồn mở mạnh mẽ cho Android và Java. Nó được tích hợp vào ứng dụng của bạn, và ngay khi bạn chạy ứng dụng, LeakCanary sẽ bắt đầu theo dõi các rò rỉ bộ nhớ và ghi lại dump bộ nhớ nếu phát hiện thấy. Sau khi điều tra, nó sẽ trình bày một stack trace đầy đủ để giúp bạn xác định chính xác vị trí của rò rỉ bộ nhớ. Với giao diện thân thiện với người dùng của LeakCanary, bạn có thể phân tích rò rỉ bộ nhớ ngay trong ứng dụng của mình. Phiên bản mới nhất của LeakCanary cũng bao gồm các cải tiến khác như phát hiện tự động rò rỉ trong Activity, Fragment, View, ViewModel, LiveData, v.v.",
+        "links": [
+          {
+            "title": "Leak Canary",
+            "url": "https://square.github.io/leakcanary/",
+            "type": "official"
+          },
+          {
+            "title": "LeakCanary trên GitHub",
+            "url": "https://github.com/square/leakcanary",
+            "type": "opensource"
+          }
+        ]
+      }
+    },
+    {
+      "id": "7RKN1FNtRE_BE6QeAQrKb",
+      "type": "subtopic",
+      "label": "Chucker",
+      "position": {
+        "x": 801.7599844228607,
+        "y": 1810.1426067976822
+      },
+      "size": {
+        "width": 204,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Chucker là một thư viện gỡ lỗi nguồn mở được tạo ra cho các ứng dụng Android. Nó được thiết kế để dễ sử dụng và thuận tiện cho nhà phát triển. Thư viện này chặn và ghi lại tất cả các yêu cầu và phản hồi HTTP bên trong ứng dụng của bạn, giúp hình dung và chia sẻ thông tin này ở định dạng dễ đọc và dễ hiểu. Sử dụng các tính năng độc đáo của Chucker, bạn có thể kiểm tra tất cả lưu lượng HTTP và HTTPS đang đi vào và ra khỏi ứng dụng của bạn trực tiếp. Ngoài ra, nó cung cấp các tính năng hữu ích khác như một giao diện người dùng thân thiện để xem phản hồi thô của máy chủ. Nó giống như có một bộ kiểm tra mạng tích hợp trong công cụ gỡ lỗi của bạn, cho phép bạn giải quyết các vấn đề liên quan đến mạng hiệu quả hơn.",
+        "links": [
+          {
+            "title": "ChuckerTeam/chucker - Chucker On GitHub",
+            "url": "https://github.com/ChuckerTeam/chucker",
+            "type": "opensource"
+          },
+          {
+            "title": "Kiểm tra lưu lượng mạng với Chucker",
+            "url": "https://medium.com/tech-takeaways/simple-android-network-traffic-inspection-with-chucker-and-seismic-1e6162c51f64",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ACUJlDDR0jqEohsFzWEoQ",
+      "type": "subtopic",
+      "label": "Jetpack Benchmark",
+      "position": {
+        "x": 801.7599844228607,
+        "y": 1863.1426067976822
+      },
+      "size": {
+        "width": 204,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Jetpack Benchmark là một thư viện trong bộ Jetpack Suite dành cho Android cho phép nhà phát triển đo lường hiệu suất của ứng dụng một cách nhanh chóng và chính xác. Thư viện này có thể giúp đo lường hiệu năng CPU, bộ nhớ và IO của mã trong các ứng dụng Android. Nhà phát triển có thể định nghĩa một số đường dẫn mã cụ thể để kiểm tra hiệu năng bằng cách bọc mã vào `BenchmarkRule.measureRepeated {}`. Ngoài ra, nó tự động xử lý giai đoạn làm nóng (warmup), đo lường hiệu suất của mã và xuất kết quả kiểm tra hiệu năng đến logcat của Android Studio.",
+        "links": [
+          {
+            "title": "Jetpack Benchmark",
+            "url": "https://developer.android.com/studio/profile/benchmark",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ZOQm5OlzCA-h_yxywwDrW",
+      "type": "topic",
+      "label": "Kiểm thử",
+      "position": {
+        "x": 210.5417587642338,
+        "y": 1817.1332359908408
+      },
+      "size": {
+        "width": 225,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Kiểm tra là một phần quan trọng của quy trình phát triển ứng dụng. Nó liên quan đến việc xác minh chức năng, hiệu suất, khả năng sử dụng và tính nhất quán của ứng dụng trước khi triển khai lên Play Store. Có hai loại phương pháp kiểm tra được sử dụng đáng chú ý: Kiểm tra đơn vị và Kiểm tra Instrumentation. Kiểm tra đơn vị, như tên gọi cho thấy, kiểm tra từng đơn vị hoặc phân đoạn mã riêng lẻ. Nó không yêu cầu các phụ thuộc Android do đó chạy nhanh hơn. Kiểm tra Instrumentation, ngược lại, yêu cầu các phụ thuộc Android và chậm hơn. Kiểm tra Instrumentation kiểm tra giao diện người dùng, mô phỏng tương tác của người dùng và xác thực điều hướng giữa các phần khác nhau của ứng dụng của bạn. Android cung cấp các khung kiểm tra tích hợp sẵn như JUnit cho kiểm tra đơn vị và Espresso cho kiểm tra Instrumentation.",
+        "links": [
+          {
+            "title": "Kiểm thử",
+            "url": "https://developer.android.com/training/testing",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "-ONSC-ImGSELbamKmjIlH",
+      "type": "subtopic",
+      "label": "Espresso",
+      "position": {
+        "x": 207.52041671512893,
+        "y": 1735.207699761579
+      },
+      "size": {
+        "width": 118,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Espresso là một framework kiểm thử được cung cấp bởi Android để tạo các bài kiểm tra giao diện người dùng (UI) cho ứng dụng Android. Nó tự động đồng bộ hóa các thao tác kiểm thử của bạn với giao diện người dùng của ứng dụng, đảm bảo rằng bài kiểm thử chỉ tiếp tục khi các hoạt động UI cần thiết đã hoàn thành. Trong Espresso, bạn có thể mô phỏng tương tác người dùng một cách lập trình như nhấp vào nút, nhập văn bản hoặc cuộn màn hình, sau đó kiểm tra trạng thái giao diện người dùng để xác minh nó như mong đợi. Các bài kiểm tra Espresso có thể chạy trên các thiết bị chạy Android 4.3 (API level 18) trở lên.",
+        "links": [
+          {
+            "title": "Espresso",
+            "url": "https://developer.android.com/training/testing/espresso",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "gvGAwjk_nhEgxzZ_c3f6b",
+      "type": "subtopic",
+      "label": "JUnit",
+      "position": {
+        "x": 328.52041671512893,
+        "y": 1735.207699761579
+      },
+      "size": {
+        "width": 107,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "JUnit là một framework kiểm thử phổ biến cho lập trình Java. Nó là nền tảng cho nhiều thư viện và công cụ kiểm thử khác trong hệ sinh thái Android, khiến nó trở nên quan trọng đối với bất kỳ nhà phát triển Android nào cần làm quen. Sử dụng cơ bản của JUnit bao gồm các chú thích như `@Test`, chỉ định các phương thức đại diện cho một trường hợp kiểm thử duy nhất. Các tính năng hữu ích khác bao gồm `@Before` và `@After` cho phép xác định rõ quy trình thiết lập và dọn dẹp. Một tính năng mạnh mẽ khác trong JUnit là khả năng tạo ra các bài kiểm tra được tham số hóa, hiệu quả chạy cùng một bài kiểm tra nhiều lần với các đầu vào khác nhau.",
+        "links": [
+          {
+            "title": "Tài liệu",
+            "url": "https://developer.android.com/training/testing/local-tests",
+            "type": "official"
+          },
+          {
+            "title": "Junit cho android",
+            "url": "https://www.youtube.com/watch?v=jE1vQGVHaQA",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "kc6buUsLAeZeUb4Tk0apM",
+      "type": "topic",
+      "label": "Phân phối",
+      "position": {
+        "x": 603.2670925742796,
+        "y": 2089.695020171181
+      },
+      "size": {
+        "width": 182,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Phân phối trong Android đề cập đến các phương pháp và kênh bạn có thể sử dụng để đưa ứng dụng Android của mình đến tay người dùng. Bạn có thể chọn phân phối ứng dụng của mình trên Cửa hàng Google Play, đó là cửa hàng ứng dụng chính thức cho hệ điều hành Android. Nền tảng này làm cho ứng dụng của bạn khả dụng với người dùng ở nhiều quốc gia trên khắp thế giới. Ngoài ra, bạn cũng có thể lựa chọn phân phối ứng dụng của mình thông qua các cửa hàng ứng dụng bên thứ ba khác hoặc thậm chí trang web của riêng bạn. Hơn nữa, Google cung cấp một loạt các tùy chọn phân phối như nhắm mục tiêu theo quốc gia, nhắm mục tiêu thiết bị và triển khai giai đoạn, có thể được tùy chỉnh theo chiến lược phân phối của bạn. Hãy nhớ rằng, khi bạn gửi ứng dụng của mình để phân phối, bạn phải tuân thủ chính sách và hướng dẫn nội dung của từng cửa hàng ứng dụng tương ứng.",
+        "links": [
+          {
+            "title": "Phân phối Nhà phát triển Google Play",
+            "url": "https://developer.android.com/distribute",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "T7q_quNaIAuGi96OdnDT1",
+      "type": "subtopic",
+      "label": "Firebase Distribution",
+      "position": {
+        "x": 878.3250908204957,
+        "y": 2057.3464333036
+      },
+      "size": {
+        "width": 206,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Firebase Distribution là một công cụ phát triển trong bộ công cụ Google Firebase cho phép bạn chia sẻ các phiên bản trước của ứng dụng Android của mình với nhóm phát triển của bạn. Nó cho phép bạn phân phối các tệp thực thi ứng dụng đến nhiều người kiểm tra và nhóm để nhận phản hồi trước khi ra mắt chính thức của ứng dụng. Firebase Distribution hỗ trợ cả ứng dụng Android và iOS và hoạt động song hành với các tính năng khác, chẳng hạn như Firebase Crashlytics, để quản lý hiệu quả các khía cạnh kiểm thử và gỡ lỗi của vòng đời ứng dụng của bạn.",
+        "links": [
+          {
+            "title": "Firebase Distribution",
+            "url": "https://firebase.google.com/docs/app-distribution",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "HgRdgi2Hu4C8YLG5PXfoo",
+      "type": "subtopic",
+      "label": "Google Playstore",
+      "position": {
+        "x": 878.3250908204957,
+        "y": 2111.3464333036
+      },
+      "size": {
+        "width": 208,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Google Play Store là kênh phân phối chính thức cho các ứng dụng Android và nội dung truyền phương tiện kỹ thuật số khác. Nó là một cửa hàng phần mềm trực tuyến toàn cầu được phát triển và vận hành bởi Google. Các nhà phát triển nộp đơn ứng dụng của họ lên Google Play thông qua Google Play Console, nơi các hệ thống tự động của Google quét để tìm mã và vi phạm nội dung có thể gây hại tiềm ẩn trước khi chúng được xuất bản trên Play Store. Người dùng sau đó có thể duyệt, tải xuống và sử dụng các ứng dụng này trên thiết bị Android của họ hoặc thông qua web. Các giao dịch mua, tải xuống và phản hồi của người dùng có thể được theo dõi thông qua Google Play Console. Chủ sở hữu thiết bị Android cũng có thể cấu hình cập nhật tự động cho các ứng dụng mà họ đã cài đặt từ cửa hàng. Nền tảng này hỗ trợ nhiều ngôn ngữ và nhiều phương thức thanh toán khác nhau, giúp nó dễ tiếp cận và thân thiện với khách hàng.",
+        "links": [
+          {
+            "title": "Cửa hàng Google Play",
+            "url": "https://play.google.com/store",
+            "type": "official"
+          },
+          {
+            "title": "Tài liệu Cửa hàng Google Play",
+            "url": "https://developer.android.com/distribute/googleplay",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "_FSlD_qTz5Xo0x3pB6sZI",
+      "type": "subtopic",
+      "label": "APK đã ký",
+      "position": {
+        "x": 347.5641444978062,
+        "y": 2089.695020171181
+      },
+      "size": {
+        "width": 162,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Một APK có dấu ký hiệu là một phiên bản của ứng dụng của bạn mà bạn chuẩn bị để phân phối trên Play Store hoặc các thị trường Android khác. Khi bạn ký số ứng dụng bằng khóa riêng tư, bạn xác thực danh tính của mình như nhà phát triển ứng dụng. Đó là một bước bắt buộc bởi hệ thống Android đảm bảo chỉ các bản cập nhật APK đến từ nhà phát triển gốc mới được chấp nhận. Hệ thống Android sẽ từ chối cài đặt một ứng dụng nếu nó không được ký đúng cách, do đó bảo vệ người dùng khỏi những rủi ro bảo mật tiềm ẩn.",
+        "links": [
+          {
+            "title": "Ký ứng dụng của bạn",
+            "url": "https://developer.android.com/studio/publish/app-signing",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Wf9BM0COudf-Wz_ieKqr7",
+      "type": "vertical",
+      "label": "nút theo chiều dọc",
+      "position": {
+        "x": 1086.3250908204957,
+        "y": 2057.3464333036
+      },
+      "size": {
+        "width": 21,
+        "height": 103
+      },
+      "style": {
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "FS7mpWrs6zdFRAAsegcyA",
+      "type": "label",
+      "label": "Các phương thức phân phối",
+      "position": {
+        "x": 1106.297678604876,
+        "y": 2090.8464333036
+      },
+      "size": {
+        "width": 153,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "Ju00mr0KLGN2BV6yEQGPt",
+      "type": "vertical",
+      "label": "nút theo chiều dọc",
+      "position": {
+        "x": 683.4983518244453,
+        "y": 2309.544858179337
+      },
+      "size": {
+        "width": 21,
+        "height": 104
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#4136D4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "4_e76QafrB419S2INOeKd",
+      "type": "topic",
+      "label": "Giao diện & Điều hướng",
+      "position": {
+        "x": 855.9237456884,
+        "y": 873.1993520650623
+      },
+      "size": {
+        "width": 224,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Trong phát triển Android, các khái niệm \"Interface\" (Giao diện) và \"Navigation\" (Điều hướng) là rất quan trọng. \"Interface\" thường đề cập đến Giao diện Người dùng đồ họa (GUI) mà người dùng tương tác. Điều này bao gồm các nút bấm, trường nhập liệu, hình ảnh, thanh cuộn và các thành phần UI khác mà người dùng có thể tương tác để thực hiện các thao tác nhất định. Các công cụ như XML và Material Designs được sử dụng cho thiết kế giao diện trong Android.",
+        "links": [
+          {
+            "title": "Nhà phát triển Android: Giao diện (Interface)",
+            "url": "https://developer.android.com/guide/topics/ui/declaring-layout.html",
+            "type": "official"
+          },
+          {
+            "title": "Nhà phát triển Android: Điều hướng (Navigation)",
+            "url": "https://developer.android.com/guide/navigation",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "RKIW9hDrCd03Bf3djoJvp",
+      "type": "paragraph",
+      "label": "Các mẫu thiết kế",
+      "position": {
+        "x": 1047.0688147107603,
+        "y": 1339.8965401994208
+      },
+      "size": {
+        "width": 215,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "borderColor": "#000000",
+        "backgroundColor": "#ffffff",
+        "color": "#000000",
+        "justifyContent": "center",
+        "padding": 16,
+        "textAlign": "center"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "d1G8QZ82y7ez7rLskMZiv",
+      "type": "paragraph",
+      "label": "Architectural Patterns",
+      "position": {
+        "x": 1047.0688147107603,
+        "y": 1174.6339633778666
+      },
+      "size": {
+        "width": 217,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "borderColor": "#000000",
+        "backgroundColor": "#ffffff",
+        "color": "#000000",
+        "justifyContent": "center",
+        "padding": 16,
+        "textAlign": "center"
+      },
+      "z_index": 999
+    }
+  ],
+  "edges": [
+    {
+      "id": "XX0I26JoVMVXIe_7bVMix",
+      "source": "iogwMmOvub2ZF4zgg6WyF",
+      "target": "_hYN0gEi9BL24nptEtXWU",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "dFn6kGOoJ-0BzJJEb9DSG",
+      "source": "_hYN0gEi9BL24nptEtXWU",
+      "target": "idLHBxhvcIqZTqmh_E8Az",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "arkF7QJJRbCBYWp0crqa2",
+      "source": "_hYN0gEi9BL24nptEtXWU",
+      "target": "os3Pa6W9SSNEzgmlBbglQ",
+      "source_handle": "z2",
+      "target_handle": "y2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "HNVw8OboycWKLEtEbG2bn",
+      "source": "_hYN0gEi9BL24nptEtXWU",
+      "target": "3oInpqvTSSC5_K6i7j8N7",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "auB7Png72XjmhcLr3IJA7",
+      "source": "_hYN0gEi9BL24nptEtXWU",
+      "target": "YKhuRbcUFzo0hTvuTq-Yl",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "2aoDIr80lXSJLW1hIGUkb",
+      "source": "jZ67HhVRelJaxjsCckSSI",
+      "target": "hWA7RtuqltMTmHdcCnmES",
+      "source_handle": "x2",
+      "target_handle": "y1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "m-_y7nLeYFkUKGiacxWA0",
+      "source": "",
+      "target": "NMznG9mo2wzNFnjhg990f",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "G7pXuJfkyt2nWAOHU8yV0",
+      "source": "",
+      "target": "gc_7cuIO2_joKlQRAPDfX",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "2_6Yz3-Agx9_rEN5xW86c",
+      "source": "rrrvATyhXqRgJGWI3z0WF",
+      "target": "AvbMQ5vY3ip1oX_6Yq4ie",
+      "source_handle": "x2",
+      "target_handle": "w2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "kgMI98fg2-mKMgUs0wnjD",
+      "source": "hWA7RtuqltMTmHdcCnmES",
+      "target": "1AJv95mTLpR7L8KBoGym8",
+      "source_handle": "w2",
+      "target_handle": "x1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "ts38Q2ceHs60TJscUBZVE",
+      "source": "hWA7RtuqltMTmHdcCnmES",
+      "target": "0etAs56EeBfh_0IlAaSra",
+      "source_handle": "y2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "ZiMV7umyPdhy3JJDcopR-",
+      "source": "jZ67HhVRelJaxjsCckSSI",
+      "target": "h6ceO0kiBIxNRkPzN3hBY",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "WI-MhbxrehFcVwyGJ5CQJ",
+      "source": "jZ67HhVRelJaxjsCckSSI",
+      "target": "_JlT9oKQ6Yu4UX6l19G8P",
+      "source_handle": "y2",
+      "target_handle": "z2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "qUrLBzvXvJOg53HBfjrOI",
+      "source": "_hYN0gEi9BL24nptEtXWU",
+      "target": "jZ67HhVRelJaxjsCckSSI",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-5Z9o-b3vBA-ITFg86zzYMx2-Suws-7f_6Z1ChpfcnxX2Mw1",
+      "source": "5Z9o-b3vBA-ITFg86zzYM",
+      "target": "Suws-7f_6Z1ChpfcnxX2M",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-Suws-7f_6Z1ChpfcnxX2Mz2-qIzUv8-GgQnkqChEdgD50y1",
+      "source": "Suws-7f_6Z1ChpfcnxX2M",
+      "target": "qIzUv8-GgQnkqChEdgD50",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-Suws-7f_6Z1ChpfcnxX2Mz2-RBABbkzD_uNFwEO-hssZOy2",
+      "source": "Suws-7f_6Z1ChpfcnxX2M",
+      "target": "RBABbkzD_uNFwEO-hssZO",
+      "source_handle": "z2",
+      "target_handle": "y2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-Suws-7f_6Z1ChpfcnxX2Mx2-HlUUGj3dOZ68t4gIjerXhw1",
+      "source": "Suws-7f_6Z1ChpfcnxX2M",
+      "target": "HlUUGj3dOZ68t4gIjerXh",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-HlUUGj3dOZ68t4gIjerXhy2-ZRGsokU313Ky-anWbWK6qz1",
+      "source": "HlUUGj3dOZ68t4gIjerXh",
+      "target": "ZRGsokU313Ky-anWbWK6q",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-HlUUGj3dOZ68t4gIjerXhy2-jl1FsQ5-WGKeFyaILNt_pz1",
+      "source": "HlUUGj3dOZ68t4gIjerXh",
+      "target": "jl1FsQ5-WGKeFyaILNt_p",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-HlUUGj3dOZ68t4gIjerXhy2-j69erqfosSZMDlmKcnnn0z1",
+      "source": "HlUUGj3dOZ68t4gIjerXh",
+      "target": "j69erqfosSZMDlmKcnnn0",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-HlUUGj3dOZ68t4gIjerXhy2-cNeT1dJDfgn0ndPzSxhSLz1",
+      "source": "HlUUGj3dOZ68t4gIjerXh",
+      "target": "cNeT1dJDfgn0ndPzSxhSL",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-HlUUGj3dOZ68t4gIjerXhy2-FVxNjbDBxgf6vkZWw1Awtz1",
+      "source": "HlUUGj3dOZ68t4gIjerXh",
+      "target": "FVxNjbDBxgf6vkZWw1Awt",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-HlUUGj3dOZ68t4gIjerXhy2-5m_7DvInF8C_4Ml1xVI6Lz1",
+      "source": "HlUUGj3dOZ68t4gIjerXh",
+      "target": "5m_7DvInF8C_4Ml1xVI6L",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-HlUUGj3dOZ68t4gIjerXhz2-5s1CqsYCOXjNroDHaGKGay1",
+      "source": "HlUUGj3dOZ68t4gIjerXh",
+      "target": "5s1CqsYCOXjNroDHaGKGa",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-5s1CqsYCOXjNroDHaGKGay2-4_e76QafrB419S2INOeKdw2",
+      "source": "5s1CqsYCOXjNroDHaGKGa",
+      "target": "5Li8J5iR_ZuyIlxX0LYei",
+      "source_handle": "y2",
+      "target_handle": "w2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-kc6buUsLAeZeUb4Tk0apMz2-HgRdgi2Hu4C8YLG5PXfooy1",
+      "source": "kc6buUsLAeZeUb4Tk0apM",
+      "target": "HgRdgi2Hu4C8YLG5PXfoo",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-kc6buUsLAeZeUb4Tk0apMz2-T7q_quNaIAuGi96OdnDT1y2",
+      "source": "kc6buUsLAeZeUb4Tk0apM",
+      "target": "T7q_quNaIAuGi96OdnDT1",
+      "source_handle": "z2",
+      "target_handle": "y2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-5Li8J5iR_ZuyIlxX0LYeix2-4_e76QafrB419S2INOeKdw1",
+      "source": "5Li8J5iR_ZuyIlxX0LYei",
+      "target": "4_e76QafrB419S2INOeKd",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-5Li8J5iR_ZuyIlxX0LYeiy2-nwuVlPmzwJ17mtVQ8Hi9wz1",
+      "source": "5Li8J5iR_ZuyIlxX0LYei",
+      "target": "nwuVlPmzwJ17mtVQ8Hi9w",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-4_e76QafrB419S2INOeKdz2-60Vm-77rseUqpMiFvp-dAx1",
+      "source": "4_e76QafrB419S2INOeKd",
+      "target": "60Vm-77rseUqpMiFvp-dA",
+      "source_handle": "z2",
+      "target_handle": "x1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-4_e76QafrB419S2INOeKdz2-xV475jHTlLuHtpHZeXb7Pw1",
+      "source": "4_e76QafrB419S2INOeKd",
+      "target": "xV475jHTlLuHtpHZeXb7P",
+      "source_handle": "z2",
+      "target_handle": "w1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-4_e76QafrB419S2INOeKdx2-jePGzTejFe4ryA5qFFmjlw2",
+      "source": "4_e76QafrB419S2INOeKd",
+      "target": "jePGzTejFe4ryA5qFFmjl",
+      "source_handle": "x2",
+      "target_handle": "w2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-jePGzTejFe4ryA5qFFmjlz2-d1G8QZ82y7ez7rLskMZivw2",
+      "source": "jePGzTejFe4ryA5qFFmjl",
+      "target": "d1G8QZ82y7ez7rLskMZiv",
+      "source_handle": "z2",
+      "target_handle": "w2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-0fNQWRxst8xRstIfPaPO6y2-PKql1HY0PLMfp50FRELXLz1",
+      "source": "0fNQWRxst8xRstIfPaPO6",
+      "target": "PKql1HY0PLMfp50FRELXL",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-0fNQWRxst8xRstIfPaPO6y2-GWq3s1iTxQOp1BstHscJ9z1",
+      "source": "0fNQWRxst8xRstIfPaPO6",
+      "target": "GWq3s1iTxQOp1BstHscJ9",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-0fNQWRxst8xRstIfPaPO6y2-Bfg4So5RlI09zFNcburJdz1",
+      "source": "0fNQWRxst8xRstIfPaPO6",
+      "target": "Bfg4So5RlI09zFNcburJd",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-0fNQWRxst8xRstIfPaPO6y2-A4kdaj6AFueUgPI7hwKi5z1",
+      "source": "0fNQWRxst8xRstIfPaPO6",
+      "target": "A4kdaj6AFueUgPI7hwKi5",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-Yb6aKJMMCxU1QVltWg3Dry2-cFYZ2C7yNnY6NHKUNP2Z4z2",
+      "source": "Yb6aKJMMCxU1QVltWg3Dr",
+      "target": "cFYZ2C7yNnY6NHKUNP2Z4",
+      "source_handle": "y2",
+      "target_handle": "z2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-cFYZ2C7yNnY6NHKUNP2Z4y2-ZEdn2yy-IwHN3kOYr2ZbCz1",
+      "source": "cFYZ2C7yNnY6NHKUNP2Z4",
+      "target": "ZEdn2yy-IwHN3kOYr2ZbC",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-ZEdn2yy-IwHN3kOYr2ZbCz2-77F9F3oI5CPgwgM_hxWfay1",
+      "source": "ZEdn2yy-IwHN3kOYr2ZbC",
+      "target": "77F9F3oI5CPgwgM_hxWfa",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-77F9F3oI5CPgwgM_hxWfay2-ZOQm5OlzCA-h_yxywwDrWz1",
+      "source": "77F9F3oI5CPgwgM_hxWfa",
+      "target": "ZOQm5OlzCA-h_yxywwDrW",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-ZOQm5OlzCA-h_yxywwDrWx2-6KbSUAoT_jTudFoIbwMpAy1",
+      "source": "ZOQm5OlzCA-h_yxywwDrW",
+      "target": "6KbSUAoT_jTudFoIbwMpA",
+      "source_handle": "x2",
+      "target_handle": "y1",
+      "edge_style": "solid",
+      "line_type": "step",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-6KbSUAoT_jTudFoIbwMpAy2-kc6buUsLAeZeUb4Tk0apMw2",
+      "source": "6KbSUAoT_jTudFoIbwMpA",
+      "target": "kc6buUsLAeZeUb4Tk0apM",
+      "source_handle": "y2",
+      "target_handle": "w2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-6KbSUAoT_jTudFoIbwMpAw2-ACUJlDDR0jqEohsFzWEoQx1",
+      "source": "6KbSUAoT_jTudFoIbwMpA",
+      "target": "ACUJlDDR0jqEohsFzWEoQ",
+      "source_handle": "w2",
+      "target_handle": "x1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-kc6buUsLAeZeUb4Tk0apMy2-_FSlD_qTz5Xo0x3pB6sZIz2",
+      "source": "kc6buUsLAeZeUb4Tk0apM",
+      "target": "_FSlD_qTz5Xo0x3pB6sZI",
+      "source_handle": "y2",
+      "target_handle": "z2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    }
+  ],
+  "content_crawled_at": "2026-04-06T08:38:49.093410+00:00"
+}

@@ -1,0 +1,3309 @@
+{
+  "id": "kubernetes",
+  "title": "Kubernetes",
+  "source_url": "https://roadmap.sh/kubernetes",
+  "github_url": "https://github.com/kamranahmedse/developer-roadmap/tree/master/src/data/roadmaps/kubernetes",
+  "crawled_at": "2026-04-06T07:37:15.636492+00:00",
+  "type": "flow",
+  "stats": {
+    "total_nodes": 79,
+    "total_edges": 28,
+    "nodes_with_content": 67
+  },
+  "node_types": [
+    "button",
+    "horizontal",
+    "label",
+    "linksgroup",
+    "paragraph",
+    "subtopic",
+    "title",
+    "topic",
+    "vertical"
+  ],
+  "edge_styles": [
+    "dashed",
+    "solid"
+  ],
+  "edge_line_types": [
+    "default"
+  ],
+  "node_type_description": {
+    "title": "Tiêu đề chính của lộ trình",
+    "topic": "Chủ đề lớn (nhóm kỹ năng)",
+    "subtopic": "Kỹ năng/công nghệ cụ thể cần học",
+    "paragraph": "Vùng văn bản mô tả / chú thích",
+    "vertical": "Đường kết nối dọc (visual connector)"
+  },
+  "edge_style_description": {
+    "solid": "Kỹ năng bắt buộc / quan trọng",
+    "dashed": "Tùy chọn / gợi ý / phương án thay thế"
+  },
+  "nodes": [
+    {
+      "id": "ef-jFKMs8jw3Ti94jem96",
+      "type": "vertical",
+      "label": "nút dọc",
+      "position": {
+        "x": -206.97152060532687,
+        "y": 2002.6547713337786
+      },
+      "size": {
+        "width": 21,
+        "height": 74
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "k_AR2YBSv077a6RwpCpZT",
+      "type": "vertical",
+      "label": "nút dọc",
+      "position": {
+        "x": -205.1381872719935,
+        "y": 1819.400748222349
+      },
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "style": {
+        "strokeDasharray": "0",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.55,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "p9_mj6m2RpT7Uqa1I1YjI",
+      "type": "vertical",
+      "label": "nút dọc",
+      "position": {
+        "x": -206.47152060532687,
+        "y": 1696.400748222349
+      },
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.55,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "FtrR19NFsdQoYcZzWtj5k",
+      "type": "vertical",
+      "label": "nút dọc",
+      "position": {
+        "x": -589.6381872719935,
+        "y": 1408.400748222349
+      },
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "nnN56cWEfaCaQNN_dD6tE",
+      "type": "vertical",
+      "label": "nút dọc",
+      "position": {
+        "x": -434.1381872719935,
+        "y": 1169.400748222349
+      },
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "style": {
+        "strokeDasharray": "0",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "Ta1gWy3SFfNu_oM2FplxU",
+      "type": "vertical",
+      "label": "nút dọc",
+      "position": {
+        "x": -589.6381872719935,
+        "y": 1164.400748222349
+      },
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "3r36j_pf19jd_cr4oFE5m",
+      "type": "vertical",
+      "label": "nút dọc",
+      "position": {
+        "x": -589.6381872719935,
+        "y": 840.900748222349
+      },
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.65
+      },
+      "z_index": 999
+    },
+    {
+      "id": "HU7wZWiES3m3xl1-NYP6F",
+      "type": "title",
+      "label": "Kubernetes",
+      "position": {
+        "x": -288.1381872719935,
+        "y": -43.599251777651034
+      },
+      "size": {
+        "width": 187,
+        "height": 68
+      },
+      "style": {
+        "fontSize": 28,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "uqyE79OItPOX33E5FoGel",
+      "type": "vertical",
+      "label": "nút dọc",
+      "position": {
+        "x": -205.1381872719935,
+        "y": -134.0992517776511
+      },
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.75,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "y7KjVfSI6CAduyHd4mBFT",
+      "type": "topic",
+      "label": "Giới thiệu",
+      "position": {
+        "x": -315.1381872719935,
+        "y": 119.40074822234897
+      },
+      "size": {
+        "width": 225,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Kubernetes là nền tảng điều phối container mã nguồn mở tự động hóa việc triển khai, mở rộng quy mô và quản lý các ứng dụng được đóng gói trong container. Nó cung cấp một cách để trừu xuất cơ sở hạ tầng cơ bản và quản lý các ứng dụng theo quy mô lớn, đồng thời mang lại tính linh hoạt, khả năng di động và bộ tính năng phong phú. Kubernetes đã trở thành tiêu chuẩn thực tế cho việc điều phối container do sự chấp nhận rộng rãi, cộng đồng tích cực và khả năng xử lý các ứng dụng đa tầng phức tạp.",
+        "links": [
+          {
+            "title": "Tài liệu Kubernetes",
+            "url": "https://kubernetes.io/",
+            "type": "official"
+          },
+          {
+            "title": "Giới thiệu về Kubernetes",
+            "url": "https://www.digitalocean.com/community/tutorials/an-introduction-to-kubernetes",
+            "type": "article"
+          },
+          {
+            "title": "Hướng dẫn sử dụng Kubernetes dành cho người mới bắt đầu",
+            "url": "https://www.youtube.com/watch?v=X48VuDVv0do",
+            "type": "video"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Kubernetes",
+            "url": "https://app.daily.dev/tags/kubernetes?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "qLeEEwBvlGt1fP5Qcreah",
+      "type": "subtopic",
+      "label": "Tổng Quan về Kubernetes",
+      "position": {
+        "x": 41.8618127280065,
+        "y": 50.40074822234891
+      },
+      "size": {
+        "width": 297,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Kubernetes là một nền tảng nguồn mở, có thể mở rộng và di động để quản lý các khối lượng công việc và dịch vụ được chứa trong container, hỗ trợ cả cấu hình tường minh và tự động hóa. Nền tảng này có hệ sinh thái lớn và đang phát triển nhanh chóng. Các dịch vụ, hỗ trợ và công cụ Kubernetes có sẵn rộng rãi. Tên Kubernetes bắt nguồn từ tiếng Hy Lạp, nghĩa là người điều khiển tàu hoặc thuyền trưởng. K8s như một ký hiệu tắt được tạo ra bằng cách đếm tám chữ cái giữa \"K\" và \"s\". Google đã mở mã nguồn dự án Kubernetes vào năm 2014. Kubernetes kết hợp hơn 15 năm kinh nghiệm của Google trong việc chạy khối lượng công việc quy mô lớn trong môi trường sản xuất với những ý tưởng và thực hành tốt nhất từ cộng đồng.",
+        "links": [
+          {
+            "title": "Tổng Quan về Kubernetes",
+            "url": "https://kubernetes.io/docs/concepts/overview/",
+            "type": "official"
+          },
+          {
+            "title": "Kubernetes là gì?",
+            "url": "https://www.redhat.com/en/topics/containers/what-is-kubernetes",
+            "type": "article"
+          },
+          {
+            "title": "Tổng quan Kubernetes & Đọc tài liệu Cơ bản",
+            "url": "https://thenewstack.io/kubernetes/",
+            "type": "article"
+          },
+          {
+            "title": "Hướng dẫn - Kubernetes",
+            "url": "https://www.youtube.com/watch?v=VnvRFRk_51k&t=1sn",
+            "type": "video"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Kubernetes",
+            "url": "https://app.daily.dev/tags/kubernetes?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-Ky0ietZGpyUcBQfh-BJ",
+      "type": "subtopic",
+      "label": "Tại sao nên sử dụng Kubernetes?",
+      "position": {
+        "x": 41.8618127280065,
+        "y": 103.40074822234891
+      },
+      "size": {
+        "width": 297,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Kubernetes (k8s) được sử dụng để cung cấp một nền tảng mạnh mẽ và linh hoạt cho việc triển khai và quản lý các ứng dụng đóng gói trong container quy mô lớn. Nó cho phép khả năng mở rộng dễ dàng, độ tin cậy cao, khả năng di chuyển ứng dụng, tự động hóa nhiều tác vụ và chuẩn hóa nền tảng container. k8s cũng giúp giảm bớt sự phức tạp và khối lượng công việc cho các nhóm vận hành, cho phép họ tập trung vào các sáng kiến chiến lược hơn.",
+        "links": [
+          {
+            "title": "Tại sao bạn cần Kubernetes và nó có thể làm gì?",
+            "url": "https://kubernetes.io/docs/concepts/overview/#why-you-need-kubernetes-and-what-can-it-do",
+            "type": "official"
+          },
+          {
+            "title": "Tiêu đề: Kubernetes Đến Với Chúng Ta Như Thế Nào, Nó Là Gì và Tại Sao Bạn Nên Quan Tâm",
+            "url": "https://thenewstack.io/primer-how-kubernetes-came-to-be-what-it-is-and-why-you-should-care/",
+            "type": "article"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Kubernetes",
+            "url": "https://app.daily.dev/tags/kubernetes?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "9oo2fxTM2_p0VYPBroqxa",
+      "type": "subtopic",
+      "label": "Các Khái niệm và Thuật ngữ Chính",
+      "position": {
+        "x": 41.8618127280065,
+        "y": 156.4007482223489
+      },
+      "size": {
+        "width": 297,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Kubernetes là một nền tảng điều phối container mã nguồn mở, tự động hóa việc triển khai, mở rộng quy mô và quản lý các ứng dụng được đóng gói trong container. Dưới đây là một số khái niệm và thuật ngữ quan trọng trong Kubernetes:\n\n*   Kiến trúc Cluster: Các khái niệm kiến trúc đằng sau Kubernetes.\n*   Container: Công nghệ để đóng gói một ứng dụng cùng với các phụ thuộc về runtime của nó.\n*   Workloads: Hiểu về Pods, đối tượng tính toán nhỏ nhất có thể triển khai trong Kubernetes, và các trừu tượng cấp cao hơn giúp bạn chạy chúng.\n*   Services, Load Balancing và Networking: Các khái niệm và tài nguyên đằng sau mạng lưới trong Kubernetes.\n*   Lưu trữ (Storage): Các cách để cung cấp cả lưu trữ dài hạn và lưu trữ tạm thời cho Pods trong cluster của bạn.\n*   Cấu hình (Configuration): Các tài nguyên mà Kubernetes cung cấp để cấu hình Pods.\n*   Quản trị Cluster: Chi tiết ở mức thấp hơn liên quan đến việc tạo hoặc quản lý một Kubernetes cluster.",
+        "links": [
+          {
+            "title": "Các khái niệm về Kubernetes",
+            "url": "https://kubernetes.io/docs/concepts/",
+            "type": "official"
+          },
+          {
+            "title": "Hiểu về thuật ngữ Kubernetes",
+            "url": "https://about.gitlab.com/blog/2020/07/30/kubernetes-terminology/",
+            "type": "article"
+          },
+          {
+            "title": "Kubernetes là gì?",
+            "url": "https://www.youtube.com/watch?v=QJ4fODH6DXI",
+            "type": "video"
+          },
+          {
+            "title": "Giải thích Kubernetes bởi Chuyên gia trong 2 Phút",
+            "url": "https://youtu.be/XfBrtNZ2OCw",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3fzuXKH7az_LVnmnoXB1p",
+      "type": "subtopic",
+      "label": "Các Lựa chọn Thay thế Kubernetes",
+      "position": {
+        "x": 41.8618127280065,
+        "y": 209.4007482223489
+      },
+      "size": {
+        "width": 297,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Kubernetes là một công cụ điều phối container mã nguồn mở phổ biến được sử dụng rộng rãi để quản lý và triển khai các ứng dụng đóng gói trong container. Mặc dù có nhiều công cụ điều phối container khác có sẵn, chẳng hạn như Docker Swarm, Mesos và Nomad, vẫn có những sự khác biệt chính giữa Kubernetes và các công cụ này và một số trong đó được đề cập dưới đây:\n\n*   **Kiến trúc:** Kubernetes được thiết kế như một hệ thống mô-đun với nhiều thành phần phối hợp để cung cấp điều phối container, chẳng hạn như API server của Kubernetes, kubelet, kube-proxy và etcd.\n*   **Khả năng mở rộng:** Kubernetes được thiết kế để xử lý các triển khai quy mô lớn và có thể mở rộng ứng dụng lên hoặc xuống dựa trên nhu cầu.\n*   **Tính linh hoạt:** Kubernetes rất có thể cấu hình và có thể tùy chỉnh để đáp ứng các yêu cầu cụ thể, trong khi các công cụ điều phối container khác có thể có ít tùy chọn cấu hình hơn.\n*   **Khả năng di động:** Kubernetes được thiết kế để khách quan về đám mây và có thể chạy trên bất kỳ nền tảng đám mây công cộng hoặc riêng tư nào cũng như tại chỗ.\n*   **Cộng đồng:** Kubernetes có một cộng đồng lớn và tích cực của các nhà phát triển và người dùng đóng góp vào sự phát triển của nó và cung cấp hỗ trợ.",
+        "links": [
+          {
+            "title": "So sánh Apache Mesos vs. Kubernetes",
+            "url": "https://www.techtarget.com/searchitoperations/tip/Compare-container-orchestrators-Apache-Mesos-vs-Kubernetes",
+            "type": "article"
+          },
+          {
+            "title": "Docker Swarm là một giải pháp thay thế thân thiện với người dùng so với Kubernetes.",
+            "url": "https://thenewstack.io/docker-swarm-a-user-friendly-alternative-to-kubernetes/",
+            "type": "article"
+          },
+          {
+            "title": "Bạn có thể sống mà không cần Kubernetes?",
+            "url": "https://thenewstack.io/can-you-live-without-kubernetes/",
+            "type": "article"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Kubernetes",
+            "url": "https://app.daily.dev/tags/kubernetes?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "HGmeYvRf7_XusZl_K4x9k",
+      "type": "topic",
+      "label": "Container",
+      "position": {
+        "x": -315.1381872719935,
+        "y": 172.40074822234897
+      },
+      "size": {
+        "width": 225,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Kubernetes được xây dựng dựa trên container, vì vậy trước khi học Kubernetes, bạn nên thành thạo việc chạy và xây dựng container từ đầu.",
+        "links": [
+          {
+            "title": "Hướng dẫn Chính thức Docker",
+            "url": "https://www.docker.com/101-tutorial/",
+            "type": "article"
+          },
+          {
+            "title": "Chương trình Docker",
+            "url": "https://docker-curriculum.com/",
+            "type": "article"
+          },
+          {
+            "title": "Docker trong 100 giây (video)",
+            "url": "https://www.youtube.com/watch?v=Gjnup-PuquQ",
+            "type": "video"
+          },
+          {
+            "title": "Khóa học video miễn phí 3 giờ dành cho người mới bắt đầu về Docker",
+            "url": "https://www.youtube.com/watch?v=3c-iBn73dDE",
+            "type": "video"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Container",
+            "url": "https://app.daily.dev/tags/containers?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3OpGaQhyNtk1n1MLp-tlb",
+      "type": "topic",
+      "label": "Cài đặt Kubernetes",
+      "position": {
+        "x": -315.1381872719935,
+        "y": 225.4007482223489
+      },
+      "size": {
+        "width": 225,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Để triển khai ứng dụng đầu tiên của bạn trong Kubernetes, bạn cần tạo manifest triển khai và dịch vụ trong các tệp YAML, áp dụng các manifest vào cụm Kubernetes của bạn bằng lệnh kubectl apply, xác minh rằng các pod của ứng dụng đang chạy với kubectl get pods và kiểm tra dịch vụ với kubectl get services và truy cập dịch vụ bằng trình duyệt web hoặc một công cụ như cURL. Ngoài ra còn có nhiều công cụ và nền tảng khác nhau có sẵn để đơn giản hóa việc triển khai ứng dụng trong Kubernetes, chẳng hạn như Helm charts và Kubernetes operators.",
+        "links": [
+          {
+            "title": "Sử dụng kubectl để Tạo một Deployment",
+            "url": "https://kubernetes.io/docs/tutorials/kubernetes-basics/deploy-app/deploy-intro/",
+            "type": "official"
+          },
+          {
+            "title": "Triển khai một Ứng dụng Trên Kubernetes Từ A đến Z",
+            "url": "https://web.archive.org/web/20230326150953/https://www.weave.works/blog/deploying-an-application-on-kubernetes-from-a-to-z",
+            "type": "article"
+          },
+          {
+            "title": "Kubernetes 101: Triển khai Ứng dụng Đầu tiên của bạn với MicroK8s",
+            "url": "https://thenewstack.io/kubernetes-101-deploy-your-first-application-with-microk8s/",
+            "type": "article"
+          },
+          {
+            "title": "Hướng dẫn Kubernetes | Ứng dụng Kubernetes đầu tiên của bạn",
+            "url": "https://www.youtube.com/watch?v=Vj6EFnav5Mg",
+            "type": "video"
+          },
+          {
+            "title": "Kubernetes 101: Triển khai Ứng dụng Đầu tiên của bạn",
+            "url": "https://www.youtube.com/watch?v=XltFOyGanYE",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "zrbSJa3k7a3TE0aYbWi9c",
+      "type": "subtopic",
+      "label": "Triển khai Ứng dụng Đầu tiên của bạn",
+      "position": {
+        "x": -745.1381872719935,
+        "y": 174.4007482223489
+      },
+      "size": {
+        "width": 293,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Để triển khai ứng dụng đầu tiên của bạn trong Kubernetes, bạn cần tạo manifest triển khai và dịch vụ trong các tệp YAML, áp dụng các manifest vào cụm Kubernetes của bạn bằng lệnh kubectl apply, xác minh rằng các pod của ứng dụng đang chạy với kubectl get pods và kiểm tra dịch vụ với kubectl get services và truy cập dịch vụ bằng trình duyệt web hoặc một công cụ như cURL. Ngoài ra còn có nhiều công cụ và nền tảng khác nhau có sẵn để đơn giản hóa việc triển khai ứng dụng trong Kubernetes, chẳng hạn như Helm charts và Kubernetes operators.",
+        "links": [
+          {
+            "title": "Phòng thí nghiệm Thực hành Triển khai Kubernetes",
+            "url": "https://kodekloud.com/studio/labs/kubernetes/deployments-stable",
+            "type": "course"
+          },
+          {
+            "title": "Sử dụng kubectl để Tạo một Deployment",
+            "url": "https://kubernetes.io/docs/tutorials/kubernetes-basics/deploy-app/deploy-intro/",
+            "type": "official"
+          },
+          {
+            "title": "Triển khai một Ứng dụng Trên Kubernetes Từ A đến Z",
+            "url": "https://web.archive.org/web/20230326150953/https://www.weave.works/blog/deploying-an-application-on-kubernetes-from-a-to-z",
+            "type": "article"
+          },
+          {
+            "title": "Kubernetes 101: Triển khai Ứng dụng Đầu tiên của bạn với MicroK8s",
+            "url": "https://thenewstack.io/kubernetes-101-deploy-your-first-application-with-microk8s/",
+            "type": "article"
+          },
+          {
+            "title": "Hướng dẫn Kubernetes | Ứng dụng Kubernetes đầu tiên của bạn",
+            "url": "https://www.youtube.com/watch?v=Vj6EFnav5Mg",
+            "type": "video"
+          },
+          {
+            "title": "Kubernetes 101: Triển khai Ứng dụng Đầu tiên của bạn",
+            "url": "https://www.youtube.com/watch?v=XltFOyGanYE",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "qSatCdBTDXPu-IFWzUI99",
+      "type": "subtopic",
+      "label": "Lựa chọn Nhà cung cấp Quản lý",
+      "position": {
+        "x": -745.1381872719935,
+        "y": 227.4007482223489
+      },
+      "size": {
+        "width": 293,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Nhà cung cấp được quản lý là một dịch vụ dựa trên đám mây cung cấp môi trường Kubernetes được quản lý. Điều này có nghĩa là nhà cung cấp xử lý cơ sở hạ tầng cơ bản, chẳng hạn như máy chủ, lưu trữ và mạng, cũng như cài đặt, cấu hình và bảo trì của cụm Kubernetes. Khi chọn một nhà cung cấp Kubernetes được quản lý, hãy xem xét nhà cung cấp đám mây bạn đang sử dụng, các tính năng và khả năng, giá cả và thanh toán, hỗ trợ, bảo mật và tuân thủ, cũng như danh tiếng và đánh giá của nhà cung cấp. Bằng cách xem xét những yếu tố này, bạn có thể chọn một nhà cung cấp đáp ứng nhu cầu của mình và mang lại giá trị tốt nhất cho tổ chức của bạn.",
+        "links": [
+          {
+            "title": "Lựa chọn Nhà cung cấp Kubernetes Quản lý",
+            "url": "https://containerjournal.com/features/choosing-a-managed-kubernetes-provider/",
+            "type": "article"
+          },
+          {
+            "title": "Amazon Web Services Gears Elastic Kubernetes Service for Batch Work",
+            "url": "https://thenewstack.io/amazon-web-services-gears-elastic-kubernetes-service-for-batch-jobs/",
+            "type": "article"
+          },
+          {
+            "title": "Xây dựng nền tảng phù hợp cho Kubernetes như thế nào?",
+            "url": "https://thenewstack.io/kubernetes/kubernetes-infrastructure-architecture/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "YaIs8lquWIe1D7RCUBZmC",
+      "type": "subtopic",
+      "label": "Triển khai một cụm cục bộ",
+      "position": {
+        "x": -745.1381872719935,
+        "y": 280.4007482223489
+      },
+      "size": {
+        "width": 293,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Để cài đặt và cấu hình cụm Kubernetes trên CentOS 7 hoặc Ubuntu, bạn sẽ cần thiết lập các tiền lệ và yêu cầu để thiết lập một cụm Kubernetes sau đó bạn sẽ cài đặt các thành phần Kubernetes, bao gồm Kubeadm, Kubelet và Kubectl và sau đó bạn sẽ cần kết nối nút chủ và các nút worker. Sau khi kết nối được thiết lập, bạn có thể kiểm tra nó bằng cách triển khai ứng dụng trên cụm.",
+        "links": [
+          {
+            "title": "Hướng dẫn Cài đặt Cluster Kubernetes trên CentOS 7",
+            "url": "https://www.tecmint.com/install-kubernetes-cluster-on-centos-7/",
+            "type": "article"
+          },
+          {
+            "title": "Cách tạo một cụm Kubernetes bằng Ubuntu",
+            "url": "https://www.digitalocean.com/community/tutorials/how-to-create-a-kubernetes-cluster-using-kubeadm-on-ubuntu-20-04",
+            "type": "article"
+          },
+          {
+            "title": "Triển khai một cụm Kubernetes trên Máy chủ Ubuntu với Microk8s",
+            "url": "https://thenewstack.io/deploy-a-kubernetes-cluster-on-ubuntu-server-with-microk8s/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1MdrzhktCWjpmxiYYBdz7",
+      "type": "topic",
+      "label": "Chạy Ứng dụng",
+      "position": {
+        "x": -315.1381872719935,
+        "y": 384.9007482223489
+      },
+      "size": {
+        "width": 225,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Chạy ứng dụng liên quan đến việc triển khai và quản lý phần mềm trong một cụm Kubernetes. Điều này bao gồm đóng gói ứng dụng, xác định các yêu cầu tài nguyên của nó (như CPU và bộ nhớ), chỉ định cách nó nên được tiếp cận từ bên ngoài thế giới và đảm bảo rằng nó vẫn lành mạnh và sẵn sàng. Nó cũng bao gồm mở rộng quy mô ứng dụng để xử lý các khối lượng công việc khác nhau và cập nhật nó mà không bị gián đoạn.",
+        "links": [
+          {
+            "title": "Chạy Ứng dụng",
+            "url": "https://kubernetes.io/docs/tasks/run-application/",
+            "type": "official"
+          },
+          {
+            "title": "Triển khai một Ứng dụng Trên Kubernetes: Hướng dẫn Toàn diện!",
+            "url": "https://dev.to/pavanbelagatti/deploying-an-application-on-kubernetes-a-complete-guide-1cj6",
+            "type": "article"
+          },
+          {
+            "title": "Các ứng dụng chạy trên Kubernetes như thế nào?",
+            "url": "https://thenewstack.io/how-do-applications-run-on-kubernetes/",
+            "type": "article"
+          },
+          {
+            "title": "Kubernetes 101: Triển khai Ứng dụng Đầu tiên của bạn!",
+            "url": "https://www.youtube.com/watch?v=XltFOyGanYE",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "-d2PIXm0V_Iehe8cws8zK",
+      "type": "subtopic",
+      "label": "Pod",
+      "position": {
+        "x": 40.8618127280065,
+        "y": 332.9007482223489
+      },
+      "size": {
+        "width": 145,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Trong Kubernetes, pod là đơn vị nhỏ nhất có thể triển khai, đại diện cho một phiên bản đang chạy của một quy trình trong cluster. Một pod có thể chứa một hoặc nhiều container chia sẻ cùng không gian tên mạng và có thể truy cập cùng các volume lưu trữ. Pods được tạo và quản lý bởi Kubernetes và chúng được lên lịch để chạy trên một trong các nodes trong cluster. Pods cung cấp một lớp trừu tượng nhẹ và linh hoạt cho phép Kubernetes quản lý việc triển khai, mở rộng quy mô và mạng của các ứng dụng container hóa. Pods cũng hỗ trợ giao tiếp và trao đổi dữ liệu giữa các containers đang chạy trong cùng một pod.",
+        "links": [
+          {
+            "title": "Tài liệu Pods",
+            "url": "https://kubernetes.io/docs/concepts/workloads/pods/",
+            "type": "official"
+          },
+          {
+            "title": "Cách tiếp cận Kubernetes: Pods và Dịch vụ",
+            "url": "https://thenewstack.io/kubernetes-way-part-one/",
+            "type": "article"
+          },
+          {
+            "title": "5 Thực Hành Tốt Nhất để Cấu Hình Pod Kubernetes trong Môi Trường Sản Xuất",
+            "url": "https://thenewstack.io/5-best-practices-for-configuring-kubernetes-pods-running-in-production/",
+            "type": "article"
+          },
+          {
+            "title": "Pod trong Kubernetes là gì? Tại sao bạn cần nó ?",
+            "url": "https://www.youtube.com/watch?v=k0fzMZgpp14",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "IF09l0-pryGpMbDt__ocr",
+      "type": "subtopic",
+      "label": "ReplicaSet",
+      "position": {
+        "x": 191.8618127280065,
+        "y": 332.9007482223489
+      },
+      "size": {
+        "width": 146,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ReplicaSet là một bộ điều khiển đảm bảo số lượng bản sao (bản sao giống hệt nhau) được chỉ định của một pod đang chạy trong cụm tại bất kỳ thời điểm nào. ReplicaSets giúp đảm bảo tính sẵn sàng cao và khả năng mở rộng quy mô bằng cách tự động tăng hoặc giảm số lượng bản sao pod theo phản ứng với sự thay đổi về nhu cầu hoặc lỗi phần cứng. Chúng được xác định bởi tệp YAML chỉ định số lượng bản sao mong muốn, mẫu pod để sử dụng và các cài đặt khác. Chúng chịu trách nhiệm giám sát trạng thái của pod và tạo hoặc xóa bản sao khi cần thiết để đáp ứng trạng thái mong muốn.",
+        "links": [
+          {
+            "title": "Tài liệu về ReplicaSet",
+            "url": "https://kubernetes.io/docs/concepts/workloads/controllers/replicaset/",
+            "type": "official"
+          },
+          {
+            "title": "Các chiến lược để chạy các khối lượng công việc trạng thái trong Kubernetes: Bộ tập Pet (Pet Sets)",
+            "url": "https://thenewstack.io/strategies-running-stateful-applications-kubernetes-pet-sets/",
+            "type": "article"
+          },
+          {
+            "title": "Bộ Điều Khiển Sao Kép trong Kubernetes",
+            "url": "https://www.youtube.com/watch?v=1WM-LsH6tKc",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "TUGQX7y1gs-aKPge2F1NU",
+      "type": "subtopic",
+      "label": "Triển khai",
+      "position": {
+        "x": 40.8618127280065,
+        "y": 385.9007482223489
+      },
+      "size": {
+        "width": 145,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Triển khai (Deployment) là một đối tượng tài nguyên để quản lý Pods và ReplicaSets thông qua cấu hình mô tả (declarative configuration), định nghĩa trạng thái mong muốn mô tả vòng đời công việc ứng dụng, số lượng Pod, chiến lược triển khai, ảnh container và nhiều hơn nữa. Bộ điều khiển Triển khai hoạt động để đảm bảo trạng thái thực tế khớp với trạng thái mong muốn, ví dụ như bằng cách thay thế một Pod bị lỗi. Theo mặc định, Triển khai hỗ trợ nhiều chiến lược triển khai khác nhau, chẳng hạn như \"recreate\" và \"rolling update\", tuy nhiên có thể tùy chỉnh để hỗ trợ các chiến lược triển khai nâng cao hơn như triển khai xanh/xanh hoặc canary deployments.",
+        "links": [
+          {
+            "title": "Tài liệu Triển khai",
+            "url": "https://kubernetes.io/docs/concepts/workloads/controllers/deployment/",
+            "type": "official"
+          },
+          {
+            "title": "Triển khai Kubernetes | Chiến lược Triển khai",
+            "url": "https://youtu.be/lxc4EXZOOvE",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "AJiRBEaKU8qYEm0fqN389",
+      "type": "subtopic",
+      "label": "StatefulSets",
+      "position": {
+        "x": 191.8618127280065,
+        "y": 385.9007482223489
+      },
+      "size": {
+        "width": 146,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Đây là một bộ điều khiển quản lý triển khai và mở rộng của một tập hợp các Pod trạng thái cần định danh mạng ổn định và thể tích lưu trữ ổn định. StatefulSets được sử dụng để chạy các ứng dụng trạng thái như cơ sở dữ liệu, trong đó thứ tự và tính duy nhất của mỗi Pod đều quan trọng. StatefulSets cung cấp các định danh mạng ổn định và các thể tích lưu trữ ổn định cho mỗi Pod, điều này cho phép các ứng dụng trạng thái duy trì tính nhất quán dữ liệu ngay cả khi chúng được mở rộng hoặc thu hẹp, hoặc khi các nút bị lỗi hoặc thay thế. StatefulSets được xác định bởi một tệp YAML bao gồm mẫu Pod, một dịch vụ để truy cập các Pod và các cài đặt khác.",
+        "links": [
+          {
+            "title": "Tài liệu StatefulSets",
+            "url": "https://kubernetes.io/docs/concepts/workloads/controllers/statefulset/",
+            "type": "official"
+          },
+          {
+            "title": "Các phương pháp tiếp cận khác nhau để xây dựng các ứng dụng trạng thái trong Kubernetes",
+            "url": "https://thenewstack.io/different-approaches-for-building-stateful-kubernetes-applications/",
+            "type": "article"
+          },
+          {
+            "title": "StatefulSet của Kubernetes | Hướng dẫn",
+            "url": "https://www.youtube.com/watch?v=pPQKAR1pA9U",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "r3fzAN5DzratAKnnT8hzb",
+      "type": "subtopic",
+      "label": "Vệc làm",
+      "position": {
+        "x": 40.8618127280065,
+        "y": 439.9007482223489
+      },
+      "size": {
+        "width": 145,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Một Job là một bộ điều khiển quản lý việc thực thi của một nhiệm vụ hoặc batch job hữu hạn. Jobs được sử dụng để chạy các tác vụ ngắn hạn, chẳng hạn như xử lý theo lô, phân tích dữ liệu hoặc sao lưu, chạy đến khi hoàn thành và sau đó kết thúc. Jobs tạo ra một hoặc nhiều pod để chạy tác vụ và chúng giám sát trạng thái hoàn thành của mỗi pod. Nếu một pod bị lỗi hoặc kết thúc, Job sẽ tự động tạo một pod thay thế để đảm bảo rằng nhiệm vụ được hoàn thành thành công. Jobs được định nghĩa bởi một tệp YAML bao gồm mẫu pod, tiêu chí hoàn thành và các cài đặt khác.",
+        "links": [
+          {
+            "title": "Tài liệu Vận hành",
+            "url": "https://kubernetes.io/docs/concepts/workloads/controllers/job/",
+            "type": "official"
+          },
+          {
+            "title": "Kubernetes đang chuyển mình thành một nhà lập lịch Universal như thế nào?",
+            "url": "https://thenewstack.io/how-kubernetes-is-transforming-into-a-universal-scheduler/",
+            "type": "article"
+          },
+          {
+            "title": "Hướng dẫn | Công việc (Jobs) trong Kubernetes",
+            "url": "https://www.youtube.com/watch?v=j1EnBbxSz64",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "aUJ_w2L8nxNq3DfAW97Gd",
+      "type": "topic",
+      "label": "Dịch vụ và Mạng lưới",
+      "position": {
+        "x": -315.1381872719935,
+        "y": 535.900748222349
+      },
+      "size": {
+        "width": 225,
+        "height": 69
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Kết nối mạng là rất quan trọng để giao tiếp giữa các Pod và tài nguyên trong một cụm Kubernetes. Mỗi Pod có địa chỉ IP duy nhất và có thể giao tiếp trực tiếp với các Pod khác. Plugin Giao diện Mạng Container (CNI) được sử dụng để cấu hình giao diện mạng của Pod và cung cấp sự cô lập giữa các Pod. Kubernetes cũng cung cấp các dịch vụ kết nối mạng như cân bằng tải, khám phá dịch vụ và ingress, cho phép lưu lượng truy cập bên ngoài truy cập vào Pod và dịch vụ. Các dịch vụ này được triển khai bằng các đối tượng Kubernetes như Services, Ingress và NetworkPolicies. Kết nối mạng và giao tiếp giữa Pod là rất quan trọng để khả năng mở rộng quy mô, độ tin cậy và tính linh hoạt trong các cụm Kubernetes.",
+        "links": [
+          {
+            "title": "Mạng lưới cụm - Tài liệu",
+            "url": "https://kubernetes.io/docs/concepts/cluster-administration/networking/",
+            "type": "official"
+          },
+          {
+            "title": "Nhiệm vụ với Giao tiếp Pod-to-Pod",
+            "url": "https://kubernetes.io/docs/tasks/job/job-with-pod-to-pod-communication/",
+            "type": "official"
+          },
+          {
+            "title": "Kubernetes cung cấp mạng và lưu trữ cho các ứng dụng như thế nào?",
+            "url": "https://thenewstack.io/how-kubernetes-provides-networking-and-storage-to-applications/",
+            "type": "article"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Mạng lưới",
+            "url": "https://app.daily.dev/tags/networking?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "jUOlITLqnIvSu97I_3nBz",
+      "type": "subtopic",
+      "label": "Truy cập bên ngoài vào Dịch vụ",
+      "position": {
+        "x": -377.1381872719935,
+        "y": 619.900748222349
+      },
+      "size": {
+        "width": 278,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Truy cập bên ngoài đến các Dịch vụ Kubernetes (k8s) cho phép khách hàng bên ngoài truy cập vào các pod và dịch vụ đang chạy trong cụm. Có nhiều cách để kích hoạt truy cập bên ngoài đến các Dịch vụ trong k8s, bao gồm NodePorts, LoadBalancers và Ingress. Ingress là một đối tượng Kubernetes cung cấp một phương thức linh hoạt để quản lý truy cập bên ngoài, định tuyến lưu lượng truy cập đến các Dịch vụ dựa trên URL hoặc host. Truy cập bên ngoài là rất quan trọng để đảm bảo khả năng mở rộng và độ tin cậy của các triển khai Kubernetes.",
+        "links": [
+          {
+            "title": "Ingress - Tài liệu",
+            "url": "https://kubernetes.io/docs/concepts/services-networking/ingress/",
+            "type": "official"
+          },
+          {
+            "title": "Ingress Kubernetes cho Người mới bắt đầu",
+            "url": "https://thenewstack.io/kubernetes-ingress-for-beginners/",
+            "type": "article"
+          },
+          {
+            "title": "Tôi có thể cung cấp quyền truy cập bên ngoài vào dịch vụ Kubernetes như thế nào?",
+            "url": "https://www.youtube.com/watch?v=iBYTFpoXx24",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Qelo1YvAcUoX5PA-RYbNp",
+      "type": "subtopic",
+      "label": "Cân bằng tải",
+      "position": {
+        "x": -377.1381872719935,
+        "y": 672.900748222349
+      },
+      "size": {
+        "width": 278,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Cân bằng tải trong mạng phân phối lưu lượng truy cập đến nhiều Pod hoặc Node sử dụng một đối tượng Service. Một Service cung cấp điểm cuối mạng ổn định cho một tập hợp các Pod, cho phép các Pod khác hoặc khách hàng bên ngoài truy cập chúng thông qua một địa chỉ IP và tên DNS duy nhất. Kubernetes cung cấp ba loại thuật toán cân bằng tải cho Services, phân phối lưu lượng dựa trên round-robin, ít kết nối nhất hoặc IP hash. Cân bằng tải là một phần thiết yếu của mạng lưới Kubernetes, cung cấp phân phối lưu lượng hiệu quả và đáng tin cậy đến các cụm.",
+        "links": [
+          {
+            "title": "Cân bằng tải - Tài liệu hướng dẫn",
+            "url": "https://kubernetes.io/docs/concepts/services-networking/ingress/#load-balancing",
+            "type": "official"
+          },
+          {
+            "title": "Điều khiển Ingress: Dao đa dụng của Kubernetes",
+            "url": "https://thenewstack.io/ingress-controllers-the-swiss-army-knife-of-kubernetes/",
+            "type": "article"
+          },
+          {
+            "title": "Hướng dẫn | Dịch vụ Cân bằng tải trong Kubernetes",
+            "url": "https://www.youtube.com/watch?v=xCsz9IOt-fs",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "44rhdieUCWsGFC_1__9kk",
+      "type": "subtopic",
+      "label": "Giao tiếp Peer-to-Peer và Kết nối Mạng",
+      "position": {
+        "x": -377.1381872719935,
+        "y": 725.900748222349
+      },
+      "size": {
+        "width": 278,
+        "height": 69
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Kubernetes mạng lưới cho phép các Pod giao tiếp với nhau trong toàn bộ cụm, bất kể chúng đang chạy trên node nào. Mỗi Pod được gán một địa chỉ IP riêng và Kubernetes sử dụng mô hình mạng phẳng, nơi tất cả các Pod có thể giao tiếp trực tiếp với nhau mà không cần chuyển đổi địa chỉ (NAT). Giao tiếp giữa các Pod được triển khai bởi plugin **Container Network Interface (CNI)**, chẳng hạn như Calico, Flannel, Cilium hoặc Weave. Các plugin này chịu trách nhiệm phân bổ địa chỉ IP, định tuyến và thực thi chính sách mạng. Theo mặc định, tất cả lưu lượng truy cập của Pod đều được phép, nhưng **NetworkPolicies** có thể được sử dụng để kiểm soát và hạn chế lưu lượng giữa các Pod để bảo mật và cô lập. Mạng lưới đáng tin cậy giữa các Pod là một yêu cầu cốt lõi để xây dựng các ứng dụng phân tán và dựa trên microservices trong Kubernetes.",
+        "links": [
+          {
+            "title": "Mạng lưới cụm - Tài liệu Kubernetes",
+            "url": "https://kubernetes.io/docs/concepts/cluster-administration/networking/",
+            "type": "official"
+          },
+          {
+            "title": "Chính sách Mạng lưới – Tài liệu Hướng dẫn Kubernetes",
+            "url": "https://kubernetes.io/docs/concepts/services-networking/network-policies/",
+            "type": "official"
+          },
+          {
+            "title": "Giải thích Mạng lưới Kubernetes",
+            "url": "https://www.tigera.io/learn/guides/kubernetes-networking/",
+            "type": "article"
+          },
+          {
+            "title": "Đi sâu vào Mạng lưới Kubernetes",
+            "url": "https://www.youtube.com/watch?v=t98ekMiz0hQ",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dj7Tb2XTX4kxRUYiTjlhM",
+      "type": "topic",
+      "label": "Quản lý Cấu hình",
+      "position": {
+        "x": -710.1381872719935,
+        "y": 535.900748222349
+      },
+      "size": {
+        "width": 225,
+        "height": 69
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Kubernetes Secrets lưu trữ dữ liệu nhạy cảm như mật khẩu, token và khóa API một cách an toàn. Chúng có thể được tạo thủ công hoặc tự động và được lưu trữ trong etcd. Secrets có thể được gắn kết dưới dạng file hoặc biến môi trường trong một Pod, và quyền truy cập có thể được quản lý bằng Kubernetes RBAC. Tuy nhiên, chúng cũng có một số hạn chế, chẳng hạn như kích thước và không thể cập nhật sau khi đã được tạo. Hiểu biết về Secrets là rất quan trọng để xây dựng các ứng dụng an toàn trong Kubernetes.",
+        "links": [
+          {
+            "title": "Tài liệu – Bí mật",
+            "url": "https://kubernetes.io/docs/concepts/configuration/secret/",
+            "type": "official"
+          },
+          {
+            "title": "Quản lý Bí mật Kubernetes: 3 Cách Tiếp Cận, 9 Thực Hành Tốt Nhất",
+            "url": "https://thenewstack.io/kubernetes-secrets-management-3-approaches-9-best-practices/",
+            "type": "article"
+          },
+          {
+            "title": "Bí mật Kubernetes trong 5 Phút!",
+            "url": "https://www.youtube.com/watch?v=cQAEK9PBY8U",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "u24UlZKI86vaguj_VpMv1",
+      "type": "subtopic",
+      "label": "Cấu hình Pod bằng ConfigMaps",
+      "position": {
+        "x": -745.1381872719935,
+        "y": 391.9007482223489
+      },
+      "size": {
+        "width": 331,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ConfigMaps là một cách để lưu trữ dữ liệu cấu hình có thể được sử dụng bởi các ứng dụng đang chạy trong cụm. Một ConfigMap là một bộ nhớ khóa-giá trị có thể chứa dữ liệu cấu hình như URL cơ sở dữ liệu, thông tin đăng nhập, khóa API hoặc bất kỳ dữ liệu cấu hình ứng dụng nào khác mà có thể được sử dụng bởi ứng dụng.",
+        "links": [
+          {
+            "title": "Tài liệu ConfigMaps",
+            "url": "https://kubernetes.io/docs/concepts/configuration/configmap/",
+            "type": "official"
+          },
+          {
+            "title": "CRDs Kubernetes: Chúng là gì và tại sao chúng lại hữu ích",
+            "url": "https://thenewstack.io/kubernetes-crds-what-they-are-and-why-they-are-useful/",
+            "type": "article"
+          },
+          {
+            "title": "Hướng dẫn - ConfigMap trong Kubernetes",
+            "url": "https://www.youtube.com/watch?v=BPrC_lgmcHQ",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "S0CwGC2gMG-SqnLNldqBD",
+      "type": "subtopic",
+      "label": "Sử dụng Bí mật cho Dữ liệu Nhạy cảm",
+      "position": {
+        "x": -745.1381872719935,
+        "y": 444.9007482223489
+      },
+      "size": {
+        "width": 292,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Kubernetes Secrets lưu trữ dữ liệu nhạy cảm như mật khẩu, token và khóa API một cách an toàn. Chúng có thể được tạo thủ công hoặc tự động và được lưu trữ trong etcd. Secrets có thể được gắn kết dưới dạng file hoặc biến môi trường trong một Pod, và quyền truy cập có thể được quản lý bằng Kubernetes RBAC. Tuy nhiên, chúng cũng có một số hạn chế, chẳng hạn như kích thước và không thể cập nhật sau khi đã được tạo. Hiểu biết về Secrets là rất quan trọng để xây dựng các ứng dụng an toàn trong Kubernetes.",
+        "links": [
+          {
+            "title": "Tài liệu – Bí mật",
+            "url": "https://kubernetes.io/docs/concepts/configuration/secret/",
+            "type": "official"
+          },
+          {
+            "title": "Quản lý Bí mật Kubernetes: 3 Cách Tiếp Cận, 9 Thực Hành Tốt Nhất",
+            "url": "https://thenewstack.io/kubernetes-secrets-management-3-approaches-9-best-practices/",
+            "type": "article"
+          },
+          {
+            "title": "Bí mật Kubernetes trong 5 Phút!",
+            "url": "https://www.youtube.com/watch?v=cQAEK9PBY8U",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "eWKkdiBhD5x2sGYajmHEs",
+      "type": "topic",
+      "label": "Quản lý tài nguyên",
+      "position": {
+        "x": -710.1381872719935,
+        "y": 825.900748222349
+      },
+      "size": {
+        "width": 225,
+        "height": 69
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Giám sát và tối ưu hóa việc sử dụng tài nguyên trong Kubernetes (k8s) là rất quan trọng để đảm bảo việc sử dụng tài nguyên hiệu quả và chính xác. Để giám sát việc sử dụng tài nguyên, k8s cung cấp Metrics Server và Prometheus có thể được tích hợp với k8s. Giao diện Runtime Container (CRI) cũng có thể được sử dụng để thu thập dữ liệu về mức độ sử dụng tài nguyên ở cấp container. Để tối ưu hóa việc sử dụng tài nguyên, việc thiết lập các yêu cầu và giới hạn phù hợp, sử dụng Horizontal Pod Autoscaling (HPA), triển khai các quy tắc affinity và anti-affinity của pod, cũng như kiểm soát lựa chọn node có thể giúp giảm thiểu tình trạng tranh chấp tài nguyên và cải thiện hiệu quả sử dụng tài nguyên. Bằng cách giám sát và tối ưu hóa việc sử dụng tài nguyên, k8s có thể đảm bảo rằng các ứng dụng chạy hiệu quả và tài nguyên được sử dụng một cách hiệu quả.",
+        "links": [
+          {
+            "title": "Công cụ để Giám sát Tài nguyên - Tài liệu",
+            "url": "https://kubernetes.io/docs/tasks/debug/debug-cluster/resource-usage-monitoring/",
+            "type": "official"
+          },
+          {
+            "title": "Tối ưu hóa Tài nguyên Kubernetes: Chỉ những Điều cơ bản",
+            "url": "https://sequoia.makes.software/kubernetes-resource-optimization-just-the-basics/",
+            "type": "article"
+          },
+          {
+            "title": "Làm thế nào để chọn Công cụ Giám sát Kubernetes phù hợp",
+            "url": "https://thenewstack.io/how-to-choose-the-right-kubernetes-monitoring-tool/",
+            "type": "article"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Giám sát",
+            "url": "https://app.daily.dev/tags/monitoring?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "8RLR6gRjIyTn6GCugEfgk",
+      "type": "subtopic",
+      "label": "Thiết lập Yêu cầu Tài nguyên và Giới hạn",
+      "position": {
+        "x": -745.1381872719935,
+        "y": 923.900748222349
+      },
+      "size": {
+        "width": 362,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Yêu cầu tài nguyên và giới hạn trong Kubernetes xác định số lượng CPU và bộ nhớ tối thiểu và tối đa mà một container cần để chạy. Yêu cầu tài nguyên được sử dụng để lên lịch các container trên các nút có đủ tài nguyên, trong khi giới hạn tài nguyên thực thi các quy tắc về phân bổ tài nguyên và ngăn chặn các container tiêu thụ quá nhiều. Các cài đặt này có thể được cấu hình ở cấp độ Pod hoặc Container bằng trường resources trong YAML. Điều quan trọng là phải thiết lập chính xác yêu cầu tài nguyên và giới hạn để đảm bảo sử dụng tài nguyên tối ưu trong cụm Kubernetes của bạn.",
+        "links": [
+          {
+            "title": "Yêu cầu và giới hạn – Tài liệu hướng dẫn",
+            "url": "https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/#requests-and-limits",
+            "type": "official"
+          },
+          {
+            "title": "Lý do đặt giới hạn bộ nhớ và yêu cầu mặc định.",
+            "url": "https://kubernetes.io/docs/tasks/administer-cluster/manage-resources/memory-default-namespace/#motivation-for-default-memory-limits-and-requests",
+            "type": "official"
+          },
+          {
+            "title": "Hiểu về Các loại Tài nguyên Kubernetes",
+            "url": "https://thenewstack.io/understanding-kubernetes-resource-types/",
+            "type": "article"
+          },
+          {
+            "title": "Giải mã Yêu cầu và Giới hạn Kubernetes",
+            "url": "https://thenewstack.io/kubernetes-requests-and-limits-demystified/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "OHz4QMmA3lqL_C7aWL8Ga",
+      "type": "subtopic",
+      "label": "Gán Giới hạn cho Namespace",
+      "position": {
+        "x": -745.1381872719935,
+        "y": 976.900748222349
+      },
+      "size": {
+        "width": 362,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Gán giới hạn cho namespace là một cách để giới hạn việc sử dụng tài nguyên cho các nhóm tài nguyên cụ thể trong Kubernetes. Giới hạn có thể được đặt cho CPU, bộ nhớ và các tài nguyên khác, cũng như cho số lượng đối tượng trong một namespace. Điều này có thể giúp đảm bảo phân phối tài nguyên công bằng giữa các nhóm hoặc dự án khác nhau trong một cụm. Giới hạn có thể được áp dụng cho từng namespace hoặc trên toàn cụm. Kubernetes cho phép cả giới hạn cứng, vốn thực thi giới hạn tài nguyên nghiêm ngặt và giới hạn mềm, cho phép vượt quá đến một mức nhất định. Giới hạn có thể được quản lý bằng API Kubernetes hoặc thông qua tệp cấu hình YAML.",
+        "links": [
+          {
+            "title": "Giới hạn tài nguyên – Tài liệu hướng dẫn",
+            "url": "https://kubernetes.io/docs/concepts/policy/resource-quotas/",
+            "type": "official"
+          },
+          {
+            "title": "Tận dụng Namespaces để tối ưu hóa chi phí với Kubernetes",
+            "url": "https://thenewstack.io/leveraging-namespaces-for-cost-optimization-with-kubernetes/",
+            "type": "article"
+          },
+          {
+            "title": "Không gian tên Kubernetes Giải thích trong 15 phút",
+            "url": "https://www.youtube.com/watch?v=K3jNo4z5Jx8",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PP4ld_vvjpY3QltBBsXKD",
+      "type": "subtopic",
+      "label": "Giám sát và tối ưu hóa việc sử dụng tài nguyên",
+      "position": {
+        "x": -745.1381872719935,
+        "y": 1030.900748222349
+      },
+      "size": {
+        "width": 362,
+        "height": 69
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Giám sát và tối ưu hóa việc sử dụng tài nguyên trong Kubernetes giúp đảm bảo các workload chạy hiệu quả đồng thời giảm thiểu lãng phí và tránh các vấn đề về hiệu năng. Bằng cách quan sát mức tiêu thụ CPU, bộ nhớ và dung lượng lưu trữ ở cấp node, pod và container, các đội ngũ có thể xác định các nút thắt cổ chai, phát hiện tài nguyên bị lãng phí và đưa ra các quyết định mở rộng phù hợp. Các kỹ thuật tối ưu hóa bao gồm điều chỉnh kích thước yêu cầu và giới hạn tài nguyên, sử dụng cơ chế tự động mở rộng và phân tích liên tục dữ liệu đo lường thông qua các công cụ giám sát. Giám sát và tối ưu hóa hiệu quả cải thiện tính ổn định của cluster, giảm chi phí và nâng cao hiệu suất tổng thể của ứng dụng.",
+        "links": [
+          {
+            "title": "Giám sát Tài nguyên trong Kubernetes",
+            "url": "https://kubernetes.io/docs/tasks/debug/debug-cluster/resource-metrics-pipeline/",
+            "type": "official"
+          },
+          {
+            "title": "Máy chủ số liệu thống kê",
+            "url": "https://kubernetes.io/docs/tasks/debug/debug-cluster/resource-metrics-pipeline/#metrics-server",
+            "type": "official"
+          },
+          {
+            "title": "Tự động điều chỉnh quy mô Pod theo chiều ngang",
+            "url": "https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale/",
+            "type": "official"
+          },
+          {
+            "title": "Giám sát Tài nguyên Kubernetes: Thực hành Tốt nhất",
+            "url": "https://www.redhat.com/en/blog/kubernetes-resource-monitoring-best-practices",
+            "type": "article"
+          },
+          {
+            "title": "Tối ưu Hóa Tỷ Lệ Sử Dụng Tài Nguyên Kubernetes",
+            "url": "https://thenewstack.io/optimizing-kubernetes-resource-utilization/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "SG3wtV2rt9nmLEkgrp_zP",
+      "type": "topic",
+      "label": "Bảo mật",
+      "position": {
+        "x": 81.8618127280065,
+        "y": 825.900748222349
+      },
+      "size": {
+        "width": 225,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Các công cụ quét bảo mật Kubernetes giúp xác định các lỗ hổng và các mối đe dọa bảo mật tiềm ẩn trong hình ảnh container trước khi triển khai. Các tùy chọn phổ biến bao gồm Aqua Security, Twistlock, Sysdig Secure, Trivy, Anchore Engine và OpenSCAP. Các trình quét này cung cấp nhiều tính năng như quét lỗ hổng, kiểm tra tuân thủ và bảo vệ thời gian chạy cho môi trường Kubernetes. Bằng cách tích hợp các trình quét này vào quy trình của họ, các tổ chức có thể đảm bảo an toàn và tính toàn vẹn của các triển khai Kubernetes của mình và giảm thiểu rủi ro bị tấn công mạng và mất dữ liệu.",
+        "links": [
+          {
+            "title": "Các trình quét lỗ hổng mã nguồn mở cho Kubernetes",
+            "url": "https://techbeacon.com/security/8-open-source-kubernetes-vulnerability-scanners-consider",
+            "type": "article"
+          },
+          {
+            "title": "7 Máy Quét Bảo Mật Kubernetes",
+            "url": "https://thechief.io/c/editorial/7-kubernetes-security-scanners-to-use-in-your-devsecops-pipeline/",
+            "type": "article"
+          },
+          {
+            "title": "Nâng cao Bảo mật với Quét Ảnh tự động thông qua CI/CD",
+            "url": "https://thenewstack.io/improve-security-with-automated-image-scanning-through-ci-cd/",
+            "type": "article"
+          },
+          {
+            "title": "Starboard: Tập hợp tất cả các thành phần bảo mật cho Kubernetes vào một nơi duy nhất.",
+            "url": "https://thenewstack.io/starboard-putting-all-the-kubernetes-security-pieces-into-one-place/",
+            "type": "article"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Bảo mật",
+            "url": "https://app.daily.dev/tags/security?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "jOq0WwLrq8tlmOgo64QDc",
+      "type": "subtopic",
+      "label": "Kiểm soát Truy cập Dựa trên Vai trò (RBAC)",
+      "position": {
+        "x": 40.8618127280065,
+        "y": 564.900748222349
+      },
+      "size": {
+        "width": 317,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Kiểm soát Truy cập Dựa trên Vai trò là một phương pháp kiểm soát quyền truy cập vào các tài nguyên Kubernetes dựa trên các vai trò được gán cho người dùng hoặc nhóm. RBAC bao gồm việc tạo các vai trò và liên kết chúng với người dùng hoặc nhóm để kiểm soát quyền truy cập vào các tài nguyên Kubernetes. Các vai trò được định nghĩa là một tập hợp các quy tắc xác định những hành động nào có thể thực hiện trên các tài nguyên cụ thể. Bằng cách gán các vai trò cho người dùng hoặc nhóm, quyền truy cập vào các tài nguyên Kubernetes có thể bị hạn chế hoặc cấp phép dựa trên các quyền được xác định trong vai trò. RBAC giúp đảm bảo an ninh và tính toàn vẹn của các cụm Kubernetes bằng cách giới hạn quyền truy cập đối với người dùng và nhóm được ủy quyền.",
+        "links": [
+          {
+            "title": "Các Thực hành Tốt nhất về Kiểm soát Truy cập Dựa trên Vai trò",
+            "url": "https://kubernetes.io/docs/concepts/security/rbac-good-practices/",
+            "type": "official"
+          },
+          {
+            "title": "Hướng dẫn cơ bản về Kiểm soát truy cập Kubernetes",
+            "url": "https://thenewstack.io/a-primer-on-kubernetes-access-control/",
+            "type": "article"
+          },
+          {
+            "title": "Cách Tiếp Cận Thực Tế để Hiểu Quyền Xác Thực của Kubernetes",
+            "url": "https://thenewstack.io/a-practical-approach-to-understanding-kubernetes-authorization/",
+            "type": "article"
+          },
+          {
+            "title": "3 Cách Tiếp Cận Thực Tế đến RBAC trong Kubernetes",
+            "url": "https://thenewstack.io/three-realistic-approaches-to-kubernetes-rbac/",
+            "type": "article"
+          },
+          {
+            "title": "Kiểm soát Truy cập Dựa trên Vai trò: Năm Mô hình Phân Quyền Chung",
+            "url": "https://thenewstack.io/role-based-access-control-five-common-authorization-patterns/",
+            "type": "article"
+          },
+          {
+            "title": "Bảo mật Kubernetes và Các Tài nguyên Khác ở Quy mô Lớn bằng cách Sử dụng RBAC",
+            "url": "https://thenewstack.io/securing-kubernetes-and-other-resources-at-scale-using-rbac/",
+            "type": "article"
+          },
+          {
+            "title": "Hiểu về Kiểm soát Truy cập Dựa trên Vai trò trong Kubernetes",
+            "url": "https://www.youtube.com/watch?v=G3R24JSlGjY",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "s0gHg8CqwrSylpSPu8arA",
+      "type": "subtopic",
+      "label": "Bảo mật Mạng Lưới",
+      "position": {
+        "x": 40.8618127280065,
+        "y": 617.900748222349
+      },
+      "size": {
+        "width": 175,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Bảo mật mạng trong Kubernetes bao gồm việc bảo vệ giao tiếp mạng giữa các thành phần khác nhau bên trong cụm và với các mạng bên ngoài. Điều này có thể đạt được thông qua nhiều cơ chế như Chính sách Mạng, Mã hóa, Xác thực, Phân quyền, và quy tắc tường lửa. Chính sách Mạng cung cấp khả kiểm soát chi tiết đối với lưu lượng mạng, trong khi mã hóa đảm bảo giao tiếp an toàn giữa các pod, nút và hệ thống bên ngoài. Cơ chế Xác thực và Phân quyền ngăn chặn truy cập trái phép và cung cấp giao tiếp an toàn giữa các thành phần khác nhau. Quy tắc tường lửa giúp bảo vệ cụm khỏi các cuộc tấn công bên ngoài bằng cách giới hạn quyền truy cập vào các cổng và giao thức cụ thể. Nhìn chung, bảo mật mạng trong Kubernetes là rất quan trọng để duy trì tính bảo mật, toàn vẹn và khả dụng của cụm.",
+        "links": [
+          {
+            "title": "Chính sách Mạng lưới – Tài liệu hướng dẫn",
+            "url": "https://kubernetes.io/docs/concepts/services-networking/network-policies/",
+            "type": "official"
+          },
+          {
+            "title": "Các Thực hành Bảo mật Tốt nhất cho Kubernetes",
+            "url": "https://thenewstack.io/6-kubernetes-security-best-practices/",
+            "type": "article"
+          },
+          {
+            "title": "Hiệu ứng Bảo mật Mạng Kubernetes",
+            "url": "https://thenewstack.io/the-kubernetes-network-security-effect/",
+            "type": "article"
+          },
+          {
+            "title": "Thực hành tốt nhất về An ninh Kubernetes để tránh các tin tức tiêu cực",
+            "url": "https://thenewstack.io/kubernetes-security-best-practices-to-keep-you-out-of-the-news/",
+            "type": "article"
+          },
+          {
+            "title": "Thực hành tốt nhất về An ninh Kubernetes",
+            "url": "https://www.youtube.com/watch?v=oBf5lrmquYI",
+            "type": "video"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Bảo mật",
+            "url": "https://app.daily.dev/tags/security?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Nja7IFWcFTLsPcqbvRNm9",
+      "type": "subtopic",
+      "label": "Bảo mật Container và Pod",
+      "position": {
+        "x": 40.8618127280065,
+        "y": 670.900748222349
+      },
+      "size": {
+        "width": 255,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Kubernetes (k8s) có thể bảo mật các container và pod thông qua các biện pháp như sử dụng hình ảnh container đáng tin cậy, giới hạn đặc quyền của container, thực thi chính sách bảo mật cấp pod, triển khai các biện pháp bảo mật mạng, sử dụng kiểm soát truy cập với RBAC và quản lý thông tin nhạy cảm với Secrets và ConfigMaps. Các phương pháp này giúp tổ chức giảm thiểu rủi ro xảy ra sự cố an ninh trong các cụm k8s của họ.",
+        "links": [
+          {
+            "title": "Cấu hình ngữ cảnh bảo mật cho Pod hoặc Container",
+            "url": "https://kubernetes.io/docs/tasks/configure-pod-container/security-context/",
+            "type": "official"
+          },
+          {
+            "title": "Hướng dẫn: Tạo Chính sách Bảo mật Pod cho Kubernetes",
+            "url": "https://thenewstack.io/tutorial-create-a-kubernetes-pod-security-policy/",
+            "type": "article"
+          },
+          {
+            "title": "Các tính năng quan trọng thường bị bỏ qua để bảo mật Kubernetes",
+            "url": "https://thenewstack.io/6-overlooked-yet-important-kubernetes-features-to-secure/",
+            "type": "article"
+          },
+          {
+            "title": "An ninh Kubernetes - Ngữ cảnh Bảo mật cho Pod hoặc Container",
+            "url": "https://www.youtube.com/watch?v=i8wfvoVf2xs",
+            "type": "video"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Bảo mật",
+            "url": "https://app.daily.dev/tags/security?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "i7qxaFhFHPfe3fGEgsbcE",
+      "type": "subtopic",
+      "label": "Bảo mật Container và Pod",
+      "position": {
+        "x": 40.8618127280065,
+        "y": 723.900748222349
+      },
+      "size": {
+        "width": 255,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Kubernetes (k8s) có thể bảo mật các container và pod thông qua các biện pháp như sử dụng hình ảnh container đáng tin cậy, giới hạn đặc quyền của container, thực thi chính sách bảo mật cấp pod, triển khai các biện pháp bảo mật mạng, sử dụng kiểm soát truy cập với RBAC và quản lý thông tin nhạy cảm với Secrets và ConfigMaps. Các phương pháp này giúp tổ chức giảm thiểu rủi ro xảy ra sự cố an ninh trong các cụm k8s của họ.",
+        "links": [
+          {
+            "title": "Cấu hình ngữ cảnh bảo mật cho Pod hoặc Container",
+            "url": "https://kubernetes.io/docs/tasks/configure-pod-container/security-context/",
+            "type": "official"
+          },
+          {
+            "title": "Hướng dẫn: Tạo Chính sách Bảo mật Pod cho Kubernetes",
+            "url": "https://thenewstack.io/tutorial-create-a-kubernetes-pod-security-policy/",
+            "type": "article"
+          },
+          {
+            "title": "Các tính năng quan trọng thường bị bỏ qua để bảo mật Kubernetes",
+            "url": "https://thenewstack.io/6-overlooked-yet-important-kubernetes-features-to-secure/",
+            "type": "article"
+          },
+          {
+            "title": "An ninh Kubernetes - Ngữ cảnh Bảo mật cho Pod hoặc Container",
+            "url": "https://www.youtube.com/watch?v=i8wfvoVf2xs",
+            "type": "video"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Bảo mật",
+            "url": "https://app.daily.dev/tags/security?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "AgsQnQjyTLUFhFpRdcE13",
+      "type": "topic",
+      "label": "Giám sát và Ghi nhật ký",
+      "position": {
+        "x": 81.8618127280065,
+        "y": 977.400748222349
+      },
+      "size": {
+        "width": 225,
+        "height": 69
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Khả năng Nhận thức trong Kubernetes (k8s) đề cập đến khả năng thu thập thông tin về hoạt động bên trong của cụm, ứng dụng và dịch vụ đang chạy trên đó. Một công cụ hoặc nền tảng Khả năng Nhận thức trong k8s là một công cụ hoặc nền tảng giúp thu thập, phân tích và trực quan hóa dữ liệu từ nhiều nguồn khác nhau trong môi trường k8s của bạn. Một số Công cụ Khả năng Nhận thức phổ biến trong k8s bao gồm Prometheus, Grafana, Jaeger và Elastic Stack (ELK).",
+        "links": [
+          {
+            "title": "K8sGPT – Trình quét AI cho các vấn đề Kubernetes",
+            "url": "https://github.com/k8sgpt-ai/k8sgpt",
+            "type": "opensource"
+          },
+          {
+            "title": "HolmesGPT – Nền tảng AIOps để điều tra các vấn đề liên quan đến Kubernetes và cảnh báo từ Prometheus.",
+            "url": "https://github.com/robusta-dev/holmesgpt/",
+            "type": "opensource"
+          },
+          {
+            "title": "Kubernetes Observability 101: Công cụ, Thực hành Tốt nhất và hơn thế nữa",
+            "url": "https://www.cloudzero.com/blog/kubernetes-observability",
+            "type": "article"
+          },
+          {
+            "title": "Kubernetes Observability trong KubeSphere",
+            "url": "https://kubesphere.io/observability/",
+            "type": "article"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Khả năng quan sát",
+            "url": "https://app.daily.dev/tags/observability?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "-XxQtiLDAkXs7IFM_Ddw6",
+      "type": "subtopic",
+      "label": "Nhật ký",
+      "position": {
+        "x": -299.1381872719935,
+        "y": 924.400748222349
+      },
+      "size": {
+        "width": 82,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Nhật ký được tạo ra bởi các ứng dụng được chứa đang chạy trên các Node trong cụm. Bạn có thể truy cập các Nhật ký này bằng lệnh kubectl logs theo sau là tên của Pod. Theo mặc định, lệnh này hiển thị Nhật ký từ Container gần đây nhất trong Pod, nhưng bạn có thể chỉ định một Container cụ thể trong Pod bằng cách thêm tên Container vào lệnh. Việc thêm cờ -f vào lệnh cho phép bạn theo dõi Nhật ký theo thời gian thực. Ngoài ra còn có các giải pháp ghi nhật ký của bên thứ ba dành cho Kubernetes, chẳng hạn như bộ EFK và Prometheus, cung cấp khả năng ghi nhật ký nâng cao hơn và khả năng mở rộng quy mô cho các ứng dụng quy mô lớn.",
+        "links": [
+          {
+            "title": "Log của hệ thống",
+            "url": "https://kubernetes.io/docs/concepts/cluster-administration/system-logs/",
+            "type": "official"
+          },
+          {
+            "title": "Kubernetes: Giải thích thu thập nhật ký",
+            "url": "https://www.youtube.com/watch?v=6kmHvXdAzIM",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "nqUBHBFUYFdYqCKZvfXBR",
+      "type": "subtopic",
+      "label": "Các chỉ số",
+      "position": {
+        "x": -205.1381872719935,
+        "y": 924.400748222349
+      },
+      "size": {
+        "width": 103,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Các chỉ số cần theo dõi bao gồm mức sử dụng CPU, mức sử dụng bộ nhớ, mức sử dụng mạng, mức sử dụng ổ đĩa, chỉ số của máy chủ API, chỉ số của pod và container, cũng như các chỉ số cấp cụm. Các chỉ số này cung cấp thông tin chi tiết về hiệu suất và sức khỏe của cụm, các nút và các ứng dụng đang chạy trên cụm. Kubernetes cung cấp các công cụ như Prometheus, Grafana và Kubernetes Dashboard để thu thập và phân tích các chỉ số này. Bằng cách theo dõi các chỉ số này, người quản trị có thể xác định các vấn đề về hiệu suất và tối ưu hóa cụm để đạt được hiệu suất và khả năng mở rộng tốt hơn.",
+        "links": [
+          {
+            "title": "Dữ liệu Tham số Node",
+            "url": "https://kubernetes.io/docs/reference/instrumentation/node-metrics/",
+            "type": "official"
+          },
+          {
+            "title": "Cách thu thập metrics trong K8s?",
+            "url": "https://www.youtube.com/watch?v=JQrk6HwlN78",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ldYTEPt_hI4PXxr3tgJi5",
+      "type": "subtopic",
+      "label": "Theo dõi (Traces)",
+      "position": {
+        "x": -111.1381872719935,
+        "y": 924.400748222349
+      },
+      "size": {
+        "width": 97,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Theo dõi trong Kubernetes liên quan đến việc giám sát luồng yêu cầu thông qua các thành phần khác nhau của hệ thống, sử dụng các công cụ như Jaeger hoặc Zipkin. OpenTracing và OpenCensus cung cấp một cách nhất quán để ghi lại theo dõi trên nhiều thành phần và ứng dụng khác nhau đang chạy trên cụm. Theo dõi giúp xác định tắc nghẽn hiệu suất, gỡ lỗi sự cố và tối ưu hóa hệ thống cho hiệu năng và khả năng mở rộng tốt hơn. Bằng cách giám sát theo dõi trong Kubernetes, người quản trị có thể xác định các vấn đề và thực hiện các hành động khắc phục để đảm bảo hiệu suất hệ thống hiệu quả.",
+        "links": [
+          {
+            "title": "Theo dõi cho các thành phần hệ thống Kubernetes",
+            "url": "https://kubernetes.io/docs/concepts/cluster-administration/system-traces/",
+            "type": "official"
+          },
+          {
+            "title": "Giới thiệu về Tracing",
+            "url": "https://www.youtube.com/watch?v=idDu_jXqf4E",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pDjNsK5vI9FmKZbQm0lDP",
+      "type": "subtopic",
+      "label": "Tình trạng Tài nguyên",
+      "position": {
+        "x": -299.1381872719935,
+        "y": 977.400748222349
+      },
+      "size": {
+        "width": 175,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Giám sát sức khỏe tài nguyên trong Kubernetes bao gồm việc theo dõi trạng thái và khả năng sẵn sàng của các tài nguyên như pods, nodes và containers. Điều này giúp người quản trị xác định và khắc phục sự cố có thể ảnh hưởng đến hiệu suất và tính khả dụng của hệ thống bằng các công cụ như Kubernetes Dashboard, Prometheus hoặc Grafana. Giám sát sức khỏe tài nguyên cũng giúp đảm bảo rằng hệ thống có khả năng phục hồi trước lỗi và khôi phục nhanh chóng sau mọi gián đoạn. Đây là một phần quan trọng trong việc quản lý một cụm Kubernetes và đảm bảo độ tin cậy, tính khả dụng và khả năng mở rộng của hệ thống.",
+        "links": [
+          {
+            "title": "Các bảng điều khiển với Grafana và Prometheus",
+            "url": "https://www.youtube.com/watch?v=fzny5uUaAeY",
+            "type": "video"
+          },
+          {
+            "title": "Hướng dẫn Giám sát Cluster Kubernetes với Prometheus & Grafana",
+            "url": "https://www.youtube.com/watch?v=YDtuwlNTzRc",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FANswgUhUb5Iuah2fni3L",
+      "type": "subtopic",
+      "label": "Các Công cụ Khả năng Nhận Thức (Observability Engines)",
+      "position": {
+        "x": -299.1381872719935,
+        "y": 1030.400748222349
+      },
+      "size": {
+        "width": 210,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Khả năng Nhận thức trong Kubernetes (k8s) đề cập đến khả năng thu thập thông tin về hoạt động bên trong của cụm, ứng dụng và dịch vụ đang chạy trên đó. Một công cụ hoặc nền tảng Khả năng Nhận thức trong k8s là một công cụ hoặc nền tảng giúp thu thập, phân tích và trực quan hóa dữ liệu từ nhiều nguồn khác nhau trong môi trường k8s của bạn. Một số Công cụ Khả năng Nhận thức phổ biến trong k8s bao gồm Prometheus, Grafana, Jaeger và Elastic Stack (ELK).",
+        "links": [
+          {
+            "title": "K8sGPT – Trình quét AI cho các vấn đề Kubernetes",
+            "url": "https://github.com/k8sgpt-ai/k8sgpt",
+            "type": "opensource"
+          },
+          {
+            "title": "HolmesGPT – Nền tảng AIOps để điều tra các vấn đề liên quan đến Kubernetes và cảnh báo từ Prometheus.",
+            "url": "https://github.com/robusta-dev/holmesgpt/",
+            "type": "opensource"
+          },
+          {
+            "title": "Kubernetes Observability 101: Công cụ, Thực hành Tốt nhất và hơn thế nữa",
+            "url": "https://www.cloudzero.com/blog/kubernetes-observability",
+            "type": "article"
+          },
+          {
+            "title": "Kubernetes Observability trong KubeSphere",
+            "url": "https://kubesphere.io/observability/",
+            "type": "article"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Khả năng quan sát",
+            "url": "https://app.daily.dev/tags/observability?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "03mGA5AyL7mpF6y3EMW7A",
+      "type": "topic",
+      "label": "Tự động mở rộng",
+      "position": {
+        "x": 81.8618127280065,
+        "y": 1132.400748222349
+      },
+      "size": {
+        "width": 225,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Tự động điều chỉnh quy mô trong Kubernetes bao gồm việc điều chỉnh tài nguyên được phân bổ cho một triển khai hoặc tập hợp các pod dựa trên nhu cầu. Nó bao gồm Tự động điều chỉnh quy mô Pod theo chiều ngang (HPA) và Tự động điều chỉnh quy mô Pod theo chiều dọc (VPA), những cái này tăng hoặc giảm số lượng bản sao hoặc điều chỉnh yêu cầu và giới hạn tài nguyên, tương ứng. Tự động điều chỉnh quy mô có thể được sử dụng với Tự động điều chỉnh quy mô cụm để phân bổ tài nguyên một cách hiệu quả và đảm bảo khả năng phản hồi của ứng dụng. Nó hữu ích cho việc xử lý khối lượng công việc thay đổi hoặc các đỉnh đột biến trong lưu lượng truy cập.",
+        "links": [
+          {
+            "title": "Tự động điều chỉnh quy mô trong Kubernetes",
+            "url": "https://kubernetes.io/blog/2016/07/autoscaling-in-kubernetes/",
+            "type": "official"
+          },
+          {
+            "title": "Tự động mở rộng cụm Kubernetes dành cho người mới bắt đầu",
+            "url": "https://www.youtube.com/watch?v=jM36M39MA3I",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "044IUUCgZP4oQ9UxUG2iy",
+      "type": "subtopic",
+      "label": "Tự động Điều chỉnh Theo Dung Lượng Pod Mành Ngang (HPA)",
+      "position": {
+        "x": 52.3618127280065,
+        "y": 1222.900748222349
+      },
+      "size": {
+        "width": 297,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Đây là một tính năng trong Kubernetes tự động mở rộng số lượng bản sao của một Pod dựa trên nhu cầu hiện tại đối với khối lượng công việc mà nó đang chạy. Bộ điều khiển HPA theo dõi mức sử dụng CPU hoặc các chỉ số khác của Pod và điều chỉnh số lượng bản sao của Pod để đáp ứng mục tiêu đã chỉ định. Điều này giúp đảm bảo rằng khối lượng công việc có thể xử lý sự gia tăng lưu lượng truy cập và nhu cầu mà không làm quá tải tài nguyên của cụm.",
+        "links": [
+          {
+            "title": "Horizontal Pod Autoscaling - Tài liệu",
+            "url": "https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "c1KVczGRjh9bhMpbPP6sA",
+      "type": "subtopic",
+      "label": "Bộ mở rộng tự động Pod theo chiều dọc (VPA)",
+      "position": {
+        "x": 52.3618127280065,
+        "y": 1275.900748222349
+      },
+      "size": {
+        "width": 297,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Vertical Pod Autoscaler (VPA) là một tính năng của Kubernetes tự động hóa quá trình điều chỉnh giới hạn tài nguyên cho các container trong pods. Khác với Horizontal Pod Autoscaler (HPA), vốn mở rộng số lượng bản sao của một pod, VPA mở rộng tài nguyên được phân bổ cho các container của pod dựa trên mức sử dụng thực tế. Nó điều chỉnh yêu cầu và giới hạn tài nguyên cho mỗi container dựa trên việc sử dụng thực tế.",
+        "links": [
+          {
+            "title": "Kubernetes VPA là gì?",
+            "url": "https://www.kubecost.com/kubernetes-autoscaling/kubernetes-vpa/",
+            "type": "article"
+          },
+          {
+            "title": "Vertical Pod Autoscaling: Ví dụ",
+            "url": "https://www.youtube.com/watch?v=3h-vDDTZrm8",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "RC5MoYtG2rom-d4FW5qD2",
+      "type": "subtopic",
+      "label": "Tự động mở rộng cụm",
+      "position": {
+        "x": 52.3618127280065,
+        "y": 1328.900748222349
+      },
+      "size": {
+        "width": 297,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Tự động điều chỉnh quy mô trong Kubernetes bao gồm việc điều chỉnh tài nguyên được phân bổ cho một triển khai hoặc tập hợp các pod dựa trên nhu cầu. Nó bao gồm Tự động điều chỉnh quy mô Pod theo chiều ngang (HPA) và Tự động điều chỉnh quy mô Pod theo chiều dọc (VPA), những cái này tăng hoặc giảm số lượng bản sao hoặc điều chỉnh yêu cầu và giới hạn tài nguyên, tương ứng. Tự động điều chỉnh quy mô có thể được sử dụng với Tự động điều chỉnh quy mô cụm để phân bổ tài nguyên một cách hiệu quả và đảm bảo khả năng phản hồi của ứng dụng. Nó hữu ích cho việc xử lý khối lượng công việc thay đổi hoặc các đỉnh đột biến trong lưu lượng truy cập.",
+        "links": [
+          {
+            "title": "Tự động điều chỉnh quy mô trong Kubernetes",
+            "url": "https://kubernetes.io/blog/2016/07/autoscaling-in-kubernetes/",
+            "type": "official"
+          },
+          {
+            "title": "Tự động mở rộng cụm Kubernetes dành cho người mới bắt đầu",
+            "url": "https://www.youtube.com/watch?v=jM36M39MA3I",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "xZDXM_8qb4VL15tNGG0ws",
+      "type": "topic",
+      "label": "Lập lịch",
+      "position": {
+        "x": -224.6381872719935,
+        "y": 1132.400748222349
+      },
+      "size": {
+        "width": 225,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Lập lịch trong Kubernetes đề cập đến quá trình phân bổ công việc (workloads) cho các nút cụ thể trong một cụm. Trình điều phối viên (scheduler) của Kubernetes đưa ra quyết định lập lịch dựa trên các yếu tố như khả năng sử dụng tài nguyên, tính phù hợp của nút và mức độ ưu tiên của công việc. Nó cân bằng công việc trên toàn cụm để đảm bảo sử dụng tài nguyên hiệu quả và tránh quá tải nút. Lập lịch xem xét các yếu tố như vị trí địa lý, yêu cầu phần cứng và nhu cầu cụ thể của ứng dụng.",
+        "links": [
+          {
+            "title": "Lập trình viên Lịch trình Kubernetes",
+            "url": "https://kubernetes.io/docs/concepts/scheduling-eviction/kube-scheduler/",
+            "type": "official"
+          },
+          {
+            "title": "Nền tảng Lập lịch",
+            "url": "https://kubernetes.io/docs/concepts/scheduling-eviction/scheduling-framework/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "70lTSIVh0AD6M8fMMuWzY",
+      "type": "subtopic",
+      "label": "Cơ bản",
+      "position": {
+        "x": -284.1381872719935,
+        "y": 1224.400748222349
+      },
+      "size": {
+        "width": 231,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Lập lịch liên quan đến việc gán Pod cho các nút làm việc dựa trên các tiêu chí như khả năng sử dụng tài nguyên, nhãn (labels), quy tắc Affinity/Anti-Affinity, Taints, Tolerations. Pod là đơn vị triển khai nhỏ nhất trong k8s, bao gồm một hoặc nhiều container có cùng không gian tên mạng. Trình điều phối viên chịu trách nhiệm phân bổ Pod cho các nút, trong khi nhãn được sử dụng để khớp nối. Quy tắc Affinity và Anti-Affinity xác định cách Pod được lập lịch dựa trên mối quan hệ của chúng với các Pod hoặc nút khác. QoS (Quality of Service) được sử dụng để ưu tiên lập lịch Pod dựa trên yêu cầu tài nguyên của chúng.",
+        "links": [
+          {
+            "title": "Lập trình viên Lịch trình Kubernetes",
+            "url": "https://kubernetes.io/docs/concepts/scheduling-eviction/kube-scheduler/",
+            "type": "official"
+          },
+          {
+            "title": "Lập lịch trong Kubernetes hoạt động như thế nào?",
+            "url": "https://www.youtube.com/watch?v=0FvQR-0tK54",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "zXUsHAI1HFhcY2BFAcypv",
+      "type": "subtopic",
+      "label": "Tainted Values and Tolerances",
+      "position": {
+        "x": -284.1381872719935,
+        "y": 1277.400748222349
+      },
+      "size": {
+        "width": 231,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Các định nghĩa và dung sai (tolerations) được sử dụng trong Kubernetes để hạn chế hoặc cho phép các Pod được lên lịch trên các nút cụ thể dựa trên nhãn. Định nghĩa (taint) là một nhãn được áp dụng vào một nút để chỉ ra những hạn chế hoặc yêu cầu nhất định. Dung sai (tolerance) là một nhãn được áp dụng vào một Pod để chỉ ra rằng nó có thể chấp nhận được những định nghĩa nhất định. Khi một nút có định nghĩa, chỉ các Pod có dung sai tương ứng mới có thể được lên lịch trên nút đó. Tính năng này hữu ích cho nhiều mục đích khác nhau, chẳng hạn như đảm bảo sự phân tách giữa các khối lượng công việc quan trọng và không quan trọng, dành riêng các nút cho các tác vụ cụ thể và bảo vệ các nút khỏi quá tải.",
+        "links": [
+          {
+            "title": "Tainted Values and Tolerances",
+            "url": "https://kubernetes.io/docs/concepts/scheduling-eviction/taint-and-toleration/",
+            "type": "official"
+          },
+          {
+            "title": "Kubernetes cho Người mới bắt đầu: Taints & Tolerations",
+            "url": "https://www.youtube.com/watch?v=mo2UrkjA7FE",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "CL0hKTcml40InmyVUXpY2",
+      "type": "subtopic",
+      "label": "Giới hạn phân phối Topology Spread",
+      "position": {
+        "x": -284.1381872719935,
+        "y": 1330.400748222349
+      },
+      "size": {
+        "width": 231,
+        "height": 69
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Giới hạn phân phối Topology Spread đảm bảo phân phối đồng đều các Pod trên địa hình của cụm. Các giới hạn định nghĩa quy tắc về số lượng Pod thuộc một loại nhất định có thể chạy trên một cấp độ nhất định, chẳng hạn như nút, vùng hoặc hàng. Các giới hạn này có thể tùy chỉnh để phù hợp với nhu cầu cụ thể, chẳng hạn như đảm bảo các khối lượng công việc quan trọng được phân phối trên nhiều vùng. Chúng giúp ngăn chặn điểm lỗi duy nhất và cải thiện khả năng phục hồi ứng dụng bằng cách ngăn chặn quá tải tài nguyên và thúc đẩy sự phân bổ cân bằng của khối lượng công việc. Các giới hạn có thể được thêm vào bằng API Kubernetes hoặc giao diện dòng lệnh.",
+        "links": [
+          {
+            "title": "Giới hạn phân phối Topology Spread",
+            "url": "https://kubernetes.io/docs/concepts/scheduling-eviction/topology-spread-constraints/",
+            "type": "official"
+          },
+          {
+            "title": "Kubernetes | Giới hạn phân tán Topology",
+            "url": "https://www.youtube.com/watch?v=joRrWJ6bwvE",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "_Gva1eGcYqpmZNPyV03lt",
+      "type": "subtopic",
+      "label": "Ưu Tiên Pod",
+      "position": {
+        "x": -284.1381872719935,
+        "y": 1383.400748222349
+      },
+      "size": {
+        "width": 231,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Các Ưu tiên Pod trong Kubernetes xác định thứ tự các pod được lên lịch trên các nút khi có xung đột về yêu cầu tài nguyên. Mỗi pod được gán một giá trị ưu tiên số, với các giá trị cao hơn chỉ ra mức ưu tiên cao hơn. Nhà lập lịch tối đa hóa tổng ưu tiên của các pod đã lên lịch trong khi vẫn xem xét khả năng phù hợp của nút, taints và tolerations, cũng như các quy tắc affinity và anti-affinity. Ưu tiên có thể được đặt thủ công hoặc tự động dựa trên logic kinh doanh hoặc yêu cầu ứng dụng. Ưu tiên giúp đảm bảo rằng các khối lượng công việc quan trọng nhận được tài nguyên cần thiết và được lên lịch trước, trong khi các khối lượng công việc ưu tiên thấp hơn được lên lịch khi tài nguyên có sẵn.",
+        "links": [
+          {
+            "title": "Ưu tiên Pod - Tài liệu",
+            "url": "https://kubernetes.io/docs/concepts/scheduling-eviction/pod-priority-preemption/#pod-priority",
+            "type": "official"
+          },
+          {
+            "title": "Ưu tiên Pod Kubernetes (Ví dụ)",
+            "url": "https://www.youtube.com/watch?v=sR_Zmvme3-0",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "TRKzlDW2PQN9bWTyz3NWL",
+      "type": "subtopic",
+      "label": "Bị pháo sự",
+      "position": {
+        "x": -128.1381872719935,
+        "y": 1383.400748222349
+      },
+      "size": {
+        "width": 231,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Việc tước quyền (eviction) sẽ chấm dứt hoặc xóa các Pod đang chạy trên một nút do các nguyên nhân như thiếu tài nguyên hoặc lỗi của Pod. Chúng có thể được khởi tạo bởi hệ thống hoặc quản trị viên thủ công thông qua API. Tước quyền có thể diễn ra một cách êm dịu, cho phép Pod dọn dẹp tài nguyên, hoặc cưỡng ép, ngay lập tức chấm dứt chúng. Kubernetes cung cấp cơ chế ưu tiên và ngân sách gián đoạn Pod để xử lý tước quyền hiệu quả và giảm thiểu sự gián đoạn dịch vụ. Tước quyền là cần thiết để quản lý và duy trì các cụm Kubernetes, và Kubernetes cung cấp các công cụ để xử lý chúng.",
+        "links": [
+          {
+            "title": "Phân áp nút (Node Pressure) - Thoái khỏi nút (Eviction)",
+            "url": "https://kubernetes.io/docs/concepts/scheduling-eviction/node-pressure-eviction/",
+            "type": "official"
+          },
+          {
+            "title": "Eviction do API khởi tạo",
+            "url": "https://kubernetes.io/docs/concepts/scheduling-eviction/api-eviction/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "URnYf9jMprFz-o26fbU2P",
+      "type": "topic",
+      "label": "Lưu trữ và Thể tích",
+      "position": {
+        "x": -627.1381872719935,
+        "y": 1132.400748222349
+      },
+      "size": {
+        "width": 225,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Các trình điều khiển CSI (Giao diện Lưu trữ Container) trong Kubernetes cung cấp một cách tiêu chuẩn để các nhà cung cấp lưu trữ tích hợp với Kubernetes và cung cấp lưu trữ có thể mở rộng cho các ứng dụng được container hóa. Chúng hoạt động như các quy trình container riêng biệt và giao tiếp với Kubernetes thông qua một API được xác định tốt. Các trình điều khiển CSI cho phép Kubernetes truy cập nhiều hệ thống lưu trữ khác nhau và cung cấp các tính năng nâng cao như chụp ảnh nhanh và sao chép.",
+        "links": [
+          {
+            "title": "Giao diện Lưu trữ Container (CSI) cho Kubernetes",
+            "url": "https://kubernetes.io/blog/2019/01/15/container-storage-interface-ga/",
+            "type": "official"
+          },
+          {
+            "title": "CSI trong Kubernetes",
+            "url": "https://www.youtube.com/watch?v=brXPQ1Qwjl4",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "55RV9psPCmcg8G_P_zQo9",
+      "type": "subtopic",
+      "label": "Các trình điều khiển CSI",
+      "position": {
+        "x": -745.1381872719935,
+        "y": 1217.900748222349
+      },
+      "size": {
+        "width": 132,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Các trình điều khiển CSI (Giao diện Lưu trữ Container) trong Kubernetes cung cấp một cách tiêu chuẩn để các nhà cung cấp lưu trữ tích hợp với Kubernetes và cung cấp lưu trữ có thể mở rộng cho các ứng dụng được container hóa. Chúng hoạt động như các quy trình container riêng biệt và giao tiếp với Kubernetes thông qua một API được xác định tốt. Các trình điều khiển CSI cho phép Kubernetes truy cập nhiều hệ thống lưu trữ khác nhau và cung cấp các tính năng nâng cao như chụp ảnh nhanh và sao chép.",
+        "links": [
+          {
+            "title": "Giao diện Lưu trữ Container (CSI) cho Kubernetes",
+            "url": "https://kubernetes.io/blog/2019/01/15/container-storage-interface-ga/",
+            "type": "official"
+          },
+          {
+            "title": "CSI trong Kubernetes",
+            "url": "https://www.youtube.com/watch?v=brXPQ1Qwjl4",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "LJUJ1NIUsajb1AUdvJjqW",
+      "type": "subtopic",
+      "label": "Ứng dụng trạng thái (Stateful Applications)",
+      "position": {
+        "x": -745.1381872719935,
+        "y": 1270.900748222349
+      },
+      "size": {
+        "width": 201,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Lưu trữ là một thành phần quan trọng trong Kubernetes đối với các ứng dụng trạng thái (stateful), vì các ứng dụng này yêu cầu lưu trữ dữ liệu có trạng thái có sẵn trên nhiều bản sao của ứng dụng. Kubernetes cung cấp nhiều tùy chọn lưu trữ, bao gồm volumes, persistent volumes và storage classes. Volumes là các khối xây dựng cơ bản của lưu trữ trong Kubernetes. Một volume là một thư mục có thể truy cập được bởi container chạy ứng dụng và nó có thể được hỗ trợ bởi các loại lưu trữ khác nhau, chẳng hạn như một thư mục host, một đĩa nhà cung cấp đám mây hoặc một hệ thống lưu trữ mạng. Volumes được tạo và quản lý bởi Kubernetes và chúng có thể được gắn vào containers như một phần của định nghĩa pod.",
+        "links": [
+          {
+            "title": "Ứng dụng trạng thái (Stateful Applications)",
+            "url": "https://kubernetes.io/docs/tutorials/stateful-application/",
+            "type": "official"
+          },
+          {
+            "title": "Các kiến thức cơ bản về các ứng dụng trạng thái trong Kubernetes",
+            "url": "https://www.youtube.com/watch?v=GieXzb91I40",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "0l0xpsabglvs_t6oAP-XG",
+      "type": "topic",
+      "label": "Các mẫu Triển khai",
+      "position": {
+        "x": -627.1381872719935,
+        "y": 1383.400748222349
+      },
+      "size": {
+        "width": 225,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Đây là một chiến lược triển khai được sử dụng trong Kubernetes để triển khai các phiên bản mới của ứng dụng bằng cách chạy hai môi trường sản xuất giống hệt nhau, một với phiên bản hiện tại (xanh) và một với phiên bản mới (đỏ). Sau khi môi trường đỏ được kiểm tra đầy đủ, lưu lượng truy cập sẽ được chuyển từ môi trường xanh sang môi trường đỏ, mang lại sự chuyển đổi liền mạch cho người dùng và tránh bất kỳ thời gian ngừng hoạt động hoặc gián đoạn nào. Trong Kubernetes, Blue-Green Deployments có thể được triển khai bằng nhiều công cụ và kỹ thuật khác nhau, bao gồm chiến lược triển khai, định tuyến lưu lượng truy cập và cân bằng tải.",
+        "links": [
+          {
+            "title": "Tạo một Triển khai Xanh/Xanh cho Kubernetes",
+            "url": "https://developer.harness.io/docs/continuous-delivery/cd-execution/kubernetes-executions/create-a-kubernetes-blue-green-deployment/",
+            "type": "article"
+          },
+          {
+            "title": "Kubernetes – Triển khai Xanh/Xanh (Blue/Green)",
+            "url": "https://www.youtube.com/watch?v=jxhpTGQ484Y",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Pymc9H-lRHVPy7M9eSaPD",
+      "type": "subtopic",
+      "label": "Tích hợp CI / CD",
+      "position": {
+        "x": -745.1381872719935,
+        "y": 1472.900748222349
+      },
+      "size": {
+        "width": 264,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Trong mẫu CI/CD, việc xây dựng, kiểm thử và triển khai ứng dụng lên Kubernetes được tự động hóa hoàn toàn. Pipeline CI tạo hình ảnh container, chạy các bài kiểm tra và đẩy nó lên một registry. Pipeline CD sau đó cập nhật manifests hoặc Helm charts của Kubernetes và áp dụng chúng vào cluster bằng các công cụ như Octopus Deploy, Argo CD, Flux hoặc kubectl. Điều này đảm bảo các triển khai nhất quán, lặp lại và nhanh chóng.",
+        "links": [
+          {
+            "title": "Pipelines CI/CD Kubernetes – 8 Thực hành Tốt nhất và Công cụ",
+            "url": "https://spacelift.io/blog/kubernetes-ci-cd",
+            "type": "article"
+          },
+          {
+            "title": "Các công cụ CI/CD cho Kubernetes mà mọi nhà phát triển nên biết",
+            "url": "https://octopus.com/devops/kubernetes-deployments/kubernetes-ci-cd-tools-for-developers/",
+            "type": "article"
+          },
+          {
+            "title": "Triển khai đến Kubernetes với Octopus Deploy",
+            "url": "https://octopus.com/use-case/kubernetes?utm_source=roadmap&utm_medium=link&utm_campaign=kubernetes-ci-cd-integration",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dATdEyNWlpDNKjedCXLyb",
+      "type": "subtopic",
+      "label": "GitOps",
+      "position": {
+        "x": -745.1381872719935,
+        "y": 1525.900748222349
+      },
+      "size": {
+        "width": 264,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "GitOps là một tập hợp các phương pháp quản lý cơ sở hạ tầng và ứng dụng bằng cách sử dụng kho Git làm nguồn xác thực cho cấu hình tường minh. Trong Kubernetes, GitOps liên quan đến việc sử dụng Git như nguồn xác thực duy nhất cho trạng thái mong muốn và trạng thái thực tế của hệ thống, tự động hóa các tác vụ triển khai và quản lý, và thường được sử dụng kết hợp với các phương pháp Tiếp tục Đang Phát (CD). Kết quả là một cách tiếp cận nhất quán, đáng tin cậy và tự động hơn để quản lý cơ sở hạ tầng và ứng dụng.",
+        "links": [
+          {
+            "title": "Sử dụng GitOps với một cụm Kubernetes",
+            "url": "https://docs.gitlab.com/ee/user/clusters/agent/gitops.html",
+            "type": "article"
+          },
+          {
+            "title": "DevOps và GitOps cho Kubernetes",
+            "url": "https://www.youtube.com/watch?v=PFLimPh5-wo",
+            "type": "video"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về GitOps",
+            "url": "https://app.daily.dev/tags/gitops?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FAEFOhLdp7xrmctHFxiOM",
+      "type": "subtopic",
+      "label": "Bản đồ Helm",
+      "position": {
+        "x": -745.1381872719935,
+        "y": 1578.900748222349
+      },
+      "size": {
+        "width": 264,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Helm là một trình quản lý gói cho Kubernetes giúp đơn giản hóa việc triển khai và quản lý các ứng dụng phức tạp thông qua việc sử dụng các biểu đồ (chart) Helm có thể tái sử dụng và phiên bản hóa. Các biểu đồ này được cấu thành từ các tệp YAML mô tả các tập hợp tài nguyên Kubernetes liên quan và có thể tùy chỉnh bằng các tệp giá trị (values files) và định vị mẫu (templating) với mẫu Go. Các biểu đồ Helm cũng có thể phụ thuộc vào các biểu đồ khác và được lưu trữ trong một kho lưu trữ tập trung như Helm Hub để dễ dàng chia sẻ và truy cập. Bằng cách sử dụng Helm, các nhóm có thể tối ưu hóa việc quản lý ứng dụng và giảm thiểu sự trùng lặp công sức.",
+        "links": [
+          {
+            "title": "Tài liệu Helm",
+            "url": "https://helm.sh/docs/",
+            "type": "official"
+          },
+          {
+            "title": "Helm trong Kubernetes là gì? Giải thích về Helm và Helm Charts",
+            "url": "https://www.youtube.com/watch?v=-ykwb1d0DXU",
+            "type": "video"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Helm",
+            "url": "https://app.daily.dev/tags/helm?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "88IGeC3dAopHLGtLozxdY",
+      "type": "subtopic",
+      "label": "Triển khai Ngựa-Xanh",
+      "position": {
+        "x": -745.1381872719935,
+        "y": 1631.900748222349
+      },
+      "size": {
+        "width": 264,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Canary Deployments là một kỹ thuật được sử dụng trong Kubernetes để triển khai dần các phiên bản mới của ứng dụng bằng cách hướng dẫn một tỷ lệ nhỏ người dùng hoặc lưu lượng truy cập đến phiên bản mới, trong khi phần lớn vẫn tiếp tục sử dụng phiên bản cũ. Phương pháp này cho phép kiểm tra phiên bản mới dưới điều kiện thực tế trước khi cam kết hoàn toàn cập nhật. Trong Kubernetes, Canary Deployments có thể được triển khai bằng các công cụ như Istio, Linkerd hoặc Nginx, hoặc bằng các tính năng tích hợp sẵn như chiến lược triển khai và định tuyến lưu lượng.",
+        "links": [
+          {
+            "title": "Canary deployment cho K8s deployments",
+            "url": "https://learn.microsoft.com/en-us/azure/devops/pipelines/ecosystems/kubernetes/canary-demo?view=azure-devops&tabs=yaml",
+            "type": "article"
+          },
+          {
+            "title": "Triển khai canary của Kubernetes Giải thích",
+            "url": "https://www.youtube.com/watch?v=sCevTD_GtvU",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "yMSXdwDO36CLtp2TBC7aB",
+      "type": "subtopic",
+      "label": "Cập nhật Theo Lớp / Đãi Xe Hậu",
+      "position": {
+        "x": -745.1381872719935,
+        "y": 1737.900748222349
+      },
+      "size": {
+        "width": 264,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Cập nhật theo lớp và đài xe hậu là các phương pháp để cập nhật ứng dụng mà không bị gián đoạn. Một bản cập nhật theo lớp dần dần thay thế các phiên bản cũ của một ứng dụng bằng các phiên bản mới, đảm bảo rằng một số phiên bản của ứng dụng luôn có sẵn. Nếu có vấn đề xảy ra trong quá trình cập nhật, đài xe hậu cho phép bạn khôi phục lại phiên bản ổn định trước đó của ứng dụng.",
+        "links": [
+          {
+            "title": "Thực Hiện Cập Nhật Theo Lớp (Rolling Update)",
+            "url": "https://kubernetes.io/docs/tutorials/kubernetes-basics/update/update-intro/",
+            "type": "official"
+          },
+          {
+            "title": "Bạn có thể hoàn tác triển khai trong Kubernetes như thế nào?",
+            "url": "https://learnkube.com/kubernetes-rollbacks",
+            "type": "article"
+          },
+          {
+            "title": "Triển khai Kubernetes: Hướng dẫn về Chiến lược Cập nhật Theo Dòng",
+            "url": "https://semaphore.io/blog/kubernetes-rolling-update-deployment",
+            "type": "video"
+          },
+          {
+            "title": "Hướng dẫn Đưa về trạng thái trước (Rollbacks) Kubernetes",
+            "url": "https://www.youtube.com/watch?v=9hK11Ov74U4",
+            "type": "video"
+          },
+          {
+            "title": "Các chiến lược Triển khai Kubernetes | Triển khai Cập nhật Theo Dần | Triển khai Argo | ADAM",
+            "url": "https://www.youtube.com/watch?v=cy3KXqgJOrE",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "vdbcHzRz-_WnvhOemTw3R",
+      "type": "horizontal",
+      "label": "nút ngang",
+      "position": {
+        "x": -425.1381872719935,
+        "y": 1799.400748222349
+      },
+      "size": {
+        "width": 300,
+        "height": 20
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.75
+      },
+      "z_index": 999
+    },
+    {
+      "id": "t8SJbGVXsUDECxePLDk_w",
+      "type": "topic",
+      "label": "Chủ đề Nâng cao",
+      "position": {
+        "x": -288.9715206053269,
+        "y": 1784.900748222349
+      },
+      "size": {
+        "width": 225,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Các khái niệm Kubernetes nâng cao bao gồm các kỹ thuật sản xuất dành cho DevOps, Docker và phát triển backend. Chúng bao gồm triển khai GitOps, tối ưu hóa container, quản lý công việc trạng thái, ứng dụng native đám mây an toàn và triển khai khả năng mở rộng dịch vụ.",
+        "links": [
+          {
+            "title": "Thực hành Tốt nhất cho Production Kubernetes",
+            "url": "https://kubernetes.io/docs/setup/production-environment/",
+            "type": "official"
+          },
+          {
+            "title": "Các mẫu thiết kế Kubernetes hàng đầu",
+            "url": "https://www.wallarm.com/what/top-kubernetes-design-patterns",
+            "type": "article"
+          },
+          {
+            "title": "Vai trò của Kubernetes trong DevOps",
+            "url": "https://spacelift.io/blog/kubernetes-devops",
+            "type": "article"
+          },
+          {
+            "title": "Kubernetes cho người dùng Docker",
+            "url": "https://www.youtube.com/watch?v=keNQ6V_W4VE&ab_channel=Rancher",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L9rVPEEXFwisQOwT_LQ4v",
+      "type": "subtopic",
+      "label": "Tạo các Bộ Điều Khiển Tùy Chỉnh",
+      "position": {
+        "x": -364.4715206053269,
+        "y": 1471.400748222349
+      },
+      "size": {
+        "width": 315,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Các bộ điều khiển tùy chỉnh trong Kubernetes tự động hóa việc quản lý các tài nguyên tùy chỉnh không được hỗ trợ theo mặc định bởi Kubernetes. Chúng được triển khai như các bộ điều khiển Kubernetes, theo dõi các tài nguyên tùy chỉnh và phản ứng với thay đổi trạng thái của chúng. Các tài nguyên tùy chỉnh được tạo ra bằng cách mở rộng API Kubernetes với các loại tài nguyên mới cụ thể cho nhu cầu của một tổ chức. Các bộ điều khiển tùy chỉnh có thể được phát triển bằng nhiều ngôn ngữ lập trình và framework khác nhau, chẳng hạn như Framework Operator. Framework Operator cung cấp công cụ và phương pháp tốt nhất để phát triển, kiểm thử và triển khai các bộ điều khiển tùy chỉnh.",
+        "links": [
+          {
+            "title": "Các Bộ Điều Khiển Tùy Chỉnh",
+            "url": "https://kubernetes.io/docs/concepts/extend-kubernetes/api-extension/custom-resources/#custom-controllers",
+            "type": "official"
+          },
+          {
+            "title": "Mở rộng Kubernetes với Bộ điều khiển tùy chỉnh",
+            "url": "https://www.youtube.com/results?search_query=Custom+controllers+in+k8s",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1-Nb8rCMJEZrYm20sEcRJ",
+      "type": "subtopic",
+      "label": "Bộ lập lịch và mở rộng tùy chỉnh",
+      "position": {
+        "x": -364.4715206053269,
+        "y": 1524.400748222349
+      },
+      "size": {
+        "width": 315,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Các Mở Rộng Nhà Điều Phối Tùy Chỉnh trong Kubernetes tăng cường khả năng lập lịch của Kubernetes bằng cách cho phép người dùng xác định logic lập lịch riêng dựa trên các số liệu và ràng buộc tùy chỉnh. Chúng được triển khai như các bộ điều khiển Kubernetes chạy song song với nhà điều phối Kubernetes. Các Mở Rộng Nhà Điều Phối Tùy Chỉnh có thể được sử dụng để thực thi các chính sách lập lịch cụ thể cho nhu cầu của một tổ chức và có thể được phát triển bằng nhiều ngôn ngữ lập trình. Chúng chặn các yêu cầu lập lịch, thêm logic lập lịch tùy chỉnh dựa trên các quy tắc do người dùng xác định và chuyển các yêu cầu trở lại nhà điều phối Kubernetes.",
+        "links": [
+          {
+            "title": "Tạo một nhà điều phối Kubernetes tùy chỉnh",
+            "url": "https://developer.ibm.com/articles/creating-a-custom-kube-scheduler/",
+            "type": "article"
+          },
+          {
+            "title": "Nhà Điều Phối Tùy Chỉnh Kubernetes | Nhiều Nhà Điều Phối Tùy Chỉnh Kubernetes",
+            "url": "https://www.youtube.com/watch?v=NiB7sjXmiZc",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "9P7l-RBOkUxs3Z_UpKQO-",
+      "type": "subtopic",
+      "label": "Định Nghĩa Nguồn Tùy Chỉnh (CRDs)",
+      "position": {
+        "x": -364.4715206053269,
+        "y": 1577.400748222349
+      },
+      "size": {
+        "width": 315,
+        "height": 69
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Định Nghĩa Nguồn Tùy Chỉnh (CRDs) trong Kubernetes mở rộng API của Kubernetes bằng cách định nghĩa các loại tài nguyên mới cụ thể cho nhu cầu của một tổ chức. CRDs tạo ra các nguồn lực tùy chỉnh có thể quản lý nhiều loại tài nguyên khác nhau, chẳng hạn như ứng dụng, cơ sở dữ liệu, lưu trữ và mạng. Chúng được xác định bằng các mẫu YAML hoặc JSON và có thể được tạo và quản lý bằng API máy chủ Kubernetes. Sau khi được tạo, các nguồn lực tùy chỉnh có thể được quản lý bằng các bộ điều khiển Kubernetes và tích hợp với các thành phần Kubernetes khác. CRDs là một công cụ mạnh mẽ để đơn giản hóa hoạt động trong Kubernetes và cho phép các tổ chức quản lý tài nguyên hiệu quả và tùy chỉnh hơn.",
+        "links": [
+          {
+            "title": "Nguồn Tùy Chỉnh - Tài Liệu",
+            "url": "https://kubernetes.io/docs/concepts/extend-kubernetes/api-extension/custom-resources/",
+            "type": "official"
+          },
+          {
+            "title": "Giải thích Định Nghĩa Nguồn Tùy Chỉnh (CRD) với Trình Thuyết Hiện Tràng",
+            "url": "https://www.youtube.com/watch?v=u1X5Rf7fWwM",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "UeJcKv3jhenjNzHM-0R86",
+      "type": "subtopic",
+      "label": "Các Mở rộng và API của Kubernetes",
+      "position": {
+        "x": -364.4715206053269,
+        "y": 1631.400748222349
+      },
+      "size": {
+        "width": 315,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Kubernetes (k8s) mở rộng và API được sử dụng để tùy chỉnh hành vi của Kubernetes và thêm các khả năng mới cho hệ thống. Các mở rộng Kubernetes, bao gồm Định nghĩa Tài nguyên Tùy chỉnh (CRDs), Điều khiển Tùy chỉnh, Mở rộng Lịch trình Tùy chỉnh và API Đo lường Tùy chỉnh, nâng cao chức năng của Kubernetes. Các API Kubernetes được sử dụng để quản lý tài nguyên trong một cụm Kubernetes và tương tác với hệ thống. Các mở rộng và API Kubernetes cùng nhau cung cấp bộ công cụ mạnh mẽ để tùy chỉnh và mở rộng Kubernetes, cho phép người dùng xây dựng các thành phần và API tùy chỉnh để tối ưu hóa hoạt động trong Kubernetes.",
+        "links": [
+          {
+            "title": "Mở rộng - Tài liệu",
+            "url": "https://kubernetes.io/docs/concepts/extend-kubernetes/#extensions",
+            "type": "official"
+          },
+          {
+            "title": "API của Kubernetes – Tài liệu hướng dẫn",
+            "url": "https://kubernetes.io/docs/concepts/overview/kubernetes-api/",
+            "type": "official"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Kubernetes",
+            "url": "https://app.daily.dev/tags/kubernetes?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ZrVhYTw63aVVIFAEJDG5r",
+      "type": "subtopic",
+      "label": "Bạn có nên quản lý riêng Cụm của mình không?",
+      "position": {
+        "x": -15.804853938660187,
+        "y": 1470.0674148890157
+      },
+      "size": {
+        "width": 336,
+        "height": 69
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Để tạo cụm Kubernetes của riêng bạn, bạn cần chọn nhà cung cấp đám mây hoặc thiết lập cơ sở hạ tầng của riêng mình, cài đặt Kubernetes trên cơ sở hạ tầng của bạn, cấu hình cụm của bạn bằng cách thiết lập mạng, lưu trữ và bảo mật, triển khai các ứng dụng của bạn bằng các manifest Kubernetes và giám sát và quản lý cụm của bạn bằng các công cụ như Kubernetes Dashboard, kubectl và Prometheus. Quá trình này có thể phức tạp và tốn thời gian, nhưng nó mang lại cho bạn quyền kiểm soát hoàn toàn đối với cơ sở hạ tầng của bạn và cho phép tùy chỉnh để đáp ứng nhu cầu cụ thể của bạn.",
+        "links": [
+          {
+            "title": "Thiết lập một cụm với kubeadm",
+            "url": "https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm/",
+            "type": "official"
+          },
+          {
+            "title": "Kubernetes | Cài đặt cụm Kubernetes",
+            "url": "https://www.youtube.com/watch?v=Ro2qeYeisZQ",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "M-iTb_7EWZIJ3JpdViICx",
+      "type": "subtopic",
+      "label": "Triển khai Control Plane",
+      "position": {
+        "x": -15.804853938660187,
+        "y": 1523.0674148890157
+      },
+      "size": {
+        "width": 336,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Các thành phần của bộ điều khiển đưa ra quyết định toàn cầu về cụm (ví dụ: lên lịch), cũng như phát hiện và phản hồi các sự kiện của cụm (ví dụ: khởi chạy một pod mới khi trường số lượng bản sao trong triển khai không được đáp ứng). Các thành phần bộ điều khiển có thể chạy trên bất kỳ máy nào trong cụm. Tuy nhiên, vì mục đích đơn giản, các script cấu hình thường bắt đầu tất cả các thành phần bộ điều khiển trên cùng một máy và không chạy các container người dùng trên máy này.",
+        "links": [
+          {
+            "title": "Khởi tạo node điều khiển - Tài liệu",
+            "url": "https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm/#initializing-your-control-plane-node",
+            "type": "official"
+          },
+          {
+            "title": "Hướng dẫn - Cài đặt thành phần Điều khiển",
+            "url": "https://www.youtube.com/watch?v=IUwuyZ5ReF0",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2cQKTxln3dIk5IjX2UZdM",
+      "type": "subtopic",
+      "label": "Thêm và Quản lý Node làm việc",
+      "position": {
+        "x": -15.804853938660187,
+        "y": 1576.0674148890157
+      },
+      "size": {
+        "width": 336,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Kubernetes chạy công việc của bạn bằng cách đặt các container vào Pod để chạy trên Node. Một Node có thể là máy ảo hoặc máy vật lý, tùy thuộc vào cụm (cluster). Mỗi Node được quản lý bởi control plane và chứa các dịch vụ cần thiết để chạy Pods.",
+        "links": [
+          {
+            "title": "Quản lý Node",
+            "url": "https://kubernetes.io/docs/concepts/architecture/nodes/#management",
+            "type": "official"
+          },
+          {
+            "title": "Kubernetes 101: Bài học về Nodes",
+            "url": "https://www.youtube.com/watch?v=xhwi3zIVR-8",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "auZgEQ6FC3nUjuyx0zANh",
+      "type": "subtopic",
+      "label": "Quản lý Nhiều Nhóm Cluster",
+      "position": {
+        "x": -17.138187271993502,
+        "y": 1629.0674148890157
+      },
+      "size": {
+        "width": 336,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Quản lý nhiều cụm (Multi-Cluster Management) trong Kubernetes (k8s) đề cập đến khả năng quản lý nhiều cụm Kubernetes bằng một control plane duy nhất. Phương pháp này cho phép người quản trị quản lý và điều phối tài nguyên trên nhiều cụm, bất kể chúng được đặt ở đâu, mà không cần chuyển đổi giữa nhiều console quản lý hoặc công cụ khác nhau.",
+        "links": [
+          {
+            "title": "Cấu hình Truy cập vào Nhiều Cụm - Tài liệu",
+            "url": "https://kubernetes.io/docs/tasks/access-application-cluster/configure-access-multiple-clusters/",
+            "type": "official"
+          },
+          {
+            "title": "Chiến lược Quản lý Khu vực Kubernetes",
+            "url": "https://www.youtube.com/watch?v=966TJ6mlOYY",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "-M6ZVzI35DVZwl9hGpYFQ",
+      "type": "label",
+      "label": "Vận hành cụm",
+      "position": {
+        "x": -13.138187271993502,
+        "y": 1700.5674148890157
+      },
+      "size": {
+        "width": 161,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "A3PLMcJN35yJJUuZJbRMx",
+      "type": "horizontal",
+      "label": "nút ngang",
+      "position": {
+        "x": -364.4715206053269,
+        "y": 1684.900748222349
+      },
+      "size": {
+        "width": 300,
+        "height": 20
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.25
+      },
+      "z_index": 999
+    },
+    {
+      "id": "9-oaTlzKmcxTfaRycz1w3",
+      "type": "subtopic",
+      "label": "Triển khai Xanh-Xanh",
+      "position": {
+        "x": -745.1381872719935,
+        "y": 1684.900748222349
+      },
+      "size": {
+        "width": 264,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Đây là một chiến lược triển khai được sử dụng trong Kubernetes để triển khai các phiên bản mới của ứng dụng bằng cách chạy hai môi trường sản xuất giống hệt nhau, một với phiên bản hiện tại (xanh) và một với phiên bản mới (đỏ). Sau khi môi trường đỏ được kiểm tra đầy đủ, lưu lượng truy cập sẽ được chuyển từ môi trường xanh sang môi trường đỏ, mang lại sự chuyển đổi liền mạch cho người dùng và tránh bất kỳ thời gian ngừng hoạt động hoặc gián đoạn nào. Trong Kubernetes, Blue-Green Deployments có thể được triển khai bằng nhiều công cụ và kỹ thuật khác nhau, bao gồm chiến lược triển khai, định tuyến lưu lượng truy cập và cân bằng tải.",
+        "links": [
+          {
+            "title": "Tạo một Triển khai Xanh/Xanh cho Kubernetes",
+            "url": "https://developer.harness.io/docs/continuous-delivery/cd-execution/kubernetes-executions/create-a-kubernetes-blue-green-deployment/",
+            "type": "article"
+          },
+          {
+            "title": "Kubernetes – Triển khai Xanh/Xanh (Blue/Green)",
+            "url": "https://www.youtube.com/watch?v=jxhpTGQ484Y",
+            "type": "video"
+          }
+        ]
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "xy-edge__HU7wZWiES3m3xl1-NYP6Fx2-t8SJbGVXsUDECxePLDk_ww1",
+      "source": "HU7wZWiES3m3xl1-NYP6F",
+      "target": "y7KjVfSI6CAduyHd4mBFT",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__t8SJbGVXsUDECxePLDk_wz2-qLeEEwBvlGt1fP5Qcreahy2",
+      "source": "y7KjVfSI6CAduyHd4mBFT",
+      "target": "qLeEEwBvlGt1fP5Qcreah",
+      "source_handle": "z2",
+      "target_handle": "y2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__t8SJbGVXsUDECxePLDk_wz2-q-Ky0ietZGpyUcBQfh-BJy1",
+      "source": "y7KjVfSI6CAduyHd4mBFT",
+      "target": "q-Ky0ietZGpyUcBQfh-BJ",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__t8SJbGVXsUDECxePLDk_wz2-9oo2fxTM2_p0VYPBroqxay2",
+      "source": "y7KjVfSI6CAduyHd4mBFT",
+      "target": "9oo2fxTM2_p0VYPBroqxa",
+      "source_handle": "z2",
+      "target_handle": "y2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__t8SJbGVXsUDECxePLDk_wz2-3fzuXKH7az_LVnmnoXB1py1",
+      "source": "y7KjVfSI6CAduyHd4mBFT",
+      "target": "3fzuXKH7az_LVnmnoXB1p",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__t8SJbGVXsUDECxePLDk_wy2-zrbSJa3k7a3TE0aYbWi9cz2",
+      "source": "3OpGaQhyNtk1n1MLp-tlb",
+      "target": "zrbSJa3k7a3TE0aYbWi9c",
+      "source_handle": "y2",
+      "target_handle": "z2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__t8SJbGVXsUDECxePLDk_wy2-qSatCdBTDXPu-IFWzUI99z1",
+      "source": "3OpGaQhyNtk1n1MLp-tlb",
+      "target": "qSatCdBTDXPu-IFWzUI99",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__t8SJbGVXsUDECxePLDk_wy2-YaIs8lquWIe1D7RCUBZmCz2",
+      "source": "3OpGaQhyNtk1n1MLp-tlb",
+      "target": "YaIs8lquWIe1D7RCUBZmC",
+      "source_handle": "y2",
+      "target_handle": "z2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__3OpGaQhyNtk1n1MLp-tlbx2-t8SJbGVXsUDECxePLDk_ww1",
+      "source": "3OpGaQhyNtk1n1MLp-tlb",
+      "target": "1MdrzhktCWjpmxiYYBdz7",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__t8SJbGVXsUDECxePLDk_wz2-TUGQX7y1gs-aKPge2F1NUy1",
+      "source": "1MdrzhktCWjpmxiYYBdz7",
+      "target": "TUGQX7y1gs-aKPge2F1NU",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__t8SJbGVXsUDECxePLDk_wz2--d2PIXm0V_Iehe8cws8zKy1",
+      "source": "1MdrzhktCWjpmxiYYBdz7",
+      "target": "-d2PIXm0V_Iehe8cws8zK",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__t8SJbGVXsUDECxePLDk_wz2-r3fzAN5DzratAKnnT8hzby1",
+      "source": "1MdrzhktCWjpmxiYYBdz7",
+      "target": "r3fzAN5DzratAKnnT8hzb",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__1MdrzhktCWjpmxiYYBdz7x2-t8SJbGVXsUDECxePLDk_ww1",
+      "source": "1MdrzhktCWjpmxiYYBdz7",
+      "target": "aUJ_w2L8nxNq3DfAW97Gd",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__t8SJbGVXsUDECxePLDk_wx2-jUOlITLqnIvSu97I_3nBzw1",
+      "source": "aUJ_w2L8nxNq3DfAW97Gd",
+      "target": "jUOlITLqnIvSu97I_3nBz",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__aUJ_w2L8nxNq3DfAW97Gdy2-t8SJbGVXsUDECxePLDk_wz2",
+      "source": "aUJ_w2L8nxNq3DfAW97Gd",
+      "target": "dj7Tb2XTX4kxRUYiTjlhM",
+      "source_handle": "y2",
+      "target_handle": "z2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__t8SJbGVXsUDECxePLDk_ww2-S0CwGC2gMG-SqnLNldqBDx2",
+      "source": "dj7Tb2XTX4kxRUYiTjlhM",
+      "target": "S0CwGC2gMG-SqnLNldqBD",
+      "source_handle": "w2",
+      "target_handle": "x2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__dj7Tb2XTX4kxRUYiTjlhMx2-t8SJbGVXsUDECxePLDk_ww2",
+      "source": "dj7Tb2XTX4kxRUYiTjlhM",
+      "target": "eWKkdiBhD5x2sGYajmHEs",
+      "source_handle": "x2",
+      "target_handle": "w2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__eWKkdiBhD5x2sGYajmHEsz2-t8SJbGVXsUDECxePLDk_wy2",
+      "source": "eWKkdiBhD5x2sGYajmHEs",
+      "target": "SG3wtV2rt9nmLEkgrp_zP",
+      "source_handle": "z2",
+      "target_handle": "y2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__t8SJbGVXsUDECxePLDk_ww2-i7qxaFhFHPfe3fGEgsbcEx1",
+      "source": "SG3wtV2rt9nmLEkgrp_zP",
+      "target": "i7qxaFhFHPfe3fGEgsbcE",
+      "source_handle": "w2",
+      "target_handle": "x1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__SG3wtV2rt9nmLEkgrp_zPx2-t8SJbGVXsUDECxePLDk_ww1",
+      "source": "SG3wtV2rt9nmLEkgrp_zP",
+      "target": "AgsQnQjyTLUFhFpRdcE13",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__t8SJbGVXsUDECxePLDk_wy2-pDjNsK5vI9FmKZbQm0lDPz1",
+      "source": "AgsQnQjyTLUFhFpRdcE13",
+      "target": "pDjNsK5vI9FmKZbQm0lDP",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__t8SJbGVXsUDECxePLDk_wy2-ldYTEPt_hI4PXxr3tgJi5z1",
+      "source": "AgsQnQjyTLUFhFpRdcE13",
+      "target": "ldYTEPt_hI4PXxr3tgJi5",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__t8SJbGVXsUDECxePLDk_wy2-FANswgUhUb5Iuah2fni3Lz1",
+      "source": "AgsQnQjyTLUFhFpRdcE13",
+      "target": "FANswgUhUb5Iuah2fni3L",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__AgsQnQjyTLUFhFpRdcE13x2-t8SJbGVXsUDECxePLDk_ww1",
+      "source": "AgsQnQjyTLUFhFpRdcE13",
+      "target": "03mGA5AyL7mpF6y3EMW7A",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__t8SJbGVXsUDECxePLDk_wx2-RC5MoYtG2rom-d4FW5qD2w2",
+      "source": "03mGA5AyL7mpF6y3EMW7A",
+      "target": "044IUUCgZP4oQ9UxUG2iy",
+      "source_handle": "x2",
+      "target_handle": "w2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__03mGA5AyL7mpF6y3EMW7Ay2-t8SJbGVXsUDECxePLDk_wz2",
+      "source": "03mGA5AyL7mpF6y3EMW7A",
+      "target": "xZDXM_8qb4VL15tNGG0ws",
+      "source_handle": "y2",
+      "target_handle": "z2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__t8SJbGVXsUDECxePLDk_wx2-70lTSIVh0AD6M8fMMuWzYw1",
+      "source": "xZDXM_8qb4VL15tNGG0ws",
+      "target": "70lTSIVh0AD6M8fMMuWzY",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__xZDXM_8qb4VL15tNGG0wsy2-t8SJbGVXsUDECxePLDk_wz1",
+      "source": "xZDXM_8qb4VL15tNGG0ws",
+      "target": "URnYf9jMprFz-o26fbU2P",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    }
+  ],
+  "content_crawled_at": "2026-04-06T09:47:43.067483+00:00"
+}

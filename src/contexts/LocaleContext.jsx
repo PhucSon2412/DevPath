@@ -1,13 +1,13 @@
 import { createContext, useContext, useEffect, useMemo, useState } from 'react'
-import enMessages from '../locales/en.json'
+import viMessages from '../locales/vi.json'
 
 const LocaleContext = createContext(null)
 
 const LOCALE_STORAGE_KEY = 'devpath_locale'
-const SUPPORTED_LOCALES = ['en']
+const SUPPORTED_LOCALES = ['vi']
 
 const MESSAGES = {
-  en: enMessages,
+  vi: viMessages,
 }
 
 function getByPath(source, path) {
@@ -22,7 +22,7 @@ function getInitialLocale() {
   if (SUPPORTED_LOCALES.includes(saved)) {
     return saved
   }
-  return 'en'
+  return 'vi'
 }
 
 export function LocaleProvider({ children }) {
@@ -30,7 +30,7 @@ export function LocaleProvider({ children }) {
 
   useEffect(() => {
     localStorage.setItem(LOCALE_STORAGE_KEY, locale)
-    document.documentElement.lang = 'en'
+    document.documentElement.lang = 'vi'
   }, [locale])
 
   const setLanguage = (nextLocale) => {
@@ -44,8 +44,8 @@ export function LocaleProvider({ children }) {
     const localized = getByPath(MESSAGES[locale], key)
     if (typeof localized === 'string') return localized
 
-    const english = getByPath(MESSAGES.en, key)
-    if (typeof english === 'string') return english
+    const vietnamese = getByPath(MESSAGES.vi, key)
+    if (typeof vietnamese === 'string') return vietnamese
 
     return fallback || key
   }

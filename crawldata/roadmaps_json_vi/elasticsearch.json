@@ -1,0 +1,586 @@
+{
+  "id": "elasticsearch",
+  "title": "Elasticsearch",
+  "source_url": "https://roadmap.sh/elasticsearch",
+  "github_url": "https://github.com/kamranahmedse/developer-roadmap/tree/master/src/data/roadmaps/elasticsearch",
+  "crawled_at": "2026-04-06T07:36:49.314164+00:00",
+  "type": "content-only",
+  "note": "Lộ trình này chỉ có định dạng Markdown, không có sơ đồ dòng dạng nodes/edges",
+  "stats": {
+    "total_content_files": 114
+  },
+  "content_files": [
+    {
+      "name": "api-keys@6LJ8UCBA9jj4ENk1iLwC6.md",
+      "path": "src/data/roadmaps/elasticsearch/content/api-keys@6LJ8UCBA9jj4ENk1iLwC6.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/elasticsearch/content/api-keys%406LJ8UCBA9jj4ENk1iLwC6.md"
+    },
+    {
+      "name": "authentication@b4PSjo2xVnkih7e9XlnQs.md",
+      "path": "src/data/roadmaps/elasticsearch/content/authentication@b4PSjo2xVnkih7e9XlnQs.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/elasticsearch/content/authentication%40b4PSjo2xVnkih7e9XlnQs.md"
+    },
+    {
+      "name": "autoscaling@pBQsOfU5JlCMTSdKVU0C2.md",
+      "path": "src/data/roadmaps/elasticsearch/content/autoscaling@pBQsOfU5JlCMTSdKVU0C2.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/elasticsearch/content/autoscaling%40pBQsOfU5JlCMTSdKVU0C2.md"
+    },
+    {
+      "name": "avg--sum--min--max@Avit-NGMkIA9JwJ7OUiNZ.md",
+      "path": "src/data/roadmaps/elasticsearch/content/avg--sum--min--max@Avit-NGMkIA9JwJ7OUiNZ.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/elasticsearch/content/avg--sum--min--max%40Avit-NGMkIA9JwJ7OUiNZ.md"
+    },
+    {
+      "name": "bm25-algorithm@MqoJJv_aZCdCLHLpebrPA.md",
+      "path": "src/data/roadmaps/elasticsearch/content/bm25-algorithm@MqoJJv_aZCdCLHLpebrPA.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/elasticsearch/content/bm25-algorithm%40MqoJJv_aZCdCLHLpebrPA.md"
+    },
+    {
+      "name": "boolean@8bNqL02B9VFraXaRDaxDq.md",
+      "path": "src/data/roadmaps/elasticsearch/content/boolean@8bNqL02B9VFraXaRDaxDq.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/elasticsearch/content/boolean%408bNqL02B9VFraXaRDaxDq.md"
+    },
+    {
+      "name": "boosting-queries@ebU65cyHH2TVGrQOHjILk.md",
+      "path": "src/data/roadmaps/elasticsearch/content/boosting-queries@ebU65cyHH2TVGrQOHjILk.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/elasticsearch/content/boosting-queries%40ebU65cyHH2TVGrQOHjILk.md"
+    },
+    {
+      "name": "bulk-index@3VH_cfXDDZbYma-DL14Fe.md",
+      "path": "src/data/roadmaps/elasticsearch/content/bulk-index@3VH_cfXDDZbYma-DL14Fe.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/elasticsearch/content/bulk-index%403VH_cfXDDZbYma-DL14Fe.md"
+    },
+    {
+      "name": "bulk-index@s1Finic6tTeSbgXt1nz30.md",
+      "path": "src/data/roadmaps/elasticsearch/content/bulk-index@s1Finic6tTeSbgXt1nz30.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/elasticsearch/content/bulk-index%40s1Finic6tTeSbgXt1nz30.md"
+    },
+    {
+      "name": "cardinality@vrj87U2jNHEQhUlUKvm0z.md",
+      "path": "src/data/roadmaps/elasticsearch/content/cardinality@vrj87U2jNHEQhUlUKvm0z.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/elasticsearch/content/cardinality%40vrj87U2jNHEQhUlUKvm0z.md"
+    },
+    {
+      "name": "cat-api@IbkvRfpVm1iNSU9jH0MLO.md",
+      "path": "src/data/roadmaps/elasticsearch/content/cat-api@IbkvRfpVm1iNSU9jH0MLO.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/elasticsearch/content/cat-api%40IbkvRfpVm1iNSU9jH0MLO.md"
+    },
+    {
+      "name": "cluster-monitoring@TqamknoJp5OQnvqpQpJHx.md",
+      "path": "src/data/roadmaps/elasticsearch/content/cluster-monitoring@TqamknoJp5OQnvqpQpJHx.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/elasticsearch/content/cluster-monitoring%40TqamknoJp5OQnvqpQpJHx.md"
+    },
+    {
+      "name": "cluster-system@UVFo66FzwLOPFjafCMQg2.md",
+      "path": "src/data/roadmaps/elasticsearch/content/cluster-system@UVFo66FzwLOPFjafCMQg2.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/elasticsearch/content/cluster-system%40UVFo66FzwLOPFjafCMQg2.md"
+    },
+    {
+      "name": "controlling-search-results@QzkAFCH4nGZbVudp_bSh_.md",
+      "path": "src/data/roadmaps/elasticsearch/content/controlling-search-results@QzkAFCH4nGZbVudp_bSh_.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/elasticsearch/content/controlling-search-results%40QzkAFCH4nGZbVudp_bSh_.md"
+    },
+    {
+      "name": "coordinating-nodes@eIGt2YQdHRssD_7TncWdf.md",
+      "path": "src/data/roadmaps/elasticsearch/content/coordinating-nodes@eIGt2YQdHRssD_7TncWdf.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/elasticsearch/content/coordinating-nodes%40eIGt2YQdHRssD_7TncWdf.md"
+    },
+    {
+      "name": "create-index@raYmik0mnI2_gu2dpWKzF.md",
+      "path": "src/data/roadmaps/elasticsearch/content/create-index@raYmik0mnI2_gu2dpWKzF.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/elasticsearch/content/create-index%40raYmik0mnI2_gu2dpWKzF.md"
+    },
+    {
+      "name": "cross-cluster-replication@NFUpYASxryl5ne1jHfj-E.md",
+      "path": "src/data/roadmaps/elasticsearch/content/cross-cluster-replication@NFUpYASxryl5ne1jHfj-E.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/elasticsearch/content/cross-cluster-replication%40NFUpYASxryl5ne1jHfj-E.md"
+    },
+    {
+      "name": "custom-analyzers@Y-4FlvsZPCP1WISOvcPMW.md",
+      "path": "src/data/roadmaps/elasticsearch/content/custom-analyzers@Y-4FlvsZPCP1WISOvcPMW.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/elasticsearch/content/custom-analyzers%40Y-4FlvsZPCP1WISOvcPMW.md"
+    },
+    {
+      "name": "data-nodes@0t2kxHBbL6kXn3C1sgGEE.md",
+      "path": "src/data/roadmaps/elasticsearch/content/data-nodes@0t2kxHBbL6kXn3C1sgGEE.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/elasticsearch/content/data-nodes%400t2kxHBbL6kXn3C1sgGEE.md"
+    },
+    {
+      "name": "data-tiers@e7jEDWLZ6q6S0csClOD27.md",
+      "path": "src/data/roadmaps/elasticsearch/content/data-tiers@e7jEDWLZ6q6S0csClOD27.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/elasticsearch/content/data-tiers%40e7jEDWLZ6q6S0csClOD27.md"
+    },
+    {
+      "name": "data-types@OfsRHpwJClzwPPRe9hai2.md",
+      "path": "src/data/roadmaps/elasticsearch/content/data-types@OfsRHpwJClzwPPRe9hai2.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/elasticsearch/content/data-types%40OfsRHpwJClzwPPRe9hai2.md"
+    },
+    {
+      "name": "dates@YHLYayCH8beVSkDF_U5_F.md",
+      "path": "src/data/roadmaps/elasticsearch/content/dates@YHLYayCH8beVSkDF_U5_F.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/elasticsearch/content/dates%40YHLYayCH8beVSkDF_U5_F.md"
+    },
+    {
+      "name": "delete-by-query@FYdnnc9kgkWYQAtJjBgTC.md",
+      "path": "src/data/roadmaps/elasticsearch/content/delete-by-query@FYdnnc9kgkWYQAtJjBgTC.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/elasticsearch/content/delete-by-query%40FYdnnc9kgkWYQAtJjBgTC.md"
+    },
+    {
+      "name": "delete-documents@d5KjotJsfYrE5YH7a48XI.md",
+      "path": "src/data/roadmaps/elasticsearch/content/delete-documents@d5KjotJsfYrE5YH7a48XI.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/elasticsearch/content/delete-documents%40d5KjotJsfYrE5YH7a48XI.md"
+    },
+    {
+      "name": "delete-index@FGz2puNUy_cGRwE3Jfylq.md",
+      "path": "src/data/roadmaps/elasticsearch/content/delete-index@FGz2puNUy_cGRwE3Jfylq.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/elasticsearch/content/delete-index%40FGz2puNUy_cGRwE3Jfylq.md"
+    },
+    {
+      "name": "doc-values@rkL_k2nxymtgPW8xf_04k.md",
+      "path": "src/data/roadmaps/elasticsearch/content/doc-values@rkL_k2nxymtgPW8xf_04k.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/elasticsearch/content/doc-values%40rkL_k2nxymtgPW8xf_04k.md"
+    },
+    {
+      "name": "document-row@tX_HGYnsoeipj4xu04wnX.md",
+      "path": "src/data/roadmaps/elasticsearch/content/document-row@tX_HGYnsoeipj4xu04wnX.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/elasticsearch/content/document-row%40tX_HGYnsoeipj4xu04wnX.md"
+    },
+    {
+      "name": "dynamic@_SuYA1C-g5XOmhCAjXhXi.md",
+      "path": "src/data/roadmaps/elasticsearch/content/dynamic@_SuYA1C-g5XOmhCAjXhXi.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/elasticsearch/content/dynamic%40_SuYA1C-g5XOmhCAjXhXi.md"
+    },
+    {
+      "name": "elastic-cloud@TACmPj5o4tdyTkLXqSQFb.md",
+      "path": "src/data/roadmaps/elasticsearch/content/elastic-cloud@TACmPj5o4tdyTkLXqSQFb.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/elasticsearch/content/elastic-cloud%40TACmPj5o4tdyTkLXqSQFb.md"
+    },
+    {
+      "name": "elasticsearch-usecases@0-SJLGkO8Ek7hyC6wWHKv.md",
+      "path": "src/data/roadmaps/elasticsearch/content/elasticsearch-usecases@0-SJLGkO8Ek7hyC6wWHKv.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/elasticsearch/content/elasticsearch-usecases%400-SJLGkO8Ek7hyC6wWHKv.md"
+    },
+    {
+      "name": "eql@R2G2jlvGl6rJkqphwHYGP.md",
+      "path": "src/data/roadmaps/elasticsearch/content/eql@R2G2jlvGl6rJkqphwHYGP.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/elasticsearch/content/eql%40R2G2jlvGl6rJkqphwHYGP.md"
+    },
+    {
+      "name": "esql@bw5Rt_AxLRVB6KnetVWU9.md",
+      "path": "src/data/roadmaps/elasticsearch/content/esql@bw5Rt_AxLRVB6KnetVWU9.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/elasticsearch/content/esql%40bw5Rt_AxLRVB6KnetVWU9.md"
+    },
+    {
+      "name": "exists-query@Eu76k_9GC5DNqWMKTogV4.md",
+      "path": "src/data/roadmaps/elasticsearch/content/exists-query@Eu76k_9GC5DNqWMKTogV4.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/elasticsearch/content/exists-query%40Eu76k_9GC5DNqWMKTogV4.md"
+    },
+    {
+      "name": "explicit@4f09QKfGI-GaxYw0ngdiS.md",
+      "path": "src/data/roadmaps/elasticsearch/content/explicit@4f09QKfGI-GaxYw0ngdiS.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/elasticsearch/content/explicit%404f09QKfGI-GaxYw0ngdiS.md"
+    },
+    {
+      "name": "fielddata@bNnGloEN5OED8M-WyChK6.md",
+      "path": "src/data/roadmaps/elasticsearch/content/fielddata@bNnGloEN5OED8M-WyChK6.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/elasticsearch/content/fielddata%40bNnGloEN5OED8M-WyChK6.md"
+    },
+    {
+      "name": "filter-aggregations@BzIj7Cc9oC4WsUeU9b4Ae.md",
+      "path": "src/data/roadmaps/elasticsearch/content/filter-aggregations@BzIj7Cc9oC4WsUeU9b4Ae.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/elasticsearch/content/filter-aggregations%40BzIj7Cc9oC4WsUeU9b4Ae.md"
+    },
+    {
+      "name": "filter@Kzuy0BM4Dme2nFanEdWGC.md",
+      "path": "src/data/roadmaps/elasticsearch/content/filter@Kzuy0BM4Dme2nFanEdWGC.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/elasticsearch/content/filter%40Kzuy0BM4Dme2nFanEdWGC.md"
+    },
+    {
+      "name": "filter@irtX2t6kTUp5lDHd0AVUF.md",
+      "path": "src/data/roadmaps/elasticsearch/content/filter@irtX2t6kTUp5lDHd0AVUF.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/elasticsearch/content/filter%40irtX2t6kTUp5lDHd0AVUF.md"
+    },
+    {
+      "name": "flattened@MSHYpBQEgv-ukJvvuHE1B.md",
+      "path": "src/data/roadmaps/elasticsearch/content/flattened@MSHYpBQEgv-ukJvvuHE1B.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/elasticsearch/content/flattened%40MSHYpBQEgv-ukJvvuHE1B.md"
+    },
+    {
+      "name": "function-score-query@pzRBfcevVXXWf6QfvGIvs.md",
+      "path": "src/data/roadmaps/elasticsearch/content/function-score-query@pzRBfcevVXXWf6QfvGIvs.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/elasticsearch/content/function-score-query%40pzRBfcevVXXWf6QfvGIvs.md"
+    },
+    {
+      "name": "geo-points@d_VHRn6rWUEFfI6KVrcoS.md",
+      "path": "src/data/roadmaps/elasticsearch/content/geo-points@d_VHRn6rWUEFfI6KVrcoS.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/elasticsearch/content/geo-points%40d_VHRn6rWUEFfI6KVrcoS.md"
+    },
+    {
+      "name": "get-document@raSeqTXjH4aCFHuoqmrcJ.md",
+      "path": "src/data/roadmaps/elasticsearch/content/get-document@raSeqTXjH4aCFHuoqmrcJ.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/elasticsearch/content/get-document%40raSeqTXjH4aCFHuoqmrcJ.md"
+    },
+    {
+      "name": "highlighting@vaah2ESUA7oJW4-hHaWrm.md",
+      "path": "src/data/roadmaps/elasticsearch/content/highlighting@vaah2ESUA7oJW4-hHaWrm.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/elasticsearch/content/highlighting%40vaah2ESUA7oJW4-hHaWrm.md"
+    },
+    {
+      "name": "histogram@RDygFr1w9yR6mU3hSG8Vj.md",
+      "path": "src/data/roadmaps/elasticsearch/content/histogram@RDygFr1w9yR6mU3hSG8Vj.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/elasticsearch/content/histogram%40RDygFr1w9yR6mU3hSG8Vj.md"
+    },
+    {
+      "name": "how-search-works@fuQ4okG1z02lMx8Gkw43M.md",
+      "path": "src/data/roadmaps/elasticsearch/content/how-search-works@fuQ4okG1z02lMx8Gkw43M.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/elasticsearch/content/how-search-works%40fuQ4okG1z02lMx8Gkw43M.md"
+    },
+    {
+      "name": "hybrid-search@cWzmbSIsiw7809rmFA4DV.md",
+      "path": "src/data/roadmaps/elasticsearch/content/hybrid-search@cWzmbSIsiw7809rmFA4DV.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/elasticsearch/content/hybrid-search%40cWzmbSIsiw7809rmFA4DV.md"
+    },
+    {
+      "name": "id-primary-key@1Qps2Z_Cp5ZrYkq5FXwDO.md",
+      "path": "src/data/roadmaps/elasticsearch/content/id-primary-key@1Qps2Z_Cp5ZrYkq5FXwDO.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/elasticsearch/content/id-primary-key%401Qps2Z_Cp5ZrYkq5FXwDO.md"
+    },
+    {
+      "name": "id-query@SmaMEuknItGuLiBv9PwIk.md",
+      "path": "src/data/roadmaps/elasticsearch/content/id-query@SmaMEuknItGuLiBv9PwIk.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/elasticsearch/content/id-query%40SmaMEuknItGuLiBv9PwIk.md"
+    },
+    {
+      "name": "ilm@DMXH8GoYf2qVDbLg7b2hm.md",
+      "path": "src/data/roadmaps/elasticsearch/content/ilm@DMXH8GoYf2qVDbLg7b2hm.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/elasticsearch/content/ilm%40DMXH8GoYf2qVDbLg7b2hm.md"
+    },
+    {
+      "name": "index-database@ECrKSI6rUU_N5fd3NFgch.md",
+      "path": "src/data/roadmaps/elasticsearch/content/index-database@ECrKSI6rUU_N5fd3NFgch.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/elasticsearch/content/index-database%40ECrKSI6rUU_N5fd3NFgch.md"
+    },
+    {
+      "name": "index-document@amdn_KmQmPJgBf-kDzC3E.md",
+      "path": "src/data/roadmaps/elasticsearch/content/index-document@amdn_KmQmPJgBf-kDzC3E.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/elasticsearch/content/index-document%40amdn_KmQmPJgBf-kDzC3E.md"
+    },
+    {
+      "name": "introduction@rWriosjh7LzGZbj8k_wih.md",
+      "path": "src/data/roadmaps/elasticsearch/content/introduction@rWriosjh7LzGZbj8k_wih.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/elasticsearch/content/introduction%40rWriosjh7LzGZbj8k_wih.md"
+    },
+    {
+      "name": "json@ppgShbqhYsD6maDw3Dgcx.md",
+      "path": "src/data/roadmaps/elasticsearch/content/json@ppgShbqhYsD6maDw3Dgcx.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/elasticsearch/content/json%40ppgShbqhYsD6maDw3Dgcx.md"
+    },
+    {
+      "name": "keyword@DZ_FX0ansCsXDN7J6u7_m.md",
+      "path": "src/data/roadmaps/elasticsearch/content/keyword@DZ_FX0ansCsXDN7J6u7_m.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/elasticsearch/content/keyword%40DZ_FX0ansCsXDN7J6u7_m.md"
+    },
+    {
+      "name": "kibana-console@ST0yxc527eb2vRrSvTWAd.md",
+      "path": "src/data/roadmaps/elasticsearch/content/kibana-console@ST0yxc527eb2vRrSvTWAd.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/elasticsearch/content/kibana-console%40ST0yxc527eb2vRrSvTWAd.md"
+    },
+    {
+      "name": "kql@Ad5Ck2ZdLN3iphqRmFMIF.md",
+      "path": "src/data/roadmaps/elasticsearch/content/kql@Ad5Ck2ZdLN3iphqRmFMIF.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/elasticsearch/content/kql%40Ad5Ck2ZdLN3iphqRmFMIF.md"
+    },
+    {
+      "name": "latest@aX6S8p760HI7U9POwTJ1e.md",
+      "path": "src/data/roadmaps/elasticsearch/content/latest@aX6S8p760HI7U9POwTJ1e.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/elasticsearch/content/latest%40aX6S8p760HI7U9POwTJ1e.md"
+    },
+    {
+      "name": "leaf-vs-compound-queries@xpxl2b_9DUXCT4bpyGete.md",
+      "path": "src/data/roadmaps/elasticsearch/content/leaf-vs-compound-queries@xpxl2b_9DUXCT4bpyGete.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/elasticsearch/content/leaf-vs-compound-queries%40xpxl2b_9DUXCT4bpyGete.md"
+    },
+    {
+      "name": "lucene@jWST5oXpmJVhjXKucbUu5.md",
+      "path": "src/data/roadmaps/elasticsearch/content/lucene@jWST5oXpmJVhjXKucbUu5.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/elasticsearch/content/lucene%40jWST5oXpmJVhjXKucbUu5.md"
+    },
+    {
+      "name": "mapping-explosion@X_6Cyj7QIls5FK1gmvi4e.md",
+      "path": "src/data/roadmaps/elasticsearch/content/mapping-explosion@X_6Cyj7QIls5FK1gmvi4e.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/elasticsearch/content/mapping-explosion%40X_6Cyj7QIls5FK1gmvi4e.md"
+    },
+    {
+      "name": "mappings@2ZJCuKPy1VnJzTI0CkgeI.md",
+      "path": "src/data/roadmaps/elasticsearch/content/mappings@2ZJCuKPy1VnJzTI0CkgeI.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/elasticsearch/content/mappings%402ZJCuKPy1VnJzTI0CkgeI.md"
+    },
+    {
+      "name": "master-elegible-nodes@Mc96iYA5dzWQJ0Kz8mgZC.md",
+      "path": "src/data/roadmaps/elasticsearch/content/master-elegible-nodes@Mc96iYA5dzWQJ0Kz8mgZC.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/elasticsearch/content/master-elegible-nodes%40Mc96iYA5dzWQJ0Kz8mgZC.md"
+    },
+    {
+      "name": "match-phrase-query@OBSm1fxTj1HhuqN2FACQb.md",
+      "path": "src/data/roadmaps/elasticsearch/content/match-phrase-query@OBSm1fxTj1HhuqN2FACQb.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/elasticsearch/content/match-phrase-query%40OBSm1fxTj1HhuqN2FACQb.md"
+    },
+    {
+      "name": "match-query@hwZQg4HXZeQRX5ty47U9h.md",
+      "path": "src/data/roadmaps/elasticsearch/content/match-query@hwZQg4HXZeQRX5ty47U9h.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/elasticsearch/content/match-query%40hwZQg4HXZeQRX5ty47U9h.md"
+    },
+    {
+      "name": "must@f63E0rn-Ayz_AAUQM-o-N.md",
+      "path": "src/data/roadmaps/elasticsearch/content/must@f63E0rn-Ayz_AAUQM-o-N.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/elasticsearch/content/must%40f63E0rn-Ayz_AAUQM-o-N.md"
+    },
+    {
+      "name": "must_not@gYMl1QixMYQ6-6zCNhyEG.md",
+      "path": "src/data/roadmaps/elasticsearch/content/must_not@gYMl1QixMYQ6-6zCNhyEG.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/elasticsearch/content/must_not%40gYMl1QixMYQ6-6zCNhyEG.md"
+    },
+    {
+      "name": "nested-aggregations@NRMC5M3ZFHwHZLpPPPo5v.md",
+      "path": "src/data/roadmaps/elasticsearch/content/nested-aggregations@NRMC5M3ZFHwHZLpPPPo5v.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/elasticsearch/content/nested-aggregations%40NRMC5M3ZFHwHZLpPPPo5v.md"
+    },
+    {
+      "name": "nested@vgXst45dhcu2w29Wm8Xwp.md",
+      "path": "src/data/roadmaps/elasticsearch/content/nested@vgXst45dhcu2w29Wm8Xwp.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/elasticsearch/content/nested%40vgXst45dhcu2w29Wm8Xwp.md"
+    },
+    {
+      "name": "node-instance@XjeQ-O1XA9q2wCIyzXLHg.md",
+      "path": "src/data/roadmaps/elasticsearch/content/node-instance@XjeQ-O1XA9q2wCIyzXLHg.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/elasticsearch/content/node-instance%40XjeQ-O1XA9q2wCIyzXLHg.md"
+    },
+    {
+      "name": "numeric@_L1JMJIEJQ3VzQc0LfhfF.md",
+      "path": "src/data/roadmaps/elasticsearch/content/numeric@_L1JMJIEJQ3VzQc0LfhfF.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/elasticsearch/content/numeric%40_L1JMJIEJQ3VzQc0LfhfF.md"
+    },
+    {
+      "name": "object@RHUajAEJqQy9lnKUv-yiF.md",
+      "path": "src/data/roadmaps/elasticsearch/content/object@RHUajAEJqQy9lnKUv-yiF.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/elasticsearch/content/object%40RHUajAEJqQy9lnKUv-yiF.md"
+    },
+    {
+      "name": "optimizing-bulk-indexing@Vv7YmE4OqTsn2WWHS6bQW.md",
+      "path": "src/data/roadmaps/elasticsearch/content/optimizing-bulk-indexing@Vv7YmE4OqTsn2WWHS6bQW.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/elasticsearch/content/optimizing-bulk-indexing%40Vv7YmE4OqTsn2WWHS6bQW.md"
+    },
+    {
+      "name": "pagination@-GcXnJzacIDHkoZFzmoq0.md",
+      "path": "src/data/roadmaps/elasticsearch/content/pagination@-GcXnJzacIDHkoZFzmoq0.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/elasticsearch/content/pagination%40-GcXnJzacIDHkoZFzmoq0.md"
+    },
+    {
+      "name": "pipeline-aggregations@ngYPDkTwj1e4HTFYJZ8ru.md",
+      "path": "src/data/roadmaps/elasticsearch/content/pipeline-aggregations@ngYPDkTwj1e4HTFYJZ8ru.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/elasticsearch/content/pipeline-aggregations%40ngYPDkTwj1e4HTFYJZ8ru.md"
+    },
+    {
+      "name": "pivot@MSPIbD2eaqpgjbdXRh3Tg.md",
+      "path": "src/data/roadmaps/elasticsearch/content/pivot@MSPIbD2eaqpgjbdXRh3Tg.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/elasticsearch/content/pivot%40MSPIbD2eaqpgjbdXRh3Tg.md"
+    },
+    {
+      "name": "prefix-query@dFKT1qTnnJwAreg9E0GsF.md",
+      "path": "src/data/roadmaps/elasticsearch/content/prefix-query@dFKT1qTnnJwAreg9E0GsF.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/elasticsearch/content/prefix-query%40dFKT1qTnnJwAreg9E0GsF.md"
+    },
+    {
+      "name": "primary-shards@nkqoh4_V4VRyETqN0ci1R.md",
+      "path": "src/data/roadmaps/elasticsearch/content/primary-shards@nkqoh4_V4VRyETqN0ci1R.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/elasticsearch/content/primary-shards%40nkqoh4_V4VRyETqN0ci1R.md"
+    },
+    {
+      "name": "query-dsl@4-hkqr1z0p56K0HzbifEs.md",
+      "path": "src/data/roadmaps/elasticsearch/content/query-dsl@4-hkqr1z0p56K0HzbifEs.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/elasticsearch/content/query-dsl%404-hkqr1z0p56K0HzbifEs.md"
+    },
+    {
+      "name": "query@GUxc44CiMH8DAaHEB8H1I.md",
+      "path": "src/data/roadmaps/elasticsearch/content/query@GUxc44CiMH8DAaHEB8H1I.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/elasticsearch/content/query%40GUxc44CiMH8DAaHEB8H1I.md"
+    },
+    {
+      "name": "range--date-range@yVjpNuTx5StM7g0Jojmc2.md",
+      "path": "src/data/roadmaps/elasticsearch/content/range--date-range@yVjpNuTx5StM7g0Jojmc2.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/elasticsearch/content/range--date-range%40yVjpNuTx5StM7g0Jojmc2.md"
+    },
+    {
+      "name": "range-query@h0u093c6Ccx9SllBehnYt.md",
+      "path": "src/data/roadmaps/elasticsearch/content/range-query@h0u093c6Ccx9SllBehnYt.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/elasticsearch/content/range-query%40h0u093c6Ccx9SllBehnYt.md"
+    },
+    {
+      "name": "reindex-api@s1Finic6tTeSbgXt1nz30.md",
+      "path": "src/data/roadmaps/elasticsearch/content/reindex-api@s1Finic6tTeSbgXt1nz30.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/elasticsearch/content/reindex-api%40s1Finic6tTeSbgXt1nz30.md"
+    },
+    {
+      "name": "replica-shards@ANeRCig1fihD5-4a7l9lz.md",
+      "path": "src/data/roadmaps/elasticsearch/content/replica-shards@ANeRCig1fihD5-4a7l9lz.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/elasticsearch/content/replica-shards%40ANeRCig1fihD5-4a7l9lz.md"
+    },
+    {
+      "name": "rest-api-basics@ciLSkWlj0_WzCUydb9Cdz.md",
+      "path": "src/data/roadmaps/elasticsearch/content/rest-api-basics@ciLSkWlj0_WzCUydb9Cdz.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/elasticsearch/content/rest-api-basics%40ciLSkWlj0_WzCUydb9Cdz.md"
+    },
+    {
+      "name": "roles--users@xv_a_A4QJuM3Af_My0VXj.md",
+      "path": "src/data/roadmaps/elasticsearch/content/roles--users@xv_a_A4QJuM3Af_My0VXj.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/elasticsearch/content/roles--users%40xv_a_A4QJuM3Af_My0VXj.md"
+    },
+    {
+      "name": "rollover-policies@-jlIcMsKptM9AoST6mCOh.md",
+      "path": "src/data/roadmaps/elasticsearch/content/rollover-policies@-jlIcMsKptM9AoST6mCOh.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/elasticsearch/content/rollover-policies%40-jlIcMsKptM9AoST6mCOh.md"
+    },
+    {
+      "name": "running-with-docker@hMmoVhZnoE0CdY-C135DW.md",
+      "path": "src/data/roadmaps/elasticsearch/content/running-with-docker@hMmoVhZnoE0CdY-C135DW.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/elasticsearch/content/running-with-docker%40hMmoVhZnoE0CdY-C135DW.md"
+    },
+    {
+      "name": "search-analyzer@txSx-r5A7erBVXOI18R4f.md",
+      "path": "src/data/roadmaps/elasticsearch/content/search-analyzer@txSx-r5A7erBVXOI18R4f.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/elasticsearch/content/search-analyzer%40txSx-r5A7erBVXOI18R4f.md"
+    },
+    {
+      "name": "search-engines-vs-relational-dbs@rWyeaFLWQdykUQMOn8t9k.md",
+      "path": "src/data/roadmaps/elasticsearch/content/search-engines-vs-relational-dbs@rWyeaFLWQdykUQMOn8t9k.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/elasticsearch/content/search-engines-vs-relational-dbs%40rWyeaFLWQdykUQMOn8t9k.md"
+    },
+    {
+      "name": "segment-merging@v2h-DzgtEFgE5Bu4dpOTE.md",
+      "path": "src/data/roadmaps/elasticsearch/content/segment-merging@v2h-DzgtEFgE5Bu4dpOTE.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/elasticsearch/content/segment-merging%40v2h-DzgtEFgE5Bu4dpOTE.md"
+    },
+    {
+      "name": "semantic-search@ZEM809HNlJtNQCfFmoFdi.md",
+      "path": "src/data/roadmaps/elasticsearch/content/semantic-search@ZEM809HNlJtNQCfFmoFdi.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/elasticsearch/content/semantic-search%40ZEM809HNlJtNQCfFmoFdi.md"
+    },
+    {
+      "name": "should@QukRBV4aCfUtUE7L-qriv.md",
+      "path": "src/data/roadmaps/elasticsearch/content/should@QukRBV4aCfUtUE7L-qriv.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/elasticsearch/content/should%40QukRBV4aCfUtUE7L-qriv.md"
+    },
+    {
+      "name": "slm@ghPkYADvzyvPZbzt5Fnmz.md",
+      "path": "src/data/roadmaps/elasticsearch/content/slm@ghPkYADvzyvPZbzt5Fnmz.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/elasticsearch/content/slm%40ghPkYADvzyvPZbzt5Fnmz.md"
+    },
+    {
+      "name": "snapshots--restore@mw08QuJPgFHssk5Ur8PRY.md",
+      "path": "src/data/roadmaps/elasticsearch/content/snapshots--restore@mw08QuJPgFHssk5Ur8PRY.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/elasticsearch/content/snapshots--restore%40mw08QuJPgFHssk5Ur8PRY.md"
+    },
+    {
+      "name": "sorting@lSYyRKgtY7PEk4ESy3uRK.md",
+      "path": "src/data/roadmaps/elasticsearch/content/sorting@lSYyRKgtY7PEk4ESy3uRK.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/elasticsearch/content/sorting%40lSYyRKgtY7PEk4ESy3uRK.md"
+    },
+    {
+      "name": "source-filtering@b9XUvx-4qAMwghgy-LVat.md",
+      "path": "src/data/roadmaps/elasticsearch/content/source-filtering@b9XUvx-4qAMwghgy-LVat.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/elasticsearch/content/source-filtering%40b9XUvx-4qAMwghgy-LVat.md"
+    },
+    {
+      "name": "sql@Hg5LjcPxxBJyFcfhbrE_o.md",
+      "path": "src/data/roadmaps/elasticsearch/content/sql@Hg5LjcPxxBJyFcfhbrE_o.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/elasticsearch/content/sql%40Hg5LjcPxxBJyFcfhbrE_o.md"
+    },
+    {
+      "name": "standard-analyzer@XDzjBGYxgiGOiNB_JBTRd.md",
+      "path": "src/data/roadmaps/elasticsearch/content/standard-analyzer@XDzjBGYxgiGOiNB_JBTRd.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/elasticsearch/content/standard-analyzer%40XDzjBGYxgiGOiNB_JBTRd.md"
+    },
+    {
+      "name": "stats--extended-stats@qCdD7orsutXfMeLSbyyWd.md",
+      "path": "src/data/roadmaps/elasticsearch/content/stats--extended-stats@qCdD7orsutXfMeLSbyyWd.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/elasticsearch/content/stats--extended-stats%40qCdD7orsutXfMeLSbyyWd.md"
+    },
+    {
+      "name": "synonyms-graph@8FtfvlvLXXlOX-D6EDvFj.md",
+      "path": "src/data/roadmaps/elasticsearch/content/synonyms-graph@8FtfvlvLXXlOX-D6EDvFj.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/elasticsearch/content/synonyms-graph%408FtfvlvLXXlOX-D6EDvFj.md"
+    },
+    {
+      "name": "term-query@TIOwE5LY6D4y6DwYEsZXC.md",
+      "path": "src/data/roadmaps/elasticsearch/content/term-query@TIOwE5LY6D4y6DwYEsZXC.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/elasticsearch/content/term-query%40TIOwE5LY6D4y6DwYEsZXC.md"
+    },
+    {
+      "name": "terms@yx5BiPNalUkKBH7bhwbEi.md",
+      "path": "src/data/roadmaps/elasticsearch/content/terms@yx5BiPNalUkKBH7bhwbEi.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/elasticsearch/content/terms%40yx5BiPNalUkKBH7bhwbEi.md"
+    },
+    {
+      "name": "text@Fmxstc6ZjXnMLpnWkZGOA.md",
+      "path": "src/data/roadmaps/elasticsearch/content/text@Fmxstc6ZjXnMLpnWkZGOA.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/elasticsearch/content/text%40Fmxstc6ZjXnMLpnWkZGOA.md"
+    },
+    {
+      "name": "the-analyze-api@59-tr4ff4QmFFJCN_Vcfh.md",
+      "path": "src/data/roadmaps/elasticsearch/content/the-analyze-api@59-tr4ff4QmFFJCN_Vcfh.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/elasticsearch/content/the-analyze-api%4059-tr4ff4QmFFJCN_Vcfh.md"
+    },
+    {
+      "name": "the-elk-stack@lmc1Eu4oacxPT778aGya5.md",
+      "path": "src/data/roadmaps/elasticsearch/content/the-elk-stack@lmc1Eu4oacxPT778aGya5.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/elasticsearch/content/the-elk-stack%40lmc1Eu4oacxPT778aGya5.md"
+    },
+    {
+      "name": "the-inverted-index@jx0CS3mRr5MB95cTRQMtv.md",
+      "path": "src/data/roadmaps/elasticsearch/content/the-inverted-index@jx0CS3mRr5MB95cTRQMtv.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/elasticsearch/content/the-inverted-index%40jx0CS3mRr5MB95cTRQMtv.md"
+    },
+    {
+      "name": "the-split-brain-problem@Q6djSLPsTlIBfXFOsael7.md",
+      "path": "src/data/roadmaps/elasticsearch/content/the-split-brain-problem@Q6djSLPsTlIBfXFOsael7.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/elasticsearch/content/the-split-brain-problem%40Q6djSLPsTlIBfXFOsael7.md"
+    },
+    {
+      "name": "transform-api@C3JSN-6jRikQjxifLu9Vk.md",
+      "path": "src/data/roadmaps/elasticsearch/content/transform-api@C3JSN-6jRikQjxifLu9Vk.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/elasticsearch/content/transform-api%40C3JSN-6jRikQjxifLu9Vk.md"
+    },
+    {
+      "name": "understanding-similarity@c9rILhjxosufXg4-_ffVi.md",
+      "path": "src/data/roadmaps/elasticsearch/content/understanding-similarity@c9rILhjxosufXg4-_ffVi.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/elasticsearch/content/understanding-similarity%40c9rILhjxosufXg4-_ffVi.md"
+    },
+    {
+      "name": "update-by-query@q-u0rz7mc0ohFUYkXjeD6.md",
+      "path": "src/data/roadmaps/elasticsearch/content/update-by-query@q-u0rz7mc0ohFUYkXjeD6.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/elasticsearch/content/update-by-query%40q-u0rz7mc0ohFUYkXjeD6.md"
+    },
+    {
+      "name": "update-document@5HcPuuPpsNudiuzpAFU8z.md",
+      "path": "src/data/roadmaps/elasticsearch/content/update-document@5HcPuuPpsNudiuzpAFU8z.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/elasticsearch/content/update-document%405HcPuuPpsNudiuzpAFU8z.md"
+    },
+    {
+      "name": "value-count@q8SWm-tJ9c7uIY6wxzQdI.md",
+      "path": "src/data/roadmaps/elasticsearch/content/value-count@q8SWm-tJ9c7uIY6wxzQdI.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/elasticsearch/content/value-count%40q8SWm-tJ9c7uIY6wxzQdI.md"
+    },
+    {
+      "name": "vector-search@MH1AKsuv654fdXX6hVhtv.md",
+      "path": "src/data/roadmaps/elasticsearch/content/vector-search@MH1AKsuv654fdXX6hVhtv.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/elasticsearch/content/vector-search%40MH1AKsuv654fdXX6hVhtv.md"
+    },
+    {
+      "name": "wildcard-query@KtRZM5xTa4rHE7JnTAwAD.md",
+      "path": "src/data/roadmaps/elasticsearch/content/wildcard-query@KtRZM5xTa4rHE7JnTAwAD.md",
+      "url": "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/elasticsearch/content/wildcard-query%40KtRZM5xTa4rHE7JnTAwAD.md"
+    }
+  ],
+  "nodes": [],
+  "edges": []
+}

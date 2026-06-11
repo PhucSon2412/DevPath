@@ -1,0 +1,3886 @@
+{
+  "id": "software-design-architecture",
+  "title": "Thiết kế và Kiến trúc Phần mềm",
+  "source_url": "https://roadmap.sh/software-design-architecture",
+  "github_url": "https://github.com/kamranahmedse/developer-roadmap/tree/master/src/data/roadmaps/software-design-architecture",
+  "crawled_at": "2026-04-06T07:37:56.221686+00:00",
+  "type": "flow",
+  "stats": {
+    "total_nodes": 119,
+    "total_edges": 29,
+    "nodes_with_content": 92
+  },
+  "node_types": [
+    "button",
+    "horizontal",
+    "label",
+    "paragraph",
+    "section",
+    "subtopic",
+    "title",
+    "topic",
+    "vertical"
+  ],
+  "edge_styles": [
+    "dashed",
+    "solid"
+  ],
+  "edge_line_types": [
+    "default"
+  ],
+  "node_type_description": {
+    "title": "Tiêu đề chính của lộ trình",
+    "topic": "Chủ đề lớn (nhóm kỹ năng)",
+    "subtopic": "Kỹ năng/công nghệ cụ thể cần học",
+    "paragraph": "Vùng văn bản mô tả / chú thích",
+    "vertical": "Đường kết nối dọc (visual connector)"
+  },
+  "edge_style_description": {
+    "solid": "Kỹ năng bắt buộc / quan trọng",
+    "dashed": "Tùy chọn / gợi ý / alternative"
+  },
+  "nodes": [
+    {
+      "id": "P72dYqoD4ySm0uRaUOJ5v",
+      "type": "vertical",
+      "label": "nút dọc",
+      "position": {
+        "x": -182.82822136329878,
+        "y": 1487.9007482223487
+      },
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "qA_Y7AgD-Z6is-1hqOqzH",
+      "type": "horizontal",
+      "label": "nút ngang",
+      "position": {
+        "x": -408.6381872719935,
+        "y": 1568.1208448974862
+      },
+      "size": {
+        "width": 50,
+        "height": 20
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "3DjhvOMcTs6HwQkmnJyqS",
+      "type": "vertical",
+      "label": "nút dọc",
+      "position": {
+        "x": 240.3618127280065,
+        "y": 1487.9007482223487
+      },
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "6Bx4SL1VB3tkS38lGpiaQ",
+      "type": "vertical",
+      "label": "nút dọc",
+      "position": {
+        "x": 141.3618127280065,
+        "y": 1058.7051467174065
+      },
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.75
+      },
+      "z_index": 999
+    },
+    {
+      "id": "VbFXAyIhGjJtHs_L0bXk3",
+      "type": "vertical",
+      "label": "nút dọc",
+      "position": {
+        "x": 235.3618127280065,
+        "y": 1045.9007482223487
+      },
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "efjRPzVNm00Fe6CC3LT1N",
+      "type": "vertical",
+      "label": "nút dọc",
+      "position": {
+        "x": -168.6381872719935,
+        "y": 1051.7051467174065
+      },
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "SgOLJllVsYIWZZmHzJUK7",
+      "type": "vertical",
+      "label": "nút dọc",
+      "position": {
+        "x": -168.6381872719935,
+        "y": 691.400748222349
+      },
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.5
+      },
+      "z_index": 999
+    },
+    {
+      "id": "-yVW4ejTnj5vN8y0s_qTa",
+      "type": "vertical",
+      "label": "nút dọc",
+      "position": {
+        "x": -92.1381872719935,
+        "y": 955.9007482223487
+      },
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "UJ14WYeOlnd8vkKhwqTjP",
+      "type": "vertical",
+      "label": "nút dọc",
+      "position": {
+        "x": -252.1381872719935,
+        "y": 955.9007482223487
+      },
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "sqpYr4D6lzaJsphbPVfit",
+      "type": "horizontal",
+      "label": "nút ngang",
+      "position": {
+        "x": -413.1381872719935,
+        "y": 680.7051467174066
+      },
+      "size": {
+        "width": 50,
+        "height": 20
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "JyEXyTp5_UxhyRY3ZULZG",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": -705.1381872719935,
+        "y": 1105.9007482223487
+      },
+      "size": {
+        "width": 283,
+        "height": 302
+      },
+      "style": {},
+      "z_index": 999
+    },
+    {
+      "id": "VThkejHxNxNQgqjwDN67c",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": -705.1381872719935,
+        "y": 816.7051467174065
+      },
+      "size": {
+        "width": 150,
+        "height": 100
+      },
+      "style": {
+        "fontSize": 17,
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "kLnJC5PdxpgmRU2X57V64",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": -705.1381872719935,
+        "y": 650.2051467174066
+      },
+      "size": {
+        "width": 150,
+        "height": 100
+      },
+      "style": {
+        "fontSize": 17,
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "JwkzZU185OsVZ5VSUjC0f",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": 94.8618127280065,
+        "y": 205.7051467174066
+      },
+      "size": {
+        "width": 150,
+        "height": 100
+      },
+      "style": {
+        "fontSize": 17,
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "HU7wZWiES3m3xl1-NYP6F",
+      "type": "title",
+      "label": "Thiết kế và Kiến trúc Phần mềm",
+      "position": {
+        "x": -375.6381872719935,
+        "y": -47.09925177765109
+      },
+      "size": {
+        "width": 434,
+        "height": 68
+      },
+      "style": {
+        "fontSize": 28,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "uqyE79OItPOX33E5FoGel",
+      "type": "vertical",
+      "label": "nút dọc",
+      "position": {
+        "x": -168.6381872719935,
+        "y": -133.0992517776511
+      },
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.75,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "TJZgsxpfOmltUUChMzlEM",
+      "type": "subtopic",
+      "label": "Code sạch",
+      "position": {
+        "x": -707.6381872719935,
+        "y": -98.59925177765109
+      },
+      "size": {
+        "width": 283,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Code sạch là code dễ đọc, dễ hiểu và dễ bảo trì. Nó tuân theo một tập hợp các nguyên tắc được thiết kế để làm cho code dễ đọc hơn, dễ kiểm thử và ít lỗi hơn. Một số nguyên tắc chính của code sạch bao gồm: - Tính rõ ràng: Code nên dễ đọc và dễ hiểu. - Tính đơn giản: Code nên đơn giản nhất có thể, tránh sự phức tạp không cần thiết. - Nhận xét: Nên sử dụng nhận xét một cách tiết kiệm và chỉ khi cần thiết để giải thích các đoạn mã phức tạp hoặc không rõ ràng. - Đặt tên: Các biến, hàm và lớp nên có tên có ý nghĩa và mô tả. - Định dạng: Code nên được định dạng nhất quán để cải thiện khả năng đọc. - Chức năng: Code nên được tổ chức thành các hàm và lớp nhỏ, có một mục đích duy nhất. - Xử lý lỗi: Code nên xử lý lỗi theo cách nhất quán và dự đoán được. - Kiểm thử: Code nên có thể kiểm thử và có độ bao phủ kiểm thử cao. - Khả năng tái sử dụng: Code nên được thiết kế để có thể tái sử dụng và mô-đun. - Hiệu suất: Code nên được thiết kế để hiệu quả và hoạt động tốt. Tìm hiểu thêm từ các liên kết sau: - [@article@Giới thiệu về Code sạch & Nguyên tắc Thiết kế Phần mềm](https://workat.tech/machine-coding/tutorial/introduction-clean-code-software-design-principles-nwu4qqc63e09) - [@feed@Khám phá các bài đăng hàng đầu về Lập trình Tổng quát](https://app.daily.dev/tags/general-programming?ref=roadmapsh)",
+        "links": []
+      }
+    },
+    {
+      "id": "RgYq3YOJhPGSf5in1Rcdp",
+      "type": "subtopic",
+      "label": "Các Mô hình Lập trình",
+      "position": {
+        "x": -707.6381872719935,
+        "y": -45.59925177765109
+      },
+      "size": {
+        "width": 283,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Một kiểu lập trình (programming paradigm) là một phong cách hoặc phương pháp cơ bản để giải quyết các vấn đề bằng sử dụng một ngôn ngữ lập trình. Các kiểu lập trình khác nhau cung cấp những cách thức khác nhau để tổ chức và cấu trúc mã, đồng thời có những điểm mạnh và điểm yếu khác nhau. Một số kiểu lập trình phổ biến nhất bao gồm:\n\n*   Lập trình mệnh lệnh (Imperative programming)\n*   Lập trình hàm (Functional programming)\n*   Lập trình hướng đối tượng (Object-oriented programming)\n*   Lập trình logic (Logic programming)\n*   Lập trình khai báo (Declarative programming)",
+        "links": [
+          {
+            "title": "Tổng quan về Mô hình Lập trình",
+            "url": "https://en.wikipedia.org/wiki/Programming_paradigm",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "qZQDOe2MHBh8wNcmvkLQm",
+      "type": "subtopic",
+      "label": "Lập trình hướng đối tượng",
+      "position": {
+        "x": -707.6381872719935,
+        "y": 7.400748222348909
+      },
+      "size": {
+        "width": 283,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Lập trình hướng đối tượng (OOP) là một mô hình lập trình dựa trên khái niệm \"đối tượng\", đó là các bản thể của một lớp. Trong OOP, một lớp là bản thiết kế để tạo ra các đối tượng, có cả dữ liệu (thuộc tính) và hành vi (phương thức). Ý tưởng chính đằng sau OOP là mô hình hóa các đối tượng trong thế giới thực và tương tác của chúng, làm cho nó phù hợp để xây dựng các hệ thống phần mềm phức tạp và quy mô lớn.",
+        "links": [
+          {
+            "title": "Khám phá Lập trình hướng đối tượng",
+            "url": "https://opendsa.cs.vt.edu/ODSA/Books/Everything/html/IntroOO.html",
+            "type": "article"
+          },
+          {
+            "title": "Hướng dẫn Phát triển Phần mềm – Ngôn ngữ lập trình hướng đối tượng là gì?",
+            "url": "https://www.youtube.com/watch?app=desktop&v=SS-9y0H3Si8",
+            "type": "video"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Lập trình Tổng quát",
+            "url": "https://app.daily.dev/tags/general-programming?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "p96fNXv0Z4rEEXJR9hAYX",
+      "type": "subtopic",
+      "label": "Nguyên tắc thiết kế",
+      "position": {
+        "x": -707.6381872719935,
+        "y": 60.40074822234891
+      },
+      "size": {
+        "width": 283,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Các nguyên tắc thiết kế là các hướng dẫn cơ bản giúp kỹ sư phần mềm tạo ra các hệ thống có thể bảo trì, mở rộng quy mô, mạnh mẽ và dễ hiểu. Chúng đại diện cho các phương pháp hay được rút ra từ nhiều thập kỷ kinh nghiệm kỹ thuật phần mềm và được sử dụng rộng rãi để định hướng cấu trúc và hành vi của mã. Áp dụng các nguyên tắc này có thể dẫn đến kiến ​​trúc phần mềm tốt hơn, gỡ lỗi dễ dàng hơn và cải thiện sự hợp tác.",
+        "links": []
+      }
+    },
+    {
+      "id": "gyQw885dvupmkohzJPg3a",
+      "type": "subtopic",
+      "label": "Các mẫu thiết kế",
+      "position": {
+        "x": -707.6381872719935,
+        "y": 113.40074822234891
+      },
+      "size": {
+        "width": 283,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Các mẫu thiết kế là các giải pháp tổng quát cho các vấn đề thường gặp trong phát triển phần mềm. Chúng cung cấp một cách để mô tả và truyền đạt các giải pháp đã được chứng minh cho các vấn đề thiết kế phổ biến, đồng thời cung cấp một từ vựng chung cho thiết kế. Chúng không cụ thể cho bất kỳ ngôn ngữ lập trình hoặc công nghệ nào mà thay vào đó mô tả vấn đề và giải pháp theo cách có thể áp dụng cho nhiều bối cảnh khác nhau. Có nhiều loại mẫu thiết kế khác nhau, bao gồm: *   Mẫu tạo (Creational patterns) *   Mẫu cấu trúc (Structural patterns) *   Mẫu hành vi (Behavioral patterns) *   Mẫu kiến ​​trúc (Architectural patterns)",
+        "links": [
+          {
+            "title": "Tổng quan - Mô hình Thiết kế Phần mềm",
+            "url": "https://en.wikipedia.org/wiki/Software_design_pattern",
+            "type": "article"
+          },
+          {
+            "title": "Giải thích, hình dung và đơn giản hóa các mẫu thiết kế",
+            "url": "https://refactoring.guru/design-patterns/what-is-pattern",
+            "type": "article"
+          },
+          {
+            "title": "Design Patterns là gì?",
+            "url": "https://www.youtube.com/watch?v=BWprw8UHIzA",
+            "type": "video"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Mẫu Thiết kế",
+            "url": "https://app.daily.dev/tags/design-patterns?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "XBCxWdpvQyK2iIG2eEA1K",
+      "type": "subtopic",
+      "label": "Nguyên tắc Kiến trúc",
+      "position": {
+        "x": -707.6381872719935,
+        "y": 166.4007482223489
+      },
+      "size": {
+        "width": 283,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Nguyên tắc kiến trúc đề cập đến một tập hợp các hướng dẫn hoặc quy tắc được sử dụng để định hướng thiết kế và phát triển kiến trúc phần mềm. Các nguyên tắc này nhằm đảm bảo rằng kiến trúc kết quả đạt được có thể bảo trì, mở rộng và dễ hiểu/sửa đổi. Một số nguyên tắc kiến trúc phổ biến bao gồm tách biệt các mối quan tâm (separation of concerns), mô-đun hóa, liên kết lỏng (loose coupling) và tính gắn kết cao (high cohesion). Ngoài ra, các nguyên tắc kiến trúc thường được sử dụng cùng với mẫu thiết kế (design patterns), là các giải pháp tái sử dụng cho các vấn đề thiết kế phần mềm phổ biến.",
+        "links": [
+          {
+            "title": "Giới thiệu về Nguyên tắc Kiến trúc",
+            "url": "https://learn.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/architectural-principles",
+            "type": "article"
+          },
+          {
+            "title": "Nguyên tắc Thiết kế Phần mềm",
+            "url": "https://www.youtube.com/watch?v=TO9igqkPtfc",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "En_hvwRvY6k_itsNCQBYE",
+      "type": "subtopic",
+      "label": "Kiến trúc phần mềm (Software Architecture)",
+      "position": {
+        "x": -707.6381872719935,
+        "y": 219.4007482223489
+      },
+      "size": {
+        "width": 283,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Các phong cách kiến trúc trong phần mềm đề cập đến thiết kế và tổ chức tổng thể của một hệ thống phần mềm, cũng như các nguyên tắc và mẫu được sử dụng để hướng dẫn thiết kế. Các phong cách này cung cấp một khuôn khổ chung cho việc thiết kế một hệ thống và có thể được sử dụng để đảm bảo rằng hệ thống được cấu trúc tốt, dễ bảo trì và có khả năng mở rộng. Một số phong cách kiến trúc phổ biến trong phần mềm bao gồm:\n\n*   **Microservices:** nơi hệ thống được xây dựng như một tập hợp các dịch vụ nhỏ, độc lập và ít liên kết.\n*   **Event-Driven:** nơi hệ thống phản ứng với các sự kiện cụ thể xảy ra thay vì liên tục truy vấn để có thay đổi.\n*   **Layered:** nơi hệ thống được chia thành một tập hợp các lớp, mỗi lớp có trách nhiệm cụ thể và giao tiếp với các lớp khác thông qua các giao diện được xác định tốt.\n*   **Service-Oriented:** nơi hệ thống được xây dựng như một tập hợp các dịch vụ có thể truy cập qua mạng.\n*   **Data-Centric:** nơi hệ thống tập trung vào việc lưu trữ, truy xuất và thao tác dữ liệu thay vì xử lý dữ liệu.\n*   **Component-Based:** nơi hệ thống được cấu thành từ các thành phần phần mềm tái sử dụng và độc lập.\n*   **Domain-Driven:** nơi hệ thống được tổ chức xung quanh miền kinh doanh cốt lõi và các thực thể kinh doanh.",
+        "links": [
+          {
+            "title": "Kiến trúc Phần mềm & Các Phong cách là gì?",
+            "url": "https://study.com/academy/lesson/software-architecture-styles-patterns-components.html",
+            "type": "article"
+          },
+          {
+            "title": "Các kiểu Phong cách Kiến trúc trong Kỹ thuật Phần mềm",
+            "url": "https://www.youtube.com/watch?v=2Pp0BcXN9YY",
+            "type": "video"
+          },
+          {
+            "title": "Các mẫu Kiến trúc 10 được sử dụng trong Phát triển Phần mềm Doanh nghiệp ngày nay",
+            "url": "https://www.youtube.com/watch?v=brt3ao8bvqy",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "jq916t7svaMw5sFOcqZSi",
+      "type": "subtopic",
+      "label": "Kiến trúc mẫu",
+      "position": {
+        "x": -707.6381872719935,
+        "y": 272.4007482223489
+      },
+      "size": {
+        "width": 283,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Các mẫu kiến trúc là một tập hợp các giải pháp đã được chứng minh là hiệu quả cho các loại hệ thống phần mềm cụ thể. Chúng cung cấp một vốn từ và bộ quy tắc tốt nhất để thiết kế và xây dựng hệ thống phần mềm, đồng thời có thể giúp nhà phát triển đưa ra các quyết định thiết kế tốt hơn. Một số mẫu kiến trúc phổ biến bao gồm:\n\n*   Model-View-Controller (MVC): Một mẫu để tách biệt các thành phần giao diện người dùng, logic nghiệp vụ và lưu trữ dữ liệu của hệ thống.\n*   Microservices: Một mẫu để xây dựng hệ thống như một tập hợp các dịch vụ nhỏ, độc lập có thể triển khai và giao tiếp với nhau qua mạng.\n*   Event-Driven: Một mẫu để xây dựng hệ thống phản ứng lại các sự kiện và thực hiện hành động dựa trên đó.\n*   Layered: Một mẫu để tổ chức một hệ thống thành các lớp, trong đó mỗi lớp cung cấp một tập hợp dịch vụ cụ thể cho lớp ở phía trên nó.\n*   Pipe-and-Filter: Một mẫu để xây dựng hệ thống như một chuỗi các yếu tố xử lý độc lập, tái sử dụng có thể kết nối với nhau theo một đường dẫn (pipeline).\n*   Command-Query Responsibility Segregation (CQRS): Một mẫu để tách biệt việc xử lý lệnh (đó là những thay đổi trạng thái của hệ thống) khỏi việc truy vấn dữ liệu (đó là việc trích xuất thông tin từ hệ thống).\n*   Blackboard: Một mẫu để tạo một kho lưu trữ tập trung thông tin có thể được truy cập và sửa đổi bởi nhiều mô-đun hoặc hệ thống con độc lập.\n*   Microkernel: Một mẫu nhằm giảm thiểu lượng mã chạy ở chế độ kernel và di chuyển càng nhiều chức năng càng có thể vào các quy trình người dùng.\n*   Serverless: Một mẫu thiết kế cho phép nhà phát triển xây dựng và chạy ứng dụng và dịch vụ mà không cần phải cấp phát và quản lý máy chủ.\n*   Message Queues and Streams: Một mẫu để tách rời các thành phần khác nhau của một hệ thống và cho phép giao tiếp bất đồng bộ giữa chúng.\n*   Event Sourcing: Một mẫu lưu trữ tất cả các thay đổi trạng thái của hệ thống dưới dạng một chuỗi các sự kiện, thay vì chỉ lưu trữ trạng thái hiện tại.",
+        "links": [
+          {
+            "title": "Tổng quan - Mô hình Kiến trúc",
+            "url": "https://en.wikipedia.org/wiki/Architectural_pattern",
+            "type": "article"
+          },
+          {
+            "title": "Các Mô hình Kiến trúc Được Sử dụng trong Phát triển Phần mềm Doanh nghiệp",
+            "url": "https://www.youtube.com/watch?v=BrT3AO8bVQY",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "WrzsvLgo7cf2KjvJhtJEC",
+      "type": "subtopic",
+      "label": "Các mẫu doanh nghiệp",
+      "position": {
+        "x": -707.6381872719935,
+        "y": 325.4007482223489
+      },
+      "size": {
+        "width": 283,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Các mẫu doanh nghiệp là các giải pháp được ghi chép đầy đủ, có thể tái sử dụng để giải quyết các vấn đề thường gặp trong phát triển phần mềm doanh nghiệp. Các mẫu này cung cấp một từ vựng và một tập hợp các phương pháp hay nhất để thiết kế các ứng dụng doanh nghiệp mạnh mẽ, khả năng mở rộng và dễ bảo trì, giải quyết các thách thức lặp đi lặp lại như truy cập dữ liệu, đồng thời xử lý, phân phối và tích hợp với các hệ thống cũ. Chúng đóng vai trò là bản thiết kế để giải quyết các vấn đề kiến trúc và thiết kế phức tạp, thúc đẩy tính nhất quán và giảm thời gian phát triển.",
+        "links": [
+          {
+            "title": "Kiến trúc phần mềm doanh nghiệp: Hướng dẫn cuối cùng",
+            "url": "https://www.rishabhsoft.com/blog/enterprise-software-architecture-patterns",
+            "type": "article"
+          },
+          {
+            "title": "Các mẫu tích hợp doanh nghiệp là gì?",
+            "url": "https://www.youtube.com/watch?v=WNm3QmJadNs",
+            "type": "video"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Doanh nghiệp",
+            "url": "https://app.daily.dev/tags/enterprise?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "uLYSP9v3y51h8Ttdt5ije",
+      "type": "label",
+      "label": "Bản đồ Chủ đề",
+      "position": {
+        "x": -643.6381872719935,
+        "y": -146.5992517776511
+      },
+      "size": {
+        "width": 155,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "08qKtgnhJ3tlb5JKfTDf5",
+      "type": "topic",
+      "label": "Nguyên tắc Code sạch",
+      "position": {
+        "x": -298.1381872719935,
+        "y": 307.4007482223489
+      },
+      "size": {
+        "width": 216,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Các nguyên tắc code sạch là hướng dẫn để viết mã dễ hiểu, bảo trì và sửa đổi. Các nguyên tắc này nhấn mạnh khả năng đọc, tính đơn giản và giảm độ phức tạp để cải thiện sự hợp tác và giảm khả năng xảy ra lỗi. Mục tiêu cuối cùng là tạo ra mã nguồn mà dễ đọc và dễ hiểu như văn bản được viết tốt.",
+        "links": [
+          {
+            "title": "Giới thiệu về Code sạch & Nguyên tắc Thiết kế Phần mềm",
+            "url": "https://workat.tech/machine-coding/tutorial/introduction-clean-code-software-design-principles-nwu4qqc63e09",
+            "type": "article"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Lập trình Tổng quát",
+            "url": "https://app.daily.dev/tags/general-programming?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2SOZvuEcy8Cy8ymN7x4L-",
+      "type": "subtopic",
+      "label": "Hãy nhất quán",
+      "position": {
+        "x": 108.99419451849974,
+        "y": 218.4007482223489
+      },
+      "size": {
+        "width": 335,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Tính nhất quán đề cập đến việc duy trì một mô hình nhất quán. Điều này có thể bao gồm việc sử dụng các quy tắc đặt tên nhất quán, cấu trúc dữ liệu và giao diện trong suốt hệ thống, cũng như tuân thủ các nguyên tắc thiết kế và phương pháp tốt đã được thiết lập. Tính nhất quán có thể giúp làm cho hệ thống dễ bảo trì, dễ hiểu và dễ mở rộng hơn.",
+        "links": [
+          {
+            "title": "10 Mẹo để Viết Mã Sạch",
+            "url": "https://www.pluralsight.com/blog/software-development/10-steps-to-clean-code",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6Cd1BbGsmPJs_5jKhumyV",
+      "type": "subtopic",
+      "label": "Tên có ý nghĩa hơn là chú thích (Meaningful names over comments)",
+      "position": {
+        "x": 108.99419451849974,
+        "y": 271.4007482223489
+      },
+      "size": {
+        "width": 335,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Bạn nên tuân theo thói quen đặt tên rõ ràng và mô tả cho các thành phần khác nhau của một hệ thống, chẳng hạn như biến, hàm và lớp. Điều này có thể giúp làm cho hệ thống dễ hiểu và bảo trì hơn bằng cách truyền đạt rõ ràng mục đích của từng thành phần và cách sử dụng dự kiến.",
+        "links": [
+          {
+            "title": "Một hướng dẫn để Đặt tên các Thứ trong Lập trình",
+            "url": "https://levelup.gitconnected.com/a-guide-for-naming-things-in-programming-2dc2d74879f8",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "81WOL1nxb56ZbAOvxJ7NK",
+      "type": "subtopic",
+      "label": "Độ thụt lề và Phong cách Mã hóa",
+      "position": {
+        "x": 108.99419451849974,
+        "y": 324.4007482223489
+      },
+      "size": {
+        "width": 335,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Độ thụt lề và phong cách mã hóa đề cập đến việc định dạng nhất quán của mã nguồn để cải thiện khả năng đọc và bảo trì. Điều này bao gồm việc sử dụng khoảng trắng, dấu gạch ngang và quy tắc đặt tên theo một cách tiêu chuẩn trên toàn bộ dự án. Mục tiêu là tạo ra mã có vẻ hấp dẫn về mặt thị giác và dễ dàng cho các nhà phát triển hiểu, bất kể ai đã viết nó. Độ thụt lề nhất quán làm nổi bật cấu trúc của mã, giúp dễ dàng hơn trong việc theo dõi luồng điều khiển và xác định các khối logic. Tuân thủ một phong cách mã hóa cụ thể, quy định các quy tắc về đặt tên, chú thích và các khía cạnh định dạng khác, sẽ tăng cường thêm sự rõ ràng và nhất quán của cơ sở mã.",
+        "links": [
+          {
+            "title": "Code sạch – Định dạng",
+            "url": "https://www.baeldung.com/cs/clean-code-formatting",
+            "type": "article"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Lập trình Tổng quát",
+            "url": "https://app.daily.dev/tags/general-programming?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "XEwC6Fyf2DNNHQsoGTrQj",
+      "type": "subtopic",
+      "label": "Giữ các phương thức / lớp / tệp tin nhỏ (Keep methods / classes / files small)",
+      "position": {
+        "x": 108.99419451849974,
+        "y": 377.4007482223489
+      },
+      "size": {
+        "width": 335,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Bạn nên thiết kế và triển khai các thành phần nhỏ, tập trung vào một mục đích cụ thể, thay vì các thành phần lớn, đơn nhất cố gắng làm mọi thứ. Điều này có thể giúp cải thiện khả năng bảo trì và mở rộng hệ thống bằng cách dễ dàng hiểu, kiểm thử và sửa đổi từng thành phần.",
+        "links": []
+      }
+    },
+    {
+      "id": "5S5A5wCJUCNPLlHJ5fRjU",
+      "type": "subtopic",
+      "label": "Các hàm thuần túy (Pure functions)",
+      "position": {
+        "x": 108.99419451849974,
+        "y": 430.4007482223489
+      },
+      "size": {
+        "width": 335,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Các hàm thuần túy là một loại hàm trong lập trình, trong đó đầu ra chỉ được xác định bởi các giá trị đầu vào của nó mà không có bất kỳ tác dụng phụ nào. Điều này có nghĩa là đối với cùng một đầu vào, một hàm thuần túy sẽ luôn trả về cùng một đầu ra và nó không sửa đổi bất kỳ trạng thái bên ngoài phạm vi của riêng nó. Chúng có tính xác định, dự đoán được và giúp dễ dàng kiểm thử và suy luận về mã.",
+        "links": [
+          {
+            "title": "Hàm thuần túy là gì? | Hướng dẫn về Hàm Javascript",
+            "url": "https://www.youtube.com/watch?v=ZXxahQS1PN8",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "qZzl0hAD2LkShsPql1IlZ",
+      "type": "subtopic",
+      "label": "Giảm độ phức tạp vòng lặp",
+      "position": {
+        "x": 108.99419451849974,
+        "y": 483.40074822234897
+      },
+      "size": {
+        "width": 335,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Độ phức tạp vòng cung đo số lượng đường dẫn tuyến tính độc lập thông qua mã nguồn của chương trình. Nó được tính dựa trên số lượng điểm quyết định (như `if`, `for`, `while`, `case`) trong một hàm hoặc khối mã. Độ phức tạp vòng cung cao chỉ ra mã mà khó hiểu, kiểm tra và bảo trì do có số lượng các đường thực thi có thể tăng lên. Giảm bớt độ phức tạp này nhằm đơn giản hóa luồng điều khiển và logic trong mã, dẫn đến phần mềm dễ đọc và đáng tin cậy hơn.",
+        "links": [
+          {
+            "title": "Để giảm độ phức tạp của vòng lặp (cyclomatic complexity) như thế nào?",
+            "url": "https://kasp9023.medium.com/how-to-make-your-code-more-readable-focus-on-the-happy-path-and-reduce-cyclomatic-complexity-66802b8897b5",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "yyKvmutbxu3iVHTuqr5q4",
+      "type": "subtopic",
+      "label": "Tránh truyền các giá trị null và boolean",
+      "position": {
+        "x": 108.99419451849974,
+        "y": 536.400748222349
+      },
+      "size": {
+        "width": 335,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Việc truyền các giá trị null hoặc Boolean có thể dẫn đến hành vi không mong muốn và khó gỡ lỗi trong một chương trình. Dưới đây là một số cách để tránh truyền các giá trị null hoặc Boolean trong kiến trúc hệ thống:*   Sử dụng kiểu Optionals hoặc Maybe thay vì null để chỉ ra sự vắng mặt của một giá trị. Điều này làm rõ khi một giá trị bị thiếu và ngăn chặn lỗi Null Reference.*   Sử dụng giá trị mặc định cho tham số hàm thay vì cho phép chúng là null hoặc Boolean. Điều này loại bỏ nhu cầu kiểm tra các giá trị null hoặc Boolean và giảm thiểu khả năng xảy ra lỗi.*   Sử dụng mẫu Null Object để thay thế các giá trị null bằng một đối tượng đặc biệt có hành vi được xác định. Điều này loại bỏ nhu cầu kiểm tra các giá trị null và làm cho mã dễ đọc hơn.*   Sử dụng toán tử Ternary (?:) thay vì câu lệnh if-else khi làm việc với Boolean. Điều này có thể làm cho mã ngắn gọn và dễ đọc hơn.*   Sử dụng hàm assert để kiểm tra tính hợp lệ của tham số hàm và ném một ngoại lệ nếu chúng không hợp lệ. Bằng cách tuân theo các phương pháp tốt nhất này, kiến trúc hệ thống sẽ mạnh mẽ và ít lỗi hơn.",
+        "links": []
+      }
+    },
+    {
+      "id": "OoCCy-3W5y7bUcKz_iyBw",
+      "type": "subtopic",
+      "label": "Giữ mã framework ở khoảng cách (Keep framework code distant)",
+      "position": {
+        "x": 108.99419451849974,
+        "y": 589.400748222349
+      },
+      "size": {
+        "width": 335,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Giữ mã framework ở khoảng cách đề cập đến việc tách mã ứng dụng khỏi mã của framework. Điều này giúp dễ dàng bảo trì, kiểm thử và nâng cấp mã ứng dụng và framework một cách độc lập. Dưới đây là một số cách để giữ mã framework ở khoảng cách trong kiến trúc hệ thống: 1. Sử dụng lớp trừ xuất (abstraction layer) để tách mã ứng dụng khỏi mã của framework. Điều này cho phép viết mã ứng dụng mà không cần biết chi tiết về framework. 2. Sử dụng tiêm phụ thuộc (dependency injection) để giải nắp mã ứng dụng khỏi mã của framework. Điều này cho phép mã ứng dụng sử dụng chức năng của framework mà không cần phải tạo trực tiếp các đối tượng của framework. 3. Tránh sử dụng các thư viện hoặc lớp cụ thể của framework trong mã ứng dụng. Điều này giúp dễ dàng chuyển sang một framework khác nếu cần thiết. 4. Sử dụng giao diện tiêu chuẩn để mã ứng dụng tương tác với framework. Điều này cho phép viết mã ứng dụng mà không cần biết chi tiết về framework. 5. Giữ mã ứng dụng và mã của framework trong các dự án và/hoặc kho lưu trữ riêng biệt. Bằng cách tuân theo những phương pháp tốt nhất này, kiến trúc hệ thống sẽ dễ bảo trì hơn, dễ kiểm thử hơn và ít lỗi hơn, đồng thời dễ dàng nâng cấp hoặc chuyển đổi framework nếu cần thiết.",
+        "links": [
+          {
+            "title": "Kiến trúc sạch",
+            "url": "https://pusher.com/tutorials/clean-architecture-introduction/",
+            "type": "article"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Lập trình Tổng quát",
+            "url": "https://app.daily.dev/tags/general-programming?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "S1m7ty7Qrzu1rr4Jl-WgM",
+      "type": "subtopic",
+      "label": "Sử dụng cấu trúc chính xác",
+      "position": {
+        "x": 108.99419451849974,
+        "y": 642.400748222349
+      },
+      "size": {
+        "width": 335,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Trong bối cảnh các nguyên tắc mã sạch, \"sử dụng các cấu trúc chính xác\" đề cập đến việc sử dụng các cấu trúc lập trình phù hợp, chẳng hạn như vòng lặp, điều kiện và hàm, theo cách khiến mã dễ hiểu, bảo trì và sửa đổi. Khi sử dụng các cấu trúc chính xác, mã nên được tổ chức một cách logic và trực quan, tận dụng các câu lệnh kiểm soát luồng và cấu trúc dữ liệu thích hợp để hoàn thành nhiệm vụ tại chỗ. Điều này cũng có nghĩa là mã nên tránh sử dụng các cấu trúc không cần thiết hoặc quá phức tạp khiến mã khó hiểu hoặc suy luận. Ngoài ra, các cấu trúc chính xác cũng có nghĩa là sử dụng đúng cấu trúc cho vấn đề đúng đắn, ví dụ: nếu bạn muốn lặp qua một mảng, hãy sử dụng vòng lặp for thay vì đệ quy và cũng nên tránh sử dụng biến toàn cục mà thay vào đó sử dụng tham số hàm và giá trị trả về để truyền dữ liệu giữa các phần khác nhau của mã. Bằng cách sử dụng các cấu trúc chính xác, mã sẽ dễ đọc hơn, dễ bảo trì hơn và ít bị lỗi hơn, giúp các nhà phát triển khác dễ dàng hiểu, gỡ lỗi và mở rộng mã.",
+        "links": []
+      }
+    },
+    {
+      "id": "mzt7fvx6ab3tmG1R1NcLO",
+      "type": "subtopic",
+      "label": "Các bài kiểm tra nên nhanh chóng và độc lập",
+      "position": {
+        "x": 108.99419451849974,
+        "y": 695.400748222349
+      },
+      "size": {
+        "width": 335,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Giữ các bài kiểm tra độc lập giúp đảm bảo rằng các bài kiểm tra đáng tin cậy, lặp lại và dễ bảo trì. Khi các bài kiểm tra độc lập, một thay đổi trong một bài kiểm tra sẽ không ảnh hưởng đến kết quả của các bài kiểm tra khác. Dưới đây là một số cách để giữ các bài kiểm tra độc lập trong kiến trúc hệ thống: - Sử dụng tiêm phụ thuộc để giải nắp mã kiểm thử khỏi mã ứng dụng. Điều này cho phép chạy các bài kiểm tra mà không cần phải tạo trực tiếp các đối tượng của ứng dụng. - Sử dụng mocks hoặc stubs để cô lập bài kiểm tra khỏi các phụ thuộc bên ngoài như cơ sở dữ liệu, API hoặc các dịch vụ khác. - Sử dụng dữ liệu kiểm thử là tự chứa và không dựa vào dữ liệu hoặc trạng thái bên ngoài. - Sử dụng một khung kiểm thử (test framework) hỗ trợ chạy các bài kiểm tra song song để các bài kiểm tra có thể được chạy độc lập với nhau. - Sử dụng phát triển hướng kiểm thử (Test-Driven Development - TDD), trong đó viết các bài kiểm tra trước khi viết mã ứng dụng. Điều này đảm bảo rằng các bài kiểm tra là độc lập và mã được viết với khả năng kiểm thử trong tâm trí. - Tránh trạng thái toàn cục và trạng thái thay đổi chung có thể gây ra kết quả không mong muốn. Tìm hiểu thêm từ các liên kết sau: - [@article@Keeping Tests Valuable](https://www.checklyhq.com/learn/headless/valuable-tests/) - [@feed@Explore top posts about Testing](https://app.daily.dev/tags/testing?ref=roadmapsh)",
+        "links": []
+      }
+    },
+    {
+      "id": "JKK6bli3P_cqJ128wPnot",
+      "type": "subtopic",
+      "label": "Đặt tên có ý nghĩa",
+      "position": {
+        "x": 108.99419451849974,
+        "y": 748.400748222349
+      },
+      "size": {
+        "width": 335,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Việc sử dụng tên có ý nghĩa là quan trọng để làm cho mã rõ ràng, dễ đọc và dễ hiểu. Tên có ý nghĩa có thể giúp truyền đạt mục đích và chức năng của các biến, hàm, lớp và các thành phần khác trong mã. Dưới đây là một số cách để sử dụng tên có ý nghĩa trong kiến trúc hệ thống: - Sử dụng tên mô tả và có ý nghĩa cho các biến, hàm, lớp và các thành phần khác trong mã. - Sử dụng quy ước đặt tên nhất quán trên toàn bộ codebase, chẳng hạn như camelCase cho các biến và PascalCase cho các hàm và lớp. - Sử dụng viết tắt và từ viết tắt một cách thận trọng và chỉ khi chúng được hiểu rộng rãi. - Sử dụng tiền tố hoặc hậu tố có ý nghĩa để chỉ ra loại hoặc mục đích của một biến hoặc hàm, chẳng hạn như \"is\" hoặc \"get\" cho các biến boolean hoặc \"list\" cho các biến mảng - Tránh sử dụng tên biến một chữ cái hoặc tên chung, chẳng hạn như \"temp\" hoặc \"x\" không mang bất kỳ ý nghĩa nào. - Tránh sử dụng tên quá dài hoặc phức tạp khiến mã khó đọc hơn. Tìm hiểu thêm từ các liên kết sau: - [@article@How to Write Meaningful Variable Names?](https://workat.tech/machine-coding/tutorial/writing-meaningful-variable-names-clean-code-za4m83tiesy0)",
+        "links": []
+      }
+    },
+    {
+      "id": "kp86Vc3uue3IxTN9B9p59",
+      "type": "subtopic",
+      "label": "Sắp xếp mã theo tác nhân mà nó thuộc về",
+      "position": {
+        "x": 108.99419451849974,
+        "y": 801.400748222349
+      },
+      "size": {
+        "width": 335,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "\"Code by Actor\" là một kỹ thuật phát triển phần mềm khuyến khích các nhà phát triển tổ chức mã của họ xung quanh các actor hoặc thực thể tương tác với nó. Các actor có thể là người dùng, hệ thống hoặc quy trình thực hiện một vai trò hoặc chức năng cụ thể trong ứng dụng. Cách tiếp cận này giúp tạo ra sự tách biệt rõ ràng về mối quan tâm, làm cho mã dễ mô-đun hơn, tái sử dụng và dễ hiểu hơn. Tìm hiểu thêm từ các liên kết sau: - [@article@Kiến trúc Mô hình Actor](https://awesome-architecture.com/actor-model-architecture/actor-model-architecture/) - [@article@Đảo ngược Kiểm soát](https://stackoverflow.com/a/72826245) - [@feed@Khám phá các bài đăng hàng đầu về Lập trình Tổng quát](https://app.daily.dev/tags/general-programming?ref=roadmapsh)",
+        "links": []
+      }
+    },
+    {
+      "id": "tLbckKmfVxgn59j_dlh8b",
+      "type": "subtopic",
+      "label": "Phân tách lệnh truy vấn",
+      "position": {
+        "x": 108.99419451849974,
+        "y": 854.400748222349
+      },
+      "size": {
+        "width": 335,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Phân tách lệnh truy vấn (CQS) là nguyên tắc thiết kế phần mềm, phân chia trách nhiệm của một phương thức hoặc hàm thành hai loại: lệnh và truy vấn. Lệnh là các phương thức thay đổi trạng thái của hệ thống, trong khi truy vấn là các phương thức trả về thông tin mà không thay đổi trạng thái của hệ thống.",
+        "links": [
+          {
+            "title": "Mẫu CQRS",
+            "url": "https://martinfowler.com/bliki/CommandQuerySeparation.html",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "9naCfoHF1LW1OEsVZGi8v",
+      "type": "subtopic",
+      "label": "Giữ cho mọi thứ đơn giản và tái cấu trúc thường xuyên (Keep it simple and refactor often)",
+      "position": {
+        "x": 108.99419451849974,
+        "y": 907.400748222349
+      },
+      "size": {
+        "width": 335,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Tạo ra các trừu tượng là một phần quan trọng của phát triển phần mềm, nhưng tạo quá nhiều trừu tượng hoặc tạo chúng quá sớm có thể dẫn đến sự phức tạp không cần thiết và làm cho mã khó hiểu và bảo trì hơn. Dưới đây là một số cách để tránh các trừu tượng vội vàng trong kiến trúc hệ thống: - Hiểu vấn đề cần giải quyết trước khi tạo ra một trừu tượng. - Bắt đầu với một giải pháp đơn giản và chỉ tạo ra một trừu tượng khi rõ ràng rằng giải pháp đang trở nên quá phức tạp. - Sử dụng các kỹ thuật tái cấu trúc mã để đơn giản hóa mã trước khi tạo ra một trừu tượng. - Tránh tạo ra các trừu tượng vì mục đích tạo ra các trừu tượng. - Sử dụng các mẫu thiết kế và thực tiễn đã được thiết lập khi tạo ra các trừu tượng, nhưng không ép chúng vào mã. - Sử dụng kiểm thử tự động để đảm bảo rằng trừu tượng không giới thiệu lỗi mới hoặc phá vỡ chức năng hiện có. - Tạo trừu tượng theo cách mà nó dễ dàng kiểm tra, gỡ lỗi và suy luận. Tìm hiểu thêm từ các liên kết sau: - [@article@AHA Programming](https://kentcdodds.com/blog/aha-programming)",
+        "links": []
+      }
+    },
+    {
+      "id": "isbQTvteWitvwVwBtwAr3",
+      "type": "horizontal",
+      "label": "nút ngang",
+      "position": {
+        "x": -20.138187271993502,
+        "y": 321.9007482223489
+      },
+      "size": {
+        "width": 50,
+        "height": 20
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "TDhTYdEyBuOnDKcQJzTAk",
+      "type": "topic",
+      "label": "Các Mô hình Lập trình",
+      "position": {
+        "x": -298.1381872719935,
+        "y": 452.2051467174066
+      },
+      "size": {
+        "width": 234,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Một kiểu lập trình (programming paradigm) là một phong cách hoặc phương pháp cơ bản để giải quyết các vấn đề bằng sử dụng một ngôn ngữ lập trình. Các kiểu lập trình khác nhau cung cấp những cách thức khác nhau để tổ chức và cấu trúc mã, đồng thời có những điểm mạnh và điểm yếu khác nhau. Một số kiểu lập trình phổ biến nhất bao gồm:\n\n*   Lập trình mệnh lệnh (Imperative programming)\n*   Lập trình hàm (Functional programming)\n*   Lập trình hướng đối tượng (Object-oriented programming)\n*   Lập trình logic (Logic programming)\n*   Lập trình khai báo (Declarative programming)",
+        "links": [
+          {
+            "title": "Tổng quan về Mô hình Lập trình",
+            "url": "https://en.wikipedia.org/wiki/Programming_paradigm",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "VhSEH_RoWFt1z2lial7xZ",
+      "type": "subtopic",
+      "label": "Lập trình có cấu trúc",
+      "position": {
+        "x": -707.6381872719935,
+        "y": 453.52104026608447
+      },
+      "size": {
+        "width": 284,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Lập trình cấu trúc là một mô hình lập trình nhấn mạnh việc sử dụng các cấu trúc điều khiển luồng được tổ chức tốt như vòng lặp, câu lệnh điều kiện và thủ tục. Mô hình này đã được phát triển trong những năm 1960 và 1970 để phản ứng lại mã \"dây xích\" do việc sử dụng rộng rãi các câu lệnh `goto`.",
+        "links": [
+          {
+            "title": "Lập trình Hướng D cấu trúc (Structured Programming) - Trang mục tiêu trên Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Structured_programming",
+            "type": "article"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Lập trình Tổng quát",
+            "url": "https://app.daily.dev/tags/general-programming?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "YswaOqZNYcmDwly2IXrTT",
+      "type": "subtopic",
+      "label": "Lập trình hàm",
+      "position": {
+        "x": -707.6381872719935,
+        "y": 506.52104026608447
+      },
+      "size": {
+        "width": 284,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Lập trình hàm là một mô hình lập trình mà coi phép tính như việc đánh giá các hàm toán học và tránh trạng thái thay đổi và dữ liệu có thể sửa đổi. Nó nhấn mạnh việc sử dụng các hàm để giải quyết vấn đề, thường sử dụng các hàm cấp cao, bất biến và đệ quy. Thay vì sửa đổi dữ liệu, lập trình hàm tạo ra các cấu trúc dữ liệu mới.",
+        "links": [
+          {
+            "title": "Lập trình hàm mang tính chức năng là gì?",
+            "url": "https://medium.com/javascript-scene/master-the-javascript-interview-what-is-functional-programming-7f218c68b3a0",
+            "type": "article"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Lập trình Hướng Hàm",
+            "url": "https://app.daily.dev/tags/functional-programming?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "VZrERRRYhmqDx4slnZtdc",
+      "type": "subtopic",
+      "label": "Lập trình hướng đối tượng",
+      "position": {
+        "x": -707.6381872719935,
+        "y": 559.5210402660845
+      },
+      "size": {
+        "width": 284,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Lập trình hướng đối tượng (OOP) là một mô hình lập trình sử dụng các đối tượng và lớp để cấu trúc và tổ chức mã nguồn. Trong OOP, một đối tượng là một bản thể của một lớp, trong đó lớp định nghĩa các thuộc tính và hành vi của đối tượng. OOP dựa trên các nguyên tắc về bao bọc, kế thừa và đa hình.",
+        "links": [
+          {
+            "title": "Lập trình hướng đối tượng là gì?",
+            "url": "https://www.freecodecamp.org/news/what-is-object-oriented-programming/",
+            "type": "article"
+          },
+          {
+            "title": "Giới thiệu về lập trình hướng đối tượng (Object-Oriented Programming - OOP)",
+            "url": "https://www.geeksforgeeks.org/introduction-of-object-oriented-programming/",
+            "type": "article"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về OOP (Lập trình hướng đối tượng)",
+            "url": "https://app.daily.dev/tags/oop?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "HhYdURE4X-a9GVwJhAyE0",
+      "type": "topic",
+      "label": "Lập trình hướng đối tượng",
+      "position": {
+        "x": -299.1381872719935,
+        "y": 666.2051467174066
+      },
+      "size": {
+        "width": 275,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Lập trình hướng đối tượng (OOP) là một mô hình lập trình dựa trên khái niệm \"đối tượng\", đó là các bản thể của một lớp. Trong OOP, một lớp là bản thiết kế để tạo ra các đối tượng, có cả dữ liệu (thuộc tính) và hành vi (phương thức). Ý tưởng chính đằng sau OOP là mô hình hóa các đối tượng trong thế giới thực và tương tác của chúng, làm cho nó phù hợp để xây dựng các hệ thống phần mềm phức tạp và quy mô lớn.",
+        "links": [
+          {
+            "title": "Khám phá Lập trình hướng đối tượng",
+            "url": "https://opendsa.cs.vt.edu/ODSA/Books/Everything/html/IntroOO.html",
+            "type": "article"
+          },
+          {
+            "title": "Hướng dẫn Phát triển Phần mềm – Ngôn ngữ lập trình hướng đối tượng là gì?",
+            "url": "https://www.youtube.com/watch?app=desktop&v=SS-9y0H3Si8",
+            "type": "video"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Lập trình Tổng quát",
+            "url": "https://app.daily.dev/tags/general-programming?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "0VO_-1g-TS29y0Ji2yCjc",
+      "type": "topic",
+      "label": "Thiết kế dựa trên mô hình",
+      "position": {
+        "x": -705.1381872719935,
+        "y": 1081.4007482223487
+      },
+      "size": {
+        "width": 283,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center",
+        "colorType": "h"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Thiết kế dựa trên mô hình (MDD) là phương pháp phát triển phần mềm trong đó thiết kế của một hệ thống được biểu diễn bằng một tập hợp các mô hình, và các mô hình này được sử dụng để điều khiển quá trình phát triển hệ thống. MDD dựa trên ý tưởng rằng thiết kế của một hệ thống có thể được biểu diễn bằng một tập hợp các mô hình, và những mô hình này có thể được sử dụng để tạo mã cho hệ thống. Ưu điểm chính khi sử dụng MDD là nó cho phép tách biệt rõ ràng giữa thiết kế và triển khai của một hệ thống. Các mô hình đại diện cho thiết kế của hệ thống, và mã được tạo ra từ các mô hình, điều này giúp dễ dàng bảo trì và phát triển hệ thống hơn. Ngoài ra, MDD cũng có thể cải thiện chất lượng mã, vì các mô hình có thể được sử dụng để kiểm tra lỗi thiết kế và sự không nhất quán trước khi mã được tạo ra.",
+        "links": [
+          {
+            "title": "Thiết kế dựa trên mô hình – lý thuyết đến thực hành",
+            "url": "https://www.todaysoftmag.com/article/1529/model-driven-design-theory-to-practice",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "I25ghe8xYWpZ-9pRcHfOh",
+      "type": "subtopic",
+      "label": "Mô hình miền (Domain Model)",
+      "position": {
+        "x": -692.6381872719935,
+        "y": 1138.4007482223487
+      },
+      "size": {
+        "width": 267,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Một mô hình miền là một biểu diễn của một lĩnh vực kiến thức hoặc kinh doanh cụ thể được sử dụng để mô hình hóa các đối tượng và khái niệm trong đó, và để nắm bắt các mối quan hệ và ràng buộc giữa chúng. Trong lập trình hướng đối tượng (OOP), một mô hình miền thường được đại diện bằng một tập hợp các lớp và giao diện, với mỗi lớp hoặc giao diện đại diện cho một khái niệm hoặc đối tượng cụ thể trong miền. Một mô hình miền được sử dụng để cung cấp một biểu diễn nhất quán và rõ ràng của phạm vi vấn đề, và để nắm bắt các yêu cầu kinh doanh và ràng buộc của hệ thống. Nó cũng được sử dụng để hướng dẫn thiết kế của hệ thống và đảm bảo rằng hệ thống phản ánh chính xác vấn đề thực tế mà nó được dự định giải quyết.",
+        "links": [
+          {
+            "title": "Tổng quan về mô hình miền",
+            "url": "https://en.wikipedia.org/wiki/Domain_model",
+            "type": "article"
+          },
+          {
+            "title": "Thiết kế hướng đối tượng theo miền",
+            "url": "https://khalilstemmler.com/articles/categories/domain-driven-design/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "c6n-wOHylTbzpxqgoXtdw",
+      "type": "subtopic",
+      "label": "Biến lớp",
+      "position": {
+        "x": -692.6381872719935,
+        "y": 1297.4007482223487
+      },
+      "size": {
+        "width": 267,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Một định nghĩa lớp là một tập hợp các điều kiện phải đúng cho bất kỳ đối tượng nào của một lớp, vào bất kỳ thời điểm nào. Trong lập trình hướng đối tượng (OOP), các định nghĩa lớp được sử dụng để xác định trạng thái hợp lệ của một đối tượng và để đảm bảo rằng đối tượng luôn ở trạng thái hợp lệ. Các định nghĩa lớp thường được xác định trong khởi tạo của một lớp và được thực thi thông qua việc sử dụng các phương thức và thành viên dữ liệu riêng tư được sử dụng để xác thực trạng thái của đối tượng. Chúng cũng được kiểm tra trong các phương thức của lớp trước và sau bất kỳ thao tác nào có thể thay đổi trạng thái của đối tượng. Tìm hiểu thêm từ các liên kết sau: - [@article@Tổng quan về định nghĩa lớp](https://en.wikipedia.org/wiki/Class_invariant) - [@article@Khái niệm về định nghĩa lớp trong lập trình hướng đối tượng](https://arxiv.org/abs/2109.06557)",
+        "links": []
+      }
+    },
+    {
+      "id": "HN160YgryBBtVGjnWxNie",
+      "type": "subtopic",
+      "label": "Kiến trúc Lớp hóa (Layered Architectures)",
+      "position": {
+        "x": -692.6381872719935,
+        "y": 1350.4007482223487
+      },
+      "size": {
+        "width": 267,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Kiến trúc nhiều lớp là một mẫu thiết kế phần mềm trong đó chức năng của hệ thống được chia thành một tập hợp các lớp, mỗi lớp có trách nhiệm cụ thể và tương tác với các lớp ở trên và dưới nó. Ý tưởng chính đằng sau kiến trúc nhiều lớp là tách biệt các mối quan tâm của hệ thống thành các lớp riêng biệt và độc lập, giúp mã hóa dễ dàng hơn, dễ hiểu, kiểm thử và sửa đổi. Có nhiều loại kiến trúc nhiều lớp khác nhau, nhưng một loại phổ biến là kiến trúc ba lớp bao gồm:\n\n*   Lớp Trình bày\n*   Lớp Ứng dụng/Doanh nghiệp\n*   Lớp Truy cập Dữ liệu",
+        "links": [
+          {
+            "title": "Kiến trúc Phần mềm – Kiến trúc Lớp (Layered Architecture)",
+            "url": "https://priyalwalpita.medium.com/software-architecture-patterns-layered-architecture-a3b89b71a057",
+            "type": "article"
+          },
+          {
+            "title": "Lớp thứ 5 Chính trong Kiến trúc Phần mềm?",
+            "url": "https://www.indeed.com/career-advice/career-development/what-are-the-layers-in-software-architecture",
+            "type": "article"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Kiến trúc",
+            "url": "https://app.daily.dev/tags/architecture?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "kWNQd3paQrhMHMJzM35w8",
+      "type": "subtopic",
+      "label": "Ngôn ngữ miền (Domain Language)",
+      "position": {
+        "x": -692.6381872719935,
+        "y": 1244.4007482223487
+      },
+      "size": {
+        "width": 267,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Một ngôn ngữ miền là một từ vựng và tập hợp các khái niệm cụ thể được sử dụng để mô tả và giao tiếp về một lĩnh vực kiến thức hoặc kinh doanh cụ thể. Trong phát triển phần mềm, một ngôn ngữ miền được sử dụng để mô hình hóa các đối tượng và khái niệm trong một lĩnh vực cụ thể, và để nắm bắt các mối quan hệ và ràng buộc giữa chúng. Một ngôn ngữ miền được sử dụng để cung cấp sự hiểu biết chung về phạm vi vấn đề cho tất cả các bên liên quan, bao gồm nhà phát triển, phân tích viên kinh doanh và chuyên gia về miền. Nó cũng được sử dụng để đảm bảo rằng hệ thống phần mềm phản ánh chính xác vấn đề thực tế mà nó được dự định giải quyết.",
+        "links": [
+          {
+            "title": "Tổng quan về ngôn ngữ chuyên biệt cho miền",
+            "url": "https://en.wikipedia.org/wiki/Domain-specific_language",
+            "type": "article"
+          },
+          {
+            "title": "Ngôn ngữ miền (DSLs) là gì?",
+            "url": "https://www.jetbrains.com/mps/concepts/domain-specific-languages/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "nVaoI4IDPVEsdtFcjGNRw",
+      "type": "subtopic",
+      "label": "Mô hình suy yếu",
+      "position": {
+        "x": -692.6381872719935,
+        "y": 1191.4007482223487
+      },
+      "size": {
+        "width": 267,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Mô hình suy yếu (hay còn gọi là mô hình suy yếu miền) là một loại mô hình miền trong đó các đối tượng miền chỉ chứa dữ liệu (thuộc tính) và thiếu hành vi. Mô hình suy yếu thường dẫn đến việc sử dụng các đối tượng chuyển giao dữ liệu (DTOs) và lớp dịch vụ để xử lý hành vi. Mô hình suy yếu được coi là một mẫu mã xấu trong lập trình hướng đối tượng (OOP) vì nó vi phạm nguyên tắc đóng gói và tách biệt mối quan tâm. Trong mô hình suy yếu, hành vi được tách rời khỏi dữ liệu và thường được triển khai trong một lớp dịch vụ riêng, điều này có thể dẫn đến mã nguồn phức tạp, gán chặt và khó bảo trì.",
+        "links": [
+          {
+            "title": "Tổng quan về Mô hình Domain Rỗng",
+            "url": "https://en.wikipedia.org/wiki/Anemic_domain_model",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "RMkEE7c0jdVFqZ4fmjL6Y",
+      "type": "subtopic",
+      "label": "Các lớp trừu tượng",
+      "position": {
+        "x": -692.6381872719935,
+        "y": 864.7051467174065
+      },
+      "size": {
+        "width": 197,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Lớp trừu tượng là một lớp trong lập trình hướng đối tượng (OOP) mà không thể được tạo ra các đối tượng (instantiate). Thay vào đó, nó đóng vai trò như một khuôn mẫu hoặc bản thiết kế để các lớp khác có thể kế thừa từ nó. Lớp trừu tượng có thể chứa cả phương thức trừu tượng và phương thức không trừu tượng (các phương thức trừu tượng không có bất kỳ triển khai nào, chúng chỉ có định dạng). Các lớp trừu tượng được sử dụng để cung cấp một giao diện và triển khai chung cho một nhóm các lớp liên quan. Chúng cũng được sử dụng để xác định hành vi chung mà tất cả các lớp con phải thực hiện. Một lớp con kế thừa từ một lớp trừu tượng được gọi là lớp cụ thể, và nó phải cung cấp một triển khai cho tất cả các phương thức trừu tượng được khai báo trong lớp cha.",
+        "links": [
+          {
+            "title": "Lớp trừ xuất trong Lập trình hướng đối tượng là gì?",
+            "url": "https://www.theserverside.com/definition/abstract-class",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hd6GJ-H4p9I4aaiRTni57",
+      "type": "subtopic",
+      "label": "Lớp cụ thể",
+      "position": {
+        "x": -692.6381872719935,
+        "y": 917.7051467174065
+      },
+      "size": {
+        "width": 197,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Một lớp cụ thể là một lớp trong lập trình hướng đối tượng (OOP) có thể được khởi tạo, có nghĩa là các đối tượng có thể được tạo từ nó. Một lớp cụ thể là một lớp cung cấp triển khai cho tất cả các phương thức trừu tượng được tuyên bố trong lớp cha của nó, nếu nó kế thừa từ một lớp trừu tượng. Một lớp cụ thể cũng có thể là một lớp không kế thừa từ một lớp trừu tượng, trường hợp này nó có thể có triển khai cho tất cả các phương thức của nó. Các lớp cụ thể được sử dụng để cung cấp chi tiết triển khai cụ thể cho một nhóm các lớp liên quan kế thừa từ một lớp trừu tượng chung. Chúng cũng được sử dụng để xác định hành vi duy nhất cho một lớp cụ thể. Một lớp cụ thể có thể có các phương thức và biến riêng của nó, và cũng có thể ghi đè các phương thức của lớp cha của nó.",
+        "links": []
+      }
+    },
+    {
+      "id": "b-YIbw-r-nESVt_PUFQeq",
+      "type": "subtopic",
+      "label": "Phạm vi / Khả năng nhìn thấy",
+      "position": {
+        "x": -692.6381872719935,
+        "y": 970.7051467174065
+      },
+      "size": {
+        "width": 197,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Phạm vi hiển thị đề cập đến khả năng truy cập hoặc hiển thị của các biến, hàm và các thành phần khác trong một chương trình, tùy thuộc vào ngữ cảnh mà chúng được định nghĩa. Trong lập trình hướng đối tượng (OOP), phạm vi hiển thị được kiểm soát thông qua việc sử dụng các bộ điều khiển quyền truy cập, chẳng hạn như \"public,\" \"private\" và \"protected.\"\n\n*   Public: Một thành phần public có thể được truy cập từ bất kỳ đâu trong chương trình, cả bên trong lớp và bên ngoài nó.\n*   Private: Một thành phần private chỉ có thể được truy cập bên trong lớp mà nó được định nghĩa. Nó không thể truy cập được bởi các lớp khác, ngay cả khi chúng kế thừa từ lớp đó.\n*   Protected: Một thành phần protected chỉ có thể được truy cập bên trong lớp và các lớp con của nó. Có những biến thể về phạm vi hiển thị dựa trên ngôn ngữ lập trình, nhưng đây là những phổ biến nhất.",
+        "links": []
+      }
+    },
+    {
+      "id": "SrcPhS4F7aT80qNjbv54f",
+      "type": "subtopic",
+      "label": "Giao diện",
+      "position": {
+        "x": -692.6381872719935,
+        "y": 1023.7051467174065
+      },
+      "size": {
+        "width": 197,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Trong lập trình hướng đối tượng (OOP), một giao diện (interface) là một hợp đồng hoặc một tập hợp các phương thức mà một lớp phải triển khai. Nó định nghĩa một bộ phương thức chung mà một lớp phải cung cấp, nhưng không cung cấp bất kỳ chi tiết triển khai nào. Một giao diện có thể bao gồm cả chữ ký phương thức và hằng số. Các giao diện được sử dụng để định nghĩa hành vi chung cho một nhóm các lớp liên quan và để cung cấp một cách để các đối tượng của các lớp khác nhau có thể được xử lý đa hình (polymorphism). Một lớp triển khai một giao diện phải cung cấp triển khai cho tất cả các phương thức được khai báo trong giao diện. Một lớp có thể triển khai nhiều giao diện, nhưng chỉ có thể kế thừa từ một lớp cơ sở duy nhất.",
+        "links": [
+          {
+            "title": "Các khái niệm cơ bản: Giao diện là gì?",
+            "url": "https://www.youtube.com/watch?v=o1jBgdhQsGo",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Dj36yLBShoazj7SAw6a_A",
+      "type": "subtopic",
+      "label": "Di kế",
+      "position": {
+        "x": -691.1381872719935,
+        "y": 701.7051467174066
+      },
+      "size": {
+        "width": 125,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Di kế là một khái niệm cơ bản trong lập trình hướng đối tượng (OOP) cho phép một lớp mới kế thừa thuộc tính và phương thức của một lớp hiện có. Lớp được kế thừa từ được gọi là lớp cha hoặc lớp siêu, trong khi lớp kế thừa được gọi là lớp con hoặc lớp phụ. Di kế cho phép tái sử dụng mã và cho phép tổ chức thứ bậc các lớp, nơi một lớp con có thể kế thừa thuộc tính và phương thức của lớp cha và có thể thêm hoặc ghi đè chúng. Lợi thế chính của di kế là nó cho phép một cách sạch và có tổ chức để tái sử dụng mã và chia sẻ chức năng giữa các lớp.",
+        "links": [
+          {
+            "title": "Tổng quan về kế thừa (trong lập trình hướng đối tượng)",
+            "url": "https://en.wikipedia.org/wiki/Inheritance_(object-oriented_programming",
+            "type": "article"
+          },
+          {
+            "title": "Di kế trong lập trình là gì?",
+            "url": "https://www.youtube.com/watch?v=ajOYOxCanhE",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4DVW4teisMz8-58XttMGt",
+      "type": "subtopic",
+      "label": "Đa hình (Polymorphism)",
+      "position": {
+        "x": -561.6381872719935,
+        "y": 700.2051467174066
+      },
+      "size": {
+        "width": 136,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Đa hình là một khái niệm trong lập trình hướng đối tượng (OOP) cho phép các đối tượng của các lớp khác nhau được coi như các đối tượng của một lớp cha chung. Điều này đạt được bằng cách định nghĩa một giao diện chung cho tất cả các lớp cần được xử lý đa dạng. Từ ‘polymorphism’ có nguồn gốc từ tiếng Hy Lạp, “poly” có nghĩa là nhiều và “morph” có nghĩa là hình dạng. Có hai loại đa hình: *   Đa hình theo thời gian biên dịch (còn gọi là đa hình tĩnh hoặc binding sớm) xảy ra khi kiểu của đối tượng sẽ được tác động vào được xác định trong quá trình biên dịch. Điều này đạt được thông qua quá tải phương thức, cho phép nhiều phương thức có cùng tên nhưng các tham số khác nhau trong cùng một lớp. *   Đa hình theo thời gian chạy (còn gọi là đa hình động hoặc binding muộn) xảy ra khi kiểu của đối tượng được xác định trong quá trình chạy. Điều này đạt được thông qua ghi đè phương thức, cho phép một lớp con cung cấp một triển khai cụ thể cho một phương thức đã được định nghĩa trong lớp cha của nó.",
+        "links": [
+          {
+            "title": "Tổng quan về Tính đa dạng trong lập trình (Polymorphism)",
+            "url": "https://www.bmc.com/blogs/polymorphism-programming/",
+            "type": "article"
+          },
+          {
+            "title": "Đa hình trong lập trình là gì?",
+            "url": "https://www.youtube.com/watch?v=tIWm3I_Zu7I",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "VA8FMrhF4non9x-J3urY8",
+      "type": "subtopic",
+      "label": "Mô hình hóa",
+      "position": {
+        "x": -691.1381872719935,
+        "y": 754.7051467174066
+      },
+      "size": {
+        "width": 125,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Mô hình hóa là một khái niệm trong lập trình hướng đối tượng (OOP) đề cập đến quá trình ẩn các chi tiết triển khai của một đối tượng và chỉ hiển thị các tính năng cốt lõi của nó. Nó cho phép sử dụng các đối tượng mà không cần phải hiểu độ phức tạp cơ bản về cấu trúc và hành vi bên trong của chúng. Có hai loại mô hình hóa:\n\n*   Mô hình hóa dữ liệu: đề cập đến việc ẩn biểu diễn nội bộ của dữ liệu và cung cấp một cái nhìn đơn giản hóa về dữ liệu thông qua một tập hợp các giao diện được định nghĩa tốt.\n*   Mô hình hóa hành vi: đề cập đến việc ẩn hành vi bên trong của một đối tượng và cung cấp một cái nhìn đơn giản hóa về khả năng của nó thông qua một tập hợp các giao diện được định nghĩa tốt.",
+        "links": [
+          {
+            "title": "Hướng dẫn - Tóm tắt",
+            "url": "https://www.youtube.com/watch?v=OF55HZPE7lQ",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "GJxfVjhiLuuc36hatx9dP",
+      "type": "subtopic",
+      "label": "Tích hợp (hoặc Bao bọc)",
+      "position": {
+        "x": -561.6381872719935,
+        "y": 753.2051467174066
+      },
+      "size": {
+        "width": 136,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Mô hình đóng gói (Encapsulation) là một khái niệm trong lập trình hướng đối tượng (OOP) đề cập đến việc bao bọc dữ liệu và hành vi bên trong của một đối tượng trong một giao diện được định nghĩa, đồng thời ẩn các chi tiết triển khai khỏi thế giới bên ngoài. Đây là một trong những khái niệm cơ bản của OOP và liên quan chặt chẽ đến các khái niệm về ẩn dữ liệu và ẩn thông tin. Đóng gói đạt được bằng cách sử dụng các thuộc tính truy cập (như \"public\", \"private\" và \"protected\") để kiểm soát khả năng nhìn thấy và truy cập của dữ liệu và phương thức trong một đối tượng. Ví dụ, các thành viên dữ liệu của một lớp có thể được khai báo là private, điều này có nghĩa chúng chỉ có thể được truy cập bởi các phương thức bên trong lớp, trong khi các phương thức có thể được khai báo là public, điều này có nghĩa chúng có thể được gọi bởi bất kỳ mã nào có tham chiếu đến đối tượng.",
+        "links": [
+          {
+            "title": "Tổng quan về Encapsulation",
+            "url": "https://en.wikipedia.org/wiki/Encapsulation_(computer_programming",
+            "type": "article"
+          },
+          {
+            "title": "Hướng dẫn – Encapsulation là gì trong lập trình?",
+            "url": "https://www.youtube.com/watch?v=sNKKxc4QHqA",
+            "type": "video"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Lập trình Tổng quát",
+            "url": "https://app.daily.dev/tags/general-programming?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "9dMbo4Q1_Sd9wW6-HSCA9",
+      "type": "topic",
+      "label": "Nguyên tắc thiết kế",
+      "position": {
+        "x": -318.1381872719935,
+        "y": 1019.7051467174065
+      },
+      "size": {
+        "width": 179,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "Izno7xX7wDvwPEg7f_d1Y",
+      "type": "subtopic",
+      "label": "Kết hợp qua Di sản",
+      "position": {
+        "x": -319.1381872719935,
+        "y": 1119.400748222349
+      },
+      "size": {
+        "width": 272,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Kết hợp qua di sản là một nguyên tắc lập trình cho rằng nên sử dụng kết hợp, một cơ chế để lắp ráp các đối tượng, để tạo ra các đối tượng phức tạp thay vì sử dụng kế thừa, đó là một cơ chế để tạo ra các lớp mới dựa trên các lớp hiện có. Kế thừa là một cơ chế mạnh mẽ để tạo mã tái sử dụng, nhưng nó cũng có thể dẫn đến mã bị gán chặt, khó bảo trì. Điều này là do các lớp được kế thừa bị ràng buộc chặt chẽ với các lớp cha và bất kỳ thay đổi nào được thực hiện đối với lớp cha sẽ ảnh hưởng đến tất cả các lớp con của nó. Điều này khiến việc thay đổi hoặc mở rộng mã mà không ảnh hưởng đến toàn bộ hệ thống phân cấp lớp trở nên khó khăn.",
+        "links": [
+          {
+            "title": "Tổng quan về Composition hơn Inheritance",
+            "url": "https://en.wikipedia.org/wiki/Composition_over_inheritance",
+            "type": "article"
+          },
+          {
+            "title": "Hướng dẫn - Thành phần hơn Dih thừa",
+            "url": "https://www.youtube.com/watch?v=wfMtDGfHWpA",
+            "type": "video"
+          },
+          {
+            "title": "Kết hợp qua Di sản Giải thích bởi Trò chơi",
+            "url": "https://www.youtube.com/watch?v=HNzP1aLAffM&list=PLCl5BUbK0jXt5l18S5UNAoUc4eQ2PJDye",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3eWirbQGbJZd4g7CS1xk_",
+      "type": "label",
+      "label": "Nguyên tắc chính",
+      "position": {
+        "x": -636.1381872719935,
+        "y": 661.2051467174066
+      },
+      "size": {
+        "width": 154,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "9slZPeVCSqU5-5PqaNJOh",
+      "type": "label",
+      "label": "Các Đặc điểm Mô hình",
+      "position": {
+        "x": -650.6381872719935,
+        "y": 824.400748222349
+      },
+      "size": {
+        "width": 161,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "DlefJ9JuJ1LdQYC4WSx6y",
+      "type": "subtopic",
+      "label": "Bọc gọn những yếu tố khác biệt.",
+      "position": {
+        "x": -319.1381872719935,
+        "y": 1172.7051467174065
+      },
+      "size": {
+        "width": 279,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Nguyên tắc đóng gói (encapsulation) trong lập trình gợi ý rằng mã nguồn nên được tổ chức sao cho các phần có khả năng thay đổi trong tương lai được cô lập khỏi các phần ít có khả năng thay đổi. Điều này đạt được bằng cách tạo ra giao diện và lớp để tách biệt các phần code khác nhau, những phần thay đổi thường xuyên từ những phần ổn định. Đóng gói những yếu tố thay đổi cho phép linh hoạt hơn trong mã nguồn. Khi cần thay đổi, chúng có thể được thực hiện đối với các phần đã đóng gói mà không ảnh hưởng đến phần còn lại của mã. Điều này giúp dễ dàng hiểu, kiểm thử và bảo trì mã nguồn.",
+        "links": [
+          {
+            "title": "Ý nghĩa khi ai đó nói ‘Đóng gói những gì khác biệt’ là gì?",
+            "url": "https://softwareengineering.stackexchange.com/questions/337413/what-does-it-mean-when-one-says-encapsulate-what-varies",
+            "type": "article"
+          },
+          {
+            "title": "Tổng quan về Encapsulate What Varies",
+            "url": "https://bootcamp.uxdesign.cc/software-design-principles-every-developers-should-know-23d24735518e",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "UZeY36dABmULhsHPhlzn_",
+      "type": "subtopic",
+      "label": "Lập trình theo trừu tượng",
+      "position": {
+        "x": -319.1381872719935,
+        "y": 1225.7051467174065
+      },
+      "size": {
+        "width": 279,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Lập trình chống lại các trừu tượng là một nguyên tắc lập trình cho rằng mã nên được viết sao cho nó không bị ràng buộc với các triển khai cụ thể, mà thay vào đó là các trừu tượng. Điều này được thực hiện bằng cách định nghĩa các giao diện hoặc lớp trừu tượng xác định hành vi của một nhóm các lớp liên quan mà không chỉ định triển khai của chúng. Lập trình chống lại các trừu tượng cho phép linh hoạt hơn trong mã. Khi có thay đổi cần thiết, chúng có thể được thực hiện đối với việc triển khai của các trừu tượng mà không ảnh hưởng đến mã sử dụng chúng. Điều này giúp dễ dàng hiểu, kiểm thử và bảo trì mã.",
+        "links": [
+          {
+            "title": "Tổng quan về nguyên tắc Abstraction",
+            "url": "https://en.wikipedia.org/wiki/Abstraction_principle_(computer_programming",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "WzUhKlmFB9alTlAyV-MWJ",
+      "type": "subtopic",
+      "label": "Nguyên tắc Hollywood",
+      "position": {
+        "x": -126.6381872719935,
+        "y": 926.400748222349
+      },
+      "size": {
+        "width": 196,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Nguyên tắc Hollywood là một nguyên tắc phát triển phần mềm cho rằng: \"Đừng gọi chúng ta, chúng ta sẽ gọi bạn.\" Nó gợi ý rằng các thành phần cấp cao nên chỉ định luồng điều khiển trong một ứng dụng chứ không phải các thành phần cấp thấp. Nguyên tắc này thường được sử dụng trong bối cảnh đảo ngược kiểm soát (IoC) và chèn phụ thuộc. Trong phát triển phần mềm truyền thống, các thành phần cấp thấp chịu trách nhiệm tạo và quản lý các thành phần cấp cao mà chúng phụ thuộc vào. Với IoC, các thành phần cấp cao chỉ định luồng điều khiển và các thành phần cấp thấp được tạo và quản lý bởi một cơ chế riêng biệt.",
+        "links": [
+          {
+            "title": "Hướng dẫn - Nguyên tắc Hollywood",
+            "url": "https://www.youtube.com/watch?v=lRuygpsXE5s",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "vnLhItObDgp_XaDmplBsJ",
+      "type": "subtopic",
+      "label": "Luật Demeter",
+      "position": {
+        "x": -126.6381872719935,
+        "y": 820.400748222349
+      },
+      "size": {
+        "width": 196,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Cũng được gọi là “Nguyên tắc Ít Kiến thức nhất”, nó nêu rõ: Trong thực tế ----------- \n\n*   Tránh nối các cuộc gọi sâu vào bên trong của các đối tượng khác.\n*   Hạn chế giao tiếp với các đối tượng mà bạn trực tiếp quản lý.\n\n###🔹 ❌ Ví dụ không tốt (Vi phạm) // Controller tổng = order.customer.address.getRegionTaxRate() * order.amount\n###🔹 ✅ Ví dụ tốt // Controller tổng = order.calculateTotal()\n🔹 Tại sao điều này lại quan trọng -----------------\n\n*   **Giảm sự kết nối** → ít phụ thuộc hơn giữa các lớp.\n*   **Tăng khả năng bảo trì** → thay đổi trong một lớp không ảnh hưởng đến các lớp xa xôi.\n*   **Cải thiện khả năng đọc hiểu** → ranh giới rõ ràng của trách nhiệm.\n🔹 Tài nguyên ------------",
+        "links": [
+          {
+            "title": "@Bài viết: Giải thích về Luật Demeter",
+            "url": "https://en.wikipedia.org/wiki/Law_of_Demeter",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "0rGdh72HjqPZa2bCbY9Gz",
+      "type": "subtopic",
+      "label": "Nói, đừng hỏi.",
+      "position": {
+        "x": -126.6381872719935,
+        "y": 873.400748222349
+      },
+      "size": {
+        "width": 196,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Nguyên tắc Nói, Đừng Hỏi nhấn mạnh rằng các đối tượng nên được hướng dẫn làm gì thay vì được truy vấn về trạng thái của chúng và đưa ra quyết định bên ngoài. Điều này thúc đẩy sự cô lập và giảm kết nối bằng cách giữ logic trong các đối tượng sở hữu dữ liệu. Các Khái niệm Chính ------------ *   Thay vì trích xuất dữ liệu từ các đối tượng để đưa ra quyết định, hãy đẩy hành vi vào chính đối tượng. *   Các đối tượng nên chịu trách nhiệm cho logic và quản lý trạng thái của riêng chúng. Phong cách Hỏi (xấu): nếu (user.profile.isComplete()) { // cho phép thanh toán } Phong cách Nói (tốt): nếu (user.canCheckout()) { // cho phép thanh toán }",
+        "links": [
+          {
+            "title": "Hướng dẫn, đừng hỏi",
+            "url": "https://martinfowler.com/bliki/TellDontAsk.html",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3XckqZA--knUb8IYKOeVy",
+      "type": "subtopic",
+      "label": "Nguyên tắc SOLID",
+      "position": {
+        "x": -318.1381872719935,
+        "y": 824.7051467174066
+      },
+      "size": {
+        "width": 129,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Nguyên tắc SOLID là một từ viết tắt, đại diện cho năm nguyên tắc của phát triển phần mềm hướng đối tượng, được Robert C. Martin giới thiệu lần đầu vào những năm đầu của thiên kỷ 2000. Các nguyên tắc này bao gồm:\n\n*   Nguyên tắc Đơn vị Trách nhiệm (Single Responsibility Principle - SRP)\n*   Nguyên tắc Mở/Đóng (Open/Closed Principle - OCP)\n*   Nguyên tắc Thay thế Liskov (Liskov Substitution Principle - LSP)\n*   Nguyên tắc Phân tách Giao diện (Interface Segregation Principle - ISP)\n*   Nguyên tắc Đảo ngược Sự phụ thuộc (Dependency Inversion Principle - DIP)",
+        "links": [
+          {
+            "title": "Bắt đầu với SOLID",
+            "url": "https://www.bmc.com/blogs/solid-design-principles/",
+            "type": "article"
+          },
+          {
+            "title": "Nguyên tắc SOLID",
+            "url": "https://khalilstemmler.com/articles/tags/solid/",
+            "type": "article"
+          },
+          {
+            "title": "Hướng dẫn – Các nguyên tắc SOLID là gì?",
+            "url": "https://www.youtube.com/watch?v=aUCo5cy32kE",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ltBnVWZ3UMAuUvDkU6o4P",
+      "type": "subtopic",
+      "label": "DRY",
+      "position": {
+        "x": -318.1381872719935,
+        "y": 877.7051467174066
+      },
+      "size": {
+        "width": 129,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "DRY (Don't Repeat Yourself) là một nguyên tắc phát triển phần mềm cho rằng mã không nên có chức năng trùng lặp. Ý tưởng là giữ cho cơ sở mã đơn giản nhất có thể bằng cách loại bỏ sự dư thừa và trùng lặp. Mục tiêu là giảm bớt sự phức tạp và cải thiện khả năng bảo trì bằng cách đảm bảo rằng mỗi cách hiểu duy nhất được biểu đạt trong một cách không mơ hồ nào đó trong hệ thống. Nguyên tắc DRY liên quan chặt chẽ đến Nguyên tắc Trách nhiệm Đơn (SRP) và Nguyên tắc Đóng Mở-Mở Rộng (OCP), vốn là một phần của các Nguyên tắc SOLID. Nguyên tắc DRY nhằm mục đích giảm lượng mã trùng lặp bằng cách tạo ra các trừu tượng có thể tái sử dụng trên toàn hệ thống.",
+        "links": [
+          {
+            "title": "Tổng quan về Don't Repeat Yourself (DRY)",
+            "url": "https://en.wikipedia.org/wiki/Don%27t_repeat_yourself",
+            "type": "article"
+          },
+          {
+            "title": "DRY có nghĩa là gì trong lập trình?",
+            "url": "https://www.youtube.com/watch?v=Rv3RIc_ziOY",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "eEO-WeNIyjErBE53n8JsD",
+      "type": "subtopic",
+      "label": "YAGNI",
+      "position": {
+        "x": -318.1381872719935,
+        "y": 930.7051467174066
+      },
+      "size": {
+        "width": 129,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "YAGNI (You Ain't Gonna Need It) là nguyên tắc phát triển phần mềm cho rằng các nhà phát triển không nên thêm chức năng vào mã nguồn trừ khi nó thực sự cần thiết. Ý tưởng là tránh tạo ra sự phức tạp không cần thiết trong mã nguồn bằng cách chỉ thêm các tính năng thực sự được sử dụng. Nguyên tắc YAGNI liên quan chặt chẽ đến Nguyên tắc Trách nhiệm Đơn (SRP) và Nguyên tắc Đóng Mở - Mở Rộng (OCP), vốn là một phần của các nguyên tắc SOLID. YAGNI nhằm giữ cho mã nguồn càng đơn giản càng tốt bằng cách tránh tạo ra các trừ xuất và chức năng không cần thiết.",
+        "links": [
+          {
+            "title": "Nguyên tắc YAGNI (You Aren't Gonna Need It) giúp tăng hiệu quả",
+            "url": "https://builtin.com/software-engineering-perspectives/yagni",
+            "type": "article"
+          },
+          {
+            "title": "Quy tắc lập trình YAGNI là gì, và tại sao nó giúp ích?",
+            "url": "https://www.youtube.com/watch?v=2vys1q1dKc4",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Jd79KXxZavpnp3mtE1q0n",
+      "type": "topic",
+      "label": "Các mẫu thiết kế",
+      "position": {
+        "x": 94.8618127280065,
+        "y": 1019.7051467174065
+      },
+      "size": {
+        "width": 168,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Các mẫu thiết kế là các giải pháp tổng quát cho các vấn đề thường gặp trong phát triển phần mềm. Chúng cung cấp một cách để mô tả và truyền đạt các giải pháp đã được chứng minh cho các vấn đề thiết kế phổ biến, đồng thời cung cấp một từ vựng chung cho thiết kế. Chúng không cụ thể cho bất kỳ ngôn ngữ lập trình hoặc công nghệ nào mà thay vào đó mô tả vấn đề và giải pháp theo cách có thể áp dụng cho nhiều bối cảnh khác nhau. Có nhiều loại mẫu thiết kế khác nhau, bao gồm: *   Mẫu tạo (Creational patterns) *   Mẫu cấu trúc (Structural patterns) *   Mẫu hành vi (Behavioral patterns) *   Mẫu kiến ​​trúc (Architectural patterns)",
+        "links": [
+          {
+            "title": "Tổng quan - Mô hình Thiết kế Phần mềm",
+            "url": "https://en.wikipedia.org/wiki/Software_design_pattern",
+            "type": "article"
+          },
+          {
+            "title": "Giải thích, hình dung và đơn giản hóa các mẫu thiết kế",
+            "url": "https://refactoring.guru/design-patterns/what-is-pattern",
+            "type": "article"
+          },
+          {
+            "title": "Design Patterns là gì?",
+            "url": "https://www.youtube.com/watch?v=BWprw8UHIzA",
+            "type": "video"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Mẫu Thiết kế",
+            "url": "https://app.daily.dev/tags/design-patterns?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hlHl00ELlK9YdnzHDGnEW",
+      "type": "subtopic",
+      "label": "Các mẫu thiết kế GoF (Gang of Four)",
+      "position": {
+        "x": 188.8618127280065,
+        "y": 1111.4007482223487
+      },
+      "size": {
+        "width": 218,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Nhóm Gang của Tư tưởng Thiết kế (GoF) là một tập hợp các mẫu thiết kế cho phát triển phần mềm hướng đối tượng được mô tả lần đầu trong cuốn sách \"Thiết kế Mẫu: Các yếu tố của Phần mềm Hướng Đối tượng tái sử dụng\" của Erich Gamma, Richard Helm, Ralph Johnson và John Vlissides (còn được gọi là Nhóm Gang). Các mẫu GoF được chia thành ba danh mục: Tạo, Cấu trúc và Hành vi *   Mẫu Tạo *   Mẫu Cấu trúc *   Mẫu Hành vi",
+        "links": [
+          {
+            "title": "Các mẫu thiết kế Gang của bốn (Gang of Four - GoF)",
+            "url": "https://www.digitalocean.com/community/tutorials/gangs-of-four-gof-design-patterns",
+            "type": "article"
+          },
+          {
+            "title": "Hướng dẫn - Mẫu Builder (Series các mẫu Gang of Four)",
+            "url": "https://www.youtube.com/watch?v=_sa2WlAFWQos",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6VoDGFOPHj5p_gvaZ8kTt",
+      "type": "subtopic",
+      "label": "Các mẫu PoSA",
+      "position": {
+        "x": 188.8618127280065,
+        "y": 1164.4007482223487
+      },
+      "size": {
+        "width": 218,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "POSA (Pattern-Oriented Software Architecture) là một tập hợp các mẫu thiết kế để phát triển hệ thống phần mềm có khả năng mở rộng và thích ứng với các yêu cầu thay đổi. Các mẫu này lần đầu tiên được mô tả trong cuốn sách \"Patterns of Scalable, Reliable Services\" của Kevin Hoffman. Các mẫu POSA được chia thành bốn danh mục:*   Mẫu Phân vùng *   Mẫu Vị trí *   Mẫu Định tuyến *   Mẫu Liên minh",
+        "links": [
+          {
+            "title": "Tổng quan về Kiến trúc Dựa trên Mô hình (Pattern-Oriented Software Architecture)",
+            "url": "https://en.wikipedia.org/wiki/Pattern-Oriented_Software_Architecture",
+            "type": "article"
+          },
+          {
+            "title": "Ví dụ về Mẫu POSA",
+            "url": "https://www.youtube.com/watch?v=iYNa_KcWxCU",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dBq7ni-of5v1kxpdmh227",
+      "type": "topic",
+      "label": "Nguyên tắc Kiến trúc",
+      "position": {
+        "x": 94.8618127280065,
+        "y": 1553.9007482223487
+      },
+      "size": {
+        "width": 221,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "8Bm0sRhUg6wZtnvtTmpgY",
+      "type": "subtopic",
+      "label": "Nguyên tắc Thành phần",
+      "position": {
+        "x": 189.88625207048023,
+        "y": 1289.610395110492
+      },
+      "size": {
+        "width": 240,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Các nguyên tắc Thành phần trong kiến trúc phần mềm đề cập đến các hướng dẫn để thiết kế và triển khai các thành phần phần mềm có tính mô-đun, tái sử dụng và dễ hiểu, kiểm thử và bảo trì. Một số nguyên tắc Thành phần chính trong kiến trúc phần mềm bao gồm: * Tính gắn kết cao * Độ tương tác thấp * Phân tách mối quan tâm * Thiết kế dựa trên giao diện * Tái sử dụng * Khả năng kiểm thử * Mô-đun hóa * Tương thích * Bằng cách tuân thủ các nguyên tắc Thành phần này, phần mềm có thể được phát triển theo một cách dễ hiểu, bảo trì và mở rộng, đồng thời ít bị lỗi hơn. Nó cũng cho phép tái sử dụng mã tốt hơn và làm cho việc kiểm tra và sửa đổi mã trở nên dễ dàng hơn, cũng như cho phép tái sử dụng mã tốt hơn, vì các thành phần có thể được tái sử dụng trong các ngữ cảnh khác nhau.",
+        "links": [
+          {
+            "title": "Kiến trúc Dựa trên Thành phần",
+            "url": "https://www.tutorialspoint.com/software_architecture_design/component_based_architecture.htm",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b_PvjjL2ZpEKETa5_bd0v",
+      "type": "subtopic",
+      "label": "Chính sách so với Chi tiết",
+      "position": {
+        "x": 189.88625207048023,
+        "y": 1342.610395110492
+      },
+      "size": {
+        "width": 240,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Trong kiến trúc phần mềm, sự phân biệt giữa **chính sách** và **chi tiết** đề cập đến việc tách biệt các quyết định cấp cao và chi tiết triển khai mức thấp. Chính sách đề cập đến các quyết định cấp cao xác định hành vi và cấu trúc tổng thể của hệ thống. Những quyết định này bao gồm những thứ như kiến trúc tổng thể, giao diện của hệ thống và các thành phần chính và tương tác của chúng. Các quyết định chính sách thường được đưa ra bởi kiến trúc sư và nhà thiết kế, và chúng đặt hướng dẫn chung cho hệ thống. Chi tiết đề cập đến chi tiết triển khai mức thấp cần thiết để thực hiện các quyết định chính sách. Những điều này bao gồm những thứ như các thuật toán cụ thể, cấu trúc dữ liệu và mã tạo nên các thành phần của hệ thống. Chi tiết thường được triển khai bởi các nhà phát triển và chịu trách nhiệm cho chức năng thực tế của hệ thống.",
+        "links": []
+      }
+    },
+    {
+      "id": "TXus3R5vVQDBeBag6B5qs",
+      "type": "subtopic",
+      "label": "Liên kết và Mắc nối",
+      "position": {
+        "x": 189.88625207048023,
+        "y": 1395.610395110492
+      },
+      "size": {
+        "width": 240,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Liên kết và mắc nối là hai nguyên tắc trong kiến trúc phần mềm được sử dụng để đo lường mức độ phụ thuộc lẫn nhau giữa các thành phần trong một hệ thống. Liên kết đề cập đến mức độ một thành phần phụ thuộc vào một thành phần khác. Liên kết cao có nghĩa là một thay đổi đối với một thành phần có khả năng ảnh hưởng đến các thành phần khác, khiến hệ thống khó hiểu, kiểm tra và bảo trì hơn. Liên kết thấp, ngược lại, có nghĩa là việc thay đổi một thành phần sẽ có tác động tối thiểu đến các thành phần khác, khiến hệ thống trở nên mô-đun hơn và dễ hiểu, kiểm tra và bảo trì hơn. Mắc nối, mặt khác, đề cập đến mức độ mà các trách nhiệm của một thành phần liên quan đến nhau. Mắc nối cao có nghĩa là một thành phần có mục đích duy nhất, được xác định rõ ràng và tất cả chức năng và dữ liệu của nó đều liên quan đến mục đích đó. Mắc nối thấp, ngược lại, có nghĩa là một thành phần có nhiều trách nhiệm không liên quan, khiến nó khó hiểu, kiểm tra và bảo trì hơn.",
+        "links": [
+          {
+            "title": "Tính gắn kết và độ tương tác trong Kỹ thuật Phần mềm",
+            "url": "https://www.youtube.com/watch?v=NweTzHYBgYU",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "-Kw8hJhgQH2qInUFj2TUe",
+      "type": "subtopic",
+      "label": "Giới hạn (Boundaries)",
+      "position": {
+        "x": 188.8618127280065,
+        "y": 1448.610395110492
+      },
+      "size": {
+        "width": 240,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Trong kiến trúc phần mềm, ranh giới (boundaries) đề cập đến các giao diện hoặc điểm tách biệt giữa các thành phần hoặc hệ thống khác nhau. Các ranh giới này có thể là vật lý, chẳng hạn như giữa các microservice khác nhau trong một hệ thống phân tán, hoặc logic, chẳng hạn như giữa các lớp khác nhau trong một ứng dụng. Ranh giới quan trọng vì chúng định nghĩa các điểm tương tác giữa các thành phần hoặc hệ thống khác nhau và quy định cách các thành phần hoặc hệ thống đó sẽ giao tiếp với nhau. Bằng cách xác định rõ ràng các ranh giới, điều này giúp dễ dàng hơn trong việc hiểu, kiểm thử và bảo trì hệ thống, vì các tương tác giữa các thành phần hoặc hệ thống được định nghĩa rõ ràng và dễ lý luận.",
+        "links": [
+          {
+            "title": "Giới hạn trong Kiến trúc Phần mềm",
+            "url": "https://www.open.edu/openlearn/science-maths-technology/approaches-software-development/content-section-1.1.4",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "37xWxG2D9lVuDsHUgLfzP",
+      "type": "topic",
+      "label": "Kiến trúc phần mềm (Software Architecture)",
+      "position": {
+        "x": -289.3282213632988,
+        "y": 1553.6208448974862
+      },
+      "size": {
+        "width": 191,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Các kiểu kiến trúc là tập hợp các nguyên tắc và ràng buộc định nghĩa đặc điểm của một hệ thống phần mềm. Chúng cung cấp một vốn từ và một khuôn khổ để mô tả các thuộc tính phổ biến của hệ thống như cấu trúc, hành vi và tương tác. Các kiểu này đóng vai trò như bản thiết kế, mang lại các giải pháp có thể tái sử dụng cho các vấn đề thiết kế lặp đi lặp lại và hướng dẫn việc tổ chức các thành phần và mối quan hệ của chúng trong kiến trúc phần mềm. Ví dụ về các kiểu kiến trúc bao gồm kiến trúc nhiều lớp, microservices và kiến trúc dựa trên sự kiện, mỗi kiểu đều có những điểm mạnh và điểm yếu riêng khiến nó phù hợp với các tình huống cụ thể.",
+        "links": [
+          {
+            "title": "Các kiểu Phong cách Kiến trúc trong Kỹ thuật Phần mềm",
+            "url": "https://www.youtube.com/watch?v=2Pp0BcXN9YY",
+            "type": "video"
+          },
+          {
+            "title": "Các mẫu Kiến trúc 10 được sử dụng trong Phát triển Phần mềm Doanh nghiệp ngày nay",
+            "url": "https://www.youtube.com/watch?v=brt3ao8bvqy",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "j9j45Auf60kIskyEMUGE3",
+      "type": "topic",
+      "label": "Tin nhắn (Messaging)",
+      "position": {
+        "x": -329.3282213632988,
+        "y": 1426.0405202008678
+      },
+      "size": {
+        "width": 197,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center",
+        "colorType": "h"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Giao tiếp là một khái niệm then chốt trong nhiều phong cách kiến trúc, bao gồm kiến trúc dựa trên sự kiện (EDA), microservices và kiến trúc dựa trên tin nhắn (MDA). *   Kiến trúc dựa trên sự kiện (EDA) *   Microservices *   Kiến trúc dựa trên tin nhắn (MDA)",
+        "links": [
+          {
+            "title": "Các Phong Cách Kiến Trúc trong Kỹ Thuật Phần Mềm",
+            "url": "https://shapingsoftware.com/2009/02/09/architectural-styles/",
+            "type": "article"
+          },
+          {
+            "title": "Các mẫu truyền thông kiến trúc",
+            "url": "https://www.redhat.com/architect/architectural-messaging-patterns",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "KtzcJBb6-EcIoXnwYvE7a",
+      "type": "subtopic",
+      "label": "Dựa trên sự kiện",
+      "position": {
+        "x": -329.3282213632988,
+        "y": 1320.0405202008678
+      },
+      "size": {
+        "width": 197,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Kiến trúc dựa trên sự kiện (EDA) là mẫu thiết kế phần mềm trong đó hệ thống phản ứng với các sự kiện cụ thể xảy ra, thay vì liên tục truy vấn để tìm kiếm thay đổi. Trong EDA, các sự kiện là tin nhắn được gửi bất đồng bộ giữa các thành phần, và các thành phần phản hồi lại các sự kiện mà chúng quan tâm. Ưu điểm chính của việc sử dụng EDA là cho phép tách biệt rõ ràng các mối quan tâm giữa các thành phần, và nó có thể cải thiện khả năng mở rộng và khả năng chịu lỗi của hệ thống. Ngoài ra, nó cho phép liên kết lỏng giữa các thành phần, nghĩa là các thành phần không nhận thức được sự tồn tại của nhau và có thể được phát triển, triển khai và mở rộng độc lập.",
+        "links": [
+          {
+            "title": "Tổng quan về lập trình dựa trên sự kiện",
+            "url": "https://en.wikipedia.org/wiki/Event-driven_programming",
+            "type": "article"
+          },
+          {
+            "title": "Kiến trúc dựa trên sự kiện là gì?",
+            "url": "https://www.redhat.com/en/topics/integration/what-is-event-driven-architecture",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "SX4vOVJY9slOXGwX_q1au",
+      "type": "subtopic",
+      "label": "Đăng ký-Truyền thông (Publish-Subscribe)",
+      "position": {
+        "x": -329.3282213632988,
+        "y": 1373.0405202008678
+      },
+      "size": {
+        "width": 197,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Mẫu publish-subscribe là một mẫu thông báo trong đó một publisher gửi một tin nhắn đến một chủ đề và bất kỳ số lượng người đăng ký nào cũng có thể đăng ký để nhận tin nhắn. Mẫu publish-subscribe còn được gọi là mẫu \"người quan sát\" và là một cách để triển khai giao tiếp giữa các phần khác nhau của một ứng dụng theo cách tách rời. Ưu điểm chính của việc sử dụng mẫu publish-subscribe là nó cho phép phân tách rõ ràng các mối quan tâm giữa publisher và người đăng ký, đồng thời có thể cải thiện tính linh hoạt và khả năng mở rộng của hệ thống. Ngoài ra, nó cho phép kết nối lỏng lẻ giữa các thành phần, nghĩa là publisher và người đăng ký không biết về sự tồn tại của nhau và có thể được phát triển, triển khai và mở rộng độc lập.",
+        "links": [
+          {
+            "title": "Hướng dẫn – Mô hình Publish–Subscribe",
+            "url": "https://en.wikipedia.org/wiki/Publish%E2%80%93subscribe_pattern",
+            "type": "article"
+          },
+          {
+            "title": "Kiến trúc Đăng ký-Truyền thông (Giải thích bằng Ví dụ)",
+            "url": "https://www.youtube.com/watch?v=O1PgqUqZKTA",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3V74lLPlcOXFB-QRTUA5j",
+      "type": "topic",
+      "label": "Phân tán",
+      "position": {
+        "x": -123.39712154422624,
+        "y": 1426.0405202008678
+      },
+      "size": {
+        "width": 197,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center",
+        "colorType": "h"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Các hệ thống phân tán đề cập đến thiết kế và tổ chức các thành phần phần mềm được phân phối trên nhiều thiết bị hoặc vị trí, kết nối qua mạng và làm việc cùng nhau để đạt được một mục tiêu chung. Thách thức chính trong thiết kế các hệ thống phân tán là giải quyết sự phức tạp vốn có phát sinh từ việc phân phối các thành phần và giao tiếp giữa chúng, đồng thời đòi hỏi các kỹ thuật như cân bằng tải, sao chép và chia nhỏ để cải thiện khả năng mở rộng quy mô, chịu lỗi và hiệu suất. Ngoài ra, bảo mật và điều phối cũng là những khía cạnh quan trọng của các hệ thống phân tán.",
+        "links": [
+          {
+            "title": "Tổng quan về kiến trúc phân tán",
+            "url": "https://www.tutorialspoint.com/software_architecture_design/distributed_architecture.htm",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ZGIMUaNfBwE5b6O1yexSz",
+      "type": "subtopic",
+      "label": "Client-Server",
+      "position": {
+        "x": -123.37268220175247,
+        "y": 1317.5497203099687
+      },
+      "size": {
+        "width": 197,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Kiến trúc client-server là một mẫu kiến trúc phổ biến được sử dụng trong các hệ thống phân tán, nơi một client (hoặc nhiều clients) gửi các yêu cầu đến một server và server phản hồi các yêu cầu đó. Client và server là hai thực thể riêng biệt giao tiếp qua mạng, chẳng hạn như Internet hoặc mạng cục bộ. Client chịu trách nhiệm cho việc trình bày giao diện người dùng và xử lý đầu vào của người dùng, trong khi server chịu trách nhiệm xử lý các yêu cầu và trả về phản hồi thích hợp. Server cũng có thể xử lý các tác vụ như lưu trữ dữ liệu, bảo mật và logic kinh doanh.",
+        "links": [
+          {
+            "title": "Giới thiệu về Kiến trúc Client-server",
+            "url": "https://cs.uwaterloo.ca/~m2nagapp/courses/CS446/1195/Arch_Design_Activity/ClientServer.pdf",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Cf9Z2wxBcbnNg_q9PA6xA",
+      "type": "subtopic",
+      "label": "Peer-to-Peer",
+      "position": {
+        "x": -122.37268220175247,
+        "y": 1370.5497203099687
+      },
+      "size": {
+        "width": 197,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Kiến trúc Peer-to-peer (P2P) là một kiến trúc tính toán phân tán trong đó mỗi nút (peer) trong mạng đều đóng vai trò vừa là client và vừa là server. Trong kiến trúc P2P, không có cơ quan trung tâm hoặc server nào quản lý mạng và mỗi nút giao tiếp trực tiếp với các nút khác để trao đổi thông tin, chia sẻ tài nguyên và thực hiện tính toán. Ưu điểm chính của việc sử dụng kiến trúc P2P là nó cho phép một hệ thống phi tập trung và chịu lỗi tốt hơn. Do không có cơ quan trung tâm, nên không có điểm lỗi đơn lẻ và mạng vẫn có thể tiếp tục hoạt động ngay cả khi một số nút gặp sự cố. Ngoài ra, kiến trúc P2P cũng có thể cải thiện khả năng mở rộng khi số lượng nút trong mạng tăng lên.",
+        "links": [
+          {
+            "title": "Kiến trúc Peer-to-Peer",
+            "url": "https://student.cs.uwaterloo.ca/~cs446/1171/Arch_Design_Activity/Peer2Peer.pdf",
+            "type": "article"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Peer-to-Peer (Mạng ngang hàng)",
+            "url": "https://app.daily.dev/tags/peer-to-peer?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "86Jw9kMBD7YP5nTV5jTz-",
+      "type": "topic",
+      "label": "Cấu trúc",
+      "position": {
+        "x": -691.6137479295197,
+        "y": 1558.6208448974862
+      },
+      "size": {
+        "width": 197,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center",
+        "colorType": "h"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Kiến trúc cấu trúc trong phần mềm đề cập đến việc tổ chức và thiết kế các thành phần của một hệ thống phần mềm, cũng như cách chúng tương tác với nhau. Nó liên quan đến sự sắp xếp vật lý của hệ thống và mối quan hệ giữa các thành phần khác nhau. Có nhiều kiểu mẫu và phong cách kiến trúc cấu trúc khác nhau có thể được sử dụng để thiết kế các hệ thống phần mềm, bao gồm:\n\n*   **Monolithic:** trong đó hệ thống được xây dựng như một đơn vị duy nhất, tích hợp và tự chứa.\n*   **Layered:** trong đó hệ thống được chia thành một tập hợp các lớp, mỗi lớp có trách nhiệm cụ thể và giao tiếp với các lớp khác thông qua các giao diện đã xác định.\n*   **Microservices:** trong đó hệ thống được xây dựng như một tập hợp các dịch vụ nhỏ, độc lập và ít liên kết.\n*   **Event-driven:** trong đó hệ thống phản ứng với các sự kiện cụ thể xảy ra thay vì theo dõi liên tục để tìm kiếm sự thay đổi.\n*   **Client-Server:** trong đó một client gửi yêu cầu đến một server và server phản hồi các yêu cầu đó.\n*   **Peer-to-Peer:** trong đó mỗi nút trong mạng hoạt động như cả client và server.\n*   **Component-based:** trong đó hệ thống được cấu thành từ các thành phần phần mềm có thể tái sử dụng và độc lập.\n*   **Domain-Driven:** trong đó hệ thống được tổ chức xung quanh miền kinh doanh cốt lõi và các thực thể kinh doanh.",
+        "links": []
+      }
+    },
+    {
+      "id": "a0geFJWl-vi3mYytTjYdb",
+      "type": "subtopic",
+      "label": "Dựa trên Thành phần",
+      "position": {
+        "x": -691.6137479295197,
+        "y": 1451.6208448974862
+      },
+      "size": {
+        "width": 197,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Trong kiến trúc phần mềm, thiết kế dựa trên thành phần (Component-Based Design - CBD) là một phương pháp để thiết kế hệ thống phần mềm bằng cách ghép chúng lại từ một tập hợp các thành phần phần mềm có thể tái sử dụng và độc lập. Các thành phần này chứa đựng chức năng cụ thể và có thể dễ dàng tích hợp vào các phần khác nhau của hệ thống, cho phép thiết kế mô-đun hơn và linh hoạt hơn. Trong CBD, một hệ thống phần mềm được chia thành một tập hợp các thành phần, mỗi thành phần đều có giao diện được định nghĩa rõ ràng và trách nhiệm cụ thể. Các thành phần này có thể được phát triển, kiểm thử và triển khai độc lập, giúp dễ dàng thêm các tính năng mới, sửa đổi các tính năng hiện có và bảo trì hệ thống.",
+        "links": [
+          {
+            "title": "Kiến trúc Phần mềm dựa trên Thành phần",
+            "url": "https://www.tutorialspoint.com/software_architecture_design/component_based_architecture.htm",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "xYPR_X1KhBwdpqYzNJiuT",
+      "type": "subtopic",
+      "label": "Kiến trúc monolithic",
+      "position": {
+        "x": -691.6137479295197,
+        "y": 1504.6208448974862
+      },
+      "size": {
+        "width": 197,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Trong kiến trúc phần mềm, kiến trúc monolithic là một phương pháp thiết kế trong đó một hệ thống phần mềm được xây dựng như một đơn vị duy nhất, tích hợp và độc lập. Trong kiến trúc monolithic, tất cả các thành phần của hệ thống đều được kết nối chặt chẽ và phụ thuộc vào nhau. Điều này có nghĩa là thay đổi ở một phần của hệ thống có thể ảnh hưởng đến các phần khác của hệ thống. Kiến trúc monolithic thường được sử dụng cho các hệ thống nhỏ đến trung bình, nơi độ phức tạp của hệ thống có thể quản lý được và nhu cầu về khả năng mở rộng và linh hoạt không cao bằng. Trong kiến trúc monolithic, toàn bộ hệ thống thường được xây dựng, triển khai và thực thi như một đơn vị duy nhất, điều này có thể giúp dễ dàng hơn trong việc hiểu và quản lý hệ thống.",
+        "links": [
+          {
+            "title": "Tổng quan về Kiến trúc Monolithic",
+            "url": "https://www.atlassian.com/microservices/microservices-architecture/microservices-vs-monolith",
+            "type": "article"
+          },
+          {
+            "title": "Kiến trúc monolithic là gì?",
+            "url": "https://www.techtarget.com/whatis/definition/monolithic-architecture",
+            "type": "article"
+          },
+          {
+            "title": "Kiến trúc Phần mềm là gì? (Đơn khối vs. Lớp tính vs. Microservice)s",
+            "url": "https://www.youtube.com/watch?v=_07NtoK-Kns",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "IELEJcKYdZ6VN-UIq-Wln",
+      "type": "subtopic",
+      "label": "Lớp hóa (Layered)",
+      "position": {
+        "x": -565.6137479295197,
+        "y": 1504.6208448974862
+      },
+      "size": {
+        "width": 197,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Trong kiến trúc phần mềm, kiến trúc nhiều lớp là một phương pháp thiết kế trong đó một hệ thống phần mềm được chia thành một tập hợp các lớp, mỗi lớp có một trách nhiệm cụ thể và giao tiếp với các lớp khác thông qua các giao diện được định nghĩa tốt. Phương pháp này cho phép thiết kế linh hoạt và mở rộng hơn, nơi mỗi lớp có thể được phát triển, kiểm thử và triển khai độc lập, giúp dễ dàng thêm các tính năng mới, sửa đổi các tính năng hiện có và bảo trì hệ thống. Kiến trúc nhiều lớp thường được sử dụng cho các hệ thống lớn và phức tạp, nơi nhu cầu về khả năng mở rộng và linh hoạt cao. Mỗi lớp trong kiến trúc nhiều lớp chịu trách nhiệm cho một chức năng cụ thể và có thể được xem như một \"hộp đen\" với giao diện được định nghĩa tốt. Các lớp giao tiếp với nhau thông qua các giao diện này, cho phép tách biệt rõ ràng các vấn đề.",
+        "links": [
+          {
+            "title": "Bắt đầu với Kiến trúc Lớp",
+            "url": "https://cs.uwaterloo.ca/~m2nagapp/courses/CS446/1195/Arch_Design_Activity/Layered.pdf",
+            "type": "article"
+          },
+          {
+            "title": "Kiến trúc Lớp hóa (Layered Architectures)",
+            "url": "https://www.youtube.com/watch?v=0kpTKLTx8f4",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "WdXJlH985x9GhAQfif26x",
+      "type": "horizontal",
+      "label": "nút ngang",
+      "position": {
+        "x": -325.1381872719935,
+        "y": 1477.9007482223487
+      },
+      "size": {
+        "width": 50,
+        "height": 20
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.65
+      },
+      "z_index": 999
+    },
+    {
+      "id": "2uTlVYj9CvYcqtv9TN_8K",
+      "type": "vertical",
+      "label": "nút dọc",
+      "position": {
+        "x": -419.6137479295197,
+        "y": 1451.6208448974862
+      },
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.65
+      },
+      "z_index": 999
+    },
+    {
+      "id": "gJYff_qD6XS3dg3I-jJFK",
+      "type": "topic",
+      "label": "Kiến trúc mẫu",
+      "position": {
+        "x": -289.3282213632988,
+        "y": 1841.7672657344651
+      },
+      "size": {
+        "width": 210,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "CD20zA6k9FxUpMgHnNYRJ",
+      "type": "subtopic",
+      "label": "Thiết kế lấy mô hình miền làm trung tâm",
+      "position": {
+        "x": -705.1381872719935,
+        "y": 1682.7672657344651
+      },
+      "size": {
+        "width": 273,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Thiết kế theo hướng miền (Domain-Driven Design - DDD) là một mẫu kiến trúc được sử dụng để thiết kế hệ thống phần mềm dựa trên miền kinh doanh cốt lõi và các thực thể kinh doanh, tập trung vào việc tạo ra một biểu diễn rõ ràng và chính xác của miền kinh doanh trong hệ thống phần mềm, đồng thời đảm bảo sự phù hợp với mục tiêu và chiến lược kinh doanh. DDD mang lại nhiều lợi thế so với các mẫu kiến trúc khác như phù hợp với mục tiêu và chiến lược kinh doanh, cải thiện giao tiếp giữa chuyên gia về miền và nhà phát triển, mô hình hóa rõ ràng và dễ hiểu của miền kinh doanh, cũng như khả năng mở rộng và bảo trì tốt hơn. Nó được triển khai bằng một tập hợp các nguyên tắc và mẫu như thiết kế chiến lược, phân vùng miền, ngữ cảnh giới hạn (bounded context), thực thể (entity), đối tượng giá trị (value object), cụm (aggregate) và kho lưu trữ (repository).",
+        "links": [
+          {
+            "title": "Kiến trúc Phần mềm Hiện đại (Số #1): Thiết kế Theo Dẫn Động Doan Hàm",
+            "url": "https://medium.com/modern-software-architecture/modern-software-architecture-1-domain-driven-design-f06fad8695f9",
+            "type": "article"
+          },
+          {
+            "title": "Khái niệm Thiết kế Đô thị Hướng Dẫn (Domain-Driven Design) Được Giải Thích",
+            "url": "https://medium.com/microtica/the-concept-of-domain-driven-design-explained-3184c0fd7c3f",
+            "type": "article"
+          },
+          {
+            "title": "DDD (Thiết kế hướng miền) là gì?",
+            "url": "https://www.youtube.com/watch?v=Tnecs_7OT74",
+            "type": "video"
+          },
+          {
+            "title": "Các mẫu Thiết kế theo Dòng chính (Domain-Driven Design) cho một hệ thống phân tán.",
+            "url": "https://www.youtube.com/watch?v=i3d_jzpf0gE",
+            "type": "video"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Thiết kế theo Dữ liệu Domain",
+            "url": "https://app.daily.dev/tags/domain-driven-design?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "-arChRC9zG2DBmuSTHW0J",
+      "type": "subtopic",
+      "label": "Kiểm soát viên Mô hình-View",
+      "position": {
+        "x": -705.1381872719935,
+        "y": 1735.7672657344651
+      },
+      "size": {
+        "width": 273,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Mô hình Model-View-Controller (MVC) là một mẫu kiến trúc phân tách các mối quan tâm của hệ thống phần mềm thành ba thành phần riêng biệt: Model, View và Controller, trong đó Model đại diện cho dữ liệu và logic nghiệp vụ của hệ thống, View đại diện cho giao diện người dùng của hệ thống và Controller đóng vai trò trung gian giữa Model và View. Mục tiêu chính của MVC là phân tách các mối quan tâm của hệ thống, giúp dễ dàng hiểu, bảo trì và phát triển hơn, nó được sử dụng rộng rãi trong phát triển web.",
+        "links": [
+          {
+            "title": "Khung MVC - Giới thiệu (MVC Framework - Introduction)",
+            "url": "https://www.tutorialspoint.com/mvc_framework/mvc_framework_introduction.htm",
+            "type": "article"
+          },
+          {
+            "title": "Hướng dẫn – Mô hình Kiến trúc MVC",
+            "url": "https://www.youtube.com/watch?v=e9S90R-Y24Q",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "eJsCCURZAURCKnOK-XeQe",
+      "type": "subtopic",
+      "label": "Microservices",
+      "position": {
+        "x": -705.1381872719935,
+        "y": 1788.7672657344651
+      },
+      "size": {
+        "width": 273,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Microservices là một mẫu kiến trúc được sử dụng để thiết kế các hệ thống phần mềm như một tập hợp các dịch vụ nhỏ, độc lập và ít liên kết. Mỗi dịch vụ chịu trách nhiệm cho một chức năng cụ thể và có thể được phát triển, triển khai và mở rộng độc lập. Ưu điểm chính của kiến trúc microservices là nó cho phép một hệ thống linh hoạt và có khả năng mở rộng hơn, đồng thời cải thiện khả năng cô lập lỗi và cho phép triển khai nhanh hơn. Nó thường được sử dụng kết hợp với các mẫu và phong cách kiến trúc khác như kiến trúc dựa trên sự kiện, CQRS và kiến trúc hướng dịch vụ.",
+        "links": [
+          {
+            "title": "Tổng quan về Microservices",
+            "url": "https://microservices.io/patterns/microservices.html",
+            "type": "official"
+          },
+          {
+            "title": "Hướng dẫn – Mô hình Kiến trúc Microservices",
+            "url": "https://www.youtube.com/watch?v=8BPDv038oMI",
+            "type": "video"
+          },
+          {
+            "title": "Bắt đầu với các Mô hình Thiết kế Dịch vụ Nhỏ (Microservices).",
+            "url": "https://www.youtube.com/watch?v=xuH81XGWeGQ",
+            "type": "video"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Microservices",
+            "url": "https://app.daily.dev/tags/microservices?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Kk7u2B67Fdg2sU8E_PGqr",
+      "type": "subtopic",
+      "label": "Mô hình Blackboard",
+      "position": {
+        "x": -705.1381872719935,
+        "y": 1841.7672657344651
+      },
+      "size": {
+        "width": 273,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Mô hình kiến trúc Blackboard là một mẫu thiết kế phần mềm cho phép tạo ra một kho lưu trữ tập trung thông tin có thể được truy cập và sửa đổi bởi nhiều mô-đun hoặc hệ thống con độc lập. Blackboard đóng vai trò là cơ chế giao tiếp và điều phối giữa các mô-đun này, cho phép chúng chia sẻ thông tin và cộng tác để đạt được một mục tiêu chung. Mẫu này thường được sử dụng trong trí tuệ nhân tạo và hệ thống ra quyết định, nơi nhiều quy trình hoặc tác tử cần chia sẻ và suy luận trên dữ liệu phức tạp.",
+        "links": [
+          {
+            "title": "Tổng quan về Mô hình Blackboard (mô hình thiết kế)",
+            "url": "https://en.wikipedia.org/wiki/Blackboard_(design_pattern",
+            "type": "article"
+          },
+          {
+            "title": "Kiến trúc Mô hình Bảng đen (Blackboard Pattern)",
+            "url": "http://www.openloop.com/softwareEngineering/patterns/architecturePattern/arch_Blackboard.htm",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "r-Yeca-gpdFM8iq7f0lYQ",
+      "type": "subtopic",
+      "label": "Kernel Micro",
+      "position": {
+        "x": -705.1381872719935,
+        "y": 1894.7672657344651
+      },
+      "size": {
+        "width": 273,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Một microkernel là một mẫu kiến trúc trong thiết kế hệ điều hành nhằm giảm thiểu lượng mã chạy ở chế độ kernel (tức là chế độ đặc quyền với quyền truy cập trực tiếp vào tài nguyên phần cứng) và thay vào đó chuyển càng nhiều chức năng càng có thể sang chế độ user. Điều này được thực hiện bằng cách cung cấp một core kernel nhỏ, tối giản chỉ xử lý các tác vụ cơ bản như quản lý bộ nhớ, lập lịch tiến trình và giao tiếp giữa các tiến trình (IPC), đồng thời để tất cả các chức năng khác được triển khai trong các tiến trình ở chế độ user.",
+        "links": [
+          {
+            "title": "Tổng quan về Kiến trúc Microkernel",
+            "url": "https://www.oreilly.com/library/view/software-architecture-patterns/9781491971437/ch03.html",
+            "type": "article"
+          },
+          {
+            "title": "Mẫu Kiến trúc Kernel Micro | Kiến trúc Phần mềm",
+            "url": "https://www.youtube.com/watch?v=h3icQDMRLd8",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5WSvAA3h3lmelL53UJSMy",
+      "type": "subtopic",
+      "label": "Kiến trúc Serverless",
+      "position": {
+        "x": -705.1381872719935,
+        "y": 1947.7672657344651
+      },
+      "size": {
+        "width": 273,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Kiến trúc Serverless là một mẫu thiết kế cho phép các nhà phát triển xây dựng và chạy ứng dụng và dịch vụ mà không cần phải cấp phát và quản lý máy chủ. Thay vào đó, các ứng dụng và dịch vụ này được thực thi trong môi trường được quản lý hoàn toàn, chẳng hạn như AWS Lambda, Azure Functions hoặc Google Cloud Functions, nơi cơ sở hạ tầng và khả năng mở rộng được xử lý tự động bởi nhà cung cấp đám mây. Mẫu thiết kế này chủ yếu tập trung vào logic nghiệp vụ và thực thi theo sự kiện, thay vì quản lý máy chủ. Nó cho phép các nhà phát triển viết và triển khai mã trong các hàm nhỏ, có mục đích riêng được kích hoạt bởi các sự kiện cụ thể, chẳng hạn như thay đổi trong cơ sở dữ liệu hoặc sự xuất hiện của dữ liệu mới trong một luồng.",
+        "links": [
+          {
+            "title": "Kiến trúc Serverless trong AWS",
+            "url": "https://waswani.medium.com/serverless-architecture-patterns-in-aws-edeab0e46a32",
+            "type": "article"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Kiến trúc",
+            "url": "https://app.daily.dev/tags/architecture?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "GAs6NHBkUgxan3hyPvVs7",
+      "type": "subtopic",
+      "label": "Hàng đợi/Dòng tin nhắn (Message Queues / Streams)",
+      "position": {
+        "x": -705.1381872719935,
+        "y": 2000.7672657344651
+      },
+      "size": {
+        "width": 273,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Các hàng đợi và dòng tin nhắn là các mẫu kiến trúc được sử dụng để tách rời các thành phần khác nhau của một hệ thống và cho phép giao tiếp không đồng bộ giữa chúng. Hàng đợi tin nhắn: Một hàng đợi tin nhắn là một thành phần phần mềm cho phép nhiều hệ thống hoặc ứng dụng giao tiếp với nhau bằng cách truyền tin nhắn giữa chúng. Các tin nhắn được lưu trữ trong một hàng đợi, và mỗi tin nhắn được xử lý bởi một người tiêu dùng duy nhất. Mẫu này hữu ích cho các hệ thống có mức độ biến đổi cao về tốc độ sản xuất và tiêu thụ tin nhắn, và nơi người gửi và người nhận không cần phải hoạt động đồng thời. Các ví dụ về hệ thống hàng đợi tin nhắn bao gồm Apache Kafka, RabbitMQ và Amazon SQS.",
+        "links": [
+          {
+            "title": "Thiết kế Hệ thống — Hàng đợi tin nhắn",
+            "url": "https://medium.com/must-know-computer-science/system-design-message-queues-245612428a22",
+            "type": "article"
+          },
+          {
+            "title": "Tổng quan về mẫu Message Queue",
+            "url": "https://badia-kharroubi.gitbooks.io/microservices-architecture/content/patterns/communication-patterns/message-queue-pattern.html",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "K8X_-bsiy7gboInPzbiEb",
+      "type": "subtopic",
+      "label": "Lưu trữ sự kiện",
+      "position": {
+        "x": -705.1381872719935,
+        "y": 2053.767265734465
+      },
+      "size": {
+        "width": 273,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Lưu trữ sự kiện là một mẫu kiến trúc được sử dụng để xây dựng các hệ thống cần duy trì lịch sử tất cả các thay đổi đã xảy ra theo thời gian. Mẫu này lưu trữ tất cả các thay đổi trạng thái của hệ thống dưới dạng một chuỗi các sự kiện, thay vì chỉ trạng thái hiện tại. Trong lưu trữ sự kiện, tất cả các thay đổi trạng thái của hệ thống đều được coi là các sự kiện và những sự kiện này được lưu trữ trong một nhật ký chỉ ghi thêm (append-only log), cũng được gọi là kho lưu sự kiện. Trạng thái hiện tại của hệ thống có thể được tái tạo từ nhật ký sự kiện bất kỳ lúc nào bằng cách phát lại các sự kiện từ nhật ký.",
+        "links": [
+          {
+            "title": "Mẫu lưu trữ sự kiện",
+            "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/event-sourcing",
+            "type": "article"
+          },
+          {
+            "title": "Ví dụ về lưu trữ sự kiện & Giải thích",
+            "url": "https://www.youtube.com/watch?v=AUj4M-st3ic&list=PLThyvG1mlMzkRKJnhzvxtSAbY8oxENLUQ&ab_channel=CodeOpinion",
+            "type": "video"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Kiến trúc",
+            "url": "https://app.daily.dev/tags/architecture?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FysFru2FJN4d4gj11gv--",
+      "type": "subtopic",
+      "label": "SOA",
+      "position": {
+        "x": -705.1381872719935,
+        "y": 2106.767265734465
+      },
+      "size": {
+        "width": 273,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "SOA (Kiến trúc hướng Dịch vụ) là một mẫu kiến trúc được sử dụng để thiết kế và tổ chức các hệ thống phần mềm như một tập hợp các dịch vụ có thể truy cập qua mạng, các dịch vụ này là các đơn vị chức năng độc lập, tự chứa mà có thể tái sử dụng và kết hợp để tạo ra các chức năng mới. Các dịch vụ SOA được thiết kế để có độ gắn kết lỏng lẻo, nghĩa là chúng không phụ thuộc vào chi tiết triển khai của các dịch vụ khác, chúng giao tiếp với nhau thông qua các giao diện được xác định rõ ràng, thường sử dụng một giao thức như HTTP hoặc SOAP. SOA mang lại nhiều lợi thế so với các mẫu kiến trúc khác, chẳng hạn như khả năng tái sử dụng, tính mô-đun, khả năng tương tác và khả năng mở rộng. Nó có thể được triển khai bằng cách sử dụng nhiều công nghệ khác nhau, chẳng hạn như Web Services, REST và microservices.",
+        "links": [
+          {
+            "title": "Tổng quan về Kiến trúc Đám mây Nhúng (Service-Oriented Architecture)",
+            "url": "https://medium.com/design-microservices-architecture-with-patterns/service-oriented-architecture-1e4716fbca17",
+            "type": "article"
+          },
+          {
+            "title": "Hướng dẫn – Kiến trúc hướng Dịch vụ - SOA",
+            "url": "https://www.youtube.com/watch?v=jNiEMmoTDoE",
+            "type": "video"
+          },
+          {
+            "title": "Kiến trúc hướng dịch vụ là gì?",
+            "url": "https://www.youtube.com/watch?v=_dFJOSR-aFs",
+            "type": "video"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Kiến trúc",
+            "url": "https://app.daily.dev/tags/architecture?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "IU86cGkLPMXUJKvTBywPu",
+      "type": "subtopic",
+      "label": "CQRS (Phân tách Trách nhiệm Lệnh Truy vấn)",
+      "position": {
+        "x": -562.1381872719935,
+        "y": 2106.767265734465
+      },
+      "size": {
+        "width": 273,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "CQRS (Command Query Responsibility Segregation) là một mô hình kiến trúc được sử dụng để phân tách trách nhiệm đọc và ghi dữ liệu trong một hệ thống phần mềm. Trong một kiến ​​trúc CQRS, hệ thống được chia thành hai phần riêng biệt: phía lệnh và phía truy vấn. Phía lệnh chịu trách nhiệm xử lý các lệnh và cập nhật trạng thái của hệ thống, trong khi phía truy vấn chịu trách nhiệm đọc trạng thái hiện tại của hệ thống và trả về kết quả cho khách hàng. Các phía lệnh và truy vấn có thể sử dụng các mô hình dữ liệu, cơ chế lưu trữ và thậm chí cả các công nghệ khác nhau.",
+        "links": [
+          {
+            "title": "Bắt đầu với Mô hình CQRS",
+            "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/cqrs",
+            "type": "article"
+          },
+          {
+            "title": "Kiến trúc Phần mềm CQRS: Hay, Kém và Dở",
+            "url": "https://betterprogramming.pub/cqrs-software-architecture-pattern-the-good-the-bad-and-the-ugly-e9d6e7a34daf",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "h0aeBhQRkDxNeFwDxT4Tf",
+      "type": "topic",
+      "label": "Các mẫu doanh nghiệp",
+      "position": {
+        "x": -289.3282213632988,
+        "y": 1975.839200216446
+      },
+      "size": {
+        "width": 194,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Các mẫu doanh nghiệp là một tập hợp các mẫu thiết kế thường được sử dụng trong việc phát triển ứng dụng phần mềm doanh nghiệp. Các mẫu này cung cấp một từ vựng chung và một tập hợp các phương pháp hay nhất để giải quyết các vấn đề phổ biến nảy sinh trong quá trình phát triển các hệ thống phần mềm lớn, phức tạp. Một số ví dụ về các mẫu doanh nghiệp bao gồm: * Thiết kế dựa trên miền (DDD) * Kiểm soát viên-Giao diện-Mô hình (MVC) * Kiến trúc hướng dịch vụ (SOA) * Phân tách trách nhiệm Lệnh và Truy vấn (CQRS) * Lưu trữ sự kiện * Microservices * Kiến trúc dựa trên sự kiện (EDA). Các mẫu này có thể giúp cải thiện khả năng bảo trì và khả năng mở rộng của phần mềm bằng cách cung cấp sự phân tách rõ ràng về các mối quan tâm và cho phép một kiến trúc mô-đun và linh hoạt hơn.",
+        "links": [
+          {
+            "title": "Các mẫu Kiến trúc Phần mềm trong Phần mềm Doanh nghiệp",
+            "url": "https://blog.devgenius.io/10-software-architecture-patterns-in-enterprise-software-development-fabacb5ed0c8",
+            "type": "article"
+          },
+          {
+            "title": "Các mẫu tích hợp doanh nghiệp là gì?",
+            "url": "https://www.youtube.com/watch?v=WNm3QmJadNs",
+            "type": "video"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Doanh nghiệp",
+            "url": "https://app.daily.dev/tags/enterprise?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "y_Qj7KITSB8aUWHwiZ2It",
+      "type": "subtopic",
+      "label": "DTOs",
+      "position": {
+        "x": 99.23920485686646,
+        "y": 1711.8012136557593
+      },
+      "size": {
+        "width": 240,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Mẫu Thiết kế Đối tượng Chuyển Dữ liệu là một trong các mẫu kiến trúc ứng dụng doanh nghiệp kêu gọi việc sử dụng các đối tượng để tổng hợp và bọc dữ liệu để chuyển đổi. Một Đối tượng Chuyển Dữ liệu, về bản chất, giống như cấu trúc dữ liệu. Nó không nên chứa bất kỳ logic kinh doanh nào mà nên chứa các cơ chế mã hóa và giải mã.",
+        "links": [
+          {
+            "title": "Mẫu đối tượng chuyển dữ liệu và Mappers, mẫu đối tượng chuyển dữ liệu",
+            "url": "https://medium.com/@abdalrhmanalkraien/data-transfer-object-pattern-and-mapper-116508bc9df0",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tb0X1HtuiGwz7YhQ5xPsV",
+      "type": "subtopic",
+      "label": "Mã hóa danh tính",
+      "position": {
+        "x": 99.23920485686646,
+        "y": 1764.8012136557593
+      },
+      "size": {
+        "width": 240,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Bản đồ Danh tính là một mẫu được sử dụng trong phát triển ứng dụng doanh nghiệp để duy trì bản đồ các đối tượng đã được tải từ cơ sở dữ liệu, được đánh chỉ mục theo định danh duy nhất của chúng. Nó được sử dụng để đảm bảo rằng nhiều bản sao của cùng một đối tượng không được tạo ra trong bộ nhớ khi cùng một dữ liệu được truy cập nhiều lần. Mẫu Bản đồ Danh tính thường được sử dụng kết hợp với một công cụ Liên kết quan hệ đối tượng (ORM - Object-Relational Mapping). Khi một đối tượng được tải từ cơ sở dữ liệu, nó sẽ được kiểm tra xem nó đã được tải trước đó chưa. Nếu có, đối tượng hiện có sẽ được trả về thay vì tạo bản sao mới.",
+        "links": [
+          {
+            "title": "Tổng quan về mẫu Identity map",
+            "url": "https://en.wikipedia.org/wiki/Identity_map_pattern",
+            "type": "article"
+          },
+          {
+            "title": "Hướng dẫn - Mẫu Thiết kế bản đồ danh tính",
+            "url": "https://youtube.com/watch?v=erDxkIyNudY",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "gQ7Xj8tsl6IlCcyJgSz46",
+      "type": "subtopic",
+      "label": "Usecases",
+      "position": {
+        "x": 99.23920485686646,
+        "y": 1817.8012136557593
+      },
+      "size": {
+        "width": 240,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Use Cases là một mẫu được sử dụng trong phát triển ứng dụng doanh nghiệp để biểu diễn các yêu cầu chức năng của hệ thống. Chúng mô tả sự tương tác giữa hệ thống và người dùng, cũng như các bước cần thiết để đạt được một mục tiêu cụ thể. Use Cases là một cách để ghi lại các yêu cầu của hệ thống theo cách dễ hiểu cho cả nhóm phát triển và các bên liên quan. Một Use Case là một mô tả về một chuỗi hành động mà hệ thống thực hiện để phản hồi một yêu cầu từ người dùng, nhằm đạt được một mục tiêu cụ thể. Một Use Case điển hình bao gồm: - Người đóng vai trò (người dùng) khởi xướng hành động - Mục tiêu mà người đóng vai trò muốn đạt được - Các bước cần thiết để đạt được mục tiêu, bao gồm bất kỳ đường dẫn thay thế hoặc điều kiện lỗi nào - Kết quả mong đợi của tương tác đó. Use Cases thường được sử dụng để thúc đẩy thiết kế và phát triển hệ thống, vì chúng cung cấp một sự hiểu biết rõ ràng và chi tiết về các yêu cầu. Tìm hiểu thêm từ các liên kết sau: - [@article@Use Case Patterns](https://caminao.blog/how-to-implement-symbolic-representations/patterns/functional-patterns/use-case-patterns/",
+        "links": []
+      }
+    },
+    {
+      "id": "8y0ot5sbplUIUyXe9gvc8",
+      "type": "subtopic",
+      "label": "Cơ sở dữ liệu (Repositories)",
+      "position": {
+        "x": 99.23920485686646,
+        "y": 1870.8012136557593
+      },
+      "size": {
+        "width": 240,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Cơ sở dữ liệu là một mẫu được sử dụng trong phát triển ứng dụng doanh nghiệp để cung cấp một cách nhất quán và trừu tượng hóa để truy cập lưu trữ dữ liệu. Cơ sở dữ liệu đóng vai trò là một lớp trừu tượng giữa ứng dụng và lưu trữ dữ liệu, cung cấp một API nhất quán và đơn giản cho việc truy cập và thao tác dữ liệu. Một cơ sở dữ liệu có thể được sử dụng để tổ chức mã truy cập dữ liệu và bao gồm logic để lấy và lưu đối tượng. Cơ sở dữ liệu cung cấp một cách để tách các mối quan tâm của việc truy cập dữ liệu khỏi phần còn lại của ứng dụng, cho phép mã ứng dụng được viết chống lại một giao diện chứ không phải là một công nghệ lưu trữ dữ liệu cụ thể.",
+        "links": [
+          {
+            "title": "Giới thiệu về Các mẫu Thiết kế Repository",
+            "url": "https://cubettech.com/resources/blog/introduction-to-repository-design-pattern/",
+            "type": "article"
+          },
+          {
+            "title": "Hướng dẫn – Thiết kế mẫu Repository",
+            "url": "https://www.youtube.com/watch?v=mb6bwnEaZ3U",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ndUTgl2YBzOdu1MQKJocu",
+      "type": "subtopic",
+      "label": "Mappers",
+      "position": {
+        "x": 99.23920485686646,
+        "y": 1923.8012136557593
+      },
+      "size": {
+        "width": 240,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Mappers là một mẫu được sử dụng trong phát triển ứng dụng doanh nghiệp để cung cấp một cách nhất quán và trừu tượng hóa để ánh xạ giữa các mô hình dữ liệu khác nhau. Chúng hoạt động như một lớp trừu tượng giữa ứng dụng và lưu trữ dữ liệu, cung cấp một API nhất quán và đơn giản cho chuyển đổi dữ liệu. Một mapper là một thành phần có thể được sử dụng để chuyển đổi dữ liệu từ một định dạng hoặc mô hình sang một định dạng hoặc mô hình khác. Ví dụ, một mapper có thể được sử dụng để chuyển đổi dữ liệu từ một mô hình cơ sở dữ liệu sang một mô hình miền, hoặc từ một mô hình miền sang một đối tượng truyền dữ liệu (DTO).",
+        "links": [
+          {
+            "title": "Tổng quan về Mô hình Data Mapper",
+            "url": "https://en.wikipedia.org/wiki/Data_mapper_pattern",
+            "type": "article"
+          },
+          {
+            "title": "Hướng dẫn – Mappers",
+            "url": "https://www.youtube.com/watch?v=7noMLStHcTE",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tyReIY4iO8kmyc_LPafp1",
+      "type": "subtopic",
+      "label": "Script giao dịch",
+      "position": {
+        "x": 99.23920485686646,
+        "y": 1976.8012136557593
+      },
+      "size": {
+        "width": 240,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Script giao dịch là một mẫu được sử dụng trong phát triển ứng dụng doanh nghiệp, tổ chức logic kinh doanh thành một script thủ tục duy nhất. Nó thường được sử dụng cho các thao tác CRUD (tạo, đọc, cập nhật, xóa) đơn giản, trong đó tất cả logic cho một giao dịch cụ thể đều nằm trong một script hoặc hàm duy nhất. Mẫu này dễ triển khai và dễ hiểu, nhưng có thể trở nên khó khăn khi độ phức tạp của ứng dụng tăng lên. Các mẫu thay thế như Thiết kế dựa trên miền (DDD) và mẫu Active Record có thể phù hợp hơn cho các ứng dụng phức tạp hơn.",
+        "links": [
+          {
+            "title": "Mẫu Script giao dịch",
+            "url": "https://gunnarpeipman.com/transaction-script-pattern/",
+            "type": "article"
+          },
+          {
+            "title": "Hướng dẫn – Thiết kế mẫu Script Giao dịch",
+            "url": "https://www.youtube.com/watch?v=fnsU9cqcY3I",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "j_SUD3SxpKYZstN9LSP82",
+      "type": "subtopic",
+      "label": "Lệnh / Truy vấn",
+      "position": {
+        "x": 99.23920485686646,
+        "y": 2029.8012136557593
+      },
+      "size": {
+        "width": 240,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Mẫu Thiết kế Phân tách Trách nhiệm Lệnh và Truy vấn (CQRS) là một kỹ thuật được sử dụng trong phát triển ứng dụng doanh nghiệp để phân tách trách nhiệm xử lý các hoạt động lệnh (ghi) và truy vấn (đọc) để thực hiện các hành động thay đổi trạng thái của hệ thống, chẳng hạn như tạo, cập nhật hoặc xóa dữ liệu. Các hoạt động này được xử lý bởi Bộ xử lý Lệnh, chịu trách nhiệm xác thực dữ liệu và thực thi logic kinh doanh thích hợp. Truy vấn được sử dụng để truy xuất dữ liệu từ hệ thống, chẳng hạn như đọc dữ liệu từ cơ sở dữ liệu hoặc bộ nhớ cache. Các hoạt động này được xử lý bởi Bộ xử lý Truy vấn, chịu trách nhiệm thực hiện truy vấn thích hợp và trả về dữ liệu cho người gọi.",
+        "links": [
+          {
+            "title": "Bắt đầu với Mô hình CQRS",
+            "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/cqrs",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Ks6njbfxOHiZ_TrJDnVtk",
+      "type": "subtopic",
+      "label": "Đối tượng Giá trị",
+      "position": {
+        "x": 99.23920485686646,
+        "y": 2082.8012136557595
+      },
+      "size": {
+        "width": 240,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Đối tượng Giá trị là một mẫu được sử dụng trong phát triển ứng dụng doanh nghiệp để biểu diễn các giá trị đơn giản, không thể thay đổi mà được sử dụng để mô hình hóa các khái niệm miền. Chúng thường được sử dụng để bọc dữ liệu không phải là thực thể, nhưng lại quan trọng đối với miền. Một Đối tượng Giá trị được định nghĩa bởi giá trị của nó chứ không phải là danh tính, có nghĩa là hai Đối tượng Giá trị có cùng giá trị sẽ được coi là bằng nhau, bất kể danh tính của chúng.",
+        "links": [
+          {
+            "title": "Tổng quan - Triển khai Value Objects",
+            "url": "https://learn.microsoft.com/en-us/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns/implement-value-objects",
+            "type": "article"
+          },
+          {
+            "title": "Giới thiệu về Value Object",
+            "url": "https://en.wikipedia.org/wiki/Value_object",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "NpSfbzYtGebmfrifkKsUf",
+      "type": "subtopic",
+      "label": "Mô hình miền (Domain Model)",
+      "position": {
+        "x": 99.23920485686646,
+        "y": 2135.8012136557595
+      },
+      "size": {
+        "width": 240,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Mô hình miền (Domain Models) là một mẫu được sử dụng trong phát triển ứng dụng doanh nghiệp để biểu diễn các khái niệm và quy tắc của một miền cụ thể. Chúng thường được sử dụng để mô hình hóa miền vấn đề, hoặc lĩnh vực chuyên môn của một doanh nghiệp cụ thể. Một Mô hình Miền là một tập hợp các đối tượng đại diện cho các khái niệm và thực thể thực tế của miền. Các đối tượng này thường được mô hình hóa như các lớp hoặc kiểu, và chúng chứa dữ liệu và hành vi đặc thù cho miền đó. Chúng chịu trách nhiệm biểu diễn trạng thái và hành vi của các khái niệm kinh doanh mà chúng mô hình hóa, cũng như thực thi các quy tắc và ràng buộc của miền.",
+        "links": [
+          {
+            "title": "Tổng quan - Mô hình Domain",
+            "url": "https://sparxsystems.com/enterprise_architect_user_guide/14.0/model_domains/specialized_models.html",
+            "type": "article"
+          },
+          {
+            "title": "Hướng dẫn - Mẫu Mô hình miền",
+            "url": "https://www.youtube.com/watch?v=75EGANiqADw",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "VnW_7dl5G0IFL9W3YF_W3",
+      "type": "subtopic",
+      "label": "Thực thể",
+      "position": {
+        "x": 99.23920485686646,
+        "y": 2188.8012136557595
+      },
+      "size": {
+        "width": 240,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Thực thể là một mẫu được sử dụng trong phát triển ứng dụng doanh nghiệp để biểu diễn các khái niệm kinh doanh có một bản sắc duy nhất và một vòng đời. Chúng thường được sử dụng để mô hình hóa các đối tượng hoặc khái niệm thực tế có một bản sắc riêng biệt và một chu trình sống, chẳng hạn như khách hàng, đơn hàng hoặc tài khoản. Một Thực thể được định nghĩa bởi bản sắc của nó, có nghĩa là hai thực thể có cùng bản sắc sẽ được coi là giống nhau bất kể trạng thái của chúng. Các Thực thể thường có một định danh duy nhất, chẳng hạn như khóa chính, được sử dụng để xác định chúng. Chúng cũng có một tập hợp các thuộc tính hoặc đặc điểm liên quan mô tả trạng thái của chúng.",
+        "links": []
+      }
+    },
+    {
+      "id": "SYYulHfDceIyDkDT5fcqj",
+      "type": "subtopic",
+      "label": "ORM (Object-Relational Mapping)",
+      "position": {
+        "x": 99.23920485686646,
+        "y": 2241.8012136557595
+      },
+      "size": {
+        "width": 240,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ORM là viết tắt của Object-Relational Mapping, đây là một kỹ thuật được sử dụng trong phát triển ứng dụng doanh nghiệp để ánh xạ giữa mô hình lập trình hướng đối tượng và mô hình cơ sở dữ liệu quan hệ. Nó cho phép các nhà phát triển làm việc với các đối tượng trong mã của họ, trong khi công cụ ORM đảm bảo dịch các đối tượng đó sang các hoạt động cơ sở dữ liệu phù hợp. Các ORM được thiết kế để loại bỏ sự phức tạp khi làm việc với một cơ sở dữ liệu quan hệ và cho phép các nhà phát triển tương tác với cơ sở dữ liệu bằng cách sử dụng một API cấp cao hơn, hướng đối tượng. Chúng cung cấp một tập hợp các thư viện và công cụ ánh xạ các đối tượng trong mã sang các bảng và hàng trong cơ sở dữ liệu, và ngược lại. Điều này cho phép các nhà phát triển làm việc với dữ liệu bằng một mô hình hướng đối tượng quen thuộc, thay vì phải viết các truy vấn SQL phức tạp.",
+        "links": [
+          {
+            "title": "Bạn cần một ORM vì lý do gì?",
+            "url": "https://enterprisecraftsmanship.com/posts/do-you-need-an-orm/",
+            "type": "article"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Phát triển Backend",
+            "url": "https://app.daily.dev/tags/backend?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "k_AR2YBSv077a6RwpCpZT",
+      "type": "vertical",
+      "label": "nút dọc",
+      "position": {
+        "x": -182.82822136329878,
+        "y": 2024.839200216446
+      },
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "style": {
+        "strokeDasharray": "0",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.55,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "ef-jFKMs8jw3Ti94jem96",
+      "type": "vertical",
+      "label": "nút dọc",
+      "position": {
+        "x": -183.82822136329878,
+        "y": 2362.6547713337786
+      },
+      "size": {
+        "width": 21,
+        "height": 74
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    }
+  ],
+  "edges": [
+    {
+      "id": "xy-edge__08qKtgnhJ3tlb5JKfTDf5x2-h0aeBhQRkDxNeFwDxT4Tfw1",
+      "source": "08qKtgnhJ3tlb5JKfTDf5",
+      "target": "TDhTYdEyBuOnDKcQJzTAk",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__h0aeBhQRkDxNeFwDxT4Tfy2-VhSEH_RoWFt1z2lial7xZz1",
+      "source": "TDhTYdEyBuOnDKcQJzTAk",
+      "target": "VhSEH_RoWFt1z2lial7xZ",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__h0aeBhQRkDxNeFwDxT4Tfy2-YswaOqZNYcmDwly2IXrTTz1",
+      "source": "TDhTYdEyBuOnDKcQJzTAk",
+      "target": "YswaOqZNYcmDwly2IXrTT",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__h0aeBhQRkDxNeFwDxT4Tfy2-VZrERRRYhmqDx4slnZtdcz1",
+      "source": "TDhTYdEyBuOnDKcQJzTAk",
+      "target": "VZrERRRYhmqDx4slnZtdc",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__TDhTYdEyBuOnDKcQJzTAkx2-h0aeBhQRkDxNeFwDxT4Tfw1",
+      "source": "TDhTYdEyBuOnDKcQJzTAk",
+      "target": "HhYdURE4X-a9GVwJhAyE0",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__9dMbo4Q1_Sd9wW6-HSCA9z2-h0aeBhQRkDxNeFwDxT4Tfy1",
+      "source": "9dMbo4Q1_Sd9wW6-HSCA9",
+      "target": "Jd79KXxZavpnp3mtE1q0n",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__h0aeBhQRkDxNeFwDxT4Tfz2-dBq7ni-of5v1kxpdmh227y1",
+      "source": "37xWxG2D9lVuDsHUgLfzP",
+      "target": "dBq7ni-of5v1kxpdmh227",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__37xWxG2D9lVuDsHUgLfzPx2-h0aeBhQRkDxNeFwDxT4Tfw1",
+      "source": "37xWxG2D9lVuDsHUgLfzP",
+      "target": "gJYff_qD6XS3dg3I-jJFK",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__h0aeBhQRkDxNeFwDxT4Tfy2-Kk7u2B67Fdg2sU8E_PGqrz1",
+      "source": "gJYff_qD6XS3dg3I-jJFK",
+      "target": "Kk7u2B67Fdg2sU8E_PGqr",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__h0aeBhQRkDxNeFwDxT4Tfy2-eJsCCURZAURCKnOK-XeQez1",
+      "source": "gJYff_qD6XS3dg3I-jJFK",
+      "target": "eJsCCURZAURCKnOK-XeQe",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__h0aeBhQRkDxNeFwDxT4Tfy2--arChRC9zG2DBmuSTHW0Jz1",
+      "source": "gJYff_qD6XS3dg3I-jJFK",
+      "target": "-arChRC9zG2DBmuSTHW0J",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__h0aeBhQRkDxNeFwDxT4Tfy2-CD20zA6k9FxUpMgHnNYRJz1",
+      "source": "gJYff_qD6XS3dg3I-jJFK",
+      "target": "CD20zA6k9FxUpMgHnNYRJ",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__h0aeBhQRkDxNeFwDxT4Tfy2-r-Yeca-gpdFM8iq7f0lYQz1",
+      "source": "gJYff_qD6XS3dg3I-jJFK",
+      "target": "r-Yeca-gpdFM8iq7f0lYQ",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__h0aeBhQRkDxNeFwDxT4Tfy2-5WSvAA3h3lmelL53UJSMyz1",
+      "source": "gJYff_qD6XS3dg3I-jJFK",
+      "target": "5WSvAA3h3lmelL53UJSMy",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__h0aeBhQRkDxNeFwDxT4Tfy2-GAs6NHBkUgxan3hyPvVs7z1",
+      "source": "gJYff_qD6XS3dg3I-jJFK",
+      "target": "GAs6NHBkUgxan3hyPvVs7",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__h0aeBhQRkDxNeFwDxT4Tfy2-K8X_-bsiy7gboInPzbiEbz1",
+      "source": "gJYff_qD6XS3dg3I-jJFK",
+      "target": "K8X_-bsiy7gboInPzbiEb",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__h0aeBhQRkDxNeFwDxT4Tfy2-IU86cGkLPMXUJKvTBywPuz1",
+      "source": "gJYff_qD6XS3dg3I-jJFK",
+      "target": "IU86cGkLPMXUJKvTBywPu",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__gJYff_qD6XS3dg3I-jJFKx2-h0aeBhQRkDxNeFwDxT4Tfw1",
+      "source": "gJYff_qD6XS3dg3I-jJFK",
+      "target": "h0aeBhQRkDxNeFwDxT4Tf",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__h0aeBhQRkDxNeFwDxT4Tfz2-tyReIY4iO8kmyc_LPafp1y1",
+      "source": "h0aeBhQRkDxNeFwDxT4Tf",
+      "target": "tyReIY4iO8kmyc_LPafp1",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__h0aeBhQRkDxNeFwDxT4Tfz2-ndUTgl2YBzOdu1MQKJocuy1",
+      "source": "h0aeBhQRkDxNeFwDxT4Tf",
+      "target": "ndUTgl2YBzOdu1MQKJocu",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__h0aeBhQRkDxNeFwDxT4Tfz2-8y0ot5sbplUIUyXe9gvc8y2",
+      "source": "h0aeBhQRkDxNeFwDxT4Tf",
+      "target": "8y0ot5sbplUIUyXe9gvc8",
+      "source_handle": "z2",
+      "target_handle": "y2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__h0aeBhQRkDxNeFwDxT4Tfz2-gQ7Xj8tsl6IlCcyJgSz46y1",
+      "source": "h0aeBhQRkDxNeFwDxT4Tf",
+      "target": "gQ7Xj8tsl6IlCcyJgSz46",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__h0aeBhQRkDxNeFwDxT4Tfz2-tb0X1HtuiGwz7YhQ5xPsVy2",
+      "source": "h0aeBhQRkDxNeFwDxT4Tf",
+      "target": "tb0X1HtuiGwz7YhQ5xPsV",
+      "source_handle": "z2",
+      "target_handle": "y2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__h0aeBhQRkDxNeFwDxT4Tfz2-y_Qj7KITSB8aUWHwiZ2Ity1",
+      "source": "h0aeBhQRkDxNeFwDxT4Tf",
+      "target": "y_Qj7KITSB8aUWHwiZ2It",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__h0aeBhQRkDxNeFwDxT4Tfz2-j_SUD3SxpKYZstN9LSP82y1",
+      "source": "h0aeBhQRkDxNeFwDxT4Tf",
+      "target": "j_SUD3SxpKYZstN9LSP82",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__h0aeBhQRkDxNeFwDxT4Tfz2-Ks6njbfxOHiZ_TrJDnVtky1",
+      "source": "h0aeBhQRkDxNeFwDxT4Tf",
+      "target": "Ks6njbfxOHiZ_TrJDnVtk",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__h0aeBhQRkDxNeFwDxT4Tfz2-NpSfbzYtGebmfrifkKsUfy1",
+      "source": "h0aeBhQRkDxNeFwDxT4Tf",
+      "target": "NpSfbzYtGebmfrifkKsUf",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__h0aeBhQRkDxNeFwDxT4Tfz2-VnW_7dl5G0IFL9W3YF_W3y1",
+      "source": "h0aeBhQRkDxNeFwDxT4Tf",
+      "target": "VnW_7dl5G0IFL9W3YF_W3",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__h0aeBhQRkDxNeFwDxT4Tfz2-SYYulHfDceIyDkDT5fcqjy1",
+      "source": "h0aeBhQRkDxNeFwDxT4Tf",
+      "target": "SYYulHfDceIyDkDT5fcqj",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    }
+  ],
+  "content_crawled_at": "2026-04-06T13:05:26.083309+00:00"
+}

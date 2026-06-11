@@ -19,18 +19,18 @@ const roadmapSummaryProjection = {
 
 const DONE_STATUS = 'done'
 const STEP_TYPES = new Set(['topic', 'subtopic', 'checklist', 'todo'])
-const SUPPORTED_LANGUAGES = new Set(['en', 'ja'])
+const SUPPORTED_LANGUAGES = new Set(['en', 'vi'])
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = dirname(__filename)
 const CLASSIFICATION_PATH = join(__dirname, '..', '..', 'crawldata', 'roadmap_classification.json')
-const JP_ROADMAPS_DIR = join(__dirname, '..', '..', 'crawldata', 'roadmaps_json_jp')
-const JP_ROADMAP_INDEX_PATH = join(JP_ROADMAPS_DIR, '_index.json')
+const VI_ROADMAPS_DIR = join(__dirname, '..', '..', 'crawldata', 'roadmaps_json_vi')
+const VI_ROADMAP_INDEX_PATH = join(VI_ROADMAPS_DIR, '_index.json')
 
 let roleBasedRoadmapIds = []
 let skillBasedRoadmapIds = []
-let japaneseRoadmapSummaryById = new Map()
-let japaneseRoadmapDetailById = new Map()
+let vietnameseRoadmapSummaryById = new Map()
+let vietnameseRoadmapDetailById = new Map()
 
 try {
   const classification = JSON.parse(readFileSync(CLASSIFICATION_PATH, 'utf-8'))
@@ -41,29 +41,29 @@ try {
 }
 
 try {
-  const jpIndex = JSON.parse(readFileSync(JP_ROADMAP_INDEX_PATH, 'utf-8'))
+  const viIndex = JSON.parse(readFileSync(VI_ROADMAP_INDEX_PATH, 'utf-8'))
 
-  for (const item of jpIndex.roadmaps || []) {
+  for (const item of viIndex.roadmaps || []) {
     if (!item?.id) continue
 
-    japaneseRoadmapSummaryById.set(item.id, {
+    vietnameseRoadmapSummaryById.set(item.id, {
       title: item.title,
       type: item.type,
       sourceUrl: item.source_url,
     })
 
     const fileName = item.file || `${item.id}.json`
-    const filePath = join(JP_ROADMAPS_DIR, fileName)
+    const filePath = join(VI_ROADMAPS_DIR, fileName)
 
     try {
       const detail = JSON.parse(readFileSync(filePath, 'utf-8'))
-      japaneseRoadmapDetailById.set(item.id, detail)
+      vietnameseRoadmapDetailById.set(item.id, detail)
     } catch (fileError) {
-      console.warn(`Failed to load Japanese roadmap file ${fileName}:`, fileError.message)
+      console.warn(`Failed to load Vietnamese roadmap file ${fileName}:`, fileError.message)
     }
   }
 } catch (error) {
-  console.warn('Failed to load Japanese roadmap index:', error.message)
+  console.warn('Failed to load Vietnamese roadmap index:', error.message)
 }
 
 function getProgressEntries(progressField) {
@@ -103,7 +103,7 @@ function getRequestLanguage(req) {
   if (SUPPORTED_LANGUAGES.has(requestedLang)) {
     return requestedLang
   }
-  return 'en'
+  return 'vi'
 }
 
 function toPlainRoadmap(roadmap) {
@@ -113,47 +113,47 @@ function toPlainRoadmap(roadmap) {
 
 function localizeRoadmapSummary(roadmap, language) {
   const plainRoadmap = toPlainRoadmap(roadmap)
-  if (language !== 'ja') {
+  if (language !== 'vi') {
     return plainRoadmap
   }
 
-  const jpSummary = japaneseRoadmapSummaryById.get(plainRoadmap.roadmapId)
-  if (!jpSummary) {
+  const viSummary = vietnameseRoadmapSummaryById.get(plainRoadmap.roadmapId)
+  if (!viSummary) {
     return plainRoadmap
   }
 
   return {
     ...plainRoadmap,
-    title: jpSummary.title || plainRoadmap.title,
-    type: jpSummary.type || plainRoadmap.type,
-    sourceUrl: jpSummary.sourceUrl || plainRoadmap.sourceUrl,
+    title: viSummary.title || plainRoadmap.title,
+    type: viSummary.type || plainRoadmap.type,
+    sourceUrl: viSummary.sourceUrl || plainRoadmap.sourceUrl,
   }
 }
 
 function localizeRoadmapDetail(roadmap, language) {
   const plainRoadmap = toPlainRoadmap(roadmap)
-  if (language !== 'ja') {
+  if (language !== 'vi') {
     return plainRoadmap
   }
 
-  const jpRoadmap = japaneseRoadmapDetailById.get(plainRoadmap.roadmapId)
-  if (!jpRoadmap) {
+  const viRoadmap = vietnameseRoadmapDetailById.get(plainRoadmap.roadmapId)
+  if (!viRoadmap) {
     return plainRoadmap
   }
 
   return {
     ...plainRoadmap,
-    title: jpRoadmap.title || plainRoadmap.title,
-    type: jpRoadmap.type || plainRoadmap.type,
-    sourceUrl: jpRoadmap.source_url || plainRoadmap.sourceUrl,
-    stats: jpRoadmap.stats || plainRoadmap.stats,
-    node_types: jpRoadmap.node_types || plainRoadmap.node_types,
-    edge_styles: jpRoadmap.edge_styles || plainRoadmap.edge_styles,
-    edge_line_types: jpRoadmap.edge_line_types || plainRoadmap.edge_line_types,
-    node_type_description: jpRoadmap.node_type_description || plainRoadmap.node_type_description,
-    edge_style_description: jpRoadmap.edge_style_description || plainRoadmap.edge_style_description,
-    nodes: Array.isArray(jpRoadmap.nodes) ? jpRoadmap.nodes : plainRoadmap.nodes,
-    edges: Array.isArray(jpRoadmap.edges) ? jpRoadmap.edges : plainRoadmap.edges,
+    title: viRoadmap.title || plainRoadmap.title,
+    type: viRoadmap.type || plainRoadmap.type,
+    sourceUrl: viRoadmap.source_url || plainRoadmap.sourceUrl,
+    stats: viRoadmap.stats || plainRoadmap.stats,
+    node_types: viRoadmap.node_types || plainRoadmap.node_types,
+    edge_styles: viRoadmap.edge_styles || plainRoadmap.edge_styles,
+    edge_line_types: viRoadmap.edge_line_types || plainRoadmap.edge_line_types,
+    node_type_description: viRoadmap.node_type_description || plainRoadmap.node_type_description,
+    edge_style_description: viRoadmap.edge_style_description || plainRoadmap.edge_style_description,
+    nodes: Array.isArray(viRoadmap.nodes) ? viRoadmap.nodes : plainRoadmap.nodes,
+    edges: Array.isArray(viRoadmap.edges) ? viRoadmap.edges : plainRoadmap.edges,
   }
 }
 

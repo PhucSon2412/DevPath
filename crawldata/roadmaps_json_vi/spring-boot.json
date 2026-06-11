@@ -1,0 +1,2394 @@
+{
+  "id": "spring-boot",
+  "title": "Spring Boot",
+  "source_url": "https://roadmap.sh/spring-boot",
+  "github_url": "https://github.com/kamranahmedse/developer-roadmap/tree/master/src/data/roadmaps/spring-boot",
+  "crawled_at": "2026-04-06T07:37:57.467107+00:00",
+  "type": "flow",
+  "stats": {
+    "total_nodes": 50,
+    "total_edges": 34,
+    "nodes_with_content": 45
+  },
+  "node_types": [
+    "button",
+    "linksgroup",
+    "paragraph",
+    "subtopic",
+    "title",
+    "topic",
+    "vertical"
+  ],
+  "edge_styles": [
+    "dashed",
+    "solid"
+  ],
+  "edge_line_types": [
+    "default"
+  ],
+  "node_type_description": {
+    "title": "Tiêu đề chính của lộ trình",
+    "topic": "Top-level topics (skill groups)",
+    "subtopic": "Kỹ năng/công nghệ cụ thể cần học",
+    "paragraph": "Vùng văn bản mô tả / chú thích",
+    "vertical": "Visual connection"
+  },
+  "edge_style_description": {
+    "solid": "Kỹ năng bắt buộc / quan trọng",
+    "dashed": "Lựa chọn / gợi ý / phương án thay thế"
+  },
+  "nodes": [
+    {
+      "id": "4qvR1QQzrmoVIVCAsp92H",
+      "type": "vertical",
+      "label": "nút theo chiều dọc",
+      "position": {
+        "x": -225.22890816639756,
+        "y": 1663.454217904046
+      },
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "HU7wZWiES3m3xl1-NYP6F",
+      "type": "title",
+      "label": "Spring Boot",
+      "position": {
+        "x": -309.8175069304428,
+        "y": -32.800633281393
+      },
+      "size": {
+        "width": 189,
+        "height": 68
+      },
+      "style": {
+        "fontSize": 28,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "uqyE79OItPOX33E5FoGel",
+      "type": "vertical",
+      "label": "nút theo chiều dọc",
+      "position": {
+        "x": -225.3175069304428,
+        "y": -133.0992517776511
+      },
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.75,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "jy2heDVZuM6ASCXlI1TDn",
+      "type": "topic",
+      "label": "Giới thiệu",
+      "position": {
+        "x": -329.3175069304428,
+        "y": 233.71361308804387
+      },
+      "size": {
+        "width": 137,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Spring Boot là một framework để xây dựng ứng dụng dựa trên Spring Framework, một framework nguồn mở phổ biến để xây dựng các ứng dụng doanh nghiệp Java. Spring Boot nhằm mục đích làm cho việc tạo ra các ứng dụng Spring độc lập, có khả năng sản xuất mà bạn có thể \"chỉ chạy\" trở nên dễ dàng hơn.",
+        "links": [
+          {
+            "title": "Spring Boot",
+            "url": "https://spring.io/projects/spring-boot",
+            "type": "official"
+          },
+          {
+            "title": "Spring Boot - Giới thiệu",
+            "url": "https://www.tutorialspoint.com/spring_boot/spring_boot_introduction.htm",
+            "type": "article"
+          },
+          {
+            "title": "Giới thiệu Spring Boot",
+            "url": "https://medium.com/adessoturkey/introduction-to-spring-boot-458cb814ec14",
+            "type": "article"
+          },
+          {
+            "title": "Spring Boot là gì?",
+            "url": "https://www.ibm.com/topics/java-spring-boot",
+            "type": "article"
+          },
+          {
+            "title": "Khóa học Spring Boot",
+            "url": "https://spring.academy/courses/spring-boot",
+            "type": "course"
+          }
+        ]
+      }
+    },
+    {
+      "id": "OB--nMudscm0p6RqqfA7T",
+      "type": "subtopic",
+      "label": "Cấu hình",
+      "position": {
+        "x": 63.8618127280065,
+        "y": 229.71361308804387
+      },
+      "size": {
+        "width": 230,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Cấu hình Core của Spring là quá trình cấu hình Spring Framework, bao gồm việc chỉ định các chi tiết cấu hình khác nhau cần thiết để một ứng dụng hoạt động bình thường. Điều này có thể bao gồm thiết lập bean, chỉ định sự phụ thuộc của bean, cấu hình lập trình hướng hành vi (AOP), v.v. Cấu hình có thể được thực hiện thông qua mã Java, tệp XML hoặc sử dụng chú thích trong mã.",
+        "links": [
+          {
+            "title": "Spring Framework Documentation",
+            "url": "https://docs.spring.io/spring/docs/current/spring-framework-reference/",
+            "type": "official"
+          },
+          {
+            "title": "Hướng dẫn \"Cấu hình Spring\"",
+            "url": "https://www.baeldung.com/project-configuration-with-spring",
+            "type": "article"
+          },
+          {
+            "title": "Hướng dẫn \"Spring Framework\"",
+            "url": "https://www.tutorialspoint.com/spring/index.htm",
+            "type": "article"
+          },
+          {
+            "title": "Cấu hình Spring | Hướng dẫn Spring dành cho người mới bắt đầu",
+            "url": "https://www.youtube.com/watch?v=fLs_yULL10g",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C2EQ5J1aJYF9e9Rr2KysT",
+      "type": "subtopic",
+      "label": "Tiêm Dependency (Dependency Injection)",
+      "position": {
+        "x": 63.8618127280065,
+        "y": 282.71361308804387
+      },
+      "size": {
+        "width": 230,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Spring Boot sử dụng container Tuần hoàn Kiểm soát (IoC) của Spring Framework để quản lý các đối tượng và các phụ thuộc của chúng. Container IoC chịu trách nhiệm tạo ra các đối tượng, kết nối chúng lại với nhau và quản lý vòng đời của chúng. Khi một đối tượng được tạo, các phụ thuộc của nó cũng được tạo và tiêm vào đối tượng.",
+        "links": [
+          {
+            "title": "Spring Dependency Injection",
+            "url": "https://www.baeldung.com/spring-dependency-injection",
+            "type": "article"
+          },
+          {
+            "title": "Tiêm Dữ Liệu Phụ Thuộc Sử Dụng Spring Boot",
+            "url": "https://medium.com/edureka/what-is-dependency-injection-5006b53af782",
+            "type": "article"
+          },
+          {
+            "title": "Hiểu về Tiêm Dependency",
+            "url": "https://www.youtube.com/watch?v=GB8k2-Egfv0",
+            "type": "video"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Dependency Injection",
+            "url": "https://app.daily.dev/tags/dependency-injection?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PlUU_vzFQ3Xx6Z5XREIYP",
+      "type": "subtopic",
+      "label": "Spring IOC",
+      "position": {
+        "x": 63.8618127280065,
+        "y": 335.71361308804387
+      },
+      "size": {
+        "width": 230,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Inversion of Control (IoC) là một mẫu thiết kế thường được sử dụng cùng với mẫu Dependency Injection (DI). Ý tưởng cơ bản đằng sau IoC là lật ngược luồng điều khiển trong chương trình, để thay vì chương trình kiểm soát luồng logic và việc tạo đối tượng, các đối tượng chính sẽ kiểm soát luồng logic và việc tạo các đối tượng khác. Spring là một framework Java phổ biến sử dụng IoC và DI để cung cấp một cách tiếp cận linh hoạt, mô-đun hơn cho phát triển phần mềm. Container IoC của Spring chịu trách nhiệm quản lý việc tạo và cấu hình các đối tượng trong một ứng dụng dựa trên Spring.",
+        "links": [
+          {
+            "title": "Spring IoC, Spring Bean Example Tutorial",
+            "url": "https://www.digitalocean.com/community/tutorials/spring-ioc-bean-example-tutorial",
+            "type": "article"
+          },
+          {
+            "title": "Giới thiệu về Giao dịch đảo ngược với Spring",
+            "url": "https://www.baeldung.com/inversion-control-and-dependency-injection-in-spring",
+            "type": "article"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Spring Framework",
+            "url": "https://app.daily.dev/tags/spring?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "wV1_I_4czMIxpBionvLs4",
+      "type": "subtopic",
+      "label": "Spring AOP",
+      "position": {
+        "x": 63.8618127280065,
+        "y": 388.71361308804387
+      },
+      "size": {
+        "width": 230,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Spring AOP (Lập trình hướng Khía cạnh) là một tính năng của Framework Spring cho phép các nhà phát triển định nghĩa các hành vi nhất định (tức là \"khía cạnh\") cắt ngang qua nhiều lớp, chẳng hạn như ghi nhật ký hoặc quản lý giao dịch. Các hành vi này, được gọi là \"lời khuyên\", có thể được áp dụng vào các điểm nối cụ thể (tức là các điểm trong quá trình thực thi của chương trình) trong ứng dụng, sử dụng \"điểm cắt\" để xác định nơi lời khuyên nên được áp dụng. Spring AOP cho phép các nhà phát triển tách việc triển khai các mối quan tâm cắt ngang này khỏi logic nghiệp vụ của ứng dụng, làm cho mã dễ hiểu và có tính mô-đun hơn. Điều này cũng có thể làm cho ứng dụng linh hoạt hơn vì cùng một lời khuyên có thể được áp dụng vào các phần khác nhau của mã mà không cần phải sao chép mã cho chính lời khuyên đó.",
+        "links": [
+          {
+            "title": "Hướng dẫn Spring AOP",
+            "url": "https://www.simplilearn.com/tutorials/spring-tutorial/spring-aop-aspect-oriented-programming",
+            "type": "article"
+          },
+          {
+            "title": "AOP với Spring Framework",
+            "url": "https://www.tutorialspoint.com/spring/aop_with_spring.htm",
+            "type": "article"
+          },
+          {
+            "title": "Hướng dẫn Spring AOP",
+            "url": "https://howtodoinjava.com/spring-aop-tutorial/",
+            "type": "article"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Spring Framework",
+            "url": "https://app.daily.dev/tags/spring?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "QiNWE4sMTao3cVzjt3yPp",
+      "type": "subtopic",
+      "label": "Spring MVC",
+      "position": {
+        "x": 63.8618127280065,
+        "y": 441.71361308804387
+      },
+      "size": {
+        "width": 230,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Spring MVC là một framework để xây dựng ứng dụng web trong Java. Nó là một phần của Spring Framework, một hệ sinh thái lớn hơn gồm các công cụ để xây dựng ứng dụng Java. Spring MVC được xây dựng trên mẫu thiết kế Model-View-Controller (MVC), giúp tách biệt các mối quan tâm của ứng dụng thành ba thành phần riêng biệt: Mô hình, Giao diện và Điều khiển. Spring MVC cung cấp một cách mạnh mẽ và linh hoạt để xây dựng ứng dụng web và tích hợp tốt với các bộ phận khác của hệ sinh thái Spring, chẳng hạn như Spring Security cho xác thực và ủy quyền, và Spring Data cho truy cập dữ liệu.",
+        "links": [
+          {
+            "title": "Khung Web MVC",
+            "url": "https://docs.spring.io/spring-framework/docs/3.2.x/spring-framework-reference/html/mvc.html",
+            "type": "official"
+          },
+          {
+            "title": "Spring - Khung MVC",
+            "url": "https://www.tutorialspoint.com/spring/spring_web_mvc_framework.htm",
+            "type": "article"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Spring Framework",
+            "url": "https://app.daily.dev/tags/spring?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "HdCpfGMrMaXxk5QrtYn3X",
+      "type": "subtopic",
+      "label": "Ghi chú, đánh dấu",
+      "position": {
+        "x": 63.8618127280065,
+        "y": 494.71361308804387
+      },
+      "size": {
+        "width": 230,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Một trong những tính năng chính của Spring Boot là việc sử dụng các chú thích (annotations), được sử dụng để cấu hình nhiều khía cạnh của ứng dụng và để kích hoạt một số tính năng nhất định. Một số chú thích thường dùng nhất trong Spring Boot bao gồm: *   `@SpringBootApplication` *   `@RestController` *   `@Autowired` *   `@Value` *   `@Enable` *   `@Configuration` *   `@Bean`. Đây chỉ là một vài ví dụ trong số rất nhiều chú thích có sẵn trong Spring Boot. Bạn có thể sử dụng nhiều chú thích khác để cấu hình các khía cạnh khác nhau của ứng dụng, chẳng hạn như bảo mật, bộ nhớ cache và truy cập dữ liệu.",
+        "links": [
+          {
+            "title": "Thẻ Spring (Spring Annotations)",
+            "url": "https://www.digitalocean.com/community/tutorials/spring-annotations",
+            "type": "article"
+          },
+          {
+            "title": "Ghi chú (Annotation) trong Spring",
+            "url": "https://www.techferry.com/articles/spring-annotations.html",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "KdN62IpNgPFMndXfLaYa1",
+      "type": "subtopic",
+      "label": "Phạm vi Bean Spring (Spring Bean Scope)",
+      "position": {
+        "x": 63.8618127280065,
+        "y": 547.7136130880439
+      },
+      "size": {
+        "width": 230,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Trong Spring Framework, một bean là một đối tượng được khởi tạo, lắp ráp và quản lý bởi container IoC của Spring. Một trong những tính năng chính của container Spring là khả năng quản lý vòng đời của các bean, bao gồm việc tạo, cấu hình và hủy các bean khi cần thiết. Một cách mà container có thể kiểm soát vòng đời của một bean là bằng cách chỉ định phạm vi của nó.",
+        "links": [
+          {
+            "title": "Spring - Phạm vi Bean",
+            "url": "https://www.tutorialspoint.com/spring/spring_bean_scopes.htm",
+            "type": "article"
+          },
+          {
+            "title": "Hướng dẫn nhanh về Phạm vi Bean của Spring",
+            "url": "https://www.baeldung.com/spring-bean-scopes",
+            "type": "article"
+          },
+          {
+            "title": "Các Phạm vi Bean Spring (Spring Bean Scopes)",
+            "url": "https://www.digitalocean.com/community/tutorials/spring-bean-scopes",
+            "type": "article"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Spring Framework",
+            "url": "https://app.daily.dev/tags/spring?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "WrUCyVfFNUpHB8jyjjKna",
+      "type": "subtopic",
+      "label": "Thuật ngữ",
+      "position": {
+        "x": 63.8618127280065,
+        "y": 70.71361308804387
+      },
+      "size": {
+        "width": 138,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Core của Spring, nền tảng của Spring Framework, cung cấp một mô hình để cấu hình các ứng dụng Java. Các khái niệm chính bao gồm **Bean** (các đối tượng Java được quản lý bởi Spring), **Đảo ngược Kiểm soát (IoC)** (Spring quản lý vòng đời và sự phụ thuộc của bean) và **Tiêm Dựa trên Sự Phụ Thuộc (DI)** (Spring cung cấp sự phụ thuộc của bean). **Container Spring** (cụ thể là **ApplicationContext**) tạo và quản lý các bean này. Spring cũng cung cấp **Lập trình hướng hành vi (AOP)** để xử lý các mối quan tâm chéo, một **mô hình sự kiện** cho giao tiếp không liên kết bằng **ApplicationEvent** và **nghe**, trừu tượng hóa cho **Truy cập Dữ liệu** và **Giao dịch**, cùng với các tiện ích cho **Thực thi và Lịch trình Nhiệm vụ**.",
+        "links": [
+          {
+            "title": "Spring Boot",
+            "url": "https://spring.io/projects/spring-boot",
+            "type": "official"
+          },
+          {
+            "title": "Spring Boot - Hướng dẫn sử dụng",
+            "url": "https://spring.io/quickstart",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "yuXN-rD4AyyPYUYOR50L_",
+      "type": "subtopic",
+      "label": "Kiến trúc",
+      "position": {
+        "x": 63.8618127280065,
+        "y": 123.71361308804387
+      },
+      "size": {
+        "width": 138,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Spring Boot tuân theo kiến trúc phân lớp trong đó mỗi lớp giao tiếp với lớp trực tiếp bên dưới hoặc trên nó (cấu trúc phân cấp). Bốn lớp trong Spring Boot như sau: *   **Lớp Trình bày**: xử lý các yêu cầu HTTP, dịch tham số JSON sang đối tượng và xác thực yêu cầu cũng như chuyển nó đến lớp nghiệp vụ. *   **Lớp Nghiệp Vụ**: Lớp nghiệp vụ xử lý tất cả logic kinh doanh. Nó bao gồm các lớp dịch vụ và sử dụng các dịch vụ do lớp truy cập dữ liệu cung cấp. Nó cũng thực hiện ủy quyền và xác thực. *   **Lớp Duy Vận**: Lớp duy vận chứa tất cả logic lưu trữ và chuyển đổi các đối tượng nghiệp vụ từ và sang các hàng cơ sở dữ liệu. *   **Lớp Cơ Sở Dữ Liệu**: Trong lớp cơ sở dữ liệu, các thao tác CRUD (tạo, truy xuất, cập nhật, xóa) được thực hiện.",
+        "links": [
+          {
+            "title": "Kiến trúc Spring Boot – Giải thích chi tiết",
+            "url": "https://www.interviewbit.com/blog/spring-boot-architecture",
+            "type": "article"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Kiến trúc",
+            "url": "https://app.daily.dev/tags/architecture?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "WGf3W6bdWL0rK0o6O28G2",
+      "type": "subtopic",
+      "label": "Tại sao nên sử dụng Spring?",
+      "position": {
+        "x": 63.8618127280065,
+        "y": 176.71361308804387
+      },
+      "size": {
+        "width": 171,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Spring Boot cung cấp một số tính năng giúp việc tạo ra một ứng dụng Spring dễ dàng hơn, bao gồm: *   Máy chủ Ứng dụng Nhúng *   Cấu hình Tự động *   Bộ khởi động Tiên quyết *   Dễ dàng Đóng gói và Phân phối *   Dễ dàng Giám sát thông qua điểm cuối kiểm tra sức khỏe tích hợp và khả năng tùy chỉnh điểm cuối quản lý. Ngoài ra, nó đi kèm với rất nhiều quy tắc và quy ước tốt được làm cho vào, điều này giảm thiểu lượng công việc và mã boilerplate mà các nhà phát triển cần viết.",
+        "links": [
+          {
+            "title": "Tại sao lại chọn Spring?",
+            "url": "https://spring.io/why-spring",
+            "type": "official"
+          },
+          {
+            "title": "Spring so với Spring Boot: Hiểu Rõ Sự Khác Biệt",
+            "url": "https://www.interviewbit.com/blog/spring-vs-spring-boot",
+            "type": "article"
+          },
+          {
+            "title": "So sánh giữa Spring và Spring Boot",
+            "url": "https://www.baeldung.com/spring-vs-spring-boot",
+            "type": "article"
+          },
+          {
+            "title": "Ưu điểm của Spring Boot",
+            "url": "https://www.adservio.fr/post/advantages-of-spring-boot",
+            "type": "article"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Spring Framework",
+            "url": "https://app.daily.dev/tags/spring?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "KaUdyVWEiZa6lUDRBlOKt",
+      "type": "topic",
+      "label": "Spring Security",
+      "position": {
+        "x": -329.3175069304428,
+        "y": 323.0143553645502
+      },
+      "size": {
+        "width": 161,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Spring Security là một khung làm việc để bảo mật các ứng dụng Java dựa trên. Đó là một khung xác thực và kiểm soát truy cập mạnh mẽ, có thể tùy chỉnh cao và dễ dàng tích hợp với nhiều ứng dụng khác nhau, bao gồm cả ứng dụng web và dịch vụ web RESTful. Spring Security cung cấp một giải pháp bảo mật toàn diện cho cả xác thực và phân quyền, và nó có thể được sử dụng để bảo vệ các ứng dụng ở cả mức web và phương thức.",
+        "links": [
+          {
+            "title": "Spring Security",
+            "url": "https://spring.io/projects/spring-security",
+            "type": "official"
+          },
+          {
+            "title": "Spring Security là một framework bảo mật mã nguồn mở cho Java, được tích hợp vào Spring Framework. Nó cung cấp các tính năng bảo mật như xác thực người dùng, ủy quyền, bảo vệ API và nhiều hơn nữa. Spring Security giúp bạn xây dựng các ứng dụng web và dịch vụ Java an toàn bằng cách xử lý các vấn đề bảo mật phức tạp một cách dễ dàng.",
+            "url": "https://www.javadevjournal.com/spring/what-is-spring-security/",
+            "type": "article"
+          },
+          {
+            "title": "Spring Security: Xác thực và Phân quyền Chi tiết",
+            "url": "https://www.marcobehler.com/guides/spring-security",
+            "type": "article"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Security",
+            "url": "https://app.daily.dev/tags/security?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ssdk2iAt4avhc8B5tnIzQ",
+      "type": "subtopic",
+      "label": "Xác thực",
+      "position": {
+        "x": -704.3054618325863,
+        "y": 254.25996814340215
+      },
+      "size": {
+        "width": 155,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Spring Security là một khung làm việc để bảo mật các ứng dụng Java dựa trên. Một trong những tính năng cốt lõi của nó là xác thực, đó là quá trình xác minh rằng người dùng là ai họ tuyên bố là ai. Spring Security cung cấp nhiều tùy chọn để triển khai xác thực, bao gồm hỗ trợ cho xác thực dựa trên tên người dùng/mật khẩu truyền thống cũng như các lựa chọn hiện đại hơn như OAuth và JSON Web Tokens (JWT).",
+        "links": [
+          {
+            "title": "Xác thực Spring (Spring Authentication)",
+            "url": "https://docs.spring.io/spring-security/reference/features/authentication/index.html",
+            "type": "official"
+          },
+          {
+            "title": "Spring Security Authentication",
+            "url": "https://spring.io/projects/spring-security",
+            "type": "official"
+          },
+          {
+            "title": "Spring Security Basic Authentication",
+            "url": "https://www.baeldung.com/spring-security-basic-authentication",
+            "type": "article"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Xác thực",
+            "url": "https://app.daily.dev/tags/authentication?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "c7w7Z3Coa81FKa_yAKTse",
+      "type": "subtopic",
+      "label": "Xác thực",
+      "position": {
+        "x": -704.3054618325863,
+        "y": 307.25996814340215
+      },
+      "size": {
+        "width": 145,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Spring Security hỗ trợ nhiều cơ chế xác thực khác nhau, chẳng hạn như xác thực tên người dùng và mật khẩu, OAuth2 và nhiều hơn nữa. Sau khi một người dùng đã được xác thực, Spring Security có thể được sử dụng để ủy quyền cho người dùng đó truy cập vào các tài nguyên hoặc chức năng cụ thể. Có một số chú thích có thể được sử dụng để kiểm soát quyền truy cập vào các phương thức hoặc lớp cụ thể.",
+        "links": [
+          {
+            "title": "Ủy quyền Spring (Spring Authorization)",
+            "url": "https://docs.spring.io/spring-security/reference/servlet/authorization/index.html",
+            "type": "official"
+          },
+          {
+            "title": "Xác thực nâng cao trong Spring",
+            "url": "https://docs.spring.io/spring-security/site/docs/5.2.11.RELEASE/reference/html/authorization.html",
+            "type": "article"
+          },
+          {
+            "title": "Spring Security: Xác thực và Phân quyền Chi tiết",
+            "url": "https://www.marcobehler.com/guides/spring-security",
+            "type": "article"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Phân quyền",
+            "url": "https://app.daily.dev/tags/authorization?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "p7t3RlIIm9U08GFC6azff",
+      "type": "subtopic",
+      "label": "OAuth2",
+      "position": {
+        "x": -704.3054618325863,
+        "y": 360.25996814340215
+      },
+      "size": {
+        "width": 102,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Thư viện Spring Security OAuth2 cung cấp hỗ trợ cho cả loại grant mã hóa (dành cho ứng dụng web) và loại grant ngầm (dành cho ứng dụng một trang). Bạn cũng có thể sử dụng Spring Security để bảo vệ tài nguyên của mình và cấu hình ứng dụng của bạn như một máy chủ tài nguyên OAuth2. Quá trình xác thực OAuth2 có thể phức tạp và tốn thời gian, nhưng thư viện Spring Security OAuth2 giúp bạn bắt đầu dễ dàng bằng cách cung cấp một tập hợp các lớp cấu hình và chú thích thuận tiện.",
+        "links": [
+          {
+            "title": "OAuth 2 sử dụng Spring Boot",
+            "url": "https://medium.com/@bubu.tripathy/oauth-2-using-spring-boot-99c17292f228",
+            "type": "article"
+          },
+          {
+            "title": "Spring Boot - OAuth2 với JWT",
+            "url": "https://www.tutorialspoint.com/spring_boot/spring_boot_oauth2_with_jwt.htm",
+            "type": "article"
+          },
+          {
+            "title": "Spring Security",
+            "url": "https://www.tutorialspoint.com/spring_security/spring_security_with_oauth2.htm",
+            "type": "article"
+          },
+          {
+            "title": "OAuth2 Login Made Easy in Java: A Spring Boot & Spring Security Walkthrough",
+            "url": "https://www.youtube.com/watch?v=us0VjFiHogo",
+            "type": "video"
+          },
+          {
+            "title": "Bảo mật API REST với OAuth 2.0",
+            "url": "https://spring.academy/courses/spring-academy-secure-rest-api-oauth2",
+            "type": "course"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1My7mbdwAbRcJoiA50pWW",
+      "type": "subtopic",
+      "label": "Xác thực JWT",
+      "position": {
+        "x": -704.3054618325863,
+        "y": 413.25996814340215
+      },
+      "size": {
+        "width": 195,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Spring Security có thể được sử dụng để triển khai Xác thực và Phân quyền JWT cho các API của bạn. Thư viện này cung cấp bộ lọc xác thực dựa trên JWT mà bạn có thể thêm vào các điểm cuối API của mình. Bộ lọc sẽ kiểm tra JWT được bao gồm trong tiêu đề yêu cầu và nếu nó hợp lệ, nó sẽ đặt thông tin xác thực trong ngữ cảnh bảo mật. Bạn có thể sử dụng ngữ cảnh bảo mật để thực hiện kiểm tra phân quyền trên các điểm cuối API.",
+        "links": [
+          {
+            "title": "Xác thực Token JWT trong Spring",
+            "url": "https://springframework.guru/jwt-authentication-in-spring-microservices-jwt-token/",
+            "type": "article"
+          },
+          {
+            "title": "Spring Security với JWT cho REST API",
+            "url": "https://www.toptal.com/spring/spring-security-tutorial",
+            "type": "article"
+          },
+          {
+            "title": "Spring Security - JWT",
+            "url": "https://www.tutorialspoint.com/spring_security/spring_security_with_jwt.htm",
+            "type": "article"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Xác thực",
+            "url": "https://app.daily.dev/tags/authentication?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Vx7GXHYuM0ZOB9_ovS6sw",
+      "type": "paragraph",
+      "label": "Spring Boot",
+      "position": {
+        "x": -286.8175069304428,
+        "y": 441.71361308804387
+      },
+      "size": {
+        "width": 143,
+        "height": 67
+      },
+      "style": {
+        "fontSize": 20,
+        "borderColor": "transparent",
+        "backgroundColor": "transparent",
+        "color": "#000000",
+        "textAlign": "left",
+        "justifyContent": "flex-start",
+        "padding": 16
+      },
+      "z_index": 999
+    },
+    {
+      "id": "JrH2hiu27PhIO1VtrArMa",
+      "type": "topic",
+      "label": "Spring Boot Starters",
+      "position": {
+        "x": -329.3175069304428,
+        "y": 596.7136130880439
+      },
+      "size": {
+        "width": 201,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Các bộ khởi động Spring Boot là một tập hợp các mô tả phụ thuộc thuận tiện mà bạn có thể bao gồm trong ứng dụng của mình. Chúng cung cấp nhiều chức năng khác nhau, chẳng hạn như bảo mật, truy cập dữ liệu và dịch vụ web, đồng thời giúp giảm thiểu lượng mã boilerplate và cấu hình bạn cần viết.",
+        "links": [
+          {
+            "title": "Giới thiệu các bộ khởi động Spring Boot",
+            "url": "https://www.baeldung.com/spring-boot-starters",
+            "type": "article"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Spring Framework",
+            "url": "https://app.daily.dev/tags/spring?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "88-h3d7kb-VmUBsnUUXW_",
+      "type": "topic",
+      "label": "Tự động cấu hình",
+      "position": {
+        "x": -329.3175069304428,
+        "y": 649.7136130880439
+      },
+      "size": {
+        "width": 179,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Tự cấu hình của Spring Boot là một tính năng mạnh mẽ và thuận tiện giúp bạn dễ dàng cấu hình các bean và các thành phần khác trong ứng dụng dựa trên sự hiện diện của một số phụ thuộc và thuộc tính nhất định. Nó tiết kiệm thời gian cho nhà phát triển bằng cách giảm nhu cầu mã cấu hình boilerplate, và có thể được tinh chỉnh thông qua thuộc tính và chú thích để cung cấp khả kiểm soát chi tiết hơn đối với các cấu hình tự động.",
+        "links": [
+          {
+            "title": "Tự cấu hình bằng Spring Boot",
+            "url": "https://docs.spring.io/spring-boot/docs/2.0.x/reference/html/using-boot-auto-configuration.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "N7hd3d_XQtvOgnCqdCFt3",
+      "type": "topic",
+      "label": "Actuator",
+      "position": {
+        "x": -329.3175069304428,
+        "y": 702.7136130880439
+      },
+      "size": {
+        "width": 117,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Spring Boot Actuators là một tập hợp các tính năng sẵn sàng để sử dụng trong môi trường sản xuất Spring Boot cho phép bạn giám sát và quản lý ứng dụng của mình theo nhiều cách khác nhau. Chúng cung cấp nhiều điểm cuối (endpoints) để lộ thông tin về sức khỏe và hiệu suất của ứng dụng, đồng thời cho phép thực hiện các tác vụ quản lý khác nhau như tắt ứng dụng hoặc cập nhật cấu hình của nó. Spring Boot Actuators thường được sử dụng trong môi trường sản xuất để giám sát sức khỏe và hiệu suất của một ứng dụng và xác định bất kỳ vấn đề nào có thể phát sinh. Chúng cũng có thể được sử dụng trong môi trường phát triển và kiểm thử để hiểu rõ hơn về cách thức hoạt động bên trong của ứng dụng.",
+        "links": [
+          {
+            "title": "Xây dựng Dịch vụ Web RESTful với Spring Boot Actuator",
+            "url": "https://spring.io/guides/gs/actuator-service/",
+            "type": "official"
+          },
+          {
+            "title": "Spring Boot Actuator là một extension cho phép bạn expose các endpoints để quản lý và giám sát ứng dụng Spring Boot của mình. Các endpoints này cung cấp khả năng như logging, metrics, health checks, configuration information, và nhiều tính năng khác giúp bạn dễ dàng theo dõi và quản lý ứng dụng trong quá trình phát triển và sản xuất.",
+            "url": "https://www.baeldung.com/spring-boot-actuators",
+            "type": "article"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Spring Framework",
+            "url": "https://app.daily.dev/tags/spring?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ONb0VnSUMY8JBeW3G2mTp",
+      "type": "topic",
+      "label": "Máy chủ Nhúng",
+      "position": {
+        "x": -329.3175069304428,
+        "y": 755.7136130880439
+      },
+      "size": {
+        "width": 185,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Tính năng Máy chủ Nhúng của Spring Boot là một tính năng thuận tiện và mạnh mẽ cho phép bạn chạy máy chủ web trực tiếp trong ứng dụng của mình mà không cần triển khai nó trên một máy chủ web độc lập. Điều này giúp dễ dàng phát triển, kiểm thử và triển khai các ứng dụng web, đồng thời nó cũng nhẹ, dễ khởi động và dừng lại, và dễ cấu hình.",
+        "links": [
+          {
+            "title": "Hướng dẫn ‘How-to’ về Máy chủ Web Nhúng",
+            "url": "https://docs.spring.io/spring-boot/docs/2.1.9.RELEASE/reference/html/howto-embedded-web-servers.html",
+            "type": "official"
+          },
+          {
+            "title": "Máy chủ Nhúng trong Spring",
+            "url": "https://subscription.packtpub.com/book/application-development/9781789132588/3/ch03lvl1sec24/embedded-servers",
+            "type": "article"
+          },
+          {
+            "title": "Máy chủ nhúng là gì? (Spring Boot)",
+            "url": "https://www.springboottutorial.com/java-programmer-essentials-what-is-an-embedded-server",
+            "type": "article"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Hệ thống Nhúng",
+            "url": "https://app.daily.dev/tags/embedded?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "h5-HnycxfbJgwalSdXTAz",
+      "type": "topic",
+      "label": "Hibernate",
+      "position": {
+        "x": -663.3054618325863,
+        "y": 755.7136130880439
+      },
+      "size": {
+        "width": 248,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Hibernate là một framework Java cung cấp ánh xạ đối tượng-từ-mô hình đối tượng-hướng đến cơ sở dữ liệu quan hệ. Điều này có nghĩa là Hibernate chuyển đổi từ các lớp Java sang bảng cơ sở dữ liệu và cũng cung cấp khả năng truy vấn và lấy dữ liệu.",
+        "links": [
+          {
+            "title": "Sự khác biệt giữa Spring và Hibernate",
+            "url": "https://www.educba.com/spring-vs-hibernate/",
+            "type": "article"
+          },
+          {
+            "title": "Spring Hibernate Integration Example",
+            "url": "https://www.digitalocean.com/community/tutorials/spring-hibernate-integration-example-tutorial",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "H9Z0EvKT_148vD0mR-dUf",
+      "type": "subtopic",
+      "label": "Giao dịch",
+      "position": {
+        "x": -704.3054618325863,
+        "y": 560.5044010696047
+      },
+      "size": {
+        "width": 248,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Một giao dịch chỉ đơn giản là một đơn vị công việc. Trong trường hợp này, nếu một bước nào đó thất bại, toàn bộ giao dịch sẽ thất bại (điều này được gọi là tính bất biến). Một giao dịch có thể được mô tả bằng các thuộc tính ACID (Bất biến, Tính nhất quán, Cô lập và Khả năng bền vững). Chúng ta có giao diện Transaction trong framework Hibernate, định nghĩa đơn vị công việc. Nó duy trì sự trừu tượng hóa khỏi việc triển khai giao dịch (JTA, JDBC).",
+        "links": [
+          {
+            "title": "Quản Lý Giao Dịch Hibernate",
+            "url": "https://www.javaguides.net/2018/12/hibernate-transaction-management-tutorial.html",
+            "type": "article"
+          },
+          {
+            "title": "Giao Dịch Hibernate",
+            "url": "https://www.w3schools.blog/hibernate-transaction-management",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "D4ybyh0ydvl9W2_xUcvZ_",
+      "type": "subtopic",
+      "label": "Mối quan hệ",
+      "position": {
+        "x": -704.3054618325863,
+        "y": 613.5044010696047
+      },
+      "size": {
+        "width": 248,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Khi sử dụng Hibernate, nếu chúng ta muốn có mối quan hệ giữa hai thực thể, phải có khóa ngoại giữa các bảng, chúng ta gọi đó là Tính toàn vẹn tham chiếu. Ưu điểm chính của việc có mối quan hệ giữa các đối tượng là chúng ta có thể thực hiện thao tác trên một đối tượng và cùng một thao tác đó có thể được chuyển sang đối tượng khác trong cơ sở dữ liệu.",
+        "links": [
+          {
+            "title": "Quan Hệ Hibernate Chi Tiết",
+            "url": "https://www.java4s.com/hibernate/hibernate-relationships-in-depth/",
+            "type": "article"
+          },
+          {
+            "title": "Hướng dẫn JPA với Hibernate - Phân Mapped Quan Hệ",
+            "url": "https://stackabuse.com/a-guide-to-jpa-with-hibernate-relationship-mapping/",
+            "type": "article"
+          },
+          {
+            "title": "Phân Mapped Hibernate",
+            "url": "https://dzone.com/articles/hibernate-mapping",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Ijmy0J3VyaeTGXtu2VkkQ",
+      "type": "subtopic",
+      "label": "Vòng đời Entity",
+      "position": {
+        "x": -704.3054618325863,
+        "y": 666.5044010696047
+      },
+      "size": {
+        "width": 248,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Trong Hibernate, chúng ta có thể tạo một thực thể mới và lưu trữ nó vào cơ sở dữ liệu hoặc trích xuất dữ liệu hiện có của thực thể từ cơ sở dữ liệu. Các thực thể này được kết nối với vòng đời và mỗi đối tượng thực thể sẽ đi qua các giai đoạn khác nhau của vòng đời. Có bốn trạng thái chính trong Vòng Đời Hibernate: * Trạng Thái Transit * Trạng Thái Duy Vận * Trạng Thái Tách Biệt * Trạng Thái Xóa",
+        "links": [
+          {
+            "title": "Vòng Đời Thực Thể Hibernate & Trạng Thái của nó",
+            "url": "https://www.baeldung.com/hibernate-entity-lifecycle",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pvVLbFQoT50vz_VRK4VbJ",
+      "type": "topic",
+      "label": "Spring Data",
+      "position": {
+        "x": -663.3054618325863,
+        "y": 853.4919152447768
+      },
+      "size": {
+        "width": 248,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Spring Data là một bộ sưu tập các dự án để truy cập dữ liệu trong các ứng dụng dựa trên Spring. Nó cung cấp một giao diện chung để làm việc với nhiều loại kho lưu trữ dữ liệu khác nhau, bao gồm cơ sở dữ liệu quan hệ, kho lưu trữ NoSQL và dịch vụ dữ liệu dựa trên đám mây. Mục tiêu của Spring Data là đơn giản hóa truy cập dữ liệu trong các ứng dụng Spring bằng cách cung cấp một mô hình lập trình repository nhất quán, cấp cao cho nhiều loại kho lưu trữ dữ liệu và công nghệ truy cập dữ liệu khác nhau. Điều này có thể giúp các nhà phát triển viết ít mã lặp lại hơn và tập trung vào logic nghiệp vụ, đồng thời vẫn có thể tận dụng tối đa sức mạnh của kho lưu trữ dữ liệu cơ bản.",
+        "links": [
+          {
+            "title": "Spring Data",
+            "url": "https://spring.io/projects/spring-data",
+            "type": "official"
+          },
+          {
+            "title": "Spring Data – One API To Rule Them All?",
+            "url": "https://www.infoq.com/articles/spring-data-intro/",
+            "type": "article"
+          },
+          {
+            "title": "JPA, Spring Data và Spring Data JPA là gì?",
+            "url": "https://www.amitph.com/jpa-and-spring-data-jpa/",
+            "type": "article"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Spring Framework",
+            "url": "https://app.daily.dev/tags/spring?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6u08QN-pUeFm3o0h5Scfm",
+      "type": "subtopic",
+      "label": "Spring Data JPA",
+      "position": {
+        "x": -704.3054618325863,
+        "y": 955.8193989499127
+      },
+      "size": {
+        "width": 248,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Spring Data JPA là một thư viện giúp dễ dàng triển khai các repository dựa trên Java Persistence API (JPA) cho các ứng dụng Spring. Nó là một lớp trừu tượng trên JPA cho phép bạn sử dụng một API đơn giản và thuận tiện hơn để thực hiện các thao tác CRUD (Tạo, Đọc, Cập nhật, Xóa) trên cơ sở dữ liệu. Spring Data JPA cũng cung cấp thêm các chức năng như phân trang, tạo truy vấn động và nhiều hơn nữa.",
+        "links": [
+          {
+            "title": "Spring Data JPA",
+            "url": "https://spring.io/projects/spring-data-jpa",
+            "type": "official"
+          },
+          {
+            "title": "Giới thiệu Spring Data JPA",
+            "url": "https://www.baeldung.com/the-persistence-layer-with-spring-data-jpa",
+            "type": "article"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Spring Framework",
+            "url": "https://app.daily.dev/tags/spring?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "fy-TphbqkLpR1zvFcr7dg",
+      "type": "subtopic",
+      "label": "Spring Data MongoDB",
+      "position": {
+        "x": -704.3054618325863,
+        "y": 1008.8193989499127
+      },
+      "size": {
+        "width": 248,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Spring Data cho MongoDB là một phần của dự án Spring Data lớn hơn nhằm cung cấp một mô hình lập trình quen thuộc và nhất quán dựa trên Spring cho các kho lưu trữ mới đồng thời duy trì các tính năng và khả năng cụ thể của kho lưu trữ. Dự án Spring Data MongoDB cung cấp tích hợp với cơ sở dữ liệu tài liệu MongoDB. Các lĩnh vực chức năng chính của Spring Data MongoDB là một mô hình tập trung vào POJO để tương tác với một MongoDB DBCollection và dễ dàng viết một lớp truy cập dữ liệu theo kiểu Repository.",
+        "links": [
+          {
+            "title": "Spring Data MongoDB",
+            "url": "https://spring.io/projects/spring-data-mongodb",
+            "type": "official"
+          },
+          {
+            "title": "Tích hợp Spring Boot với MongoDB - Hướng dẫn",
+            "url": "https://www.mongodb.com/compatibility/spring-boot",
+            "type": "official"
+          },
+          {
+            "title": "Giới thiệu về Spring Data MongoDB",
+            "url": "https://www.baeldung.com/spring-data-mongodb-tutorial",
+            "type": "article"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về MongoDB",
+            "url": "https://app.daily.dev/tags/mongodb?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dd1A-MyzBs_kNOtVG7f1D",
+      "type": "subtopic",
+      "label": "Spring Data JDBC",
+      "position": {
+        "x": -704.3054618325863,
+        "y": 1061.8193989499127
+      },
+      "size": {
+        "width": 248,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Spring Data JDBC là một phần của dự án Spring Data, cung cấp hỗ trợ để sử dụng JDBC (Java Database Connectivity) để tương tác với các cơ sở dữ liệu quan hệ. Nó được thiết kế để cung cấp một mô hình lập trình đơn giản và nhất quán để tương tác với cơ sở dữ liệu bằng JDBC, đồng thời vẫn cho phép toàn bộ sức mạnh của JDBC được sử dụng nếu cần thiết. Spring Data JDBC cung cấp một tập hợp các lớp trừu tượng và tiện ích giúp đơn giản hóa việc làm việc với cơ sở dữ liệu, chẳng hạn như một lớp mẫu đơn giản để thực thi truy vấn SQL, một trừu tượng kho lưu trữ để triển khai đối tượng truy cập dữ liệu (DAOs) và hỗ trợ cho trang và sắp xếp kết quả truy vấn. Nó hoạt động với cả Java và Kotlin.",
+        "links": [
+          {
+            "title": "Spring Data JDBC",
+            "url": "https://spring.io/projects/spring-data-jdbc",
+            "type": "official"
+          },
+          {
+            "title": "Spring Data JDBC – Tài liệu tham khảo",
+            "url": "https://docs.spring.io/spring-data/jdbc/docs/current/reference/html/",
+            "type": "article"
+          },
+          {
+            "title": "Giới thiệu Spring Data JDBC",
+            "url": "https://www.baeldung.com/spring-data-jdbc-intro",
+            "type": "article"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Spring Framework",
+            "url": "https://app.daily.dev/tags/spring?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "jU_KHoPUSU_HoIKk0ZpRF",
+      "type": "topic",
+      "label": "Microservices",
+      "position": {
+        "x": -329.3175069304428,
+        "y": 853.4919152447768
+      },
+      "size": {
+        "width": 248,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Spring Microservices là một framework giúp dễ dàng xây dựng và quản lý ứng dụng dựa trên microservice bằng Spring Framework. Microservice là một phong cách kiến trúc trong đó một ứng dụng lớn được xây dựng thành một tập hợp các dịch vụ nhỏ, độc lập có thể triển khai. Mỗi dịch vụ có trách nhiệm hẹp và giao tiếp với các dịch vụ khác thông qua API.",
+        "links": [
+          {
+            "title": "Microservices với Spring",
+            "url": "https://spring.io/microservices",
+            "type": "official"
+          },
+          {
+            "title": "Microservices với Spring Boot",
+            "url": "https://medium.com/omarelgabrys-blog/microservices-with-spring-boot-intro-to-microservices-part-1-c0d24cd422c3",
+            "type": "article"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Microservices",
+            "url": "https://app.daily.dev/tags/microservices?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "VWNDYSw83Vzi2UPQprJ5z",
+      "type": "subtopic",
+      "label": "Spring Cloud",
+      "position": {
+        "x": 63.8618127280065,
+        "y": 853.4919152447768
+      },
+      "size": {
+        "width": 144,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center",
+        "colorType": "h"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Spring Cloud là một tập hợp các thư viện và công cụ để xây dựng ứng dụng gốc đám mây bằng Spring Framework. Nó cung cấp một bộ trừu tượng và triển khai cho các mẫu và phương pháp hay thường được sử dụng trong các ứng dụng dựa trên đám mây, chẳng hạn như khám phá dịch vụ, quản lý cấu hình và mẫu cầu dao, v.v.",
+        "links": [
+          {
+            "title": "Spring Cloud",
+            "url": "https://spring.io/projects/spring-cloud",
+            "type": "official"
+          },
+          {
+            "title": "Spring Cloud – Khởi động",
+            "url": "https://www.baeldung.com/spring-cloud-bootstrapping",
+            "type": "article"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Cloud",
+            "url": "https://app.daily.dev/tags/cloud?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "f-i0NX2KOzCh3JwkaSPFo",
+      "type": "subtopic",
+      "label": "Gateway của Spring Cloud",
+      "position": {
+        "x": 63.8618127280065,
+        "y": 641.2298102954034
+      },
+      "size": {
+        "width": 277,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Gateway Spring Cloud là thư viện của Spring Framework để xây dựng các API Gateway. Một API Gateway là một dịch vụ đóng vai trung gian giữa một ứng dụng và một tập hợp các microservice. API Gateway chịu trách nhiệm định tuyến yêu cầu, ghép nối (composition) và chuyển đổi giao thức, cùng với nhiều chức năng khác. Nó cũng có thể thực hiện các tác vụ như xác thực, giới hạn tốc độ truy cập và bộ nhớ cache.",
+        "links": [
+          {
+            "title": "Gateway của Spring Cloud",
+            "url": "https://spring.io/projects/spring-cloud-gateway",
+            "type": "official"
+          },
+          {
+            "title": "Spring Cloud Gateway là gì?",
+            "url": "https://tanzu.vmware.com/developer/guides/scg-what-is/",
+            "type": "article"
+          },
+          {
+            "title": "Khám phá Gateway Spring Cloud mới",
+            "url": "https://www.baeldung.com/spring-cloud-gateway",
+            "type": "article"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Cloud",
+            "url": "https://app.daily.dev/tags/cloud?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "9hG3CB8r41bUb_s8-0u73",
+      "type": "subtopic",
+      "label": "Cấu hình đám mây",
+      "position": {
+        "x": 63.8618127280065,
+        "y": 694.2298102954034
+      },
+      "size": {
+        "width": 277,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Spring Cloud Config là một thư viện để quản lý thuộc tính cấu hình cho các ứng dụng phân tán. Nó cho phép nhà phát triển gán quyền truy cập cấu hình bên ngoài cho một ứng dụng, để chúng có thể được thay đổi dễ dàng mà không cần sửa đổi mã của ứng dụng. Nó cũng cung cấp một máy chủ tập trung để lưu trữ và quản lý thuộc tính cấu hình cho nhiều ứng dụng, giúp dễ dàng cập nhật và khôi phục các cấu hình trên các môi trường khác nhau.",
+        "links": [
+          {
+            "title": "Cấu hình Spring Cloud",
+            "url": "https://spring.io/projects/spring-cloud-config",
+            "type": "official"
+          },
+          {
+            "title": "Giới thiệu nhanh về Cấu hình của Spring Cloud",
+            "url": "https://www.baeldung.com/spring-cloud-configuration",
+            "type": "article"
+          },
+          {
+            "title": "Spring Boot - Máy chủ Cấu hình Mây (Spring Boot - Cloud Configuration Server)",
+            "url": "https://www.tutorialspoint.com/spring_boot/spring_boot_cloud_configuration_server.htm",
+            "type": "article"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Cloud",
+            "url": "https://app.daily.dev/tags/cloud?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "kqpSlO--X9-xYxfq1KFVe",
+      "type": "subtopic",
+      "label": "Bộ ngắt mạch Spring Cloud",
+      "position": {
+        "x": 63.8618127280065,
+        "y": 747.2298102954034
+      },
+      "size": {
+        "width": 277,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Spring Cloud Circuit Breaker là một thư viện để quản lý khả năng chịu lỗi của các ứng dụng dựa trên microservice bằng cách sử dụng mẫu Circuit Breaker. Mẫu Circuit Breaker là một mẫu thiết kế giúp ngăn chặn các sự cố lan truyền và cải thiện tính bền bỉ của hệ thống phân tán. Nó làm điều này bằng cách giới thiệu một \"cầu dao\" trong bộ đệm phía trước một dịch vụ có thể phát hiện khi dịch vụ không phản hồi hoặc đã thất bại, và tạm dừng việc chuyển hướng lưu lượng truy cập đến nó để cho phép dịch vụ phục hồi.",
+        "links": [
+          {
+            "title": "Bộ ngắt mạch Spring Cloud",
+            "url": "https://spring.io/projects/spring-cloud-circuitbreaker",
+            "type": "official"
+          },
+          {
+            "title": "Hướng dẫn nhanh về Bộ ngắt mạch của Spring Cloud Circuit Breaker",
+            "url": "https://www.baeldung.com/spring-cloud-circuit-breaker",
+            "type": "article"
+          },
+          {
+            "title": "Spring Cloud - Bộ ngắt mạch Đường dây (Hystrix) sử dụng Hystrix",
+            "url": "https://www.tutorialspoint.com/spring_cloud/spring_cloud_circuit_breaker_using_hystrix.htm",
+            "type": "article"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Cloud",
+            "url": "https://app.daily.dev/tags/cloud?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "EKSXTMSN2xdaleJ4wOV1A",
+      "type": "subtopic",
+      "label": "Spring Cloud Open Feign",
+      "position": {
+        "x": 63.8618127280065,
+        "y": 955.2633845627711
+      },
+      "size": {
+        "width": 277,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Spring Cloud OpenFeign là một thư viện để tạo các client REST khai báo trong ứng dụng Spring. Nó cho phép nhà phát triển dễ dàng thực hiện các yêu cầu HTTP đến các microservice hoặc dịch vụ từ xa khác mà không cần phải viết mã chi tiết để xử lý các yêu cầu và phản hồi. OpenFeign được xây dựng dựa trên OpenFeign declarative HTTP client, một thư viện đơn giản, nhẹ để tạo các client HTTP trong Java.",
+        "links": [
+          {
+            "title": "OpenFeign",
+            "url": "https://spring.io/projects/spring-cloud-openfeign",
+            "type": "official"
+          },
+          {
+            "title": "Giới thiệu Spring Cloud OpenFeign",
+            "url": "https://www.baeldung.com/spring-cloud-openfeign",
+            "type": "article"
+          },
+          {
+            "title": "Triển khai đơn giản của Spring Cloud OpenFeign",
+            "url": "https://medium.com/javarevisited/simple-implementation-of-spring-cloud-openfeign-7f022630d01d",
+            "type": "article"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Cloud",
+            "url": "https://app.daily.dev/tags/cloud?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "GsmBGRohWbJ6XOaALFZ8o",
+      "type": "subtopic",
+      "label": "Micrometer",
+      "position": {
+        "x": 63.8618127280065,
+        "y": 1008.2633845627711
+      },
+      "size": {
+        "width": 277,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "6sLE6gb5Y477SmO2GhQIG",
+      "type": "subtopic",
+      "label": "Eureka",
+      "position": {
+        "x": 206.8618127280065,
+        "y": 1008.2633845627711
+      },
+      "size": {
+        "width": 277,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Spring Cloud Eureka là một thư viện để khám phá dịch vụ trong kiến trúc dựa trên microservice. Khám phá dịch vụ là một kỹ thuật cho phép các dịch vụ tìm và giao tiếp với nhau mà không cần phải mã hóa địa chỉ của chúng. Eureka là một bộ đăng ký dịch vụ cho phép các phiên bản dịch vụ tự đăng ký và khám phá các dịch vụ khác theo tên. Nó cung cấp một cách đơn giản, nhất quán để các dịch vụ tìm và giao tiếp với nhau, đồng thời tích hợp với các thư viện Spring Cloud khác như Ribbon và Feign để cung cấp cân bằng tải và khách hàng REST khai báo.",
+        "links": [
+          {
+            "title": "Giới thiệu Spring Cloud Netflix – Eureka",
+            "url": "https://www.baeldung.com/spring-cloud-netflix-eureka",
+            "type": "article"
+          },
+          {
+            "title": "Spring Boot - Máy chủ Eureka (Spring Boot - Eureka Server)",
+            "url": "https://www.tutorialspoint.com/spring_boot/spring_boot_eureka_server.htm",
+            "type": "article"
+          },
+          {
+            "title": "Giới thiệu Spring Cloud EUREKA",
+            "url": "https://www.youtube.com/watch?v=1uNo1NrqsX4",
+            "type": "video"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Phát triển Backend",
+            "url": "https://app.daily.dev/tags/backend?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "S-BbOoRD7anvoJrprjoKF",
+      "type": "topic",
+      "label": "Spring MVC",
+      "position": {
+        "x": -329.3175069304428,
+        "y": 1216.5088543799602
+      },
+      "size": {
+        "width": 248,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Spring MVC là một framework ứng dụng web thuộc về Spring Framework. Nó được thiết kế để giúp dễ dàng xây dựng ứng dụng web bằng mẫu thiết kế Model-View-Controller (MVC). Trong Spring MVC, ứng dụng được chia thành ba thành phần chính: Mô hình, Giao diện và Điều khiển. Mô hình đại diện cho dữ liệu và logic nghiệp vụ của ứng dụng, Giao diện chịu trách nhiệm tạo ra HTML được gửi đến trình duyệt web của người dùng, và Điều khiển đóng vai trò là trung gian giữa Mô hình và Giao diện, xử lý các yêu cầu HTTP đến và tạo ra phản hồi thích hợp.",
+        "links": [
+          {
+            "title": "Spring - Khung MVC",
+            "url": "https://www.tutorialspoint.com/spring/spring_web_mvc_framework.htm",
+            "type": "article"
+          },
+          {
+            "title": "Spring MVC Tutorial – Tất cả những điều bạn cần biết",
+            "url": "https://www.edureka.co/blog/spring-mvc-tutorial/",
+            "type": "article"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Spring Framework",
+            "url": "https://app.daily.dev/tags/spring?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "35NTx2eO1j02sjy4m6DPq",
+      "type": "subtopic",
+      "label": "Servlet",
+      "position": {
+        "x": -704.3054618325863,
+        "y": 1162.1076554015908
+      },
+      "size": {
+        "width": 277,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Một servlet Spring là một lớp Java đóng vai trò trung tâm để xử lý các yêu cầu và quản lý vòng đời của container IoC Spring. Framework Spring cung cấp một lớp có tên DispatcherServlet, đóng vai trò là front controller trong một ứng dụng web dựa trên Spring. Khi người dùng thực hiện một yêu cầu đến một ứng dụng web Spring, DispatcherServlet chịu trách nhiệm xử lý yêu cầu, ủy thác trách nhiệm cho các thành phần khác và cuối cùng trả về phản hồi cho người dùng. DispatcherServlet cũng quản lý vòng đời của container IoC Spring, bao gồm tạo và khởi tạo container và cung cấp sẵn các bean để sử dụng bởi các thành phần khác trong ứng dụng.",
+        "links": [
+          {
+            "title": "DispatcherServlet",
+            "url": "https://docs.spring.io/spring-framework/docs/3.0.0.M4/spring-framework-reference/html/ch15s02.html",
+            "type": "official"
+          },
+          {
+            "title": "DispatcherServlet và web.xml trong Spring Boot",
+            "url": "https://www.baeldung.com/spring-boot-dispatcherservlet-web-xml",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Lz0GPMiYzb30iFJdv1dL6",
+      "type": "subtopic",
+      "label": "Tệp JSP",
+      "position": {
+        "x": -704.3054618325863,
+        "y": 1215.1076554015908
+      },
+      "size": {
+        "width": 277,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "JSP (JavaServer Pages) là một công nghệ để xây dựng trang web động bằng Java. Trong một ứng dụng Spring MVC sử dụng JSPs, thành phần view của mẫu MVC được triển khai bằng các tệp JSP. Các tệp JSP chứa logic trình bày cho ứng dụng và chịu trách nhiệm tạo HTML được gửi đến trình duyệt web của người dùng. Khi người dùng thực hiện yêu cầu đến một ứng dụng Spring MVC, DispatcherServlet, đóng vai trò là bộ điều khiển phía trước, xử lý yêu cầu và ủy thác trách nhiệm tạo phản hồi cho tệp JSP phù hợp.",
+        "links": [
+          {
+            "title": "Spring MVC: từ JSP và Tiles đến Thymeleaf",
+            "url": "https://spring.io/blog/2012/10/30/spring-mvc-from-jsp-and-tiles-to-thymeleaf/",
+            "type": "official"
+          },
+          {
+            "title": "Spring Boot Với JavaServer Pages (JSP)",
+            "url": "https://www.baeldung.com/spring-boot-jsp",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "_vS_zdJZegZS6MIKAFyg8",
+      "type": "subtopic",
+      "label": "Kiến trúc",
+      "position": {
+        "x": -704.3054618325863,
+        "y": 1268.1076554015908
+      },
+      "size": {
+        "width": 277,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Khung Spring MVC (Model-View-Controller) là một khung ứng dụng web thuộc về Spring Framework. Nó được thiết kế để giúp bạn dễ dàng xây dựng các ứng dụng web bằng mẫu thiết kế MVC.",
+        "links": [
+          {
+            "title": "Tổng quan về kiến trúc Spring MVC",
+            "url": "https://terasolunaorg.github.io/guideline/1.0.1.RELEASE/en/Overview/SpringMVCOverview.html",
+            "type": "article"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Kiến trúc",
+            "url": "https://app.daily.dev/tags/architecture?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sgA06Tu9Y4cEHtfI8CyLL",
+      "type": "subtopic",
+      "label": "Các thành phần",
+      "position": {
+        "x": -704.3054618325863,
+        "y": 1321.1076554015908
+      },
+      "size": {
+        "width": 277,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Khung Spring MVC (Model-View-Controller) có nhiều thành phần chính làm việc cùng nhau để xử lý các yêu cầu và tạo ra các phản hồi phù hợp trong một ứng dụng web. Ngoài ra còn có các thành phần hỗ trợ khác được sử dụng để quản lý vòng đời của các đối tượng trong ứng dụng, chẳng hạn như container Spring IoC và các interceptor cung cấp thêm chức năng, chẳng hạn như bộ nhớ cache và bảo mật.",
+        "links": [
+          {
+            "title": "Khung Web MVC",
+            "url": "https://docs.spring.io/spring-framework/docs/3.2.x/spring-framework-reference/html/mvc.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "7Qqrh_Rz_7uAD49g9sDzi",
+      "type": "topic",
+      "label": "Kiểm thử",
+      "position": {
+        "x": -329.3175069304428,
+        "y": 1326.5562767322235
+      },
+      "size": {
+        "width": 248,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Spring cung cấp một bộ công cụ hỗ trợ kiểm thử giúp dễ dàng kiểm tra các thành phần khác nhau của một ứng dụng Spring, bao gồm cả điều khiển, dịch vụ, kho lưu trữ và các thành phần khác. Nó có một tập hợp phong phú các chú thích kiểm thử, lớp tiện ích và các tính năng khác để hỗ trợ kiểm tra đơn vị, kiểm tra tích hợp và nhiều hơn nữa.",
+        "links": [
+          {
+            "title": "Spring Testing là gì?",
+            "url": "https://www.developer.com/design/what-is-spring-testing/",
+            "type": "article"
+          },
+          {
+            "title": "Hướng dẫn toàn diện về Kiểm thử Spring",
+            "url": "https://www.lambdatest.com/blog/spring-testing/",
+            "type": "article"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Testing",
+            "url": "https://app.daily.dev/tags/testing?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Nhx2QiSD_4pVWD17lsCbu",
+      "type": "subtopic",
+      "label": "Kiểm thử JPA",
+      "position": {
+        "x": 24.5539544766211,
+        "y": 1270.7911348223495
+      },
+      "size": {
+        "width": 162,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Spring JPA (Java Persistence API) là một thư viện giúp dễ dàng làm việc với cơ sở dữ liệu và các kho lưu trữ dữ liệu khác trong một ứng dụng Spring. Spring JPA sử dụng Java Persistence API (JPA) để tương tác với cơ sở dữ liệu và cung cấp một lớp trừu tượng để làm việc với các kho lưu trữ dữ liệu khác nhau.",
+        "links": [
+          {
+            "title": "Kiểm thử các truy vấn JPA với Spring Boot và @DataJpaTest",
+            "url": "https://reflectoring.io/spring-boot-data-jpa-test/",
+            "type": "article"
+          },
+          {
+            "title": "Ví dụ sử dụng chú thích @DataJpaTest cho Kiểm thử Đơn vị của Spring Data Repository",
+            "url": "https://www.bezkoder.com/spring-boot-unit-test-jpa-repo-datajpatest/",
+            "type": "article"
+          },
+          {
+            "title": "Kiểm thử trong Spring Boot",
+            "url": "https://www.baeldung.com/spring-boot-testing",
+            "type": "article"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Java",
+            "url": "https://app.daily.dev/tags/java?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5d1BERqTKNJMKiBcqa8Ie",
+      "type": "subtopic",
+      "label": "Mock MVC",
+      "position": {
+        "x": 185.5539544766211,
+        "y": 1270.7911348223495
+      },
+      "size": {
+        "width": 162,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Spring's MockMvc là một lớp cho phép bạn kiểm thử các bộ điều khiển Spring MVC mà không cần máy chủ web thực tế. Nó thuộc mô-đun Spring Test, cung cấp một tập hợp tiện ích kiểm thử cho các ứng dụng Spring.",
+        "links": [
+          {
+            "title": "Spring MockMVC tutorial",
+            "url": "https://zetcode.com/spring/mockmvc/",
+            "type": "article"
+          },
+          {
+            "title": "Ví dụ Spring Boot MockMVC",
+            "url": "https://howtodoinjava.com/spring-boot2/testing/spring-boot-mockmvc-example/",
+            "type": "article"
+          },
+          {
+            "title": "Kiểm thử tích hợp trong Spring",
+            "url": "https://baeldung.com/integration-testing-in-spring",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "p91CaVPh5GMzFU0yEU_hl",
+      "type": "subtopic",
+      "label": "Chú thích @SpringBootTest",
+      "position": {
+        "x": 24.5539544766211,
+        "y": 1325.2397561529822
+      },
+      "size": {
+        "width": 298,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Ghi chú `@SpringBootTest` được sử dụng để tạo một phiên bản cấu hình đầy đủ của Spring ApplicationContext cho mục đích kiểm thử. Nó có thể được sử dụng để kiểm tra các thành phần của ứng dụng, bao gồm cả controllers, services và repositories, trong môi trường ứng dụng thực tế.",
+        "links": [
+          {
+            "title": "Giao diện Phân tích Dữ liệu (Annotation) Spring Boot Test",
+            "url": "https://docs.spring.io/spring-boot/docs/current/api/org/springframework/boot/test/context/SpringBootTest.html",
+            "type": "official"
+          },
+          {
+            "title": "Kiểm thử với Spring Boot và @SpringBootTest",
+            "url": "https://reflectoring.io/spring-boot-test/",
+            "type": "article"
+          },
+          {
+            "title": "Kiểm thử trong Spring Boot",
+            "url": "https://www.baeldung.com/spring-boot-testing",
+            "type": "article"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Spring Framework",
+            "url": "https://app.daily.dev/tags/spring?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "i77NTa0hpGGBjmql9u_CT",
+      "type": "subtopic",
+      "label": "Chú thích @MockBean",
+      "position": {
+        "x": 24.5539544766211,
+        "y": 1378.2397561529822
+      },
+      "size": {
+        "width": 298,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`MockBean` là một chú thích (annotation) của Spring có thể được sử dụng để tạo ra một triển khai giả (mock implementation) cho một đối tượng (bean) trong ngữ cảnh ứng dụng Spring. Khi một bài kiểm thử (test) được đánh dấu với `MockBean`, Spring sẽ tạo ra một triển khai giả của đối tượng đã chỉ định và thêm nó vào ngữ cảnh ứng dụng. Triển khai giả này có thể được sử dụng để thay thế đối tượng thực tế trong quá trình kiểm thử.",
+        "links": [
+          {
+            "title": "Giao diện Mô phỏng (Mock Bean)",
+            "url": "https://docs.spring.io/spring-boot/docs/current/api/org/springframework/boot/test/mock/mockito/MockBean.html",
+            "type": "official"
+          },
+          {
+            "title": "Mockito.mock() so với @Mock so với @MockBean",
+            "url": "https://www.baeldung.com/java-spring-mockito-mock-mockbean",
+            "type": "article"
+          },
+          {
+            "title": "Spring Boot @MockBean Ví dụ",
+            "url": "https://howtodoinjava.com/spring-boot2/testing/spring-mockbean-annotation/",
+            "type": "article"
+          }
+        ]
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "xy-edge__C2N5yOxCtdn_R6ceWvQlyz2-wV1_I_4czMIxpBionvLs4y2",
+      "source": "jy2heDVZuM6ASCXlI1TDn",
+      "target": "wV1_I_4czMIxpBionvLs4",
+      "source_handle": "z2",
+      "target_handle": "y2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__C2N5yOxCtdn_R6ceWvQlyz2-QiNWE4sMTao3cVzjt3yPpy1",
+      "source": "jy2heDVZuM6ASCXlI1TDn",
+      "target": "QiNWE4sMTao3cVzjt3yPp",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__C2N5yOxCtdn_R6ceWvQlyz2-PlUU_vzFQ3Xx6Z5XREIYPy1",
+      "source": "jy2heDVZuM6ASCXlI1TDn",
+      "target": "PlUU_vzFQ3Xx6Z5XREIYP",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__C2N5yOxCtdn_R6ceWvQlyz2-C2EQ5J1aJYF9e9Rr2KysTy1",
+      "source": "jy2heDVZuM6ASCXlI1TDn",
+      "target": "C2EQ5J1aJYF9e9Rr2KysT",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__C2N5yOxCtdn_R6ceWvQlyz2-OB--nMudscm0p6RqqfA7Ty1",
+      "source": "jy2heDVZuM6ASCXlI1TDn",
+      "target": "OB--nMudscm0p6RqqfA7T",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__C2N5yOxCtdn_R6ceWvQlyz2-HdCpfGMrMaXxk5QrtYn3Xy1",
+      "source": "jy2heDVZuM6ASCXlI1TDn",
+      "target": "HdCpfGMrMaXxk5QrtYn3X",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__C2N5yOxCtdn_R6ceWvQlyz2-KdN62IpNgPFMndXfLaYa1y1",
+      "source": "jy2heDVZuM6ASCXlI1TDn",
+      "target": "KdN62IpNgPFMndXfLaYa1",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__C2N5yOxCtdn_R6ceWvQlyz2-WGf3W6bdWL0rK0o6O28G2y1",
+      "source": "jy2heDVZuM6ASCXlI1TDn",
+      "target": "WGf3W6bdWL0rK0o6O28G2",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__C2N5yOxCtdn_R6ceWvQlyz2-yuXN-rD4AyyPYUYOR50L_y1",
+      "source": "jy2heDVZuM6ASCXlI1TDn",
+      "target": "yuXN-rD4AyyPYUYOR50L_",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__C2N5yOxCtdn_R6ceWvQlyz2-WrUCyVfFNUpHB8jyjjKnay1",
+      "source": "jy2heDVZuM6ASCXlI1TDn",
+      "target": "WrUCyVfFNUpHB8jyjjKna",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__jy2heDVZuM6ASCXlI1TDnx2-C2N5yOxCtdn_R6ceWvQlyw1",
+      "source": "jy2heDVZuM6ASCXlI1TDn",
+      "target": "KaUdyVWEiZa6lUDRBlOKt",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__C2N5yOxCtdn_R6ceWvQlyy2-ssdk2iAt4avhc8B5tnIzQz1",
+      "source": "KaUdyVWEiZa6lUDRBlOKt",
+      "target": "ssdk2iAt4avhc8B5tnIzQ",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__C2N5yOxCtdn_R6ceWvQlyy2-c7w7Z3Coa81FKa_yAKTsez1",
+      "source": "KaUdyVWEiZa6lUDRBlOKt",
+      "target": "c7w7Z3Coa81FKa_yAKTse",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__C2N5yOxCtdn_R6ceWvQlyy2-p7t3RlIIm9U08GFC6azffz1",
+      "source": "KaUdyVWEiZa6lUDRBlOKt",
+      "target": "p7t3RlIIm9U08GFC6azff",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__C2N5yOxCtdn_R6ceWvQlyy2-dd1A-MyzBs_kNOtVG7f1Dz1",
+      "source": "KaUdyVWEiZa6lUDRBlOKt",
+      "target": "1My7mbdwAbRcJoiA50pWW",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__C2N5yOxCtdn_R6ceWvQlyx2-Vx7GXHYuM0ZOB9_ovS6sww1",
+      "source": "KaUdyVWEiZa6lUDRBlOKt",
+      "target": "Vx7GXHYuM0ZOB9_ovS6sw",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__Vx7GXHYuM0ZOB9_ovS6swx2-JrH2hiu27PhIO1VtrArMaw2",
+      "source": "Vx7GXHYuM0ZOB9_ovS6sw",
+      "target": "JrH2hiu27PhIO1VtrArMa",
+      "source_handle": "x2",
+      "target_handle": "w2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__ONb0VnSUMY8JBeW3G2mTpy2-ZWFWkB61L8UbG-SREw6SJz2",
+      "source": "ONb0VnSUMY8JBeW3G2mTp",
+      "target": "h5-HnycxfbJgwalSdXTAz",
+      "source_handle": "y2",
+      "target_handle": "z2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__ZWFWkB61L8UbG-SREw6SJw2-dd1A-MyzBs_kNOtVG7f1Dx1",
+      "source": "h5-HnycxfbJgwalSdXTAz",
+      "target": "Ijmy0J3VyaeTGXtu2VkkQ",
+      "source_handle": "w2",
+      "target_handle": "x1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__h5-HnycxfbJgwalSdXTAzx2-ZWFWkB61L8UbG-SREw6SJw1",
+      "source": "h5-HnycxfbJgwalSdXTAz",
+      "target": "pvVLbFQoT50vz_VRK4VbJ",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__ZWFWkB61L8UbG-SREw6SJx2-6u08QN-pUeFm3o0h5Scfmw1",
+      "source": "pvVLbFQoT50vz_VRK4VbJ",
+      "target": "6u08QN-pUeFm3o0h5Scfm",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__pvVLbFQoT50vz_VRK4VbJz2-ZWFWkB61L8UbG-SREw6SJy1",
+      "source": "pvVLbFQoT50vz_VRK4VbJ",
+      "target": "jU_KHoPUSU_HoIKk0ZpRF",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__ZWFWkB61L8UbG-SREw6SJz2-VWNDYSw83Vzi2UPQprJ5zy1",
+      "source": "jU_KHoPUSU_HoIKk0ZpRF",
+      "target": "VWNDYSw83Vzi2UPQprJ5z",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__VWNDYSw83Vzi2UPQprJ5zw2-kqpSlO--X9-xYxfq1KFVex2",
+      "source": "VWNDYSw83Vzi2UPQprJ5z",
+      "target": "kqpSlO--X9-xYxfq1KFVe",
+      "source_handle": "w2",
+      "target_handle": "x2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__VWNDYSw83Vzi2UPQprJ5zx2-sgA06Tu9Y4cEHtfI8CyLLw1",
+      "source": "VWNDYSw83Vzi2UPQprJ5z",
+      "target": "EKSXTMSN2xdaleJ4wOV1A",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__jU_KHoPUSU_HoIKk0ZpRFx2-7Qqrh_Rz_7uAD49g9sDziw2",
+      "source": "jU_KHoPUSU_HoIKk0ZpRF",
+      "target": "S-BbOoRD7anvoJrprjoKF",
+      "source_handle": "x2",
+      "target_handle": "w2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__7Qqrh_Rz_7uAD49g9sDziy2-Lz0GPMiYzb30iFJdv1dL6z2",
+      "source": "S-BbOoRD7anvoJrprjoKF",
+      "target": "Lz0GPMiYzb30iFJdv1dL6",
+      "source_handle": "y2",
+      "target_handle": "z2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__7Qqrh_Rz_7uAD49g9sDziy2-_vS_zdJZegZS6MIKAFyg8z1",
+      "source": "S-BbOoRD7anvoJrprjoKF",
+      "target": "_vS_zdJZegZS6MIKAFyg8",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__7Qqrh_Rz_7uAD49g9sDziy2-sgA06Tu9Y4cEHtfI8CyLLz1",
+      "source": "S-BbOoRD7anvoJrprjoKF",
+      "target": "sgA06Tu9Y4cEHtfI8CyLL",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__7Qqrh_Rz_7uAD49g9sDziy2-i77NTa0hpGGBjmql9u_CTz1",
+      "source": "S-BbOoRD7anvoJrprjoKF",
+      "target": "35NTx2eO1j02sjy4m6DPq",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__S-BbOoRD7anvoJrprjoKFx2-7Qqrh_Rz_7uAD49g9sDziw1",
+      "source": "S-BbOoRD7anvoJrprjoKF",
+      "target": "7Qqrh_Rz_7uAD49g9sDzi",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__7Qqrh_Rz_7uAD49g9sDziz2-i77NTa0hpGGBjmql9u_CTy1",
+      "source": "7Qqrh_Rz_7uAD49g9sDzi",
+      "target": "i77NTa0hpGGBjmql9u_CT",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__7Qqrh_Rz_7uAD49g9sDziz2-p91CaVPh5GMzFU0yEU_hly1",
+      "source": "7Qqrh_Rz_7uAD49g9sDzi",
+      "target": "p91CaVPh5GMzFU0yEU_hl",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__7Qqrh_Rz_7uAD49g9sDziz2-Nhx2QiSD_4pVWD17lsCbuy1",
+      "source": "7Qqrh_Rz_7uAD49g9sDzi",
+      "target": "Nhx2QiSD_4pVWD17lsCbu",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    }
+  ],
+  "content_crawled_at": "2026-04-06T13:06:09.788948+00:00"
+}

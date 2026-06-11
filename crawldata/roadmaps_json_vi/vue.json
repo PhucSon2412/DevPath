@@ -1,0 +1,3921 @@
+{
+  "id": "vue",
+  "title": "Vue",
+  "source_url": "https://roadmap.sh/vue",
+  "github_url": "https://github.com/kamranahmedse/developer-roadmap/tree/master/src/data/roadmaps/vue",
+  "crawled_at": "2026-04-06T07:38:12.085226+00:00",
+  "type": "flow",
+  "stats": {
+    "total_nodes": 108,
+    "total_edges": 51,
+    "nodes_with_content": 84
+  },
+  "node_types": [
+    "button",
+    "horizontal",
+    "label",
+    "linksgroup",
+    "paragraph",
+    "section",
+    "subtopic",
+    "title",
+    "topic",
+    "vertical"
+  ],
+  "edge_styles": [
+    "dashed",
+    "solid"
+  ],
+  "edge_line_types": [
+    "default",
+    "smoothstep"
+  ],
+  "node_type_description": {
+    "title": "Tiêu đề chính của lộ trình",
+    "topic": "Chủ đề lớn (nhóm kỹ năng)",
+    "subtopic": "Kỹ năng/công nghệ cụ thể cần học",
+    "paragraph": "Vùng văn bản mô tả / chú thích",
+    "vertical": "Đường kết nối dọc (visual connector)"
+  },
+  "edge_style_description": {
+    "solid": "Kỹ năng bắt buộc / quan trọng",
+    "dashed": "Tùy chọn / gợi ý / phương án thay thế"
+  },
+  "nodes": [
+    {
+      "id": "sg9IjWWorT2lLEnUek-q5",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": -447.5730606910654,
+        "y": 1502.6656483488384
+      },
+      "size": {
+        "width": 233,
+        "height": 220
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "ua7DIYStv0V-G9f0vWE_W",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": -249.9953868087789,
+        "y": 1194.2566150719415
+      },
+      "size": {
+        "width": 218,
+        "height": 164
+      },
+      "style": {
+        "width": 150,
+        "height": 100,
+        "fontSize": 17,
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "s7zTkuA9XzDhJHb7-tL7A",
+      "type": "vertical",
+      "label": "nút dọc",
+      "position": {
+        "x": -216.52532545570534,
+        "y": 185.7304293708296
+      },
+      "size": {
+        "width": 21,
+        "height": 289
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.75
+      },
+      "z_index": 999
+    },
+    {
+      "id": "aIYgUc_hEIZx_2P3OhCNh",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": 304.6806160048882,
+        "y": 472.59334049231074
+      },
+      "size": {
+        "width": 239,
+        "height": 687
+      },
+      "style": {
+        "width": 150,
+        "height": 100,
+        "fontSize": 17,
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "iogwMmOvub2ZF4zgg6WyF",
+      "type": "title",
+      "label": "Vue",
+      "position": {
+        "x": -49.45968546864998,
+        "y": -155.76957062917046
+      },
+      "size": {
+        "width": 89,
+        "height": 68
+      },
+      "style": {
+        "fontSize": 28,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "LEijbLyxg4RyutKEM2Y5g",
+      "type": "vertical",
+      "label": "nút dọc",
+      "position": {
+        "x": -15.45968546864998,
+        "y": -230.76957062917046
+      },
+      "size": {
+        "width": 21,
+        "height": 64
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#0A33FF"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "xwpc_KxehAruFM0pCQnie",
+      "type": "vertical",
+      "label": "nút dọc",
+      "position": {
+        "x": -11.628773626739985,
+        "y": 2031.9010423312407
+      },
+      "size": {
+        "width": 21,
+        "height": 104
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#4136D4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "0EevuyZiyty3X3Jzpjl4y",
+      "type": "topic",
+      "label": "Thành phần",
+      "position": {
+        "x": 344.5448461352869,
+        "y": 177.7304293708296
+      },
+      "size": {
+        "width": 159,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Các thành phần cho phép chúng ta chia UI thành các khối độc lập và tái sử dụng, đồng thời suy nghĩ về từng khối một cách cô lập.",
+        "links": [
+          {
+            "title": "Cơ sở của Thành phần",
+            "url": "https://vuejs.org/guide/essentials/component-basics.html",
+            "type": "official"
+          },
+          {
+            "title": "Thành phần - Chi tiết sâu",
+            "url": "https://vuejs.org/guide/components/registration.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "y9ToYDix-koRbR6FLydFw",
+      "type": "subtopic",
+      "label": "create-vue",
+      "position": {
+        "x": 359.0448461352869,
+        "y": -59.05566976101454
+      },
+      "size": {
+        "width": 130,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "create-vue là một công cụ CLI giúp bạn tạo một dự án Vue mới bằng một lệnh duy nhất. Đây là một công cụ đơn giản và dễ sử dụng giúp bạn tiết kiệm thời gian và công sức khi thiết lập một dự án Vue mới. Tìm hiểu thêm bằng các nguồn tài liệu sau: - [@opensource@vuejs/create-vue](https://github.com/vuejs/create-vue) - [@official@Quick Start | Vue.js](https://vuejs.org/guide/quick-start.html) - [@feed@Explore top posts about Vue.js](https://app.daily.dev/tags/vuejs?ref=roadmapsh)",
+        "links": []
+      }
+    },
+    {
+      "id": "kPzzrnb2DRHlJ7piaywDe",
+      "type": "paragraph",
+      "label": "Khởi động Dự án",
+      "position": {
+        "x": 310.5448461352869,
+        "y": 26.444330238985458
+      },
+      "size": {
+        "width": 227,
+        "height": 64
+      },
+      "style": {
+        "fontSize": 17,
+        "borderColor": "transparent",
+        "backgroundColor": "transparent",
+        "color": "#000000",
+        "textAlign": "center",
+        "justifyContent": "center",
+        "padding": 16
+      },
+      "z_index": 999
+    },
+    {
+      "id": "VNBRlJkdH6NOOzGXUrbZK",
+      "type": "subtopic",
+      "label": "Component Đơn File",
+      "position": {
+        "x": -13.265315108760092,
+        "y": 177.7304293708296
+      },
+      "size": {
+        "width": 258,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Các thành phần Single-File của Vue (còn gọi là tệp `*.vue`, thường được viết tắt là SFC) là định dạng tệp đặc biệt cho phép chúng ta chứa mẫu, logic và kiểu dáng của một thành phần Vue trong một tệp duy nhất.",
+        "links": [
+          {
+            "title": "Component Đơn File",
+            "url": "https://vuejs.org/guide/scaling-up/sfc.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2HhKifjuDcP3eKpanRMEQ",
+      "type": "subtopic",
+      "label": "Đăng ký thành phần",
+      "position": {
+        "x": -13.265315108760092,
+        "y": 124.7304293708296
+      },
+      "size": {
+        "width": 258,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Một thành phần Vue cần được \"đăng ký\" để Vue biết cách tìm kiếm triển khai của nó khi nó được gặp trong một mẫu. Có hai cách để đăng ký các thành phần: toàn cục và cục bộ.",
+        "links": [
+          {
+            "title": "Đăng ký thành phần",
+            "url": "https://vuejs.org/guide/components/registration.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "raEfI4GLMW2fOucka07VE",
+      "type": "subtopic",
+      "label": "Props",
+      "position": {
+        "x": -13.265315108760092,
+        "y": 230.7304293708296
+      },
+      "size": {
+        "width": 71,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Nếu chúng ta đang xây dựng một blog, chúng ta có thể cần một thành phần đại diện cho bài đăng trên blog. Tất cả các bài đăng trên blog nên chia sẻ cùng một bố cục trực quan, nhưng với nội dung khác nhau. Một thành phần như vậy sẽ không hữu ích nếu bạn không thể truyền dữ liệu vào nó, chẳng hạn như tiêu đề và nội dung của bài đăng cụ thể mà chúng ta muốn hiển thị. Đó là nơi props xuất hiện. Props là các thuộc tính tùy chỉnh mà bạn có thể đăng ký trên một thành phần.",
+        "links": [
+          {
+            "title": "Props Basics",
+            "url": "https://vuejs.org/guide/essentials/component-basics.html#passing-props",
+            "type": "official"
+          },
+          {
+            "title": "Hiểu sâu về Props",
+            "url": "https://vuejs.org/guide/components/props.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "X0J3ogH3W8EQe68tLfcGL",
+      "type": "subtopic",
+      "label": "Sự kiện",
+      "position": {
+        "x": 60.73468489123991,
+        "y": 230.7304293708296
+      },
+      "size": {
+        "width": 71,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Khi phát triển các ứng dụng, chúng ta có thể cần giao tiếp với thành phần cha để thông báo về một số hành động ví dụ như khi người dùng nhấp vào nút. Để làm điều này, chúng ta cần sử dụng sự kiện.",
+        "links": [
+          {
+            "title": "Lắng Nghe Sự Kiện",
+            "url": "https://vuejs.org/guide/essentials/component-basics.html#listening-to-events",
+            "type": "official"
+          },
+          {
+            "title": "Chi tiết sự kiện",
+            "url": "https://vuejs.org/guide/components/events.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "swpyZFUO4UO3mW8Bvf1Te",
+      "type": "subtopic",
+      "label": "v-model",
+      "position": {
+        "x": 134.7346848912399,
+        "y": 230.7304293708296
+      },
+      "size": {
+        "width": 109,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "v-model là một directive cho phép bạn tạo liên kết dữ liệu hai chiều trên các phần tử input dạng biểu mẫu, textarea và select. Nó tự động chọn cách cập nhật đúng cho phần tử dựa trên kiểu đầu vào.",
+        "links": [
+          {
+            "title": "Hướng dẫn Vue.js",
+            "url": "https://vuejs.org/guide/components/v-model.html#component-v-model",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4S5fVFsFDMbq05ld7n0sF",
+      "type": "subtopic",
+      "label": "Di truyền thuộc tính",
+      "position": {
+        "x": -13.265315108760092,
+        "y": 283.7304293708296
+      },
+      "size": {
+        "width": 258,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Di truyền thuộc tính, còn được gọi là \"thuộc tính tiếp tục\" là một tính năng của Vue.js cho phép bạn kế thừa các thuộc tính từ thành phần cha.",
+        "links": [
+          {
+            "title": "Thuộc tính Fallthrough",
+            "url": "https://vuejs.org/guide/components/attrs.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "VlcYnTHW5d4J_zLYupvu5",
+      "type": "topic",
+      "label": "Mẫu",
+      "position": {
+        "x": 344.5448461352869,
+        "y": 279.7304293708296
+      },
+      "size": {
+        "width": 159,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Vue sử dụng cú pháp mẫu HTML cho phép bạn gán một cách tường minh DOM được hiển thị đến phiên bản dữ liệu của thành phần cơ sở nằm bên dưới. Tất cả các mẫu Vue đều là HTML hợp lệ có thể được phân tích bởi trình duyệt tuân thủ thông số kỹ thuật và trình phân tích HTML.",
+        "links": [
+          {
+            "title": "Cú pháp Mẫu",
+            "url": "https://vuejs.org/guide/essentials/template-syntax.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "CGdw3PqLRb9OqFU5SqmE1",
+      "type": "topic",
+      "label": "Hướng dẫn",
+      "position": {
+        "x": 344.5448461352869,
+        "y": 374.33464066194904
+      },
+      "size": {
+        "width": 159,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Hạn chế là các thuộc tính đặc biệt có tiền tố `v-`. Vue cung cấp một số lệnh (directives) tích hợp sẵn.",
+        "links": [
+          {
+            "title": "Tài liệu hướng dẫn (Directive)",
+            "url": "https://vuejs.org/guide/essentials/template-syntax.html#directives",
+            "type": "official"
+          },
+          {
+            "title": "Hướng dẫn Nhúng",
+            "url": "https://vuejs.org/api/built-in-directives.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "OpJ2NMKCGXQezpzURE45R",
+      "type": "topic",
+      "label": "Kiểu dáng API",
+      "position": {
+        "x": -293.59797432485874,
+        "y": 335.33464066194904
+      },
+      "size": {
+        "width": 128,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Mặc dù Vue 2 hỗ trợ nhiều phương pháp để viết thành phần, chỉ có một phương pháp, \"Options API\", được xây dựng trong và khả dụng mà không cần plugin. Vue 3 vẫn giữ lại Options API (OAPI) và thêm vào Composition API (CAPI). Composition API thực sự là một phần của Options API, nhưng nó chuyển hầu hết logic thành phần vào một hàm setup. Điều này dẫn đến phương pháp thứ ba để viết thành phần được xây dựng trong gọi là \"script/setup\", loại bỏ nhiều boilerplate từ Composition API. Các phương pháp này không xung đột với nhau. Mỗi thành phần trong dự án của bạn có thể sử dụng bất kỳ phương pháp nào, tuy nhiên để đảm bảo tính nhất quán, nên ưu tiên sử dụng một phương pháp và chỉ lệch sang một phương pháp khác khi có lý do chính đáng.",
+        "links": [
+          {
+            "title": "Sự khác biệt giữa Composition API và Options API trong Vue",
+            "url": "https://fjolt.com/article/vue-composition-api-vs-options-api",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PPUU3Rb73aCpT4zcyvlJE",
+      "type": "subtopic",
+      "label": "Tùy chọn API",
+      "position": {
+        "x": -519.8364531870259,
+        "y": 311.5660709449147
+      },
+      "size": {
+        "width": 175,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Vue cung cấp nhiều phương pháp để viết các thành phần, bao gồm API Options. Đây là API duy nhất có sẵn trong tất cả các phiên bản của Vue. Mục tiêu chính của nó là cung cấp một cách tiếp cận nhất quán, sạch sẽ và có tổ chức để viết logic thành phần. Mỗi phần của logic thành phần được gán cho một phần riêng biệt (dữ liệu, phương thức, tính toán, thuộc tính, vòng đời của trình thu hồi, v.v.). Bằng cách đặt logic vào phần đúng, nó có thể truy cập các tính năng của khung tự động. Với plugin Vue ESLint chính thức, thứ tự các phần này có thể được thực thi trên tất cả các thành phần, cho phép nhà phát triển xác định vị trí bất kỳ phần nào của thành phần một cách nhất quán, ngay cả khi họ chưa từng xem tệp trước đây.",
+        "links": [
+          {
+            "title": "TypeScript với Options API",
+            "url": "https://vuejs.org/guide/typescript/options-api.html",
+            "type": "official"
+          },
+          {
+            "title": "Tài liệu Tham khảo Options API",
+            "url": "https://vuejs.org/api/#options-api",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a0qwdQTunxEjQ9A5wpF-q",
+      "type": "subtopic",
+      "label": "Composition API",
+      "position": {
+        "x": -519.8364531870259,
+        "y": 364.56607094491454
+      },
+      "size": {
+        "width": 175,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Vue cung cấp nhiều phương pháp để viết các thành phần, bao gồm API \"Composition\", thường được sử dụng thông qua \"Script Setup\". Phương pháp này dựa trên việc lấy các hàm nguyên tử cấp thấp được sử dụng bởi động cơ phản ứng của Vue. Bằng cách kết hợp các hàm nguyên tử này lại với nhau, bạn có thể tạo ra hệ thống riêng để viết thành phần. Một tính năng cho phép điều này là mở rộng khả năng phản ứng bên ngoài thành phần. Điều này có nghĩa là bạn có thể trích xuất các hàm tùy chỉnh của mình để tái sử dụng trong nhiều thành phần. Khi tái sử dụng logic phản ứng, các hàm này được gọi là \"composables\".",
+        "links": [
+          {
+            "title": "TypeScript với Composition API",
+            "url": "https://vuejs.org/guide/typescript/composition-api.html",
+            "type": "official"
+          },
+          {
+            "title": "Câu hỏi thường gặp (FAQ) về Composition API",
+            "url": "https://vuejs.org/guide/extras/composition-api-faq.html",
+            "type": "official"
+          },
+          {
+            "title": "Composition API",
+            "url": "https://vuejs.org/api/#composition-api",
+            "type": "official"
+          },
+          {
+            "title": "Giao diện Thành phần Vue 3",
+            "url": "https://www.thisdot.co/blog/vue-3-composition-api-ref-and-reactive",
+            "type": "article"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Vue.js",
+            "url": "https://app.daily.dev/tags/vuejs?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "qRm08uDZW-D8QDc-9sPX8",
+      "type": "topic",
+      "label": "Cấu hình Ứng dụng",
+      "position": {
+        "x": -240.45968546864998,
+        "y": 152.74910795099487
+      },
+      "size": {
+        "width": 192,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Mỗi phiên bản ứng dụng đều có một đối tượng `config` chứa cài đặt cấu hình cho ứng dụng đó. Bạn có thể sửa đổi các thuộc tính của nó trước khi gắn kết ứng dụng.",
+        "links": [
+          {
+            "title": "Tài liệu Vue.js",
+            "url": "https://vuejs.org/api/application.html#app-config",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ftqDoGpwqqWQnu4NQSsMk",
+      "type": "subtopic",
+      "label": "Render danh sách",
+      "position": {
+        "x": 0.9532181586903334,
+        "y": 521.9023298779132
+      },
+      "size": {
+        "width": 219,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Chúng ta có thể sử dụng hướng dẫn `v-for` để hiển thị một danh sách các mục dựa trên một mảng. Hướng dẫn `v-for` yêu cầu cú pháp đặc biệt dưới dạng `item in items`, trong đó `items` là mảng dữ liệu nguồn và `item` là một alias cho phần tử mảng đang được lặp lại.",
+        "links": [
+          {
+            "title": "Render danh sách trong Vue.js",
+            "url": "https://vuejs.org/guide/essentials/list.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1oIt_5OK-t2WaCgaYt9A8",
+      "type": "subtopic",
+      "label": "Xử lý lỗi / Cảnh báo",
+      "position": {
+        "x": -519.8364531870259,
+        "y": 99.74910795099487
+      },
+      "size": {
+        "width": 209,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Gỡ lỗi trong Vue.js bao gồm xác định và sửa các vấn đề trong ứng dụng Vue của bạn. Đây là một phần thiết yếu của quy trình phát triển, và có nhiều công cụ và kỹ thuật khác nhau mà bạn có thể sử dụng để gỡ lỗi hiệu quả mã Vue của mình.",
+        "links": [
+          {
+            "title": "Tài liệu Gỡ lỗi",
+            "url": "https://vuejs.org/v2/cookbook/debugging-in-vscode.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "gihxGgt177BK_EYsAfpx9",
+      "type": "subtopic",
+      "label": "Thuộc tính toàn cục",
+      "position": {
+        "x": -519.8364531870259,
+        "y": 152.74910795099487
+      },
+      "size": {
+        "width": 209,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Thuộc tính toàn cục cho phép bạn thêm thuộc tính hoặc phương thức có thể truy cập trên toàn ứng dụng. Điều này đặc biệt hữu ích để chia sẻ chức năng hoặc dữ liệu giữa các thành phần mà không cần truyền props một cách rõ ràng.",
+        "links": [
+          {
+            "title": "Giao diện API Ứng dụng - globalProperties",
+            "url": "https://vuejs.org/api/application.html#app-config-globalproperties",
+            "type": "official"
+          },
+          {
+            "title": "Thuộc tính toàn cầu của Vue.js",
+            "url": "https://blog.logrocket.com/vue-js-globalproperties/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "f7N4pAp_jBlT8_8owAcbG",
+      "type": "subtopic",
+      "label": "Hiệu năng",
+      "position": {
+        "x": -519.8364531870259,
+        "y": 205.74910795099487
+      },
+      "size": {
+        "width": 209,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Các lĩnh vực cần cải thiện hiệu suất của Vue.js bao gồm tải chậm các thành phần để giảm thời gian tải ban đầu, tối ưu hóa hiển thị để ngăn chặn các lần render không cần thiết, triển khai quản lý trạng thái hiệu quả bằng các thư viện hiện đại như Pinia, giảm kích thước gói (bundle size) thông qua code splitting và tree shaking, sử dụng cuộn ảo (virtual scrolling) cho danh sách và bảng lớn, giám sát liên tục hiệu suất để phát hiện các nút thắt cổ chai tiềm ẩn, và giảm thiểu số lượng phụ thuộc để giảm tải tổng thể. Tìm hiểu thêm từ các nguồn sau: - [@article@How to Optimize Performance in Vue.js Applications: Beginner to Advanced Guide](https://dev.to/delia_code/how-to-optimize-performance-in-vuejs-applications-beginner-to-advanced-guide-53db) - [@article@Vue Directives Basics](https://vuejs.org/guide/best-practices/performance.html) - [@article@Pinia Documentation](https://pinia.vuejs.org/) - [@article@Webpack Documentation](https://webpack.js.org/) - [@article@Vue Virtual Scroller](https://github.com/Akryum/vue-virtual-scroller) - [@article@Vue Devtools Documentation](https://devtools.vuejs.org/) - [@article@Vue Best Practices](https://vuejs.org/guide/best-practices/overview.html)",
+        "links": []
+      }
+    },
+    {
+      "id": "tU4Umtnfu01t9gLlnlK6b",
+      "type": "subtopic",
+      "label": "Hiển thị điều kiện",
+      "position": {
+        "x": 0.9532181586903334,
+        "y": 468.90232987791325
+      },
+      "size": {
+        "width": 219,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Directive `v-if` được sử dụng để hiển thị có điều kiện một khối. Khối sẽ chỉ được hiển thị nếu biểu thức của directive trả về một giá trị truthy.",
+        "links": [
+          {
+            "title": "Hiển thị điều kiện",
+            "url": "https://vuejs.org/guide/essentials/conditional.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "NCIzs3jbQTv1xXhAaGfZN",
+      "type": "subtopic",
+      "label": "v-text",
+      "position": {
+        "x": 316.3072938863818,
+        "y": 515.560061206005
+      },
+      "size": {
+        "width": 104,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "H directive `v-text` được sử dụng để đặt thuộc tính textContent của một phần tử. Điều quan trọng cần lưu ý là khi sử dụng directive này, nó sẽ ghi đè nội dung HTML bên trong phần tử. Đầu vào mong đợi là một chuỗi, vì vậy điều quan trọng là phải bao bọc bất kỳ văn bản nào bằng dấu ngoặc đơn. Ví dụ ```html <template> <p v-text=\"'I am some text'\"></p> </template> ```",
+        "links": [
+          {
+            "title": "v-text Tài liệu",
+            "url": "https://vuejs.org/api/built-in-directives.html#v-text",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "bZxtIBeIfeUcR32LZWrPW",
+      "type": "subtopic",
+      "label": "v-html",
+      "position": {
+        "x": 424.093620869392,
+        "y": 515.560061206005
+      },
+      "size": {
+        "width": 112,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Hướng dẫn `v-html` tương tự như hướng dẫn `v-text`, nhưng sự khác biệt là `v-html` hiển thị nội dung của nó dưới dạng HTML. Điều này có nghĩa là nếu bạn truyền một phần tử HTML, nó sẽ được hiển thị như một phần tử và không phải văn bản thuần túy. Vì nội dung được hiển thị dưới dạng HTML, điều này có thể gây ra rủi ro bảo mật nếu nội dung chứa mã JavaScript độc hại. Vì lý do đó, bạn không nên sử dụng hướng dẫn này kết hợp với đầu vào người dùng trừ khi đầu vào được làm sạch trước tiên. ## Ví dụ ```html <template> <p v-html=\"'<h1>Text</h1>'\"></p> </template> ```",
+        "links": [
+          {
+            "title": "v-html Tài liệu",
+            "url": "https://vuejs.org/api/built-in-directives.html#v-html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "_TlbGTKFCMO0wdLbC6xHX",
+      "type": "subtopic",
+      "label": "v-show",
+      "position": {
+        "x": 316.3072938863818,
+        "y": 716.560061206005
+      },
+      "size": {
+        "width": 216,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`v-show` tương tự như `v-if` vì nó cho phép bạn hiển thị điều kiện các thành phần. Tuy nhiên, nó không loại bỏ thành phần khỏi DOM mà chỉ chuyển đổi thuộc tính CSS `display` của nó thành `hidden`. Nó cũng không hoạt động với `v-else-if` hoặc `v-else`. Ưu tiên sử dụng `v-show` hơn `v-if` nếu khả năng hiển thị của thành phần cần thay đổi thường xuyên, và `v-if` nếu không.",
+        "links": [
+          {
+            "title": "Render có điều kiện của Vue",
+            "url": "https://vuejs.org/guide/essentials/conditional.html#v-show",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "xHj3W9Ig3MVuVlGyXchaP",
+      "type": "subtopic",
+      "label": "v-if",
+      "position": {
+        "x": 316.3072938863818,
+        "y": 768.560061206005
+      },
+      "size": {
+        "width": 103,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Hiển thị điều kiện một phần tử hoặc fragment template dựa trên giá trị của biểu thức có thể đúng hay không. Khi một phần tử `v-if` được chuyển đổi, phần tử và các directive / thành phần chứa bên trong nó sẽ bị hủy và tái tạo lại. Nếu điều kiện ban đầu là sai, thì nội dung bên trong sẽ không được hiển thị. ## Ví dụ ```html <h1 v-if=\"awesome\">Vue is awesome!</h1> ```",
+        "links": [
+          {
+            "title": "v-if Tài liệu",
+            "url": "https://vuejs.org/api/built-in-directives.html#v-if",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "0CtAZQcFJexMiJfZ-mofv",
+      "type": "subtopic",
+      "label": "Nếu không",
+      "position": {
+        "x": 425.60847046222204,
+        "y": 768.560061206005
+      },
+      "size": {
+        "width": 107,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Hướng dẫn `v-else` hiển thị một phần tử hoặc một fragment mẫu một cách có điều kiện như một hàm khi điều kiện không được đáp ứng bởi `v-if`.",
+        "links": [
+          {
+            "title": "Nếu không có else, tài liệu",
+            "url": "https://vuejs.org/api/built-in-directives.html#v-else",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a9caVhderJaVo0v14w8WB",
+      "type": "subtopic",
+      "label": "Nếu không,...",
+      "position": {
+        "x": 316.3072938863818,
+        "y": 820.560061206005
+      },
+      "size": {
+        "width": 216,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Directive này được sử dụng để thêm các điều kiện bổ sung vào một khối `v-if` và `v-else`.",
+        "links": [
+          {
+            "title": "Nếu không phải trường hợp else nếu",
+            "url": "https://vuejs.org/api/built-in-directives.html#v-else-if",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3ftwRjQ9e1-qDT9BV53zr",
+      "type": "subtopic",
+      "label": "lặp vòng (loop)",
+      "position": {
+        "x": 316.3072938863818,
+        "y": 911.0003386751386
+      },
+      "size": {
+        "width": 216,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Hướng dẫn `v-for` được sử dụng để hiển thị một phần tử HTML, một khối các phần tử hoặc thậm chí một thành phần dựa trên một mảng, một đối tượng hoặc một số lượng cố định. Khi sử dụng hướng dẫn này, điều quan trọng là phải gán một khóa duy nhất cho mỗi mục để tránh các vấn đề và cải thiện hiệu suất. Hướng dẫn này tuân theo cú pháp `item in items` ## Ví dụ ```html <script setup> import { ref } from 'vue'; const foods = ref([ {id: 1, name: \"apple\"}, {id: 2, name: \"pear\"}, {id: 3, name: \"pizza\"} ]); </script> <template> <p v-for=\"food in foods\" :key=\"food.id\">{{ food.name }}</p> </template> ```",
+        "links": [
+          {
+            "title": "Vòng lặp (loop) Tài liệu hướng dẫn",
+            "url": "https://vuejs.org/guide/essentials/list#v-for",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hVuRmhXVP65IPtuHTORjJ",
+      "type": "subtopic",
+      "label": "v-on",
+      "position": {
+        "x": 316.3072938863818,
+        "y": 1001.0824225237909
+      },
+      "size": {
+        "width": 216,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Directive `v-on` được đặt trên một phần tử để gắn một trình nghe sự kiện. Để gắn trình nghe sự kiện với `v-on`, chúng ta cần cung cấp loại sự kiện và bất kỳ modifier nào, cũng như phương thức hoặc biểu thức sẽ chạy khi sự kiện xảy ra.",
+        "links": [
+          {
+            "title": "v-on Tài liệu",
+            "url": "https://vuejs.org/api/built-in-directives.html#v-on",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cuM9q9vYy8JpZPGeBffd1",
+      "type": "subtopic",
+      "label": "v-bind",
+      "position": {
+        "x": 316.3072938863818,
+        "y": 567.560061206005
+      },
+      "size": {
+        "width": 104,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Hướng dẫn `v-bind` liên kết động một thuộc tính HTML với dữ liệu. Kỹ thuật viết tắt cho hướng dẫn này là `:` ## Ví dụ ```html <script setup> import { ref } from 'vue'; const image_url = ref(\"path/to/image.png\") </script> <template> <img :src=\"image_url\" /> </template> ```",
+        "links": [
+          {
+            "title": "liên kết dữ liệu (data binding)",
+            "url": "https://vuejs.org/api/built-in-directives.html#v-bind",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cxu2Wbt306SxM4JKQQqnL",
+      "type": "subtopic",
+      "label": "v-model",
+      "position": {
+        "x": 424.093620869392,
+        "y": 567.560061206005
+      },
+      "size": {
+        "width": 112,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Directive `v-model` trong Vue.js được sử dụng để tạo liên kết dữ liệu hai chiều trên các phần tử đầu vào dạng biểu mẫu, chẳng hạn như `<input>`, `<textarea>` và `<select>`. Điều này có nghĩa là dữ liệu có thể được cập nhật trong thành phần khi người dùng nhập một cái gì đó, và giao diện sẽ cập nhật nếu dữ liệu trong thành phần thay đổi. - [@official@Liên kết đầu vào dạng biểu mẫu](https://vuejs.org/guide/essentials/forms.html)",
+        "links": []
+      }
+    },
+    {
+      "id": "m9pQ3daR3KiwRATcQysHA",
+      "type": "subtopic",
+      "label": "v-slot",
+      "position": {
+        "x": 319.60847046222204,
+        "y": 1090.7930632441885
+      },
+      "size": {
+        "width": 101,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Directive `v-slot` để định nghĩa các slot trong thành phần, cho phép bạn truyền và hiển thị nội dung động bên trong một thành phần. Đối với các slot có tên, bạn sử dụng `v-slot` với tên slot cụ thể. Điều này cho phép bạn truyền nội dung khác nhau đến các phần khác nhau của một thành phần: ```html <template> <custom-component> <template v-slot:header> <h1>Nội dung tiêu đề</h1> </template> <template v-slot:footer> <p>Nội dung chân trang</p> </template> </custom-component> </template> ``` Tóm tắt cho `v-slot` là `#`, ví dụ `v-slot:header` trở thành `#header`.",
+        "links": [
+          {
+            "title": "v-slot Tài liệu",
+            "url": "https://vuejs.org/api/built-in-directives.html#v-slot",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "T4gBws699f0L6_2KitOmO",
+      "type": "label",
+      "label": "Biểu diễn dữ liệu (Interpolation)",
+      "position": {
+        "x": 358.60847046222204,
+        "y": 480.810061206005
+      },
+      "size": {
+        "width": 114,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "0bGhocvW0638QjfmkB1H1",
+      "type": "label",
+      "label": "Điều kiện (Conditional)",
+      "position": {
+        "x": 358.60847046222204,
+        "y": 677.810061206005
+      },
+      "size": {
+        "width": 112,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "qS8aEgb48igiqQ_hDEm-b",
+      "type": "label",
+      "label": "Lặp lại (Iterative)",
+      "position": {
+        "x": 384.8072938863818,
+        "y": 875.0003386751386
+      },
+      "size": {
+        "width": 79,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "5k9CrbzhNy9iiS6ez2UE6",
+      "type": "subtopic",
+      "label": "v-once",
+      "position": {
+        "x": 316.3072938863818,
+        "y": 619.560061206005
+      },
+      "size": {
+        "width": 104,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Hướng dẫn `v-once` khiến một phần tử HTML hiển thị chỉ một lần, bỏ qua mọi cập nhật trong tương lai. ## Ví dụ ```html <script setup> import { ref } from 'vue'; const input = ref(\"Some Text\"); </script> <template> <input v-model=\"input\"> <p v-once>{{ input }}</p> </template> ``` Trong ví dụ này, phần tử **p** sẽ không thay đổi văn bản của nó ngay cả khi biến `input` được thay đổi thông qua phần tử `input`.",
+        "links": [
+          {
+            "title": "v-once Tài liệu",
+            "url": "https://vuejs.org/api/built-in-directives.html#v-once",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mlsrhioiEkqnRIL6O3hNa",
+      "type": "subtopic",
+      "label": "Backend",
+      "position": {
+        "x": 424.093620869392,
+        "y": 619.560061206005
+      },
+      "size": {
+        "width": 112,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Hướng dẫn `v-pre` khiến một phần tử hiển thị nội dung của nó như là nó, bỏ qua quá trình biên dịch. Trường hợp sử dụng phổ biến nhất là khi hiển thị cú pháp Mustache thô. ## Ví dụ ```html <script setup> import { ref } from 'vue'; const text = ref(\"Some Text\") </script> <template> <p v-pre >{{ text }}</p> </template> ``` Phần tử **p** sẽ hiển thị: `{{ text }}` và không phải `Some Text` vì quá trình biên dịch đã bị bỏ qua.",
+        "links": [
+          {
+            "title": "Backend Tài liệu",
+            "url": "https://vuejs.org/api/built-in-directives.html#v-pre",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "MZ38pZ5MykwdjjWdpd6bQ",
+      "type": "label",
+      "label": "Liên kết sự kiện",
+      "position": {
+        "x": 362.3072938863818,
+        "y": 965.0824225237909
+      },
+      "size": {
+        "width": 124,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "jFgWJnXJlysaz8pDkUKZf",
+      "type": "label",
+      "label": "Mẫu",
+      "position": {
+        "x": 376.1806160048882,
+        "y": 1052.9006472331898
+      },
+      "size": {
+        "width": 96,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "RrSekP8Ub01coegMwLP6a",
+      "type": "subtopic",
+      "label": "v-cloak",
+      "position": {
+        "x": 426.60847046222204,
+        "y": 1090.7930632441885
+      },
+      "size": {
+        "width": 101,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Directive `v-cloak` được sử dụng để ngăn nội dung mẫu Vue chưa biên dịch hiển thị trong khi phiên bản Vue vẫn đang tải. Nó tạm thời ẩn nội dung cho đến khi Vue hoàn thành việc biên dịch mẫu. Directive `v-cloak` sẽ tồn tại cho đến khi phiên bản thành phần được gắn vào. ```html <div v-cloak> {{ message }} </div> ``` Kết hợp với CSS, bạn có thể ẩn các phần tử bằng `v-cloak` cho đến khi chúng sẵn sàng. ```css [v-cloak] { display: none; } ``` Phần tử `<div>` sẽ không hiển thị cho đến khi quá trình biên dịch hoàn tất.",
+        "links": [
+          {
+            "title": "v-cloak Tài liệu",
+            "url": "https://vuejs.org/api/built-in-directives.html#v-cloak",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "_dQbXoFTJHaOARTWDUeHY",
+      "type": "paragraph",
+      "label": "Render (Hiển thị)",
+      "position": {
+        "x": 36.95321815869033,
+        "y": 371.83464066194904
+      },
+      "size": {
+        "width": 147,
+        "height": 54
+      },
+      "style": {
+        "fontSize": 17,
+        "borderColor": "transparent",
+        "backgroundColor": "transparent",
+        "color": "#000000",
+        "textAlign": "center",
+        "justifyContent": "center",
+        "padding": 16
+      },
+      "z_index": 999
+    },
+    {
+      "id": "RRPhAxIqvAcjZIcLe_N8-",
+      "type": "subtopic",
+      "label": "Tối ưu hóa Render",
+      "position": {
+        "x": 0.9532181586903334,
+        "y": 574.9023298779132
+      },
+      "size": {
+        "width": 219,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Tối ưu hóa hiển thị là rất quan trọng để đảm bảo trải nghiệm người dùng mượt mà và hiệu quả trên tất cả các dự án Frontend của bạn. Các trang web chậm chạp có thể gây ra sự khó chịu cho người dùng và thậm chí khiến họ bỏ ngang ứng dụng web của bạn. Vấn đề này thường xuyên xảy ra nhất trong các ứng dụng Single-Page (SPA), nơi toàn bộ ứng dụng được tải vào một trang web duy nhất và các bản cập nhật được xử lý động mà không cần phải tải lại đầy đủ trang web. Tìm hiểu thêm từ các nguồn tài liệu sau: - [@article@Tối ưu hóa hiển thị trong Vue](https://blog.logrocket.com/optimizing-rendering-vue/)",
+        "links": []
+      }
+    },
+    {
+      "id": "dxwKfBxd5KYVkfEPMdHp-",
+      "type": "subtopic",
+      "label": "Gỡ lỗi",
+      "position": {
+        "x": 0.9532181586903334,
+        "y": 627.9023298779132
+      },
+      "size": {
+        "width": 219,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Gỡ lỗi trong Vue.js bao gồm xác định và sửa các vấn đề trong ứng dụng Vue của bạn. Đây là một phần thiết yếu của quy trình phát triển, và có nhiều công cụ và kỹ thuật khác nhau mà bạn có thể sử dụng để gỡ lỗi hiệu quả mã Vue của mình.",
+        "links": [
+          {
+            "title": "Tài liệu Gỡ lỗi",
+            "url": "https://vuejs.org/v2/cookbook/debugging-in-vscode.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "WiGG9_4G5y-AVA9byw6_g",
+      "type": "topic",
+      "label": "Các Hook của Vòng Đời",
+      "position": {
+        "x": -293.52532545570534,
+        "y": 467.810061206005
+      },
+      "size": {
+        "width": 175,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Mỗi phiên bản thành phần Vue khi được tạo ra sẽ trải qua một loạt các bước khởi tạo - ví dụ như cần thiết lập quan sát dữ liệu, biên dịch template, gắn kết phiên bản vào DOM và cập nhật DOM khi dữ liệu thay đổi. Trong quá trình này, nó cũng chạy các hàm gọi là lifecycle hooks, cung cấp cho người dùng cơ hội để thêm mã của họ tại các giai đoạn cụ thể.",
+        "links": [
+          {
+            "title": "Các Hook của Vòng Đời",
+            "url": "https://vuejs.org/guide/essentials/lifecycle.html",
+            "type": "official"
+          },
+          {
+            "title": "Các vòng đời của Vue.js",
+            "url": "https://dev.to/amolikvivian/the-lifecycles-of-vue-js-lhh",
+            "type": "article"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về React Hooks",
+            "url": "https://app.daily.dev/tags/react-hooks?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PQu4TyJOfCEaafW5th0e4",
+      "type": "topic",
+      "label": "Xử lý Biểu mẫu",
+      "position": {
+        "x": -293.59797432485874,
+        "y": 591.0683595993249
+      },
+      "size": {
+        "width": 175,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Bạn có thể sử dụng hướng dẫn `v-model` để tạo liên kết dữ liệu hai chiều trên các phần tử đầu vào biểu mẫu. Nó tự động chọn cách cập nhật đúng cho phần tử dựa trên kiểu đầu vào.",
+        "links": [
+          {
+            "title": "Liên kết Đầu vào Form",
+            "url": "https://vuejs.org/guide/essentials/forms.html",
+            "type": "official"
+          },
+          {
+            "title": "Hướng dẫn Vue JS 3 - Xử lý Form",
+            "url": "https://www.youtube.com/watch?v=T-AE-GtSlN4",
+            "type": "video"
+          },
+          {
+            "title": "Hướng dẫn toàn diện về biểu mẫu trong Vue.js",
+            "url": "https://blog.logrocket.com/an-imperative-guide-to-forms-in-vue-js-2/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "NfB3HlZ3uwYK5xszvV50b",
+      "type": "subtopic",
+      "label": "Liên kết đầu vào (Input Bindings)",
+      "position": {
+        "x": -514.5059150365778,
+        "y": 538.0683595993249
+      },
+      "size": {
+        "width": 157,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Liên kết đầu vào là một cách để liên kết đầu vào của người dùng đến dữ liệu của thành phần. Điều này cho phép thành phần phản ứng với đầu vào của người dùng và cập nhật trạng thái của nó cho phù hợp. Liên kết đầu vào thường được sử dụng với các yếu tố dạng biểu mẫu như ô nhập văn bản, hộp kiểm và menu thả xuống.",
+        "links": [
+          {
+            "title": "Liên kết đầu vào (Input Bindings)",
+            "url": "https://vuejs.org/guide/essentials/forms",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "gMFndBcrTC6FtGryqN6dX",
+      "type": "subtopic",
+      "label": "v-model",
+      "position": {
+        "x": -514.5059150365778,
+        "y": 591.0683595993249
+      },
+      "size": {
+        "width": 157,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Directive `v-model` trong Vue.js được sử dụng để tạo liên kết dữ liệu hai chiều trên các phần tử đầu vào dạng biểu mẫu, chẳng hạn như `<input>`, `<textarea>` và `<select>`. Điều này có nghĩa là dữ liệu có thể được cập nhật trong thành phần khi người dùng nhập một cái gì đó, và giao diện sẽ cập nhật nếu dữ liệu trong thành phần thay đổi. - [@official@Liên kết đầu vào dạng biểu mẫu](https://vuejs.org/guide/essentials/forms.html)",
+        "links": []
+      }
+    },
+    {
+      "id": "dSfrFLr8wKkLAOMJwtCTr",
+      "type": "subtopic",
+      "label": "Modifiers",
+      "position": {
+        "x": -514.5059150365778,
+        "y": 644.0683595993249
+      },
+      "size": {
+        "width": 157,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Modifiers là các hậu tố đặc biệt có thể được thêm vào các directive (như v-model và v-bind) để thay đổi hành vi của chúng. Modifiers cho phép bạn chỉ định thêm chức năng hoặc ràng buộc cho việc liên kết, làm cho nó linh hoạt và mạnh mẽ hơn.",
+        "links": [
+          {
+            "title": "Modifiers",
+            "url": "https://vuejs.org/guide/essentials/forms.html#modifiers",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4p6Gh2fMPA8hls_mWa5HR",
+      "type": "topic",
+      "label": "Xử lý sự kiện",
+      "position": {
+        "x": -293.59797432485874,
+        "y": 719.560061206005
+      },
+      "size": {
+        "width": 175,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Khi bạn xây dựng một trang web động với Vue, bạn có lẽ muốn nó có khả năng phản hồi các sự kiện. Ví dụ, nếu người dùng nhấp vào nút, gửi biểu mẫu hoặc thậm chí chỉ di chuyển con trỏ chuột, bạn có thể muốn trang web Vue của mình phản ứng theo cách nào đó.",
+        "links": [
+          {
+            "title": "Xử lý sự kiện trong Vue.js",
+            "url": "https://vuejs.org/guide/essentials/event-handling.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b7iXwtUnELg_ShbCyTrNA",
+      "type": "subtopic",
+      "label": "Liên kết Sự kiện",
+      "position": {
+        "x": -512.8080206821377,
+        "y": 826.1444350693496
+      },
+      "size": {
+        "width": 242,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Vue.js là một framework JavaScript front-end mã nguồn mở Model–View–ViewModel để xây dựng giao diện người dùng và ứng dụng một trang. Vue.js có nhiều directive riêng cho thao tác DOM như v-bind, v-on, v-model,... Gán sự kiện là một phần thiết yếu trong việc tạo các ứng dụng tương tác. Bạn có thể gán sự kiện bằng directive v-on hoặc dạng tắt của nó, ký hiệu @.",
+        "links": [
+          {
+            "title": "Liên kết Sự kiện",
+            "url": "https://vuejs.org/guide/essentials/event-handling",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "gVahaZNPktQuqdukFEbQH",
+      "type": "subtopic",
+      "label": "Xử lý sự kiện trực tiếp (Inline / Method Handlers)",
+      "position": {
+        "x": -512.8080206821377,
+        "y": 879.1444350693496
+      },
+      "size": {
+        "width": 242,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Trong Vue.js, **người xử lý trực tiếp** được định nghĩa trực tiếp trong mẫu bằng biểu thức, làm cho chúng phù hợp với các tác vụ đơn giản. Ví dụ, bạn có thể sử dụng người xử lý trực tiếp để tăng một bộ đếm. **Người xử lý phương thức**, ngược lại, được định nghĩa trong tùy chọn `methods` và tốt hơn cho logic phức tạp hơn hoặc khi tái sử dụng chức năng trên nhiều thành phần. Chúng cải thiện khả năng đọc mã và bảo trì.",
+        "links": [
+          {
+            "title": "Xử lý sự kiện trực tiếp (Inline Handlers)",
+            "url": "https://vuejs.org/guide/essentials/event-handling#inline-handlers",
+            "type": "official"
+          },
+          {
+            "title": "Xử Lý Phương Pháp (Method Handlers)",
+            "url": "https://vuejs.org/guide/essentials/event-handling#method-handlers",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Aaf7eA-5sbAD5Cs1MbdTQ",
+      "type": "subtopic",
+      "label": "Modifier sự kiện",
+      "position": {
+        "x": -512.8080206821377,
+        "y": 932.1444350693496
+      },
+      "size": {
+        "width": 242,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Trong Vue.js, các sửa đổi sự kiện là các hậu tố đặc biệt mà bạn có thể thêm vào người xử lý sự kiện để kiểm soát hành vi của sự kiện một cách dễ dàng hơn. Chúng giúp đơn giản hóa các tác vụ phổ biến như ngăn chặn lan truyền, ngăn chặn hành động mặc định và đảm bảo rằng sự kiện chỉ được kích hoạt trong một số điều kiện nhất định.",
+        "links": [
+          {
+            "title": "Modifier sự kiện",
+            "url": "https://vuejs.org/guide/essentials/event-handling#event-modifiers",
+            "type": "official"
+          },
+          {
+            "title": "Modifier sự kiện trong Vue.js",
+            "url": "https://www.freecodecamp.org/news/how-event-handling-works-in-vue-3-guide-for-devs/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "BXw36wqhmi3gExXwFCIBd",
+      "type": "subtopic",
+      "label": "Trợ chỉnh (Key Modifiers)",
+      "position": {
+        "x": -512.8080206821377,
+        "y": 985.1444350693496
+      },
+      "size": {
+        "width": 242,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Liên kết đầu vào là một cách để liên kết đầu vào của người dùng đến dữ liệu của thành phần. Điều này cho phép thành phần phản ứng với đầu vào của người dùng và cập nhật trạng thái của nó cho phù hợp. Liên kết đầu vào thường được sử dụng với các yếu tố dạng biểu mẫu như ô nhập văn bản, hộp kiểm và menu thả xuống.",
+        "links": [
+          {
+            "title": "Trợ chỉnh (Key Modifiers)",
+            "url": "https://vuejs.org/guide/essentials/event-handling#key-modifiers",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "x0wl2Qz2LTP4Q2tThKAt3",
+      "type": "subtopic",
+      "label": "Chế độ thay đổi bằng nút chuột (Mouse Button Modifiers)",
+      "position": {
+        "x": -512.8080206821377,
+        "y": 1038.1444350693496
+      },
+      "size": {
+        "width": 242,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Chế độ thay đổi bằng nút chuột là một loại chế độ có thể được sử dụng với trình xử lý sự kiện để chỉ định nút chuột hoặc các nút chuột nào sẽ kích hoạt sự kiện. Các chế độ này cho phép tùy chỉnh hành vi của trình xử lý sự kiện, chẳng hạn như v-on:click, để phản hồi các lần nhấp chuột bằng nút chuột cụ thể.",
+        "links": [
+          {
+            "title": "Chế độ thay đổi bằng nút chuột (Mouse Button Modifiers)",
+            "url": "https://vuejs.org/guide/essentials/event-handling#mouse-button-modifiers",
+            "type": "official"
+          },
+          {
+            "title": "Bộ Biến Đa nhấn Nút",
+            "url": "https://medium.com/evolve-you/vue-3-keyboard-and-mouse-a4866d7d0e8",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Bx1Atxcf15AEaA1BiSIc6",
+      "type": "topic",
+      "label": "Thuộc tính được tính toán",
+      "position": {
+        "x": 59.54031453135002,
+        "y": 719.560061206005
+      },
+      "size": {
+        "width": 211,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Biểu thức trong khuôn mẫu (in-template expressions) rất tiện lợi, nhưng chúng được thiết kế cho các thao tác đơn giản. Việc đặt quá nhiều logic vào các khuôn mẫu có thể làm chúng trở nên cồng kềnh và khó bảo trì. Tính năng Computed properties cho phép chúng ta đơn giản hóa các logic phức tạp bao gồm dữ liệu phản ứng (reactive data).",
+        "links": [
+          {
+            "title": "Thuộc tính được tính toán",
+            "url": "https://vuejs.org/guide/essentials/computed.html#computed-properties",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "A5p6pqSOtLJybt4LrZ1St",
+      "type": "paragraph",
+      "label": "Chủ đề nâng cao",
+      "position": {
+        "x": 67.04031453135002,
+        "y": 968.2507883342075
+      },
+      "size": {
+        "width": 196,
+        "height": 76
+      },
+      "style": {
+        "fontSize": 20,
+        "borderColor": "transparent",
+        "backgroundColor": "transparent",
+        "color": "#000000",
+        "textAlign": "center",
+        "justifyContent": "center",
+        "padding": 16
+      },
+      "z_index": 999
+    },
+    {
+      "id": "Re7tv1U0LxYqE5ShFxQSf",
+      "type": "subtopic",
+      "label": "Thành phần bất đồng bộ",
+      "position": {
+        "x": -248.45827207144166,
+        "y": 822.7507883342075
+      },
+      "size": {
+        "width": 218,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Trong các ứng dụng lớn, chúng ta có thể cần chia ứng dụng thành các phần nhỏ hơn và chỉ tải một thành phần từ máy chủ khi cần thiết. Để làm cho điều đó khả thi, Vue có hàm `defineAsyncComponent`.",
+        "links": [
+          {
+            "title": "Thành phần bất đồng bộ",
+            "url": "https://vuejs.org/guide/components/async.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "SGsd08ZTu4H76s8cfbCKe",
+      "type": "subtopic",
+      "label": "Các thành phần Teleport",
+      "position": {
+        "x": -248.45827207144166,
+        "y": 875.7507883342075
+      },
+      "size": {
+        "width": 218,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Đôi khi chúng ta có thể gặp tình huống sau: một phần của template của component thuộc về nó về mặt logic, nhưng từ góc độ trực quan, nó nên hiển thị ở một nơi khác trong DOM, bên ngoài ứng dụng Vue. Đây là lúc component `<Teleport>` đến giúp đỡ.",
+        "links": [
+          {
+            "title": "Các thành phần Teleport",
+            "url": "https://vuejs.org/guide/built-ins/teleport.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "xwVbhOpQMPPB4G-lhro0B",
+      "type": "subtopic",
+      "label": "Cung cấp / Tích hợp",
+      "position": {
+        "x": -248.45827207144166,
+        "y": 928.7507883342075
+      },
+      "size": {
+        "width": 218,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Thông thường, khi chúng ta cần truyền dữ liệu từ thành phần cha đến thành phần con, chúng ta sử dụng props. Tuy nhiên, hãy tưởng tượng trường hợp chúng ta có một cây thành phần lớn và một thành phần lồng sâu cần thứ gì đó từ một tổ tiên xa. Chỉ với props, chúng ta sẽ phải truyền cùng một prop trên toàn bộ chuỗi các thành phần cha. Chúng ta có thể giải quyết vấn đề 'drilling' props bằng `provide` và `inject`.",
+        "links": [
+          {
+            "title": "Cung cấp / Tích hợp trong Vue.js",
+            "url": "https://vuejs.org/guide/components/provide-inject.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "br1r8KIf5KInY5mk2xhA6",
+      "type": "subtopic",
+      "label": "Hướng dẫn tùy chỉnh",
+      "position": {
+        "x": -248.45827207144166,
+        "y": 981.7507883342075
+      },
+      "size": {
+        "width": 218,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Cho đến lúc này, bạn có thể đã tìm hiểu về hai hình thức tái sử dụng mã nguồn trong Vue: component và composables. Component là các khối xây dựng chính, trong khi composables tập trung vào việc tái sử dụng logic trạng thái. Các directive tùy chỉnh, ngược lại, chủ yếu được thiết kế để tái sử dụng logic liên quan đến truy cập DOM cấp thấp trên các phần tử đơn giản.",
+        "links": [
+          {
+            "title": "Hướng dẫn tùy chỉnh",
+            "url": "https://vuejs.org/guide/reusability/custom-directives.html",
+            "type": "official"
+          },
+          {
+            "title": "Composables",
+            "url": "https://vuejs.org/guide/reusability/composables.html",
+            "type": "official"
+          },
+          {
+            "title": "Thành phần",
+            "url": "https://vuejs.org/guide/essentials/component-basics.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "_Nc8ivQrdpKuf8MwaV-K7",
+      "type": "subtopic",
+      "label": "Plugins",
+      "position": {
+        "x": -248.45827207144166,
+        "y": 1034.7507883342075
+      },
+      "size": {
+        "width": 218,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Plugins là mã độc lập thường thêm chức năng cấp ứng dụng cho Vue.",
+        "links": [
+          {
+            "title": "Plugins in Vue.js",
+            "url": "https://vuejs.org/guide/reusability/plugins.html",
+            "type": "official"
+          },
+          {
+            "title": "Hướng dẫn viết Plugin riêng cho Vue.js",
+            "url": "https://www.linode.com/docs/guides/how-to-write-vue-js-plugins/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "kdlXhbw_a81xdZtyK-pVa",
+      "type": "subtopic",
+      "label": "Watchers",
+      "position": {
+        "x": -248.45827207144166,
+        "y": 1087.7507883342075
+      },
+      "size": {
+        "width": 218,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Thuộc tính được tính toán cho phép chúng ta tính toán giá trị suy ra một cách khai báo. Tuy nhiên, có những trường hợp chúng ta cần thực hiện \"tác dụng phụ\" để phản ứng với thay đổi trạng thái - ví dụ như sửa đổi DOM hoặc thay đổi một phần trạng thái khác dựa trên kết quả của một thao tác bất đồng bộ. Với Composition API, chúng ta có thể sử dụng hàm watch để kích hoạt một callback bất cứ khi nào một phần trạng thái phản ứng thay đổi.",
+        "links": [
+          {
+            "title": "Watchers trong Vue.js",
+            "url": "https://vuejs.org/guide/essentials/watchers.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "jkX66izOHVWqtyd6KZ0K6",
+      "type": "subtopic",
+      "label": "Slot",
+      "position": {
+        "x": -248.45827207144166,
+        "y": 1140.7507883342075
+      },
+      "size": {
+        "width": 218,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Trong một số trường hợp, chúng ta có thể muốn truyền một đoạn mẫu (template fragment) đến thành phần con và cho phép thành phần con hiển thị đoạn mẫu đó trong khuôn mẫu của chính nó. Element `<slot>` là một cổng ra (slot outlet) chỉ định vị trí mà nội dung slot được cung cấp bởi cha nên được hiển thị.",
+        "links": [
+          {
+            "title": "Slot trong Vue.js",
+            "url": "https://vuejs.org/guide/components/slots.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "w72iWpfaV9zTACCxSL4zI",
+      "type": "label",
+      "label": "Hiệu ứng hình ảnh",
+      "position": {
+        "x": -199.61720569319456,
+        "y": 1203.736629603213
+      },
+      "size": {
+        "width": 102,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "SWpWg5J5N9ZfY_DaIigA5",
+      "type": "subtopic",
+      "label": "Chuyển đổi",
+      "position": {
+        "x": -239.61720569319456,
+        "y": 1245.0004887424668
+      },
+      "size": {
+        "width": 196,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Vue cung cấp hai thành phần tích hợp sẵn có thể giúp bạn làm việc với chuyển đổi và hiệu ứng hình ảnh theo phản ứng với trạng thái thay đổi: - `<Transition>` để áp dụng hiệu ứng khi một phần tử hoặc thành phần đi vào và ra khỏi DOM. Trang này sẽ giải thích về điều này. - `<TransitionGroup>` để áp dụng hiệu ứng khi một phần tử hoặc thành phần được chèn vào, loại bỏ hoặc di chuyển trong danh sách `v-for`. Điều này sẽ được giải quyết trong chương tiếp theo.",
+        "links": [
+          {
+            "title": "Thành phần Chuyển đổi",
+            "url": "https://vuejs.org/guide/built-ins/transition.html#transition",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "HjzOYjS-7ZEBvElRJ8uN2",
+      "type": "subtopic",
+      "label": "Nhóm Chuyển đổi",
+      "position": {
+        "x": -239.61720569319456,
+        "y": 1298.0004887424668
+      },
+      "size": {
+        "width": 196,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`<TransitionGroup>` là một thành phần tích hợp sẵn được thiết kế để tạo hoạt ảnh cho việc chèn, xóa và thay đổi thứ tự các phần tử hoặc thành phần được hiển thị trong danh sách.",
+        "links": [
+          {
+            "title": "Thành phần TransitionGroup",
+            "url": "https://vuejs.org/guide/built-ins/transition-group.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "YTzOdnGWNKTjk8T1fcaiO",
+      "type": "paragraph",
+      "label": "Hệ sinh thái",
+      "position": {
+        "x": 83.54031453135002,
+        "y": 1300.0004887424668
+      },
+      "size": {
+        "width": 163,
+        "height": 46
+      },
+      "style": {
+        "fontSize": 20,
+        "borderColor": "transparent",
+        "backgroundColor": "transparent",
+        "color": "#000000",
+        "textAlign": "center",
+        "justifyContent": "center",
+        "padding": 16
+      },
+      "z_index": 999
+    },
+    {
+      "id": "HOPgVo3xf0ZN8DmU9BDpo",
+      "type": "paragraph",
+      "label": "Công cụ hỗ trợ",
+      "position": {
+        "x": 387.9970609830833,
+        "y": 1298.5004887424668
+      },
+      "size": {
+        "width": 113,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 20,
+        "borderColor": "transparent",
+        "backgroundColor": "transparent",
+        "color": "#000000",
+        "textAlign": "center",
+        "justifyContent": "center",
+        "padding": 16
+      },
+      "z_index": 999
+    },
+    {
+      "id": "Z9szBPFXfqK_KsvzkR-rf",
+      "type": "subtopic",
+      "label": "VueUse",
+      "position": {
+        "x": 391.4970609830833,
+        "y": 1203.736629603213
+      },
+      "size": {
+        "width": 106,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "VueUse là một tập hợp các hàm tiện ích dựa trên Composition API. Nó có hơn 200+ hàm, có thể tách tree-shake, hỗ trợ TypeScript cấp nhất và có kích thước bundle nhỏ. VueUse là một lựa chọn tuyệt vời để thêm các tiện ích phổ biến vào các dự án Vue 3 của bạn.",
+        "links": [
+          {
+            "title": "VueUse",
+            "url": "https://vueuse.org/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ixRG0xfEp4BmyvCR0mtoR",
+      "type": "topic",
+      "label": "Điều hướng (Routing)",
+      "position": {
+        "x": 92.54031453135002,
+        "y": 1422.1053534778678
+      },
+      "size": {
+        "width": 145,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Trình tuyến hóa là một khái niệm thiết yếu trong các ứng dụng Trang Giao diện Đơn (SPA). Khi ứng dụng của bạn được chia thành các phần logic riêng biệt và tất cả đều nằm dưới các URL riêng, người dùng có thể dễ dàng chia sẻ liên kết cho nhau.",
+        "links": [
+          {
+            "title": "Định tuyến trong Vue.js",
+            "url": "https://vuejs.org/guide/scaling-up/routing.html",
+            "type": "official"
+          },
+          {
+            "title": "Vue Router",
+            "url": "https://router.vuejs.org/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "COxkmvqe9jFtV9WtGjfbh",
+      "type": "subtopic",
+      "label": "Vue Router",
+      "position": {
+        "x": 338.60847046222204,
+        "y": 1422.1053534778678
+      },
+      "size": {
+        "width": 132,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Vue Router là trình duy trì chính thức cho Vue.js, cho phép tạo các tuyến tĩnh/động, hỗ trợ chặn điều hướng, cho phép cấu hình dựa trên thành phần và nhiều hơn nữa.",
+        "links": [
+          {
+            "title": "Vue Router",
+            "url": "https://router.vuejs.org/",
+            "type": "official"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Vue.js",
+            "url": "https://app.daily.dev/tags/vuejs?ref=roadmapsh",
+            "type": "feed"
+          },
+          {
+            "title": "Vue Router",
+            "url": "https://www.youtube.com/watch?v=juocv4AtrHo",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "izGdctxP_OvQNvaMwVIrh",
+      "type": "topic",
+      "label": "Biểu mẫu",
+      "position": {
+        "x": -105.9953868087789,
+        "y": 1422.1053534778678
+      },
+      "size": {
+        "width": 94,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Ngoài hỗ trợ ràng buộc biểu mẫu tích hợp, còn có một số tùy chọn khác cho phép xử lý các biểu mẫu và dữ liệu theo cách thuận tiện hơn.",
+        "links": [
+          {
+            "title": "Liên kết Đầu vào Form",
+            "url": "https://vuejs.org/guide/essentials/forms.html",
+            "type": "official"
+          },
+          {
+            "title": "Đầu vào của người dùng trong Vue 3",
+            "url": "https://vueschool.io/lessons/user-inputs-vue-devtools-in-vue-3?friend=vuejs",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "BXz1utB_2eYzFvzSbFKx0",
+      "type": "subtopic",
+      "label": "FormKit",
+      "position": {
+        "x": -134.5523118952504,
+        "y": 1502.7534021113336
+      },
+      "size": {
+        "width": 150,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "FormKit giúp xây dựng biểu mẫu nhanh hơn bằng cách đơn giản hóa cấu trúc biểu mẫu, tạo mẫu, xác thực, chủ đề, gửi và xử lý lỗi, v.v.",
+        "links": [
+          {
+            "title": "Tài liệu Formkit",
+            "url": "https://formkit.com/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "_Fmp8_z4SKWfKUE80_fqb",
+      "type": "subtopic",
+      "label": "Vee Validate",
+      "position": {
+        "x": -134.5523118952504,
+        "y": 1555.7534021113336
+      },
+      "size": {
+        "width": 150,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Phần mở rộng (plugin) mã nguồn mở để xử lý xác thực biểu mẫu trong Vue.js",
+        "links": [
+          {
+            "title": "logarem/vee-validate",
+            "url": "https://github.com/logaretm/vee-validate",
+            "type": "opensource"
+          },
+          {
+            "title": "Vee Website: Vee Validate",
+            "url": "https://vee-validate.logaretm.com/v4/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6U_CAhAY_jyj_4Mzj_HL_",
+      "type": "subtopic",
+      "label": "Vuelidate",
+      "position": {
+        "x": -134.5523118952504,
+        "y": 1608.7534021113336
+      },
+      "size": {
+        "width": 150,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Kiểm chứng dựa trên mô hình đơn giản, nhẹ nhàng cho Vue.js.",
+        "links": [
+          {
+            "title": "Trang web Vuelidate",
+            "url": "https://vuelidate.js.org/",
+            "type": "official"
+          },
+          {
+            "title": "vuelidate/vuelidate",
+            "url": "https://github.com/vuelidate/vuelidate",
+            "type": "opensource"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Cm6mqXYp-G4mGfPxuU73_",
+      "type": "topic",
+      "label": "Server-Side Rendering",
+      "position": {
+        "x": -370.65341088187324,
+        "y": 1422.1053534778678
+      },
+      "size": {
+        "width": 79,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Hiển Rendering (Server-Side Rendering - SSR) là quy trình mà phía dịch vụ hoàn thiện cấu trúc HTML của trang web, gửi nó đến trình duyệt và sau đó liên kết trạng thái và sự kiện để biến nó thành một trang web tương tác đầy đủ.",
+        "links": [
+          {
+            "title": "Điều gì là Render Trang Máy chủ (SSR)?",
+            "url": "https://www.educative.io/answers/what-is-server-side-rendering",
+            "type": "article"
+          },
+          {
+            "title": "Tôi nên sử dụng Server-Side Render trong trường hợp nào?",
+            "url": "https://medium.com/@mbleigh/when-should-i-server-side-render-c2a383ff2d0f",
+            "type": "article"
+          },
+          {
+            "title": "Phân tích phía máy chủ (Server-Side Rendering)",
+            "url": "https://vuejs.org/guide/scaling-up/ssr.html",
+            "type": "article"
+          },
+          {
+            "title": "Điều gì là Render Trang Máy chủ (SSR) cho Phát triển Web?",
+            "url": "https://www.youtube.com/watch?v=okvg3MRAPs0",
+            "type": "video"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Phát triển Web",
+            "url": "https://app.daily.dev/tags/webdev?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "822tGnM9jOkYh9aNlosPr",
+      "type": "topic",
+      "label": "Static Site Generator",
+      "position": {
+        "x": -518.3364531870259,
+        "y": 1315.8962774513473
+      },
+      "size": {
+        "width": 101,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Một trình tạo trang web tĩnh là một công cụ tạo ra một trang web HTML tĩnh đầy đủ dựa trên dữ liệu thô và một tập hợp các mẫu. Về bản chất, một trình tạo trang web tĩnh tự động hóa nhiệm vụ viết mã từng trang HTML riêng lẻ và chuẩn bị những trang đó để phục vụ cho người dùng trước khi chúng được tải.",
+        "links": [
+          {
+            "title": "Điều gì là Bộ tạo Trang tĩnh?",
+            "url": "https://www.cloudflare.com/learning/performance/static-site-generator/",
+            "type": "article"
+          },
+          {
+            "title": "Next.js SSG (Static Site Generation)",
+            "url": "https://nextjs.org/docs/advanced-features/static-html-export",
+            "type": "article"
+          },
+          {
+            "title": "Gatsby SSG (Static Site Generator)",
+            "url": "https://www.gatsbyjs.com/docs/glossary/static-site-generator/",
+            "type": "article"
+          },
+          {
+            "title": "SSG – Một nền tảng xây dựng trang web sử dụng 11ty, Vite và kết hợp các phương pháp tiếp cận JAMstack.",
+            "url": "https://www.smashingmagazine.com/2021/10/building-ssg-11ty-vite-jam-sandwich/",
+            "type": "article"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Phát triển Web",
+            "url": "https://app.daily.dev/tags/webdev?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "f2udJnT2q5eDmBZ_OKtmi",
+      "type": "subtopic",
+      "label": "Quasar",
+      "position": {
+        "x": -381.65341088187324,
+        "y": 1262.8962774513473
+      },
+      "size": {
+        "width": 101,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Quasar Framework là một framework nguồn mở dựa trên Vue.js để xây dựng ứng dụng, với một codebase duy nhất và triển khai nó trên Web như một SPA, PWA, SSR, đến Ứng dụng Di động bằng Cordova cho iOS & Android, và đến Ứng dụng Desktop bằng Electron cho Mac, Windows và Linux.",
+        "links": [
+          {
+            "title": "Quasar",
+            "url": "https://quasar.dev/",
+            "type": "official"
+          },
+          {
+            "title": "Quasar Framework: Ứng dụng Cross Platform Vue.js",
+            "url": "https://www.youtube.com/watch?v=opmng7llVJ0&list=PLAiDzIdBfy8iu_MZrq3IPuSFcRgCQ0iL0",
+            "type": "video"
+          },
+          {
+            "title": "Hướng dẫn xây dựng ứng dụng bằng Framework Quasar",
+            "url": "https://www.youtube.com/watch?v=czJIuHyPPXo",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "8xZxTLYq5m5_nkGh2lfUt",
+      "type": "subtopic",
+      "label": "Nuxt.js",
+      "position": {
+        "x": -381.65341088187324,
+        "y": 1315.8962774513473
+      },
+      "size": {
+        "width": 101,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Nuxt.js là một thư viện JavaScript mã nguồn mở và miễn phí dựa trên Vue.js, Node.js, Webpack và Babel.js. Nuxt lấy cảm hứng từ Next.js, đó là một framework có mục đích tương tự, dựa trên React.js.",
+        "links": [
+          {
+            "title": "Trang web Nuxt",
+            "url": "https://nuxt.com/",
+            "type": "official"
+          },
+          {
+            "title": "Tài liệu Nuxt",
+            "url": "https://nuxt.com/docs/getting-started/introduction",
+            "type": "official"
+          },
+          {
+            "title": "Ví dụ Nuxt",
+            "url": "https://nuxt.com/docs/examples/essentials/hello-world",
+            "type": "official"
+          },
+          {
+            "title": "Bắt đầu với Nuxt",
+            "url": "https://explorers.netlify.com/learn/get-started-with-nuxt",
+            "type": "article"
+          },
+          {
+            "title": "Các nguyên tắc cơ bản của Nuxt.js",
+            "url": "https://vueschool.io/courses/nuxtjs-fundamentals",
+            "type": "article"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về JavaScript",
+            "url": "https://app.daily.dev/tags/javascript?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "_46COO0FGaFuCYwqaRRWy",
+      "type": "subtopic",
+      "label": "VitePress",
+      "position": {
+        "x": -518.3364531870259,
+        "y": 1238.4448162837582
+      },
+      "size": {
+        "width": 101,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Vitepress là một trình tạo trang tĩnh (static site generator) được xây dựng trên nền tảng Vite. Đây là một trình tạo trang tĩnh nhẹ và nhanh chóng, được thiết kế để hoạt động tốt với Vue 3. Vitepress là một lựa chọn tuyệt vời để xây dựng các trang tài liệu, blog và các trang web tĩnh khác.",
+        "links": [
+          {
+            "title": "Trang web Vitepress",
+            "url": "https://vitepress.dev/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "LjEAviRMtPLwUUlfcof1h",
+      "type": "subtopic",
+      "label": "Vitest",
+      "position": {
+        "x": -437.5730606910654,
+        "y": 1557.1656483488384
+      },
+      "size": {
+        "width": 213,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Vitest là một framework kiểm thử đơn vị nhanh chóng được xây dựng trên Vite, tích hợp sẵn hỗ trợ ES Modules (ESM) và TypeScript. Nó hoạt động tốt với các dự án React, Vue, Svelte và các dự án khác được tạo ra bằng Vite.",
+        "links": [
+          {
+            "title": "Vitest Website",
+            "url": "https://vitest.dev/",
+            "type": "official"
+          },
+          {
+            "title": "Kiểm thử với Vitest",
+            "url": "https://www.youtube.com/watch?v=cM_AeQHzlGg",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "p5bUvgr_3H-A55ZnEExk8",
+      "type": "subtopic",
+      "label": "Vue Testing Library",
+      "position": {
+        "x": -437.5730606910654,
+        "y": 1610.1656483488384
+      },
+      "size": {
+        "width": 213,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Vue Testing Library là một giải pháp nhẹ để kiểm thử các thành phần Vue.js rất tốt. Nguyên tắc hướng dẫn chính của nó là: Càng làm cho các bài kiểm tra của bạn giống với cách phần mềm của bạn được sử dụng, bạn càng có thể tin tưởng vào chúng.",
+        "links": [
+          {
+            "title": "Hướng dẫn bắt đầu với Vue Testing Library",
+            "url": "https://testing-library.com/docs/vue-testing-library/intro/",
+            "type": "official"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Kiểm thử",
+            "url": "https://app.daily.dev/tags/testing?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JbMKUVDMUygjXXmhndHVs",
+      "type": "subtopic",
+      "label": "Cypress",
+      "position": {
+        "x": -437.57306069106534,
+        "y": 1663.1656483488384
+      },
+      "size": {
+        "width": 101,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Khung Cypress là một framework kiểm thử tận dụng mã nguồn cuối (end-to-end) dựa trên JavaScript, được xây dựng trên nền tảng Mocha – một framework kiểm thử JavaScript giàu tính năng chạy trên và trong trình duyệt, giúp việc kiểm thử bất đồng bộ trở nên đơn giản và thuận tiện. Nó cũng sử dụng thư viện xác thực theo kiểu BDD/TDD (Behavior Driven Development / Test Driven Development) và một trình duyệt để kết hợp với bất kỳ framework kiểm thử JavaScript nào khác.",
+        "links": [
+          {
+            "title": "Cypress Website",
+            "url": "https://www.cypress.io/",
+            "type": "official"
+          },
+          {
+            "title": "Tài liệu Cypress",
+            "url": "https://docs.cypress.io/guides/overview/why-cypress#Other",
+            "type": "official"
+          },
+          {
+            "title": "Kiểm thử Kết nối Cuối tới (End-to-End) bằng Cypress",
+            "url": "https://www.youtube.com/watch?v=7N63cMKosIE",
+            "type": "video"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Cypress",
+            "url": "https://app.daily.dev/tags/cypress?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "zqcE3bTnymdepV-Yc8qBl",
+      "type": "subtopic",
+      "label": "Playwright",
+      "position": {
+        "x": -334.7759930933753,
+        "y": 1663.1656483488384
+      },
+      "size": {
+        "width": 111,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Playwright Test được tạo ra đặc biệt để đáp ứng nhu cầu của kiểm thử end-to-end. Playwright hỗ trợ tất cả các trình duyệt hiện đại bao gồm Chromium, WebKit và Firefox. Kiểm tra trên Windows, Linux và macOS, cục bộ hoặc trên CI, headless hoặc headed với mô phỏng trình duyệt di động gốc cho Google Chrome trên Android và Mobile Safari. Playwright tận dụng giao thức DevTools để viết các bài kiểm thử tự động mạnh mẽ, ổn định. Playwright có thể nhìn vào và điều khiển trình duyệt thay vì dựa vào một lớp dịch giữa, nó cho phép mô phỏng các kịch bản người dùng chi tiết và phù hợp hơn.",
+        "links": [
+          {
+            "title": "Playwright Website",
+            "url": "https://playwright.dev/",
+            "type": "official"
+          },
+          {
+            "title": "Playwright Tutorial: Learn Basics and Setup",
+            "url": "https://www.browserstack.com/guide/playwright-tutorial",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q1PayNkcJHU43QCdChAXt",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": 80.64058812810305,
+        "y": 1508.9384945254162
+      },
+      "size": {
+        "width": 173,
+        "height": 211
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "TkzlmJ85O-e-KfMhTBwry",
+      "type": "subtopic",
+      "label": "Tailwind CSS",
+      "position": {
+        "x": 90.64058812810305,
+        "y": 1553.4384945254162
+      },
+      "size": {
+        "width": 153,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Khung CSS cung cấp các lớp CSS nguyên tử để giúp bạn định kiểu các thành phần ví dụ: `flex`, `pt-4`, `text-center` và `rotate-90` có thể được kết hợp để xây dựng bất kỳ thiết kế nào, trực tiếp trong giao diện người dùng của bạn.",
+        "links": [
+          {
+            "title": "Trang web Tailwind",
+            "url": "https://tailwindcss.com",
+            "type": "official"
+          },
+          {
+            "title": "Khóa Học Toàn Cảnh Tailwind CSS cho Người Mới Bắt Đầu",
+            "url": "https://www.youtube.com/watch?v=lCxcTsOHrjo",
+            "type": "video"
+          },
+          {
+            "title": "Khóa Ghi Dạy Tailwind CSS",
+            "url": "https://www.youtube.com/watch?v=UBOj6rqRUME",
+            "type": "video"
+          },
+          {
+            "title": "Bạn có nên sử dụng Tailwind CSS không?",
+            "url": "https://www.youtube.com/watch?v=hdGsFpZ0J2E",
+            "type": "video"
+          },
+          {
+            "title": "Phim hướng dẫn màn hình chính thức",
+            "url": "https://www.youtube.com/c/TailwindLabs/videos",
+            "type": "video"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về CSS",
+            "url": "https://app.daily.dev/tags/css?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "VNclt_QQthWb2u4xWI_uY",
+      "type": "subtopic",
+      "label": "Vuetify",
+      "position": {
+        "x": 90.64058812810305,
+        "y": 1606.4384945254162
+      },
+      "size": {
+        "width": 153,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Vuetify là Thư viện UI Vue với các Thành phần Material được thiết kế tỉ mỉ. Không cần kỹ năng thiết kế — mọi thứ bạn cần để tạo ra các ứng dụng tuyệt vời đều nằm trong tầm tay.",
+        "links": [
+          {
+            "title": "Trang web Vuetify",
+            "url": "https://vuetifyjs.com/en/",
+            "type": "official"
+          },
+          {
+            "title": "Hướng dẫn bắt đầu với Vuetify",
+            "url": "https://vuetifyjs.com/en/getting-started/installation/",
+            "type": "official"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Vue.js",
+            "url": "https://app.daily.dev/tags/vuejs?ref=roadmapsh",
+            "type": "feed"
+          },
+          {
+            "title": "Vuetify: Tạo Ứng dụng với Vue JS - chỉ trong 30 PHÚT!",
+            "url": "https://www.youtube.com/watch?v=CjXgoYo86yY",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "NMIh8rqLM5P-Uk65uHATn",
+      "type": "subtopic",
+      "label": "Element UI",
+      "position": {
+        "x": 90.64058812810305,
+        "y": 1659.4384945254162
+      },
+      "size": {
+        "width": 153,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Element UI là một thư viện thành phần Vue.js khác với nhiều thành phần được xây dựng sẵn để định kiểu các ứng dụng Vue.js của bạn.",
+        "links": [
+          {
+            "title": "Website Element UI",
+            "url": "https://element-plus.org/en-US/",
+            "type": "official"
+          },
+          {
+            "title": "Hướng dẫn bắt đầu - Element UI",
+            "url": "https://element-plus.org/en-US/guide/design.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "uNLdPeShyAMpc-_JKMsnb",
+      "type": "label",
+      "label": "Kiểm thử (Testing)",
+      "position": {
+        "x": -367.5730606910654,
+        "y": 1512.4295074880922
+      },
+      "size": {
+        "width": 73,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "5BmKlchM8LbBo2xFOP1wk",
+      "type": "label",
+      "label": "Thiết kế Ngoại hình (Styling)",
+      "position": {
+        "x": 133.64058812810305,
+        "y": 1515.4451563483256
+      },
+      "size": {
+        "width": 67,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "9AwVtwIv6TfP9F4ulz2F0",
+      "type": "topic",
+      "label": "Quản lý Trạng thái",
+      "position": {
+        "x": 310.5448461352869,
+        "y": 1589.9384945254162
+      },
+      "size": {
+        "width": 193,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Quản lý trạng thái Ứng dụng là quá trình duy trì kiến thức về đầu vào của ứng dụng trên nhiều luồng dữ liệu liên quan tạo thành một giao dịch kinh doanh hoàn chỉnh – hoặc một phiên – để hiểu điều kiện của ứng dụng tại bất kỳ thời điểm nào. Trong khoa học máy tính, một đầu vào là thông tin được đưa vào chương trình bởi người dùng và trạng thái đề cập đến điều kiện của một ứng dụng theo các đầu vào đã lưu – được lưu dưới dạng biến hoặc hằng số. Trạng thái cũng có thể được mô tả là tập hợp các thông tin được bảo lưu tạo thành một phiên hoàn chỉnh.",
+        "links": [
+          {
+            "title": "Quản lý Trạng thái",
+            "url": "https://vuejs.org/guide/scaling-up/state-management.html",
+            "type": "official"
+          },
+          {
+            "title": "Quản lý Trạng thái là gì?",
+            "url": "https://www.techtarget.com/searchapparchitecture/definition/state-management",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "MsPIwtv5b_mp567YlLkEU",
+      "type": "horizontal",
+      "label": "nút ngang",
+      "position": {
+        "x": -215.5730606910654,
+        "y": 1673.9384945254162
+      },
+      "size": {
+        "width": 297,
+        "height": 20
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.75
+      },
+      "z_index": 999
+    },
+    {
+      "id": "NIvjyhtTFC1gomtGQT_2t",
+      "type": "subtopic",
+      "label": "Pinia",
+      "position": {
+        "x": 365.0448461352869,
+        "y": 1499.4295074880922
+      },
+      "size": {
+        "width": 84,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Pinia là thư viện quản lý trạng thái cho Vue.js, và có thể được sử dụng trong Vue 2 và Vue 3, với cùng một API, ngoại trừ SSR và cài đặt. Nó cho phép chia sẻ trạng thái giữa các trang và thành phần xung quanh ứng dụng. Như tài liệu hướng dẫn nói, nó có khả năng mở rộng, trực quan (bởi tổ chức), hỗ trợ công cụ phát triển (trong Vue.js devtools), trạng thái được suy luận kiểu ngay cả trong JavaScript và nhiều hơn nữa. Trong Pinia, bạn có thể truy cập, sửa đổi, thay thế, sử dụng getters hoạt động giống như computed, sử dụng actions, v.v. Thư viện này được khuyến nghị bởi tài liệu hướng dẫn chính thức của Vue.js.",
+        "links": [
+          {
+            "title": "Tài liệu Pinia",
+            "url": "https://pinia.vuejs.org/",
+            "type": "official"
+          },
+          {
+            "title": "Học Pinia trong 30 Phút",
+            "url": "https://www.youtube.com/watch?v=JGC7aAC-3y8",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ZLlz0Azfze-8k3z8HnVvE",
+      "type": "topic",
+      "label": "Gọi API",
+      "position": {
+        "x": 322.0448461352869,
+        "y": 1767.5550770848167
+      },
+      "size": {
+        "width": 170,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Có nhiều tùy chọn có sẵn để thực hiện các cuộc gọi API từ các ứng dụng Vue.js của bạn.",
+        "links": [
+          {
+            "title": "Hướng dẫn tạo các cuộc gọi API trong ứng dụng Vue.JS",
+            "url": "https://medium.com/bb-tutorials-and-thoughts/how-to-make-api-calls-in-vue-js-applications-43e017d4dc86",
+            "type": "article"
+          },
+          {
+            "title": "Hướng dẫn sử dụng RapidAPI Client với Vue.js",
+            "url": "https://rapidapi.com/guides/fetch-api-with-vue",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "l2Rl6OQbL7kYvPlpYCZ0Z",
+      "type": "subtopic",
+      "label": "Apollo",
+      "position": {
+        "x": 322.693038734734,
+        "y": 1858.88303846187
+      },
+      "size": {
+        "width": 170,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Apollo là một nền tảng để xây dựng một đồ thị thống nhất, một lớp giao tiếp giúp bạn quản lý luồng dữ liệu giữa các ứng dụng khách (như ứng dụng web và ứng dụng di động) và các dịch vụ back-end của bạn.",
+        "links": [
+          {
+            "title": "Trang web Apollo",
+            "url": "https://www.apollographql.com",
+            "type": "official"
+          },
+          {
+            "title": "Tài liệu Apollo",
+            "url": "https://www.apollographql.com/docs/",
+            "type": "official"
+          },
+          {
+            "title": "Kênh YouTube Apollo",
+            "url": "https://www.youtube.com/c/ApolloGraphQL/",
+            "type": "video"
+          },
+          {
+            "title": "GraphQL Với React Tutorial - Apollo Client",
+            "url": "https://www.youtube.com/watch?v=YyUWW04HwKY",
+            "type": "video"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Apollo",
+            "url": "https://app.daily.dev/tags/apollo?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "n5IlN-wv4k0r16CvhoSpD",
+      "type": "subtopic",
+      "label": "Axios",
+      "position": {
+        "x": 319.2119067267403,
+        "y": 1954.4720214419385
+      },
+      "size": {
+        "width": 88,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Axios là một client HTTP API dựa trên giao diện XMLHttpRequest do trình duyệt cung cấp. Cách phổ biến nhất để các chương trình frontend giao tiếp với máy chủ là thông qua giao thức HTTP. Bạn có thể đã quen thuộc với Fetch API và giao diện XMLHttpRequest, cho phép bạn lấy tài nguyên và thực hiện các yêu cầu HTTP.",
+        "links": [
+          {
+            "title": "Hướng dẫn bắt đầu với Axios",
+            "url": "https://axios-http.com/docs/intro",
+            "type": "official"
+          },
+          {
+            "title": "Hướng dẫn thực hiện các yêu cầu HTTP với Axios",
+            "url": "https://blog.logrocket.com/how-to-make-http-requests-like-a-pro-with-axios/#why",
+            "type": "article"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Axios",
+            "url": "https://app.daily.dev/tags/axios?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ufnt87swK61kxShLuVc1-",
+      "type": "subtopic",
+      "label": "fetch",
+      "position": {
+        "x": 410.7868316808595,
+        "y": 1954.4720214419385
+      },
+      "size": {
+        "width": 84,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Phương thức `fetch()` trong JavaScript được sử dụng để yêu cầu máy chủ và tải thông tin lên trang web. Yêu cầu có thể là bất kỳ API nào trả về dữ liệu ở định dạng JSON hoặc XML. Phương thức này trả về một Promise.",
+        "links": [
+          {
+            "title": "Fetch - MDN",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch",
+            "type": "article"
+          },
+          {
+            "title": "Yêu cầu mạng - Fetch",
+            "url": "https://javascript.info/fetch",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "WSq_cDKQPZa_qmQlIdGXg",
+      "type": "subtopic",
+      "label": "Tanstack Query",
+      "position": {
+        "x": 318.7868316808595,
+        "y": 2006.4720214419385
+      },
+      "size": {
+        "width": 176,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "TanStack Query là thư viện lấy dữ liệu và bộ nhớ cache cho Vue.js và React. Nó là một phần của hệ sinh thái TanStack.",
+        "links": [
+          {
+            "title": "Trang web Tanstack Query",
+            "url": "https://tanstack.com/query",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hqLe_qkIsVAisPw31NroU",
+      "type": "label",
+      "label": "GraphQL",
+      "position": {
+        "x": 364.193038734734,
+        "y": 1912.88303846187
+      },
+      "size": {
+        "width": 87,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "7ZP7XMaMxk1iOs3rgnuJy",
+      "type": "label",
+      "label": "HTTP",
+      "position": {
+        "x": 363.2868316808595,
+        "y": 2059.18789405153
+      },
+      "size": {
+        "width": 61,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "3RwIO-S8-xOYKNmfwk0pf",
+      "type": "topic",
+      "label": "Ứng Dụng Di Động (Mobile Apps)",
+      "position": {
+        "x": -86.12877362673987,
+        "y": 1767.5550770848167
+      },
+      "size": {
+        "width": 170,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Việc xây dựng một ứng dụng di động bằng Vue.js không phải là bất khả thi. Trên thực tế, bạn có thể xây dựng các ứng dụng sẵn sàng cho sản xuất trông và cảm nhận giống như các ứng dụng di động gốc với Vue.js.",
+        "links": [
+          {
+            "title": "So sánh các framework phát triển ứng dụng di động Vue.js",
+            "url": "https://blog.logrocket.com/comparing-vue-js-mobile-app-development-frameworks/#whyusevuejstobuildmobileapps",
+            "type": "article"
+          },
+          {
+            "title": "Native Script + Vue",
+            "url": "https://nativescript-vue.org/",
+            "type": "article"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Phát triển Mobile",
+            "url": "https://app.daily.dev/tags/mobile?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "IsNzCdS05tbAK0D1zz0Sf",
+      "type": "subtopic",
+      "label": "Tụ điện",
+      "position": {
+        "x": -271.8080206821377,
+        "y": 1767.5550770848167
+      },
+      "size": {
+        "width": 121,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Vì Vue.js là một framework web, nó không hỗ trợ phát triển ứng dụng di động theo kiểu gốc (native) một cách tự nhiên. Vì vậy, chúng ta có thể truy cập các tính năng di động gốc như camera và định vị địa lý bằng cách nào? Ionic có runtime gốc chính thức được gọi là Capacitor. Với plugin của Capacitor, bạn có thể truy cập API gốc của thiết bị ứng dụng đang chạy và xây dựng ứng dụng di động thực sự gốc với Ionic Vue.",
+        "links": [
+          {
+            "title": "Xây dựng Ứng dụng Đa nền tảng với Capacitor và Vue.js",
+            "url": "https://blog.logrocket.com/building-cross-platform-apps-with-capacitor-and-vue-js/",
+            "type": "article"
+          },
+          {
+            "title": "Xây dựng Ứng dụng Di động Với Capacitor Và Vue.js",
+            "url": "https://www.smashingmagazine.com/2018/07/mobile-apps-capacitor-vue-js/",
+            "type": "article"
+          }
+        ]
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "reactflow__edge-kPzzrnb2DRHlJ7piaywDew2-y9ToYDix-koRbR6FLydFwx2",
+      "source": "kPzzrnb2DRHlJ7piaywDe",
+      "target": "y9ToYDix-koRbR6FLydFw",
+      "source_handle": "w2",
+      "target_handle": "x2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-kPzzrnb2DRHlJ7piaywDex2-tU4Umtnfu01t9gLlnlK6bw1",
+      "source": "kPzzrnb2DRHlJ7piaywDe",
+      "target": "0EevuyZiyty3X3Jzpjl4y",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-tU4Umtnfu01t9gLlnlK6by2-2HhKifjuDcP3eKpanRMEQz1",
+      "source": "0EevuyZiyty3X3Jzpjl4y",
+      "target": "2HhKifjuDcP3eKpanRMEQ",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-tU4Umtnfu01t9gLlnlK6by2-VNBRlJkdH6NOOzGXUrbZKz1",
+      "source": "0EevuyZiyty3X3Jzpjl4y",
+      "target": "VNBRlJkdH6NOOzGXUrbZK",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-tU4Umtnfu01t9gLlnlK6by2-swpyZFUO4UO3mW8Bvf1Tez1",
+      "source": "0EevuyZiyty3X3Jzpjl4y",
+      "target": "swpyZFUO4UO3mW8Bvf1Te",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-tU4Umtnfu01t9gLlnlK6by2-4S5fVFsFDMbq05ld7n0sFz1",
+      "source": "0EevuyZiyty3X3Jzpjl4y",
+      "target": "4S5fVFsFDMbq05ld7n0sF",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-0EevuyZiyty3X3Jzpjl4yx2-VlcYnTHW5d4J_zLYupvu5w2",
+      "source": "0EevuyZiyty3X3Jzpjl4y",
+      "target": "VlcYnTHW5d4J_zLYupvu5",
+      "source_handle": "x2",
+      "target_handle": "w2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-VlcYnTHW5d4J_zLYupvu5x2-CGdw3PqLRb9OqFU5SqmE1w1",
+      "source": "VlcYnTHW5d4J_zLYupvu5",
+      "target": "CGdw3PqLRb9OqFU5SqmE1",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-CGdw3PqLRb9OqFU5SqmE1x2-aIYgUc_hEIZx_2P3OhCNhw1",
+      "source": "CGdw3PqLRb9OqFU5SqmE1",
+      "target": "aIYgUc_hEIZx_2P3OhCNh",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-CGdw3PqLRb9OqFU5SqmE1y2-_dQbXoFTJHaOARTWDUeHYz1",
+      "source": "CGdw3PqLRb9OqFU5SqmE1",
+      "target": "_dQbXoFTJHaOARTWDUeHY",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-_dQbXoFTJHaOARTWDUeHYx2-tU4Umtnfu01t9gLlnlK6bw1",
+      "source": "_dQbXoFTJHaOARTWDUeHY",
+      "target": "tU4Umtnfu01t9gLlnlK6b",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-_dQbXoFTJHaOARTWDUeHYy2-qRm08uDZW-D8QDc-9sPX8x1",
+      "source": "_dQbXoFTJHaOARTWDUeHY",
+      "target": "qRm08uDZW-D8QDc-9sPX8",
+      "source_handle": "y2",
+      "target_handle": "x1",
+      "edge_style": "solid",
+      "line_type": "smoothstep",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-qRm08uDZW-D8QDc-9sPX8y2-1oIt_5OK-t2WaCgaYt9A8z1",
+      "source": "qRm08uDZW-D8QDc-9sPX8",
+      "target": "1oIt_5OK-t2WaCgaYt9A8",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-qRm08uDZW-D8QDc-9sPX8y2-gihxGgt177BK_EYsAfpx9z1",
+      "source": "qRm08uDZW-D8QDc-9sPX8",
+      "target": "gihxGgt177BK_EYsAfpx9",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-qRm08uDZW-D8QDc-9sPX8y2-f7N4pAp_jBlT8_8owAcbGz2",
+      "source": "qRm08uDZW-D8QDc-9sPX8",
+      "target": "f7N4pAp_jBlT8_8owAcbG",
+      "source_handle": "y2",
+      "target_handle": "z2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-OpJ2NMKCGXQezpzURE45Ry2-PPUU3Rb73aCpT4zcyvlJEz2",
+      "source": "OpJ2NMKCGXQezpzURE45R",
+      "target": "PPUU3Rb73aCpT4zcyvlJE",
+      "source_handle": "y2",
+      "target_handle": "z2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-OpJ2NMKCGXQezpzURE45Ry2-a0qwdQTunxEjQ9A5wpF-qz1",
+      "source": "OpJ2NMKCGXQezpzURE45R",
+      "target": "a0qwdQTunxEjQ9A5wpF-q",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-WiGG9_4G5y-AVA9byw6_gx2-Bx1Atxcf15AEaA1BiSIc6w1",
+      "source": "WiGG9_4G5y-AVA9byw6_g",
+      "target": "PQu4TyJOfCEaafW5th0e4",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-Bx1Atxcf15AEaA1BiSIc6y2-NfB3HlZ3uwYK5xszvV50bz1",
+      "source": "PQu4TyJOfCEaafW5th0e4",
+      "target": "NfB3HlZ3uwYK5xszvV50b",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-Bx1Atxcf15AEaA1BiSIc6y2-gMFndBcrTC6FtGryqN6dXz1",
+      "source": "PQu4TyJOfCEaafW5th0e4",
+      "target": "gMFndBcrTC6FtGryqN6dX",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-Bx1Atxcf15AEaA1BiSIc6y2-dSfrFLr8wKkLAOMJwtCTrz2",
+      "source": "PQu4TyJOfCEaafW5th0e4",
+      "target": "dSfrFLr8wKkLAOMJwtCTr",
+      "source_handle": "y2",
+      "target_handle": "z2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-PQu4TyJOfCEaafW5th0e4x2-Bx1Atxcf15AEaA1BiSIc6w1",
+      "source": "PQu4TyJOfCEaafW5th0e4",
+      "target": "4p6Gh2fMPA8hls_mWa5HR",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-Bx1Atxcf15AEaA1BiSIc6y2-b7iXwtUnELg_ShbCyTrNAw1",
+      "source": "4p6Gh2fMPA8hls_mWa5HR",
+      "target": "b7iXwtUnELg_ShbCyTrNA",
+      "source_handle": "y2",
+      "target_handle": "w1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-4p6Gh2fMPA8hls_mWa5HRz2-Bx1Atxcf15AEaA1BiSIc6y1",
+      "source": "4p6Gh2fMPA8hls_mWa5HR",
+      "target": "Bx1Atxcf15AEaA1BiSIc6",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-Bx1Atxcf15AEaA1BiSIc6x2-HOPgVo3xf0ZN8DmU9BDpow1",
+      "source": "Bx1Atxcf15AEaA1BiSIc6",
+      "target": "A5p6pqSOtLJybt4LrZ1St",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-HOPgVo3xf0ZN8DmU9BDpoy2-Re7tv1U0LxYqE5ShFxQSfz1",
+      "source": "A5p6pqSOtLJybt4LrZ1St",
+      "target": "Re7tv1U0LxYqE5ShFxQSf",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-HOPgVo3xf0ZN8DmU9BDpoy2-SGsd08ZTu4H76s8cfbCKez1",
+      "source": "A5p6pqSOtLJybt4LrZ1St",
+      "target": "SGsd08ZTu4H76s8cfbCKe",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-HOPgVo3xf0ZN8DmU9BDpoy2-xwVbhOpQMPPB4G-lhro0Bz1",
+      "source": "A5p6pqSOtLJybt4LrZ1St",
+      "target": "xwVbhOpQMPPB4G-lhro0B",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-HOPgVo3xf0ZN8DmU9BDpoy2-br1r8KIf5KInY5mk2xhA6z1",
+      "source": "A5p6pqSOtLJybt4LrZ1St",
+      "target": "br1r8KIf5KInY5mk2xhA6",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-HOPgVo3xf0ZN8DmU9BDpoy2-_Nc8ivQrdpKuf8MwaV-K7z1",
+      "source": "A5p6pqSOtLJybt4LrZ1St",
+      "target": "_Nc8ivQrdpKuf8MwaV-K7",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-HOPgVo3xf0ZN8DmU9BDpoy2-kdlXhbw_a81xdZtyK-pVaz1",
+      "source": "A5p6pqSOtLJybt4LrZ1St",
+      "target": "kdlXhbw_a81xdZtyK-pVa",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-HOPgVo3xf0ZN8DmU9BDpoy2-jkX66izOHVWqtyd6KZ0K6z2",
+      "source": "A5p6pqSOtLJybt4LrZ1St",
+      "target": "jkX66izOHVWqtyd6KZ0K6",
+      "source_handle": "y2",
+      "target_handle": "z2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-A5p6pqSOtLJybt4LrZ1Stx2-HOPgVo3xf0ZN8DmU9BDpow1",
+      "source": "A5p6pqSOtLJybt4LrZ1St",
+      "target": "YTzOdnGWNKTjk8T1fcaiO",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-YTzOdnGWNKTjk8T1fcaiOz2-HOPgVo3xf0ZN8DmU9BDpoy2",
+      "source": "YTzOdnGWNKTjk8T1fcaiO",
+      "target": "HOPgVo3xf0ZN8DmU9BDpo",
+      "source_handle": "z2",
+      "target_handle": "y2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-HOPgVo3xf0ZN8DmU9BDpow2-Z9szBPFXfqK_KsvzkR-rfx1",
+      "source": "HOPgVo3xf0ZN8DmU9BDpo",
+      "target": "Z9szBPFXfqK_KsvzkR-rf",
+      "source_handle": "w2",
+      "target_handle": "x1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-YTzOdnGWNKTjk8T1fcaiOx2-ixRG0xfEp4BmyvCR0mtoRw2",
+      "source": "YTzOdnGWNKTjk8T1fcaiO",
+      "target": "ixRG0xfEp4BmyvCR0mtoR",
+      "source_handle": "x2",
+      "target_handle": "w2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-ixRG0xfEp4BmyvCR0mtoRz2-COxkmvqe9jFtV9WtGjfbhy1",
+      "source": "ixRG0xfEp4BmyvCR0mtoR",
+      "target": "COxkmvqe9jFtV9WtGjfbh",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-ixRG0xfEp4BmyvCR0mtoRy2-1nmGJFENMmI1WXAeUHeCtz1",
+      "source": "ixRG0xfEp4BmyvCR0mtoR",
+      "target": "izGdctxP_OvQNvaMwVIrh",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-1nmGJFENMmI1WXAeUHeCtx2-BXz1utB_2eYzFvzSbFKx0w2",
+      "source": "izGdctxP_OvQNvaMwVIrh",
+      "target": "BXz1utB_2eYzFvzSbFKx0",
+      "source_handle": "x2",
+      "target_handle": "w2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-izGdctxP_OvQNvaMwVIrhy2-Cm6mqXYp-G4mGfPxuU73_z1",
+      "source": "izGdctxP_OvQNvaMwVIrh",
+      "target": "Cm6mqXYp-G4mGfPxuU73_",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-Cm6mqXYp-G4mGfPxuU73_y2-1nmGJFENMmI1WXAeUHeCtx2",
+      "source": "Cm6mqXYp-G4mGfPxuU73_",
+      "target": "822tGnM9jOkYh9aNlosPr",
+      "source_handle": "y2",
+      "target_handle": "x2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-1nmGJFENMmI1WXAeUHeCtz2-8xZxTLYq5m5_nkGh2lfUty2",
+      "source": "822tGnM9jOkYh9aNlosPr",
+      "target": "8xZxTLYq5m5_nkGh2lfUt",
+      "source_handle": "z2",
+      "target_handle": "y2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-1nmGJFENMmI1WXAeUHeCtw2-_46COO0FGaFuCYwqaRRWyx1",
+      "source": "822tGnM9jOkYh9aNlosPr",
+      "target": "_46COO0FGaFuCYwqaRRWy",
+      "source_handle": "w2",
+      "target_handle": "x1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-Cm6mqXYp-G4mGfPxuU73_w2-8xZxTLYq5m5_nkGh2lfUtx1",
+      "source": "Cm6mqXYp-G4mGfPxuU73_",
+      "target": "8xZxTLYq5m5_nkGh2lfUt",
+      "source_handle": "w2",
+      "target_handle": "x1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-Cm6mqXYp-G4mGfPxuU73_x2-sg9IjWWorT2lLEnUek-q5w2",
+      "source": "Cm6mqXYp-G4mGfPxuU73_",
+      "target": "sg9IjWWorT2lLEnUek-q5",
+      "source_handle": "x2",
+      "target_handle": "w2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-q1PayNkcJHU43QCdChAXtz2-3RwIO-S8-xOYKNmfwk0pfy1",
+      "source": "q1PayNkcJHU43QCdChAXt",
+      "target": "9AwVtwIv6TfP9F4ulz2F0",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-3RwIO-S8-xOYKNmfwk0pfw2-NIvjyhtTFC1gomtGQT_2tx2",
+      "source": "9AwVtwIv6TfP9F4ulz2F0",
+      "target": "NIvjyhtTFC1gomtGQT_2t",
+      "source_handle": "w2",
+      "target_handle": "x2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-9AwVtwIv6TfP9F4ulz2F0x2-3RwIO-S8-xOYKNmfwk0pfw1",
+      "source": "9AwVtwIv6TfP9F4ulz2F0",
+      "target": "ZLlz0Azfze-8k3z8HnVvE",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-3RwIO-S8-xOYKNmfwk0pfx2-l2Rl6OQbL7kYvPlpYCZ0Zw1",
+      "source": "ZLlz0Azfze-8k3z8HnVvE",
+      "target": "l2Rl6OQbL7kYvPlpYCZ0Z",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-ZLlz0Azfze-8k3z8HnVvEy2-3RwIO-S8-xOYKNmfwk0pfz1",
+      "source": "ZLlz0Azfze-8k3z8HnVvE",
+      "target": "3RwIO-S8-xOYKNmfwk0pf",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-3RwIO-S8-xOYKNmfwk0pfy2-IsNzCdS05tbAK0D1zz0Sfz1",
+      "source": "3RwIO-S8-xOYKNmfwk0pf",
+      "target": "IsNzCdS05tbAK0D1zz0Sf",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    }
+  ],
+  "content_crawled_at": "2026-04-06T13:17:37.535282+00:00"
+}

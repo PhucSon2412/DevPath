@@ -1,0 +1,3769 @@
+{
+  "id": "typescript",
+  "title": "TypeScript",
+  "source_url": "https://roadmap.sh/typescript",
+  "github_url": "https://github.com/kamranahmedse/developer-roadmap/tree/master/src/data/roadmaps/typescript",
+  "crawled_at": "2026-04-06T07:38:07.183247+00:00",
+  "type": "flow",
+  "stats": {
+    "total_nodes": 112,
+    "total_edges": 41,
+    "nodes_with_content": 93
+  },
+  "node_types": [
+    "button",
+    "horizontal",
+    "label",
+    "linksgroup",
+    "paragraph",
+    "section",
+    "subtopic",
+    "title",
+    "topic",
+    "vertical"
+  ],
+  "edge_styles": [
+    "dashed",
+    "solid"
+  ],
+  "edge_line_types": [
+    "default",
+    "smoothstep"
+  ],
+  "node_type_description": {
+    "title": "Tiêu đề chính của lộ trình",
+    "topic": "Chủ đề lớn (nhóm kỹ năng)",
+    "subtopic": "Kỹ năng/công nghệ cụ thể cần học",
+    "paragraph": "Vùng text mô tả / chú thích",
+    "vertical": "Đường kết nối dọc (visual connector)"
+  },
+  "edge_style_description": {
+    "solid": "Kỹ năng bắt buộc / quan trọng",
+    "dashed": "Tùy chọn / gợi ý / phương án thay thế"
+  },
+  "nodes": [
+    {
+      "id": "ZB1TdxJOvkLqmiyBiPb8B",
+      "type": "vertical",
+      "label": "nút dọc",
+      "position": {
+        "x": 226.76672552017453,
+        "y": 1002.2460936406935
+      },
+      "size": {
+        "width": 21,
+        "height": 97
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.55,
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "qnLkLaY7Nt73nuaRxLJsg",
+      "type": "vertical",
+      "label": "nút dọc",
+      "position": {
+        "x": 73.72726894500988,
+        "y": 782.1906788074556
+      },
+      "size": {
+        "width": 21,
+        "height": 502
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.55
+      },
+      "z_index": 999
+    },
+    {
+      "id": "IkitRuGt2Pud6aootSJB-",
+      "type": "horizontal",
+      "label": "nút ngang",
+      "position": {
+        "x": 84.76672552017453,
+        "y": 992.3816252596685
+      },
+      "size": {
+        "width": 177,
+        "height": 20
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.55
+      },
+      "z_index": 999
+    },
+    {
+      "id": "d86vtx3nM-5mhQWgMUfcT",
+      "type": "vertical",
+      "label": "nút dọc",
+      "position": {
+        "x": -419.22982819582353,
+        "y": 595.7304293708296
+      },
+      "size": {
+        "width": 21,
+        "height": 116
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "_4my3Mfk5lxztykcJQ66s",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": -163.95968546864998,
+        "y": 366.7475379479448
+      },
+      "size": {
+        "width": 250,
+        "height": 161
+      },
+      "style": {
+        "width": 150,
+        "height": 100,
+        "fontSize": 17,
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "v-557S7JKWhkSPaDYi0BN",
+      "type": "horizontal",
+      "label": "nút ngang",
+      "position": {
+        "x": 65.04031453135002,
+        "y": 298.2304293708296
+      },
+      "size": {
+        "width": 103,
+        "height": 20
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "h-SAVlYMgS3y0WmKNd9r9",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": 168.76672552017453,
+        "y": 143.2304293708296
+      },
+      "size": {
+        "width": 273,
+        "height": 526
+      },
+      "style": {
+        "width": 150,
+        "height": 100,
+        "fontSize": 17,
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "OnZEUqOyO3OtLtfJRLcas",
+      "type": "vertical",
+      "label": "nút dọc",
+      "position": {
+        "x": 206.76672552017453,
+        "y": 20.730429370829597
+      },
+      "size": {
+        "width": 21,
+        "height": 65
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "pQNklz7gALnQrIaPu97LH",
+      "type": "vertical",
+      "label": "nút dọc",
+      "position": {
+        "x": 333.26672552017453,
+        "y": 21.21599278857485
+      },
+      "size": {
+        "width": 21,
+        "height": 65
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "lcJ5Qry7uPRXDMfqgTKXk",
+      "type": "vertical",
+      "label": "nút dọc",
+      "position": {
+        "x": -392.49114007976596,
+        "y": 149.2304293708296
+      },
+      "size": {
+        "width": 21,
+        "height": 94
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "8d6HSzaJNgPSWvhU5Fydf",
+      "type": "vertical",
+      "label": "nút dọc",
+      "position": {
+        "x": -552.2332744798255,
+        "y": 148.7304293708296
+      },
+      "size": {
+        "width": 21,
+        "height": 94
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "iogwMmOvub2ZF4zgg6WyF",
+      "type": "title",
+      "label": "TypeScript",
+      "position": {
+        "x": -126.45968546864998,
+        "y": -160.28400721142515
+      },
+      "size": {
+        "width": 174,
+        "height": 68
+      },
+      "style": {
+        "fontSize": 28,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "LEijbLyxg4RyutKEM2Y5g",
+      "type": "vertical",
+      "label": "nút dọc",
+      "position": {
+        "x": -49.95968546864998,
+        "y": -230.76957062917046
+      },
+      "size": {
+        "width": 21,
+        "height": 76
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#0A33FF"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "KDd40JOAvZ8O1mfhTYB3K",
+      "type": "topic",
+      "label": "Giới thiệu về TypeScript",
+      "position": {
+        "x": -164.95968546864998,
+        "y": 72.7304293708296
+      },
+      "size": {
+        "width": 251,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "TypeScript là một ngôn ngữ lập trình xây dựng dựa trên JavaScript bằng cách thêm kiểu tĩnh. Nó về cơ bản hoạt động như một tập hợp mở rộng của JavaScript, có nghĩa là tất cả mã JavaScript hợp lệ cũng là mã TypeScript hợp lệ. Việc bổ sung chính của kiểu tĩnh cho phép các nhà phát triển xác định loại dữ liệu dự kiến ​​cho các biến, tham số hàm và giá trị trả về, điều này giúp phát hiện lỗi trong quá trình phát triển và cải thiện khả năng bảo trì mã.",
+        "links": [
+          {
+            "title": "Tổng quan về TypeScript",
+            "url": "https://www.typescriptlang.org/docs/handbook/typescript-from-scratch.html",
+            "type": "official"
+          },
+          {
+            "title": "Hướng dẫn Chính thức TypeScript",
+            "url": "https://www.typescriptlang.org/docs/handbook/intro.html",
+            "type": "official"
+          },
+          {
+            "title": "TypeScript là gì?",
+            "url": "https://thenewstack.io/what-is-typescript/",
+            "type": "article"
+          },
+          {
+            "title": "Video: TypeScript xuất sắc ở đâu",
+            "url": "https://youtu.be/BUo7B6UuoJ4",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "MQWzN_kXxVJMOYbRXSGJc",
+      "type": "subtopic",
+      "label": "TypeScript so với JavaScript",
+      "position": {
+        "x": -612.2332744798255,
+        "y": 20.730429370829597
+      },
+      "size": {
+        "width": 340,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "TypeScript và JavaScript đều là các ngôn ngữ lập trình được sử dụng cho phát triển web. JavaScript là một ngôn ngữ động được giải thích tại runtime bởi trình duyệt, nghĩa là lỗi kiểu chỉ được bắt được khi mã nguồn được thực thi. TypeScript, ngược lại, là một tập hợp mở rộng của JavaScript bổ sung thêm kiểu tĩnh tùy chọn. Điều này cho phép các nhà phát triển phát hiện và sửa lỗi trong quá trình phát triển và trước khi chạy chương trình, dẫn đến mã nguồn mạnh mẽ và dễ bảo trì hơn. Mã TypeScript phải được biên dịch thành JavaScript trước khi có thể chạy trong trình duyệt hoặc môi trường JavaScript khác.",
+        "links": [
+          {
+            "title": "Học JavaScript và TypeScript",
+            "url": "https://www.typescriptlang.org/docs/handbook/typescript-from-scratch.html#learning-javascript-and-typescript",
+            "type": "official"
+          },
+          {
+            "title": "TypeScript so với JavaScript",
+            "url": "https://thenewstack.io/typescript-vs-javascript/",
+            "type": "article"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về JavaScript",
+            "url": "https://app.daily.dev/tags/javascript?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dcLaEU_lb0z_QypL1ZhpX",
+      "type": "subtopic",
+      "label": "TS và JS Tương tác",
+      "position": {
+        "x": -612.2332744798255,
+        "y": 73.7304293708296
+      },
+      "size": {
+        "width": 340,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Tương tác giữa TypeScript và JavaScript đề cập đến khả năng mã TypeScript có thể hoạt động liền mạch với mã JavaScript hiện có và ngược lại. Điều này có nghĩa là bạn có thể sử dụng các thư viện JavaScript trong các dự án TypeScript của mình và dần dần chuyển đổi mã JavaScript sang TypeScript mà không cần phải viết lại tất cả cùng một lúc. Nó cho phép quá trình chuyển đổi mượt mà bằng cách tận dụng các codebase và thư viện hiện có đồng thời áp dụng những lợi ích của TypeScript.",
+        "links": [
+          {
+            "title": "Kiểm Tra Loại Dữ Liệu JavaScript",
+            "url": "https://www.typescriptlang.org/docs/handbook/type-checking-javascript-files.html",
+            "type": "official"
+          },
+          {
+            "title": "Sử dụng JavaScript trong TypeScript",
+            "url": "https://youtu.be/AZhZlEbBaB4",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dA8CNQOgJRDa0T7rmyS7f",
+      "type": "subtopic",
+      "label": "Cài đặt và cấu hình",
+      "position": {
+        "x": -612.2332744798255,
+        "y": 126.7304293708296
+      },
+      "size": {
+        "width": 340,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Quy trình cài đặt TypeScript thường bao gồm việc cài đặt trình biên dịch TypeScript, có chức năng chuyển đổi mã TypeScript thành JavaScript và cấu hình dự án của bạn bằng tệp `tsconfig.json` để quản lý các tùy chọn trình biên dịch và cài đặt dự án. Việc thiết lập này cho phép bạn viết, biên dịch và chạy mã TypeScript một cách hiệu quả.",
+        "links": [
+          {
+            "title": "Cài đặt và cấu hình TypeScript",
+            "url": "https://www.typescriptlang.org/download",
+            "type": "official"
+          },
+          {
+            "title": "Bắt đầu với TypeScript",
+            "url": "https://thenewstack.io/typescript-tutorial-a-guide-to-using-the-programming-language/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "DmqrX56d9KnBcOSwlJR2q",
+      "type": "subtopic",
+      "label": "tsconfig.json",
+      "position": {
+        "x": -612.2332744798255,
+        "y": 199.7304293708296
+      },
+      "size": {
+        "width": 141,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Tệp `tsconfig.json` là một tệp cấu hình xác định cách trình biên dịch TypeScript nên chuyển đổi mã TypeScript của bạn thành JavaScript. Nó kiểm soát nhiều tùy chọn biên dịch khác nhau như phiên bản ECMAScript đích, hệ thống mô-đun và bản đồ đường dẫn. Tệp này tồn tại ở thư mục gốc của dự án TypeScript và cho phép bạn định nghĩa cài đặt biên dịch của dự án theo một cách tường minh và có thể tái tạo.",
+        "links": [
+          {
+            "title": "tsconfig.json là gì?",
+            "url": "https://www.typescriptlang.org/docs/handbook/tsconfig-json.html#handbook-content",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "RrExVb7l2gd0s_TlNdLeD",
+      "type": "subtopic",
+      "label": "Tùy chọn trình biên dịch",
+      "position": {
+        "x": -461.23327447982547,
+        "y": 199.7304293708296
+      },
+      "size": {
+        "width": 188,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Các tùy chọn trình biên dịch trong TypeScript cung cấp khả năng kiểm soát chi tiết về cách trình biên dịch TypeScript (`tsc`) chuyển đổi các tệp `.ts` thành JavaScript. Các tùy chọn này thường được cấu hình trong một `tsconfig.json` hoặc truyền trực tiếp qua dòng lệnh. Chúng xác định các khía cạnh như phiên bản ECMAScript mục tiêu, hệ thống mô-đun, tính nghiêm ngặt của kiểm tra kiểu, tạo bản đồ đường dẫn nguồn và nhiều hành vi khác của quá trình biên dịch.",
+        "links": [
+          {
+            "title": "Tùy chọn trình biên dịch",
+            "url": "https://www.typescriptlang.org/docs/handbook/compiler-options.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "qdy4ZIY2EKgmPNdu_ndcg",
+      "type": "subtopic",
+      "label": "Chạy TypeScript",
+      "position": {
+        "x": 168.76672552017453,
+        "y": 72.7304293708296
+      },
+      "size": {
+        "width": 273,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Chạy TypeScript bao gồm chuyển đổi các tệp `.ts` của bạn thành các tệp JavaScript có thể được thực thi bởi một môi trường thời gian chạy JavaScript, chẳng hạn như trình duyệt web hoặc Node.js. Việc chuyển đổi này, được biết đến với tên gọi là biên dịch hoặc chuyển đổi, được thực hiện bởi trình biên dịch TypeScript (`tsc`). Sau khi biên dịch, các tệp JavaScript do tạo ra có thể sau đó được chạy trong môi trường thích hợp, cho phép bạn tận dụng lợi ích của TypeScript trong quá trình phát triển đồng thời duy trì khả năng tương thích với các môi trường thực thi JavaScript tiêu chuẩn.",
+        "links": [
+          {
+            "title": "Chạy TypeScript của bạn",
+            "url": "https://www.typescriptlang.org/docs/handbook/typescript-tooling-in-5-minutes.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Iv_t13PSVzet5VPKFtAp1",
+      "type": "subtopic",
+      "label": "tsc",
+      "position": {
+        "x": 168.76672552017453,
+        "y": -2.548968422223979
+      },
+      "size": {
+        "width": 93,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`tsc` là trình biên dịch dòng lệnh cho TypeScript. Nó nhận mã nguồn TypeScript làm đầu vào và chuyển đổi nó thành mã JavaScript có thể thực thi bởi trình duyệt hoặc các runtime JavaScript khác như Node.js. Bạn sử dụng `tsc` để kiểm tra lỗi kiểu, áp đặt tiêu chuẩn coding và cuối cùng chuẩn bị mã TypeScript của bạn cho quá trình triển khai.",
+        "links": [
+          {
+            "title": "Các tùy chọn dòng lệnh của tsc",
+            "url": "https://www.typescriptlang.org/docs/handbook/compiler-options.html#using-the-cli",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ZCM2_X4BiKh5FTCizrr-E",
+      "type": "subtopic",
+      "label": "ts-node",
+      "position": {
+        "x": 266.76672552017453,
+        "y": -2.548968422223979
+      },
+      "size": {
+        "width": 175,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ts-node là một gói cho phép bạn chạy trực tiếp mã TypeScript mà không cần biên dịch trước thành JavaScript. Nó làm điều này bằng cách cung cấp môi trường thực thi TypeScript cho Node.js, cho phép bạn thực thi các tệp `.ts` trực tiếp từ dòng lệnh hoặc sử dụng nó như một mô-đun Node.js. Về bản chất, nó kết hợp trình biên dịch TypeScript (`tsc`) và Node.js thành một quy trình được đơn giản hóa.",
+        "links": [
+          {
+            "title": "ts-node - Dự án GitHub",
+            "url": "https://github.com/TypeStrong/ts-node",
+            "type": "opensource"
+          },
+          {
+            "title": "Hướng dẫn chạy các script TypeScript bằng ts-node",
+            "url": "https://www.digitalocean.com/community/tutorials/typescript-running-typescript-ts-node",
+            "type": "article"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về TypeScript",
+            "url": "https://app.daily.dev/tags/typescript?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "_bZ71i36haWgHQTY0yMOx",
+      "type": "subtopic",
+      "label": "TS Playground",
+      "position": {
+        "x": 168.76672552017453,
+        "y": -55.54896842222398
+      },
+      "size": {
+        "width": 273,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "TS Playground là một môi trường trực tuyến, tương tác cho phép bạn viết, biên dịch và chia sẻ mã TypeScript trực tiếp trong trình duyệt web của bạn. Nó cung cấp phản hồi ngay lập tức về mã của bạn, hiển thị lỗi biên dịch và đầu ra JavaScript do tạo ra theo thời gian thực. Điều này làm cho nó là một công cụ thuận tiện để thử nghiệm các tính năng của TypeScript, xây dựng các dự án nhỏ và nhanh chóng kiểm tra các đoạn mã mà không cần môi trường phát triển cục bộ.",
+        "links": [
+          {
+            "title": "Công cụ Phát triển TypeScript Chính thức - Khu vực Thử nghiệm",
+            "url": "https://www.typescriptlang.org/play",
+            "type": "official"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về TypeScript",
+            "url": "https://app.daily.dev/tags/typescript?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "qcrGApxNzkGYxgcd7o45d",
+      "type": "topic",
+      "label": "Kiểu TypeScript",
+      "position": {
+        "x": -164.95968546864998,
+        "y": 283.7304293708296
+      },
+      "size": {
+        "width": 251,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "TypeScript Types xác định loại giá trị mà một biến có thể chứa. Về bản chất, chúng hoạt động như các nhãn chỉ định kiểu dữ liệu được phép, chẳng hạn như số, chuỗi hoặc các đối tượng phức tạp hơn. Bằng cách gán kiểu, TypeScript có thể thực hiện kiểm tra kiểu tĩnh, phát hiện các lỗi tiềm ẩn trong quá trình phát triển trước khi mã thậm chí được chạy. Điều này giúp cải thiện độ tin cậy của mã và làm cho việc hiểu rõ hơn về cách dữ liệu luân chuyển qua ứng dụng của bạn.",
+        "links": [
+          {
+            "title": "TypeScript - Các kiểu hàng ngày",
+            "url": "https://www.typescriptlang.org/docs/handbook/2/everyday-types.html",
+            "type": "official"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về TypeScript",
+            "url": "https://app.daily.dev/tags/typescript?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "OtdcYVLAgWsaKcaEjKOW1",
+      "type": "label",
+      "label": "Kiểu dữ liệu cơ bản",
+      "position": {
+        "x": 174.76672552017453,
+        "y": 152.2304293708296
+      },
+      "size": {
+        "width": 132,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "hfIHxa5i_5rEpjtzqEsic",
+      "type": "subtopic",
+      "label": "boolean",
+      "position": {
+        "x": 179.76672552017453,
+        "y": 192.2304293708296
+      },
+      "size": {
+        "width": 121,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Loại dữ liệu boolean đại diện cho một giá trị logic có thể là `true` hoặc `false`. Nó thường được sử dụng trong lập trình để kiểm soát luồng thực thi dựa trên các điều kiện nhất định, cho phép chương trình đưa ra quyết định và thực hiện các khối mã khác nhau tùy thuộc vào việc một điều kiện có được đáp ứng hay không. Giá trị boolean là nền tảng để biểu đạt các thao tác logic và so sánh.",
+        "links": [
+          {
+            "title": "Số, Chuỗi, Boolean, Symbol và Đối tượng (Number, String, Boolean, Symbol and Object)",
+            "url": "https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#the-primitives-string-number-and-boolean",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "UH9d3cvGy_e67WFNFwCyf",
+      "type": "subtopic",
+      "label": "number",
+      "position": {
+        "x": 179.76672552017453,
+        "y": 245.2304293708296
+      },
+      "size": {
+        "width": 121,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Loại `number` trong TypeScript đại diện cho các giá trị số. Điều này bao gồm các số nguyên (các số toàn bộ như 1, 42, -10) và các số thực dấu phẩy động (các số có dấu chấm thập phân như 3.14, -0.5). TypeScript sử dụng định dạng dấu chấm thực kép chính xác 64 bit (IEEE 754) để biểu diễn tất cả các số.",
+        "links": [
+          {
+            "title": "Số, Chuỗi, Boolean, Symbol và Đối tượng (Number, String, Boolean, Symbol and Object)",
+            "url": "https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#the-primitives-string-number-and-boolean",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "d8iV-IBZ6cSnH8Z5_HRmc",
+      "type": "subtopic",
+      "label": "string",
+      "position": {
+        "x": 179.76672552017453,
+        "y": 298.2304293708296
+      },
+      "size": {
+        "width": 121,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Một chuỗi ký tự biểu diễn một dãy các ký tự. Nó được sử dụng để lưu trữ và thao tác dữ liệu văn bản, chẳng hạn như từ, câu hoặc bất kỳ dãy các ký hiệu nào. Chuỗi thường được bao bọc trong dấu nháy đơn (`'...'`), dấu nháy kép (`\"...\"`) hoặc dấu ngoặc đơn ngược (`` `...` ``).",
+        "links": [
+          {
+            "title": "Số, Chuỗi, Boolean, Symbol và Đối tượng (Number, String, Boolean, Symbol and Object)",
+            "url": "https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#the-primitives-string-number-and-boolean",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "yLlQg7BF--ZwRHbXBWfOi",
+      "type": "subtopic",
+      "label": "void",
+      "position": {
+        "x": 179.76672552017453,
+        "y": 351.2304293708296
+      },
+      "size": {
+        "width": 121,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Loại `void` trong TypeScript đại diện cho sự vắng mặt của một giá trị. Nó thường được sử dụng làm kiểu trả về của các hàm mà không trả bất kỳ giá trị nào, về cơ bản chỉ ra rằng hàm thực hiện một hành động nhưng không tạo ra kết quả. Một hàm được khai báo với kiểu trả về `void` không được mong đợi sẽ trả bất kỳ dữ liệu nào trở lại người gọi.",
+        "links": [
+          {
+            "title": "void - Tài liệu TypeScript",
+            "url": "https://www.typescriptlang.org/docs/handbook/2/functions.html#void",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Sa6IZtM4XJstultz-pbh0",
+      "type": "subtopic",
+      "label": "undefined",
+      "position": {
+        "x": 179.76672552017453,
+        "y": 404.2304293708296
+      },
+      "size": {
+        "width": 121,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "JavaScript có hai giá trị nguyên thủy được sử dụng để báo hiệu giá trị vắng mặt hoặc chưa khởi tạo: `null` (vắng mặt) và `undefined` (chưa khởi tạo). TypeScript cũng có hai loại tương ứng với cùng tên. Cách các loại này hoạt động phụ thuộc vào việc bạn có tùy chọn `strictNullChecks` bật hay không. Với `strictNullChecks` tắt, các giá trị có thể là `null` hoặc `undefined` vẫn có thể được truy cập bình thường và các giá trị `null` và `undefined` có thể được gán cho một thuộc tính của bất kỳ kiểu nào. Điều này tương tự như cách các ngôn ngữ không có kiểm tra `null` (ví dụ: C#, Java) hoạt động. Việc thiếu kiểm tra các giá trị này thường là nguồn gốc của nhiều lỗi; TypeScript luôn khuyến khích mọi người bật tùy chọn `strictNullChecks` nếu có thể thực hiện được trong mã cơ sở. Với `strictNullChecks` bật, khi một giá trị là `null` hoặc `undefined`, bạn sẽ cần phải kiểm tra các giá trị đó trước khi sử dụng phương thức hoặc thuộc tính trên giá trị đó. Tương tự như việc kiểm tra `undefined` trước khi sử dụng một thuộc tính tùy chọn, chúng ta có thể sử dụng thu hẹp để kiểm tra các giá trị có thể là `null`: function doSomething(x: string | null) { if (x === null) { // không làm gì } else { console.log('Hello, ' + x.toUpperCase()); } }",
+        "links": [
+          {
+            "title": "null và undefined",
+            "url": "https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#null-and-undefined",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cjAwawhZLo1qVQ93XIdm2",
+      "type": "subtopic",
+      "label": "null",
+      "position": {
+        "x": 179.76672552017453,
+        "y": 455.7304293708296
+      },
+      "size": {
+        "width": 121,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Loại `null` đại diện cho sự vắng mặt chủ ý của một giá trị. Đó là một kiểu dữ liệu nguyên thủy có chỉ một giá trị có thể: `null`. Nó báo hiệu rằng một biến hoặc thuộc tính không được gán bất kỳ giá trị nào, hoặc một giá trị đã được loại bỏ rõ ràng.",
+        "links": [
+          {
+            "title": "null và undefined",
+            "url": "https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#null-and-undefined",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "SKqGm8fqxSRoE5HqDNqHB",
+      "type": "label",
+      "label": "Loại Đối tượng (Object Types)",
+      "position": {
+        "x": 311.26672552017453,
+        "y": 151.2304293708296
+      },
+      "size": {
+        "width": 117,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "mVKsM7R4Ivpdhnbwt1aRb",
+      "type": "subtopic",
+      "label": "Interface",
+      "position": {
+        "x": 309.26672552017453,
+        "y": 191.2304293708296
+      },
+      "size": {
+        "width": 121,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Một giao diện trong TypeScript là một cách để định nghĩa một hợp đồng cho hình dạng của một đối tượng. Nó đặt tên cho một tập hợp các thuộc tính và loại của chúng mà một đối tượng phải có. Hãy nghĩ về nó như một bản thiết kế chỉ ra các thuộc tính (và tùy chọn, phương thức) mà một đối tượng nên sở hữu, cho phép bạn đảm bảo rằng các phần khác nhau của mã của bạn hoạt động trơn tru bằng cách thực thi một cấu trúc nhất quán.",
+        "links": [
+          {
+            "title": "Loại đối tượng - Giao diện",
+            "url": "https://www.typescriptlang.org/docs/handbook/2/objects.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tTSITP1W1ymS-njbFb8Ts",
+      "type": "subtopic",
+      "label": "Lớp",
+      "position": {
+        "x": 309.26672552017453,
+        "y": 244.2304293708296
+      },
+      "size": {
+        "width": 121,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Lớp là bản thiết kế để tạo ra các đối tượng (thành phần) có đặc điểm tương tự nhau. Nó định nghĩa các thuộc tính (dữ liệu) và phương thức (hàm) mà các đối tượng sẽ sở hữu. Các lớp cho phép bạn tạo cấu trúc mã tái sử dụng bằng cách xác định một mẫu mà bạn có thể sử dụng để tạo nhiều đối tượng với cùng các tính năng cơ bản.",
+        "links": [
+          {
+            "title": "TypeScript - Lớp",
+            "url": "https://www.typescriptlang.org/docs/handbook/2/classes.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "bfZIXHceDKDGQl-24kQpT",
+      "type": "subtopic",
+      "label": "Hằng số liệt kê (Enumeration)",
+      "position": {
+        "x": 309.26672552017453,
+        "y": 297.2304293708296
+      },
+      "size": {
+        "width": 121,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Một \"enum\" (viết tắt của enumeration) là một cách để định nghĩa một tập hợp các hằng số có tên. Nó cung cấp một cách để đặt tên thân thiện hơn cho các tập hợp giá trị số, làm cho mã dễ đọc và bảo trì hơn. Các enum cho phép bạn xác định một kiểu bằng cách liệt kê các giá trị có thể của nó, điều này có thể đại diện cho các tùy chọn, trạng thái hoặc bất kỳ tập hợp khả năng khác nào.",
+        "links": [
+          {
+            "title": "TypeScript - Enum",
+            "url": "https://www.typescriptlang.org/docs/handbook/enums.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "YbDuIo1BbZKEAZwmXlCdZ",
+      "type": "subtopic",
+      "label": "Mảng",
+      "position": {
+        "x": 309.26672552017453,
+        "y": 350.2304293708296
+      },
+      "size": {
+        "width": 121,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Một mảng là một cấu trúc dữ liệu lưu trữ một bộ sưu tập có thứ tự các phần tử, trong đó mỗi phần tử được truy cập bằng chỉ số số của nó. Mảng là nền tảng để quản lý danh sách các mục và trong TypeScript, bạn xác định loại của các phần tử mà một mảng có thể chứa, đảm bảo tính nhất quán và ngăn ngừa lỗi. Độ dài của một mảng có thể thay đổi cho phép thêm hoặc xóa các phần tử một cách động.",
+        "links": [
+          {
+            "title": "Các mảng",
+            "url": "https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#arrays",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "jq-GD0DLyzrEXQKUmt5kv",
+      "type": "subtopic",
+      "label": "Tuple",
+      "position": {
+        "x": 309.26672552017453,
+        "y": 403.2304293708296
+      },
+      "size": {
+        "width": 121,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Bộ Tuple là một mảng có kiểu dữ liệu với độ dài đã định và kiểu dữ liệu cho mỗi chỉ số. Mỗi vị trí trong Tuple có thể có kiểu dữ liệu riêng, cho phép bạn tạo các mảng với cấu trúc đã biết, trong đó kiểu của phần tử được xác định tại mỗi chỉ số. Tuple đảm bảo số lượng phần tử khớp với độ dài đã định và mỗi phần tử đều thuộc kiểu dữ liệu dự kiến.",
+        "links": [
+          {
+            "title": "Loại Tuple",
+            "url": "https://www.typescriptlang.org/docs/handbook/2/objects.html#tuple-types",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "bx8s7zcSqfKHhHLF45YWd",
+      "type": "label",
+      "label": "Các kiểu dữ liệu phổ biến",
+      "position": {
+        "x": 193.26672552017453,
+        "y": 512.7304293708296
+      },
+      "size": {
+        "width": 94,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "vnqvm_WiaKqpdxrW4wRGa",
+      "type": "subtopic",
+      "label": "Đối tượng (Object)",
+      "position": {
+        "x": 309.26672552017453,
+        "y": 456.2304293708296
+      },
+      "size": {
+        "width": 121,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Trong TypeScript, một kiểu đối tượng định nghĩa cấu trúc của một đối tượng JavaScript. Nó chỉ định tên, kiểu dữ liệu và tính tùy chọn của các thuộc tính mà một đối tượng nên có. Bạn có thể định nghĩa các kiểu đối tượng bằng dấu ngoặc nhọn `{}` và liệt kê các thuộc tính với kiểu dữ liệu tương ứng của chúng, được phân tách bằng dấu chấm phẩy hoặc dấu phẩy. Điều này cho phép TypeScript đảm bảo rằng các đối tượng tuân thủ một hình dạng cụ thể, tăng cường an toàn mã và cung cấp gợi ý hoàn thành tốt hơn trong quá trình phát triển.",
+        "links": [
+          {
+            "title": "Loại đối tượng trong TypeScript",
+            "url": "https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#object-types",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "O2TYbd9i_OQwQk2dKh-ly",
+      "type": "subtopic",
+      "label": "unknown",
+      "position": {
+        "x": 179.76672552017453,
+        "y": 553.7304293708296
+      },
+      "size": {
+        "width": 121,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Loại `unknown` trong TypeScript đại diện cho một giá trị có thể là bất cứ thứ gì. Không giống như `any`, vốn vô hiệu hóa kiểm tra kiểu, `unknown` buộc bạn phải thực hiện kiểm tra kiểu hoặc khẳng định kiểu trước khi có thể thực hiện các thao tác trên một giá trị được khai báo là `unknown`. Điều này giúp ngăn ngừa lỗi không mong muốn trong thời gian chạy bằng cách đảm bảo rằng bạn đã xử lý tiềm năng kiểu của giá trị.",
+        "links": [
+          {
+            "title": "Kiểu không xác định trong TypeScript",
+            "url": "https://www.typescriptlang.org/docs/handbook/release-notes/typescript-3-0.html#new-unknown-top-type",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "yXiLegSlL7SveU8rBGj8U",
+      "type": "subtopic",
+      "label": "Bản dịch: Any",
+      "position": {
+        "x": 179.76672552017453,
+        "y": 606.7304293708296
+      },
+      "size": {
+        "width": 121,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "TypeScript có một kiểu đặc biệt, `any`, mà bạn có thể sử dụng khi nào bạn không muốn giá trị cụ thể gây ra lỗi kiểm tra kiểu. Khi một giá trị có kiểu `any`, bạn có thể truy cập bất kỳ thuộc tính nào của nó (tất cả đều có kiểu `any`), gọi nó như một hàm, gán nó cho (hoặc từ) một giá trị có bất kỳ kiểu nào, hoặc gần như bất cứ điều gì khác là hợp lệ về mặt cú pháp: let obj: any = { x: 0 }; // Không có dòng mã nào sau đây sẽ gây ra lỗi biên dịch. // Sử dụng `any` tắt tất cả kiểm tra kiểu tiếp theo và giả định rằng bạn biết môi trường tốt hơn TypeScript. obj.foo(); obj(); obj.bar = 100; obj = 'hello'; const n: number = obj;",
+        "links": [
+          {
+            "title": "bất kỳ kiểu dữ liệu nào trong TypeScript",
+            "url": "https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#any",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "I_ZPF1QaS4gvwNNBDzW8w",
+      "type": "label",
+      "label": "Các kiểu gốc",
+      "position": {
+        "x": 309.26672552017453,
+        "y": 511.7304293708296
+      },
+      "size": {
+        "width": 122,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "0pi9VTbngcAIswuu5LIYg",
+      "type": "subtopic",
+      "label": "never",
+      "position": {
+        "x": 309.26672552017453,
+        "y": 552.7304293708296
+      },
+      "size": {
+        "width": 121,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Loại `never` trong TypeScript đại diện cho loại giá trị sẽ không bao giờ xảy ra. Điều này có nghĩa là một hàm luôn ném lỗi hoặc chạy vô hạn (vòng lặp vô hạn) ngầm trả về `never`. Nó cũng hữu ích cho kiểm tra đầy đủ trong các hợp nhất phân biệt, đảm bảo rằng tất cả các trường hợp có thể xảy ra đều được xử lý. Về cơ bản, bạn không thể gán bất kỳ kiểu nào cho một biến của loại `never` (ngoại trừ `never` chính nó), khiến nó là loại đáy trong hệ thống kiểu của TypeScript.",
+        "links": [
+          {
+            "title": "Không dùng Type (Never Type)",
+            "url": "https://www.typescriptlang.org/docs/handbook/2/narrowing.html#the-never-type",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "AYoKlh6xTM5FgiK4h2HFp",
+      "type": "label",
+      "label": "Assertions",
+      "position": {
+        "x": -87.95968546864998,
+        "y": 373.49287752857555
+      },
+      "size": {
+        "width": 97,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "pGFnTqi0-RSj0YRmNA5iy",
+      "type": "subtopic",
+      "label": "as const",
+      "position": {
+        "x": -43.27273105499012,
+        "y": 464.4928775285755
+      },
+      "size": {
+        "width": 118,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`as const` là một tính năng của TypeScript cho phép bạn hướng dẫn trình biên dịch suy luận kiểu hẹp nhất hoặc cụ thể nhất có thể cho một biểu thức. Thay vì trình biên dịch mở rộng kiểu của một giá trị lên kiểu tổng quát (ví dụ, suy luận một biến chuỗi như `string`), `as const` khiến trình biên dịch suy luận giá trị đó là kiểu hằng số (ví dụ, suy luận một biến chuỗi như kiểu chuỗi hằng số cụ thể `\"hello\"`). Điều này hữu ích để tạo cấu trúc dữ liệu bất biến hoặc khi bạn cần trình biên dịch thực thi chính xác các giá trị được phép.",
+        "links": [
+          {
+            "title": "const assertions",
+            "url": "https://www.typescriptlang.org/docs/handbook/release-notes/typescript-3-4.html#const-assertions",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Ba0baUbomrW9td_K8U-5L",
+      "type": "subtopic",
+      "label": "chuyển đổi văn bản",
+      "position": {
+        "x": -151.45968546864998,
+        "y": 411.4928775285755
+      },
+      "size": {
+        "width": 225,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Các khẳng định kiểu (Type Assertions) trong TypeScript là một cách để thông báo cho trình biên dịch về kiểu cụ thể của một biến. Chúng cho phép bạn bỏ qua suy luận kiểu của TypeScript khi bạn biết nhiều hơn về kiểu của một giá trị so với trình biên dịch. Sử dụng `as [kiểu]` là một cú pháp để thực hiện khẳng định kiểu, cho phép bạn chuyển đổi một biến thành một kiểu cụ thể hơn. Điều này không thực hiện kiểm tra kiểu hoặc chuyển đổi trong thời gian chạy, mà chỉ đơn giản hướng dẫn trình biên dịch xử lý biến như thể nó có kiểu đã chỉ định.",
+        "links": [
+          {
+            "title": "Kiểm tra kiểu dữ liệu",
+            "url": "https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#type-assertions",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "afTNr36VqeXoJpHxm2IoS",
+      "type": "subtopic",
+      "label": "như mọi thứ",
+      "position": {
+        "x": -153.45968546864998,
+        "y": 464.4928775285755
+      },
+      "size": {
+        "width": 106,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`any` là một kiểu đặc biệt trong TypeScript đại diện cho một giá trị có bất kỳ kiểu nào. Khi một giá trị được khai báo với kiểu `any`, trình biên dịch sẽ không thực hiện kiểm tra kiểu hoặc suy luận kiểu đối với giá trị đó. Ví dụ: let anyValue: any = 42; // chúng ta có thể gán bất kỳ giá trị nào cho `anyValue`, bất kể kiểu của nó anyValue = 'Hello, world!'; anyValue = true;",
+        "links": [
+          {
+            "title": "Bản dịch: Any",
+            "url": "https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#any",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mjaL5ocLnM8VQlhUxW6KU",
+      "type": "subtopic",
+      "label": "Kiểm tra Không Null (Non-null Assertion)",
+      "position": {
+        "x": -164.95968546864998,
+        "y": 533.3455260484365
+      },
+      "size": {
+        "width": 251,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Toán tử khẳng định không phải null trong TypeScript là một cách để nói với trình biên dịch rằng bạn chắc chắn giá trị đó không phải là null hoặc undefined, ngay cả khi trình kiểm tra kiểu của TypeScript nghĩ rằng nó có thể. Nó được ký hiệu bằng dấu cảm thắc (`!`) đặt sau một biến hoặc biểu thức. Sử dụng toán tử này một cách hiệu quả cho phép trình biên dịch bỏ qua các kiểm tra null nghiêm ngặt đối với biểu thức đó, tin tưởng rằng bạn, nhà phát triển, đã có đủ ngữ cảnh để biết giá trị sẽ xuất hiện trong thời gian chạy.",
+        "links": [
+          {
+            "title": "Toán tử Kiểm tra Không Null (Non-null assertion operator)",
+            "url": "https://www.typescriptlang.org/docs/handbook/release-notes/typescript-2-0.html#non-null-assertion-operator",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "HD1UGOidp7JGKdW6CEdQ_",
+      "type": "subtopic",
+      "label": "thỏa mãn keyword",
+      "position": {
+        "x": -164.95968546864998,
+        "y": 586.3455260484365
+      },
+      "size": {
+        "width": 251,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Từ khóa `satisfies` trong TypeScript được sử dụng để đảm bảo rằng một giá trị tuân thủ một kiểu cụ thể mà không cần khai báo rõ ràng kiểu đó. Điều này đặc biệt hữu ích khi bạn muốn kiểm tra xem cấu trúc của một đối tượng có khớp với một định nghĩa kiểu nhưng vẫn cho phép TypeScript suy luận một kiểu cụ thể hơn cho các thuộc tính của đối tượng đó. Nó xác thực hình dạng của giá trị chống lại kiểu được chỉ định và nếu hợp lệ thì nó giữ lại thông tin kiểu ban đầu.",
+        "links": [
+          {
+            "title": "thỏa mãn từ khóa",
+            "url": "https://www.typescriptlang.org/docs/handbook/release-notes/typescript-4-9.html#the-satisfies-operator",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "KUur-gfOBQodTS-irFet7",
+      "type": "topic",
+      "label": "Suy Luận Loại Dữ Liệu",
+      "position": {
+        "x": -614.491140079766,
+        "y": 283.7304293708296
+      },
+      "size": {
+        "width": 251,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Suy luận kiểu dữ liệu là quá trình suy ra tự động kiểu dữ liệu của một biểu thức trong một ngôn ngữ lập trình. Thay vì khai báo rõ ràng kiểu dữ liệu cho một biến, trình biên dịch hoặc trình thông dịch có thể suy ra nó dựa trên giá trị được gán cho nó hoặc cách nó được sử dụng trong mã. Điều này làm giảm nhu cầu về các ghi chú kiểu dữ liệu chi tiết, giúp code ngắn gọn và dễ đọc hơn đồng thời vẫn mang lại lợi ích của tính an toàn kiểu dữ liệu.",
+        "links": [
+          {
+            "title": "Suy Luận Loại Dữ Liệu",
+            "url": "https://www.typescriptlang.org/docs/handbook/type-inference.html#handbook-content",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "alMJCEyUZ90xz-2_g3YRj",
+      "type": "topic",
+      "label": "Tính Tương Thích Loại Dữ Liệu",
+      "position": {
+        "x": -614.491140079766,
+        "y": 336.7304293708296
+      },
+      "size": {
+        "width": 251,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "TypeScript sử dụng kiểu cấu trúc để xác định tính tương thích của kiểu. Điều này có nghĩa là hai kiểu được coi là tương thích nếu chúng có cùng cấu trúc, bất kể tên của chúng. Đây là một ví dụ về tính tương thích kiểu trong TypeScript: interface Point { x: number; y: number; } let p1: Point = { x: 10, y: 20 }; let p2: { x: number; y: number } = p1; console.log(p2.x); // Output: 10 Trong ví dụ này, `p1` có kiểu `Point`, trong khi `p2` có kiểu `{ x: number; y: number }`. Mặc dù hai kiểu có tên khác nhau, chúng vẫn được coi là tương thích vì chúng có cùng cấu trúc. Điều này có nghĩa là bạn có thể gán một giá trị có kiểu `Point` cho một biến có kiểu `{ x: number; y: number }`, như chúng ta làm với `p1` và `p2` trong ví dụ này.",
+        "links": [
+          {
+            "title": "Tính Tương Thích Loại Dữ Liệu",
+            "url": "https://www.typescriptlang.org/docs/handbook/type-compatibility.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "qefnsugcveizVq2TORRgn",
+      "type": "topic",
+      "label": "Kết hợp các kiểu",
+      "position": {
+        "x": -614.491140079766,
+        "y": 692.0521049565081
+      },
+      "size": {
+        "width": 251,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Kết hợp các kiểu trong TypeScript cho phép bạn tạo ra các kiểu mới, phức tạp hơn từ các kiểu hiện có. Điều này được thực hiện thông qua các tính năng như hợp nhất và giao cắt. Một kiểu hợp nhất cho phép một biến chứa các giá trị của nhiều kiểu khác nhau, trong khi một kiểu giao cắt kết hợp nhiều kiểu thành một kiểu duy nhất có tất cả các thuộc tính của mỗi kiểu riêng lẻ. Các cơ chế này cung cấp sự linh hoạt và khả năng diễn đạt khi định nghĩa hình dạng dữ liệu của bạn.",
+        "links": [
+          {
+            "title": "Loại hợp nhất trong TypeScript",
+            "url": "https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#union-types",
+            "type": "official"
+          },
+          {
+            "title": "Intersection Types trong TypeScript",
+            "url": "https://www.typescripttutorial.net/typescript-tutorial/typescript-intersection-types/",
+            "type": "article"
+          },
+          {
+            "title": "Alias Kiểu Dữ Liệu",
+            "url": "https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#type-aliases",
+            "type": "article"
+          },
+          {
+            "title": "Toán tử Loại Keyof",
+            "url": "https://www.typescriptlang.org/docs/handbook/2/keyof-types.html#handbook-content",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5z5w3yv1HbOpMlzEd4Iot",
+      "type": "subtopic",
+      "label": "Loại hợp nhất",
+      "position": {
+        "x": -455.0325701264904,
+        "y": 435.2806279375586
+      },
+      "size": {
+        "width": 209,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Loại hợp nhất cho phép một biến có thể chứa các giá trị của nhiều kiểu khác nhau. Điều này có nghĩa là bạn có thể chỉ định rằng một biến có thể là, ví dụ, một `chuỗi` hoặc một `số`. Bạn xác định một loại hợp nhất bằng ký hiệu pipe (`|`) để phân tách các kiểu có thể. Điều này mang lại sự linh hoạt trong các tình huống mà một biến có thể chấp nhận nhiều kiểu dữ liệu khác nhau.",
+        "links": [
+          {
+            "title": "Loại hợp nhất trong TypeScript",
+            "url": "https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#union-types",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "RWYXEZMODUrqwRWf_Lqi9",
+      "type": "subtopic",
+      "label": "Intersection Types",
+      "position": {
+        "x": -455.0325701264904,
+        "y": 488.2806279375586
+      },
+      "size": {
+        "width": 209,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Các kiểu giao cắt trong TypeScript cho phép bạn kết hợp nhiều kiểu vào một kiểu duy nhất. Kiểu dữ liệu được tạo ra sẽ có tất cả các tính năng (thuộc tính, phương thức, v.v.) của tất cả các kiểu thành phần. Điều này đặc biệt hữu ích khi bạn muốn tạo một kiểu đại diện cho một đối tượng phải đáp ứng nhiều ràng buộc kiểu cùng một lúc.",
+        "links": [
+          {
+            "title": "Intersection Types trong TypeScript",
+            "url": "https://www.typescripttutorial.net/typescript-tutorial/typescript-intersection-types/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "M_3O21zjppgWptIT5dtu8",
+      "type": "subtopic",
+      "label": "Alias Kiểu Dữ Liệu",
+      "position": {
+        "x": -455.0325701264904,
+        "y": 541.2806279375586
+      },
+      "size": {
+        "width": 209,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Trong TypeScript, các alias kiểu tạo ra một tên mới cho một kiểu hiện có. Tên mới này sau đó có thể được sử dụng ở bất cứ nơi nào bạn thường dùng kiểu gốc. Chúng không tạo ra một kiểu mới; thay vào đó, chúng cung cấp một cách dễ đọc và thuận tiện hơn để tham chiếu đến các kiểu phức tạp hoặc thường xuyên sử dụng, chẳng hạn như kiểu hợp (union), kiểu giao (intersection) hoặc kiểu tuple.",
+        "links": [
+          {
+            "title": "Alias Kiểu Dữ Liệu",
+            "url": "https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#type-aliases",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "t1Tcesfq7bV2TkHcfD6lU",
+      "type": "subtopic",
+      "label": "Toán tử keyof",
+      "position": {
+        "x": -455.0325701264904,
+        "y": 594.2806279375586
+      },
+      "size": {
+        "width": 209,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Toán tử `keyof` trong TypeScript tạo ra một hợp nhất của tất cả các khóa (tên thuộc tính) của một kiểu đối tượng đã cho. Nó về cơ bản trích xuất tên của các thuộc tính như các kiểu chữ cái dăm. Điều này cho phép bạn làm việc với các thuộc tính của một kiểu đối tượng theo cách an toàn về kiểu, đặc biệt khi xử lý các hàm tổng quát hoặc trong những tình huống mà bạn cần đảm bảo rằng bạn chỉ đang truy cập các thuộc tính hợp lệ.",
+        "links": [
+          {
+            "title": "Toán tử keyof Type",
+            "url": "https://www.typescriptlang.org/docs/handbook/2/keyof-types.html#handbook-content",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cFZsxpYHDxm7IWwergb3r",
+      "type": "topic",
+      "label": "Biện Pháp Bảo Vệ Loại Dữ Liệu / Thu Hẹp Loại Dữ Liệu",
+      "position": {
+        "x": -614.491140079766,
+        "y": 778.4378434659828
+      },
+      "size": {
+        "width": 251,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Các biện pháp kiểm tra kiểu và thu hẹp là các kỹ thuật trong TypeScript được sử dụng để tinh chỉnh kiểu của một biến trong phạm vi cụ thể. Chúng cho phép bạn thông báo với trình biên dịch TypeScript rằng một biến cụ thể hơn kiểu đã khai báo, cho phép bạn thực hiện các thao tác mà trước đây sẽ dẫn đến lỗi về kiểu. Điều này đặc biệt hữu ích khi làm việc với kiểu hợp nhất hoặc trong những tình huống nơi kiểu ban đầu của một biến là rộng lớn.",
+        "links": [
+          {
+            "title": "Biện Pháp Bảo Vệ Loại Dữ Liệu - Tài Liệu TypeScript",
+            "url": "https://www.typescriptlang.org/docs/handbook/2/narrowing.html#typeof-type-guards",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "EDOU5a7UK17yp3PdFBJMc",
+      "type": "subtopic",
+      "label": "instanceof",
+      "position": {
+        "x": -283.36352244605473,
+        "y": 671.1906788074556
+      },
+      "size": {
+        "width": 170,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Toán tử `instanceof` kiểm tra xem một đối tượng có phải là một phiên bản của một lớp hoặc hàm khởi tạo cụ thể hay không. Nó xác định xem liệu thuộc tính nguyên mẫu của một hàm khởi tạo có xuất hiện ở bất kỳ đâu trong chuỗi nguyên mẫu của một đối tượng hay không. Kết quả của việc kiểm tra này là một giá trị boolean, chỉ ra rằng đối tượng có được coi là một phiên bản của loại được chỉ định hay không.",
+        "links": [
+          {
+            "title": "Toán tử instanceOf",
+            "url": "https://www.typescriptlang.org/docs/handbook/2/narrowing.html#instanceof-narrowing",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ZiOcFZy85p7tLzUkyKDei",
+      "type": "subtopic",
+      "label": "typeof",
+      "position": {
+        "x": -283.36352244605473,
+        "y": 724.1906788074556
+      },
+      "size": {
+        "width": 170,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`typeof` trong TypeScript là một cách để thu hẹp kiểu dữ liệu của một biến dựa trên kết quả của toán tử `typeof` JavaScript. Điều này cho phép bạn viết mã chính xác hơn bằng cách kiểm tra kiểu của một biến (như string, number, boolean, symbol, hoặc object) và sau đó xử lý nó theo cách phù hợp trong một khối mã cụ thể. Bằng cách kiểm tra kiểu JavaScript cơ bản của một biến, TypeScript có thể suy luận ra một kiểu cụ thể hơn trong khối điều kiện đó, giúp phát hiện các lỗi tiềm ẩn và cho phép thực hiện các thao tác an toàn hơn.",
+        "links": [
+          {
+            "title": "Biện Pháp Bảo Vệ Loại Dữ Liệu và Phân Biệt Các Loại Dữ Liệu",
+            "url": "https://www.typescriptlang.org/docs/handbook/2/narrowing.html#typeof-type-guards",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Wy2yIK5vgLjEcc9VjuQK5",
+      "type": "subtopic",
+      "label": "Bình đẳng",
+      "position": {
+        "x": -283.36352244605473,
+        "y": 777.1906788074556
+      },
+      "size": {
+        "width": 170,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Tính đồng nhất trong bối cảnh của các bộ kiểm tra kiểu và thu hẹp (narrowing) đề cập đến việc sử dụng các toán tử so sánh (như `===`, `!==`, `==`, `!=`) để tinh chỉnh kiểu dữ liệu của một biến trong chương trình TypeScript. Bằng cách so sánh một biến với một giá trị cụ thể (hoặc một biến khác), TypeScript có thể suy luận ra một kiểu dữ liệu cụ thể hơn cho biến đó trong phạm vi nhất định, cho phép thực thi mã an toàn và chính xác hơn bằng cách loại bỏ các khả năng. Cơ chế này tăng cường tính bảo mật kiểu bằng cách cho trình biên dịch hiểu được các giá trị và kiểu dữ liệu mà một biến có thể giữ ở các điểm khác nhau trong mã.",
+        "links": [
+          {
+            "title": "Tính đồng nhất, thu hẹp",
+            "url": "https://www.typescriptlang.org/docs/handbook/2/narrowing.html#equality-narrowing",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Xonbxc7MvMEonKBvbkCAH",
+      "type": "subtopic",
+      "label": "Tính thật (Truthiness)",
+      "position": {
+        "x": -283.36352244605473,
+        "y": 830.1906788074556
+      },
+      "size": {
+        "width": 170,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Trong TypeScript, cũng như JavaScript, khái niệm \"tính thật\" (Truthiness) đề cập đến sự hiểu biết rằng một giá trị sẽ đánh giá thành `true` khi được gặp trong ngữ cảnh Boolean. Một số giá trị vốn có sẵn là \"thật\" trong khi những giá trị khác là \"giả\". TypeScript sử dụng sự hiểu biết này để tinh chỉnh kiểu của một biến dựa trên kết quả của một kiểm tra tính thật, hiệu quả thu hẹp các kiểu tiềm năng của nó thành những loại tương thích với một kết quả `true`. Điều này cho phép kiểm tra kiểu chính xác hơn trong các khối điều kiện.",
+        "links": [
+          {
+            "title": "Thu hẹp tính thật (Truthiness Narrowing)",
+            "url": "https://www.typescriptlang.org/docs/handbook/2/narrowing.html#truthiness-narrowing",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1DOSAieOmWUNNsQQrqf2m",
+      "type": "subtopic",
+      "label": "Dự đoán kiểu (Type Prediction)",
+      "position": {
+        "x": -283.36352244605473,
+        "y": 883.1906788074556
+      },
+      "size": {
+        "width": 170,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Biểu thức kiểu (type predicates) là một cách để tinh chỉnh kiểu của một biến trong hàm TypeScript. Chúng được sử dụng để hướng dẫn trình biên dịch TypeScript rằng một điều kiện cụ thể đảm bảo biến đó có kiểu nhất định. Thay vì trình biên dịch suy luận kiểu dựa trên các kiểm tra cơ bản, một biểu thức kiểu tuyên bố rõ ràng rằng nếu một hàm trả về `true`, thì đối số phải có kiểu đã chỉ định.",
+        "links": [
+          {
+            "title": "Biện Pháp Bảo Vệ Loại Dữ Liệu và Phân Biệt Các Loại Dữ Liệu",
+            "url": "https://www.typescriptlang.org/docs/handbook/2/narrowing.html#using-type-predicates",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "qOynVkDi1gFz0mxyJHjfJ",
+      "type": "topic",
+      "label": "TypeScript - Hàm",
+      "position": {
+        "x": -614.491140079766,
+        "y": 957.1906788074556
+      },
+      "size": {
+        "width": 251,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Các hàm trong TypeScript là các khối mã có thể tái sử dụng được, được thiết kế để thực hiện các tác vụ cụ thể. Chúng có thể nhận các đầu vào (tham số), xử lý chúng và trả về một kết quả. TypeScript cải thiện các hàm JavaScript bằng cách thêm chú thích kiểu cho các tham số và giá trị trả về, giúp tăng cường tính rõ ràng của mã và kiểm tra lỗi trong quá trình phát triển. Điều này giúp đảm bảo rằng các hàm nhận và tạo ra đúng loại dữ liệu dự kiến, dẫn đến mã mạnh mẽ và dễ bảo trì hơn.",
+        "links": [
+          {
+            "title": "Hàm trong TypeScript",
+            "url": "https://www.typescriptlang.org/docs/handbook/2/functions.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "9FIhHwDNzyKpb42NmSv3K",
+      "type": "subtopic",
+      "label": "Kiểm tra kiểu Hàm",
+      "position": {
+        "x": -613.717302686211,
+        "y": 1036.8816252596685
+      },
+      "size": {
+        "width": 251,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Các hàm trong lập trình là các khối mã có thể tái sử dụng để thực hiện các tác vụ cụ thể. Định kiểu các hàm trong TypeScript nghĩa là xác định loại dữ liệu mà một hàm chấp nhận làm tham số và loại dữ liệu mà hàm trả về. Điều này cho phép trình biên dịch TypeScript kiểm tra xem các hàm có được sử dụng đúng cách hay không, ngăn chặn lỗi liên quan đến kiểu dữ liệu xảy ra khi chạy chương trình và cải thiện khả năng bảo trì và dễ đọc mã.",
+        "links": [
+          {
+            "title": "TypeScript - Hàm",
+            "url": "https://www.typescriptlang.org/docs/handbook/2/functions.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "-0Zp6b8NjDyz9MAQE3HfS",
+      "type": "subtopic",
+      "label": "Tải chồng hàm",
+      "position": {
+        "x": -613.717302686211,
+        "y": 1089.8816252596685
+      },
+      "size": {
+        "width": 252,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Hàm quá tải cho phép bạn định nghĩa nhiều chữ ký hàm có cùng tên nhưng khác nhau về kiểu tham số hoặc số lượng tham số. Điều này cho phép bạn cung cấp thông tin kiểu cụ thể dựa trên cách hàm được gọi, tăng cường tính an toàn kiểu và rõ ràng của mã. Khi gọi một hàm quá tải, TypeScript sẽ chọn chữ ký hàm phù hợp nhất dựa trên các đối số đã cung cấp.",
+        "links": [
+          {
+            "title": "Tắc quyền (Function Overloading)",
+            "url": "https://www.typescriptlang.org/docs/handbook/2/functions.html#function-overloads",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "aH1DxiG5xrdNlKutJ_gTz",
+      "type": "topic",
+      "label": "Giao diện TypeScript",
+      "position": {
+        "x": -69.77273105499006,
+        "y": 756.081447065701
+      },
+      "size": {
+        "width": 210,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Interfaces trong TypeScript là một cách để định nghĩa hợp đồng cho cấu trúc của đối tượng. Chúng mô tả hình dạng mà một đối tượng nên có, chỉ ra tên, kiểu dữ liệu và tính tùy chọn của các thuộc tính của nó. Về bản chất, một interface đặt tên cho một tổ hợp cụ thể của các trường và kiểu dữ liệu của chúng. Các interface này không được biên dịch thành JavaScript; chúng hoàn toàn là một cấu trúc TypeScript được sử dụng để kiểm tra kiểu trong quá trình phát triển.",
+        "links": [
+          {
+            "title": "TypeScript - Giao diện",
+            "url": "https://www.typescriptlang.org/docs/handbook/2/objects.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "TxkEpoOiuUm-fXJuFVKcH",
+      "type": "subtopic",
+      "label": "Kiểu so với Giao diện",
+      "position": {
+        "x": 232.64274386986392,
+        "y": 703.081447065701
+      },
+      "size": {
+        "width": 210,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Trong TypeScript, cả kiểu (type) và giao diện (interface) đều là những cách để định nghĩa hình dạng của một đối tượng. Chúng xác định các thuộc tính mà một đối tượng nên có và loại dữ liệu của các thuộc tính đó. Các kiểu có thể mô tả các kiểu đơn giản như kiểu nguyên thủy (string, number, boolean) hoặc cấu trúc phức tạp hơn như hợp nhất (union) và giao nhau (intersection), trong khi các giao diện chủ yếu được sử dụng để định nghĩa cấu trúc của đối tượng, bao gồm cả thuộc tính và phương thức của chúng. Sự khác biệt chính nằm ở khả năng mở rộng và ứng dụng sử dụng.",
+        "links": [
+          {
+            "title": "Interfaces vs. Type Aliases",
+            "url": "https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#differences-between-type-aliases-and-interfaces",
+            "type": "official"
+          },
+          {
+            "title": "Interfaces vs Types trong TypeScript",
+            "url": "https://stackoverflow.com/questions/37233735/interfaces-vs-types-in-typescript",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "O-9WQqidujLIEOTcOfy4n",
+      "type": "subtopic",
+      "label": "Mở rộng Giao diện",
+      "position": {
+        "x": 232.64274386986392,
+        "y": 756.081447065701
+      },
+      "size": {
+        "width": 210,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Mở rộng giao diện trong TypeScript cho phép bạn tạo ra các giao diện mới dựa trên các giao diện hiện có. Điều này có nghĩa là một giao diện mới có thể kế thừa tất cả thuộc tính và phương thức của giao diện cha và thêm các thành viên duy nhất của riêng nó, thúc đẩy tái sử dụng mã và thiết lập một hệ thống phân loại rõ ràng về kiểu dữ liệu. Hãy nghĩ về nó như di sản trong lớp, nhưng cho định nghĩa giao diện.",
+        "links": [
+          {
+            "title": "Mở rộng Giao diện",
+            "url": "https://www.typescriptlang.org/docs/handbook/2/objects.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "fY40W8prpgiNqRL50w7ub",
+      "type": "subtopic",
+      "label": "Khai báo Interface",
+      "position": {
+        "x": 232.64274386986392,
+        "y": 809.081447065701
+      },
+      "size": {
+        "width": 210,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Một khai báo giao diện giới thiệu một kiểu mới có tên vào hệ thống kiểu TypeScript. Nó chỉ định một hợp đồng mà một đối tượng (hoặc kiểu khác) có thể tuân thủ, xác định tên và loại của thuộc tính và phương thức mà các đối tượng triển khai phải sở hữu. Các giao diện không tạo ra mã JavaScript; chúng tồn tại hoàn toàn cho mục đích kiểm tra kiểu, cho phép kiểu tĩnh mạnh mẽ hơn và khả năng bảo trì mã được cải thiện.",
+        "links": [
+          {
+            "title": "Mở rộng Giao diện",
+            "url": "https://www.typescriptlang.org/docs/handbook/2/objects.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "lvtTSHH9yBTCiLng8btnI",
+      "type": "subtopic",
+      "label": "Loại hỗn hợp",
+      "position": {
+        "x": 232.64274386986392,
+        "y": 862.081447065701
+      },
+      "size": {
+        "width": 210,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Các kiểu lai mô tả các đối tượng có thể hoạt động vừa như một đối tượng vừa như một hàm. Về bản chất, chúng sở hữu thuộc tính và phương thức giống như một đối tượng thông thường, nhưng cũng có thể được gọi hoặc thực thi trực tiếp như một hàm. Cấu trúc bất thường này thường được sử dụng khi một hàm cần duy trì trạng thái hoặc có các thuộc tính bổ sung liên kết với nó.",
+        "links": []
+      }
+    },
+    {
+      "id": "ib0jfZzukYOZ42AdJqt_W",
+      "type": "topic",
+      "label": "Các lớp",
+      "position": {
+        "x": 172.26672552017453,
+        "y": 977.8816252596685
+      },
+      "size": {
+        "width": 132,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Các lớp là bản thiết kế để tạo ra các đối tượng, đóng gói dữ liệu (thuộc tính) và hành vi (phương thức) thành một đơn vị duy nhất. Chúng cung cấp một cách có cấu trúc để định nghĩa đặc điểm và hành động mà một đối tượng của cùng loại có thể sở hữu. Điều này cho phép tạo nhiều bản sao của cùng một loại đối tượng với thuộc tính và phương thức nhất quán.",
+        "links": [
+          {
+            "title": "Hướng dẫn - Lớp",
+            "url": "https://www.typescriptlang.org/docs/handbook/2/classes.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3XrKbK5Od2eoM0BLaS4kU",
+      "type": "subtopic",
+      "label": "Tham số của hàm tạo",
+      "position": {
+        "x": 173.3414717224867,
+        "y": 1069.2460936406935
+      },
+      "size": {
+        "width": 268,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Trong các lớp TypeScript, tham số của trình xây dựng (constructor) cung cấp một cách súc tích để định nghĩa và khởi tạo thuộc tính của lớp trực tiếp trong danh sách tham số của trình xây dựng. Bằng cách sử dụng các bộ điều khiển truy cập như `public`, `private` hoặc `protected` trước một tham số của trình xây dựng, TypeScript sẽ tự động tạo ra một thuộc tính lớp tương ứng có tên đó và gán giá trị của đối số trình xây dựng cho nó. Điều này giúp đơn giản hóa quy trình khai báo và khởi tạo thuộc tính, giảm thiểu mã lặp lại (boilerplate).",
+        "links": [
+          {
+            "title": "TypeScript - Construct",
+            "url": "https://www.typescriptlang.org/docs/handbook/2/classes.html#constructors",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "oxzcYXxy2I7GI7nbvFYVa",
+      "type": "subtopic",
+      "label": "Tải chồng ký hiệu (Overloading) của hàm tạo",
+      "position": {
+        "x": 173.3414717224867,
+        "y": 1334.2460936406935
+      },
+      "size": {
+        "width": 268,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Tải chồng ký hiệu cho phép một lớp có nhiều hàm tạo với các danh sách tham số khác nhau. Điều này cho phép bạn tạo các đối tượng của lớp theo những cách khác nhau, cung cấp sự linh hoạt trong việc khởi tạo dựa trên các đối số được cung cấp. Mỗi biến thể hàm tạo xử lý việc khởi tạo đối tượng khác nhau tùy thuộc vào các kiểu và số lượng đối số được truyền khi tạo mẫu.",
+        "links": [
+          {
+            "title": "Hàm tạo - TypeScript",
+            "url": "https://www.typescriptlang.org/docs/handbook/2/classes.html#constructors",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "RJ7on8WoxrKcXrR3qY5Rs",
+      "type": "subtopic",
+      "label": "Từ khóa kiểm soát quyền truy cập (Access modifiers)",
+      "position": {
+        "x": 173.3414717224867,
+        "y": 1122.2460936406935
+      },
+      "size": {
+        "width": 268,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Trong lập trình hướng đối tượng, các modifier truy cập kiểm soát khả năng hiển thị của thành viên lớp (thuộc tính và phương thức). Chúng xác định phần nào trong mã của bạn, hoặc thậm chí mã bên ngoài, có thể truy cập và sửa đổi những thành viên đó. Các modifier truy cập phổ biến bao gồm `public`, `private` và `protected`, mỗi loại cung cấp các mức độ khả năng tiếp cận và đóng gói khác nhau.",
+        "links": [
+          {
+            "title": "TypeScript - Định danh truy cập",
+            "url": "https://www.typescripttutorial.net/typescript-tutorial/typescript-access-modifiers/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tZFWeWHdOUJcCEtHfXH9p",
+      "type": "subtopic",
+      "label": "Các lớp trừu tượng",
+      "position": {
+        "x": 173.3414717224867,
+        "y": 1175.2460936406935
+      },
+      "size": {
+        "width": 268,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Một lớp trừu tượng là một lớp mà không thể được khởi tạo trực tiếp. Mục đích chính của nó là xác định một bản thiết kế cho các lớp khác. Nó có thể chứa các phương thức trừu tượng (các phương thức không có triển khai) và các phương thức cụ thể (các phương thức có triển khai). Các lớp con phải cung cấp các triển khai cụ thể cho tất cả các phương thức trừu tượng được thừa hưởng từ lớp trừu tượng, trừ khi lớp con cũng được tuyên bố là trừu tượng. Điều này đảm bảo rằng các lớp con tuân thủ một giao diện hoặc hợp đồng nhất định.",
+        "links": [
+          {
+            "title": "Các lớp trừu tượng",
+            "url": "https://www.typescriptlang.org/docs/handbook/2/classes.html#abstract-classes-and-members",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "8P0-vb9nlnmz7iC4UvyJZ",
+      "type": "subtopic",
+      "label": "Di sản so với Đa hình",
+      "position": {
+        "x": 173.3414717224867,
+        "y": 1228.2460936406935
+      },
+      "size": {
+        "width": 268,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Di sản là một cơ chế trong đó một lớp (lớp con hoặc lớp kế thừa) nhận các thuộc tính và phương thức của một lớp khác (lớp cha hoặc lớp cơ sở), thiết lập mối quan hệ \"là một\". Đa hình, có nghĩa là \"nhiều dạng\", cho phép các đối tượng của các lớp khác nhau được xử lý như các đối tượng của một kiểu chung, cho phép bạn viết mã có thể hoạt động với các đối tượng của nhiều lớp mà không cần biết loại cụ thể của chúng tại thời điểm biên dịch.",
+        "links": [
+          {
+            "title": "Phát triển Phần mềm - Thành thạo lập trình hướng đối tượng trong TypeScript",
+            "url": "https://dev.to/rajrathod/mastering-object-oriented-programming-with-typescript-encapsulation-abstraction-inheritance-and-polymorphism-explained-c6p",
+            "type": "article"
+          },
+          {
+            "title": "Di sản và Đa hình trong TypeScript",
+            "url": "https://www.youtube.com/watch?v=Sn6K57YSuwU",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "aknqutxN2WDQ4RFcT-szM",
+      "type": "subtopic",
+      "label": "Dự định ghi đè (method overriding)",
+      "position": {
+        "x": 173.3414717224867,
+        "y": 1281.2460936406935
+      },
+      "size": {
+        "width": 268,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Phương thức kế thừa (method overriding) cho phép một lớp con cung cấp một triển khai cụ thể cho một phương thức đã được định nghĩa trong lớp cha của nó. Khi một phương thức trong lớp con có cùng tên, cùng tham số và cùng kiểu trả về (hoặc một kiểu trả về cụ thể hơn, gọi là kiểu trả về đồng nhất - covariant return type) với một phương thức trong lớp cha của nó, phương thức của lớp con sẽ ghi đè (override) phương thức của lớp cha. Điều này có nghĩa là khi phương thức được gọi trên một đối tượng của lớp con, phiên bản phương thức của lớp con sẽ được thực thi thay vì phiên bản của lớp cha.",
+        "links": [
+          {
+            "title": "TypeScript - Lớp kế thừa phương thức",
+            "url": "https://www.typescriptlang.org/docs/handbook/2/classes.html#overriding-methods",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4gaKqNtGLFqpk9WVKZl0v",
+      "type": "topic",
+      "label": "Dạng tổng quát",
+      "position": {
+        "x": -3.1585282775133123,
+        "y": 1089.8816252596685
+      },
+      "size": {
+        "width": 132,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Tính đa hình (Generics) là một cách để viết mã có thể hoạt động với nhiều kiểu dữ liệu khác nhau mà không cần biết các kiểu dữ liệu đó trước khi thực thi. Chúng cho phép bạn định nghĩa các biến kiểu có thể được sử dụng để đại diện cho kiểu dữ liệu cụ thể sẽ được sử dụng khi mã được thực thi. Điều này làm cho mã của bạn có khả năng tái sử dụng và an toàn về kiểu hơn bằng cách ngăn chặn các lỗi có thể xảy ra nếu bạn sử dụng `any` hoặc các kiểu ít cụ thể hơn.",
+        "links": [
+          {
+            "title": "Chào thế giới Generics",
+            "url": "https://www.typescriptlang.org/docs/handbook/2/generics.html#hello-world-of-generics",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "T2-VAVfntouJOoWHpHZ3n",
+      "type": "subtopic",
+      "label": "Loại trừ tổng quát",
+      "position": {
+        "x": -280.00239646538284,
+        "y": 1065.2460936406935
+      },
+      "size": {
+        "width": 200,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Các kiểu dữ liệu tổng quát cho phép bạn viết mã có thể hoạt động với nhiều loại dữ liệu khác nhau mà không làm mất tính an toàn về kiểu dữ liệu. Hãy nghĩ về chúng như các chỗ trống để chỉ định kiểu dữ liệu sau này khi sử dụng mã. Để tạo một kiểu dữ liệu tổng quát, bạn sử dụng dấu ngoặc nhọn `<>` để xác định tham số kiểu. Các tham số này hoạt động như các biến đại diện cho kiểu dữ liệu cụ thể mà bạn muốn làm việc với, cho phép bạn viết các thành phần có thể tái sử dụng thích ứng với nhiều loại dữ liệu khác nhau.",
+        "links": [
+          {
+            "title": "Chào thế giới Generics",
+            "url": "https://www.typescriptlang.org/docs/handbook/2/generics.html#hello-world-of-generics",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "0NXHAOUYGIwuPwlN7r_B3",
+      "type": "subtopic",
+      "label": "Giới hạn chung",
+      "position": {
+        "x": -280.00239646538284,
+        "y": 1118.2460936406935
+      },
+      "size": {
+        "width": 200,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Các ràng buộc chung trong TypeScript cho phép bạn giới hạn các kiểu có thể được sử dụng làm tham số kiểu cho một kiểu hoặc hàm tổng quát. Chúng đảm bảo rằng tham số kiểu đáp ứng một yêu cầu cụ thể, chẳng hạn như có các thuộc tính hoặc phương thức nhất định. Điều này mang lại nhiều hơn về an toàn kiểu và cho phép bạn làm việc với các thuộc tính cụ thể của kiểu tổng quát, biết chắc chắn chúng tồn tại.",
+        "links": [
+          {
+            "title": "Giới hạn chung – TypeScript",
+            "url": "https://www.typescriptlang.org/docs/handbook/2/generics.html#generic-constraints",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "TRx3wvWnRdJJf5eL-GBG4",
+      "type": "topic",
+      "label": "Trợ nhận (Decorators)",
+      "position": {
+        "x": -8.658528277513312,
+        "y": 1266.7460936406935
+      },
+      "size": {
+        "width": 132,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Trình trang trí (decorators) là một loại khai báo đặc biệt có thể được gắn vào khai báo lớp, phương thức, trình truy cập, thuộc tính hoặc tham số. Chúng sử dụng dạng `@expression`, trong đó `expression` phải đánh giá thành một hàm sẽ được gọi khi chạy thời gian với thông tin về khai báo đã được trang trí. Trình trang trí cung cấp một cách để thêm cả chú thích và cú pháp lập trình siêu cấu trúc cho các khai báo lớp và thành viên. Về cơ bản, chúng sửa đổi hành vi hoặc chức năng của mã được trang trí theo một cách tường minh.",
+        "links": [
+          {
+            "title": "Trợ nhận (Decorators)",
+            "url": "https://www.typescriptlang.org/docs/handbook/decorators.html#handbook-content",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "LSwUHfalnk5MgHt21PANb",
+      "type": "topic",
+      "label": "Loại tiện ích",
+      "position": {
+        "x": -280.00239646538284,
+        "y": 1266.7460936406935
+      },
+      "size": {
+        "width": 189,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Các loại tiện ích trong TypeScript là các kiểu generic được xây dựng sẵn thực hiện các chuyển đổi kiểu phổ biến. Chúng cho phép bạn tạo ra các kiểu mới dựa trên các kiểu hiện có bằng cách áp dụng các thao tác như làm tùy chọn, yêu cầu, chỉ đọc hoặc chọn các thuộc tính cụ thể. Các tiện ích này cải thiện khả năng kiểm tra kiểu và khả năng tái sử dụng mã bằng cách cho phép bạn biểu đạt các thao tác kiểu phức tạp một cách súc tích và tường minh.",
+        "links": [
+          {
+            "title": "TypeScript - Các loại tiện ích",
+            "url": "https://www.typescriptlang.org/docs/handbook/utility-types.html",
+            "type": "official"
+          },
+          {
+            "title": "Hướng dẫn Loại Hỗ trợ TypeScript",
+            "url": "https://camchenry.com/blog/typescript-utility-types",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "gBTem9Dp3IQLAkqGX4fOF",
+      "type": "subtopic",
+      "label": "Bán phần (Partial)",
+      "position": {
+        "x": -618.0023964653828,
+        "y": 1156.7460936406935
+      },
+      "size": {
+        "width": 101,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Loại kiểu trợ năng `Partial<Type>` trong TypeScript xây dựng một kiểu trong đó tất cả các thuộc tính của kiểu ban đầu `Type` được đặt thành tùy chọn. Điều này có nghĩa là khi bạn sử dụng `Partial<Type>`, bạn có thể tạo ra các đối tượng chỉ bao gồm một tập hợp con các thuộc tính được định nghĩa trong kiểu ban đầu, hoặc thậm chí không có bất kỳ thuộc tính nào. Về cơ bản, nó làm cho tất cả các thuộc tính của một kiểu có thể đặt là null.",
+        "links": []
+      }
+    },
+    {
+      "id": "E88tHQvARkHURZwGaO02l",
+      "type": "subtopic",
+      "label": "Chọn (Pick)",
+      "position": {
+        "x": -514.0023964653828,
+        "y": 1156.7460936406935
+      },
+      "size": {
+        "width": 101,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`Pick` là một kiểu tiện ích tạo ra một kiểu mới bằng cách chọn một tập hợp các thuộc tính từ một kiểu hiện có. Bạn chỉ định các thuộc tính bạn muốn bao gồm trong kiểu mới bằng các khóa của chúng. Điều này hữu ích khi bạn cần một tập con của các thuộc tính từ một định nghĩa kiểu lớn hơn.",
+        "links": [
+          {
+            "title": "Chọn<Loại, Khóa>",
+            "url": "https://www.typescriptlang.org/docs/handbook/utility-types.html#picktype-keys",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "yjlxygHl8QONNUrdx-Q0A",
+      "type": "subtopic",
+      "label": "Loại bỏ (Omit)",
+      "position": {
+        "x": -618.0023964653828,
+        "y": 1209.7460936406935
+      },
+      "size": {
+        "width": 101,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`Omit` là một kiểu tiện ích trong TypeScript tạo ra một kiểu mới bằng cách chọn tất cả các thuộc tính từ một kiểu hiện có và sau đó loại bỏ các thuộc tính (chìa khóa) được chỉ định. Về bản chất, nó tạo ra một tập con của kiểu ban đầu bằng cách loại trừ một số khóa bạn xác định.",
+        "links": [
+          {
+            "title": "Omit<Type, Keys>",
+            "url": "https://www.typescriptlang.org/docs/handbook/utility-types.html#omittype-keys",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "IuO9-O_DQdDYuAbdGWdgb",
+      "type": "subtopic",
+      "label": "Chỉ đọc",
+      "position": {
+        "x": -514.0023964653828,
+        "y": 1209.7460936406935
+      },
+      "size": {
+        "width": 101,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Loại kiểu trợ năng `Readonly` trong TypeScript xây dựng một kiểu mới trong đó tất cả các thuộc tính của kiểu ban đầu được thiết lập thành chỉ đọc. Điều này có nghĩa là sau khi một thuộc tính đã được khởi tạo, giá trị của nó không thể thay đổi sau này. Điều này hữu ích để tạo ra các đối tượng bất biến và đảm bảo rằng dữ liệu không bị sửa đổi vô tình.",
+        "links": []
+      }
+    },
+    {
+      "id": "DRdBmF5Dt_r09LoPOxOuq",
+      "type": "subtopic",
+      "label": "Ký hiệu (Record)",
+      "position": {
+        "x": -618.169165402603,
+        "y": 1262.7460936406935
+      },
+      "size": {
+        "width": 101,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Loại kiểu trợ năng `Record` trong TypeScript được sử dụng để xây dựng một kiểu mới trong đó các khóa là của một kiểu cụ thể (thường là chuỗi, số hoặc ký hiệu) và các giá trị là của một kiểu khác được chỉ định. Điều này hữu ích khi bạn muốn xác định cấu trúc đối tượng với một tập hợp các khóa được xác định trước và kiểu nhất quán cho các giá trị liên kết với những khóa đó. Về cơ bản, nó là một phương trình ngắn gọn để định nghĩa các kiểu đối tượng với các cặp khóa-giá trị cụ thể.",
+        "links": [
+          {
+            "title": "Ký hiệu (Record<Keys, Type>)",
+            "url": "https://www.typescriptlang.org/docs/handbook/utility-types.html#recordkeys-type",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "0fvOXi9gJbEc7etqTggNE",
+      "type": "subtopic",
+      "label": "Loại trừ",
+      "position": {
+        "x": -514.169165402603,
+        "y": 1262.7460936406935
+      },
+      "size": {
+        "width": 101,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`Exclude` là một kiểu tiện ích trong TypeScript tạo ra một kiểu mới bằng cách loại bỏ các kiểu từ một kiểu hợp nhất. Với hai kiểu, `Type` và `ExcludedUnion`, `Exclude<Type, ExcludedUnion>` sẽ tạo ra một kiểu bao gồm tất cả các thành viên của `Type` mà không thể gán cho `ExcludedUnion`. Điều này hữu ích để lọc các kiểu cụ thể khỏi một hợp nhất, dẫn đến một kiểu tinh chỉnh và cụ thể hơn.",
+        "links": [
+          {
+            "title": "Loại trừ<UnionType, ExcludedMembers>",
+            "url": "https://www.typescriptlang.org/docs/handbook/utility-types.html#excludeuniontype-excludedmembers",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "IIAbAzXiVQm1JEi2MTMZN",
+      "type": "subtopic",
+      "label": "Trích xuất",
+      "position": {
+        "x": -618.0023964653828,
+        "y": 1315.7460936406935
+      },
+      "size": {
+        "width": 101,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Trích xuất cho phép bạn tạo ra một kiểu mới bằng cách chọn lọc các kiểu cụ thể từ một hợp nhất dựa trên điều kiện. Về bản chất, nó lọc một kiểu hợp nhất, chỉ giữ lại những thành viên có thể gán cho một loại được chỉ định. Điều này hữu ích khi bạn cần thu hẹp các kiểu có thể trong một hợp nhất chỉ đến những kiểu đáp ứng một tiêu chí cụ thể.",
+        "links": [
+          {
+            "title": "Trích xuất<Type, Union>",
+            "url": "https://www.typescriptlang.org/docs/handbook/utility-types.html#extracttype-union",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "_BAZlBEzE7ddr315OeHvl",
+      "type": "subtopic",
+      "label": "Không Nullable (NonNullable)",
+      "position": {
+        "x": -617.2332744798255,
+        "y": 1421.7460936406935
+      },
+      "size": {
+        "width": 203,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`NonNullable` là một kiểu tiện ích loại bỏ `null` và `undefined` khỏi một kiểu. Nếu bạn có một kiểu có thể tiềm năng là `null` hoặc `undefined`, việc áp dụng `NonNullable` sẽ đảm bảo rằng kiểu kết quả chỉ bao gồm các giá trị khác của kiểu ban đầu, do đó hiệu quả loại bỏ `null` và `undefined`.",
+        "links": []
+      }
+    },
+    {
+      "id": "a7hl0iMZ-jcUACxqIYVqv",
+      "type": "subtopic",
+      "label": "Tham số (Parameters)",
+      "position": {
+        "x": -617.2332744798255,
+        "y": 1368.7460936406935
+      },
+      "size": {
+        "width": 203,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Loại kiểu trợ năng `Parameters` trong TypeScript trích xuất các kiểu tham số của một kiểu hàm thành một tuple. Điều này cho phép bạn xác định một cách lập trình các đối số dự kiến ​​của một hàm và sử dụng chúng trong các định nghĩa kiểu khác, mang lại tính an toàn kiểu và linh hoạt khi làm việc với chữ ký hàm. Kết quả là một kiểu tuple trong đó mỗi phần tử đại diện cho kiểu của một tham số trong hàm.",
+        "links": []
+      }
+    },
+    {
+      "id": "On75JR_UkiIlha0_qaSeu",
+      "type": "subtopic",
+      "label": "Kiểu trả về",
+      "position": {
+        "x": -617.2332744798255,
+        "y": 1474.7460936406935
+      },
+      "size": {
+        "width": 203,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`ReturnType` là một kiểu tiện ích (utility type) trích xuất kiểu trả về của một hàm. Với một kiểu hàm đã cho, `ReturnType<Type>` sẽ tạo ra một kiểu mới đại diện cho kiểu dữ liệu mà hàm đó trả về. Điều này hữu ích khi bạn cần làm việc với kết quả của một hàm mà không biết kiểu trả về chính xác của nó trước.",
+        "links": []
+      }
+    },
+    {
+      "id": "izGAjNtrh3BzQt3KiZX0W",
+      "type": "subtopic",
+      "label": "InstanceType",
+      "position": {
+        "x": -617.2332744798255,
+        "y": 1527.7460936406935
+      },
+      "size": {
+        "width": 203,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`InstanceType` là một kiểu tiện ích trong TypeScript trích xuất kiểu mẫu của kiểu hàm khởi tạo. Đơn giản hơn, với một kiểu đại diện cho một lớp hoặc một hàm khởi tạo, `InstanceType` xác định kiểu của đối tượng sẽ được tạo khi bạn sử dụng từ khóa `new` với hàm khởi tạo đó. Điều này cho phép bạn dễ dàng làm việc với kiểu cụ thể của các mẫu được tạo ra bởi một hàm khởi tạo lớp trong hệ thống kiểu của bạn.",
+        "links": [
+          {
+            "title": "InstanceType<Type>",
+            "url": "https://www.typescriptlang.org/docs/handbook/utility-types.html#instancetypetype",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "aEhI_9mFWXRIZh1ZxTuzu",
+      "type": "subtopic",
+      "label": "Awaited",
+      "position": {
+        "x": -514.0023964653828,
+        "y": 1315.7460936406935
+      },
+      "size": {
+        "width": 101,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`Awaited` là một kiểu tiện ích trong TypeScript được sử dụng để giải mã đệ quy kiểu `Promise`. Nó mô phỏng hành vi của toán tử `await` trong JavaScript. Nếu bạn có một kiểu đại diện cho `Promise`, `Awaited` có thể trích xuất kiểu cơ bản mà `Promise` giải quyết. Nó xử lý các kiểu `Promise` và các thenable khác, liên tục giải mã cho đến khi đạt được một kiểu không phải Promise.",
+        "links": [
+          {
+            "title": "Chờ đợi (Loại)",
+            "url": "https://www.typescriptlang.org/docs/handbook/utility-types.html#awaitedtype",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2F7vOL__v9dLBohA263aj",
+      "type": "topic",
+      "label": "Các kiểu dữ liệu nâng cao",
+      "position": {
+        "x": -280.00239646538284,
+        "y": 1402.7460936406935
+      },
+      "size": {
+        "width": 189,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Các kiểu nâng cao của TypeScript cho phép định nghĩa kiểu chính xác và linh hoạt hơn ngoài các kiểu cơ bản, vượt ra ngoài các giá trị nguyên thủy. Các kiểu giao cắt (intersection types) kết hợp nhiều kiểu thành một, yêu cầu một giá trị phải đáp ứng tất cả các kiểu được kết hợp. Các kiểu thống nhất (union types) cho phép một giá trị có thể là một trong nhiều loại được chỉ định. Alias kiểu tạo tên cho một kiểu, giúp các định nghĩa kiểu phức tạp dễ dàng tái sử dụng hơn. Các kiểu điều kiện (conditional types) cho phép kiểu được xác định dựa trên một điều kiện, thường sử dụng generics. Các kiểu chỉ mục (index types) cho phép bạn xác định kiểu của một thuộc tính từ một loại khác bằng cách sử dụng một khóa. Các kiểu ánh xạ (mapped types) chuyển đổi mỗi thuộc tính trong một kiểu, tạo ra một kiểu mới dựa trên kiểu ban đầu. Các bộ lọc kiểu (type guards) là các hàm thu hẹp kiểu của một biến trong phạm vi cụ thể.",
+        "links": [
+          {
+            "title": "Chủ đề nâng cao",
+            "url": "https://www.typescriptlang.org/docs/handbook/type-compatibility.html#advanced-topics",
+            "type": "official"
+          },
+          {
+            "title": "Hướng dẫn TypeScript - Các Loại Dữ Liệu Nâng Cao",
+            "url": "https://www.youtube.com/playlist?list=PLw5h0DiJ-9PBIgIyd2ZA1CVnJf0BLFJg2",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "VQ-V9qIdKgnpSJg2UnpuB",
+      "type": "subtopic",
+      "label": "Loại dữ liệu được ánh xạ",
+      "position": {
+        "x": -295.50239646538284,
+        "y": 1499.7460936406935
+      },
+      "size": {
+        "width": 220,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Các kiểu dữ liệu ánh xạ (Mapped Types) trong TypeScript cho phép bạn tạo ra các kiểu mới dựa trên các kiểu hiện có bằng cách chuyển đổi mỗi thuộc tính. Chúng lặp qua các khóa của một kiểu hiện có và áp dụng một phép chuyển đổi cho mỗi khóa và/hoặc giá trị, từ đó ánh xạ kiểu ban đầu sang cấu trúc kiểu mới. Điều này cung cấp một cách ngắn gọn và mạnh mẽ để tạo ra các kiểu là biến thể của các kiểu khác, thúc đẩy tái sử dụng mã và giảm thiểu sự trùng lặp.",
+        "links": [
+          {
+            "title": "Loại dữ liệu được ánh xạ",
+            "url": "https://www.typescriptlang.org/docs/handbook/2/mapped-types.html#handbook-content",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ubGIhi-WLE0EopTYXzmPL",
+      "type": "subtopic",
+      "label": "Loại có điều kiện",
+      "position": {
+        "x": -295.50239646538284,
+        "y": 1552.7460936406935
+      },
+      "size": {
+        "width": 220,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Các loại có điều kiện trong TypeScript cho phép bạn định nghĩa các kiểu phụ thuộc vào các kiểu khác, tương tự như toán tử ba ngôi trong JavaScript. Chúng cho phép bạn biểu đạt các mối quan hệ kiểu thay đổi dựa trên việc một điều kiện kiểu cụ thể được đáp ứng hay không. Tính năng này làm cho các định nghĩa kiểu của bạn linh hoạt hơn và có khả năng xử lý các kịch bản phức tạp nơi kiểu kết quả phụ thuộc vào cấu trúc hoặc bản chất của một kiểu khác.",
+        "links": [
+          {
+            "title": "Loại có điều kiện",
+            "url": "https://www.typescriptlang.org/docs/handbook/2/conditional-types.html#handbook-content",
+            "type": "official"
+          },
+          {
+            "title": "Loại có điều kiện - TypeScript nâng cao",
+            "url": "https://www.youtube.com/watch?v=QFWrbNehKk0",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "CWzGwvl6NwYCaLYSLIjqQ",
+      "type": "subtopic",
+      "label": "Loại Literal",
+      "position": {
+        "x": -295.50239646538284,
+        "y": 1605.7460936406935
+      },
+      "size": {
+        "width": 220,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Các kiểu dữ liệu hằng (literal types) là một tính năng cho phép bạn chỉ định giá trị chính xác mà một biến có thể chứa. Thay vì chỉ nói rằng một biến là một `chuỗi` hoặc một `số`, bạn có thể chỉ định nó chỉ có thể là một chuỗi cụ thể như `\"hello\"` hoặc một số cụ thể như `42`. Điều này cho phép kiểm tra kiểu dữ liệu chính xác hơn và giúp phát hiện lỗi tại thời điểm biên dịch bằng cách đảm bảo rằng các biến chỉ chứa các giá trị được định nghĩa.",
+        "links": [
+          {
+            "title": "Loại Literal",
+            "url": "https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#literal-types",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "xP25nGw42VqdfZ_9pDMXd",
+      "type": "subtopic",
+      "label": "Loại hình Chuỗi Mẫu",
+      "position": {
+        "x": -295.50239646538284,
+        "y": 1658.7460936406935
+      },
+      "size": {
+        "width": 220,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Các loại hình chuỗi mẫu trong TypeScript là một cách để tạo ra các loại chuỗi văn bản mới bằng cách kết hợp các loại chuỗi văn bản hiện có, tương tự như chuỗi mẫu trong JavaScript. Chúng cho phép bạn xác định các loại chuỗi được cấu thành từ các loại chuỗi khác với các kiểu hoặc cấu trúc cụ thể. Điều này được thực hiện bằng cách nhúng các loại khác nhau bên trong một định nghĩa chuỗi văn bản, cho phép bạn thực thi nghiêm ngặt hơn về mặt kiểm tra kiểu và tạo ra các loại mô tả nhiều hơn dựa trên thao tác chuỗi.",
+        "links": [
+          {
+            "title": "Loại hình Chuỗi Mẫu",
+            "url": "https://www.typescriptlang.org/docs/handbook/2/template-literal-types.html#handbook-content",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "N8xBTJ74xv1E5hSLYZtze",
+      "type": "subtopic",
+      "label": "Ký hiệu đệ quy",
+      "position": {
+        "x": -295.50239646538284,
+        "y": 1711.7460936406935
+      },
+      "size": {
+        "width": 220,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Các kiểu đệ quy trong TypeScript cho phép bạn định nghĩa các kiểu dữ liệu tham chiếu đến chính chúng. Điều này đặc biệt hữu ích để biểu diễn cấu trúc dữ liệu có cấu trúc lồng nhau hoặc phân cấp, chẳng hạn như cây hoặc danh sách liên kết. Bằng cách sử dụng đệ quy trong định nghĩa kiểu, bạn có thể đảm bảo rằng hệ thống kiểu phản ánh chính xác bản chất tự tham chiếu của các cấu trúc dữ liệu này, cho phép kiểm tra kiểu mạnh mẽ trên toàn bộ mã của bạn.",
+        "links": [
+          {
+            "title": "Ký hiệu đệ quy trong TypeScript",
+            "url": "https://www.typescriptlang.org/play/3-7/types-and-code-flow/recursive-type-references.ts.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sE9lqkkqwnsVJxTJv37YZ",
+      "type": "topic",
+      "label": "Mô-đun TypeScript",
+      "position": {
+        "x": 171.49760353461716,
+        "y": 1733.7460936406935
+      },
+      "size": {
+        "width": 258,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Các mô-đun trong TypeScript (và JavaScript) là một cách để tổ chức mã thành các khối có thể tái sử dụng và quản lý được. Mỗi mô-đun bao bọc các biến, hàm, lớp và giao diện riêng của nó, ngăn chặn xung đột tên và thúc đẩy tính mô-đun của mã. Các mô-đun xác định rõ những phần nào có thể được sử dụng bởi mã khác và nhập mô-đun để truy cập các chức năng đã xuất bản của chúng.",
+        "links": [
+          {
+            "title": "Mô-đun",
+            "url": "https://www.typescriptlang.org/docs/handbook/modules.html#handbook-content",
+            "type": "official"
+          },
+          {
+            "title": "TypeScript - Mô-đun",
+            "url": "https://www.youtube.com/watch?v=EpOPR03z4Vw",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "EtVwQ4lnWi3IIFHGb2Qib",
+      "type": "subtopic",
+      "label": "Không gian tên (Namespaces)",
+      "position": {
+        "x": 171.49760353461716,
+        "y": 1423.2460936406935
+      },
+      "size": {
+        "width": 258,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Không gian tên trong TypeScript là một cách để tổ chức mã thành các nhóm logic, ngăn chặn xung đột tên và cải thiện khả năng bảo trì mã. Chúng tạo ra một hộp tên (container) được đặt tên nơi bạn có thể định nghĩa các biến, hàm, lớp và giao diện. Bằng cách sử dụng không gian tên, bạn có thể đóng gói các chức năng liên quan dưới một tên cụ thể, làm cho mã của bạn có cấu trúc hơn và dễ hiểu hơn.",
+        "links": [
+          {
+            "title": "Tổng quan về Namespace",
+            "url": "https://www.typescriptlang.org/docs/handbook/namespaces.html",
+            "type": "official"
+          },
+          {
+            "title": "Không gian tên và Mô-đun (Namespaces and Modules)",
+            "url": "https://www.typescriptlang.org/docs/handbook/namespaces-and-modules.html",
+            "type": "official"
+          },
+          {
+            "title": "TypeScript - Sử dụng không gian tên",
+            "url": "https://typescriptlang.org/docs/handbook/namespaces-and-modules.html#using-namespaces",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "k_5y77k8ZZ9_O2WpWXWTY",
+      "type": "subtopic",
+      "label": "Mô-đun Môi trường",
+      "position": {
+        "x": 171.49760353461716,
+        "y": 1476.2460936406935
+      },
+      "size": {
+        "width": 258,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Các module môi trường xung quanh trong TypeScript được sử dụng để mô tả hình dạng của mã JavaScript hiện có khi bạn không có các tệp khai báo TypeScript (`.d.ts`) ngay lập tức. Chúng cho phép bạn thông báo với trình biên dịch TypeScript về sự tồn tại và cấu trúc của một mô-đun JavaScript, để bạn có thể nhập và sử dụng nó trong mã TypeScript của mình mà không gặp lỗi về kiểu, ngay cả khi mô-đun đó không được viết bằng TypeScript.",
+        "links": [
+          {
+            "title": "Mô-đun Môi trường",
+            "url": "https://www.typescriptlang.org/docs/handbook/modules/reference.html#ambient-modules",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "egQWk1n3p8Pep83yIwCtI",
+      "type": "subtopic",
+      "label": "Mô-đun bên ngoài",
+      "position": {
+        "x": 171.49760353461716,
+        "y": 1529.2460936406935
+      },
+      "size": {
+        "width": 258,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Các mô-đun bên ngoài trong TypeScript là các tệp chứa mã có thể được nhập và sử dụng trong các tệp khác. Chúng giúp tổ chức và cấu trúc dự án của bạn bằng cách chia mã thành các đơn vị hợp lý, cải thiện khả năng bảo trì và tái sử dụng. Mỗi mô-đun bên ngoài đều có phạm vi riêng, ngăn chặn xung đột tên và cho phép bạn kiểm soát rõ ràng những gì được xuất bản từ mô-đun bằng `export` và những gì được tiêu thụ từ các mô-đun khác bằng `import`.",
+        "links": [
+          {
+            "title": "TypeScript - Mô-đun bên ngoài",
+            "url": "https://learncodeweb.com/typescript/modules-in-typescript-explain-with-an-example/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "16TT8R4N-9tCfWmPetqMP",
+      "type": "subtopic",
+      "label": "Mở rộng Namespace",
+      "position": {
+        "x": 171.49760353461716,
+        "y": 1582.2460936406935
+      },
+      "size": {
+        "width": 258,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Mở rộng không gian tên (Namespace) trong TypeScript cho phép bạn thêm các thuộc tính hoặc phương thức mới vào một không gian tên hiện có, ngay cả khi không gian tên đó được định nghĩa trong một tệp hoặc mô-đun khác. Tính năng này đặc biệt hữu ích để mở rộng các không gian tên được khai báo trong các thư viện hoặc mô-đun bên ngoài mà không cần sửa đổi trực tiếp mã nguồn gốc. Nó cung cấp một cách tùy chỉnh hoặc thêm chức năng cho các không gian tên hiện có theo cách mô-đun và có tổ chức.",
+        "links": [
+          {
+            "title": "Mở rộng Mô-đun",
+            "url": "https://www.typescriptlang.org/docs/handbook/declaration-merging.html#module-augmentation",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JQwWeB1gkANSYfQmH69Bs",
+      "type": "subtopic",
+      "label": "Mở rộng Toàn cầu",
+      "position": {
+        "x": 171.49760353461716,
+        "y": 1635.2460936406935
+      },
+      "size": {
+        "width": 258,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Mở rộng toàn cầu trong TypeScript cho phép bạn thêm hoặc sửa đổi các kiểu và giao diện toàn cục hiện có. Điều này đặc biệt hữu ích khi làm việc với các thư viện JavaScript không có định nghĩa TypeScript hoặc khi bạn muốn mở rộng các định nghĩa TypeScript hiện có để phù hợp với nhu cầu cụ thể của dự án. Về cơ bản, nó cho phép bạn khai báo thuộc tính hoặc phương thức trên các đối tượng có sẵn toàn cục (như `window` hoặc các đối tượng JavaScript tích hợp) từ bên trong mã TypeScript của bạn.",
+        "links": [
+          {
+            "title": "Mở rộng toàn cầu",
+            "url": "https://www.typescriptlang.org/docs/handbook/declaration-merging.html#global-augmentation",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "RqZaWGxxNRItBhVwWKysc",
+      "type": "topic",
+      "label": "Hệ sinh thái",
+      "position": {
+        "x": -29.95968546864998,
+        "y": 1881.130494860985
+      },
+      "size": {
+        "width": 133,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Ecosystem của TypeScript đề cập đến tập hợp các công cụ, thư viện, khung và tài nguyên hỗ trợ và nâng cao sự phát triển TypeScript. Nó bao gồm mọi thứ từ các công cụ xây dựng và trình kiểm tra kiểu đến các thư viện UI và các khung máy chủ có sẵn định nghĩa TypeScript hoặc được thiết kế đặc biệt để hoạt động tốt với TypeScript. Hệ sinh thái cũng bao gồm các nguồn cộng đồng như tài liệu, hướng dẫn và các dự án mã nguồn mở giúp các nhà phát triển học tập và sử dụng TypeScript hiệu quả.",
+        "links": []
+      }
+    },
+    {
+      "id": "fU8Vnw1DobM4iXl1Tq6EK",
+      "type": "subtopic",
+      "label": "Định dạng",
+      "position": {
+        "x": 247.49760353461716,
+        "y": 1802.2460936406935
+      },
+      "size": {
+        "width": 191,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Các công cụ định dạng tự động điều chỉnh cách trình bày mã của bạn, giúp nó nhất quán và dễ đọc hơn. Các công cụ này có thể xử lý các vấn đề như khoảng trắng, thụt lề và xuống dòng. Điều này làm cho mã của bạn sạch sẽ hơn và giúp tất cả mọi người trong nhóm tuân theo cùng một phong cách. Một công cụ phổ biến để định dạng mã là Prettier. Nó hỗ trợ TypeScript và có thể được cấu hình để áp dụng một hướng dẫn kiểu dáng cụ thể.",
+        "links": [
+          {
+            "title": "Trang web Prettier",
+            "url": "https://prettier.io",
+            "type": "article"
+          },
+          {
+            "title": "Tại sao lại dùng Prettier",
+            "url": "https://prettier.io/docs/en/why-prettier.html",
+            "type": "article"
+          },
+          {
+            "title": "Trang web BiomeJS",
+            "url": "https://biomejs.dev",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "8PcAPOrKisKRYPWamz4nV",
+      "type": "subtopic",
+      "label": "Linting",
+      "position": {
+        "x": 247.49760353461716,
+        "y": 1855.2460936406933
+      },
+      "size": {
+        "width": 191,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Linting là quá trình chạy một chương trình để phân tích mã cho các lỗi tiềm ẩn, các vấn đề về phong cách và các vấn đề về chất lượng mã. Nó giúp các nhà phát triển xác định và sửa chữa các vấn đề sớm trong chu kỳ phát triển, dẫn đến các cơ sở mã có thể bảo trì và nhất quán hơn. ESLint là một công cụ linting phổ biến cho JavaScript và TypeScript có thể được cấu hình với các quy tắc để thực thi các tiêu chuẩn và phương pháp tốt nhất về mã hóa cụ thể.",
+        "links": [
+          {
+            "title": "Trang web chính thức của ESLint",
+            "url": "https://eslint.org/",
+            "type": "article"
+          },
+          {
+            "title": "Giới thiệu về ESLint",
+            "url": "https://dev.to/shivambmgupta/eslint-what-why-when-how-5f1d",
+            "type": "article"
+          },
+          {
+            "title": "Bắt đầu nhanh chóng với ESLint – tự động tìm lỗi",
+            "url": "https://www.youtube.com/watch?v=qhuFviJn-es",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PCX3KcvMUW3mmQEepLTXp",
+      "type": "subtopic",
+      "label": "Các gói hữu ích",
+      "position": {
+        "x": 247.49760353461716,
+        "y": 1908.2460936406933
+      },
+      "size": {
+        "width": 191,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "TypeScript có một hệ sinh thái lớn các gói (packages) có thể được sử dụng để mở rộng ngôn ngữ hoặc thêm chức năng vào dự án của bạn.",
+        "links": [
+          {
+            "title": "zod",
+            "url": "https://zod.dev/",
+            "type": "official"
+          },
+          {
+            "title": "ts-node",
+            "url": "https://typestrong.org/ts-node",
+            "type": "official"
+          },
+          {
+            "title": "ts-morph",
+            "url": "https://github.com/dsherret/ts-morph",
+            "type": "opensource"
+          },
+          {
+            "title": "ts-jest",
+            "url": "https://github.com/kulshekhar/ts-jest",
+            "type": "opensource"
+          },
+          {
+            "title": "typesync",
+            "url": "https://github.com/jeffijoe/typesync",
+            "type": "opensource"
+          }
+        ]
+      }
+    },
+    {
+      "id": "I5uwfej5XMwR2N2gpBILh",
+      "type": "subtopic",
+      "label": "Công cụ xây dựng",
+      "position": {
+        "x": 247.49760353461716,
+        "y": 1961.2460936406933
+      },
+      "size": {
+        "width": 191,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Các công cụ quản lý tác vụ tự động thực hiện lệnh và thực hiện quy trình sau hậu kể. Điều này giúp tự động hóa luồng làm việc của bạn bằng cách thực hiện các nhiệm vụ đơn giản, lặp đi lặp lại mà bạn sẽ tốn một lượng thời gian vô cùng lớn để lặp lại. Các ứng dụng phổ biến của công cụ quản lý tác vụ bao gồm nhiều nhiệm vụ phát triển như: khởi chạy máy chủ phát triển, biên dịch mã (ví dụ: SCSS sang CSS), chạy trình kiểm tra kiểu, phục vụ các tệp từ một cổng cục bộ trên máy tính của bạn và nhiều hơn nữa!",
+        "links": [
+          {
+            "title": "webpack là trình gỡ rối mô-đun tĩnh cho các ứng dụng JavaScript hiện đại",
+            "url": "https://webpack.js.org/",
+            "type": "official"
+          },
+          {
+            "title": "Vite Công cụ hỗ trợ Frontend thế hệ tiếp theo",
+            "url": "https://vitejs.dev",
+            "type": "official"
+          },
+          {
+            "title": "Parcel là công cụ xây dựng không cấu hình cho web",
+            "url": "https://parceljs.org/",
+            "type": "official"
+          },
+          {
+            "title": "esbuild là một trình gỡ lỗi và tối ưu hóa JavaScript cực kỳ nhanh chóng",
+            "url": "https://esbuild.github.io/",
+            "type": "official"
+          },
+          {
+            "title": "swc là trình biên dịch siêu nhanh được viết bằng Rust",
+            "url": "https://swc.rs/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "xwpc_KxehAruFM0pCQnie",
+      "type": "vertical",
+      "label": "nút dọc",
+      "position": {
+        "x": -399.16916540260297,
+        "y": 1936.6464601414127
+      },
+      "size": {
+        "width": 21,
+        "height": 104
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#4136D4"
+      },
+      "z_index": 999
+    }
+  ],
+  "edges": [
+    {
+      "id": "reactflow__edge-KDd40JOAvZ8O1mfhTYB3Ky2-dcLaEU_lb0z_QypL1ZhpXz1",
+      "source": "KDd40JOAvZ8O1mfhTYB3K",
+      "target": "dcLaEU_lb0z_QypL1ZhpX",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-KDd40JOAvZ8O1mfhTYB3Ky2-MQWzN_kXxVJMOYbRXSGJcz2",
+      "source": "KDd40JOAvZ8O1mfhTYB3K",
+      "target": "MQWzN_kXxVJMOYbRXSGJc",
+      "source_handle": "y2",
+      "target_handle": "z2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-KDd40JOAvZ8O1mfhTYB3Ky2-dA8CNQOgJRDa0T7rmyS7fz1",
+      "source": "KDd40JOAvZ8O1mfhTYB3K",
+      "target": "dA8CNQOgJRDa0T7rmyS7f",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-KDd40JOAvZ8O1mfhTYB3Kz2-qdy4ZIY2EKgmPNdu_ndcgy1",
+      "source": "KDd40JOAvZ8O1mfhTYB3K",
+      "target": "qdy4ZIY2EKgmPNdu_ndcg",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-KDd40JOAvZ8O1mfhTYB3Kx2-qcrGApxNzkGYxgcd7o45dw1",
+      "source": "KDd40JOAvZ8O1mfhTYB3K",
+      "target": "qcrGApxNzkGYxgcd7o45d",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-qcrGApxNzkGYxgcd7o45dx2-_4my3Mfk5lxztykcJQ66sw1",
+      "source": "qcrGApxNzkGYxgcd7o45d",
+      "target": "_4my3Mfk5lxztykcJQ66s",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-qcrGApxNzkGYxgcd7o45dy2-KUur-gfOBQodTS-irFet7z2",
+      "source": "qcrGApxNzkGYxgcd7o45d",
+      "target": "KUur-gfOBQodTS-irFet7",
+      "source_handle": "y2",
+      "target_handle": "z2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-alMJCEyUZ90xz-2_g3YRjx2-qefnsugcveizVq2TORRgnw2",
+      "source": "alMJCEyUZ90xz-2_g3YRj",
+      "target": "qefnsugcveizVq2TORRgn",
+      "source_handle": "x2",
+      "target_handle": "w2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-qefnsugcveizVq2TORRgnx2-ib0jfZzukYOZ42AdJqt_Ww1",
+      "source": "qefnsugcveizVq2TORRgn",
+      "target": "cFZsxpYHDxm7IWwergb3r",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-ib0jfZzukYOZ42AdJqt_Wz2-Wy2yIK5vgLjEcc9VjuQK5y1",
+      "source": "cFZsxpYHDxm7IWwergb3r",
+      "target": "Wy2yIK5vgLjEcc9VjuQK5",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-ib0jfZzukYOZ42AdJqt_Wz2-EDOU5a7UK17yp3PdFBJMcy1",
+      "source": "cFZsxpYHDxm7IWwergb3r",
+      "target": "EDOU5a7UK17yp3PdFBJMc",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-ib0jfZzukYOZ42AdJqt_Wz2-ZiOcFZy85p7tLzUkyKDeiy2",
+      "source": "cFZsxpYHDxm7IWwergb3r",
+      "target": "ZiOcFZy85p7tLzUkyKDei",
+      "source_handle": "z2",
+      "target_handle": "y2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-ib0jfZzukYOZ42AdJqt_Wz2-Xonbxc7MvMEonKBvbkCAHy2",
+      "source": "cFZsxpYHDxm7IWwergb3r",
+      "target": "Xonbxc7MvMEonKBvbkCAH",
+      "source_handle": "z2",
+      "target_handle": "y2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-ib0jfZzukYOZ42AdJqt_Wz2-1DOSAieOmWUNNsQQrqf2my1",
+      "source": "cFZsxpYHDxm7IWwergb3r",
+      "target": "1DOSAieOmWUNNsQQrqf2m",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-cFZsxpYHDxm7IWwergb3rx2-ib0jfZzukYOZ42AdJqt_Ww1",
+      "source": "cFZsxpYHDxm7IWwergb3r",
+      "target": "qOynVkDi1gFz0mxyJHjfJ",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-ib0jfZzukYOZ42AdJqt_Wx2-9FIhHwDNzyKpb42NmSv3Kw2",
+      "source": "qOynVkDi1gFz0mxyJHjfJ",
+      "target": "9FIhHwDNzyKpb42NmSv3K",
+      "source_handle": "x2",
+      "target_handle": "w2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-qOynVkDi1gFz0mxyJHjfJz2-aH1DxiG5xrdNlKutJ_gTzx1",
+      "source": "qOynVkDi1gFz0mxyJHjfJ",
+      "target": "aH1DxiG5xrdNlKutJ_gTz",
+      "source_handle": "z2",
+      "target_handle": "x1",
+      "edge_style": "solid",
+      "line_type": "smoothstep",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-aH1DxiG5xrdNlKutJ_gTzz2-TxkEpoOiuUm-fXJuFVKcHy1",
+      "source": "aH1DxiG5xrdNlKutJ_gTz",
+      "target": "TxkEpoOiuUm-fXJuFVKcH",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-aH1DxiG5xrdNlKutJ_gTzz2-O-9WQqidujLIEOTcOfy4ny2",
+      "source": "aH1DxiG5xrdNlKutJ_gTz",
+      "target": "O-9WQqidujLIEOTcOfy4n",
+      "source_handle": "z2",
+      "target_handle": "y2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-aH1DxiG5xrdNlKutJ_gTzz2-fY40W8prpgiNqRL50w7uby1",
+      "source": "aH1DxiG5xrdNlKutJ_gTz",
+      "target": "fY40W8prpgiNqRL50w7ub",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-aH1DxiG5xrdNlKutJ_gTzz2-lvtTSHH9yBTCiLng8btnIy1",
+      "source": "aH1DxiG5xrdNlKutJ_gTz",
+      "target": "lvtTSHH9yBTCiLng8btnI",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-2F7vOL__v9dLBohA263ajy2-T2-VAVfntouJOoWHpHZ3nz1",
+      "source": "4gaKqNtGLFqpk9WVKZl0v",
+      "target": "T2-VAVfntouJOoWHpHZ3n",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-2F7vOL__v9dLBohA263ajy2-0NXHAOUYGIwuPwlN7r_B3z1",
+      "source": "4gaKqNtGLFqpk9WVKZl0v",
+      "target": "0NXHAOUYGIwuPwlN7r_B3",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-TRx3wvWnRdJJf5eL-GBG4y2-2F7vOL__v9dLBohA263ajz1",
+      "source": "TRx3wvWnRdJJf5eL-GBG4",
+      "target": "LSwUHfalnk5MgHt21PANb",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-2F7vOL__v9dLBohA263ajy2-E88tHQvARkHURZwGaO02lz2",
+      "source": "LSwUHfalnk5MgHt21PANb",
+      "target": "E88tHQvARkHURZwGaO02l",
+      "source_handle": "y2",
+      "target_handle": "z2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-2F7vOL__v9dLBohA263ajy2-IuO9-O_DQdDYuAbdGWdgbz2",
+      "source": "LSwUHfalnk5MgHt21PANb",
+      "target": "IuO9-O_DQdDYuAbdGWdgb",
+      "source_handle": "y2",
+      "target_handle": "z2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-2F7vOL__v9dLBohA263ajy2-0fvOXi9gJbEc7etqTggNEz1",
+      "source": "LSwUHfalnk5MgHt21PANb",
+      "target": "0fvOXi9gJbEc7etqTggNE",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-2F7vOL__v9dLBohA263ajy2-aEhI_9mFWXRIZh1ZxTuzuz1",
+      "source": "LSwUHfalnk5MgHt21PANb",
+      "target": "aEhI_9mFWXRIZh1ZxTuzu",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-2F7vOL__v9dLBohA263ajy2-a7hl0iMZ-jcUACxqIYVqvz1",
+      "source": "LSwUHfalnk5MgHt21PANb",
+      "target": "a7hl0iMZ-jcUACxqIYVqv",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-2F7vOL__v9dLBohA263ajy2-_BAZlBEzE7ddr315OeHvlz1",
+      "source": "LSwUHfalnk5MgHt21PANb",
+      "target": "_BAZlBEzE7ddr315OeHvl",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-2F7vOL__v9dLBohA263ajy2-On75JR_UkiIlha0_qaSeuz1",
+      "source": "LSwUHfalnk5MgHt21PANb",
+      "target": "On75JR_UkiIlha0_qaSeu",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-2F7vOL__v9dLBohA263ajy2-izGAjNtrh3BzQt3KiZX0Wz1",
+      "source": "LSwUHfalnk5MgHt21PANb",
+      "target": "izGAjNtrh3BzQt3KiZX0W",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-LSwUHfalnk5MgHt21PANbx2-2F7vOL__v9dLBohA263ajw1",
+      "source": "LSwUHfalnk5MgHt21PANb",
+      "target": "2F7vOL__v9dLBohA263aj",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-2F7vOL__v9dLBohA263ajx2-VQ-V9qIdKgnpSJg2UnpuBw1",
+      "source": "2F7vOL__v9dLBohA263aj",
+      "target": "VQ-V9qIdKgnpSJg2UnpuB",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-2F7vOL__v9dLBohA263ajz2-sE9lqkkqwnsVJxTJv37YZy1",
+      "source": "2F7vOL__v9dLBohA263aj",
+      "target": "sE9lqkkqwnsVJxTJv37YZ",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-sE9lqkkqwnsVJxTJv37YZw2-JQwWeB1gkANSYfQmH69Bsx1",
+      "source": "sE9lqkkqwnsVJxTJv37YZ",
+      "target": "JQwWeB1gkANSYfQmH69Bs",
+      "source_handle": "w2",
+      "target_handle": "x1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-sE9lqkkqwnsVJxTJv37YZy2-RqZaWGxxNRItBhVwWKyscw1",
+      "source": "sE9lqkkqwnsVJxTJv37YZ",
+      "target": "RqZaWGxxNRItBhVwWKysc",
+      "source_handle": "y2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-RqZaWGxxNRItBhVwWKyscz2-fU8Vnw1DobM4iXl1Tq6EKy1",
+      "source": "RqZaWGxxNRItBhVwWKysc",
+      "target": "fU8Vnw1DobM4iXl1Tq6EK",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-RqZaWGxxNRItBhVwWKyscz2-8PcAPOrKisKRYPWamz4nVy2",
+      "source": "RqZaWGxxNRItBhVwWKysc",
+      "target": "8PcAPOrKisKRYPWamz4nV",
+      "source_handle": "z2",
+      "target_handle": "y2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-RqZaWGxxNRItBhVwWKyscz2-PCX3KcvMUW3mmQEepLTXpy1",
+      "source": "RqZaWGxxNRItBhVwWKysc",
+      "target": "PCX3KcvMUW3mmQEepLTXp",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-RqZaWGxxNRItBhVwWKyscz2-I5uwfej5XMwR2N2gpBILhy2",
+      "source": "RqZaWGxxNRItBhVwWKysc",
+      "target": "I5uwfej5XMwR2N2gpBILh",
+      "source_handle": "z2",
+      "target_handle": "y2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    }
+  ],
+  "content_crawled_at": "2026-04-06T13:14:46.905049+00:00"
+}

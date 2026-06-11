@@ -11,13 +11,13 @@ import auth from '../middleware/auth.js'
 const router = express.Router()
 
 const GEMINI_MODEL = 'gemini-2.5-flash'
-const SUPPORTED_LANGUAGES = new Set(['en', 'ja'])
+const SUPPORTED_LANGUAGES = new Set(['en', 'vi'])
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = dirname(__filename)
 
 const QA_EN_PATH = join(__dirname, '..', '..', 'Question', 'QA_en.json')
-const QA_JA_PATH = join(__dirname, '..', '..', 'Question', 'QA_jp.json')
+const QA_VI_PATH = join(__dirname, '..', '..', 'Question', 'QA_vi.json')
 const CLASSIFICATION_PATH = join(__dirname, '..', '..', 'crawldata', 'roadmap_classification.json')
 
 let roleBasedRoadmapIds = []
@@ -33,11 +33,11 @@ try {
 
 function getRequestLanguage(req) {
   const raw = String(req.query.lang || '').toLowerCase()
-  return SUPPORTED_LANGUAGES.has(raw) ? raw : 'en'
+  return SUPPORTED_LANGUAGES.has(raw) ? raw : 'vi'
 }
 
 function loadQaTemplate(language) {
-  const filePath = language === 'ja' ? QA_JA_PATH : QA_EN_PATH
+  const filePath = language === 'vi' ? QA_VI_PATH : QA_EN_PATH
   try {
     return JSON.parse(readFileSync(filePath, 'utf-8'))
   } catch (error) {
@@ -158,14 +158,14 @@ function sanitizeRecommendations(rawRecommendations, allowedRoadmapIds) {
 
     const reason = item.reason && typeof item.reason === 'object' ? item.reason : {}
     const reasonEn = String(reason.en || '').trim()
-    const reasonJa = String(reason.ja || '').trim()
+    const reasonVi = String(reason.vi || '').trim()
 
     normalized.push({
       roadmapId,
       score,
       reason: {
         en: reasonEn,
-        ja: reasonJa,
+        vi: reasonVi,
       },
     })
 
@@ -306,14 +306,14 @@ router.post('/recommendations/generate', async (req, res) => {
       '- roadmapId (string, must exist in roadmap catalog)',
       '- score (integer from 0 to 100)',
       '- reason.en (specific concise English reason tied to user answers)',
-      '- reason.ja (specific concise Japanese reason tied to user answers)',
+      '- reason.vi (specific concise Vietnamese reason tied to user answers)',
       'The reasons should:',
       '- mention concrete user preferences, goals, technologies, or behaviors when possible',
       '- explain why the roadmap fits better than others',
       '- be concise but informative',
       '- avoid repeating the exact same template across recommendations',
       'Return STRICT JSON only in this exact shape:',
-      '{"summary":"string","recommendations":[{"roadmapId":"string","score":0,"reason":{"en":"string","ja":"string"}}]}',
+      '{"summary":"string","recommendations":[{"roadmapId":"string","score":0,"reason":{"en":"string","vi":"string"}}]}',
       'Sort recommendations by descending score.',
       'Roadmap Catalog (English titles):',
       JSON.stringify(roadmapPayload),

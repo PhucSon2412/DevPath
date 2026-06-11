@@ -1,0 +1,2388 @@
+{
+  "id": "full-stack",
+  "title": "Full Stack",
+  "source_url": "https://roadmap.sh/full-stack",
+  "github_url": "https://github.com/kamranahmedse/developer-roadmap/tree/master/src/data/roadmaps/full-stack",
+  "crawled_at": "2026-04-06T07:36:58.006730+00:00",
+  "type": "flow",
+  "stats": {
+    "total_nodes": 68,
+    "total_edges": 20,
+    "nodes_with_content": 37
+  },
+  "node_types": [
+    "button",
+    "horizontal",
+    "label",
+    "paragraph",
+    "section",
+    "subtopic",
+    "title",
+    "topic",
+    "vertical"
+  ],
+  "edge_styles": [
+    "solid"
+  ],
+  "edge_line_types": [
+    "default",
+    "smoothstep"
+  ],
+  "node_type_description": {
+    "title": "Tiêu đề chính của roadmap",
+    "topic": "Chủ đề lớn (nhóm kỹ năng) (Large Topics (Skill Groups))",
+    "subtopic": "Các kỹ năng/công nghệ cụ thể cần học",
+    "paragraph": "Vùng văn bản mô tả / chú thích",
+    "vertical": "Visual connection"
+  },
+  "edge_style_description": {
+    "solid": "Kỹ năng bắt buộc / quan trọng",
+    "dashed": "Tùy chọn / gợi ý / alternative"
+  },
+  "nodes": [
+    {
+      "id": "yrZUjoNj7mjOHaZVRiFJV",
+      "type": "horizontal",
+      "label": "nút ngang",
+      "position": {
+        "x": -502.08230823147517,
+        "y": 497.90458777290166
+      },
+      "size": {
+        "width": 63,
+        "height": 20
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "kPPgIGhyoDoJoUJnP-vOY",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": 44.659212053078704,
+        "y": -125.50228984395414
+      },
+      "size": {
+        "width": 356,
+        "height": 103
+      },
+      "style": {
+        "width": 150,
+        "height": 100,
+        "fontSize": 17,
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "Ju00mr0KLGN2BV6yEQGPt",
+      "type": "vertical",
+      "label": "nút theo chiều dọc",
+      "position": {
+        "x": -45.86972326342038,
+        "y": 1834.052389726952
+      },
+      "size": {
+        "width": 21,
+        "height": 104
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#4136D4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "iogwMmOvub2ZF4zgg6WyF",
+      "type": "title",
+      "label": "Full Stack",
+      "position": {
+        "x": -584.5823082314752,
+        "y": -192.89091544360696
+      },
+      "size": {
+        "width": 162,
+        "height": 68
+      },
+      "style": {
+        "fontSize": 28,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "LEijbLyxg4RyutKEM2Y5g",
+      "type": "vertical",
+      "label": "nút theo chiều dọc",
+      "position": {
+        "x": -514.0823082314752,
+        "y": -273.89091544360696
+      },
+      "size": {
+        "width": 21,
+        "height": 81
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#0A33FF"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "B0kARTODvCBi0iOF8iiqI",
+      "type": "topic",
+      "label": "HTML",
+      "position": {
+        "x": -395.56446376179997,
+        "y": 43.404587772901664
+      },
+      "size": {
+        "width": 105,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "HTML là viết tắt của HyperText Markup Language. Nó được sử dụng trên Frontend và cung cấp cấu trúc cho trang web mà bạn có thể định kiểu bằng CSS và làm tương tác bằng JavaScript.",
+        "links": [
+          {
+            "title": "Truy cập Bản đồ Đường dẫn HTML Đặt Dấu",
+            "url": "https://dev-path-murex.vercel.app/roadmap/html",
+            "type": "roadmap"
+          },
+          {
+            "title": "Khóa học HTML đầy đủ dành cho người mới bắt đầu",
+            "url": "https://youtu.be/mJgBOIoGihA",
+            "type": "video"
+          },
+          {
+            "title": "Khóa học HTML đầy đủ - Hướng dẫn xây dựng trang web",
+            "url": "https://www.youtube.com/watch?v=pQN-pnXPaVg",
+            "type": "video"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về HTML",
+            "url": "https://app.daily.dev/tags/html?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dAJHWmGeiYdzZ1ZjrWz1S",
+      "type": "topic",
+      "label": "CSS",
+      "position": {
+        "x": -251.56446376179997,
+        "y": 43.404587772901664
+      },
+      "size": {
+        "width": 101,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "CSS hoặc Cascading Style Sheets là ngôn ngữ được sử dụng để tạo kiểu cho giao diện trước của bất kỳ trang web nào. CSS là một công nghệ nền tảng của World Wide Web, cùng với HTML và JavaScript.",
+        "links": [
+          {
+            "title": "Truy cập Bản đồ lộ trình Dedicated CSS",
+            "url": "https://dev-path-murex.vercel.app/roadmap/css",
+            "type": "roadmap"
+          },
+          {
+            "title": "Web.dev by Google — Tìm hiểu CSS",
+            "url": "https://web.dev/learn/css/",
+            "type": "article"
+          },
+          {
+            "title": "CSS: Cascading Style Sheets | MDN",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/CSS",
+            "type": "article"
+          },
+          {
+            "title": "Khóa Học CSS Hoàn Chỉnh",
+            "url": "https://youtu.be/n4R2E7O-Ngo",
+            "type": "video"
+          },
+          {
+            "title": "Hướng dẫn HTML và CSS",
+            "url": "https://www.youtube.com/watch?v=D-h8L5hgW-w",
+            "type": "video"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về CSS",
+            "url": "https://app.daily.dev/tags/css?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "T9PB6WQf-Fa9NXKKvVOy_",
+      "type": "topic",
+      "label": "JavaScript",
+      "position": {
+        "x": 28.00948964805815,
+        "y": 43.404587772901664
+      },
+      "size": {
+        "width": 125,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "JavaScript cho phép bạn thêm tính tương tác vào trang của mình. Các ví dụ phổ biến mà bạn có thể đã thấy trên các trang web bao gồm bộ trượt, tương tác nhấp chuột, hộp thoại pop-up và các yếu tố tương tự.",
+        "links": [
+          {
+            "title": "Truy cập Bản đồ lộ trình Dedicated JavaScript",
+            "url": "https://dev-path-murex.vercel.app/roadmap/javascript",
+            "type": "roadmap"
+          },
+          {
+            "title": "Hướng dẫn JavaScript Hiện đại",
+            "url": "https://javascript.info/",
+            "type": "article"
+          },
+          {
+            "title": "Xây Dựng 30 Dự Án Javascript Trong 30 Ngày",
+            "url": "https://javascript30.com/",
+            "type": "article"
+          },
+          {
+            "title": "Khóa học JavaScript cho người mới bắt đầu",
+            "url": "https://youtu.be/hdI2bqOjy3c?t=2",
+            "type": "video"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về JavaScript",
+            "url": "https://app.daily.dev/tags/javascript?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mGgx_QTEPmVKf6AijX9fi",
+      "type": "topic",
+      "label": "npm",
+      "position": {
+        "x": 298.1821043313223,
+        "y": 133.40458777290166
+      },
+      "size": {
+        "width": 101,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "npm là một trình quản lý gói (package manager) cho ngôn ngữ lập trình JavaScript do npm, Inc. duy trì. npm là trình quản lý gói mặc định cho môi trường thời gian chạy (runtime environment) Node.js.",
+        "links": [
+          {
+            "title": "Cách sử dụng NPM",
+            "url": "https://github.com/workshopper/how-to-npm",
+            "type": "opensource"
+          },
+          {
+            "title": "JavaScript hiện đại cho những người khủng long",
+            "url": "https://peterxjang.com/blog/modern-javascript-explained-for-dinosaurs.html",
+            "type": "article"
+          },
+          {
+            "title": "Hướng dẫn dành cho người mới bắt đầu về cách sử dụng npm",
+            "url": "https://nodesource.com/blog/an-absolute-beginners-guide-to-using-npm/",
+            "type": "article"
+          },
+          {
+            "title": "Hướng dẫn NPM dành cho người mới bắt đầu",
+            "url": "https://www.youtube.com/watch?v=2V1UUhBJ62Y",
+            "type": "video"
+          },
+          {
+            "title": "Khóa học NPM Crash Course",
+            "url": "https://www.youtube.com/watch?v=jHDhaSSKmB0",
+            "type": "video"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về NPM",
+            "url": "https://app.daily.dev/tags/npm?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "WsdUAEaI7FX6DKKhPXUHp",
+      "type": "subtopic",
+      "label": "Điểm kiểm tra - Trang web tĩnh",
+      "position": {
+        "x": -351.97806963137555,
+        "y": 133.40458777290166
+      },
+      "size": {
+        "width": 291,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center",
+        "colorType": "a"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Bây giờ bạn đã học HTML và CSS, bạn nên có thể xây dựng các trang web tĩnh. Tôi khuyên bạn nên xây dựng càng nhiều dự án thử nghiệm tại mỗi bước vàng của lộ trình để củng cố những gì bạn đang học. Cách thực hành mà tôi từng theo đuổi khi tôi đang học là như sau: *   Khi bạn đang xem một khóa học hoặc đọc một cuốn sách, hãy đảm bảo rằng bạn viết code cùng với người hướng dẫn/tác giả — tạm dừng video tại các khoảng thời gian đều đặn và viết những gì bạn được hướng dẫn. *   Tìm kiếm trên YouTube và xem một vài hướng dẫn dựa trên dự án về chủ đề mà bạn đang học. Ngoài việc viết code cùng với người hướng dẫn: *   Cố gắng xây dựng cùng một dự án ít nhất 2 đến 3 lần của riêng bạn mà không nhìn vào video. Nếu bạn bị mắc kẹt, hãy tham khảo phần của video nơi người hướng dẫn xây dựng phần đó của dự án. *   Xây dựng điều gì đó khác tương tự như dự án bạn vừa xây dựng. Ví dụ: nếu bạn vừa xây dựng một ứng dụng todo, hãy cố gắng xây dựng một ứng dụng ghi chú hoặc một ứng dụng nhắc nhở. Ý tưởng dự án ------------- Bây giờ bạn đã học HTML và CSS, đây là một vài ý tưởng để bạn xây dựng: *   Cố gắng sao chép thiết kế của một trang web mà bạn thích. *   Đây là [thiết kế blog đơn giản trong Figma](https://www.figma.com/file/nh0V05z3NB87ue9v5PcO3R/writings.dev?type=design&node-id=0%3A1&t=2iQplaIojU3ydAfW-1) mà bạn có thể thử sao chép. *   Hoặc hãy cố gắng xây dựng lại [các trang web của trang web này](https://cs.fyi/). *   Tìm kiếm cảm hứng từ [cơ sở lưu trữ danh mục cá nhân của người khác](https://astro.build/showcase/) và xây dựng cơ sở lưu trữ danh mục cá nhân của riêng bạn",
+        "links": []
+      }
+    },
+    {
+      "id": "arAWBttFmMY6g99PcEaeA",
+      "type": "vertical",
+      "label": "nút theo chiều dọc",
+      "position": {
+        "x": -117.38142186176219,
+        "y": 69.40458777290166
+      },
+      "size": {
+        "width": 21,
+        "height": 64
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "2DFzoIUjKdAKGjfu_SCfa",
+      "type": "subtopic",
+      "label": "Điểm kiểm tra - Tương tác",
+      "position": {
+        "x": -23.99051035194185,
+        "y": 133.40458777290166
+      },
+      "size": {
+        "width": 287,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center",
+        "colorType": "a"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Tại thời điểm này, bạn nên có thể thêm tính tương tác vào các trang web của mình bằng JavaScript. Bạn nên đảm bảo rằng bạn đã học được những điều sau: *   Tìm hiểu về biến, vòng lặp, kiểu dữ liệu, điều kiện, hàm. *   Tìm hiểu về mảng và đối tượng và các cách truy cập dữ liệu khác nhau của chúng. *   Tìm hiểu cách chọn các phần tử DOM. *   Thêm trình nghe sự kiện vào các phần tử DOM (ví dụ: nhấp chuột, tập trung, gửi biểu mẫu). *   Sử dụng JavaScript để thêm và xóa các phần tử DOM *   Thêm và xóa lớp từ các phần tử DOM *   Sử dụng JavaScript để thực hiện các yêu cầu HTTP đến các API bên ngoài (ví dụ: `fetch`) *   Sử dụng JavaScript để lưu trữ dữ liệu trong bộ nhớ cục bộ của trình duyệt Dưới đây là một vài ý tưởng để luyện tập kỹ năng của bạn: *   Tạo một ứng dụng danh sách việc cần làm đơn giản cho phép người dùng tìm kiếm, thêm, chỉnh sửa và xóa mục. Sử dụng bộ nhớ cục bộ để lưu trữ dữ liệu. *   Tạo một trang web đơn giản nơi người dùng có thể nhập tên người dùng GitHub và xem thông tin hồ sơ của họ. Bạn có thể sử dụng API của GitHub để lấy dữ liệu. Ví dụ: đây là [URL mẫu để lấy dữ liệu của tôi](https://api.github.com/users/kamranahmedse). Đảm bảo rằng bạn thêm xác thực và xử lý lỗi. *   Tạo một ứng dụng máy tính cơ bản cho phép người dùng thực hiện các phép toán số học cơ bản.",
+        "links": []
+      }
+    },
+    {
+      "id": "CVVeXklBu8uEr7oyiSEhQ",
+      "type": "vertical",
+      "label": "nút theo chiều dọc",
+      "position": {
+        "x": 191.6185781382378,
+        "y": 71.40458777290166
+      },
+      "size": {
+        "width": 21,
+        "height": 62
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "We2APJpOPTr-VNfowG0kI",
+      "type": "topic",
+      "label": "Git",
+      "position": {
+        "x": 162.00948964805815,
+        "y": 316.40458777290166
+      },
+      "size": {
+        "width": 101,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Git là một hệ thống kiểm soát phiên bản phân tán miễn phí và mã nguồn mở được thiết kế để xử lý mọi thứ, từ các dự án nhỏ đến rất lớn với tốc độ và hiệu quả.",
+        "links": [
+          {
+            "title": "Truy cập Bản đồ lộ trình Dedicated Git & GitHub",
+            "url": "https://dev-path-murex.vercel.app/roadmap/git-github",
+            "type": "roadmap"
+          },
+          {
+            "title": "Tài liệu Git",
+            "url": "https://git-scm.com/",
+            "type": "official"
+          },
+          {
+            "title": "Tìm hiểu Git với Hướng dẫn, Tin tức và Thủ thuật - Atlassian",
+            "url": "https://www.atlassian.com/git",
+            "type": "article"
+          },
+          {
+            "title": "Bảng tra cứu Git",
+            "url": "https://cs.fyi/guide/git-cheatsheet",
+            "type": "article"
+          },
+          {
+            "title": "Khóa học Crash Course Git & GitHub dành cho người mới bắt đầu năm 2025",
+            "url": "https://youtu.be/vA5TTz6BXhY?si=GvKMbLL4UBtOq6fh",
+            "type": "video"
+          },
+          {
+            "title": "Hướng dẫn sử dụng Git dành cho người ngốc",
+            "url": "https://www.youtube.com/watch?v=mJ-qvsxPHpY",
+            "type": "video"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Git",
+            "url": "https://app.daily.dev/tags/git?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "8sPXL8iClpPqje03ksses",
+      "type": "topic",
+      "label": "GitHub",
+      "position": {
+        "x": -19.56446376179997,
+        "y": 316.40458777290166
+      },
+      "size": {
+        "width": 101,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "GitHub là nhà cung cấp lưu trữ Internet cho phát triển phần mềm và kiểm soát phiên bản bằng Git. Nó cung cấp chức năng kiểm soát phiên bản phân tán và quản lý mã nguồn của Git, cùng với các tính năng riêng của nó.",
+        "links": [
+          {
+            "title": "GitHub",
+            "url": "https://github.com",
+            "type": "official"
+          },
+          {
+            "title": "Tài liệu GitHub",
+            "url": "https://docs.github.com/en/get-started/quickstart",
+            "type": "official"
+          },
+          {
+            "title": "Cách sử dụng Git trong một đội ngũ phát triển chuyên nghiệp",
+            "url": "https://ooloo.io/project/github-flow",
+            "type": "article"
+          },
+          {
+            "title": "GitHub là gì?",
+            "url": "https://www.youtube.com/watch?v=w3jLJU7DT5E",
+            "type": "video"
+          },
+          {
+            "title": "Git so với GitHub: Sự khác biệt là gì?",
+            "url": "https://www.youtube.com/watch?v=wpISo9TNjfU",
+            "type": "video"
+          },
+          {
+            "title": "Git và GitHub dành cho người mới bắt đầu",
+            "url": "https://www.youtube.com/watch?v=RGOj5yH7evk",
+            "type": "video"
+          },
+          {
+            "title": "Git và GitHub - CS50 Beyond 2019",
+            "url": "https://www.youtube.com/watch?v=eulnSXkhE7I",
+            "type": "video"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về GitHub",
+            "url": "https://app.daily.dev/tags/github?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "R4aeJNOrfWyVp3ea-qF4H",
+      "type": "subtopic",
+      "label": "Điểm kiểm tra - Các gói tin bên ngoài",
+      "position": {
+        "x": -26.978069631375547,
+        "y": 215.40458777290166
+      },
+      "size": {
+        "width": 290,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center",
+        "colorType": "a"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Tại thời điểm này, bạn nên có khả năng cài đặt và sử dụng các gói bên ngoài bằng `npm`. Bạn có thể đã biết về [npmjs.com](https://npmjs.com/) nơi bạn có thể tìm kiếm các gói và đọc tài liệu của chúng. Bạn cũng nên quen thuộc với tệp `package.json` và cách sử dụng nó để quản lý các phụ thuộc dự án của mình. Bạn không cần phải đi sâu vào trình gỡ rối mô-đun và công cụ xây dựng ngay bây giờ. Chỉ cần đảm bảo rằng bạn có thể sử dụng các thư viện được cài đặt trong thư mục `node_modules` bằng thẻ liên kết và script đơn giản trong HTML của bạn. Về các dự án, đây là một vài ý tưởng mà bạn có thể thử: *   Tạo một trang web đơn giản hiển thị thời gian hiện tại của người dùng. Bạn có thể sử dụng [dayjs](https://day.js.org/) để lấy thời gian hiện tại và hiển thị nó trên trang. Đây là [thiết kế mẫu cho trang chủ](https://i.imgur.com/yGIMGkr.png). *   Cài đặt thư viện [micromodal](https://micromodal.vercel.app/#introduction). Tạo một nút trên trang, nhấp vào đó sẽ mở một modal và cho phép người dùng chọn múi giờ từ một hộp thả xuống. Sau khi người dùng chọn múi giờ, modal sẽ đóng lại và thời gian trên trang sẽ được cập nhật để hiển thị thời gian trong múi giờ đã chọn. Đây là [thiết kế mẫu cho modal](https://imgur.com/a/vFY6Sdl).",
+        "links": []
+      }
+    },
+    {
+      "id": "PW10DTLV-5U2ue770SXtM",
+      "type": "horizontal",
+      "label": "nút ngang",
+      "position": {
+        "x": 262.02193036862445,
+        "y": 229.90458777290166
+      },
+      "size": {
+        "width": 85,
+        "height": 20
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "CVCqdPkq_hGQfI8EEi5RC",
+      "type": "topic",
+      "label": "Tailwind CSS",
+      "position": {
+        "x": -329.47806963137555,
+        "y": 315.40458777290166
+      },
+      "size": {
+        "width": 146,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Một Framework CSS cung cấp các lớp CSS nguyên tử để giúp bạn tạo kiểu cho các thành phần, ví dụ: `flex`, `pt-4`, `text-center` và `rotate-90` có thể được kết hợp để xây dựng bất kỳ thiết kế nào trực tiếp trong dấu hiệu của bạn.",
+        "links": [
+          {
+            "title": "Tailwind CSS",
+            "url": "https://tailwindcss.com",
+            "type": "official"
+          },
+          {
+            "title": "Khóa học Tailwind CSS Toàn diện cho Người mới bắt đầu",
+            "url": "https://www.youtube.com/watch?v=lCxcTsOHrjo",
+            "type": "video"
+          },
+          {
+            "title": "Khóa học Tailwind CSS Nhanh",
+            "url": "https://www.youtube.com/watch?v=UBOj6rqRUME",
+            "type": "video"
+          },
+          {
+            "title": "Bạn có nên sử dụng Tailwind CSS không?",
+            "url": "https://www.youtube.com/watch?v=hdGsFpZ0J2E",
+            "type": "video"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Tailwind CSS",
+            "url": "https://app.daily.dev/tags/tailwind-css?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "khoUtTUxdf8udAzN9_CAb",
+      "type": "topic",
+      "label": "React",
+      "position": {
+        "x": -444.8178956686777,
+        "y": 315.40458777290166
+      },
+      "size": {
+        "width": 101,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "React là thư viện JavaScript front-end phổ biến nhất để xây dựng giao diện người dùng. React cũng có thể render trên máy chủ bằng Node và cung cấp khả năng tạo ứng dụng di động bằng React Native.",
+        "links": [
+          {
+            "title": "Truy cập Bản đồ lộ trình Dedicated React",
+            "url": "https://dev-path-murex.vercel.app/roadmap/react",
+            "type": "roadmap"
+          },
+          {
+            "title": "React",
+            "url": "https://react.dev/",
+            "type": "official"
+          },
+          {
+            "title": "Bắt đầu với React",
+            "url": "https://react.dev/learn/tutorial-tic-tac-toe",
+            "type": "official"
+          },
+          {
+            "title": "Khóa học React JS cho người mới bắt đầu",
+            "url": "https://www.youtube.com/watch?v=nTeuhbP7wdE",
+            "type": "video"
+          },
+          {
+            "title": "Khóa học React - Hướng dẫn dành cho người mới bắt đầu về React",
+            "url": "https://www.youtube.com/watch?v=bMknfKXIFA8",
+            "type": "video"
+          },
+          {
+            "title": "Hiểu quy trình render giao diện React",
+            "url": "https://www.youtube.com/watch?v=i793Qm6kv3U",
+            "type": "video"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về React",
+            "url": "https://app.daily.dev/tags/react?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "zFGWxgLPcZoW7KIzlnSV9",
+      "type": "subtopic",
+      "label": "Điểm kiểm tra - Làm việc cộng tác",
+      "position": {
+        "x": -350.97806963137555,
+        "y": 215.40458777290166
+      },
+      "size": {
+        "width": 290,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center",
+        "colorType": "a"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Bây giờ bạn đã học Git và GitHub, bạn nên sẵn sàng làm việc với người khác. Bạn bây giờ nên thiết lập hồ sơ GitHub của mình và đẩy tất cả các dự án bạn đã xây dựng đến hồ sơ GitHub của mình. Đây là một số đề xuất của tôi cho hồ sơ GitHub của bạn: *   Giữ tên thư viện đơn giản bằng chữ thường và sử dụng dấu gạch ngang để phân tách các từ ví dụ: `todo-app` thay vì `TodoApp` hoặc `Todo-App`. *   Thêm một tệp `README.md` vào mỗi thư mục mà bạn tạo. Tệp này nên chứa mô tả về dự án. Dành thời gian cho tệp readme và đảm bảo rằng nó làm rõ dự án là gì và cách bất kỳ ai cũng có thể chạy nó cục bộ. *   Thêm ảnh chụp màn hình của dự án vào tệp readme để bất kỳ ai cũng có thể thấy dự án trông như thế nào mà không cần phải chạy nó cục bộ. *   Thêm một tệp `LICENSE` vào mỗi thư mục mà bạn tạo. Tệp này nên chứa giấy phép mà bạn muốn sử dụng cho dự án. Bạn có thể sử dụng [choosealicense.com](https://choosealicense.com/) để giúp bạn chọn giấy phép. Bạn có thể xem [hồ sơ GitHub của tôi](https://github.com/kamranahmedse) và thấy các tệp readme của tôi trông như thế nào ([một số tệp readme của tôi](https://github.com/kamranahmedse/aws-cost-cli)).",
+        "links": []
+      }
+    },
+    {
+      "id": "8MhESAMICF6j7X3RL9bFE",
+      "type": "vertical",
+      "label": "nút theo chiều dọc",
+      "position": {
+        "x": -117.38142186176219,
+        "y": 265.40458777290166
+      },
+      "size": {
+        "width": 21,
+        "height": 73
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "H63WyNiiJ2Yr9HWs98EjR",
+      "type": "paragraph",
+      "label": "Hãy tự do bỏ qua những điều này và quay lại sau khi học Backend",
+      "position": {
+        "x": -459.47806963137555,
+        "y": 396.90458777290166
+      },
+      "size": {
+        "width": 276,
+        "height": 63
+      },
+      "style": {
+        "fontSize": 17,
+        "borderColor": "transparent",
+        "backgroundColor": "TRANSPARENT",
+        "color": "#000000",
+        "textAlign": "center",
+        "justifyContent": "center",
+        "padding": 16
+      },
+      "z_index": 999
+    },
+    {
+      "id": "QfW-odmDYknm_qXNcDu5o",
+      "type": "paragraph",
+      "label": "Bắt đầu phát triển Backend",
+      "position": {
+        "x": -482.08230823147517,
+        "y": 575.9045877729017
+      },
+      "size": {
+        "width": 265,
+        "height": 48
+      },
+      "style": {
+        "fontSize": 17,
+        "borderColor": "transparent",
+        "backgroundColor": "#ffffff",
+        "color": "#000000",
+        "textAlign": "center",
+        "justifyContent": "center",
+        "padding": 16
+      },
+      "z_index": 999
+    },
+    {
+      "id": "7JU1cVggMDoZUV-adGsf-",
+      "type": "subtopic",
+      "label": "Điểm kiểm tra - Ứng dụng Frontend",
+      "position": {
+        "x": -443.47806963137555,
+        "y": 483.40458777290166
+      },
+      "size": {
+        "width": 260,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center",
+        "colorType": "a"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Tại thời điểm này, bạn nên có khả năng xây dựng một ứng dụng giao diện người dùng hoàn chỉnh bao gồm: *   Cấu trúc trang web của bạn với HTML *   Thiết kế trang web của bạn với CSS *   Thêm tính tương tác cho trang web của bạn với JavaScript *   Sử dụng API DOM để thao tác với các trang web của bạn *   Sử dụng Fetch API để thực hiện các yêu cầu HTTP *   Hiểu về Promises và sử dụng cú pháp `async`/`await` để viết mã bất đồng bộ *   Cài đặt và sử dụng các thư viện bên ngoài với npm *   Kiểm soát phiên bản mã với Git *   Tải mã lên GitHub. Nếu bạn quyết định bỏ qua React và Tailwind vào thời điểm này, điều đó cũng hoàn toàn được chấp nhận, nhưng bạn vẫn nên có khả năng xây dựng một ứng dụng giao diện người dùng hoàn chỉnh bằng HTML, CSS và JavaScript thuần túy. Tuy nhiên, hãy nhớ rằng các ứng dụng giao diện người dùng hiện đại chủ yếu được xây dựng với các framework như React, Vue và Angular. Vì vậy, bạn nên học ít nhất một trong số chúng bất kỳ lúc nào. Đây đánh dấu sự kết thúc của kiến thức cơ bản về giao diện người dùng mà bạn cần, bây giờ chúng ta sẽ chuyển sang phát triển backend. Trong khi bạn tiếp tục phát triển backend, hãy nhớ rằng vẫn còn nhiều điều hơn nữa để biết về phát triển giao diện người dùng và hãy xem qua [con đường dẫn đến giao diện người dùng](/frontend) sau này trong hành trình của bạn.",
+        "links": []
+      }
+    },
+    {
+      "id": "_aA6Hp4KkgJeptqo8oKTg",
+      "type": "topic",
+      "label": "Node.js",
+      "position": {
+        "x": 7.00948964805815,
+        "y": 574.9045877729017
+      },
+      "size": {
+        "width": 146,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Node.js là môi trường thời gian thực JavaScript nguồn mở và đa nền tảng. Nó là một công cụ phổ biến cho hầu như mọi loại dự án! Node.js chạy trình thông dịch V8 JavaScript, lõi của Google Chrome, bên ngoài trình duyệt. Điều này cho phép Node.js hoạt động rất hiệu quả. Một ứng dụng Node.js chạy trong một quy trình duy nhất mà không tạo ra luồng mới cho mỗi yêu cầu. Node.js cung cấp một bộ nguyên mẫu đầu vào bất đồng bộ trong thư viện tiêu chuẩn của nó, ngăn chặn mã JavaScript bị chặn và nói chung, các thư viện trong Node.js được viết bằng cách sử dụng các mô hình không chặn, khiến hành vi chặn trở thành ngoại lệ chứ không phải là quy tắc.",
+        "links": [
+          {
+            "title": "Truy cập Bản đồ lộ trình Dedicated Node.js",
+            "url": "https://dev-path-murex.vercel.app/roadmap/nodejs",
+            "type": "roadmap"
+          },
+          {
+            "title": "Trang web Node.js",
+            "url": "https://nodejs.org/en/about/",
+            "type": "official"
+          },
+          {
+            "title": "Truy cập Trang web chính thức của Node.js để tìm hiểu",
+            "url": "https://nodejs.org/en/learn/getting-started/introduction-to-nodejs",
+            "type": "official"
+          },
+          {
+            "title": "Khóa học toàn diện Node.js và Express.js",
+            "url": "https://www.youtube.com/watch?v=Oe421EPjeBE",
+            "type": "video"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Node.js",
+            "url": "https://app.daily.dev/tags/nodejs?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "qCV1wiNSXj4OSHyMqxRIK",
+      "type": "paragraph",
+      "label": "Bạn có thể chọn bất kỳ ngôn ngữ lập trình Backend nào. Tôi khuyên dùng Node.js vì bạn đã quen thuộc với JavaScript và nó dễ dàng hơn để bắt đầu.",
+      "position": {
+        "x": -26.978069631375547,
+        "y": 431.40458777290166
+      },
+      "size": {
+        "width": 445,
+        "height": 101
+      },
+      "style": {
+        "fontSize": 17,
+        "borderColor": "transparent",
+        "backgroundColor": "TRANSPARENT",
+        "color": "#000000",
+        "textAlign": "left",
+        "justifyContent": "center",
+        "padding": 16
+      },
+      "z_index": 999
+    },
+    {
+      "id": "0QKpvDD33C3WCmNGtRanp",
+      "type": "vertical",
+      "label": "nút theo chiều dọc",
+      "position": {
+        "x": -104.20433957685361,
+        "y": 531.9045877729017
+      },
+      "size": {
+        "width": 21,
+        "height": 130
+      },
+      "style": {
+        "stroke": "#000000"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "WqNcVZ8IkyqEubdd9JCa1",
+      "type": "label",
+      "label": "Phát triển Backend Bắt Đầu Ở Đây",
+      "position": {
+        "x": -283.06446376179997,
+        "y": 630.9045877729017
+      },
+      "size": {
+        "width": 174,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "JGu0TKwAw-ieiG92BytYI",
+      "type": "subtopic",
+      "label": "Điểm kiểm tra - Ứng dụng CLI",
+      "position": {
+        "x": -47.99051035194185,
+        "y": 651.9045877729017
+      },
+      "size": {
+        "width": 302,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center",
+        "colorType": "a"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Tại thời điểm này, bạn nên có thể xây dựng các ứng dụng dòng lệnh (CLI) bằng Node.js hoặc bất kỳ ngôn ngữ lập trình backend nào bạn đã chọn. Bạn nên có thể xây dựng một ứng dụng CLI có thể: *   Đọc và ghi tệp *   Phân tích các đối số dòng lệnh *   Thực hiện các yêu cầu HTTP *   Phân tích JSON *   Sử dụng một thư viện bên thứ ba (ví dụ: một thư viện để phân tích tệp CSV) *   Sử dụng một API bên thứ ba Dưới đây là một vài ý tưởng cho các ứng dụng CLI mà bạn có thể xây dựng: *   Tạo một ứng dụng CLI nhận một URL và các đối số chọn CSS và in nội dung văn bản của phần tử khớp với trình chọn. **Mẹo** bạn có thể sử dụng [cheerio](https://github.com/cheeriojs/cheerio) *   Một ứng dụng tùy chọn nhận hai ngày tháng và in các dự án GitHub được sao chép nhiều nhất trong khoảng thời gian đó. **Mẹo** bạn có thể sử dụng [GitHub's search API](https://developer.github.com/v3/search/#search-repositories) *   Tên lại hàng loạt tệp trong một thư mục. **Mẹo** bạn có thể sử dụng [fs](https://nodejs.org/api/fs.html) và [path](https://nodejs.org/api/path.html) *   Viết một ứng dụng CLI nhận đường dẫn làm đầu vào và nén tất cả các hình ảnh trong thư mục đó. Nó nên chấp nhận tùy chọn cho đường dẫn đầu ra; nếu không có đường dẫn đầu ra nào được cung cấp, nó sẽ nén hình ảnh tại chỗ khác hoặc ghi hình ảnh đã nén đến đường dẫn đầu ra. **Mẹo** bạn có thể sử dụng [sharp](https://github.com/lovell/sharp).",
+        "links": []
+      }
+    },
+    {
+      "id": "o72NM00uoHXswkadhqVVW",
+      "type": "horizontal",
+      "label": "nút ngang",
+      "position": {
+        "x": 253.00948964805815,
+        "y": 666.4045877729017
+      },
+      "size": {
+        "width": 85,
+        "height": 20
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "vmHbWdmMHF53otXIrqzRV",
+      "type": "topic",
+      "label": "API RESTful",
+      "position": {
+        "x": -117.38142186176219,
+        "y": 847.9045877729017
+      },
+      "size": {
+        "width": 151,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "REST, hoặc REpresentational State Transfer, là một phong cách kiến trúc để cung cấp tiêu chuẩn giữa các hệ thống máy tính trên web, giúp các hệ thống dễ dàng giao tiếp với nhau.",
+        "links": [
+          {
+            "title": "REST API là gì?",
+            "url": "https://www.redhat.com/en/topics/api/what-is-a-rest-api",
+            "type": "article"
+          },
+          {
+            "title": "Chương luận của Roy Fieldings về Giao thức Truyền trạng thái biểu diễn (Representational State Transfer - REST).",
+            "url": "https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm",
+            "type": "article"
+          },
+          {
+            "title": "Tìm hiểu REST: Hướng dẫn RESTful",
+            "url": "https://restapitutorial.com/",
+            "type": "article"
+          },
+          {
+            "title": "RESTful API là gì? Giải thích về REST & HTTP",
+            "url": "https://www.youtube.com/watch?v=Q-BpqyOT3a8",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3EtGLO6cwkLc1-o9gwFNk",
+      "type": "subtopic",
+      "label": "Điểm kiểm tra – Ứng dụng CRUD đơn giản (Checkpoint — Simple CRUD Apps)",
+      "position": {
+        "x": -49.99051035194191,
+        "y": 779.7210153640276
+      },
+      "size": {
+        "width": 304,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center",
+        "colorType": "a"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "**CRUD** là viết tắt của **Create, Read, Update, và Delete**. Đây là bốn thao tác cơ bản mà bạn có thể thực hiện trên bất kỳ dữ liệu nào khi làm việc với các ứng dụng web, cơ sở dữ liệu và API. Bây giờ bạn đã biết về ngôn ngữ lập trình và cơ sở dữ liệu, bạn sẽ có khả năng xây dựng một ứng dụng dòng lệnh (CLI) đơn giản tương tác với cơ sở dữ liệu. Chúng ta chưa nói về API nhưng bạn không cần API để thực hành các thao tác CRUD. Dưới đây là một số ứng dụng CLI mà bạn có thể xây dựng để thực hành các thao tác CRUD: *   Một danh sách việc cần làm (todo list) đơn giản cho dòng lệnh với các tùy chọn sau: *   `--new` để thêm một mục việc cần làm mới *   `--list [all|pending|done]` để liệt kê các mục việc cần làm *   `--done [id]` để cập nhật một mục việc cần làm *   `--delete [id]` để xóa một mục việc cần làm *   `--help` để liệt kê tất cả các tùy chọn có sẵn *   `--version` để in phiên bản của ứng dụng.",
+        "links": []
+      }
+    },
+    {
+      "id": "BQV2ycD-EnmssO1idTgx9",
+      "type": "horizontal",
+      "label": "nút ngang",
+      "position": {
+        "x": 253.00948964805815,
+        "y": 794.2210153640276
+      },
+      "size": {
+        "width": 85,
+        "height": 20
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "vHojhJYjiN0IwruEqi1Dv",
+      "type": "topic",
+      "label": "JWT Auth",
+      "position": {
+        "x": -257.06446376179997,
+        "y": 847.9045877729017
+      },
+      "size": {
+        "width": 123,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "JWT (JSON Web Token) là một tiêu chuẩn/phương pháp mã hóa dựa trên token được sử dụng để chuyển đổi thông tin một cách an toàn dưới dạng đối tượng JSON. Khách hàng và máy chủ sử dụng JWT để chia sẻ thông tin một cách an toàn, với JWT chứa các đối tượng JSON đã mã hóa và claim.",
+        "links": [
+          {
+            "title": "jwt.io",
+            "url": "https://jwt.io/",
+            "type": "official"
+          },
+          {
+            "title": "Giới thiệu về JSON Web Tokens",
+            "url": "https://jwt.io/introduction",
+            "type": "official"
+          },
+          {
+            "title": "JWT là gì?",
+            "url": "https://www.akana.com/blog/what-is-jwt",
+            "type": "article"
+          },
+          {
+            "title": "JWT là gì và tại sao bạn nên sử dụng JWT?",
+            "url": "https://www.youtube.com/watch?v=7Q17ubqLfaM",
+            "type": "video"
+          },
+          {
+            "title": "JWT là gì? Giải thích Token JSON Web",
+            "url": "https://www.youtube.com/watch?v=926mknSW9Lo",
+            "type": "video"
+          },
+          {
+            "title": "Hướng dẫn JWT - Node.js",
+            "url": "https://www.youtube.com/watch?v=mbsmsi7l3r4",
+            "type": "video"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về JWT",
+            "url": "https://app.daily.dev/tags/jwt?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Onfd7Sl8LG2sjh2aQY7gb",
+      "type": "topic",
+      "label": "Redis",
+      "position": {
+        "x": -460.08230823147517,
+        "y": 847.9045877729017
+      },
+      "size": {
+        "width": 101,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Redis là một kho lưu trữ cấu trúc dữ liệu bộ nhớ (mã nguồn mở có giấy phép BSD) được sử dụng như cơ sở dữ liệu, bộ nhớ đệm, bộ trung gian tin nhắn và động cơ luồng. Redis cung cấp các cấu trúc dữ liệu như chuỗi, bảng băm, danh sách, tập hợp, tập hợp đã sắp xếp với truy vấn phạm vi, hình ảnh bit, hyperloglogs, chỉ mục không gian địa lý và luồng. Redis có tích hợp sao chép, lập trình Lua, loại bỏ LRU, giao dịch và các cấp độ khác nhau về bảo toàn trên đĩa, đồng thời cung cấp khả năng sẵn sàng cao thông qua Redis Sentinel và phân vùng tự động với Redis Cluster.",
+        "links": [
+          {
+            "title": "Truy cập Bản đồ lộ trình Dedicated Redis",
+            "url": "https://dev-path-murex.vercel.app/roadmap/redis",
+            "type": "roadmap"
+          },
+          {
+            "title": "Trang web Redis",
+            "url": "https://redis.io/",
+            "type": "official"
+          },
+          {
+            "title": "Tài liệu Redis",
+            "url": "https://redis.io/docs/latest/",
+            "type": "official"
+          },
+          {
+            "title": "Redis University",
+            "url": "https://university.redis.io/academy",
+            "type": "official"
+          },
+          {
+            "title": "Redis trong 100 giây",
+            "url": "https://www.youtube.com/watch?v=G1rOthIU-uo",
+            "type": "video"
+          },
+          {
+            "title": "Redis Caching trong Node.js",
+            "url": "https://www.youtube.com/watch?v=oaJq1mQ3dFI",
+            "type": "video"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Redis",
+            "url": "https://app.daily.dev/tags/redis?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "SHTSvMDqI7X1_ZT7-m--n",
+      "type": "topic",
+      "label": "Cơ bản Linux",
+      "position": {
+        "x": -576.5823082314752,
+        "y": 1145.3143775154215
+      },
+      "size": {
+        "width": 146,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Kiến thức về UNIX là bắt buộc đối với hầu hết mọi loại phát triển vì phần lớn mã bạn viết có khả năng cao sẽ được triển khai trên máy UNIX/Linux. Linux đã trở thành nền tảng của phong trào phần mềm nguồn mở và mã nguồn tự do, cung cấp một hệ điều hành đơn giản và tinh tế cho hầu hết các nhu cầu của bạn.",
+        "links": [
+          {
+            "title": "Truy cập Bản đồ lộ trình Dedicated Linux",
+            "url": "https://dev-path-murex.vercel.app/roadmap/linux",
+            "type": "roadmap"
+          },
+          {
+            "title": "Khóa học Unix trên Coursera",
+            "url": "https://www.coursera.org/courses?query=unix",
+            "type": "course"
+          },
+          {
+            "title": "Cơ bản Linux",
+            "url": "https://dev.to/rudrakshi99/linux-basics-2onj",
+            "type": "article"
+          },
+          {
+            "title": "Hướng dẫn Unix / Linux",
+            "url": "https://www.tutorialspoint.com/unix/index.htm",
+            "type": "article"
+          },
+          {
+            "title": "Hệ điều hành Linux - Khóa học tóm tắt",
+            "url": "https://www.youtube.com/watch?v=ROjZy1WbCIA",
+            "type": "video"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Linux",
+            "url": "https://app.daily.dev/tags/linux?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "gSUWhfd0DQoJjDpHEkk0i",
+      "type": "horizontal",
+      "label": "nút ngang",
+      "position": {
+        "x": -504.47806963137555,
+        "y": 970.0850398450953
+      },
+      "size": {
+        "width": 100,
+        "height": 20
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "v4NF25lJElAtkU0Rm6Fob",
+      "type": "subtopic",
+      "label": "Điểm kiểm tra - Ứng dụng hoàn chỉnh",
+      "position": {
+        "x": -459.47806963137555,
+        "y": 955.5850398450953
+      },
+      "size": {
+        "width": 265,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center",
+        "colorType": "a"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Tại thời điểm này, bạn nên có tất cả những gì cần thiết để xây dựng một ứng dụng hoàn chỉnh mà: *   Có giao diện người dùng đáp ứng có thể tương tác với người dùng *   Có API backend được bảo mật bằng xác thực JWT *   Có cơ sở dữ liệu lưu trữ dữ liệu. Tại thời điểm này, bạn nên luyện tập xây dựng càng nhiều càng tốt trên chính mình để củng cố kiến thức của bạn. Nếu bạn cần nguồn cảm hứng, đây là một vài ý tưởng: *   Xây dựng một ứng dụng blog đơn giản nơi người dùng có thể đăng ký, đăng nhập, thiết lập blog của họ và viết bài đăng. *   Một trang web xây dựng trang một trang nơi người dùng có thể chọn một mẫu, tùy chỉnh nó và xuất bản nó. **Lưu ý** bạn sẽ cần hệ thống tệp để lưu trữ các mẫu thiết kế. Các tệp mẫu sẽ có các chỗ trống mà bạn sẽ cần thay thế bằng dữ liệu người dùng. *   Xây dựng một ứng dụng thương mại điện tử đơn giản sẽ có hai loại người dùng, đó là **Nhà bán** có thể: Đăng ký Nhà bán, Đăng nhập, Thiết lập cửa hàng của họ, Thêm sản phẩm, Chỉnh sửa sản phẩm, Xóa sản phẩm, Xem các đơn đặt hàng đã nhận, Cập nhật trạng thái đơn hàng (Chờ xử lý, Gửi hàng, Đã giao hàng), **Người mua** có thể đăng ký, Đăng nhập, Duyệt sản phẩm của tất cả các nhà bán, Thêm sản phẩm vào giỏ hàng, Thanh toán, Xem lịch sử đơn hàng, Xem trạng thái đơn hàng, Hủy đơn hàng, Xem hồ sơ người bán, Xem sản phẩm của người bán. Đây chỉ là một vài ý tưởng để bạn bắt đầu. Bạn có thể xây dựng bất cứ thứ gì bạn muốn. Mục tiêu là thực hành xây dựng một ứng dụng hoàn chỉnh từ đầu.",
+        "links": []
+      }
+    },
+    {
+      "id": "Oav7YPRBmsE1gVhEURckg",
+      "type": "horizontal",
+      "label": "nút ngang",
+      "position": {
+        "x": -560.0823082314752,
+        "y": 1037.8143775154215
+      },
+      "size": {
+        "width": 243,
+        "height": 20
+      },
+      "style": {
+        "stroke": "#000000"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "Dj2QhtEuuIgKc2CvgFGyK",
+      "type": "label",
+      "label": "DevOps bắt đầu từ đây",
+      "position": {
+        "x": -473.2578102157039,
+        "y": 1051.3143775154215
+      },
+      "size": {
+        "width": 166,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "cUOfvOlQ_0Uu1VX3i67kJ",
+      "type": "topic",
+      "label": "Các Dịch Vụ AWS Cơ Bản",
+      "position": {
+        "x": -241.7043395768536,
+        "y": 1145.3143775154215
+      },
+      "size": {
+        "width": 210,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "AWS cung cấp nhiều dịch vụ nhưng bạn không cần phải biết tất cả chúng. Một số dịch vụ phổ biến mà bạn có thể bắt đầu với là EC2, VPC, S3, Route 53 và SES.",
+        "links": [
+          {
+            "title": "Làm quen với AWS VPC",
+            "url": "https://cs.fyi/guide/up-and-running-with-aws-vpc",
+            "type": "article"
+          },
+          {
+            "title": "Làm quen với AWS EC2",
+            "url": "https://cs.fyi/guide/up-and-running-with-aws-ec2",
+            "type": "article"
+          },
+          {
+            "title": "Cơ bản VPC",
+            "url": "https://cloudcasts.io/course/vpc-basics",
+            "type": "article"
+          },
+          {
+            "title": "EC2 Essentials",
+            "url": "https://cloudcasts.io/course/ec2-essentials",
+            "type": "article"
+          },
+          {
+            "title": "Triển khai ứng dụng Node trên AWS EC2",
+            "url": "https://youtu.be/oHAQ3TzUTro",
+            "type": "video"
+          },
+          {
+            "title": "AWS VPC & Subnets cho Người mới bắt đầu",
+            "url": "https://youtu.be/TUTqYEZZUdc",
+            "type": "video"
+          },
+          {
+            "title": "DNS với AWS Route 53",
+            "url": "https://www.youtube.com/watch?v=yRIY7BJohfo",
+            "type": "video"
+          },
+          {
+            "title": "Tải hình ảnh lên S3 từ Backend Node.js",
+            "url": "https://www.youtube.com/watch?v=NZElg91l_ms",
+            "type": "video"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về AWS",
+            "url": "https://app.daily.dev/tags/aws?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6oBIxYj8WPcUHidQ99tus",
+      "type": "subtopic",
+      "label": "EC2",
+      "position": {
+        "x": -239.56446376179997,
+        "y": 1087.3143775154215
+      },
+      "size": {
+        "width": 71,
+        "height": 51
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Amazon Elastic Compute Cloud (EC2) là một dịch vụ web cung cấp khả năng mở rộng tính toán có thể tùy chỉnh theo hình thức máy chủ ảo, được gọi là các phiên bản. Với EC2, bạn có thể nhanh chóng mở rộng hoặc thu hẹp quy mô cơ sở hạ tầng của mình khi nhu cầu tính toán thay đổi. Dịch vụ này hiệu quả giảm thời gian cần thiết để có và khởi động các phiên bản máy chủ mới, cho phép bạn dễ dàng điều chỉnh dung lượng theo nhu cầu của ứng dụng.",
+        "links": [
+          {
+            "title": "Amazon AWS EC2",
+            "url": "https://aws.amazon.com/ec2/",
+            "type": "official"
+          },
+          {
+            "title": "Làm quen với AWS EC2",
+            "url": "https://cs.fyi/guide/up-and-running-with-aws-ec2",
+            "type": "article"
+          },
+          {
+            "title": "EC2 Essentials",
+            "url": "https://cloudcasts.io/course/ec2-essentials",
+            "type": "article"
+          },
+          {
+            "title": "Triển khai ứng dụng Node trên AWS EC2",
+            "url": "https://youtu.be/oHAQ3TzUTro",
+            "type": "video"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về AWS EC2",
+            "url": "https://app.daily.dev/tags/aws-ec2?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "QtL-bLKtWIdH00K6k_PdC",
+      "type": "subtopic",
+      "label": "VPC",
+      "position": {
+        "x": -165.56446376179997,
+        "y": 1087.3143775154215
+      },
+      "size": {
+        "width": 71,
+        "height": 51
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center",
+        "colorType": "c"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "VPC là viết tắt của **Virtual Private Cloud** và là dịch vụ cốt lõi được cung cấp bởi AWS, cho phép bạn tạo một phần riêng tư, cô lập trong đám mây AWS, nơi bạn có thể định nghĩa mạng lưới ảo của mình. Nó mang lại môi trường an toàn và kiểm soát hơn, cho phép bạn dễ dàng triển khai và quản lý tài nguyên của mình trong mạng lưới cá nhân.",
+        "links": [
+          {
+            "title": "Amazon AWS VPC",
+            "url": "https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vpc.html",
+            "type": "official"
+          },
+          {
+            "title": "Làm quen với AWS VPC",
+            "url": "https://cs.fyi/guide/up-and-running-with-aws-vpc",
+            "type": "article"
+          },
+          {
+            "title": "Cơ bản VPC",
+            "url": "https://cloudcasts.io/course/vpc-basics",
+            "type": "article"
+          },
+          {
+            "title": "AWS VPC & Subnets cho Người mới bắt đầu",
+            "url": "https://youtu.be/TUTqYEZZUdc",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5zyYpu9cyuTFwQCjTbHpS",
+      "type": "subtopic",
+      "label": "Route 53",
+      "position": {
+        "x": -239.56446376179997,
+        "y": 1032.3143775154215
+      },
+      "size": {
+        "width": 104,
+        "height": 51
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Route53 là dịch vụ Hệ thống tên miền (DNS) của AWS đóng vai trò quan trọng trong việc kết nối các yêu cầu của người dùng đến ứng dụng web hoặc các tài nguyên khác trong cơ sở hạ tầng của bạn. Với Route53, bạn có thể dễ dàng quản lý tên miền, chuyển hướng lưu lượng truy cập và cấu hình cài đặt liên quan đến tên miền. Nó có nhiều ưu điểm, bao gồm khả năng sẵn sàng cao, độ trễ thấp và tích hợp với các tài nguyên AWS khác.",
+        "links": [
+          {
+            "title": "Route 53",
+            "url": "https://aws.amazon.com/route53/",
+            "type": "official"
+          },
+          {
+            "title": "Amazon Route 53",
+            "url": "https://www.youtube.com/watch?v=RGWgfhZByAI",
+            "type": "video"
+          },
+          {
+            "title": "AWS Route 53 Tên miền",
+            "url": "https://www.youtube.com/watch?v=jDz4j_kkyLA",
+            "type": "video"
+          },
+          {
+            "title": "DNS với AWS Route 53",
+            "url": "https://www.youtube.com/watch?v=yRIY7BJohfo&t=2s",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "B-cphY7Imnv6JBMujVIF7",
+      "type": "subtopic",
+      "label": "SES",
+      "position": {
+        "x": -133.7043395768536,
+        "y": 1032.3143775154215
+      },
+      "size": {
+        "width": 101,
+        "height": 51
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Amazon SES (Simple Email Service) là dịch vụ email dựa trên đám mây có khả năng mở rộng, linh hoạt và chi phí hiệu quả, được thiết kế đặc biệt cho các nhà phát triển, marketer và doanh nghiệp để gửi và nhận email tiếp thị, giao dịch và thông báo. SES rất hữu ích, đặc biệt khi bạn cần gửi một lượng lớn email, vì nó cung cấp khả năng chuyển tiếp cao, độ tin cậy và dễ sử dụng.",
+        "links": [
+          {
+            "title": "Amazon AWS SES",
+            "url": "https://aws.amazon.com/ses/",
+            "type": "official"
+          },
+          {
+            "title": "Gửi biểu mẫu liên hệ với AWS SES",
+            "url": "https://www.youtube.com/watch?v=HiHflLTqiwU",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "n2Xp_ijJ2OS8xhE7xMWxk",
+      "type": "subtopic",
+      "label": "Amazon S3",
+      "position": {
+        "x": -91.56446376179997,
+        "y": 1087.3143775154215
+      },
+      "size": {
+        "width": 60,
+        "height": 51
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Amazon S3 là một dịch vụ cho phép bạn lưu trữ tệp tin trong đám mây. Đây là một dịch vụ đơn giản mà bạn có thể sử dụng để lưu trữ và phục vụ các tệp tin đến người dùng của mình.",
+        "links": [
+          {
+            "title": "Amazon AWS S3",
+            "url": "https://aws.amazon.com/s3/",
+            "type": "official"
+          },
+          {
+            "title": "Tải hình ảnh lên S3 từ Backend Node.js",
+            "url": "https://www.youtube.com/watch?v=NZElg91l_ms",
+            "type": "video"
+          },
+          {
+            "title": "Tải lên Website Đang Hoạt Động trên S3 Bucket",
+            "url": "https://www.youtube.com/watch?v=RoY3ekCCxKc&list=PL0X6fGhFFNTcU-_MCPe9dkH6sqmgfhy_M",
+            "type": "video"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về AWS S3",
+            "url": "https://app.daily.dev/tags/aws-s3?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "fKzuMTsf6XL_0Ik6t8SAX",
+      "type": "paragraph",
+      "label": "Sử dụng các checkpoint và đừng quên thực hành những gì bạn học. Có các ý tưởng dự án tại mỗi checkpoint mà bạn có thể xây dựng để củng cố kiến thức.",
+      "position": {
+        "x": 58.49718479195076,
+        "y": 923.8143775154215
+      },
+      "size": {
+        "width": 342,
+        "height": 139
+      },
+      "style": {
+        "fontSize": 17,
+        "borderColor": "#000000",
+        "backgroundColor": "#ffffff",
+        "color": "#000000",
+        "textAlign": "left",
+        "justifyContent": "center",
+        "padding": 16
+      },
+      "z_index": 999
+    },
+    {
+      "id": "y1SFX7uvWaCy4OYBnECLu",
+      "type": "topic",
+      "label": "Monit",
+      "position": {
+        "x": 290.52193036862445,
+        "y": 1266.5238331844262
+      },
+      "size": {
+        "width": 89,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Khi nói đến việc giám sát sức khỏe của các ứng dụng, có nhiều tùy chọn khác nhau. Tệp giám sát yêu thích của tôi là Prometheus và Grafana, nhưng đôi khi nó có thể hơi quá tải để thiết lập và cấu hình. Nếu bạn đang tìm kiếm một giải pháp đơn giản hơn, **Monit** là một lựa chọn tuyệt vời mà bạn có thể sử dụng để giám sát và quản lý tài nguyên hệ thống như dịch vụ, quy trình, tệp, thư mục, thiết bị và kết nối mạng, giúp ứng dụng của bạn đáng tin cậy và bền bỉ hơn trước các sự cố như treo máy, không phản hồi hoặc cạn kiệt tài nguyên.",
+        "links": [
+          {
+            "title": "Monit",
+            "url": "https://mmonit.com/monit/",
+            "type": "official"
+          },
+          {
+            "title": "Tài liệu Monit",
+            "url": "https://mmonit.com/monit/documentation/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "HGhnbMg6jh6cAmUH4DtOx",
+      "type": "topic",
+      "label": "PostgreSQL",
+      "position": {
+        "x": 262.02193036862445,
+        "y": 716.9045877729017
+      },
+      "size": {
+        "width": 146,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "PostgreSQL, cũng được biết đến với tên Postgres, là một hệ thống quản lý cơ sở dữ liệu quan hệ mã nguồn mở và miễn phí, nhấn mạnh khả năng mở rộng và tuân thủ SQL.",
+        "links": [
+          {
+            "title": "Truy cập Bản đồ lộ trình Dedicated PostgreSQL DBA",
+            "url": "https://dev-path-murex.vercel.app/roadmap/postgresql-dba",
+            "type": "roadmap"
+          },
+          {
+            "title": "Trang web PostgreSQL",
+            "url": "https://www.postgresql.org/",
+            "type": "official"
+          },
+          {
+            "title": "Tìm hiểu PostgreSQL - Bài hướng dẫn đầy đủ dành cho người mới bắt đầu",
+            "url": "https://www.postgresqltutorial.com/",
+            "type": "article"
+          },
+          {
+            "title": "Bài học toàn diện về PostgreSQL - Khóa học đầy đủ dành cho người mới bắt đầu",
+            "url": "https://www.youtube.com/watch?v=qw--VYLpxG4",
+            "type": "video"
+          },
+          {
+            "title": "Hướng dẫn sử dụng Postgres cho người mới bắt đầu",
+            "url": "https://www.youtube.com/watch?v=eMIxuk0nOkU",
+            "type": "video"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về PostgreSQL",
+            "url": "https://app.daily.dev/tags/postgresql?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "J2_IWAb1s9zZcxOY3NXm2",
+      "type": "subtopic",
+      "label": "Điểm kiểm tra – Triển khai (Checkpoint — Deployment)",
+      "position": {
+        "x": 16.00948964805815,
+        "y": 1200.7210153640276
+      },
+      "size": {
+        "width": 248,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center",
+        "colorType": "a"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Bây giờ bạn đã biết các kiến thức cơ bản về AWS, bạn nên có thể triển khai ứng dụng của mình lên AWS. Bạn không cần phải sử dụng tất cả các dịch vụ AWS, đây là những gì bạn có thể bắt đầu với: *   Thiết lập một instance EC2 bằng bất kỳ AMI nào (ví dụ: phiên bản Ubuntu mới nhất) *   Kết nối SSH vào instance EC2 bằng cặp khóa bạn đã tạo *   Cài đặt Node.js trên instance EC2 *   Cài đặt Git trên instance EC2 *   Clone ứng dụng của bạn từ GitHub *   Cài đặt và cấu hình cơ sở dữ liệu trên instance EC2 (ví dụ: PostgreSQL) *   Đảm bảo rằng nhóm bảo mật của instance EC2 cho phép lưu lượng truy cập HTTP và HTTPS *   Thử truy cập ứng dụng của bạn bằng địa chỉ IP công khai của instance EC2 *   Mua hoặc thiết lập tên miền bằng Route53 (hoặc bất kỳ nhà cung cấp tên miền nào khác) và trỏ nó đến địa chỉ IP công khai của instance EC2 *   Thiết lập HTTPS bằng [certbot](https://roadmap.sh/guides/setup-and-auto-renew-ssl-certificates) *   Và voila! Bạn đã triển khai ứng dụng của mình lên AWS!",
+        "links": [
+          {
+            "title": "Triển khai ứng dụng Node trên AWS EC2",
+            "url": "https://youtu.be/oHAQ3TzUTro",
+            "type": "video"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về CI/CD",
+            "url": "https://app.daily.dev/tags/cicd?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "863KMXcFJzInvTp_-Ldmz",
+      "type": "topic",
+      "label": "GitHub Actions",
+      "position": {
+        "x": 103.00948964805815,
+        "y": 1392.5238331844262
+      },
+      "size": {
+        "width": 160,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "GitHub Actions là một công cụ tự động hóa quy trình làm việc được cung cấp bởi GitHub, có thể được sử dụng để tự động hóa nhiều tác vụ trong quá trình phát triển ứng dụng.",
+        "links": [
+          {
+            "title": "Truy cập Bản đồ lộ trình Dedicated Git & GitHub",
+            "url": "https://dev-path-murex.vercel.app/roadmap/git-github",
+            "type": "roadmap"
+          },
+          {
+            "title": "GitHub Actions",
+            "url": "https://github.com/features/actions",
+            "type": "official"
+          },
+          {
+            "title": "Tài liệu GitHub Actions",
+            "url": "https://docs.github.com/en/actions",
+            "type": "official"
+          },
+          {
+            "title": "5 Cách DevOps hóa Ứng dụng của bạn",
+            "url": "https://www.youtube.com/watch?v=eB0nUzAI7M8",
+            "type": "video"
+          },
+          {
+            "title": "DevOps CI/CD Giải thích trong 100 giây (DevOps CI/CD Explained in 100 Seconds)",
+            "url": "https://www.youtube.com/watch?v=scEDHsr3APg",
+            "type": "video"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về GitHub",
+            "url": "https://app.daily.dev/tags/github-actions?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "NQmEl27eBPYhivcXdOEz3",
+      "type": "subtopic",
+      "label": "Điểm kiểm tra – Giám sát (Checkpoint — Monitoring)",
+      "position": {
+        "x": 16.00948964805815,
+        "y": 1325.7210153640276
+      },
+      "size": {
+        "width": 248,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center",
+        "colorType": "a"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Bạn nên triển khai giám sát và tự khởi động lại cho ứng dụng của mình bằng cách sử dụng monit. Về việc tự khởi động lại, bạn cũng có thể sử dụng [pm2](https://pm2.keymetrics.io/). Dưới đây là một số bộ giám sát mà bạn nên triển khai cho ứng dụng:\n\n*   Sử dụng CPU\n*   Sử dụng bộ nhớ\n*   Sử dụng ổ đĩa\n*   Sử dụng mạng\n*   Tính khả dụng của dịch vụ\n*   Tính khả dụng của quy trình\n\nMonit đi kèm với các cấu hình hiện có cho nhiều dịch vụ. Bạn có thể tìm thấy chúng trong `/etc/monit/conf-available`. Bạn có thể sao chép chúng (và sửa đổi nếu cần) vào `/etc/monit/conf-enabled` để kích hoạt chúng.",
+        "links": []
+      }
+    },
+    {
+      "id": "rFXupYpUFfp7vZO8zh614",
+      "type": "topic",
+      "label": "Ansible",
+      "position": {
+        "x": -327.56446376179997,
+        "y": 1392.5238331844262
+      },
+      "size": {
+        "width": 102,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Ansible là công cụ quản lý cấu hình, triển khai ứng dụng và cung cấp tài nguyên mã nguồn mở, sử dụng ngôn ngữ tường minh riêng của nó bằng YAML. Ansible là agentless, nghĩa là bạn chỉ cần kết nối từ xa thông qua SSH hoặc Windows Remote Management thông qua Powershell để hoạt động.",
+        "links": [
+          {
+            "title": "Ansible",
+            "url": "https://www.ansible.com/",
+            "type": "official"
+          },
+          {
+            "title": "Tài liệu Ansible",
+            "url": "https://docs.ansible.com/",
+            "type": "official"
+          },
+          {
+            "title": "Hướng dẫn bắt đầu Ansible",
+            "url": "https://www.ansible.com/resources/get-started",
+            "type": "official"
+          },
+          {
+            "title": "Khóa học Ansible đầy đủ dành cho người mới bắt đầu",
+            "url": "https://www.youtube.com/watch?v=9Ua2b06oAr4",
+            "type": "video"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Ansible",
+            "url": "https://app.daily.dev/tags/ansible?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "liaY1GnlOateB_ZKBjNpY",
+      "type": "subtopic",
+      "label": "Điểm kiểm tra - CI / CD",
+      "position": {
+        "x": -226.56446376179997,
+        "y": 1325.7210153640276
+      },
+      "size": {
+        "width": 218,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center",
+        "colorType": "a"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Bây giờ bạn đã thiết lập cơ sở hạ tầng, đến lúc tự động hóa quy trình triển khai. Đây là nơi mà CI/CD phát huy tác dụng. Nếu bạn chưa biết gì về CI/CD, hãy xem [DevOps CI/CD Explained in 100 Seconds](https://www.youtube.com/watch?v=scEDHsr3APg). Bước tiếp theo tại thời điểm này là triển khai CI/CD cho ứng dụng của bạn bằng GitHub actions. Thiết lập một GitHub action để, bất cứ khi nào bạn đẩy lên master, sẽ tự động: *   Chạy các bài kiểm tra (bỏ qua bước này nếu bạn chưa học nó) *   Triển khai ứng dụng của bạn lên AWS Về việc triển khai lên AWS, bạn có thể sử dụng `rsync` để sao chép các tệp tin đến máy chủ. Đây là [mẫu GitHub workflow](https://gist.github.com/kamranahmedse/1e94b412006040f38e24b9443b2da41a) sử dụng `rsync`.",
+        "links": []
+      }
+    },
+    {
+      "id": "2kKHuQZScu7hCDgQWxl5u",
+      "type": "topic",
+      "label": "Terraform",
+      "position": {
+        "x": -560.0823082314752,
+        "y": 1468.728630371825
+      },
+      "size": {
+        "width": 121,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Terraform là một công cụ Mã hóa Cơ sở hạ tầng (IaC) nguồn mở cực kỳ phổ biến có thể được sử dụng với nhiều API khác nhau của nhà cung cấp đám mây và dịch vụ. Terraform tập trung vào phương pháp bất biến để xây dựng cơ sở hạ tầng, với tệp trạng thái Terraform trung tâm để theo dõi trạng thái của cơ sở hạ tầng thực tế của bạn.",
+        "links": [
+          {
+            "title": "Truy cập Bản đồ lộ trình Dedicated Terraform",
+            "url": "https://dev-path-murex.vercel.app/roadmap/terraform",
+            "type": "roadmap"
+          },
+          {
+            "title": "Trang web Terraform",
+            "url": "https://www.terraform.io/",
+            "type": "official"
+          },
+          {
+            "title": "Tài liệu Terraform",
+            "url": "https://www.terraform.io/docs",
+            "type": "official"
+          },
+          {
+            "title": "Terraform CDK",
+            "url": "https://www.terraform.io/cdktf",
+            "type": "official"
+          },
+          {
+            "title": "Hướng dẫn Terraform",
+            "url": "https://learn.hashicorp.com/terraform",
+            "type": "official"
+          },
+          {
+            "title": "Giới thiệu về Video Terraform",
+            "url": "https://www.youtube.com/watch?v=h970ZBgKINg&ab_channel=HashiCorp",
+            "type": "video"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Terraform",
+            "url": "https://app.daily.dev/tags/terraform?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sO_9-l4FECbaqiaFnyeXO",
+      "type": "subtopic",
+      "label": "Điểm kiểm tra - Tự động hóa",
+      "position": {
+        "x": -571.7578102157039,
+        "y": 1324.9030216520516
+      },
+      "size": {
+        "width": 252,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center",
+        "colorType": "a"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Bây giờ bạn đã học Ansible, bạn có thể sử dụng nó để tự động hóa việc triển khai ứng dụng của mình. Một nhiệm vụ dành cho bạn tại thời điểm này là tự động hóa các bước mà bạn thực hiện thủ công trước đó khi thiết lập phiên bản EC2 i.e. kết nối SSH vào máy chủ, cài đặt Node.js, Git, PostgreSQL, Chạy ứng dụng,... Viết một playbook Ansible để tự động hóa những điều này và xem liệu bạn có thể khởi chạy một phiên bản EC2 mới mà không cần kết nối SSH vào nó và cài đặt tất cả các phụ thuộc thủ công hay không.",
+        "links": []
+      }
+    },
+    {
+      "id": "YVMyHFSCVF-GgXydq-SFJ",
+      "type": "subtopic",
+      "label": "Điểm kiểm tra – Cơ sở hạ tầng (Checkpoint — Infrastructure)",
+      "position": {
+        "x": -415.56446376179997,
+        "y": 1538.0384432996068
+      },
+      "size": {
+        "width": 260,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center",
+        "colorType": "a"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Nếu bạn nhớ, ở giai đoạn đầu của lộ trình, bạn đã đăng nhập thủ công vào bảng điều khiển AWS và thiết lập các dịch vụ. Bây giờ khi bạn biết Terraform, hãy tự động hóa quá trình tạo cơ sở hạ tầng cho ứng dụng của bạn bằng Terraform và với đó các triển khai của bạn sẽ được tự động hóa hoàn toàn, tức là bạn nên có: *   Thiết lập cơ sở hạ tầng bằng Terraform *   Cung cấp tài nguyên bằng Ansible *   CI/CD bằng GitHub Actions *   Giám sát bằng Monit Và tất cả đã xong! Bạn đã hoàn thành lộ trình và giờ đây là một nhà phát triển Full-Stack. Chúc mừng! 🎉 Tiếp theo là gì? ------------ Hãy tự mình xây dựng một thứ gì đó thật thú vị! Chia sẻ những kiến thức của bạn với cộng đồng và giúp đỡ người khác học hỏi cũng vậy. Nếu bạn có bất kỳ câu hỏi nào, xin vui lòng tham gia [phòng Discord](https://roadmap.sh/discord) của chúng tôi và đặt câu hỏi!",
+        "links": []
+      }
+    },
+    {
+      "id": "2bi7EWaC5QIWX6_Vl6988",
+      "type": "paragraph",
+      "label": "",
+      "position": {
+        "x": 72.1182771963982,
+        "y": -101.66069241448308
+      },
+      "size": {
+        "width": 26,
+        "height": 25
+      },
+      "style": {
+        "fontSize": 17,
+        "borderColor": "#000000",
+        "backgroundColor": "#fcff00",
+        "color": "#ffffff",
+        "textAlign": "left",
+        "justifyContent": "flex-start",
+        "padding": 3
+      },
+      "z_index": 999
+    },
+    {
+      "id": "aaWX__NQvUofoN1VzwgD0",
+      "type": "label",
+      "label": "Các chủ đề chính cần học",
+      "position": {
+        "x": 102.99749010787673,
+        "y": -107.16069241448308
+      },
+      "size": {
+        "width": 158,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "kvS4x6z7YWJjMpkpU01yh",
+      "type": "paragraph",
+      "label": "",
+      "position": {
+        "x": 72.1182771963982,
+        "y": -68.28925019287855
+      },
+      "size": {
+        "width": 26,
+        "height": 25
+      },
+      "style": {
+        "fontSize": 17,
+        "borderColor": "#000000",
+        "backgroundColor": "#000000",
+        "color": "#000000",
+        "textAlign": "left",
+        "justifyContent": "flex-start",
+        "padding": 3
+      },
+      "z_index": 999
+    },
+    {
+      "id": "7HLG5FTMmOWGS-mOpqnQh",
+      "type": "label",
+      "label": "Ý tưởng dự án và gợi ý",
+      "position": {
+        "x": 102.99749010787673,
+        "y": -71.16069241448308
+      },
+      "size": {
+        "width": 249,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "X8Gvqj2h4wkfA1Cx2d1iW",
+      "type": "paragraph",
+      "label": "Nếu bạn đã là nhà phát triển Full-Stack, bạn nên truy cập các đường dẫn sau.",
+      "position": {
+        "x": -297.06446376179997,
+        "y": -251.15106699547107
+      },
+      "size": {
+        "width": 311,
+        "height": 55
+      },
+      "style": {
+        "fontSize": 17,
+        "borderColor": "transparent",
+        "backgroundColor": "transparent",
+        "color": "#000000",
+        "textAlign": "left",
+        "justifyContent": "flex-start",
+        "padding": 0
+      },
+      "z_index": 999
+    },
+    {
+      "id": "7cbUuhyNE2SoZbm2Zh_t7",
+      "type": "paragraph",
+      "label": "Đối tượng mục tiêu của lộ trình này là những người mới bắt đầu hoàn toàn muốn làm quen với phát triển full-stack.",
+      "position": {
+        "x": -297.06446376179997,
+        "y": -122.15106699547107
+      },
+      "size": {
+        "width": 311,
+        "height": 80
+      },
+      "style": {
+        "fontSize": 17,
+        "borderColor": "transparent",
+        "backgroundColor": "transparent",
+        "color": "#000000",
+        "textAlign": "left",
+        "justifyContent": "flex-start",
+        "padding": 0
+      },
+      "z_index": 999
+    }
+  ],
+  "edges": [
+    {
+      "id": "reactflow__edge-iogwMmOvub2ZF4zgg6WyFx2-mGgx_QTEPmVKf6AijX9fiy2",
+      "source": "iogwMmOvub2ZF4zgg6WyF",
+      "target": "B0kARTODvCBi0iOF8iiqI",
+      "source_handle": "x2",
+      "target_handle": "y2",
+      "edge_style": "solid",
+      "line_type": "smoothstep",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-B0kARTODvCBi0iOF8iiqIz2-mGgx_QTEPmVKf6AijX9fiy2",
+      "source": "B0kARTODvCBi0iOF8iiqI",
+      "target": "dAJHWmGeiYdzZ1ZjrWz1S",
+      "source_handle": "z2",
+      "target_handle": "y2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-khoUtTUxdf8udAzN9_CAbz2-mGgx_QTEPmVKf6AijX9fiw1",
+      "source": "T9PB6WQf-Fa9NXKKvVOy_",
+      "target": "mGgx_QTEPmVKf6AijX9fi",
+      "source_handle": "z2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "smoothstep",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-dAJHWmGeiYdzZ1ZjrWz1Sz2-khoUtTUxdf8udAzN9_CAby2",
+      "source": "dAJHWmGeiYdzZ1ZjrWz1S",
+      "target": "T9PB6WQf-Fa9NXKKvVOy_",
+      "source_handle": "z2",
+      "target_handle": "y2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-mGgx_QTEPmVKf6AijX9fix2-We2APJpOPTr-VNfowG0kIz2",
+      "source": "mGgx_QTEPmVKf6AijX9fi",
+      "target": "We2APJpOPTr-VNfowG0kI",
+      "source_handle": "x2",
+      "target_handle": "z2",
+      "edge_style": "solid",
+      "line_type": "smoothstep",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-We2APJpOPTr-VNfowG0kIy2-khoUtTUxdf8udAzN9_CAbz1",
+      "source": "We2APJpOPTr-VNfowG0kI",
+      "target": "8sPXL8iClpPqje03ksses",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-8sPXL8iClpPqje03kssesy2-khoUtTUxdf8udAzN9_CAbz1",
+      "source": "8sPXL8iClpPqje03ksses",
+      "target": "CVCqdPkq_hGQfI8EEi5RC",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-2kKHuQZScu7hCDgQWxl5uy2-khoUtTUxdf8udAzN9_CAbz2",
+      "source": "CVCqdPkq_hGQfI8EEi5RC",
+      "target": "khoUtTUxdf8udAzN9_CAb",
+      "source_handle": "y2",
+      "target_handle": "z2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-khoUtTUxdf8udAzN9_CAby2-QfW-odmDYknm_qXNcDu5oy1",
+      "source": "khoUtTUxdf8udAzN9_CAb",
+      "target": "QfW-odmDYknm_qXNcDu5o",
+      "source_handle": "y2",
+      "target_handle": "y1",
+      "edge_style": "solid",
+      "line_type": "smoothstep",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-QfW-odmDYknm_qXNcDu5oz2-2kKHuQZScu7hCDgQWxl5uy1",
+      "source": "QfW-odmDYknm_qXNcDu5o",
+      "target": "_aA6Hp4KkgJeptqo8oKTg",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-2kKHuQZScu7hCDgQWxl5ux2-cUOfvOlQ_0Uu1VX3i67kJz1",
+      "source": "HGhnbMg6jh6cAmUH4DtOx",
+      "target": "vmHbWdmMHF53otXIrqzRV",
+      "source_handle": "x2",
+      "target_handle": "z1",
+      "edge_style": "solid",
+      "line_type": "smoothstep",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-vmHbWdmMHF53otXIrqzRVy2-cUOfvOlQ_0Uu1VX3i67kJz2",
+      "source": "vmHbWdmMHF53otXIrqzRV",
+      "target": "vHojhJYjiN0IwruEqi1Dv",
+      "source_handle": "y2",
+      "target_handle": "z2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-vHojhJYjiN0IwruEqi1Dvy2-cUOfvOlQ_0Uu1VX3i67kJz1",
+      "source": "vHojhJYjiN0IwruEqi1Dv",
+      "target": "Onfd7Sl8LG2sjh2aQY7gb",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-Onfd7Sl8LG2sjh2aQY7gby2-cUOfvOlQ_0Uu1VX3i67kJw1",
+      "source": "Onfd7Sl8LG2sjh2aQY7gb",
+      "target": "SHTSvMDqI7X1_ZT7-m--n",
+      "source_handle": "y2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "smoothstep",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-SHTSvMDqI7X1_ZT7-m--nz2-cUOfvOlQ_0Uu1VX3i67kJy2",
+      "source": "SHTSvMDqI7X1_ZT7-m--n",
+      "target": "cUOfvOlQ_0Uu1VX3i67kJ",
+      "source_handle": "z2",
+      "target_handle": "y2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-cUOfvOlQ_0Uu1VX3i67kJz2-2kKHuQZScu7hCDgQWxl5uw2",
+      "source": "cUOfvOlQ_0Uu1VX3i67kJ",
+      "target": "y1SFX7uvWaCy4OYBnECLu",
+      "source_handle": "z2",
+      "target_handle": "w2",
+      "edge_style": "solid",
+      "line_type": "smoothstep",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-_aA6Hp4KkgJeptqo8oKTgz2-HGhnbMg6jh6cAmUH4DtOxw1",
+      "source": "_aA6Hp4KkgJeptqo8oKTg",
+      "target": "HGhnbMg6jh6cAmUH4DtOx",
+      "source_handle": "z2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "smoothstep",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-y1SFX7uvWaCy4OYBnECLux2-2kKHuQZScu7hCDgQWxl5uz1",
+      "source": "y1SFX7uvWaCy4OYBnECLu",
+      "target": "863KMXcFJzInvTp_-Ldmz",
+      "source_handle": "x2",
+      "target_handle": "z1",
+      "edge_style": "solid",
+      "line_type": "smoothstep",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-863KMXcFJzInvTp_-Ldmzy2-2kKHuQZScu7hCDgQWxl5uz2",
+      "source": "863KMXcFJzInvTp_-Ldmz",
+      "target": "rFXupYpUFfp7vZO8zh614",
+      "source_handle": "y2",
+      "target_handle": "z2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-rFXupYpUFfp7vZO8zh614y2-2kKHuQZScu7hCDgQWxl5uw1",
+      "source": "rFXupYpUFfp7vZO8zh614",
+      "target": "2kKHuQZScu7hCDgQWxl5u",
+      "source_handle": "y2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "smoothstep",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    }
+  ],
+  "content_crawled_at": "2026-04-06T09:32:36.791317+00:00"
+}

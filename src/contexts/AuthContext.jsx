@@ -101,7 +101,7 @@ function parseQaRecommendation(value) {
           score: Number.isFinite(score) ? score : 0,
           reason: {
             en: String(reason.en || '').trim(),
-            ja: String(reason.ja || '').trim(),
+            vi: String(reason.vi || '').trim(),
           },
         }
       })

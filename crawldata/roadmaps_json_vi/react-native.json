@@ -1,0 +1,4144 @@
+{
+  "id": "react-native",
+  "title": "React Native",
+  "source_url": "https://roadmap.sh/react-native",
+  "github_url": "https://github.com/kamranahmedse/developer-roadmap/tree/master/src/data/roadmaps/react-native",
+  "crawled_at": "2026-04-06T07:37:37.745561+00:00",
+  "type": "flow",
+  "stats": {
+    "total_nodes": 118,
+    "total_edges": 49,
+    "nodes_with_content": 91
+  },
+  "node_types": [
+    "button",
+    "horizontal",
+    "label",
+    "linksgroup",
+    "paragraph",
+    "section",
+    "subtopic",
+    "title",
+    "topic",
+    "vertical"
+  ],
+  "edge_styles": [
+    "dashed",
+    "solid"
+  ],
+  "edge_line_types": [
+    "default",
+    "smoothstep"
+  ],
+  "node_type_description": {
+    "title": "Tiêu đề chính của lộ trình",
+    "topic": "Chủ đề lớn (nhóm kỹ năng)",
+    "subtopic": "Kỹ năng/công nghệ cụ thể cần học",
+    "paragraph": "Vùng văn bản mô tả / chú thích",
+    "vertical": "Visual connection"
+  },
+  "edge_style_description": {
+    "solid": "Kỹ năng bắt buộc / quan trọng",
+    "dashed": "Tùy chọn / gợi ý / phương án thay thế"
+  },
+  "nodes": [
+    {
+      "id": "4qvR1QQzrmoVIVCAsp92H",
+      "type": "vertical",
+      "label": "nút dọc",
+      "position": {
+        "x": -123.1381872719935,
+        "y": 2573.2541881503926
+      },
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "zxa5bbXMLJsCgurI0zsRy",
+      "type": "vertical",
+      "label": "nút dọc",
+      "position": {
+        "x": -549.1381872719935,
+        "y": 2123.4007482223487
+      },
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "3M-KXd4R-NzZV__UgxDPU",
+      "type": "vertical",
+      "label": "nút dọc",
+      "position": {
+        "x": -666.615904405851,
+        "y": 2123.4007482223487
+      },
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "tR7FOWmBDYg6bn5d4YHzd",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": -140.1381872719935,
+        "y": 1846.9007482223487
+      },
+      "size": {
+        "width": 150,
+        "height": 100
+      },
+      "style": {
+        "fontSize": 17,
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "hJobfOyzU-1jqdExFilz7",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": 24.861812728006498,
+        "y": 1846.9007482223487
+      },
+      "size": {
+        "width": 150,
+        "height": 100
+      },
+      "style": {
+        "fontSize": 17,
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "noLJjbjKyQ4AWA4TuB6-6",
+      "type": "horizontal",
+      "label": "nút ngang",
+      "position": {
+        "x": -442.228964418254,
+        "y": 1773.9007482223487
+      },
+      "size": {
+        "width": 50,
+        "height": 20
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.65,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "Bv-5PX8sSIddQmKtC0NQ-",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": -712.1381872719935,
+        "y": 1687.9007482223487
+      },
+      "size": {
+        "width": 150,
+        "height": 100
+      },
+      "style": {
+        "fontSize": 17,
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "OMgqmjh8qyBUDugU8QkTL",
+      "type": "vertical",
+      "label": "nút dọc",
+      "position": {
+        "x": 264.3618127280065,
+        "y": 1441.4007482223487
+      },
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.65,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "86YH9wi6fZcj_lT98sTwy",
+      "type": "vertical",
+      "label": "nút dọc",
+      "position": {
+        "x": -215.3175069304428,
+        "y": 1145.9007482223487
+      },
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.75,
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "Lx-z0hK9WMcfS4lGiSD1M",
+      "type": "vertical",
+      "label": "nút dọc",
+      "position": {
+        "x": -215.3175069304428,
+        "y": 932.9007482223487
+      },
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.75
+      },
+      "z_index": 999
+    },
+    {
+      "id": "N4wQuEYhAU9DGQJmV1f25",
+      "type": "vertical",
+      "label": "nút dọc",
+      "position": {
+        "x": -515.6381872719935,
+        "y": 919.9393516042962
+      },
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "pGSRxZZEutXQu1nncm9Uy",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": -709.6381872719935,
+        "y": 1077.9007482223487
+      },
+      "size": {
+        "width": 150,
+        "height": 100
+      },
+      "style": {
+        "fontSize": 17,
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "9Pl9DKvoT0mpnc_6MUxVi",
+      "type": "vertical",
+      "label": "nút dọc",
+      "position": {
+        "x": -126.22896441825404,
+        "y": 739.9393516042962
+      },
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.75,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "ZMHUVvTmbR_OmXTs1k0Sf",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": -709.6381872719935,
+        "y": 572.9007482223487
+      },
+      "size": {
+        "width": 150,
+        "height": 100
+      },
+      "style": {
+        "fontSize": 17,
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "Ikohtpq5aBCkJ6-73aaN4",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": 41.3618127280065,
+        "y": 426.40074822234874
+      },
+      "size": {
+        "width": 150,
+        "height": 100
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": -999
+    },
+    {
+      "id": "YcjFInaeQBknkTUfpgaYk",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": -708.6381872719935,
+        "y": 244.90074822234874
+      },
+      "size": {
+        "width": 150,
+        "height": 100
+      },
+      "style": {
+        "fontSize": 17,
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "HU7wZWiES3m3xl1-NYP6F",
+      "type": "title",
+      "label": "React Native",
+      "position": {
+        "x": -307.3175069304428,
+        "y": -38.879087788307686
+      },
+      "size": {
+        "width": 204,
+        "height": 68
+      },
+      "style": {
+        "fontSize": 28,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "uqyE79OItPOX33E5FoGel",
+      "type": "vertical",
+      "label": "nút dọc",
+      "position": {
+        "x": -215.3175069304428,
+        "y": -133.0992517776511
+      },
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.75,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "JfXwzkN29UGz17FYHHE3A",
+      "type": "topic",
+      "label": "Giới thiệu",
+      "position": {
+        "x": -329.8175069304428,
+        "y": 137.4393516042962
+      },
+      "size": {
+        "width": 137,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "React Native là một framework nguồn mở được Facebook phát triển cho phép nhà phát triển xây dựng các ứng dụng di động bằng JavaScript (hoặc TypeScript) và React. Nó cho phép xây dựng ứng dụng cho cả nền tảng iOS và Android bằng cách cung cấp một codebase chung, điều này làm giảm đáng kể thời gian và nỗ lực phát triển.",
+        "links": [
+          {
+            "title": "React Native",
+            "url": "https://reactnative.dev/",
+            "type": "official"
+          },
+          {
+            "title": "Bắt đầu với React Native",
+            "url": "https://reactnative.dev/docs/getting-started",
+            "type": "official"
+          },
+          {
+            "title": "Khóa học React Native dành cho người mới bắt đầu năm 2025 | Xây dựng một ứng dụng React Native Full Stack",
+            "url": "https://www.youtube.com/watch?v=f8Z9JyB2EIE",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cMfsRtvzvDZZJ0TqeUOxm",
+      "type": "subtopic",
+      "label": "React Native là gì?",
+      "position": {
+        "x": 40.8618127280065,
+        "y": 83.4393516042962
+      },
+      "size": {
+        "width": 303,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "React Native là một framework nguồn mở phổ biến được Facebook phát triển để xây dựng các ứng dụng di động bằng JavaScript (hoặc TypeScript) và React. Nó cho phép nhà phát triển xây dựng các ứng dụng di động native cho nền tảng iOS và Android bằng một codebase duy nhất, điều này làm tăng tốc quá trình phát triển mà không ảnh hưởng đến hiệu suất và khả năng sử dụng của ứng dụng. Với React Native, bạn viết các thành phần với JSX, một cú pháp kết hợp JavaScript và XML. Các thành phần này có thể ánh xạ tới các yếu tố giao diện người dùng native như views, text, images, v.v.",
+        "links": [
+          {
+            "title": "Bắt đầu với React Native",
+            "url": "https://reactnative.dev/docs/getting-started",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2rlmLn_yQQV-7DpX1qT98",
+      "type": "subtopic",
+      "label": "Tại sao lại sử dụng React Native?",
+      "position": {
+        "x": 40.8618127280065,
+        "y": 136.4393516042962
+      },
+      "size": {
+        "width": 303,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "React Native là một framework phổ biến để phát triển các ứng dụng di động gốc bằng JavaScript (hoặc TypeScript) và React, mang lại nhiều lợi ích hấp dẫn cho việc phát triển ứng dụng di động. Các lợi ích chính bao gồm **khả năng tái sử dụng mã**, cho phép nhà phát triển chia sẻ một phần đáng kể của mã nguồn giữa iOS và Android, điều này làm giảm thời gian phát triển và đơn giản hóa bảo trì. Nó tận dụng các **khái niệm React quen thuộc**, khiến nó dễ tiếp cận đối với những người đã có kinh nghiệm với ReactJS, vì nó áp dụng các nguyên tắc tương tự về thành phần và quản lý trạng thái. React Native cung cấp **hiệu suất gần như native** bằng cách tương tác trực tiếp với các thành phần native, tránh các phương tiện trung gian như WebView. Framework này được hưởng lợi từ **hệ sinh thái rộng lớn** và hỗ trợ cộng đồng, với nhiều thư viện và công cụ giúp tăng cường quá trình phát triển, được củng cố bởi đóng góp từ các công ty lớn như Facebook. Ngoài ra, **tái tải nóng** cho phép nhà phát triển xem các thay đổi mã theo thời gian thực trên thiết bị hoặc máy mô phỏng, điều này giúp đơn giản hóa quy trình phát triển. Cuối cùng, React Native có thể được **tích hợp vào các ứng dụng hiện có**, cho phép cải thiện linh hoạt các phần cụ thể của một ứng dụng.",
+        "links": [
+          {
+            "title": "Tại sao nên chọn React Native?",
+            "url": "https://www.geeksforgeeks.org/why-you-should-choose-react-native/",
+            "type": "article"
+          },
+          {
+            "title": "React Native: Đó là gì và tại sao nó được sử dụng?",
+            "url": "https://medium.com/@thinkwik/react-native-what-is-it-and-why-is-it-used-b132c3581df",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ODQ8zrHc2rsc8PN-APKvz",
+      "type": "subtopic",
+      "label": "Các lựa chọn thay thế React Native",
+      "position": {
+        "x": 40.8618127280065,
+        "y": 189.4393516042962
+      },
+      "size": {
+        "width": 303,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "React Native là một lựa chọn phổ biến cho việc phát triển ứng dụng đa nền tảng, nhưng có những tùy chọn khác có sẵn. Một số lựa chọn thay thế phổ biến cho React Native bao gồm Flutter, Ionic và Xamarin. Flutter là lựa chọn thay thế phổ biến nhất cho React Native.",
+        "links": [
+          {
+            "title": "Flutter",
+            "url": "https://flutter.dev/",
+            "type": "official"
+          },
+          {
+            "title": "Ionic",
+            "url": "https://ionicframework.com/",
+            "type": "official"
+          },
+          {
+            "title": "Xamarin",
+            "url": "https://dotnet.microsoft.com/apps/xamarin",
+            "type": "official"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về React",
+            "url": "https://app.daily.dev/tags/react?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cSXsu17F1Oy34Wp6J-N3C",
+      "type": "topic",
+      "label": "Tìm hiểu các Yêu cầu Tiền thiết lập",
+      "position": {
+        "x": -329.8175069304428,
+        "y": 190.4393516042962
+      },
+      "size": {
+        "width": 232,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Trước khi bắt đầu học React Native, bạn nên có kiến thức cơ bản về JavaScript và React. Bạn không cần phải thành thạo hoàn toàn các chủ đề này, nhưng bạn nên làm quen với chúng. Hãy tìm hiểu các khái niệm cơ bản của JavaScript (ví dụ: các chủ đề được đánh dấu cho người mới bắt đầu trong lộ trình JavaScript và tiếp tục với React Native.",
+        "links": [
+          {
+            "title": "Truy cập lộ trình JavaScript (Dedicated JavaScript Roadmap)",
+            "url": "https://dev-path-murex.vercel.app/roadmap/javascript",
+            "type": "roadmap"
+          },
+          {
+            "title": "Truy cập lộ trình React (Dedicated React Roadmap)",
+            "url": "https://dev-path-murex.vercel.app/roadmap/react",
+            "type": "roadmap"
+          },
+          {
+            "title": "React Native Cơ bản",
+            "url": "https://reactnative.dev/docs/getting-started",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1oUJXtHGQ29ZZU9sxwGo2",
+      "type": "subtopic",
+      "label": "Cơ sở JavaScript",
+      "position": {
+        "x": -709.6381872719935,
+        "y": 138.4393516042962
+      },
+      "size": {
+        "width": 227,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "JavaScript là một ngôn ngữ lập trình rất linh hoạt và đa dạng, được coi là công nghệ cốt lõi cho phát triển web. Điều này là do nó là ngôn ngữ duy nhất được hỗ trợ theo kiểu gốc bởi tất cả các trình duyệt, cho phép các nhà phát triển thêm hành vi động và tạo ra trải nghiệm người dùng phức tạp bằng ngôn ngữ này. Còn rất nhiều điều cần học trong JavaScript nhưng tôi khuyên bạn nên học những kiến thức cơ bản trước rồi mới học khi cần thiết. Bạn sẽ học được nhiều hơn khi xây dựng các dự án thực tế thay vì chỉ đọc về chúng.",
+        "links": [
+          {
+            "title": "Truy cập lộ trình JavaScript (Dedicated JavaScript Roadmap)",
+            "url": "https://dev-path-murex.vercel.app/roadmap/javascript",
+            "type": "roadmap"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về JavaScript",
+            "url": "https://app.daily.dev/tags/javascript?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "SnF3xtzBh-x4Z_qUQUg7H",
+      "type": "subtopic",
+      "label": "CSS Cơ bản",
+      "position": {
+        "x": -709.6381872719935,
+        "y": 191.4393516042962
+      },
+      "size": {
+        "width": 227,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "CSS là một ngôn ngữ kiểu dáng được sử dụng để mô tả giao diện và định dạng của một tài liệu viết bằng HTML hoặc XML. Nó chủ yếu được sử dụng để tạo kiểu cho các trang web và giao diện người dùng viết bằng HTML và XHTML. React Native sử dụng CSS để tạo kiểu cho các thành phần của nó. Bạn có thể học một số kiến thức cơ bản về CSS để bắt đầu với React Native và tìm hiểu thêm khi cần thiết.",
+        "links": [
+          {
+            "title": "CSS - W3.org",
+            "url": "https://www.w3.org/Style/CSS/Overview.en.html",
+            "type": "official"
+          },
+          {
+            "title": "CSS - MDN",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/CSS",
+            "type": "official"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về CSS",
+            "url": "https://app.daily.dev/tags/css?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "k9_hVOBd9ZmC4HLuAf46v",
+      "type": "subtopic",
+      "label": "Thành phần",
+      "position": {
+        "x": -599.1381872719935,
+        "y": 296.43935160429623
+      },
+      "size": {
+        "width": 227,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Các thành phần React là các khối xây dựng cơ bản của giao diện người dùng (UI) trong một ứng dụng React. Chúng được sử dụng để chia nhỏ UI thành các đoạn mã có thể tái sử dụng, cô lập và quản lý dễ dàng. Các thành phần xử lý việc hiển thị UI và quản lý logic cũng như hành vi.",
+        "links": [
+          {
+            "title": "Thành phần",
+            "url": "https://react.dev/learn/your-first-component",
+            "type": "official"
+          },
+          {
+            "title": "Props",
+            "url": "https://react.dev/learn/passing-props-to-a-component",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "V7r1Hqk9IXTfjkjAg7-BT",
+      "type": "subtopic",
+      "label": "Trạng thái",
+      "position": {
+        "x": -693.1381872719935,
+        "y": 349.43935160429623
+      },
+      "size": {
+        "width": 80,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Trạng thái là một đối tượng lưu trữ dữ liệu được quản lý trong một thành phần React. Nó cho phép các thành phần trở nên động và tương tác bằng cách theo dõi các thay đổi của dữ liệu. Khi trạng thái của một thành phần thay đổi, React sẽ tái tạo lại (re-render) thành phần và cập nhật DOM tương ứng.",
+        "links": [
+          {
+            "title": "Trạng thái thành phần",
+            "url": "https://react.dev/learn/managing-state",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "s5YKenJY2Xv_PZBSxegEm",
+      "type": "subtopic",
+      "label": "JSX",
+      "position": {
+        "x": -693.1381872719935,
+        "y": 296.43935160429623
+      },
+      "size": {
+        "width": 80,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "JSX là một mở rộng cú pháp cho JavaScript, cho phép bạn viết mã giống như HTML trong mã JavaScript của mình. Nó được phát triển để sử dụng với React và đã trở thành một phần không thể thiếu khi làm việc với React.",
+        "links": [
+          {
+            "title": "Thành phần",
+            "url": "https://react.dev/learn/your-first-component",
+            "type": "official"
+          },
+          {
+            "title": "Viết Markup với JSX",
+            "url": "https://react.dev/learn/writing-markup-with-jsx",
+            "type": "official"
+          },
+          {
+            "title": "JavaScript trong JSX với dấu ngoặc nhọn",
+            "url": "https://react.dev/learn/javascript-in-jsx-with-curly-braces",
+            "type": "official"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về JSX",
+            "url": "https://app.daily.dev/tags/jsx?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "0gH7vI_Hy7s9hO2TF6hR3",
+      "type": "subtopic",
+      "label": "Props",
+      "position": {
+        "x": -599.1381872719935,
+        "y": 349.43935160429623
+      },
+      "size": {
+        "width": 80,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Trong React, **props** là viết tắt của _properties_ (thuộc tính) và được sử dụng để truyền dữ liệu từ thành phần cha đến thành phần con. Chúng tương tự như đối số hàm và giúp các thành phần có thể tái sử dụng và dễ bảo trì.",
+        "links": [
+          {
+            "title": "Thành phần",
+            "url": "https://react.dev/learn/your-first-component",
+            "type": "official"
+          },
+          {
+            "title": "Props",
+            "url": "https://react.dev/learn/passing-props-to-a-component",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "XDWpxBbW4vfJBO0jLtOZ5",
+      "type": "label",
+      "label": "React Cơ bản",
+      "position": {
+        "x": -656.1381872719935,
+        "y": 252.90074822234874
+      },
+      "size": {
+        "width": 118,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "lNmddXrT8IHVtWobh3-oq",
+      "type": "topic",
+      "label": "Cài đặt Môi trường",
+      "position": {
+        "x": -329.8175069304428,
+        "y": 348.90074822234874
+      },
+      "size": {
+        "width": 191,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Trong React Native, thiết lập môi trường phát triển là một bước quan trọng. Quá trình thiết lập môi trường bao gồm cài đặt và cấu hình các công cụ và gói khác nhau cần thiết để phát triển, xây dựng và khởi chạy ứng dụng React Native. Có hai phương pháp chính khi thiết lập môi trường phát triển React Native của bạn: Expo CLI -------- Expo CLI là một công cụ dòng lệnh được xây dựng để tạo và quản lý dự án React Native dễ dàng. Nó đơn giản hóa quá trình phát triển của bạn bằng cách cung cấp toàn bộ môi trường phát triển, bao gồm cả việc xây dựng và triển khai ứng dụng của bạn cho cả iOS và Android nền tảng. React Native CLI ---------------- React Native CLI là giao diện dòng lệnh chính thức để xây dựng các ứng dụng di động native bằng React Native. Phương pháp này yêu cầu bạn phải thiết lập thủ công môi trường phát triển native và các công cụ cần thiết để phát triển ứng dụng iOS và Android.",
+        "links": [
+          {
+            "title": "React Native CLI",
+            "url": "https://reactnative.dev/docs/environment-setup?guide=native",
+            "type": "official"
+          },
+          {
+            "title": "Expo CLI Quickstart",
+            "url": "https://docs.expo.dev/get-started/create-a-project",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "yW7nDDJbjmm8XKJI0hq3Q",
+      "type": "subtopic",
+      "label": "Expo",
+      "position": {
+        "x": 41.3618127280065,
+        "y": 402.43935160429623
+      },
+      "size": {
+        "width": 303,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center",
+        "colorType": "c"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Expo là một framework và nền tảng mã nguồn mở được xây dựng dựa trên React Native, được thiết kế để đơn giản hóa quy trình phát triển cho các ứng dụng di động đa nền tảng. Nó cung cấp một quy trình làm việc được quản lý bao gồm một tập hợp toàn diện các công cụ, API và dịch vụ để xây dựng, kiểm thử và triển khai ứng dụng cho iOS, Android và web—tất cả đều sử dụng JavaScript hoặc TypeScript. Expo đơn giản hóa phát triển trên thiết bị di động bằng cách xử lý phần lớn cấu hình native bên trong. Các nhà phát triển có thể sử dụng ứng dụng **Expo Go** để xem trước và kiểm thử các dự án của họ ngay lập tức trên các thiết bị thực, trong khi **Expo CLI** cung cấp các lệnh mạnh mẽ để tạo, chạy và quản lý ứng dụng. **Expo SDK** cung cấp các module được xây dựng sẵn cho các tính năng như quyền truy cập camera, thông báo đẩy, định vị địa lý và nhiều hơn nữa, cho phép bạn tập trung vào logic ứng dụng thay vì tích hợp native. Đối với quy trình làm việc sản xuất, **EAS (Expo Application Services)** hỗ trợ xây dựng tùy chỉnh, cập nhật qua không dây và nộp ứng dụng lên cửa hàng ứng dụng.",
+        "links": [
+          {
+            "title": "Tài liệu Expo",
+            "url": "https://docs.expo.dev/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "uLH9eo2G09wGO80XtFI5x",
+      "type": "subtopic",
+      "label": "create-expo-app",
+      "position": {
+        "x": 53.77103558174599,
+        "y": 461.43935160429623
+      },
+      "size": {
+        "width": 188,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`create-expo-app` là một công cụ dòng lệnh tạo ra một dự án React Native hoạt động ngay lập tức với Expo. Đây là cách dễ nhất để bắt đầu xây dựng một ứng dụng React Native mới.",
+        "links": [
+          {
+            "title": "Tạo Ứng Dụng Expo",
+            "url": "https://docs.expo.dev/tutorial/create-your-first-app/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "9eOwhh2k59nvH-ztuDNjg",
+      "type": "subtopic",
+      "label": "Expo Snack",
+      "position": {
+        "x": 53.77103558174599,
+        "y": 514.4393516042962
+      },
+      "size": {
+        "width": 188,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Expo Snack là một môi trường chơi thử trực tuyến và phát triển để tạo và kiểm tra các dự án React Native. Với Snack, bạn có thể dễ dàng chỉnh sửa và xem trước các thay đổi mã của mình ngay trong trình duyệt hoặc trên thiết bị di động bằng ứng dụng Expo Go. Nó cung cấp một cách nhanh chóng, dễ dàng và thuận tiện để phát triển, kiểm thử và chia sẻ các dự án mà không cần thiết lập môi trường phát triển cục bộ.",
+        "links": [
+          {
+            "title": "Expo Snack",
+            "url": "https://snack.expo.dev/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "zzOyoDcAQYkNNv07TIKeZ",
+      "type": "subtopic",
+      "label": "Expo Tradeoffs",
+      "position": {
+        "x": 53.77103558174599,
+        "y": 567.4393516042962
+      },
+      "size": {
+        "width": 188,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Expo là một công cụ mạnh mẽ giúp đơn giản hóa quy trình phát triển React Native, nhưng nó cũng có một số đánh đổi cần xem xét. Một hạn chế là khả năng sử dụng các module native; mặc dù Expo cung cấp một tập hợp các module được xây dựng sẵn, nhưng nó có thể không bao phủ tất cả các chức năng cần thiết cho các ứng dụng cụ thể, đòi hỏi nhà phát triển phải eject khỏi quy trình làm việc được quản lý để có các giải pháp tùy chỉnh. Hiệu suất cũng có thể là một vấn đề, vì lớp thêm Expo có thể dẫn đến các ứng dụng chậm hơn, đặc biệt đối với các dự án lớn, trong khi quy trình bare cung cấp nhiều quyền kiểm soát và có khả năng mang lại hiệu suất tốt hơn. Ngoài ra, các ứng dụng Expo có xu hướng có kích thước lớn hơn do bao gồm toàn bộ SDK Expo, điều này có thể không hiệu quả so với các ứng dụng không sử dụng Expo chỉ bao gồm các module cần thiết. Các nhà phát triển phụ thuộc vào Expo cũng phải chờ chu kỳ phát hành để truy cập các tính năng React Native mới hoặc sửa lỗi.",
+        "links": [
+          {
+            "title": "Nên sử dụng Expo hay Bare React Native?",
+            "url": "https://medium.com/@andrew.chester/should-you-use-expo-or-bare-react-native-8dd400f4a468/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "bxWLf0RDAl9Zaczkon9Rl",
+      "type": "subtopic",
+      "label": "React Native CLI",
+      "position": {
+        "x": 41.3618127280065,
+        "y": 295.90074822234874
+      },
+      "size": {
+        "width": 303,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "React Native CLI là giao diện dòng lệnh chính thức để xây dựng ứng dụng di động native bằng React Native. Phương pháp này yêu cầu bạn phải thiết lập thủ công môi trường phát triển và các công cụ cần thiết cho iOS và Android app development.",
+        "links": [
+          {
+            "title": "React Native CLI",
+            "url": "https://reactnative.dev/docs/environment-setup?guide=native",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "VhSEH_RoWFt1z2lial7xZ",
+      "type": "subtopic",
+      "label": "Metro Bundler",
+      "position": {
+        "x": 41.3618127280065,
+        "y": 348.90074822234874
+      },
+      "size": {
+        "width": 303,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Metro Bundler là bundler mặc định cho các ứng dụng React Native. Nó là một bundler JavaScript lấy tất cả mã và các phụ thuộc của ứng dụng bạn và đóng gói chúng lại thành một tệp JavaScript duy nhất hoặc nhiều tệp (dựa trên nền tảng).",
+        "links": [
+          {
+            "title": "Metro Bundler",
+            "url": "https://facebook.github.io/metro/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "T4AhL9Zls2iNZMituGdtl",
+      "type": "topic",
+      "label": "Luồng Phát triển (Workflow)",
+      "position": {
+        "x": -329.8175069304428,
+        "y": 518.4393516042962
+      },
+      "size": {
+        "width": 220,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "React Native có hướng dẫn khá tốt để bắt đầu quy trình phát triển nghiệp vụ.",
+        "links": [
+          {
+            "title": "Chạy trên thiết bị",
+            "url": "https://reactnative.dev/docs/running-on-device",
+            "type": "official"
+          },
+          {
+            "title": "Tích Hợp và Triển Khai Liên Tục cho Ứng Dụng React Native",
+            "url": "https://dev.to/medaimane/continuous-integration-and-deployment-for-react-native-apps-streamlining-development-workflow-4i04",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "KyKMZ8Aa5XUAIWelGTiSt",
+      "type": "subtopic",
+      "label": "Chạy trên thiết bị",
+      "position": {
+        "x": -709.6381872719935,
+        "y": 518.4393516042962
+      },
+      "size": {
+        "width": 191,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Luôn là một ý tưởng tốt khi bạn kiểm thử ứng dụng của mình trên thiết bị thực tế trước khi phát hành cho người dùng.",
+        "links": [
+          {
+            "title": "Chạy trên thiết bị",
+            "url": "https://reactnative.dev/docs/running-on-device",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "fz-xz5Nbk5DHHcTUb9cBS",
+      "type": "label",
+      "label": "Gỡ Lỗi",
+      "position": {
+        "x": -640.1381872719935,
+        "y": 577.9007482223487
+      },
+      "size": {
+        "width": 100,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "tOt_vvmnBtOUbgokmVa5P",
+      "type": "subtopic",
+      "label": "Menu nhà phát triển trong ứng dụng",
+      "position": {
+        "x": -697.6381872719935,
+        "y": 622.4393516042962
+      },
+      "size": {
+        "width": 233,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "React Native cung cấp menu nhà phát triển trong ứng dụng, mang đến nhiều tùy chọn gỡ lỗi. Bạn có thể truy cập Menu Nhà Phát triển bằng cách lắc thiết bị hoặc thông qua phím tắt bàn phím:\n\n*   Android: `Cmd + M` hoặc `Ctrl + M`\n*   iOS: `Cmd + D` hoặc `Ctrl + D`",
+        "links": [
+          {
+            "title": "Gỡ Lỗi",
+            "url": "https://reactnative.dev/docs/debugging",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "wWwaEdnvBsvj6jD9LJ4Jj",
+      "type": "subtopic",
+      "label": "Tích hợp Cập nhật Nhanh",
+      "position": {
+        "x": -697.6381872719935,
+        "y": 675.4393516042962
+      },
+      "size": {
+        "width": 233,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Fast Refresh là một tính năng React Native cho phép bạn nhận được phản hồi gần như tức thì khi thực hiện thay đổi trong mã của mình. Nó đạt được điều này bằng cách tải lại chỉ phần của ứng dụng đã thay đổi, mà không mất trạng thái hiện tại. Điều này làm cho quy trình phát triển trơn tru hơn vì bạn không cần phải chờ toàn bộ ứng dụng xây dựng lại sau mỗi thay đổi.",
+        "links": [
+          {
+            "title": "Fast Refresh",
+            "url": "https://reactnative.dev/docs/fast-refresh",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Tz-bRjQVkZedphelhAlWM",
+      "type": "subtopic",
+      "label": "Ghi log",
+      "position": {
+        "x": -697.6381872719935,
+        "y": 728.4393516042962
+      },
+      "size": {
+        "width": 233,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "LogBox là một tính năng mới được thêm vào React Native để cải thiện cách hiển thị và quản lý nhật ký (logs) trong môi trường phát triển của bạn. Nó cung cấp khả năng trực quan hóa và tổ chức tốt hơn cho các logs, cảnh báo và lỗi, giúp các nhà phát triển dễ dàng hơn trong việc giải quyết các vấn đề trong mã nguồn của họ.",
+        "links": [
+          {
+            "title": "Ghi Log Gỡ Lỗi LogBox",
+            "url": "https://reactnative.dev/docs/debugging#logbox",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Dq490IqEJXoFZRnBFJI8N",
+      "type": "subtopic",
+      "label": "Sourcemaps",
+      "position": {
+        "x": -585.6381872719935,
+        "y": 728.4393516042962
+      },
+      "size": {
+        "width": 233,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Sourcemaps là các file ánh xạ mã nguồn gốc của một dự án với phiên bản đã được tối ưu hóa hoặc chuyển đổi (transpiled). Điều này đặc biệt hữu ích trong các môi trường như React Native, nơi mã có thể bị chuyển đổi trước khi thực thi trên thiết bị/emulator. Sourcemaps giúp nhà phát triển gỡ lỗi mã dễ dàng hơn bằng cách ánh xạ các lỗi trong mã đã được chuyển đổi về vị trí gốc của chúng trong mã nguồn. Có nhiều loại sourcemap khác nhau cung cấp các mức độ chi tiết khác nhau cho quá trình gỡ lỗi:\n\n*   `eval`: Sử dụng hàm `eval` để tạo sourcemaps. Tốc độ nhanh hơn nhưng cung cấp ít thông tin chi tiết hơn so với các tùy chọn khác.\n*   `cheap-source-map`: Bản ánh xạ dòng-đến-dòng đơn giản mà không có thông tin cột. Nhanh hơn `source-map` nhưng kém chính xác hơn.\n*   `cheap-module-source-map`: Tương tự như `cheap-source-map` nhưng hỗ trợ module.\n*   `source-map`: Bản ánh xạ nguồn đầy đủ với cả thông tin dòng và cột. Chính xác, mặc dù chậm hơn so với các tùy chọn khác.\n\nSau khi tạo sourcemaps, bạn có thể sử dụng chúng để gỡ lỗi lỗi hiệu quả hơn, vì chúng sẽ tham chiếu đến vị trí gốc trong mã nguồn. Các công cụ nhà phát triển của trình duyệt như Google Chrome có hỗ trợ tích hợp cho sourcemaps, cung cấp khả năng điều hướng và gỡ lỗi lỗi dễ dàng.",
+        "links": [
+          {
+            "title": "Bản đồ đường dẫn (Source Maps)",
+            "url": "https://reactnative.dev/docs/debugging-release-builds#enabling-source-maps",
+            "type": "official"
+          },
+          {
+            "title": "Bản đồ nguồn (MDN)",
+            "url": "https://developer.mozilla.org/en-US/docs/Tools/Debugger/How_to/Use_a_source_map",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "HHx3VSfV7xf6RqACrxjBf",
+      "type": "subtopic",
+      "label": "Công cụ phát triển",
+      "position": {
+        "x": -697.6381872719935,
+        "y": 781.4393516042962
+      },
+      "size": {
+        "width": 233,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "React Native DevTools là các công cụ thiết yếu giúp các nhà phát triển gỡ lỗi và tối ưu hóa ứng dụng của họ trong quá trình phát triển.",
+        "links": [
+          {
+            "title": "Công cụ phát triển",
+            "url": "https://reactnative.dev/docs/react-devtools",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "fnujIq6QAFB6bmTisuZ3T",
+      "type": "topic",
+      "label": "Các Thành Phần Chính",
+      "position": {
+        "x": -329.8175069304428,
+        "y": 896.4393516042962
+      },
+      "size": {
+        "width": 185,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Các thành phần chính là các khối xây dựng cơ bản được cung cấp bởi React Native để tạo giao diện người dùng cho ứng dụng di động. Chúng không phụ thuộc vào nền tảng, có nghĩa là chúng hoạt động trên cả iOS và Android. Một số thành phần chính phổ biến bao gồm: *   `View` là một thành phần cơ bản để xây dựng giao diện người dùng. Nó tương đương với `div` trong HTML và có thể được sử dụng như một container cho các thành phần khác. *   `Text` được sử dụng để hiển thị nội dung văn bản trong ứng dụng của bạn. Nó giống như các yếu tố `p` hoặc `span` trong HTML. *   `TextInput` là trường nhập liệu cơ bản cho phép người dùng nhập văn bản vào ứng dụng của họ. Nó giống như phần tử `input` trong HTML. *   `TouchableOpacity` là một lớp bao để làm cho các thành phần như `View` và `Text` phản hồi chính xác với các sự kiện chạm. Nó cung cấp phản hồi bằng cách giảm độ mờ của thành phần được bao bọc khi nhấn. *   `ScrollView` là một container có thể cuộn, cho phép người dùng cuộn qua nội dung của nó. Nó hữu ích khi bạn có nội dung vượt quá kích thước màn hình khả dụng. *   `FlatList` được sử dụng để hiển thị danh sách các mục bằng phương pháp hiệu suất. Nó chỉ hiển thị các mục hiện đang hiển thị trên màn hình và loại bỏ những cái khác để tiết kiệm bộ nhớ.",
+        "links": [
+          {
+            "title": "Các Thành Phần Chính và API",
+            "url": "https://reactnative.dev/docs/components-and-apis",
+            "type": "official"
+          },
+          {
+            "title": "Các Thành Phần Chính và Các Thành Phần Native",
+            "url": "https://reactnative.dev/docs/intro-react-native-components",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "OFhyYyxtrCBy_UUb5YBv5",
+      "type": "subtopic",
+      "label": "Text",
+      "position": {
+        "x": 39.8618127280065,
+        "y": 790.9007482223487
+      },
+      "size": {
+        "width": 186,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`Text` là một thành phần cơ bản trong React Native được sử dụng để hiển thị nội dung văn bản trên màn hình. Mặc dù nó có một số thuộc tính kiểu dáng cơ bản, bạn thường sẽ nhúng nó bên trong các thành phần khác (ví dụ: `View`) để tạo ra giao diện người dùng phức tạp hơn.",
+        "links": [
+          {
+            "title": "Text",
+            "url": "https://reactnative.dev/docs/text",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Frz1RYp3y9OwRb-3t2e85",
+      "type": "subtopic",
+      "label": "Text Input",
+      "position": {
+        "x": 185.8618127280065,
+        "y": 790.4393516042962
+      },
+      "size": {
+        "width": 186,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`TextInput` là một thành phần cốt lõi của React Native cho phép người dùng nhập văn bản. Nó thường được sử dụng để thu thập dữ liệu người dùng, chẳng hạn như email hoặc mật khẩu. Bạn có thể tùy chỉnh giao diện của `TextInput` bằng cách sử dụng các thuộc tính khác nhau như `placeholder`, `multiline`, `maxLength` và nhiều hơn nữa.",
+        "links": [
+          {
+            "title": "Text Input",
+            "url": "https://reactnative.dev/docs/textinput",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "kkH9H9Qh1FD7sLItoWw69",
+      "type": "subtopic",
+      "label": "Nút (Button)",
+      "position": {
+        "x": 39.8618127280065,
+        "y": 843.9007482223487
+      },
+      "size": {
+        "width": 186,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Một `Button` là một thành phần tích hợp sẵn của React Native được sử dụng để tạo các nút có thể nhấp. Đây là một thành phần đơn giản, có thể tùy chỉnh và dễ sử dụng, ghi nhận các thao tác chạm và kích hoạt sự kiện `onPress` khi nhấn.",
+        "links": [
+          {
+            "title": "Nút (Button)",
+            "url": "https://reactnative.dev/docs/button",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E7N8tSg2amZW-vc-X46JU",
+      "type": "subtopic",
+      "label": "Hình ảnh",
+      "position": {
+        "x": 185.8618127280065,
+        "y": 843.4393516042962
+      },
+      "size": {
+        "width": 186,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`Image` là thành phần được sử dụng để hiển thị hình ảnh trong một ứng dụng React Native. Nó cho phép bạn tải và hiển thị hình ảnh cục bộ cũng như hình ảnh từ xa, cung cấp các thuộc tính và phương thức cần thiết để xử lý và tùy chỉnh hình ảnh tốt hơn.",
+        "links": [
+          {
+            "title": "Hình ảnh",
+            "url": "https://reactnative.dev/docs/image",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "GFGhnx5xUer2DdRI-SO4D",
+      "type": "subtopic",
+      "label": "ImageBackground",
+      "position": {
+        "x": 39.8618127280065,
+        "y": 896.9007482223487
+      },
+      "size": {
+        "width": 186,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`ImageBackground` là một thành phần cốt lõi của React Native cho phép bạn hiển thị hình ảnh làm nền, đồng thời vẫn có thể đặt nội dung khác bên trong thành phần. Điều này giúp tạo ra bố cục đẹp mắt với hình ảnh và văn bản hoặc các nội dung khác ở trên.",
+        "links": [
+          {
+            "title": "Nền hình ảnh",
+            "url": "https://reactnative.dev/docs/imagebackground",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ouNTekf4VpZv-Vja8_bfM",
+      "type": "subtopic",
+      "label": "Switch",
+      "position": {
+        "x": 230.8618127280065,
+        "y": 896.4393516042962
+      },
+      "size": {
+        "width": 186,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Một `Switch` là một thành phần cốt lõi trong React Native được sử dụng để triển khai một đầu vào \"bật/tắt\" hoặc \"on-off\". Nó cung cấp giao diện người dùng cho người dùng chuyển đổi giữa hai trạng thái khác nhau, thường là true hoặc false. Trường hợp sử dụng chính là bật hoặc tắt một tính năng hoặc cài đặt trong ứng dụng. Thành phần `Switch` có thuộc tính boolean `value` (true cho on, false cho off) và trình xử lý sự kiện `onValueChange`, được kích hoạt mỗi khi người dùng chuyển đổi công tắc.",
+        "links": [
+          {
+            "title": "Switch",
+            "url": "https://reactnative.dev/docs/switch",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "QOOZs9qtz49agfZwi6k1B",
+      "type": "subtopic",
+      "label": "StatusBar",
+      "position": {
+        "x": 230.8618127280065,
+        "y": 949.9007482223487
+      },
+      "size": {
+        "width": 186,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`StatusBar` là thành phần được sử dụng để kiểm soát giao diện của thanh trạng thái ở trên cùng của màn hình. Nó có thể hơi bất thường vì, khác với các thành phần React Native khác, nó không hiển thị nội dung trực quan nào. Thay vào đó, nó đặt một số thuộc tính gốc có thể giúp tùy chỉnh giao diện thanh trạng thái cho Android, iOS hoặc các nền tảng khác.",
+        "links": [
+          {
+            "title": "StatusBar",
+            "url": "https://reactnative.dev/docs/statusbar",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hHFR59RrdMIWxcQe72qCs",
+      "type": "subtopic",
+      "label": "ActivityIndicator",
+      "position": {
+        "x": 39.8618127280065,
+        "y": 949.9007482223487
+      },
+      "size": {
+        "width": 186,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`ActivityIndicator` là một thành phần cốt lõi trong React Native, cung cấp một chỉ báo trực quan đơn giản về hoạt động hoặc trạng thái tải đang diễn ra trong ứng dụng của bạn. Nó hiển thị một hình ảnh xoay, mang lại phản hồi cho người dùng rằng có điều gì đó đang xảy ra ở chế độ nền. Thành phần này đặc biệt hữu ích khi lấy dữ liệu từ các nguồn bên ngoài, chẳng hạn như máy chủ, hoặc khi thực hiện các thao tác tốn thời gian.",
+        "links": [
+          {
+            "title": "Chỉ báo hoạt động",
+            "url": "https://reactnative.dev/docs/activityindicator",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "V34mZCkpoT49o-74XoATS",
+      "type": "subtopic",
+      "label": "Hộp thoại",
+      "position": {
+        "x": 39.8618127280065,
+        "y": 1002.9007482223487
+      },
+      "size": {
+        "width": 186,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Một `Modal` là một thành phần hiển thị nội dung trên màn hình hiện tại, tạo ra một lớp phủ có thể được sử dụng cho nhiều mục đích khác nhau, chẳng hạn như hiển thị thông tin bổ sung, thông báo xác nhận hoặc menu lựa chọn.",
+        "links": [
+          {
+            "title": "Hộp thoại",
+            "url": "https://reactnative.dev/docs/modal",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4BgVq-cZYEXgqktvlNnet",
+      "type": "subtopic",
+      "label": "Pressable",
+      "position": {
+        "x": 195.8618127280065,
+        "y": 1002.9007482223487
+      },
+      "size": {
+        "width": 186,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Pressable là một thành phần cốt lõi trong React Native, giúp bất kỳ view nào phản hồi chính xác với các sự kiện chạm hoặc nhấn. Nó cung cấp nhiều trình xử lý sự kiện khác nhau để quản lý tương tác của người dùng, chẳng hạn như onPress, onPressIn, onPressOut và onLongPress. Với Pressable, bạn có thể tạo các nút tùy chỉnh, thẻ hoặc bất kỳ thành phần có thể chạm nào trong ứng dụng của mình.",
+        "links": [
+          {
+            "title": "Pressable",
+            "url": "https://reactnative.dev/docs/pressable",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "GrFL32pZ_eOmdJRzSlH8b",
+      "type": "subtopic",
+      "label": "Sử dụng View",
+      "position": {
+        "x": -166.22896441825404,
+        "y": 712.9007482223487
+      },
+      "size": {
+        "width": 230,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center",
+        "colorType": "c"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "UqCpoPzYio3ng3RFlbvZ7",
+      "type": "subtopic",
+      "label": "SafeAreaView",
+      "position": {
+        "x": 42.8618127280065,
+        "y": 659.9007482223487
+      },
+      "size": {
+        "width": 230,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`SafeAreaView` là một thành phần cốt lõi của React Native giúp điều chỉnh giao diện người dùng và bố cục của ứng dụng để phù hợp với các rãnh, cạnh cong hoặc chỉ báo nhà trên các thiết bị iOS. Nó đặc biệt hữu ích cho iPhone X và các mẫu iPhone mới hơn, vì nó đảm bảo rằng nội dung được hiển thị trong phần nhìn thấy của màn hình. Lưu ý rằng `SafeAreaView` chỉ hoạt động trên các thiết bị iOS và không có tác dụng gì trên Android. Để xử lý những trường hợp này, bạn có thể sử dụng các kiểu hoặc thư viện cụ thể theo nền tảng như `react-native-safe-area-context` cung cấp nhiều quyền kiểm soát và tùy chỉnh hơn cho các nền tảng bổ sung.",
+        "links": [
+          {
+            "title": "SafeAreaView",
+            "url": "https://reactnative.dev/docs/safeareaview",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "8bn1PFd9h0ek6_T-cl1cS",
+      "type": "subtopic",
+      "label": "KeyboardAvoidingView",
+      "position": {
+        "x": 42.3618127280065,
+        "y": 712.9007482223487
+      },
+      "size": {
+        "width": 230,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`KeyboardAvoidingView` là một thành phần tích hợp sẵn của React Native tự động điều chỉnh vị trí của các thành phần con khi bàn phím mở, ngăn chúng bị che khuất bởi bàn phím trên màn hình. Đây là một thành phần hữu ích, đặc biệt đối với các biểu mẫu và trường nhập liệu nơi người dùng cần nhìn thấy văn bản họ đang gõ.",
+        "links": [
+          {
+            "title": "KeyboardAvoidingView",
+            "url": "https://reactnative.dev/docs/keyboardavoidingview",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "x-OZCZcX6uhN3Yr5BAATn",
+      "type": "subtopic",
+      "label": "Danh sách",
+      "position": {
+        "x": -560.6381872719935,
+        "y": 896.4393516042962
+      },
+      "size": {
+        "width": 230,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center",
+        "colorType": "h"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "yN283SRWoALOEZh9iTn-L",
+      "type": "subtopic",
+      "label": "ScrollView",
+      "position": {
+        "x": -709.6381872719935,
+        "y": 999.4393516042962
+      },
+      "size": {
+        "width": 181,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center",
+        "colorType": "c"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Trong React Native, thành phần ScrollView là một container cuộn đơn giản được sử dụng để cung cấp khả năng cuộn cho các thành phần con của nó. Nó hữu ích khi bạn cần hiển thị nội dung có thể cuộn lớn hơn kích thước màn hình, chẳng hạn như danh sách, hình ảnh hoặc văn bản. Một `ScrollView` phải có chiều cao giới hạn để hoạt động đúng cách.",
+        "links": [
+          {
+            "title": "ScrollView",
+            "url": "https://reactnative.dev/docs/ScrollView",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "h3ypxGxeHDCTxURHg6D2d",
+      "type": "subtopic",
+      "label": "Danh sách có thể (ListView)",
+      "position": {
+        "x": -709.6381872719935,
+        "y": 1052.4393516042962
+      },
+      "size": {
+        "width": 181,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center",
+        "colorType": "h"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "CYqLNGyOe9f9hVhbyUnTX",
+      "type": "subtopic",
+      "label": "FlatList",
+      "position": {
+        "x": -699,
+        "y": 1111.4393516042962
+      },
+      "size": {
+        "width": 181,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center",
+        "colorType": "c"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`FlatList` là một thành phần cốt lõi của `React Native` hiển thị danh sách cuộn có dữ liệu thay đổi nhưng có cấu trúc tương tự. Đó là một thành phần danh sách hiệu quả tận dụng một cửa sổ cuộn giới hạn, giảm thiểu tác động bộ nhớ và tạo ra trải nghiệm cuộn mượt mà. Ngoài ra, `FlatList` hỗ trợ Headers, Footers, Pull-to-refresh và Horizontal scrolling, cùng với nhiều tính năng khác.",
+        "links": [
+          {
+            "title": "FlatList",
+            "url": "https://reactnative.dev/docs/flatlist",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "gLJMD9X7chy8OxdALht8g",
+      "type": "subtopic",
+      "label": "SectionList",
+      "position": {
+        "x": -589.1381872719935,
+        "y": 1111.4393516042962
+      },
+      "size": {
+        "width": 181,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center",
+        "colorType": "c"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`SectionList` là một thành phần được sử dụng để hiển thị các phân đoạn và tiêu đề trong một danh sách cuộn. Nó giúp quản lý và tối ưu hóa một danh sách lớn các mục được chia theo các danh mục. Đây là một trong các thành phần `ListView` được cung cấp bởi React Native cùng với `FlatList`.",
+        "links": [
+          {
+            "title": "SectionList",
+            "url": "https://reactnative.dev/docs/sectionlist",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "m8Nu71Y61Ha_fLxdtWTkn",
+      "type": "subtopic",
+      "label": "RefreshControl",
+      "position": {
+        "x": -709.6381872719935,
+        "y": 1178.9007482223487
+      },
+      "size": {
+        "width": 181,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center",
+        "colorType": "c"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`RefreshControl` là một thành phần trong React Native được sử dụng để cung cấp chức năng kéo để làm mới cho các thành phần cuộn như `ScrollView`, `ListView` và `FlatList`.",
+        "links": [
+          {
+            "title": "Bộ điều khiển làm mới (Refresh Control)",
+            "url": "https://reactnative.dev/docs/refreshcontrol",
+            "type": "official"
+          },
+          {
+            "title": "ScrollView",
+            "url": "https://reactnative.dev/docs/ScrollView",
+            "type": "official"
+          },
+          {
+            "title": "FlatList",
+            "url": "https://reactnative.dev/docs/FlatList",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "HiUbRfOv8OttFd85pDUHN",
+      "type": "topic",
+      "label": "Viết mã cụ thể cho nền tảng",
+      "position": {
+        "x": -402.3175069304428,
+        "y": 1114.4393516042962
+      },
+      "size": {
+        "width": 279,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Trong React Native, quản lý mã cụ thể nền tảng cho iOS và Android là rất quan trọng để giải quyết sự khác biệt về hành vi và giao diện của ứng dụng. Điều này có thể đạt được bằng hai cách chính: sử dụng mô-đun `Platform`, cho phép nhà phát triển phát hiện nền tảng hiện tại và áp dụng các kiểu hoặc logic điều kiện tương ứng, như đã minh họa bằng cách sử dụng `Platform.select` để đặt màu nền khác nhau cho iOS và Android; và sử dụng các phần mở rộng tệp như `.ios.js` và `.android.js`, cho phép React Native tự động tải tệp thích hợp dựa trên nền tảng. Ví dụ, nếu bạn có `Header.ios.js` và `Header.android.js`, việc nhập thành phần `Header` sẽ tự động tham chiếu đến tệp chính xác cho nền tảng đang chạy, giúp quá trình phát triển được thông lệ.",
+        "links": [
+          {
+            "title": "Mã Nền tảng Cụ thể",
+            "url": "https://reactnative.dev/docs/platform-specific-code",
+            "type": "official"
+          },
+          {
+            "title": "Mở rộng ứng dụng",
+            "url": "https://reactnative.dev/docs/app-extensions",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "KZIrRSYq_I-YzpFaYLuWi",
+      "type": "subtopic",
+      "label": "Mô-đun Nền tảng",
+      "position": {
+        "x": -402.3175069304428,
+        "y": 1203.9007482223487
+      },
+      "size": {
+        "width": 284,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Mô-đun Platform, như tên gọi cho thấy, là một phần của React Native có chức năng phát hiện nền tảng mà ứng dụng đang chạy. Điều này cho phép bạn có mã nguồn cụ thể cho Android hoặc iOS, cho phép bạn tính đến sự khác biệt về thiết kế hoặc hành vi cụ thể trên từng nền tảng. Để sử dụng mô-đun Platform, bạn cần import nó và sau đó truy cập thuộc tính `OS`. Thuộc tính này trả về một chuỗi, biểu thị nền tảng — cả `'ios'` hoặc `'android'`. Với mô-đun Platform, bạn có thể dễ dàng tạo mã nguồn cụ thể cho từng nền tảng, giúp bạn có trải nghiệm người dùng tốt nhất trên mỗi nền tảng. Chỉ cần nhớ import mô-đun và sử dụng các thuộc tính và phương thức đã cung cấp.",
+        "links": [
+          {
+            "title": "Nền tảng",
+            "url": "https://reactnative.dev/docs/platform",
+            "type": "official"
+          },
+          {
+            "title": "Mã Nền tảng Cụ thể",
+            "url": "https://reactnative.dev/docs/platform-specific-code",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "LLANnVosxOUCPTtuBfNgu",
+      "type": "subtopic",
+      "label": "Các định dạng tệp",
+      "position": {
+        "x": -402.3175069304428,
+        "y": 1256.9007482223487
+      },
+      "size": {
+        "width": 284,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Trong React Native, bạn có thể viết mã cụ thể nền tảng bằng cách sử dụng các phần mở rộng tệp cụ thể, chẳng hạn như thêm `.android.` hoặc `.ios.` vào tên tệp của bạn, cho phép React Native tự động tải tệp thích hợp dựa trên nền tảng. Phương pháp này hữu ích trong hai kịch bản chính: tạo các tệp riêng biệt cho các thành phần có thuộc tính nền tảng, chẳng hạn như `Header.ios.js` và `Header.android.js`, có thể có các triển khai và kiểu khác nhau cho iOS và Android, và sử dụng mô-đun `Platform` bên trong một tệp để render mã cụ thể nền tảng một cách điều kiện. Bằng cách tận dụng những kỹ thuật này, các nhà phát triển có thể tạo các thành phần và tính năng được tùy chỉnh cho mỗi nền tảng đồng thời giữ cho cơ sở code của họ được tổ chức và bảo trì tốt.",
+        "links": [
+          {
+            "title": "Mã Nền tảng Cụ thể",
+            "url": "https://reactnative.dev/docs/platform-specific-code",
+            "type": "official"
+          },
+          {
+            "title": "Mở rộng ứng dụng",
+            "url": "https://reactnative.dev/docs/app-extensions",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "UQpyXrC2cs_jDXxVTlQOu",
+      "type": "subtopic",
+      "label": "react-native-web",
+      "position": {
+        "x": -402.3175069304428,
+        "y": 1309.9007482223487
+      },
+      "size": {
+        "width": 284,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "React Native Web là một mở rộng của React Native cho phép bạn chạy ứng dụng React Native không chỉ trên thiết bị iOS và Android mà còn trên web. Nó sử dụng các thành phần và API quen thuộc với bạn trong React Native, nhưng render chúng vào DOM của trang web thay vì các yếu tố giao diện người dùng gốc. Mục tiêu chính của React Native Web là cung cấp trải nghiệm phát triển nhất quán trên tất cả các nền tảng, giảm thiểu nỗ lực cần thiết để xây dựng và bảo trì các ứng dụng đa nền tảng.",
+        "links": [
+          {
+            "title": "react-native-web - npm",
+            "url": "https://www.npmjs.com/package/react-native-web",
+            "type": "article"
+          },
+          {
+            "title": "Hướng dẫn toàn diện về React Native cho Web",
+            "url": "https://blog.logrocket.com/complete-guide-react-native-web/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ervpuL89myBW3oR9r-4lH",
+      "type": "topic",
+      "label": "Styling",
+      "position": {
+        "x": -42.1381872719935,
+        "y": 1114.4393516042962
+      },
+      "size": {
+        "width": 184,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Styling in React Native is accomplished through JavaScript and uses a subset of CSS properties. Unlike CSS in web development, React Native has its own set of components and styling rules. The main components used for styling are `StyleSheet`, `View`, and `Text`. `StyleSheet` is a module provided by React Native to manage and optimize styles. It is similar to a CSS stylesheet and helps in creating and working with multiple styles efficiently.",
+        "links": [
+          {
+            "title": "Styling",
+            "url": "https://reactnative.dev/docs/style",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "wB0D9koC6jpt1rzX8F07F",
+      "type": "subtopic",
+      "label": "Stylesheets",
+      "position": {
+        "x": -42.1381872719935,
+        "y": 1207.4393516042962
+      },
+      "size": {
+        "width": 184,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Trong React Native, kiểu dáng (stylesheets) là các đối tượng định nghĩa vẻ ngoài của các thành phần. Chúng cung cấp một cách để tách kiểu dáng khỏi logic của thành phần. Các kiểu dáng được tạo bằng phương thức `StyleSheet.create`, điều này đảm bảo một cách tiếp cận tiêu chuẩn và hiệu quả để quản lý kiểu dáng cho các thành phần của bạn.",
+        "links": [
+          {
+            "title": "Stylesheets",
+            "url": "https://reactnative.dev/docs/stylesheet",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "e-r3tuRZ3PzhFegES0oOm",
+      "type": "subtopic",
+      "label": "Bố cục & Flexbox",
+      "position": {
+        "x": -42.1381872719935,
+        "y": 1260.4393516042962
+      },
+      "size": {
+        "width": 184,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Trong React Native, bố cục chủ yếu được quản lý bằng hệ thống kiểu dáng Flexbox. Flexbox là một hệ thống bố cục mạnh mẽ và linh hoạt cho phép bạn tạo giao diện người dùng (UI) đáp ứng và phức tạp bằng cách sử dụng một tập hợp các quy tắc đơn giản. Bạn có thể sử dụng các kiểu này theo nhiều cách kết hợp để tạo bố cục linh hoạt trong React Native. Flexbox giúp dễ dàng tạo UI đáp ứng thích ứng với thay đổi kích thước màn hình hoặc hướng. Lưu ý rằng một số kiểu này có thể không hoạt động như mong đợi trong React Native so với CSS cho web, nhưng các khái niệm tổng thể vẫn giữ nguyên.",
+        "links": [
+          {
+            "title": "Flexbox",
+            "url": "https://reactnative.dev/docs/flexbox",
+            "type": "official"
+          },
+          {
+            "title": "Thuộc tính bố cục",
+            "url": "https://reactnative.dev/docs/layout-props",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "KoXTwQUqPt_ZhOFuaelny",
+      "type": "subtopic",
+      "label": "Khả năng tiếp cận",
+      "position": {
+        "x": -42.1381872719935,
+        "y": 1313.4393516042962
+      },
+      "size": {
+        "width": 184,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Khả năng tiếp cận (thường được viết tắt là a11y) trong React Native là một khía cạnh quan trọng của phát triển ứng dụng, đảm bảo rằng các ứng dụng của bạn có thể được sử dụng bởi tất cả mọi người, bao gồm những người khuyết tật. Cam kết hòa nhập này không chỉ là yêu cầu pháp lý ở nhiều khu vực mà còn là nghĩa vụ đạo đức giúp cải thiện trải nghiệm người dùng cho tất cả mọi người. React Native cung cấp một bộ tính năng khả năng tiếp cận toàn diện, thuộc tính và API cho phép các nhà phát triển tạo ra các ứng dụng đáp ứng nhu cầu đa dạng của người dùng. Bằng cách triển khai các tính năng này, các nhà phát triển có thể đảm bảo rằng các ứng dụng của họ có thể được điều hướng và sử dụng bởi những người bị suy giảm thị giác, thính giác, vận động hoặc nhận thức.",
+        "links": [
+          {
+            "title": "Khả năng tiếp cận",
+            "url": "https://reactnative.dev/docs/accessibility",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "7GBV5sfOaGxHwpkNUvFWE",
+      "type": "topic",
+      "label": "Mạng lưới",
+      "position": {
+        "x": 204.8618127280065,
+        "y": 1414.4393516042962
+      },
+      "size": {
+        "width": 184,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "React Native cho phép thực hiện yêu cầu mạng và quản lý dữ liệu từ các nguồn bên ngoài thông qua nhiều kỹ thuật. Phương pháp chính là hàm `fetch`, một API dựa trên hứa hẹn cho phép nhà phát triển thực hiện các yêu cầu HTTP và lấy tài nguyên, thường ở định dạng JSON, từ một URL được chỉ định. Ví dụ, một yêu cầu fetch đơn giản có thể được thực hiện như sau: `fetch('https://jsonplaceholder.typicode.com/todos/1') .then((response) => response.json()) .then((json) => console.log(json)) .catch((error) => console.error(error)); Một lựa chọn phổ biến khác là Axios, một thư viện được sử dụng rộng rãi giúp đơn giản hóa các yêu cầu HTTP trong các ứng dụng JavaScript. Tương tự như fetch, Axios cũng dựa trên hứa hẹn và cung cấp một API thân thiện với người dùng, khiến nó trở thành lựa chọn ưa thích đối với nhiều nhà phát triển khi xử lý các yêu cầu mạng trong React Native.",
+        "links": [
+          {
+            "title": "Mạng lưới",
+            "url": "https://reactnative.dev/docs/network",
+            "type": "official"
+          },
+          {
+            "title": "Fetch API",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API",
+            "type": "official"
+          },
+          {
+            "title": "Axios",
+            "url": "https://axios-http.com/docs/intro",
+            "type": "official"
+          },
+          {
+            "title": "Quản lý trạng thái kết nối mạng trong React Native",
+            "url": "https://blog.logrocket.com/managing-network-connection-status-in-react-native/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "k7uVPyhbPgvO6HxAfxxYZ",
+      "type": "subtopic",
+      "label": "Trạng thái kết nối",
+      "position": {
+        "x": 143.8618127280065,
+        "y": 1522.4007482223487
+      },
+      "size": {
+        "width": 201,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Kết nối đề cập đến các cơ chế cho phép truyền dữ liệu giữa ứng dụng React Native của bạn và các tài nguyên bên ngoài thông qua nhiều phương tiện giao tiếp. Điều quan trọng là phải đảm bảo giao tiếp hiệu quả với API, máy chủ và các hệ thống bên ngoài để cập nhật dữ liệu ứng dụng, lấy nội dung hoặc kích hoạt tương tác theo thời gian thực.",
+        "links": [
+          {
+            "title": "Quản lý trạng thái kết nối mạng trong React Native",
+            "url": "https://blog.logrocket.com/managing-network-connection-status-in-react-native/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "aSCgax1M4wlmzkJSZV_fv",
+      "type": "subtopic",
+      "label": "WebSockets",
+      "position": {
+        "x": 143.8618127280065,
+        "y": 1575.4007482223487
+      },
+      "size": {
+        "width": 201,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "WebSockets là một giao thức cho phép truyền thông hai chiều đầy đủ giữa một máy khách và một máy chủ qua một kết nối duy nhất, có thời gian sống dài. Chúng hữu ích khi cần giao tiếp theo thời gian thực, chẳng hạn như trong các ứng dụng trò chuyện, trò chơi trực tuyến hoặc nền tảng giao dịch tài chính.",
+        "links": [
+          {
+            "title": "API WebSocket (WebSockets) - Web APIs",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "f7KFPFS2-EA90pumYHM9T",
+      "type": "subtopic",
+      "label": "Fetch",
+      "position": {
+        "x": 143.8618127280065,
+        "y": 1628.4007482223487
+      },
+      "size": {
+        "width": 201,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "_Fetch_ là một hàm JavaScript có sẵn trong React Native được sử dụng để thực hiện các yêu cầu mạng, tương tự như XMLHttpRequest trong các ứng dụng web. Nó cho phép bạn xử lý các yêu cầu và truy xuất dữ liệu từ API hoặc các nguồn khác. Giao diện Fetch được xây dựng trên Promises, giúp dễ dàng xử lý các trường hợp thành công và lỗi.",
+        "links": [
+          {
+            "title": "Quản lý trạng thái kết nối mạng trong React Native",
+            "url": "https://blog.logrocket.com/managing-network-connection-status-in-react-native/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "CAQJaGs24wx1SqKOU44aB",
+      "type": "topic",
+      "label": "Thông báo đẩy",
+      "position": {
+        "x": -142.228964418254,
+        "y": 1414.4393516042962
+      },
+      "size": {
+        "width": 184,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Thông báo đẩy trong React Native cho phép bạn gửi thông tin kịp thời và phù hợp với người dùng ngay cả khi họ không tích cực sử dụng ứng dụng. Chức năng thông báo đẩy gốc trên nền tảng native trong React Native đã bị lỗi thời. Bây giờ, bạn thường dựa vào các dịch vụ của bên thứ ba như Firebase Cloud Messaging (FCM), Expo Notifications hoặc OneSignal để xử lý sự phức tạp trong việc cung cấp thông báo trên nhiều nền tảng khác nhau (iOS và Android). Các dịch vụ này cung cấp API và cơ sở hạ tầng mạnh mẽ để quản lý token thiết bị, gửi thông báo và theo dõi thành công khi giao hàng.",
+        "links": [
+          {
+            "title": "PushNotificationIOS",
+            "url": "https://reactnative.dev/docs/pushnotificationios",
+            "type": "official"
+          },
+          {
+            "title": "Thông báo Expo",
+            "url": "https://docs.expo.dev/versions/latest/sdk/notifications/",
+            "type": "official"
+          },
+          {
+            "title": "Expo push notifications setup",
+            "url": "https://docs.expo.dev/push-notifications/push-notifications-setup/",
+            "type": "article"
+          },
+          {
+            "title": "Thông báo Expo với EAS | Hướng dẫn toàn diện",
+            "url": "https://www.youtube.com/watch?v=BCCjGtKtBjE",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "GYdz9a1yLiewAeMRSyfLr",
+      "type": "topic",
+      "label": "Tương tác",
+      "position": {
+        "x": -380.62298223659093,
+        "y": 1414.4393516042962
+      },
+      "size": {
+        "width": 184,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Tương tác trong React Native có nghĩa là xử lý cách người dùng tương tác với ứng dụng của bạn. Điều này thường bao gồm việc xử lý các sự kiện chạm, cử chỉ và hiệu ứng chuyển động để cung cấp trải nghiệm người dùng hấp dẫn và sống động hơn. Có nhiều thành phần và thư viện tích hợp sẵn trong React Native giúp bạn xây dựng các yếu tố tương tác trong ứng dụng của mình.",
+        "links": [
+          {
+            "title": "Hiệu ứng hình ảnh",
+            "url": "https://reactnative.dev/docs/animations",
+            "type": "official"
+          },
+          {
+            "title": "Hiệu ứng chuyển đổi bố cục",
+            "url": "https://reactnative.dev/docs/layoutanimation",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "A7ZIe8nlQnHU5g3LM3Eif",
+      "type": "subtopic",
+      "label": "Touchable",
+      "position": {
+        "x": -709.4579568300146,
+        "y": 1308.4007482223487
+      },
+      "size": {
+        "width": 194,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Trong React Native, thành phần `Touchable` được sử dụng để xử lý tương tác của người dùng như chạm, giữ lâu và gõ đôi trên các phần tử phù hợp. Mỗi thành phần này đều đến từ gói `react-native`, ngoại trừ `TouchableScale` đến từ `react-native-touchable-scale`. Chúng có thể được sử dụng thay thế cho nhau tùy thuộc vào loại tương tác bạn muốn cung cấp. Các thuộc tính chính (props) được sử dụng với các thành phần này là `onPress`, `onLongPress` và một số thuộc tính cụ thể của từng thành phần như `underlayColor` cho `TouchableHighlight`.",
+        "links": [
+          {
+            "title": "Xử lý chạm",
+            "url": "https://reactnative.dev/docs/handling-touches",
+            "type": "official"
+          },
+          {
+            "title": "TouchableOpacity",
+            "url": "https://reactnative.dev/docs/touchableopacity",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "xf7L5J42yQq3LE7lG2plp",
+      "type": "subtopic",
+      "label": "Xử lý cử chỉ",
+      "position": {
+        "x": -709.4579568300146,
+        "y": 1361.4007482223487
+      },
+      "size": {
+        "width": 194,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Xử lý cử chỉ là một tính năng thiết yếu và mạnh mẽ trong React Native giúp tạo ra giao diện người dùng tương tác và phản hồi. React Native cung cấp nhiều thành phần và thư viện tích hợp sẵn để nhận dạng và phản ứng với các loại cử chỉ khác nhau của người dùng. Một số cử chỉ phổ biến bao gồm chạm, trượt, kéo và vuốt.",
+        "links": [
+          {
+            "title": "Hiệu ứng hình ảnh",
+            "url": "https://reactnative.dev/docs/animations",
+            "type": "official"
+          },
+          {
+            "title": "Hiệu ứng chuyển đổi bố cục",
+            "url": "https://reactnative.dev/docs/layoutanimation",
+            "type": "official"
+          },
+          {
+            "title": "Animated",
+            "url": "https://reactnative.dev/docs/animated",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "nk6zdVNRz_xE71mVUOFsi",
+      "type": "subtopic",
+      "label": "Cuộn và trượt",
+      "position": {
+        "x": -709.4579568300146,
+        "y": 1414.4007482223487
+      },
+      "size": {
+        "width": 194,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Trong React Native, tương tác cuộn và trượt có thể được định nghĩa và tùy chỉnh bằng một tập hợp các thành phần có sẵn. Những thành phần này hiệu quả và cung cấp khả năng điều hướng mượt mà thông qua các yếu tố bên trong chúng.",
+        "links": [
+          {
+            "title": "Xử lý chạm",
+            "url": "https://reactnative.dev/docs/handling-touches",
+            "type": "official"
+          },
+          {
+            "title": "Sử dụng một ScrollView",
+            "url": "https://reactnative.dev/docs/using-a-scrollview",
+            "type": "official"
+          },
+          {
+            "title": "React Native Gesture Handler: Cượt, giữ lâu và hơn thế nữa",
+            "url": "https://blog.logrocket.com/react-native-gesture-handler-tutorial-examples/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Jr2iuQqyCbx6CyTJj4Qz2",
+      "type": "subtopic",
+      "label": "Điều hướng màn hình",
+      "position": {
+        "x": -709.4579568300146,
+        "y": 1467.4007482223487
+      },
+      "size": {
+        "width": 194,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Trong React Native, điều hướng từ một màn hình sang màn hình khác là một khía cạnh quan trọng của phát triển ứng dụng. Các thư viện điều hướng thường dùng nhất là React Navigation và React Native Navigation.",
+        "links": [
+          {
+            "title": "React Navigation",
+            "url": "https://reactnavigation.org/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3NLcPO-hqQV1EacoPLVrv",
+      "type": "subtopic",
+      "label": "Hiệu ứng hình ảnh",
+      "position": {
+        "x": -709.4579568300146,
+        "y": 1520.4007482223487
+      },
+      "size": {
+        "width": 194,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "React Native hỗ trợ hai loại animation: `Animated` và `LayoutAnimation`. API `Animated` cung cấp một bộ phương thức cơ bản để tạo và quản lý animation, trong khi API `LayoutAnimation` cung cấp một cách để animation thay đổi từ bố cục này sang bố cục khác. `Animated` là một API khai báo (declarative) tập trung vào việc xử lý các phép tính liên quan đến animation. Nó cho phép bạn tạo và kết hợp animation với khả năng kiểm soát chi tiết đối với các thuộc tính cụ thể đang được animation. Bạn có thể sử dụng API này để tạo ra nhiều hiệu ứng khác nhau, chẳng hạn như làm mờ, thay đổi kích thước, hoặc dịch chuyển các thành phần trên màn hình. `LayoutAnimation` là một lớp trừu tượng cao hơn để animation thay đổi bố cục. Thay vì animation các thuộc tính riêng lẻ, bạn định nghĩa cách các thay đổi nên diễn ra và React Native sẽ tự động cập nhật bố cục cho phù hợp. Điều này đặc biệt hữu ích khi animation nhiều thành phần hoặc sửa đổi bố cục theo phản ứng với tương tác của người dùng, chẳng hạn như thêm/bỏ/sắp xếp lại các mục trong một danh sách.",
+        "links": [
+          {
+            "title": "Hiệu ứng hình ảnh",
+            "url": "https://reactnative.dev/docs/animations",
+            "type": "official"
+          },
+          {
+            "title": "Hiệu ứng chuyển đổi bố cục",
+            "url": "https://reactnative.dev/docs/layoutanimation",
+            "type": "official"
+          },
+          {
+            "title": "Animated",
+            "url": "https://reactnative.dev/docs/animated",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dckRzKDKj-mLB3-OxwjPh",
+      "type": "topic",
+      "label": "Liên kết sâu (Deep Link)",
+      "position": {
+        "x": -380.62298223659093,
+        "y": 1522.4007482223487
+      },
+      "size": {
+        "width": 184,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Liên kết sâu trong React Native cho phép ứng dụng của bạn mở và điều hướng đến một màn hình hoặc nội dung cụ thể khi người dùng nhấp vào URL hoặc quy ước URI tùy chỉnh. Nó tạo ra một con đường trực tiếp đến một phần cụ thể của ứng dụng, bỏ qua chuỗi khởi động ứng dụng thông thường và cung cấp trải nghiệm người dùng liền mạch hơn. Điều này hữu ích cho các tình huống như mở trang sản phẩm từ email tiếp thị hoặc hướng dẫn người dùng đến một hồ sơ cụ thể từ liên kết được chia sẻ.",
+        "links": [
+          {
+            "title": "Hiểu về liên kết sâu (deep linking) trong React Native",
+            "url": "https://blog.logrocket.com/understanding-deep-linking-in-react-native/",
+            "type": "article"
+          },
+          {
+            "title": "Liên Kết Sâu trong React Native: Điều Hướng Đến Các Màn Hình Ứng Dụng Cụ Thể",
+            "url": "https://clouddevs.com/react-native/deep-linking/",
+            "type": "article"
+          },
+          {
+            "title": "Hướng dẫn Toàn diện về Deep Linking với tên miền tùy chỉnh trong React Native",
+            "url": "https://dev.to/amitkumar13/a-complete-guide-to-deep-linking-with-custom-domain-in-react-native-bj3",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "CGtVwhVGc8Vea5RfzJvQG",
+      "type": "topic",
+      "label": "Bảo mật",
+      "position": {
+        "x": -380.62298223659093,
+        "y": 1653.4007482223487
+      },
+      "size": {
+        "width": 184,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Bảo mật là một yếu tố quan trọng cần xem xét trong quá trình phát triển ứng dụng React Native, vì nó giúp bảo vệ dữ liệu người dùng và thông tin nhạy cảm. Các phương pháp tốt nhất bao gồm sử dụng các giải pháp lưu trữ an toàn cho dữ liệu nhạy cảm như mã xác thực và thông tin đăng nhập người dùng, với các thư viện như `react-native-keychain` và `react-native-encrypted-storage`. Để giao tiếp an toàn, hãy luôn sử dụng HTTPS cho tương tác API để đảm bảo rằng dữ liệu trao đổi giữa trình khách và máy chủ được mã hóa. Ngoài ra, giảm thiểu quyền truy cập bằng cách chỉ yêu cầu những quyền cần thiết cho chức năng của ứng dụng, lý tưởng là trong thời gian chạy, sử dụng các thư viện như `react-native-permissions`. Xác thực và làm sạch đầu vào người dùng là rất quan trọng để ngăn chặn các mối đe dọa như SQL injection và cross-site scripting (XSS), điều này có thể đạt được với các thư viện xác thực như `Yup`. Cuối cùng, việc cập nhật các phụ thuộc thường xuyên là rất cần thiết để tránh các lỗ hổng bảo mật đã biết; các công cụ như `npm audit` và Dependabot có thể hỗ trợ quá trình này. Bằng cách tuân thủ những phương pháp tốt nhất này, các nhà phát triển có thể tăng cường bảo mật cho các ứng dụng React Native của họ, bảo vệ cả dữ liệu ứng dụng và thông tin người dùng.",
+        "links": [
+          {
+            "title": "Bảo mật",
+            "url": "https://reactnative.dev/docs/security",
+            "type": "official"
+          },
+          {
+            "title": "Xác thực và ủy quyền an toàn trong React Native",
+            "url": "https://medium.com/@christopherobocha/secure-authentication-and-authorisation-in-react-native-a260f1787a89",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "LRBHwYiT0Yyi18PwR49rc",
+      "type": "subtopic",
+      "label": "Xác thực",
+      "position": {
+        "x": -137.6229822365909,
+        "y": 1545.4007482223487
+      },
+      "size": {
+        "width": 170,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Xác thực là một khía cạnh quan trọng trong việc bảo mật ứng dụng React Native của bạn. Nó cho phép bạn xác minh danh tính người dùng và cung cấp quyền truy cập vào các tài nguyên và tính năng được bảo vệ. Dưới đây là các phương pháp phổ biến được sử dụng để xác thực trong React Native: * Xác thực JWT * OAuth * Xác thực Token đơn giản",
+        "links": [
+          {
+            "title": "Xác thực và Liên kết sâu (Deep Linking)",
+            "url": "https://reactnative.dev/docs/security#authentication-and-deep-linking",
+            "type": "official"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Xác thực (Authentication)",
+            "url": "https://app.daily.dev/tags/authentication?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ee4QqFTosXNcTgoQIok8i",
+      "type": "subtopic",
+      "label": "Mạng lưới",
+      "position": {
+        "x": -137.6229822365909,
+        "y": 1598.4007482223487
+      },
+      "size": {
+        "width": 170,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Kết nối mạng trong React Native chủ yếu sử dụng API Fetch và XMLHttpRequest để thực hiện các yêu cầu mạng. Các API này cho phép bạn lấy dữ liệu từ máy chủ từ xa và xử lý các thao tác không đồng bộ một cách dễ dàng. React Native cung cấp nhiều cách để xử lý các tác vụ kết nối mạng như thực hiện các cuộc gọi API, gửi/nhận dữ liệu từ máy chủ từ xa và xử lý các giao thức mạng khác nhau.\n\n*   Fetch\n*   Thư viện Gọi HTTP\n*   Web Sockets\n\nĐây là những phương pháp chính để xử lý các tác vụ kết nối mạng trong React Native. Chọn phương pháp phù hợp nhất với trường hợp sử dụng cụ thể của bạn và cho phép bạn tận dụng tối đa các tính năng được cung cấp.",
+        "links": [
+          {
+            "title": "Mạng lưới",
+            "url": "https://reactnative.dev/docs/network",
+            "type": "official"
+          },
+          {
+            "title": "Giao tiếp mạng hiệu quả",
+            "url": "https://medium.com/@Blochware/efficient-network-communication-best-practices-for-handling-api-calls-in-react-native-b5bebbc8ba71",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "NdjmP1bZNYriV08vb-iRw",
+      "type": "subtopic",
+      "label": "Storage",
+      "position": {
+        "x": -137.6229822365909,
+        "y": 1651.4007482223487
+      },
+      "size": {
+        "width": 170,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "React Native cung cấp một vài cách để lưu trữ dữ liệu cục bộ trong ứng dụng. Đây là bản tóm tắt ngắn gọn về các tùy chọn lưu trữ có sẵn: *   Async Storage *   Expo Secure Store *   Expo File System *   Expo SQLite Chọn tùy chọn lưu trữ phù hợp nhất với yêu cầu và trường hợp sử dụng của ứng dụng của bạn. Lưu ý rằng AsyncStorage và SecureStorage phù hợp hơn cho việc lưu trữ dữ liệu quy mô nhỏ, trong khi Realm và SQLite hỗ trợ các nhu cầu lưu trữ và truy vấn phức tạp hơn.",
+        "links": [
+          {
+            "title": "AsyncStorage",
+            "url": "https://reactnative.dev/docs/asyncstorage",
+            "type": "official"
+          },
+          {
+            "title": "Tốt nhất Dịch vụ Lưu trữ Dữ liệu cho Ứng dụng React Native",
+            "url": "https://dev.to/ammarahmed/best-data-storage-option-for-react-native-apps-42k",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "w0WW1kg_0BEMeLa1l2gb5",
+      "type": "topic",
+      "label": "Storage",
+      "position": {
+        "x": -380.62298223659093,
+        "y": 1759.4007482223487
+      },
+      "size": {
+        "width": 184,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "React Native cung cấp nhiều phương pháp để lưu trữ dữ liệu cục bộ trong các ứng dụng, mỗi phương pháp đáp ứng nhu cầu lưu trữ khác nhau và các trường hợp sử dụng. Các tùy chọn chính bao gồm Async Storage, cung cấp một hệ thống lưu trữ giá trị-chia khóa đơn giản phù hợp cho lưu trữ dữ liệu quy mô nhỏ; Expo Secure Store, được thiết kế để lưu trữ thông tin nhạy cảm một cách an toàn; Expo File System, cho phép quản lý và lưu trữ tệp; và Expo SQLite, hỗ trợ khả năng lưu trữ và truy vấn dữ liệu phức tạp hơn. Khi chọn một tùy chọn lưu trữ, điều quan trọng là phải xem xét các yêu cầu cụ thể của ứng dụng của bạn.",
+        "links": [
+          {
+            "title": "Tốt nhất Dịch vụ Lưu trữ Dữ liệu cho Ứng dụng React Native",
+            "url": "https://dev.to/ammarahmed/best-data-storage-option-for-react-native-apps-42k",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "WsJGiMjHSQ6MpPd5wuP9h",
+      "type": "subtopic",
+      "label": "react-native-async-storage",
+      "position": {
+        "x": -712.1381872719935,
+        "y": 1632.4007482223487
+      },
+      "size": {
+        "width": 194,
+        "height": 69
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "React Native AsyncStorage là một hệ thống lưu trữ key-value không mã hóa, bất đồng bộ và bền vững cho phép các nhà phát triển lưu trữ dữ liệu toàn cục trong ứng dụng của họ. Nó chủ yếu được sử dụng để lưu trữ dữ liệu ngoại tuyến, làm cho nó phù hợp với các kịch bản như lưu trữ sở thích người dùng hoặc dữ liệu phiên.",
+        "links": [
+          {
+            "title": "Async Storage",
+            "url": "https://reactnative.dev/docs/asyncstorage",
+            "type": "official"
+          },
+          {
+            "title": "Async Storage - GitHub",
+            "url": "https://github.com/react-native-async-storage/async-storage",
+            "type": "opensource"
+          }
+        ]
+      }
+    },
+    {
+      "id": "grThT8cvnrbgsa1mx2Dew",
+      "type": "label",
+      "label": "Ecosystem Expo",
+      "position": {
+        "x": -661.9579568300146,
+        "y": 1695.4007482223487
+      },
+      "size": {
+        "width": 143,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "JgBfwmOgcVi_a96L5NGwr",
+      "type": "subtopic",
+      "label": "expo-secure-store",
+      "position": {
+        "x": -698.4579568300146,
+        "y": 1739.4007482223487
+      },
+      "size": {
+        "width": 255,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Expo Secure Store là một gói tích hợp sẵn được cung cấp bởi SDK Expo để lưu trữ dữ liệu đã mã hóa an toàn trên thiết bị của người dùng. Đây là hệ thống lưu trữ key-value, nhưng nó không được thiết kế để lưu trữ các lượng dữ liệu lớn hơn như cơ sở dữ liệu ứng dụng hoặc cấu trúc dữ liệu phức tạp. Nó phù hợp nhất để lưu trữ khóa bí mật, token truy cập và sở thích người dùng nhỏ.",
+        "links": [
+          {
+            "title": "secure-store",
+            "url": "https://docs.expo.dev/versions/latest/sdk/securestore/",
+            "type": "official"
+          },
+          {
+            "title": "gói expo-secure-store",
+            "url": "https://www.npmjs.com/package/expo-secure-store?activeTab=readme",
+            "type": "opensource"
+          }
+        ]
+      }
+    },
+    {
+      "id": "9pvrXH5Drdsa1cr93UBdc",
+      "type": "subtopic",
+      "label": "expo-file-system",
+      "position": {
+        "x": -698.4579568300146,
+        "y": 1792.4007482223487
+      },
+      "size": {
+        "width": 255,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Hệ thống tệp Expo là một mô-đun phổ quát cung cấp quyền truy cập vào hệ thống tệp trên thiết bị. Sử dụng mô-đun này, bạn có thể thực hiện nhiều thao tác tệp khác nhau như đọc, ghi, sao chép, di chuyển và xóa tệp và thư mục. Nó cũng hỗ trợ đọc siêu dữ liệu tệp và truy vấn URI tệp.",
+        "links": [
+          {
+            "title": "Hệ thống tệp Expo",
+            "url": "https://docs.expo.dev/versions/latest/sdk/filesystem/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "oK8z23a_CjcDjBJ843_Jn",
+      "type": "subtopic",
+      "label": "expo-sqlite",
+      "position": {
+        "x": -698.4579568300146,
+        "y": 1845.4007482223487
+      },
+      "size": {
+        "width": 255,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Expo SQLite là một công cụ mạnh mẽ để xử lý các cơ sở dữ liệu SQLite cục bộ trong ứng dụng React Native của bạn. Bằng cách sử dụng API này, bạn có thể tạo, đọc, cập nhật và xóa dữ liệu khi cần thiết mà không cần viết mã native. Expo SQLite có sẵn dưới dạng một phần của gói expo-sqlite, cung cấp giao diện dễ sử dụng cho các chức năng SQLite. Với Expo SQLite, bạn có thể quản lý hiệu quả các cơ sở dữ liệu SQLite trong các ứng dụng React Native của mình. Nó cho phép bạn thực hiện nhiều hoạt động cơ sở dữ liệu mà không cần phải viết mã native.",
+        "links": [
+          {
+            "title": "expo-sqlite",
+            "url": "https://docs.expo.dev/versions/latest/sdk/sqlite/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "vZMsm-MtsqmQMD-MG6zJY",
+      "type": "subtopic",
+      "label": "Các tùy chọn lưu trữ khác",
+      "position": {
+        "x": -712.1381872719935,
+        "y": 1920.9007482223487
+      },
+      "size": {
+        "width": 194,
+        "height": 69
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Ngoài AsyncStorage, còn có nhiều tùy chọn khác để xử lý lưu trữ dữ liệu trong ứng dụng React Native. Hướng dẫn này sẽ cung cấp một cái nhìn tổng quan ngắn gọn về một số tùy chọn phổ biến: Realm, Firebase Realtime Database và SQLite. Đây chỉ là một vài ví dụ về các tùy chọn lưu trữ bổ sung cho React Native. Tùy theo yêu cầu của bạn, bạn có thể chọn phương án phù hợp nhất với dự án.",
+        "links": [
+          {
+            "title": "Async Storage",
+            "url": "https://reactnative.dev/docs/asyncstorage",
+            "type": "official"
+          },
+          {
+            "title": "Realm - GitHub",
+            "url": "https://github.com/realm/realm-js",
+            "type": "opensource"
+          },
+          {
+            "title": "Firebase Realtime Database",
+            "url": "https://firebase.google.com/docs/database",
+            "type": "article"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Lưu trữ",
+            "url": "https://app.daily.dev/tags/storage?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "G15Aey-Spax_iUHpm1v38",
+      "type": "topic",
+      "label": "Testing",
+      "position": {
+        "x": -380.62298223659093,
+        "y": 1906.4007482223487
+      },
+      "size": {
+        "width": 184,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Khi nói đến kiểm thử, bạn có thể sử dụng kết hợp của Jest, React Test Renderer, React Native Testing Library, Detox và Appium cho nhiều nhu cầu API khác nhau.",
+        "links": []
+      }
+    },
+    {
+      "id": "AolcZu6TMqKHcCLs1is9Z",
+      "type": "vertical",
+      "label": "nút dọc",
+      "position": {
+        "x": -451.6381872719935,
+        "y": 1628.4007482223487
+      },
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.65
+      },
+      "z_index": 999
+    },
+    {
+      "id": "06gsRokwjxVa2xyLY4qAb",
+      "type": "subtopic",
+      "label": "Jest",
+      "position": {
+        "x": -139.1381872719935,
+        "y": 1789.9007482223487
+      },
+      "size": {
+        "width": 77,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Jest là một framework kiểm thử JavaScript tuyệt vời với trọng tâm là sự đơn giản. Nó hoạt động với các dự án sử dụng: Babel, TypeScript, Node, React, Angular, Vue và nhiều hơn nữa!",
+        "links": [
+          {
+            "title": "Jest",
+            "url": "https://jestjs.io/",
+            "type": "official"
+          },
+          {
+            "title": "Tài liệu Jest",
+            "url": "https://jestjs.io/docs/getting-started",
+            "type": "official"
+          },
+          {
+            "title": "Khóa học Jest - Kiểm thử đơn vị trong JavaScript",
+            "url": "https://www.youtube.com/watch?v=7r4xVDI2vho",
+            "type": "video"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Jest",
+            "url": "https://app.daily.dev/tags/jest?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ZJvxa-sPRRWCiqHubqEEZ",
+      "type": "label",
+      "label": "Kiểm thử thành phần",
+      "position": {
+        "x": 96.8618127280065,
+        "y": 1852.9007482223487
+      },
+      "size": {
+        "width": 151,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "81tmis0km2h1zsjS2HsP5",
+      "type": "subtopic",
+      "label": "Trình Renders thử nghiệm React",
+      "position": {
+        "x": 39.8618127280065,
+        "y": 1948.9007482223487
+      },
+      "size": {
+        "width": 264,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Trình tạo kiểm thử React (React Test Renderer) là một thư viện do nhóm React cung cấp, cho phép bạn render các thành phần React dưới dạng đối tượng JavaScript mà không phụ thuộc vào DOM hoặc môi trường di động gốc. Nó có thể được sử dụng để kiểm thử các thành phần trong môi trường Node.js nơi việc render thực tế không cần thiết.",
+        "links": [
+          {
+            "title": "Trình Renders thử nghiệm React",
+            "url": "https://jestjs.io/docs/tutorial-react",
+            "type": "official"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về React",
+            "url": "https://app.daily.dev/tags/react?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "-b4LfjCjkSZ6ZsSv3eFm6",
+      "type": "subtopic",
+      "label": "React Native Testing Library",
+      "position": {
+        "x": 39.8618127280065,
+        "y": 1895.9007482223487
+      },
+      "size": {
+        "width": 264,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Thư viện Kiểm thử React Native (RNTL) là một bộ công cụ và tiện ích để kiểm tra các thành phần React Native. Nó được xây dựng dựa trên hệ sinh thái Testing Library, được thiết kế để hoạt động liền mạch với Jest và các framework kiểm thử khác. Mục tiêu chính của nó là cho phép kiểm tra hiệu quả và hiệu quả bằng cách cung cấp các API đơn giản và trực quan, khuyến khích các phương pháp hay nhất, chẳng hạn như kiểm tra các thành phần giao diện người dùng trong sự cô lập và thúc đẩy kiểm tra khả năng tiếp cận.",
+        "links": [
+          {
+            "title": "React Native Testing Library",
+            "url": "https://callstack.github.io/react-native-testing-library/",
+            "type": "article"
+          },
+          {
+            "title": "Thư viện Kiểm thử React Native (Tài liệu)",
+            "url": "https://testing-library.com/docs/react-native-testing-library/intro/",
+            "type": "article"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về React",
+            "url": "https://app.daily.dev/tags/react?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "zam_qKfqtKuYyPGos1CrF",
+      "type": "label",
+      "label": "Kiểm thử tận-toàn (end-to-end)",
+      "position": {
+        "x": -109.62298223659093,
+        "y": 1854.4007482223487
+      },
+      "size": {
+        "width": 109,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "3m7ANLJvtx3zie4y86MNU",
+      "type": "subtopic",
+      "label": "Tẩy độc",
+      "position": {
+        "x": -115.62298223659093,
+        "y": 1896.9007482223487
+      },
+      "size": {
+        "width": 264,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Detox là một framework kiểm thử toàn diện dành cho các ứng dụng React Native. Nó cho phép bạn chạy các bài kiểm thử trên thiết bị thực tế hoặc trong môi trường trình mô phỏng/máy ảo. Mục tiêu của Detox là duy trì sự tin cậy cao về hành vi của ứng dụng, đồng thời cho phép chạy bài kiểm thử nhanh chóng và dễ dàng gỡ lỗi.",
+        "links": [
+          {
+            "title": "Tài liệu Tái tạo",
+            "url": "https://wix.github.io/Detox/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "spTzJMS7cE0cNa7tVQhVQ",
+      "type": "subtopic",
+      "label": "Appium",
+      "position": {
+        "x": -115.62298223659093,
+        "y": 1949.9007482223487
+      },
+      "size": {
+        "width": 264,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Appium là một khung kiểm thử tự động nguồn mở cho thiết bị di động, nhắm mục tiêu các ứng dụng gốc, lai hoặc web trên nền tảng iOS, Android và Windows. Appium hoạt động với nhiều ngôn ngữ lập trình, bao gồm JavaScript, Ruby, Python, Java và C#. Appium sử dụng giao thức WebDriver, cho phép bạn viết các bài kiểm tra có thể tương tác với ứng dụng của mình thông qua một loạt các lệnh. Giao thức WebDriver giải thích những lệnh này thành các hành động được thực hiện trên ứng dụng.",
+        "links": [
+          {
+            "title": "Tài liệu Appium",
+            "url": "https://appium.io/docs/en/latest/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "NIJzKzWlsciAjxUpm4K2v",
+      "type": "topic",
+      "label": "Hiệu năng",
+      "position": {
+        "x": -380.62298223659093,
+        "y": 2178.4007482223487
+      },
+      "size": {
+        "width": 184,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Hiệu năng là một khía cạnh quan trọng của bất kỳ ứng dụng nào, và React Native cũng không ngoại lệ. Tối ưu hóa hiệu năng trong các ứng dụng React Native của bạn sẽ không chỉ mang lại trải nghiệm người dùng tốt hơn mà còn giảm tải cho tài nguyên thiết bị.",
+        "links": [
+          {
+            "title": "Hiệu năng",
+            "url": "https://reactnative.dev/docs/performance",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1U3AiCDWEVEKsofWtqavi",
+      "type": "subtopic",
+      "label": "Hiểu về Tốc độ Khung hình (Frame Rates)",
+      "position": {
+        "x": -92.6229822365909,
+        "y": 2070.4007482223487
+      },
+      "size": {
+        "width": 297,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Tốc độ khung hình thể hiện số lượng khung hình (hoặc ảnh) được hiển thị mỗi giây trong một hoạt ảnh hoặc video. Hiệu suất của ứng dụng React Native có thể bị ảnh hưởng đáng kể bởi tốc độ khung hình, vì vậy điều quan trọng là phải tối ưu hóa ứng dụng để có trải nghiệm người dùng tốt nhất. Tốc độ khung hình cao hơn mang lại các hoạt ảnh mượt mà hơn, nhưng có thể yêu cầu nhiều tài nguyên hệ thống hơn. Để đạt được tốc độ khung hình mong muốn, ứng dụng nên đảm bảo rằng mỗi khung hình đều được tính toán và hiển thị trong thời gian phân bổ. Để đạt được tốc độ khung hình cao và các hoạt ảnh mượt mà, nhà phát triển có thể sử dụng thư viện `Animated`, cung cấp các phương pháp và thành phần để quản lý hoạt ảnh hiệu quả. Ví dụ, thư viện cho phép định nghĩa hoạt ảnh tường minh, giảm thiểu các chu kỳ hiển thị không cần thiết và cho phép sử dụng trình điều khiển gốc để chuyển các hoạt ảnh khỏi luồng JavaScript. Bằng cách tuân thủ các phương pháp tốt nhất và tận dụng thư viện `Animated`, nhà phát triển có thể nâng cao hiệu suất của ứng dụng React Native và cung cấp các hoạt ảnh chất lượng cao.",
+        "links": []
+      }
+    },
+    {
+      "id": "afwB90L-q2hIwrA0LtWbG",
+      "type": "subtopic",
+      "label": "Nguồn gốc vấn đề phổ biến",
+      "position": {
+        "x": -92.6229822365909,
+        "y": 2123.4007482223487
+      },
+      "size": {
+        "width": 297,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Trong React Native, nhiều vấn đề phổ biến có thể ảnh hưởng đến hiệu suất ứng dụng. Các bản ghi nhật ký quá mức có thể làm chậm ứng dụng, đặc biệt ở chế độ gỡ lỗi, vì vậy nên tránh sử dụng chúng và loại bỏ các bản ghi không cần thiết trước khi phát hành. Hình ảnh nặng và không được tối ưu hóa cũng có thể gây ra sự cố về hiệu suất; do đó, điều quan trọng là phải tối ưu hóa kích thước và độ phân giải hình ảnh và sử dụng thuộc tính `resizeMode` trên thành phần `Image` để cải thiện việc hiển thị. Ngoài ra, các hàm và kiểu định sẵn có thể dẫn đến các lần render không cần thiết, vì vậy nên xác định chúng bên ngoài phương thức render của thành phần. Mặc dù việc sử dụng `React.PureComponent` hoặc `React.memo()` có thể tăng hiệu suất, nhưng chúng nên được áp dụng một cách thận trọng để tránh các lần render không cần thiết. Để xử lý các danh sách lớn, thay thế `ListView` bằng `FlatList` hoặc `SectionList` là rất quan trọng để cải thiện hiệu suất. Cuối cùng, chặn luồng JavaScript với các phép tính đồng bộ nặng có thể làm suy giảm hiệu suất, vì vậy điều cần thiết là phải xử lý các tác vụ này một cách không đồng bộ hoặc chuyển chúng sang mô-đun native.",
+        "links": [
+          {
+            "title": "Các vấn đề về hiệu năng",
+            "url": "https://reactnative.dev/docs/performance#common-sources-of-performance-problems",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "LL2ZkB7BuELyY2mPQhkAj",
+      "type": "subtopic",
+      "label": "Tăng tốc quá trình Xây dựng",
+      "position": {
+        "x": -92.6229822365909,
+        "y": 2176.4007482223487
+      },
+      "size": {
+        "width": 297,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Việc xây dựng ứng dụng React Native có thể tốn kém và mất vài phút thời gian của nhà phát triển. Điều này có thể gây ra vấn đề khi dự án của bạn phát triển và thường gặp trong các tổ chức lớn với nhiều nhà phát triển React Native.",
+        "links": [
+          {
+            "title": "Tăng tốc giai đoạn Xây dựng (Build)",
+            "url": "https://reactnative.dev/docs/build-speed",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PyPjHnKIWpnFHal8RuSmX",
+      "type": "subtopic",
+      "label": "Tối ưu cấu hình FlatList",
+      "position": {
+        "x": -92.6229822365909,
+        "y": 2229.4007482223487
+      },
+      "size": {
+        "width": 297,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Trong React Native, thành phần FlatList là rất quan trọng để hiển thị hiệu quả các danh sách lớn các mục, và tối ưu hóa cấu hình của nó là rất quan trọng để cải thiện hiệu suất. Đây là một số mẹo chính để tối ưu hóa FlatList: 1. **Đặt `windowSize`**: Điều chỉnh thuộc tính `windowSize`, xác định số lượng trang được hiển thị phía trên và phía dưới view hiện tại. Giảm giá trị này từ giá trị mặc định của 21 có thể làm giảm việc hiển thị các thành phần nằm ngoài màn hình. 2. **Bật `removeClippedSubviews`**: Thuộc tính này gỡ bỏ các thành phần nằm ngoài màn hình, giúp giải phóng tài nguyên. 3. **Điều chỉnh `maxToRenderPerBatch`**: Kiểm soát số lượng mục được hiển thị trên mỗi lô với thuộc tính này, mặc định là 10. Điều chỉnh giá trị này để phù hợp với nhu cầu của danh sách của bạn. 4. **Đặt `initialNumToRender`**: Thuộc tính này xác định số lượng mục ban đầu được hiển thị, giúp ngăn chặn màn hình trống trong quá trình tải. 5. **Sử dụng `getItemLayout`**: Bằng cách chỉ định chính xác kích thước của mỗi mục với thuộc tính này, bạn có thể tránh các phép đo động, dẫn đến hiệu suất tốt hơn.",
+        "links": [
+          {
+            "title": "Tối ưu cấu hình FlatList",
+            "url": "https://reactnative.dev/docs/optimizing-flatlist-configuration",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "u5I-EOnA_yt6AQsRX-qr0",
+      "type": "subtopic",
+      "label": "RAM Bundles + Inline Requires",
+      "position": {
+        "x": -92.6229822365909,
+        "y": 2282.4007482223487
+      },
+      "size": {
+        "width": 297,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Nếu bạn có một ứng dụng lớn, bạn có thể cân nhắc định dạng gói (bundle) Random Access Modules (RAM), và sử dụng yêu cầu trực tiếp (inline requires). Điều này hữu ích cho các ứng dụng có nhiều màn hình mà có thể không bao giờ được mở trong quá trình sử dụng thông thường của ứng dụng. Thường thì nó hữu ích cho các ứng dụng có lượng lớn mã không cần thiết ngay sau khi khởi động. Ví dụ, ứng dụng bao gồm các màn hình hồ sơ phức tạp hoặc các tính năng ít sử dụng hơn, nhưng hầu hết các phiên chỉ liên quan đến việc truy cập màn hình chính của ứng dụng để cập nhật. Chúng ta có thể tối ưu hóa việc tải gói bằng định dạng RAM và yêu cầu các tính năng và màn hình này trực tiếp (khi chúng được sử dụng).",
+        "links": [
+          {
+            "title": "RAM Bundles và Inline Requires",
+            "url": "https://reactnative.dev/docs/ram-bundles-inline-requires",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "apXv-E6LvOuOMj3EpzwuA",
+      "type": "subtopic",
+      "label": "Phân tích hiệu năng",
+      "position": {
+        "x": -92.6229822365909,
+        "y": 2335.4007482223487
+      },
+      "size": {
+        "width": 297,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Sử dụng bộ trình bày tích hợp sẵn (built-in profiler) để có được thông tin chi tiết về công việc được thực hiện trên luồng JavaScript và luồng chính song song. Truy cập nó bằng cách chọn Perf Monitor từ menu Debug. Đối với iOS, Instruments là một công cụ vô giá, và đối với Android bạn nên học cách sử dụng `systrace`.",
+        "links": [
+          {
+            "title": "Phân tích hiệu năng React Native",
+            "url": "https://reactnative.dev/docs/profiling",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "0BMpZDc-1rSvETwX82zON",
+      "type": "topic",
+      "label": "Sử dụng Native Modules",
+      "position": {
+        "x": -701.1381872719935,
+        "y": 2178.4007482223487
+      },
+      "size": {
+        "width": 184,
+        "height": 69
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Đôi khi một ứng dụng React Native cần truy cập các API của nền tảng gốc (native) mà không có sẵn theo mặc định trong JavaScript, ví dụ như các API gốc để truy cập Apple Pay hoặc Google Pay. Bạn có thể muốn tái sử dụng một số thư viện Objective-C, Swift, Java hoặc C++ hiện có mà không cần phải tái triển khai chúng trong JavaScript, hoặc viết mã hiệu suất cao, đa luồng cho các tác vụ như xử lý ảnh. Hệ thống NativeModule sẽ phơi bày các phiên bản của lớp (class) Java/Objective-C/C++ (gốc) tới JavaScript (JS) dưới dạng đối tượng JS, từ đó cho phép bạn thực thi mã gốc tùy ý từ bên trong JS. Mặc dù chúng tôi không mong đợi tính năng này là một phần của quy trình phát triển thông thường, nhưng điều quan trọng là nó phải tồn tại. Nếu React Native không xuất bản API gốc mà ứng dụng JS của bạn cần, bạn nên có khả năng xuất bản nó cho riêng mình!",
+        "links": [
+          {
+            "title": "Giới thiệu Module Native",
+            "url": "https://reactnative.dev/docs/native-platform",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b-1-JcwLSGMyH3gXS59lY",
+      "type": "subtopic",
+      "label": "Đối với iOS",
+      "position": {
+        "x": -708.115904405851,
+        "y": 2092.461728962983
+      },
+      "size": {
+        "width": 102,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Các mô-đun iOS native trong React Native cho phép các nhà phát triển truy cập vào hệ sinh thái phong phú của các tính năng và chức năng iOS mà không trực tiếp có thể truy cập thông qua các API React Native tiêu chuẩn. Ví dụ, một Mô-đun Camera có thể được triển khai bằng khung AVFoundation, cho phép các nhà phát triển chụp ảnh và video trực tiếp từ ứng dụng của họ.",
+        "links": [
+          {
+            "title": "iOS Native Modules",
+            "url": "https://reactnative.dev/docs/legacy/native-modules-ios",
+            "type": "official"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về iOS",
+            "url": "https://app.daily.dev/tags/ios?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "wMxTB8WgU6e-oYMtQFCDY",
+      "type": "subtopic",
+      "label": "Đối với Android",
+      "position": {
+        "x": -601.115904405851,
+        "y": 2092.461728962983
+      },
+      "size": {
+        "width": 134,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Các mô-đun gốc trong React Native cung cấp một cách mạnh mẽ để truy cập các tính năng và khả năng cụ thể của thiết bị mà không có sẵn thông qua các API tiêu chuẩn của React Native. Ví dụ, một mô-đun Bluetooth có thể được tạo bằng cách sử dụng Android Bluetooth API, cho phép ứng dụng quét các thiết bị Bluetooth lân cận, kết nối với chúng và chuyển đổi dữ liệu.",
+        "links": [
+          {
+            "title": "Ôm Android Native",
+            "url": "https://reactnative.dev/docs/legacy/native-modules-android",
+            "type": "official"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Android",
+            "url": "https://app.daily.dev/tags/android?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4U-HZQGH7kaWCB94Xy8Mh",
+      "type": "topic",
+      "label": "Đăng xuất Ứng dụng",
+      "position": {
+        "x": -701.1381872719935,
+        "y": 2490.7541881503926
+      },
+      "size": {
+        "width": 184,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Việc xuất bản các ứng dụng React Native là quá trình triển khai ứng dụng của bạn trên nhiều cửa hàng ứng dụng để người dùng có thể tải xuống và sử dụng. Hai cửa hàng ứng dụng phổ biến nhất để xuất bản là Cửa hàng Ứng dụng Apple (iOS) và Cửa hàng Google Play (Android).",
+        "links": [
+          {
+            "title": "Xuất bản lên Cửa hàng Ứng dụng Apple",
+            "url": "https://reactnative.dev/docs/publishing-to-app-store",
+            "type": "official"
+          },
+          {
+            "title": "Xuất bản lên Cửa hàng Google Play",
+            "url": "https://reactnative.dev/docs/signed-apk-android",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1s9Y1dUtjpW9pu74ipX99",
+      "type": "subtopic",
+      "label": "Cửa hàng Ứng dụng Apple",
+      "position": {
+        "x": -701.1381872719935,
+        "y": 2587.3839027091694
+      },
+      "size": {
+        "width": 234,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "The App Store is Apple's official platform for distributing iOS apps to users with iPhones, iPads, and iPod Touch devices. To publish an app on the App Store, you need to follow specific guidelines and use the necessary tools provided by Apple.",
+        "links": [
+          {
+            "title": "Xuất bản lên Cửa hàng Ứng dụng Apple",
+            "url": "https://reactnative.dev/docs/publishing-to-app-store",
+            "type": "official"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về App Store",
+            "url": "https://app.daily.dev/tags/app-store?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "D8T9cZ5zKi_KZDr9tDpCf",
+      "type": "subtopic",
+      "label": "Google Play Store",
+      "position": {
+        "x": -701.1381872719935,
+        "y": 2640.3839027091694
+      },
+      "size": {
+        "width": 234,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Việc xuất bản ứng dụng React Native của bạn lên Cửa hàng Google bao gồm nhiều bước.",
+        "links": [
+          {
+            "title": "Xuất bản lên Cửa hàng Google Play",
+            "url": "https://reactnative.dev/docs/signed-apk-android",
+            "type": "official"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Google",
+            "url": "https://app.daily.dev/tags/google?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "xy-edge__HU7wZWiES3m3xl1-NYP6Fx2-08qKtgnhJ3tlb5JKfTDf5w1",
+      "source": "HU7wZWiES3m3xl1-NYP6F",
+      "target": "JfXwzkN29UGz17FYHHE3A",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__4U-HZQGH7kaWCB94Xy8Mhz2-2rlmLn_yQQV-7DpX1qT98y2",
+      "source": "JfXwzkN29UGz17FYHHE3A",
+      "target": "2rlmLn_yQQV-7DpX1qT98",
+      "source_handle": "z2",
+      "target_handle": "y2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__4U-HZQGH7kaWCB94Xy8Mhz2-cMfsRtvzvDZZJ0TqeUOxmy1",
+      "source": "JfXwzkN29UGz17FYHHE3A",
+      "target": "cMfsRtvzvDZZJ0TqeUOxm",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__4U-HZQGH7kaWCB94Xy8Mhz2-VhSEH_RoWFt1z2lial7xZy2",
+      "source": "JfXwzkN29UGz17FYHHE3A",
+      "target": "ODQ8zrHc2rsc8PN-APKvz",
+      "source_handle": "z2",
+      "target_handle": "y2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__4U-HZQGH7kaWCB94Xy8Mhy2-SnF3xtzBh-x4Z_qUQUg7Hz2",
+      "source": "cSXsu17F1Oy34Wp6J-N3C",
+      "target": "SnF3xtzBh-x4Z_qUQUg7H",
+      "source_handle": "y2",
+      "target_handle": "z2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__4U-HZQGH7kaWCB94Xy8Mhy2-1oUJXtHGQ29ZZU9sxwGo2z2",
+      "source": "cSXsu17F1Oy34Wp6J-N3C",
+      "target": "1oUJXtHGQ29ZZU9sxwGo2",
+      "source_handle": "y2",
+      "target_handle": "z2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__cSXsu17F1Oy34Wp6J-N3Cx2-4U-HZQGH7kaWCB94Xy8Mhw2",
+      "source": "cSXsu17F1Oy34Wp6J-N3C",
+      "target": "lNmddXrT8IHVtWobh3-oq",
+      "source_handle": "x2",
+      "target_handle": "w2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__4U-HZQGH7kaWCB94Xy8Mhz2-VhSEH_RoWFt1z2lial7xZy1",
+      "source": "lNmddXrT8IHVtWobh3-oq",
+      "target": "VhSEH_RoWFt1z2lial7xZ",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__4U-HZQGH7kaWCB94Xy8Mhz2-bxWLf0RDAl9Zaczkon9Rly1",
+      "source": "lNmddXrT8IHVtWobh3-oq",
+      "target": "bxWLf0RDAl9Zaczkon9Rl",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__4U-HZQGH7kaWCB94Xy8Mhz2-yW7nDDJbjmm8XKJI0hq3Qy1",
+      "source": "lNmddXrT8IHVtWobh3-oq",
+      "target": "yW7nDDJbjmm8XKJI0hq3Q",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__lNmddXrT8IHVtWobh3-oqx2-4U-HZQGH7kaWCB94Xy8Mhw2",
+      "source": "lNmddXrT8IHVtWobh3-oq",
+      "target": "T4AhL9Zls2iNZMituGdtl",
+      "source_handle": "x2",
+      "target_handle": "w2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__4U-HZQGH7kaWCB94Xy8Mhy2-KyKMZ8Aa5XUAIWelGTiStz1",
+      "source": "T4AhL9Zls2iNZMituGdtl",
+      "target": "KyKMZ8Aa5XUAIWelGTiSt",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__T4AhL9Zls2iNZMituGdtlx2-4U-HZQGH7kaWCB94Xy8Mhw1",
+      "source": "T4AhL9Zls2iNZMituGdtl",
+      "target": "fnujIq6QAFB6bmTisuZ3T",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__4U-HZQGH7kaWCB94Xy8Mhz2-GFGhnx5xUer2DdRI-SO4Dy2",
+      "source": "fnujIq6QAFB6bmTisuZ3T",
+      "target": "GFGhnx5xUer2DdRI-SO4D",
+      "source_handle": "z2",
+      "target_handle": "y2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__4U-HZQGH7kaWCB94Xy8Mhz2-kkH9H9Qh1FD7sLItoWw69y2",
+      "source": "fnujIq6QAFB6bmTisuZ3T",
+      "target": "kkH9H9Qh1FD7sLItoWw69",
+      "source_handle": "z2",
+      "target_handle": "y2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__4U-HZQGH7kaWCB94Xy8Mhz2-OFhyYyxtrCBy_UUb5YBv5y1",
+      "source": "fnujIq6QAFB6bmTisuZ3T",
+      "target": "OFhyYyxtrCBy_UUb5YBv5",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__4U-HZQGH7kaWCB94Xy8Mhz2-hHFR59RrdMIWxcQe72qCsy1",
+      "source": "fnujIq6QAFB6bmTisuZ3T",
+      "target": "hHFR59RrdMIWxcQe72qCs",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__4U-HZQGH7kaWCB94Xy8Mhz2-V34mZCkpoT49o-74XoATSy1",
+      "source": "fnujIq6QAFB6bmTisuZ3T",
+      "target": "V34mZCkpoT49o-74XoATS",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__h3ypxGxeHDCTxURHg6D2dz2-8bn1PFd9h0ek6_T-cl1cSy1",
+      "source": "GrFL32pZ_eOmdJRzSlH8b",
+      "target": "8bn1PFd9h0ek6_T-cl1cS",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__h3ypxGxeHDCTxURHg6D2dz2-UqCpoPzYio3ng3RFlbvZ7y1",
+      "source": "GrFL32pZ_eOmdJRzSlH8b",
+      "target": "UqCpoPzYio3ng3RFlbvZ7",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__4U-HZQGH7kaWCB94Xy8Mhy2-h3ypxGxeHDCTxURHg6D2dz1",
+      "source": "fnujIq6QAFB6bmTisuZ3T",
+      "target": "x-OZCZcX6uhN3Yr5BAATn",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__HiUbRfOv8OttFd85pDUHNz2-4U-HZQGH7kaWCB94Xy8Mhy2",
+      "source": "HiUbRfOv8OttFd85pDUHN",
+      "target": "ervpuL89myBW3oR9r-4lH",
+      "source_handle": "z2",
+      "target_handle": "y2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__4U-HZQGH7kaWCB94Xy8Mhx2-wB0D9koC6jpt1rzX8F07Fw1",
+      "source": "ervpuL89myBW3oR9r-4lH",
+      "target": "wB0D9koC6jpt1rzX8F07F",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__ervpuL89myBW3oR9r-4lHz2-4U-HZQGH7kaWCB94Xy8Mhw1",
+      "source": "ervpuL89myBW3oR9r-4lH",
+      "target": "7GBV5sfOaGxHwpkNUvFWE",
+      "source_handle": "z2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "smoothstep",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__7GBV5sfOaGxHwpkNUvFWEy2-4U-HZQGH7kaWCB94Xy8Mhz1",
+      "source": "7GBV5sfOaGxHwpkNUvFWE",
+      "target": "CAQJaGs24wx1SqKOU44aB",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__CAQJaGs24wx1SqKOU44aBy2-4U-HZQGH7kaWCB94Xy8Mhz2",
+      "source": "CAQJaGs24wx1SqKOU44aB",
+      "target": "GYdz9a1yLiewAeMRSyfLr",
+      "source_handle": "y2",
+      "target_handle": "z2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__4U-HZQGH7kaWCB94Xy8Mhy2-nk6zdVNRz_xE71mVUOFsiz1",
+      "source": "GYdz9a1yLiewAeMRSyfLr",
+      "target": "nk6zdVNRz_xE71mVUOFsi",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__4U-HZQGH7kaWCB94Xy8Mhy2-Jr2iuQqyCbx6CyTJj4Qz2z1",
+      "source": "GYdz9a1yLiewAeMRSyfLr",
+      "target": "Jr2iuQqyCbx6CyTJj4Qz2",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__4U-HZQGH7kaWCB94Xy8Mhy2-xf7L5J42yQq3LE7lG2plpz1",
+      "source": "GYdz9a1yLiewAeMRSyfLr",
+      "target": "xf7L5J42yQq3LE7lG2plp",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__4U-HZQGH7kaWCB94Xy8Mhy2-oK8z23a_CjcDjBJ843_Jnz2",
+      "source": "GYdz9a1yLiewAeMRSyfLr",
+      "target": "3NLcPO-hqQV1EacoPLVrv",
+      "source_handle": "y2",
+      "target_handle": "z2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__4U-HZQGH7kaWCB94Xy8Mhy2-A7ZIe8nlQnHU5g3LM3Eifz1",
+      "source": "GYdz9a1yLiewAeMRSyfLr",
+      "target": "A7ZIe8nlQnHU5g3LM3Eif",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__GYdz9a1yLiewAeMRSyfLrx2-4U-HZQGH7kaWCB94Xy8Mhw2",
+      "source": "GYdz9a1yLiewAeMRSyfLr",
+      "target": "dckRzKDKj-mLB3-OxwjPh",
+      "source_handle": "x2",
+      "target_handle": "w2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__dckRzKDKj-mLB3-OxwjPhx2-4U-HZQGH7kaWCB94Xy8Mhw2",
+      "source": "dckRzKDKj-mLB3-OxwjPh",
+      "target": "CGtVwhVGc8Vea5RfzJvQG",
+      "source_handle": "x2",
+      "target_handle": "w2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__4U-HZQGH7kaWCB94Xy8Mhz2-NdjmP1bZNYriV08vb-iRwy1",
+      "source": "CGtVwhVGc8Vea5RfzJvQG",
+      "target": "NdjmP1bZNYriV08vb-iRw",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__4U-HZQGH7kaWCB94Xy8Mhz2-ee4QqFTosXNcTgoQIok8iy1",
+      "source": "CGtVwhVGc8Vea5RfzJvQG",
+      "target": "ee4QqFTosXNcTgoQIok8i",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__4U-HZQGH7kaWCB94Xy8Mhz2-LRBHwYiT0Yyi18PwR49rcy1",
+      "source": "CGtVwhVGc8Vea5RfzJvQG",
+      "target": "LRBHwYiT0Yyi18PwR49rc",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__CGtVwhVGc8Vea5RfzJvQGx2-4U-HZQGH7kaWCB94Xy8Mhw2",
+      "source": "CGtVwhVGc8Vea5RfzJvQG",
+      "target": "w0WW1kg_0BEMeLa1l2gb5",
+      "source_handle": "x2",
+      "target_handle": "w2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__w0WW1kg_0BEMeLa1l2gb5x2-4U-HZQGH7kaWCB94Xy8Mhw1",
+      "source": "w0WW1kg_0BEMeLa1l2gb5",
+      "target": "G15Aey-Spax_iUHpm1v38",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__4U-HZQGH7kaWCB94Xy8Mhz2-tR7FOWmBDYg6bn5d4YHzdy1",
+      "source": "G15Aey-Spax_iUHpm1v38",
+      "target": "tR7FOWmBDYg6bn5d4YHzd",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__G15Aey-Spax_iUHpm1v38x2-4U-HZQGH7kaWCB94Xy8Mhw2",
+      "source": "G15Aey-Spax_iUHpm1v38",
+      "target": "NIJzKzWlsciAjxUpm4K2v",
+      "source_handle": "x2",
+      "target_handle": "w2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__4U-HZQGH7kaWCB94Xy8Mhz2-LL2ZkB7BuELyY2mPQhkAjy1",
+      "source": "NIJzKzWlsciAjxUpm4K2v",
+      "target": "LL2ZkB7BuELyY2mPQhkAj",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__4U-HZQGH7kaWCB94Xy8Mhz2-PyPjHnKIWpnFHal8RuSmXy1",
+      "source": "NIJzKzWlsciAjxUpm4K2v",
+      "target": "PyPjHnKIWpnFHal8RuSmX",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__4U-HZQGH7kaWCB94Xy8Mhz2-afwB90L-q2hIwrA0LtWbGy1",
+      "source": "NIJzKzWlsciAjxUpm4K2v",
+      "target": "afwB90L-q2hIwrA0LtWbG",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__4U-HZQGH7kaWCB94Xy8Mhz2-1U3AiCDWEVEKsofWtqaviy1",
+      "source": "NIJzKzWlsciAjxUpm4K2v",
+      "target": "1U3AiCDWEVEKsofWtqavi",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__4U-HZQGH7kaWCB94Xy8Mhz2-u5I-EOnA_yt6AQsRX-qr0y2",
+      "source": "NIJzKzWlsciAjxUpm4K2v",
+      "target": "u5I-EOnA_yt6AQsRX-qr0",
+      "source_handle": "z2",
+      "target_handle": "y2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__4U-HZQGH7kaWCB94Xy8Mhz2-apXv-E6LvOuOMj3EpzwuAy1",
+      "source": "NIJzKzWlsciAjxUpm4K2v",
+      "target": "apXv-E6LvOuOMj3EpzwuA",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__NIJzKzWlsciAjxUpm4K2vy2-4U-HZQGH7kaWCB94Xy8Mhz1",
+      "source": "NIJzKzWlsciAjxUpm4K2v",
+      "target": "0BMpZDc-1rSvETwX82zON",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__0BMpZDc-1rSvETwX82zONx2-4U-HZQGH7kaWCB94Xy8Mhw1",
+      "source": "0BMpZDc-1rSvETwX82zON",
+      "target": "4U-HZQGH7kaWCB94Xy8Mh",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__4U-HZQGH7kaWCB94Xy8Mhx2-1s9Y1dUtjpW9pu74ipX99w1",
+      "source": "4U-HZQGH7kaWCB94Xy8Mh",
+      "target": "1s9Y1dUtjpW9pu74ipX99",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    }
+  ],
+  "content_crawled_at": "2026-04-06T10:11:31.125460+00:00"
+}

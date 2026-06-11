@@ -1,0 +1,5605 @@
+{
+  "id": "flutter",
+  "title": "Flutter",
+  "source_url": "https://roadmap.sh/flutter",
+  "github_url": "https://github.com/kamranahmedse/developer-roadmap/tree/master/src/data/roadmaps/flutter",
+  "crawled_at": "2026-04-06T07:36:52.603327+00:00",
+  "type": "flow",
+  "stats": {
+    "total_nodes": 129,
+    "total_edges": 53,
+    "nodes_with_content": 107
+  },
+  "node_types": [
+    "button",
+    "label",
+    "legend",
+    "paragraph",
+    "section",
+    "subtopic",
+    "title",
+    "topic",
+    "vertical"
+  ],
+  "edge_styles": [
+    "dashed",
+    "solid"
+  ],
+  "edge_line_types": [
+    "default",
+    "smoothstep"
+  ],
+  "node_type_description": {
+    "title": "Tiêu đề chính của lộ trình",
+    "topic": "Chủ đề lớn (nhóm kỹ năng)",
+    "subtopic": "Kỹ năng/công nghệ cụ thể cần học",
+    "paragraph": "Vùng text mô tả / chú thích",
+    "vertical": "Visual Connector"
+  },
+  "edge_style_description": {
+    "solid": "Kỹ năng bắt buộc / quan trọng",
+    "dashed": "Tùy chọn / gợi ý / giải pháp thay thế"
+  },
+  "nodes": [
+    {
+      "id": "5mP-UAw3ZjHClOmXevcU_",
+      "type": "vertical",
+      "label": "nút theo chiều dọc",
+      "position": {
+        "x": -112.89917160142375,
+        "y": 2282.4983647057848
+      },
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "oxNlCMcDBbk8C3Kw8rcEY",
+      "type": "vertical",
+      "label": "nút theo chiều dọc",
+      "position": {
+        "x": -230.39917160142375,
+        "y": 2282.4983647057848
+      },
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "fDeDX_IqdhW50Gw12LZgG",
+      "type": "vertical",
+      "label": "nút theo chiều dọc",
+      "position": {
+        "x": -548.798072051004,
+        "y": 2298.98064587324
+      },
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "JUN0S_NdgATxRFArC0bgV",
+      "type": "vertical",
+      "label": "nút theo chiều dọc",
+      "position": {
+        "x": -663.798072051004,
+        "y": 1999.4983647057848
+      },
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "style": {
+        "strokeDasharray": "0",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "SSg6HqXQPqLLAnro-aLX3",
+      "type": "vertical",
+      "label": "nút theo chiều dọc",
+      "position": {
+        "x": -503.7980720510041,
+        "y": 1903.5364487551285
+      },
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "G9pXbNeZhNvoAhAITWaIy",
+      "type": "vertical",
+      "label": "nút theo chiều dọc",
+      "position": {
+        "x": -663.798072051004,
+        "y": 1903.5364487551285
+      },
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "U8CNANgKT7FqoQsYZsyku",
+      "type": "vertical",
+      "label": "nút theo chiều dọc",
+      "position": {
+        "x": 255.8618127280065,
+        "y": 1521.2737248742874
+      },
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "xCj1NOkQYSULuiUOWlYFp",
+      "type": "vertical",
+      "label": "nút theo chiều dọc",
+      "position": {
+        "x": -138.14790096520323,
+        "y": 1301.2051467174065
+      },
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "rtD3LR8ks9KtCk1EFDQqI",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": 57.8618127280065,
+        "y": 1119.7051467174065
+      },
+      "size": {
+        "width": 150,
+        "height": 100
+      },
+      "style": {
+        "fontSize": 17,
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "4NfDI-vNQxBgufzYCG_SG",
+      "type": "vertical",
+      "label": "nút theo chiều dọc",
+      "position": {
+        "x": -513.798072051004,
+        "y": 804.2051467174066
+      },
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "3096G0YlAraf2CtJCmy1I",
+      "type": "vertical",
+      "label": "nút theo chiều dọc",
+      "position": {
+        "x": -671.798072051004,
+        "y": 804.2051467174066
+      },
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "Cvpnb9g1aY1tBvhWTWQie",
+      "type": "vertical",
+      "label": "nút theo chiều dọc",
+      "position": {
+        "x": -138.14790096520323,
+        "y": 541.8088490418818
+      },
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "aDmL9nN4QDtRbPDDMo98J",
+      "type": "vertical",
+      "label": "nút theo chiều dọc",
+      "position": {
+        "x": 244.8618127280065,
+        "y": 450.7051467174066
+      },
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "adCMiccu0p2zrKI-K9aA1",
+      "type": "vertical",
+      "label": "nút theo chiều dọc",
+      "position": {
+        "x": 110.3618127280065,
+        "y": 452.7051467174066
+      },
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "JqVBp4ISOz4vu49cvE6du",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": -710.298072051004,
+        "y": 601.7051467174066
+      },
+      "size": {
+        "width": 150,
+        "height": 100
+      },
+      "style": {
+        "fontSize": 17,
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "2mGGqg3ycxw4Rd7blYE-Y",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": -710.798072051004,
+        "y": 118.20514671740659
+      },
+      "size": {
+        "width": 150,
+        "height": 100
+      },
+      "style": {
+        "fontSize": 17,
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "4qvR1QQzrmoVIVCAsp92H",
+      "type": "vertical",
+      "label": "nút theo chiều dọc",
+      "position": {
+        "x": -338.13014709538743,
+        "y": 2726.9756347092084
+      },
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "HU7wZWiES3m3xl1-NYP6F",
+      "type": "title",
+      "label": "Flutter",
+      "position": {
+        "x": -275.14790096520323,
+        "y": -22.691150958118243
+      },
+      "size": {
+        "width": 122,
+        "height": 68
+      },
+      "style": {
+        "fontSize": 28,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "uqyE79OItPOX33E5FoGel",
+      "type": "vertical",
+      "label": "nút theo chiều dọc",
+      "position": {
+        "x": -224.14790096520323,
+        "y": -142.0992517776511
+      },
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.75,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "AubSeLi2nwNTUA-L3Kfn4",
+      "type": "topic",
+      "label": "Cơ bản Dart",
+      "position": {
+        "x": -350.14790096520323,
+        "y": 151.30884904188176
+      },
+      "size": {
+        "width": 305,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Dart là một ngôn ngữ lập trình đa năng, mã nguồn mở, hướng đối tượng với cú pháp kiểu C được phát triển bởi Google vào năm 2011. Mục đích của lập trình Dart là tạo giao diện người dùng (UI) cho web và ứng dụng di động. Nó cũng có thể được sử dụng để xây dựng các ứng dụng máy chủ và desktop.",
+        "links": [
+          {
+            "title": "Tổng quan về Dart",
+            "url": "https://dart.dev/overview",
+            "type": "official"
+          },
+          {
+            "title": "Dart là gì?",
+            "url": "https://www.youtube.com/watch?v=sOSd6G1qXoY",
+            "type": "video"
+          },
+          {
+            "title": "Dart trong 100 giây",
+            "url": "https://www.youtube.com/watch?v=NrO0CJCbYLA",
+            "type": "video"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Dart",
+            "url": "https://app.daily.dev/tags/dart?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "vR38pAZOfI55R7N7NLY5N",
+      "type": "subtopic",
+      "label": "Dart Pad",
+      "position": {
+        "x": 55.8618127280065,
+        "y": 45.30884904188176
+      },
+      "size": {
+        "width": 303,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "Bt3_IFhi9zkS7qIKEMT0V",
+        "color": "#2b78e4",
+        "label": "Đề xuất/Ý kiến cá nhân",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "DartPad là một công cụ trực tuyến cho phép nhà phát triển viết và chạy các đoạn mã Dart. Nó cũng có thể được sử dụng để chạy mã Flutter, khiến nó trở thành một cách thuận tiện để thử nghiệm các ứng dụng và widget Flutter mà không cần thiết lập môi trường phát triển đầy đủ.",
+        "links": [
+          {
+            "title": "DartPad",
+            "url": "https://dart.dev/tools/dartpad",
+            "type": "official"
+          },
+          {
+            "title": "DartPad trong các hướng dẫn",
+            "url": "https://dart.dev/resources/dartpad-best-practices",
+            "type": "official"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Dart",
+            "url": "https://app.daily.dev/tags/dart?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P-SbMLN-AaNMss_7X0_5N",
+      "type": "subtopic",
+      "label": "Biến",
+      "position": {
+        "x": 55.8618127280065,
+        "y": 98.30884904188176
+      },
+      "size": {
+        "width": 303,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "Bt3_IFhi9zkS7qIKEMT0V",
+        "color": "#2b78e4",
+        "label": "Đề xuất/Ý kiến cá nhân",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "Trong Flutter, các biến được sử dụng để lưu trữ giá trị. Có ba loại biến trong Flutter bao gồm biến cục bộ, biến toàn cục và biến thuộc tính (instance). Các biến trong Flutter có thể lưu trữ giá trị của nhiều kiểu dữ liệu khác nhau, chẳng hạn như số, chuỗi, boolean và nhiều hơn nữa.",
+        "links": [
+          {
+            "title": "Biến",
+            "url": "https://dart.dev/guides/language/language-tour#variables",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "TT6HoilzgmS8CAPiTTKZ0",
+      "type": "subtopic",
+      "label": "Loại dữ liệu tích hợp sẵn",
+      "position": {
+        "x": 55.8618127280065,
+        "y": 151.30884904188176
+      },
+      "size": {
+        "width": 303,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "Bt3_IFhi9zkS7qIKEMT0V",
+        "color": "#2b78e4",
+        "label": "Đề xuất/Ý kiến cá nhân",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "Có nhiều kiểu dữ liệu tích hợp sẵn, bao gồm int, double, String, bool, List, Sets, và Map. Ngoài ra còn có các kiểu dữ liệu phức tạp khác như dynamic, var, và Object trong ngôn ngữ lập trình Dart, được sử dụng trong Flutter.",
+        "links": [
+          {
+            "title": "Loại dữ liệu tích hợp sẵn",
+            "url": "https://dart.dev/language/built-in-types",
+            "type": "official"
+          },
+          {
+            "title": "Dart và Flutter: Hướng dẫn Toàn diện — Thành thạo “Các kiểu dữ liệu tích hợp sẵn”,",
+            "url": "https://medium.com/flutter-line/dart-and-flutter-mastering-built-in-types-b080ac72abfd",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Pek6vOO-qKCetTznCGv6f",
+      "type": "subtopic",
+      "label": "Hàm (Functions)",
+      "position": {
+        "x": 55.8618127280065,
+        "y": 204.30884904188176
+      },
+      "size": {
+        "width": 303,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "Bt3_IFhi9zkS7qIKEMT0V",
+        "color": "#2b78e4",
+        "label": "Đề xuất/Ý kiến cá nhân",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "Dart là một ngôn ngữ hướng đối tượng thực sự, vì vậy ngay cả các hàm cũng là đối tượng và có kiểu, Function. Điều này có nghĩa là các hàm có thể được gán cho biến hoặc truyền dưới dạng tham số cho các hàm khác. Bạn cũng có thể gọi một phiên bản của một lớp Dart như thể nó là một hàm.",
+        "links": [
+          {
+            "title": "Hàm (Functions)",
+            "url": "https://dart.dev/language/functions",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Q2S4__BB30KljB7SlquJx",
+      "type": "subtopic",
+      "label": "Operators",
+      "position": {
+        "x": 55.8618127280065,
+        "y": 257.3088490418818
+      },
+      "size": {
+        "width": 303,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "Bt3_IFhi9zkS7qIKEMT0V",
+        "color": "#2b78e4",
+        "label": "Đề xuất/Ý kiến cá nhân",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "Flutter và Dart sử dụng nhiều toán tử để thao tác dữ liệu: các toán tử số học để tính toán, các toán tử so sánh để so sánh, các toán tử logic để logic boolean, các toán tử gán để gán giá trị và toán tử ba chấm (ternary) để biểu thức điều kiện ngắn gọn, cho phép thực hiện nhiều hoạt động khác nhau trên các giá trị và biến.",
+        "links": [
+          {
+            "title": "Operators",
+            "url": "https://dart.dev/language/operators",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "keS-4La_a227quDYYbOJT",
+      "type": "subtopic",
+      "label": "Các câu lệnh điều khiển luồng",
+      "position": {
+        "x": 55.8618127280065,
+        "y": 310.3088490418818
+      },
+      "size": {
+        "width": 303,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "Bt3_IFhi9zkS7qIKEMT0V",
+        "color": "#2b78e4",
+        "label": "Đề xuất/Ý kiến cá nhân",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "Luồng điều khiển trong Dart quản lý thực thi chương trình: `if-else` cho logic điều kiện, `for`, `while`, và `do-while` vòng lặp cho lặp lại, `switch-case` cho lựa chọn nhiều đường dẫn và `break` và `continue` để thay đổi hành vi của vòng lặp, cho phép logic chương trình phức tạp.",
+        "links": [
+          {
+            "title": "Cây nhánh (Branches)",
+            "url": "https://dart.dev/language/branches",
+            "type": "official"
+          },
+          {
+            "title": "Vòng lặp",
+            "url": "https://dart.dev/language/loops",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "HCJXVgnglYuRhK0zl3iPG",
+      "type": "topic",
+      "label": "Môi trường Phát triển (Development Environment)",
+      "position": {
+        "x": -350.14790096520323,
+        "y": 204.7051467174066
+      },
+      "size": {
+        "width": 305,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Để thiết lập môi trường phát triển cho Flutter, bạn cần cài đặt các phần mềm sau: *   Flutter SDK: Tải xuống và cài đặt phiên bản Flutter SDK mới nhất từ trang web chính thức. *   Môi trường Phát triển Nhập vai (IDE): Bạn có thể sử dụng Android Studio, Visual Studio Code, IntelliJ IDEA hoặc bất kỳ IDE nào khác của bạn. *   Máy ảo hoặc thiết bị vật lý: Bạn có thể sử dụng máy ảo hoặc thiết bị vật lý để chạy và kiểm thử các ứng dụng Flutter của mình. Bạn có thể sử dụng trình mô phỏng Android được cung cấp bởi Android Studio hoặc sử dụng thiết bị Android hoặc iOS thực tế. *   Git: Git được sử dụng cho quản lý phiên bản và được khuyến nghị cho phát triển Flutter. Bạn có thể tải xuống và cài đặt Git. *   Dart SDK: Dart là ngôn ngữ lập trình được sử dụng bởi Flutter, và Dart SDK là cần thiết để phát triển các ứng dụng Flutter. Dart SDK được bao gồm trong Flutter SDK. Sau khi đã cài đặt tất cả phần mềm cần thiết, bạn có thể tạo một dự án Flutter mới bằng Flutter CLI hoặc IDE của mình và bắt đầu xây dựng ứng dụng của bạn.",
+        "links": [
+          {
+            "title": "Bắt đầu với Flutter",
+            "url": "https://docs.flutter.dev/get-started/install",
+            "type": "official"
+          },
+          {
+            "title": "Cài đặt Dart SDK",
+            "url": "https://dart.dev/get-dart",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FrbleiQ4BbIEbR4_v9o8N",
+      "type": "subtopic",
+      "label": "Flutter CLI",
+      "position": {
+        "x": -710.4579568300146,
+        "y": 62.30884904188176
+      },
+      "size": {
+        "width": 127,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "Bt3_IFhi9zkS7qIKEMT0V",
+        "color": "#2b78e4",
+        "label": "Đề xuất/Ý kiến cá nhân",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "Flutter CLI (Command Line Interface) là một công cụ dòng lệnh được sử dụng để phát triển, xây dựng và chạy các ứng dụng Flutter. Nó cung cấp một tập hợp các lệnh và công cụ mà nhà phát triển có thể sử dụng để tạo, kiểm tra và triển khai các ứng dụng Flutter từ terminal. Một số tác vụ phổ biến có thể thực hiện bằng Flutter CLI bao gồm: *   Tạo một dự án Flutter mới *   Chạy ứng dụng Flutter trên thiết bị hoặc máy ảo được kết nối *   Xây dựng và triển khai ứng dụng Flutter lên cửa hàng ứng dụng *   Cập nhật khung Flutter và các gói *   Phân tích hiệu suất của các ứng dụng Flutter",
+        "links": [
+          {
+            "title": "Flutter CLI",
+            "url": "https://docs.flutter.dev/reference/flutter-cli",
+            "type": "official"
+          },
+          {
+            "title": "Các gói CLI (Command Line Interface) trong Flutter",
+            "url": "https://dart.dev/server/libraries#command-line-packages",
+            "type": "official"
+          },
+          {
+            "title": "Bắt đầu với Flutter CLI",
+            "url": "https://dart.dev/tutorials/server/get-started",
+            "type": "official"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về CLI",
+            "url": "https://app.daily.dev/tags/cli?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "m92WPPeZUIeD8IgunLXe2",
+      "type": "subtopic",
+      "label": "FVM",
+      "position": {
+        "x": -578.4579568300146,
+        "y": 62.30884904188176
+      },
+      "size": {
+        "width": 80,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Trình quản lý phiên bản Flutter là một công cụ được sử dụng để quản lý các phiên bản khác nhau của SDK Flutter trên máy tính của nhà phát triển. Flutter là một khung phát triển ứng dụng di động nguồn mở phổ biến và SDK của nó thường xuyên được cập nhật với các tính năng mới, sửa lỗi và cải tiến. Tuy nhiên, đôi khi các nhà phát triển cần làm việc với các phiên bản cũ hơn của Flutter do các vấn đề tương thích hoặc yêu cầu dự án.",
+        "links": [
+          {
+            "title": "Flutter Version Manager",
+            "url": "https://fvm.app/",
+            "type": "official"
+          },
+          {
+            "title": "Flutter Version Manager - Tài Liệu",
+            "url": "https://fvm.app/documentation/getting-started",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tg16K0Wjugv4ytayHfgTw",
+      "type": "label",
+      "label": "Môi trường phát triển tích hợp (IDEs)",
+      "position": {
+        "x": -631.4579568300146,
+        "y": 127.30884904188176
+      },
+      "size": {
+        "width": 53,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "HMDsgljLshA63XX-hhAxV",
+      "type": "subtopic",
+      "label": "VS Code",
+      "position": {
+        "x": -696.4579568300146,
+        "y": 169.30884904188179
+      },
+      "size": {
+        "width": 173,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "Bt3_IFhi9zkS7qIKEMT0V",
+        "color": "#2b78e4",
+        "label": "Đề xuất/Ý kiến cá nhân",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "VS Code là một trình soạn thảo mã nhẹ, nhanh và có thể tùy chỉnh cao, cung cấp hỗ trợ tuyệt vời cho phát triển Flutter. Để sử dụng VS Code để phát triển Flutter, bạn phải cài đặt các plugin Flutter và Dart cho VS Code. Các plugin này hỗ trợ các tính năng cụ thể của Flutter như tô màu cú pháp, gỡ lỗi và tải lại nóng. Với tiện ích mở rộng Flutter, VS Code cung cấp các công cụ phát triển cần thiết bao gồm: * Kiểm tra widget Flutter * Tải lại nóng và khởi động lại nóng * Gỡ lỗi tích hợp * Hoàn thành mã và IntelliSense * Trình xem outline Flutter * Quản lý thiết bị * Terminal tích hợp. VS Code đặc biệt phổ biến trong số những nhà phát triển thích một IDE nhẹ với hiệu suất nhanh, các tùy chọn tùy chỉnh rộng lớn và khả năng có sẵn trên nhiều nền tảng.",
+        "links": [
+          {
+            "title": "VS Code cho Flutter",
+            "url": "https://docs.flutter.dev/development/tools/vs-code",
+            "type": "official"
+          },
+          {
+            "title": "Mở rộng Flutter cho VS Code",
+            "url": "https://marketplace.visualstudio.com/items?itemName=Dart-Code.flutter",
+            "type": "official"
+          },
+          {
+            "title": "Mở rộng Dart cho VS Code",
+            "url": "https://marketplace.visualstudio.com/items?itemName=Dart-Code.dart-code",
+            "type": "official"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Flutter",
+            "url": "https://app.daily.dev/tags/flutter?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "QHPiMRg4IJXDErrEYamrJ",
+      "type": "subtopic",
+      "label": "Android Studio",
+      "position": {
+        "x": -696.4579568300146,
+        "y": 222.30884904188179
+      },
+      "size": {
+        "width": 173,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "k3w1z-jvosI6y3y7yQIaV",
+        "color": "#147a00",
+        "label": "Lựa chọn Thay thế - Chọn cái này hoặc tím",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "Android Studio là một IDE (Môi trường phát triển tích hợp) có thể được sử dụng để phát triển các ứng dụng Flutter cũng như các ứng dụng Android. Flutter là một toolkit giao diện người dùng để xây dựng các ứng dụng đẹp, biên dịch native cho di động, web và desktop từ một codebase duy nhất. Trong Android Studio, nhà phát triển có thể sử dụng plugin Flutter để truy cập một bộ công cụ được thiết kế đặc biệt cho phát triển Flutter, bao gồm: * Widget inspector Flutter * Outline Flutter * Cây render Flutter * Công cụ hiệu suất Flutter * Khám phá bố cục Flutter. Bằng cách cung cấp một bộ công cụ và tính năng phong phú cho phát triển Flutter, Android Studio giúp các nhà phát triển dễ dàng xây dựng, kiểm thử và gỡ lỗi các ứng dụng Flutter.",
+        "links": [
+          {
+            "title": "Android Studio cho Flutter",
+            "url": "https://docs.flutter.dev/development/tools/android-studio",
+            "type": "official"
+          },
+          {
+            "title": "Bắt đầu với Android Studio",
+            "url": "https://dart.dev/tools/jetbrains-plugin",
+            "type": "official"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Android",
+            "url": "https://app.daily.dev/tags/android?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "lkABkFigkVzl1x4_8xEZz",
+      "type": "subtopic",
+      "label": "IntelliJ Idea",
+      "position": {
+        "x": -696.4579568300146,
+        "y": 275.3088490418818
+      },
+      "size": {
+        "width": 173,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "k3w1z-jvosI6y3y7yQIaV",
+        "color": "#147a00",
+        "label": "Lựa chọn Thay thế - Chọn cái này hoặc tím",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "IntelliJ IDEA là một Môi trường Phát triển Nhúng (IDE) mạnh mẽ được tạo bởi JetBrains. Về cơ bản, đó là một ứng dụng phần mềm cung cấp các tiện ích toàn diện để lập trình viên phát triển phần mềm.",
+        "links": [
+          {
+            "title": "IntelliJ IDEA",
+            "url": "https://www.jetbrains.com/idea/",
+            "type": "official"
+          },
+          {
+            "title": "IntelliJ IDEA cho Flutter",
+            "url": "https://docs.flutter.dev/development/tools/android-studio",
+            "type": "article"
+          },
+          {
+            "title": "Bắt đầu với IntelliJ",
+            "url": "https://dart.dev/tools/jetbrains-plugin",
+            "type": "article"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về DevTools",
+            "url": "https://app.daily.dev/tags/devtools?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dy2Jep9hIIECaLutx-3K0",
+      "type": "topic",
+      "label": "Widget",
+      "position": {
+        "x": -350.14790096520323,
+        "y": 429.3088490418818
+      },
+      "size": {
+        "width": 305,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Widget trong Flutter là các khối xây dựng cơ bản của giao diện người dùng. Chúng định nghĩa giao diện người dùng trông và hoạt động như thế nào. Các widget có thể được kết hợp để tạo ra các giao diện người dùng phức tạp và có thể dễ dàng tùy chỉnh. Widget trong Flutter cũng được thiết kế để có thể tái sử dụng cao, cho phép nhà phát triển xây dựng các giao diện người dùng phức tạp một cách nhanh chóng và hiệu quả.",
+        "links": [
+          {
+            "title": "Giới thiệu về Widget",
+            "url": "https://docs.flutter.dev/development/ui/widgets-intro",
+            "type": "official"
+          },
+          {
+            "title": "Danh mục Widget",
+            "url": "https://docs.flutter.dev/development/ui/widgets",
+            "type": "official"
+          },
+          {
+            "title": "Flutter Widgets Explained",
+            "url": "https://www.youtube.com/watch?v=FU2Eeizo95o",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "lCpJQ8GZp5KhpGO4Sttgu",
+      "type": "subtopic",
+      "label": "Widget Responsive",
+      "position": {
+        "x": -710.298072051004,
+        "y": 376.3088490418818
+      },
+      "size": {
+        "width": 242,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "Bt3_IFhi9zkS7qIKEMT0V",
+        "color": "#2b78e4",
+        "label": "Đề xuất/Ý kiến cá nhân",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "Các widget Responsive trong Dart, chủ yếu trong Flutter, là rất quan trọng để xây dựng các ứng dụng có thể thích ứng với nhiều kích thước màn hình và hướng. Các nhà phát triển đạt được khả năng thích ứng này bằng cách sử dụng các công cụ như `LayoutBuilder` để phản hồi với không gian có sẵn, `MediaQuery` để thu thập thông tin thiết bị và `Expanded` và `Flexible` để phân phối không gian động. `AspectRatio` duy trì tỷ lệ, `OrientationBuilder` điều chỉnh cho chế độ chân dung hoặc phong cảnh, và `Wrap` xử lý tràn bằng cách di chuyển các widget sang các dòng mới. Các widget thích ứng và bố cục tùy chỉnh giúp tăng cường khả năng đáp ứng cụ thể của nền tảng. Bằng cách sử dụng các kỹ thuật này và xem xét breakpoints và kiểm thử kỹ lưỡng, các nhà phát triển có thể tạo ra các ứng dụng Flutter cung cấp trải nghiệm người dùng nhất quán và tối ưu trên nhiều thiết bị.",
+        "links": [
+          {
+            "title": "Widget Responsive",
+            "url": "https://docs.flutter.dev/ui/layout/adaptive-responsive",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "DKt8U-iZcrXU5gWGRONqZ",
+      "type": "subtopic",
+      "label": "Widget Kế thừa",
+      "position": {
+        "x": -710.298072051004,
+        "y": 429.3088490418818
+      },
+      "size": {
+        "width": 242,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "Bt3_IFhi9zkS7qIKEMT0V",
+        "color": "#2b78e4",
+        "label": "Đề xuất/Ý kiến cá nhân",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "Widget kế thừa trong Flutter là một cơ chế mạnh mẽ để truyền tải hiệu quả dữ liệu xuống cây widget. Chúng về bản chất tạo ra một phạm vi dữ liệu chung mà các widget con có thể truy cập mà không cần phải truyền dữ liệu thông qua các trình xây dựng. Khi một widget cần truy cập dữ liệu từ một tổ tiên, nó có thể chỉ đơn giản là tìm kiếm widget kế thừa gần nhất của loại mong muốn.",
+        "links": [
+          {
+            "title": "Widget Kế thừa",
+            "url": "https://api.flutter.dev/flutter/widgets/InheritedWidget-class.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "e-m4iKuK6NqFaQLE5viNI",
+      "type": "subtopic",
+      "label": "Widget Stateless",
+      "position": {
+        "x": -710.298072051004,
+        "y": 482.3088490418818
+      },
+      "size": {
+        "width": 242,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "Bt3_IFhi9zkS7qIKEMT0V",
+        "color": "#2b78e4",
+        "label": "Đề xuất/Ý kiến cá nhân",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "Widget Stateless trong Flutter là các widget không duy trì bất kỳ trạng thái nào có thể sửa đổi. Chúng được thiết kế để không thay đổi và tái tạo mỗi khi framework cần cập nhật giao diện người dùng. Chúng phù hợp cho các view tĩnh, không đổi hoặc các hiệu ứng đơn giản. Chúng có thể được tạo bằng lớp `StatelessWidget` và có một phương thức build duy nhất trả về cây widget.",
+        "links": [
+          {
+            "title": "Lớp StatelessWidget",
+            "url": "https://api.flutter.dev/flutter/widgets/StatelessWidget-class.html",
+            "type": "official"
+          },
+          {
+            "title": "Làm thế nào để tạo Stateless Widgets?",
+            "url": "https://medium.com/flutter/how-to-create-stateless-widgets-6f33931d859",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "07tpSQeeMLKggWwdUXAej",
+      "type": "subtopic",
+      "label": "Widget Stateful",
+      "position": {
+        "x": -710.298072051004,
+        "y": 535.3088490418818
+      },
+      "size": {
+        "width": 242,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "Bt3_IFhi9zkS7qIKEMT0V",
+        "color": "#2b78e4",
+        "label": "Đề xuất/Ý kiến cá nhân",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "Một widget trạng thái là động: ví dụ, nó có thể thay đổi giao diện của mình khi phản hồi với các sự kiện được kích hoạt bởi tương tác người dùng hoặc khi nhận dữ liệu. Checkbox, Radio, Slider, InkWell, Form và TextField là những ví dụ về các widget trạng thái.",
+        "links": [
+          {
+            "title": "StatelessWidget",
+            "url": "https://api.flutter.dev/flutter/widgets/StatefulWidget-class.html",
+            "type": "official"
+          },
+          {
+            "title": "Flutter Tutorial - Widget Stateful",
+            "url": "https://www.youtube.com/watch?v=p5dkB3Mrxdo",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "wBSdmrVPv3Zuys3X8VvBm",
+      "type": "subtopic",
+      "label": "Widget được thiết kế và tùy chỉnh giao diện.",
+      "position": {
+        "x": -710.298072051004,
+        "y": 588.3088490418818
+      },
+      "size": {
+        "width": 242,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "Bt3_IFhi9zkS7qIKEMT0V",
+        "color": "#2b78e4",
+        "label": "Đề xuất/Ý kiến cá nhân",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "Các widget kiểu dáng trong Flutter đề cập đến các widget được trang trí bằng các kiểu dáng tùy chỉnh như màu sắc, phông chữ, hình dạng và thuộc tính trực quan. Chúng giúp tạo ra giao diện người dùng nhất quán và hấp dẫn về mặt thị giác bằng cách áp dụng chủ đề và kiểu dáng trên toàn ứng dụng của bạn. Flutter cung cấp hai hệ thống thiết kế chính cho các widget kiểu dáng:\n\n*   **Material Widgets** - Các thành phần Material Design của Google với kiểu dáng, hoạt ảnh và chủ đề tích hợp sẵn\n*   **Cupertino Widgets** - Các widget ngôn ngữ thiết kế iOS của Apple mang lại cảm giác iOS gốc\n\nBạn có thể tùy chỉnh các widget kiểu dáng thông qua:\n\n*   **ThemeData** để kiểu dáng trên toàn ứng dụng và bố cục màu sắc\n*   **Thuộc tính của từng widget** như màu, lề, và trang trí\n*   **Chủ đề tùy chỉnh** bằng ThemeExtension cho kiểu dáng thành phần có thể tái sử dụng\n*   **BoxDecoration** để viền, bóng đổ, gradient và nền\n*   **TextStyles** để kiểu typography và tùy chỉnh phông chữ\n\nCác widget kiểu dáng có thể được tạo ra bằng cách bao bọc các widget hiện có với các container kiểu dáng như Container, DecoratedBox hoặc Theme widgets, hoặc bằng cách sử dụng các thuộc tính kiểu dáng tích hợp sẵn của Material và Cupertino widgets.",
+        "links": [
+          {
+            "title": "Sử dụng chủ đề để chia sẻ màu sắc và kiểu font chữ",
+            "url": "https://docs.flutter.dev/cookbook/design/themes",
+            "type": "official"
+          },
+          {
+            "title": "Thiết kế giao diện các widget.",
+            "url": "https://docs.flutter.dev/ui/widgets/styling",
+            "type": "official"
+          },
+          {
+            "title": "L theming Vật liệu",
+            "url": "https://docs.flutter.dev/ui/design/material",
+            "type": "official"
+          },
+          {
+            "title": "Theme Cupertino",
+            "url": "https://docs.flutter.dev/ui/design/cupertino",
+            "type": "official"
+          },
+          {
+            "title": "Widget được thiết kế (styled)",
+            "url": "https://pub.dev/packages/styled_widget",
+            "type": "official"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Flutter",
+            "url": "https://app.daily.dev/tags/flutter?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "DrQqq-C8XdiXVXBMLS4Wy",
+      "type": "subtopic",
+      "label": "Widget Vật liệu",
+      "position": {
+        "x": -698.4579568300146,
+        "y": 652.3088490418818
+      },
+      "size": {
+        "width": 220,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "k3w1z-jvosI6y3y7yQIaV",
+        "color": "#147a00",
+        "label": "Lựa chọn Thay thế - Chọn cái này hoặc tím",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "Widget Vật liệu là một tập hợp các widget Flutter thực hiện Thiết kế Vật liệu, ngôn ngữ trực quan của Google cho thiết kế. Chúng được thiết kế để cung cấp một giao diện nhất quán trên cả Android và iOS. Các widget này thường được sử dụng trong ứng dụng Flutter để cung cấp một cảm giác quen thuộc tuân theo hướng dẫn Thiết kế Vật liệu.",
+        "links": [
+          {
+            "title": "Thành phần Vật liệu Widget",
+            "url": "https://docs.flutter.dev/development/ui/widgets/material",
+            "type": "official"
+          },
+          {
+            "title": "Danh mục Widget trong Flutter",
+            "url": "https://docs.flutter.dev/development/ui/widgets",
+            "type": "official"
+          },
+          {
+            "title": "Hướng dẫn Thiết kế Vật liệu",
+            "url": "https://m2.material.io/design/guidelines-overview",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L8oUQA4OAINr-WshHaOPZ",
+      "type": "subtopic",
+      "label": "Widget Cupertino",
+      "position": {
+        "x": -698.4579568300146,
+        "y": 705.3088490418818
+      },
+      "size": {
+        "width": 220,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "k3w1z-jvosI6y3y7yQIaV",
+        "color": "#147a00",
+        "label": "Lựa chọn Thay thế - Chọn cái này hoặc tím",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "Widget Cupertino là một tập hợp các widget Flutter mô phỏng giao diện người dùng của Apple's iOS. Chúng được thiết kế để cung cấp trải nghiệm nhất quán trên cả thiết bị iOS và Android, bao gồm các widget như CupertinoButton, CupertinoAlertDialog và CupertinoSlider. Các widget này hữu ích cho việc xây dựng ứng dụng đa nền tảng cần tuân thủ thẩm mỹ thiết kế iOS.",
+        "links": [
+          {
+            "title": "Widget Cupertino (kiểu iOS)",
+            "url": "https://docs.flutter.dev/development/ui/widgets/cupertino",
+            "type": "official"
+          },
+          {
+            "title": "Hướng dẫn Flutter Cupertino",
+            "url": "https://blog.logrocket.com/flutter-cupertino-tutorial-build-ios-apps-native/",
+            "type": "article"
+          },
+          {
+            "title": "Widget Flutter Cupertino",
+            "url": "https://www.youtube.com/watch?v=L-TY_5NZ7z4",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "z50iixpcCMe9sTh-gwTI3",
+      "type": "topic",
+      "label": "Làm việc với Tài sản",
+      "position": {
+        "x": 57.8618127280065,
+        "y": 429.3088490418818
+      },
+      "size": {
+        "width": 305,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Tài sản là các nguồn lực như hình ảnh, phông chữ và các tệp tin khác được bao gồm trong ứng dụng của bạn. Để sử dụng tài sản trong Flutter, bạn cần chỉ định chúng trong tệp `pubspec.yaml` của ứng dụng và sau đó truy cập chúng trong mã của bạn. Tệp `pubspec.yaml` được sử dụng để quản lý các phụ thuộc, tài sản và cài đặt khác trong ứng dụng Flutter của bạn. Phần `flutter` được sử dụng để chỉ định các tài sản nên được bao gồm với ứng dụng. Đường dẫn được chỉ định trong phần `assets` nên tương đối đến tệp `pubspec.yaml`.",
+        "links": [
+          {
+            "title": "Thêm Tài sản trong Flutter",
+            "url": "https://docs.flutter.dev/development/ui/assets-and-images",
+            "type": "official"
+          },
+          {
+            "title": "Flutter Tutorial - Tài Sản (Assets)",
+            "url": "https://www.youtube.com/watch?v=Hxh6nNHSUjo",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cXsIM4rZsBChVdrm8poOp",
+      "type": "subtopic",
+      "label": "Font chữ",
+      "position": {
+        "x": 55.8618127280065,
+        "y": 521.3088490418818
+      },
+      "size": {
+        "width": 303,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "Bt3_IFhi9zkS7qIKEMT0V",
+        "color": "#2b78e4",
+        "label": "Đề xuất/Ý kiến cá nhân",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "Bạn có thể sử dụng phông chữ tùy chỉnh trong ứng dụng của mình bằng cách bao gồm tệp phông chữ trong thư mục tài sản của ứng dụng và chỉ định phông chữ đó trong các kiểu dáng của ứng dụng. Để sử dụng một phông chữ tùy chỉnh: *   Thêm các tệp phông chữ vào thư mục tài sản của ứng dụng. *   Trong tệp pubspec.yaml, hãy chỉ định phông chữ dưới phần flutter *   Trong các kiểu dáng của ứng dụng, hãy chỉ định font chữ gia đình *   Sử dụng phông chữ trong Widget Text",
+        "links": [
+          {
+            "title": "Font chữ",
+            "url": "https://docs.flutter.dev/cookbook/design/fonts",
+            "type": "official"
+          },
+          {
+            "title": "Hướng dẫn sử dụng font tùy chỉnh trong Flutter",
+            "url": "https://blog.logrocket.com/use-custom-fonts-flutter/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "7v3VFKGaRFjm87319gBpw",
+      "type": "subtopic",
+      "label": "Ảnh",
+      "position": {
+        "x": 188.8618127280065,
+        "y": 521.3088490418818
+      },
+      "size": {
+        "width": 303,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "k3w1z-jvosI6y3y7yQIaV",
+        "color": "#147a00",
+        "label": "Lựa chọn Thay thế - Chọn cái này hoặc tím",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "Trong Flutter, bạn có thể hiển thị hình ảnh bằng widget `Image`. Có một vài cách để thêm hình ảnh vào ứng dụng của bạn: *   Asset: Thêm hình ảnh vào tài sản của ứng dụng và chỉ định đường dẫn tài sản trong widget `Image`. *   Network: Hiển thị hình ảnh từ URL bằng cách chỉ định URL trong widget `Image`. *   File: Hiển thị hình ảnh từ tệp bằng cách chỉ định đường dẫn tệp trong widget `Image`. Widget `Image` cũng chấp nhận các tham số bổ sung như `fit`, `width` và `height` để kiểm soát kích thước và tỷ lệ của hình ảnh.",
+        "links": [
+          {
+            "title": "Thêm Tài sản và Hình ảnh",
+            "url": "https://docs.flutter.dev/development/ui/assets-and-images",
+            "type": "official"
+          },
+          {
+            "title": "Ảnh trong Flutter",
+            "url": "https://docs.flutter.dev/cookbook/images",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "WnG31VsKQRlxGX85qNIum",
+      "type": "subtopic",
+      "label": "Other File Types",
+      "position": {
+        "x": 57.8618127280065,
+        "y": 574.3088490418818
+      },
+      "size": {
+        "width": 303,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "k3w1z-jvosI6y3y7yQIaV",
+        "color": "#147a00",
+        "label": "Lựa chọn Thay thế - Chọn cái này hoặc tím",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "Trong Flutter, bạn có thể làm việc với nhiều kiểu tệp khác ngoài hình ảnh. Một số kiểu tệp phổ biến mà bạn có thể sử dụng trong Flutter bao gồm: 1.  Tệp văn bản: Bạn có thể đọc hoặc ghi các tệp văn bản bằng thư viện dart:io. 2.  Tệp JSON: Bạn có thể phân tích dữ liệu JSON bằng thư viện dart:convert. 3.  Tệp âm thanh và video: Bạn có thể phát các tệp âm thanh và video bằng các gói video_player và audioplayers. 4.  Tệp PDF: Bạn có thể hiển thị các tệp PDF bằng gói pdf.",
+        "links": [
+          {
+            "title": "Phân loại Tệp",
+            "url": "https://api.flutter.dev/flutter/dart-io/File-class.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2nz5JoAPsZftFNLypr3Is",
+      "type": "topic",
+      "label": "Hệ thống Kiểm soát Phiên bản",
+      "position": {
+        "x": -350.14790096520323,
+        "y": 603.3088490418818
+      },
+      "size": {
+        "width": 305,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Hệ thống quản lý phiên bản cho phép bạn theo dõi các thay đổi đối với mã nguồn/tệp tin của mình theo thời gian. Chúng cho phép bạn quay lại một phiên bản trước đó của mã nguồn mà không gặp vấn đề gì. Ngoài ra, chúng còn hỗ trợ cộng tác với những người đang làm việc trên cùng một mã – nếu bạn đã từng cộng tác với những người khác trong một dự án, bạn có thể đã biết sự khó chịu khi sao chép và hợp nhất các thay đổi từ người khác vào mã nguồn của mình; hệ thống quản lý phiên bản giúp loại bỏ vấn đề này.",
+        "links": [
+          {
+            "title": "Điều khiển phiên bản là gì? - GitHub",
+            "url": "https://github.com/resources/articles/software-development/what-is-version-control",
+            "type": "article"
+          },
+          {
+            "title": "Điều khiển phiên bản là gì? - Atlassian",
+            "url": "https://www.atlassian.com/git/tutorials/what-is-version-control",
+            "type": "article"
+          },
+          {
+            "title": "Giới thiệu Hệ thống Kiểm soát phiên bản",
+            "url": "https://www.youtube.com/watch?v=zbKdDsNNOhg",
+            "type": "video"
+          },
+          {
+            "title": "Khóa học Git & GitHub dành cho người mới bắt đầu",
+            "url": "https://www.youtube.com/watch?v=SWYqp7iY_Tc",
+            "type": "video"
+          },
+          {
+            "title": "Học Git trong 20 Phút",
+            "url": "https://youtu.be/Y9XZQO1n_7c?t=21",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "yQyIPT09n62f1v8JbkoYJ",
+      "type": "subtopic",
+      "label": "Git",
+      "position": {
+        "x": -178.14790096520323,
+        "y": 521.3088490418818
+      },
+      "size": {
+        "width": 303,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "Bt3_IFhi9zkS7qIKEMT0V",
+        "color": "#2b78e4",
+        "label": "Đề xuất/Ý kiến cá nhân",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "Git là một hệ thống quản lý phiên bản phân tán nguồn mở và miễn phí, được thiết kế để xử lý mọi quy mô dự án, từ nhỏ đến rất lớn với tốc độ và hiệu quả.",
+        "links": [
+          {
+            "title": "Truy cập Bản đồ Chiến lược Git & GitHub Đích Điểm",
+            "url": "https://dev-path-murex.vercel.app/roadmap/git-github",
+            "type": "roadmap"
+          },
+          {
+            "title": "Tài liệu Git",
+            "url": "https://git-scm.com/",
+            "type": "official"
+          },
+          {
+            "title": "Học Git với Hướng dẫn, Tin tức và Thủ thuật - Atlassian",
+            "url": "https://www.atlassian.com/git",
+            "type": "article"
+          },
+          {
+            "title": "Tài liệu Sơ đồ Tư duy Git",
+            "url": "https://cs.fyi/guide/git-cheatsheet",
+            "type": "article"
+          },
+          {
+            "title": "Khóa học Git & GitHub dành cho người mới bắt đầu",
+            "url": "https://www.youtube.com/watch?v=SWYqp7iY_Tc",
+            "type": "video"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Git",
+            "url": "https://app.daily.dev/tags/git?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "qGN95GG0Q3dur72GS3EDX",
+      "type": "topic",
+      "label": "Dịch vụ lưu trữ kho mã (Repo Hosting Services)",
+      "position": {
+        "x": -350.14790096520323,
+        "y": 656.7051467174066
+      },
+      "size": {
+        "width": 305,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Nhiều dịch vụ lưu trữ kho lưu trữ phổ biến, bao gồm GitHub, GitLab, Bitbucket, AWS CodeCommit và Azure DevOps, hỗ trợ phát triển Flutter bằng cách cung cấp quản lý kho Git, theo dõi vấn đề và các công cụ cộng tác. Khi chọn một dịch vụ, các nhà phát triển nên xem xét các yếu tố như nhu cầu dự án, khả năng mở rộng, chi phí, tính dễ sử dụng, tích hợp và hỗ trợ công cụ của bên thứ ba để đảm bảo nền tảng được lựa chọn phù hợp với các yêu cầu cụ thể của họ.",
+        "links": [
+          {
+            "title": "GitHub",
+            "url": "https://github.com/",
+            "type": "official"
+          },
+          {
+            "title": "GitLab",
+            "url": "https://gitlab.com/",
+            "type": "official"
+          },
+          {
+            "title": "Azure",
+            "url": "https://azure.microsoft.com/",
+            "type": "official"
+          },
+          {
+            "title": "Triển khai ứng dụng Web Flutter như thế nào?",
+            "url": "https://medium.com/solute-labs/flutter-for-web-how-to-deploy-a-flutter-web-app-c7d9db7ced2e",
+            "type": "article"
+          },
+          {
+            "title": "Triển khai - Flutter",
+            "url": "https://docs.flutter.dev/deployment/web#deploying-to-the-web",
+            "type": "article"
+          },
+          {
+            "title": "Tải Host Website Flutter lên GitHub Pages",
+            "url": "https://www.youtube.com/watch?v=z-yOqoQ2q6s",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "V0R4VyQ64Bwwj6O8XbZyF",
+      "type": "subtopic",
+      "label": "GitHub",
+      "position": {
+        "x": 56.8618127280065,
+        "y": 656.7051467174066
+      },
+      "size": {
+        "width": 303,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "Bt3_IFhi9zkS7qIKEMT0V",
+        "color": "#2b78e4",
+        "label": "Đề xuất/Ý kiến cá nhân",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "GitHub là một nền tảng dựa trên web cung cấp lưu trữ cho phát triển phần mềm và kiểm soát phiên bản bằng Git. Nó được sử dụng rộng rãi bởi các nhà phát triển và tổ chức trên toàn thế giới để quản lý và cộng tác trên các dự án phần mềm.",
+        "links": [
+          {
+            "title": "Truy cập Bản đồ lộ trình chuyên dụng trên GitHub",
+            "url": "https://dev-path-murex.vercel.app/roadmap/git-github",
+            "type": "roadmap"
+          },
+          {
+            "title": "GitHub",
+            "url": "https://github.com",
+            "type": "official"
+          },
+          {
+            "title": "Tài liệu GitHub",
+            "url": "https://docs.github.com/en/get-started/quickstart",
+            "type": "official"
+          },
+          {
+            "title": "GitHub là gì?",
+            "url": "https://www.youtube.com/watch?v=w3jLJU7DT5E",
+            "type": "video"
+          },
+          {
+            "title": "Git và GitHub dành cho người mới bắt đầu – Khóa học nhanh tổng hợp",
+            "url": "https://www.youtube.com/watch?v=RGOj5yH7evk",
+            "type": "video"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về GitHub",
+            "url": "https://app.daily.dev/tags/github?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "drwRSEnl1-ziCvxWJZMJ2",
+      "type": "topic",
+      "label": "Nguyên tắc Thiết kế",
+      "position": {
+        "x": -313.64790096520323,
+        "y": 882.7051467174066
+      },
+      "size": {
+        "width": 305,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Phát triển Flutter nhấn mạnh các nguyên tắc thiết kế như Material Design, khả năng đáp ứng, lấy người dùng làm trung tâm, sự đơn giản, tính nhất quán, khả năng tiếp cận và hiệu suất để tạo ra các ứng dụng trực quan và thân thiện với người dùng hoạt động liền mạch trên nhiều thiết bị khác nhau và đáp ứng nhu cầu đa dạng của người dùng.",
+        "links": [
+          {
+            "title": "Thiết kế - Nguyên tắc",
+            "url": "https://docs.flutter.dev/cookbook/design",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "fhPl9rycPa1r10fuEuNhi",
+      "type": "subtopic",
+      "label": "Tiêm Dependencies",
+      "position": {
+        "x": 57.8618127280065,
+        "y": 773.7051467174066
+      },
+      "size": {
+        "width": 303,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "Bt3_IFhi9zkS7qIKEMT0V",
+        "color": "#2b78e4",
+        "label": "Đề xuất/Ý kiến cá nhân",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "Tiêm Dependencies là một mẫu thiết kế cho phép các đối tượng nhận các dependencies của chúng từ các nguồn bên ngoài thay vì tự tạo ra chúng. Trong Flutter, điều này có thể hữu ích để quản lý trạng thái phức tạp, giảm sự kết nối giữa các thành phần và làm cho việc kiểm thử dễ dàng hơn.",
+        "links": [
+          {
+            "title": "Tiêm Dependencies",
+            "url": "https://docs.flutter.dev/app-architecture/case-study/dependency-injection",
+            "type": "article"
+          },
+          {
+            "title": "Tiêm Dependencies trong Flutter",
+            "url": "https://medium.com/@rk0936626/dependency-injection-in-flutter-3e489ba1b988",
+            "type": "article"
+          },
+          {
+            "title": "Tiêm Dependency Flutter cho Người mới bắt đầu",
+            "url": "https://www.youtube.com/watch?v=vBT-FhgMaWM",
+            "type": "video"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Dependency Injection",
+            "url": "https://app.daily.dev/tags/dependency-injection?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "MLdt_37kpF2eV0oy56GZF",
+      "type": "subtopic",
+      "label": "Các mẫu thiết kế",
+      "position": {
+        "x": 57.8618127280065,
+        "y": 826.7051467174066
+      },
+      "size": {
+        "width": 303,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "Bt3_IFhi9zkS7qIKEMT0V",
+        "color": "#2b78e4",
+        "label": "Đề xuất/Ý kiến cá nhân",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "Design patterns là các giải pháp cho các vấn đề phổ biến trong phát triển phần mềm mà có thể được sử dụng để cải thiện chất lượng và khả năng bảo trì mã của bạn.",
+        "links": [
+          {
+            "title": "Flutter - Thiết kế",
+            "url": "https://dart.dev/guides/language/effective-dart/design",
+            "type": "article"
+          },
+          {
+            "title": "Thiết kế Cookbook trong Flutter",
+            "url": "https://docs.flutter.dev/cookbook/design",
+            "type": "article"
+          },
+          {
+            "title": "Giải thích Design Patterns trong 10 phút",
+            "url": "https://www.youtube.com/watch?v=tv-_1er1mWI",
+            "type": "video"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Design Patterns",
+            "url": "https://app.daily.dev/tags/design-patterns?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "VKqo4dAcy-JiZo7Lw5jeg",
+      "type": "subtopic",
+      "label": "Nguyên tắc S.O.L.I.D",
+      "position": {
+        "x": 57.8618127280065,
+        "y": 879.7051467174066
+      },
+      "size": {
+        "width": 303,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "Bt3_IFhi9zkS7qIKEMT0V",
+        "color": "#2b78e4",
+        "label": "Đề xuất/Ý kiến cá nhân",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "S.O.L.I.D là một từ viết tắt ký nhớ cho năm nguyên tắc thiết kế được sử dụng để làm cho các thiết kế hướng đối tượng dễ hiểu hơn, linh hoạt và bảo trì hơn.",
+        "links": [
+          {
+            "title": "SOLID: Các Nguyên tắc Đầu tiên của Thiết kế Hướng Đối tượng (Object Oriented Design)",
+            "url": "https://www.digitalocean.com/community/conceptual-articles/s-o-l-i-d-the-first-five-principles-of-object-oriented-design",
+            "type": "article"
+          },
+          {
+            "title": "Tổng quan về các Nguyên tắc SOLID trong Dart",
+            "url": "https://medium.flutterdevs.com/s-o-l-i-d-principles-in-dart-e6c0c8d1f8f1",
+            "type": "article"
+          },
+          {
+            "title": "Nguyên tắc S.O.L.I.D trong Hình ảnh",
+            "url": "https://medium.com/backticks-tildes/the-s-o-l-i-d-principles-in-pictures-b34ce2f1e898",
+            "type": "article"
+          },
+          {
+            "title": "Nguyên tắc S.O.L.I.D",
+            "url": "https://www.youtube.com/watch?v=fvNTJang7l4",
+            "type": "video"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Lập trình Tổng quát",
+            "url": "https://app.daily.dev/tags/general-programming?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1-dfwbhXgeRT3VVq3RSRv",
+      "type": "subtopic",
+      "label": "OOP",
+      "position": {
+        "x": 57.8618127280065,
+        "y": 932.7051467174066
+      },
+      "size": {
+        "width": 303,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "Bt3_IFhi9zkS7qIKEMT0V",
+        "color": "#2b78e4",
+        "label": "Đề xuất/Ý kiến cá nhân",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "Lập trình hướng đối tượng (OOP) là một mô hình lập trình dựa trên khái niệm \"đối tượng\", đây là các bản sao của một lớp. Trong OOP, một lớp là bản thiết kế để tạo ra các đối tượng, có cả dữ liệu (thuộc tính) và hành vi (phương thức). Ý tưởng chính đằng sau OOP là mô hình hóa các đối tượng thực tế và tương tác của chúng, làm cho nó phù hợp để xây dựng các hệ thống phần mềm phức tạp và quy mô lớn.",
+        "links": [
+          {
+            "title": "Khám phá Lập trình hướng đối tượng",
+            "url": "https://blog.hubspot.com/website/object-oriented-programming",
+            "type": "article"
+          },
+          {
+            "title": "Hướng dẫn Phát triển Phần mềm - Ngôn ngữ lập trình hướng đối tượng là gì?",
+            "url": "https://www.youtube.com/watch?app=desktop&v=SS-9y0H3Si8",
+            "type": "video"
+          },
+          {
+            "title": "Các khái niệm cơ bản của Lập trình hướng đối tượng (Object Oriented Programming)",
+            "url": "https://www.youtube.com/watch?v=m_MQYyJpIjg&ab_channel=ComputerScience",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "med4T8PVkxIo465VuKDEj",
+      "type": "topic",
+      "label": "Trình quản lý gói (Package Manager)",
+      "position": {
+        "x": -711.798072051004,
+        "y": 882.7051467174066
+      },
+      "size": {
+        "width": 305,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Trình quản lý gói cho Flutter được gọi là pub. Nó được sử dụng để quản lý các phụ thuộc của dự án Flutter và xuất bản các gói Flutter. Nó đi kèm với SDK Flutter và có thể chạy từ dòng lệnh bằng lệnh `pub`.",
+        "links": [
+          {
+            "title": "Gói và Plugin",
+            "url": "https://docs.flutter.dev/development/packages-and-plugins",
+            "type": "official"
+          },
+          {
+            "title": "Dart Package Manager (pub.dev) trong Flutter",
+            "url": "https://www.youtube.com/watch?v=F1VRO0_MKLs",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "lXruqvSShlQrdVEo_xPm1",
+      "type": "subtopic",
+      "label": "pub.dev",
+      "position": {
+        "x": -711.798072051004,
+        "y": 797.7051467174066
+      },
+      "size": {
+        "width": 220,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "Bt3_IFhi9zkS7qIKEMT0V",
+        "color": "#2b78e4",
+        "label": "Đề xuất/Ý kiến cá nhân",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "pub.dev là kho lưu trữ gói chính thức cho Dart và Flutter packages. Nó là một nền tảng để đăng chủ, quản lý và phân phối các gói Dart và plugin Flutter. Các nhà phát triển có thể sử dụng pub.dev để tìm kiếm các gói, tìm thông tin về các gói và cài đặt các gói trong các dự án Flutter của họ.",
+        "links": [
+          {
+            "title": "pub.dev",
+            "url": "https://pub.dev/",
+            "type": "official"
+          },
+          {
+            "title": "Sử dụng các gói (packages)",
+            "url": "https://docs.flutter.dev/development/packages-and-plugins/using-packages",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "9xZlW6S-5-uDNWb7qzBmG",
+      "type": "subtopic",
+      "label": "flutter pub / dart pub",
+      "position": {
+        "x": -607.798072051004,
+        "y": 797.7051467174066
+      },
+      "size": {
+        "width": 220,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "Bt3_IFhi9zkS7qIKEMT0V",
+        "color": "#2b78e4",
+        "label": "Đề xuất/Ý kiến cá nhân",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "pub là trình quản lý gói cho Dart và Flutter, được sử dụng để quản lý các phụ thuộc và xuất bản gói. Pub được sử dụng để quản lý cả các gói Dart và plugin Flutter. Điều này giúp dễ dàng tìm và sử dụng các gói mở rộng chức năng của ứng dụng Flutter của bạn. Pub là một công cụ thiết yếu cho phát triển Dart và Flutter, cung cấp một kho lưu trữ tập trung cho các gói, giúp dễ dàng tìm, cài đặt và quản lý các phụ thuộc trong các dự án của bạn.",
+        "links": [
+          {
+            "title": "Tổng quan về Dart pub",
+            "url": "https://dart.dev/tools/pub/cmd",
+            "type": "official"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Dart",
+            "url": "https://app.daily.dev/tags/dart?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "9Az7tmevGI6bVqCTvVL50",
+      "type": "topic",
+      "label": "Làm việc với API",
+      "position": {
+        "x": -711.798072051004,
+        "y": 1013.7051467174065
+      },
+      "size": {
+        "width": 305,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Làm việc với API trong Flutter bao gồm thực hiện các yêu cầu HTTP đến máy chủ và xử lý phản hồi. Flutter cung cấp một số thư viện để thực hiện các yêu cầu HTTP, bao gồm `dart:io` và `http`. Thư viện `http` là một lựa chọn phổ biến để thực hiện các yêu cầu HTTP trong Flutter vì nó dễ sử dụng và hỗ trợ các phương thức HTTP như GET, POST, PUT, DELETE và nhiều hơn nữa.",
+        "links": [
+          {
+            "title": "Sử dụng Google APIs",
+            "url": "https://dart.dev/guides/google-apis",
+            "type": "article"
+          },
+          {
+            "title": "Hướng dẫn làm việc với API trong Flutter?",
+            "url": "https://www.youtube.com/watch?v=uVo7HDWDUEQ",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "TMHrKxnciIpd8F1WLjray",
+      "type": "subtopic",
+      "label": "JSON Serialize / Deserialize",
+      "position": {
+        "x": -711.798072051004,
+        "y": 1120.7051467174065
+      },
+      "size": {
+        "width": 220,
+        "height": 69
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "Bt3_IFhi9zkS7qIKEMT0V",
+        "color": "#2b78e4",
+        "label": "Đề xuất/Ý kiến cá nhân",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "JSON (JavaScript Object Notation) là một định dạng trao đổi dữ liệu nhẹ mà con người có thể dễ đọc và viết, cũng như máy móc có thể phân tích và tạo ra. Trong Flutter, JSON được sử dụng để truyền dữ liệu giữa trình khách và máy chủ, thường thông qua kết nối HTTP. Flutter cung cấp nhiều thư viện để làm việc với dữ liệu JSON, bao gồm thư viện `dart:convert`, mang lại hỗ trợ cho mã hóa và giải mã dữ liệu JSON. Để mã hóa một đối tượng Dart thành chuỗi JSON, bạn có thể sử dụng hàm `jsonEncode` từ thư viện `dart:convert`. Để giải mã một chuỗi JSON thành một đối tượng Dart, bạn có thể sử dụng hàm `jsonDecode`.",
+        "links": [
+          {
+            "title": "JSON và serialization",
+            "url": "https://docs.flutter.dev/development/data-and-backend/json",
+            "type": "official"
+          },
+          {
+            "title": "Sử dụng JSON",
+            "url": "https://dart.dev/guides/json",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "SUFuHR-r6NfAzIICXGHkK",
+      "type": "subtopic",
+      "label": "Web Sockets",
+      "position": {
+        "x": -711.798072051004,
+        "y": 1173.7051467174065
+      },
+      "size": {
+        "width": 220,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "Bt3_IFhi9zkS7qIKEMT0V",
+        "color": "#2b78e4",
+        "label": "Đề xuất/Ý kiến cá nhân",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "Ngoài các yêu cầu HTTP thông thường, bạn có thể kết nối với máy chủ bằng WebSockets. Web sockets cho phép giao tiếp hai chiều giữa một khách hàng (như trình duyệt web) và một máy chủ qua một kết nối duy nhất, kéo dài. Chúng là một giải pháp hiệu quả hơn so với HTTP để cung cấp dữ liệu thời gian thực, vì chúng cho phép máy chủ đẩy dữ liệu đến khách hàng ngay khi nó có sẵn, thay vì yêu cầu khách hàng liên tục truy vấn máy chủ để cập nhật.",
+        "links": [
+          {
+            "title": "Làm việc với WebSockets",
+            "url": "https://docs.flutter.dev/cookbook/networking/web-sockets",
+            "type": "official"
+          },
+          {
+            "title": "WebSocket là gì và Cách nó hoạt động?",
+            "url": "https://www.wallarm.com/what/a-simple-explanation-of-what-a-websocket-is",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Ym-8x_FNrs1C-Ki3aykIW",
+      "type": "subtopic",
+      "label": "GraphQL",
+      "position": {
+        "x": -548.798072051004,
+        "y": 1173.7051467174065
+      },
+      "size": {
+        "width": 220,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "Bt3_IFhi9zkS7qIKEMT0V",
+        "color": "#2b78e4",
+        "label": "Đề xuất/Ý kiến cá nhân",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "GraphQL là ngôn ngữ truy vấn cho API của bạn cho phép khách hàng yêu cầu chính xác dữ liệu họ cần, và không có gì nhiều hơn. Nó được phát triển bởi Facebook và phát hành theo mã nguồn mở vào năm 2015.",
+        "links": [
+          {
+            "title": "Truy cập Bản đồ Đường đi Đáng Mệnh cho GraphQL",
+            "url": "https://dev-path-murex.vercel.app/roadmap/graphql",
+            "type": "roadmap"
+          },
+          {
+            "title": "GraphQL",
+            "url": "https://graphql.org",
+            "type": "official"
+          },
+          {
+            "title": "Học GraphQL",
+            "url": "https://graphql.org/learn",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "soi3pRxOp6A4ZmGZPQCn3",
+      "type": "subtopic",
+      "label": "API RESTful",
+      "position": {
+        "x": -711.798072051004,
+        "y": 1226.7051467174065
+      },
+      "size": {
+        "width": 220,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "Bt3_IFhi9zkS7qIKEMT0V",
+        "color": "#2b78e4",
+        "label": "Đề xuất/Ý kiến cá nhân",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "REST, hoặc REpresentational State Transfer, là một phong cách kiến trúc để cung cấp tiêu chuẩn giữa các hệ thống máy tính trên web, giúp các hệ thống dễ dàng giao tiếp với nhau.",
+        "links": [
+          {
+            "title": "REST API là gì?",
+            "url": "https://www.redhat.com/en/topics/api/what-is-a-rest-api",
+            "type": "article"
+          },
+          {
+            "title": "Chương luận văn của Roy Fieldings: Transfer Đạng (REST)",
+            "url": "https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm",
+            "type": "article"
+          },
+          {
+            "title": "Học REST: Một Tạp chí hướng dẫn RESTful",
+            "url": "https://restapitutorial.com/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P_wptV7oenaYwef1QhKhu",
+      "type": "topic",
+      "label": "Lưu trữ",
+      "position": {
+        "x": -323.64790096520323,
+        "y": 1013.7051467174065
+      },
+      "size": {
+        "width": 305,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Flutter cung cấp một số tùy chọn lưu trữ dữ liệu bền vững, trong đó có: *   SharedPreferences: Một kho lưu trữ key-value để dữ liệu nhỏ. *   Cơ sở dữ liệu SQLite: Một cơ sở dữ liệu quan hệ để dữ liệu có cấu trúc. *   Hệ thống Tệp tin: Để lưu trữ các tệp và dữ liệu lớn. *   Firebase: Cơ sở dữ liệu thời gian thực và dịch vụ backend theo yêu cầu. Tất cả các tùy chọn lưu trữ này đều được hỗ trợ thông qua các gói phần mềm bên thứ ba, có thể dễ dàng tích hợp vào ứng dụng Flutter.",
+        "links": [
+          {
+            "title": "Cloud Storage trong Flutter",
+            "url": "https://firebase.flutter.dev/docs/storage/overview/",
+            "type": "official"
+          },
+          {
+            "title": "Lưu trữ - Hướng dẫn Flutter",
+            "url": "https://www.youtube.com/watch?v=UpKrhZ0Hppks",
+            "type": "video"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Lưu trữ",
+            "url": "https://app.daily.dev/tags/storage?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "NPaqiuUpzQbrsXA5XNI7U",
+      "type": "subtopic",
+      "label": "SQLite",
+      "position": {
+        "x": 57.8618127280065,
+        "y": 1013.7051467174065
+      },
+      "size": {
+        "width": 263,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "k3w1z-jvosI6y3y7yQIaV",
+        "color": "#147a00",
+        "label": "Lựa chọn Thay thế - Chọn cái này hoặc tím",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "SQLite là một hệ thống quản lý cơ sở dữ liệu quan hệ nguồn mở, nhẹ, được sử dụng để lưu trữ và quản lý dữ liệu. Nó được viết bằng C và độc lập, có nghĩa là nó không yêu cầu một tiến trình hoặc hệ thống máy chủ riêng biệt. SQLite thường được sử dụng trong các ứng dụng di động, hệ thống nhúng và trình duyệt web và cũng được hỗ trợ bởi nhiều ngôn ngữ lập trình. Nó là một lựa chọn phổ biến cho cơ sở dữ liệu vì dễ sử dụng và không yêu cầu nhiều cài đặt hoặc cấu hình.",
+        "links": [
+          {
+            "title": "sqflite - tài liệu chính thức trên developer.pub",
+            "url": "https://pub.dev/packages/sqflite",
+            "type": "article"
+          },
+          {
+            "title": "drift - pub.dev package",
+            "url": "https://pub.dev/packages/drift",
+            "type": "article"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về SQLite",
+            "url": "https://app.daily.dev/tags/sqlite?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Fdv7Nu26Egtl9tklKn5-8",
+      "type": "subtopic",
+      "label": "Shared Preferences",
+      "position": {
+        "x": 57.8618127280065,
+        "y": 1066.7051467174065
+      },
+      "size": {
+        "width": 263,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "k3w1z-jvosI6y3y7yQIaV",
+        "color": "#147a00",
+        "label": "Lựa chọn Thay thế - Chọn cái này hoặc tím",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "Trong Flutter, SharedPreferences là một plugin cho phép bạn lưu trữ dữ liệu theo cặp khóa-giá trị một cách bền vững. Nó tương tự như cơ sở dữ liệu cục bộ hoặc bộ nhớ cache, nhưng được thiết kế đặc biệt để lưu trữ các khối dữ liệu nhỏ, chẳng hạn như sở thích hoặc cài đặt người dùng. Plugin SharedPreferences thường được sử dụng để lưu trữ các khối dữ liệu đơn giản cần được truy cập bởi nhiều màn hình hoặc widget trong một ứng dụng. Ví dụ, bạn có thể sử dụng SharedPreferences để lưu trạng thái đăng nhập của người dùng hoặc màu sắc chủ đề của ứng dụng.",
+        "links": [
+          {
+            "title": "Tôi có thể truy cập Shared Preferences như thế nào?",
+            "url": "https://docs.flutter.dev/get-started/flutter-for/android-devs#how-do-i-access-shared-preferences",
+            "type": "official"
+          },
+          {
+            "title": "SharedPreferences - gói tin trên pub.dev",
+            "url": "https://pub.dev/packages/shared_preferences",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "EVd1rLBHjKbtgkIE7InS7",
+      "type": "subtopic",
+      "label": "Firebase",
+      "position": {
+        "x": 57.8618127280065,
+        "y": 1119.7051467174065
+      },
+      "size": {
+        "width": 263,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "VHDZQqz8L4sTfaI3pxDjc",
+        "color": "#b0b0b0",
+        "label": "Thứ tự trong lộ trình không nghiêm ngặt (học bất cứ lúc nào)",
+        "position": "right-center"
+      }
+    },
+    {
+      "id": "lCVoKYJlQEYE2viAuThk7",
+      "type": "subtopic",
+      "label": "Xác thực (Authentication)",
+      "position": {
+        "x": 78.3618127280065,
+        "y": 1184.7051467174065
+      },
+      "size": {
+        "width": 263,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "Bt3_IFhi9zkS7qIKEMT0V",
+        "color": "#2b78e4",
+        "label": "Đề xuất/Ý kiến cá nhân",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "Xác thực Firebase là một dịch vụ do Firebase cung cấp cho phép bạn dễ dàng thêm chức năng xác thực người dùng vào ứng dụng Flutter của mình. Với Xác thực Firebase, bạn có thể xác thực người dùng bằng email và mật khẩu, số điện thoại hoặc các nhà cung cấp danh tính phổ biến như Google, Facebook và nhiều hơn nữa.",
+        "links": [
+          {
+            "title": "Tạo yêu cầu được xác thực",
+            "url": "https://docs.flutter.dev/cookbook/networking/authenticated-requests",
+            "type": "official"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Xác thực (Authentication)",
+            "url": "https://app.daily.dev/tags/authentication?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "x4B0gmCo5sXFHYs3CYsOn",
+      "type": "subtopic",
+      "label": "Lưu trữ",
+      "position": {
+        "x": 78.3618127280065,
+        "y": 1237.7051467174065
+      },
+      "size": {
+        "width": 263,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "Bt3_IFhi9zkS7qIKEMT0V",
+        "color": "#2b78e4",
+        "label": "Đề xuất/Ý kiến cá nhân",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "Trong Flutter, bạn có thể sử dụng Firebase Storage để lưu trữ và truy xuất dữ liệu nhị phân, chẳng hạn như hình ảnh, tệp âm thanh và video. Firebase Storage là dịch vụ lưu trữ dựa trên đám mây do Firebase cung cấp, giúp dễ dàng lưu trữ và phục vụ dữ liệu nhị phân lớn, chẳng hạn như hình ảnh và video, trong ứng dụng Flutter của bạn. Để sử dụng Firebase Storage trong ứng dụng Flutter của bạn, trước tiên bạn cần tạo một dự án Firebase trong bảng điều khiển Firebase và sau đó thêm gói Firebase Storage vào ứng dụng Flutter của bạn.",
+        "links": [
+          {
+            "title": "Lưu trữ Firebase",
+            "url": "https://firebase.google.com/docs/storage",
+            "type": "official"
+          },
+          {
+            "title": "Hướng dẫn Tải lên và Truy xuất Ảnh từ Firebase Storage",
+            "url": "https://www.youtube.com/watch?v=sM-WMcX66FI",
+            "type": "video"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Lưu trữ",
+            "url": "https://app.daily.dev/tags/storage?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cMfsRtvzvDZZJ0TqeUOxm",
+      "type": "subtopic",
+      "label": "Cơ sở dữ liệu NoSQL dựa trên đám mây của Google.",
+      "position": {
+        "x": 192.3618127280065,
+        "y": 1237.7051467174065
+      },
+      "size": {
+        "width": 263,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "Bt3_IFhi9zkS7qIKEMT0V",
+        "color": "#2b78e4",
+        "label": "Đề xuất/Ý kiến cá nhân",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "Firestore là một dịch vụ cơ sở dữ liệu tài liệu NoSQL dựa trên đám mây do Firebase cung cấp, giúp bạn dễ dàng lưu trữ, quản lý và truy xuất dữ liệu trong ứng dụng Flutter của mình. Firestore là một cơ sở dữ liệu linh hoạt, có khả năng mở rộng và dễ sử dụng, cho phép bạn lưu trữ và truy xuất dữ liệu dưới dạng tài liệu, tập hợp và trường.",
+        "links": [
+          {
+            "title": "Firestore",
+            "url": "https://firebase.google.com/docs/firestore",
+            "type": "official"
+          },
+          {
+            "title": "Sử dụng Firestore - Flutter",
+            "url": "https://www.youtube.com/watch?v=DqJ_KjFzL9I",
+            "type": "video"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Firestore",
+            "url": "https://app.daily.dev/tags/firestore?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "YzJrDGmfS0vbWjnPnSFVo",
+      "type": "subtopic",
+      "label": "Thông báo đẩy",
+      "position": {
+        "x": 78.3618127280065,
+        "y": 1290.7051467174065
+      },
+      "size": {
+        "width": 263,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "Bt3_IFhi9zkS7qIKEMT0V",
+        "color": "#2b78e4",
+        "label": "Đề xuất/Ý kiến cá nhân",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "Việc triển khai thông báo đẩy Firebase trong Flutter bao gồm thiết lập một dự án Firebase, tích hợp plugin FCM, xử lý và hiển thị các thông báo đến bên trong ứng dụng, kiểm thử thông qua bảng điều khiển Firebase hoặc các công cụ như Postman và tùy chỉnh giao diện thông báo với biểu tượng, âm thanh và mẫu rung.",
+        "links": [
+          {
+            "title": "Tôi có thể thiết lập thông báo đẩy như thế nào?",
+            "url": "https://docs.flutter.dev/get-started/flutter-for/android-devs#how-do-i-set-up-push-notifications",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4ZbGj54WR5iuk0V8X_cpL",
+      "type": "subtopic",
+      "label": "Cấu hình từ xa (Remote Config)",
+      "position": {
+        "x": 78.3618127280065,
+        "y": 1343.7051467174065
+      },
+      "size": {
+        "width": 263,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "Bt3_IFhi9zkS7qIKEMT0V",
+        "color": "#2b78e4",
+        "label": "Đề xuất/Ý kiến cá nhân",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "Firebase Remote Config, truy cập thông qua Flutter bằng plugin `firebase_remote_config`, cho phép thay đổi hành vi và giao diện ứng dụng động mà không cần cập nhật ứng dụng. Điều này bao gồm việc thêm plugin, khởi tạo dịch vụ, định nghĩa giá trị tham số mặc định trong bảng điều khiển hoặc mã nguồn, lấy và truy xuất các tham số từ xa, cũng như cập nhật các tham số đó thông qua bảng điều khiển hoặc bằng cách kích hoạt các giá trị đã lấy, cho phép kiểm thử A/B và điều khiển tính năng. Tìm hiểu thêm từ các nguồn sau: - [@official@Firebase Remote Config](https://firebase.google.com/docs/remote-config) - [@video@Firebase Remote Config](https://www.youtube.com/watch?v=34ExOdNEMXI)",
+        "links": []
+      }
+    },
+    {
+      "id": "bVeHBEoR_4kfPsEHmVYbp",
+      "type": "subtopic",
+      "label": "Cloud Functions",
+      "position": {
+        "x": 78.3618127280065,
+        "y": 1396.7051467174065
+      },
+      "size": {
+        "width": 263,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "Bt3_IFhi9zkS7qIKEMT0V",
+        "color": "#2b78e4",
+        "label": "Đề xuất/Ý kiến cá nhân",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "Cloud Functions for Firebase là nền tảng tính toán không máy chủ (serverless computing) giúp đơn giản hóa phát triển backend bằng cách cho phép các nhà phát triển viết mã JavaScript hoặc TypeScript, chạy tự động khi phản hồi sự kiện từ các dịch vụ Firebase hoặc yêu cầu HTTP đến. Khung này tận dụng cơ sở hạ tầng đám mây của Google để cung cấp một môi trường có khả năng mở rộng và được quản lý, giúp dễ dàng xây dựng các ứng dụng serverless mạnh mẽ mà không cần bảo trì máy chủ.",
+        "links": [
+          {
+            "title": "Cloud Functions",
+            "url": "https://firebase.google.com/docs/functions",
+            "type": "official"
+          },
+          {
+            "title": "Bắt đầu với Firebase Cloud Functions",
+            "url": "https://youtube.com/playlist?list=PLl-K7zZEsYLkPZHe41m4jfAxUi0JjLgSM&si=yx0EwIXxhG2PHRXp",
+            "type": "video"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Cloud",
+            "url": "https://app.daily.dev/tags/cloud?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "bvojoCWJRSB6pdBFM1SbY",
+      "type": "topic",
+      "label": "Dart Nâng cao",
+      "position": {
+        "x": -323.64790096520323,
+        "y": 1374.3372555892688
+      },
+      "size": {
+        "width": 305,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Các khái niệm Dart nâng cao quan trọng cho phát triển Flutter bao gồm generics để mã có thể tái sử dụng, `async`/`await` để các hoạt động bất đồng bộ sạch sẽ, mixins để đa kế thừa, lớp trừu tượng để triển khai cơ bản, streams để xử lý sự kiện liên tục, isolates để xử lý song song, futures để biểu diễn giá trị tương lai, các toán tử có ý thức về null để xử lý null súc tích, literal của tập hợp để tạo tập hợp hiệu quả và phương thức mở rộng để thêm chức năng cho các lớp hiện có, tất cả đều góp phần vào mã hiệu quả và dễ bảo trì hơn.",
+        "links": [
+          {
+            "title": "Hướng dẫn - Dart",
+            "url": "https://dart.dev/tutorials",
+            "type": "official"
+          },
+          {
+            "title": "Dart Nâng cao",
+            "url": "https://techdynasty.medium.com/advanced-dart-in-flutter-elevating-your-development-skills-1c8ec309266f",
+            "type": "article"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Dart",
+            "url": "https://app.daily.dev/tags/dart?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "nQio4JabDrFCmScx59Qit",
+      "type": "subtopic",
+      "label": "Thư viện cốt lõi",
+      "position": {
+        "x": -178.14790096520323,
+        "y": 1169.4375727852225
+      },
+      "size": {
+        "width": 171,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "Bt3_IFhi9zkS7qIKEMT0V",
+        "color": "#2b78e4",
+        "label": "Đề xuất/Ý kiến cá nhân",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "Dart có một bộ thư viện cốt lõi phong phú cung cấp các thành phần cần thiết để thực hiện nhiều tác vụ lập trình hàng ngày khác nhau, chẳng hạn như làm việc với các tập hợp đối tượng (dart:collection), thực hiện tính toán (dart:math) và mã hóa/giải mã dữ liệu (dart:convert).",
+        "links": [
+          {
+            "title": "Thư viện cốt lõi",
+            "url": "https://dart.dev/guides/libraries",
+            "type": "official"
+          },
+          {
+            "title": "Thư viện - API Flutter",
+            "url": "https://api.flutter.dev/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C4wC3_wqNGl8umJ050-hJ",
+      "type": "subtopic",
+      "label": "Danh sách",
+      "position": {
+        "x": -710.298072051004,
+        "y": 1321.3372555892688
+      },
+      "size": {
+        "width": 220,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "Bt3_IFhi9zkS7qIKEMT0V",
+        "color": "#2b78e4",
+        "label": "Đề xuất/Ý kiến cá nhân",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "Dart Flutter cung cấp nhiều widget để hiển thị danh sách, bao gồm `ListView`, `ListTile`, `SingleChildScrollView` với `Column`, `GridView`, và `CustomScrollView` với `Slivers`, cho phép cuộn danh sách, lưới và hình thức hiển thị các mục tùy chỉnh thông qua widget, bố cục và kiểu dáng.",
+        "links": [
+          {
+            "title": "Lớp List",
+            "url": "https://api.flutter.dev/flutter/dart-core/List-class.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "fIOq8ZumOrAo5uz4nbq2k",
+      "type": "subtopic",
+      "label": "Dòng dữ liệu",
+      "position": {
+        "x": -178.14790096520323,
+        "y": 1222.4375727852225
+      },
+      "size": {
+        "width": 171,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "Bt3_IFhi9zkS7qIKEMT0V",
+        "color": "#2b78e4",
+        "label": "Đề xuất/Ý kiến cá nhân",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "Luồng (Streams) trong Flutter là một cách để nhận dữ liệu theo thời gian khi dữ liệu đó có sẵn. Chúng tương tự như observables trong các ngôn ngữ và framework khác. Luồng có thể được sử dụng cho các việc như lấy cập nhật theo thời gian thực từ máy chủ hoặc lắng nghe sự thay đổi trong đầu vào của người dùng. Trong Flutter, luồng được biểu diễn bằng lớp `Stream` và có thể được lắng nghe bằng widget `StreamBuilder`.",
+        "links": [
+          {
+            "title": "Tạo luồng trong Dart",
+            "url": "https://dart.dev/articles/libraries/creating-streams",
+            "type": "official"
+          },
+          {
+            "title": "Hiểu về Streams trong Dart và Flutter",
+            "url": "https://medium.com/stackademic/understanding-streams-in-dart-and-flutter-0d153b559760",
+            "type": "article"
+          },
+          {
+            "title": "Hướng dẫn Sử dụng và Tạo luồng từ đầu trong Dart và Flutter – Hướng dẫn dành cho người mới bắt đầu",
+            "url": "https://www.freecodecamp.org/news/how-to-use-and-create-streams-in-dart-and-flutter/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "I1cqvOsVD7-86VPnrdTAv",
+      "type": "subtopic",
+      "label": "Futures",
+      "position": {
+        "x": -178.14790096520323,
+        "y": 1275.4375727852225
+      },
+      "size": {
+        "width": 171,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "Bt3_IFhi9zkS7qIKEMT0V",
+        "color": "#2b78e4",
+        "label": "Đề xuất/Ý kiến cá nhân",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "Futures trong Flutter là một cách để biểu diễn một giá trị tiềm năng có thể sẵn sàng tại một thời điểm nào đó trong tương lai. Một số điểm chính về Futures trong Flutter: *   Futures được sử dụng cho lập trình bất đồng bộ (asynchronous programming) trong Flutter *   Futures trả về một giá trị duy nhất (hoặc lỗi) và thường được sử dụng với `async` và `await`. *   Phương thức `then` có thể được sử dụng để gắn một callback vào một Future sẽ được thực thi khi giá trị của Future có sẵn *   Futures có thể được kết hợp với các Futures khác bằng phương thức `Future.wait` hoặc `Future.whenComplete` *   Futures thường được sử dụng với các yêu cầu mạng, hoạt động I/O tệp tin và các tác vụ chạy dài trong Flutter.",
+        "links": [
+          {
+            "title": "Futures và Xử lý lỗi (Error handling)",
+            "url": "https://dart.dev/guides/libraries/futures-error-handling",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Nx6YqH-MiqX-UFMQNqeEp",
+      "type": "subtopic",
+      "label": "Collections",
+      "position": {
+        "x": -626.298072051004,
+        "y": 1321.3372555892688
+      },
+      "size": {
+        "width": 220,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "Bt3_IFhi9zkS7qIKEMT0V",
+        "color": "#2b78e4",
+        "label": "Đề xuất/Ý kiến cá nhân",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "Dart cung cấp các bộ sưu tập tích hợp sẵn như Danh sách (có thứ tự, có chỉ mục), Tập hợp (không thứ tự, duy nhất), Bản đồ (cặp khóa-giá trị), Hàng đợi (FIFO) và Mâm xôi (LIFO) để lưu trữ và thao tác dữ liệu hiệu quả, hữu ích trong nhiều tình huống như lưu trữ dữ liệu, quản lý trạng thái và triển khai thuật toán.",
+        "links": [
+          {
+            "title": "Bộ sưu tập Tổng quát (Generic Collections) trong Flutter",
+            "url": "https://dart.dev/guides/language/language-tour#generic-collections-and-the-types-they-contain",
+            "type": "official"
+          },
+          {
+            "title": "Các bộ sưu tập Iterable",
+            "url": "https://dart.dev/codelabs/iterables",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tMeuk-nsFMx3kVS7Yn4T0",
+      "type": "subtopic",
+      "label": "Lambdas",
+      "position": {
+        "x": -496.79807205100406,
+        "y": 1321.3372555892688
+      },
+      "size": {
+        "width": 220,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "Bt3_IFhi9zkS7qIKEMT0V",
+        "color": "#2b78e4",
+        "label": "Đề xuất/Ý kiến cá nhân",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "Lambdas, cũng được biết đến là các hàm ẩn danh, là một khái niệm cơ bản trong Dart và Flutter. Chúng là cách để tạo các hàm ngắn, nhúng trực tiếp có thể được truyền dưới dạng đối số cho các hàm khác hoặc gán cho các biến. Lambdas được định nghĩa bằng toán tử `=>` và có thể nhận từ 0 đến nhiều đối số. Chúng cũng có thể chứa biểu thức, câu lệnh và giá trị trả về.",
+        "links": [
+          {
+            "title": "Hàm Lambda trong Dart",
+            "url": "https://medium.com/jay-tillu/lambda-functions-in-dart-7db8b759f07a",
+            "type": "article"
+          },
+          {
+            "title": "Hàm ẩn danh trong Dart | Hàm Lambda",
+            "url": "https://www.youtube.com/watch?v=XTKKQdTAR0U",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "x5q_bWpxmpJFK8eaWZxuY",
+      "type": "subtopic",
+      "label": "Lập trình hàm (Functional Programming)",
+      "position": {
+        "x": -711.798072051004,
+        "y": 1374.3372555892688
+      },
+      "size": {
+        "width": 220,
+        "height": 69
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "Bt3_IFhi9zkS7qIKEMT0V",
+        "color": "#2b78e4",
+        "label": "Đề xuất/Ý kiến cá nhân",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "Dart hỗ trợ lập trình hàm thông qua các hàm cấp cao hơn, cấu trúc dữ liệu bất biến, lambda/closure và các hàm thuần túy, cho phép nhà phát triển viết mã tập trung vào tính bất biến, không trạng thái và chuyển đổi dữ liệu thông qua các hàm.",
+        "links": [
+          {
+            "title": "Lập trình hàm - Flutter",
+            "url": "https://docs.flutter.dev/resources/faq",
+            "type": "official"
+          },
+          {
+            "title": "Tổng quan ngắn gọn về Lập trình hàm (Functional Programming)",
+            "url": "https://buildflutter.com/functional-programming-with-flutter/",
+            "type": "article"
+          },
+          {
+            "title": "Lập trình hàm trong Dart & Flutter",
+            "url": "https://yogi-6.medium.com/list/functional-programming-in-dart-flutter-2f3ac9d7fa39",
+            "type": "article"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Functional Programming",
+            "url": "https://app.daily.dev/tags/functional-programming?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "t_75W0nyd0UBytwvJAQ1x",
+      "type": "subtopic",
+      "label": "Isolates",
+      "position": {
+        "x": -711.4579568300146,
+        "y": 1427.3372555892688
+      },
+      "size": {
+        "width": 220,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "Bt3_IFhi9zkS7qIKEMT0V",
+        "color": "#2b78e4",
+        "label": "Đề xuất/Ý kiến cá nhân",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "Flutter Isolates là ngữ cảnh thực thi song song giúp tăng hiệu suất và đồng thời bằng cách chạy các tác vụ nặng nền ở chế độ nền, ngăn chặn sự đóng băng giao diện người dùng. Chúng cung cấp không gian bộ nhớ cô lập để mã hóa đáng tin cậy, cho phép thực thi đồng thời và hỗ trợ giao tiếp giữa các isolate để chia sẻ dữ liệu và điều phối, mặc dù nhà phát triển phải xem xét chi phí chuyển đổi ngữ cảnh và chi phí giao tiếp.",
+        "links": [
+          {
+            "title": "Isolates hoạt động như thế nào?",
+            "url": "https://dart.dev/guides/language/concurrency#how-isolates-work",
+            "type": "official"
+          },
+          {
+            "title": "Dart - Isolates và vòng lặp sự kiện",
+            "url": "https://medium.com/dartlang/dart-asynchronous-programming-isolates-and-event-loops-bffc3e296a6a",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "_guWOSGfTpErGkzs69g1R",
+      "type": "subtopic",
+      "label": "Async / Await",
+      "position": {
+        "x": -557.298072051004,
+        "y": 1427.3372555892688
+      },
+      "size": {
+        "width": 220,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "Bt3_IFhi9zkS7qIKEMT0V",
+        "color": "#2b78e4",
+        "label": "Đề xuất/Ý kiến cá nhân",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "Mẫu `async`/`await` của Flutter đơn giản hóa lập trình bất đồng bộ bằng cách cho phép mã có vẻ đồng thời. Từ khóa `async` chỉ định một hàm là bất đồng bộ, cho phép thực thi không chặn, trong khi `await` tạm dừng thực thi cho đến khi một hoạt động bất đồng bộ hoàn thành, dẫn đến mã bất đồng bộ sạch hơn và dễ bảo trì hơn.",
+        "links": [
+          {
+            "title": "Lập trình bất đồng bộ: async, await",
+            "url": "https://dart.dev/codelabs/async-await",
+            "type": "official"
+          },
+          {
+            "title": "Widget Async",
+            "url": "https://docs.flutter.dev/development/ui/widgets/async",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "bYJ0G-g4R5faoJfFjRQW7",
+      "type": "topic",
+      "label": "Quản lý Trạng thái",
+      "position": {
+        "x": -323.64790096520323,
+        "y": 1571.2737248742874
+      },
+      "size": {
+        "width": 305,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Quản lý trạng thái trong Flutter đề cập đến quá trình quản lý và cập nhật dữ liệu hoặc trạng thái của ứng dụng Flutter. Trong Flutter, trạng thái của các widget có thể thay đổi một cách động, ví dụ khi người dùng tương tác với ứng dụng.",
+        "links": [
+          {
+            "title": "Quản lý Trạng thái trong Flutter",
+            "url": "https://docs.flutter.dev/development/data-and-backend/state-mgmt",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "VRWeqMV7qOdPzM5RfgpGF",
+      "type": "subtopic",
+      "label": "ChangeNotifier",
+      "position": {
+        "x": -711.798072051004,
+        "y": 1518.2737248742874
+      },
+      "size": {
+        "width": 149,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "Bt3_IFhi9zkS7qIKEMT0V",
+        "color": "#2b78e4",
+        "label": "Đề xuất/Ý kiến cá nhân",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "ChangeNotifier của Flutter là một lớp cơ bản để quản lý trạng thái trong Flutter. Nó cho phép các nhà phát triển xử lý và thông báo cho người nghe về thay đổi dữ liệu, đảm bảo cập nhật hiệu quả giao diện người dùng. Bằng cách mở rộng ChangeNotifier, các nhà phát triển có thể tạo ra các lớp tùy chỉnh để biểu diễn các trạng thái hoặc mô hình dữ liệu cụ thể. Tích hợp ChangeNotifier cải thiện trải nghiệm người dùng bằng cách quản lý trạng thái và cập nhật giao diện người dùng một cách động. Nó đơn giản hóa việc quản lý trạng thái và cho phép tạo ra các ứng dụng Flutter tương tác.",
+        "links": [
+          {
+            "title": "Lớp ChangeNotifier - Flutter",
+            "url": "https://api.flutter.dev/flutter/foundation/ChangeNotifier-class.html",
+            "type": "official"
+          },
+          {
+            "title": "Quản lý trạng thái ứng dụng đơn giản",
+            "url": "https://docs.flutter.dev/data-and-backend/state-mgmt/simple",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "aRmdyC2pzmR9r1ybU2CTP",
+      "type": "subtopic",
+      "label": "Giá trị được truyền tải (notifier value)",
+      "position": {
+        "x": -557.298072051004,
+        "y": 1518.2737248742874
+      },
+      "size": {
+        "width": 159,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "Bt3_IFhi9zkS7qIKEMT0V",
+        "color": "#2b78e4",
+        "label": "Đề xuất/Ý kiến cá nhân",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "ValueNotifier của Flutter là một công cụ nhẹ để quản lý trạng thái trong Flutter. Nó hiệu quả xử lý một giá trị duy nhất và thông báo cho người nghe về sự thay đổi. Với ValueNotifier, các nhà phát triển có thể dễ dàng theo dõi và cập nhật dữ liệu cụ thể, chẳng hạn như bộ đếm hoặc đầu vào của người dùng. Nó đơn giản hóa việc quản lý trạng thái và cho phép giao diện Flutter động.",
+        "links": [
+          {
+            "title": "Khối lớp ValueNotifier – Flutter",
+            "url": "https://api.flutter.dev/flutter/foundation/ValueNotifier-class.html",
+            "type": "official"
+          },
+          {
+            "title": "ValuerNotifier & ValueListenableBuilder",
+            "url": "https://medium.com/@avnishnishad/flutter-communication-between-widgets-using-valuenotifier-and-valuelistenablebuilder-b51ef627a58b",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "DoqnE2Iy3lKzEm88qjKI-",
+      "type": "subtopic",
+      "label": "Redux",
+      "position": {
+        "x": -711.798072051004,
+        "y": 1571.2737248742874
+      },
+      "size": {
+        "width": 149,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "k3w1z-jvosI6y3y7yQIaV",
+        "color": "#147a00",
+        "label": "Lựa chọn Thay thế - Chọn cái này hoặc tím",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "Redux là thư viện quản lý trạng thái cho Flutter, thường được sử dụng với framework Flutter để quản lý trạng thái của ứng dụng. Nó giúp duy trì một nguồn sự thật duy nhất cho trạng thái của ứng dụng, làm cho việc hiểu, kiểm thử và bảo trì mã dễ dàng hơn. Trong Redux, trạng thái được lưu trữ trong một kho (store) và chỉ có thể được cập nhật thông qua dispatching các hành động. Các hành động kích hoạt việc cập nhật trạng thái thông qua các reducer, đây là các hàm thuần túy xác định trạng thái tiếp theo dựa trên trạng thái hiện tại và hành động đã dispatch.",
+        "links": [
+          {
+            "title": "flutter_redux",
+            "url": "https://pub.dev/packages/flutter_redux",
+            "type": "official"
+          },
+          {
+            "title": "Redux - Hướng dẫn",
+            "url": "https://docs.flutter.dev/development/data-and-backend/state-mgmt/options#redux",
+            "type": "official"
+          },
+          {
+            "title": "Xây dựng ứng dụng Flutter với Redux",
+            "url": "https://hillel.dev/2018/06/01/building-a-large-flutter-app-with-redux/",
+            "type": "article"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Redux",
+            "url": "https://app.daily.dev/tags/redux?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "KWT-Lu-HCeA3GdZawD0a7",
+      "type": "subtopic",
+      "label": "Riverpod",
+      "position": {
+        "x": -557.298072051004,
+        "y": 1571.2737248742874
+      },
+      "size": {
+        "width": 159,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "Bt3_IFhi9zkS7qIKEMT0V",
+        "color": "#2b78e4",
+        "label": "Đề xuất/Ý kiến cá nhân",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "Riverpod được tạo ra bởi cùng tác giả của Provider và được thiết kế để giúp dễ dàng hơn trong việc quản lý trạng thái ứng dụng bằng cách cung cấp một API trực quan hơn và hiệu suất tốt hơn so với Provider. Một trong những tính năng chính của Riverpod là khả năng quản lý và định phạm vi trạng thái theo cách chi tiết hơn so với Provider. Điều này có thể giúp bạn suy luận dễ dàng hơn về trạng thái của ứng dụng và có thể dẫn đến việc tái tạo lại hiệu quả hơn.",
+        "links": [
+          {
+            "title": "riverpod",
+            "url": "https://pub.dev/packages/riverpod",
+            "type": "official"
+          },
+          {
+            "title": "Riverpod trong Flutter",
+            "url": "https://docs.flutter.dev/development/data-and-backend/state-mgmt/options#riverpod",
+            "type": "official"
+          },
+          {
+            "title": "riverpod Documentation",
+            "url": "https://riverpod.dev/",
+            "type": "official"
+          },
+          {
+            "title": "Tài liệu phiên bản 2 đang trong quá trình phát triển",
+            "url": "https://docs-v2.riverpod.dev/",
+            "type": "article"
+          },
+          {
+            "title": "Flutter Riverpod 2.0: Hướng Dẫn Toàn Cảnh",
+            "url": "https://codewithandrea.com/articles/flutter-state-management-riverpod/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ZfkaTipYJ1jLY-RC3mdmt",
+      "type": "subtopic",
+      "label": "BLoC (Business Logic Component)",
+      "position": {
+        "x": -710.298072051004,
+        "y": 1624.2737248742874
+      },
+      "size": {
+        "width": 149,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "k3w1z-jvosI6y3y7yQIaV",
+        "color": "#147a00",
+        "label": "Lựa chọn Thay thế - Chọn cái này hoặc tím",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "Bloc (Component Logic Kinh doanh) là một mẫu quản lý trạng thái được sử dụng trong Flutter để tách logic trình bày khỏi logic kinh doanh. Nó giúp quản lý và duy trì trạng thái của ứng dụng, làm cho việc kiểm tra, gỡ lỗi và tái sử dụng mã dễ dàng hơn. Nó sử dụng các luồng (streams) để phát ra các trạng thái mới và phản hồi với sự thay đổi trong trạng thái.",
+        "links": [
+          {
+            "title": "BLoC trong Flutter",
+            "url": "https://docs.flutter.dev/development/data-and-backend/state-mgmt/options#bloc--rx",
+            "type": "official"
+          },
+          {
+            "title": "Bắt đầu với flutter_bloc",
+            "url": "https://pub.dev/packages/flutter_bloc",
+            "type": "article"
+          },
+          {
+            "title": "Flutter bloc cho người mới bắt đầu",
+            "url": "https://medium.com/flutter-community/flutter-bloc-for-beginners-839e22adb9f5",
+            "type": "article"
+          },
+          {
+            "title": "Flutter Bloc - Hướng dẫn",
+            "url": "https://www.youtube.com/watch?v=Ep6R7U9wa0U",
+            "type": "video"
+          },
+          {
+            "title": "Mẫu BLoC: Hướng dẫn Toàn diện",
+            "url": "https://www.youtube.com/watch?v=Qe47b8r5epc&ab_channel=MaxonFlutter",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "MfqUMirRIEiM7pr5NiGF_",
+      "type": "subtopic",
+      "label": "Nhà cung cấp",
+      "position": {
+        "x": -557.298072051004,
+        "y": 1624.2737248742874
+      },
+      "size": {
+        "width": 159,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "k3w1z-jvosI6y3y7yQIaV",
+        "color": "#147a00",
+        "label": "Lựa chọn Thay thế - Chọn cái này hoặc tím",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "Nhà cung cấp là một lớp bao bọc xung quanh InheritedWidget (lớp cơ sở cho các widget có hiệu quả truyền tải thông tin xuống cây), giúp chúng dễ sử dụng và tái sử dụng hơn.",
+        "links": [
+          {
+            "title": "Nhà cung cấp",
+            "url": "https://pub.dev/packages/provider",
+            "type": "official"
+          },
+          {
+            "title": "Quản lý Trạng thái Ứng dụng Đơn giản",
+            "url": "https://docs.flutter.dev/development/data-and-backend/state-mgmt/simple",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "nK_ZKTfNc8P-RJoz5jY32",
+      "type": "subtopic",
+      "label": "GetX",
+      "position": {
+        "x": -710.298072051004,
+        "y": 1677.2737248742874
+      },
+      "size": {
+        "width": 149,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "k3w1z-jvosI6y3y7yQIaV",
+        "color": "#147a00",
+        "label": "Lựa chọn Thay thế - Chọn cái này hoặc tím",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "GetX là một giải pháp nhẹ và mạnh mẽ cho quản lý trạng thái và điều hướng trong Flutter. Nó cung cấp một API sạch và đơn giản để quản lý trạng thái ứng dụng và điều hướng giữa các màn hình. GetX giúp bạn dễ dàng tạo ra các ứng dụng có khả năng mở rộng và bảo trì, vì nó cung cấp một nơi tập trung để quản lý trạng thái của ứng dụng, giảm thiểu lượng mã boilerplate cần thiết. Nó cũng cung cấp hỗ trợ sẵn trong hộp cát cho định tuyến, giúp bạn dễ dàng điều hướng giữa các màn hình, và hỗ trợ hot reloading, cho phép nhà phát triển thấy thay đổi theo thời gian thực.",
+        "links": [
+          {
+            "title": "GetX trong Flutter",
+            "url": "https://docs.flutter.dev/development/data-and-backend/state-mgmt/options#getx",
+            "type": "official"
+          },
+          {
+            "title": "Quản lý trạng thái GetX đầy đủ | Flutter",
+            "url": "https://www.youtube.com/watch?v=CNpXbeI_slw",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "wbush8eQsi9aDSRobGAyG",
+      "type": "topic",
+      "label": "Lập trình phản ứng",
+      "position": {
+        "x": 90.79463183718707,
+        "y": 1571.2737248742874
+      },
+      "size": {
+        "width": 305,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Lập trình phản ứng là một mô hình lập trình cho phép xử lý luồng dữ liệu thay đổi và cập nhật giao diện người dùng dựa trên những thay đổi đó. Lập trình phản ứng trong Flutter giúp tạo ra các ứng dụng động và đáp ứng có thể xử lý dữ liệu thay đổi và cập nhật giao diện người dùng tương ứng. Các widget `StreamBuilder` và `FutureBuilder` thường được sử dụng trong Flutter để xây dựng giao diện người dùng phản ứng.",
+        "links": [
+          {
+            "title": "Bắt đầu với Reactive Programming",
+            "url": "https://www.didierboelens.com/2018/12/reactive-programming-streams-bloc-practical-use-cases/",
+            "type": "article"
+          },
+          {
+            "title": "Lập trình phản ứng trong Flutter",
+            "url": "https://www.youtube.com/watch?v=x4FKXw4Uvls",
+            "type": "video"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Lập trình Phản ứng",
+            "url": "https://app.daily.dev/tags/reactive-programming?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ozQQKmfO_Ir9aJIMBvijK",
+      "type": "subtopic",
+      "label": "RxDart",
+      "position": {
+        "x": 210.8618127280065,
+        "y": 1489.2737248742874
+      },
+      "size": {
+        "width": 159,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "VHDZQqz8L4sTfaI3pxDjc",
+        "color": "#b0b0b0",
+        "label": "Thứ tự trong lộ trình không nghiêm ngặt (học bất cứ lúc nào)",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "RxDart là một thư viện cho Dart cung cấp thêm chức năng để làm việc với lập trình phản ứng, đặc biệt là với các lớp Streams và Observables. Nó mở rộng API Streams Dart tiêu chuẩn và cung cấp các tính năng bổ sung như khả năng chuyển đổi và kết hợp luồng, cũng như ghép và chuỗi các luồng lại với nhau. Trong Flutter, RxDart thường được sử dụng để xử lý luồng dữ liệu bất đồng bộ và tương tác người dùng một cách hiệu quả và tinh tế hơn.",
+        "links": [
+          {
+            "title": "Tài liệu RxDart",
+            "url": "https://pub.dev/documentation/rxdart/latest",
+            "type": "official"
+          },
+          {
+            "title": "Tổng quan về RxDart trong Flutter",
+            "url": "https://docs.flutter.dev/development/data-and-backend/state-mgmt/options#bloc--rx",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "KLoL-055KShGrQ-NQosy8",
+      "type": "topic",
+      "label": "Animations (Các animation)",
+      "position": {
+        "x": 90.79463183718707,
+        "y": 1765.022454238067
+      },
+      "size": {
+        "width": 305,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Hỗ trợ animation của Flutter giúp dễ dàng triển khai nhiều loại hình animation. Nhiều widget, đặc biệt là Material widgets, đi kèm với hiệu ứng chuyển động tiêu chuẩn được định nghĩa trong thông số kỹ thuật thiết kế của chúng, nhưng cũng có thể tùy chỉnh các hiệu ứng này.",
+        "links": [
+          {
+            "title": "Giới thiệu về Hiệu ứng hình ảnh",
+            "url": "https://docs.flutter.dev/development/ui/animations",
+            "type": "official"
+          },
+          {
+            "title": "Thư viện Animation",
+            "url": "https://api.flutter.dev/flutter/animation/animation-library.html",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "eXaP_U-EzptBuOp5R0KK3",
+      "type": "subtopic",
+      "label": "Bộ điều khiển Animation",
+      "position": {
+        "x": -273.64790096520323,
+        "y": 1659.022454238067
+      },
+      "size": {
+        "width": 216,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "Bt3_IFhi9zkS7qIKEMT0V",
+        "color": "#2b78e4",
+        "label": "Đề xuất/Ý kiến cá nhân",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "Lớp này cho phép bạn thực hiện các tác vụ như: *   Phát một animation về phía trước hoặc ngược lại, hoặc dừng một animation. *   Đặt animation thành một giá trị cụ thể. *   Định nghĩa các giá trị upperBound và lowerBound của một animation. *   Tạo hiệu ứng animation fling bằng mô phỏng vật lý. Mặc định, một AnimationController tạo ra các giá trị tuyến tính từ 0.0 đến 1.0 trong thời gian đã cho.",
+        "links": [
+          {
+            "title": "AnimationController - Flutter",
+            "url": "https://docs.flutter.dev/ui/animations/tutorial#animationcontroller",
+            "type": "official"
+          },
+          {
+            "title": "Lớp AnimationController",
+            "url": "https://api.flutter.dev/flutter/animation/AnimationController-class.html",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "M6iJ0VZWB8mreItlxvvqI",
+      "type": "subtopic",
+      "label": "Animated Builder",
+      "position": {
+        "x": -273.64790096520323,
+        "y": 1712.022454238067
+      },
+      "size": {
+        "width": 216,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "Bt3_IFhi9zkS7qIKEMT0V",
+        "color": "#2b78e4",
+        "label": "Đề xuất/Ý kiến cá nhân",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "AnimatedBuilder là một widget trong Flutter cho phép bạn xây dựng các hiệu ứng hình ảnh. Nó nhận một đối tượng Animation và một hàm builder làm đầu vào, và nó trả về một widget được tái tạo bất cứ khi nào animation thay đổi. Hàm builder được gọi với BuildContext và đối tượng animation và nó nên trả về widget cần được hiệu ứng hình ảnh. Điều này có thể được sử dụng để tạo các hiệu ứng hình ảnh phức tạp một cách dễ dàng mà không cần phải quản lý trạng thái animation hoặc lắng nghe các sự kiện animation trong cây widget.",
+        "links": [
+          {
+            "title": "Lớp AnimatedBuilder",
+            "url": "https://api.flutter.dev/flutter/widgets/AnimatedBuilder-class.html",
+            "type": "official"
+          },
+          {
+            "title": "Refactoring với AnimatedBuilders",
+            "url": "https://docs.flutter.dev/development/ui/animations/tutorial#refactoring-with-animatedbuilder",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "yRY8MJuXxhDV6Hd-hTMRu",
+      "type": "subtopic",
+      "label": "Widget Animated",
+      "position": {
+        "x": -273.64790096520323,
+        "y": 1765.022454238067
+      },
+      "size": {
+        "width": 216,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "Bt3_IFhi9zkS7qIKEMT0V",
+        "color": "#2b78e4",
+        "label": "Đề xuất/Ý kiến cá nhân",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "AnimatedWidget là một widget Flutter nhận một đối tượng `Animation` làm tham số và tự động cập nhật khi animation thay đổi. Điều này có thể hữu ích khi bạn muốn tạo các animation được kết nối chặt chẽ với một widget, ví dụ như để animation kích thước hoặc màu sắc của một widget. Với `AnimatedWidget`, bạn có thể đóng gói logic animation vào một widget duy nhất và tái sử dụng nó trong toàn bộ ứng dụng. Điều này giúp dễ dàng quản lý và bảo trì animations vì mã animation được tập trung hóa và tách biệt khỏi cây widget.",
+        "links": [
+          {
+            "title": "Tối ưu hóa với Animated­Widget",
+            "url": "https://docs.flutter.dev/development/ui/animations/tutorial#simplifying-with-animatedwidgets",
+            "type": "official"
+          },
+          {
+            "title": "Lớp AnimatedWidget",
+            "url": "https://api.flutter.dev/flutter/widgets/AnimatedWidget-class.html",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "F1kbyjRR2uHRbTe90LTFP",
+      "type": "subtopic",
+      "label": "Biểu động cong",
+      "position": {
+        "x": -273.64790096520323,
+        "y": 1818.022454238067
+      },
+      "size": {
+        "width": 216,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "Bt3_IFhi9zkS7qIKEMT0V",
+        "color": "#2b78e4",
+        "label": "Đề xuất/Ý kiến cá nhân",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "Các animation cong trong Flutter có thể được thực hiện bằng cách sử dụng lớp \"CurvedAnimation\". Lớp này nhận vào một đối tượng \"Curve\" xác định tốc độ thay đổi của animation theo thời gian. Đường cong thường được sử dụng nhất là đường cong \"Curves.easeInOut\", bắt đầu chậm, tăng tốc ở giữa và sau đó giảm tốc lại về cuối.",
+        "links": [
+          {
+            "title": "CurvedAnimation",
+            "url": "https://docs.flutter.dev/development/ui/animations/tutorial",
+            "type": "official"
+          },
+          {
+            "title": "Lớp CurvedAnimation",
+            "url": "https://api.flutter.dev/flutter/animation/CurvedAnimation-class.html",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5WPok-30ubqU8uox7XiSf",
+      "type": "subtopic",
+      "label": "Hero",
+      "position": {
+        "x": -273.64790096520323,
+        "y": 1871.022454238067
+      },
+      "size": {
+        "width": 216,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "Bt3_IFhi9zkS7qIKEMT0V",
+        "color": "#2b78e4",
+        "label": "Đề xuất/Ý kiến cá nhân",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "Hero là một widget trong Flutter cho phép bạn tạo các hiệu ứng chuyển tiếp mượt mà giữa các màn hình hoặc trong cùng một màn hình, dành cho các widget được sử dụng ở nhiều vị trí khác nhau. Widget sẽ được hiệu ứng chuyển đổi từ một màn hình sang màn hình khác hoặc từ một vị trí sang một vị trí khác trong cùng một màn hình. Widget đang được hiệu ứng hóa nên có thuộc tính tag duy nhất để Flutter có thể khớp giữa widget nguồn và đích. Các widget Hero được sử dụng để đảm bảo tính liên tục về mặt thị giác giữa các màn hình, vì vậy khi người dùng di chuyển từ một màn hình sang màn hình khác, widget hero sẽ chuyển tiếp mượt mà đến vị trí mới thay vì xuất hiện hoặc biến mất đột ngột. Điều này có thể làm cho việc điều hướng giữa các màn hình cảm thấy liền mạch và thú vị hơn cho người dùng.",
+        "links": [
+          {
+            "title": "Hiệu ứng hình ảnh nhân vật (Hero Animations)",
+            "url": "https://docs.flutter.dev/development/ui/animations/hero-animations",
+            "type": "official"
+          },
+          {
+            "title": "Lớp HeroAnimation",
+            "url": "https://docs.flutter.dev/development/ui/animations/hero-animations#heroanimation-class",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "aet6mLBkB1BtxI8e7x-h3",
+      "type": "subtopic",
+      "label": "Opacity",
+      "position": {
+        "x": -148.64790096520323,
+        "y": 1871.022454238067
+      },
+      "size": {
+        "width": 216,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "Bt3_IFhi9zkS7qIKEMT0V",
+        "color": "#2b78e4",
+        "label": "Đề xuất/Ý kiến cá nhân",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "Widget Opacity là một widget Flutter cho phép bạn kiểm soát độ trong suốt của widget con của nó. Nó nhận một tham số độ trong suốt duy nhất, đây là một giá trị từ 0.0 đến 1.0, trong đó 0.0 đại diện cho độ trong suốt hoàn toàn và 1.0 đại diện cho độ trong suốt hoàn toàn. Widget con được vẽ với độ trong suốt đã chỉ định, khiến nó có vẻ trong suốt hoặc bán trong suốt, tùy thuộc vào giá trị của tham số độ trong suốt. Điều này có thể hữu ích để tạo ra các hiệu ứng hình ảnh như fade-in hoặc fade-out, hoặc để tạo ra các nền hoặc lớp phủ bán trong suốt. Bằng cách sử dụng Opacity kết hợp với các widget và animation khác, bạn có thể tạo ra các hiệu ứng hình ảnh phức tạp trong ứng dụng Flutter của mình.",
+        "links": [
+          {
+            "title": "Fade một Widget vào và ra",
+            "url": "https://docs.flutter.dev/cookbook/animation/opacity-animation",
+            "type": "official"
+          },
+          {
+            "title": "Widget AnimatedOpacity",
+            "url": "https://docs.flutter.dev/codelabs/implicit-animations#animate-opacity-with-animatedopacity-widgets",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "zGkDu5j8ln8U9kZgz3TDJ",
+      "type": "topic",
+      "label": "Kiểm thử",
+      "position": {
+        "x": 81.79463183718707,
+        "y": 1964.6202056338686
+      },
+      "size": {
+        "width": 305,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Kiểm thử là một phần quan trọng của quy trình phát triển trong Flutter, vì nó giúp bạn xác minh hành vi và giao diện của ứng dụng và đảm bảo rằng nó hoạt động chính xác và nhất quán trên nhiều thiết bị và nền tảng khác nhau.",
+        "links": [
+          {
+            "title": "Kiểm thử Dart",
+            "url": "https://dart.dev/guides/testing",
+            "type": "official"
+          },
+          {
+            "title": "Kiểm thử Ứng dụng Flutter",
+            "url": "https://docs.flutter.dev/testing",
+            "type": "official"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Kiểm thử",
+            "url": "https://app.daily.dev/tags/testing?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "BCsv2fKHVxaB22RJJJPWM",
+      "type": "subtopic",
+      "label": "Kiểm thử Đơn vị",
+      "position": {
+        "x": 81.79463183718707,
+        "y": 2112.4983647057848
+      },
+      "size": {
+        "width": 252,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "Bt3_IFhi9zkS7qIKEMT0V",
+        "color": "#2b78e4",
+        "label": "Đề xuất/Ý kiến cá nhân",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "Kiểm thử đơn vị trong Flutter là quá trình kiểm tra các đơn vị mã riêng lẻ, chẳng hạn như hàm hoặc lớp, để đảm bảo rằng chúng hoạt động như mong đợi. Kiểm thử đơn vị giúp phát hiện lỗi sớm trong quá trình phát triển và tăng cường niềm tin vào mã của bạn bằng cách làm cho việc tái cấu trúc hoặc thực hiện thay đổi dễ dàng hơn mà không phá vỡ chức năng hiện có.",
+        "links": [
+          {
+            "title": "Giới thiệu về Kiểm thử Đơn vị",
+            "url": "https://docs.flutter.dev/cookbook/testing/unit/introduction",
+            "type": "official"
+          },
+          {
+            "title": "Kiểm thử Đơn vị - Flutter",
+            "url": "https://docs.flutter.dev/testing#unit-tests",
+            "type": "official"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Kiểm thử",
+            "url": "https://app.daily.dev/tags/testing?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "9hNfDtZK7_b9qUOXlFGFZ",
+      "type": "subtopic",
+      "label": "Kiểm tra Widget",
+      "position": {
+        "x": 81.79463183718707,
+        "y": 2165.4983647057848
+      },
+      "size": {
+        "width": 252,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "Bt3_IFhi9zkS7qIKEMT0V",
+        "color": "#2b78e4",
+        "label": "Đề xuất/Ý kiến cá nhân",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "Kiểm tra Widget trong Flutter là quá trình kiểm tra hành vi và giao diện của từng widget, riêng lẻ mà không liên quan đến phần còn lại của ứng dụng. Nó cho phép bạn xác minh rằng một widget hoạt động chính xác, hiển thị đầu ra dự kiến ​​và phản hồi đúng cách với các tương tác của người dùng.",
+        "links": [
+          {
+            "title": "Giới thiệu về Kiểm thử Widget",
+            "url": "https://docs.flutter.dev/cookbook/testing/widget/introduction",
+            "type": "official"
+          },
+          {
+            "title": "Kiểm tra Widget - Flutter",
+            "url": "https://docs.flutter.dev/testing#widget-tests",
+            "type": "official"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Kiểm thử",
+            "url": "https://app.daily.dev/tags/testing?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2RqGKWi13TLleTT7KpdZV",
+      "type": "subtopic",
+      "label": "Kiểm thử tích hợp",
+      "position": {
+        "x": 81.79463183718707,
+        "y": 2059.4983647057848
+      },
+      "size": {
+        "width": 252,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "Bt3_IFhi9zkS7qIKEMT0V",
+        "color": "#2b78e4",
+        "label": "Đề xuất/Ý kiến cá nhân",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "Các kiểm thử tích hợp trong Flutter là các kiểm thử xác minh hành vi của ứng dụng tổng thể, thay vì các widget hoặc hàm riêng lẻ. Kiểm thử tích hợp cho phép bạn kiểm tra tương tác giữa các phần khác nhau của ứng dụng và xác minh rằng hành vi tổng thể của ứng dụng là chính xác.",
+        "links": [
+          {
+            "title": "Giới thiệu về Kiểm thử tích hợp",
+            "url": "https://docs.flutter.dev/cookbook/testing/integration/introduction",
+            "type": "official"
+          },
+          {
+            "title": "Kiểm thử tích hợp",
+            "url": "https://docs.flutter.dev/testing#integration-tests",
+            "type": "official"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Kiểm thử",
+            "url": "https://app.daily.dev/tags/testing?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JbM-Hbf2ShUQt268ZMeZA",
+      "type": "subtopic",
+      "label": "Test-Driven Development",
+      "position": {
+        "x": 81.79463183718707,
+        "y": 2218.4983647057848
+      },
+      "size": {
+        "width": 149,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "VHDZQqz8L4sTfaI3pxDjc",
+        "color": "#b0b0b0",
+        "label": "Thứ tự trong lộ trình không nghiêm ngặt (học bất cứ lúc nào)",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "Phát triển dựa trên kiểm thử (Test-Driven Development - TDD) là một phương pháp luận phát triển phần mềm trong đó các bài kiểm thử được viết trước khi thực hiện mã đang được kiểm tra. Ý tưởng đằng sau TDD là viết một bài kiểm thử thất bại ban đầu, sau đó viết đủ code để làm cho bài kiểm thử này thành công, và cuối cùng là tái cấu trúc (refactor) mã nếu cần thiết. Quá trình này được lặp lại cho mỗi tính năng hoặc yêu cầu mới được thêm vào ứng dụng.",
+        "links": [
+          {
+            "title": "Phát triển theo kiểm thử (TDD) trong Flutter",
+            "url": "https://techblog.geekyants.com/test-driven-development-in-flutter",
+            "type": "article"
+          },
+          {
+            "title": "Flutter TDD Clean Architecture Course",
+            "url": "https://www.youtube.com/watch?v=KjE2IDphA_U",
+            "type": "video"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về TDD (Test-Driven Development)",
+            "url": "https://app.daily.dev/tags/tdd?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "0fpwuPTW94iyNlsjXcPOO",
+      "type": "subtopic",
+      "label": "BDD (Behavior-Driven Development)",
+      "position": {
+        "x": 205.79463183718707,
+        "y": 2218.4983647057848
+      },
+      "size": {
+        "width": 149,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "VHDZQqz8L4sTfaI3pxDjc",
+        "color": "#b0b0b0",
+        "label": "Thứ tự trong lộ trình không nghiêm ngặt (học bất cứ lúc nào)",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "Phát triển dựa trên hành vi (BDD) là một phương pháp luận phát triển phần mềm nhấn mạnh sự hợp tác giữa các nhà phát triển, kiểm thử viên và các bên liên quan để xác định và xác minh hành vi của ứng dụng. BDD sử dụng ngôn ngữ tự nhiên để mô tả hành vi mong đợi của ứng dụng và cung cấp sự hiểu biết chung về yêu cầu cho nhóm phát triển.",
+        "links": [
+          {
+            "title": "Xây dựng Flutter với BDD",
+            "url": "https://medium.com/tide-engineering-team/build-flutter-with-bdd-b4507170a2fe",
+            "type": "article"
+          },
+          {
+            "title": "Hướng dẫn - BDD trong Flutter",
+            "url": "https://www.youtube.com/watch?v=Kwvsc31FE_8",
+            "type": "video"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Kiểm thử",
+            "url": "https://app.daily.dev/tags/testing?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Jti4RmGDn7jVaHOxtTwPc",
+      "type": "topic",
+      "label": "Công cụ Phát triển (Dev Tools)",
+      "position": {
+        "x": -271.64790096520323,
+        "y": 1964.6202056338686
+      },
+      "size": {
+        "width": 305,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "VHDZQqz8L4sTfaI3pxDjc",
+        "color": "#b0b0b0",
+        "label": "Thứ tự trong lộ trình không nghiêm ngặt (học bất cứ lúc nào)",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "Flutter DevTools là một bộ công cụ phát triển được cung cấp bởi Flutter để giúp các nhà phát triển xây dựng, kiểm thử và gỡ lỗi ứng dụng Flutter.",
+        "links": [
+          {
+            "title": "Flutter - DevTools",
+            "url": "https://docs.flutter.dev/development/tools/devtools/overview",
+            "type": "official"
+          },
+          {
+            "title": "Dart DevTools",
+            "url": "https://dart.dev/tools/dart-devtools",
+            "type": "official"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Công cụ",
+            "url": "https://app.daily.dev/tags/tools?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ehlGkYI3dqzu3B1pkhg9t",
+      "type": "subtopic",
+      "label": "Flutter Inspector",
+      "position": {
+        "x": -271.64790096520323,
+        "y": 2059.4983647057848
+      },
+      "size": {
+        "width": 217,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "Bt3_IFhi9zkS7qIKEMT0V",
+        "color": "#2b78e4",
+        "label": "Đề xuất/Ý kiến cá nhân",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "Đây là một công cụ trong Flutter SDK cung cấp biểu diễn trực quan của cây widget trong ứng dụng Flutter. Nó cho phép các nhà phát triển kiểm tra các widget trong ứng dụng, xem các thuộc tính và kiểu được áp dụng cho mỗi widget và tương tác với ứng dụng theo thời gian thực.",
+        "links": [
+          {
+            "title": "Sử dụng Inspector của Flutter",
+            "url": "https://docs.flutter.dev/development/tools/devtools/inspector",
+            "type": "official"
+          },
+          {
+            "title": "Hướng dẫn Sử dụng Flutter Inspector",
+            "url": "https://www.youtube.com/watch?v=CcLfGJZS8ns",
+            "type": "video"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Flutter",
+            "url": "https://app.daily.dev/tags/flutter?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "wisXrfrmnZYB3hs5f3_VS",
+      "type": "subtopic",
+      "label": "Flutter Outline (Đường viền Flutter)",
+      "position": {
+        "x": -271.64790096520323,
+        "y": 2112.4983647057848
+      },
+      "size": {
+        "width": 217,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "Bt3_IFhi9zkS7qIKEMT0V",
+        "color": "#2b78e4",
+        "label": "Đề xuất/Ý kiến cá nhân",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "Flutter Outline là một tính năng trong môi trường phát triển Flutter (IDE) cung cấp biểu diễn cây của các widget và thành phần trong ứng dụng Flutter của bạn. Nó hiển thị hệ thống phân cấp của các widget, mối quan hệ giữa chúng và cấu trúc của ứng dụng.",
+        "links": [
+          {
+            "title": "Flutter Widget Tree",
+            "url": "https://docs.flutter.dev/tools/devtools/inspector#flutter-widget-tree",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ZsruX7gozx2-0cQNIkZ6o",
+      "type": "subtopic",
+      "label": "Phân bổ bộ nhớ",
+      "position": {
+        "x": -271.64790096520323,
+        "y": 2165.4983647057848
+      },
+      "size": {
+        "width": 217,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "Bt3_IFhi9zkS7qIKEMT0V",
+        "color": "#2b78e4",
+        "label": "Đề xuất/Ý kiến cá nhân",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "Phân bổ bộ nhớ là quá trình dành riêng một phần bộ nhớ của thiết bị cho việc sử dụng của ứng dụng. Phân bổ bộ nhớ trong Flutter được quản lý bởi máy ảo Dart, sử dụng bộ thu gom rác để tự động quản lý bộ nhớ được sử dụng bởi ứng dụng.",
+        "links": [
+          {
+            "title": "Sử dụng Memory view",
+            "url": "https://docs.flutter.dev/development/tools/devtools/memory",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dgdv8sDKkgQ365mR0kBR3",
+      "type": "topic",
+      "label": "Flutter Internals (Bên trong Flutter)",
+      "position": {
+        "x": -710.298072051004,
+        "y": 1964.6202056338686
+      },
+      "size": {
+        "width": 305,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "VHDZQqz8L4sTfaI3pxDjc",
+        "color": "#b0b0b0",
+        "label": "Thứ tự trong lộ trình không nghiêm ngặt (học bất cứ lúc nào)",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "Các hoạt động bên trong của Flutter đề cập đến các cơ chế và kiến trúc cơ bản tạo nên khung Flutter. Flutter là một khung phản hồi (reactive) để xây dựng giao diện người dùng, điều này cho phép nhà phát triển xây dựng các ứng dụng động, đáp ứng có thể tự động cập nhật khi trạng thái của ứng dụng thay đổi.",
+        "links": [
+          {
+            "title": "Flutter - Nội tại",
+            "url": "https://www.didierboelens.com/2019/09/flutter-internals/",
+            "type": "article"
+          },
+          {
+            "title": "Tổng quan về các thành phần bên trong của Flutter",
+            "url": "https://flutter.megathink.com/",
+            "type": "article"
+          },
+          {
+            "title": "Hướng dẫn về Cấu trúc Nội tại Flutter",
+            "url": "https://medium.com/@subroto.2003/a-guide-to-flutter-internals-ce8d64d01c50",
+            "type": "article"
+          },
+          {
+            "title": "Flutter và Dart | Cấu Trúc Widget & Nội Tại Flutter",
+            "url": "https://www.youtube.com/watch?v=FBXMvOmiOLE",
+            "type": "video"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Flutter",
+            "url": "https://app.daily.dev/tags/flutter?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "9ytV8xPq60z7doFG07PHi",
+      "type": "subtopic",
+      "label": "Render Objects",
+      "position": {
+        "x": -710.298072051004,
+        "y": 1820.7432646422665
+      },
+      "size": {
+        "width": 217,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "Bt3_IFhi9zkS7qIKEMT0V",
+        "color": "#2b78e4",
+        "label": "Đề xuất/Ý kiến cá nhân",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "RenderObjects có thể được định nghĩa là \"Objects\" hiển thị và thao tác bố cục, kích thước và vẽ giao diện người dùng, cung cấp việc hiển thị thực tế của ứng dụng. Chúng dọn dẹp một số tài nguyên khi phương thức dispose được gọi, do đó phải được Dispose bởi người tạo khi không còn sử dụng.",
+        "links": [
+          {
+            "title": "Tài liệu RenderObject",
+            "url": "https://api.flutter.dev/flutter/rendering/RenderObject-class.html",
+            "type": "official"
+          },
+          {
+            "title": "Bắt đầu với RenderObjects - Flutter",
+            "url": "https://jasper-dev.hashnode.dev/getting-started-with-renderobjects-in-flutter",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "24xYv3joKX1roqRGfBXmr",
+      "type": "subtopic",
+      "label": "3 Trees",
+      "position": {
+        "x": -710.298072051004,
+        "y": 1873.7432646422665
+      },
+      "size": {
+        "width": 217,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "Bt3_IFhi9zkS7qIKEMT0V",
+        "color": "#2b78e4",
+        "label": "Đề xuất/Ý kiến cá nhân",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "Một cây là một cấu trúc dữ liệu được sử dụng để biểu diễn thứ bậc của các widget trong ứng dụng Flutter. Cấu trúc cây cho phép Flutter quản lý bố cục, kiểu dáng và hành vi của các widget trong ứng dụng.",
+        "links": [
+          {
+            "title": "Cây trong Flutter",
+            "url": "https://docs.flutter.dev/resources/inside-flutter#tree-surgery",
+            "type": "official"
+          },
+          {
+            "title": "Flutter cơ sở — Hiểu về Cây (Tree)",
+            "url": "https://medium.com/@JediPixels/beginning-flutter-understanding-the-widget-tree-3513c94dc356",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "lHzW9dyF1u3qmjfdb3vHe",
+      "type": "subtopic",
+      "label": "Vật bất biến (Immutability)",
+      "position": {
+        "x": -591.298072051004,
+        "y": 1873.7432646422665
+      },
+      "size": {
+        "width": 217,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "Bt3_IFhi9zkS7qIKEMT0V",
+        "color": "#2b78e4",
+        "label": "Đề xuất/Ý kiến cá nhân",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "Vật bất biến trong Flutter đề cập đến các đối tượng không thể thay đổi sau khi chúng được tạo ra. Trong Flutter, vật bất biến được sử dụng để đảm bảo rằng các đối tượng trong cây widget sẽ không bị sửa đổi một cách bất ngờ, điều này có thể dẫn đến hành vi và lỗi không mong muốn trong ứng dụng.",
+        "links": [
+          {
+            "title": "Dữ liệu Không Thay Đổi trong Flutter",
+            "url": "https://dart.academy/immutable-data-patterns-in-dart-and-flutter/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ekKzwQCMOYJLVN5KAK-ew",
+      "type": "topic",
+      "label": "CI / CD",
+      "position": {
+        "x": -711.798072051004,
+        "y": 2350.05294950736
+      },
+      "size": {
+        "width": 305,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "CI/CD (Continuous Integration and Continuous Deployment) là một phương thức phát triển phần mềm giúp tự động hóa quy trình xây dựng, kiểm thử và triển khai ứng dụng di động, bao gồm cả ứng dụng Flutter. Với CI/CD, các nhà phát triển có thể tự động hóa quy trình xây dựng, kiểm thử và triển khai cho ứng dụng Flutter của họ, giúp dễ dàng phát hiện lỗi và triển khai các tính năng mới nhanh chóng và hiệu quả.",
+        "links": [
+          {
+            "title": "CI/CD - Flutter",
+            "url": "https://docs.flutter.dev/deployment/cd",
+            "type": "official"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về CI/CD",
+            "url": "https://app.daily.dev/tags/cicd?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hd4O2UPI9bZiyGuCMA-J4",
+      "type": "subtopic",
+      "label": "Fast Lane",
+      "position": {
+        "x": -597.2422341318439,
+        "y": 2054.428567306835
+      },
+      "size": {
+        "width": 217,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "Bt3_IFhi9zkS7qIKEMT0V",
+        "color": "#2b78e4",
+        "label": "Đề xuất/Ý kiến cá nhân",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "Fastlane là một công cụ của bên thứ ba để tự động hóa quy trình phát triển và triển khai ứng dụng di động, bao gồm cả các ứng dụng được xây dựng với Flutter. Fastlane cung cấp một bộ công cụ để tự động hóa các tác vụ như xây dựng, kiểm thử và phân phối ứng dụng. Ví dụ, Fastlane có thể tự động hóa quá trình xây dựng ứng dụng, tạo ra ứng viên phát hành và nộp ứng dụng lên cửa hàng Ứng dụng.",
+        "links": [
+          {
+            "title": "Fast Lane - CI/CD trong Flutter",
+            "url": "https://docs.flutter.dev/deployment/cd",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "DcSBkhcOG55_dNaLF1FWA",
+      "type": "subtopic",
+      "label": "Codemagic",
+      "position": {
+        "x": -597.2422341318439,
+        "y": 2107.428567306835
+      },
+      "size": {
+        "width": 217,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "k3w1z-jvosI6y3y7yQIaV",
+        "color": "#147a00",
+        "label": "Lựa chọn Thay thế - Chọn cái này hoặc tím",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "Codemagic là nền tảng tích hợp liên tục và phân phối (CI/CD) dựa trên đám mây được thiết kế đặc biệt cho phát triển ứng dụng di động Flutter. Codemagic cung cấp một cách đơn giản và hiệu quả để các nhà phát triển Flutter tự động hóa quy trình xây dựng, kiểm thử và triển khai ứng dụng của họ. Nó tích hợp với khung Flutter và cho phép các nhà phát triển cấu hình quy trình xây dựng, chạy kiểm tra và phân phối ứng dụng đến nhiều cửa hàng ứng dụng chỉ bằng vài cú nhấp chuột.",
+        "links": [
+          {
+            "title": "Codemagic - Flutter",
+            "url": "https://codemagic.io/start/",
+            "type": "official"
+          },
+          {
+            "title": "Tạo tệp lưu trữ xây dựng với Codemagic",
+            "url": "https://docs.flutter.dev/deployment/ios#create-a-build-archive-with-codemagic-cli-tools",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1xTlq-0MaHN15KZid31Dk",
+      "type": "subtopic",
+      "label": "Bitrise",
+      "position": {
+        "x": -597.2422341318439,
+        "y": 2160.428567306835
+      },
+      "size": {
+        "width": 217,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "Bt3_IFhi9zkS7qIKEMT0V",
+        "color": "#2b78e4",
+        "label": "Đề xuất/Ý kiến cá nhân",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "Bitrise là nền tảng tích hợp và triển khai liên tục (CI/CD) dựa trên đám mây có thể được sử dụng với phát triển ứng dụng Flutter di động. Bitrise cung cấp một bộ công cụ toàn diện để tự động hóa quy trình xây dựng, kiểm thử và triển khai cho các ứng dụng di động, bao gồm cả các ứng dụng được xây dựng bằng Flutter. Với Bitrise, các nhà phát triển có thể tự động hóa các tác vụ như xây dựng ứng dụng, chạy thử nghiệm và phân phối ứng dụng đến nhiều cửa hàng ứng dụng khác nhau.",
+        "links": [
+          {
+            "title": "Thêm một ứng dụng Flutter vào Bitrise",
+            "url": "https://devcenter.bitrise.io/en/getting-started/quick-start-guides/getting-started-with-flutter-apps.html",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "8rCjcuZNL9kicMBXiL46l",
+      "type": "subtopic",
+      "label": "Hành động GitHub",
+      "position": {
+        "x": -597.2422341318439,
+        "y": 2213.428567306835
+      },
+      "size": {
+        "width": 217,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "k3w1z-jvosI6y3y7yQIaV",
+        "color": "#147a00",
+        "label": "Lựa chọn Thay thế - Chọn cái này hoặc tím",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "GitHub Actions là một công cụ tự động hóa quy trình làm việc được cung cấp bởi GitHub, có thể được sử dụng để tự động hóa các tác vụ khác nhau trong quá trình phát triển ứng dụng di động Flutter. Với GitHub Actions, nhà phát triển có thể tạo các quy trình tùy chỉnh để tự động hóa các tác vụ như xây dựng ứng dụng, chạy thử nghiệm và triển khai ứng dụng lên nhiều cửa hàng ứng dụng. Các quy trình này được định nghĩa là một chuỗi các hành động trong một tệp YAML, có thể được commit vào kho lưu trữ.",
+        "links": [
+          {
+            "title": "Hành động GitHub",
+            "url": "https://github.com/features/actions",
+            "type": "official"
+          },
+          {
+            "title": "Flutter - GitHub Actions",
+            "url": "https://github.com/nabilnalakath/flutter-githubaction",
+            "type": "opensource"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về GitHub",
+            "url": "https://app.daily.dev/tags/github?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "akQ7SEHiZm9pZK49rsbO2",
+      "type": "subtopic",
+      "label": "Ứng dụng Firebase",
+      "position": {
+        "x": -597.2422341318439,
+        "y": 2266.428567306835
+      },
+      "size": {
+        "width": 217,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "Bt3_IFhi9zkS7qIKEMT0V",
+        "color": "#2b78e4",
+        "label": "Đề xuất/Ý kiến cá nhân",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "Firebase App Distribution là một dịch vụ do Firebase cung cấp, nền tảng phát triển ứng dụng di động thuộc sở hữu của Google, giúp việc phân phối các phiên bản trước khi phát hành của ứng dụng di động cho người dùng thử nghiệm và các bên liên quan trở nên dễ dàng hơn. Với Firebase App Distribution, nhà phát triển có thể tải lên một phiên bản trước khi phát hành của ứng dụng Flutter di động lên nền tảng Firebase, sau đó mời người dùng thử nghiệm và các bên liên quan tải xuống và kiểm tra ứng dụng. Người dùng thử nghiệm và các bên liên quan có thể cung cấp phản hồi trực tiếp từ ứng dụng, giúp nhà phát triển dễ dàng sửa lỗi và cải tiến trước khi phát hành ứng dụng cho công chúng.",
+        "links": [
+          {
+            "title": "Firebase Hosting",
+            "url": "https://firebase.google.com/docs/hosting",
+            "type": "official"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Firebase",
+            "url": "https://app.daily.dev/tags/firebase?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "s5OVzjQp6k7rSphhv3hZE",
+      "type": "topic",
+      "label": "Phân tích",
+      "position": {
+        "x": -271.64790096520323,
+        "y": 2350.05294950736
+      },
+      "size": {
+        "width": 305,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Phân tích là một khía cạnh quan trọng để hiểu hành vi người dùng và đo lường hiệu suất ứng dụng cho các ứng dụng Flutter. Có nhiều công cụ phân tích có sẵn cho các ứng dụng Flutter, mỗi công cụ đều có bộ tính năng và lợi ích riêng.",
+        "links": [
+          {
+            "title": "Phân tích hiệu suất Flutter hàng đầu",
+            "url": "https://fluttergems.dev/analytics-consumer-insights/",
+            "type": "article"
+          },
+          {
+            "title": "Phân tích Flutter sử dụng Firebase",
+            "url": "https://www.youtube.com/watch?v=31KpJXqCayo",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PQ7o9Jw9SBEhHl8cc_46x",
+      "type": "subtopic",
+      "label": "Segment",
+      "position": {
+        "x": -273.89917160142375,
+        "y": 2263.3029319887246
+      },
+      "size": {
+        "width": 217,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "k3w1z-jvosI6y3y7yQIaV",
+        "color": "#147a00",
+        "label": "Lựa chọn Thay thế - Chọn cái này hoặc tím",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "Segment là một nền tảng phân tích cung cấp một API duy nhất để thu thập, lưu trữ và định tuyến dữ liệu khách hàng từ nhiều nguồn khác nhau, bao gồm các ứng dụng di động được xây dựng với Flutter. Với Segment, nhà phát triển Flutter có thể dễ dàng thêm theo dõi phân tích vào ứng dụng của họ mà không cần phải tích hợp với nhiều công cụ phân tích riêng lẻ. Segment đóng vai trò là một điểm tích hợp duy nhất, cho phép các nhà phát triển gửi dữ liệu đến nhiều công cụ phân tích khác nhau bằng một API.",
+        "links": [
+          {
+            "title": "flutter_segment",
+            "url": "https://pub.dev/packages/flutter_segment",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "RQMRtlRxvp0CZJzCjRtPu",
+      "type": "subtopic",
+      "label": "Mix Panel",
+      "position": {
+        "x": -162.89917160142375,
+        "y": 2263.3029319887246
+      },
+      "size": {
+        "width": 217,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "k3w1z-jvosI6y3y7yQIaV",
+        "color": "#147a00",
+        "label": "Lựa chọn Thay thế - Chọn cái này hoặc tím",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "Mixpanel là một nền tảng phân tích sản phẩm cung cấp thông tin chi tiết về hành vi người dùng cho các ứng dụng di động, bao gồm cả những ứng dụng được xây dựng với Flutter. Với Mixpanel, nhà phát triển Flutter có thể theo dõi tương tác của người dùng với ứng dụng của họ, bao gồm số lượt xem trang, sự kiện và thuộc tính người dùng, và sử dụng dữ liệu này để hiểu rõ hơn về hành vi của người dùng. Mixpanel cung cấp một loạt các công cụ và tính năng để phân tích dữ liệu này, bao gồm bảng điều khiển thời gian thực, phân đoạn và kiểm thử A/B.",
+        "links": [
+          {
+            "title": "Tổng quan về Mixpanel cho Flutter",
+            "url": "https://levelup.gitconnected.com/flutter-web-mixpanel-6046ffb664fb",
+            "type": "article"
+          },
+          {
+            "title": "Tích hợp Flutter Mixpanel Analytics",
+            "url": "https://medium.com/flutter-clan/flutter-mixpanel-analytics-integration-b5840b155f7b",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "g2qXhkk6oGaBJy8Y2JOwW",
+      "type": "subtopic",
+      "label": "Firebase Analytics",
+      "position": {
+        "x": -271.64790096520323,
+        "y": 2444.2674242490925
+      },
+      "size": {
+        "width": 225,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "k3w1z-jvosI6y3y7yQIaV",
+        "color": "#147a00",
+        "label": "Lựa chọn Thay thế - Chọn cái này hoặc tím",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "Firebase Analytics là một công cụ phân tích miễn phí do Google cung cấp giúp hiểu về hành vi người dùng và đo lường hiệu suất ứng dụng cho các ứng dụng di động, bao gồm cả những ứng dụng được xây dựng với Flutter. Với Firebase Analytics, nhà phát triển Flutter có thể theo dõi tương tác của người dùng với ứng dụng của họ, bao gồm số lượt xem trang, sự kiện và thuộc tính người dùng, và sử dụng dữ liệu này để có được hiểu biết sâu sắc về hành vi của người dùng. Firebase Analytics cung cấp một loạt các công cụ và tính năng để phân tích dữ liệu này, bao gồm bảng điều khiển thời gian thực, phân đoạn người dùng và đường hầm.",
+        "links": [
+          {
+            "title": "Flutter - Firebase",
+            "url": "https://docs.flutter.dev/development/data-and-backend/firebase",
+            "type": "official"
+          },
+          {
+            "title": "Cách thêm Firebase Analytics vào Flutter",
+            "url": "https://medium.datadriveninvestor.com/how-to-add-firebase-analytics-to-your-flutter-app-641fbda1d224?gi=ad489389a531",
+            "type": "article"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Firebase",
+            "url": "https://app.daily.dev/tags/firebase?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3IQRLoW9OEf0121-w4o5m",
+      "type": "subtopic",
+      "label": "Google Analytics",
+      "position": {
+        "x": -271.64790096520323,
+        "y": 2497.2674242490925
+      },
+      "size": {
+        "width": 225,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "k3w1z-jvosI6y3y7yQIaV",
+        "color": "#147a00",
+        "label": "Lựa chọn Thay thế - Chọn cái này hoặc tím",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "Google Analytics là một dịch vụ phân tích web miễn phí do Google cung cấp, giúp hiểu hành vi người dùng và đo lường hiệu suất ứng dụng cho các ứng dụng di động, bao gồm cả những ứng dụng được xây dựng với Flutter. Với Google Analytics, các nhà phát triển Flutter có thể theo dõi tương tác của người dùng với ứng dụng của họ, bao gồm số lượt xem trang, sự kiện và thuộc tính người dùng, và sử dụng dữ liệu này để có được hiểu biết sâu sắc về hành vi của người dùng. Google Analytics cung cấp một loạt công cụ và tính năng để phân tích dữ liệu này, bao gồm bảng điều khiển thời gian thực, phân đoạn người dùng và đường kênh.",
+        "links": [
+          {
+            "title": "Google Analytics for Firebase",
+            "url": "https://firebase.flutter.dev/docs/analytics/overview/",
+            "type": "official"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Google",
+            "url": "https://app.daily.dev/tags/google?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mdSWrWi-1n_YlY5iTJwZp",
+      "type": "topic",
+      "label": "Triển khai",
+      "position": {
+        "x": 70.3618127280065,
+        "y": 2641.4756347092084
+      },
+      "size": {
+        "width": 305,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Triển khai trong Flutter đề cập đến quá trình phát hành một ứng dụng Flutter cho người dùng cuối. Triển khai một ứng dụng Flutter liên quan đến sự kết hợp giữa kỹ năng và kinh nghiệm kỹ thuật, cũng như kiến thức về các cửa hàng ứng dụng phù hợp và chính sách/yêu cầu của chúng.",
+        "links": [
+          {
+            "title": "Triển khai Web",
+            "url": "https://dart.dev/web/deployment",
+            "type": "official"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về CI/CD",
+            "url": "https://app.daily.dev/tags/cicd?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "BjE4Qvjpi0i_s4Oib9765",
+      "type": "subtopic",
+      "label": "Guidelines & Protocols",
+      "position": {
+        "x": 70.3618127280065,
+        "y": 2724.176078590301
+      },
+      "size": {
+        "width": 252,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "Bt3_IFhi9zkS7qIKEMT0V",
+        "color": "#2b78e4",
+        "label": "Đề xuất/Ý kiến cá nhân",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "Các hướng dẫn và quy trình là những cân nhắc quan trọng đối với các nhà phát triển Flutter vì chúng giúp đảm bảo rằng ứng dụng được xây dựng một cách nhất quán, đáng tin cậy và thân thiện với người dùng. Một số nguyên tắc và quy trình chính cần xem xét khi phát triển một ứng dụng Flutter bao gồm: * Widget Flutter * Phong cách Dart * Thiết kế Material * Apple Human Interface * Trung tâm Chính sách Nhà phát triển Google Play * Đánh giá Ứng Store Bằng cách tuân thủ các hướng dẫn và quy trình này, các nhà phát triển Flutter có thể đảm bảo rằng ứng dụng của họ được thiết kế tốt, thân thiện với người dùng và an toàn, giúp dễ dàng thu hút và giữ chân người dùng.",
+        "links": [
+          {
+            "title": "Flutter - Giao thức",
+            "url": "https://api.flutter.dev/objcdoc/Protocols.html",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JHkdIQRgf1bbL-HASvGi0",
+      "type": "subtopic",
+      "label": "App Store",
+      "position": {
+        "x": 70.3618127280065,
+        "y": 2777.176078590301
+      },
+      "size": {
+        "width": 252,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "Bt3_IFhi9zkS7qIKEMT0V",
+        "color": "#2b78e4",
+        "label": "Đề xuất/Ý kiến cá nhân",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "App Store là một nền tảng quan trọng cần xem xét khi xuất bản các ứng dụng Flutter. Để xuất bản một ứng dụng lên App Store, các nhà phát triển cần có tài khoản nhà phát triển của Apple, điều này đòi hỏi phí hàng năm. Để xuất bản một ứng dụng Flutter lên App Store, các nhà phát triển cần đảm bảo rằng ứng dụng của họ đáp ứng các hướng dẫn và yêu cầu của Apple, bao gồm các hướng dẫn về hiệu suất, thiết kế và trải nghiệm người dùng. Sau khi ứng dụng đã được xem xét và phê duyệt bởi Apple, nó có thể được xuất bản trên App Store và có sẵn để tải xuống cho người dùng iOS.",
+        "links": [
+          {
+            "title": "Xây dựng và Phát hành Ứng dụng iOS",
+            "url": "https://docs.flutter.dev/deployment/ios",
+            "type": "official"
+          },
+          {
+            "title": "Đánh giá App Store",
+            "url": "https://developer.apple.com/app-store/review/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "wF8Iy7V-f52qQxOsAJobz",
+      "type": "subtopic",
+      "label": "Cửa hàng Google Play",
+      "position": {
+        "x": 70.3618127280065,
+        "y": 2830.176078590301
+      },
+      "size": {
+        "width": 252,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "Bt3_IFhi9zkS7qIKEMT0V",
+        "color": "#2b78e4",
+        "label": "Đề xuất/Ý kiến cá nhân",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "Google Play Store là cửa hàng trực tuyến cho các ứng dụng Android, trò chơi và nội dung kỹ thuật số khác. Nó được Google vận hành và là cửa hàng ứng dụng chính thức cho các thiết bị Android.",
+        "links": [
+          {
+            "title": "Xây dựng và Phát hành Ứng dụng Android",
+            "url": "https://docs.flutter.dev/deployment/android",
+            "type": "official"
+          },
+          {
+            "title": "Đăng ứng dụng của bạn - Nhà phát triển Android",
+            "url": "https://developer.android.com/studio/publish",
+            "type": "article"
+          },
+          {
+            "title": "Đăng ứng dụng Flutter lên PlayStore",
+            "url": "https://medium.flutterdevs.com/publishing-flutter-app-to-playstore-fa7543b61a7b",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "8VIfVY_-cRS-hcbZzv-lM",
+      "type": "legend",
+      "label": "",
+      "position": {
+        "x": -710.298072051004,
+        "y": -148.2948532825934
+      },
+      "size": {
+        "width": 388,
+        "height": 124
+      },
+      "style": {},
+      "z_index": 999
+    }
+  ],
+  "edges": [
+    {
+      "id": "xy-edge__HU7wZWiES3m3xl1-NYP6Fx2-08qKtgnhJ3tlb5JKfTDf5w1",
+      "source": "HU7wZWiES3m3xl1-NYP6F",
+      "target": "AubSeLi2nwNTUA-L3Kfn4",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__4U-HZQGH7kaWCB94Xy8Mhz2-cMfsRtvzvDZZJ0TqeUOxmy1",
+      "source": "AubSeLi2nwNTUA-L3Kfn4",
+      "target": "vR38pAZOfI55R7N7NLY5N",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__z50iixpcCMe9sTh-gwTI3z2-cMfsRtvzvDZZJ0TqeUOxmy2",
+      "source": "AubSeLi2nwNTUA-L3Kfn4",
+      "target": "keS-4La_a227quDYYbOJT",
+      "source_handle": "z2",
+      "target_handle": "y2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__Q2S4__BB30KljB7SlquJxy2-z50iixpcCMe9sTh-gwTI3z1",
+      "source": "Q2S4__BB30KljB7SlquJx",
+      "target": "AubSeLi2nwNTUA-L3Kfn4",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__z50iixpcCMe9sTh-gwTI3z2-Pek6vOO-qKCetTznCGv6fy1",
+      "source": "AubSeLi2nwNTUA-L3Kfn4",
+      "target": "Pek6vOO-qKCetTznCGv6f",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__z50iixpcCMe9sTh-gwTI3z2-TT6HoilzgmS8CAPiTTKZ0y2",
+      "source": "AubSeLi2nwNTUA-L3Kfn4",
+      "target": "TT6HoilzgmS8CAPiTTKZ0",
+      "source_handle": "z2",
+      "target_handle": "y2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__z50iixpcCMe9sTh-gwTI3z2-P-SbMLN-AaNMss_7X0_5Ny1",
+      "source": "AubSeLi2nwNTUA-L3Kfn4",
+      "target": "P-SbMLN-AaNMss_7X0_5N",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__z50iixpcCMe9sTh-gwTI3y2-2mGGqg3ycxw4Rd7blYE-Yz1",
+      "source": "HCJXVgnglYuRhK0zl3iPG",
+      "target": "2mGGqg3ycxw4Rd7blYE-Y",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__z50iixpcCMe9sTh-gwTI3y2-lCpJQ8GZp5KhpGO4Sttguz1",
+      "source": "dy2Jep9hIIECaLutx-3K0",
+      "target": "lCpJQ8GZp5KhpGO4Sttgu",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__HCJXVgnglYuRhK0zl3iPGx2-mdSWrWi-1n_YlY5iTJwZpw1",
+      "source": "HCJXVgnglYuRhK0zl3iPG",
+      "target": "dy2Jep9hIIECaLutx-3K0",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__mdSWrWi-1n_YlY5iTJwZpy2-DKt8U-iZcrXU5gWGRONqZz2",
+      "source": "dy2Jep9hIIECaLutx-3K0",
+      "target": "DKt8U-iZcrXU5gWGRONqZ",
+      "source_handle": "y2",
+      "target_handle": "z2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__mdSWrWi-1n_YlY5iTJwZpy2-e-m4iKuK6NqFaQLE5viNIz1",
+      "source": "dy2Jep9hIIECaLutx-3K0",
+      "target": "e-m4iKuK6NqFaQLE5viNI",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__mdSWrWi-1n_YlY5iTJwZpy2-07tpSQeeMLKggWwdUXAejz1",
+      "source": "dy2Jep9hIIECaLutx-3K0",
+      "target": "07tpSQeeMLKggWwdUXAej",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__mdSWrWi-1n_YlY5iTJwZpy2-wBSdmrVPv3Zuys3X8VvBmz2",
+      "source": "dy2Jep9hIIECaLutx-3K0",
+      "target": "wBSdmrVPv3Zuys3X8VvBm",
+      "source_handle": "y2",
+      "target_handle": "z2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__mdSWrWi-1n_YlY5iTJwZpz2-z50iixpcCMe9sTh-gwTI3y1",
+      "source": "dy2Jep9hIIECaLutx-3K0",
+      "target": "z50iixpcCMe9sTh-gwTI3",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__dy2Jep9hIIECaLutx-3K0x2-mdSWrWi-1n_YlY5iTJwZpw2",
+      "source": "dy2Jep9hIIECaLutx-3K0",
+      "target": "2nz5JoAPsZftFNLypr3Is",
+      "source_handle": "x2",
+      "target_handle": "w2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__mdSWrWi-1n_YlY5iTJwZpz2-V0R4VyQ64Bwwj6O8XbZyFy1",
+      "source": "qGN95GG0Q3dur72GS3EDX",
+      "target": "V0R4VyQ64Bwwj6O8XbZyF",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__qGN95GG0Q3dur72GS3EDXx2-mdSWrWi-1n_YlY5iTJwZpw1",
+      "source": "qGN95GG0Q3dur72GS3EDX",
+      "target": "drwRSEnl1-ziCvxWJZMJ2",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__mdSWrWi-1n_YlY5iTJwZpz2-fhPl9rycPa1r10fuEuNhiy1",
+      "source": "drwRSEnl1-ziCvxWJZMJ2",
+      "target": "fhPl9rycPa1r10fuEuNhi",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__mdSWrWi-1n_YlY5iTJwZpz2-cMfsRtvzvDZZJ0TqeUOxmy1",
+      "source": "drwRSEnl1-ziCvxWJZMJ2",
+      "target": "1-dfwbhXgeRT3VVq3RSRv",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__mdSWrWi-1n_YlY5iTJwZpz2-VKqo4dAcy-JiZo7Lw5jegy1",
+      "source": "drwRSEnl1-ziCvxWJZMJ2",
+      "target": "VKqo4dAcy-JiZo7Lw5jeg",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__mdSWrWi-1n_YlY5iTJwZpz2-MLdt_37kpF2eV0oy56GZFy2",
+      "source": "drwRSEnl1-ziCvxWJZMJ2",
+      "target": "MLdt_37kpF2eV0oy56GZF",
+      "source_handle": "z2",
+      "target_handle": "y2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__drwRSEnl1-ziCvxWJZMJ2y2-mdSWrWi-1n_YlY5iTJwZpz1",
+      "source": "drwRSEnl1-ziCvxWJZMJ2",
+      "target": "med4T8PVkxIo465VuKDEj",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__med4T8PVkxIo465VuKDEjx2-mdSWrWi-1n_YlY5iTJwZpw1",
+      "source": "med4T8PVkxIo465VuKDEj",
+      "target": "9Az7tmevGI6bVqCTvVL50",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__mdSWrWi-1n_YlY5iTJwZpx2-TMHrKxnciIpd8F1WLjrayw2",
+      "source": "9Az7tmevGI6bVqCTvVL50",
+      "target": "TMHrKxnciIpd8F1WLjray",
+      "source_handle": "x2",
+      "target_handle": "w2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__9Az7tmevGI6bVqCTvVL50z2-mdSWrWi-1n_YlY5iTJwZpy1",
+      "source": "9Az7tmevGI6bVqCTvVL50",
+      "target": "P_wptV7oenaYwef1QhKhu",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__mdSWrWi-1n_YlY5iTJwZpz2-NPaqiuUpzQbrsXA5XNI7Uy1",
+      "source": "P_wptV7oenaYwef1QhKhu",
+      "target": "NPaqiuUpzQbrsXA5XNI7U",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__mdSWrWi-1n_YlY5iTJwZpz2-Fdv7Nu26Egtl9tklKn5-8y1",
+      "source": "P_wptV7oenaYwef1QhKhu",
+      "target": "Fdv7Nu26Egtl9tklKn5-8",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__mdSWrWi-1n_YlY5iTJwZpz2-EVd1rLBHjKbtgkIE7InS7y1",
+      "source": "P_wptV7oenaYwef1QhKhu",
+      "target": "EVd1rLBHjKbtgkIE7InS7",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__P_wptV7oenaYwef1QhKhux2-mdSWrWi-1n_YlY5iTJwZpw1",
+      "source": "P_wptV7oenaYwef1QhKhu",
+      "target": "bvojoCWJRSB6pdBFM1SbY",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__mdSWrWi-1n_YlY5iTJwZpy2-x5q_bWpxmpJFK8eaWZxuYz1",
+      "source": "bvojoCWJRSB6pdBFM1SbY",
+      "target": "x5q_bWpxmpJFK8eaWZxuY",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__mdSWrWi-1n_YlY5iTJwZpy2-tMeuk-nsFMx3kVS7Yn4T0z1",
+      "source": "bvojoCWJRSB6pdBFM1SbY",
+      "target": "tMeuk-nsFMx3kVS7Yn4T0",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__mdSWrWi-1n_YlY5iTJwZpy2-_guWOSGfTpErGkzs69g1Rz1",
+      "source": "bvojoCWJRSB6pdBFM1SbY",
+      "target": "_guWOSGfTpErGkzs69g1R",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__bvojoCWJRSB6pdBFM1SbYx2-mdSWrWi-1n_YlY5iTJwZpw2",
+      "source": "bvojoCWJRSB6pdBFM1SbY",
+      "target": "bYJ0G-g4R5faoJfFjRQW7",
+      "source_handle": "x2",
+      "target_handle": "w2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__mdSWrWi-1n_YlY5iTJwZpy2-ozQQKmfO_Ir9aJIMBvijKz1",
+      "source": "bYJ0G-g4R5faoJfFjRQW7",
+      "target": "aRmdyC2pzmR9r1ybU2CTP",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__mdSWrWi-1n_YlY5iTJwZpy2-KWT-Lu-HCeA3GdZawD0a7z1",
+      "source": "bYJ0G-g4R5faoJfFjRQW7",
+      "target": "KWT-Lu-HCeA3GdZawD0a7",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__mdSWrWi-1n_YlY5iTJwZpy2-MfqUMirRIEiM7pr5NiGF_z1",
+      "source": "bYJ0G-g4R5faoJfFjRQW7",
+      "target": "MfqUMirRIEiM7pr5NiGF_",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__oDgbRKKrdHWHyuodr8DS6z2-mdSWrWi-1n_YlY5iTJwZpy1",
+      "source": "bYJ0G-g4R5faoJfFjRQW7",
+      "target": "wbush8eQsi9aDSRobGAyG",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__wbush8eQsi9aDSRobGAyGx2-mdSWrWi-1n_YlY5iTJwZpw1",
+      "source": "wbush8eQsi9aDSRobGAyG",
+      "target": "KLoL-055KShGrQ-NQosy8",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__mdSWrWi-1n_YlY5iTJwZpy2-yRY8MJuXxhDV6Hd-hTMRuz2",
+      "source": "KLoL-055KShGrQ-NQosy8",
+      "target": "yRY8MJuXxhDV6Hd-hTMRu",
+      "source_handle": "y2",
+      "target_handle": "z2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__mdSWrWi-1n_YlY5iTJwZpy2-M6iJ0VZWB8mreItlxvvqIz1",
+      "source": "KLoL-055KShGrQ-NQosy8",
+      "target": "M6iJ0VZWB8mreItlxvvqI",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__mdSWrWi-1n_YlY5iTJwZpy2-F1kbyjRR2uHRbTe90LTFPz1",
+      "source": "KLoL-055KShGrQ-NQosy8",
+      "target": "F1kbyjRR2uHRbTe90LTFP",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__eXaP_U-EzptBuOp5R0KK3z2-mdSWrWi-1n_YlY5iTJwZpy1",
+      "source": "eXaP_U-EzptBuOp5R0KK3",
+      "target": "KLoL-055KShGrQ-NQosy8",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__mdSWrWi-1n_YlY5iTJwZpy2-aet6mLBkB1BtxI8e7x-h3z1",
+      "source": "KLoL-055KShGrQ-NQosy8",
+      "target": "aet6mLBkB1BtxI8e7x-h3",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__KLoL-055KShGrQ-NQosy8x2-zGkDu5j8ln8U9kZgz3TDJw1",
+      "source": "KLoL-055KShGrQ-NQosy8",
+      "target": "zGkDu5j8ln8U9kZgz3TDJ",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__zGkDu5j8ln8U9kZgz3TDJx2-RQMRtlRxvp0CZJzCjRtPuw1",
+      "source": "zGkDu5j8ln8U9kZgz3TDJ",
+      "target": "2RqGKWi13TLleTT7KpdZV",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__zGkDu5j8ln8U9kZgz3TDJy2-mdSWrWi-1n_YlY5iTJwZpz1",
+      "source": "zGkDu5j8ln8U9kZgz3TDJ",
+      "target": "Jti4RmGDn7jVaHOxtTwPc",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__Jti4RmGDn7jVaHOxtTwPcy2-mdSWrWi-1n_YlY5iTJwZpz1",
+      "source": "Jti4RmGDn7jVaHOxtTwPc",
+      "target": "dgdv8sDKkgQ365mR0kBR3",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__ekKzwQCMOYJLVN5KAK-ewz2-mdSWrWi-1n_YlY5iTJwZpy1",
+      "source": "ekKzwQCMOYJLVN5KAK-ew",
+      "target": "s5OVzjQp6k7rSphhv3hZE",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__Jti4RmGDn7jVaHOxtTwPcx2-ehlGkYI3dqzu3B1pkhg9tw2",
+      "source": "Jti4RmGDn7jVaHOxtTwPc",
+      "target": "ehlGkYI3dqzu3B1pkhg9t",
+      "source_handle": "x2",
+      "target_handle": "w2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__mdSWrWi-1n_YlY5iTJwZpx2-g2qXhkk6oGaBJy8Y2JOwWw1",
+      "source": "s5OVzjQp6k7rSphhv3hZE",
+      "target": "g2qXhkk6oGaBJy8Y2JOwW",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__s5OVzjQp6k7rSphhv3hZEz2-mdSWrWi-1n_YlY5iTJwZpw1",
+      "source": "s5OVzjQp6k7rSphhv3hZE",
+      "target": "mdSWrWi-1n_YlY5iTJwZp",
+      "source_handle": "z2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "smoothstep",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__mdSWrWi-1n_YlY5iTJwZpx2-BjE4Qvjpi0i_s4Oib9765w2",
+      "source": "mdSWrWi-1n_YlY5iTJwZp",
+      "target": "BjE4Qvjpi0i_s4Oib9765",
+      "source_handle": "x2",
+      "target_handle": "w2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    }
+  ],
+  "content_crawled_at": "2026-04-06T09:31:54.272086+00:00"
+}

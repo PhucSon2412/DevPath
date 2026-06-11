@@ -15,7 +15,7 @@ function App() {
           <Route path="/" element={<Layout />}>
             <Route index element={<HomePage />} />
             <Route path="/in-progress" element={<InProgressPage />} />
-            <Route path="/favorites" element={<FavoritesPage />} />
+            {/* <Route path="/favorites" element={<FavoritesPage />} /> */}
             <Route path="/roadmap/:id" element={<RoadmapPage />} />
           </Route>
         </Routes>

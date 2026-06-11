@@ -1,0 +1,4667 @@
+{
+  "id": "sql",
+  "title": "SQL",
+  "source_url": "https://roadmap.sh/sql",
+  "github_url": "https://github.com/kamranahmedse/developer-roadmap/tree/master/src/data/roadmaps/sql",
+  "crawled_at": "2026-04-06T07:37:59.249955+00:00",
+  "type": "flow",
+  "stats": {
+    "total_nodes": 148,
+    "total_edges": 32,
+    "nodes_with_content": 112
+  },
+  "node_types": [
+    "button",
+    "horizontal",
+    "label",
+    "linksgroup",
+    "paragraph",
+    "section",
+    "subtopic",
+    "title",
+    "topic",
+    "vertical"
+  ],
+  "edge_styles": [
+    "dashed",
+    "solid"
+  ],
+  "edge_line_types": [
+    "default",
+    "smoothstep"
+  ],
+  "node_type_description": {
+    "title": "Tiêu đề chính của lộ trình",
+    "topic": "Chủ đề lớn (nhóm kỹ năng)",
+    "subtopic": "Các kỹ năng/công nghệ cụ thể cần học",
+    "paragraph": "Vùng văn bản mô tả / chú thích",
+    "vertical": "Visual connection"
+  },
+  "edge_style_description": {
+    "solid": "Kỹ năng cần thiết / quan trọng",
+    "dashed": "Tùy chọn / gợi ý / phương án thay thế"
+  },
+  "nodes": [
+    {
+      "id": "uAWe6RysRWSe8PqyYQKKX",
+      "type": "vertical",
+      "label": "nút theo chiều dọc",
+      "position": {
+        "x": 92.74891832888147,
+        "y": 1732.8028446032797
+      },
+      "size": {
+        "width": 21,
+        "height": 101
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "GEdhZU9WflZsSbHIAL6Y8",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": -599.9741508977197,
+        "y": 1805.4578222275159
+      },
+      "size": {
+        "width": 272,
+        "height": 270
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "hWk-3dRw9XQyHpc9_oxet",
+      "type": "vertical",
+      "label": "nút theo chiều dọc",
+      "position": {
+        "x": -111.76200280604616,
+        "y": 1372.4268132068846
+      },
+      "size": {
+        "width": 21,
+        "height": 167
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "bxQ-MepnAll0CkNFpqeJA",
+      "type": "vertical",
+      "label": "nút theo chiều dọc",
+      "position": {
+        "x": 244.58982076233502,
+        "y": 1372.4268132068846
+      },
+      "size": {
+        "width": 21,
+        "height": 167
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "V800FmJL7JvYLHj_s6Qpe",
+      "type": "vertical",
+      "label": "nút theo chiều dọc",
+      "position": {
+        "x": 368.94949271295843,
+        "y": 1461.4268132068846
+      },
+      "size": {
+        "width": 21,
+        "height": 78
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "XeLCXJ5VfwHrIFGqcB8QH",
+      "type": "vertical",
+      "label": "nút theo chiều dọc",
+      "position": {
+        "x": 335.47198755548254,
+        "y": 1208.3834408721723
+      },
+      "size": {
+        "width": 21,
+        "height": 95
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "eyqdjMFVONWDshElnh-fS",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": -314.2510816711185,
+        "y": 1122.8834408721723
+      },
+      "size": {
+        "width": 219,
+        "height": 196
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "5iMBYXe8Al0ZeiRBnJ-cn",
+      "type": "vertical",
+      "label": "nút theo chiều dọc",
+      "position": {
+        "x": -193.26200280604616,
+        "y": 821.8865696806382
+      },
+      "size": {
+        "width": 21,
+        "height": 287
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.65
+      },
+      "z_index": 999
+    },
+    {
+      "id": "H-11E5G6rdTKj3k7PK12l",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": -612.7510816711185,
+        "y": 1124.7304293708296
+      },
+      "size": {
+        "width": 244,
+        "height": 216
+      },
+      "style": {
+        "width": 150,
+        "height": 100,
+        "fontSize": 17,
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "6FdHTzqQwJqR4czP5qXAY",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": -45.25108167111853,
+        "y": 897.7304293708296
+      },
+      "size": {
+        "width": 239,
+        "height": 160
+      },
+      "style": {
+        "width": 150,
+        "height": 100,
+        "fontSize": 17,
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "nSShTLakj1E_JAHdcsfe4",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": -45.25108167111853,
+        "y": 1051.8865696806383
+      },
+      "size": {
+        "width": 239,
+        "height": 163
+      },
+      "style": {
+        "width": 150,
+        "height": 100,
+        "fontSize": 17,
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "OPT7zGno_ghrrj4dAUKaW",
+      "type": "horizontal",
+      "label": "nút ngang",
+      "position": {
+        "x": -369.7510816711185,
+        "y": 967.7304293708296
+      },
+      "size": {
+        "width": 96,
+        "height": 20
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "vVvwzfWSzMXhGop1nX_9k",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": -612.7510816711185,
+        "y": 914.2304293708296
+      },
+      "size": {
+        "width": 244,
+        "height": 214
+      },
+      "style": {
+        "width": 150,
+        "height": 100,
+        "fontSize": 17,
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "BZD3zEjZNwFZN5Erp2UwN",
+      "type": "vertical",
+      "label": "nút theo chiều dọc",
+      "position": {
+        "x": -193.26200280604616,
+        "y": 749.0530101616195
+      },
+      "size": {
+        "width": 21,
+        "height": 78
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "WigElh37ztiRYRstQR9NE",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": -615.2510816711185,
+        "y": 697.2304293708296
+      },
+      "size": {
+        "width": 318,
+        "height": 73
+      },
+      "style": {
+        "width": 150,
+        "height": 100,
+        "fontSize": 17,
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "tUokjJrzZ4hp8c6f7iBI0",
+      "type": "horizontal",
+      "label": "nút ngang",
+      "position": {
+        "x": 90.44949271295843,
+        "y": 807.3865696806382
+      },
+      "size": {
+        "width": 139,
+        "height": 20
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.65
+      },
+      "z_index": 999
+    },
+    {
+      "id": "Zr7u2K8_wGkPwWzTvSJJu",
+      "type": "horizontal",
+      "label": "nút ngang",
+      "position": {
+        "x": 117.44949271295843,
+        "y": 662.3865696806382
+      },
+      "size": {
+        "width": 139,
+        "height": 20
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.65
+      },
+      "z_index": 999
+    },
+    {
+      "id": "zO8ETJn55ShzPf8ifDqO2",
+      "type": "horizontal",
+      "label": "nút ngang",
+      "position": {
+        "x": -271.26200280604616,
+        "y": 295.2980966830105
+      },
+      "size": {
+        "width": 226,
+        "height": 20
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.75
+      },
+      "z_index": 999
+    },
+    {
+      "id": "80OaUGoB4961Qak9JZ7sS",
+      "type": "vertical",
+      "label": "nút theo chiều dọc",
+      "position": {
+        "x": 147.0258491022803,
+        "y": 300.7980966830105
+      },
+      "size": {
+        "width": 21,
+        "height": 104
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "6yiWcpPgkAuYFZlDGlM1P",
+      "type": "vertical",
+      "label": "nút theo chiều dọc",
+      "position": {
+        "x": 147.0258491022803,
+        "y": 171.52074126997718
+      },
+      "size": {
+        "width": 21,
+        "height": 144
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.65
+      },
+      "z_index": 999
+    },
+    {
+      "id": "vpSPxfiH2jcZiDF4glMnG",
+      "type": "vertical",
+      "label": "nút theo chiều dọc",
+      "position": {
+        "x": 348.94949271295843,
+        "y": 171.52074126997718
+      },
+      "size": {
+        "width": 21,
+        "height": 111
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "7YsPMUciWuosgKwI9YJrI",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": -611.8883211898742,
+        "y": 213.5207412699772
+      },
+      "size": {
+        "width": 233,
+        "height": 164
+      },
+      "style": {
+        "width": 150,
+        "height": 100,
+        "fontSize": 17,
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "LEijbLyxg4RyutKEM2Y5g",
+      "type": "vertical",
+      "label": "nút theo chiều dọc",
+      "position": {
+        "x": -114.16916540260297,
+        "y": -227.7695706291704
+      },
+      "size": {
+        "width": 21,
+        "height": 76
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#0A33FF"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "xwpc_KxehAruFM0pCQnie",
+      "type": "vertical",
+      "label": "nút theo chiều dọc",
+      "position": {
+        "x": -178.82615613784935,
+        "y": 2214.6370362009566
+      },
+      "size": {
+        "width": 21,
+        "height": 104
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#4136D4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "R9DQNc0AyAQ2HLpP4HOk6",
+      "type": "subtopic",
+      "label": "Cơ sở dữ liệu quan hệ là gì?",
+      "position": {
+        "x": 130.89980850421182,
+        "y": -41.63210941079885
+      },
+      "size": {
+        "width": 311,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Cơ sở dữ liệu quan hệ tổ chức dữ liệu thành các bảng, trong đó mỗi bảng đại diện cho một loại thực thể cụ thể (như khách hàng hoặc sản phẩm). Các bảng này được liên kết với nhau dựa trên mối quan hệ giữa dữ liệu, thường sử dụng các cột chung được gọi là khóa. Cấu trúc này cho phép lưu trữ, truy xuất và quản lý hiệu quả các bộ dữ liệu lớn đồng thời đảm bảo tính toàn vẹn và nhất quán của dữ liệu.",
+        "links": [
+          {
+            "title": "Cơ sở dữ liệu quan hệ - AWS",
+            "url": "https://aws.amazon.com/relational-database/",
+            "type": "article"
+          },
+          {
+            "title": "Cơ sở dữ liệu quan hệ là gì?",
+            "url": "https://www.youtube.com/watch?v=OqjJjpjDRLc",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "fNTb9y3zs1HPYclAmu_Wv",
+      "type": "subtopic",
+      "label": "Lợi ích và Hạn chế của Hệ quản trị cơ sở dữ liệu (RDBMS)",
+      "position": {
+        "x": 130.89980850421182,
+        "y": 11.367890589201153
+      },
+      "size": {
+        "width": 311,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Hệ thống quản trị cơ sở dữ liệu quan hệ (RDBMS) tổ chức dữ liệu thành các bảng với hàng và cột, thiết lập mối quan hệ giữa các bảng này bằng cách sử dụng khóa. Cách tiếp cận có cấu trúc này mang lại lợi ích như tính toàn vẹn dữ liệu thông qua ràng buộc và thuộc tính ACID (Tính Toàn vẹn, Tính nhất quán, Cô lập, Khả năng bền vững), đảm bảo giao dịch đáng tin cậy. Tuy nhiên, RDBMS có thể gặp phải những hạn chế về khả năng mở rộng, đặc biệt với bộ dữ liệu lớn, và có thể không phải là lựa chọn tối ưu để xử lý dữ liệu phi cấu trúc hoặc bán cấu trúc do lược đồ cứng nhắc của chúng.",
+        "links": [
+          {
+            "title": "Ưu và Nhược điểm của DBMS",
+            "url": "https://cloud.google.com/learn/what-is-a-relational-database",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "iogwMmOvub2ZF4zgg6WyF",
+      "type": "title",
+      "label": "SQL",
+      "position": {
+        "x": -151.66916540260297,
+        "y": -151.7695706291704
+      },
+      "size": {
+        "width": 96,
+        "height": 68
+      },
+      "style": {
+        "fontSize": 28,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "nhUKKWyBH80nyKfGT8ErC",
+      "type": "topic",
+      "label": "Nắm vững kiến thức cơ bản",
+      "position": {
+        "x": -227.16916540260297,
+        "y": 13.436864496015943
+      },
+      "size": {
+        "width": 247,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "SQL (Structured Query Language) là một ngôn ngữ lập trình được sử dụng để quản lý và thao tác dữ liệu được lưu trữ trong các hệ thống quản lý cơ sở dữ liệu quan hệ (RDBMS). Nó cho phép bạn truy xuất, chèn, cập nhật và xóa dữ liệu, cũng như định nghĩa lược đồ cơ sở dữ liệu và kiểm soát quyền truy cập vào dữ liệu. Hiểu biết cơ bản về SQL là nền tảng để tương tác với hầu hết mọi cơ sở dữ liệu.",
+        "links": [
+          {
+            "title": "Hướng dẫn SQL - Chế độ",
+            "url": "https://mode.com/sql-tutorial/",
+            "type": "article"
+          },
+          {
+            "title": "Hướng dẫn SQL",
+            "url": "https://www.sqltutorial.org/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "gx4KaFqKgJX9n9_ZGMqlZ",
+      "type": "subtopic",
+      "label": "SQL so với NoSQL Databases",
+      "position": {
+        "x": 130.89980850421182,
+        "y": 64.36789058920115
+      },
+      "size": {
+        "width": 311,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Cơ sở dữ liệu SQL (quan hệ) và NoSQL (không quan hệ) đại diện hai cách tiếp cận khác nhau để lưu trữ và truy xuất dữ liệu. Cơ sở dữ liệu SQL sử dụng lược đồ và bảng có cấu trúc, nhấn mạnh tính toàn vẹn của dữ liệu và các truy vấn phức tạp thông qua nối bảng. Cơ sở dữ liệu NoSQL cung cấp sự linh hoạt hơn trong cấu trúc dữ liệu, thường đánh đổi một số mức độ nhất quán để khả năng mở rộng và hiệu suất. Lựa chọn giữa SQL và NoSQL phụ thuộc vào các yếu tố như cấu trúc dữ liệu, nhu cầu mở rộng quy mô, yêu cầu về tính nhất quán và bản chất của ứng dụng.",
+        "links": [
+          {
+            "title": "Hiểu biết về các cơ sở dữ liệu SQL và NoSQL",
+            "url": "https://www.mongodb.com/resources/basics/databases/nosql-explained/nosql-vs-sql",
+            "type": "article"
+          },
+          {
+            "title": "SQL so với NoSQL Databases trong 4 phút",
+            "url": "https://www.youtube.com/watch?v=_Ss42Vb1SU4",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JDDG4KfhtIlw1rkNCzUli",
+      "type": "topic",
+      "label": "Cú pháp SQL cơ bản",
+      "position": {
+        "x": -227.16916540260297,
+        "y": 159.23119080604232
+      },
+      "size": {
+        "width": 247,
+        "height": 50
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Cú pháp SQL cơ bản bao gồm các lệnh đơn giản cho phép người dùng tương tác với một cơ sở dữ liệu quan hệ. Các lệnh cốt lõi bao gồm `SELECT` để truy vấn dữ liệu, `INSERT INTO` để thêm bản ghi mới, `UPDATE` để sửa đổi dữ liệu hiện có và `DELETE` để xóa bản ghi. Truy vấn có thể được lọc bằng `WHERE`, sắp xếp với `ORDER BY` và dữ liệu từ nhiều bảng có thể được kết hợp bằng `JOIN`. Các lệnh này tạo nên nền tảng của SQL, cho phép thao tác và truy xuất dữ liệu hiệu quả trong một cơ sở dữ liệu.",
+        "links": [
+          {
+            "title": "Hướng dẫn SQL - Chế độ",
+            "url": "https://mode.com/sql-tutorial/",
+            "type": "article"
+          },
+          {
+            "title": "Hướng dẫn SQL",
+            "url": "https://www.sqltutorial.org/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6yoo7qC6X2jYDIjd3HIm7",
+      "type": "subtopic",
+      "label": "Từ khóa SQL",
+      "position": {
+        "x": -611.9219566015802,
+        "y": 50.23119080604238
+      },
+      "size": {
+        "width": 233,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Từ khóa SQL là từ được đặt trước để có ý nghĩa đặc biệt trong các câu lệnh SQL. Chúng bao gồm các lệnh (ví dụ: `SELECT`, `INSERT`, `UPDATE`), các mệnh đề (ví dụ: `WHERE`, `GROUP BY`, `HAVING`) và các yếu tố cú pháp khác tạo nên cấu trúc của truy vấn SQL. Hiểu biết về từ khóa SQL là điều cần thiết để viết các truy vấn cơ sở dữ liệu chính xác và hiệu quả. Các từ khóa thường không phân biệt chữ hoa chữ thường nhưng thường được viết in hoa theo quy ước để dễ đọc hơn.",
+        "links": [
+          {
+            "title": "Từ khóa, Toán tử và Câu lệnh SQL",
+            "url": "https://blog.hubspot.com/website/sql-keywords-operators-statements",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tBzMDfCMh6MIagNaxCzin",
+      "type": "subtopic",
+      "label": "Kiểu Dữ Liệu",
+      "position": {
+        "x": -611.9219566015802,
+        "y": 103.23119080604238
+      },
+      "size": {
+        "width": 233,
+        "height": 53
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Các kiểu dữ liệu SQL định nghĩa loại giá trị có thể lưu trữ trong một cột và xác định cách dữ liệu được lưu trữ, xử lý và truy xuất. Các kiểu dữ liệu phổ biến bao gồm các kiểu số (`INTEGER`, `DECIMAL`), các kiểu ký tự (`CHAR`, `VARCHAR`), các kiểu ngày giờ (`DATE`, `TIMESTAMP`), các kiểu nhị phân (`BLOB`) và các kiểu boolean (`BOOLEAN`). Mỗi hệ thống quản trị cơ sở dữ liệu có thể có bộ tập hợp các kiểu dữ liệu riêng với những biến thể nhỏ. Lựa chọn kiểu dữ liệu phù hợp cho mỗi cột là rất quan trọng để tối ưu hóa lưu trữ, đảm bảo tính toàn vẹn dữ liệu và cải thiện hiệu suất truy vấn.",
+        "links": [
+          {
+            "title": "SQL Data Types (Kiểu dữ liệu)",
+            "url": "https://www.digitalocean.com/community/tutorials/sql-data-types",
+            "type": "article"
+          },
+          {
+            "title": "MySQL 101 - Các kiểu dữ liệu",
+            "url": "https://www.youtube.com/watch?v=vAiBa69YCnk",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ffwniprGJHZzJ7t3lQcXz",
+      "type": "subtopic",
+      "label": "Toán tử",
+      "position": {
+        "x": -611.9219566015802,
+        "y": 160.23119080604232
+      },
+      "size": {
+        "width": 233,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Các toán tử SQL là các ký hiệu hoặc từ được sử dụng để thực hiện các thao tác trên dữ liệu trong một cơ sở dữ liệu. Chúng rất cần thiết để xây dựng các truy vấn lọc, so sánh và thao tác dữ liệu. Các loại toán tử phổ biến bao gồm các toán tử số học (ví dụ: `+`, `-`, `*`, `/`), thực hiện các phép tính toán học; các toán tử so sánh (ví dụ: `=`, `!=`, `<`, `>`), được sử dụng để so sánh giá trị; các toán tử logic (ví dụ: `AND`, `OR`, `NOT`), kết hợp nhiều điều kiện trong một truy vấn; và các toán tử tập hợp (ví dụ: `UNION`, `INTERSECT`, `EXCEPT`), kết hợp kết quả từ nhiều truy vấn. Các toán tử này cho phép kiểm soát chính xác việc trích xuất và sửa đổi dữ liệu.",
+        "links": [
+          {
+            "title": "Toán tử SQL: 6 Loại Khác nhau",
+            "url": "https://dataengineeracademy.com/blog/sql-operators-6-different-types-code-examples/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "rmqXH29n1oXtZ8tvmcRFn",
+      "type": "subtopic",
+      "label": "SELECT",
+      "position": {
+        "x": -601.6806695765429,
+        "y": 223.52268765100933
+      },
+      "size": {
+        "width": 101,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Lệnh SELECT là một trong những lệnh SQL cơ bản nhất, được sử dụng để truy xuất dữ liệu từ một hoặc nhiều bảng trong cơ sở dữ liệu. Nó cho phép bạn chỉ định các cột cần lấy, áp dụng điều kiện lọc, sắp xếp kết quả và thực hiện các thao tác khác trên dữ liệu. Lệnh SELECT linh hoạt, hỗ trợ nối bảng, truy vấn con, tổng hợp và hơn thế nữa, khiến nó trở nên thiết yếu để truy vấn và phân tích dữ liệu trong cơ sở dữ liệu quan hệ.",
+        "links": []
+      }
+    },
+    {
+      "id": "mPj6BiK5FKKkIQ9WsWEo6",
+      "type": "subtopic",
+      "label": "Thêm dữ liệu",
+      "position": {
+        "x": -497.61169566972785,
+        "y": 223.52268765100933
+      },
+      "size": {
+        "width": 111,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Câu lệnh INSERT trong SQL được sử dụng để thêm các hàng dữ liệu mới vào một bảng. Nó chỉ định bảng mà bạn muốn thêm dữ liệu và các giá trị bạn muốn chèn vào mỗi cột của bảng đó. Bạn có thể chèn một hàng duy nhất tại một thời điểm hoặc nhiều hàng trong một câu lệnh. Đây là một lệnh cơ bản để làm cho đầy dữ liệu thông tin vào các bảng cơ sở dữ liệu của bạn.",
+        "links": [
+          {
+            "title": "Câu lệnh chèn dữ liệu SQL",
+            "url": "https://www.youtube.com/watch?v=Yp1MKeIG-M4",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "eu9dJFi6gBPMBdy08Y5Bb",
+      "type": "subtopic",
+      "label": "Cập nhật",
+      "position": {
+        "x": -497.61169566972785,
+        "y": 276.52268765100933
+      },
+      "size": {
+        "width": 108,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Câu lệnh UPDATE sửa đổi dữ liệu hiện có trong một bảng. Nó cho phép bạn thay đổi giá trị của một hoặc nhiều cột cho các hàng cụ thể dựa trên điều kiện được chỉ định. Bạn sử dụng câu lệnh UPDATE để khắc phục lỗi, phản ánh sự thay đổi trong dữ liệu hoặc áp dụng thông tin mới vào cơ sở dữ liệu của mình.",
+        "links": [
+          {
+            "title": "Cập nhật cột hiệu quả trong SQL",
+            "url": "https://www.atlassian.com/data/sql/how-to-update-a-column-based-on-a-filter-of-another-column",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ddtVaA4Ls6qRj-7OtTSIH",
+      "type": "subtopic",
+      "label": "Xóa",
+      "position": {
+        "x": -601.6806695765429,
+        "y": 276.52268765100933
+      },
+      "size": {
+        "width": 101,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Câu lệnh DELETE được sử dụng để xóa các hàng khỏi một bảng. Bạn chỉ định bảng nào để xóa dữ liệu và có thể sử dụng mệnh đề WHERE để lọc các hàng nào cần xóa dựa trên các điều kiện cụ thể. Nếu không có mệnh đề WHERE nào được cung cấp, tất cả các hàng trong bảng sẽ bị xóa.",
+        "links": [
+          {
+            "title": "Xóa",
+            "url": "https://www.w3schools.com/sql/sql_delete.asp",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "91OF3VQdzsu_YPsT6zrVT",
+      "type": "label",
+      "label": "Câu lệnh",
+      "position": {
+        "x": -548.8883211898742,
+        "y": 336.5207412699772
+      },
+      "size": {
+        "width": 104,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "xPOeXK1EPBNG56vgfG-VV",
+      "type": "topic",
+      "label": "Ngôn Ngữ Định Nghĩa Dữ Liệu (DDL)",
+      "position": {
+        "x": 118.89980850421182,
+        "y": 159.73119080604232
+      },
+      "size": {
+        "width": 323,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Ngôn ngữ Định nghĩa Dữ liệu (DDL) là một tập con của SQL được sử dụng để định nghĩa và quản lý cấu trúc của các đối tượng cơ sở dữ liệu. Các lệnh DDL bao gồm `CREATE`, `ALTER`, `DROP` và `TRUNCATE`, được sử dụng để tạo, sửa đổi, xóa và làm trống cấu trúc cơ sở dữ liệu như bảng, chỉ mục, view và lược đồ. Các lệnh này cho phép quản trị viên cơ sở dữ liệu và nhà phát triển định nghĩa lược đồ cơ sở dữ liệu, thiết lập mối quan hệ giữa các bảng và quản lý cấu trúc tổng thể của cơ sở dữ liệu. Các câu lệnh DDL thường dẫn đến thay đổi ngay lập tức đối với cấu trúc cơ sở dữ liệu và có thể ảnh hưởng đến dữ liệu hiện có.",
+        "links": [
+          {
+            "title": "Ngôn Ngữ Định Nghĩa Dữ Liệu (DDL)",
+            "url": "https://docs.getdbt.com/terms/ddl",
+            "type": "article"
+          },
+          {
+            "title": "Hướng dẫn Tuyệt đối về Ngôn ngữ Định nghĩa Dữ liệu",
+            "url": "https://www.dbvis.com/thetable/sql-ddl-the-definitive-guide-on-data-definition-language/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "K5vhqTJrdPK08Txv8zaEj",
+      "type": "subtopic",
+      "label": "Xóa bỏ tất cả hàng của bảng",
+      "position": {
+        "x": 275.44949271295843,
+        "y": 238.7980966830105
+      },
+      "size": {
+        "width": 167,
+        "height": 53
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Lệnh `Truncate Table` trong SQL được sử dụng để xóa tất cả các hàng khỏi một bảng. Nó giống như việc khôi phục lại trạng thái ban đầu, trống rỗng của bảng. Cấu trúc bảng (cột, kiểu dữ liệu, ràng buộc) vẫn còn nguyên vẹn. `Truncate Table` thường nhanh hơn `DELETE` vì nó giải phóng các trang dữ liệu được sử dụng bởi bảng, thay vì ghi nhật ký từng xóa hàng riêng lẻ.",
+        "links": [
+          {
+            "title": "TRUNCATE TABLE",
+            "url": "https://www.tutorialspoint.com/sql/sql-truncate-table.htm",
+            "type": "article"
+          },
+          {
+            "title": "Hướng dẫn SQL - TRUNCATE TABLE",
+            "url": "https://www.youtube.com/watch?v=zJidbjOQlJM",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "WjXlO42WL9saDS7RIGapt",
+      "type": "subtopic",
+      "label": "Sửa đổi Bảng",
+      "position": {
+        "x": 275.44949271295843,
+        "y": 295.7980966830105
+      },
+      "size": {
+        "width": 167,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Câu lệnh ALTER TABLE trong SQL được sử dụng để sửa đổi cấu trúc của một bảng hiện có. Điều này bao gồm thêm, xóa hoặc sửa đổi cột, thay đổi kiểu dữ liệu của một cột, đặt giá trị mặc định và thêm hoặc xóa khóa chính hoặc khóa ngoại.",
+        "links": [
+          {
+            "title": "Câu lệnh ALTER TABLE",
+            "url": "https://www.techonthenet.com/sql/tables/alter_table.php",
+            "type": "article"
+          },
+          {
+            "title": "ALTER TABLE - PostgreSQL",
+            "url": "https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-alter-table/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "epEpBxRosLhuAuKwp823r",
+      "type": "subtopic",
+      "label": "Tạo bảng",
+      "position": {
+        "x": 275.44949271295843,
+        "y": 348.7980966830105
+      },
+      "size": {
+        "width": 167,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`CREATE TABLE` là một lệnh SQL được sử dụng để định nghĩa và tạo một bảng mới trong cơ sở dữ liệu. Nó chỉ định tên bảng, tên cột, kiểu dữ liệu và các ràng buộc tùy chọn như khóa chính, khóa ngoại và giá trị mặc định. Lệnh này thiết lập cấu trúc của bảng, xác định cách dữ liệu sẽ được lưu trữ và tổ chức bên trong nó. `CREATE TABLE` là một lệnh cơ bản trong quản lý cơ sở dữ liệu, rất quan trọng để thiết lập lược đồ của cơ sở dữ liệu và chuẩn bị nó để lưu trữ dữ liệu.",
+        "links": [
+          {
+            "title": "CREATE TABLE",
+            "url": "https://www.tutorialspoint.com/sql/sql-create-table.htm",
+            "type": "article"
+          },
+          {
+            "title": "SQL CREATE TABLE",
+            "url": "https://www.programiz.com/sql/create-table",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "YzJ6QmY2arMfRzMAPaI0T",
+      "type": "subtopic",
+      "label": "Drop Table",
+      "position": {
+        "x": 275.44949271295843,
+        "y": 401.7980966830105
+      },
+      "size": {
+        "width": 167,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Lệnh `DROP TABLE` loại bỏ bảng và toàn bộ dữ liệu của nó khỏi cơ sở dữ liệu một cách hoàn toàn. Đây là một thao tác vĩnh viễn; khi một bảng bị xóa, cấu trúc của nó và tất cả dữ liệu mà nó chứa sẽ mất đi trừ khi bạn có bản sao lưu. Lệnh này nên được sử dụng với sự thận trọng vì nó có thể gây ra những hậu quả nghiêm trọng cho cơ sở dữ liệu của bạn.",
+        "links": [
+          {
+            "title": "Drop a Table",
+            "url": "https://www.coginiti.co/tutorials/beginner/drop-a-table/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "WMSXi-eez_hHGDM8kUdWz",
+      "type": "topic",
+      "label": "Ngôn Ngữ Xử Lý Dữ Liệu (DML)",
+      "position": {
+        "x": -147.5663615725029,
+        "y": 280.7980966830105
+      },
+      "size": {
+        "width": 356,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Ngôn ngữ thao tác dữ liệu (DML) là một tập con của SQL được sử dụng để quản lý dữ liệu trong các đối tượng cơ sở dữ liệu. Nó bao gồm các lệnh như `SELECT`, `INSERT`, `UPDATE` và `DELETE`, cho phép người dùng truy xuất, thêm, sửa đổi và xóa dữ liệu từ các bảng. Các câu lệnh DML hoạt động trên chính dữ liệu chứ không phải cấu trúc cơ sở dữ liệu, cho phép người dùng tương tác với thông tin đã lưu trữ. Các lệnh này là rất quan trọng đối với các thao tác hàng ngày trong cơ sở dữ liệu, phân tích dữ liệu và duy trì tính chính xác và liên quan của dữ liệu trong một hệ thống quản lý cơ sở dữ liệu.",
+        "links": [
+          {
+            "title": "DML là gì?",
+            "url": "https://satoricyber.com/glossary/dml-data-manipulation-language",
+            "type": "article"
+          },
+          {
+            "title": "DML là gì?(Wiki)",
+            "url": "https://en.wikipedia.org/wiki/Data_manipulation_language",
+            "type": "article"
+          },
+          {
+            "title": "Sự khác biệt giữa DDL và DML",
+            "url": "https://appmaster.io/blog/difference-between-ddl-and-dml",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "i8u8E_sne6XiKJo2FXDog",
+      "type": "subtopic",
+      "label": "Select",
+      "position": {
+        "x": -148.91017923766498,
+        "y": 376.83610755141524
+      },
+      "size": {
+        "width": 362,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center",
+        "colorType": "h"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Câu lệnh `SELECT` trong SQL được sử dụng để truy xuất dữ liệu từ một hoặc nhiều bảng. Nó cho phép bạn chỉ định các cột bạn muốn xem và áp dụng điều kiện để lọc các hàng trả về. Hãy nghĩ về nó như một công cụ mạnh mẽ để truy vấn cơ sở dữ liệu và trích xuất thông tin cụ thể dựa trên nhu cầu của bạn.",
+        "links": []
+      }
+    },
+    {
+      "id": "N1Racr3ZpU320gS545We8",
+      "type": "subtopic",
+      "label": "Không có gì.",
+      "position": {
+        "x": -148.91017923766498,
+        "y": 430.83610755141524
+      },
+      "size": {
+        "width": 134,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Thao tác `FROM` trong SQL xác định bảng hoặc các bảng mà bạn đang truy xuất dữ liệu. Nó chỉ định bộ dữ liệu nào để xem xét khi thực thi truy vấn của bạn. Nếu không có thao tác `FROM`, cơ sở dữ liệu sẽ không biết nguồn dữ liệu đến từ đâu và câu lệnh `SELECT` sẽ không thể tạo ra bất kỳ kết quả nào. Về bản chất, nó là nền tảng mà bạn xây dựng quy trình trích xuất dữ liệu.",
+        "links": [
+          {
+            "title": "Cách viết các truy vấn SQL cơ bản",
+            "url": "https://www.youtube.com/watch?v=YfTDBA45PHk",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "WhYAy6f7Euk3E49-ot644",
+      "type": "subtopic",
+      "label": "WHERE",
+      "position": {
+        "x": -11.910179237664977,
+        "y": 430.83610755141524
+      },
+      "size": {
+        "width": 115,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Ngôn ngữ WHERE là một phần cốt lõi của câu lệnh SELECT trong SQL. Nó lọc các hàng trả về bởi một truy vấn dựa trên điều kiện được chỉ định. Về bản chất, nó cho phép bạn lấy lại chỉ những dữ liệu đáp ứng một số tiêu chí nhất định trong các bảng cơ sở dữ liệu của bạn, cho phép bạn tập trung vào các tập hợp thông tin cụ thể hơn.",
+        "links": [
+          {
+            "title": "Điều kiện WHERE",
+            "url": "https://www.w3schools.com/sql/sql_where.asp",
+            "type": "article"
+          },
+          {
+            "title": "Cách lọc với mệnh đề WHERE trong SQL",
+            "url": "https://www.youtube.com/watch?v=4Uv0o8IBqw0",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "NfCiSPrL4upMssukcw3Kh",
+      "type": "subtopic",
+      "label": "ORDER BY",
+      "position": {
+        "x": -11.910179237664977,
+        "y": 483.83610755141524
+      },
+      "size": {
+        "width": 133,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Thao tác `ORDER BY` trong SQL được sử dụng để sắp xếp tập kết quả của truy vấn theo một hoặc nhiều cột. Theo mặc định, việc sắp xếp là tăng dần, nhưng bạn có thể chỉ định thứ tự giảm dần bằng cách sử dụng từ khóa `DESC`. Thao tác này có thể sắp xếp theo các giá trị số, ngày tháng hoặc văn bản và nhiều cột có thể được sắp xếp bằng cách liệt kê chúng trong thao tác `ORDER BY`, mỗi cột với hướng sắp xếp riêng của nó. Thao tác này là rất quan trọng để tổ chức dữ liệu theo một trình tự có ý nghĩa, chẳng hạn như sắp xếp theo dấu thời gian để hiển thị các bản ghi mới nhất trước tiên hoặc theo tên theo thứ tự bảng chữ cái.",
+        "links": [
+          {
+            "title": "Câu lệnh Sắp xếp ORDER BY",
+            "url": "https://www.youtube.com/watch?v=h_HHTNjAgS8",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "14TKE6KhrH1yFtHcSZSXq",
+      "type": "subtopic",
+      "label": "GROUP BY",
+      "position": {
+        "x": -148.91017923766498,
+        "y": 483.83610755141524
+      },
+      "size": {
+        "width": 135,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`GROUP BY` là một mệnh đề SQL được sử dụng trong các câu lệnh `SELECT` để sắp xếp các bản ghi giống nhau thành nhóm. Nó thường được sử dụng với các hàm tổng hợp (như `COUNT`, `SUM`, `AVG`) để thực hiện tính toán trên mỗi nhóm hàng. `GROUP BY` thu thập dữ liệu trên nhiều bản ghi và nhóm kết quả theo một hoặc nhiều cột, cho phép phân tích dữ liệu ở mức độ chi tiết hơn. Mệnh đề này là nền tảng để tạo báo cáo tóm tắt, thực hiện phân tích dữ liệu và tạo các tập hợp dữ liệu có ý nghĩa trong cơ sở dữ liệu quan hệ.",
+        "links": [
+          {
+            "title": "SQL GROUP BY",
+            "url": "https://www.programiz.com/sql/group-by",
+            "type": "article"
+          },
+          {
+            "title": "Các Hàm Tổng Quát Nâng Cao trong SQL",
+            "url": "https://www.youtube.com/watch?v=nNrgRVIzeHg",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ytwCkSMTiTuemE0KVfAfy",
+      "type": "subtopic",
+      "label": "HAVING",
+      "position": {
+        "x": 125.08982076233502,
+        "y": 483.83610755141524
+      },
+      "size": {
+        "width": 88,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "HAVING là một mệnh đề trong SQL để lọc kết quả của truy vấn GROUP BY. Nó giống như WHERE clause, nhưng nó hoạt động trên các nhóm thay vì các hàng riêng lẻ. Bạn sử dụng HAVING để chỉ định điều kiện mà nhóm phải đáp ứng để được bao gồm trong tập kết quả cuối cùng.",
+        "links": [
+          {
+            "title": "Khóa từ SQL HAVING",
+            "url": "https://www.programiz.com/sql/having",
+            "type": "article"
+          },
+          {
+            "title": "HAVING Clause",
+            "url": "https://www.youtube.com/watch?v=tYBOMw7Ob8E",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4UQQYbjzwVxZOAxBuXKQS",
+      "type": "subtopic",
+      "label": "Kết nối",
+      "position": {
+        "x": 107.08982076233502,
+        "y": 430.83610755141524
+      },
+      "size": {
+        "width": 106,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Các phép nối SQL cho phép bạn kết hợp dữ liệu từ hai bảng trở lên dựa trên một cột liên quan giữa chúng. Hãy coi nó như việc liên kết thông tin lại với nhau để có cái nhìn toàn diện hơn. Bốn phép nối thường được sử dụng nhất là: `INNER JOIN`, trả về các hàng chỉ khi có khớp giữa cả hai bảng; `LEFT JOIN`, trả về tất cả các hàng từ bảng bên trái và các hàng khớp từ bảng bên phải (hoặc NULL nếu không có khớp); `RIGHT JOIN`, trả về tất cả các hàng từ bảng bên phải và các hàng khớp từ bảng bên trái (hoặc NULL nếu không có khớp); và `FULL OUTER JOIN`, trả về tất cả các hàng khi có khớp trong một trong hai bảng.",
+        "links": [
+          {
+            "title": "Tài liệu Lời khuyên về JOIN trong SQL",
+            "url": "https://www.datacamp.com/cheat-sheet/sql-joins-cheat-sheet",
+            "type": "article"
+          },
+          {
+            "title": "Hướng dẫn SQL JOIN cho người mới bắt đầu",
+            "url": "https://www.youtube.com/watch?v=0OQJDd3QqQM",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "-Hew0y53ziZK3epQnGA0O",
+      "type": "subtopic",
+      "label": "Thêm dữ liệu",
+      "position": {
+        "x": -148.91017923766498,
+        "y": 536.8361075514152
+      },
+      "size": {
+        "width": 101,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Lệnh INSERT là một lệnh SQL được sử dụng để thêm các hàng dữ liệu mới vào một bảng. Nó chỉ định bảng cần thêm dữ liệu và cung cấp giá trị cho mỗi cột trong hàng mới. Bạn có thể chèn một hàng duy nhất tại một thời điểm hoặc nhiều hàng với một câu lệnh duy nhất.",
+        "links": [
+          {
+            "title": "Câu lệnh chèn dữ liệu SQL",
+            "url": "https://www.youtube.com/watch?v=Yp1MKeIG-M4",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "KJJ6PYjTnr_3yU2mNPL9v",
+      "type": "subtopic",
+      "label": "Cập nhật",
+      "position": {
+        "x": -44.41017923766498,
+        "y": 536.8361075514152
+      },
+      "size": {
+        "width": 154,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Câu lệnh UPDATE sửa đổi dữ liệu hiện có trong một bảng. Nó cho phép bạn thay đổi giá trị của một hoặc nhiều cột trong một bảng, dựa trên các điều kiện được chỉ định. Bạn có thể cập nhật một hàng duy nhất hoặc nhiều hàng, và nó là rất quan trọng để giữ cho thông tin cơ sở dữ liệu của bạn chính xác và luôn cập nhật.",
+        "links": [
+          {
+            "title": "Cập nhật cột hiệu quả trong SQL",
+            "url": "https://www.atlassian.com/data/sql/how-to-update-a-column-based-on-a-filter-of-another-column",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "zWnvuHJLHr03PWkrW1wZZ",
+      "type": "subtopic",
+      "label": "Xóa",
+      "position": {
+        "x": 112.08982076233502,
+        "y": 536.8361075514152
+      },
+      "size": {
+        "width": 101,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Câu lệnh DELETE trong SQL xóa các bản ghi hiện có khỏi một bảng. Bạn chỉ định bảng nào sẽ bị ảnh hưởng và có thể tùy chọn thêm mệnh đề WHERE để chỉ định điều kiện cho các hàng nào cần được xóa. Nếu không có mệnh đề WHERE nào được cung cấp, tất cả các hàng trong bảng sẽ bị xóa. Nó sửa đổi dữ liệu trong cơ sở dữ liệu bằng cách xóa toàn bộ các hàng dựa trên các tiêu chí đã cho.",
+        "links": [
+          {
+            "title": "Xóa",
+            "url": "https://www.w3schools.com/sql/sql_delete.asp",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "68Y4cMQtdnJrbqSvl7aHc",
+      "type": "vertical",
+      "label": "nút theo chiều dọc",
+      "position": {
+        "x": -281.26200280604616,
+        "y": 303.2980966830105
+      },
+      "size": {
+        "width": 21,
+        "height": 207
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.75
+      },
+      "z_index": 999
+    },
+    {
+      "id": "LX9nzJ4uqznHN4SksoDvr",
+      "type": "topic",
+      "label": "Truy vấn Tổng hợp",
+      "position": {
+        "x": -369.76200280604616,
+        "y": 511.23040771484375
+      },
+      "size": {
+        "width": 198,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Truy vấn tổng hợp trong SQL được sử dụng để tính toán các giá trị tóm tắt từ nhiều hàng của một bảng, giảm dữ liệu xuống một hàng duy nhất dựa trên một phép tính cụ thể. Các phép tính này cung cấp thông tin như tổng, trung bình và đếm. Các hàm tổng hợp thường dùng bao gồm `COUNT()` để đếm số hàng, `SUM()` để cộng giá trị, `AVG()` để tính trung bình, `MIN()` để tìm giá trị nhỏ nhất và `MAX()` để tìm giá trị lớn nhất trong một nhóm hàng.",
+        "links": []
+      }
+    },
+    {
+      "id": "w4T3jFb0ilf1KNw-AvRXG",
+      "type": "subtopic",
+      "label": "SUM",
+      "position": {
+        "x": -609.4684257507324,
+        "y": 407.23040771484375
+      },
+      "size": {
+        "width": 76,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "SUM là một hàm tổng hợp SQL được sử dụng để tính tổng của một tập hợp các giá trị. Nó thường được sử dụng kết hợp với mệnh đề GROUP BY để tính tổng cho các danh mục hoặc nhóm khác nhau trong dữ liệu. SUM rất quan trọng đối với các phép tính tài chính, phân tích thống kê và tạo báo cáo tóm tắt từ bảng cơ sở dữ liệu. Nó bỏ qua các giá trị NULL và có thể được sử dụng cùng với các hàm tổng hợp khác để phân tích dữ liệu phức tạp.",
+        "links": [
+          {
+            "title": "Tính tổng theo SQL",
+            "url": "https://www.studysmarter.co.uk/explanations/computer-science/databases/sql-sum/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "9aHYrOQDkA84tlxcVK5aD",
+      "type": "subtopic",
+      "label": "COUNT",
+      "position": {
+        "x": -531.8883211898742,
+        "y": 407.23040771484375
+      },
+      "size": {
+        "width": 81,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`COUNT` là một hàm tổng hợp SQL trả về số lượng hàng khớp với tiêu chí đã chỉ định. Nó có thể được sử dụng để đếm tất cả các hàng trong một bảng, giá trị không phải null trong một cột cụ thể hoặc các hàng đáp ứng một số điều kiện khi kết hợp với mệnh đề `WHERE`. `COUNT` thường được sử dụng trong phân tích dữ liệu, tạo báo cáo và truy vấn tối ưu hóa hiệu suất để xác định kích thước của bộ dữ liệu hoặc tần suất của các giá trị cụ thể.",
+        "links": [
+          {
+            "title": "COUNT SQL Function",
+            "url": "https://www.datacamp.com/tutorial/count-sql-function",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Wou6YXLYUgomvcELh851L",
+      "type": "subtopic",
+      "label": "AVG",
+      "position": {
+        "x": -609.4684257507324,
+        "y": 459.73040771484375
+      },
+      "size": {
+        "width": 76,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Hàm AVG() trong SQL là một hàm tổng hợp tính toán giá trị trung bình của một cột số. Nó trả về tổng của tất cả các giá trị trong cột, chia cho số lượng các giá trị đó.",
+        "links": [
+          {
+            "title": "AVG",
+            "url": "https://www.sqlshack.com/sql-avg-function-introduction-and-examples/",
+            "type": "article"
+          },
+          {
+            "title": "Hàm SQL AVG()",
+            "url": "https://www.w3schools.com/sql/sql_avg.asp",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "bFEYMlqPZtTUYtDQxqHzT",
+      "type": "subtopic",
+      "label": "MIN",
+      "position": {
+        "x": -531.8883211898742,
+        "y": 459.73040771484375
+      },
+      "size": {
+        "width": 81,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`MIN` là một hàm tổng hợp trong SQL trả về giá trị nhỏ nhất trong một tập hợp các giá trị. Nó hoạt động với các kiểu dữ liệu số, ngày tháng hoặc chuỗi, chọn giá trị nhỏ nhất từ một cột được chỉ định. Thường được sử dụng kết hợp với `GROUP BY`, `MIN` có thể tìm giá trị nhỏ nhất trong mỗi nhóm. Hàm này hữu ích cho nhiều tác vụ phân tích dữ liệu khác nhau, chẳng hạn như xác định mức giá thấp nhất, ngày tháng sớm nhất hoặc tên đầu tiên theo bảng chữ cái trong một tập dữ liệu.",
+        "links": [
+          {
+            "title": "SQL MAX & MIN",
+            "url": "https://www.programiz.com/sql/min-and-max",
+            "type": "article"
+          },
+          {
+            "title": "COUNT, SUM, AVG, MIN, MAX (SQL) - Aggregating Data",
+            "url": "https://www.youtube.com/watch?v=muwEdPsx534",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "YqDJq3fPxUZlwsdq0kJg7",
+      "type": "subtopic",
+      "label": "MAX",
+      "position": {
+        "x": -609.4684257507324,
+        "y": 512.2304077148438
+      },
+      "size": {
+        "width": 158,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`MAX` là một hàm tổng hợp trong SQL trả về giá trị lớn nhất trong một tập hợp các giá trị. Nó có thể được sử dụng với các kiểu dữ liệu số, ngày tháng hoặc chuỗi, chọn giá trị lớn nhất từ một cột được chỉ định. `MAX` thường được sử dụng kết hợp với `GROUP BY` để tìm giá trị lớn nhất trong mỗi nhóm. Hàm này hữu ích cho nhiều tác vụ phân tích dữ liệu khác nhau, chẳng hạn như tìm mức lương cao nhất, ngày tháng mới nhất hoặc tên cuối cùng theo bảng chữ cái trong một tập dữ liệu.",
+        "links": [
+          {
+            "title": "MAX",
+            "url": "https://www.techonthenet.com/sql/max.php",
+            "type": "article"
+          },
+          {
+            "title": "Các Hàm Tổng hợp Cơ bản",
+            "url": "https://www.youtube.com/watch?v=jcoJuc5e3RE",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Zw8IHfCCMSxmVjx5Ho5ff",
+      "type": "subtopic",
+      "label": "GROUP BY",
+      "position": {
+        "x": -609.4684257507324,
+        "y": 564.7304077148438
+      },
+      "size": {
+        "width": 158,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`GROUP BY` là một mệnh đề SQL được sử dụng trong các câu lệnh `SELECT` để sắp xếp các bản ghi giống nhau thành nhóm. Nó thường được sử dụng với các hàm tổng hợp (như `COUNT`, `SUM`, `AVG`) để thực hiện tính toán trên mỗi nhóm hàng. `GROUP BY` thu thập dữ liệu trên nhiều bản ghi và nhóm kết quả theo một hoặc nhiều cột, cho phép phân tích dữ liệu ở mức độ chi tiết hơn. Mệnh đề này là nền tảng để tạo báo cáo tóm tắt, thực hiện phân tích dữ liệu và tạo các tập hợp dữ liệu có ý nghĩa trong cơ sở dữ liệu quan hệ.",
+        "links": [
+          {
+            "title": "SQL GROUP BY",
+            "url": "https://www.programiz.com/sql/group-by",
+            "type": "article"
+          },
+          {
+            "title": "Các Hàm Tổng Quát Nâng Cao trong SQL",
+            "url": "https://www.youtube.com/watch?v=nNrgRVIzeHg",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "HhICJpCK5__b-itUoEBES",
+      "type": "subtopic",
+      "label": "HAVING",
+      "position": {
+        "x": -609.4684257507324,
+        "y": 617.2304077148438
+      },
+      "size": {
+        "width": 158,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Thao tác `HAVING` trong SQL được sử dụng để lọc kết quả của các hàm tổng hợp. Nó tương tự như thao tác `WHERE`, nhưng hoạt động trên các hàng nhóm được tạo ra bởi thao tác `GROUP BY`. Về bản chất, `HAVING` cho phép bạn chỉ định các điều kiện mà các nhóm phải đáp ứng để được bao gồm trong tập kết quả cuối cùng sau khi thực hiện tổng hợp.",
+        "links": [
+          {
+            "title": "Khóa từ SQL HAVING",
+            "url": "https://www.programiz.com/sql/having",
+            "type": "article"
+          },
+          {
+            "title": "HAVING Clause",
+            "url": "https://www.youtube.com/watch?v=tYBOMw7Ob8E",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "qBios3sZVhcJMpXmj9f7B",
+      "type": "topic",
+      "label": "Giới hạn dữ liệu",
+      "position": {
+        "x": -1.7791808916234686,
+        "y": 646.2304077148438
+      },
+      "size": {
+        "width": 177,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Giới hạn dữ liệu trong SQL là các quy tắc được áp dụng cho cột hoặc bảng để đảm bảo tính toàn vẹn và nhất quán của dữ liệu. Chúng bao gồm giới hạn khóa chính (primary key), giới hạn khóa ngoại (foreign key), giới hạn duy nhất (unique), giới hạn kiểm tra (check) và giới hạn không null (not null). Các giới hạn này định nghĩa các hạn chế đối với dữ liệu có thể được chèn, cập nhật hoặc xóa trong cơ sở dữ liệu, đảm bảo rằng dữ liệu đáp ứng các tiêu chí cụ thể và duy trì mối quan hệ giữa các bảng. Bằng cách triển khai các giới hạn dữ liệu, nhà thiết kế cơ sở dữ liệu có thể ngăn chặn nhập dữ liệu không hợp lệ, duy trì tính toàn vẹn tham chiếu và thực thi các quy tắc kinh doanh trực tiếp ở cấp độ cơ sở dữ liệu.",
+        "links": [
+          {
+            "title": "SQL Constraints (Giới hạn)",
+            "url": "https://www.programiz.com/sql/constraints",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Jlwmyq6CUQeDAlL4dazOP",
+      "type": "subtopic",
+      "label": "Khóa Chính",
+      "position": {
+        "x": 275.44949271295843,
+        "y": 470.3865696806382
+      },
+      "size": {
+        "width": 167,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Một khóa chính trong SQL là một định danh duy nhất cho mỗi bản ghi trong một bảng cơ sở dữ liệu. Nó đảm bảo rằng mỗi hàng trong bảng có thể được xác định duy nhất, nghĩa là không có hai hàng nào có thể có cùng giá trị khóa chính. Một khóa chính bao gồm một hoặc nhiều cột và nó phải chứa các giá trị duy nhất mà không có bất kỳ giá trị `NULL` nào. Khóa chính thực thi tính toàn vẹn thực thể bằng cách ngăn chặn bản ghi trùng lặp và đảm bảo rằng mỗi bản ghi có thể được định vị và tham chiếu chính xác, thường thông qua các mối quan hệ khóa ngoại trong các bảng khác. Sử dụng một khóa chính là điều cơ bản để thiết lập mối quan hệ giữa các bảng và duy trì tính toàn vẹn của mô hình dữ liệu.",
+        "links": [
+          {
+            "title": "Khóa Chính SQL",
+            "url": "https://www.tutorialspoint.com/sql/sql-primary-key.htm",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "DHz6sRLYhFeCbAcNJS8hm",
+      "type": "subtopic",
+      "label": "Khóa ngoại",
+      "position": {
+        "x": 275.44949271295843,
+        "y": 523.3865696806382
+      },
+      "size": {
+        "width": 167,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Một khóa ngoại trong SQL là một cột hoặc nhóm các cột trong một bảng tham chiếu đến khóa chính của một bảng khác. Nó thiết lập một liên kết giữa hai bảng, đảm bảo tính toàn vẹn tham chiếu và duy trì mối quan hệ giữa dữ liệu liên quan. Các khóa ngoại đảm bảo rằng giá trị trong bảng tham chiếu tương ứng với giá trị hợp lệ trong bảng được tham chiếu, ngăn chặn các bản ghi bị bỏ sót và duy trì tính nhất quán của dữ liệu trên các bảng. Chúng là rất quan trọng để triển khai thiết kế cơ sở dữ liệu quan hệ và hỗ trợ các truy vấn phức tạp kết nối nhiều bảng.",
+        "links": [
+          {
+            "title": "Khóa ngoại là gì?",
+            "url": "https://www.cockroachlabs.com/blog/what-is-a-foreign-key/",
+            "type": "article"
+          },
+          {
+            "title": "Khóa ngoại dễ (một chút)",
+            "url": "https://www.youtube.com/watch?v=rFssfx37UJw",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5yGo8i7eplxtXOD_qfzOs",
+      "type": "subtopic",
+      "label": "Độc đáo",
+      "position": {
+        "x": 275.44949271295843,
+        "y": 576.3865696806382
+      },
+      "size": {
+        "width": 167,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Một ràng buộc duy nhất đảm bảo rằng tất cả các giá trị trong một cột (hoặc một nhóm các cột) đều khác nhau. Nó ngăn chặn các mục nhập trùng lặp, duy trì tính toàn vẹn của dữ liệu bằng cách thực thi tính duy nhất cho trường(s) được chỉ định. Điều này hữu ích cho các trường như địa chỉ email hoặc tên người dùng, trong đó mỗi bản ghi nên có một giá trị riêng biệt.",
+        "links": [
+          {
+            "title": "Giới hạn duy nhất SQL",
+            "url": "https://www.w3schools.com/sql/sql_unique.asp",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "M4M_-vjM9GNy0NmXZneDA",
+      "type": "subtopic",
+      "label": "Không được NULL",
+      "position": {
+        "x": 275.44949271295843,
+        "y": 629.3865696806382
+      },
+      "size": {
+        "width": 167,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Giới hạn NOT NULL trong SQL đảm bảo rằng một cột không chấp nhận giá trị NULL. Khi một cột được định nghĩa với giới hạn này, mọi hàng trong bảng phải có giá trị cho cột đó. Cố gắng chèn hoặc cập nhật một hàng với giá trị NULL trong một cột NOT NULL sẽ dẫn đến lỗi, duy trì tính toàn vẹn dữ liệu bằng cách ngăn chặn các mục nhập bị thiếu hoặc không xác định.",
+        "links": [
+          {
+            "title": "SQL có thể là NULL và không thể là NULL",
+            "url": "https://www.programiz.com/sql/is-null-not-null",
+            "type": "article"
+          },
+          {
+            "title": "Giới hạn Không được NULL",
+            "url": "https://www.youtube.com/watch?v=unzHhq82mKU",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Q0h9Wfnl_W9ThOkv7Q17A",
+      "type": "subtopic",
+      "label": "Kiểm tra",
+      "position": {
+        "x": 275.44949271295843,
+        "y": 682.3865696806382
+      },
+      "size": {
+        "width": 167,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Một `CHECK` constraint trong SQL được sử dụng để thực thi tính toàn vẹn dữ liệu bằng cách chỉ định một điều kiện phải đúng cho mỗi hàng trong một bảng. Nó cho phép bạn xác định các quy tắc hoặc hạn chế tùy chỉnh trên các giá trị có thể chèn hoặc cập nhật vào một hoặc nhiều cột. Các `CHECK` constraint giúp duy trì chất lượng dữ liệu bằng cách ngăn chặn dữ liệu không hợp lệ hoặc không nhất quán được thêm vào cơ sở dữ liệu, đảm bảo rằng chỉ dữ liệu đáp ứng các tiêu chí đã chỉ định mới được chấp nhận.",
+        "links": [
+          {
+            "title": "Kiểm tra ràng buộc",
+            "url": "https://www.youtube.com/watch?v=EeG2boJCXbc",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1Crqx9BUhD84lOdUAjFA4",
+      "type": "vertical",
+      "label": "nút theo chiều dọc",
+      "position": {
+        "x": 245.44949271295843,
+        "y": 472.8865696806382
+      },
+      "size": {
+        "width": 21,
+        "height": 259
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.55
+      },
+      "z_index": 999
+    },
+    {
+      "id": "8V6yw7kLaow-VVcv_K_pL",
+      "type": "topic",
+      "label": "Truy vấn Kết hợp",
+      "position": {
+        "x": -1.7791808916234686,
+        "y": 791.2304293708296
+      },
+      "size": {
+        "width": 177,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Truy vấn JOIN được sử dụng để kết hợp các hàng từ hai bảng trở lên dựa trên một cột liên quan giữa chúng. Điều này cho phép bạn truy xuất dữ liệu từ nhiều bảng trong một truy vấn duy nhất, tạo ra một tập dữ liệu toàn diện hơn so với việc chỉ có một bảng. Các loại truy vấn JOIN khác nhau như INNER, LEFT, RIGHT và FULL OUTER xác định cách các hàng được bao gồm trong kết quả dựa trên việc các giá trị phù hợp có tồn tại trong các cột liên quan hay không.",
+        "links": [
+          {
+            "title": "7 Ví Dụ JOIN SQL Với Giải Thích Chi Tiết",
+            "url": "https://learnsql.com/blog/sql-join-examples-with-explanations/",
+            "type": "article"
+          },
+          {
+            "title": "Kết nối (joins) rất dễ dàng.",
+            "url": "https://www.youtube.com/watch?v=G3lJAxg1cy8",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "aaua13CkTxLOYXr8cAgPm",
+      "type": "subtopic",
+      "label": "Nối trong (Inner Join)",
+      "position": {
+        "x": 247.47198755548254,
+        "y": 792.0530101616195
+      },
+      "size": {
+        "width": 197,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "INNER JOIN kết hợp các hàng từ hai bảng trở lên dựa trên một cột liên quan. Chúng trả về chỉ những hàng có sự khớp nối trong các cột đã chỉ định của tất cả các bảng tham gia vào phép JOIN. Nếu không có giá trị khớp nối trong các cột được JOIN, hàng đó sẽ bị loại trừ khỏi tập kết quả.",
+        "links": [
+          {
+            "title": "Câu lệnh `INNER JOIN` trong SQL",
+            "url": "https://www.programiz.com/sql/inner-join",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "X9cJJ8zLZCF2cOoqxwFfY",
+      "type": "subtopic",
+      "label": "LEFT JOIN",
+      "position": {
+        "x": 247.47198755548254,
+        "y": 845.0530101616195
+      },
+      "size": {
+        "width": 197,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Một LEFT JOIN trả về tất cả các hàng từ bảng bên trái (bảng được liệt kê trước từ khóa `LEFT JOIN`) và các hàng khớp với từ bảng bên phải (bảng được liệt kê sau từ khóa `LEFT JOIN`). Nếu không có sự phù hợp nào trong bảng bên phải cho một hàng trong bảng bên trái, tập kết quả sẽ chứa các giá trị `NULL` cho các cột từ bảng bên phải. Hiệu quả, nó đảm bảo tất cả các hàng từ bảng bên trái đều được bao gồm trong tập kết quả, bất kể có hàng tương ứng nào trong bảng bên phải hay không.",
+        "links": [
+          {
+            "title": "SQL LEFT JOIN - Hướng dẫn SQL",
+            "url": "https://www.youtube.com/watch?v=giKwmtsz1U8",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "shpgZkh1CLqUwjOaRtAFy",
+      "type": "subtopic",
+      "label": "RIGHT JOIN",
+      "position": {
+        "x": 247.47198755548254,
+        "y": 898.0530101616195
+      },
+      "size": {
+        "width": 197,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Một RIGHT JOIN kết hợp các hàng từ hai bảng dựa trên một cột liên quan. Nó trả về tất cả các hàng từ bảng bên phải (bảng được chỉ định sau từ khóa `RIGHT JOIN`), và các hàng khớp với từ bảng bên trái. Nếu không có sự phù hợp nào trong bảng bên trái cho một hàng trong bảng bên phải, các giá trị `NULL` được trả về cho các cột từ bảng bên trái trong tập kết quả.",
+        "links": [
+          {
+            "title": "SQL RIGHT JOIN Với Ví dụ",
+            "url": "https://www.programiz.com/sql/right-join",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "aS5zCyJRA779yHF0G2pje",
+      "type": "subtopic",
+      "label": "Kết hợp đầy đủ (Full Outer Join)",
+      "position": {
+        "x": 247.47198755548254,
+        "y": 951.0530101616195
+      },
+      "size": {
+        "width": 197,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Một `FULL OUTER JOIN` trong SQL kết hợp kết quả của cả `LEFT` và `RIGHT OUTER JOIN`s. Nó trả về tất cả các hàng từ cả hai bảng, khớp các bản ghi nơi điều kiện nối được đáp ứng và bao gồm các hàng không khớp từ cả hai bảng với các giá trị `NULL` ở vị trí dữ liệu bị thiếu. Loại nối này hữu ích khi bạn cần xem tất cả dữ liệu từ cả hai bảng, bất kể có hàng khớp hay không, và đặc biệt có giá trị để xác định các mối quan hệ bị thiếu hoặc thực hiện so sánh dữ liệu giữa hai bảng.",
+        "links": [
+          {
+            "title": "SQL FULL OUTER JOIN",
+            "url": "https://www.youtube.com/watch?v=XpBkXo3DCEg",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6qG0AVYd6Y1B8LOSDoMX9",
+      "type": "subtopic",
+      "label": "Nối Tự Đảo",
+      "position": {
+        "x": 247.47198755548254,
+        "y": 1004.0530101616196
+      },
+      "size": {
+        "width": 197,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Một kết nối tự (self join) là một truy vấn trong SQL mà nối một bảng với chính nó. Điều này hữu ích khi bạn muốn so sánh các hàng trong cùng một bảng, thường dựa trên một mối quan hệ phân cấp hoặc sự kết nối khác giữa các điểm dữ liệu trong đó. Hãy nghĩ về nó như việc tạo ra hai bản sao của cùng một bảng và sau đó nối chúng dựa trên một cột chung, cho phép bạn liên kết dữ liệu từ cùng một nguồn theo cách mới.",
+        "links": [
+          {
+            "title": "Hiểu biết về các Join tự trong SQL",
+            "url": "https://www.dbvis.com/thetable/understanding-self-joins-in-sql/",
+            "type": "article"
+          },
+          {
+            "title": "Kết nối tự trị SQL",
+            "url": "https://www.w3schools.com/sql/sql_join_self.asp",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "7ow6tiSSCnTpv_GYQU017",
+      "type": "subtopic",
+      "label": "Giao hoán",
+      "position": {
+        "x": 247.47198755548254,
+        "y": 1057.0530101616196
+      },
+      "size": {
+        "width": 197,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Một Cross Join tạo ra một tập kết quả là số lượng hàng trong bảng đầu tiên nhân với số lượng hàng trong bảng thứ hai. Nếu một mệnh đề WHERE được sử dụng cùng với một Cross Join, nó sẽ hoạt động giống như một INNER JOIN. Tuy nhiên, việc sử dụng INNER JOIN thường được ưu tiên hơn so với việc sử dụng CROSS JOIN với mệnh đề WHERE vì lý do khả năng đọc hiểu và hiệu suất. Nó thực tế tạo ra tất cả các kết hợp có thể của hàng từ các bảng liên quan.",
+        "links": [
+          {
+            "title": "SQL CROSS JOIN Với Ví dụ",
+            "url": "https://www.sqlshack.com/sql-cross-join-with-examples/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "0Rk1z-F_PEgOIh1qeG8rJ",
+      "type": "vertical",
+      "label": "nút theo chiều dọc",
+      "position": {
+        "x": 218.44949271295843,
+        "y": 787.8865696806382
+      },
+      "size": {
+        "width": 21,
+        "height": 319
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.55
+      },
+      "z_index": 999
+    },
+    {
+      "id": "86iZ8s8EdhSuYwgwAM_EO",
+      "type": "topic",
+      "label": "Truy vấn Con",
+      "position": {
+        "x": -305.76200280604616,
+        "y": 791.2304293708296
+      },
+      "size": {
+        "width": 203,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Truy vấn con, còn được gọi là truy vấn lồng nhau hoặc truy vấn trong, là các truy vấn SQL được nhúng vào một truy vấn khác. Chúng có thể được sử dụng ở nhiều phần của các câu lệnh SQL, chẳng hạn như các mệnh đề SELECT, FROM, WHERE và HAVING. Truy vấn con cho phép trích xuất và thao tác dữ liệu phức tạp bằng cách chia nhỏ các truy vấn phức tạp thành các phần dễ quản lý hơn. Chúng đặc biệt hữu ích để tạo tiêu chí động, thực hiện tính toán hoặc so sánh các tập kết quả.",
+        "links": [
+          {
+            "title": "Truy vấn con SQL",
+            "url": "https://www.tutorialspoint.com/sql/sql-sub-queries.htm",
+            "type": "article"
+          },
+          {
+            "title": "Hướng dẫn SQL Nâng Cao | Truy vấn con",
+            "url": "https://www.youtube.com/watch?v=m1KcNV-Zhmc",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "eXQ-TrTlqL5p2AdGnozkL",
+      "type": "subtopic",
+      "label": "Scalar",
+      "position": {
+        "x": -605.2510816711185,
+        "y": 708.2304293708296
+      },
+      "size": {
+        "width": 81,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Một giá trị điểm số (scalar value) là một phần tử dữ liệu đơn lẻ, trái ngược với một tập hoặc mảng các giá trị. Các truy vấn con điểm số là các truy vấn trả về chính xác một cột và một hàng, thường được sử dụng trong các câu lệnh `SELECT`, mệnh đề `WHERE` hoặc như một phần của biểu thức. Các hàm điểm số trong SQL trả về một giá trị duy nhất dựa trên các tham số đầu vào. Hiểu biết về các khái niệm điểm số là rất quan trọng để viết các truy vấn SQL hiệu quả và chính xác.",
+        "links": [
+          {
+            "title": "Tạo các hàm số SQL dạng scalar",
+            "url": "https://www.ibm.com/docs/en/db2/11.5?topic=functions-creating-sql-scalar",
+            "type": "article"
+          },
+          {
+            "title": "Sử dụng Scalar SQL để tăng hiệu suất.",
+            "url": "https://www.youtube.com/watch?v=v8X5FGzzc9A",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "wmtt-3auWLdQWuVdwZLPd",
+      "type": "subtopic",
+      "label": "Column",
+      "position": {
+        "x": -521.2510816711185,
+        "y": 708.2304293708296
+      },
+      "size": {
+        "width": 81,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Trong SQL, các cột được sử dụng để phân loại dữ liệu trong một bảng. Một cột đóng vai trò là cấu trúc lưu trữ một kiểu dữ liệu cụ thể (số nguyên, chuỗi, boolean, v.v.) trong một bảng. Mỗi cột trong một bảng được thiết kế với một kiểu, điều này xác định loại dữ liệu mà nó có thể chứa. Việc sử dụng đúng các kiểu cột và kích thước có thể giúp duy trì tính toàn vẹn của dữ liệu và tối ưu hóa hiệu suất.",
+        "links": [
+          {
+            "title": "Column Types - PostgreSQL",
+            "url": "https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-data-types/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "aLDl75i8gtLRA2Ud-fMmQ",
+      "type": "subtopic",
+      "label": "Hàng",
+      "position": {
+        "x": -437.2510816711185,
+        "y": 708.2304293708296
+      },
+      "size": {
+        "width": 61,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Trong SQL, một hàng (còn gọi là bản ghi hoặc tuple) đại diện cho một phần tử dữ liệu đơn lẻ, có cấu trúc ngầm định trong một bảng. Mỗi hàng chứa một tập hợp các yếu tố dữ liệu liên quan tương ứng với các cột của bảng. Các hàng là nền tảng của mô hình cơ sở dữ liệu quan hệ, cho phép lưu trữ và truy xuất thông tin một cách có tổ chức. Các thao tác như INSERT, UPDATE và DELETE thường hoạt động ở cấp độ hàng.",
+        "links": [
+          {
+            "title": "Hàng - Cơ sở dữ liệu",
+            "url": "https://en.wikipedia.org/wiki/Row_(database",
+            "type": "article"
+          },
+          {
+            "title": "Dòng CSDL: Định nghĩa, Ví dụ",
+            "url": "https://www.devx.com/terms/database-row/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "R9WDMRd-3wxsKH97-sT3n",
+      "type": "subtopic",
+      "label": "Bảng (Table)",
+      "position": {
+        "x": -373.2510816711185,
+        "y": 708.2304293708296
+      },
+      "size": {
+        "width": 66,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Một bảng là cấu trúc cơ bản để tổ chức dữ liệu trong một cơ sở dữ liệu quan hệ. Nó bao gồm các hàng (bản ghi) và cột (trường), đại diện cho một tập hợp các mục nhập dữ liệu liên quan. Các bảng xác định lược đồ của dữ liệu, bao gồm kiểu dữ liệu và ràng buộc. Chúng là đối tượng chính để lưu trữ và truy xuất dữ liệu trong cơ sở dữ liệu SQL, và hiểu cấu trúc bảng là rất quan trọng đối với thiết kế cơ sở dữ liệu hiệu quả và truy vấn.",
+        "links": [
+          {
+            "title": "Bảng (Database)",
+            "url": "https://en.wikipedia.org/wiki/Table_(database",
+            "type": "article"
+          },
+          {
+            "title": "Giới thiệu về Bảng (Tables)",
+            "url": "https://support.microsoft.com/en-gb/office/introduction-to-tables-78ff21ea-2f76-4fb0-8af6-c318d1ee0ea7",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "zEWmq0Y1LFPMQelpucrph",
+      "type": "label",
+      "label": "Các kiểu dữ liệu khác nhau",
+      "position": {
+        "x": -242.76200280604616,
+        "y": 715.7304293708296
+      },
+      "size": {
+        "width": 132,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "xkPJ2MYiXmzC4yqQWyB_7",
+      "type": "subtopic",
+      "label": "Truy vấn Nhúng",
+      "position": {
+        "x": -614.2510816711185,
+        "y": 791.2304293708296
+      },
+      "size": {
+        "width": 220,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Truy vấn nhúng là các truy vấn được nhúng trong một truy vấn SQL khác. Hãy nghĩ về nó như một truy vấn bên trong một truy vấn, trong đó kết quả của truy vấn lồng trong sẽ được sử dụng bởi truy vấn bên ngoài. Điều này cho phép bạn thực hiện các thao tác trích xuất và lọc dữ liệu phức tạp hơn bằng cách chia một vấn đề lớn thành các bước nhỏ hơn, dễ quản lý hơn. Về bản chất, truy vấn bên ngoài phụ thuộc vào kết quả trả về từ truy vấn lồng để hoàn thành hoạt động của nó.",
+        "links": [
+          {
+            "title": "Truy vấn Nhúng",
+            "url": "https://www.studysmarter.co.uk/explanations/computer-science/databases/nested-subqueries-in-sql/",
+            "type": "article"
+          },
+          {
+            "title": "Truy vấn con trong MySQL",
+            "url": "https://www.youtube.com/watch?v=i5acg3Hvu6g",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JZqS3Xapw6mfSPVgFW7av",
+      "type": "subtopic",
+      "label": "Dưới truy vấn liên quan",
+      "position": {
+        "x": -614.2510816711185,
+        "y": 844.2304293708296
+      },
+      "size": {
+        "width": 220,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Trong SQL, truy vấn con liên quan (correlated subquery) là một truy vấn con sử dụng các giá trị từ truy vấn bên ngoài trong mệnh đề `WHERE`. Truy vấn con liên quan được đánh giá một lần cho mỗi hàng được xử lý bởi truy vấn bên ngoài. Nó tồn tại vì nó phụ thuộc vào truy vấn bên ngoài và không thể thực thi độc lập với truy vấn bên ngoài vì truy vấn con được liên kết với truy vấn bên ngoài khi nó sử dụng cột của nó trong mệnh đề `WHERE`.",
+        "links": [
+          {
+            "title": "Dưới truy vấn liên quan",
+            "url": "https://dev.mysql.com/doc/refman/8.4/en/correlated-subqueries.html",
+            "type": "official"
+          },
+          {
+            "title": "Giới thiệu về Truy vấn Con (Subquery)",
+            "url": "https://www.youtube.com/watch?v=TUxadt94L0M",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "vTMd0bqz4eTgLnhfgY61h",
+      "type": "topic",
+      "label": "Hàm Nâng Cao",
+      "position": {
+        "x": -305.76200280604616,
+        "y": 953.2304293708296
+      },
+      "size": {
+        "width": 203,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Các hàm nâng cao trong SQL vượt xa các thao tác cơ bản như chọn và lọc dữ liệu. Các hàm này cho phép bạn thực hiện các phép tính phức tạp, thao tác chuỗi, làm việc với ngày tháng và phân tích dữ liệu theo những cách tinh vi hơn. Chúng giúp bạn suy luận thông tin, chuyển đổi dữ liệu và tạo báo cáo có ý nghĩa hơn từ cơ sở dữ liệu của mình.",
+        "links": []
+      }
+    },
+    {
+      "id": "o2SH4iQn1Ap2yDZ7cVYLO",
+      "type": "subtopic",
+      "label": "Mức tầng",
+      "position": {
+        "x": -31.751081671118527,
+        "y": 912.2304293708296
+      },
+      "size": {
+        "width": 81,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "FLOOR là một hàm số kiểu dữ liệu số học trả về giá trị nguyên lớn nhất nhỏ hơn hoặc bằng một số cho trước. Về bản chất, hàm này làm tròn một số *xuống* đến số nguyên gần nhất. Ví dụ, FLOOR(7.9) sẽ trả về 7 và FLOOR(-7.1) sẽ trả về -8.",
+        "links": [
+          {
+            "title": "Cách làm tròn trong SQL",
+            "url": "https://www.youtube.com/watch?v=AUXw2JRwCFY",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6vYFb_D1N_-tLWZftL-Az",
+      "type": "subtopic",
+      "label": "ABS",
+      "position": {
+        "x": 51.24891832888147,
+        "y": 912.2304293708296
+      },
+      "size": {
+        "width": 66,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Hàm ABS() trong SQL trả về giá trị tuyệt đối của một biểu thức số được cung cấp, có nghĩa là nó chuyển đổi bất kỳ số âm nào thành giá trị dương tương ứng với nó đồng thời giữ nguyên các số dương. Hàm này hữu ích khi bạn cần đảm bảo rằng kết quả của một phép tính hoặc giá trị được lưu trữ trong một cột cơ sở dữ liệu là không âm, chẳng hạn như khi tính toán khoảng cách, sự khác biệt hoặc các chỉ số khác nơi chỉ các giá trị dương mới có ý nghĩa. Ví dụ: `SELECT ABS(-5)` sẽ trả về `5`.",
+        "links": [
+          {
+            "title": "Cách tính giá trị tuyệt đối trong SQL",
+            "url": "https://www.airops.com/sql-guide/how-to-compute-an-absolute-value-in-sql",
+            "type": "article"
+          },
+          {
+            "title": "ABS",
+            "url": "https://www.w3schools.com/sql/func_sqlserver_abs.asp",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "OUw--8zEq6lk5-6oySVHe",
+      "type": "subtopic",
+      "label": "MOD",
+      "position": {
+        "x": 119.24891832888147,
+        "y": 912.2304293708296
+      },
+      "size": {
+        "width": 66,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Hàm `MOD` trong SQL tính toán phần dư khi một số được chia cho một số khác. Nó lấy hai đối số: số bị chia và số chia. `MOD` trả về phần dư của phép chia, điều này hữu ích cho nhiều hoạt động toán học, bao gồm kiểm tra các số chẵn/lẻ, thực hiện hành vi lặp lại hoặc phân phối dữ liệu đều đặn. Cú pháp và hành vi chính xác có thể khác nhau một chút giữa các hệ thống cơ sở dữ liệu khác nhau, với một số sử dụng toán tử `%` thay vì từ khóa `MOD`.",
+        "links": [
+          {
+            "title": "Hàm MOD trong SQL",
+            "url": "https://www.youtube.com/watch?v=f1Rqf7CwjE0",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "9DntFiZV1AyaRPhYP5q6u",
+      "type": "subtopic",
+      "label": "ROUND",
+      "position": {
+        "x": -31.751081671118527,
+        "y": 964.2304293708296
+      },
+      "size": {
+        "width": 115,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Hàm `ROUND` trong SQL được sử dụng để làm tròn một giá trị số đến một số chữ số thập phân nhất định. Nó lấy hai đối số: giá trị cần làm tròn và số chữ số thập phân cần làm tròn. Nếu đối số thứ hai bị thiếu, hàm sẽ làm tròn giá trị đến số nguyên gần nhất. Đối với các giá trị dương của đối số thứ hai, giá trị sẽ được làm tròn đến số chữ số thập phân được chỉ định; đối với các giá trị âm, nó sẽ làm tròn đến chục, trăm, nghìn,... Hàm `ROUND` hữu ích để định dạng dữ liệu số cho báo cáo hoặc đảm bảo độ chính xác nhất quán trong các phép tính.",
+        "links": [
+          {
+            "title": "Hàm SQL ROUND hoạt động như thế nào và nó dùng để làm gì?",
+            "url": "https://www.datacamp.com/tutorial/mastering-sql-round",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "BAqJQvcguhIhzyII5LRH6",
+      "type": "subtopic",
+      "label": "Tường trần",
+      "position": {
+        "x": 85.24891832888147,
+        "y": 964.0530101616195
+      },
+      "size": {
+        "width": 101,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Hàm CEILING() trong SQL trả về giá trị nguyên nhỏ nhất lớn hơn hoặc bằng một giá trị số được cung cấp. Nó hữu ích khi bạn cần làm tròn một số lên đến số nguyên gần nhất, bất kể số đó đã là số nguyên hay số thập phân. Ví dụ: `CEILING(4.2)` sẽ trả về `5`, và `CEILING(-4.7)` sẽ trả về `-4`. Hàm này thường được sử dụng trong các tình huống khi làm tròn lên là cần thiết, chẳng hạn như tính toán số trang cần thiết để hiển thị một số lượng mục nhất định khi mỗi trang có dung tích cố định.",
+        "links": [
+          {
+            "title": "SQL CEILING",
+            "url": "https://www.w3schools.com/sql/func_sqlserver_ceiling.asp",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "KI9LVF49Zml1StWiN0wUe",
+      "type": "label",
+      "label": "Hàm số Số học",
+      "position": {
+        "x": -11.279180891623469,
+        "y": 1017.5530101616196
+      },
+      "size": {
+        "width": 162,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "5inpEqafeVCfqsURHzQQg",
+      "type": "subtopic",
+      "label": "Nối chuỗi (String concatenation)",
+      "position": {
+        "x": -602.2510816711185,
+        "y": 922.8865696806382
+      },
+      "size": {
+        "width": 121,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`CONCAT` là một hàm SQL được sử dụng để kết hợp hai hoặc nhiều chuỗi thành một chuỗi duy nhất. Nó nhận nhiều chuỗi đầu vào như đối số và trả về một chuỗi mới là chuỗi nối của tất cả các chuỗi đầu vào theo thứ tự chúng được cung cấp. `CONCAT` thường được sử dụng trong các câu lệnh `SELECT` để hợp nhất dữ liệu từ nhiều cột, tạo định dạng đầu ra tùy chỉnh hoặc tạo các câu lệnh SQL động.",
+        "links": [
+          {
+            "title": "Tổng quan về hàm CONCAT trong SQL",
+            "url": "https://www.sqlshack.com/an-overview-of-the-concat-function-in-sql-with-examples/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "RH8DLiQpDUWqw3U1522q5",
+      "type": "subtopic",
+      "label": "Độ dài chuỗi",
+      "position": {
+        "x": -478.76200280604616,
+        "y": 922.8865696806382
+      },
+      "size": {
+        "width": 101,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Hàm `LENGTH` trong SQL trả về số lượng ký tự trong một chuỗi. Nó được sử dụng để đo kích thước dữ liệu văn bản, điều này có thể hữu ích cho xác thực dữ liệu, định dạng hoặc phân tích. Trong một số hệ thống cơ sở dữ liệu, `LENGTH` có thể đếm các ký tự khác nhau cho các bộ ký tự đa byte. Hầu hết các phương ngữ SQL đều hỗ trợ `LENGTH`, nhưng một số có thể sử dụng tên thay thế như `LEN` (trong SQL Server) hoặc `CHAR_LENGTH`. Hàm này đặc biệt hữu ích để thực thi giới hạn ký tự, chia chuỗi hoặc xác định các dị thường trong dữ liệu chuỗi.",
+        "links": [
+          {
+            "title": "Cách kiểm tra độ dài chuỗi trong SQL",
+            "url": "https://learnsql.com/cookbook/how-to-check-the-length-of-a-string-in-sql/",
+            "type": "article"
+          },
+          {
+            "title": "Hàm Độ dài trong MySQL",
+            "url": "https://www.w3schools.com/sql/func_mysql_length.asp",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PnG_5D6q66NAKxXVOwA6N",
+      "type": "subtopic",
+      "label": "SUBSTRING",
+      "position": {
+        "x": -602.9741508977197,
+        "y": 974.8865696806382
+      },
+      "size": {
+        "width": 121,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "SUBSTRING là một hàm SQL được sử dụng để trích xuất một phần của chuỗi. Nó cho phép bạn chỉ định vị trí bắt đầu và độ dài của chuỗi con bạn muốn trích xuất. Hàm này có giá trị đối với thao tác dữ liệu, phân tích, và các tác vụ định dạng. Cú pháp chính xác có thể khác nhau đôi chút giữa các hệ thống cơ sở dữ liệu, nhưng chức năng cốt lõi vẫn nhất quán, khiến nó trở thành một công cụ linh hoạt để làm việc với dữ liệu chuỗi trong cơ sở dữ liệu.",
+        "links": [
+          {
+            "title": "Chuỗi con từ SQL",
+            "url": "https://www.w3schools.com/sql/func_sqlserver_substring.asp",
+            "type": "article"
+          },
+          {
+            "title": "Hướng dẫn SQL Nâng Cao | Các hàm chuỗi + Ứng dụng thực tế",
+            "url": "https://www.youtube.com/watch?v=GQj6_6V_jVA",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "VNbb3YPc0FtrROylRns8h",
+      "type": "subtopic",
+      "label": "REPLACE",
+      "position": {
+        "x": -478.76200280604616,
+        "y": 974.8865696806382
+      },
+      "size": {
+        "width": 101,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Hàm `REPLACE` trong SQL được sử dụng để thay thế tất cả các lần xuất hiện của một chuỗi con nhất định trong một chuỗi bằng một chuỗi con khác. Nó lấy ba đối số: chuỗi ban đầu, chuỗi con cần thay thế và chuỗi con để thay thế nó. Nếu chuỗi con được chỉ định được tìm thấy trong chuỗi ban đầu, `REPLACE` trả về chuỗi đã sửa đổi với tất cả các phiên bản của chuỗi cũ được thay thế bằng chuỗi mới. Nếu chuỗi con không được tìm thấy, chuỗi ban đầu sẽ được trả về không thay đổi. Hàm này đặc biệt hữu ích cho các tác vụ làm sạch dữ liệu, chẳng hạn như sửa lỗi chính tả, chuẩn hóa định dạng hoặc thay thế dữ liệu lỗi thời.",
+        "links": [
+          {
+            "title": "Cách sử dụng hàm REPLACE của SQL",
+            "url": "https://www.datacamp.com/tutorial/sql-replace",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Othfo7NvTVzfyL906PLM1",
+      "type": "subtopic",
+      "label": "Lấy trên (Take upper)",
+      "position": {
+        "x": -602.9741508977197,
+        "y": 1026.8865696806383
+      },
+      "size": {
+        "width": 121,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Hàm UPPER là một hàm chuỗi chuyển đổi tất cả các ký tự trong một chuỗi đã cho thành chữ hoa. Nó nhận một chuỗi hoặc cột dựa trên ký tự làm đối số và trả về một chuỗi mới, trong đó mọi chữ cái đều được chuyển đổi sang dạng chữ hoa tương ứng. Các ký tự không phải chữ và các ký tự đã ở dạng chữ hoa vẫn giữ nguyên như cũ.",
+        "links": [
+          {
+            "title": "Cách chuyển đổi chuỗi thành chữ hoa trong SQL",
+            "url": "https://learnsql.com/cookbook/how-to-convert-a-string-to-uppercase-in-sql/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "knTG6pAq2mYP24WMa29xI",
+      "type": "subtopic",
+      "label": "Chuyển đổi về chữ thường",
+      "position": {
+        "x": -478.76200280604616,
+        "y": 1026.8865696806383
+      },
+      "size": {
+        "width": 101,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Hàm `LOWER` trong SQL chuyển đổi tất cả các ký tự trong một chuỗi được chỉ định thành chữ thường. Đây là một hàm thao tác chuỗi lấy một đối số (chuỗi đầu vào) và trả về cùng một chuỗi với tất cả các ký tự chữ cái được chuyển đổi sang dạng chữ thường tương ứng. `LOWER` hữu ích để chuẩn hóa dữ liệu, so sánh không phân biệt chữ hoa/thường hoặc định dạng đầu ra. Nó không ảnh hưởng đến các ký tự không phải chữ cái hoặc số trong chuỗi. `LOWER` thường được sử dụng trong làm sạch dữ liệu, hoạt động tìm kiếm và đảm bảo biểu diễn dữ liệu nhất quán trên các hệ thống khác nhau.",
+        "links": [
+          {
+            "title": "Cách chuyển đổi văn bản thành chữ thường trong SQL",
+            "url": "https://learnsql.com/cookbook/how-to-change-text-to-lowercase-in-sql/",
+            "type": "article"
+          },
+          {
+            "title": "Hàm chuyển đổi về chữ thường",
+            "url": "https://www.w3schools.com/sql/func_sqlserver_lower.asp",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Va_B9PyyGaQ_aX4ySyhUn",
+      "type": "label",
+      "label": "Hàm Dữ Chuỗi",
+      "position": {
+        "x": -567.8883211898742,
+        "y": 1085.8865696806383
+      },
+      "size": {
+        "width": 142,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "W2ePJHdfEiEJ3ZKoRQKt_",
+      "type": "subtopic",
+      "label": "Trường hợp",
+      "position": {
+        "x": -32.75108167111853,
+        "y": 1063.8865696806383
+      },
+      "size": {
+        "width": 101,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Câu lệnh CASE trong SQL được sử dụng để tạo logic điều kiện bên trong một truy vấn, cho phép bạn thực hiện các hành động khác nhau dựa trên các điều kiện cụ thể. Nó hoạt động giống như một câu lệnh if-else, trả về các giá trị khác nhau tùy thuộc vào kết quả của mỗi điều kiện. Cú pháp thường bao gồm chỉ định một hoặc nhiều điều kiện WHEN, theo đó là kết quả cho mỗi điều kiện và một mệnh đề ELSE tùy chọn để có một kết quả mặc định nếu không có điều kiện nào được đáp ứng.",
+        "links": [
+          {
+            "title": "SQL CASE - SQL Trung gian",
+            "url": "https://mode.com/sql-tutorial/sql-case",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "KI6vngoYcHsnpIk8ErhhS",
+      "type": "subtopic",
+      "label": "NULLIF",
+      "position": {
+        "x": 71.24891832888147,
+        "y": 1063.8865696806383
+      },
+      "size": {
+        "width": 113,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`NULLIF` là một hàm SQL so sánh hai biểu thức và trả về `NULL` nếu chúng bằng nhau, ngược lại nó trả về biểu thức đầu tiên. Nó đặc biệt hữu ích để tránh lỗi chia cho 0 hoặc để xử lý các giá trị cụ thể như `NULL` trong các phép tính hoặc so sánh. `NULLIF` nhận hai đối số và thường được sử dụng kết hợp với các hàm tổng hợp hoặc trong các câu lệnh `CASE` để xử lý các trường hợp đặc biệt trong quá trình xử lý hoặc báo cáo dữ liệu.",
+        "links": [
+          {
+            "title": "NULLIF trong SQL là gì?",
+            "url": "https://www.youtube.com/watch?v=Jaw53T__RRY",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "k7lZe4QRt9q4InUImFmvx",
+      "type": "subtopic",
+      "label": "Nếu giá trị là NULL, trả về giá trị khác.",
+      "position": {
+        "x": -32.91017923766498,
+        "y": 1115.8865696806383
+      },
+      "size": {
+        "width": 219,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`COALESCE` là một hàm SQL trả về giá trị không phải null đầu tiên trong danh sách các biểu thức. Nó thường được sử dụng để xử lý giá trị null hoặc cung cấp giá trị mặc định trong truy vấn. `COALESCE` đánh giá các đối số của nó theo thứ tự và trả về kết quả không phải null đầu tiên, khiến nó hữu ích cho làm sạch dữ liệu, tạo báo cáo và đơn giản hóa logic điều kiện phức tạp trong các câu lệnh SQL.",
+        "links": [
+          {
+            "title": "Cách sử dụng hàm COALESCE trong SQL",
+            "url": "https://learnsql.com/blog/coalesce-function-sql/",
+            "type": "article"
+          },
+          {
+            "title": "COALESCE trong PostgreSQL là hàm trả về giá trị đầu tiên khác NULL trong một danh sách các biểu thức.",
+            "url": "https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-coalesce/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "K2k3gFdSE63CqWmHeFUEs",
+      "type": "label",
+      "label": "Câu lệnh điều kiện",
+      "position": {
+        "x": 21.248918328881473,
+        "y": 1171
+      },
+      "size": {
+        "width": 104,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "Ivqo2wa-_NhGU3vGd0pUI",
+      "type": "subtopic",
+      "label": "DATE",
+      "position": {
+        "x": -603.7510816711185,
+        "y": 1137.7304293708296
+      },
+      "size": {
+        "width": 116,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Kiểu dữ liệu DATE trong SQL được sử dụng để lưu trữ ngày tháng (thường ở định dạng YYYY-MM-DD). Nó đại diện cho một ngày cụ thể mà không có bất kỳ thông tin thời gian nào. Các cột DATE thường được sử dụng để lưu trữ ngày sinh, ngày diễn ra sự kiện hoặc bất kỳ dữ liệu nào khác yêu cầu độ chính xác cấp ngày. SQL cung cấp nhiều hàm để thao tác và định dạng các giá trị DATE, cho phép tính toán ngày tháng, trích xuất thành phần ngày tháng và so sánh giữa các ngày tháng. Phạm vi ngày tháng hợp lệ có thể khác nhau tùy thuộc vào hệ quản trị cơ sở dữ liệu cụ thể đang được sử dụng.",
+        "links": [
+          {
+            "title": "Làm việc với Ngày tháng",
+            "url": "https://www.youtube.com/watch?v=XyZ9HwXoR7o",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "88KlrMqSza9_YaD7Dv61p",
+      "type": "subtopic",
+      "label": "TIME",
+      "position": {
+        "x": -484.7510816711185,
+        "y": 1137.7304293708296
+      },
+      "size": {
+        "width": 104,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Kiểu dữ liệu TIME trong SQL được sử dụng để lưu trữ giá trị thời gian, thường ở định dạng giờ, phút và giây. Nó hữu ích cho việc ghi lại các thời điểm cụ thể trong ngày mà không có thông tin về ngày tháng. SQL cung cấp nhiều hàm để thao tác và so sánh các giá trị TIME, cho phép thực hiện các tính toán và truy vấn dựa trên thời gian. Phạm vi và độ chính xác chính xác của TIME có thể khác nhau giữa các hệ thống quản lý cơ sở dữ liệu khác nhau. Tìm hiểu thêm từ các nguồn tài nguyên sau:",
+        "links": []
+      }
+    },
+    {
+      "id": "7hEqkoxkdAWmakGZsMJx-",
+      "type": "subtopic",
+      "label": "TIMESTAMP",
+      "position": {
+        "x": -603.7510816711185,
+        "y": 1190.7304293708296
+      },
+      "size": {
+        "width": 223,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Một TIMESTAMP là kiểu dữ liệu được sử dụng để lưu trữ một điểm thời gian cụ thể, thường bao gồm cả thành phần ngày và giờ. Nó thường bao gồm các phần thập phân (milili giây hoặc micro giây) để có độ chính xác cao hơn. Rất phổ biến đối với cơ sở dữ liệu là có một timestamp tự động cập nhật khi một hàng được cập nhật.",
+        "links": [
+          {
+            "title": "Các hàm TimeStamp khác nhau trong SQL Server",
+            "url": "https://www.sqlshack.com/different-sql-timestamp-functions-in-sql-server/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "BJ4fQvagTO0B5UtXblyx8",
+      "type": "subtopic",
+      "label": "Ngày",
+      "position": {
+        "x": -603.7510816711185,
+        "y": 1243.7304293708296
+      },
+      "size": {
+        "width": 116,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`DATEPART` là một hàm hữu ích trong SQL cho phép bạn trích xuất một phần cụ thể của trường ngày tháng. Bạn có thể sử dụng nó để lấy năm, quý, tháng, ngày trong năm, ngày, tuần, thứ trong tuần, giờ, phút, giây hoặc mili giây từ bất kỳ biểu thức ngày tháng nào.",
+        "links": [
+          {
+            "title": "SQL DATEPART",
+            "url": "https://hightouch.com/sql-dictionary/sql-datepart",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1E1WdWOyqxbbdiIbw26dZ",
+      "type": "subtopic",
+      "label": "DATEADD",
+      "position": {
+        "x": -484.7510816711185,
+        "y": 1243.7304293708296
+      },
+      "size": {
+        "width": 104,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`DATEADD` là một hàm SQL được sử dụng để thêm hoặc trừ một khoảng thời gian đã chỉ định vào giá trị ngày tháng. Nó thường nhận ba đối số: kiểu chu kỳ (ví dụ: ngày, tháng, năm), số lượng chu kỳ cần thêm hoặc trừ và ngày cần sửa đổi. Hàm này hữu ích cho tính toán ngày tháng, chẳng hạn như tìm ngày trong tương lai hoặc quá khứ, tính toán khoảng thời gian hoặc tạo phạm vi ngày tháng. Cú pháp và tên chính xác của hàm này có thể khác nhau một chút giữa các hệ thống quản lý cơ sở dữ liệu khác nhau (ví dụ: `DATEADD` trong SQL Server, `DATE_ADD` trong MySQL).",
+        "links": [
+          {
+            "title": "DATEADD",
+            "url": "https://www.mssqltips.com/sqlservertutorial/9380/sql-dateadd-function/",
+            "type": "article"
+          },
+          {
+            "title": "Hàm DATEADD",
+            "url": "https://www.youtube.com/watch?v=DYCWOzzOycU",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "KWHyyOO605SQTAwdt3um_",
+      "type": "label",
+      "label": "Ngày và Thời gian",
+      "position": {
+        "x": -556.7510816711185,
+        "y": 1297.8865696806383
+      },
+      "size": {
+        "width": 129,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "2tyezwOIxV6O84N-Q3Awh",
+      "type": "topic",
+      "label": "Đồ thị (views)",
+      "position": {
+        "x": -314.2510816711185,
+        "y": 1098.3834408721723
+      },
+      "size": {
+        "width": 219,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Views là như các bảng ảo. Thay vì lưu trữ dữ liệu vật lý, định nghĩa của một view dựa trên truy vấn đối với một hoặc nhiều bảng. Khi bạn truy vấn một view, cơ sở dữ liệu sẽ thực thi truy vấn nền được định nghĩa trong view và kết quả được trình bày như thể chúng đến từ một bảng thật sự. Điều này đơn giản hóa các truy vấn phức tạp và cung cấp một mức độ trừu tượng và bảo mật dữ liệu.",
+        "links": [
+          {
+            "title": "Views trong SQL",
+            "url": "https://www.datacamp.com/tutorial/views-in-sql",
+            "type": "article"
+          },
+          {
+            "title": "SQL Views Tutorial",
+            "url": "https://www.youtube.com/watch?v=cLSxasHg9WY",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PcsGK4VBh0zNQIPZvNES4",
+      "type": "subtopic",
+      "label": "Tạo view",
+      "position": {
+        "x": -306.2510816711185,
+        "y": 1155.3834408721723
+      },
+      "size": {
+        "width": 203,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Việc tạo view trong SQL bao gồm sử dụng mệnh đề `CREATE VIEW` để định nghĩa một bảng ảo dựa trên kết quả của một truy vấn `SELECT`. View không lưu trữ dữ liệu của chúng mà cung cấp một cách để trình bày dữ liệu từ một hoặc nhiều bảng ở định dạng cụ thể. Chúng có thể đơn giản hóa các truy vấn phức tạp, tăng cường bảo mật dữ liệu bằng cách hạn chế quyền truy cập vào các bảng cơ sở, và cung cấp một giao diện nhất quán để truy vấn các kết hợp dữ liệu được sử dụng thường xuyên. View có thể được truy vấn như các bảng thông thường và thường được sử dụng để đóng gói logic kinh doanh hoặc trình bày dữ liệu ở dạng thân thiện với người dùng hơn.",
+        "links": [
+          {
+            "title": "Cách tạo view trong SQL",
+            "url": "https://www.sqlshack.com/how-to-create-a-view-in-sql-server/",
+            "type": "article"
+          },
+          {
+            "title": "SQL Views in 4 minutes",
+            "url": "https://www.youtube.com/watch?v=vLLkNI-vkV8",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3eE-l-P93nOXoWfLr8PSW",
+      "type": "subtopic",
+      "label": "Sửa đổi View",
+      "position": {
+        "x": -306.2510816711185,
+        "y": 1208.3834408721723
+      },
+      "size": {
+        "width": 203,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Sửa đổi view trong SQL cho phép bạn thay đổi cấu trúc hoặc định nghĩa của một view hiện có mà không cần phải xóa và tạo lại nó. Điều này có thể bao gồm việc thay đổi các cột được đưa vào view, cập nhật các bảng hoặc điều kiện cơ sở nằm trong truy vấn của view hoặc đổi tên view. Sử dụng `ALTER VIEW` đơn giản hóa bảo trì và cho phép điều chỉnh view khi yêu cầu cơ sở dữ liệu phát triển.",
+        "links": [
+          {
+            "title": "Sửa đổi View trong SQL Server",
+            "url": "https://www.sqlshack.com/create-view-sql-modifying-views-in-sql-server/",
+            "type": "article"
+          },
+          {
+            "title": "SQL VIEWs in 4 Minutes",
+            "url": "https://www.youtube.com/watch?v=vLLkNI-vkV8",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "MIOuWWcCjLAmgzog2DBC3",
+      "type": "subtopic",
+      "label": "Dropping Views",
+      "position": {
+        "x": -306.2510816711185,
+        "y": 1261.3834408721723
+      },
+      "size": {
+        "width": 203,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Quá trình xóa views trong SQL bao gồm sử dụng lệnh `DROP VIEW` để loại bỏ một view hiện có từ cơ sở dữ liệu.  Hoạt động này xóa vĩnh viễn định nghĩa của view, nhưng không ảnh hưởng đến các bảng cơ bản mà nó được tạo ra. Việc xóa một view thường được thực hiện khi view không còn cần thiết, cần được thay thế bằng một định nghĩa khác hoặc như một phần trong bảo trì cơ sở dữ liệu.  Điều quan trọng cần lưu ý là việc xóa một view có thể tác động đến các đối tượng cơ sở dữ liệu hoặc ứng dụng khác phụ thuộc vào nó, vì vậy cần thận trọng khi thực hiện hoạt động này.",
+        "links": [
+          {
+            "title": "Xóa view",
+            "url": "https://study.com/academy/lesson/sql-drop-view-tutorial-overview.html",
+            "type": "article"
+          },
+          {
+            "title": "Xóa hoặc loại bỏ một View",
+            "url": "https://www.tutorialspoint.com/sql/sql-drop-view.htm",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Mwwbw0gZzeM27ewaUh49a",
+      "type": "horizontal",
+      "label": "nút ngang",
+      "position": {
+        "x": -96.25108167111853,
+        "y": 1280.8834408721723
+      },
+      "size": {
+        "width": 359,
+        "height": 20
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.5
+      },
+      "z_index": 999
+    },
+    {
+      "id": "LcljR70T-OnzSrJJDqOWf",
+      "type": "topic",
+      "label": "Chỉ mục",
+      "position": {
+        "x": 204.97198755548254,
+        "y": 1266.3834408721723
+      },
+      "size": {
+        "width": 238,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Chỉ mục trong SQL là các đối tượng cơ sở dữ liệu giúp tăng tốc độ truy xuất dữ liệu trên các bảng cơ sở dữ liệu. Chúng hoạt động tương tự như chỉ mục sách, cung cấp một cơ chế tìm kiếm nhanh chóng để tìm các hàng có giá trị cột cụ thể. Chỉ mục tạo cấu trúc dữ liệu riêng biệt cho phép máy chủ cơ sở dữ liệu tìm thấy dữ liệu mà không cần quét toàn bộ bảng. Mặc dù chúng tăng tốc các truy vấn `SELECT`, chỉ mục có thể làm chậm các hoạt động `INSERT`, `UPDATE` và `DELETE` vì cấu trúc chỉ mục phải được cập nhật. Thiết kế chỉ mục hợp lý là rất quan trọng để tối ưu hóa hiệu suất cơ sở dữ liệu, đặc biệt đối với các bảng lớn hoặc các cột thường xuyên truy vấn.",
+        "links": [
+          {
+            "title": "Tối ưu hóa Chỉ mục SQL – Các Thực hành Tốt nhất",
+            "url": "https://www.youtube.com/watch?v=BIlFTFrEFOI",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "NtxGd6Vx-REBclry7lZuE",
+      "type": "subtopic",
+      "label": "Quản lý chỉ mục",
+      "position": {
+        "x": 247.47198755548254,
+        "y": 1121.8865696806383
+      },
+      "size": {
+        "width": 197,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Quản lý chỉ mục trong SQL bao gồm việc tạo, sửa đổi và xóa chỉ mục để tối ưu hóa hiệu suất cơ sở dữ liệu. Quá trình này bao gồm xác định các cột có lợi ích từ việc lập chỉ mục (thường xuyên truy vấn hoặc được sử dụng trong điều kiện JOIN), tạo các loại chỉ mục phù hợp (ví dụ: đơn cột, composite, duy nhất) và thường xuyên phân tích mức độ sử dụng và hiệu quả của chỉ mục. Người quản trị cơ sở dữ liệu phải cân bằng giữa hiệu suất truy vấn cải thiện mà chỉ mục mang lại so với chi phí overhead mà chúng gây ra cho các hoạt động sửa đổi dữ liệu. Quản lý chỉ mục đúng cách cũng bao gồm các tác vụ bảo trì định kỳ như xây dựng lại hoặc tái cấu trúc chỉ mục để duy trì hiệu quả của chúng khi dữ liệu thay đổi theo thời gian.",
+        "links": [
+          {
+            "title": "Chỉ mục SQL Server",
+            "url": "https://www.sqlservercentral.com/articles/introduction-to-indexes",
+            "type": "article"
+          },
+          {
+            "title": "Bảo trì chỉ mục tối ưu hóa",
+            "url": "https://learn.microsoft.com/en-us/sql/relational-databases/indexes/reorganize-and-rebuild-indexes?view=sql-server-ver16",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Ps9Yv2s-bKvEegGAbPsiA",
+      "type": "subtopic",
+      "label": "Tối ưu hóa Truy Vấn",
+      "position": {
+        "x": 247.47198755548254,
+        "y": 1174.8865696806383
+      },
+      "size": {
+        "width": 197,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Tối ưu truy vấn là quá trình chọn cách thực thi hiệu quả nhất cho một truy vấn SQL. Nó bao gồm hệ thống quản trị cơ sở dữ liệu (DBMS) phân tích các kế hoạch thực thi khác nhau cho một truy vấn và chọn kế hoạch sẽ trả về kết quả nhanh nhất, sử dụng ít tài nguyên nhất. Phân tích này xem xét các yếu tố như khối lượng dữ liệu, sử dụng chỉ mục và tài nguyên hệ thống để tìm đường tối ưu.",
+        "links": [
+          {
+            "title": "12 Cách Tối Ưu Hóa Các Truy Vấn SQL",
+            "url": "https://www.developernation.net/blog/12-ways-to-optimize-sql-queries-in-database-management/",
+            "type": "article"
+          },
+          {
+            "title": "Tối ưu hóa Truy vấn SQL",
+            "url": "https://www.youtube.com/watch?v=GA8SaXDLdsY",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "OdaBXz2XBAVLsQ-m7xtAM",
+      "type": "topic",
+      "label": "Giao dịch",
+      "position": {
+        "x": 204.97198755548254,
+        "y": 1428.3990110065474
+      },
+      "size": {
+        "width": 238,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Giao dịch trong SQL là các đơn vị công việc nhóm một hoặc nhiều thao tác cơ sở dữ liệu thành một đơn vị nguyên tử duy nhất. Chúng đảm bảo tính toàn vẹn dữ liệu bằng cách tuân theo các thuộc tính ACID: Tính toàn vẹn (hoặc không), Tính nhất quán (cơ sở dữ liệu vẫn ở trạng thái hợp lệ), Cô lập (các giao dịch không can thiệp vào lẫn nhau) và Khả năng bền vững (các thay đổi đã được ghi lại là vĩnh viễn). Giao dịch rất cần thiết để duy trì tính nhất quán dữ liệu trong các hoạt động phức tạp và xử lý quyền truy cập đồng thời vào cơ sở dữ liệu.",
+        "links": [
+          {
+            "title": "Giao dịch",
+            "url": "https://www.tutorialspoint.com/sql/sql-transactions.htm",
+            "type": "article"
+          },
+          {
+            "title": "Hướng Dẫn về Các Tính Chất ACID trong Hệ Quản Trị Cơ Sở Dữ Liệu",
+            "url": "https://www.mongodb.com/resources/basics/databases/acid-transactions",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "7sTW1vwUhCFOMXYjScVEt",
+      "type": "subtopic",
+      "label": "BEGIN",
+      "position": {
+        "x": 321.97198755548254,
+        "y": 1511.9869221425392
+      },
+      "size": {
+        "width": 121,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`BEGIN` được sử dụng trong SQL để bắt đầu một giao dịch, đây là một chuỗi gồm một hoặc nhiều thao tác SQL được thực thi như một đơn vị duy nhất. Một giao dịch đảm bảo rằng tất cả các thao tác bên trong nó đều hoàn thành thành công trước khi bất kỳ thay đổi nào được ghi vào cơ sở dữ liệu. Nếu bất kỳ phần nào của giao dịch thất bại, lệnh `ROLLBACK` có thể được sử dụng để hoàn tác tất cả các thay đổi đã thực hiện trong quá trình giao dịch, duy trì tính toàn vẹn của cơ sở dữ liệu. Sau khi tất cả các thao tác đều thành công, lệnh `COMMIT` được sử dụng để lưu trữ các thay đổi. Giao dịch rất quan trọng để duy trì tính nhất quán của dữ liệu và xử lý lỗi một cách hiệu quả.",
+        "links": [
+          {
+            "title": "Câu lệnh BEGIN...END",
+            "url": "https://infocenter.sybase.com/help/index.jsp?topic=/com.sybase.infocenter.dc00801.1510/html/iqrefso/BABFBJAB.htm",
+            "type": "article"
+          },
+          {
+            "title": "Các lệnh SQL 'BEGIN' & 'END'",
+            "url": "https://reintech.io/blog/understanding-sql-begin-end-statements-guide",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3cMECz5QPVDOFrk5duObs",
+      "type": "subtopic",
+      "label": "Xác nhận",
+      "position": {
+        "x": 321.97198755548254,
+        "y": 1564.9869221425392
+      },
+      "size": {
+        "width": 121,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Lệnh COMMIT là một lệnh SQL lưu tất cả các thay đổi được thực hiện trong quá trình giao dịch vào cơ sở dữ liệu. Cho đến khi lệnh COMMIT được ra lệnh, tất cả các sửa đổi trong giao dịch chỉ mang tính tạm thời và có thể nhìn thấy cho phiên hiện tại. Khi lệnh COMMIT được thực thi, các thay đổi sẽ trở nên vĩnh viễn và có thể nhìn thấy bởi người dùng và phiên khác. Điều này đảm bảo tính nhất quán và độ bền vững của dữ liệu.",
+        "links": [
+          {
+            "title": "SQL COMMIT và ROLLBACK",
+            "url": "https://www.digitalocean.com/community/tutorials/sql-commit-sql-rollback",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "xbD67KVlt3UhHpKh8HLx8",
+      "type": "subtopic",
+      "label": "ROLLBACK",
+      "position": {
+        "x": 321.97198755548254,
+        "y": 1617.9869221425392
+      },
+      "size": {
+        "width": 121,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`ROLLBACK` là một lệnh SQL được sử dụng để hoàn tác các giao dịch chưa được ghi lại vào cơ sở dữ liệu. Nó đảo ngược tất cả các thay đổi được thực hiện trong giao dịch hiện tại, khôi phục cơ sở dữ liệu về trạng thái trước khi giao dịch bắt đầu. Lệnh này rất quan trọng để duy trì tính toàn vẹn của dữ liệu, đặc biệt khi có lỗi xảy ra trong một giao dịch hoặc khi triển khai logic điều kiện trong các hoạt động cơ sở dữ liệu. `ROLLBACK` là một phần thiết yếu của các thuộc tính ACID (Tính Toàn vẹn, Tính Nhất quán, Cách ly, Khả năng bền vững) của các giao dịch cơ sở dữ liệu, đảm bảo rằng tất cả các thay đổi trong một giao dịch được áp dụng hoặc không ai áp dụng, do đó duy trì tính nhất quán của dữ liệu.",
+        "links": [
+          {
+            "title": "Sự khác biệt giữa COMMIT và ROLLBACK trong SQL",
+            "url": "https://byjus.com/gate/difference-between-commit-and-rollback-in-sql/",
+            "type": "article"
+          },
+          {
+            "title": "Cách hoàn tác lỗi trong SQL: Rollback và Commit",
+            "url": "https://www.youtube.com/watch?v=jomsdMLiIZM",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pJtYvXUo81aZfPuRjIbMq",
+      "type": "subtopic",
+      "label": "SAVEPOINT",
+      "position": {
+        "x": 321.97198755548254,
+        "y": 1670.9869221425392
+      },
+      "size": {
+        "width": 121,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Một `SAVEPOINT` trong SQL là một điểm bên trong một giao dịch mà có thể được tham chiếu sau này. Nó cho phép kiểm soát chi tiết hơn đối với các giao dịch bằng cách tạo ra các điểm trung gian mà bạn có thể quay lại mà không ảnh hưởng đến toàn bộ giao dịch. Điều này đặc biệt hữu ích trong các giao dịch phức tạp nơi bạn có thể muốn hoàn tác một phần công việc mà không loại bỏ tất cả các thay đổi. `SAVEPOINT` cải thiện tính linh hoạt của quản lý giao dịch.",
+        "links": [
+          {
+            "title": "Điểm lưu trữ SQL",
+            "url": "https://www.ibm.com/docs/pl/informix-servers/12.10?topic=statements-savepoint-statement",
+            "type": "article"
+          },
+          {
+            "title": "Cơ sở dữ liệu quan hệ - Điểm lưu trữ",
+            "url": "https://www.youtube.com/watch?v=30ldSUkswGM",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "igg34gLPl3HYVAmRNFGcV",
+      "type": "subtopic",
+      "label": "ACID",
+      "position": {
+        "x": 212.08982076233502,
+        "y": 1511.9869221425392
+      },
+      "size": {
+        "width": 86,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ACID là bốn thuộc tính của các hệ thống cơ sở dữ liệu quan hệ giúp đảm bảo rằng chúng ta có thể thực hiện các giao dịch một cách đáng tin cậy. Đó là một từ viết tắt đề cập đến sự hiện diện của bốn thuộc tính: nguyên thủy, nhất quán, cô lập và bền vững",
+        "links": [
+          {
+            "title": "Cơ sở dữ liệu tuân thủ ACID là gì?",
+            "url": "https://retool.com/blog/whats-an-acid-compliant-database/",
+            "type": "article"
+          },
+          {
+            "title": "ACID tuân thủ là gì?: Tính toàn vẹn, Tính nhất quán, Cô lập",
+            "url": "https://fauna.com/blog/what-is-acid-compliance-atomicity-consistency-isolation",
+            "type": "article"
+          },
+          {
+            "title": "ACID Giải thích: Nguyên thủy, Nhất quán, Cô lập & Bền vững",
+            "url": "https://www.youtube.com/watch?v=yaQ5YMWkxq4",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ujeq8EIFcrqkBjoFizsJM",
+      "type": "subtopic",
+      "label": "Mức độ cô lập giao dịch",
+      "position": {
+        "x": 29.089820762335023,
+        "y": 1343.8865696806383
+      },
+      "size": {
+        "width": 260,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Mức độ cô lập giao dịch trong SQL xác định mức độ các thao tác trong một giao dịch có thể nhìn thấy bởi các giao dịch đồng thời khác. Thông thường có bốn cấp độ tiêu chuẩn: Read Uncommitted, Read Committed, Repeatable Read và Serializable. Mỗi cấp độ cung cấp những đánh đổi khác nhau giữa tính nhất quán dữ liệu và khả năng đồng thời. Hiểu và thiết lập chính xác mức độ cô lập là rất quan trọng để duy trì tính toàn vẹn dữ liệu và tối ưu hóa hiệu suất trong môi trường cơ sở dữ liệu đa người dùng.",
+        "links": [
+          {
+            "title": "Tất tần tật những điều bạn luôn muốn biết về mức độ cô lập SQL",
+            "url": "https://www.cockroachlabs.com/blog/sql-isolation-levels-explained/",
+            "type": "article"
+          },
+          {
+            "title": "Mức độ cô lập trong SQL Server",
+            "url": "https://www.sqlservercentral.com/articles/isolation-levels-in-sql-server",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "R1ktDJpXOz0PTllAcBrdu",
+      "type": "topic",
+      "label": "Đảm bảo tính toàn vẹn và an ninh dữ liệu",
+      "position": {
+        "x": -193.26200280604616,
+        "y": 1428.3990110065474
+      },
+      "size": {
+        "width": 238,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Tính toàn vẹn dữ liệu đảm bảo rằng thông tin được lưu trữ trong cơ sở dữ liệu là chính xác, nhất quán và đáng tin cậy trong suốt vòng đời của nó. Bảo mật dữ liệu liên quan đến việc bảo vệ cơ sở dữ liệu khỏi truy cập, sửa đổi hoặc xóa không được phép. Hai khái niệm này là rất cần thiết để duy trì niềm tin và giá trị của bất kỳ hệ thống cơ sở dữ liệu nào, ngăn chặn sự ô nhiễm, vi phạm và đảm bảo dữ liệu được sử dụng một cách thích hợp.",
+        "links": []
+      }
+    },
+    {
+      "id": "mBQ3Z8GlFcpIena3IB7D_",
+      "type": "subtopic",
+      "label": "Giới hạn tính toàn vẹn dữ liệu",
+      "position": {
+        "x": -264.01430668156826,
+        "y": 1343.8865696806383
+      },
+      "size": {
+        "width": 252,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Các ràng buộc tính toàn vẹn dữ liệu là các quy tắc bạn thiết lập trong cơ sở dữ liệu để đảm bảo dữ liệu chính xác và đáng tin cậy. Các quy tắc này ngăn chặn dữ liệu không tốt được nhập vào bảng. Hãy coi chúng như các biện pháp kiểm soát và cân bằng, duy trì chất lượng thông tin của bạn bằng cách thực thi các tiêu chí cụ thể như tính duy nhất, phạm vi hợp lệ hoặc giá trị bắt buộc.",
+        "links": [
+          {
+            "title": "Kiểm tra Tính toàn vẹn (Constraints) trong SQL: Hướng dẫn với Ví dụ",
+            "url": "https://www.datacamp.com/tutorial/integrity-constraints-sql",
+            "type": "article"
+          },
+          {
+            "title": "Giới hạn tính toàn vẹn",
+            "url": "https://dataheadhunters.com/academy/integrity-constraints-ensuring-accuracy-and-consistency-in-your-data/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "03qMopxzjx_-dZbYw9b7J",
+      "type": "subtopic",
+      "label": "GRANT và Revoke",
+      "position": {
+        "x": -264.01430668156826,
+        "y": 1515.0464993424512
+      },
+      "size": {
+        "width": 252,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`GRANT` và `REVOKE` là các lệnh SQL được sử dụng để quản lý quyền người dùng trong cơ sở dữ liệu. `GRANT` được sử dụng để cấp các quyền cụ thể (ví dụ: `SELECT`, `INSERT`, `UPDATE`, `DELETE`) trên đối tượng cơ sở dữ liệu cho người dùng hoặc vai trò, trong khi `REVOKE` được sử dụng để gỡ bỏ những quyền này. Các lệnh này rất quan trọng để thực hiện bảo mật cơ sở dữ liệu, kiểm soát truy cập vào dữ liệu nhạy cảm và đảm bảo rằng người dùng có các quyền phù hợp cho vai trò của họ. Bằng cách sử dụng `GRANT` và `REVOKE`, quản trị viên cơ sở dữ liệu có thể tinh chỉnh kiểm soát truy cập, tuân thủ nguyên tắc ít nhất đặc quyền trong quản lý cơ sở dữ liệu.",
+        "links": [
+          {
+            "title": "GRANT",
+            "url": "https://www.ibm.com/docs/en/qmf/12.2.0?topic=privileges-sql-grant-statement",
+            "type": "article"
+          },
+          {
+            "title": "REVOKE",
+            "url": "https://www.ibm.com/docs/en/qmf/12.2.0?topic=privileges-sql-revoke-statement",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "vhBZqqmUcEon6-Vwvla4q",
+      "type": "subtopic",
+      "label": "Thực hành Bảo mật Cơ sở Dữ liệu",
+      "position": {
+        "x": -264.01430668156826,
+        "y": 1568.0464993424512
+      },
+      "size": {
+        "width": 252,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Các phương pháp bảo mật cơ sở dữ liệu là một tập hợp các biện pháp được sử dụng để bảo vệ dữ liệu nhạy cảm khỏi truy cập, sửa đổi hoặc xóa trái phép. Chúng bao gồm việc triển khai kiểm soát truy cập dựa trên nguyên tắc trao quyền tối thiểu, cập nhật hệ thống thường xuyên, sử dụng mật khẩu mạnh, hạn chế truy cập từ xa, tránh sử dụng tài khoản quản trị viên cho các tác vụ hàng ngày, mã hóa giao tiếp, thực hiện sao lưu định kỳ, giám sát và kiểm toán hoạt động cơ sở dữ liệu, thực hiện quét lỗ hổng bảo mật và bảo vệ chống lại tấn công SQL Injection bằng cách sử dụng truy vấn tham số hoặc câu lệnh chuẩn bị.",
+        "links": [
+          {
+            "title": "Bảo mật cơ sở dữ liệu là gì?",
+            "url": "https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-database-security",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "w7FNjdwqjY7X69aJqqBy4",
+      "type": "topic",
+      "label": "Các quy trình lưu trữ & hàm",
+      "position": {
+        "x": -607.4741508977197,
+        "y": 1428.3990110065474
+      },
+      "size": {
+        "width": 287,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Các quy trình lưu trữ và hàm là các đối tượng cơ sở dữ liệu được biên dịch trước chứa một tập hợp các câu lệnh SQL và logic. Các quy trình lưu trữ có thể thực hiện các thao tác phức tạp và thường được sử dụng để thao tác với dữ liệu, trong khi các hàm được thiết kế để tính toán và trả về giá trị. Cả hai đều cải thiện hiệu suất bằng cách giảm lưu lượng mạng và cho phép tái sử dụng mã. Chúng cũng tăng cường bảo mật bằng cách cung cấp một lớp trừu tượng giữa ứng dụng và cơ sở dữ liệu.",
+        "links": [
+          {
+            "title": "Quy trình Lưu Trữ so với Hàm",
+            "url": "https://www.shiksha.com/online-courses/articles/stored-procedure-vs-function-what-are-the-differences/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4rqCPpTb0dAgpheBKshRG",
+      "type": "topic",
+      "label": "Tối ưu hóa Hiệu năng",
+      "position": {
+        "x": -592.9741508977197,
+        "y": 1645.2523745261662
+      },
+      "size": {
+        "width": 258,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Tối ưu hóa hiệu năng trong SQL tập trung vào việc làm cho các truy vấn của bạn chạy nhanh và hiệu quả hơn. Điều này bao gồm các kỹ thuật như sử dụng chỉ mục để tăng tốc độ truy xuất dữ liệu, viết lại truy vấn để cải thiện hiệu suất và hiểu cách cơ sở dữ liệu thực thi mã SQL của bạn. Đó là đảm bảo rằng cơ sở dữ liệu có thể xử lý lượng lớn dữ liệu và các truy vấn phức tạp mà không làm chậm quá trình.",
+        "links": [
+          {
+            "title": "Tối ưu hóa Hiệu năng truy vấn SQL",
+            "url": "https://mode.com/sql-tutorial/sql-performance-tuning",
+            "type": "article"
+          },
+          {
+            "title": "Tối ưu hóa hiệu suất SQL",
+            "url": "https://stackify.com/performance-tuning-in-sql-server-find-slow-queries/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "9wOgP0i9G4HSeZGn2Gm7r",
+      "type": "subtopic",
+      "label": "Sử dụng Chỉ mục",
+      "position": {
+        "x": -591.9741508977197,
+        "y": 1813.4578222275159
+      },
+      "size": {
+        "width": 256,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Chỉ mục trong SQL là các đối tượng cơ sở dữ liệu giúp cải thiện tốc độ truy xuất dữ liệu trên các bảng cơ sở dữ liệu. Chúng hoạt động tương tự như chỉ mục trong một cuốn sách, cho phép máy chủ cơ sở dữ liệu nhanh chóng tìm kiếm dữ liệu mà không cần quét toàn bộ bảng. Sử dụng đúng cách các chỉ mục có thể nâng cao đáng kể hiệu suất truy vấn, đặc biệt là đối với các bảng lớn. Tuy nhiên, chúng đi kèm với những đánh đổi: mặc dù chúng tăng tốc độ đọc, nhưng lại có thể làm chậm các thao tác ghi (INSERT, UPDATE, DELETE) vì chỉ mục cũng cần được cập nhật. Các loại phổ biến bao gồm chỉ mục B-tree (mặc định trong hầu hết các hệ thống), chỉ mục bitmap và chỉ mục toàn văn bản. Hiểu biết khi nào và cách tạo chỉ mục là rất quan trọng để tối ưu hóa cơ sở dữ liệu. Điều này đòi hỏi phân tích các mẫu truy vấn, hiểu về phân bố dữ liệu và cân bằng nhu cầu của các loại hoạt động khác nhau trên cơ sở dữ liệu.",
+        "links": [
+          {
+            "title": "Chỉ mục trong SQL là gì?",
+            "url": "https://stackoverflow.com/questions/2955459/what-is-an-index-in-sql",
+            "type": "article"
+          },
+          {
+            "title": "Chỉ mục SQL – Định nghĩa, Ví dụ và Mẹo",
+            "url": "https://www.youtube.com/watch?v=NZgfYbAmge8",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C0dhS6uLf4TUSfvcWyXhv",
+      "type": "subtopic",
+      "label": "Tối ưu Hợp nhất",
+      "position": {
+        "x": -591.9741508977197,
+        "y": 1866.4578222275159
+      },
+      "size": {
+        "width": 256,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Tối ưu hóa các kết nối trong SQL bao gồm các kỹ thuật để cải thiện hiệu suất của các truy vấn kết hợp dữ liệu từ nhiều bảng. Các chiến lược chính bao gồm sử dụng các kiểu kết nối phù hợp (ví dụ: `INNER JOIN` để khớp hàng chỉ, `LEFT JOIN` để tất cả hàng từ một bảng), lập chỉ mục các cột được sử dụng trong điều kiện kết nối để tăng tốc tìm kiếm và giảm thiểu dữ liệu được xử lý bằng cách lọc kết quả với mệnh đề `WHERE` trước khi kết nối. Ngoài ra, giảm số lượng kết nối, tránh các cột không cần thiết trong mệnh đề `SELECT`, và đảm bảo rằng các điều kiện kết nối dựa trên các cột đã lập chỉ mục và có tính chọn lọc có thể cải thiện đáng kể hiệu quả truy vấn. Thứ tự kết nối chính xác và sử dụng gợi ý tối ưu hóa cụ thể cho cơ sở dữ liệu cũng rất quan trọng để tinh chỉnh hiệu suất.",
+        "links": [
+          {
+            "title": "Cách tối ưu hóa một truy vấn SQL với nhiều JOIN",
+            "url": "https://dezbor.com/blog/optimize-sql-query-with-multiple-joins",
+            "type": "article"
+          },
+          {
+            "title": "Mẹo tối ưu hóa truy vấn SQL",
+            "url": "https://www.youtube.com/watch?v=BHwzDmr6d7s",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "UVTgbZrqpbYl1bQvQejcF",
+      "type": "subtopic",
+      "label": "Giảm thiểu truy vấn con",
+      "position": {
+        "x": -591.9741508977197,
+        "y": 1919.4578222275159
+      },
+      "size": {
+        "width": 256,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Giảm thiểu truy vấn con là một kỹ thuật tối ưu hóa SQL phổ biến, đặc biệt khi xử lý logic phức tạp hoặc bộ dữ liệu lớn. Các truy vấn con liên hợp, được đánh giá một lần cho mỗi hàng trong truy vấn bên ngoài, có thể làm giảm hiệu suất. Các truy vấn con thường có thể thay thế bằng các thao tác JOIN. Trong trường hợp các truy vấn con được sử dụng lại, hãy cân nhắc thay thế chúng bằng Biểu thức Căn (CTE), mang lại tính mô-đun và tránh thực thi lặp lại cùng một logic. Giới hạn kết quả trả về của truy vấn con và lưu trữ kết quả của các truy vấn con tốn kém trong bảng tạm để sử dụng lại cũng có thể cải thiện hiệu suất. Tìm hiểu thêm từ các nguồn tài liệu sau:",
+        "links": []
+      }
+    },
+    {
+      "id": "w53CSY53nAAN0ux-XeJ4c",
+      "type": "subtopic",
+      "label": "Dự Đoạn Lựa Chọn",
+      "position": {
+        "x": -591.9741508977197,
+        "y": 1972.4578222275159
+      },
+      "size": {
+        "width": 256,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Dự đoán lựa chọn trong SQL đề cập đến việc thực hành chọn chỉ các cột (thuộc tính) cụ thể từ một bảng hoặc kết quả truy vấn, thay vì chọn tất cả các cột có sẵn. Kỹ thuật này rất quan trọng để tối ưu hóa hiệu suất truy vấn và giảm thiểu việc truyền dữ liệu không cần thiết. Bằng cách sử dụng SELECT với tên cột được chỉ định thay vì `SELECT *`, các nhà phát triển có thể cải thiện hiệu quả truy vấn và rõ ràng, đặc biệt khi làm việc với các bảng lớn hoặc các kết nối phức tạp.",
+        "links": []
+      }
+    },
+    {
+      "id": "s7WusVSHajNBKOLoo1COz",
+      "type": "label",
+      "label": "Kỹ thuật Tối ưu truy vấn",
+      "position": {
+        "x": -591.9741508977197,
+        "y": 2032.4578222275159
+      },
+      "size": {
+        "width": 256,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "C6P69YiFdS-ioPXMNfX07",
+      "type": "subtopic",
+      "label": "Các Kỹ thuật Phân Tích Truy Vấn",
+      "position": {
+        "x": -599.9741508977197,
+        "y": 1748.425681269572
+      },
+      "size": {
+        "width": 272,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Hiểu cách các truy vấn SQL được thực thi là rất quan trọng để điều chỉnh hiệu năng. Các công cụ như `EXPLAIN` hoặc `EXPLAIN PLAN` cho phép bạn phân tích kế hoạch thực thi mà cơ sở dữ liệu sử dụng cho một truy vấn cụ thể. Kế hoạch này tiết lộ thứ tự truy cập vào các bảng, loại chỉ mục được sử dụng (hoặc không sử dụng) và chi phí ước tính của mỗi thao tác, giúp bạn xác định các nút thắt cổ chai và tối ưu hóa truy vấn để thực thi nhanh hơn.",
+        "links": [
+          {
+            "title": "Phân tích (Query Execution Plan)",
+            "url": "https://docs.snowflake.com/en/sql-reference/sql/explain",
+            "type": "article"
+          },
+          {
+            "title": "Phân tích kế hoạch (query execution plan)",
+            "url": "https://docs.oracle.com/en/database/oracle/oracle-database/19/sqlrf/EXPLAIN-PLAN.html",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "UDqbT1y-YzBrljfKSz_RG",
+      "type": "topic",
+      "label": "SQL Nâng Cao",
+      "position": {
+        "x": -261.26200280604616,
+        "y": 1907.9466965113045
+      },
+      "size": {
+        "width": 187,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Các khái niệm SQL nâng cao bao gồm một loạt các kỹ thuật và tính năng phức tạp vượt xa việc truy vấn và thao tác dữ liệu cơ bản. Chúng bao gồm các kết nối phức tạp, truy vấn con, hàm cửa sổ, thủ tục lưu trữ, kích hoạt, và các chiến lược lập chỉ mục nâng cao. Bằng cách nắm vững những khái niệm này, các chuyên gia quản trị cơ sở dữ liệu có thể tối ưu hóa hiệu suất truy vấn, triển khai logic kinh doanh phức tạp, đảm bảo tính toàn vẹn của dữ liệu và thực hiện phân tích dữ liệu nâng cao, cho phép họ giải quyết nhiều nhiệm vụ quản lý cơ sở dữ liệu và xử lý dữ liệu phức tạp hơn trong các ứng dụng quy mô lớn, cấp doanh nghiệp.",
+        "links": []
+      }
+    },
+    {
+      "id": "TjgwabhEtaSoYMLNr6q9l",
+      "type": "subtopic",
+      "label": "Truy vấn đệ quy",
+      "position": {
+        "x": 22.917108454473976,
+        "y": 1854.9466965113045
+      },
+      "size": {
+        "width": 260,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Truy vấn đệ quy là các truy vấn SQL tham chiếu đến chính chúng bên trong định nghĩa của chúng. Chúng được sử dụng để xử lý dữ liệu có cấu trúc phân cấp hoặc cây, trong đó các mối quan hệ tồn tại giữa các hàng trong cùng một bảng, chẳng hạn như sơ đồ tổ chức, danh mục vật tư, hoặc mạng xã hội. Sử dụng mệnh đề `WITH RECURSIVE`, các truy vấn này lặp lại qua dữ liệu cho đến khi một điều kiện nhất định được đáp ứng, cho phép bạn đi qua phân cấp và trích xuất thông tin liên quan.",
+        "links": [
+          {
+            "title": "Truy vấn đệ quy trong SQL",
+            "url": "https://codedamn.com/news/sql/recursive-queries-in-sql",
+            "type": "article"
+          },
+          {
+            "title": "Giải thích trực quan biểu thức SQL đệ quy",
+            "url": "https://builtin.com/data-science/recursive-sql",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "nwFaz9i-1s0WVrVaFsoqb",
+      "type": "subtopic",
+      "label": "Các thao tác `Pivot` / `Unpivot`",
+      "position": {
+        "x": 22.917108454473976,
+        "y": 1907.9466965113045
+      },
+      "size": {
+        "width": 260,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Các thao tác `Pivot` và `Unpivot` chuyển đổi cấu trúc dữ liệu trong một bảng. `Pivot` xoay các hàng thành cột, tổng hợp dữ liệu dựa trên các giá trị chung. Ngược lại, `Unpivot` chuyển đổi các cột thành hàng, thường mở rộng chiều dài của bảng đồng thời giảm chiều rộng của nó. Các thao tác này hữu ích để định dạng lại dữ liệu cho báo cáo hoặc phân tích.",
+        "links": [
+          {
+            "title": "SQL PIVOT",
+            "url": "https://builtin.com/articles/sql-pivot",
+            "type": "article"
+          },
+          {
+            "title": "SQL UNPIVOT",
+            "url": "https://duckdb.org/docs/sql/statements/unpivot.html",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tBvXLLp5FKeSSN35Kj1X4",
+      "type": "subtopic",
+      "label": "Window Functions",
+      "position": {
+        "x": 22.917108454473976,
+        "y": 1801.9466965113045
+      },
+      "size": {
+        "width": 260,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Các hàm Window thực hiện tính toán trên một tập hợp các hàng liên quan đến hàng hiện tại. Khác với các hàm tổng hợp thông thường, nhóm các hàng thành một hàng kết quả duy nhất, các hàm Window vẫn giữ nguyên các hàng riêng lẻ và thêm giá trị được tính toán cho mỗi hàng dựa trên khung (window frame). Điều này cho phép bạn thực hiện phân tích như tính tổng lũy kế, trung bình trượt hoặc xếp hạng trong các phân vùng dữ liệu mà không làm sụp đổ các hàng.",
+        "links": [
+          {
+            "title": "SQL Window Functions",
+            "url": "https://mode.com/sql-tutorial/sql-window-functions",
+            "type": "article"
+          },
+          {
+            "title": "SQL Window Functions in 10 Minutes",
+            "url": "https://www.youtube.com/watch?v=y1KCM8vbYe4",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tedQynR0xicVKhuR1oahw",
+      "type": "subtopic",
+      "label": "Common Table Expressions",
+      "position": {
+        "x": 22.917108454473976,
+        "y": 1960.9466965113045
+      },
+      "size": {
+        "width": 260,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Common Table Expressions (CTEs) in SQL are named temporary result sets that exist within the scope of a single `SELECT`, `INSERT`, `UPDATE`, `DELETE`, or `MERGE` statement. Defined using the `WITH` clause, CTEs act like virtual tables that can be referenced multiple times within a query. They improve query readability, simplify complex queries by breaking them into manageable parts, and allow for recursive queries. CTEs are particularly useful for hierarchical or graph-like data structures and can enhance query performance in some database systems.",
+        "links": [
+          {
+            "title": "Common Table Expressions (CTEs)",
+            "url": "https://hightouch.com/sql-dictionary/sql-common-table-expression-cte",
+            "type": "article"
+          },
+          {
+            "title": "Common Table Expression (CTE) là gì?",
+            "url": "https://learnsql.com/blog/what-is-common-table-expression/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "z5Sf0VU14ZCQ80kL1qOqc",
+      "type": "subtopic",
+      "label": "SQL động",
+      "position": {
+        "x": 22.917108454473976,
+        "y": 2013.9466965113045
+      },
+      "size": {
+        "width": 260,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "SQL động đề cập đến khả năng xây dựng và thực thi các câu lệnh SQL một cách lập trình trong thời gian chạy. Thay vì viết trực tiếp các truy vấn SQL tĩnh vào mã của bạn, bạn có thể tạo ra chuỗi SQL dựa trên các điều kiện khác nhau, đầu vào người dùng hoặc các yếu tố động khác. Điều này cho phép tương tác cơ sở dữ liệu linh hoạt và thích ứng hơn, cho phép bạn tạo ra các truy vấn được tùy chỉnh để phù hợp với các tình huống cụ thể mà không thể biết trước.",
+        "links": [
+          {
+            "title": "SQL động trong SQL Server",
+            "url": "https://www.sqlshack.com/dynamic-sql-in-sql-server/",
+            "type": "article"
+          },
+          {
+            "title": "SQL động",
+            "url": "https://www.youtube.com/watch?v=01LZMCotcpY",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "zW27ZHdLwQY-85iqbBKQZ",
+      "type": "subtopic",
+      "label": "Số thứ tự hàng",
+      "position": {
+        "x": 42.34043885768011,
+        "y": 1707.7884641029652
+      },
+      "size": {
+        "width": 135,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "ROW_NUMBER() là một hàm cửa sổ SQL gán một số nguyên duy nhất, tuần tự cho mỗi hàng trong một phân vùng của tập kết quả. Nó hữu ích để tạo định danh hàng, triển khai trang hóa nội dung (pagination), hoặc tìm giá trị thứ n cao nhất/thấp nhất trong một nhóm. Việc đánh số bắt đầu từ 1 cho mỗi phân vùng và tiếp tục tuần tự, cho phép thực hiện các tác vụ phân tích và thao tác dữ liệu đa dạng.",
+        "links": [
+          {
+            "title": "Hàm ROW\\_NUMBER trong SQL",
+            "url": "https://www.sqltutorial.org/sql-window-functions/sql-row_number/",
+            "type": "article"
+          },
+          {
+            "title": "Cách sử dụng ROW_NUMBER OVER() trong SQL để xếp hạng dữ liệu",
+            "url": "https://learnsql.com/blog/row-number-over-in-sql/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cucCPw3KfetAP2OMFUs0X",
+      "type": "subtopic",
+      "label": "Xếp hạng",
+      "position": {
+        "x": 42.34043885768011,
+        "y": 1551.7884641029652
+      },
+      "size": {
+        "width": 135,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Hàm `RANK` trong SQL là một hàm cửa sổ (window function) được sử dụng để gán thứ hạng cho mỗi hàng trong một phân vùng của tập kết quả, dựa trên thứ tự được chỉ định bởi thao tác `ORDER BY`. Không giống như hàm `ROW_NUMBER`, `RANK` cho phép khả năng có sự trùng lặp—các hàng với cùng giá trị trong cột sắp xếp sẽ nhận cùng một thứ hạng và thứ hạng tiếp theo sẽ bị bỏ qua. Ví dụ, nếu hai hàng có cùng thứ hạng 1, thứ hạng tiếp theo sẽ là 3. Hàm này hữu ích khi bạn cần xác định vị trí tương đối trong các nhóm, chẳng hạn như xếp hạng nhân viên theo lương trong mỗi bộ phận.",
+        "links": [
+          {
+            "title": "Tổng quan về các hàm `RANK` trong SQL",
+            "url": "https://www.sqlshack.com/overview-of-sql-rank-functions/",
+            "type": "article"
+          },
+          {
+            "title": "Các hàm phân tích SQL RANK, DENSE_RANK, ROW_NUMBER được đơn giản hóa",
+            "url": "https://www.youtube.com/watch?v=xMWEVFC4FOk",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "QM0ltgPu8lLLYc2MsTLj-",
+      "type": "subtopic",
+      "label": "thứ hạng dày đặc",
+      "position": {
+        "x": 42.34043885768011,
+        "y": 1603.7884641029652
+      },
+      "size": {
+        "width": 135,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`dense_rank` là một hàm cửa sổ gán thứ hạng cho mỗi hàng trong một phân vùng của tập kết quả, dựa trên thứ tự của các hàng. Khác với hàm `rank`, `dense_rank` gán thứ hạng liên tiếp mà không có khoảng trống, ngay cả khi có sự trùng lặp về tiêu chí sắp xếp. Điều này có nghĩa là nếu hai hoặc nhiều hàng có cùng giá trị cho cột sắp xếp, chúng sẽ nhận được cùng một thứ hạng và số thứ hạng tiếp theo được gán sẽ là số nguyên liên tiếp tiếp theo, mà không bỏ qua bất kỳ số nào.",
+        "links": [
+          {
+            "title": "SQL DENSE_RANK",
+            "url": "https://www.sqltutorial.org/sql-window-functions/sql-dense_rank/",
+            "type": "article"
+          },
+          {
+            "title": "Chia nhỏ hàm DENSE_RANK",
+            "url": "https://www.kdnuggets.com/breaking-down-denserank-a-step-by-step-guide-for-sql-enthusiasts",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "aJJjaGunRrwyh9MjQfJt-",
+      "type": "subtopic",
+      "label": "dẫn dắt",
+      "position": {
+        "x": 42.34043885768011,
+        "y": 1655.7884641029652
+      },
+      "size": {
+        "width": 66,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`LEAD` là một hàm cửa sổ trong SQL cung cấp quyền truy cập vào một hàng ở một khoảng cách được chỉ định sau dòng hiện tại trong một phân vùng. Nó là đối tác của hàm `LAG`, cho phép bạn nhìn trước trong tập dữ liệu thay vì nhìn lại. `LEAD` hữu ích để so sánh các giá trị hiện tại với các giá trị tương lai, tính toán các số liệu dự báo hoặc phân tích xu hướng trong dữ liệu tuần tự. Tương tự như `LAG`, nó nhận các đối số cho cột để dịch chuyển, số lượng hàng để xem trước (mặc định là 1) và một giá trị mặc định khi khoảng cách dịch chuyển vượt quá giới hạn của phân vùng.",
+        "links": [
+          {
+            "title": "SQL LEAD",
+            "url": "https://www.codecademy.com/resources/docs/sql/window-functions/lead",
+            "type": "article"
+          },
+          {
+            "title": "Cửa sổ hàm LAG và LEAD trong SQL",
+            "url": "https://www.youtube.com/watch?v=nHEEyX_yDvo",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "BcXdxY6bld5c0YNFSKkh-",
+      "type": "subtopic",
+      "label": "lag",
+      "position": {
+        "x": 111.34043885768011,
+        "y": 1655.7884641029652
+      },
+      "size": {
+        "width": 66,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`LAG` là một hàm cửa sổ trong SQL cung cấp quyền truy cập vào một hàng ở một khoảng cách được chỉ định trước dòng hiện tại trong một phân vùng. Nó cho phép bạn so sánh giá trị của dòng hiện tại với các giá trị của các dòng trước đó mà không sử dụng các khóa nối chéo bản thân. `LAG` đặc biệt hữu ích để tính toán sự khác biệt chạy, xác định xu hướng hoặc so sánh các điểm dữ liệu tuần tự trong phân tích chuỗi thời gian. Hàm này nhận tên cột để dịch chuyển, số lượng hàng để dịch chuyển (mặc định là 1) và một giá trị mặc định tùy chọn để trả về khi khoảng cách dịch chuyển vượt quá giới hạn của phân vùng.",
+        "links": [
+          {
+            "title": "Hiểu về hàm LAG trong SQL",
+            "url": "https://www.datacamp.com/tutorial/sql-lag",
+            "type": "article"
+          },
+          {
+            "title": "Hàm LAG và LEAD",
+            "url": "https://www.youtube.com/watch?v=j2u52RQ0qlw",
+            "type": "video"
+          }
+        ]
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "reactflow__edge-JDDG4KfhtIlw1rkNCzUliz2-gx4KaFqKgJX9n9_ZGMqlZy1",
+      "source": "nhUKKWyBH80nyKfGT8ErC",
+      "target": "gx4KaFqKgJX9n9_ZGMqlZ",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-nhUKKWyBH80nyKfGT8ErCx2-JDDG4KfhtIlw1rkNCzUliw2",
+      "source": "nhUKKWyBH80nyKfGT8ErC",
+      "target": "JDDG4KfhtIlw1rkNCzUli",
+      "source_handle": "x2",
+      "target_handle": "w2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-JDDG4KfhtIlw1rkNCzUliy2-6yoo7qC6X2jYDIjd3HIm7z1",
+      "source": "JDDG4KfhtIlw1rkNCzUli",
+      "target": "6yoo7qC6X2jYDIjd3HIm7",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-JDDG4KfhtIlw1rkNCzUliy2-tBzMDfCMh6MIagNaxCzinz1",
+      "source": "JDDG4KfhtIlw1rkNCzUli",
+      "target": "tBzMDfCMh6MIagNaxCzin",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-JDDG4KfhtIlw1rkNCzUliy2-ffwniprGJHZzJ7t3lQcXzz1",
+      "source": "JDDG4KfhtIlw1rkNCzUli",
+      "target": "ffwniprGJHZzJ7t3lQcXz",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-JDDG4KfhtIlw1rkNCzUliz2-xPOeXK1EPBNG56vgfG-VVy1",
+      "source": "JDDG4KfhtIlw1rkNCzUli",
+      "target": "xPOeXK1EPBNG56vgfG-VV",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-iogwMmOvub2ZF4zgg6WyFx2-nhUKKWyBH80nyKfGT8ErCw1",
+      "source": "iogwMmOvub2ZF4zgg6WyF",
+      "target": "nhUKKWyBH80nyKfGT8ErC",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-nhUKKWyBH80nyKfGT8ErCz2-R9DQNc0AyAQ2HLpP4HOk6y1",
+      "source": "nhUKKWyBH80nyKfGT8ErC",
+      "target": "R9DQNc0AyAQ2HLpP4HOk6",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-nhUKKWyBH80nyKfGT8ErCz2-fNTb9y3zs1HPYclAmu_Wvy1",
+      "source": "nhUKKWyBH80nyKfGT8ErC",
+      "target": "fNTb9y3zs1HPYclAmu_Wv",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-LX9nzJ4uqznHN4SksoDvry2-bFEYMlqPZtTUYtDQxqHzTz1",
+      "source": "LX9nzJ4uqznHN4SksoDvr",
+      "target": "bFEYMlqPZtTUYtDQxqHzT",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-LX9nzJ4uqznHN4SksoDvry2-9aHYrOQDkA84tlxcVK5aDz1",
+      "source": "LX9nzJ4uqznHN4SksoDvr",
+      "target": "9aHYrOQDkA84tlxcVK5aD",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-LX9nzJ4uqznHN4SksoDvry2-YqDJq3fPxUZlwsdq0kJg7z2",
+      "source": "LX9nzJ4uqznHN4SksoDvr",
+      "target": "YqDJq3fPxUZlwsdq0kJg7",
+      "source_handle": "y2",
+      "target_handle": "z2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-LX9nzJ4uqznHN4SksoDvry2-Zw8IHfCCMSxmVjx5Ho5ffz1",
+      "source": "LX9nzJ4uqznHN4SksoDvr",
+      "target": "Zw8IHfCCMSxmVjx5Ho5ff",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-LX9nzJ4uqznHN4SksoDvry2-HhICJpCK5__b-itUoEBESz1",
+      "source": "LX9nzJ4uqznHN4SksoDvr",
+      "target": "HhICJpCK5__b-itUoEBES",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-LX9nzJ4uqznHN4SksoDvrx2-8V6yw7kLaow-VVcv_K_pLy1",
+      "source": "LX9nzJ4uqznHN4SksoDvr",
+      "target": "qBios3sZVhcJMpXmj9f7B",
+      "source_handle": "x2",
+      "target_handle": "y1",
+      "edge_style": "solid",
+      "line_type": "smoothstep",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-qBios3sZVhcJMpXmj9f7Bx2-8V6yw7kLaow-VVcv_K_pLw2",
+      "source": "qBios3sZVhcJMpXmj9f7B",
+      "target": "8V6yw7kLaow-VVcv_K_pL",
+      "source_handle": "x2",
+      "target_handle": "w2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-8V6yw7kLaow-VVcv_K_pLy2-86iZ8s8EdhSuYwgwAM_EOz2",
+      "source": "8V6yw7kLaow-VVcv_K_pL",
+      "target": "86iZ8s8EdhSuYwgwAM_EO",
+      "source_handle": "y2",
+      "target_handle": "z2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-86iZ8s8EdhSuYwgwAM_EOy2-xkPJ2MYiXmzC4yqQWyB_7z1",
+      "source": "86iZ8s8EdhSuYwgwAM_EO",
+      "target": "xkPJ2MYiXmzC4yqQWyB_7",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-86iZ8s8EdhSuYwgwAM_EOy2-JZqS3Xapw6mfSPVgFW7avz1",
+      "source": "86iZ8s8EdhSuYwgwAM_EO",
+      "target": "JZqS3Xapw6mfSPVgFW7av",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-vTMd0bqz4eTgLnhfgY61hz2-6FdHTzqQwJqR4czP5qXAYy1",
+      "source": "vTMd0bqz4eTgLnhfgY61h",
+      "target": "6FdHTzqQwJqR4czP5qXAY",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-LcljR70T-OnzSrJJDqOWfx2-UDqbT1y-YzBrljfKSz_RGw1",
+      "source": "LcljR70T-OnzSrJJDqOWf",
+      "target": "OdaBXz2XBAVLsQ-m7xtAM",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-OdaBXz2XBAVLsQ-m7xtAMy2-UDqbT1y-YzBrljfKSz_RGz1",
+      "source": "OdaBXz2XBAVLsQ-m7xtAM",
+      "target": "R1ktDJpXOz0PTllAcBrdu",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-R1ktDJpXOz0PTllAcBrduy2-UDqbT1y-YzBrljfKSz_RGz1",
+      "source": "R1ktDJpXOz0PTllAcBrdu",
+      "target": "w7FNjdwqjY7X69aJqqBy4",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-w7FNjdwqjY7X69aJqqBy4x2-UDqbT1y-YzBrljfKSz_RGw1",
+      "source": "w7FNjdwqjY7X69aJqqBy4",
+      "target": "4rqCPpTb0dAgpheBKshRG",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-UDqbT1y-YzBrljfKSz_RGx2-C6P69YiFdS-ioPXMNfX07w1",
+      "source": "4rqCPpTb0dAgpheBKshRG",
+      "target": "C6P69YiFdS-ioPXMNfX07",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-4rqCPpTb0dAgpheBKshRGz2-UDqbT1y-YzBrljfKSz_RGw1",
+      "source": "4rqCPpTb0dAgpheBKshRG",
+      "target": "UDqbT1y-YzBrljfKSz_RG",
+      "source_handle": "z2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "smoothstep",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-UDqbT1y-YzBrljfKSz_RGz2-tBvXLLp5FKeSSN35Kj1X4y1",
+      "source": "UDqbT1y-YzBrljfKSz_RG",
+      "target": "tBvXLLp5FKeSSN35Kj1X4",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-UDqbT1y-YzBrljfKSz_RGz2-nwFaz9i-1s0WVrVaFsoqby2",
+      "source": "UDqbT1y-YzBrljfKSz_RG",
+      "target": "nwFaz9i-1s0WVrVaFsoqb",
+      "source_handle": "z2",
+      "target_handle": "y2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-UDqbT1y-YzBrljfKSz_RGz2-TjgwabhEtaSoYMLNr6q9ly1",
+      "source": "UDqbT1y-YzBrljfKSz_RG",
+      "target": "TjgwabhEtaSoYMLNr6q9l",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-UDqbT1y-YzBrljfKSz_RGz2-tedQynR0xicVKhuR1oahwy1",
+      "source": "UDqbT1y-YzBrljfKSz_RG",
+      "target": "tedQynR0xicVKhuR1oahw",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-UDqbT1y-YzBrljfKSz_RGz2-z5Sf0VU14ZCQ80kL1qOqcy1",
+      "source": "UDqbT1y-YzBrljfKSz_RG",
+      "target": "z5Sf0VU14ZCQ80kL1qOqc",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-WigElh37ztiRYRstQR9NEz2-zEWmq0Y1LFPMQelpucrphy1",
+      "source": "WigElh37ztiRYRstQR9NE",
+      "target": "zEWmq0Y1LFPMQelpucrph",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    }
+  ],
+  "content_crawled_at": "2026-04-06T13:07:55.108349+00:00"
+}

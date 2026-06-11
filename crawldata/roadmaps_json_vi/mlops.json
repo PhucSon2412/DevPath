@@ -1,0 +1,2000 @@
+{
+  "id": "mlops",
+  "title": "MLOps",
+  "source_url": "https://roadmap.sh/mlops",
+  "github_url": "https://github.com/kamranahmedse/developer-roadmap/tree/master/src/data/roadmaps/mlops",
+  "crawled_at": "2026-04-06T07:37:21.840009+00:00",
+  "type": "flow",
+  "stats": {
+    "total_nodes": 39,
+    "total_edges": 28,
+    "nodes_with_content": 32
+  },
+  "node_types": [
+    "button",
+    "horizontal",
+    "linksgroup",
+    "paragraph",
+    "subtopic",
+    "title",
+    "topic",
+    "vertical"
+  ],
+  "edge_styles": [
+    "dashed",
+    "solid"
+  ],
+  "edge_line_types": [
+    "default",
+    "smoothstep"
+  ],
+  "node_type_description": {
+    "title": "Tiêu đề chính của lộ trình",
+    "topic": "Chủ đề lớn (nhóm kỹ năng)",
+    "subtopic": "Kỹ năng/công nghệ cụ thể cần học",
+    "paragraph": "Vùng văn bản mô tả / chú thích",
+    "vertical": "Visual connection"
+  },
+  "edge_style_description": {
+    "solid": "Kỹ năng bắt buộc / quan trọng",
+    "dashed": "Tùy chọn / gợi ý / phương án thay thế"
+  },
+  "nodes": [
+    {
+      "id": "i_A9OSIbpoRw8siik74KT",
+      "type": "vertical",
+      "label": "nút theo chiều dọc",
+      "position": {
+        "x": 200.84147172248663,
+        "y": 907.5243058676606
+      },
+      "size": {
+        "width": 21,
+        "height": 97
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "7zgx29rLsHEuBkCACkyi8",
+      "type": "vertical",
+      "label": "nút theo chiều dọc",
+      "position": {
+        "x": -482.02532545570534,
+        "y": 573.4965695331865
+      },
+      "size": {
+        "width": 21,
+        "height": 106
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "iogwMmOvub2ZF4zgg6WyF",
+      "type": "title",
+      "label": "MLOps",
+      "position": {
+        "x": -46.73195037554086,
+        "y": -179.55566976101449
+      },
+      "size": {
+        "width": 132,
+        "height": 68
+      },
+      "style": {
+        "fontSize": 28,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "LEijbLyxg4RyutKEM2Y5g",
+      "type": "vertical",
+      "label": "nút theo chiều dọc",
+      "position": {
+        "x": 8.768049624459138,
+        "y": -243.55566976101449
+      },
+      "size": {
+        "width": 21,
+        "height": 64
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#0A33FF"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "_7uvOebQUI4xaSwtMjpEd",
+      "type": "topic",
+      "label": "Các Nguyên tắc lập trình cơ bản",
+      "position": {
+        "x": -130.23195037554086,
+        "y": 15.405057155248713
+      },
+      "size": {
+        "width": 299,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Các nguyên tắc lập trình ML cơ bản bao gồm các kỹ năng và khái niệm thiết yếu cần thiết để phát triển các mô hình học máy hiệu quả. Các khía cạnh chính bao gồm hiểu biết về cấu trúc và thuật toán dữ liệu, cũng như thành thạo các ngôn ngữ lập trình thường được sử dụng trong ML, chẳng hạn như Python và R. Làm quen với các thư viện và khung như TensorFlow, PyTorch và scikit-learn là rất quan trọng để triển khai các thuật toán học máy và xây dựng mô hình. Ngoài ra, các khái niệm như tiền xử lý dữ liệu, kỹ năng đặc trưng, đánh giá mô hình và điều chỉnh siêu tham số cũng rất quan trọng đối với việc tối ưu hóa hiệu suất. Một sự hiểu biết vững chắc về thống kê và đại số tuyến tính cũng rất quan trọng, vì những nền tảng toán học này là nền tảng cho nhiều kỹ thuật ML, cho phép các chuyên gia phân tích dữ liệu và giải thích kết quả mô hình một cách chính xác.",
+        "links": []
+      }
+    },
+    {
+      "id": "Vh81GnOUOZvDOlOyI5PwT",
+      "type": "subtopic",
+      "label": "Python",
+      "position": {
+        "x": 245.84147172248663,
+        "y": -38.59494284475129
+      },
+      "size": {
+        "width": 129,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Python là một ngôn ngữ lập trình được sử dụng rộng rãi, nổi tiếng với cú pháp rõ ràng và các thư viện phong phú. Nó là một công cụ linh hoạt có thể xử lý nhiều tác vụ khác nhau, từ viết kịch bản đơn giản đến phát triển phần mềm phức tạp. Tính dễ sử dụng và sự sẵn có của các thư viện chuyên biệt cho phân tích dữ liệu, học máy và tự động hóa khiến nó trở thành lựa chọn phổ biến để xây dựng và triển khai hệ thống học máy.",
+        "links": [
+          {
+            "title": "Truy cập Bản đồ lộ trình Python chuyên dụng",
+            "url": "https://dev-path-murex.vercel.app/roadmap/python",
+            "type": "roadmap"
+          },
+          {
+            "title": "Python",
+            "url": "https://www.python.org/",
+            "type": "official"
+          },
+          {
+            "title": "Real Python",
+            "url": "https://realpython.com/",
+            "type": "article"
+          },
+          {
+            "title": "Tự động hóa những việc nhà với Python",
+            "url": "https://automatetheboringstuff.com/",
+            "type": "article"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Python",
+            "url": "https://app.daily.dev/tags/python?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "vdVq3RQvQF3mF8PQc6DMg",
+      "type": "subtopic",
+      "label": "Go",
+      "position": {
+        "x": 245.84147172248663,
+        "y": 14.405057155248713
+      },
+      "size": {
+        "width": 129,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Go, còn được biết đến là Golang, là ngôn ngữ lập trình nguồn mở do Google phát triển, tập trung vào sự đơn giản, hiệu quả và hỗ trợ đồng thời mạnh mẽ. Được thiết kế cho phát triển phần mềm hiện đại, Go có cú pháp sạch, thu gom rác và hỗ trợ tích hợp sẵn lập trình đồng thời thông qua goroutine và kênh, khiến nó phù hợp để xây dựng các ứng dụng có khả năng mở rộng, hiệu suất cao, đặc biệt trong tính toán đám mây và kiến trúc microservices. Thư viện tiêu chuẩn mạnh mẽ và hệ sinh thái công cụ của Go, bao gồm một trình quản lý gói mạnh mẽ và khung kiểm thử, tiếp tục đơn giản hóa quy trình phát triển, thúc đẩy quá trình phát triển và triển khai ứng dụng nhanh chóng.",
+        "links": [
+          {
+            "title": "Truy cập Bản đồ lộ trình Go chuyên dụng",
+            "url": "https://dev-path-murex.vercel.app/roadmap/golang",
+            "type": "roadmap"
+          },
+          {
+            "title": "Một chuyến tham quan về Go – Cơ bản Go",
+            "url": "https://go.dev/tour/welcome/1",
+            "type": "official"
+          },
+          {
+            "title": "Tài liệu Tham khảo Go",
+            "url": "https://go.dev/doc/",
+            "type": "official"
+          },
+          {
+            "title": "Tạo một API JSON RESTful bằng Go",
+            "url": "https://thenewstack.io/make-a-restful-json-api-go/",
+            "type": "article"
+          },
+          {
+            "title": "Go, Ngôn ngữ Lập trình cho Đám mây",
+            "url": "https://thenewstack.io/go-the-programming-language-of-the-cloud/",
+            "type": "article"
+          },
+          {
+            "title": "Khóa học Lập trình Go",
+            "url": "https://www.youtube.com/watch?v=un6ZyFkqFKo",
+            "type": "video"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Golang",
+            "url": "https://app.daily.dev/tags/golang?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mMzqJF2KQ49TDEk5F3VAI",
+      "type": "subtopic",
+      "label": "Bash",
+      "position": {
+        "x": 245.84147172248663,
+        "y": 67.40505715524871
+      },
+      "size": {
+        "width": 129,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Bash (Bourne Again Shell) là một shell và ngôn ngữ lệnh Unix được sử dụng để tương tác với hệ điều hành thông qua terminal. Nó cho phép người dùng thực thi các lệnh, tự động hóa tác vụ thông qua scripting và quản lý hoạt động hệ thống. Là shell mặc định cho nhiều bản phân phối Linux, nó hỗ trợ tiện ích dòng lệnh, thao tác tệp tin, kiểm soát quy trình và xử lý văn bản. Các script Bash có thể bao gồm vòng lặp, điều kiện và hàm, làm cho nó là một công cụ mạnh mẽ cho quản trị hệ thống, tự động hóa và lên lịch tác vụ.",
+        "links": [
+          {
+            "title": "Truy cập Bản đồ Đường đi dành riêng cho Shell-Bash",
+            "url": "https://dev-path-murex.vercel.app/roadmap/shell-bash",
+            "type": "roadmap"
+          },
+          {
+            "title": "hướng dẫn bash",
+            "url": "https://github.com/Idnan/bash-guide",
+            "type": "opensource"
+          },
+          {
+            "title": "Cẩm nang Tham khảo Bash",
+            "url": "https://www.gnu.org/software/bash/manual/bashref.html",
+            "type": "article"
+          },
+          {
+            "title": "Khóa học Scripting Bash",
+            "url": "https://www.youtube.com/watch?v=tK9Oc6AEnR4",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "oUhlUoWQQ1txx_sepD5ev",
+      "type": "topic",
+      "label": "Hệ thống Kiểm soát phiên bản",
+      "position": {
+        "x": -130.23195037554086,
+        "y": 159.82372041354537
+      },
+      "size": {
+        "width": 299,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "CI/CD, which stands for Continuous Integration and Continuous Delivery/Deployment, is a software development practice focused on automating and streamlining the process of building, testing, and releasing software changes. Continuous Integration involves frequently merging code changes into a central repository, followed by automated builds and tests. Continuous Delivery/Deployment then automates the release of these changes to various environments, ultimately aiming for faster and more reliable software releases.",
+        "links": [
+          {
+            "title": "CI/CD là gì?",
+            "url": "https://about.gitlab.com/topics/ci-cd/",
+            "type": "official"
+          },
+          {
+            "title": "Giới thiệu: Tích hợp liên tục và Giao hàng liên tục (CI/CD)",
+            "url": "https://thenewstack.io/a-primer-continuous-integration-and-continuous-delivery-ci-cd/",
+            "type": "article"
+          },
+          {
+            "title": "Giải thích DevOps CI/CD trong 100 giây",
+            "url": "https://thenewstack.io/category/ci-cd/",
+            "type": "article"
+          },
+          {
+            "title": "Tự động hóa quy trình làm việc của bạn với GitHub Actions",
+            "url": "https://www.youtube.com/watch?v=scEDHsr3APg",
+            "type": "video"
+          },
+          {
+            "title": "Bài viết về CI/CD",
+            "url": "https://app.daily.dev/tags/version-control?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "06T5CbZAGJU6fJhCmqCC8",
+      "type": "subtopic",
+      "label": "Git",
+      "position": {
+        "x": 251.70194132402605,
+        "y": 159.82372041354537
+      },
+      "size": {
+        "width": 101,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Git là một hệ thống kiểm soát phiên bản phân tán được sử dụng để theo dõi các thay đổi trong mã nguồn trong quá trình phát triển phần mềm. Nó cho phép nhiều nhà phát triển cộng tác trên một dự án bằng cách quản lý các phiên bản mã, cho phép tạo nhánh, hợp nhất và theo dõi các bản sửa đổi. Git đảm bảo rằng các thay đổi được ghi lại với đầy đủ lịch sử, cho phép khôi phục về các phiên bản trước nếu cần thiết. Nó hỗ trợ quy trình làm việc phân tán, có nghĩa là mỗi nhà phát triển đều có một bản sao hoàn chỉnh của lịch sử dự án cục bộ, tạo điều kiện cộng tác liền mạch, giải quyết xung đột và quản lý mã hiệu quả trên nhiều nhóm hoặc môi trường khác nhau.",
+        "links": [
+          {
+            "title": "Truy cập Bản đồ lộ trình Git & GitHub chuyên dụng",
+            "url": "https://dev-path-murex.vercel.app/roadmap/git-github",
+            "type": "roadmap"
+          },
+          {
+            "title": "Học Git với Hướng dẫn, Tin tức và Mẹo - Atlassian",
+            "url": "https://www.atlassian.com/git",
+            "type": "article"
+          },
+          {
+            "title": "Bắt Đầu với Git và GitHub: Hướng Dẫn Toàn Căn cho Người Mới Bắt Động",
+            "url": "https://towardsdatascience.com/learn-basic-git-commands-for-your-data-science-works-2a75396d530d/?utm_source=roadmap&utm_medium=Referral&utm_campaign=TDS+roadmap+integration",
+            "type": "article"
+          },
+          {
+            "title": "Bảng Tra Cứu Git",
+            "url": "https://cs.fyi/guide/git-cheatsheet",
+            "type": "article"
+          },
+          {
+            "title": "Khóa Học Crash Course Git & GitHub Cho Người Mới Bắt Động",
+            "url": "https://www.youtube.com/watch?v=SWYqp7iY_Tc",
+            "type": "video"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Git",
+            "url": "https://app.daily.dev/tags/git?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "7t7jSb3YgyWlhgCe8Se1I",
+      "type": "subtopic",
+      "label": "GitHub",
+      "position": {
+        "x": 355.70194132402605,
+        "y": 159.82372041354537
+      },
+      "size": {
+        "width": 123,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "GitHub là một nền tảng dựa trên web được xây dựng trên Git cung cấp kiểm soát phiên bản, công cụ cộng tác và các tính năng quản lý dự án cho phát triển phần mềm. Nó cho phép các nhà phát triển lưu trữ kho lưu trữ Git, cộng tác trên mã thông qua yêu cầu kéo và xem xét và theo dõi các thay đổi. GitHub cũng cung cấp thêm các tính năng như theo dõi vấn đề, tích hợp liên tục, quy trình làm việc tự động và lưu trữ tài liệu. Với môi trường lập trình xã hội của mình, GitHub thúc đẩy đóng góp mã nguồn mở và cộng tác nhóm, khiến nó trở thành một trung tâm chính cho nhiều dự án phát triển phần mềm.",
+        "links": [
+          {
+            "title": "Truy cập Bản đồ lộ trình Git & GitHub chuyên dụng",
+            "url": "https://dev-path-murex.vercel.app/roadmap/git-github",
+            "type": "roadmap"
+          },
+          {
+            "title": "GitHub",
+            "url": "https://github.com",
+            "type": "official"
+          },
+          {
+            "title": "Tài liệu GitHub",
+            "url": "https://docs.github.com/en/get-started/quickstart",
+            "type": "official"
+          },
+          {
+            "title": "Comprehensive Guide to GitHub for Data Scientists",
+            "url": "https://towardsdatascience.com/comprehensive-guide-to-github-for-data-scientist-d3f71bd320da/?utm_source=roadmap&utm_medium=Referral&utm_campaign=TDS+roadmap+integration",
+            "type": "article"
+          },
+          {
+            "title": "GitHub là gì?",
+            "url": "https://www.youtube.com/watch?v=w3jLJU7DT5E",
+            "type": "video"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về GitHub",
+            "url": "https://app.daily.dev/tags/github?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "X3qWG4PYD3XLoK_-JBwJ_",
+      "type": "horizontal",
+      "label": "nút ngang",
+      "position": {
+        "x": -517.4487115461421,
+        "y": 28.905057155248713
+      },
+      "size": {
+        "width": 81,
+        "height": 20
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "00GZcwe25QYi7rDzaOoMt",
+      "type": "topic",
+      "label": "Cloud Computing",
+      "position": {
+        "x": -130.23195037554086,
+        "y": 301.2262524348043
+      },
+      "size": {
+        "width": 299,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "**Tính toán đám mây** đề cập đến việc cung cấp các dịch vụ tính toán qua internet thay vì sử dụng máy chủ cục bộ hoặc thiết bị cá nhân. Các dịch vụ này bao gồm máy chủ, lưu trữ, cơ sở dữ liệu, mạng, phần mềm, phân tích và trí tuệ nhân tạo. Tính toán đám mây cho phép đổi mới nhanh hơn, tài nguyên linh hoạt và quy mô nền kinh tế. Có nhiều loại tính toán đám mây khác nhau, chẳng hạn như đám mây công cộng, đám mây riêng và đám mây lai. Hơn nữa, nó được chia thành các dịch vụ khác nhau như Dịch vụ cơ sở hạ tầng theo yêu cầu (IaaS), Dịch vụ nền tảng theo yêu cầu (PaaS) và Dịch vụ phần mềm theo yêu cầu (SaaS). Các dịch vụ này chủ yếu khác biệt ở mức độ kiểm soát mà một tổ chức có đối với dữ liệu và cơ sở hạ tầng của mình.",
+        "links": [
+          {
+            "title": "Cloud Computing - IBM",
+            "url": "https://www.ibm.com/think/topics/cloud-computing",
+            "type": "article"
+          },
+          {
+            "title": "Cloud Computing là gì? - Azure",
+            "url": "https://azure.microsoft.com/en-gb/resources/cloud-computing-dictionary/what-is-cloud-computing",
+            "type": "article"
+          },
+          {
+            "title": "Cloud Computing là gì? - Amazon Web Services",
+            "url": "https://www.youtube.com/watch?v=mxT233EdY5c",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "u3E7FGW4Iwdsu61KYFxCX",
+      "type": "subtopic",
+      "label": "AWS / Azure / GCP",
+      "position": {
+        "x": 248.3414717224867,
+        "y": 280.1080587312499
+      },
+      "size": {
+        "width": 248,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "AWS (Amazon Web Services), Azure và GCP (Google Cloud Platform) là ba nhà cung cấp hàng đầu các dịch vụ tính toán đám mây. AWS của Amazon là lâu đời nhất và được thiết lập nhiều nhất trong số ba, cung cấp một loạt các giải pháp từ các dịch vụ cơ sở hạ tầng như tính toán, lưu trữ và cơ sở dữ liệu đến học máy và học sâu. Azure, của Microsoft, đã tích hợp các công cụ DevOps, hỗ trợ một lượng lớn ngôn ngữ lập trình và cung cấp sự tích hợp liền mạch với máy chủ trên địa phương và phần mềm của Microsoft. GCP của Google có thế mạnh về khả năng chi phí hiệu quả, di chuyển ảo máy tính trực tiếp và các tùy chọn tính toán linh hoạt. Tất cả ba đều đã giới thiệu nhiều công cụ và dịch vụ MLOps khác nhau để tăng cường khả năng cho phát triển và vận hành học máy.",
+        "links": [
+          {
+            "title": "Truy cập Bản đồ lộ trình AWS chuyên dụng",
+            "url": "https://dev-path-murex.vercel.app/roadmap/aws",
+            "type": "roadmap"
+          },
+          {
+            "title": "Microsoft Azure",
+            "url": "https://docs.microsoft.com/en-us/learn/azure/",
+            "type": "official"
+          },
+          {
+            "title": "Google Cloud Platform",
+            "url": "https://cloud.google.com/",
+            "type": "official"
+          },
+          {
+            "title": "Tài Nguyên Học Tập GCP",
+            "url": "https://cloud.google.com/training",
+            "type": "official"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về AWS",
+            "url": "https://app.daily.dev/tags/aws?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "kbfucfIO5KCsuv3jKbHTa",
+      "type": "subtopic",
+      "label": "Cloud-native ML Services",
+      "position": {
+        "x": 248.3414717224867,
+        "y": 333.1080587312499
+      },
+      "size": {
+        "width": 248,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Cloud-native ML services are pre-built machine learning tools and platforms offered by cloud providers. These services allow users to build, train, and deploy machine learning models without managing the underlying infrastructure. They often include features like automated model training, scalable deployment options, and integration with other cloud services.",
+        "links": [
+          {
+            "title": "AWS SageMaker",
+            "url": "https://aws.amazon.com/sagemaker/",
+            "type": "official"
+          },
+          {
+            "title": "Azure ML",
+            "url": "https://azure.microsoft.com/en-gb/products/machine-learning",
+            "type": "official"
+          },
+          {
+            "title": "Nền tảng Vertex AI",
+            "url": "https://cloud.google.com/vertex-ai?hl=en",
+            "type": "official"
+          },
+          {
+            "title": "Cloud native là gì?",
+            "url": "https://cloud.google.com/learn/what-is-cloud-native?hl=en",
+            "type": "article"
+          },
+          {
+            "title": "Azure ML so với AWS SageMaker: Phân tích Sâu về Huấn luyện Mô hình — Phần 1",
+            "url": "https://towardsdatascience.com/azure-ml-vs-aws-sagemaker-a-deep-dive-into-scalable-model-training-part-1/?utm_source=roadmap&utm_medium=Referral&utm_campaign=TDS+roadmap+integration",
+            "type": "article"
+          },
+          {
+            "title": "AWS so với Azure: Phân tích sâu về Huấn luyện Mô hình – Phần 2",
+            "url": "https://towardsdatascience.com/aws-vs-azure-a-deep-dive-into-model-training-part-2/?utm_source=roadmap&utm_medium=Referral&utm_campaign=TDS+roadmap+integration",
+            "type": "article"
+          },
+          {
+            "title": "Cloud Native là gì?",
+            "url": "https://www.youtube.com/watch?v=fp9_ubiKqFU",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tKeejLv8Q7QX40UtOjpav",
+      "type": "topic",
+      "label": "Containerization",
+      "position": {
+        "x": -130.23195037554086,
+        "y": 451.3531923133914
+      },
+      "size": {
+        "width": 299,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Containerization là một hình thức ảo hóa hệ điều hành đóng gói ứng dụng và các phụ thuộc của nó thành một đơn vị cô lập duy nhất được gọi là container. Container bao gồm mọi thứ ứng dụng cần để chạy, chẳng hạn như mã, runtime, công cụ hệ thống, thư viện và cài đặt. Các container cung cấp môi trường nhất quán và có thể di chuyển cho các ứng dụng, đảm bảo chúng chạy giống nhau bất kể nơi chúng được triển khai.",
+        "links": [
+          {
+            "title": "Container là gì? - Google Cloud",
+            "url": "https://cloud.google.com/learn/what-are-containers",
+            "type": "article"
+          },
+          {
+            "title": "Container là gì? - Docker",
+            "url": "https://www.docker.com/resources/what-container/",
+            "type": "article"
+          },
+          {
+            "title": "Bài viết về Container - The New Stack",
+            "url": "https://thenewstack.io/category/containers/",
+            "type": "article"
+          },
+          {
+            "title": "Container là gì?",
+            "url": "https://www.youtube.com/playlist?list=PLawsLZMfND4nz-WDBZIj8-nbzGFD4S9oz",
+            "type": "video"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Container",
+            "url": "https://app.daily.dev/tags/containers?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "XIdCvT-4HyyglHJLRrHlz",
+      "type": "subtopic",
+      "label": "Docker",
+      "position": {
+        "x": 249.763301245604,
+        "y": 427.49656953318646
+      },
+      "size": {
+        "width": 135,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Docker là một nền tảng sử dụng ảo hóa cấp hệ điều hành để cung cấp phần mềm dưới dạng các gói gọi là container. Các container cô lập phần mềm khỏi môi trường của nó và đảm bảo rằng nó hoạt động nhất quán bất chấp sự khác biệt giữa môi trường phát triển và sản xuất. Docker đơn giản hóa quy trình xây dựng, đóng gói và chạy ứng dụng bằng cách đóng gói tất cả các phụ thuộc, thư viện và cấu hình vào một đơn vị duy nhất.",
+        "links": [
+          {
+            "title": "Truy cập Bản đồ lộ trình Docker chuyên dụng",
+            "url": "https://dev-path-murex.vercel.app/roadmap/docker",
+            "type": "roadmap"
+          },
+          {
+            "title": "Tài Liệu Docker",
+            "url": "https://docs.docker.com/",
+            "type": "official"
+          },
+          {
+            "title": "Hướng dẫn dành cho Nhà khoa học dữ liệu về Container Docker",
+            "url": "https://towardsdatascience.com/a-data-scientists-guide-to-docker-containers/?utm_source=roadmap&utm_medium=Referral&utm_campaign=TDS+roadmap+integration",
+            "type": "article"
+          },
+          {
+            "title": "Hướng dẫn Docker",
+            "url": "https://www.youtube.com/watch?v=RqTEHSBrYFw",
+            "type": "video"
+          },
+          {
+            "title": "Docker Đơn giản hóa trong 55 giây",
+            "url": "https://youtu.be/vP_4DlOH1G4",
+            "type": "video"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Docker",
+            "url": "https://app.daily.dev/tags/docker?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "XQoK9l-xtN2J8ZV8dw53X",
+      "type": "subtopic",
+      "label": "Kubernetes",
+      "position": {
+        "x": 249.763301245604,
+        "y": 480.4965695331865
+      },
+      "size": {
+        "width": 135,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Kubernetes là một hệ thống nguồn mở để tự động hóa việc triển khai, mở rộng quy mô và quản lý các ứng dụng được chứa trong container. Nó nhóm các container tạo nên một ứng dụng thành các đơn vị hợp lý để dễ dàng quản lý và khám phá. Bằng cách điều phối các container trên nhiều máy chủ, Kubernetes đảm bảo tính sẵn sàng cao và sử dụng tài nguyên hiệu quả, khiến nó trở thành một công cụ mạnh mẽ để quản lý các triển khai phức tạp.",
+        "links": [
+          {
+            "title": "Truy cập Bản đồ lộ trình Kubernetes chuyên dụng",
+            "url": "https://dev-path-murex.vercel.app/roadmap/kubernetes",
+            "type": "roadmap"
+          },
+          {
+            "title": "Kubernetes",
+            "url": "https://kubernetes.io/",
+            "type": "official"
+          },
+          {
+            "title": "Tài liệu Kubernetes",
+            "url": "https://kubernetes.io/docs/home/",
+            "type": "official"
+          },
+          {
+            "title": "Tổng quan về Kubernetes",
+            "url": "https://thenewstack.io/kubernetes-an-overview/",
+            "type": "article"
+          },
+          {
+            "title": "Khóa học Kubernetes dành cho người mới bắt đầu tuyệt đối",
+            "url": "https://www.youtube.com/watch?v=s_o8dwzRlu4",
+            "type": "video"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Kubernetes",
+            "url": "https://app.daily.dev/tags/kubernetes?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ulka7VEVjz6ls5SnI6a6z",
+      "type": "topic",
+      "label": "Kiến thức cơ bản về Học Máy",
+      "position": {
+        "x": -130.23195037554086,
+        "y": 575.1003675650747
+      },
+      "size": {
+        "width": 299,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Kiến thức cơ bản về học máy bao gồm các khái niệm và kỹ thuật chính cho phép hệ thống học hỏi từ dữ liệu và đưa ra dự đoán hoặc quyết định mà không cần được lập trình một cách rõ ràng. Ở cốt lõi, học máy liên quan đến các thuật toán có thể xác định các mẫu trong dữ liệu và cải thiện theo thời gian với kinh nghiệm. Các lĩnh vực chính bao gồm học có giám sát (trong đó mô hình được huấn luyện trên dữ liệu được gán nhãn), học không giám sát (trong đó mô hình xác định các mẫu trong dữ liệu không được gán nhãn) và học tăng cường (trong đó các tác nhân học cách đưa ra quyết định dựa trên phản hồi từ hành động của họ). Các thành phần thiết yếu khác bao gồm tiền xử lý dữ liệu, lựa chọn đặc trưng, huấn luyện mô hình, số chỉ tiêu đánh giá và tầm quan trọng của việc tránh hiện tượng quá khớp. Hiểu biết những nguyên tắc cơ bản này là rất quan trọng để phát triển các ứng dụng học máy hiệu quả trong nhiều lĩnh vực.",
+        "links": [
+          {
+            "title": "Truy cập Bản đồ Đường đi dành riêng cho Học máy",
+            "url": "https://dev-path-murex.vercel.app/roadmap/machine-learning",
+            "type": "roadmap"
+          },
+          {
+            "title": "Cơ Bản về Học Máy - Microsoft",
+            "url": "https://learn.microsoft.com/en-us/training/modules/fundamentals-machine-learning/",
+            "type": "course"
+          },
+          {
+            "title": "MLCourse.ai",
+            "url": "https://mlcourse.ai/",
+            "type": "course"
+          },
+          {
+            "title": "Fast.ai",
+            "url": "https://course.fast.ai",
+            "type": "course"
+          },
+          {
+            "title": "Tất cả những gì tôi đã học để trở thành Kỹ sư Học máy (Không có nền tảng CS)",
+            "url": "https://towardsdatascience.com/everything-i-studied-to-become-a-machine-learning-engineer-no-cs-background/?utm_source=roadmap&utm_medium=Referral&utm_campaign=TDS+roadmap+integration",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "VykbCu7LWIx8fQpqKzoA7",
+      "type": "topic",
+      "label": "Data Engineering Fundamentals",
+      "position": {
+        "x": -130.23195037554086,
+        "y": 702.317764812742
+      },
+      "size": {
+        "width": 299,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Data Engineering về cơ bản là làm việc với việc thu thập, xác thực, lưu trữ, chuyển đổi và xử lý dữ liệu. Mục tiêu là cung cấp các luồng dữ liệu và cơ sở hạ tầng đáng tin cậy, hiệu quả và có khả năng mở rộng cho phép các nhà khoa học dữ liệu chuyển đổi dữ liệu thành thông tin chi tiết có thể hành động. Nó bao gồm các bước như thu thập dữ liệu, lưu trữ dữ liệu, xử lý dữ liệu và cung cấp dữ liệu. Các khái niệm quan trọng bao gồm thiết kế, xây dựng và bảo trì kiến trúc dữ liệu, cơ sở dữ liệu, hệ thống xử lý và hệ thống xử lý quy mô lớn. Điều cần thiết là có kiến thức kỹ thuật sâu rộng về nhiều công cụ và ngôn ngữ lập trình khác nhau như SQL, Python, Hadoop và hơn thế nữa.",
+        "links": [
+          {
+            "title": "Truy cập Bản đồ Đường đi dành riêng cho Kỹ sư Dữ liệu",
+            "url": "https://dev-path-murex.vercel.app/roadmap/data-engineer",
+            "type": "roadmap"
+          },
+          {
+            "title": "Data Engineering 101",
+            "url": "https://www.redpanda.com/guides/fundamentals-of-data-engineering",
+            "type": "article"
+          },
+          {
+            "title": "Hướng dẫn trở thành Kỹ sư Dữ liệu",
+            "url": "https://towardsdatascience.com/how-to-become-a-data-engineer-c0319cb226c2/",
+            "type": "article"
+          },
+          {
+            "title": "Cơ Bản về Kỹ Thuật Dữ Liệu",
+            "url": "https://www.youtube.com/watch?v=mPSzL8Lurs0",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cOg3ejZRYE-u-M0c89IjM",
+      "type": "subtopic",
+      "label": "Ống Truyền Dữ Liệu",
+      "position": {
+        "x": -519.0253254557053,
+        "y": 648.9022665810186
+      },
+      "size": {
+        "width": 263,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Ống truyền dữ liệu là một chuỗi các quy trình tự động vận chuyển và chuyển đổi dữ liệu từ nhiều nguồn đến một đích để phân tích hoặc lưu trữ. Chúng thường bao gồm các bước như trích xuất, làm sạch, chuyển đổi và tải (ETL) vào cơ sở dữ liệu, hồ chứa dữ liệu lớn hoặc kho dữ liệu. Các ống truyền dữ liệu có thể xử lý dữ liệu theo lô hoặc thời gian thực, đảm bảo rằng các tập dữ liệu quy mô lớn được xử lý hiệu quả và nhất quán. Chúng đóng một vai trò quan trọng trong việc đảm bảo tính toàn vẹn của dữ liệu và cho phép các doanh nghiệp khai thác thông tin chi tiết từ dữ liệu thô để báo cáo, phân tích hoặc học máy.",
+        "links": [
+          {
+            "title": "Data Pipeline là gì? - IBM",
+            "url": "https://www.ibm.com/topics/data-pipeline",
+            "type": "article"
+          },
+          {
+            "title": "Hướng dẫn xây dựng Pipeline dữ liệu cho Học máy",
+            "url": "https://towardsdatascience.com/how-to-build-data-pipelines-for-machine-learning-b97bbef050a5/",
+            "type": "article"
+          },
+          {
+            "title": "Đọc các bài viết về Pipeline Dữ liệu",
+            "url": "https://towardsdatascience.com/tag/data-pipeline/",
+            "type": "article"
+          },
+          {
+            "title": "Dòng dữ liệu là gì?",
+            "url": "https://www.youtube.com/watch?v=oKixNpz6jNo",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "wOogVDV4FIDLXVPwFqJ8C",
+      "type": "subtopic",
+      "label": "Data Lakes & Warehouses",
+      "position": {
+        "x": -519.0253254557053,
+        "y": 701.9022665810186
+      },
+      "size": {
+        "width": 263,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Hồ chứa dữ liệu lớn (data lakes) và kho dữ liệu (data warehouses) đều là các hệ thống để lưu trữ lượng lớn dữ liệu, nhưng chúng khác nhau về cấu trúc và mục đích. Hồ chứa dữ liệu lớn lưu trữ dữ liệu ở định dạng thô, chưa qua xử lý, cho phép linh hoạt trong phân tích và khám phá. Ngược lại, kho dữ liệu lưu trữ dữ liệu đã được cấu trúc và chuyển đổi để phục vụ các mục đích phân tích cụ thể, thường được tối ưu hóa để truy vấn và báo cáo.",
+        "links": [
+          {
+            "title": "Data Lake Definition",
+            "url": "https://azure.microsoft.com/en-gb/resources/cloud-computing-dictionary/what-is-a-data-lake",
+            "type": "article"
+          },
+          {
+            "title": "Data Lake VS Data Warehouse",
+            "url": "https://towardsdatascience.com/data-lake-vs-data-warehouse-2e3df551b800/?utm_source=roadmap&utm_medium=Referral&utm_campaign=TDS+roadmap+integration",
+            "type": "article"
+          },
+          {
+            "title": "Data Lake là gì?",
+            "url": "https://www.youtube.com/watch?v=LxcH6z8TFpI",
+            "type": "video"
+          },
+          {
+            "title": "Data Warehouse là gì?",
+            "url": "https://www.youtube.com/watch?v=k4tK2ttdSDg",
+            "type": "video"
+          },
+          {
+            "title": "Data Lake VS Data Warehouse VS Data Marts",
+            "url": "https://www.youtube.com/watch?v=w9-WoReNKHk",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Berd78HvnulNEGOsHCf8n",
+      "type": "subtopic",
+      "label": "Data Ingestion Architecture",
+      "position": {
+        "x": -519.0253254557053,
+        "y": 754.9022665810186
+      },
+      "size": {
+        "width": 263,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Quá trình nhập dữ liệu là quá trình thu thập, chuyển đổi và tải dữ liệu từ nhiều nguồn khác nhau đến một đích nơi nó có thể được lưu trữ và phân tích. Nhiều kiến trúc nhập dữ liệu có thể được sử dụng để thu thập dữ liệu từ các nguồn khác nhau và tải chúng vào kho dữ liệu, hồ chứa dữ liệu lớn hoặc các hệ thống lưu trữ khác. Các kiến trúc này có thể được chia rộng rãi thành hai loại: xử lý theo lô (batch) và xử lý thời gian thực. Cách bạn chọn nhập dữ liệu sẽ phụ thuộc vào khối lượng, tốc độ và sự đa dạng của dữ liệu bạn đang làm việc với, cũng như các yêu cầu về độ trễ của trường hợp sử dụng của bạn. Kiến trúc Lambda và Kappa là hai kiến trúc nhập dữ liệu phổ biến kết hợp xử lý theo lô và thời gian thực để xử lý các khối lượng lớn dữ liệu một cách hiệu quả.",
+        "links": [
+          {
+            "title": "Data Ingestion Patterns",
+            "url": "https://docs.aws.amazon.com/whitepapers/latest/aws-cloud-data-ingestion-patterns-practices/data-ingestion-patterns.html",
+            "type": "article"
+          },
+          {
+            "title": "Thiết kế mẫu ống truyền dữ liệu",
+            "url": "https://towardsdatascience.com/data-pipeline-design-patterns-100afa4b93e3/?utm_source=roadmap&utm_medium=Referral&utm_campaign=TDS+roadmap+integration",
+            "type": "article"
+          },
+          {
+            "title": "Hướng dẫn xây dựng Pipeline ETL có hỗ trợ Trí tuệ nhân tạo về Thời tiết với Databricks và GPT-4o: Từ API đến Bảng điều khiển",
+            "url": "https://towardsdatascience.com/how-to-build-an-ai-powered-weather-etl-pipeline-with-databricks-and-gpt-4o-from-api-to-dashboard/?utm_source=roadmap&utm_medium=Referral&utm_campaign=TDS+roadmap+integration",
+            "type": "article"
+          },
+          {
+            "title": "Data pipeline là gì?",
+            "url": "https://www.youtube.com/watch?v=kGT4PcTEPP8",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pVSlVHXIap0unFxLGM-lQ",
+      "type": "subtopic",
+      "label": "Airflow",
+      "position": {
+        "x": -519.0253254557053,
+        "y": 554.2844473298085
+      },
+      "size": {
+        "width": 95,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Airflow là một nền tảng để lập trình, lên lịch và giám sát quy trình làm việc một cách trực quan. Sử dụng Airflow để định nghĩa quy trình làm việc dưới dạng đồ thị có hướng acyclic (DAG) của các tác vụ. Người điều phối Airflow sẽ thực thi các tác vụ trên một mảng người làm việc đồng thời tuân theo các phụ thuộc được chỉ định. Các tiện ích dòng lệnh phong phú giúp thực hiện các phẫu thuật phức tạp trên DAGs trở nên dễ dàng. Giao diện người dùng phong phú cho phép dễ dàng hình dung các quy trình ống dẫn hoạt động trong môi trường sản xuất, giám sát tiến độ và khắc phục sự cố khi cần thiết. Khi quy trình làm việc được định nghĩa dưới dạng mã, chúng sẽ dễ bảo trì hơn, có thể kiểm soát phiên bản, khả năng kiểm tra và cộng tác.",
+        "links": [
+          {
+            "title": "Airflow",
+            "url": "https://airflow.apache.org/",
+            "type": "official"
+          },
+          {
+            "title": "Tài liệu Airflow",
+            "url": "https://airflow.apache.org/docs",
+            "type": "official"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Apache Airflow",
+            "url": "https://app.daily.dev/tags/apache-airflow?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "UljuqA89_SlCSDWWMD_C_",
+      "type": "subtopic",
+      "label": "Spark",
+      "position": {
+        "x": 253.05607963417134,
+        "y": 649.5330520426936
+      },
+      "size": {
+        "width": 123,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Apache Spark là một hệ thống tính toán phân tán nguồn mở được thiết kế cho xử lý dữ liệu lớn và phân tích. Nó cung cấp một giao diện nhất quán để lập trình toàn bộ cụm, cho phép xử lý hiệu quả các khối lượng dữ liệu lớn với hỗ trợ tích hợp cho song song hóa dữ liệu và khả năng chịu lỗi. Spark nổi trội trong việc thực hiện các tác vụ như xử lý lô, luồng dữ liệu thời gian thực, học máy và xử lý đồ thị. Nó được biết đến về tốc độ, dễ sử dụng và khả năng xử lý dữ liệu trong bộ nhớ, vượt trội hơn đáng kể so với các hệ thống MapReduce truyền thống. Spark được sử dụng rộng rãi trong các hệ sinh thái dữ liệu lớn nhờ khả năng mở rộng và tính linh hoạt trên nhiều tác vụ xử lý dữ liệu khác nhau.",
+        "links": [
+          {
+            "title": "ApacheSpark",
+            "url": "https://spark.apache.org/documentation.html",
+            "type": "official"
+          },
+          {
+            "title": "Spark By Examples",
+            "url": "https://sparkbyexamples.com",
+            "type": "article"
+          },
+          {
+            "title": "Các Bước Đầu Tiên trong Học Máy với Apache Spark",
+            "url": "https://towardsdatascience.com/first-steps-in-machine-learning-with-apache-spark-672fe31799a3/?utm_source=roadmap&utm_medium=Referral&utm_campaign=TDS+roadmap+integration",
+            "type": "article"
+          },
+          {
+            "title": "Complete Guide to Spark and PySpark Setup for Data Science",
+            "url": "https://towardsdatascience.com/complete-guide-to-spark-and-pyspark-setup-for-data-science-374ecd8d1eea/?utm_source=roadmap&utm_medium=Referral&utm_campaign=TDS+roadmap+integration",
+            "type": "article"
+          },
+          {
+            "title": "Kiến trúc Apache Spark - GIẢI THÍCH!",
+            "url": "https://www.youtube.com/watch?v=iXVIPQEGZ9Y",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "fMNwzhgLgHlAZJ9NvKikR",
+      "type": "subtopic",
+      "label": "Kafka",
+      "position": {
+        "x": 253.05607963417134,
+        "y": 702.5330520426936
+      },
+      "size": {
+        "width": 123,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Kafka là một nền tảng streaming phân tán, chịu lỗi và có thông lượng cao. Nó chủ yếu được sử dụng để xây dựng các Pipeline dữ liệu thời gian thực và ứng dụng streaming, cho phép bạn xuất bản, đăng ký, lưu trữ và xử lý luồng bản ghi. Các luồng này có thể bắt nguồn từ nhiều nguồn khác nhau và được tiêu thụ bởi nhiều ứng dụng đồng thời.",
+        "links": [
+          {
+            "title": "Hướng dẫn nhanh về Apache Kafka",
+            "url": "https://kafka.apache.org/quickstart",
+            "type": "official"
+          },
+          {
+            "title": "Apache Kafka là gì?",
+            "url": "https://aws.amazon.com/what-is/apache-kafka/",
+            "type": "article"
+          },
+          {
+            "title": "Hệ thống Kỹ thuật Dữ liệu Toàn diện trên Dữ liệu Thực với Kafka, Spark, Airflow, Postgres và Docker",
+            "url": "https://towardsdatascience.com/end-to-end-data-engineering-system-on-real-data-with-kafka-spark-airflow-postgres-and-docker-a70e18df4090/?utm_source=roadmap&utm_medium=Referral&utm_campaign=TDS+roadmap+integration",
+            "type": "article"
+          },
+          {
+            "title": "Các Nguyên tắc cơ bản của Apache Kafka",
+            "url": "https://www.youtube.com/watch?v=B5j3uNBH8X4",
+            "type": "video"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Kafka",
+            "url": "https://app.daily.dev/tags/kafka?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "o6GQ3-8DgDtHzdX6yeg1w",
+      "type": "subtopic",
+      "label": "Flink",
+      "position": {
+        "x": 253.05607963417134,
+        "y": 755.5330520426936
+      },
+      "size": {
+        "width": 123,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Apache Flink là một framework xử lý luồng nguồn mở được thiết kế cho cả xử lý dữ liệu thời gian thực và lô với độ trễ thấp và thông lượng cao. Nó hỗ trợ xử lý theo thời gian sự kiện, khả năng chịu lỗi và các thao tác trạng thái, làm cho nó trở nên lý tưởng cho các ứng dụng như phân tích thời gian thực, phát hiện gian lận và hệ thống dựa trên sự kiện. Flink có khả năng mở rộng rất tốt, tích hợp với nhiều hệ thống dữ liệu khác nhau và được sử dụng rộng rãi trong các ngành công nghiệp để thực hiện các tác vụ xử lý dữ liệu quy mô lớn theo thời gian thực.",
+        "links": [
+          {
+            "title": "Tài liệu Apache Flink",
+            "url": "https://flink.apache.org/",
+            "type": "official"
+          },
+          {
+            "title": "Apache Flink",
+            "url": "https://www.tutorialspoint.com/apache_flink/apache_flink_introduction.htm",
+            "type": "article"
+          },
+          {
+            "title": "Giới thiệu về Xử lý Luồng với Apache Flink",
+            "url": "https://towardsdatascience.com/an-introduction-to-stream-processing-with-apache-flink-b4acfa58f14d/?utm_source=roadmap&utm_medium=Referral&utm_campaign=TDS+roadmap+integration",
+            "type": "article"
+          },
+          {
+            "title": "Giới thiệu | Apache Flink 101",
+            "url": "https://www.youtube.com/watch?v=3cg5dABA6mo&list=PLa7VYi0yPIH1UdmQcnUr8lvjbUV8JriK0",
+            "type": "video"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Apache Flink",
+            "url": "https://app.daily.dev/tags/apache-flink?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "iTsEHVCo6KGq7H2HMgy5S",
+      "type": "topic",
+      "label": "Nguyên tắc MLOps",
+      "position": {
+        "x": -208.86391109269857,
+        "y": 888.4952084201582
+      },
+      "size": {
+        "width": 190,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Các nguyên tắc MLOps (Học máy vận hành) tập trung vào việc tối ưu hóa quá trình triển khai, giám sát và quản lý các mô hình học máy trong môi trường sản xuất. Các nguyên tắc chính bao gồm: 1. **Sự hợp tác**: Thúc đẩy sự hợp tác giữa các nhà khoa học dữ liệu, nhà phát triển và nhóm vận hành để đảm bảo sự phù hợp về mục tiêu của mô hình, hiệu suất và quản lý vòng đời. 2. **Tự động hóa**: Tự động hóa quy trình làm việc cho huấn luyện mô hình, kiểm thử, triển khai và giám sát để tăng cường hiệu quả, giảm lỗi và đẩy nhanh chu kỳ phát triển. 3. **Kiểm soát phiên bản**: Triển khai kiểm soát phiên bản cho cả mã và dữ liệu để theo dõi các thay đổi, tái tạo thí nghiệm và duy trì dòng dõi mô hình. 4. **Tích hợp và Triển khai Liên tục (CI/CD)**: Thiết lập các đường dẫn ống CI/CD được điều chỉnh cho học máy để hỗ trợ quá trình lặp lại và triển khai mô hình nhanh chóng. 5. **Giám sát và Quản trị**: Giám sát liên tục hiệu suất của mô hình và sự trôi dạt dữ liệu trong môi trường sản xuất để đảm bảo các mô hình vẫn hiệu quả và tuân thủ các yêu cầu quy định. 6. **Khả năng mở rộng**: Thiết kế hệ thống có thể mở rộng để xử lý khối lượng công việc khác nhau và đáp ứng những thay đổi về khối lượng dữ liệu và độ phức tạp. 7. **Tái tạo**: Đảm bảo rằng các thí nghiệm có thể được tái tạo đáng tin cậy bằng cách chuẩn hóa môi trường và quy trình làm việc, giúp dễ dàng xác thực và lặp lại mô hình hơn. Những nguyên tắc này giúp các tổ chức quản lý vòng đời của các mô hình học máy một cách hiệu quả, từ phát triển đến triển khai và vượt ra ngoài đó.",
+        "links": [
+          {
+            "title": "Nguyên tắc MLOps",
+            "url": "https://ml-ops.org/content/mlops-principles",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "l1xasxQy2vAY34NWaqKEe",
+      "type": "topic",
+      "label": "Các thành phần MLOps",
+      "position": {
+        "x": 45.05607963417134,
+        "y": 888.4952084201582
+      },
+      "size": {
+        "width": 209,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Các thành phần MLOps có thể được phân loại rộng rãi thành ba danh mục chính: Phát triển, Vận hành và Quản trị. Danh mục **Phát triển** bao gồm tất cả các yếu tố liên quan đến việc tạo ra các mô hình học máy, chẳng hạn như trích xuất dữ liệu, phân tích dữ liệu, kỹ thuật đặc trưng và huấn luyện mô hình học máy. Danh mục **Vận hành** bao gồm các thành phần liên quan đến việc triển khai, giám sát và bảo trì các mô hình học máy trong sản xuất. Điều này có thể bao gồm quản lý phát hành, phục vụ mô hình và giám sát hiệu suất. Cuối cùng, danh mục **Quản trị** bao gồm các chính sách và quy định liên quan đến các mô hình học máy. Điều này bao gồm kiểm toán và theo dõi mô hình, khả năng giải thích mô hình và các quy định về bảo mật & tuân thủ.",
+        "links": [
+          {
+            "title": "Luồng MLOps, Thành phần và Thực tiễn Quan trọng",
+            "url": "https://mlops.tv/p/understanding-ml-pipelines-through",
+            "type": "article"
+          },
+          {
+            "title": "Vòng đời MLOps",
+            "url": "https://www.moontechnolabs.com/blog/mlops-lifecycle/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "kHDSwlSq8WkLey4EJIQSR",
+      "type": "subtopic",
+      "label": "Kiểm soát phiên bản",
+      "position": {
+        "x": 184.43931539181858,
+        "y": 979.1270488906907
+      },
+      "size": {
+        "width": 347,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Kiểm soát phiên bản là một hệ thống ghi lại các thay đổi đối với một tệp hoặc tập hợp các tệp theo thời gian để bạn có thể truy xuất các phiên bản cụ thể sau này. Nó cho phép nhiều người cùng cộng tác trên cùng một dự án mà không ghi đè lên công việc của nhau. Hệ thống này theo dõi các sửa đổi đối với mã, cấu hình, dữ liệu và các thành phần khác, cung cấp một lịch sử thay đổi và cho phép dễ dàng khôi phục lại trạng thái trước đó.",
+        "links": [
+          {
+            "title": "Truy cập Bản đồ Đường đi dành riêng cho Git & GitHub",
+            "url": "https://dev-path-murex.vercel.app/roadmap/git-github",
+            "type": "roadmap"
+          },
+          {
+            "title": "Git",
+            "url": "https://git-scm.com/",
+            "type": "official"
+          },
+          {
+            "title": "Tài liệu Git",
+            "url": "https://git-scm.com/docs",
+            "type": "official"
+          },
+          {
+            "title": "Version Control là gì?",
+            "url": "https://www.atlassian.com/git/tutorials/what-is-version-control",
+            "type": "article"
+          },
+          {
+            "title": "Bắt Đầu với Git và GitHub: Hướng Dẫn Toàn Căn cho Người Mới Bắt Động",
+            "url": "https://towardsdatascience.com/learn-basic-git-commands-for-your-data-science-works-2a75396d530d/",
+            "type": "article"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Kiểm soát phiên bản",
+            "url": "https://app.daily.dev/tags/version-control?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a6vawajw7BpL6plH_nuAz",
+      "type": "subtopic",
+      "label": "CI/CD",
+      "position": {
+        "x": 184.1360889073012,
+        "y": 1032.1270488906907
+      },
+      "size": {
+        "width": 108,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "CI/CD, which stands for Continuous Integration and Continuous Delivery/Deployment, is a software development practice that automates the process of building, testing, and deploying code changes. Continuous Integration focuses on frequently merging code changes into a central repository, followed by automated builds and tests. Continuous Delivery/Deployment then automates the release of these validated code changes to a staging or production environment.",
+        "links": [
+          {
+            "title": "CI/CD là gì? - GitLab",
+            "url": "https://about.gitlab.com/topics/ci-cd/",
+            "type": "article"
+          },
+          {
+            "title": "CI/CD là gì? - Redhat",
+            "url": "https://www.redhat.com/en/topics/devops/what-is-ci-cd",
+            "type": "article"
+          },
+          {
+            "title": "CI/CD trong 5 Phút",
+            "url": "https://www.youtube.com/watch?v=42UP1fxi2SY",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "fes7M--Y8i08_zeP98tVV",
+      "type": "subtopic",
+      "label": "Điều phối",
+      "position": {
+        "x": 296.4393153918186,
+        "y": 1032.1270488906907
+      },
+      "size": {
+        "width": 235,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Orchestration của ML đề cập đến quy trình quản lý và điều phối các tác vụ và luồng công việc khác nhau liên quan đến vòng đời học máy, từ chuẩn bị dữ liệu và huấn luyện mô hình đến triển khai và giám sát. Nó bao gồm tích hợp nhiều công cụ và nền tảng để tối ưu hóa hoạt động, tự động hóa các nhiệm vụ lặp đi lặp lại và đảm bảo sự cộng tác liền mạch giữa các nhà khoa học dữ liệu, kỹ sư và nhóm vận hành. Bằng cách sử dụng các khung orchestration, các tổ chức có thể nâng cao khả năng tái tạo, khả năng mở rộng và hiệu quả, cho phép họ quản lý các đường dẫn ống học máy phức tạp và cải thiện chất lượng tổng thể của mô hình trong môi trường sản xuất. Điều này đảm bảo rằng các mô hình được cập nhật và duy trì một cách nhất quán, hỗ trợ quá trình lặp lại và thích ứng nhanh chóng với dữ liệu và nhu cầu kinh doanh thay đổi.",
+        "links": [
+          {
+            "title": "Giới thiệu về Điều phối Dữ liệu: Quy trình và Lợi ích",
+            "url": "https://www.datacamp.com/blog/introduction-to-data-orchestration-process-and-benefits",
+            "type": "article"
+          },
+          {
+            "title": "Hướng dẫn toàn diện về cách hiểu Điều phối dữ liệu",
+            "url": "https://towardsdatascience.com/a-complete-guide-to-understanding-data-orchestration-87a20b46297c/?utm_source=roadmap&utm_medium=Referral&utm_campaign=TDS+roadmap+integration",
+            "type": "article"
+          },
+          {
+            "title": "Công Cụ Điều Chỉnh Dữ Liệu (Hướng Dẫn Nhanh)",
+            "url": "https://www.montecarlodata.com/blog-11-data-orchestration-tools",
+            "type": "article"
+          },
+          {
+            "title": "Data Orchestration là gì?",
+            "url": "https://www.youtube.com/watch?v=iyw9puEmTrA",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "fGGWKmAJ50Ke6wWJBEgby",
+      "type": "subtopic",
+      "label": "Theo dõi Thí nghiệm & Hồ sơ Mô hình",
+      "position": {
+        "x": 184.43931539181858,
+        "y": 1086.513449674912
+      },
+      "size": {
+        "width": 347,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "**Theo dõi thử nghiệm** là một phần thiết yếu của MLOps, cung cấp một hệ thống để giám sát và ghi lại các thử nghiệm khác nhau được thực hiện trong quá trình phát triển mô hình học máy. Điều này bao gồm việc nắm bắt, tổ chức và trực quan hóa dữ liệu siêu dữ liệu liên kết với mỗi thử nghiệm, chẳng hạn như siêu tham số được sử dụng, mô hình được tạo ra, các chỉ số như độ chính xác hoặc mất mát và các thông tin khác về môi trường tính toán. Việc theo dõi này cho phép tái sản xuất các thử nghiệm, so sánh giữa các lần chạy thử nghiệm khác nhau và giúp xác định các mô hình tốt nhất.",
+        "links": [
+          {
+            "title": "Theo dõi Thí nghiệm",
+            "url": "https://madewithml.com/courses/mlops/experiment-tracking/#dashboard",
+            "type": "article"
+          },
+          {
+            "title": "Thư viện mô hình ML Flow",
+            "url": "https://mlflow.org/docs/latest/model-registry.html",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6XgP_2NLuiw654zvTyueT",
+      "type": "subtopic",
+      "label": "Linh Tracing & Kho Lưu Trữ Tính Năng (Feature Stores)",
+      "position": {
+        "x": 184.43931539181858,
+        "y": 1139.513449674912
+      },
+      "size": {
+        "width": 347,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "**Lịch trình dữ liệu** đề cập đến vòng đời của dữ liệu, bao gồm nguồn gốc, chuyển động, đặc điểm và chất lượng của nó. Đây là thành phần quan trọng trong MLOps để theo dõi hành trình của dữ liệu thông qua mọi quy trình trong một luồng làm việc, từ đầu vào thô đến đầu ra mô hình. Lịch trình dữ liệu giúp duy trì tính minh bạch, đảm bảo tuân thủ và hỗ trợ gỡ lỗi hoặc truy vết các lỗi liên quan đến dữ liệu. Nó cung cấp một biểu diễn rõ ràng về nguồn dữ liệu, chuyển đổi và sự phụ thuộc, từ đó hỗ trợ kiểm toán, quản trị hoặc tái tạo mô hình học máy.",
+        "links": [
+          {
+            "title": "Data Lineage là gì?",
+            "url": "https://www.ibm.com/topics/data-lineage",
+            "type": "article"
+          },
+          {
+            "title": "Feature Store là gì?",
+            "url": "https://www.snowflake.com/guides/what-feature-store-machine-learning/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "zsW1NRb0dMgS-KzWsI0QU",
+      "type": "subtopic",
+      "label": "Huấn luyện và Phục vụ Mô hình",
+      "position": {
+        "x": 184.43931539181858,
+        "y": 1192.513449674912
+      },
+      "size": {
+        "width": 347,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Huấn luyện mô hình đề cập đến giai đoạn trong quy trình làm việc Học Máy (ML) nơi chúng ta dạy một mô hình học máy cách đưa ra dự đoán bằng cách cung cấp cho nó dữ liệu. Quá trình này bắt đầu bằng cách cung cấp dữ liệu huấn luyện cho mô hình, mà nó sử dụng để học và hiểu các mẫu hoặc thực hiện tính toán. Hiệu suất của mô hình sau đó được đánh giá bằng cách so sánh đầu ra dự đoán của nó với kết quả thực tế. Nhiều thuật toán có thể được sử dụng trong quá trình huấn luyện mô hình. Việc lựa chọn thuật toán thường phụ thuộc vào nhiệm vụ, dữ liệu có sẵn và yêu cầu của dự án. Có đáng lưu ý rằng giai đoạn huấn luyện mô hình có thể tốn kém về mặt tính toán, đặc biệt khi làm việc với các tập dữ liệu lớn hoặc các mô hình phức tạp.",
+        "links": [
+          {
+            "title": "Model training là gì?",
+            "url": "https://www.ibm.com/think/topics/model-training",
+            "type": "opensource"
+          },
+          {
+            "title": "AI Model Huấn luyện là gì và tại sao nó lại quan trọng?",
+            "url": "https://www.oracle.com/uk/artificial-intelligence/ai-model-training/",
+            "type": "article"
+          },
+          {
+            "title": "Hướng dẫn KServe",
+            "url": "https://towardsdatascience.com/kserve-highly-scalable-machine-learning-deployment-with-kubernetes-aa7af0b71202/?utm_source=roadmap&utm_medium=Referral&utm_campaign=TDS+roadmap+integration",
+            "type": "article"
+          },
+          {
+            "title": "Năm Bước Tạo Mẫu AI Mới",
+            "url": "https://www.youtube.com/watch?v=jcgaNrC4ElU&t=172s",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "r4fbUwD83uYumEO1X8f09",
+      "type": "subtopic",
+      "label": "Giám sát & Khả năng quan sát",
+      "position": {
+        "x": 184.43931539181858,
+        "y": 1245.513449674912
+      },
+      "size": {
+        "width": 347,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "**Giám sát** trong MLOps chủ yếu liên quan đến việc theo dõi hiệu suất của các mô hình học máy (ML) trong môi trường sản xuất để đảm bảo rằng chúng tiếp tục cung cấp kết quả chính xác và đáng tin cậy. Việc giám sát này là cần thiết vì dữ liệu thực tế mà các mô hình này xử lý có thể thay đổi theo thời gian, một kịch bản được gọi là trôi dạt dữ liệu. Những thay đổi này có thể ảnh hưởng tiêu cực đến hiệu suất của mô hình. Giám sát giúp phát hiện bất kỳ dị thường nào trong hành vi hoặc hiệu suất của mô hình và các cảnh báo đó có thể kích hoạt việc huấn luyện lại mô hình với dữ liệu mới. Từ một quan điểm rộng hơn, giám sát cũng bao gồm việc theo dõi tài nguyên và quy trình làm việc để phát hiện và khắc phục mọi vấn đề vận hành trong luồng công việc MLOps.",
+        "links": [
+          {
+            "title": "Giám sát ML so với Khả năng quan sát ML",
+            "url": "https://medium.com/marvelous-mlops/ml-monitoring-vs-ml-observability-understanding-the-differences-fff574a8974f",
+            "type": "article"
+          },
+          {
+            "title": "Xây dựng Khung Nhận thức Dữ liệu Tích hợp để Đảm bảo Chất lượng và Tính toàn vẹn Dữ liệu",
+            "url": "https://towardsdatascience.com/building-a-robust-data-observability-framework-to-ensure-data-quality-and-integrity-07ff6cffdf69/?utm_source=roadmap&utm_medium=Referral&utm_campaign=TDS+roadmap+integration",
+            "type": "article"
+          },
+          {
+            "title": "Khả năng quan sát ML so với Giám sát ML: Sự khác biệt là gì?",
+            "url": "https://www.youtube.com/watch?v=k1Reed3QIYE",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sf67bSL7HAx6iN7S6MYKs",
+      "type": "topic",
+      "label": "Hạ tầng như Mã (Infrastructure as Code)",
+      "position": {
+        "x": -82.94871154614214,
+        "y": 1090.513449674912
+      },
+      "size": {
+        "width": 219,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Hạ tầng như Mã (IaC) là một phương pháp hiện đại để quản lý và cung cấp tài nguyên cơ sở hạ tầng IT thông qua các tệp cấu hình có thể đọc được bằng máy, thay vì quy trình thủ công. Nó cho phép các nhà phát triển và nhóm vận hành xác định và quản lý tài nguyên cơ sở hạ tầng—như máy chủ, mạng và cơ sở dữ liệu—sử dụng mã, có thể kiểm soát phiên bản, thử nghiệm và triển khai giống như mã ứng dụng. Các công cụ IaC như Terraform và AWS CloudFormation cho phép triển khai tự động, lặp lại, giảm thiểu sai sót do con người và tăng cường tính nhất quán trên các môi trường. Thực hành này hỗ trợ phát triển linh hoạt, cải thiện sự hợp tác giữa các nhóm và hỗ trợ quản lý cơ sở hạ tầng có khả năng mở rộng và hiệu quả.",
+        "links": [
+          {
+            "title": "Infrastructure as Code là gì?",
+            "url": "https://www.redhat.com/en/topics/automation/what-is-infrastructure-as-code-iac",
+            "type": "article"
+          },
+          {
+            "title": "Quản lý Tự động Cơ sở hạ tầng Pipeline Dữ liệu với Terraform",
+            "url": "https://towardsdatascience.com/automatically-managing-data-pipeline-infrastructures-with-terraform-323fd1808a47/?utm_source=roadmap&utm_medium=Referral&utm_campaign=TDS+roadmap+integration",
+            "type": "article"
+          },
+          {
+            "title": "Khóa học Terraform dành cho người mới bắt đầu",
+            "url": "https://www.youtube.com/watch?v=SLB_c_ayRMo",
+            "type": "video"
+          },
+          {
+            "title": "8 Thực hành tốt nhất của Terraform",
+            "url": "https://www.youtube.com/watch?v=gxPykhPxRW0",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "36akZIuVtQ0f-3d4pJL8k",
+      "type": "paragraph",
+      "label": "Tiếp tục học hỏi",
+      "position": {
+        "x": -70.44871154614214,
+        "y": 1226.513449674912
+      },
+      "size": {
+        "width": 194,
+        "height": 73
+      },
+      "style": {
+        "fontSize": 24,
+        "borderColor": "transparent",
+        "backgroundColor": "transparent",
+        "color": "#000000",
+        "textAlign": "center",
+        "justifyContent": "flex-start",
+        "padding": 16
+      },
+      "z_index": 999
+    },
+    {
+      "id": "mJPTVaiqPP9tfykaGs1_h",
+      "type": "vertical",
+      "label": "nút theo chiều dọc",
+      "position": {
+        "x": 16.051288453857865,
+        "y": 1299.513449674912
+      },
+      "size": {
+        "width": 21,
+        "height": 94
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 4,
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round"
+      },
+      "z_index": 999
+    }
+  ],
+  "edges": [
+    {
+      "id": "M0aRyhxjzTWUOW95D1g1y",
+      "source": "",
+      "target": "GV_zWF6rSWg5bqgiXhOEf",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "smoothstep",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "Xw4lLz2zWuTkNu8r4oheF",
+      "source": "",
+      "target": "GV_zWF6rSWg5bqgiXhOEf",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "mbCXMk97_HKXG3d4TxBOC",
+      "source": "",
+      "target": "GV_zWF6rSWg5bqgiXhOEf",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-iogwMmOvub2ZF4zgg6WyFx2-rQArtuVKGVgLn_fw9yO3bw2",
+      "source": "iogwMmOvub2ZF4zgg6WyF",
+      "target": "_7uvOebQUI4xaSwtMjpEd",
+      "source_handle": "x2",
+      "target_handle": "w2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-rQArtuVKGVgLn_fw9yO3bz2-Vh81GnOUOZvDOlOyI5PwTy1",
+      "source": "_7uvOebQUI4xaSwtMjpEd",
+      "target": "Vh81GnOUOZvDOlOyI5PwT",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-rQArtuVKGVgLn_fw9yO3bz2-vdVq3RQvQF3mF8PQc6DMgy2",
+      "source": "_7uvOebQUI4xaSwtMjpEd",
+      "target": "vdVq3RQvQF3mF8PQc6DMg",
+      "source_handle": "z2",
+      "target_handle": "y2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-rQArtuVKGVgLn_fw9yO3bz2-mMzqJF2KQ49TDEk5F3VAIy1",
+      "source": "_7uvOebQUI4xaSwtMjpEd",
+      "target": "mMzqJF2KQ49TDEk5F3VAI",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-rQArtuVKGVgLn_fw9yO3bx2-oUhlUoWQQ1txx_sepD5evw2",
+      "source": "_7uvOebQUI4xaSwtMjpEd",
+      "target": "oUhlUoWQQ1txx_sepD5ev",
+      "source_handle": "x2",
+      "target_handle": "w2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-oUhlUoWQQ1txx_sepD5evz2-06T5CbZAGJU6fJhCmqCC8y2",
+      "source": "oUhlUoWQQ1txx_sepD5ev",
+      "target": "06T5CbZAGJU6fJhCmqCC8",
+      "source_handle": "z2",
+      "target_handle": "y2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-oUhlUoWQQ1txx_sepD5evx2-tKeejLv8Q7QX40UtOjpavw1",
+      "source": "oUhlUoWQQ1txx_sepD5ev",
+      "target": "00GZcwe25QYi7rDzaOoMt",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-tKeejLv8Q7QX40UtOjpavz2-u3E7FGW4Iwdsu61KYFxCXy1",
+      "source": "00GZcwe25QYi7rDzaOoMt",
+      "target": "u3E7FGW4Iwdsu61KYFxCX",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-tKeejLv8Q7QX40UtOjpavz2-kbfucfIO5KCsuv3jKbHTay1",
+      "source": "00GZcwe25QYi7rDzaOoMt",
+      "target": "kbfucfIO5KCsuv3jKbHTa",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-00GZcwe25QYi7rDzaOoMtx2-tKeejLv8Q7QX40UtOjpavw1",
+      "source": "00GZcwe25QYi7rDzaOoMt",
+      "target": "tKeejLv8Q7QX40UtOjpav",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-tKeejLv8Q7QX40UtOjpavz2-XIdCvT-4HyyglHJLRrHlzy1",
+      "source": "tKeejLv8Q7QX40UtOjpav",
+      "target": "XIdCvT-4HyyglHJLRrHlz",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-tKeejLv8Q7QX40UtOjpavz2-XQoK9l-xtN2J8ZV8dw53Xy1",
+      "source": "tKeejLv8Q7QX40UtOjpav",
+      "target": "XQoK9l-xtN2J8ZV8dw53X",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-tKeejLv8Q7QX40UtOjpavx2-qbaxC-hB857MKE6Uq_3-tw2",
+      "source": "tKeejLv8Q7QX40UtOjpav",
+      "target": "ulka7VEVjz6ls5SnI6a6z",
+      "source_handle": "x2",
+      "target_handle": "w2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-ulka7VEVjz6ls5SnI6a6zx2-qbaxC-hB857MKE6Uq_3-tw1",
+      "source": "ulka7VEVjz6ls5SnI6a6z",
+      "target": "VykbCu7LWIx8fQpqKzoA7",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-qbaxC-hB857MKE6Uq_3-ty2-cOg3ejZRYE-u-M0c89IjMz1",
+      "source": "VykbCu7LWIx8fQpqKzoA7",
+      "target": "cOg3ejZRYE-u-M0c89IjM",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-qbaxC-hB857MKE6Uq_3-ty2-wOogVDV4FIDLXVPwFqJ8Cz1",
+      "source": "VykbCu7LWIx8fQpqKzoA7",
+      "target": "wOogVDV4FIDLXVPwFqJ8C",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-qbaxC-hB857MKE6Uq_3-ty2-Berd78HvnulNEGOsHCf8nz1",
+      "source": "VykbCu7LWIx8fQpqKzoA7",
+      "target": "Berd78HvnulNEGOsHCf8n",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-qbaxC-hB857MKE6Uq_3-tz2-fMNwzhgLgHlAZJ9NvKikRy2",
+      "source": "VykbCu7LWIx8fQpqKzoA7",
+      "target": "fMNwzhgLgHlAZJ9NvKikR",
+      "source_handle": "z2",
+      "target_handle": "y2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-qbaxC-hB857MKE6Uq_3-tz2-UljuqA89_SlCSDWWMD_C_y2",
+      "source": "VykbCu7LWIx8fQpqKzoA7",
+      "target": "UljuqA89_SlCSDWWMD_C_",
+      "source_handle": "z2",
+      "target_handle": "y2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-qbaxC-hB857MKE6Uq_3-tz2-o6GQ3-8DgDtHzdX6yeg1wy1",
+      "source": "VykbCu7LWIx8fQpqKzoA7",
+      "target": "o6GQ3-8DgDtHzdX6yeg1w",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-VykbCu7LWIx8fQpqKzoA7x2-qbaxC-hB857MKE6Uq_3-tw1",
+      "source": "VykbCu7LWIx8fQpqKzoA7",
+      "target": "iTsEHVCo6KGq7H2HMgy5S",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-VykbCu7LWIx8fQpqKzoA7x2-l1xasxQy2vAY34NWaqKEew1",
+      "source": "VykbCu7LWIx8fQpqKzoA7",
+      "target": "l1xasxQy2vAY34NWaqKEe",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-l1xasxQy2vAY34NWaqKEex2-sf67bSL7HAx6iN7S6MYKsw1",
+      "source": "l1xasxQy2vAY34NWaqKEe",
+      "target": "sf67bSL7HAx6iN7S6MYKs",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-iTsEHVCo6KGq7H2HMgy5Sx2-sf67bSL7HAx6iN7S6MYKsw1",
+      "source": "iTsEHVCo6KGq7H2HMgy5S",
+      "target": "sf67bSL7HAx6iN7S6MYKs",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-sf67bSL7HAx6iN7S6MYKsx2-36akZIuVtQ0f-3d4pJL8kw2",
+      "source": "sf67bSL7HAx6iN7S6MYKs",
+      "target": "36akZIuVtQ0f-3d4pJL8k",
+      "source_handle": "x2",
+      "target_handle": "w2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    }
+  ],
+  "content_crawled_at": "2026-04-06T09:53:00.944376+00:00"
+}

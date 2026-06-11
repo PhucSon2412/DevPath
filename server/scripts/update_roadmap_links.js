@@ -12,7 +12,8 @@ dotenv.config({ path: path.join(__dirname, '..', '.env') });
 // Đường dẫn tới thư mục chứa data roadmaps
 const DATA_DIRS = [
   path.join(__dirname, '../../crawldata/roadmaps_json'),
-  path.join(__dirname, '../../crawldata/roadmaps_json_jp')
+  path.join(__dirname, '../../crawldata/roadmaps_json_jp'),
+  path.join(__dirname, '../../crawldata/roadmaps_json_vi')
 ];
 
 // Regex để bắt các URL roadmap (roadmap.sh hoặc app đã deploy)

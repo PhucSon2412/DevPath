@@ -1,0 +1,4275 @@
+{
+  "id": "java",
+  "title": "Java",
+  "source_url": "https://roadmap.sh/java",
+  "github_url": "https://github.com/kamranahmedse/developer-roadmap/tree/master/src/data/roadmaps/java",
+  "crawled_at": "2026-04-06T07:37:10.643354+00:00",
+  "type": "flow",
+  "stats": {
+    "total_nodes": 117,
+    "total_edges": 44,
+    "nodes_with_content": 86
+  },
+  "node_types": [
+    "button",
+    "horizontal",
+    "label",
+    "paragraph",
+    "section",
+    "subtopic",
+    "title",
+    "topic",
+    "vertical"
+  ],
+  "edge_styles": [
+    "dashed",
+    "solid"
+  ],
+  "edge_line_types": [
+    "default",
+    "simplebezier",
+    "smoothstep"
+  ],
+  "node_type_description": {
+    "title": "Tóm tắt lộ trình tổng quan",
+    "topic": "Chủ đề lớn (nhóm kỹ năng)",
+    "subtopic": "Kỹ năng/công nghệ cụ thể cần học",
+    "paragraph": "Vùng văn bản mô tả / chú thích",
+    "vertical": "Đường kết nối dọc (visual connector)"
+  },
+  "edge_style_description": {
+    "solid": "Kỹ năng bắt buộc / quan trọng",
+    "dashed": "Lựa chọn / đề xuất / phương án thay thế"
+  },
+  "nodes": [
+    {
+      "id": "CdLumO1g7RNbOkwUFkVC3",
+      "type": "horizontal",
+      "label": "nút ngang",
+      "position": {
+        "x": 1216.3696984675892,
+        "y": 1636.8196545591995
+      },
+      "size": {
+        "width": 157,
+        "height": 20
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.65,
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "VheIOU0XKrEw_5M-Wv4yv",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": 1022.3252013753893,
+        "y": 1620.015947794886
+      },
+      "size": {
+        "width": 195,
+        "height": 124
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "8Ej86dM3j55V5r29WHTef",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": 839.8929054677501,
+        "y": 1619.5740097760008
+      },
+      "size": {
+        "width": 187,
+        "height": 168
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "phhoZcCGuVm_zYFfcArb8",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": 699.482369832682,
+        "y": 1618.4390443834811
+      },
+      "size": {
+        "width": 146,
+        "height": 169
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "iv_f10rCHm21sz5hesZxj",
+      "type": "vertical",
+      "label": "nút theo chiều dọc",
+      "position": {
+        "x": 1688.2217949048954,
+        "y": 1645.8131791964786
+      },
+      "size": {
+        "width": 21,
+        "height": 104
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.65,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "l40LZhtS-ldRtJ2cgiiXc",
+      "type": "vertical",
+      "label": "nút theo chiều dọc",
+      "position": {
+        "x": 1577.5469679422956,
+        "y": 1649.8131791964786
+      },
+      "size": {
+        "width": 21,
+        "height": 100
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.65,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "7HWfRgtCU9Dv2N_3oHwYe",
+      "type": "horizontal",
+      "label": "nút ngang",
+      "position": {
+        "x": 945.0073106597292,
+        "y": 1515.8599244017678
+      },
+      "size": {
+        "width": 96,
+        "height": 20
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.65
+      },
+      "z_index": 999
+    },
+    {
+      "id": "BUES6hALwmHMS0oAKPKz0",
+      "type": "vertical",
+      "label": "nút theo chiều dọc",
+      "position": {
+        "x": 782.5073106597292,
+        "y": 1116.3203519457165
+      },
+      "size": {
+        "width": 21,
+        "height": 166
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.6
+      },
+      "z_index": 999
+    },
+    {
+      "id": "pbxsWeOonIRXRxPpdV-zo",
+      "type": "horizontal",
+      "label": "nút ngang",
+      "position": {
+        "x": 818.6618709488598,
+        "y": 1178.2990031143668
+      },
+      "size": {
+        "width": 170,
+        "height": 20
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.6
+      },
+      "z_index": 999
+    },
+    {
+      "id": "myugQ4WCRi1GGRZJ8uu5k",
+      "type": "vertical",
+      "label": "nút theo chiều dọc",
+      "position": {
+        "x": 808.6618709488598,
+        "y": 1115.3203519457165
+      },
+      "size": {
+        "width": 21,
+        "height": 75
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.6
+      },
+      "z_index": 999
+    },
+    {
+      "id": "ofYL6wlERXJaXuKL075zY",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": 703.0073106597292,
+        "y": 1280.8599244017678
+      },
+      "size": {
+        "width": 243,
+        "height": 270
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "FY6qOOwg_pdFKoYPVOeys",
+      "type": "horizontal",
+      "label": "nút ngang",
+      "position": {
+        "x": 1478.3696984675892,
+        "y": 1176.8203519457165
+      },
+      "size": {
+        "width": 65,
+        "height": 20
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.65
+      },
+      "z_index": 999
+    },
+    {
+      "id": "ekkBrbM8BtpMu3TpHadYb",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": 1251.596805689261,
+        "y": 889.688197690446
+      },
+      "size": {
+        "width": 229,
+        "height": 322
+      },
+      "style": {
+        "width": 150,
+        "height": 100,
+        "fontSize": 17,
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "FyTlaUqrK5h3e5mWwkvVg",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": 1018.5552405844742,
+        "y": 524.0085042417479
+      },
+      "size": {
+        "width": 450,
+        "height": 316
+      },
+      "style": {
+        "width": 150,
+        "height": 100,
+        "fontSize": 17,
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "o5yOEJFOR-wScK0GWPuQq",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": 701.5073106597292,
+        "y": 403.3478959395741
+      },
+      "size": {
+        "width": 249,
+        "height": 440
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "hp15XdmPlKKTbYnrYfCBl",
+      "type": "title",
+      "label": "Java",
+      "position": {
+        "x": 1193.3343015809069,
+        "y": -6.124142006891191
+      },
+      "size": {
+        "width": 100,
+        "height": 68
+      },
+      "style": {
+        "fontSize": 28,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "2TGq1y2QthnxxN-FfToSe",
+      "type": "topic",
+      "label": "Học kiến thức cơ bản",
+      "position": {
+        "x": 1125.8343015809069,
+        "y": 187.97715893815337
+      },
+      "size": {
+        "width": 235,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Java là ngôn ngữ lập trình và nền tảng tính toán lần đầu tiên phát hành bởi Sun Microsystems vào năm 1995. Java là một ngôn ngữ lập trình đa năng, dựa trên lớp, hướng đối tượng được thiết kế để có ít sự phụ thuộc trong việc triển khai. Nó là một nền tảng tính toán cho phát triển ứng dụng. Java nhanh chóng, an toàn và đáng tin cậy. Do đó, nó được sử dụng rộng rãi để phát triển các ứng dụng Java trên máy tính xách tay, trung tâm dữ liệu, bộ điều khiển trò chơi, siêu máy tính khoa học, điện thoại di động,... Tìm hiểu về các nguyên tắc cơ bản của Java như cú pháp cơ bản, kiểu dữ liệu, biến, điều kiện, hàm, cấu trúc dữ liệu, gói,...",
+        "links": [
+          {
+            "title": "Giới thiệu về Java bằng Hyperskill (JetBrains Academy)",
+            "url": "https://hyperskill.org/tracks/8",
+            "type": "course"
+          },
+          {
+            "title": "Head First Java",
+            "url": "https://www.amazon.co.uk/Head-First-Java-3rd-Brain-Friendly/dp/1491910771",
+            "type": "article"
+          },
+          {
+            "title": "Thinking in Java",
+            "url": "https://www.amazon.co.uk/Thinking-Java-Eckel-Bruce-February/dp/B00IBON6C6",
+            "type": "article"
+          },
+          {
+            "title": "Effective Java",
+            "url": "https://www.amazon.com/Effective-Java-Joshua-Bloch/dp/0134685997",
+            "type": "article"
+          },
+          {
+            "title": "Java: Hướng dẫn dành cho người mới bắt đầu",
+            "url": "https://www.amazon.co.uk/Java-Beginners-Guide-Herbert-Schildt/dp/1260463559",
+            "type": "article"
+          },
+          {
+            "title": "Java: Tài liệu tham khảo đầy đủ",
+            "url": "https://www.amazon.co.uk/gp/product/B09JL8BMK7/ref=dbs_a_def_rwt_bibl_vppi_i2",
+            "type": "article"
+          },
+          {
+            "title": "Hướng dẫn Java cho Người mới bắt đầu",
+            "url": "https://youtu.be/eIrMbAQSU34",
+            "type": "video"
+          },
+          {
+            "title": "Java + DSA + Interview Preparation Course (For beginners)",
+            "url": "https://youtube.com/playlist?list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ",
+            "type": "video"
+          },
+          {
+            "title": "Khám phá các bài đăng được yêu thích nhất về Java.",
+            "url": "https://app.daily.dev/tags/java?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "rj8ATHPvFP-QtD9mDLY0Z",
+      "type": "vertical",
+      "label": "nút theo chiều dọc",
+      "position": {
+        "x": 1232.8343015809069,
+        "y": -98.12414200689119
+      },
+      "size": {
+        "width": 21,
+        "height": 92
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.75,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "OlbQNB6YXZjO1J7D0lZU1",
+      "type": "subtopic",
+      "label": "Cú pháp cơ bản",
+      "position": {
+        "x": 699.1618709488599,
+        "y": 81.97715893815337
+      },
+      "size": {
+        "width": 248,
+        "height": 50
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Hiểu rõ các kiến thức cơ bản là chìa khóa để xây dựng nền tảng vững chắc. Trong phần này, bạn sẽ tìm hiểu về các thuật ngữ cơ bản, quy tắc đặt tên, từ khóa được bảo lưu, biểu thức, câu lệnh, cấu trúc dữ liệu, lập trình hướng đối tượng (OOP), package,... *   Để in ra đầu ra, sử dụng --> System.out.println(); *   Để nhận đầu vào từ người dùng, có thể sử dụng lớp Scanner hoặc BufferedReader.",
+        "links": [
+          {
+            "title": "Cơ sở Java",
+            "url": "https://dev.java/learn/language-basics",
+            "type": "official"
+          },
+          {
+            "title": "Java - Basic Syntax",
+            "url": "https://www.youtube.com/watch?v=81piDKqPxjQ",
+            "type": "video"
+          },
+          {
+            "title": "Hướng dẫn Java cho Người mới bắt đầu",
+            "url": "https://www.youtube.com/watch?v=RRubcjpTkks",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5g9mmi01WeZ4aDqNzwx_V",
+      "type": "subtopic",
+      "label": "Kiểu Dữ liệu",
+      "position": {
+        "x": 699.1618709488599,
+        "y": 187.97715893815337
+      },
+      "size": {
+        "width": 248,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Biến trong Java là một container dữ liệu lưu trữ các giá trị dữ liệu trong quá trình thực thi chương trình Java. Mỗi biến được gán một kiểu dữ liệu, xác định loại và số lượng giá trị mà nó có thể chứa. Biến là tên vị trí bộ nhớ của dữ liệu. Các biến Java chủ yếu có ba loại: Local, Instance và Static. Kiểu dữ liệu được chia thành hai nhóm - *   Cơ sở (Primitive) - byte, short, int, long, float, double, boolean và char *   Phi cơ sở (Non-Primitive) - String, Arrays, Classes, Enums và Records",
+        "links": [
+          {
+            "title": "Kiểu Dữ liệu Java",
+            "url": "https://jenkov.com/tutorials/java/variables.html",
+            "type": "article"
+          },
+          {
+            "title": "Các kiểu dữ liệu và biến là gì?",
+            "url": "https://jenkov.com/tutorials/java/data-types.html",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sG_3ZQIE1-FQXQkk-OduQ",
+      "type": "subtopic",
+      "label": "Điều kiện (Conditionals)",
+      "position": {
+        "x": 1522.5338845627668,
+        "y": 239.38076562915717
+      },
+      "size": {
+        "width": 234,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Java có các câu lệnh điều kiện sau: *   Sử dụng `if` để chỉ định một khối mã được thực thi nếu một điều kiện được chỉ định là đúng *   Sử dụng `else` để chỉ định một khối mã được thực thi nếu cùng một điều kiện sai *   Sử dụng `else if` để chỉ định một điều kiện mới để kiểm tra; nếu điều kiện đầu tiên sai *   Sử dụng `switch` để chỉ định nhiều khối mã thay thế khác nhau được thực thi *   Sử dụng toán tử `?,:` để chỉ định điều kiện một dòng",
+        "links": [
+          {
+            "title": "Câu điều kiện là gì?",
+            "url": "https://www.educative.io/answers/what-are-conditional-statements-in-programming",
+            "type": "article"
+          },
+          {
+            "title": "Điều kiện và Vòng lặp trong Java",
+            "url": "https://youtu.be/ldYLYRNaucM",
+            "type": "video"
+          },
+          {
+            "title": "Các câu lệnh Switch + Trường hợp lồng nhau trong Java",
+            "url": "https://youtu.be/mA23x39DjbI",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5khApwg1FZ-0qorsLyH-F",
+      "type": "subtopic",
+      "label": "Mảng",
+      "position": {
+        "x": 1522.5338845627668,
+        "y": 186.38076562915717
+      },
+      "size": {
+        "width": 234,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Mảng là cấu trúc dữ liệu cơ bản được sử dụng để lưu trữ một tập hợp các phần tử cùng kiểu dữ liệu tại các vị trí bộ nhớ liền kề. Chúng cung cấp một cách để tổ chức và truy cập nhiều giá trị bằng một tên biến duy nhất và một chỉ số. Mỗi phần tử trong mảng có thể được truy cập trực tiếp bằng chỉ số của nó, bắt đầu từ 0.",
+        "links": [
+          {
+            "title": "Mảng Java",
+            "url": "https://jenkov.com/tutorials/java/arrays.html",
+            "type": "article"
+          },
+          {
+            "title": "Hướng dẫn Mảng Java",
+            "url": "https://www.youtube.com/watch?v=ei_4Nt7XWOw",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JHUhVEjWFXTn6-wKcKevg",
+      "type": "subtopic",
+      "label": "Vòng lặp",
+      "position": {
+        "x": 1522.5338845627668,
+        "y": 292.38076562915717
+      },
+      "size": {
+        "width": 234,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Trong Java và các ngôn ngữ lập trình khác, vòng lặp được sử dụng để lặp lại một phần của chương trình nhiều lần. Có bốn loại vòng lặp trong Java, bao gồm `for`, `forEach`, `while` và `do...while`.\n\n*   Cú pháp của vòng lặp `for` là `for(khởi_hành;điều_kiện;tăng_giảm){}`\n*   Cú pháp của vòng lặp `forEach` là `for(loại_dữ_liệu biến:tên_mảng){}`",
+        "links": [
+          {
+            "title": "Vòng lặp trong Java.",
+            "url": "https://www.programiz.com/java-programming/for-loop",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "VBNcAO0STaZJ1iV9A7utv",
+      "type": "subtopic",
+      "label": "Biến và Phạm vi",
+      "position": {
+        "x": 699.1618709488599,
+        "y": 240.97715893815337
+      },
+      "size": {
+        "width": 248,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Biến giống như các container chứa dữ liệu trong một chương trình. Mỗi biến có tên, kiểu (ví dụ: số nguyên, văn bản hoặc boolean) và giá trị. Phạm vi của một biến xác định nơi bạn có thể truy cập và sử dụng biến đó trong mã của bạn. Hiểu về phạm vi là rất quan trọng để tránh xung đột tên và đảm bảo dữ liệu được truy cập chính xác trong các phần khác nhau của chương trình.",
+        "links": [
+          {
+            "title": "Biến Java",
+            "url": "https://jenkov.com/tutorials/java/variables.html",
+            "type": "article"
+          },
+          {
+            "title": "Phạm vi biến Java",
+            "url": "https://www.baeldung.com/java-variable-scope",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "yNDbk6r5wFqBi25xmIRF_",
+      "type": "subtopic",
+      "label": "Chuyển đổi kiểu dữ liệu (Type Casting)",
+      "position": {
+        "x": 699.1618709488599,
+        "y": 293.97715893815337
+      },
+      "size": {
+        "width": 248,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Chuyển đổi kiểu dữ liệu là quá trình chuyển đổi một biến từ một kiểu dữ liệu sang một kiểu dữ liệu khác. Điều này thường cần thiết khi bạn cần thực hiện các thao tác giữa các biến có kiểu dữ liệu khác nhau, hoặc khi bạn cần lưu trữ một giá trị của một kiểu trong một biến thuộc một kiểu khác. Trong Java, chuyển đổi kiểu dữ liệu có thể là ngầm (tự động) hoặc tường minh (yêu cầu toán tử chuyển đổi).",
+        "links": [
+          {
+            "title": "Chuyển đổi kiểu dữ liệu trong Java: Tất cả những điều bạn cần biết",
+            "url": "https://www.simplilearn.com/tutorials/java-tutorial/type-casting-in-java",
+            "type": "article"
+          },
+          {
+            "title": "Chuyển đổi kiểu dữ liệu Java (Type Casting) (Với Ví dụ)",
+            "url": "https://www.programiz.com/java-programming/typecasting",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "aEaBobzFWv0mJHGAbgxKY",
+      "type": "subtopic",
+      "label": "Chuỗi và Phương thức",
+      "position": {
+        "x": 1522.5338845627668,
+        "y": 80.38076562915717
+      },
+      "size": {
+        "width": 234,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Chuỗi là một chuỗi các ký tự, chẳng hạn như từ hoặc câu, được sử dụng để biểu diễn văn bản trong lập trình. Các phương thức là các hành động bạn có thể thực hiện trên các chuỗi đó, chẳng hạn như tìm độ dài của chúng, thay đổi trường hợp (in hoa hoặc in thường) hoặc trích xuất các phần của chúng. Các phương thức này cho phép bạn thao tác và làm việc với dữ liệu văn bản một cách hiệu quả.",
+        "links": [
+          {
+            "title": "Chuỗi Java (Java Strings)",
+            "url": "https://jenkov.com/tutorials/java/strings.html",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ziD_XwzJSFQP_3iLjq9pA",
+      "type": "subtopic",
+      "label": "Các Phép Tính Toán Học",
+      "position": {
+        "x": 1522.5338845627668,
+        "y": 133.38076562915717
+      },
+      "size": {
+        "width": 234,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Các phép tính toán học bao gồm việc thực hiện các phép tính bằng cách sử dụng số. Các phép tính này bao gồm cộng, trừ, nhân, chia và phần dư (tìm số dư). Chúng là những khối xây dựng cơ bản để giải quyết các vấn đề số học và thao tác dữ liệu trong lập trình.",
+        "links": [
+          {
+            "title": "Java Math",
+            "url": "https://jenkov.com/tutorials/java/math-operators-and-math-class.html",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "QgWalJLIb6Fw0HhN1wb02",
+      "type": "subtopic",
+      "label": "Vòng đời của một chương trình",
+      "position": {
+        "x": 699.1618709488599,
+        "y": 134.97715893815337
+      },
+      "size": {
+        "width": 248,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Trong Java, vòng đời của chương trình bao gồm nhiều giai đoạn khác nhau phối hợp để thực thi mã. Quá trình bắt đầu với việc nhà phát triển viết mã nguồn Java trong các tệp `.java` bằng IDE hoặc trình soạn thảo văn bản. Mã này sau đó được biên dịch bởi trình biên dịch Java (javac) thành bytecode lưu trữ trong các tệp `.class`, với kiểm tra cú pháp và kiểu được thực hiện trong quá trình biên dịch. Khi chương trình chạy, Máy ảo Java (JVM) tải các tệp lớp đã biên dịch vào bộ nhớ thông qua một quy trình bao gồm tải dữ liệu nhị phân, liên kết để xác minh và chuẩn bị, đồng thời khởi tạo các thành phần của lớp. JVM sau đó xác minh tuân thủ bảo mật của bytecode, thực hiện biên dịch theo Thời gian thực (JIT) để dịch bytecode thành mã máy đích cho hiệu suất tốt hơn và thực thi hướng dẫn chương trình trong khi quản lý tài nguyên hệ thống. Trong suốt quá trình thực thi, JVM xử lý thu gom rác bằng cách giải phóng bộ nhớ từ các đối tượng không sử dụng và cuối cùng giải phóng tất cả các tài nguyên khi chương trình kết thúc. Kiến trúc này cho phép khả năng \"viết một lần, chạy ở mọi nơi\" của Java vì bytecode có thể chạy trên bất kỳ thiết bị nào có JVM tương thích.",
+        "links": [
+          {
+            "title": "Vòng đời của một chương trình Java",
+            "url": "https://www.startertutorials.com/corejava/life-cycle-java-program.html",
+            "type": "article"
+          },
+          {
+            "title": "Cách JVM thực thi mã Java",
+            "url": "https://www.cesarsotovalero.net/blog/how-the-jvm-executes-java-code.html",
+            "type": "article"
+          },
+          {
+            "title": "So sánh JIT vs. AOT biên dịch trong Java",
+            "url": "https://bell-sw.com/blog/compilation-in-java-jit-vs-aot/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "LenPrQwxFsE1UVbXO_dE7",
+      "type": "subtopic",
+      "label": "Lớp và Đối tượng",
+      "position": {
+        "x": 712.0073106597292,
+        "y": 462.3478959395741
+      },
+      "size": {
+        "width": 230,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Lớp là bản thiết kế để tạo ra các đối tượng, đó là các phiên bản của các lớp đó. Một lớp định nghĩa các đặc điểm (thuộc tính) và hành vi (phương thức) mà các đối tượng của lớp đó sẽ sở hữu. Hãy nghĩ về một lớp như là một mẫu và một đối tượng là một phiên bản cụ thể được tạo ra từ mẫu đó.",
+        "links": [
+          {
+            "title": "Lớp và đối tượng Java",
+            "url": "https://www.programiz.com/java-programming/class-objects",
+            "type": "article"
+          },
+          {
+            "title": "Lớp và Đối tượng Java",
+            "url": "https://www.youtube.com/watch?v=IUqKuGNasdM",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "xTwJYcA6ldgaw3yGmbDEd",
+      "type": "subtopic",
+      "label": "Thuộc tính và Phương thức",
+      "position": {
+        "x": 712.0073106597292,
+        "y": 515.3478959395741
+      },
+      "size": {
+        "width": 230,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Thuộc tính là các biến lưu trữ dữ liệu về một đối tượng, xác định trạng thái hoặc đặc điểm của nó. Phương thức là các hàm xác định hành vi của một đối tượng, cho phép nó thực hiện các thao tác hoặc hoạt động. Cùng nhau, thuộc tính và phương thức bao bọc dữ liệu và hành vi của một đối tượng trong một lớp.",
+        "links": [
+          {
+            "title": "Các lớp Java",
+            "url": "https://jenkov.com/tutorials/java/classes.html",
+            "type": "article"
+          },
+          {
+            "title": "Phương thức Java",
+            "url": "https://jenkov.com/tutorials/java/methods.html",
+            "type": "article"
+          },
+          {
+            "title": "Thuộc tính Java",
+            "url": "https://jenkov.com/tutorials/java-collections/properties.html",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "KYndNwfQcwRCf3zCXOwd_",
+      "type": "subtopic",
+      "label": "Chỉ thị truy cập",
+      "position": {
+        "x": 712.0073106597292,
+        "y": 568.3478959395741
+      },
+      "size": {
+        "width": 230,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Các thuộc tính truy cập (hay còn gọi là trình điều khiển truy cập) trong Java là các từ khóa kiểm soát khả năng hiển thị hoặc khả năng truy cập của các lớp, phương thức, trình xây dựng và các thành viên khác. Chúng xác định từ đâu các thành viên này có thể được truy cập. Java cung cấp bốn thuộc tính truy cập: `private`, `default` (không có từ khóa), `protected` và `public`, mỗi loại mang lại một mức độ kiểm soát truy cập khác nhau.",
+        "links": [
+          {
+            "title": "Trình điều khiển truy cập Java",
+            "url": "https://jenkov.com/tutorials/java/access-modifiers.html",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ZcNxO6qIXIg7RaWYnZj2e",
+      "type": "subtopic",
+      "label": "Từ khóa Static",
+      "position": {
+        "x": 712.0073106597292,
+        "y": 621.3478959395741
+      },
+      "size": {
+        "width": 230,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Từ khóa `static` trong Java được sử dụng để tạo các thành viên (biến và phương thức) thuộc về chính lớp, thay vì bất kỳ bản thiết kế cụ thể nào của lớp đó. Điều này có nghĩa là chỉ có một bản sao của một biến tĩnh được chia sẻ bởi tất cả các đối tượng của lớp đó, và bạn có thể truy cập các thành viên tĩnh trực tiếp bằng tên lớp mà không cần phải tạo một đối tượng. Các phương thức tĩnh chỉ có thể truy cập các biến tĩnh và gọi các phương thức tĩnh khác.",
+        "links": [
+          {
+            "title": "Giải thích từ khóa Static trong Java với Ví dụ",
+            "url": "https://www.freecodecamp.org/news/java-static-keyword-explained/",
+            "type": "article"
+          },
+          {
+            "title": "Các trường tĩnh và không tĩnh trong Java",
+            "url": "https://jenkov.com/tutorials/java/fields.html#static-and-non-static-fields",
+            "type": "article"
+          },
+          {
+            "title": "Hướng dẫn về từ khóa ‘static’ trong Java",
+            "url": "https://www.baeldung.com/java-static",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "zDBW20W2XMCtNTG3emJ_A",
+      "type": "subtopic",
+      "label": "Các lớp Nhúng",
+      "position": {
+        "x": 712.0073106597292,
+        "y": 726.5225969995055
+      },
+      "size": {
+        "width": 230,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Các lớp nhúng là các lớp được định nghĩa bên trong một lớp khác. Lớp chứa lớp bên trong được gọi là lớp ngoài. Các lớp nhúng có thể truy cập các thành viên của lớp ngoài, ngay cả khi chúng được khai báo là riêng tư. Chúng là một cách để nhóm các lớp chỉ được sử dụng ở một nơi duy nhất, tăng cường khả năng đóng gói và bảo trì.",
+        "links": [
+          {
+            "title": "Lớp Nhúng Java",
+            "url": "https://jenkov.com/tutorials/java/nested-classes.html",
+            "type": "article"
+          },
+          {
+            "title": "Hướng dẫn các lớp lồng nhau trong Java",
+            "url": "https://www.baeldung.com/java-nested-classes",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "DZ4BX4NYeCQbjGSj56lng",
+      "type": "subtopic",
+      "label": "Các nguyên tắc cơ bản của OOP",
+      "position": {
+        "x": 1522.5338845627668,
+        "y": 345.38076562915717
+      },
+      "size": {
+        "width": 234,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Lập trình hướng đối tượng (OOP) là một mô hình lập trình tập trung vào \"đối tượng\", chứa dữ liệu ở dạng trường (thuộc tính) và mã ở dạng thủ tục (phương thức). OOP tập trung vào việc tạo ra mã có thể tái sử dụng bằng cách nhóm dữ liệu và hành vi liên quan thành các đối tượng, cho phép khả năng mô-đun hóa, trừu tượng hóa, kế thừa và đa hình. Các khái niệm này giúp tổ chức và cấu trúc mã theo một cách phản ánh thực tế các thực thể và tương tác của chúng.",
+        "links": [
+          {
+            "title": "Lớp và Đối tượng Java",
+            "url": "https://jenkov.com/tutorials/java/classes.html",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "zNHDLv26Xn3oMrDVSAP1Z",
+      "type": "paragraph",
+      "label": "Lập trình hướng đối tượng",
+      "position": {
+        "x": 1075.0552405844742,
+        "y": 416.3478959395741
+      },
+      "size": {
+        "width": 337,
+        "height": 52
+      },
+      "style": {
+        "fontSize": 20,
+        "borderColor": "transparent",
+        "backgroundColor": "transparent",
+        "color": "#000000",
+        "textAlign": "center",
+        "justifyContent": "center",
+        "padding": 16
+      },
+      "z_index": 999
+    },
+    {
+      "id": "ryMPhTTScI9pJMkQsZaaM",
+      "type": "label",
+      "label": "Các nguyên tắc cơ bản của OOP",
+      "position": {
+        "x": 762.5073106597292,
+        "y": 416.3478959395741
+      },
+      "size": {
+        "width": 129,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "X6xl98_RqAQY79baHmRRI",
+      "type": "horizontal",
+      "label": "nút ngang",
+      "position": {
+        "x": 949.5073106597292,
+        "y": 432.3478959395741
+      },
+      "size": {
+        "width": 140,
+        "height": 20
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.65,
+        "strokeDasharray": "0",
+        "strokeLinecap": "round"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "sHYmeXbdREoxrru0PZ3Px",
+      "type": "label",
+      "label": "Về chủ đề OOP",
+      "position": {
+        "x": 1170.5552405844742,
+        "y": 533.5536247250346
+      },
+      "size": {
+        "width": 146,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "Ax2ouIZgN1DpPzKDy4fwp",
+      "type": "subtopic",
+      "label": "Method Chaining",
+      "position": {
+        "x": 981.8343015809069,
+        "y": 632.5536247250346
+      },
+      "size": {
+        "width": 210,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Method chaining là một kỹ thuật lập trình trong đó nhiều lệnh gọi phương thức được thực hiện tuần tự trên cùng một đối tượng, lần lượt nhau, trong một câu lệnh duy nhất. Mỗi phương thức trong chuỗi trả về một đối tượng, cho phép phương thức tiếp theo có thể được gọi trên đối tượng đã trả về đó. Cách tiếp cận này cải thiện khả năng đọc và tính ngắn gọn của mã bằng cách giảm nhu cầu sử dụng các biến tạm thời và các bước trung gian.",
+        "links": [
+          {
+            "title": "@GeeksforGeeks@Kiến trúc Chuỗi (Method Chaining) trong Java với Ví dụ",
+            "url": "https://www.geeksforgeeks.org/java/method-chaining-in-java-with-examples/",
+            "type": "article"
+          },
+          {
+            "title": "Để đạt được việc liên tiếp gọi phương thức (method chaining) trong Java như thế nào",
+            "url": "https://stackoverflow.com/questions/21180269/how-to-achieve-method-chaining-in-java",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ey1f8IsdAlDv1O3E_tNog",
+      "type": "subtopic",
+      "label": "Hằng số liệt kê (Enum)",
+      "position": {
+        "x": 981.8343015809069,
+        "y": 685.5536247250346
+      },
+      "size": {
+        "width": 101,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Enum (viết tắt của Enumerations) là một kiểu dữ liệu đặc biệt trong Java, đại diện cho một nhóm các hằng số có tên. Chúng cho phép bạn định nghĩa một kiểu chỉ có thể nhận một tập hợp các giá trị đã được xác định trước. Điều này làm cho mã nguồn của bạn dễ đọc và ít bị lỗi hơn bằng cách giới hạn các giá trị mà một biến có thể chứa.",
+        "links": [
+          {
+            "title": "Hằng số Java",
+            "url": "https://jenkov.com/tutorials/java/enums.html",
+            "type": "article"
+          },
+          {
+            "title": "Hằng số Java",
+            "url": "https://www.programiz.com/java-programming/enums",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Ajuc_rHObqMQBXLqRIuxh",
+      "type": "subtopic",
+      "label": "Từ khóa Cuối cùng",
+      "position": {
+        "x": 712.0073106597292,
+        "y": 674.3478959395741
+      },
+      "size": {
+        "width": 230,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Từ khóa `final` trong Java là một thuộc tính không truy cập được dùng để áp đặt các hạn chế cho một biến, phương thức hoặc lớp. Khi được áp dụng cho một biến, nó làm giá trị của biến trở thành hằng số sau khi khởi tạo. Khi được áp dụng cho một phương thức, nó ngăn chặn phương thức bị ghi đè trong một lớp con. Khi được áp dụng cho một lớp, nó ngăn chặn lớp được kế thừa (duyệt).",
+        "links": [
+          {
+            "title": "Từ khóa Java Final",
+            "url": "https://www.baeldung.com/java-final",
+            "type": "article"
+          },
+          {
+            "title": "Từ khóa cuối cùng trong Java hoạt động như thế nào? Tôi vẫn có thể sửa đổi một đối tượng.",
+            "url": "https://stackoverflow.com/questions/15655012/how-does-the-final-keyword-in-java-work-i-can-still-modify-an-object",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3qowgj1pas1X7oRric9eU",
+      "type": "subtopic",
+      "label": "Vòng đời đối tượng",
+      "position": {
+        "x": 981.8343015809069,
+        "y": 579.5536247250346
+      },
+      "size": {
+        "width": 210,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Vòng đời đối tượng đề cập đến chuỗi các giai đoạn mà một đối tượng trải qua từ khi được tạo (phân bổ bộ nhớ) đến khi bị hủy (thu hồi bộ nhớ). Các giai đoạn này thường bao gồm việc tạo đối tượng, khởi tạo, sử dụng và cuối cùng là thu gom rác khi đối tượng không còn cần thiết. Hiểu biết về vòng đời này rất quan trọng để quản lý bộ nhớ hiệu quả và ngăn chặn rò rỉ tài nguyên.",
+        "links": []
+      }
+    },
+    {
+      "id": "qdA6bK9ZkP8p0_NH_wMuj",
+      "type": "subtopic",
+      "label": "Abstraction",
+      "position": {
+        "x": 1365.6267811847088,
+        "y": 579.0404190441817
+      },
+      "size": {
+        "width": 139,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Từ khóa trừu tượng trong Java được sử dụng để khai báo một lớp hoặc một phương thức mà không thể được tạo trực tiếp hoặc phải được triển khai bởi các lớp con tương ứng. Nó là một phần quan trọng của cơ chế trừu tượng của Java, cho phép các nhà phát triển xác định các lớp và phương thức trừu tượng cung cấp bản thiết kế cho các lớp khác.",
+        "links": [
+          {
+            "title": "Lớp trừ đa dạng Java",
+            "url": "https://jenkov.com/tutorials/java/abstract-classes.html",
+            "type": "article"
+          },
+          {
+            "title": "Giao diện Java so với Lớp trừ đa hình",
+            "url": "https://jenkov.com/tutorials/java/interfaces-vs-abstract-classes.html",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PXpPEmCEBUKRjwP3B5LzJ",
+      "type": "subtopic",
+      "label": "Di sản",
+      "position": {
+        "x": 1197.6267811847088,
+        "y": 579.5536247250346
+      },
+      "size": {
+        "width": 165,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Di sản là một khái niệm cơ bản trong lập trình hướng đối tượng, trong đó một lớp mới (gọi là lớp con hoặc lớp kế thừa) nhận các thuộc tính và hành vi từ một lớp hiện có (gọi là lớp cha hoặc lớp cơ sở). Điều này cho phép tái sử dụng mã và tạo ra các mối quan hệ phân cấp giữa các lớp, thúc đẩy một codebase được tổ chức và bảo trì tốt hơn. Lớp con có thể mở rộng lớp cha bằng cách thêm các thuộc tính và phương thức mới hoặc ghi đè lên các phương thức hiện có.",
+        "links": [
+          {
+            "title": "Di truyền (Inheritance) Java",
+            "url": "https://jenkov.com/tutorials/java/inheritance.html",
+            "type": "article"
+          },
+          {
+            "title": "Di sản trong Java với Ví dụ",
+            "url": "https://www.digitalocean.com/community/tutorials/inheritance-java-example",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "y-i56f1P_mMdvyBr7J4XE",
+      "type": "subtopic",
+      "label": "Method Overloading / Overriding",
+      "position": {
+        "x": 1197.6267811847088,
+        "y": 685.5536247250346
+      },
+      "size": {
+        "width": 307,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Method overloading cho phép bạn định nghĩa nhiều phương thức trong cùng một lớp với cùng tên nhưng các tham số khác nhau (số lượng, kiểu hoặc thứ tự tham số khác nhau). Method overriding xảy ra khi một lớp con cung cấp một triển khai cụ thể cho một phương thức đã được định nghĩa trong lớp cha của nó. Signature của phương thức (tên và tham số) phải giống nhau cả ở lớp cha và lớp con để thực hiện việc override.",
+        "links": [
+          {
+            "title": "Lớp trừ đồ vs Quá tải trong Java",
+            "url": "https://www.digitalocean.com/community/tutorials/overriding-vs-overloading-in-java",
+            "type": "article"
+          },
+          {
+            "title": "Hướng dẫn Di truyền (Inheritance) Java",
+            "url": "https://jenkov.com/tutorials/java/inheritance.html",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Kjdj862xnz8fqDYE3HKhC",
+      "type": "subtopic",
+      "label": "So sánh gán tĩnh và gán động",
+      "position": {
+        "x": 1197.6267811847088,
+        "y": 739.5536247250346
+      },
+      "size": {
+        "width": 307,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Gán tĩnh, cũng được biết đến là gán sớm, xảy ra trong quá trình biên dịch. Trình biên dịch biết chính xác phương thức nào sẽ được gọi dựa trên kiểu của biến. Gán động, hoặc gán muộn, xảy ra trong thời gian chạy. Phương thức cụ thể để gọi được xác định dựa trên kiểu đối tượng thực tế, không phải kiểu biến, cho phép linh hoạt và đa hình hơn.",
+        "links": [
+          {
+            "title": "Liên kết tĩnh và liên kết động trong Java",
+            "url": "https://www.baeldung.com/java-static-dynamic-binding",
+            "type": "article"
+          },
+          {
+            "title": "Liên kết tĩnh và liên kết động trong Java với ví dụ",
+            "url": "https://beginnersbook.com/2013/04/java-static-dynamic-binding/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6wTRN2PYC6zM_Txkekx53",
+      "type": "subtopic",
+      "label": "Giao diện",
+      "position": {
+        "x": 1366.9652858056302,
+        "y": 632.5536247250346
+      },
+      "size": {
+        "width": 139,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Giao diện trong Java là một bản thiết kế của lớp. Nó xác định một tập hợp các phương thức mà một lớp phải triển khai nếu nó tuyên bố thực hiện giao diện. Hãy nghĩ về nó như một thỏa thuận: bất kỳ lớp nào \"ký tên\" vào thỏa thuận (triển khai giao diện) đều đồng ý cung cấp các hành vi cụ thể (phương thức). Giao diện cũng có thể chứa hằng số (biến static final). Chúng giúp đạt được trừu tượng hóa và đa kế thừa trong Java.",
+        "links": [
+          {
+            "title": "Giao diện trong Java",
+            "url": "https://jenkov.com/tutorials/java/interfaces.html",
+            "type": "article"
+          },
+          {
+            "title": "Hướng dẫn về Giao diện Java",
+            "url": "https://www.baeldung.com/java-interfaces",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "iH9wSsOK4a77pS7U0Yu5z",
+      "type": "subtopic",
+      "label": "Đóng gói (Encapsulation)",
+      "position": {
+        "x": 1197.6267811847088,
+        "y": 632.5536247250346
+      },
+      "size": {
+        "width": 164,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Đóng gói là một khái niệm cơ bản trong lập trình hướng đối tượng, nơi dữ liệu và các phương thức hoạt động trên dữ liệu đó được nhóm lại với nhau như một đơn vị duy nhất. Đơn vị này, thường là một lớp, ẩn trạng thái bên trong của đối tượng khỏi thế giới bên ngoài và chỉ cung cấp một giao diện được kiểm soát để tương tác với nó. Điều này bảo vệ dữ liệu khỏi bị sửa đổi vô tình và cho phép dễ dàng bảo trì và sửa đổi mã hơn.",
+        "links": [
+          {
+            "title": "Java - Encapsulation",
+            "url": "https://www.tutorialspoint.com/java/java_encapsulation.htm",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "VqLV7kolfRFnvOuJAvzlg",
+      "type": "subtopic",
+      "label": "Record",
+      "position": {
+        "x": 1087.8343015809069,
+        "y": 685.5536247250346
+      },
+      "size": {
+        "width": 104,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Một bản ghi là một kiểu lớp đặc biệt trong Java được thiết kế để giữ dữ liệu bất biến. Nó tự động tạo ra các phương thức như `equals()`, `hashCode()` và `toString()` dựa trên các thành phần được khai báo trong tiêu đề của nó, giảm thiểu mã boilerplate. Các bản ghi hữu ích cho việc tạo các đối tượng chuyển giao dữ liệu (DTO) hoặc các tập hợp dữ liệu đơn giản nơi mục đích chính là lưu trữ và truy cập dữ liệu.",
+        "links": [
+          {
+            "title": "Ghi chú Java",
+            "url": "https://jenkov.com/tutorials/java/record.html",
+            "type": "article"
+          },
+          {
+            "title": "Ghi chú Java",
+            "url": "https://www.youtube.com/watch?v=xs7DiEIHW0U",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "60POZOjwHSdKYL6rfkyEy",
+      "type": "subtopic",
+      "label": "Gói (Packages)",
+      "position": {
+        "x": 712.0073106597292,
+        "y": 780.5225969995055
+      },
+      "size": {
+        "width": 230,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Một gói là một không gian tên chủ yếu chứa các lớp và giao diện. Ví dụ, lớp tiêu chuẩn `ArrayList` nằm trong gói `java.util`. Đối với lớp này, `java.util.ArrayList` được gọi là tên đầy đủ của nó vì cú pháp này không có sự mơ hồ. Các lớp trong các gói khác nhau có thể có cùng tên. Ví dụ, bạn có hai lớp `java.util.Date` và `java.sql.Date`, chúng khác nhau. Nếu không có gói nào được khai báo trong một lớp, thì gói của nó là gói mặc định. Để tạo gói sử dụng lệnh này -> javac -d directory javafilename",
+        "links": [
+          {
+            "title": "Gói (Packages) trong Java",
+            "url": "https://docs.oracle.com/javase/8/docs/api/java/lang/Package.html",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dg_UpaO8TzIN7w_QZ1n-6",
+      "type": "subtopic",
+      "label": "Khối khởi tạo",
+      "position": {
+        "x": 981.8343015809069,
+        "y": 739.5536247250346
+      },
+      "size": {
+        "width": 210,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Trong Java, một khối khởi tạo (initializer block) là một đoạn mã được bao bọc trong cặp dấu ngoặc nhọn `{}` và được thực thi khi một đối tượng của lớp được tạo ra. Nó được sử dụng để khởi tạo các biến thuộc tính của đối tượng hoặc thực hiện các tác vụ thiết lập trước khi trình điều khiển (constructor) được gọi. Có hai loại: khối khởi tạo thuộc tính (instance initializer block), chạy mỗi lần một đối tượng mới được tạo, và khối khởi tạo tĩnh (static initializer block), chỉ chạy một lần khi lớp được tải lần đầu tiên.",
+        "links": [
+          {
+            "title": "Các khối khởi tạo tĩnh và không tĩnh trong Java",
+            "url": "https://www.baeldung.com/java-static-instance-initializer-blocks",
+            "type": "article"
+          },
+          {
+            "title": "Khái niệm về Khối Khởi tạo Tùy chỉnh (Instance Initializer Blocks) trong Java",
+            "url": "https://blogs.oracle.com/javamagazine/post/java-instance-initializer-block",
+            "type": "article"
+          },
+          {
+            "title": "Khối khởi tạo là gì?",
+            "url": "https://stackoverflow.com/questions/3987428/what-is-an-initialization-block",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3r0Er9XZHovIZz3gNyj4A",
+      "type": "subtopic",
+      "label": "Truyền tham số theo giá trị / Truyền tham số theo tham chiếu",
+      "position": {
+        "x": 981.8343015809069,
+        "y": 792.3789236651032
+      },
+      "size": {
+        "width": 523,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Truyền tham số theo giá trị và truyền tham số theo tham chiếu là hai cách khác nhau để chuyển các đối số đến một hàm hoặc phương thức. Trong truyền tham số theo giá trị, một bản sao của giá trị của biến được chuyển đến hàm, vì vậy bất kỳ thay đổi nào được thực hiện đối với tham số bên trong hàm sẽ không ảnh hưởng đến biến ban đầu. Trong truyền tham số theo tham chiếu, một tham chiếu trực tiếp đến biến được chuyển, có nghĩa là bất kỳ thay đổi nào được thực hiện đối với tham số bên trong hàm sẽ ảnh hưởng trực tiếp đến biến ban đầu.",
+        "links": [
+          {
+            "title": "Java là Pass-by-Value, Không phải Pass-by-Reference",
+            "url": "https://www.baeldung.com/java-pass-by-value-or-pass-by-reference",
+            "type": "article"
+          },
+          {
+            "title": "Java có phải \"truyền tham chiếu\" hay \"truyền giá trị\"?",
+            "url": "https://stackoverflow.com/questions/40480/is-java-pass-by-reference-or-pass-by-value",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "c--y6GcKj9am0CBdu_Hnt",
+      "type": "topic",
+      "label": "Ghi chú, đánh dấu",
+      "position": {
+        "x": 1538.5338845627668,
+        "y": 684.5892688143869
+      },
+      "size": {
+        "width": 218,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Ghi chú (Annotations) là một dạng metadata cung cấp thông tin về chương trình. Chúng được sử dụng để cung cấp thông tin bổ sung về mã nguồn, nhưng không phải là một phần của chính chương trình. Ghi chú có thể được trình biên dịch (compiler) sử dụng để phát hiện lỗi hoặc tắt cảnh báo, và chúng cũng có thể được sử dụng trong quá trình chạy (runtime) để sửa đổi hành vi của chương trình.",
+        "links": [
+          {
+            "title": "Hướng dẫn các chú thích Java",
+            "url": "https://jenkov.com/tutorials/java/annotations.html",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "00_q6I95eO-PUUrKpPFY8",
+      "type": "topic",
+      "label": "Lambda Expressions",
+      "position": {
+        "x": 1538.5338845627668,
+        "y": 632.0714467697107
+      },
+      "size": {
+        "width": 218,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Lambda expressions là những khối mã ngắn mà bạn có thể truyền đi để thực thi. Chúng cho phép bạn coi chức năng như một đối số phương thức hoặc mã như dữ liệu. Hãy nghĩ về chúng như các phương thức không tên – phương thức không có tên – có thể được viết trực tiếp tại nơi cần thiết, làm cho mã của bạn súc tích và dễ đọc hơn, đặc biệt khi xử lý các giao diện hàm.",
+        "links": [
+          {
+            "title": "Biểu thức Lambda Java",
+            "url": "https://jenkov.com/tutorials/java/lambda-expressions.html",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "kdxy8Zssnc5lJjdmjUyMc",
+      "type": "topic",
+      "label": "Modules",
+      "position": {
+        "x": 1538.5338845627668,
+        "y": 737.107090859063
+      },
+      "size": {
+        "width": 218,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Các Module trong Java là một cách để tổ chức mã thành các đơn vị có thể tái sử dụng và độc lập. Chúng cung cấp một mức độ trừu tượng cao hơn so với Packages, cho phép bạn kiểm soát những phần của mã nào được hiển thị cho các module khác và những phần nào được giữ riêng tư. Điều này cải thiện khả năng đóng gói, tăng cường bảo mật và đơn giản hóa việc quản lý sự phụ thuộc bằng cách khai báo rõ ràng sự phụ thuộc giữa các module.",
+        "links": [
+          {
+            "title": "Mô-đun Java",
+            "url": "https://jenkov.com/tutorials/java/modules.html",
+            "type": "article"
+          },
+          {
+            "title": "Hướng dẫn Java 9 Modularity",
+            "url": "https://www.baeldung.com/java-modularity",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a-EQiBUlSgdZba1mW36op",
+      "type": "subtopic",
+      "label": "Mảng vs ArrayList",
+      "position": {
+        "x": 1263.3696984675892,
+        "y": 937.5225017715202
+      },
+      "size": {
+        "width": 204,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Mảng và ArrayList là hai cách để lưu trữ các tập hợp các phần tử trong Java. Một mảng là một chuỗi có kích thước cố định, thứ tự của các phần tử cùng kiểu dữ liệu. Sau khi bạn khai báo kích thước của nó, bạn không thể thay đổi nó. Ngược lại, ArrayList là một triển khai mảng có thể thay đổi kích thước động. Nó có thể tăng hoặc giảm kích thước theo nhu cầu, cho phép bạn thêm hoặc xóa các phần tử mà không cần lo lắng về kích thước ban đầu.",
+        "links": [
+          {
+            "title": "Mảng Java",
+            "url": "https://jenkov.com/tutorials/java/arrays.html",
+            "type": "article"
+          },
+          {
+            "title": "Danh sách liên kết Java",
+            "url": "https://jenkov.com/tutorials/java-collections/list.html",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "XjkNd5WJ9yxW48dwHQNkZ",
+      "type": "subtopic",
+      "label": "Set",
+      "position": {
+        "x": 1263.3696984675892,
+        "y": 990.5225017715202
+      },
+      "size": {
+        "width": 101,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Một Set là một cấu trúc dữ liệu lưu trữ một tập hợp các phần tử duy nhất. Điều này có nghĩa là không được phép có bất kỳ giá trị trùng lặp nào trong một Set. Sets cung cấp các cách hiệu quả để kiểm tra thành viên (xác định một phần tử có tồn tại trong set) và thực hiện các thao tác như hợp, giao và sai khác.",
+        "links": [
+          {
+            "title": "Bộ Phân Tập Java",
+            "url": "https://jenkov.com/tutorials/java-collections/set.html",
+            "type": "article"
+          },
+          {
+            "title": "Giao diện và Triển khai Java Set",
+            "url": "https://www.digitalocean.com/community/tutorials/java-set",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "eKtdDtiJygKQ4PuEylFQY",
+      "type": "subtopic",
+      "label": "Bản đồ",
+      "position": {
+        "x": 1367.3054548486343,
+        "y": 990.5225017715202
+      },
+      "size": {
+        "width": 101,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Một Map là một cấu trúc dữ liệu lưu trữ dữ liệu theo cặp khóa-giá trị. Mỗi khóa là duy nhất và nó ánh xạ đến một giá trị cụ thể. Hãy nghĩ về nó như một từ điển trong đó bạn sử dụng một từ (khóa) để tìm kiếm định nghĩa của nó (giá trị). Maps cho phép bạn truy xuất, thêm hoặc xóa các giá trị hiệu quả dựa trên các khóa liên kết của chúng.",
+        "links": [
+          {
+            "title": "Sơ đồ ánh xạ chung trong Java",
+            "url": "https://jenkov.com/tutorials/java-generics/generic-map.html",
+            "type": "article"
+          },
+          {
+            "title": "Java Map",
+            "url": "https://jenkov.com/tutorials/java-collections/map.html",
+            "type": "article"
+          },
+          {
+            "title": "Java ConcurrentMap",
+            "url": "https://jenkov.com/tutorials/java-util-concurrent/concurrentmap.html",
+            "type": "article"
+          },
+          {
+            "title": "Java SortedMap",
+            "url": "https://jenkov.com/tutorials/java-collections/sortedmap.html",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ThoWhXb4vUvNfE70_wMfa",
+      "type": "subtopic",
+      "label": "Hàng đợi (Queue)",
+      "position": {
+        "x": 1263.3696984675892,
+        "y": 1043.5225017715202
+      },
+      "size": {
+        "width": 102,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Một hàng đợi là một cấu trúc dữ liệu cơ bản tuân theo nguyên tắc Lấy thứ nhất đến trước (FIFO). Hãy nghĩ về nó như một hàng chờ tại cửa hàng: người đầu tiên tham gia vào hàng sẽ là người được phục vụ đầu tiên. Các phần tử được thêm vào phía sau (enqueue) và loại bỏ khỏi phía trước (dequeue) của hàng đợi.",
+        "links": [
+          {
+            "title": "Hàng đợi Java",
+            "url": "https://jenkov.com/tutorials/java-collections/queue.html",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "DzfE_9WLAp-BrG3C1-MwU",
+      "type": "subtopic",
+      "label": "Stack",
+      "position": {
+        "x": 1263.3696984675892,
+        "y": 1096.5225017715204
+      },
+      "size": {
+        "width": 101,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Một hàng đợi là một cấu trúc dữ liệu cơ bản tuân theo nguyên tắc Lấy thứ nhất đến sau (LIFO). Hãy tưởng tượng một chồng đĩa; bạn chỉ có thể thêm hoặc gỡ đĩa từ trên cùng. Điều này có nghĩa là phần tử cuối cùng được thêm vào hàng đợi sẽ là phần tử đầu tiên được loại bỏ. Các hàng đợi được sử dụng để quản lý các cuộc gọi hàm, đánh giá biểu thức và triển khai chức năng hoàn tác/hoàn nguyên.",
+        "links": [
+          {
+            "title": "Hướng dẫn về Stack Java",
+            "url": "https://jenkov.com/tutorials/java-collections/stack.html",
+            "type": "article"
+          },
+          {
+            "title": "Hướng dẫn về Cụm Món (Stack) trong Java",
+            "url": "https://www.baeldung.com/java-stack",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "DWO2-EPIUeKK5aQGiTuKc",
+      "type": "subtopic",
+      "label": "Hàng đợi (Dequeue)",
+      "position": {
+        "x": 1367.3054548486343,
+        "y": 1043.5225017715202
+      },
+      "size": {
+        "width": 101,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Một Dequeue (được phát âm \"dee-queue\") là một hàng đợi hai đầu, một cấu trúc dữ liệu cho phép bạn thêm và xóa các phần tử từ cả đầu (đầu) và cuối (đuôi) của hàng đợi. Không giống như một hàng đợi thông thường (FIFO - First-In, First-Out), một dequeue cung cấp tính linh hoạt cho cả hoạt động FIFO và LIFO (Last-In, First-Out). Điều này làm cho nó hữu ích để triển khai các thuật toán và nhiệm vụ quản lý dữ liệu khác nhau trong đó các phần tử cần được truy cập hoặc sửa đổi từ cả hai đầu.",
+        "links": [
+          {
+            "title": "Hướng dẫn Java Deque",
+            "url": "https://jenkov.com/tutorials/java-collections/deque.html",
+            "type": "article"
+          },
+          {
+            "title": "Java Deque",
+            "url": "https://www.programiz.com/java-programming/deque",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "-17LFO72I8RKjJRMXct9k",
+      "type": "subtopic",
+      "label": "Iterator",
+      "position": {
+        "x": 1367.3054548486343,
+        "y": 1096.5225017715204
+      },
+      "size": {
+        "width": 101,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Một Iterator là một đối tượng cho phép bạn lặp qua một tập hợp (như List hoặc Set) theo từng phần tử một. Nó cung cấp một cách tiêu chuẩn để truy cập các phần tử tuần tự mà không cần biết cấu trúc bên trong của tập hợp. Bạn có thể sử dụng các phương thức như `hasNext()` để kiểm tra xem có phần tử tiếp theo hay không và `next()` để lấy nó.",
+        "links": [
+          {
+            "title": "Hướng dẫn Nhà lặp lại Java",
+            "url": "https://jenkov.com/tutorials/java-collections/iterator.html",
+            "type": "article"
+          },
+          {
+            "title": "Hướng dẫn Giao thức lặp lại Java",
+            "url": "https://jenkov.com/tutorials/java-collections/iterable.html",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PX4ZcshR0QtsPElyZzSel",
+      "type": "label",
+      "label": "Bộ sưu tập",
+      "position": {
+        "x": 1314.3696984675892,
+        "y": 898.3203519457165
+      },
+      "size": {
+        "width": 102,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "eL4pc6SaNiKP48PzN7mNe",
+      "type": "subtopic",
+      "label": "Bộ sưu tập chung",
+      "position": {
+        "x": 1263.3696984675892,
+        "y": 1152.0111884486032
+      },
+      "size": {
+        "width": 207,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Các phương thức và lớp kiểu tổng quát (Generic methods and generic classes) trong Java cho phép lập trình viên chỉ định, với một khai báo phương thức duy nhất, một tập hợp các phương thức liên quan, hoặc với một khai báo lớp duy nhất, một tập hợp các kiểu liên quan, tương ứng.",
+        "links": [
+          {
+            "title": "Java - Generics",
+            "url": "https://www.tutorialspoint.com/java/java_generics.htm",
+            "type": "article"
+          },
+          {
+            "title": "Các kiểu tham số trong Java",
+            "url": "https://www.youtube.com/watch?v=XMvznsY02Mk",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Z_rjrHtWp1Zp1G2YN0KfD",
+      "type": "vertical",
+      "label": "nút theo chiều dọc",
+      "position": {
+        "x": 1638.356875320924,
+        "y": 831.2420992601204
+      },
+      "size": {
+        "width": 21,
+        "height": 109
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.65
+      },
+      "z_index": 999
+    },
+    {
+      "id": "l9fxK8K9fcUqR7hs5TkWU",
+      "type": "topic",
+      "label": "Các tùy chọn",
+      "position": {
+        "x": 1538.5338845627668,
+        "y": 789.6249129037391
+      },
+      "size": {
+        "width": 218,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Các tùy chọn là một đối tượng container có thể hoặc không thể chứa một giá trị không phải null. Chúng chủ yếu được sử dụng để biểu diễn sự vắng mặt của một giá trị, tránh việc trả về null, điều này có thể dẫn đến NullPointerExceptions. Optionals cung cấp các phương thức để kiểm tra một cách rõ ràng xem một giá trị có tồn tại hay không và để xử lý các trường hợp khi một giá trị bị thiếu theo cách kiểm soát và dễ đọc hơn.",
+        "links": [
+          {
+            "title": "Hướng dẫn về các tùy chọn (Optionals)",
+            "url": "https://www.baeldung.com/java-optional",
+            "type": "article"
+          },
+          {
+            "title": "Java Optional",
+            "url": "https://dzone.com/articles/optional-in-java",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "g9P3548F38tYGjevBc42w",
+      "type": "topic",
+      "label": "Xử lý ngoại lệ",
+      "position": {
+        "x": 1538.5338845627668,
+        "y": 520.5536247250346
+      },
+      "size": {
+        "width": 218,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Xử lý ngoại lệ trong Java là một trong những biện pháp hiệu quả để xử lý các lỗi thời gian chạy, đảm bảo luồng hoạt động thông thường của ứng dụng có thể được duy trì. Xử lý ngoại lệ Java là cơ chế để xử lý các lỗi thời gian chạy như ClassNotFoundException, IOException, SQLException, RemoteException,... Có ba loại ngoại lệ - 1. Ngoại lệ đã kiểm tra (Checked Exception) – các ngoại lệ được kiểm tra tại thời điểm biên dịch. Ví dụ: IOException 2. Ngoại lệ chưa kiểm tra (Unchecked Exception) – các ngoại lệ được kiểm tra tại thời điểm chạy. Ví dụ: NullPointerException 3. Lỗi (Error) - Đây là những lỗi không thể phục hồi. Ví dụ: OutOfMemoryError",
+        "links": [
+          {
+            "title": "Hiểu biết về các ngoại lệ Java",
+            "url": "https://www.youtube.com/watch?v=W-N2ltgU-X4",
+            "type": "video"
+          },
+          {
+            "title": "Xử lý ngoại lệ Java",
+            "url": "https://www.youtube.com/watch?v=1XAfapkBQjk",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "D1woaibP6qkuqmBQkZrhO",
+      "type": "horizontal",
+      "label": "nút ngang",
+      "position": {
+        "x": 1174.7508238192552,
+        "y": 1178.2990031143668
+      },
+      "size": {
+        "width": 78,
+        "height": 20
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.65
+      },
+      "z_index": 999
+    },
+    {
+      "id": "_W84u4UXMSY0zvy6RJvFi",
+      "type": "topic",
+      "label": "Khung Web",
+      "position": {
+        "x": 1250.6499336025647,
+        "y": 1501.4989519840194
+      },
+      "size": {
+        "width": 232,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Các khung (Frameworks) là công cụ với mã được viết sẵn, đóng vai trò như một khuôn mẫu hoặc bộ xương, có thể được tái sử dụng để tạo ra một ứng dụng bằng cách chỉ điền mã của bạn khi cần thiết, điều này cho phép các nhà phát triển lập trình ứng dụng của họ mà không phải chịu sự lãng phí thời gian trong việc tạo lại mỗi dòng mã từ đầu một lần nữa.",
+        "links": []
+      }
+    },
+    {
+      "id": "xoryfi4SpJlkz-PV05ql6",
+      "type": "subtopic",
+      "label": "Spring (Spring Boot)",
+      "position": {
+        "x": 1250.6499336025647,
+        "y": 1315.2594233874954
+      },
+      "size": {
+        "width": 232,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Spring Boot là một framework web Java nguồn mở, dựa trên kiến trúc microservice. Framework Spring Boot tạo ra một môi trường hoàn toàn sẵn sàng để sử dụng sản xuất mà có thể cấu hình hoàn toàn bằng mã được xây dựng sẵn trong codebase của nó. Kiến trúc microservice cung cấp cho các nhà phát triển một ứng dụng được cô lập hoàn toàn, bao gồm máy chủ ứng dụng tích hợp.",
+        "links": [
+          {
+            "title": "Truy cập Bản đồ lộ trình Spring Boot chuyên biệt",
+            "url": "https://dev-path-murex.vercel.app/roadmap/spring-boot",
+            "type": "roadmap"
+          },
+          {
+            "title": "Spring Boot",
+            "url": "https://spring.io/projects/spring-boot/",
+            "type": "official"
+          },
+          {
+            "title": "Spring Boot là gì?",
+            "url": "https://www.ibm.com/cloud/learn/java-spring-boot",
+            "type": "article"
+          },
+          {
+            "title": "Hướng dẫn Spring Boot",
+            "url": "https://www.javaguides.net/2021/07/spring-boot-tutorial-for-beginners.html",
+            "type": "article"
+          },
+          {
+            "title": "Học Spring Boot",
+            "url": "https://www.baeldung.com/spring-boot",
+            "type": "article"
+          },
+          {
+            "title": "Hướng dẫn Spring Boot",
+            "url": "https://youtu.be/vtPkZShrvXQ",
+            "type": "video"
+          },
+          {
+            "title": "Spring Boot dành cho người mới bắt đầu",
+            "url": "https://youtu.be/UfOxcrxhC0s",
+            "type": "video"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Spring Framework",
+            "url": "https://app.daily.dev/tags/spring?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "kN-mXxqUPNJNsJGQ0U_7J",
+      "type": "subtopic",
+      "label": "Play Framework",
+      "position": {
+        "x": 1250.6499336025647,
+        "y": 1421.2594233874954
+      },
+      "size": {
+        "width": 232,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Play Framework là một framework ứng dụng web có năng suất cao cho phép mẫu mô hình-hiển thị-kiểm soát. Nó được viết bằng Scala nhưng cũng có thể được sử dụng cho các ngôn ngữ lập trình khác được biên dịch và chạy trên JVM, ví dụ: Java.",
+        "links": [
+          {
+            "title": "Trang web Play Framework",
+            "url": "https://www.playframework.com/",
+            "type": "official"
+          },
+          {
+            "title": "Play Framework là một framework ứng dụng web mã nguồn mở được viết bằng ngôn ngữ Java, cung cấp các công cụ và thư viện để xây dựng các ứng dụng web nhanh chóng và hiệu quả. Nó tập trung vào việc đơn giản hóa quy trình phát triển web bằng cách cung cấp các tính năng như routing, templating, database integration, và REST API support.",
+            "url": "https://en.wikipedia.org/wiki/Play_Framework",
+            "type": "article"
+          },
+          {
+            "title": "Giới thiệu về Play Framework",
+            "url": "https://www.baeldung.com/java-intro-to-the-play-framework",
+            "type": "article"
+          },
+          {
+            "title": "Giới thiệu về Play Framework",
+            "url": "https://youtu.be/bLrmnjPQsZc",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "w-kcKPh8U0P_jtT90_1Xy",
+      "type": "subtopic",
+      "label": "Quarkus",
+      "position": {
+        "x": 1250.6499336025647,
+        "y": 1368.2594233874954
+      },
+      "size": {
+        "width": 114,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "",
+        "links": [
+          {
+            "title": "Trang web chính thức",
+            "url": "https://quarkus.io/",
+            "type": "official"
+          },
+          {
+            "title": "Khám phá các bài đăng được yêu thích nhất về Quarkus",
+            "url": "https://app.daily.dev/tags/quarkus?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "aqTfDatV26H0rOAhyQo0q",
+      "type": "label",
+      "label": "Spring Boot được khuyến nghị",
+      "position": {
+        "x": 1246.1499336025647,
+        "y": 1255.4420481297732
+      },
+      "size": {
+        "width": 241,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "81N1cZLue_Ii0uD5CV6kZ",
+      "type": "topic",
+      "label": "Công cụ Xây dựng",
+      "position": {
+        "x": 1006.8720474064457,
+        "y": 1502.013322952089
+      },
+      "size": {
+        "width": 181,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Một công cụ xây dựng là một chương trình hoặc tiện ích dòng lệnh tự động hóa quá trình biên dịch, lắp ráp và triển khai phần mềm. Các công cụ xây dựng không chỉ giới hạn ở việc biên dịch mã; chúng cũng có thể giúp quản lý gói, xử lý phụ thuộc và các hệ thống tích hợp liên tục.",
+        "links": []
+      }
+    },
+    {
+      "id": "VdL_fAHxmRbuF0J627beA",
+      "type": "subtopic",
+      "label": "Maven",
+      "position": {
+        "x": 1006.8720474064457,
+        "y": 1317.2276953646335
+      },
+      "size": {
+        "width": 181,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Maven là một công cụ xây dựng mã nguồn mở, được sử dụng chủ yếu cho các dự án Java.",
+        "links": [
+          {
+            "title": "Bắt đầu sử dụng",
+            "url": "https://maven.apache.org/guides/getting-started/",
+            "type": "article"
+          },
+          {
+            "title": "Xây dựng Dự án Spring bằng Maven",
+            "url": "https://www.baeldung.com/spring-with-maven",
+            "type": "article"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Maven",
+            "url": "https://app.daily.dev/tags/maven?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "rmDIm5dqtdlNfPhvpqS7-",
+      "type": "subtopic",
+      "label": "Gradle",
+      "position": {
+        "x": 1006.8720474064457,
+        "y": 1370.2276953646335
+      },
+      "size": {
+        "width": 181,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Gradle là một công cụ tự động hóa xây dựng nguồn mở giúp các kỹ sư phần mềm kiểm tra, xây dựng và phát hành các sản phẩm phần mềm hiệu năng cao. Ngoài ra, Gradle cũng hỗ trợ phát triển đa ngôn ngữ. Các ngôn ngữ hiện tại được hỗ trợ bởi Gradle bao gồm Java, Kotlin, Groovy, Scala, C/C++ và JavaScript.",
+        "links": [
+          {
+            "title": "Gradle",
+            "url": "https://gradle.org/",
+            "type": "official"
+          },
+          {
+            "title": "Xây dựng Dự án Spring Boot bằng Gradle",
+            "url": "https://www.baeldung.com/spring-boot-gradle-plugin",
+            "type": "article"
+          },
+          {
+            "title": "Hướng dẫn Gradle",
+            "url": "https://youtu.be/kONQCIAcWeI",
+            "type": "video"
+          },
+          {
+            "title": "Làm việc với Gradle",
+            "url": "https://youtu.be/6V6G3RyxEMk",
+            "type": "video"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Gradle",
+            "url": "https://app.daily.dev/tags/gradle?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6FMj9tMAQPii_1kLtHJLk",
+      "type": "subtopic",
+      "label": "Bazel",
+      "position": {
+        "x": 1006.8720474064457,
+        "y": 1423.2276953646335
+      },
+      "size": {
+        "width": 181,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Bazel là một công cụ xây dựng và kiểm thử mã nguồn mở tương tự như Make, Maven và Gradle. Nó sử dụng ngôn ngữ lập trình xây dựng có thể đọc được bởi con người và ở mức độ cao. Bazel hỗ trợ các dự án bằng nhiều ngôn ngữ và tạo ra đầu ra cho nhiều nền tảng khác nhau. Nó được thiết kế để xây dựng nhanh chóng, đáng tin cậy và có khả năng tái sản xuất, làm cho nó phù hợp với các codebase lớn và các dự án phức tạp.",
+        "links": [
+          {
+            "title": "Bắt đầu sử dụng với Bazel",
+            "url": "https://bazel.build/start",
+            "type": "article"
+          },
+          {
+            "title": "Xây dựng Dự án Java bằng Bazel",
+            "url": "https://earthly.dev/blog/build-java-projects-with-bazel/",
+            "type": "article"
+          },
+          {
+            "title": "Giới thiệu về Công cụ Xây dựng Bazel",
+            "url": "https://www.baeldung.com/bazel-build-tool",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "zItXmuluDtl6HkTYQ7qMh",
+      "type": "topic",
+      "label": "Tiêm Dịch",
+      "position": {
+        "x": 1538.5338845627668,
+        "y": 941.8599244017678
+      },
+      "size": {
+        "width": 218,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Dependency Injection (DI) là một mẫu thiết kế trong đó các đối tượng nhận các phụ thuộc của chúng từ các nguồn bên ngoài thay vì tự tạo ra chúng. Điều này có nghĩa là một lớp không cần phải lo lắng về cách để lấy các đối tượng mà nó cần để hoạt động; thay vào đó, những đối tượng đó được \"tiêm\" vào lớp, thường thông qua trình xây dựng (constructor), phương thức setter hoặc giao diện. Điều này thúc đẩy sự lỏng lẻo trong kết nối và làm cho mã dễ kiểm tra và bảo trì hơn.",
+        "links": [
+          {
+            "title": "Hướng dẫn Dependency Injection",
+            "url": "https://jenkov.com/tutorials/dependency-injection/index.html",
+            "type": "article"
+          },
+          {
+            "title": "Hướng dẫn Thực hành về Mẫu Thiết kế Tiêm Dependencies Java",
+            "url": "https://www.digitalocean.com/community/tutorials/java-dependency-injection-design-pattern-example-tutorial",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "M0ybgK1JCycXhZ1dEpCFo",
+      "type": "topic",
+      "label": "Các hoạt động vào/ra (I/O)",
+      "position": {
+        "x": 1538.5338845627668,
+        "y": 1109.3203519457165
+      },
+      "size": {
+        "width": 218,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Các thao tác Đầu vào/Đầu ra (I/O Operations), còn gọi là Input/Output Operations, xử lý cách một chương trình tương tác với thế giới bên ngoài. Điều này bao gồm việc đọc dữ liệu từ các nguồn như tệp tin, kết nối mạng hoặc bàn phím, và ghi dữ liệu đến các đích như tệp tin, console hoặc socket mạng. Về cơ bản, đây là cơ chế mà một chương trình nhận thông tin và gửi kết quả.",
+        "links": [
+          {
+            "title": "Hướng dẫn Java IO",
+            "url": "https://jenkov.com/tutorials/java-io/index.html",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "NowpzyPVFcX082j5YS5i8",
+      "type": "topic",
+      "label": "Các hoạt động Tệp tin",
+      "position": {
+        "x": 1538.5338845627668,
+        "y": 1162.3203519457165
+      },
+      "size": {
+        "width": 218,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Học cách làm việc với file, ví dụ: đọc, ghi và xóa file và thư mục,... Cũng học cách thực hiện các cuộc gọi API, phân tích phản hồi đầu vào và các thao tác liên quan. *   `FileWriter` - lớp này hữu ích để tạo một file bằng cách viết ký tự vào đó *   `FileReader` - lớp này hữu ích để đọc dữ liệu dưới dạng ký tự từ file *   `Files.lines(Paths.get(\"file.txt\")))` - xử lý các file như một luồng. Kể từ Java 8 *   `Files.readString / Files.writeString` - đọc toàn bộ file và đưa nó vào một chuỗi - kể từ Java 11",
+        "links": [
+          {
+            "title": "Hướng dẫn làm việc với file trong Java",
+            "url": "https://www.marcobehler.com/guides/java-files",
+            "type": "article"
+          },
+          {
+            "title": "(old) Java HttpURLConnection Example - Java HTTP Request GET, POST",
+            "url": "https://www.digitalocean.com/community/tutorials/java-httpurlconnection-example-java-http-request-get-post",
+            "type": "article"
+          },
+          {
+            "title": "Khách hàng Java mới",
+            "url": "https://www.baeldung.com/java-9-http-client",
+            "type": "article"
+          },
+          {
+            "title": "5 cách để thực hiện HTTP request trong Java",
+            "url": "https://www.twilio.com/blog/5-ways-to-make-http-requests-in-java",
+            "type": "article"
+          },
+          {
+            "title": "Đọc một tệp theo từng dòng trong Java",
+            "url": "https://mkyong.com/java8/java-8-stream-read-a-file-line-by-line/",
+            "type": "article"
+          },
+          {
+            "title": "Các phương pháp khác nhau để đọc một tệp thành chuỗi trong Java",
+            "url": "https://howtodoinjava.com/java/io/java-read-file-to-string-examples/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "H-TpLxAx_BnJhyFc4HK6M",
+      "type": "label",
+      "label": "Không có văn bản cần dịch.",
+      "position": {
+        "x": 1354.1499336025647,
+        "y": 1273.5598732714204
+      },
+      "size": {
+        "width": 25,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "shqS9-hg__mkOtnnl_I4l",
+      "type": "topic",
+      "label": "Đồng thời (Concurrency)",
+      "position": {
+        "x": 973.8343015809069,
+        "y": 1162.3203519457165
+      },
+      "size": {
+        "width": 218,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Đồng thời là khả năng của một chương trình thực hiện nhiều tác vụ như thể chúng đang chạy đồng thời. Điều này không nhất thiết có nghĩa là chúng đang chạy đúng vào cùng một khoảnh khắc, mà là sự chồng chéo về thời gian trong quá trình thực thi của chúng. Điều này có thể đạt được thông qua các kỹ thuật như đa luồng (multithreading), nơi một chương trình duy nhất được chia thành nhiều luồng có thể chạy đồng thời, hoặc thông qua lập trình bất đồng bộ (asynchronous programming), nơi các tác vụ có thể được khởi tạo và sau đó chương trình có thể tiếp tục thực thi các tác vụ khác mà không chờ đợi tác vụ đầu tiên hoàn thành.",
+        "links": [
+          {
+            "title": "Hướng dẫn về Đồng thời và Đa luồng Java",
+            "url": "https://jenkov.com/tutorials/java-concurrency/index.html",
+            "type": "article"
+          },
+          {
+            "title": "Java Concurrency in Practice",
+            "url": "https://www.baeldung.com/java-concurrency",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "u_YysD7Bpnq-xkFX5yJGz",
+      "type": "subtopic",
+      "label": "Luồng (Threads)",
+      "position": {
+        "x": 973.8343015809069,
+        "y": 1073.5225017715202
+      },
+      "size": {
+        "width": 218,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Một luồng trong Java là hướng hoặc đường dẫn mà một chương trình đang đi theo khi nó đang được thực thi. Nói chung, tất cả các chương trình đều có ít nhất một luồng, được biết đến là luồng chính, do JVM hoặc Máy ảo Java cung cấp tại thời điểm bắt đầu thực thi của chương trình. Viết ứng dụng đa luồng chính xác rất phức tạp và đây là một chủ đề nâng cao. Những thứ như ParallelStreams, các bộ sưu tập đồng bộ an toàn và ExecutorService có thể hữu ích.",
+        "links": [
+          {
+            "title": "Luồng trong Java",
+            "url": "https://jenkov.com/tutorials/java-concurrency/index.html",
+            "type": "article"
+          },
+          {
+            "title": "Hướng dẫn về Luồng Java (Java Threads Tutorial)",
+            "url": "https://www.youtube.com/watch?v=TCd8QIS-2KI",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "vJSq1GJLIMQ6IIB8CMK8g",
+      "type": "subtopic",
+      "label": "Luồng ảo",
+      "position": {
+        "x": 973.8343015809069,
+        "y": 1020.5225017715202
+      },
+      "size": {
+        "width": 218,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Luồng ảo là luồng nhẹ, được quản lý bởi Máy ảo Java (JVM). Không giống như các luồng hệ điều hành truyền thống, vốn tốn kém để tạo và quản lý, luồng ảo được thiết kế để cực kỳ nhẹ, cho phép tạo ra hàng triệu chúng. Chúng được thiết kế để cải thiện khả năng mở rộng và đồng thời của ứng dụng Java bằng cách làm cho việc viết mã dễ dàng hơn để xử lý một số lượng lớn các hoạt động đồng thời mà không có chi phí liên quan đến luồng truyền thống.",
+        "links": [
+          {
+            "title": "Các luồng ảo Java 21: Cậu có thấy khóa của mình không?",
+            "url": "https://netflixtechblog.com/java-21-virtual-threads-dude-wheres-my-lock-3052540e231d",
+            "type": "article"
+          },
+          {
+            "title": "Luồng ảo so với Luồng trong Java",
+            "url": "https://www.baeldung.com/java-virtual-thread-vs-thread",
+            "type": "article"
+          },
+          {
+            "title": "Hướng dẫn Tối thượng về Java Virtual Threads",
+            "url": "https://rockthejvm.com/articles/the-ultimate-guide-to-java-virtual-threads",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "wEc7pSVU5G2c6Zqmtb_1k",
+      "type": "subtopic",
+      "label": "Mô hình Bộ nhớ Java",
+      "position": {
+        "x": 973.8343015809069,
+        "y": 967.5225017715202
+      },
+      "size": {
+        "width": 218,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Mô hình Bộ nhớ Java (JMM) định nghĩa cách các luồng trong Java tương tác với bộ nhớ. Nó quy định cách và khi nào các luồng khác nhau có thể thấy các ghi vào biến chia sẻ, giải quyết các vấn đề như khả năng hiển thị dữ liệu và điều kiện đua trong các chương trình đa luồng. JMM đảm bảo rằng các chương trình Java đa luồng hoạt động dự đoán được trên các kiến trúc phần cứng khác nhau bằng cách thiết lập các quy tắc cho đồng bộ hóa và sắp xếp bộ nhớ.",
+        "links": [
+          {
+            "title": "Mô hình Bộ nhớ Java",
+            "url": "https://jenkov.com/tutorials/java-concurrency/java-memory-model.html",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "U4Wx3MH3LgJLa0n9Ne0Br",
+      "type": "subtopic",
+      "label": "Từ khóa volatile",
+      "position": {
+        "x": 973.8343015809069,
+        "y": 915.3203519457165
+      },
+      "size": {
+        "width": 218,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Từ khóa `volatile` trong Java là một thuộc tính có thể được áp dụng cho các biến thành phần. Nó đảm bảo tất cả các luồng đều thấy giá trị mới nhất của một biến. Nếu không có `volatile`, mỗi luồng có thể lưu trữ bản sao của riêng nó về biến, dẫn đến sự không nhất quán khi nhiều luồng truy cập và sửa đổi nó cùng lúc. Sử dụng `volatile` buộc luồng phải đọc giá trị của biến trực tiếp từ bộ nhớ chính và ghi các thay đổi trực tiếp trở lại bộ nhớ chính, bỏ qua bộ nhớ cache của luồng.",
+        "links": [
+          {
+            "title": "Từ khóa Java Volatile",
+            "url": "https://jenkov.com/tutorials/java-concurrency/volatile.html",
+            "type": "article"
+          },
+          {
+            "title": "Hướng dẫn về Từ Khóa Volatile trong Java",
+            "url": "https://www.baeldung.com/java-volatile",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "_wV2VQq6MIY1rVHjK8pfu",
+      "type": "topic",
+      "label": "Mật mã hóa (Cryptography)",
+      "position": {
+        "x": 702.0073106597292,
+        "y": 914.3203519457165
+      },
+      "size": {
+        "width": 222,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Mật mã hóa là thực hành và nghiên cứu các kỹ thuật để truyền thông tin an toàn khi có đối thủ. Nó bao gồm chuyển đổi dữ liệu có thể đọc được (plaintext) thành một định dạng không thể đọc được (ciphertext) thông qua mã hóa, và sau đó chuyển đổi ciphertext trở lại plaintext thông qua giải mã. Mật mã hóa sử dụng thuật toán và khóa để đảm bảo tính bảo mật, toàn vẹn, xác thực và không thể phủ nhận của thông tin.",
+        "links": [
+          {
+            "title": "Hướng dẫn về Mã hóa Java",
+            "url": "https://jenkov.com/tutorials/java-cryptography/index.html",
+            "type": "article"
+          },
+          {
+            "title": "Mật mã hóa 101 cho nhà phát triển Java",
+            "url": "https://www.youtube.com/watch?v=itmNhVckTPc",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "9h20XVRli7TDq0QIJwX2U",
+      "type": "topic",
+      "label": "Ngày và Thời gian",
+      "position": {
+        "x": 701.1618709488599,
+        "y": 966.5225017715202
+      },
+      "size": {
+        "width": 224,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Ngày và Thời gian là một khái niệm rất quan trọng trong lập trình. Java cung cấp một bộ lớp phong phú để làm việc với Ngày và Thời gian.",
+        "links": [
+          {
+            "title": "API Ngày và Thời gian trong Java",
+            "url": "https://chamalwr.medium.com/datetime-api-in-java-2aef5df1c39b",
+            "type": "article"
+          },
+          {
+            "title": "Giới thiệu về Ngày và Thời gian trong Java",
+            "url": "https://www.baeldung.com/java-8-date-time-intro",
+            "type": "article"
+          },
+          {
+            "title": "Java SE 8 Thời gian và Ngày",
+            "url": "https://www.oracle.com/technical-resources/articles/java/jf14-date-time.html",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "UGccAJeFA636IiCySl-zF",
+      "type": "label",
+      "label": "Lập trình Hàm",
+      "position": {
+        "x": 711.0073106597292,
+        "y": 1507.8599244017678
+      },
+      "size": {
+        "width": 227,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "1Mk_zXxCCcUoX-gFxtlnf",
+      "type": "subtopic",
+      "label": "Tích hợp Hàm",
+      "position": {
+        "x": 711.0073106597292,
+        "y": 1394.8599244017678
+      },
+      "size": {
+        "width": 227,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Hội tụ hàm là quá trình kết hợp hai hoặc nhiều hàm để tạo ra một hàm mới. Hàm kết quả sẽ áp dụng mỗi hàm theo thứ tự, truyền đầu ra của một hàm làm đầu vào cho hàm tiếp theo. Điều này cho phép bạn xây dựng các thao tác phức tạp bằng cách liên kết các hàm đơn giản, có thể tái sử dụng.",
+        "links": [
+          {
+            "title": "Tích hợp Hàm trong Java",
+            "url": "https://jenkov.com/tutorials/java-functional-programming/functional-composition.html",
+            "type": "article"
+          },
+          {
+            "title": "Lập trình hàm (Functional Programming) Java",
+            "url": "https://www.baeldung.com/java-functional-programming",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dz6bCmB4dgA7VVZ448cN6",
+      "type": "subtopic",
+      "label": "Hàm cấp cao",
+      "position": {
+        "x": 711.0073106597292,
+        "y": 1288.8599244017678
+      },
+      "size": {
+        "width": 227,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Các hàm cấp cao là các hàm có thể nhận các hàm khác làm đối số hoặc trả về các hàm như kết quả của chúng. Khả năng này cho phép bạn viết mã linh hoạt và tái sử dụng hơn bằng cách cho phép bạn trừu tượng hóa các thao tác. Về bản chất, bạn có thể truyền hành vi dưới dạng dữ liệu, khiến mã của bạn trở nên động và dễ thích ứng với các tình huống khác nhau.",
+        "links": [
+          {
+            "title": "Hàm bậc cao Java",
+            "url": "https://jenkov.com/tutorials/java-functional-programming/higher-order-functions.html",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "SityDdjhhNZ9CO3Tg0VI9",
+      "type": "subtopic",
+      "label": "Giao diện Hàm",
+      "position": {
+        "x": 711.0073106597292,
+        "y": 1341.8599244017678
+      },
+      "size": {
+        "width": 227,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Giao diện hàm là giao diện chỉ chứa một phương thức trừ đa. Chúng có thể có nhiều phương thức mặc định hoặc tĩnh, nhưng chỉ một phương thức cần được triển khai. Các giao diện này có thể được sử dụng với biểu thức lambda và tham chiếu phương thức, cho phép mã ngắn gọn và dễ đọc khi xử lý các thao tác một phương thức.",
+        "links": [
+          {
+            "title": "Giao diện hàm (Functional Interfaces) Java",
+            "url": "https://jenkov.com/tutorials/java-functional-programming/functional-interfaces.html",
+            "type": "article"
+          },
+          {
+            "title": "Giao diện hàm (Functional Interfaces) Java",
+            "url": "https://www.baeldung.com/java-8-functional-interfaces",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "WHxAwfdKHQSOg0TLX05EG",
+      "type": "subtopic",
+      "label": "Stream API",
+      "position": {
+        "x": 711.0073106597292,
+        "y": 1447.8599244017678
+      },
+      "size": {
+        "width": 227,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Java cung cấp một gói bổ sung mới trong Java 8 có tên là java.util.stream. Gói này bao gồm các lớp, giao diện và định danh để cho phép các hoạt động theo phong cách chức năng trên các phần tử. Bạn có thể sử dụng luồng bằng cách nhập gói java.util.stream.",
+        "links": [
+          {
+            "title": "Bài học hướng dẫn API Stream Java 8",
+            "url": "https://www.baeldung.com/java-8-streams",
+            "type": "article"
+          },
+          {
+            "title": "Hướng dẫn Stream API Java 8+",
+            "url": "https://www.youtube.com/watch?v=VNovNwHr9jY",
+            "type": "video"
+          },
+          {
+            "title": "Hướng dẫn sử dụng Java Streams phiên bản 8",
+            "url": "https://www.youtube.com/watch?v=t1-YZ6bF-g0",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JeMG0gU8IVRBZgczjXmPi",
+      "type": "topic",
+      "label": "Mạng",
+      "position": {
+        "x": 700.0073106597292,
+        "y": 1018.7246515973238
+      },
+      "size": {
+        "width": 224,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "*   Java Networking là một khái niệm kết nối hai hoặc nhiều thiết bị tính toán với nhau để chúng ta có thể chia sẻ tài nguyên. *   Lập trình socket Java cung cấp khả năng chia sẻ dữ liệu giữa các thiết bị tính toán khác nhau. *   Một socket là một điểm cuối của liên kết truyền thông hai chiều giữa hai chương trình đang chạy trên mạng. Một socket được gán cho một số cổng để lớp TCP có thể xác định ứng dụng mà dữ liệu được gửi đến.",
+        "links": [
+          {
+            "title": "Sockets",
+            "url": "https://docs.oracle.com/javase/tutorial/networking/sockets/index.html",
+            "type": "article"
+          },
+          {
+            "title": "Mạng Java",
+            "url": "https://www.tutorialspoint.com/java/java_networking.htm",
+            "type": "article"
+          },
+          {
+            "title": "Lập trình Socket là gì?",
+            "url": "https://youtu.be/BqBKEXLqdvI",
+            "type": "video"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Mạng lưới",
+            "url": "https://app.daily.dev/tags/networking?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C7rB3jkshHFN7TkHRJPlz",
+      "type": "topic",
+      "label": "Biểu thức chính quy (Regular Expressions)",
+      "position": {
+        "x": 700.0073106597292,
+        "y": 1073.5225017715202
+      },
+      "size": {
+        "width": 224,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Các biểu thức chính quy, thường được rút ngắn là \"regex\", là các chuỗi ký tự xác định một mẫu tìm kiếm. Các mẫu này được sử dụng để khớp các kết hợp ký tự trong chuỗi. Chúng có thể được sử dụng để tìm kiếm, chỉnh sửa hoặc thao tác văn bản và dữ liệu. Các biểu thức chính quy cung cấp một cách mạnh mẽ và linh hoạt để làm việc với dữ liệu dựa trên văn bản.",
+        "links": [
+          {
+            "title": "Hướng dẫn Biểu thức chính quy Java",
+            "url": "https://jenkov.com/tutorials/java-regex/index.html",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "fV-gW51jhna2__Ln2HIIh",
+      "type": "topic",
+      "label": "Truy cập Cơ sở dữ liệu",
+      "position": {
+        "x": 1529.0338845627668,
+        "y": 1500.3599244017678
+      },
+      "size": {
+        "width": 221,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Một phương pháp lập trình để ánh xạ các đối tượng Java sang các thực thể quan hệ trong cơ sở dữ liệu. Nói cách khác, chuyển đổi dữ liệu giữa các cơ sở dữ liệu quan hệ và ngôn ngữ lập trình hướng đối tượng. Một số công cụ/khung ORM phổ biến trong Java là: * Spring Data JPA * Hibernate * Ebean",
+        "links": [
+          {
+            "title": "Hướng dẫn ORM",
+            "url": "https://www.altexsoft.com/blog/object-relational-mapping/",
+            "type": "article"
+          },
+          {
+            "title": "Cơ sở dữ liệu Java: Tổng quan về Thư viện & API",
+            "url": "https://www.marcobehler.com/guides/java-databases",
+            "type": "article"
+          },
+          {
+            "title": "Khám phá các bài đăng được yêu thích nhất về Java.",
+            "url": "https://app.daily.dev/tags/java?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "WzWOxBUKKg6LeuBmVesc2",
+      "type": "subtopic",
+      "label": "Spring Data JPA",
+      "position": {
+        "x": 1554.5338845627668,
+        "y": 1417.8469443073327
+      },
+      "size": {
+        "width": 170,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Spring Data JPA nhằm cải thiện đáng kể việc triển khai các lớp truy cập dữ liệu bằng cách giảm thiểu công sức cần thiết. Với tư cách là một nhà phát triển, bạn viết các giao diện repository, bao gồm cả phương thức tìm kiếm tùy chỉnh, và Spring sẽ cung cấp triển khai tự động.",
+        "links": [
+          {
+            "title": "Spring Data JPA",
+            "url": "https://spring.io/projects/spring-data-jpa",
+            "type": "official"
+          },
+          {
+            "title": "Giới thiệu về Spring Data JPA",
+            "url": "https://www.baeldung.com/the-persistence-layer-with-spring-data-jpa",
+            "type": "article"
+          },
+          {
+            "title": "Hướng dẫn Spring Data JPA",
+            "url": "https://youtu.be/XszpXoII9Sg",
+            "type": "video"
+          },
+          {
+            "title": "Hướng dẫn Spring Boot - Spring Data JPA",
+            "url": "https://youtu.be/8SGI_XS5OPw",
+            "type": "video"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Spring Framework",
+            "url": "https://app.daily.dev/tags/spring?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "UEiDzzodyEu5O1xFAFDly",
+      "type": "subtopic",
+      "label": "Hibernate",
+      "position": {
+        "x": 1554.5338845627668,
+        "y": 1364.8469443073327
+      },
+      "size": {
+        "width": 170,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Hibernate là một công cụ ánh xạ đối tượng-mối quan hệ mã nguồn mở cung cấp một khung để ánh xạ các mô hình miền hướng đối tượng sang cơ sở dữ liệu quan hệ cho các ứng dụng web. Hibernate thực thi các thông số kỹ thuật của JPA. Hiệu năng là yếu tố then chốt, do đó Hibernate hỗ trợ bộ nhớ đệm cấp 1 và cấp 2.",
+        "links": [
+          {
+            "title": "Hibernate",
+            "url": "https://hibernate.org/",
+            "type": "official"
+          },
+          {
+            "title": "Giải thích bộ nhớ cấp hai",
+            "url": "https://hazelcast.com/glossary/hibernate-second-level-cache/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "X2rJ3BY1ytFKsbJqJETFu",
+      "type": "subtopic",
+      "label": "EBean",
+      "position": {
+        "x": 1554.5338845627668,
+        "y": 1311.8469443073327
+      },
+      "size": {
+        "width": 170,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "EBean là một công cụ ánh xạ đối tượng-từ-mô hình được viết bằng Java. Nó hỗ trợ các chú thích JPA tiêu chuẩn để khai báo thực thể. Tuy nhiên, nó cung cấp một API đơn giản hơn nhiều để lưu trữ. Trên thực tế, một trong những điểm đáng đề cập về kiến trúc EBean là nó không trạng thái (sessionless), có nghĩa là nó không quản lý hoàn toàn các thực thể.",
+        "links": [
+          {
+            "title": "EBean",
+            "url": "https://ebean.io/",
+            "type": "official"
+          },
+          {
+            "title": "Tài liệu EBean",
+            "url": "https://ebean.io/docs/",
+            "type": "official"
+          },
+          {
+            "title": "Hướng dẫn sử dụng Ebean",
+            "url": "https://www.baeldung.com/ebean-orm",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "d9F5Wt8onY125DLuzNULg",
+      "type": "topic",
+      "label": "Frameworks Ghi Log",
+      "position": {
+        "x": 1529.0338845627668,
+        "y": 1622.3196545591995
+      },
+      "size": {
+        "width": 221,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Ghi log là một tính năng quan trọng giúp các nhà phát triển theo dõi lỗi. Nó cung cấp khả năng ghi lại tệp log. Ghi log cung cấp thông tin theo dõi đầy đủ của ứng dụng và cũng ghi lại sự cố nghiêm trọng nếu có bất kỳ điều gì xảy ra trong một ứng dụng. Có ba thành phần của Ghi log: Logger, Handler hoặc Appender và Layout hoặc định dạng ghi log.",
+        "links": [
+          {
+            "title": "Giới thiệu về Nhật ký Java",
+            "url": "https://www.baeldung.com/java-logging-intro",
+            "type": "article"
+          },
+          {
+            "title": "Khung Nhật ký Java",
+            "url": "https://en.wikipedia.org/wiki/Java_logging_framework",
+            "type": "article"
+          },
+          {
+            "title": "Hướng dẫn Đăng Nhập bằng Java",
+            "url": "https://www.marcobehler.com/guides/java-logging",
+            "type": "article"
+          },
+          {
+            "title": "Khám phá các bài đăng được yêu thích nhất về Java.",
+            "url": "https://app.daily.dev/tags/java?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "okC1uMdyfIJAhX_R9Npsw",
+      "type": "subtopic",
+      "label": "Logback",
+      "position": {
+        "x": 1532.5469679422956,
+        "y": 1716.8068987197155
+      },
+      "size": {
+        "width": 111,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Logback là một trong những framework ghi log được sử dụng rộng rãi nhất trong cộng đồng Java. Nó là một sự thay thế cho người tiền nhiệm Log4j. Logback cung cấp tốc độ triển khai nhanh hơn, nhiều tùy chọn hơn để cấu hình và linh hoạt hơn trong việc lưu trữ các tệp log cũ.",
+        "links": [
+          {
+            "title": "Trang web chính thức",
+            "url": "https://logback.qos.ch/manual/configuration.html",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sFaNj_1MviaTc6UIfjXl6",
+      "type": "subtopic",
+      "label": "Log4j2",
+      "position": {
+        "x": 1648.2217949048954,
+        "y": 1716.8068987197155
+      },
+      "size": {
+        "width": 101,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Apache Log4j là một tiện ích ghi nhật ký dựa trên Java. Thư viện Java Log4j đóng vai trò ghi lại thông tin giúp các ứng dụng chạy trơn tru, xác định điều gì đang xảy ra và hỗ trợ quá trình gỡ lỗi khi có lỗi xảy ra. Các thư viện ghi nhật ký thường xuyên ghi lại các thông báo vào tệp nhật ký hoặc cơ sở dữ liệu. Log4j2 là phiên bản cập nhật của thư viện log4j phổ biến và có ảnh hưởng, được sử dụng rộng rãi trong toàn hệ sinh thái Java trong nhiều năm qua. Phiên bản 2.x giữ tất cả các tính năng ghi nhật ký của người tiền nhiệm và xây dựng trên nền tảng đó với một số cải tiến đáng kể, đặc biệt là ở lĩnh vực hiệu suất.",
+        "links": [
+          {
+            "title": "Trang web chính thức",
+            "url": "https://logging.apache.org/log4j/2.x/manual/configuration.html",
+            "type": "article"
+          },
+          {
+            "title": "Log4j giải thích: Tất cả những gì bạn cần biết",
+            "url": "https://www.techtarget.com/whatis/feature/Log4j-explained-Everything-you-need-to-know",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "LGlZHKqyQ-aWtHnhklhgn",
+      "type": "subtopic",
+      "label": "SLF4J",
+      "position": {
+        "x": 1532.5469679422956,
+        "y": 1769.8068987197155
+      },
+      "size": {
+        "width": 111,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "SLF4J hoặc Simple Logging Facade for Java là một lớp trừu tượng cho nhiều khung gỡ ghi nhật ký Java, chẳng hạn như Log4j 2 hoặc Logback. Điều này cho phép cắm các khung gỡ ghi nhật ký khác tại thời điểm triển khai mà không cần thay đổi mã.",
+        "links": [
+          {
+            "title": "Trang web chính thức",
+            "url": "https://www.slf4j.org/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Fn7aAaGbwYsAp4xLuuFud",
+      "type": "subtopic",
+      "label": "TinyLog",
+      "position": {
+        "x": 1648.2217949048954,
+        "y": 1769.8068987197155
+      },
+      "size": {
+        "width": 101,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Tinylog là một framework ghi log mã nguồn mở nhẹ dành cho Java và Android, được tối ưu hóa để dễ sử dụng.",
+        "links": [
+          {
+            "title": "Trang web chính thức",
+            "url": "https://tinylog.org/v1/",
+            "type": "official"
+          },
+          {
+            "title": "TinyLog v2",
+            "url": "https://tinylog.org/v2/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "LgpsnXV0CTvTspjnsd0Rd",
+      "type": "topic",
+      "label": "Kiểm thử",
+      "position": {
+        "x": 1300.7385519848222,
+        "y": 1621.8196545591995
+      },
+      "size": {
+        "width": 121,
+        "height": 50
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Khả năng chính để xây dựng phần mềm đáp ứng yêu cầu mà không có lỗi là kiểm thử. Kiểm thử phần mềm giúp nhà phát triển biết họ đang xây dựng phần mềm đúng hay không. Khi các bài kiểm tra được chạy như một phần của quy trình phát triển (thường với các công cụ tích hợp liên tục), chúng tạo ra sự tin tưởng và ngăn chặn các trường hợp đảo ngược trong mã.",
+        "links": [
+          {
+            "title": "Kiểm thử phần mềm là gì?",
+            "url": "https://www.guru99.com/software-testing-introduction-importance.html",
+            "type": "article"
+          },
+          {
+            "title": "Pyramid Kiểm thử",
+            "url": "https://www.browserstack.com/guide/testing-pyramid-for-test-automation",
+            "type": "article"
+          },
+          {
+            "title": "Khám phá các bài đăng được yêu thích nhất về Java.",
+            "url": "https://app.daily.dev/tags/java?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "9UbRG752qxJdUwmqEAjN3",
+      "type": "subtopic",
+      "label": "JDBC",
+      "position": {
+        "x": 1554.5338845627668,
+        "y": 1258.8469443073327
+      },
+      "size": {
+        "width": 170,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "JDBC là một API (Application programming interface) được sử dụng trong lập trình Java để tương tác với cơ sở dữ liệu. Các lớp và giao diện của JDBC cho phép ứng dụng gửi các yêu cầu do người dùng thực hiện đến cơ sở dữ liệu đã chỉ định.",
+        "links": [
+          {
+            "title": "IBM: JDBC là gì?",
+            "url": "https://www.ibm.com/docs/en/informix-servers/12.10?topic=started-what-is-jdbc",
+            "type": "article"
+          },
+          {
+            "title": "Khám phá các bài đăng được yêu thích nhất về Java.",
+            "url": "https://app.daily.dev/tags/java?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ahcnPvftbi83gtiqV6VTP",
+      "type": "label",
+      "label": "Kiểm thử đơn vị",
+      "position": {
+        "x": 712.482369832682,
+        "y": 1739.4390443834811
+      },
+      "size": {
+        "width": 120,
+        "height": 32
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "hY1-sEpTmpaj1PregdkFf",
+      "type": "subtopic",
+      "label": "JUnit",
+      "position": {
+        "x": 712.482369832682,
+        "y": 1626.4390443834811
+      },
+      "size": {
+        "width": 120,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "JUnit is a testing framework for Java.",
+        "links": [
+          {
+            "title": "JUnit",
+            "url": "https://junit.org/junit5",
+            "type": "official"
+          },
+          {
+            "title": "JUnit Documentation",
+            "url": "https://junit.org/junit5/docs/current/user-guide/",
+            "type": "official"
+          },
+          {
+            "title": "JUnit tutorial",
+            "url": "https://www.guru99.com/junit-tutorial.html",
+            "type": "article"
+          },
+          {
+            "title": "Hướng dẫn cơ bản JUnit",
+            "url": "https://www.baeldung.com/junit-5",
+            "type": "article"
+          },
+          {
+            "title": "Khóa học Crash Course về Kiểm thử JUnit",
+            "url": "https://www.youtube.com/watch?v=flpmSXVTqBI",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "XU2C8bF9ICej8LS7ZGTTv",
+      "type": "subtopic",
+      "label": "TestNG",
+      "position": {
+        "x": 712.482369832682,
+        "y": 1679.4390443834811
+      },
+      "size": {
+        "width": 120,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "TestNG là một khung kiểm thử lấy cảm hứng từ JUnit và NUnit nhưng giới thiệu một số chức năng mới giúp nó mạnh mẽ hơn và dễ sử dụng hơn.",
+        "links": [
+          {
+            "title": "Testng",
+            "url": "https://testng.org",
+            "type": "official"
+          },
+          {
+            "title": "Tài liệu Testng",
+            "url": "https://testng.org/doc/documentation-main.html",
+            "type": "official"
+          },
+          {
+            "title": "Hướng dẫn Testng",
+            "url": "https://www.guru99.com/all-about-testng-and-selenium.html",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "lI6ST4WcGtPdKSoWIxStg",
+      "type": "label",
+      "label": "Kiểm thử tích hợp",
+      "position": {
+        "x": 854.3929054677501,
+        "y": 1740.5740097760008
+      },
+      "size": {
+        "width": 160,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "gB4XUR9nCdF1-dOEwGcHi",
+      "type": "subtopic",
+      "label": "REST Assured",
+      "position": {
+        "x": 854.3929054677501,
+        "y": 1627.5740097760008
+      },
+      "size": {
+        "width": 160,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Kiểm tra và xác thực các dịch vụ REST trong Java khó hơn so với các ngôn ngữ động như Ruby và Groovy. REST Assured mang lại sự đơn giản của việc sử dụng các ngôn ngữ đó vào lĩnh vực Java.",
+        "links": [
+          {
+            "title": "Rest-assured",
+            "url": "https://rest-assured.io/",
+            "type": "official"
+          },
+          {
+            "title": "Tài liệu Rest-assured",
+            "url": "https://github.com/rest-assured/rest-assured/wiki",
+            "type": "opensource"
+          },
+          {
+            "title": "Hướng dẫn về REST-assured",
+            "url": "https://www.baeldung.com/rest-assured-tutorial",
+            "type": "article"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về REST API",
+            "url": "https://app.daily.dev/tags/rest-api?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "U2BqOY49HaII6mKQB3SVt",
+      "type": "subtopic",
+      "label": "JMeter",
+      "position": {
+        "x": 854.3929054677501,
+        "y": 1680.5740097760008
+      },
+      "size": {
+        "width": 160,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "JMeter là một dự án mã nguồn mở của Apache có thể được sử dụng như một công cụ kiểm thử tải để phân tích và đo lường hiệu năng của nhiều loại dịch vụ, tập trung vào các ứng dụng web.",
+        "links": [
+          {
+            "title": "JMeter là một công cụ nguồn mở để kiểm thử hiệu năng và tải của ứng dụng web. Nó cho phép bạn mô phỏng nhiều người dùng truy cập đồng thời vào ứng dụng, giúp xác định các điểm nghẽn và đảm bảo ứng dụng có thể xử lý lưu lượng cao. JMeter sử dụng kiến trúc Client-Server để thực hiện các tác vụ kiểm thử, với phần client (JMeter) gửi yêu cầu đến server (ứng dụng web) và server phản hồi lại. \n\nCác tính năng chính của JMeter bao gồm:\n*   **Thử nghiệm tải:** Mô phỏng lưu lượng người dùng để đánh giá hiệu suất ứng dụng.\n*   **Thử nghiệm stress:** Đánh giá giới hạn của ứng dụng khi chịu tải cực cao.\n*   **Thử nghiệm độ bền:** Kiểm tra khả năng của ứng dụng trong thời gian dài dưới tải ổn định.\n*   **Hỗ trợ nhiều giao thức:** HTTP/S, FTP, JDBC, SMTP, POP3, IMAP, SOAP, REST và nhiều giao thức khác.\n*   **Plugin:** Hỗ trợ mở rộng chức năng thông qua các plugin.",
+            "url": "https://jmeter.apache.org/",
+            "type": "article"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Kiểm thử",
+            "url": "https://app.daily.dev/tags/testing?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "BFX3fjnFTHVnNnqMudZoK",
+      "type": "label",
+      "label": "Kiểm thử hành vi",
+      "position": {
+        "x": 1046.8252013753893,
+        "y": 1693.015947794886
+      },
+      "size": {
+        "width": 145,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "UFDy19TNkykRsKv4vRsVJ",
+      "type": "subtopic",
+      "label": "Cucumber-JVM",
+      "position": {
+        "x": 1030.3252013753893,
+        "y": 1633.015947794886
+      },
+      "size": {
+        "width": 178,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Cucumber là một công cụ kiểm thử hỗ trợ Phát triển Driven Hành vi (BDD). Nó cung cấp một cách để viết các bài kiểm tra mà bất kỳ ai cũng có thể hiểu được, bất kể trình độ kỹ thuật của họ.",
+        "links": [
+          {
+            "title": "Cucumber",
+            "url": "https://cucumber.io/",
+            "type": "official"
+          },
+          {
+            "title": "Tài liệu Cucumber",
+            "url": "https://cucumber.io/docs/cucumber/",
+            "type": "official"
+          },
+          {
+            "title": "Cucumber-JVM cho Java",
+            "url": "https://automationpanda.com/2017/10/24/cucumber-jvm-for-java/",
+            "type": "article"
+          },
+          {
+            "title": "Cucumber-JVM 5 với Biểu thức Cucumber Tăng cường",
+            "url": "https://www.youtube.com/watch?v=jCzpxvAJoZM",
+            "type": "video"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về JVM",
+            "url": "https://app.daily.dev/tags/jvm?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mLM1HJf6_pxrUDOmb45ew",
+      "type": "subtopic",
+      "label": "Mocking > Mockito",
+      "position": {
+        "x": 1022.3252013753893,
+        "y": 1738.4390443834811
+      },
+      "size": {
+        "width": 197,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Mocking loại bỏ các phụ thuộc bên ngoài khỏi một bài kiểm tra đơn vị để tạo ra một môi trường được kiểm soát hoàn toàn. Phương pháp truyền thống của mocks là mock tất cả các lớp khác tương tác với lớp mà chúng ta muốn kiểm tra. Các mục tiêu phổ biến để mock bao gồm: * Kết nối cơ sở dữ liệu * Dịch vụ web * Các lớp chậm * Các lớp có tác dụng phụ * Các lớp có hành vi không xác định.",
+        "links": [
+          {
+            "title": "Mockito - Mocking Framework for Java",
+            "url": "https://site.mockito.org/",
+            "type": "article"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Kiểm thử",
+            "url": "https://app.daily.dev/tags/testing?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "xi0QAi4kXm3-IFKgopnOP",
+      "type": "vertical",
+      "label": "nút theo chiều dọc",
+      "position": {
+        "x": 1359.8343015809069,
+        "y": 2016.2880407433463
+      },
+      "size": {
+        "width": 21,
+        "height": 85
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "OrkJa48HIDmrLOgCBpimA",
+      "type": "subtopic",
+      "label": "Javalin",
+      "position": {
+        "x": 1368.6499336025647,
+        "y": 1368.2594233874954
+      },
+      "size": {
+        "width": 114,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Javalin là một framework web nhẹ cho Java và Kotlin được thiết kế để đơn giản, trực quan và thú vị khi sử dụng. Nó cho phép các nhà phát triển xây dựng ứng dụng và API web nhanh chóng với ít mã tệp tin thừa. Javalin tập trung vào việc cung cấp một cách tiếp cận trực tiếp đến định tuyến, xử lý yêu cầu và tạo phản hồi, khiến nó trở thành một lựa chọn tốt cho các dự án nơi tốc độ phát triển và dễ hiểu là quan trọng.",
+        "links": [
+          {
+            "title": "Trang web Javalin",
+            "url": "https://javalin.io/",
+            "type": "official"
+          },
+          {
+            "title": "Tạo REST API với Javalin",
+            "url": "https://www.baeldung.com/javalin-rest-microservices",
+            "type": "article"
+          }
+        ]
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "XX0I26JoVMVXIe_7bVMix",
+      "source": "iogwMmOvub2ZF4zgg6WyF",
+      "target": "_hYN0gEi9BL24nptEtXWU",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "dFn6kGOoJ-0BzJJEb9DSG",
+      "source": "_hYN0gEi9BL24nptEtXWU",
+      "target": "idLHBxhvcIqZTqmh_E8Az",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "arkF7QJJRbCBYWp0crqa2",
+      "source": "_hYN0gEi9BL24nptEtXWU",
+      "target": "os3Pa6W9SSNEzgmlBbglQ",
+      "source_handle": "z2",
+      "target_handle": "y2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "HNVw8OboycWKLEtEbG2bn",
+      "source": "_hYN0gEi9BL24nptEtXWU",
+      "target": "3oInpqvTSSC5_K6i7j8N7",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "auB7Png72XjmhcLr3IJA7",
+      "source": "_hYN0gEi9BL24nptEtXWU",
+      "target": "YKhuRbcUFzo0hTvuTq-Yl",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "2aoDIr80lXSJLW1hIGUkb",
+      "source": "jZ67HhVRelJaxjsCckSSI",
+      "target": "hWA7RtuqltMTmHdcCnmES",
+      "source_handle": "x2",
+      "target_handle": "y1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "m-_y7nLeYFkUKGiacxWA0",
+      "source": "",
+      "target": "NMznG9mo2wzNFnjhg990f",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "G7pXuJfkyt2nWAOHU8yV0",
+      "source": "",
+      "target": "gc_7cuIO2_joKlQRAPDfX",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "2_6Yz3-Agx9_rEN5xW86c",
+      "source": "rrrvATyhXqRgJGWI3z0WF",
+      "target": "AvbMQ5vY3ip1oX_6Yq4ie",
+      "source_handle": "x2",
+      "target_handle": "w2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "kgMI98fg2-mKMgUs0wnjD",
+      "source": "hWA7RtuqltMTmHdcCnmES",
+      "target": "1AJv95mTLpR7L8KBoGym8",
+      "source_handle": "w2",
+      "target_handle": "x1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "ts38Q2ceHs60TJscUBZVE",
+      "source": "hWA7RtuqltMTmHdcCnmES",
+      "target": "0etAs56EeBfh_0IlAaSra",
+      "source_handle": "y2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "ZiMV7umyPdhy3JJDcopR-",
+      "source": "jZ67HhVRelJaxjsCckSSI",
+      "target": "h6ceO0kiBIxNRkPzN3hBY",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "WI-MhbxrehFcVwyGJ5CQJ",
+      "source": "jZ67HhVRelJaxjsCckSSI",
+      "target": "_JlT9oKQ6Yu4UX6l19G8P",
+      "source_handle": "y2",
+      "target_handle": "z2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "qUrLBzvXvJOg53HBfjrOI",
+      "source": "_hYN0gEi9BL24nptEtXWU",
+      "target": "jZ67HhVRelJaxjsCckSSI",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-hp15XdmPlKKTbYnrYfCBlx2-Rhk7BrJqNEXQT3LGlGLM6w1",
+      "source": "hp15XdmPlKKTbYnrYfCBl",
+      "target": "2TGq1y2QthnxxN-FfToSe",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-Rhk7BrJqNEXQT3LGlGLM6y2-OlbQNB6YXZjO1J7D0lZU1z1",
+      "source": "2TGq1y2QthnxxN-FfToSe",
+      "target": "OlbQNB6YXZjO1J7D0lZU1",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-Rhk7BrJqNEXQT3LGlGLM6y2-QgWalJLIb6Fw0HhN1wb02z1",
+      "source": "2TGq1y2QthnxxN-FfToSe",
+      "target": "5g9mmi01WeZ4aDqNzwx_V",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-Rhk7BrJqNEXQT3LGlGLM6y2-VBNcAO0STaZJ1iV9A7utvz1",
+      "source": "2TGq1y2QthnxxN-FfToSe",
+      "target": "VBNcAO0STaZJ1iV9A7utv",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-Rhk7BrJqNEXQT3LGlGLM6y2-yNDbk6r5wFqBi25xmIRF_z1",
+      "source": "2TGq1y2QthnxxN-FfToSe",
+      "target": "yNDbk6r5wFqBi25xmIRF_",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-Rhk7BrJqNEXQT3LGlGLM6z2-5khApwg1FZ-0qorsLyH-Fy1",
+      "source": "2TGq1y2QthnxxN-FfToSe",
+      "target": "5khApwg1FZ-0qorsLyH-F",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-Rhk7BrJqNEXQT3LGlGLM6z2-sG_3ZQIE1-FQXQkk-OduQy1",
+      "source": "2TGq1y2QthnxxN-FfToSe",
+      "target": "sG_3ZQIE1-FQXQkk-OduQ",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-Rhk7BrJqNEXQT3LGlGLM6z2-DZ4BX4NYeCQbjGSj56lngy1",
+      "source": "2TGq1y2QthnxxN-FfToSe",
+      "target": "JHUhVEjWFXTn6-wKcKevg",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-Rhk7BrJqNEXQT3LGlGLM6z2-KcIUQ5XpOI6WTA9wrqzn3y2",
+      "source": "2TGq1y2QthnxxN-FfToSe",
+      "target": "KcIUQ5XpOI6WTA9wrqzn3",
+      "source_handle": "z2",
+      "target_handle": "y2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-2TGq1y2QthnxxN-FfToSez2-ziD_XwzJSFQP_3iLjq9pAy1",
+      "source": "2TGq1y2QthnxxN-FfToSe",
+      "target": "ziD_XwzJSFQP_3iLjq9pA",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-2TGq1y2QthnxxN-FfToSez2-aEaBobzFWv0mJHGAbgxKYy1",
+      "source": "2TGq1y2QthnxxN-FfToSe",
+      "target": "aEaBobzFWv0mJHGAbgxKY",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-2TGq1y2QthnxxN-FfToSey2-QgWalJLIb6Fw0HhN1wb02z1",
+      "source": "2TGq1y2QthnxxN-FfToSe",
+      "target": "QgWalJLIb6Fw0HhN1wb02",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-Rhk7BrJqNEXQT3LGlGLM6y2-LenPrQwxFsE1UVbXO_dE7w2",
+      "source": "Rhk7BrJqNEXQT3LGlGLM6",
+      "target": "LenPrQwxFsE1UVbXO_dE7",
+      "source_handle": "y2",
+      "target_handle": "w2",
+      "edge_style": "dashed",
+      "line_type": "simplebezier",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-2TGq1y2QthnxxN-FfToSez2-DZ4BX4NYeCQbjGSj56lngy1",
+      "source": "2TGq1y2QthnxxN-FfToSe",
+      "target": "DZ4BX4NYeCQbjGSj56lng",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-2TGq1y2QthnxxN-FfToSex2-zNHDLv26Xn3oMrDVSAP1Zw2",
+      "source": "2TGq1y2QthnxxN-FfToSe",
+      "target": "zNHDLv26Xn3oMrDVSAP1Z",
+      "source_handle": "x2",
+      "target_handle": "w2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-FyTlaUqrK5h3e5mWwkvVgx2-XUikvUeIXLl34LP6HFrAIw1",
+      "source": "FyTlaUqrK5h3e5mWwkvVg",
+      "target": "XUikvUeIXLl34LP6HFrAI",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-kdxy8Zssnc5lJjdmjUyMcy2-8n5A3GTRV3WpEnCa4yGamz1",
+      "source": "kdxy8Zssnc5lJjdmjUyMc",
+      "target": "8n5A3GTRV3WpEnCa4yGam",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-zNHDLv26Xn3oMrDVSAP1Zx2-FyTlaUqrK5h3e5mWwkvVgw1",
+      "source": "zNHDLv26Xn3oMrDVSAP1Z",
+      "target": "FyTlaUqrK5h3e5mWwkvVg",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-zNHDLv26Xn3oMrDVSAP1Zz2-g9P3548F38tYGjevBc42ww1",
+      "source": "zNHDLv26Xn3oMrDVSAP1Z",
+      "target": "g9P3548F38tYGjevBc42w",
+      "source_handle": "z2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "smoothstep",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-g9P3548F38tYGjevBc42wx2-00_q6I95eO-PUUrKpPFY8w1",
+      "source": "g9P3548F38tYGjevBc42w",
+      "target": "00_q6I95eO-PUUrKpPFY8",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-81N1cZLue_Ii0uD5CV6kZw2-6FMj9tMAQPii_1kLtHJLkx2",
+      "source": "81N1cZLue_Ii0uD5CV6kZ",
+      "target": "6FMj9tMAQPii_1kLtHJLk",
+      "source_handle": "w2",
+      "target_handle": "x2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-zItXmuluDtl6HkTYQ7qMhx2-M0ybgK1JCycXhZ1dEpCFow2",
+      "source": "zItXmuluDtl6HkTYQ7qMh",
+      "target": "M0ybgK1JCycXhZ1dEpCFo",
+      "source_handle": "x2",
+      "target_handle": "w2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-LgpsnXV0CTvTspjnsd0Rdw2-kN-mXxqUPNJNsJGQ0U_7Jx1",
+      "source": "_W84u4UXMSY0zvy6RJvFi",
+      "target": "kN-mXxqUPNJNsJGQ0U_7J",
+      "source_handle": "w2",
+      "target_handle": "x1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-LgpsnXV0CTvTspjnsd0Rdy2-81N1cZLue_Ii0uD5CV6kZz2",
+      "source": "_W84u4UXMSY0zvy6RJvFi",
+      "target": "81N1cZLue_Ii0uD5CV6kZ",
+      "source_handle": "y2",
+      "target_handle": "z2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-JeMG0gU8IVRBZgczjXmPiw2-u_YysD7Bpnq-xkFX5yJGzx1",
+      "source": "shqS9-hg__mkOtnnl_I4l",
+      "target": "u_YysD7Bpnq-xkFX5yJGz",
+      "source_handle": "w2",
+      "target_handle": "x1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-_W84u4UXMSY0zvy6RJvFiz2-LgpsnXV0CTvTspjnsd0Rdy1",
+      "source": "_W84u4UXMSY0zvy6RJvFi",
+      "target": "fV-gW51jhna2__Ln2HIIh",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-LgpsnXV0CTvTspjnsd0Rdw2-WzWOxBUKKg6LeuBmVesc2x1",
+      "source": "fV-gW51jhna2__Ln2HIIh",
+      "target": "WzWOxBUKKg6LeuBmVesc2",
+      "source_handle": "w2",
+      "target_handle": "x1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-fV-gW51jhna2__Ln2HIIhx2-LgpsnXV0CTvTspjnsd0Rdw1",
+      "source": "fV-gW51jhna2__Ln2HIIh",
+      "target": "d9F5Wt8onY125DLuzNULg",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-d9F5Wt8onY125DLuzNULgy2-LgpsnXV0CTvTspjnsd0Rdz2",
+      "source": "d9F5Wt8onY125DLuzNULg",
+      "target": "LgpsnXV0CTvTspjnsd0Rd",
+      "source_handle": "y2",
+      "target_handle": "z2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-d9F5Wt8onY125DLuzNULgy2-d9F5Wt8onY125DLuzNULgy1",
+      "source": "d9F5Wt8onY125DLuzNULg",
+      "target": "d9F5Wt8onY125DLuzNULg",
+      "source_handle": "y2",
+      "target_handle": "y1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    }
+  ],
+  "content_crawled_at": "2026-04-06T09:44:08.986592+00:00"
+}

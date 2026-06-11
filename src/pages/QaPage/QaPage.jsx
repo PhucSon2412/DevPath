@@ -188,10 +188,10 @@ export default function QaPage() {
 
   const getReasonByLanguage = (recommendation) => {
     const reason = recommendation?.reason || {}
-    if (language === 'ja') {
-      return reason.ja || reason.en || ''
+    if (language === 'vi') {
+      return reason.vi || reason.en || ''
     }
-    return reason.en || reason.ja || ''
+    return reason.en || reason.vi || ''
   }
 
   if (loading) {

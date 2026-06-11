@@ -1,0 +1,5934 @@
+{
+  "id": "nodejs",
+  "title": "Node.js",
+  "source_url": "https://roadmap.sh/nodejs",
+  "github_url": "https://github.com/kamranahmedse/developer-roadmap/tree/master/src/data/roadmaps/nodejs",
+  "crawled_at": "2026-04-06T07:37:27.168154+00:00",
+  "type": "flow",
+  "stats": {
+    "total_nodes": 155,
+    "total_edges": 37,
+    "nodes_with_content": 113
+  },
+  "node_types": [
+    "button",
+    "horizontal",
+    "label",
+    "legend",
+    "paragraph",
+    "section",
+    "subtopic",
+    "title",
+    "topic",
+    "vertical"
+  ],
+  "edge_styles": [
+    "dashed",
+    "solid"
+  ],
+  "edge_line_types": [
+    "default",
+    "simplebezier"
+  ],
+  "node_type_description": {
+    "title": "Tiêu đề chính của lộ trình (roadmap)",
+    "topic": "Chủ đề lớn (nhóm kỹ năng)",
+    "subtopic": "Các kỹ năng/công nghệ cụ thể cần học",
+    "paragraph": "Vùng text mô tả / chú thích",
+    "vertical": "Visual Connector"
+  },
+  "edge_style_description": {
+    "solid": "Kỹ năng bắt buộc / quan trọng",
+    "dashed": "Tùy chọn / gợi ý / alternative"
+  },
+  "nodes": [
+    {
+      "id": "lY0EOkj4UwEQtbHbEnlwS",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": -521.1296292301079,
+        "y": 682.1880786390362
+      },
+      "size": {
+        "width": 224,
+        "height": 162
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "XWHqY5mvMV3eYkysx0Zfp",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": -521.1296292301079,
+        "y": 832.3567490522917
+      },
+      "size": {
+        "width": 224,
+        "height": 224
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "bMMlYdl4jaQnT-rRHGfBc",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": -521.1296292301079,
+        "y": 1047.2877525020792
+      },
+      "size": {
+        "width": 224,
+        "height": 276
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "GKLqJSMrljLEoBM_smemV",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": -519.6255644994952,
+        "y": 1508.0506125880281
+      },
+      "size": {
+        "width": 225,
+        "height": 220
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "AoZfjDaReVr2O4qsoc4vM",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": -520.169165402603,
+        "y": 1718.2304293708296
+      },
+      "size": {
+        "width": 225,
+        "height": 381
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "dEbEgIsHqZpHFAvr5X0x3",
+      "type": "horizontal",
+      "label": "nút ngang",
+      "position": {
+        "x": -292.49114007976596,
+        "y": 1644.6526950801597
+      },
+      "size": {
+        "width": 106,
+        "height": 20
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.75,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "CWqY6-O_dPj_Y37kf_S8o",
+      "type": "horizontal",
+      "label": "nút ngang",
+      "position": {
+        "x": -6.9937473170568865,
+        "y": 1272.7877525020792
+      },
+      "size": {
+        "width": 219,
+        "height": 20
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.75,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "k7wjZ_qFjqBLJlxsNkoK-",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": 342.73640589584414,
+        "y": 1078.063720703125
+      },
+      "size": {
+        "width": 190,
+        "height": 170
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "_FZLVUJZlMUkDB2imFhH_",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": 341.73640589584414,
+        "y": 1242.02072262127
+      },
+      "size": {
+        "width": 191,
+        "height": 275
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "iYn8WyQohBdoi35AxL4-z",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": 211.39975778990492,
+        "y": 1242.6567476363114
+      },
+      "size": {
+        "width": 137,
+        "height": 275
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "ittRdaPElU2wEdDyRRrRz",
+      "type": "vertical",
+      "label": "nút theo chiều dọc",
+      "position": {
+        "x": -152.95968546864998,
+        "y": 988.3567490522917
+      },
+      "size": {
+        "width": 21,
+        "height": 663
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.75
+      },
+      "z_index": 999
+    },
+    {
+      "id": "0PrEMLItU5sYKGVCUNt-x",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": -521.6296292301079,
+        "y": 1320.9416664638775
+      },
+      "size": {
+        "width": 225,
+        "height": 164
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "pk5vi2vyY4h8obhkaim2c",
+      "type": "horizontal",
+      "label": "nút ngang",
+      "position": {
+        "x": -296.49114007976596,
+        "y": 962.820597967326
+      },
+      "size": {
+        "width": 131,
+        "height": 20
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.75,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "4DIE9zavh1rma7H5ohMTg",
+      "type": "vertical",
+      "label": "nút theo chiều dọc",
+      "position": {
+        "x": 68.04031453135002,
+        "y": 862.3055580184816
+      },
+      "size": {
+        "width": 21,
+        "height": 176
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.75,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "Gwet2IxFjSbwkn_hSERlZ",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": 13.866725520174441,
+        "y": 1036.090167109613
+      },
+      "size": {
+        "width": 243,
+        "height": 160
+      },
+      "style": {
+        "width": 150,
+        "height": 100,
+        "fontSize": 17,
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "hgAgTyNSF4hFhwf4hdbX_",
+      "type": "horizontal",
+      "label": "nút ngang",
+      "position": {
+        "x": -10.633274479825559,
+        "y": 590.2304293708296
+      },
+      "size": {
+        "width": 102,
+        "height": 20
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.75,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "I9jtrQ9MjljnCWjXDD690",
+      "type": "vertical",
+      "label": "nút theo chiều dọc",
+      "position": {
+        "x": 68.04031453135002,
+        "y": 473.7304293708296
+      },
+      "size": {
+        "width": 21,
+        "height": 124
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.75,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "bCEICHJzklKBOOuUTTZxI",
+      "type": "vertical",
+      "label": "nút theo chiều dọc",
+      "position": {
+        "x": 213.36672552017444,
+        "y": 304.2304293708296
+      },
+      "size": {
+        "width": 21,
+        "height": 731
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.75
+      },
+      "z_index": 999
+    },
+    {
+      "id": "ztNOp7Rs6jcpjUR2vszxU",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": -209.63327447982556,
+        "y": 430.7304293708296
+      },
+      "size": {
+        "width": 200,
+        "height": 427
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "8Iyjko6ZLr93CESSSIkyD",
+      "type": "vertical",
+      "label": "nút theo chiều dọc",
+      "position": {
+        "x": 332.36672552017444,
+        "y": 301.73042937082954
+      },
+      "size": {
+        "width": 21,
+        "height": 75
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "gLEIlNbhJ2CzjjPCflwog",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": 285.36672552017444,
+        "y": 376.73042937082954
+      },
+      "size": {
+        "width": 227,
+        "height": 270
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "-JeyS2JglnU1HYh_IGZ4k",
+      "type": "vertical",
+      "label": "nút theo chiều dọc",
+      "position": {
+        "x": -60.45968546864998,
+        "y": 213.7159927885748
+      },
+      "size": {
+        "width": 21,
+        "height": 177
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "iyVufU8xJqKnMThnRTJTu",
+      "type": "horizontal",
+      "label": "nút ngang",
+      "position": {
+        "x": -237.16916540260297,
+        "y": 295.2159927885748
+      },
+      "size": {
+        "width": 132,
+        "height": 20
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "PCnnW6w1BsBIIKsM-H9P1",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": -450.63327447982556,
+        "y": 264.73042937082954
+      },
+      "size": {
+        "width": 213,
+        "height": 163
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "-qEO8FEWDKyIYsX_BVhSp",
+      "type": "vertical",
+      "label": "nút theo chiều dọc",
+      "position": {
+        "x": 358.76672552017453,
+        "y": 28.715992788574795
+      },
+      "size": {
+        "width": 21,
+        "height": 150
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "iogwMmOvub2ZF4zgg6WyF",
+      "type": "title",
+      "label": "Node.js",
+      "position": {
+        "x": -60.45968546864998,
+        "y": -160.28400721142515
+      },
+      "size": {
+        "width": 136,
+        "height": 68
+      },
+      "style": {
+        "fontSize": 28,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "LEijbLyxg4RyutKEM2Y5g",
+      "type": "vertical",
+      "label": "nút theo chiều dọc",
+      "position": {
+        "x": -2.9596854686499796,
+        "y": -230.76957062917046
+      },
+      "size": {
+        "width": 21,
+        "height": 76
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#0A33FF"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "YD5y17K5nqmWaBwYcufZO",
+      "type": "legend",
+      "label": "",
+      "position": {
+        "x": -522.3080206821377,
+        "y": -232.76957062917046
+      },
+      "size": {
+        "width": 349,
+        "height": 124
+      },
+      "style": {},
+      "z_index": 999
+    },
+    {
+      "id": "KDd40JOAvZ8O1mfhTYB3K",
+      "type": "topic",
+      "label": "Giới thiệu về Node.js",
+      "position": {
+        "x": -112.95968546864998,
+        "y": 72.7304293708296
+      },
+      "size": {
+        "width": 241,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Node.js là một môi trường runtime nguồn mở, đa nền tảng và thư viện được sử dụng để chạy các ứng dụng web bên ngoài trình duyệt của khách hàng. Nó được sử dụng cho lập trình phía máy chủ và chủ yếu triển khai cho máy chủ không chặn, dựa trên sự kiện, chẳng hạn như trang web truyền thống và dịch vụ API phía sau, nhưng ban đầu được thiết kế với kiến trúc đẩy thời gian thực trong tâm trí. Mỗi trình duyệt đều có phiên bản riêng của động cơ JS và node.js được xây dựng trên động cơ V8 JavaScript của Google Chrome.",
+        "links": [
+          {
+            "title": "Node.js",
+            "url": "https://nodejs.org/en/",
+            "type": "official"
+          },
+          {
+            "title": "Node.js Documentation",
+            "url": "https://nodejs.org/en/docs/",
+            "type": "official"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Node.js",
+            "url": "https://app.daily.dev/tags/nodejs?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Mp056kNnwsRWeEXuhGPy-",
+      "type": "subtopic",
+      "label": "Node.js là gì?",
+      "position": {
+        "x": -518.169165402603,
+        "y": -33.284007211425205
+      },
+      "size": {
+        "width": 282,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "NEZQB0yHPCcKwsESDYbk5",
+        "color": "#38761d",
+        "label": "Các chủ đề / Bắt đầu với những điều này",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "Node.js là môi trường thời gian chạy JavaScript nguồn mở và đa nền tảng. Đây là công cụ phổ biến cho hầu như mọi loại dự án! Node.js chạy trình thông dịch V8 JavaScript, bộ lõi của Google Chrome, bên ngoài trình duyệt. Điều này cho phép Node.js hoạt động rất hiệu quả. Một ứng dụng Node.js chạy trong một quy trình duy nhất mà không tạo ra luồng mới cho mỗi yêu cầu. Node.js cung cấp một tập hợp các nguyên mẫu I/O bất đồng bộ trong thư viện tiêu chuẩn của nó, ngăn JavaScript code bị chặn và nói chung, các thư viện trong Node.js được viết bằng các mô hình không chặn, khiến hành vi chặn là ngoại lệ chứ không phải quy tắc.",
+        "links": [
+          {
+            "title": "Node.js",
+            "url": "https://nodejs.org/en/about/",
+            "type": "official"
+          },
+          {
+            "title": "Node.js - Getting Started",
+            "url": "https://nodejs.org/en/learn/getting-started/introduction-to-nodejs",
+            "type": "official"
+          },
+          {
+            "title": "Node.js là gì?",
+            "url": "https://www.youtube.com/watch?v=uVwtVBpw7RQ",
+            "type": "video"
+          },
+          {
+            "title": "Node.js hoạt động như thế nào?",
+            "url": "https://www.youtube.com/watch?v=jOupHNvDIq8",
+            "type": "video"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Node.js",
+            "url": "https://app.daily.dev/tags/nodejs?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ex8FOKrUlbu4MuEq2czyW",
+      "type": "subtopic",
+      "label": "Tại sao nên sử dụng Node.js?",
+      "position": {
+        "x": -518.169165402603,
+        "y": 19.715992788574795
+      },
+      "size": {
+        "width": 282,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "NEZQB0yHPCcKwsESDYbk5",
+        "color": "#38761d",
+        "label": "Các chủ đề / Bắt đầu với những điều này",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "Node.js là một runtime đa nền tảng, hoàn hảo cho nhiều trường hợp sử dụng khác nhau. Cộng đồng lớn của nó giúp dễ dàng bắt đầu. Nó sử dụng động cơ V8 để biên dịch JavaScript và chạy với tốc độ cực nhanh. Ứng dụng Node.js rất có thể mở rộng và bảo trì. Hỗ trợ đa nền tảng cho phép tạo ra nhiều loại ứng dụng - ứng dụng desktop, dịch vụ phần mềm và thậm chí cả ứng dụng di động. Node.js hoàn hảo cho các ứng dụng đòi hỏi xử lý dữ liệu và thời gian thực vì nó sử dụng mô hình I/O không chặn, dựa trên sự kiện, khiến nó nhẹ và hiệu quả. Với một cộng đồng lớn như vậy, một bộ sưu tập lớn các gói Node.js có sẵn để đơn giản hóa và tăng tốc độ phát triển.",
+        "links": [
+          {
+            "title": "Học Node.js",
+            "url": "https://nodejs.org/en/learn/getting-started/introduction-to-nodejs",
+            "type": "official"
+          },
+          {
+            "title": "Tại sao nên chọn Node.js?",
+            "url": "https://medium.com/selleo/why-choose-node-js-b0091ad6c3fc",
+            "type": "article"
+          },
+          {
+            "title": "5 Lý do để chọn Node.js",
+            "url": "https://www.bitovi.com/blog/5-reasons-to-choose-nodejs",
+            "type": "article"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Node.js",
+            "url": "https://app.daily.dev/tags/nodejs?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Vrcv5px-3fqmyJnQv3WBK",
+      "type": "subtopic",
+      "label": "Lịch sử của Node.js",
+      "position": {
+        "x": -518.169165402603,
+        "y": 72.7159927885748
+      },
+      "size": {
+        "width": 282,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "NEZQB0yHPCcKwsESDYbk5",
+        "color": "#38761d",
+        "label": "Các chủ đề / Bắt đầu với những điều này",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "Node.js được Ryan Dahl viết lần đầu vào năm 2009, khoảng mười ba năm sau khi giới thiệu môi trường JavaScript phía máy chủ đầu tiên, Netscape's LiveWire Pro Web. Phiên bản phát hành ban đầu chỉ hỗ trợ Linux và macOS X. Việc phát triển và bảo trì do Dahl dẫn dắt và sau đó được tài trợ bởi Joyent.",
+        "links": [
+          {
+            "title": "Cột Mốc Tăng Cao – Lịch Sử của Node.js Trên Một Dòng Thời Gian",
+            "url": "https://blog.risingstack.com/history-of-node-js/",
+            "type": "article"
+          },
+          {
+            "title": "SAP Press - Node.js Nguồn Gốc Xuất Hiện Như Thế Nào?",
+            "url": "https://blog.sap-press.com/how-did-node.js-come-about",
+            "type": "article"
+          },
+          {
+            "title": "Node.js: The Documentary | An Origin Story",
+            "url": "https://youtu.be/LB8KwiiUGy0",
+            "type": "video"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Node.js",
+            "url": "https://app.daily.dev/tags/nodejs?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ebVb0anYmbD1Y9ZTFXKFp",
+      "type": "subtopic",
+      "label": "Node.js so với Browser",
+      "position": {
+        "x": -518.169165402603,
+        "y": 125.7159927885748
+      },
+      "size": {
+        "width": 282,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "NEZQB0yHPCcKwsESDYbk5",
+        "color": "#38761d",
+        "label": "Các chủ đề / Bắt đầu với những điều này",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "Cả trình duyệt và Node.js đều sử dụng JavaScript như ngôn ngữ lập trình của chúng. Xây dựng các ứng dụng chạy trong trình duyệt hoàn toàn khác so với việc xây dựng một ứng dụng Node.js. Mặc dù luôn là JavaScript, nhưng một số khác biệt chính khiến trải nghiệm này khác nhau hoàn toàn.",
+        "links": [
+          {
+            "title": "Sự khác biệt giữa Node.js và Trình duyệt",
+            "url": "https://nodejs.org/en/learn/getting-started/differences-between-nodejs-and-the-browser/",
+            "type": "official"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Node.js",
+            "url": "https://app.daily.dev/tags/nodejs?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "uPJqdMQQJRkTMMhNORDeH",
+      "type": "subtopic",
+      "label": "Chạy mã Node.js",
+      "position": {
+        "x": -518.169165402603,
+        "y": 178.7159927885748
+      },
+      "size": {
+        "width": 282,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "NEZQB0yHPCcKwsESDYbk5",
+        "color": "#38761d",
+        "label": "Các chủ đề / Bắt đầu với những điều này",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "Cách thông thường để chạy một chương trình Node.js là chạy lệnh `node` có sẵn toàn cục (sau khi bạn đã cài đặt Node.js) và truyền tên tệp bạn muốn thực thi.",
+        "links": [
+          {
+            "title": "Chạy Node.js từ dòng lệnh",
+            "url": "https://nodejs.org/en/learn/command-line/run-nodejs-scripts-from-the-command-line/",
+            "type": "official"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Node.js",
+            "url": "https://app.daily.dev/tags/nodejs?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mbGFT6S7mL3bHHEZv0_s2",
+      "type": "topic",
+      "label": "Mô-đun",
+      "position": {
+        "x": 287.76672552017453,
+        "y": 72.7304293708296
+      },
+      "size": {
+        "width": 163,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Chúng tôi chia mã nguồn của mình thành các file khác nhau để duy trì, tổ chức và tái sử dụng mã khi có thể. Một hệ thống module cho phép chúng ta chia nhỏ và bao gồm mã cũng như import mã do các nhà phát triển khác viết khi cần thiết. Về cơ bản, một module chỉ là một file JavaScript. Node.js có nhiều module tích hợp sẵn thuộc về nền tảng và đi kèm với việc cài đặt Node.js, ví dụ HTTP, fs, path và hơn thế nữa.",
+        "links": [
+          {
+            "title": "Mô-đun: Mô-đun CommonJS",
+            "url": "https://nodejs.org/api/modules.html#modules-commonjs-modules",
+            "type": "official"
+          },
+          {
+            "title": "CommonJS vs. ES Modules trên Node.js",
+            "url": "https://blog.logrocket.com/commonjs-vs-es-modules-node-js/",
+            "type": "article"
+          },
+          {
+            "title": "Mô-đun trong Node.js",
+            "url": "https://www.youtube.com/watch?v=9Amxzvq5LY8&",
+            "type": "video"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Node.js",
+            "url": "https://app.daily.dev/tags/nodejs?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mhjswf17nhq075NTYV5gE",
+      "type": "subtopic",
+      "label": "CommonJS",
+      "position": {
+        "x": 301.76672552017453,
+        "y": -53.26957062917046
+      },
+      "size": {
+        "width": 135,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "NEZQB0yHPCcKwsESDYbk5",
+        "color": "#38761d",
+        "label": "Các chủ đề / Bắt đầu với những điều này",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "CommonJS và ES (EcmaScript) là các hệ thống mô-đun được sử dụng trong Node. CommonJS là hệ thống mô-đun mặc định. Tuy nhiên, một hệ thống mô-đun mới đã được thêm vào NodeJS gần đây - ES modules. Các mô-đun CommonJS sử dụng câu lệnh require() để nhập mô-đun và module.exports để xuất mô-đun trong khi đó import và export là dành cho ES.",
+        "links": [
+          {
+            "title": "CommonJS vs ESM",
+            "url": "https://blog.logrocket.com/commonjs-vs-es-modules-node-js/",
+            "type": "article"
+          },
+          {
+            "title": "Sử dụng CommonJS",
+            "url": "https://www.javascripttutorial.net/nodejs-tutorial/nodejs-modules/",
+            "type": "article"
+          },
+          {
+            "title": "Sử dụng ES Modules",
+            "url": "https://blog.logrocket.com/es-modules-in-node-today/",
+            "type": "article"
+          },
+          {
+            "title": "CommonJS so sánh với ES Modules: Mô-đun và Import trong NodeJS",
+            "url": "https://reflectoring.io/nodejs-modules-imports/",
+            "type": "article"
+          },
+          {
+            "title": "Sử dụng Modules",
+            "url": "https://www.youtube.com/watch?v=pP4kjXykbio",
+            "type": "video"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Node.js",
+            "url": "https://app.daily.dev/tags/nodejs?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mKccfWOhC1Aj4VnaOqryA",
+      "type": "subtopic",
+      "label": "ESM",
+      "position": {
+        "x": 301.76672552017453,
+        "y": -0.2695706291704596
+      },
+      "size": {
+        "width": 135,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "NEZQB0yHPCcKwsESDYbk5",
+        "color": "#38761d",
+        "label": "Các chủ đề / Bắt đầu với những điều này",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "ESM (ECMAScript Modules) là hệ thống mô-đun tiêu chuẩn hóa trong JavaScript cho phép cấu trúc mã được tổ chức, bảo trì và tái sử dụng. Nó sử dụng các câu lệnh import và export để bao gồm và chia sẻ các hàm, đối tượng hoặc kiểu dữ liệu cơ bản giữa các tệp. ESM hỗ trợ phân tích tĩnh, cho phép tối ưu hóa và công cụ tốt hơn, và luôn ở chế độ nghiêm ngặt để giảm thiểu các vấn đề phổ biến trong JavaScript. Node.js hoàn toàn hỗ trợ ESM, có thể được sử dụng với các phần mở rộng tệp .mjs hoặc cấu hình trong package.json cho các tệp .js, giúp dễ dàng viết các ứng dụng JavaScript mô-đun và hiệu quả.",
+        "links": [
+          {
+            "title": "Tài liệu ESM",
+            "url": "https://nodejs.org/api/esm.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "EEnmOcDKPZzY_O1NwP_5j",
+      "type": "subtopic",
+      "label": "Tạo và Import",
+      "position": {
+        "x": 287.0448461352869,
+        "y": 144.7159927885748
+      },
+      "size": {
+        "width": 246,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "NEZQB0yHPCcKwsESDYbk5",
+        "color": "#38761d",
+        "label": "Các chủ đề / Bắt đầu với những điều này",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "Mô-đun là tập hợp mã JavaScript trong một tệp logic riêng biệt có thể được sử dụng trong các ứng dụng bên ngoài dựa trên chức năng liên quan của chúng. Có hai cách để tạo mô-đun trong Node.js, đó là thông qua CommonJS hoặc ESM.",
+        "links": [
+          {
+            "title": "CommonJS vs ESM trên Node.js",
+            "url": "https://blog.logrocket.com/commonjs-vs-es-modules-node-js/",
+            "type": "article"
+          },
+          {
+            "title": "Mô-đun và Nhập khẩu trong Node.js",
+            "url": "https://reflectoring.io/nodejs-modules-imports/",
+            "type": "article"
+          },
+          {
+            "title": "Tạo một Module trong Node.js",
+            "url": "https://www.youtube.com/watch?v=Cxo4UKpHv5s",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PEGHvFT2Eg-1OyfhxYu22",
+      "type": "subtopic",
+      "label": "Từ khóa [global]",
+      "position": {
+        "x": 287.0448461352869,
+        "y": 197.7159927885748
+      },
+      "size": {
+        "width": 246,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "NEZQB0yHPCcKwsESDYbk5",
+        "color": "#38761d",
+        "label": "Các chủ đề / Bắt đầu với những điều này",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "Trong trình duyệt, phạm vi cấp cao nhất là phạm vi toàn cục, và đối tượng toàn cục của nó được gọi là đối tượng `window`. Trong trình duyệt, `var something` sẽ định nghĩa một biến toàn cục mới trong đối tượng `window`. Trong Node.js, điều này khác nhau. Phạm vi cấp cao nhất **không** phải là phạm vi toàn cục; `var something` bên trong một mô-đun Node.js sẽ cục bộ cho mô-đun đó.",
+        "links": [
+          {
+            "title": "Tìm kiếm từ khóa toàn cục trong Node.js",
+            "url": "https://nodejs.org/api/globals.html#global",
+            "type": "official"
+          },
+          {
+            "title": "Đối tượng 'global' trong NodeJS là gì?",
+            "url": "https://stackoverflow.com/questions/43627622/",
+            "type": "article"
+          },
+          {
+            "title": "Global Object là gì?",
+            "url": "https://www.youtube.com/watch?v=jn8PZNBmKm0",
+            "type": "video"
+          },
+          {
+            "title": "Đối tượng toàn cục trong Node",
+            "url": "https://www.youtube.com/watch?v=PY-AycMkEAg",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "jQJ9aOKtg-O-GhWk5OgCK",
+      "type": "topic",
+      "label": "npm",
+      "position": {
+        "x": -116.45968546864998,
+        "y": 280.7159927885748
+      },
+      "size": {
+        "width": 132,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "npm is the standard package manager for Node.js. It is two things: first and foremost, it is an online repository for the publishing of open-source Node.js projects; second, it is a command-line utility for interacting with said repository that aids in package installation, version management, and dependency management. A plethora of Node.js libraries and applications are published on npm, and many more are added every day",
+        "links": [
+          {
+            "title": "Tài liệu NPM",
+            "url": "https://docs.npmjs.com/",
+            "type": "official"
+          },
+          {
+            "title": "npm là gì?",
+            "url": "https://nodejs.org/en/learn/getting-started/an-introduction-to-the-npm-package-manager",
+            "type": "official"
+          },
+          {
+            "title": "Giới thiệu về gói npm quản lý",
+            "url": "https://nodejs.org/en/learn/getting-started/an-introduction-to-the-npm-package-manager",
+            "type": "official"
+          },
+          {
+            "title": "Khóa học NPM Cơ bản",
+            "url": "https://www.youtube.com/watch?v=jHDhaSSKmB0",
+            "type": "video"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Node.js",
+            "url": "https://app.daily.dev/tags/nodejs?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "l24OMkPAEDnEDAVAMrMuG",
+      "type": "subtopic",
+      "label": "Cài đặt Toàn cầu",
+      "position": {
+        "x": -434.13327447982556,
+        "y": 272.73042937082954
+      },
+      "size": {
+        "width": 187,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "NEZQB0yHPCcKwsESDYbk5",
+        "color": "#38761d",
+        "label": "Các chủ đề / Bắt đầu với những điều này",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "NodeJS và NPM cho phép hai phương pháp cài đặt các phụ thuộc/gói: Local và Global. Điều này chủ yếu được sử dụng khi thêm một gói hoặc phụ thuộc như một phần của một dự án cụ thể mà bạn đang làm việc trên. Gói sẽ được cài đặt (với các phụ thuộc của nó) trong thư mục `node_modules` **dưới** dự án của bạn. Ngoài ra, trong tệp `package.json`, có một dòng mới được thêm vào cho gói đã cài đặt dưới nhãn `dependencies`. Tại thời điểm này - bạn có thể bắt đầu sử dụng gói trong mã NodeJS của mình bằng cách nhập gói. Không giống như cài đặt cục bộ, bạn có thể cài đặt các gói và phụ thuộc **toàn cầu**. Điều này sẽ cài đặt nó trong một đường dẫn hệ thống và các gói này sẽ có sẵn cho bất kỳ chương trình nào chạy trên **tài khoản cụ thể** đó. Phương pháp này thường được sử dụng để cài đặt các công cụ dòng lệnh (ví dụ, ngay cả chương trình `npm` là một gói npm toàn cầu).",
+        "links": [
+          {
+            "title": "Tải xuống và cài đặt các gói cục bộ",
+            "url": "https://docs.npmjs.com/downloading-and-installing-packages-locally",
+            "type": "official"
+          },
+          {
+            "title": "Tải xuống và cài đặt các gói toàn cục",
+            "url": "https://docs.npmjs.com/downloading-and-installing-packages-globally",
+            "type": "official"
+          },
+          {
+            "title": "NPM Install Docs",
+            "url": "https://docs.npmjs.com/cli/commands/npm-install",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "oYeux7PbveYaVwXRzAg5x",
+      "type": "subtopic",
+      "label": "Cài đặt cục bộ",
+      "position": {
+        "x": -434.13327447982556,
+        "y": 325.73042937082954
+      },
+      "size": {
+        "width": 187,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "NEZQB0yHPCcKwsESDYbk5",
+        "color": "#38761d",
+        "label": "Các chủ đề / Bắt đầu với những điều này",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "Các gói cài đặt cục bộ chỉ có sẵn cho dự án mà chúng được cài đặt, trong khi các gói cài đặt toàn cục có thể được sử dụng ở bất cứ đâu mà không cần cài đặt vào một dự án. Một trường hợp sử dụng khác của các gói toàn cục là khi sử dụng các công cụ CLI.",
+        "links": [
+          {
+            "title": "Tải xuống và cài đặt các gói cục bộ",
+            "url": "https://docs.npmjs.com/downloading-and-installing-packages-locally",
+            "type": "official"
+          },
+          {
+            "title": "Tải xuống và cài đặt các gói toàn cục",
+            "url": "https://docs.npmjs.com/downloading-and-installing-packages-globally",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "W3YkN2Hc_-3WvvlmR6Kmv",
+      "type": "label",
+      "label": "Cài đặt gói tin",
+      "position": {
+        "x": -432.13327447982556,
+        "y": 385.7304293708296
+      },
+      "size": {
+        "width": 183,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "bYBz12FUiJ1qLgdQSGyGK",
+      "type": "subtopic",
+      "label": "Cập nhật Gói phần mềm",
+      "position": {
+        "x": -450.63327447982556,
+        "y": 433.73042937082954
+      },
+      "size": {
+        "width": 213,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "NEZQB0yHPCcKwsESDYbk5",
+        "color": "#38761d",
+        "label": "Các chủ đề / Bắt đầu với những điều này",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "npm provides various features to help install and maintain the project's dependencies. Dependencies get updates with new features and fixes, so upgrading to a newer version is recommended. We use `npm update` commands for this.",
+        "links": [
+          {
+            "title": "Cập nhật các gói phần mềm được tải xuống từ trình quản lý (registry).",
+            "url": "https://docs.npmjs.com/updating-packages-downloaded-from-the-registry",
+            "type": "official"
+          },
+          {
+            "title": "Hướng dẫn cập nhật các gói NPM một cách an toàn với Npm Check Updates",
+            "url": "https://chrispennington.blog/blog/how-to-update-npm-packages-safely-with-npm-check-updates/",
+            "type": "article"
+          },
+          {
+            "title": "Hướng dẫn cập nhật tất cả các gói NPM cùng một lúc",
+            "url": "https://www.youtube.com/watch?v=Ghdfdq17JAY",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "64pgc7rcgboFcNYuOlX8e",
+      "type": "subtopic",
+      "label": "Chạy Script",
+      "position": {
+        "x": -450.63327447982556,
+        "y": 485.73042937082954
+      },
+      "size": {
+        "width": 213,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "NEZQB0yHPCcKwsESDYbk5",
+        "color": "#38761d",
+        "label": "Các chủ đề / Bắt đầu với những điều này",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "Trong Node.js, npm scripts được sử dụng để khởi động máy chủ, bắt đầu xây dựng dự án và cũng để chạy các bài kiểm tra. Chúng ta có thể định nghĩa các script này trong tệp package.json của thư mục. Ngoài ra, chúng ta có thể chia nhỏ các script lớn thành nhiều phần nhỏ hơn nếu cần thiết.",
+        "links": [
+          {
+            "title": "Chạy Script",
+            "url": "https://docs.npmjs.com/cli/using-npm/scripts",
+            "type": "official"
+          },
+          {
+            "title": "Ví dụ về Chạy Script",
+            "url": "https://riptutorial.com/node-js/example/4592/running-scripts",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "WvxCGVKLvTUVEHeOcUQPg",
+      "type": "subtopic",
+      "label": "npm workspaces",
+      "position": {
+        "x": -450.63327447982556,
+        "y": 537.7304293708296
+      },
+      "size": {
+        "width": 213,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "NEZQB0yHPCcKwsESDYbk5",
+        "color": "#38761d",
+        "label": "Các chủ đề / Bắt đầu với những điều này",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "Workspace là một thuật ngữ chung chỉ tập hợp các tính năng của npm CLI hỗ trợ quản lý nhiều gói từ hệ thống tệp cục bộ trong một thư mục gốc duy nhất.",
+        "links": [
+          {
+            "title": "npm workspaces",
+            "url": "https://docs.npmjs.com/cli/using-npm/workspaces",
+            "type": "official"
+          },
+          {
+            "title": "Bắt đầu với Npm Workspaces",
+            "url": "https://ruanmartinelli.com/blog/npm-7-workspaces-1/",
+            "type": "article"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về NPM",
+            "url": "https://app.daily.dev/tags/npm?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Uh9hmEy7o1EJLg4E--ku2",
+      "type": "subtopic",
+      "label": "Tạo Packages",
+      "position": {
+        "x": -450.63327447982556,
+        "y": 589.7304293708296
+      },
+      "size": {
+        "width": 213,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "iRlgVcCk54BVDA-Rx0kt8",
+        "color": "#000",
+        "label": "Chủ đề nâng cao / chọn những chủ đề này ở cuối cùng",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "npm packages allow you to bundle some specific functionality into a reusable package which can then be uploaded to some package registry such as npm or GitHub packages and then be installed and reused in projects using npm.",
+        "links": [
+          {
+            "title": "Các phương pháp hay nhất để tạo một gói npm hiện đại",
+            "url": "https://snyk.io/blog/best-practices-create-modern-npm-package/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dOlzIXBfAPmbY542lNOe6",
+      "type": "subtopic",
+      "label": "Semantic Versioning (Semver)",
+      "position": {
+        "x": -112.95968546864998,
+        "y": 352.7304293708296
+      },
+      "size": {
+        "width": 202,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "NEZQB0yHPCcKwsESDYbk5",
+        "color": "#38761d",
+        "label": "Các chủ đề / Bắt đầu với những điều này",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "Semantic Versioning là một tiêu chuẩn để phiên bản hóa phần mềm được áp dụng rộng rãi trong hệ sinh thái npm. Nó cung cấp một cách rõ ràng và nhất quán để truyền đạt các thay đổi trong một gói phần mềm đến người dùng. Định Dạng Phiên Bản -------------- Một số liệu phiên bản Semantic bao gồm ba phần được phân tách bằng dấu chấm: *   MAJOR: Tăng lên khi có sự thay đổi API không tương thích. *   MINOR: Tăng lên khi tính năng mới được thêm vào theo cách tương thích ngược. *   PATCH: Tăng lên khi sửa lỗi không ảnh hưởng đến API. ### Ví Dụ: 1.2.3 *   1 là phiên bản chính. *   2 là phiên bản phụ. *   3 là phiên bản vá.",
+        "links": [
+          {
+            "title": "Semver.org",
+            "url": "https://semver.org/",
+            "type": "official"
+          },
+          {
+            "title": "Medium - Hiểu về Semantic Versioning",
+            "url": "https://medium.com/codex/understanding-semantic-versioning-a-guide-for-developers-dad5f2b70583",
+            "type": "article"
+          },
+          {
+            "title": "Devopedia - Semver",
+            "url": "https://devopedia.org/semantic-versioning",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "t_kfKdNSKVBPYQ9zF9VqQ",
+      "type": "topic",
+      "label": "Xử lý lỗi",
+      "position": {
+        "x": 284.04484613528683,
+        "y": 280.7159927885748
+      },
+      "size": {
+        "width": 158,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Xử lý lỗi là một cách để tìm ra các lỗi và sửa chúng càng nhanh càng tốt có thể. Các lỗi trong Node.js có thể là lỗi hoạt động hoặc lỗi lập trình viên. Hãy đọc các bài viết liên kết bên dưới để hiểu cách xử lý các loại lỗi khác nhau trong Node.js",
+        "links": [
+          {
+            "title": "Node.js Error Handling Best Practices",
+            "url": "https://sematext.com/blog/node-js-error-handling",
+            "type": "article"
+          },
+          {
+            "title": "Xử lý lỗi trong Node.js",
+            "url": "https://blog.logrocket.com/error-handling-node-js/",
+            "type": "article"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Node.js",
+            "url": "https://app.daily.dev/tags/nodejs?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Wg7KSpAPxjeFMxC6PBnHO",
+      "type": "subtopic",
+      "label": "Lỗi JavaScript",
+      "position": {
+        "x": 293.36672552017444,
+        "y": 543.7304293708296
+      },
+      "size": {
+        "width": 211,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "NEZQB0yHPCcKwsESDYbk5",
+        "color": "#38761d",
+        "label": "Các chủ đề / Bắt đầu với những điều này",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "Lỗi JavaScript được sử dụng bởi JavaScript để thông báo cho nhà phát triển về nhiều vấn đề trong kịch bản đang được thực thi. Những vấn đề này có thể là lỗi cú pháp, nơi nhà phát triển/người lập trình đã sử dụng cú pháp không chính xác, nó có thể do đầu vào của người dùng sai hoặc một số vấn đề khác. JavaScript có sáu loại lỗi có thể xảy ra trong quá trình thực thi kịch bản: * EvalError * RangeError * ReferenceError * SyntaxError * TypeError * URIError",
+        "links": [
+          {
+            "title": "Các loại lỗi trong JavaScript",
+            "url": "https://blog.bitsrc.io/types-of-native-errors-in-javascript-you-must-know-b8238d40e492",
+            "type": "article"
+          },
+          {
+            "title": "Tham khảo lỗi JavaScript - MDN",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors",
+            "type": "article"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về JavaScript",
+            "url": "https://app.daily.dev/tags/javascript?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "05YY-AhLKzn4Ypr4eow5E",
+      "type": "subtopic",
+      "label": "Lỗi hệ thống",
+      "position": {
+        "x": 293.36672552017444,
+        "y": 384.73042937082954
+      },
+      "size": {
+        "width": 211,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "NEZQB0yHPCcKwsESDYbk5",
+        "color": "#38761d",
+        "label": "Các chủ đề / Bắt đầu với những điều này",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "Node.js tạo ra các lỗi hệ thống khi ngoại lệ xảy ra trong môi trường chạy thời gian của nó. Những lỗi này thường xảy ra khi một ứng dụng vi phạm ràng buộc của hệ điều hành. Ví dụ, một lỗi hệ thống sẽ xảy ra nếu một ứng dụng cố gắng đọc một tệp không tồn tại. Dưới đây là các lỗi hệ thống thường gặp khi viết một chương trình Node.js: 1. EACCES - Quyền truy cập bị từ chối 2. EADDRINUSE - Địa chỉ đã được sử dụng 3. ECONNRESET - Kết nối bị đồng phạm reset 4. EEXIST - Tệp tồn tại 5. EISDIR - Là một thư mục 6. EMFILE - Quá nhiều tệp đang mở trong hệ thống 7. ENOENT - Không có tệp hoặc thư mục nào tồn tại 8. ENOTDIR - Không phải là một thư mục 9. ENOTEMPTY - Thư mục không trống 10. ENOTFOUND - Tìm kiếm DNS thất bại 11. EPERM - Hoạt động bị từ chối 12. EPIPE - Đường ống bị hỏng 13. ETIMEDOUT - Hoạt động hết thời gian chờ",
+        "links": [
+          {
+            "title": "Node.js Errors",
+            "url": "https://nodejs.org/api/errors.html#errors_class_systemerror",
+            "type": "official"
+          },
+          {
+            "title": "Các lỗi phổ biến trong Node.js và cách khắc phục chúng",
+            "url": "https://betterstack.com/community/guides/scaling-nodejs/nodejs-errors/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "wQ4i6_a1EFk9HHc6Sll-3",
+      "type": "subtopic",
+      "label": "Lỗi do người dùng xác định",
+      "position": {
+        "x": 293.36672552017444,
+        "y": 437.73042937082954
+      },
+      "size": {
+        "width": 211,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "NEZQB0yHPCcKwsESDYbk5",
+        "color": "#38761d",
+        "label": "Các chủ đề / Bắt đầu với những điều này",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "Người dùng có thể tạo ra các lỗi bằng cách mở rộng đối tượng Error cơ sở, một lớp lỗi tích hợp sẵn. Khi tạo lỗi theo phương pháp này, bạn nên truyền một chuỗi thông báo mô tả lỗi. Chuỗi thông báo này có thể truy cập được thông qua thuộc tính message trên đối tượng. Đối tượng Error cũng chứa tên và thuộc tính stack chỉ ra tên của lỗi và điểm trong mã nơi nó được tạo.",
+        "links": [
+          {
+            "title": "Hướng dẫn toàn diện về Xử lý Lỗi trong Node.js",
+            "url": "https://www.honeybadger.io/blog/errors-nodejs/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "do-tdCUfDtiZHBg4ZO3dC",
+      "type": "subtopic",
+      "label": "Lỗi khẳng định",
+      "position": {
+        "x": 293.36672552017444,
+        "y": 490.73042937082954
+      },
+      "size": {
+        "width": 211,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "NEZQB0yHPCcKwsESDYbk5",
+        "color": "#38761d",
+        "label": "Các chủ đề / Bắt đầu với những điều này",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "Một `AssertionError` trong Node.js là một lỗi được ném khi mô-đun `assert` xác định rằng một biểu thức đã cho không phải là truthy. Mô-đun `assert` là một mô-đun tích hợp sẵn của Node.js cung cấp một tập hợp các kiểm tra khẳng định đơn giản có thể được sử dụng để kiểm tra hành vi của mã của bạn.",
+        "links": [
+          {
+            "title": "Node.js Assert",
+            "url": "https://nodejs.org/api/assert.html#new-assertassertionerroroptions",
+            "type": "official"
+          },
+          {
+            "title": "Node.js Error Handling - AssertionError",
+            "url": "https://blog.airbrake.io/blog/nodejs-error-handling/assertionerror-nodejs",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "M0puvsEXH3aniCw0gPjVd",
+      "type": "label",
+      "label": "Các loại lỗi (Types of Errors)",
+      "position": {
+        "x": 332.36672552017444,
+        "y": 603.7304293708296
+      },
+      "size": {
+        "width": 133,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "uzOmaTZrHhBxx5plb345Z",
+      "type": "subtopic",
+      "label": "Lỗi chưa được xử lý",
+      "position": {
+        "x": 285.86672552017444,
+        "y": 652.2304293708296
+      },
+      "size": {
+        "width": 227,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "NEZQB0yHPCcKwsESDYbk5",
+        "color": "#38761d",
+        "label": "Các chủ đề / Bắt đầu với những điều này",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "Khi một lỗi JavaScript không được xử lý đúng cách, sự kiện uncaughtException sẽ được phát ra. Điều này cho thấy lập trình viên đã mắc lỗi và cần được ưu tiên hàng đầu. Cách sử dụng đúng của `uncaughtException` là thực hiện dọn dẹp đồng bộ các tài nguyên đã phân bổ (ví dụ: file descriptors, handles, v.v.) trước khi đóng lại quy trình. Không an toàn để tiếp tục hoạt động bình thường sau `uncaughtException` vì hệ thống sẽ bị hỏng. Cách tốt nhất là để ứng dụng sập, ghi log lỗi và sau đó tự động khởi động lại quy trình bằng nodemon hoặc pm2.",
+        "links": [
+          {
+            "title": "Lỗi Không bắt được (Uncaught Exception Error Events)",
+            "url": "https://nodejs.org/api/process.html#event-uncaughtexception",
+            "type": "official"
+          },
+          {
+            "title": "Hãy để nó sụp đổ: Các phương pháp hay nhất để xử lý lỗi Node.js khi tắt máy",
+            "url": "https://blog.heroku.com/best-practices-nodejs-errors",
+            "type": "article"
+          },
+          {
+            "title": "Lỗi chưa được bắt (Uncaught Exceptions) trong Node.js",
+            "url": "https://shapeshed.com/uncaught-exceptions-in-node/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3MpxV23lNpuKg0--e_9m7",
+      "type": "subtopic",
+      "label": "Xử lý lỗi bất đồng bộ",
+      "position": {
+        "x": 285.86672552017444,
+        "y": 705.2304293708296
+      },
+      "size": {
+        "width": 227,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "bcE9YSY2vLzRyJQSceY9M",
+        "color": "#9900ff",
+        "label": "Chủ đề nâng cao / chọn những chủ đề này tiếp theo",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "Các lỗi luôn phải được xử lý. Nếu bạn đang sử dụng lập trình đồng bộ, bạn có thể sử dụng try-catch. Nhưng điều này sẽ không hoạt động nếu bạn làm việc với lập trình bất đồng bộ! Các lỗi bất đồng bộ chỉ được xử lý bên trong hàm callback!",
+        "links": [
+          {
+            "title": "Lỗi bất đồng bộ",
+            "url": "https://www.mariokandut.com/handling-errors-in-asynchronous-functions-node-js/",
+            "type": "article"
+          },
+          {
+            "title": "Cách tốt nhất để xử lý lỗi trong JavaScript bất đồng bộ",
+            "url": "https://dev.to/m__mdy__m/the-best-way-to-handle-errors-in-asynchronous-javascript-16bb",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "wIieXdFtoZWJ-ht8qqWbp",
+      "type": "subtopic",
+      "label": "Callstack / Stack Trace",
+      "position": {
+        "x": 285.86672552017444,
+        "y": 758.2304293708296
+      },
+      "size": {
+        "width": 227,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "bcE9YSY2vLzRyJQSceY9M",
+        "color": "#9900ff",
+        "label": "Chủ đề nâng cao / chọn những chủ đề này tiếp theo",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "Stack trace được sử dụng để theo dõi các khung stack đang hoạt động tại một phiên bản cụ thể trong quá trình thực thi của chương trình. Stack trace hữu ích khi gỡ lỗi mã vì nó hiển thị chính xác điểm mà gây ra lỗi.",
+        "links": [
+          {
+            "title": "Nhiều Cách Ghi Nhật Ký Stack Trace trong Node.js",
+            "url": "https://www.cloudhadoop.com/nodejs-print-stack-trace-error/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "XEGTeGWw05xWYOfUo3POE",
+      "type": "subtopic",
+      "label": "Sử dụng Debugger",
+      "position": {
+        "x": 285.86672552017444,
+        "y": 811.2304293708296
+      },
+      "size": {
+        "width": 227,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "bcE9YSY2vLzRyJQSceY9M",
+        "color": "#9900ff",
+        "label": "Chủ đề nâng cao / chọn những chủ đề này tiếp theo",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "Node.js bao gồm tiện ích gỡ lỗi dòng lệnh. Khách hàng Node.js không phải là một trình gỡ lỗi đầy đủ tính năng, nhưng có thể thực hiện bước từng bước và kiểm tra đơn giản. Để sử dụng nó, hãy bắt đầu Node.js với đối số inspect theo sau là đường dẫn đến tệp để gỡ lỗi. Ví dụ: `$ node inspect myscript.js`",
+        "links": [
+          {
+            "title": "Debugger",
+            "url": "https://nodejs.org/api/debugger.html",
+            "type": "official"
+          },
+          {
+            "title": "Kiểm tra tài liệu",
+            "url": "https://nodejs.org/en/learn/getting-started/debugging",
+            "type": "official"
+          },
+          {
+            "title": "Freecodecamp.org - Gỡ lỗi",
+            "url": "https://www.freecodecamp.org/news/how-to-debug-node-js-applications/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "YdpJ-DUo8Q5ATRmF4s4YS",
+      "type": "subtopic",
+      "label": "npx",
+      "position": {
+        "x": -86.45968546864998,
+        "y": 193.7159927885748
+      },
+      "size": {
+        "width": 73,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "NEZQB0yHPCcKwsESDYbk5",
+        "color": "#38761d",
+        "label": "Các chủ đề / Bắt đầu với những điều này",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "npx is a very powerful command that’s been available in npm starting version 5.2, released in July 2017. If you don't want to install npm, you can install npx as a standalone package. npx lets you run code built with Node.js and published through the npm registry, without needing to install the package itself. This is particularly useful for trying out new tools, running one-time commands, or using packages in shared environments where global installations are undesirable. npx takes care of downloading the package on-the-fly, running the desired command, and then cleaning up the temporary installation. This keeps your project's dependencies lean and avoids version conflicts.",
+        "links": [
+          {
+            "title": "npx",
+            "url": "https://docs.npmjs.com/cli/commands/npx/",
+            "type": "official"
+          },
+          {
+            "title": "Giới thiệu về trình chạy gói tin npx Node.js",
+            "url": "https://medium.com/@maybekatz/introducing-npx-an-npm-package-runner-55f7d4bd282b",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "uE7fvHSTSdebMf5RsNyaY",
+      "type": "topic",
+      "label": "Lập trình bất đồng bộ",
+      "position": {
+        "x": 19.36672552017444,
+        "y": 575.2304293708296
+      },
+      "size": {
+        "width": 231,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Mã đồng thời có nghĩa là các thứ có thể xảy ra độc lập với luồng chính của chương trình, các hàm async trong JavaScript được xử lý ở chế độ nền mà không chặn các yêu cầu khác. Nó đảm bảo thực thi mã không bị chặn. Mã đồng thời thực thi mà không cần bất kỳ sự phụ thuộc nào và không theo thứ tự. Điều này cải thiện hiệu quả và thông lượng của hệ thống. Phát triển ứng dụng web đòi hỏi kiến thức về các khái niệm đồng thời vì chúng ta sẽ xử lý các thao tác cần một khoảng thời gian để được xử lý.",
+        "links": [
+          {
+            "title": "Giới thiệu về Async JS",
+            "url": "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Introducing/",
+            "type": "article"
+          },
+          {
+            "title": "Đồng bộ so với Đồng song tác - Lập trình",
+            "url": "https://www.youtube.com/watch?v=Kpn2ajSa92c",
+            "type": "video"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Node.js",
+            "url": "https://app.daily.dev/tags/nodejs?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "QcOqhuKWOUUUBSiu5Oelv",
+      "type": "subtopic",
+      "label": "Hàm hứa",
+      "position": {
+        "x": -191.63327447982556,
+        "y": 438.7304293708296
+      },
+      "size": {
+        "width": 174,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "bcE9YSY2vLzRyJQSceY9M",
+        "color": "#9900ff",
+        "label": "Chủ đề nâng cao / chọn những chủ đề này tiếp theo",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "Một lời hứa thường được định nghĩa là một đại diện (proxy) cho một giá trị sẽ có sẵn sau này. Các hàm bất đồng bộ (asynchronous functions) sử dụng lời hứa đằng sau cánh cửa, vì vậy việc hiểu cách lời hứa hoạt động là nền tảng để hiểu cách \"async\" và \"await\" hoạt động. Khi một lời hứa đã được gọi, nó sẽ bắt đầu ở trạng thái chờ (pending). Điều này có nghĩa là hàm gọi tiếp tục thực thi trong khi lời hứa đang chờ giải quyết (resolve), cung cấp cho hàm gọi dữ liệu mà nó đã yêu cầu. Tạo một Promise: API Promise giới thiệu một constructor Promise, mà bạn khởi tạo bằng cách sử dụng `new Promise()`. Sử dụng các phương thức `resolve()` và `reject()`, chúng ta có thể thông báo cho người gọi biết trạng thái của lời hứa kết quả và làm thế nào để xử lý nó.",
+        "links": [
+          {
+            "title": "Hàm hứa",
+            "url": "https://www.promisejs.org/",
+            "type": "official"
+          },
+          {
+            "title": "Phương thức của Promise",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise",
+            "type": "article"
+          },
+          {
+            "title": "JavaScript đồng bộ - Promises",
+            "url": "https://www.youtube.com/watch?v=a_8nrslImo4/",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a26qNCyMcT5GsVzxeNCLk",
+      "type": "subtopic",
+      "label": "async/await",
+      "position": {
+        "x": -191.63327447982556,
+        "y": 491.7304293708296
+      },
+      "size": {
+        "width": 174,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "bcE9YSY2vLzRyJQSceY9M",
+        "color": "#9900ff",
+        "label": "Chủ đề nâng cao / chọn những chủ đề này tiếp theo",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "Async/Await là cú pháp đặc biệt để làm việc với các Promise một cách thoải mái hơn. Nó dễ hiểu và sử dụng. Thêm từ khóa async trước một hàm đảm bảo rằng hàm trả về một Promise và từ khóa await khiến JavaScript chờ đợi cho đến khi Promise được giải quyết và trả về kết quả.",
+        "links": [
+          {
+            "title": "Tài liệu Async/Await",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function",
+            "type": "official"
+          },
+          {
+            "title": "Thêm về async/await",
+            "url": "https://javascript.info/async-await",
+            "type": "article"
+          },
+          {
+            "title": "W3Docs Async/Await",
+            "url": "https://www.w3docs.com/learn-javascript/async-await.html",
+            "type": "article"
+          },
+          {
+            "title": "Sử dụng async await",
+            "url": "https://www.youtube.com/watch?v=V_Kr9OSfDeU",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "GwInWcbQn18PnzKGXzmln",
+      "type": "subtopic",
+      "label": "Callbacks",
+      "position": {
+        "x": -191.63327447982556,
+        "y": 544.7304293708296
+      },
+      "size": {
+        "width": 174,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "bcE9YSY2vLzRyJQSceY9M",
+        "color": "#9900ff",
+        "label": "Chủ đề nâng cao / chọn những chủ đề này tiếp theo",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "Node.js, với tư cách là một nền tảng bất đồng bộ, không chờ đợi các thứ như I/O file hoàn thành - Node.js sử dụng callbacks. Một callback là một hàm được gọi khi một nhiệm vụ nhất định hoàn thành; điều này ngăn chặn mọi chặn và cho phép mã khác chạy trong khi đó.",
+        "links": [
+          {
+            "title": "Tính đồng thời trong Ngôn ngữ lập trình",
+            "url": "https://nodejs.org/en/learn/asynchronous-work/javascript-asynchronous-programming-and-callbacks",
+            "type": "official"
+          },
+          {
+            "title": "Callbacks là gì?",
+            "url": "https://developer.mozilla.org/en-US/docs/Glossary/Callback_function",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "W2Dbj4Y78Bgdx7og5xkrg",
+      "type": "subtopic",
+      "label": "Đồng bộ hóa (thực thi) sau một khoảng thời gian đã cho.",
+      "position": {
+        "x": -191.63327447982556,
+        "y": 597.7304293708296
+      },
+      "size": {
+        "width": 174,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "NEZQB0yHPCcKwsESDYbk5",
+        "color": "#38761d",
+        "label": "Các chủ đề / Bắt đầu với những điều này",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "`setTimeout` chạy một hàm sau khi khoảng thời gian đã hết hạn. Thời gian được khai báo bằng mili giây.",
+        "links": [
+          {
+            "title": "Tài liệu MDN về JavaScript",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/API/setTimeout",
+            "type": "article"
+          },
+          {
+            "title": "Đồng bộ hóa thời gian bằng setInterval và setTimeout: các sự kiện hẹn giờ.",
+            "url": "https://www.youtube.com/watch?v=kOcFZV3c75I",
+            "type": "video"
+          },
+          {
+            "title": "Học JavaScript setTimeout() trong 6 phút!",
+            "url": "https://www.youtube.com/watch?v=shWr5DNVeCI",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "T5I-mFKK6bKzXrzkECI0P",
+      "type": "subtopic",
+      "label": "Hàm `setInterval`",
+      "position": {
+        "x": -191.63327447982556,
+        "y": 650.7304293708296
+      },
+      "size": {
+        "width": 174,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "NEZQB0yHPCcKwsESDYbk5",
+        "color": "#38761d",
+        "label": "Các chủ đề / Bắt đầu với những điều này",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "Phương thức `setInterval()` giúp chúng ta thực thi lặp đi lặp lại một hàm sau một khoảng thời gian cố định. Nó trả về ID của interval duy nhất, có thể được sử dụng sau này bởi phương thức `clearInterval()`, để dừng việc thực thi lặp đi lặp lại thêm nữa của hàm. `setInterval()` tương tự như `setTimeout`, với sự khác biệt. Thay vì chạy hàm gọi lại một lần, nó sẽ chạy nó vô hạn, vào khoảng thời gian cụ thể mà bạn chỉ định (tính bằng mili giây):",
+        "links": [
+          {
+            "title": "Lịch Trình: setTimeout và setInterval",
+            "url": "https://javascript.info/settimeout-setinterval",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "YvTPpoIiSqjDYi0Q10kWh",
+      "type": "subtopic",
+      "label": "Lệnh gọi hàm lập lịch ngay lập tức.",
+      "position": {
+        "x": -191.63327447982556,
+        "y": 703.7304293708296
+      },
+      "size": {
+        "width": 174,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "bcE9YSY2vLzRyJQSceY9M",
+        "color": "#9900ff",
+        "label": "Chủ đề nâng cao / chọn những chủ đề này tiếp theo",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "Hàm `setImmediate` trì hoãn việc thực thi một hàm để được gọi sau khi tất cả các sự kiện trong vòng lặp sự kiện hoàn thành. Nó rất giống như gọi `setTimeout` với độ trễ 0ms.",
+        "links": [
+          {
+            "title": "Hiểu về setImmediate",
+            "url": "https://nodejs.org/en/learn/asynchronous-work/understanding-setimmediate",
+            "type": "official"
+          },
+          {
+            "title": "Hiểu về setImmediate",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/setImmediate",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ATu9-29yJWcDOik5FTOgf",
+      "type": "subtopic",
+      "label": "Lịch trình tiếp theo (next tick)",
+      "position": {
+        "x": -191.63327447982556,
+        "y": 756.7304293708296
+      },
+      "size": {
+        "width": 174,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "bcE9YSY2vLzRyJQSceY9M",
+        "color": "#9900ff",
+        "label": "Chủ đề nâng cao / chọn những chủ đề này tiếp theo",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "Mỗi khi vòng lặp sự kiện thực hiện một chuyến đi đầy đủ, chúng ta gọi đó là một tick. Khi chúng ta chuyển tiếp một hàm cho `process.nextTick()`, chúng ta hướng dẫn động cơ để gọi hàm này tại cuối hoạt động hiện tại trước khi tick vòng lặp sự kiện tiếp theo bắt đầu.",
+        "links": [
+          {
+            "title": "Hiểu về Process.NextTick().",
+            "url": "https://nodejs.org/en/learn/asynchronous-work/understanding-processnexttick",
+            "type": "official"
+          },
+          {
+            "title": "Quá trình Node.js `process.nextTick()`",
+            "url": "https://nodejs.org/en/docs/guides/event-loop-timers-and-nexttick/",
+            "type": "official"
+          },
+          {
+            "title": "Hàm `process.nextTick`",
+            "url": "https://www.youtube.com/watch?v=-niA5XOlCWI",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2y0pHOHxtkv-X-a6ltLJu",
+      "type": "label",
+      "label": "Viết mã bất đồng bộ",
+      "position": {
+        "x": -191.63327447982556,
+        "y": 816.7304293708296
+      },
+      "size": {
+        "width": 174,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "bgEHTBYzRDJqZ6gLqLbsz",
+      "type": "subtopic",
+      "label": "Event Emitter",
+      "position": {
+        "x": 19.36672552017444,
+        "y": 437.2304293708296
+      },
+      "size": {
+        "width": 155,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "bcE9YSY2vLzRyJQSceY9M",
+        "color": "#9900ff",
+        "label": "Chủ đề nâng cao / chọn những chủ đề này tiếp theo",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "Trong Node.js, một sự kiện có thể được mô tả đơn giản như một chuỗi với một callback tương ứng. Một sự kiện có thể được \"gửi\" (hoặc, theo nghĩa khác, callback tương ứng được gọi) nhiều lần hoặc bạn có thể chọn chỉ lắng nghe lần đầu tiên nó được gửi.",
+        "links": [
+          {
+            "title": "Event Emitters là gì?",
+            "url": "https://nodejs.org/en/learn/asynchronous-work/the-nodejs-event-emitter",
+            "type": "official"
+          },
+          {
+            "title": "Sử dụng Event Emitters trong Node.js",
+            "url": "https://www.digitalocean.com/community/tutorials/using-event-emitters-in-node-js",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b679H8gEBuvrHQ8ik7e96",
+      "type": "subtopic",
+      "label": "Event Loop",
+      "position": {
+        "x": 19.36672552017444,
+        "y": 490.2304293708296
+      },
+      "size": {
+        "width": 155,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "iRlgVcCk54BVDA-Rx0kt8",
+        "color": "#000",
+        "label": "Chủ đề nâng cao / chọn những chủ đề này ở cuối cùng",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "Vòng lặp sự kiện là một trong những khía cạnh quan trọng nhất của Node.js. Điều này có ý nghĩa gì? Bởi vì nó giải thích cách Node.js có thể hoạt động không đồng bộ và có I/O không chặn, nó giải thích tính năng \"then chốt\" của Node.js, đã khiến nó thành công như vậy.",
+        "links": [
+          {
+            "title": "Vòng lặp sự kiện Node.js",
+            "url": "https://www.coursera.org/lecture/secure-full-stack-mean-developer/the-node-js-event-loop-j5fbT",
+            "type": "course"
+          },
+          {
+            "title": "Vòng lặp sự kiện Node.js",
+            "url": "https://nodejs.org/en/docs/guides/event-loop-timers-and-nexttick/#what-is-the-event-loop",
+            "type": "official"
+          },
+          {
+            "title": "Cơ chế Event Loop của NodeJS",
+            "url": "https://nodejs.org/en/guides/event-loop-timers-and-nexttick",
+            "type": "official"
+          },
+          {
+            "title": "Đừng chặn Event Loop",
+            "url": "https://nodejs.org/en/guides/dont-block-the-event-loop",
+            "type": "official"
+          },
+          {
+            "title": "JavaScript được Trực quan hóa: Lặp trình sự kiện",
+            "url": "https://dev.to/lydiahallie/javascript-visualized-event-loop-3dif",
+            "type": "article"
+          },
+          {
+            "title": "Event Loop trong Node.js - Sách của Mixu",
+            "url": "https://book.mixu.net/node/ch2.html#the-event-loop-understanding-how-node-executes-javascript-code",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "wEK77A6MPQBCBUSJKMiaY",
+      "type": "topic",
+      "label": "Làm việc với Tệp tin",
+      "position": {
+        "x": 19.36672552017444,
+        "y": 945.7756025940266
+      },
+      "size": {
+        "width": 231,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Bạn có thể thao tác tệp tin một cách lập trình trong Node.js bằng mô-đun `fs` tích hợp sẵn. Tên viết tắt là “file system” và mô-đun này chứa tất cả các hàm bạn cần để đọc, ghi và xóa tệp tin trên máy cục bộ.",
+        "links": [
+          {
+            "title": "Mô-đun Hệ thống Tệp",
+            "url": "https://nodejs.org/docs/latest/api/fs.html",
+            "type": "official"
+          },
+          {
+            "title": "Hướng dẫn làm việc với tệp tin sử dụng mô-đun fs trong Node.js",
+            "url": "https://www.digitalocean.com/community/tutorials/how-to-work-with-files-using-the-fs-module-in-node-js",
+            "type": "article"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Node.js",
+            "url": "https://app.daily.dev/tags/nodejs?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "QT2QE2FLkyUDpwMKYkFQL",
+      "type": "subtopic",
+      "label": "getCurrDir",
+      "position": {
+        "x": 358.53666458157085,
+        "y": 893.7756025940266
+      },
+      "size": {
+        "width": 153,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "NEZQB0yHPCcKwsESDYbk5",
+        "color": "#38761d",
+        "label": "Các chủ đề / Bắt đầu với những điều này",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "Phương thức `process.cwd()` trả về thư mục làm việc hiện tại của quy trình Node.js.",
+        "links": [
+          {
+            "title": "getCurrDir",
+            "url": "https://nodejs.org/api/process.html#processcwd",
+            "type": "official"
+          },
+          {
+            "title": "Sự khác biệt giữa process.cwd() và __dirname là gì?",
+            "url": "https://stackoverflow.com/questions/9874382/whats-the-difference-between-process-cwd-vs-dirname",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Blzb-fdQZMu6Xq5JDJW0_",
+      "type": "subtopic",
+      "label": "Mô-đun đường dẫn (path)",
+      "position": {
+        "x": 358.53666458157085,
+        "y": 945.7756025940266
+      },
+      "size": {
+        "width": 153,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "NEZQB0yHPCcKwsESDYbk5",
+        "color": "#38761d",
+        "label": "Các chủ đề / Bắt đầu với những điều này",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "Mô-đun `path` cung cấp các tiện ích để làm việc với đường dẫn tệp và thư mục. Nó được tích hợp sẵn trong lõi Node.js và có thể được sử dụng đơn giản bằng cách yêu cầu nó.",
+        "links": [
+          {
+            "title": "Tài liệu Đường dẫn",
+            "url": "https://nodejs.org/api/path.html",
+            "type": "official"
+          },
+          {
+            "title": "Học Đường dẫn tệp Node.js",
+            "url": "https://nodejs.org/en/learn/manipulating-files/nodejs-file-paths",
+            "type": "official"
+          },
+          {
+            "title": "Mô-đun Đường dẫn trong Node.js",
+            "url": "https://youtu.be/j95Lwxvi9JY",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b1r1X3XCoPSayQjDBcy54",
+      "type": "subtopic",
+      "label": "fs module",
+      "position": {
+        "x": 358.53666458157085,
+        "y": 997.7756025940266
+      },
+      "size": {
+        "width": 153,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "NEZQB0yHPCcKwsESDYbk5",
+        "color": "#38761d",
+        "label": "Các chủ đề / Bắt đầu với những điều này",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "Mô-đun Hệ thống Tệp hoặc `fs` là mô-đun tích hợp sẵn trong Node.js cho phép tương tác với hệ thống tệp bằng JavaScript. Tất cả các thao tác hệ thống tệp đều có dạng callback, promise và đồng bộ, có thể truy cập thông qua cú pháp CommonJS và ES6 Modules.",
+        "links": [
+          {
+            "title": "fs module",
+            "url": "https://nodejs.org/api/fs.html",
+            "type": "official"
+          },
+          {
+            "title": "Sử dụng fs",
+            "url": "https://www.youtube.com/watch?v=ZySsdm576wE",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1AaGG660rvZlNYMOA35qO",
+      "type": "subtopic",
+      "label": "`__dirname` là một biến trong Node.js đại diện cho đường dẫn đến thư mục hiện tại đang chạy script.",
+      "position": {
+        "x": 19.86672552017444,
+        "y": 777.4712346612822
+      },
+      "size": {
+        "width": 130,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "NEZQB0yHPCcKwsESDYbk5",
+        "color": "#38761d",
+        "label": "Các chủ đề / Bắt đầu với những điều này",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "Biến `__dirname` trong một script node trả về đường dẫn đến thư mục nơi file JavaScript hiện tại đang tồn tại. `__filename` và `__dirname` được sử dụng để lấy tên file và tên thư mục của file đang thực thi.",
+        "links": [
+          {
+            "title": "`__dirname` là một biến trong Node.js đại diện cho đường dẫn đến thư mục hiện tại đang chạy script.",
+            "url": "https://nodejs.org/docs/latest/api/modules.html#__dirname",
+            "type": "official"
+          },
+          {
+            "title": "Hướng dẫn sử dụng __dirname",
+            "url": "https://www.digitalocean.com/community/tutorials/nodejs-how-to-use__dirname",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P2gdwx1qCxvg1Ppfw0aqQ",
+      "type": "subtopic",
+      "label": "`__filename` là một biến trong Node.js đại diện cho đường dẫn đầy đủ của file hiện đang được thực thi.",
+      "position": {
+        "x": 18.86672552017444,
+        "y": 830.4712346612822
+      },
+      "size": {
+        "width": 132,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "NEZQB0yHPCcKwsESDYbk5",
+        "color": "#38761d",
+        "label": "Các chủ đề / Bắt đầu với những điều này",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "Biến `__filename` trong Node.js trả về tên file của mã đang được thực thi. Nó cung cấp đường dẫn tuyệt đối đến tệp mã. Cách tiếp cận sau đây bao gồm việc triển khai `__filename` trong dự án Node.js.",
+        "links": [
+          {
+            "title": "`__filename` là một biến trong Node.js đại diện cho đường dẫn đầy đủ của file hiện đang được thực thi.",
+            "url": "https://nodejs.org/docs/latest/api/modules.html#__filename",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "CWH0ZsxJ8beLvwMYJyH52",
+      "type": "subtopic",
+      "label": "biến toàn cục (global variable)",
+      "position": {
+        "x": 30.006252682943114,
+        "y": 1045.5645748781312
+      },
+      "size": {
+        "width": 104,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "NEZQB0yHPCcKwsESDYbk5",
+        "color": "#38761d",
+        "label": "Các chủ đề / Bắt đầu với những điều này",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "Mẫu glob thường được sử dụng để chỉ định tên tệp, ký tự wildcard và chuỗi, ký tự phù hợp với wildcard.",
+        "links": [
+          {
+            "title": "NPM Glob",
+            "url": "https://www.npmjs.com/package/glob",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "HYTw74rrd7kkOemCxfT9I",
+      "type": "subtopic",
+      "label": "globby",
+      "position": {
+        "x": 137.0062526829431,
+        "y": 1047.3055580184816
+      },
+      "size": {
+        "width": 106,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "NEZQB0yHPCcKwsESDYbk5",
+        "color": "#38761d",
+        "label": "Các chủ đề / Bắt đầu với những điều này",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "_Phân đối khớp glob thân thiện với người dùng_ Dựa trên fast-glob nhưng thêm nhiều tính năng hữu ích.",
+        "links": [
+          {
+            "title": "NPM Globby",
+            "url": "https://www.npmjs.com/package/globby",
+            "type": "official"
+          },
+          {
+            "title": "GitHub Globby",
+            "url": "https://github.com/sindresorhus/globby",
+            "type": "opensource"
+          }
+        ]
+      }
+    },
+    {
+      "id": "zDmWGRrgwq3Gjfkyk6crK",
+      "type": "subtopic",
+      "label": "fs-extra",
+      "position": {
+        "x": 30.006252682943114,
+        "y": 1098.5645748781312
+      },
+      "size": {
+        "width": 104,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "NEZQB0yHPCcKwsESDYbk5",
+        "color": "#38761d",
+        "label": "Các chủ đề / Bắt đầu với những điều này",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "fs-extra adds file system methods that aren't included in the native fs module and adds promise support to the fs methods. It also uses graceful-fs to prevent EMFILE errors. It should be a drop in replacement for fs.",
+        "links": [
+          {
+            "title": "fs-extra package",
+            "url": "https://www.npmjs.com/package/fs-extra",
+            "type": "official"
+          },
+          {
+            "title": "fs-extra vs fs",
+            "url": "https://ar.al/2021/03/07/fs-extra-to-fs/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "een1zhvgN_33Cu6OiWtyX",
+      "type": "subtopic",
+      "label": "chokidar",
+      "position": {
+        "x": 137.0062526829431,
+        "y": 1100.3055580184816
+      },
+      "size": {
+        "width": 106,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "NEZQB0yHPCcKwsESDYbk5",
+        "color": "#38761d",
+        "label": "Các chủ đề / Bắt đầu với những điều này",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "Chokidar is a fast open-source file watcher for Node.js. You give it a bunch of files, it watches them for changes and notifies you every time an old file is edited; or a new file is created.",
+        "links": [
+          {
+            "title": "chokidar",
+            "url": "https://www.npmjs.com/package/chokidar",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ugV0EkY69hs8sa4fE-GYP",
+      "type": "label",
+      "label": "Các gói nguồn mở",
+      "position": {
+        "x": 41.397694667351914,
+        "y": 1153.4969039682844
+      },
+      "size": {
+        "width": 191,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "Ce-dP-OXu0mEm30rzp2hW",
+      "type": "topic",
+      "label": "Ứng dụng dòng lệnh",
+      "position": {
+        "x": -245.45968546864998,
+        "y": 945.7756025940266
+      },
+      "size": {
+        "width": 206,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Command Line Applications are applications that can be run from the command line. They are also called CLI (Command Line Interface) applications. Users can interact with clients entirely by terminal commands. They are very useful for automation and building tools.",
+        "links": [
+          {
+            "title": "Xây dựng Ứng dụng dòng lệnh với Node.js",
+            "url": "https://developer.okta.com/blog/2019/06/18/command-line-app-with-nodejs",
+            "type": "article"
+          },
+          {
+            "title": "Dự án dòng lệnh Node.js 5 phút",
+            "url": "https://www.youtube.com/watch?v=_oHByo8tiEY",
+            "type": "video"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Node.js",
+            "url": "https://app.daily.dev/tags/nodejs?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "fE9C7Resn4EcL-hYHbsaZ",
+      "type": "subtopic",
+      "label": "dotenv package",
+      "position": {
+        "x": -506.59047207111564,
+        "y": 743.1880786390362
+      },
+      "size": {
+        "width": 197,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "NEZQB0yHPCcKwsESDYbk5",
+        "color": "#38761d",
+        "label": "Các chủ đề / Bắt đầu với những điều này",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "dotenv is a zero-dependency module that loads environment variables from a `.env` file into `process.env`. Storing configuration in the environment separate from code is based on The Twelve-Factor App methodology.",
+        "links": [
+          {
+            "title": "Tài liệu về môi trường thực thi (Environment Variables)",
+            "url": "https://nodejs.org/docs/latest/api/process.html#process_process_env",
+            "type": "official"
+          },
+          {
+            "title": "Bộ gói Dotenv",
+            "url": "https://www.npmjs.com/package/dotenv",
+            "type": "official"
+          },
+          {
+            "title": "dotenv Docs",
+            "url": "https://github.com/motdotla/dotenv#readme",
+            "type": "opensource"
+          },
+          {
+            "title": "Phương pháp luận Twelve-Factor App",
+            "url": "https://12factor.net/config",
+            "type": "article"
+          },
+          {
+            "title": "Hướng dẫn sử dụng Dotenv",
+            "url": "https://zetcode.com/javascript/dotenv/",
+            "type": "article"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Lập trình Tổng hợp",
+            "url": "https://app.daily.dev/tags/general-programming?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "wthXp2YGg3eTMbxsek77C",
+      "type": "subtopic",
+      "label": "biến môi trường",
+      "position": {
+        "x": -506.59047207111564,
+        "y": 690.1880786390362
+      },
+      "size": {
+        "width": 197,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "NEZQB0yHPCcKwsESDYbk5",
+        "color": "#38761d",
+        "label": "Các chủ đề / Bắt đầu với những điều này",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "Trong Node.js, process.env là một biến toàn cục được tiêm vào trong quá trình chạy (runtime). Nó là một cái nhìn về trạng thái của các biến môi trường hệ thống. Khi chúng ta đặt một biến môi trường, nó sẽ được tải vào process.env trong quá trình chạy và có thể truy cập sau này.",
+        "links": [
+          {
+            "title": "Node.js Learn Environment Variables",
+            "url": "https://nodejs.org/en/learn/command-line/how-to-read-environment-variables-from-nodejs",
+            "type": "official"
+          },
+          {
+            "title": "Xử lý môi trường (Environment) và Node.js",
+            "url": "https://www.knowledgehut.com/blog/web-development/node-environment-variables",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "XteNExIZN3_g95_dPCopY",
+      "type": "subtopic",
+      "label": "Thoát / Mã Trả Về",
+      "position": {
+        "x": -245.45968546864998,
+        "y": 875.4712346612822
+      },
+      "size": {
+        "width": 206,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "NEZQB0yHPCcKwsESDYbk5",
+        "color": "#38761d",
+        "label": "Các chủ đề / Bắt đầu với những điều này",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "Thoát là một cách để kết thúc một quy trình Node.js bằng cách sử dụng mô-đun process của node.js.",
+        "links": [
+          {
+            "title": "Tài liệu Thoát",
+            "url": "https://nodejs.org/api/process.html#event-exit",
+            "type": "official"
+          },
+          {
+            "title": "Hướng dẫn thoát quá trình trong Node.js",
+            "url": "https://betterstack.com/community/questions/how-to-exit-in-node-js/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Te9D5ImyMSot506CnstPW",
+      "type": "label",
+      "label": "Biến môi trường",
+      "position": {
+        "x": -501.59047207111564,
+        "y": 796.5361510849657
+      },
+      "size": {
+        "width": 188,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "betuntelnEMSHdatO6VPl",
+      "type": "subtopic",
+      "label": "Dòng đầu vào chuẩn (standard input)",
+      "position": {
+        "x": -507.59047207111564,
+        "y": 847.3085583597832
+      },
+      "size": {
+        "width": 204,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "NEZQB0yHPCcKwsESDYbk5",
+        "color": "#38761d",
+        "label": "Các chủ đề / Bắt đầu với những điều này",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "`process.stdin` là một luồng trong Node.js đại diện cho đầu vào tiêu chuẩn, thường là bàn phím. Nó cho phép các chương trình Node.js của bạn nhận đầu vào văn bản từ dòng lệnh. Mô-đun `readline` cung cấp giao diện thuận tiện để đọc đầu vào từ `process.stdin` theo từng dòng, giúp dễ dàng xử lý đầu vào người dùng trong các ứng dụng dòng lệnh tương tác.",
+        "links": [
+          {
+            "title": "Dòng đầu vào chuẩn (standard input)",
+            "url": "https://nodejs.org/api/process.html#processstdin",
+            "type": "official"
+          },
+          {
+            "title": "Nhận dữ liệu đầu vào từ dòng lệnh trong Node.js",
+            "url": "https://nodejs.org/en/learn/command-line/accept-input-from-the-command-line-in-nodejs#accept-input-from-the-command-line-in-nodejs",
+            "type": "official"
+          },
+          {
+            "title": "Xử lý Node.js qua stdin & stdout",
+            "url": "https://nodecli.com/node-stdin-stdout",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "xgsKrUdfB0g0DMQCLK3aY",
+      "type": "subtopic",
+      "label": "gói kích hoạt",
+      "position": {
+        "x": -506.59047207111564,
+        "y": 953.3085583597832
+      },
+      "size": {
+        "width": 203,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "NEZQB0yHPCcKwsESDYbk5",
+        "color": "#38761d",
+        "label": "Các chủ đề / Bắt đầu với những điều này",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "Prompts là giao diện cấp cao và thân thiện với người dùng được xây dựng trên Node.js’s mô-đun `Readline` tích hợp sẵn. Nó hỗ trợ nhiều loại yêu cầu khác nhau như văn bản, mật khẩu, tự động điền, ngày tháng,... Nó là một mô-đun tương tác và có hỗ trợ xác thực tích hợp sẵn.",
+        "links": [
+          {
+            "title": "Mồi (prompt)",
+            "url": "https://www.npmjs.com/package/prompts",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "WFJJtIqVoBIhK10XY-d7l",
+      "type": "subtopic",
+      "label": "Inquirer Package, gói tin Inquirer.",
+      "position": {
+        "x": -507.59047207111564,
+        "y": 900.3085583597832
+      },
+      "size": {
+        "width": 204,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "NEZQB0yHPCcKwsESDYbk5",
+        "color": "#38761d",
+        "label": "Các chủ đề / Bắt đầu với những điều này",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "Inquirer.js là một bộ sưu tập các giao diện dòng lệnh tương tác thông thường để thu thập đầu vào từ người dùng. Nó dựa trên Promise và hỗ trợ việc liên tiếp đặt câu hỏi gợi ý, nhận đầu vào văn bản, hộp kiểm, danh sách lựa chọn và nhiều hơn nữa. Bạn có thể sử dụng nó để tăng cường các ứng dụng terminal của mình cần đầu vào người dùng hoặc để xây dựng giao diện dòng lệnh (CLI) tùy chỉnh.",
+        "links": [
+          {
+            "title": "Inquirer, một thư viện cung cấp giao diện dòng lệnh tương tác phổ biến để lấy đầu vào từ người dùng.",
+            "url": "https://github.com/SBoudrias/Inquirer.js#readme",
+            "type": "opensource"
+          },
+          {
+            "title": "Hướng dẫn tạo các prompt dòng lệnh tương tác với Inquirer.js",
+            "url": "https://www.digitalocean.com/community/tutorials/nodejs-interactive-command-line-prompts",
+            "type": "article"
+          },
+          {
+            "title": "Hướng dẫn tạo CLI trong Node.js với Inquirer",
+            "url": "https://www.youtube.com/watch?v=0xjfkl9nODQ",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "iI8FZWu3zJ43zYBvwp2XZ",
+      "type": "label",
+      "label": "Nhận đầu vào",
+      "position": {
+        "x": -463.09047207111564,
+        "y": 1008.3567490522918
+      },
+      "size": {
+        "width": 111,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "lQm-5WxQQTk7ym-_X8Ql6",
+      "type": "label",
+      "label": "Đầu ra in",
+      "position": {
+        "x": -474.09047207111564,
+        "y": 1280.2877525020792
+      },
+      "size": {
+        "width": 133,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "N2vR1_NyDn4rYLXJzxWBZ",
+      "type": "subtopic",
+      "label": "Đầu ra tiêu chuẩn / Lỗi đầu ra tiêu chuẩn",
+      "position": {
+        "x": -504.59047207111564,
+        "y": 1061.2877525020792
+      },
+      "size": {
+        "width": 201,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "NEZQB0yHPCcKwsESDYbk5",
+        "color": "#38761d",
+        "label": "Các chủ đề / Bắt đầu với những điều này",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "Thuộc tính `process.stdout` là một giao diện lập trình ứng dụng tích hợp sẵn của mô-đun process, được sử dụng để gửi dữ liệu ra khỏi chương trình của chúng ta. Một Writable Stream đến stdout. Nó triển khai một phương thức `write()`. `console.log()` in ra `process.stdout.write()` với đầu ra đã định dạng hoặc dòng mới.",
+        "links": [
+          {
+            "title": "Đầu ra tiêu chuẩn (standard output)",
+            "url": "https://nodejs.org/api/process.html#processstdout",
+            "type": "official"
+          },
+          {
+            "title": "Đầu ra tiêu chuẩn (stdout) so với console.log",
+            "url": "https://stackoverflow.com/questions/4976466/difference-between-process-stdout-write-and-console-log-in-node-js/4984464#4984464",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "V4OWIC1cnw8EFyu26Y_dA",
+      "type": "subtopic",
+      "label": "`chalk package` là một gói Node.js cung cấp các màu sắc và kiểu dáng để hiển thị thông tin trên terminal.",
+      "position": {
+        "x": -504.59047207111564,
+        "y": 1114.2877525020792
+      },
+      "size": {
+        "width": 201,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "NEZQB0yHPCcKwsESDYbk5",
+        "color": "#38761d",
+        "label": "Các chủ đề / Bắt đầu với những điều này",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "Chalk is a clean and focused library used to do string styling in your terminal applications. With it, you can print different styled messages to your console such as changing font colors, font boldness, font opacity, and the background of any message printed on your console.",
+        "links": [
+          {
+            "title": "Chalk Docs",
+            "url": "https://github.com/chalk/chalk#readme",
+            "type": "opensource"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PHLdJylzNZDJBGi8FFsfO",
+      "type": "subtopic",
+      "label": "figlet package",
+      "position": {
+        "x": -504.59047207111564,
+        "y": 1167.2877525020792
+      },
+      "size": {
+        "width": 201,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "NEZQB0yHPCcKwsESDYbk5",
+        "color": "#38761d",
+        "label": "Các chủ đề / Bắt đầu với những điều này",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "Bộ cài đặt này nhằm mục đích triển khai đầy đủ đặc tả FIGfont trong JavaScript, đại diện cho bố cục đồ họa của các ký tự biểu diễn các ký tự lớn hơn. Nó hoạt động trên trình duyệt và với Node.js.",
+        "links": [
+          {
+            "title": "figlet",
+            "url": "https://github.com/patorjk/figlet.js",
+            "type": "opensource"
+          }
+        ]
+      }
+    },
+    {
+      "id": "iW9je5Pq7bjxWZDERv_p5",
+      "type": "subtopic",
+      "label": "cli-progress",
+      "position": {
+        "x": -504.59047207111564,
+        "y": 1220.2877525020792
+      },
+      "size": {
+        "width": 201,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "NEZQB0yHPCcKwsESDYbk5",
+        "color": "#38761d",
+        "label": "Các chủ đề / Bắt đầu với những điều này",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "CLI-Progress là một gói cung cấp thanh tiến tùy chỉnh cho các ứng dụng dòng lệnh.",
+        "links": [
+          {
+            "title": "Tài liệu CLI-Progress",
+            "url": "https://www.npmjs.com/package/cli-progress",
+            "type": "official"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về CLI",
+            "url": "https://app.daily.dev/tags/cli?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "lT2DDRtbFfEjb_cmsQx8i",
+      "type": "subtopic",
+      "label": "Tham số dòng lệnh (command-line arguments)",
+      "position": {
+        "x": -506.12962923010787,
+        "y": 1328.9416664638775
+      },
+      "size": {
+        "width": 202,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "NEZQB0yHPCcKwsESDYbk5",
+        "color": "#38761d",
+        "label": "Các chủ đề / Bắt đầu với những điều này",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "`process.argv` là một mảng các tham số được gửi khi bạn chạy một file Node.js hoặc một tiến trình Node.js.",
+        "links": [
+          {
+            "title": "Tham số dòng lệnh (command-line arguments)",
+            "url": "https://nodejs.org/docs/latest/api/process.html#processargv",
+            "type": "official"
+          },
+          {
+            "title": "Tham số dòng lệnh - Hang động Lập trình",
+            "url": "https://youtu.be/nr7i2HOAjeE",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "BxxLQUI7JcQgF6TK3L5uU",
+      "type": "subtopic",
+      "label": "commander",
+      "position": {
+        "x": -504.12962923010787,
+        "y": 1381.9416664638775
+      },
+      "size": {
+        "width": 200,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "NEZQB0yHPCcKwsESDYbk5",
+        "color": "#38761d",
+        "label": "Các chủ đề / Bắt đầu với những điều này",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "Commander là một framework dòng lệnh nhẹ, biểu cảm và mạnh mẽ cho Node.js, với Commander.js bạn có thể tạo giao diện dòng lệnh (CLI) của riêng mình.",
+        "links": [
+          {
+            "title": "commander package",
+            "url": "https://www.npmjs.com/package/commander",
+            "type": "official"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về JavaScript",
+            "url": "https://app.daily.dev/tags/javascript?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "NUoma-b5IJUuOssS3yut8",
+      "type": "label",
+      "label": "Tham số dòng lệnh",
+      "position": {
+        "x": -491.6296292301079,
+        "y": 1441.9416664638775
+      },
+      "size": {
+        "width": 166,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "fFVCb6aZWRHdNDFt5C09R",
+      "type": "topic",
+      "label": "Xây dựng và Consum API",
+      "position": {
+        "x": -245.45968546864998,
+        "y": 1258.2877525020792
+      },
+      "size": {
+        "width": 258,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "NEZQB0yHPCcKwsESDYbk5",
+        "color": "#38761d",
+        "label": "Các chủ đề / Bắt đầu với những điều này",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "API là viết tắt của Application Programming Interface, đó là giao diện lập trình ứng dụng, cho phép hai ứng dụng trao đổi dữ liệu với nhau.",
+        "links": [
+          {
+            "title": "API là gì?",
+            "url": "https://aws.amazon.com/what-is/api/",
+            "type": "article"
+          },
+          {
+            "title": "API là gì (trong 5 phút)?",
+            "url": "https://youtu.be/ByGJQzlzxQg?si=9EB9lgRvEOgt3xPJ",
+            "type": "video"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Node.js",
+            "url": "https://app.daily.dev/tags/nodejs?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1vq_KcYR_pkfp1MtXaL75",
+      "type": "subtopic",
+      "label": "Express.js",
+      "position": {
+        "x": 219.39975778990492,
+        "y": 1250.6567476363114
+      },
+      "size": {
+        "width": 121,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Express là framework ứng dụng web Node.js cung cấp các tính năng rộng rãi để xây dựng ứng dụng web và di động. Nó được sử dụng để xây dựng ứng dụng một trang, nhiều trang và lai.",
+        "links": [
+          {
+            "title": "Express.js",
+            "url": "https://expressjs.com/",
+            "type": "official"
+          },
+          {
+            "title": "Hướng dẫn Bắt đầu",
+            "url": "https://expressjs.com/en/starter/installing.html",
+            "type": "official"
+          },
+          {
+            "title": "Hướng dẫn đầy đủ Express",
+            "url": "https://www.tutorialspoint.com/nodejs/nodejs_express_framework.htm",
+            "type": "article"
+          },
+          {
+            "title": "Dự Án Mẫu",
+            "url": "https://auth0.com/blog/create-a-simple-and-stylish-node-express-app/",
+            "type": "article"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Express.js",
+            "url": "https://app.daily.dev/tags/express?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "WkU_rI4i-UmNSxb5F9TI-",
+      "type": "subtopic",
+      "label": "fastify",
+      "position": {
+        "x": 219.39975778990492,
+        "y": 1303.6567476363114
+      },
+      "size": {
+        "width": 121,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Fastify là framework web tập trung cao độ vào việc cung cấp trải nghiệm phát triển tốt nhất với ít gánh nặng và kiến trúc plugin mạnh mẽ, lấy cảm hứng từ Hapi và Express.",
+        "links": [
+          {
+            "title": "Fastify",
+            "url": "https://www.fastify.io/",
+            "type": "official"
+          },
+          {
+            "title": "Tài liệu Fastify",
+            "url": "https://www.fastify.io/docs/latest/",
+            "type": "official"
+          },
+          {
+            "title": "Hướng dẫn Fastify dành cho người mới bắt đầu",
+            "url": "https://www.youtube.com/watch?v=Lk-uVEVGxOA",
+            "type": "video"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Fastify",
+            "url": "https://app.daily.dev/tags/fastify?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tGD8XLHnfspfv8CbguGwV",
+      "type": "subtopic",
+      "label": "NestJS",
+      "position": {
+        "x": 219.39975778990492,
+        "y": 1356.6567476363114
+      },
+      "size": {
+        "width": 121,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "NestJS is a progressive Node.js framework for creating efficient and scalable server-side applications.",
+        "links": [
+          {
+            "title": "NestJS",
+            "url": "https://nestjs.com",
+            "type": "official"
+          },
+          {
+            "title": "NestJS Documentations",
+            "url": "https://docs.nestjs.com",
+            "type": "official"
+          },
+          {
+            "title": "Hướng dẫn NestJS dành cho người mới bắt đầu",
+            "url": "https://www.youtube.com/watch?v=GHTA143_b-s",
+            "type": "video"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về NestJS",
+            "url": "https://app.daily.dev/tags/nestjs?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Xa-lA1wbZ9JZ_XpXfhhw5",
+      "type": "subtopic",
+      "label": "Hono",
+      "position": {
+        "x": 219.39975778990492,
+        "y": 1409.6567476363114
+      },
+      "size": {
+        "width": 121,
+        "height": 53
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Hono là một framework web nhẹ, đơn giản và nhanh cho Cloudflare Workers, Deno, Bun và các ứng dụng khác. Nó là một ứng dụng web hiện đại vừa nhanh vừa linh hoạt. Nó cung cấp hỗ trợ tích hợp cho TypeScript và phát triển dễ dàng trong môi trường cục bộ. Sử dụng Hono, việc tạo các ứng dụng web có thể xuất bản với Deno, Bun và Cloudflare Workers trở nên dễ dàng.",
+        "links": [
+          {
+            "title": "Tài liệu Hono",
+            "url": "https://hono.dev/docs/",
+            "type": "official"
+          },
+          {
+            "title": "Xây dựng ứng dụng web với Hono",
+            "url": "https://blog.logrocket.com/build-web-application-hono/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "wyBsJ-NSYBS0QfPHPl0j7",
+      "type": "label",
+      "label": "Frameworks",
+      "position": {
+        "x": 219.39975778990492,
+        "y": 1473.6567476363114
+      },
+      "size": {
+        "width": 121,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "Sjc1YDtbzXyLQH711_3nj",
+      "type": "subtopic",
+      "label": "Mô-đun HTTP",
+      "position": {
+        "x": 354.73640589584414,
+        "y": 1250.02072262127
+      },
+      "size": {
+        "width": 170,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Bạn có thể thực hiện các cuộc gọi API bằng mô-đun `http` trong Node.js. Dưới đây là hai phương pháp bạn có thể sử dụng: *   `http.get()` - Thực hiện các yêu cầu HTTP GET. *   `http.request()` - Tương tự như `http.get()` nhưng cho phép gửi các loại yêu cầu HTTP khác (bao gồm cả yêu cầu GET).",
+        "links": [
+          {
+            "title": "Tài liệu http.get() của Node.js",
+            "url": "https://nodejs.org/docs/latest-v16.x/api/http.html#httpgeturl-options-callback",
+            "type": "official"
+          },
+          {
+            "title": "Tài liệu http.request() của Node.js",
+            "url": "https://nodejs.org/docs/latest-v16.x/api/http.html#httprequesturl-options-callback",
+            "type": "official"
+          },
+          {
+            "title": "Hướng dẫn tạo một HTTP Client bằng Core HTTP trong Node.js",
+            "url": "https://www.digitalocean.com/community/tutorials/how-to-create-an-http-client-with-core-http-in-node-js",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "BOLiZg8YDKADMwP01U5ph",
+      "type": "subtopic",
+      "label": "`axios` là một thư viện HTTP client phổ biến cho Node.js.",
+      "position": {
+        "x": 354.73640589584414,
+        "y": 1303.02072262127
+      },
+      "size": {
+        "width": 71,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Axios là HTTP Client dựa trên Promise cho node.js và trình duyệt. Được sử dụng để thực hiện các yêu cầu đến máy chủ web. Ở phía máy chủ, nó sử dụng mô-đun http gốc của node.js, trong khi ở phía khách hàng (trình duyệt) nó sử dụng XMLHttpRequests.",
+        "links": [
+          {
+            "title": "Tài liệu Axios",
+            "url": "https://axios-http.com/docs/intro",
+            "type": "official"
+          },
+          {
+            "title": "Hướng dẫn Axios",
+            "url": "https://www.youtube.com/watch?v=6LyagkoRWYA",
+            "type": "video"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Axios",
+            "url": "https://app.daily.dev/tags/axios?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "-_2letLUta5Ymc5eEOKhn",
+      "type": "subtopic",
+      "label": "Không có văn bản cần dịch. Vui lòng cung cấp văn bản cần dịch.",
+      "position": {
+        "x": 428.73640589584414,
+        "y": 1303.02072262127
+      },
+      "size": {
+        "width": 95,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Ky là một client HTTP nhỏ gọn và thanh lịch dựa trên API Fetch của trình duyệt. Ky nhắm mục tiêu các trình duyệt hiện đại và Deno. Đối với các trình duyệt cũ hơn, bạn sẽ cần biên dịch và sử dụng một polyfill fetch. Đối với Node.js, hãy xem Got.. 1 KB (đã tối ưu hóa & nén gzip), một file và không có phụ thuộc.",
+        "links": [
+          {
+            "title": "Ky Package",
+            "url": "https://www.npmjs.com/package/ky/v/0.9.0",
+            "type": "official"
+          },
+          {
+            "title": "Ky Docs",
+            "url": "https://github.com/sindresorhus/ky",
+            "type": "opensource"
+          }
+        ]
+      }
+    },
+    {
+      "id": "B_3rTGQxJneMREXoi2gQn",
+      "type": "subtopic",
+      "label": "fetch",
+      "position": {
+        "x": 355.36672552017444,
+        "y": 1357.02072262127
+      },
+      "size": {
+        "width": 169,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Phương thức `fetch()` trong JavaScript được sử dụng để yêu cầu máy chủ và tải thông tin trên các trang web. Yêu cầu có thể là bất kỳ API nào trả về dữ liệu ở định dạng JSON hoặc XML. Phương pháp này trả về một Promise.",
+        "links": [
+          {
+            "title": "MDN - Sử dụng Fetch API",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch",
+            "type": "official"
+          },
+          {
+            "title": "NodeJS globals: fetch",
+            "url": "https://nodejs.org/api/globals.html#fetch",
+            "type": "official"
+          },
+          {
+            "title": "MDN - Promise",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise",
+            "type": "official"
+          },
+          {
+            "title": "freeCodeCamp on avoiding callback hell",
+            "url": "https://www.freecodecamp.org/news/how-to-deal-with-nested-callbacks-and-avoid-callback-hell-1bc8dc4a2012/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6stiDKubT6XVAOGiJ6wsx",
+      "type": "subtopic",
+      "label": "đã nhận gói hàng",
+      "position": {
+        "x": 354.73640589584414,
+        "y": 1410.02072262127
+      },
+      "size": {
+        "width": 170,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Got là thư viện HTTP nhẹ hơn, thân thiện với người dùng và mạnh mẽ được thiết kế đặc biệt để hoạt động với Node.js. Nó hỗ trợ phân trang, bộ nhớ cache tuân thủ RFC, tự động thực hiện lại yêu cầu API nếu thất bại, hỗ trợ cookie ngay lập tức, v.v.",
+        "links": [
+          {
+            "title": "Đã có tài liệu",
+            "url": "https://www.npmjs.com/package/got",
+            "type": "official"
+          },
+          {
+            "title": "Hướng dẫn tiêu thụ API bằng GOT trong Node.js?",
+            "url": "https://rapidapi.com/guides/call-apis-got",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "oZIte_LbYlggtiOQWhroc",
+      "type": "label",
+      "label": "Thực hiện Gọi API",
+      "position": {
+        "x": 364.23640589584414,
+        "y": 1473.6567476363114
+      },
+      "size": {
+        "width": 146,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "7u2WMxjLx3mMtn0cha4M7",
+      "type": "subtopic",
+      "label": "JSON Web Token",
+      "position": {
+        "x": 354.73640589584414,
+        "y": 1086.063720703125
+      },
+      "size": {
+        "width": 170,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "JWT, hoặc JSON-Web-Token, là một tiêu chuẩn mở để chia sẻ thông tin bảo mật giữa hai bên — một khách hàng và một máy chủ. Mỗi JWT chứa các đối tượng JSON được mã hóa, bao gồm một tập hợp các khẳng định (claims). JWTs được ký bằng một thuật toán mật mã để đảm bảo rằng các khẳng định không thể bị thay đổi sau khi token được phát hành.",
+        "links": [
+          {
+            "title": "Tài liệu gói tin JSON",
+            "url": "https://www.npmjs.com/package/jsonwebtoken",
+            "type": "official"
+          },
+          {
+            "title": "JWT là gì?",
+            "url": "https://www.akana.com/blog/what-is-jwt",
+            "type": "article"
+          },
+          {
+            "title": "Triển khai JWT",
+            "url": "https://www.youtube.com/watch?v=mbsmsi7l3r4",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mIyv6S9a5dCHkk-JhhjKV",
+      "type": "subtopic",
+      "label": "passport",
+      "position": {
+        "x": 354.73640589584414,
+        "y": 1139.063720703125
+      },
+      "size": {
+        "width": 170,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Passport.js là middleware xác thực (authentication) cho Node.js. Nó giúp triển khai xác thực trong các ứng dụng Express trở nên dễ dàng và nhanh chóng hơn rất nhiều. Nó cực kỳ linh hoạt và có tính mô-đun cao. Nó sử dụng \"strategies\" để hỗ trợ xác thực bằng tên người dùng và mật khẩu, Facebook, Twitter và nhiều trang web khác.",
+        "links": [
+          {
+            "title": "PassportJS",
+            "url": "https://www.passportjs.org/",
+            "type": "official"
+          },
+          {
+            "title": "Tài liệu PassportJS",
+            "url": "https://www.passportjs.org/docs/",
+            "type": "official"
+          },
+          {
+            "title": "Triển khai OAuth bằng passportjs",
+            "url": "https://www.youtube.com/watch?v=sakQbeRjgwg&list=PL4cUxeGkcC9jdm7QX143aMLAqyM-jTZ2x",
+            "type": "video"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về JavaScript",
+            "url": "https://app.daily.dev/tags/javascript?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "aHmeIcvZGVF0SwZe4vuvz",
+      "type": "label",
+      "label": "Xác thực",
+      "position": {
+        "x": 374.23640589584414,
+        "y": 1197.02072262127
+      },
+      "size": {
+        "width": 127,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "swp4wBgA7z-sd64VDkMrw",
+      "type": "topic",
+      "label": "Theo dõi Thay đổi (Dev)",
+      "position": {
+        "x": -245.45968546864998,
+        "y": 1352.02072262127
+      },
+      "size": {
+        "width": 258,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "NEZQB0yHPCcKwsESDYbk5",
+        "color": "#38761d",
+        "label": "Các chủ đề / Bắt đầu với những điều này",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "Trong Node.js, bạn cần khởi động lại quy trình để thay đổi có hiệu lực. Điều này thêm một bước bổ sung vào quy trình làm việc của bạn. Bạn có thể loại bỏ bước bổ sung này bằng cách sử dụng `nodemon` để tự động khởi động lại quy trình. Vì Node.js 18.11.0, bạn có thể chạy Node với cờ `--watch` để tải lại ứng dụng mỗi khi một tệp được thay đổi. Vì vậy, bạn không cần phải sử dụng `nodemon` nữa.",
+        "links": []
+      }
+    },
+    {
+      "id": "812bVEzxwTsYzLG_PmLqN",
+      "type": "subtopic",
+      "label": "Kiểm soát",
+      "position": {
+        "x": 83.04484613528683,
+        "y": 1326.6567476363114
+      },
+      "size": {
+        "width": 103,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Cờ `--watch` trong Node.js là một tính năng mạnh mẽ được giới thiệu trong phiên bản Node.js 19 cho phép tải lại tự động ứng dụng Node.js của bạn bất cứ khi nào phát hiện thấy thay đổi trong các tệp đã chỉ định. Dưới đây cách nó hoạt động: *   Bạn chạy script Node.js của mình với cờ `--watch`: `$ node --watch your_script.js` *   Node.js bắt đầu theo dõi tệp (hoặc thư mục) được chỉ định để thay đổi. *   Khi phát hiện thấy một thay đổi, Node.js tự động khởi động lại script",
+        "links": [
+          {
+            "title": "Node.js CLI",
+            "url": "https://nodejs.org/api/cli.html",
+            "type": "official"
+          },
+          {
+            "title": "Node.js --watch Docs",
+            "url": "https://nodejs.org/api/cli.html#--watch",
+            "type": "official"
+          },
+          {
+            "title": "Medium - Chế độ Watch",
+            "url": "https://medium.com/@khaled.smq/built-in-nodejs-watch-mode-52ffadaec8a8",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2Ym2jMvov0lZ79aJFaw29",
+      "type": "subtopic",
+      "label": "nodemon",
+      "position": {
+        "x": 83.04484613528683,
+        "y": 1379.6567476363114
+      },
+      "size": {
+        "width": 103,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Trong Node.js, bạn cần khởi động lại quy trình để thay đổi có hiệu lực. Điều này thêm một bước bổ sung vào quy trình làm việc của bạn. Bạn có thể loại bỏ bước bổ sung này bằng cách sử dụng `nodemon` hoặc PM2 để tự động khởi động lại quy trình. `nodemon` là tiện ích dòng lệnh (CLI) được phát triển bởi rem, bao bọc ứng dụng Node của bạn, theo dõi hệ thống tệp và tự động khởi động lại quy trình.",
+        "links": [
+          {
+            "title": "Nodemon",
+            "url": "https://nodemon.io/",
+            "type": "official"
+          },
+          {
+            "title": "PM2",
+            "url": "https://pm2.keymetrics.io/docs/usage/quick-start/",
+            "type": "article"
+          },
+          {
+            "title": "Hướng dẫn tự động khởi động lại ứng dụng Node.js với nodemon",
+            "url": "https://www.digitalocean.com/community/tutorials/workflow-nodemon",
+            "type": "article"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Node.js",
+            "url": "https://app.daily.dev/tags/nodejs?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "J0ErCAZT5B97ZMogU2JHd",
+      "type": "topic",
+      "label": "Công cụ dựng mẫu",
+      "position": {
+        "x": -245.45968546864998,
+        "y": 1503.1526950801597
+      },
+      "size": {
+        "width": 258,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "NEZQB0yHPCcKwsESDYbk5",
+        "color": "#38761d",
+        "label": "Các chủ đề / Bắt đầu với những điều này",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "Công cụ dựng mẫu (template engine) giúp chúng ta tạo một mẫu HTML với lượng mã tối thiểu. Ngoài ra, nó có thể chèn dữ liệu vào mẫu HTML ở phía máy khách và tạo ra HTML cuối cùng. Một số ví dụ về công cụ dựng mẫu trong Node.js bao gồm:\n\n*   Nunjucks\n*   Jade\n*   Vash\n*   EJS\n*   Handlebars\n*   HAML",
+        "links": [
+          {
+            "title": "Bắt đầu với Pug",
+            "url": "https://pugjs.org/api/getting-started.html",
+            "type": "official"
+          },
+          {
+            "title": "Bộ gói Handlebars",
+            "url": "https://www.npmjs.com/package/handlebars",
+            "type": "official"
+          },
+          {
+            "title": "Bộ cài đặt EJS",
+            "url": "https://www.npmjs.com/package/ejs",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L-_N7OxxuHCXsdWYBgZGu",
+      "type": "subtopic",
+      "label": "ejs",
+      "position": {
+        "x": 83.68754841750314,
+        "y": 1450.1526950801597
+      },
+      "size": {
+        "width": 94,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "EJS là ngôn ngữ mẫu hoặc động cơ cho phép bạn tạo mã HTML đánh dấu với JavaScript thuần. Và điều này khiến nó hoàn hảo cho các ứng dụng Nodejs. Nói một cách đơn giản, động cơ mẫu EJS giúp dễ dàng nhúng JavaScript vào mẫu HTML của bạn.",
+        "links": [
+          {
+            "title": "EJS",
+            "url": "https://ejs.co/",
+            "type": "official"
+          },
+          {
+            "title": "Tài liệu EJS",
+            "url": "https://ejs.co/#docs",
+            "type": "official"
+          },
+          {
+            "title": "Bộ cài đặt EJS",
+            "url": "https://www.npmjs.com/package/ejs",
+            "type": "official"
+          },
+          {
+            "title": "Thử EJS Online",
+            "url": "https://ionicabizau.github.io/ejs-playground/",
+            "type": "article"
+          },
+          {
+            "title": "Hướng dẫn sử dụng EJS",
+            "url": "https://www.digitalocean.com/community/tutorials/how-to-use-ejs-to-template-your-node-application",
+            "type": "article"
+          },
+          {
+            "title": "Hướng dẫn từng bước EJS",
+            "url": "https://codeforgeek.com/ejs-template-engine-in-nodejs/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "O67e2qyhxP5joR5LGyZ2N",
+      "type": "subtopic",
+      "label": "Cún con",
+      "position": {
+        "x": 83.68754841750314,
+        "y": 1503.1526950801597
+      },
+      "size": {
+        "width": 94,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Pug là một trình tạo mẫu (template) JavaScript. Nó là một trình tạo mẫu hiệu năng cao, chịu ảnh hưởng mạnh mẽ từ Haml và được triển khai bằng JavaScript cho Node.js và trình duyệt. Trước đây, Pug được gọi là Jade. Pug là một trình tạo mẫu hiệu năng cao, chịu ảnh hưởng mạnh mẽ từ Haml và được triển khai bằng JavaScript cho Node.js và trình duyệt.",
+        "links": [
+          {
+            "title": "Bắt đầu với PugJs",
+            "url": "https://pugjs.org/api/getting-started.html",
+            "type": "official"
+          },
+          {
+            "title": "Hướng dẫn xây dựng Ứng dụng Node bằng mẫu Pug",
+            "url": "https://blog.bitsrc.io/how-to-build-a-node-application-using-a-pug-template-7319ab1bba69?gi=40b338891148",
+            "type": "article"
+          },
+          {
+            "title": "Hướng dẫn sử dụng Pug.js",
+            "url": "https://zetcode.com/javascript/pugjs/",
+            "type": "article"
+          },
+          {
+            "title": "Node.js + Express - Tutorial - PugJS Templating Engine",
+            "url": "https://www.youtube.com/watch?v=DSp9ExFw3Ig",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "f2DyjBIglAZ6NoHaRnlzt",
+      "type": "subtopic",
+      "label": "Marko",
+      "position": {
+        "x": 83.68754841750314,
+        "y": 1556.1526950801597
+      },
+      "size": {
+        "width": 94,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Marko là một engine tạo mẫu HTML nhanh và nhẹ, biên dịch các template thành module CommonJS và hỗ trợ streaming, render không đồng bộ và thẻ tùy chỉnh. Nó là HTML được tái tưởng tượng như một ngôn ngữ để xây dựng giao diện người dùng động và phản ứng.",
+        "links": [
+          {
+            "title": "Tài liệu Marko",
+            "url": "https://markojs.com/docs/guides-overview/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5l-lZ8gwVLqqAF_n99vIO",
+      "type": "topic",
+      "label": "Làm việc với Cơ sở dữ liệu",
+      "position": {
+        "x": -245.45968546864998,
+        "y": 1630.1526950801597
+      },
+      "size": {
+        "width": 258,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "NEZQB0yHPCcKwsESDYbk5",
+        "color": "#38761d",
+        "label": "Các chủ đề / Bắt đầu với những điều này",
+        "position": "left-center"
+      },
+      "content": {
+        "description": "Cơ sở dữ liệu là một tập hợp có tổ chức các thông tin cấu trúc, hay còn gọi là dữ liệu, thường được lưu trữ điện tử trong một hệ thống máy tính. Cơ sở dữ liệu thường được kiểm soát bởi một hệ quản trị cơ sở dữ liệu (DBMS).",
+        "links": [
+          {
+            "title": "Database là gì?",
+            "url": "https://en.wikipedia.org/wiki/Database",
+            "type": "article"
+          },
+          {
+            "title": "Database - AWS là gì?",
+            "url": "https://aws.amazon.com/what-is/database/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "NDf-o-WECK02mVnZ8IFxy",
+      "type": "subtopic",
+      "label": "Mongoose",
+      "position": {
+        "x": -511.6255644994952,
+        "y": 1516.0506125880281
+      },
+      "size": {
+        "width": 209,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Mongoose là một thư viện Mô hình Dữ liệu Đối tượng (ODM) cho MongoDB và Node.js. Mongoose cung cấp một giải pháp dựa trên lược đồ trực tiếp để mô hình hóa dữ liệu ứng dụng của bạn. Nó bao gồm kiểu chuyển đổi tích hợp, xác thực, xây dựng truy vấn, móc nối logic nghiệp vụ và nhiều hơn nữa, tất cả đều có sẵn ngay khi sử dụng.",
+        "links": [
+          {
+            "title": "Mongoose",
+            "url": "https://mongoosejs.com",
+            "type": "official"
+          },
+          {
+            "title": "Tài liệu Mongoose",
+            "url": "https://mongoosejs.com/docs/guide.html",
+            "type": "official"
+          },
+          {
+            "title": "Bắt đầu với MongoDB và Mongoose",
+            "url": "https://www.mongodb.com/developer/languages/javascript/getting-started-with-mongodb-and-mongoose/",
+            "type": "article"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Mongoose",
+            "url": "https://app.daily.dev/tags/mongoose?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3Qxtf8n6gJYdnRsuqa52Q",
+      "type": "subtopic",
+      "label": "Prisma",
+      "position": {
+        "x": -511.6255644994952,
+        "y": 1569.0506125880281
+      },
+      "size": {
+        "width": 209,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Prisma cung cấp một ORM mã nguồn mở thế hệ tiếp theo trong hệ sinh thái TypeScript. Nó cung cấp một API chuyên dụng cho bộ lọc quan hệ. Nó cung cấp một lớp trừu tượng giúp bạn hiệu quả hơn so với việc viết SQL. Prisma hiện tại hỗ trợ `PostgreSQL`, `MySQL`, `SQL Server`, `SQLite`, `MongoDB` và `CockroachDB`.",
+        "links": [
+          {
+            "title": "Prisma",
+            "url": "https://www.prisma.io/",
+            "type": "official"
+          },
+          {
+            "title": "Hướng dẫn Prisma & MongoDB trên YouTube",
+            "url": "https://www.youtube.com/watch?v=-7r4whMKt1s",
+            "type": "video"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Prisma",
+            "url": "https://app.daily.dev/tags/prisma?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5WqLm53CHDT5uBoMH-iPl",
+      "type": "subtopic",
+      "label": "Native Drivers",
+      "position": {
+        "x": -511.6255644994952,
+        "y": 1622.0506125880281
+      },
+      "size": {
+        "width": 209,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Một cách khác để kết nối với các cơ sở dữ liệu khác nhau trong Node.js là sử dụng các trình điều khiển bản địa chính thức do cơ sở dữ liệu cung cấp.",
+        "links": [
+          {
+            "title": "Trình điều khiển MongoDB",
+            "url": "https://www.mongodb.com/docs/drivers/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mkQ4QoFyoneFCVmAanByl",
+      "type": "label",
+      "label": "NoSQL DBs",
+      "position": {
+        "x": -462.1255644994952,
+        "y": 1682.0506125880281
+      },
+      "size": {
+        "width": 110,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "HDDnt79_PCB5JU-KnHKUh",
+      "type": "subtopic",
+      "label": "Knex",
+      "position": {
+        "x": -512.169165402603,
+        "y": 1837.2304293708296
+      },
+      "size": {
+        "width": 209,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Knex.js là một trình xây dựng truy vấn SQL \"toàn bộ đã bao gồm\" cho PostgreSQL, CockroachDB, MSSQL, MySQL, MariaDB, SQLite3, Better-SQLite3, Oracle và Amazon Redshift được thiết kế để linh hoạt, di động và dễ sử dụng.",
+        "links": [
+          {
+            "title": "Knex.js",
+            "url": "https://knexjs.org",
+            "type": "official"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Node.js",
+            "url": "https://app.daily.dev/tags/nodejs?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JXQF9H4_N0rM7ZDKcCZNn",
+      "type": "subtopic",
+      "label": "Drizzle",
+      "position": {
+        "x": -512.169165402603,
+        "y": 1731.2304293708296
+      },
+      "size": {
+        "width": 209,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Drizzle cho phép bạn xây dựng dự án theo cách bạn muốn, mà không can thiệp vào dự án hoặc cấu trúc của bạn. Sử dụng Drizzle, bạn có thể định nghĩa và quản lý lược đồ cơ sở dữ liệu bằng TypeScript, truy cập dữ liệu của mình một cách giống SQL hoặc quan hệ, và tận dụng các công cụ tùy chọn để làm cho trải nghiệm phát triển của bạn thật tuyệt vời.",
+        "links": [
+          {
+            "title": "Drizzle",
+            "url": "https://orm.drizzle.team/",
+            "type": "official"
+          },
+          {
+            "title": "Tài liệu Drizzle",
+            "url": "https://orm.drizzle.team/docs/overview",
+            "type": "official"
+          },
+          {
+            "title": "Drizzle GitHub",
+            "url": "https://github.com/drizzle-team/drizzle-orm",
+            "type": "opensource"
+          },
+          {
+            "title": "Bắt đầu với Drizzle",
+            "url": "https://dev.to/franciscomendes10866/getting-started-with-drizzle-orm-a-beginners-tutorial-4782",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "rk5FtAPDi1TpvWd0yBbtl",
+      "type": "subtopic",
+      "label": "TypeORM",
+      "position": {
+        "x": -512.169165402603,
+        "y": 1784.2304293708296
+      },
+      "size": {
+        "width": 209,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "TypeORM là một ORM có thể chạy trên các nền tảng NodeJS, Browser, Cordova, PhoneGap, Ionic, React Native, NativeScript, Expo và Electron, đồng thời có thể được sử dụng với TypeScript và JavaScript (ES5, ES6, ES7, ES8). Mục tiêu của nó là luôn hỗ trợ các tính năng JavaScript mới nhất và cung cấp thêm các tính năng giúp bạn phát triển bất kỳ ứng dụng nào sử dụng cơ sở dữ liệu - từ các ứng dụng nhỏ với một vài bảng đến các ứng dụng quy mô lớn trong doanh nghiệp với nhiều cơ sở dữ liệu.",
+        "links": [
+          {
+            "title": "TypeORM Docs",
+            "url": "https://typeorm.io",
+            "type": "official"
+          },
+          {
+            "title": "Khóa học TypeORM",
+            "url": "https://www.youtube.com/watch?v=JaTbzPcyiOE",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "fOm-ktIaLqrmA0zln0Bga",
+      "type": "subtopic",
+      "label": "Sequelize",
+      "position": {
+        "x": -512.169165402603,
+        "y": 1890.2304293708296
+      },
+      "size": {
+        "width": 209,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Sequelize là một công cụ ORM Node.js dễ sử dụng và dựa trên promise, dành cho Postgres, MySQL, MariaDB, SQLite, DB2, Microsoft SQL Server và Snowflake. Nó cung cấp hỗ trợ giao dịch vững chắc, quan hệ, tải dữ liệu nhanh chóng (eager và lazy loading) và sao chép đọc và nhiều hơn nữa. ORM là gì? ORM được biết đến như một trình ánh xạ đối tượng - cơ sở dữ liệu (Object Relational Mapper). Đây là một công cụ hoặc một mức độ trừu tượng chuyển đổi dữ liệu trong một cơ sở dữ liệu quan hệ thành các đối tượng có thể lập trình để được các nhà phát triển thao tác bằng một ngôn ngữ lập trình (thường là một ngôn ngữ hướng đối tượng). ORM tồn tại duy nhất để ánh xạ chi tiết giữa hai nguồn dữ liệu, vốn không thể cùng tồn tại do sự không tương thích.",
+        "links": [
+          {
+            "title": "Sequelize",
+            "url": "https://sequelize.org/",
+            "type": "official"
+          },
+          {
+            "title": "Sequelize - Gói NPM",
+            "url": "https://www.npmjs.com/package/sequelize",
+            "type": "official"
+          },
+          {
+            "title": "Tài liệu Sequelize",
+            "url": "https://sequelize.org/docs/v6/getting-started/",
+            "type": "official"
+          },
+          {
+            "title": "Bắt đầu với Sequelize",
+            "url": "https://levelup.gitconnected.com/the-ultimate-guide-to-get-started-with-sequelize-orm-238588d3516e",
+            "type": "article"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Node.js",
+            "url": "https://app.daily.dev/tags/nodejs?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "O7Cy2g_GPxKU6vPfEmNyi",
+      "type": "subtopic",
+      "label": "Prisma",
+      "position": {
+        "x": -512.169165402603,
+        "y": 1943.2304293708296
+      },
+      "size": {
+        "width": 209,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Prisma là một ORM (Object-Relational Mapper) giúp các nhà phát triển ứng dụng xây dựng nhanh hơn và giảm thiểu lỗi. Kết hợp với nền tảng Dữ liệu, các nhà phát triển có được độ tin cậy và khả năng hiển thị tốt khi làm việc với cơ sở dữ liệu.",
+        "links": [
+          {
+            "title": "Prisma",
+            "url": "https://www.prisma.io/",
+            "type": "official"
+          },
+          {
+            "title": "Tài liệu Prisma",
+            "url": "https://www.prisma.io/docs/",
+            "type": "official"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Prisma",
+            "url": "https://app.daily.dev/tags/prisma?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "KpC-QYKalUp7VUvnMKBoW",
+      "type": "subtopic",
+      "label": "Native Drivers",
+      "position": {
+        "x": -512.169165402603,
+        "y": 1996.2304293708296
+      },
+      "size": {
+        "width": 209,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Một cách khác để kết nối với các cơ sở dữ liệu khác nhau trong Node.js là sử dụng các trình điều khiển bản địa chính thức do cơ sở dữ liệu cung cấp.",
+        "links": []
+      }
+    },
+    {
+      "id": "oz3NrL3JEsLiShfBRVJQG",
+      "type": "label",
+      "label": "Mối quan hệ",
+      "position": {
+        "x": -454.66916540260297,
+        "y": 2056.2304293708294
+      },
+      "size": {
+        "width": 94,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "90NIFfbWjTbyKZKwyJlfI",
+      "type": "topic",
+      "label": "Kiểm thử",
+      "position": {
+        "x": 133.7763111160998,
+        "y": 1630.1526950801597
+      },
+      "size": {
+        "width": 127,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "NEZQB0yHPCcKwsESDYbk5",
+        "color": "#38761d",
+        "label": "Các chủ đề / Bắt đầu với những điều này",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "Kiểm thử phần mềm là quá trình xác minh rằng những gì chúng ta tạo ra đang hoạt động chính xác như chúng ta mong đợi. Các bài kiểm tra được tạo ra để ngăn ngừa lỗi và cải thiện chất lượng mã. Hai phương pháp kiểm thử phổ biến nhất là kiểm thử đơn vị và kiểm thử tận dụng (end-to-end testing). Trong phương pháp đầu tiên, chúng ta xem xét các đoạn mã nhỏ, trong phương pháp thứ hai, chúng ta kiểm tra toàn bộ luồng người dùng.",
+        "links": [
+          {
+            "title": "Vitest",
+            "url": "https://vitest.dev/",
+            "type": "official"
+          },
+          {
+            "title": "Jest",
+            "url": "https://jest.io",
+            "type": "official"
+          },
+          {
+            "title": "Kiểm thử phần mềm",
+            "url": "https://en.wikipedia.org/wiki/Software_testing",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "qjToBaMenW3SDtEfoCbQ6",
+      "type": "subtopic",
+      "label": "Vitest",
+      "position": {
+        "x": 367.26672552017453,
+        "y": 1546.2304293708296
+      },
+      "size": {
+        "width": 89,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Vitest là một framework kiểm thử đơn vị gốc từ Vite, tương thích với Jest. Vitest là một thư viện kiểm thử mạnh mẽ được xây dựng trên Vite và đang ngày càng phổ biến. Bạn có thể sử dụng Vitest cho nhiều nhu cầu kiểm thử khác nhau, chẳng hạn như kiểm thử đơn vị, tích hợp, cuối đến đầu (E2E), snapshot và hiệu năng của các hàm và thành phần. Hỗ trợ ESM, TypeScript, JSX theo cài đặt sẵn được hỗ trợ bởi esbuild. Vitest là miễn phí và mã nguồn mở.",
+        "links": [
+          {
+            "title": "Vitest",
+            "url": "https://vitest.dev/",
+            "type": "official"
+          },
+          {
+            "title": "Tài liệu Vitest",
+            "url": "https://vitest.dev/guide/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "oSLpy31XEcA2nRq9ks_LJ",
+      "type": "subtopic",
+      "label": "node:test",
+      "position": {
+        "x": 367.26672552017453,
+        "y": 1599.2304293708296
+      },
+      "size": {
+        "width": 169,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`node:test` là một module tích hợp sẵn trong Node.js cung cấp trình chạy kiểm thử bất đồng bộ đơn giản. Nó được thiết kế để làm cho việc viết kiểm thử trở nên dễ dàng như viết bất kỳ mã nào khác. Các tính năng chính *   Đơn giản: Dễ sử dụng và hiểu. *   Hỗ trợ bất đồng bộ: Xử lý mã bất đồng bộ một cách trôi chảy. *   Phân chia kiểm thử: Cho phép tổ chức các kiểm thử thành cấu trúc phân cấp. *   Hooks: Cung cấp hooks beforeEach và afterEach cho thiết lập và dọn dẹp.",
+        "links": [
+          {
+            "title": "Tài liệu API Test Runner",
+            "url": "https://nodejs.org/api/test.html",
+            "type": "official"
+          },
+          {
+            "title": "Node.js Test Runner",
+            "url": "https://nodejs.org/en/learn/test-runner/using-test-runner",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5xrbKv2stKPJRv7Vzf9nM",
+      "type": "subtopic",
+      "label": "Jest",
+      "position": {
+        "x": 458.36672552017444,
+        "y": 1546.2304293708296
+      },
+      "size": {
+        "width": 78,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Jest là một Framework kiểm thử JavaScript tuyệt vời với sự tập trung vào tính đơn giản. Nó hoạt động với các dự án sử dụng: Babel, TypeScript, Node, React, Angular, Vue và nhiều hơn nữa!",
+        "links": [
+          {
+            "title": "Jest",
+            "url": "https://jestjs.io",
+            "type": "official"
+          },
+          {
+            "title": "Tài liệu Jest",
+            "url": "https://jestjs.io/docs/getting-started",
+            "type": "official"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Jest",
+            "url": "https://app.daily.dev/tags/jest?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Ix-g9pgJjEI04bSfROvlq",
+      "type": "subtopic",
+      "label": "Playwright",
+      "position": {
+        "x": 367.26672552017453,
+        "y": 1705.2304293708296
+      },
+      "size": {
+        "width": 169,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Playwright là thư viện tự động hóa mã nguồn mở được phát triển bởi Microsoft để kiểm thử và tự động hóa các ứng dụng web. Nó cung cấp một API thống nhất để điều khiển trình duyệt Chromium, Firefox và WebKit, làm cho nó trở thành một lựa chọn linh hoạt cho kiểm thử đa trình duyệt. Playwright cung cấp một API cấp cao để tương tác với các trang web. Bạn có thể viết script để mô phỏng hành động của người dùng, chẳng hạn như nhấp vào nút, điền vào biểu mẫu và điều hướng qua các trang khác nhau. Playwright xử lý các tương tác trình duyệt cơ bản, giúp dễ dàng viết và bảo trì các bài kiểm thử.",
+        "links": [
+          {
+            "title": "Playwright",
+            "url": "https://playwright.dev/",
+            "type": "official"
+          },
+          {
+            "title": "Tài liệu Playwright",
+            "url": "https://playwright.dev/docs/getting-started-vscode",
+            "type": "official"
+          },
+          {
+            "title": "Bắt đầu với Playwright",
+            "url": "https://learn.microsoft.com/en-us/shows/getting-started-with-end-to-end-testing-with-playwright/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3Fh3-V1kCZtlUTvEoloIO",
+      "type": "subtopic",
+      "label": "Cypress",
+      "position": {
+        "x": 367.26672552017453,
+        "y": 1652.2304293708296
+      },
+      "size": {
+        "width": 169,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Cypress là một công cụ kiểm thử front end mới được xây dựng cho web hiện đại. Nó cho phép bạn viết các bài kiểm thử nhanh hơn, dễ dàng hơn và đáng tin cậy hơn.",
+        "links": [
+          {
+            "title": "Cypress",
+            "url": "https://www.cypress.io/",
+            "type": "official"
+          },
+          {
+            "title": "Tài liệu Cypress",
+            "url": "https://docs.cypress.io/",
+            "type": "article"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Cypress",
+            "url": "https://app.daily.dev/tags/cypress?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b7ZAEqo0ZU6TNf18Bo0mI",
+      "type": "topic",
+      "label": "Ghi nhật ký",
+      "position": {
+        "x": 133.7763111160998,
+        "y": 1799.2304293708296
+      },
+      "size": {
+        "width": 127,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "NEZQB0yHPCcKwsESDYbk5",
+        "color": "#38761d",
+        "label": "Các chủ đề / Bắt đầu với những điều này",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "Ghi nhật ký (Logging) là một phần thiết yếu để hiểu chuỗi vòng đời hoàn chỉnh của ứng dụng `Node.js`. Chúng ta có thể dễ dàng và nhanh chóng khắc phục lỗi bằng cách xem xét nhật ký trong suốt quá trình phát triển, từ việc tạo ra đến gỡ lỗi và thiết kế các tính năng mới. **Lỗi** (Error), **cảnh báo** (warn), **thông tin** (info) và **debug** là bốn cấp độ ghi nhật ký cơ bản trong `Node.js`. Ghi nhật ký liên quan đến việc thu thập bền vững thông tin về hành vi chạy thời gian của ứng dụng.",
+        "links": [
+          {
+            "title": "Node.js Logging",
+            "url": "https://stackify.com/node-js-logging/",
+            "type": "article"
+          },
+          {
+            "title": "Các phương pháp hay nhất về ghi nhật ký",
+            "url": "https://blog.appsignal.com/2021/09/01/best-practices-for-logging-in-nodejs.html",
+            "type": "article"
+          },
+          {
+            "title": "Ghi nhật ký",
+            "url": "https://stackify.com/node-js-logging/",
+            "type": "article"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Ghi nhật ký (Logging)",
+            "url": "https://app.daily.dev/tags/logging?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Oe9cQCz2lwSaot7miZOta",
+      "type": "subtopic",
+      "label": "Winston",
+      "position": {
+        "x": 368.26672552017453,
+        "y": 1775.7304293708296
+      },
+      "size": {
+        "width": 107,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Winston được thiết kế để là một thư viện ghi log đơn giản và đa năng với hỗ trợ cho nhiều phương thức vận chuyển. Một phương thức vận chuyển cơ bản là một thiết bị lưu trữ cho các log của bạn. Mỗi logger Winston có thể có nhiều phương thức vận chuyển được cấu hình ở các mức độ khác nhau. Ví dụ, một người có thể muốn log lỗi được lưu trữ trong một vị trí từ xa bền vững (như một database), nhưng tất cả các log được xuất ra console hoặc file cục bộ.",
+        "links": [
+          {
+            "title": "Winston",
+            "url": "https://github.com/winstonjs/winston?tab=readme-ov-file#readme",
+            "type": "opensource"
+          },
+          {
+            "title": "Hướng dẫn toàn diện về Winston Logging trong Node.js",
+            "url": "https://betterstack.com/community/guides/logging/how-to-install-setup-and-use-winston-and-morgan-to-log-node-js-applications/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "CTHFGgtXFpke4aPhh5vRY",
+      "type": "subtopic",
+      "label": "Morgan",
+      "position": {
+        "x": 368.26672552017453,
+        "y": 1828.7304293708296
+      },
+      "size": {
+        "width": 107,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Morgan là middleware NodeJS và express.js để ghi lại các yêu cầu HTTP và lỗi, đơn giản hóa quá trình gỡ lỗi. Nó cung cấp sự linh hoạt trong việc định nghĩa định dạng của tin nhắn nhật ký và giúp thay thế đích xuất bản cho nhật ký của bạn.",
+        "links": [
+          {
+            "title": "Gói Morgan",
+            "url": "https://www.npmjs.com/package/morgan",
+            "type": "official"
+          },
+          {
+            "title": "Hướng dẫn sử dụng Morgan | DigitalOcean",
+            "url": "https://www.digitalocean.com/community/tutorials/nodejs-getting-started-morgan",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "af7n-J7VvbdpZh9lwA773",
+      "type": "topic",
+      "label": "Duy trì ứng dụng chạy",
+      "position": {
+        "x": -228.16916540260297,
+        "y": 1800.2304293708296
+      },
+      "size": {
+        "width": 195,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "bcE9YSY2vLzRyJQSceY9M",
+        "color": "#9900ff",
+        "label": "Chủ đề nâng cao / chọn những chủ đề này tiếp theo",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "PM2 cho phép bạn chạy các script Node.js của mình vĩnh viễn. Trong trường hợp ứng dụng của bạn gặp sự cố, PM2 sẽ tự động khởi động lại nó cho bạn.",
+        "links": [
+          {
+            "title": "Duy trì Ứng dụng Node liên tục chạy",
+            "url": "https://devtut.github.io/nodejs/keep-a-node-application-constantly-running.html#use-pm2-as-a-process-manager",
+            "type": "article"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Node.js",
+            "url": "https://app.daily.dev/tags/nodejs?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "7WAuMMyelUbgwEHtnMmJv",
+      "type": "subtopic",
+      "label": "pm2",
+      "position": {
+        "x": -181.16916540260297,
+        "y": 1718.0506125880281
+      },
+      "size": {
+        "width": 101,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "PM2 là trình quản lý quy trình sản xuất cho các ứng dụng Node.js với bộ cân bằng tải tích hợp sẵn. Nó cho phép bạn giữ các ứng dụng luôn hoạt động, tự động khởi động lại chúng mà không bị gián đoạn và hỗ trợ các tác vụ quản trị hệ thống phổ biến.",
+        "links": [
+          {
+            "title": "PM2",
+            "url": "https://pm2.keymetrics.io/",
+            "type": "official"
+          },
+          {
+            "title": "Tài liệu PM2",
+            "url": "https://pm2.keymetrics.io/docs/usage/quick-start/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "KzUmXkwrmU_ssVBjSHAiY",
+      "type": "topic",
+      "label": "Luồng (Threads)",
+      "position": {
+        "x": -228.16916540260297,
+        "y": 1929.2304293708294
+      },
+      "size": {
+        "width": 195,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "iRlgVcCk54BVDA-Rx0kt8",
+        "color": "#000",
+        "label": "Chủ đề nâng cao / chọn những chủ đề này ở cuối cùng",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "Node.js là một ngôn ngữ theo luồng duy nhất và cung cấp cho chúng ta những cách thức để làm việc song song với quy trình chính của chúng ta. Lưu ý đến hệ thống nhiều lõi ngày nay, việc sử dụng luồng duy nhất rất tiết kiệm bộ nhớ.",
+        "links": [
+          {
+            "title": "Một luồng đơn lẻ so với tiến trình con so với luồng công nhân so với cụm trong Node.js",
+            "url": "https://alvinlal.netlify.app/blog/single-thread-vs-child-process-vs-worker-threads-vs-cluster-in-nodejs",
+            "type": "article"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Node.js",
+            "url": "https://app.daily.dev/tags/nodejs?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "lzPrWD3pxQmpbqgYPL-zW",
+      "type": "subtopic",
+      "label": "Child Process",
+      "position": {
+        "x": -228.16916540260297,
+        "y": 2024.2304293708294
+      },
+      "size": {
+        "width": 195,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Mô-đun `child_process` cho phép Node.js chạy quy trình con, được thiết lập thông qua IPC (giao tiếp giữa các quy trình) bằng cách truy cập các lệnh của hệ điều hành. Ba phương thức chính bên trong mô-đun này là: `child_process.spawn()`, `child_process.fork()` và `child_process.exec()`",
+        "links": [
+          {
+            "title": "Child Process Docs",
+            "url": "https://nodejs.org/api/child_process.html#child-process",
+            "type": "official"
+          },
+          {
+            "title": "Bảo Vệ Node.js Chống Lỗ Mạng Command Injection",
+            "url": "https://www.nodejs-security.com/blog/securing-your-nodejs-apps-by-analyzing-real-world-command-injection-examples",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PkQ_sQ0YFPCZGx4BRgG0t",
+      "type": "subtopic",
+      "label": "Cluster",
+      "position": {
+        "x": -228.16916540260297,
+        "y": 2077.2304293708294
+      },
+      "size": {
+        "width": 195,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Mô-đun Cluster cho phép bạn dễ dàng tạo ra các tiến trình con (child process) mà mỗi tiến trình chạy đồng thời trên một luồng duy nhất, để xử lý khối lượng công việc giữa các luồng ứng dụng của chúng.",
+        "links": [
+          {
+            "title": "Node.js Cluster",
+            "url": "https://nodejs.org/api/cluster.html#cluster",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "bH2Iv3BX0ZiWD3lOmC_m_",
+      "type": "subtopic",
+      "label": "Worker Threads là các luồng hoạt động song song liên tục, chạy và nhận tin nhắn cho đến khi được đóng hoặc chấm dứt một cách rõ ràng. Với Worker Threads, chúng ta có thể đạt được ứng dụng hiệu quả hơn mà không gây ra tình trạng kẹt lệnh.",
+      "position": {
+        "x": -228.16916540260297,
+        "y": 2130.2304293708294
+      },
+      "size": {
+        "width": 195,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Worker thread là một luồng liên tục hoạt động song song, chạy và chấp nhận tin nhắn cho đến khi nó được đóng hoặc chấm dứt một cách rõ ràng. Với worker threads, chúng ta có thể đạt được một ứng dụng hiệu quả hơn mà không tạo ra tình huống kẹt lệnh. Workers, khác với các tiến trình con, có thể trao đổi bộ nhớ.",
+        "links": [
+          {
+            "title": "Worker Threads là các luồng hoạt động song song liên tục, chạy và nhận tin nhắn cho đến khi được đóng hoặc chấm dứt một cách rõ ràng. Với Worker Threads, chúng ta có thể đạt được ứng dụng hiệu quả hơn mà không gây ra tình trạng kẹt lệnh.",
+            "url": "https://nodejs.org/api/worker_threads.html#worker-threads",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "WrnjjUDXQwwMXQjmgK72U",
+      "type": "topic",
+      "label": "Stream",
+      "position": {
+        "x": 133.7763111160998,
+        "y": 1929.2304293708294
+      },
+      "size": {
+        "width": 127,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "iRlgVcCk54BVDA-Rx0kt8",
+        "color": "#000",
+        "label": "Chủ đề nâng cao / chọn những chủ đề này ở cuối cùng",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "Stream là một loại phương thức xử lý dữ liệu và được sử dụng để đọc, ghi hoặc chuyển đổi các khối dữ liệu từng phần nhỏ mà không cần giữ tất cả chúng trong bộ nhớ cùng một lúc. Có bốn loại stream trong Node.js: *   **Readable**: stream từ đó có thể đọc dữ liệu. *   **Writable**: stream mà chúng ta có thể ghi dữ liệu vào. *   **Duplex**: stream vừa có thể đọc vừa có thể ghi dữ liệu. *   **Transform**: stream có thể sửa đổi hoặc chuyển đổi dữ liệu khi nó được ghi và đọc. Nhiều stream có thể được liên kết với nhau bằng phương thức `pipe()`.",
+        "links": [
+          {
+            "title": "Tài liệu API Stream",
+            "url": "https://nodejs.org/api/stream.html",
+            "type": "official"
+          },
+          {
+            "title": "Hiểu về Streams trong Node.js",
+            "url": "https://nodesource.com/blog/understanding-streams-in-nodejs",
+            "type": "article"
+          },
+          {
+            "title": "Hướng dẫn Node.js Streams",
+            "url": "https://www.youtube.com/watch?v=GlybFFMXXmQ",
+            "type": "video"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Node.js",
+            "url": "https://app.daily.dev/tags/nodejs?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ZLNUuDKhJ03Kw7xMVc7IR",
+      "type": "topic",
+      "label": "Gỡ lỗi",
+      "position": {
+        "x": 133.7763111160998,
+        "y": 2076.3398245709736
+      },
+      "size": {
+        "width": 127,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "bcE9YSY2vLzRyJQSceY9M",
+        "color": "#9900ff",
+        "label": "Chủ đề nâng cao / chọn những chủ đề này tiếp theo",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "Gỡ lỗi là một khái niệm để xác định và loại bỏ các lỗi từ ứng dụng phần mềm. Ở đây, chúng ta sẽ tìm hiểu về kỹ thuật gỡ lỗi một ứng dụng Node.js. Tại sao không nên sử dụng `console.log()` để gỡ lỗi? Sử dụng `console.log` để gỡ lỗi mã thường dẫn đến một vòng lặp vô tận của các thao tác \"dừng ứng dụng và thêm console.log, rồi khởi động lại ứng dụng\". Ngoài ra, nó còn làm chậm quá trình phát triển ứng dụng và tạo ra mã không sạch cũng như tạo ra các hoạt động ghi nhật ký không cần thiết. Cuối cùng, việc cố gắng ghi log các biến cùng với tiếng ồn của các hoạt động ghi nhật ký khác có thể khiến quá trình gỡ lỗi trở nên khó khăn khi cố gắng tìm thấy các giá trị đang được gỡ lỗi.",
+        "links": [
+          {
+            "title": "Node.js - Getting Started",
+            "url": "https://nodejs.org/en/learn/getting-started/debugging",
+            "type": "official"
+          },
+          {
+            "title": "Wikipedia - Gỡ lỗi là gì?",
+            "url": "https://en.wikipedia.org/wiki/Debugging",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "oU9I7KBZoTSXXFmYscEIq",
+      "type": "subtopic",
+      "label": "Rò rỉ Bộ nhớ",
+      "position": {
+        "x": 338.7637546958802,
+        "y": 2021.7304293708294
+      },
+      "size": {
+        "width": 195,
+        "height": 50
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Các rò rỉ bộ nhớ xảy ra khi việc sử dụng CPU và bộ nhớ của ứng dụng Node.js của bạn tăng lên theo thời gian mà không có lý do rõ ràng. Một cách nói đơn giản, một rò rỉ bộ nhớ Node.js là một khối bộ nhớ 'mồ côi' trên Heap không còn được ứng dụng sử dụng vì nó chưa được giải phóng bởi trình thu gom rác. Đó là một khối bộ nhớ vô dụng. Các khối này có thể phát triển theo thời gian và dẫn đến việc ứng dụng của bạn bị sập do hết bộ nhớ.",
+        "links": [
+          {
+            "title": "Rò rỉ Bộ nhớ trong Node.js",
+            "url": "https://sematext.com/blog/nodejs-memory-leaks/",
+            "type": "article"
+          },
+          {
+            "title": "Nguyên nhân Rò rỉ Bộ nhớ",
+            "url": "https://sematext.com/blog/nodejs-memory-leaks/#what-causes-them-common-node-js-memory-leaks",
+            "type": "article"
+          },
+          {
+            "title": "Bộ phát hiện Rò rỉ Bộ nhớ",
+            "url": "https://sematext.com/blog/nodejs-memory-leaks/#node-js-memory-leak-detectors",
+            "type": "article"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Lập trình Tổng hợp",
+            "url": "https://app.daily.dev/tags/general-programming?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "DcmGcVlEHL4IV7yPMDpVa",
+      "type": "subtopic",
+      "label": "node --inspect",
+      "position": {
+        "x": 338.7637546958802,
+        "y": 2076.3398245709736
+      },
+      "size": {
+        "width": 195,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Node.js cung cấp trình gỡ lỗi dựa trên DevTools tích hợp để cho phép gỡ lỗi ứng dụng Node.js.",
+        "links": [
+          {
+            "title": "Gỡ lỗi Node.js với Chrome DevTools",
+            "url": "https://medium.com/@paul_irish/debugging-node-js-nightlies-with-chrome-devtools-7c4a1b95ae27",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "CvkjlOpT34lOHgzQHL40s",
+      "type": "subtopic",
+      "label": "Sử dụng APM",
+      "position": {
+        "x": 338.7637546958802,
+        "y": 2129.3398245709736
+      },
+      "size": {
+        "width": 195,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Mặc dù thú vị đến mức nào khi chặn các yêu cầu container của bạn bằng inspect và gỡ lỗi qua mã, nhưng bạn sẽ không có tùy chọn này trong môi trường sản xuất. Đó là lý do tại sao việc cố gắng gỡ lỗi ứng dụng của bạn cục bộ theo cách tương tự như bạn sẽ làm trong sản xuất là một ý tưởng hay. Trong môi trường sản xuất, một trong các công cụ của bạn sẽ là đăng nhập vào máy chủ từ xa để xem nhật ký console, giống như bạn sẽ làm trên local. Nhưng đây có thể là một phương pháp tốn thời gian. May mắn thay, có những công cụ có sẵn thực hiện những gì được gọi là thu thập nhật ký, chẳng hạn như Stackify. Những công cụ này gửi các nhật ký từ ứng dụng đang chạy của bạn đến một vị trí duy nhất. Chúng thường đi kèm với các tiện ích tìm kiếm và truy vấn mạnh mẽ để bạn có thể dễ dàng phân tích và trực quan hóa chúng.",
+        "links": [
+          {
+            "title": "Ghi log APM: Hướng dẫn bắt đầu để gỡ lỗi nhanh hơn",
+            "url": "https://last9.io/blog/apm-logs-for-faster-debugging/",
+            "type": "article"
+          },
+          {
+            "title": "Gỡ lỗi bằng APM",
+            "url": "https://stackify.com/node-js-debugging-tips/",
+            "type": "article"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về APM",
+            "url": "https://app.daily.dev/tags/apm?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "SJ01N7vMZkNiIuMYQhdpj",
+      "type": "subtopic",
+      "label": "Thu gom rác",
+      "position": {
+        "x": 338.7637546958802,
+        "y": 1919.3398245709736
+      },
+      "size": {
+        "width": 195,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Quản lý bộ nhớ trong JavaScript được thực hiện tự động và vô hình đối với chúng ta. Chúng ta tạo ra các nguyên thủy, đối tượng, hàm… Tất cả đều tiêu tốn bộ nhớ. Khái niệm chính về quản lý bộ nhớ trong JavaScript là khả dụng (reachability).",
+        "links": [
+          {
+            "title": "Thu gom rác JavaScript",
+            "url": "https://javascript.info/garbage-collection",
+            "type": "article"
+          },
+          {
+            "title": "Quản lý bộ nhớ trong JavaScript",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Memory_Management",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "M62lAWBOrTe99TfpFOQ-Y",
+      "type": "topic",
+      "label": "Các mô-đun tích hợp sẵn phổ biến",
+      "position": {
+        "x": 74.54031453135002,
+        "y": 2249.2304293708294
+      },
+      "size": {
+        "width": 244,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "priority": {
+        "id": "NEZQB0yHPCcKwsESDYbk5",
+        "color": "#38761d",
+        "label": "Các chủ đề / Bắt đầu với những điều này",
+        "position": "right-center"
+      },
+      "content": {
+        "description": "Đây là các mô-đun cốt lõi đi kèm với `Node.js` ngay từ đầu. Mô-đun này cung cấp các công cụ hoặc API để thực hiện một số hoạt động tiêu chuẩn của `Node.js`, chẳng hạn như tương tác với hệ thống tệp, phân tích URL hoặc ghi thông tin đến bảng điều khiển.",
+        "links": [
+          {
+            "title": "fs module",
+            "url": "https://nodejs.org/api/fs.html",
+            "type": "official"
+          },
+          {
+            "title": "Mô-đun URL",
+            "url": "https://nodejs.org/api/url.html",
+            "type": "official"
+          },
+          {
+            "title": "console module",
+            "url": "https://nodejs.org/api/console.html",
+            "type": "official"
+          },
+          {
+            "title": "module tiện ích",
+            "url": "https://nodejs.org/api/util.html",
+            "type": "official"
+          },
+          {
+            "title": "events module",
+            "url": "https://nodejs.org/api/events.html",
+            "type": "official"
+          },
+          {
+            "title": "Mô-đun os",
+            "url": "https://nodejs.org/api/os.html",
+            "type": "official"
+          },
+          {
+            "title": "luồng làm việc (worker thread)",
+            "url": "https://nodejs.org/api/worker_threads.html",
+            "type": "official"
+          },
+          {
+            "title": "`child process module` là một mô-đun trong Node.js cho phép bạn tạo ra các tiến trình con mới, tương tự như chạy các chương trình khác trên hệ thống.",
+            "url": "https://nodejs.org/api/child_process.html",
+            "type": "official"
+          },
+          {
+            "title": "Đối tượng xử lý",
+            "url": "https://nodejs.org/api/process.html",
+            "type": "official"
+          },
+          {
+            "title": "crypto module",
+            "url": "https://nodejs.org/api/crypto.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "RLtk1C3gofHnLJ17x3o5b",
+      "type": "vertical",
+      "label": "nút theo chiều dọc",
+      "position": {
+        "x": -340.2727310549901,
+        "y": 2332.468226966216
+      },
+      "size": {
+        "width": 21,
+        "height": 74
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    }
+  ],
+  "edges": [
+    {
+      "id": "reactflow__edge-KDd40JOAvZ8O1mfhTYB3Ky2-Mp056kNnwsRWeEXuhGPy-z1",
+      "source": "KDd40JOAvZ8O1mfhTYB3K",
+      "target": "Mp056kNnwsRWeEXuhGPy-",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-KDd40JOAvZ8O1mfhTYB3Ky2-ex8FOKrUlbu4MuEq2czyWz1",
+      "source": "KDd40JOAvZ8O1mfhTYB3K",
+      "target": "ex8FOKrUlbu4MuEq2czyW",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-KDd40JOAvZ8O1mfhTYB3Ky2-Vrcv5px-3fqmyJnQv3WBKz2",
+      "source": "KDd40JOAvZ8O1mfhTYB3K",
+      "target": "Vrcv5px-3fqmyJnQv3WBK",
+      "source_handle": "y2",
+      "target_handle": "z2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-KDd40JOAvZ8O1mfhTYB3Ky2-ebVb0anYmbD1Y9ZTFXKFpz1",
+      "source": "KDd40JOAvZ8O1mfhTYB3K",
+      "target": "ebVb0anYmbD1Y9ZTFXKFp",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-KDd40JOAvZ8O1mfhTYB3Ky2-uPJqdMQQJRkTMMhNORDeHz1",
+      "source": "KDd40JOAvZ8O1mfhTYB3K",
+      "target": "uPJqdMQQJRkTMMhNORDeH",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-KDd40JOAvZ8O1mfhTYB3Kz2-mbGFT6S7mL3bHHEZv0_s2y1",
+      "source": "KDd40JOAvZ8O1mfhTYB3K",
+      "target": "mbGFT6S7mL3bHHEZv0_s2",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-mbGFT6S7mL3bHHEZv0_s2y2-jQJ9aOKtg-O-GhWk5OgCKz1",
+      "source": "mbGFT6S7mL3bHHEZv0_s2",
+      "target": "jQJ9aOKtg-O-GhWk5OgCK",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-jQJ9aOKtg-O-GhWk5OgCKz2-t_kfKdNSKVBPYQ9zF9VqQy1",
+      "source": "jQJ9aOKtg-O-GhWk5OgCK",
+      "target": "t_kfKdNSKVBPYQ9zF9VqQ",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-wEK77A6MPQBCBUSJKMiaYz2-QT2QE2FLkyUDpwMKYkFQLy1",
+      "source": "wEK77A6MPQBCBUSJKMiaY",
+      "target": "QT2QE2FLkyUDpwMKYkFQL",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-wEK77A6MPQBCBUSJKMiaYz2-Blzb-fdQZMu6Xq5JDJW0_y1",
+      "source": "wEK77A6MPQBCBUSJKMiaY",
+      "target": "Blzb-fdQZMu6Xq5JDJW0_",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-wEK77A6MPQBCBUSJKMiaYz2-b1r1X3XCoPSayQjDBcy54y1",
+      "source": "wEK77A6MPQBCBUSJKMiaY",
+      "target": "b1r1X3XCoPSayQjDBcy54",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-wEK77A6MPQBCBUSJKMiaYy2-Ce-dP-OXu0mEm30rzp2hWz1",
+      "source": "wEK77A6MPQBCBUSJKMiaY",
+      "target": "Ce-dP-OXu0mEm30rzp2hW",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-swp4wBgA7z-sd64VDkMrwz2-812bVEzxwTsYzLG_PmLqNy1",
+      "source": "swp4wBgA7z-sd64VDkMrw",
+      "target": "812bVEzxwTsYzLG_PmLqN",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-swp4wBgA7z-sd64VDkMrwz2-2Ym2jMvov0lZ79aJFaw29y1",
+      "source": "swp4wBgA7z-sd64VDkMrw",
+      "target": "2Ym2jMvov0lZ79aJFaw29",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-Ce-dP-OXu0mEm30rzp2hWw2-XteNExIZN3_g95_dPCopYx2",
+      "source": "Ce-dP-OXu0mEm30rzp2hW",
+      "target": "XteNExIZN3_g95_dPCopY",
+      "source_handle": "w2",
+      "target_handle": "x2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-J0ErCAZT5B97ZMogU2JHdz2-O67e2qyhxP5joR5LGyZ2Ny1",
+      "source": "J0ErCAZT5B97ZMogU2JHd",
+      "target": "O67e2qyhxP5joR5LGyZ2N",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-J0ErCAZT5B97ZMogU2JHdz2-L-_N7OxxuHCXsdWYBgZGuy1",
+      "source": "J0ErCAZT5B97ZMogU2JHd",
+      "target": "L-_N7OxxuHCXsdWYBgZGu",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-J0ErCAZT5B97ZMogU2JHdz2-f2DyjBIglAZ6NoHaRnlzty1",
+      "source": "J0ErCAZT5B97ZMogU2JHd",
+      "target": "f2DyjBIglAZ6NoHaRnlzt",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-5l-lZ8gwVLqqAF_n99vIOz2-90NIFfbWjTbyKZKwyJlfIy1",
+      "source": "5l-lZ8gwVLqqAF_n99vIO",
+      "target": "90NIFfbWjTbyKZKwyJlfI",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-90NIFfbWjTbyKZKwyJlfIz2-qjToBaMenW3SDtEfoCbQ6y2",
+      "source": "90NIFfbWjTbyKZKwyJlfI",
+      "target": "qjToBaMenW3SDtEfoCbQ6",
+      "source_handle": "z2",
+      "target_handle": "y2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-90NIFfbWjTbyKZKwyJlfIz2-oSLpy31XEcA2nRq9ks_LJy1",
+      "source": "90NIFfbWjTbyKZKwyJlfI",
+      "target": "oSLpy31XEcA2nRq9ks_LJ",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-90NIFfbWjTbyKZKwyJlfIz2-3Fh3-V1kCZtlUTvEoloIOy1",
+      "source": "90NIFfbWjTbyKZKwyJlfI",
+      "target": "3Fh3-V1kCZtlUTvEoloIO",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-90NIFfbWjTbyKZKwyJlfIz2-Ix-g9pgJjEI04bSfROvlqy2",
+      "source": "90NIFfbWjTbyKZKwyJlfI",
+      "target": "Ix-g9pgJjEI04bSfROvlq",
+      "source_handle": "z2",
+      "target_handle": "y2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-90NIFfbWjTbyKZKwyJlfIx2-KzUmXkwrmU_ssVBjSHAiYw1",
+      "source": "90NIFfbWjTbyKZKwyJlfI",
+      "target": "b7ZAEqo0ZU6TNf18Bo0mI",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-KzUmXkwrmU_ssVBjSHAiYz2-Oe9cQCz2lwSaot7miZOtay1",
+      "source": "b7ZAEqo0ZU6TNf18Bo0mI",
+      "target": "Oe9cQCz2lwSaot7miZOta",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-KzUmXkwrmU_ssVBjSHAiYz2-CTHFGgtXFpke4aPhh5vRYy2",
+      "source": "b7ZAEqo0ZU6TNf18Bo0mI",
+      "target": "CTHFGgtXFpke4aPhh5vRY",
+      "source_handle": "z2",
+      "target_handle": "y2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-b7ZAEqo0ZU6TNf18Bo0mIy2-KzUmXkwrmU_ssVBjSHAiYz2",
+      "source": "b7ZAEqo0ZU6TNf18Bo0mI",
+      "target": "af7n-J7VvbdpZh9lwA773",
+      "source_handle": "y2",
+      "target_handle": "z2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-KzUmXkwrmU_ssVBjSHAiYw2-7WAuMMyelUbgwEHtnMmJvx1",
+      "source": "af7n-J7VvbdpZh9lwA773",
+      "target": "7WAuMMyelUbgwEHtnMmJv",
+      "source_handle": "w2",
+      "target_handle": "x1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-af7n-J7VvbdpZh9lwA773x2-KzUmXkwrmU_ssVBjSHAiYw1",
+      "source": "af7n-J7VvbdpZh9lwA773",
+      "target": "KzUmXkwrmU_ssVBjSHAiY",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-KzUmXkwrmU_ssVBjSHAiYx2-lzPrWD3pxQmpbqgYPL-zWw1",
+      "source": "KzUmXkwrmU_ssVBjSHAiY",
+      "target": "lzPrWD3pxQmpbqgYPL-zW",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-KzUmXkwrmU_ssVBjSHAiYz2-WrnjjUDXQwwMXQjmgK72Uy1",
+      "source": "KzUmXkwrmU_ssVBjSHAiY",
+      "target": "WrnjjUDXQwwMXQjmgK72U",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-ZLNUuDKhJ03Kw7xMVc7IRz2-oU9I7KBZoTSXXFmYscEIqy1",
+      "source": "ZLNUuDKhJ03Kw7xMVc7IR",
+      "target": "oU9I7KBZoTSXXFmYscEIq",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-oU9I7KBZoTSXXFmYscEIqw2-SJ01N7vMZkNiIuMYQhdpjx1",
+      "source": "oU9I7KBZoTSXXFmYscEIq",
+      "target": "SJ01N7vMZkNiIuMYQhdpj",
+      "source_handle": "w2",
+      "target_handle": "x1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-ZLNUuDKhJ03Kw7xMVc7IRz2-DcmGcVlEHL4IV7yPMDpVay1",
+      "source": "ZLNUuDKhJ03Kw7xMVc7IR",
+      "target": "DcmGcVlEHL4IV7yPMDpVa",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-ZLNUuDKhJ03Kw7xMVc7IRz2-CvkjlOpT34lOHgzQHL40sy1",
+      "source": "ZLNUuDKhJ03Kw7xMVc7IR",
+      "target": "CvkjlOpT34lOHgzQHL40s",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-WrnjjUDXQwwMXQjmgK72Ux2-ZLNUuDKhJ03Kw7xMVc7IRw1",
+      "source": "WrnjjUDXQwwMXQjmgK72U",
+      "target": "ZLNUuDKhJ03Kw7xMVc7IR",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-ZLNUuDKhJ03Kw7xMVc7IRx2-M62lAWBOrTe99TfpFOQ-Yw1",
+      "source": "ZLNUuDKhJ03Kw7xMVc7IR",
+      "target": "M62lAWBOrTe99TfpFOQ-Y",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    }
+  ],
+  "content_crawled_at": "2026-04-06T09:57:04.101788+00:00"
+}

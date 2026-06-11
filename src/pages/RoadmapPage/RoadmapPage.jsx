@@ -1,13 +1,13 @@
 import { useState, useRef, useCallback, useEffect, useMemo } from 'react'
 import { useParams, Link } from 'react-router-dom'
-import { ArrowLeft, ZoomIn, ZoomOut, RotateCcw, MousePointer2, Hash, Loader2, CheckCircle2, RotateCcw as ResetIcon } from 'lucide-react'
+import { ArrowLeft, ZoomIn, ZoomOut, RotateCcw, MousePointer2, Hash, Loader2, CheckCircle2, RotateCcw as ResetIcon, HelpCircle, Sparkles } from 'lucide-react'
 import DetailPanel from '../../components/DetailPanel/DetailPanel'
 import { useAuth } from '../../contexts/AuthContext'
 import { useLocale } from '../../contexts/LocaleContext'
 import { apiUrl } from '../../utils/api'
 import styles from './RoadmapPage.module.css'
 
-const CLICKABLE_TYPES = new Set(['topic', 'subtopic', 'checklist', 'todo'])
+const CLICKABLE_TYPES = new Set(['topic', 'subtopic', 'checklist', 'todo', 'milestone'])
 const BG_TYPES = new Set(['section'])
 const CONNECTOR_TYPES = new Set(['vertical', 'horizontal'])
 
@@ -57,9 +57,9 @@ function getSmartEdgePoints(srcNode, tgtNode) {
   const dy = (ty + th / 2) - (sy + sh / 2)
 
   // Smart routing bias:
-  // If the target is a main 'topic' and is located below, force vertical down routing regardless of vast X shifts.
+  // If the target is a main 'topic' and is located below, force vertical down routing, but only if they are not far apart horizontally.
   let isVertical = Math.abs(dy) >= Math.abs(dx)
-  if (tgtNode.type === 'topic' && Math.abs(dy) > 20) {
+  if (tgtNode.type === 'topic' && Math.abs(dy) > 20 && Math.abs(dx) < Math.abs(dy) * 1.5) {
     isVertical = true
   }
 
@@ -109,6 +109,10 @@ export default function RoadmapPage() {
   const [resettingProgress, setResettingProgress] = useState(false)
   const [selectedNode, setSelectedNode] = useState(null)
   const [zoom, setZoom] = useState(1)
+  const [showGuide, setShowGuide] = useState(() => {
+    const saved = localStorage.getItem('devpath_show_guide')
+    return saved !== 'false'
+  })
   const [pan, setPan] = useState({ x: 0, y: 0 })
   const [isDragging, setIsDragging] = useState(false)
   const containerRef = useRef(null)
@@ -174,6 +178,26 @@ export default function RoadmapPage() {
     return { minY, maxY }
   }, [roadmap])
 
+  const startNode = useMemo(() => {
+    if (!roadmap?.nodes?.length) return null
+    const clickableNodes = roadmap.nodes.filter((n) => CLICKABLE_TYPES.has(n.type))
+    if (!clickableNodes.length) return null
+    return clickableNodes.reduce(
+      (min, n) => ((n.position?.y ?? 0) < (min.position?.y ?? 0) ? n : min),
+      clickableNodes[0]
+    )
+  }, [roadmap])
+
+  const uniqueEdgeColors = useMemo(() => {
+    if (!roadmap?.edges?.length) return ['#2b78e4']
+    const colors = new Set()
+    roadmap.edges.forEach((edge) => {
+      const strokeColor = edge.style?.stroke || '#2b78e4'
+      colors.add(strokeColor)
+    })
+    return Array.from(colors)
+  }, [roadmap])
+
   const isBoundaryConnector = useCallback((node) => {
     if (!CONNECTOR_TYPES.has(node.type)) return false
 
@@ -188,6 +212,49 @@ export default function RoadmapPage() {
       nodeTop >= contentYBounds.maxY - epsilon
     )
   }, [contentYBounds])
+
+  const isDanglingConnector = useCallback((node) => {
+    if (node.type !== 'vertical' && node.type !== 'horizontal') return false
+    if (!node.style?.strokeDasharray) return false
+
+    const x = node.position?.x ?? 0
+    const y = node.position?.y ?? 0
+    const w = node.size?.width ?? 0
+    const h = node.size?.height ?? 0
+
+    let ep1, ep2
+    if (node.type === 'vertical') {
+      const cx = x + w / 2
+      ep1 = { x: cx, y: y }
+      ep2 = { x: cx, y: y + h }
+    } else {
+      const cy = y + h / 2
+      ep1 = { x: x, y: cy }
+      ep2 = { x: x + w, y: cy }
+    }
+
+    const threshold = 20
+
+    const isPointConnected = (p) => {
+      if (!roadmap?.nodes) return false
+      return roadmap.nodes.some((other) => {
+        if (other.id === node.id) return false
+        if (other.type === 'vertical' || other.type === 'horizontal') return false
+
+        const ox = other.position?.x ?? 0
+        const oy = other.position?.y ?? 0
+        const ow = other.size?.width ?? 0
+        const oh = other.size?.height ?? 0
+
+        const closestX = Math.max(ox, Math.min(p.x, ox + ow))
+        const closestY = Math.max(oy, Math.min(p.y, oy + oh))
+        const dist = Math.sqrt((p.x - closestX) ** 2 + (p.y - closestY) ** 2)
+        return dist <= threshold
+      })
+    }
+
+    return !isPointConnected(ep1) || !isPointConnected(ep2)
+  }, [roadmap])
 
   // Fetch roadmap
   useEffect(() => {
@@ -399,6 +466,8 @@ export default function RoadmapPage() {
 
     const d = `M ${src.px} ${src.py} C ${cx1} ${cy1}, ${cx2} ${cy2}, ${tgt.px} ${tgt.py}`
     const isDashed = edge.edge_style === 'dashed'
+    const strokeColor = edge.style?.stroke || '#2b78e4'
+    const cleanId = strokeColor.replace('#', '')
 
     return (
       <path
@@ -406,9 +475,10 @@ export default function RoadmapPage() {
         d={d}
         className={`${styles.edge} ${isDashed ? styles.edgeDashed : ''}`}
         style={{
-          stroke: edge.style?.stroke || '#2b78e4',
+          stroke: strokeColor,
           strokeWidth: edge.style?.stroke_width || 2,
         }}
+        markerEnd={`url(#arrow-${cleanId})`}
       />
     )
   }
@@ -527,10 +597,11 @@ export default function RoadmapPage() {
     const fontSize = node.style?.fontSize || (node.type === 'title' ? 18 : 13)
     const maxChars = Math.floor(w / (fontSize * 0.55))
     const displayLabel = label.length > maxChars ? label.substring(0, maxChars - 1) + '…' : label
+    const isStart = startNode && node.id === startNode.id && completedNodeIds.size === 0
 
     return (
       <g key={node.id}
-        className={`${styles.nodeGroup} ${typeClass} ${isActive ? styles.active : ''} ${isCompleted ? styles.completed : ''} ${isClickable ? styles.clickable : ''}`}
+        className={`${styles.nodeGroup} ${typeClass} ${isActive ? styles.active : ''} ${isCompleted ? styles.completed : ''} ${isClickable ? styles.clickable : ''} ${isStart ? styles.startNode : ''}`}
         onClick={isClickable ? () => setSelectedNode(node) : undefined}
       >
         <rect x={x} y={y} width={w} height={h}
@@ -558,6 +629,30 @@ export default function RoadmapPage() {
             cy={y + 10}
             r={5}
           />
+        )}
+        {isStart && (
+          <g className={styles.startBadge}>
+            <rect
+              x={x + w / 2 - 50}
+              y={y - 25}
+              width={100}
+              height={18}
+              rx={4}
+              className={styles.startBadgeBg}
+            />
+            <path
+              d={`M ${x + w / 2 - 5} ${y - 7} L ${x + w / 2} ${y - 2} L ${x + w / 2 + 5} ${y - 7} Z`}
+              className={styles.startBadgeArrow}
+            />
+            <text
+              x={x + w / 2}
+              y={y - 16}
+              textAnchor="middle"
+              className={styles.startBadgeText}
+            >
+              {t('roadmap.startHere', 'Bắt đầu tại đây')}
+            </text>
+          </g>
         )}
       </g>
     )
@@ -587,7 +682,9 @@ export default function RoadmapPage() {
   }
 
   const sortedNodes = [...roadmap.nodes].sort((a, b) => (a.z_index || 0) - (b.z_index || 0))
-  const visibleNodes = sortedNodes.filter((node) => !isBoundaryConnector(node))
+  const visibleNodes = sortedNodes.filter(
+    (node) => !isBoundaryConnector(node) && !isDanglingConnector(node)
+  )
   const sectionNodes = visibleNodes.filter((node) => BG_TYPES.has(node.type))
   const connectorNodes = visibleNodes.filter((node) => CONNECTOR_TYPES.has(node.type))
   const contentNodes = visibleNodes.filter(
@@ -635,6 +732,18 @@ export default function RoadmapPage() {
               <button className={styles.toolbarBtn} onClick={resetView} title={t('roadmap.resetView')} id="reset-view-btn">
                 <RotateCcw size={16} />
               </button>
+              <button
+                className={`${styles.toolbarBtn} ${showGuide ? styles.activeToolbarBtn : ''}`}
+                onClick={() => setShowGuide((prev) => {
+                  const next = !prev
+                  localStorage.setItem('devpath_show_guide', String(next))
+                  return next
+                })}
+                title={t('roadmap.guideTitle', 'Hướng dẫn')}
+                id="toggle-guide-btn"
+              >
+                <HelpCircle size={16} />
+              </button>
             </div>
           </div>
 
@@ -681,18 +790,75 @@ export default function RoadmapPage() {
         onTouchEnd={handleMouseUp}
         id="graph-container"
       >
+        {/* Onboarding Guide Banner */}
+        {showGuide && (
+          <div className={styles.guideBanner} id="roadmap-guide-banner">
+            <div className={styles.guideHeader}>
+              <span className={styles.guideTitle}>
+                <Sparkles size={14} className={styles.guideIcon} />
+                {t('roadmap.guideTitle', 'Hướng dẫn học tập')}
+              </span>
+              <button
+                className={styles.guideClose}
+                onClick={() => {
+                  setShowGuide(false)
+                  localStorage.setItem('devpath_show_guide', 'false')
+                }}
+                title="Đóng hướng dẫn"
+              >
+                ✕
+              </button>
+            </div>
+            <p className={styles.guideText}>
+              {t('roadmap.guideText')}
+            </p>
+          </div>
+        )}
+
+        {/* Detailed Legend */}
         <div className={styles.legend}>
-          <div className={styles.legendItem}>
-            <div className={`${styles.legendDot} ${styles.legendDotTopic}`} /> {t('roadmap.legendTopic')}
+          <div className={styles.legendGuideTitle}>{t('roadmap.legendGuideTitle', 'Ý nghĩa ký hiệu')}</div>
+          
+          <div className={styles.legendGroup}>
+            <div className={styles.legendGroupTitle}>{t('roadmap.legendTopicType', 'Loại chủ đề')}</div>
+            <div className={styles.legendItem}>
+              <div className={`${styles.legendDot} ${styles.legendDotMilestone}`} />
+              <span>{t('roadmap.legendMilestone', 'Mốc quan trọng')}</span>
+            </div>
+            <div className={styles.legendItem}>
+              <div className={`${styles.legendDot} ${styles.legendDotTopic}`} />
+              <span>{t('roadmap.legendTopic', 'Chủ đề chính')}</span>
+            </div>
+            <div className={styles.legendItem}>
+              <div className={`${styles.legendDot} ${styles.legendDotSubtopic}`} />
+              <span>{t('roadmap.legendSubtopic', 'Chủ đề phụ')}</span>
+            </div>
+            <div className={styles.legendItem}>
+              <div className={`${styles.legendDot} ${styles.legendDotCheckpoint}`} />
+              <span>{t('roadmap.legendCheckpoint', 'Điểm kiểm tra')}</span>
+            </div>
+            <div className={styles.legendItem}>
+              <div className={`${styles.legendDot} ${styles.legendDotCompleted}`} />
+              <span>{t('roadmap.legendCompleted', 'Đã hoàn thành')}</span>
+            </div>
           </div>
-          <div className={styles.legendItem}>
-            <div className={`${styles.legendDot} ${styles.legendDotSubtopic}`} /> {t('roadmap.legendSubtopic')}
-          </div>
-          <div className={styles.legendItem}>
-            <div className={`${styles.legendDot} ${styles.legendDotCompleted}`} /> {t('roadmap.legendCompleted')}
-          </div>
-          <div className={styles.legendItem}>
-            <div className={`${styles.legendDot} ${styles.legendDotDashed}`} /> {t('roadmap.legendOptional')}
+
+          <div className={styles.legendGroup}>
+            <div className={styles.legendGroupTitle}>{t('roadmap.legendLines', 'Đường kết nối')}</div>
+            <div className={styles.legendItem}>
+              <svg className={styles.legendLineSvg} width="24" height="12">
+                <line x1="2" y1="6" x2="16" y2="6" stroke="#2b78e4" strokeWidth="2.5" />
+                <polygon points="14,3 20,6 14,9" fill="#2b78e4" />
+              </svg>
+              <span className={styles.legendLineText}>{t('roadmap.legendSolidLine', 'Lộ trình khuyến nghị')}</span>
+            </div>
+            <div className={styles.legendItem}>
+              <svg className={styles.legendLineSvg} width="24" height="12">
+                <line x1="2" y1="6" x2="16" y2="6" stroke="#8b949e" strokeWidth="2" strokeDasharray="3,3" />
+                <polygon points="14,3 20,6 14,9" fill="#8b949e" />
+              </svg>
+              <span className={styles.legendLineText}>{t('roadmap.legendDashedLine', 'Kiến thức tự chọn')}</span>
+            </div>
           </div>
         </div>
 
@@ -706,6 +872,25 @@ export default function RoadmapPage() {
             transformOrigin: '0 0',
           }}
         >
+          <defs>
+            {uniqueEdgeColors.map((color) => {
+              const cleanId = color.replace('#', '')
+              return (
+                <marker
+                  key={`arrow-${cleanId}`}
+                  id={`arrow-${cleanId}`}
+                  viewBox="0 0 10 10"
+                  refX="8"
+                  refY="5"
+                  markerWidth="5"
+                  markerHeight="5"
+                  orient="auto-start-reverse"
+                >
+                  <path d="M 0 1.5 L 8 5 L 0 8.5 Z" fill={color} />
+                </marker>
+              )
+            })}
+          </defs>
           {sectionNodes.map((node) => renderNode(node))}
           <g>
             {roadmap.edges.map((edge, i) => renderEdge(edge, i))}

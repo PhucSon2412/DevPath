@@ -1,0 +1,4146 @@
+{
+  "id": "aws",
+  "title": "Amazon Web Services",
+  "source_url": "https://roadmap.sh/aws",
+  "github_url": "https://github.com/kamranahmedse/developer-roadmap/tree/master/src/data/roadmaps/aws",
+  "crawled_at": "2026-04-06T07:36:09.703560+00:00",
+  "type": "flow",
+  "stats": {
+    "total_nodes": 125,
+    "total_edges": 52,
+    "nodes_with_content": 101
+  },
+  "node_types": [
+    "button",
+    "checklist",
+    "horizontal",
+    "label",
+    "linksgroup",
+    "paragraph",
+    "section",
+    "subtopic",
+    "title",
+    "topic",
+    "vertical"
+  ],
+  "edge_styles": [
+    "dashed",
+    "solid"
+  ],
+  "edge_line_types": [
+    "default",
+    "smoothstep"
+  ],
+  "node_type_description": {
+    "title": "Chủ đề chính của lộ trình",
+    "topic": "Chủ đề lớn (nhóm kỹ năng)",
+    "subtopic": "Kỹ năng/công nghệ cụ thể cần học",
+    "paragraph": "Phân đoạn văn bản mô tả / chú thích",
+    "vertical": "Kết nối dọc (visual connector)"
+  },
+  "edge_style_description": {
+    "solid": "Kỹ năng bắt buộc / quan trọng",
+    "dashed": "Tùy chọn / gợi ý / phương án thay thế"
+  },
+  "nodes": [
+    {
+      "id": "u5W9rjZ51CyCfHMTIVTcc",
+      "type": "vertical",
+      "label": "nút dọc",
+      "position": {
+        "x": 808.7221880336245,
+        "y": 2520.53848005074
+      },
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.75,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "iCGZZEjzuSoRSpGci8suT",
+      "type": "vertical",
+      "label": "nút dọc",
+      "position": {
+        "x": 372.9167081706737,
+        "y": 2650.53848005074
+      },
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.5
+      },
+      "z_index": 999
+    },
+    {
+      "id": "MemQxgqsWqGJDW8BxaP24",
+      "type": "vertical",
+      "label": "nút dọc",
+      "position": {
+        "x": -150.93031923911371,
+        "y": 2032.172339894668
+      },
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "hgRXzlYPFrllRUv0hIUK-",
+      "type": "vertical",
+      "label": "nút dọc",
+      "position": {
+        "x": -150.93031923911371,
+        "y": 1537.150459128501
+      },
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.5
+      },
+      "z_index": 999
+    },
+    {
+      "id": "4R86nymyWsF0bD5YTb7XB",
+      "type": "vertical",
+      "label": "nút dọc",
+      "position": {
+        "x": -150.93031923911371,
+        "y": 1445.150459128501
+      },
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "RdhSdx2ZwScg4yimdWUU4",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": 306.5186476554692,
+        "y": 1736.9571899134405
+      },
+      "size": {
+        "width": 150,
+        "height": 100
+      },
+      "style": {
+        "fontSize": 17,
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "fKiJjwS6CgzPXi082hG2u",
+      "type": "vertical",
+      "label": "nút dọc",
+      "position": {
+        "x": 803.7236494728579,
+        "y": 1520.4542262126417
+      },
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "PpuIbv7DvcoSOCHewWKZX",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": 518.6120690194773,
+        "y": 729.9677567191619
+      },
+      "size": {
+        "width": 185,
+        "height": 172
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "UUo6bRfaJCrawShMMcduC",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": 586.6608611851664,
+        "y": 265.90074822234897
+      },
+      "size": {
+        "width": 290,
+        "height": 224
+      },
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "c58fcsthBlVfzfr-MHdpF",
+      "type": "vertical",
+      "label": "nút dọc",
+      "position": {
+        "x": 333.5696807608863,
+        "y": -136.01175492596462
+      },
+      "size": {
+        "width": 21,
+        "height": 66
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "Ji35JsKgUQXN4DJGEgTAC",
+      "type": "title",
+      "label": "Amazon Web Services",
+      "position": {
+        "x": 295.0696807608863,
+        "y": -70.01175492596462
+      },
+      "size": {
+        "width": 98,
+        "height": 68
+      },
+      "style": {
+        "fontSize": 28,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "Py9nst2FDJ1_hoXeX_qSF",
+      "type": "topic",
+      "label": "Giới thiệu",
+      "position": {
+        "x": 245.06968076088629,
+        "y": 174.90074822234897
+      },
+      "size": {
+        "width": 136,
+        "height": 48
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "AWS (Amazon Web Services) cung cấp một bộ sản phẩm đa dạng dựa trên đám mây toàn cầu, bao gồm tính toán, lưu trữ, cơ sở dữ liệu, phân tích, mạng, di động, công cụ phát triển, công cụ quản lý, IoT, bảo mật và ứng dụng doanh nghiệp: theo yêu cầu, có sẵn trong vài giây, với mô hình trả tiền khi dùng. Từ khoá lưu trữ dữ liệu đến các công cụ triển khai, danh mục thư viện đến dịch vụ phân phối nội dung, hơn 200 dịch vụ AWS có sẵn. Các dịch vụ mới có thể được cung cấp nhanh chóng mà không cần chi phí cố định ban đầu. Điều này cho phép các doanh nghiệp, công ty khởi nghiệp, doanh nghiệp nhỏ và vừa, cũng như khách hàng trong khu vực công cộng truy cập vào các khối xây dựng cần thiết để phản ứng nhanh chóng với những thay đổi về yêu cầu kinh doanh. Bài whitepaper này cung cấp cho bạn cái nhìn tổng quan về lợi ích của Đám mây AWS và giới thiệu đến bạn các dịch vụ cấu thành nền tảng. Tìm hiểu thêm từ các liên kết sau: - [@official@Tài liệu AWS](https://docs.aws.amazon.com/) - [@official@Giới thiệu về AWS](https://docs.aws.amazon.com/whitepapers/latest/aws-overview/introduction.html) - [@article@Hướng dẫn tạo tài khoản AWS](https://grapplingdev.com/tutorials/how-to-create-aws-account) - [@video@Hướng dẫn AWS cho người mới bắt đầu](https://www.youtube.com/watch?v=zA8guDqfv40)",
+        "links": []
+      }
+    },
+    {
+      "id": "74JxgfJ_1qmVNZ_QRp9Ne",
+      "type": "subtopic",
+      "label": "Cloud Computing?",
+      "position": {
+        "x": 586.6608611851664,
+        "y": 104.75601320780885
+      },
+      "size": {
+        "width": 246,
+        "height": 48
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Tính toán đám mây đề cập đến việc cung cấp dịch vụ tính toán qua internet thay vì sử dụng máy chủ cục bộ. Nó mang lại các dịch vụ tính toán đám mây đáng tin cậy, có khả năng mở rộng và chi phí thấp, bao gồm lưu trữ dữ liệu, cơ sở dữ liệu, ứng dụng, phân tích, học máy và thậm chí là thiết lập máy chủ ảo. Các công ty lớn cung cấp dịch vụ tính toán đám mây bao gồm Amazon Web Services (AWS), Microsoft Azure, Google Cloud và các công ty khác. Điểm bán hàng chính là bạn chỉ trả tiền cho những dịch vụ đang sử dụng, giúp bạn quản lý chi phí hiệu quả hơn.",
+        "links": [
+          {
+            "title": "Cloud Computing - IBM",
+            "url": "https://www.ibm.com/topics/cloud-computing",
+            "type": "article"
+          },
+          {
+            "title": "Tính toán đám mây - AWS",
+            "url": "https://aws.amazon.com/what-is-cloud-computing/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "i4ijY3T5gLgNz0XqRipXe",
+      "type": "subtopic",
+      "label": "Máy chủ như một dịch vụ (IaaS) so với nền tảng như một dịch vụ (PaaS) so với phần mềm theo yêu cầu (SaaS).",
+      "position": {
+        "x": 586.6608611851664,
+        "y": 157.75601320780885
+      },
+      "size": {
+        "width": 210,
+        "height": 48
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "IaaS, PaaS và SaaS là ba mô hình dịch vụ đám mây. **IaaS** hay Infrastructure as a Service cung cấp cho người dùng một dịch vụ dựa trên tài nguyên thông qua công nghệ ảo hóa, mang đến cơ sở hạ tầng tính toán, máy ảo vật lý hoặc (thường hơn) ảo và các nguồn lực khác. **PaaS** hay Platform as a Service cung cấp môi trường runtime để phát triển, kiểm thử và quản lý ứng dụng, nó được sử dụng cho phát triển phần mềm và cung cấp một nền tảng cho nhà phát triển xây dựng ứng dụng và dịch vụ trên internet. **SaaS** hay Software as a Service cung cấp phần mềm theo yêu cầu truy cập qua internet, nó mang lại một giải pháp phần mềm hoàn chỉnh mà bạn mua theo hình thức trả tiền khi sử dụng từ nhà cung cấp dịch vụ đám mây. Tìm hiểu thêm từ các nguồn tài liệu sau: - [@video@IaaS vs PaaS vs SaaS cloud service models](https://youtu.be/9CVBohl6w0Q?si=cEDnXpd1sGkpf0K2) - [@article@Types of Cloud Computing](https://aws.amazon.com/types-of-cloud-computing/?nc1=h_ls)",
+        "links": []
+      }
+    },
+    {
+      "id": "3hatcMVLDbMuz73uTx-9P",
+      "type": "subtopic",
+      "label": "Điện toán đám mây công cộng so với điện toán đám mây riêng và điện toán đám mây lai",
+      "position": {
+        "x": 586.6608611851664,
+        "y": 210.75601320780885
+      },
+      "size": {
+        "width": 294,
+        "height": 48
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Amazon Web Services (AWS) cung cấp nhiều mô hình triển khai dựa trên đám mây để đáp ứng các nhu cầu kinh doanh khác nhau, bao gồm Đám mây Công cộng, Đám mây Tư nhân và Đám mây Hỗn hợp. Một **Đám mây Công cộng** là một mô hình trong đó nhà cung cấp dịch vụ cung cấp tài nguyên như ứng dụng và lưu trữ có sẵn cho công chúng thông qua internet. Các tài nguyên có thể miễn phí hoặc bán theo mô hình trả tiền khi sử dụng. Ngược lại, một **Đám mây Tư nhân** là một loại tính toán đám mây mang lại những lợi ích tương tự như đám mây công cộng, bao gồm khả năng mở rộng và tự phục vụ, nhưng thông qua kiến trúc độc quyền dành cho một tổ chức duy nhất. Không giống như các đám mây công cộng, cung cấp dịch vụ cho nhiều tổ chức, một đám mây tư nhân được thiết kế riêng để đáp ứng nhu cầu và mục tiêu của một thực thể duy nhất. Cuối cùng, một **Đám mây Hỗn hợp** là một giải pháp kết hợp một đám mây tư nhân với một hoặc nhiều dịch vụ đám mây công cộng, với phần mềm độc quyền cho phép giao tiếp giữa mỗi dịch vụ riêng biệt.",
+        "links": [
+          {
+            "title": "Các loại tính toán đám mây",
+            "url": "https://www.redhat.com/en/topics/cloud-computing/public-cloud-vs-private-cloud-and-hybrid-cloud",
+            "type": "article"
+          },
+          {
+            "title": "Chọn đúng đám mây cho công việc",
+            "url": "https://docs.aws.amazon.com/whitepapers/latest/public-sector-cloud-transformation/selecting-the-right-cloud-for-workloads-differences-between-public-private-and-hybrid.html",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "z9R1BWUGalmnw0E7QqiW6",
+      "type": "subtopic",
+      "label": "AWS Global Infrastructure",
+      "position": {
+        "x": 601.6608611851664,
+        "y": 326.90074822234897
+      },
+      "size": {
+        "width": 274,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "AWS Global Infrastructure đề cập đến bố cục của các khu vực và vùng khả dụng của AWS trên toàn thế giới. Một khu vực là một khu vực địa lý, mỗi khu vực bao gồm hai hoặc nhiều vùng khả dụng (AZ) được thiết kế để cô lập khỏi sự cố trong các AZ khác. Các AZ cung cấp kết nối mạng giá rẻ, có độ trễ thấp đến các AZ khác trong cùng một khu vực. Ngoài các khu vực và AZ, AWS cũng bao gồm các vị trí biên cho dịch vụ phân phối nội dung và bộ nhớ đệm biên khu vực, cải thiện trải nghiệm người dùng bằng cách giảm độ trễ. AWS hiện đang hoạt động tại nhiều khu vực địa lý trên toàn thế giới.",
+        "links": [
+          {
+            "title": "AWS Global Infrastructure",
+            "url": "https://aws.amazon.com/about-aws/global-infrastructure/?p=ngi&loc=0",
+            "type": "official"
+          },
+          {
+            "title": "AWS Regions / Availability Zones",
+            "url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-regions-availability-zones.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "0flGtxZmxQKxO3c3sguwp",
+      "type": "subtopic",
+      "label": "Mô hình trách nhiệm chung",
+      "position": {
+        "x": 601.6608611851664,
+        "y": 379.90074822234897
+      },
+      "size": {
+        "width": 274,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Trong Amazon Web Services (AWS), khái niệm 'Trách Nhiệm Chia Sẻ' đề cập đến việc phân bổ trách nhiệm bảo mật và tuân thủ giữa AWS và người dùng/khách hàng. Theo mô hình này, AWS chịu trách nhiệm về bảo mật \"của\" đám mây — bao gồm cơ sở hạ tầng, phần cứng, phần mềm, mạng và các cơ sở vận hành AWS Cloud Services. Mặt khác, người dùng chịu trách nhiệm về bảo mật \"trong\" đám mây — điều này bao gồm quản lý và cấu hình các dịch vụ do khách hàng kiểm soát, bảo vệ thông tin đăng nhập tài khoản và bảo mật dữ liệu của khách hàng. Mô hình chia sẻ này nhằm giảm gánh nặng vận hành cho người dùng và cung cấp các biện pháp kiểm soát bảo mật linh hoạt.",
+        "links": [
+          {
+            "title": "Mô hình trách nhiệm chung",
+            "url": "https://aws.amazon.com/compliance/shared-responsibility-model/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "eKuC7VmkGVYFnbC2Rvn8D",
+      "type": "subtopic",
+      "label": "Khung Kiến Trúc Tốt Được Thiết Kế",
+      "position": {
+        "x": 601.6608611851664,
+        "y": 432.90074822234897
+      },
+      "size": {
+        "width": 274,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "AWS Well-Architected Framework là một tập hợp các hướng dẫn chiến lược do Amazon Web Services cung cấp. Nó được thiết kế để cung cấp các hệ thống có hiệu suất cao và đáng tin cậy đồng thời duy trì hiệu quả chi phí. Khung này chia các phương pháp hay nhất về kiến trúc cho phép sáu trụ cột, bao gồm xuất sắc về hoạt động, bảo mật, độ tin cậy, hiệu quả hiệu suất, tối ưu hóa chi phí và tính bền vững. Với khung này, bạn có thể đánh giá và cải thiện kiến trúc đám mây dựa trên các ứng dụng của mình bằng cách sử dụng các công nghệ AWS.",
+        "links": [
+          {
+            "title": "AWS Well-Architected",
+            "url": "https://aws.amazon.com/architecture/well-architected",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Dg1v9TV-wGSNLPfAals_y",
+      "type": "subtopic",
+      "label": "Giới thiệu về AWS",
+      "position": {
+        "x": 586.6608611851664,
+        "y": 265.90074822234897
+      },
+      "size": {
+        "width": 274,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center",
+        "colorType": "b"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "AWS (Amazon Web Services) cung cấp một bộ sản phẩm đa dạng dựa trên đám mây toàn cầu, bao gồm tính toán, lưu trữ, cơ sở dữ liệu, phân tích, mạng, di động, công cụ phát triển, công cụ quản lý, IoT, bảo mật và ứng dụng doanh nghiệp: theo yêu cầu, có sẵn trong vài giây, với mô hình trả tiền khi dùng. Từ khoá dữ liệu để các công cụ triển khai, danh mục đến dịch vụ truyền tải nội dung, hơn 200 dịch vụ AWS có sẵn. Các dịch vụ mới có thể được cung cấp nhanh chóng mà không cần chi phí cố định ban đầu. Điều này cho phép các doanh nghiệp, công ty khởi nghiệp, doanh nghiệp nhỏ và vừa, cũng như khách hàng trong khu vực công cộng truy cập vào các khối xây dựng cần thiết để phản ứng nhanh chóng với những thay đổi về yêu cầu kinh doanh. Tờ trắng này cung cấp cho bạn một cái nhìn tổng quan về lợi ích của Đám mây AWS và giới thiệu đến bạn các dịch vụ cấu thành nền tảng. Tìm hiểu thêm từ các liên kết sau: - [@official@Tài liệu AWS](https://docs.aws.amazon.com/) - [@official@Giới thiệu về AWS](https://docs.aws.amazon.com/whitepapers/latest/aws-overview/introduction.html) - [@video@Hướng dẫn AWS cho người mới bắt đầu](https://www.youtube.com/watch?v=zA8guDqfv40) - [@feed@Khám phá các bài đăng hàng đầu về AWS](https://app.daily.dev/tags/aws?ref=roadmapsh)",
+        "links": []
+      }
+    },
+    {
+      "id": "kcBGBLPuZkuI-Omv8mOe7",
+      "type": "paragraph",
+      "label": "Bắt đầu với các dịch vụ cơ bản",
+      "position": {
+        "x": 198.06968076088629,
+        "y": 336.90074822234897
+      },
+      "size": {
+        "width": 291,
+        "height": 66
+      },
+      "style": {
+        "fontSize": 20,
+        "borderColor": "transparent",
+        "backgroundColor": "transparent",
+        "color": "#000000",
+        "textAlign": "left",
+        "justifyContent": "flex-start",
+        "padding": 16
+      },
+      "z_index": 999
+    },
+    {
+      "id": "cL7vis8H5L2vv6LqJ5wvC",
+      "type": "topic",
+      "label": "EC2",
+      "position": {
+        "x": 238.06968076088629,
+        "y": 560.900748222349
+      },
+      "size": {
+        "width": 77,
+        "height": 48
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Amazon Elastic Compute Cloud (EC2) là một dịch vụ web cung cấp dung lượng tính toán có thể mở rộng bảo mật trong đám mây. Nó được thiết kế để làm cho máy chủ đám mây quy mô lớn dễ dàng hơn cho nhà phát triển. Giao diện dịch vụ web đơn giản của EC2 cho phép bạn nhận và cấu hình dung lượng với ít ma sát nhất. EC2 cho phép bạn mở rộng dung lượng tính toán, phát triển và triển khai ứng dụng nhanh hơn và chạy các ứng dụng trên môi trường tính toán đáng tin cậy của AWS. Bạn có quyền kiểm soát tài nguyên tính toán của mình và có thể truy cập nhiều cấu hình về CPU, Bộ nhớ, Lưu trữ và Khả năng mạng cho các phiên bản của bạn.",
+        "links": [
+          {
+            "title": "EC2 - User Guide",
+            "url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html",
+            "type": "official"
+          },
+          {
+            "title": "Giới thiệu về Amazon EC2",
+            "url": "https://www.youtube.com/watch?v=eaicwmnSdCs",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "VHD2ISW9WoSWjp8Hh6Zft",
+      "type": "subtopic",
+      "label": "Loại Mẫu (Instance Types)",
+      "position": {
+        "x": 238.06968076088629,
+        "y": 674.900748222349
+      },
+      "size": {
+        "width": 198,
+        "height": 48
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Các phiên bản AWS EC2 có nhiều loại được tối ưu hóa để phù hợp với các trường hợp sử dụng khác nhau. Chúng được nhóm thành các danh mục dựa trên khả năng hiệu suất và cấu trúc giá của chúng. Có năm danh mục loại phiên bản, bao gồm Mục đích chung, Tính toán được tối ưu hóa, Bộ nhớ được tối ưu hóa, Lưu trữ được tối ưu hóa và Các phiên bản tính toán tăng tốc. Mỗi danh mục phù hợp nhất với các khối lượng công việc cụ thể và chúng bao gồm các loại phiên bản khác nhau mỗi loại được đặt tên riêng, ví dụ: ‘t2.micro’. Mỗi loại phiên bản có một số lượng CPU, bộ nhớ, lưu trữ và băng thông mạng cụ thể. Hiểu biết về khối lượng công việc của ứng dụng của bạn có thể giúp bạn xác định loại phiên bản nào phù hợp nhất với nhu cầu của bạn.",
+        "links": [
+          {
+            "title": "AWS EC2 Instance Types",
+            "url": "https://aws.amazon.com/ec2/instance-types",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "_U2bKjxIrAAk7TMrPttpb",
+      "type": "subtopic",
+      "label": "Tiền CPU",
+      "position": {
+        "x": 238.06968076088629,
+        "y": 727.900748222349
+      },
+      "size": {
+        "width": 198,
+        "height": 48
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Các phiên bản AWS EC2 kiếm được Tiêu đề CPU khi chúng không hoạt động và tiêu thụ Tiêu đề CPU khi chúng hoạt động. Một Tiêu đề CPU cung cấp hiệu suất của một lõi CPU đầy đủ trong một phút. Các phiên bản T2 và T3 tích lũy Tiêu đề CPU và sử dụng chúng để vượt quá hiệu suất cơ bản của chúng. Ví dụ, một phiên bản t2.micro nhận các tiêu đề liên tục với tốc độ 6 Tiêu đề CPU mỗi giờ. Số dư Tiêu đề CPU của một phiên bản có thể được lưu trong tối đa 7 ngày. Khi phiên bản không có Tiêu đề CPU nào, nó hoạt động ở hiệu suất cơ bản. Lưu ý rằng giá cả Tiêu đề CPU khác và bổ sung cho giá cả phiên bản. AWS cũng cung cấp chế độ Không giới hạn cho các phiên bản cần vượt quá hiệu suất cơ bản trong thời gian dài.",
+        "links": [
+          {
+            "title": "Các phiên bản hiệu suất có thể tăng đột biến và Tiền CPU",
+            "url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/burstable-credits-baseline-concepts.html",
+            "type": "official"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Tính toán",
+            "url": "https://app.daily.dev/tags/computing?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "A0u7CJwj5ULAMiAm12vZI",
+      "type": "subtopic",
+      "label": "Lưu trữ / Thể tích",
+      "position": {
+        "x": 238.06968076088629,
+        "y": 780.900748222349
+      },
+      "size": {
+        "width": 198,
+        "height": 48
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Trong AWS, một `Amazon EBS` (Elastic Block Store) là khối lưu trữ được sử dụng bởi các instance EC2 (Elastic Compute Cloud). Nó được thiết kế để có độ bền dữ liệu và các khối EBS tự động sao chép trong Zone sẵn sàng của họ để ngăn chặn mất dữ liệu do bất kỳ thành phần riêng lẻ nào bị lỗi. Các khối EBS được gắn vào một instance EC2 và xuất hiện như một ổ đĩa mạng mà bạn có thể gắn và định dạng bằng hệ thống tệp ưa thích của bạn. Bạn có thể sử dụng Amazon EBS làm lưu trữ chính cho dữ liệu yêu cầu cập nhật thường xuyên, chẳng hạn như một hệ thống drive cho một instance hoặc lưu trữ cho một ứng dụng cơ sở dữ liệu.",
+        "links": [
+          {
+            "title": "Elastic Block Store",
+            "url": "https://docs.aws.amazon.com/ebs/latest/userguide/what-is-ebs.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "wFT-fddGn__DRoqG0joFk",
+      "type": "subtopic",
+      "label": "Các cặp khóa",
+      "position": {
+        "x": 238.06968076088629,
+        "y": 833.900748222349
+      },
+      "size": {
+        "width": 198,
+        "height": 48
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Các cặp khóa là một phần của Amazon EC2 và được sử dụng để đăng nhập an toàn vào các phiên bản của bạn. Một cặp khóa bao gồm một khóa công khai và một khóa riêng tư. Amazon EC2 tạo ra cặp khóa và cung cấp cho bạn khóa riêng tư, trong khi khóa công khai được lưu trữ với AWS. Khi khởi chạy một phiên bản EC2, bạn chỉ định tên của cặp khóa. Sau đó, bạn có thể sử dụng khóa riêng tư để kết nối an toàn đến phiên bản của mình. Các cặp khóa cụ thể theo vùng, nghĩa là bạn cần tạo các cặp khóa riêng biệt cho mỗi vùng mà bạn vận hành các phiên bản của mình.",
+        "links": [
+          {
+            "title": "EC2 - Keypairs",
+            "url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-key-pairs.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "DCvkZSp25pjaimG0THLTu",
+      "type": "subtopic",
+      "label": "Elastic IP",
+      "position": {
+        "x": 238.06968076088629,
+        "y": 886.900748222349
+      },
+      "size": {
+        "width": 198,
+        "height": 48
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "\"Địa chỉ IP linh hoạt\" trong AWS EC2 là một địa chỉ IPv4 tĩnh được thiết kế cho tính toán đám mây động. Một địa chỉ IP linh hoạt liên kết với tài khoản AWS của bạn chứ không phải một phiên bản cụ thể và bạn kiểm soát địa chỉ đó cho đến khi bạn chọn giải phóng nó một cách rõ ràng. Tuy nhiên, khác với các địa chỉ IP tĩnh truyền thống, các địa chỉ IP linh hoạt cho phép bạn che giấu sự thất bại của một phiên bản hoặc phần mềm bằng cách nhanh chóng gán lại địa chỉ đó cho một phiên bản khác trong tài khoản của bạn.",
+        "links": [
+          {
+            "title": "Địa chỉ Elastic IP",
+            "url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/elastic-ip-addresses-eip.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ZKjjgXZ89zV2atWcSal-s",
+      "type": "subtopic",
+      "label": "Kịch bản dữ liệu người dùng",
+      "position": {
+        "x": 238.06968076088629,
+        "y": 939.900748222349
+      },
+      "size": {
+        "width": 198,
+        "height": 48
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "\"Kịch bản người dùng\" trong EC2 instances được sử dụng để thực hiện các tác vụ cấu hình tự động phổ biến và thậm chí chạy các kịch bản sau khi phiên bản khởi động. Các kịch bản này chạy với tư cách là người dùng root và có thể được sử dụng để cài đặt phần mềm hoặc tải xuống tệp từ một S3 bucket. Bạn có thể truyền tối đa 16 KB dữ liệu cho một phiên bản, có thể ở dạng văn bản thuần túy hoặc mã hóa base64. Kịch bản Người dùng được thực thi chỉ một lần khi phiên bản được khởi tạo. Nếu bạn dừng và khởi động lại phiên bản, kịch bản sẽ không chạy lại. Tuy nhiên, nó sẽ chạy mỗi lần khởi động nếu phiên bản khởi động lại.",
+        "links": [
+          {
+            "title": "Kịch bản dữ liệu người dùng trên EC2",
+            "url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/user-data.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "8v9T6Y6JC7qaqIgkbT-nr",
+      "type": "subtopic",
+      "label": "Các tùy chọn mua hàng",
+      "position": {
+        "x": 238.06968076088629,
+        "y": 992.900748222349
+      },
+      "size": {
+        "width": 198,
+        "height": 48
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Amazon EC2 cung cấp nhiều tùy chọn mua hàng để phù hợp với nhu cầu khối lượng công việc khác nhau. Tùy chọn **On-Demand** cho phép khách hàng thanh toán cho sức mạnh tính toán theo giờ mà không có bất kỳ cam kết nào về lâu dài. **Reserved Instances** cung cấp mức giảm đáng kể so với giá On-Demand và lý tưởng cho các ứng dụng yêu cầu sử dụng trạng thái ổn định. **Spot Instances** cho phép khách hàng đấu thầu cho dung lượng Amazon EC2 chưa được sử dụng và có thể mang lại những khoản tiết kiệm đáng kể nếu tính linh hoạt trong việc bắt đầu và dừng thời gian là khả thi. **Dedicated Hosts** là máy chủ EC2 vật lý được dành riêng cho các khách hàng cụ thể, phù hợp với các yêu cầu quy định và giấy phép không hỗ trợ ảo hóa đa người dùng và **Savings Plans** cung cấp tỷ lệ giá thấp hơn khi cam kết sử dụng một lượng nhất định trong 1 hoặc 3 năm.",
+        "links": [
+          {
+            "title": "Các tùy chọn mua hàng",
+            "url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instance-purchasing-options.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Sv2aT8eI1RvJhvoKVYQEX",
+      "type": "topic",
+      "label": "VPC",
+      "position": {
+        "x": 535.8556423935701,
+        "y": 560.900748222349
+      },
+      "size": {
+        "width": 77,
+        "height": 48
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Amazon VPC (Virtual Private Cloud) là một dịch vụ cho phép bạn triển khai các tài nguyên AWS trong một mạng ảo được cô lập về mặt logic mà bạn định nghĩa. Nó cung cấp các tính năng bảo mật nâng cao như nhóm bảo mật và danh sách kiểm soát truy cập mạng để cho phép lọc đầu vào và đầu ra ở mức máy chủ và phân đoạn. Ngoài ra, bạn có thể tạo kết nối Mạng riêng ảo dựa trên phần cứng (VPN) giữa trung tâm dữ liệu của công ty và VPC để tận dụng lợi thế của đám mây AWS như một sự mở rộng của trung tâm dữ liệu của công ty.",
+        "links": [
+          {
+            "title": "VPC",
+            "url": "https://aws.amazon.com/vpc/",
+            "type": "official"
+          },
+          {
+            "title": "AWS VPC Từ người mới bắt đầu đến nâng cao",
+            "url": "https://www.youtube.com/watch?v=g2JOHLHh4rI",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2hFBv2fhKDYBN-9ITs82J",
+      "type": "subtopic",
+      "label": "Phạm vi mạng CIDR",
+      "position": {
+        "x": 518.9622969112341,
+        "y": 676.6175288274052
+      },
+      "size": {
+        "width": 141,
+        "height": 48
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "\"CIDR\" là viết tắt của Classless Inter-Domain Routing. Trong AWS VPC, một khối CIDR là một dải địa chỉ IP từ đó các địa chỉ IPv4 riêng tư và công khai IPv4 được phân bổ khi bạn tạo một VPC. Khối CIDR có thể dao động từ /28 (16 địa chỉ) đến /16 (65.536 địa chỉ). Nó đại diện cho một phân đoạn mạng và liên kết với ranh giới mạng. Khi tạo, bạn không thể thay đổi khối CIDR của VPC, nhưng bạn có thể thêm các khối CIDR bổ sung vào nó nếu cần thiết. Khối CIDR của VPC không được trùng lặp với bất kỳ khối CIDR mạng nào hiện có.",
+        "links": [
+          {
+            "title": "cidr.xyz: Trình trực quan hóa phạm vi CIDR tương tác",
+            "url": "https://cidr.xyz/",
+            "type": "official"
+          },
+          {
+            "title": "VPC - Chặn CIRD",
+            "url": "https://docs.aws.amazon.com/vpc/latest/userguide/vpc-cidr-blocks.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Y64TE0U20kllmykjdfhHp",
+      "type": "subtopic",
+      "label": "Phân đoạn mạng (subnet)",
+      "position": {
+        "x": 518.6120690194773,
+        "y": 729.9677567191619
+      },
+      "size": {
+        "width": 169,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center",
+        "colorType": "h"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Mạng con hoặc mạng lưới nhỏ trong Amazon VPC (Cloud riêng ảo) là các phân chia của dải địa chỉ IP của VPC. Bạn có thể triển khai các phiên bản Amazon Elastic Compute Cloud (Amazon EC2) vào một mạng con đã chọn. Khi bạn tạo một mạng con, bạn chỉ định khối CIDR cho mạng con, đây là một tập hợp con của khối CIDR của VPC. Mỗi mạng con phải được liên kết với bảng định tuyến, điều khiển lưu lượng truy cập giữa các mạng con. Có hai loại mạng con: công cộng và riêng tư. Một mạng con công cộng là một mạng con trong đó bảng định tuyến liên kết hướng đến Gateway Internet (IGW) của VPC. Một mạng con riêng tư không có đường dẫn đến IGW và do đó không có đường dẫn trực tiếp đến internet.",
+        "links": [
+          {
+            "title": "Phân đoạn mạng (subnet)",
+            "url": "https://docs.aws.amazon.com/vpc/latest/userguide/configure-subnets.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FCdOnwQubhOnCFFnF8uJN",
+      "type": "subtopic",
+      "label": "Bảng định tuyến",
+      "position": {
+        "x": 518.9622969112341,
+        "y": 907.6175288274052
+      },
+      "size": {
+        "width": 145,
+        "height": 48
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Một _Route Table_ trong AWS VPC là một tập hợp các quy tắc, gọi là routes, được sử dụng để xác định lưu lượng mạng được chuyển hướng đến nơi nào. Mỗi subnet trong VPC của bạn phải được liên kết với một Route Table, điều khiển lưu lượng truy cập cho subnet đó. Mặc định, VPC của bạn có một Route Table chính mà bạn có thể tùy chỉnh. Bạn cũng có thể tạo thêm các Route Table tùy chỉnh cho VPC của mình. Một subnet chỉ có thể liên kết với một Route Table tại một thời điểm, nhưng bạn có thể thay đổi sự liên kết đó.",
+        "links": [
+          {
+            "title": "Bảng định tuyến",
+            "url": "https://docs.aws.amazon.com/quicksight/latest/user/vpc-route-table.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Cd9gdbkCFdrTLrnJMy5F3",
+      "type": "subtopic",
+      "label": "Nhóm Bảo mật",
+      "position": {
+        "x": 518.9622969112341,
+        "y": 960.6175288274052
+      },
+      "size": {
+        "width": 165,
+        "height": 48
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Nhóm Bảo mật trong AWS đóng vai trò như một tường lửa ảo cho phiên bản của bạn để kiểm soát lưu lượng truy cập đến và đi. Khi bạn khởi chạy một phiên bản trong VPC, bạn có thể gán tối đa năm Nhóm Bảo mật cho phiên bản đó. Nhóm Bảo mật là stateful — nếu bạn gửi một yêu cầu từ phiên bản của mình, lưu lượng phản hồi cho yêu cầu đó được phép chảy vào bất kể các quy tắc bảo mật đến nào. Bạn có thể chỉ định các quy tắc cho phép, nhưng không phải các quy tắc từ chối. Bạn có thể chỉ định các quy tắc riêng biệt cho lưu lượng truy cập đến và đi. Do đó, nếu bạn cần cho phép giao tiếp cụ thể giữa các phiên bản của mình, bạn sẽ cần cấu hình cả các quy tắc xuất phát cho Nhóm Bảo mật gửi và các quy tắc nhập vào cho Nhóm Bảo mật nhận.",
+        "links": [
+          {
+            "title": "Nhóm Bảo mật",
+            "url": "https://docs.aws.amazon.com/vpc/latest/userguide/vpc-security-groups.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Le8yOJzpzxH1xgd7XEU2B",
+      "type": "subtopic",
+      "label": "Cổng Internet (Internet Gateway)",
+      "position": {
+        "x": 518.9622969112341,
+        "y": 1013.6175288274053
+      },
+      "size": {
+        "width": 176,
+        "height": 48
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Một **Cổng truy cập Internet** là một thành phần dự phòng, có khả năng mở rộng theo chiều ngang trong AWS thực hiện định tuyến hai chiều giữa VPC và Internet. Nó phục vụ hai mục đích: định tuyến lưu lượng ra khỏi VPC đến internet (NAT) và định tuyến lưu lượng vào từ Internet đến VPC. Nó được tự động có sẵn cao và cung cấp băng thông và dự phòng trên tất cả các Khu vực AWS. Nó được liên kết với một VPC khi tạo, và không thể tách rời hoặc gắn thêm vào một VPC khác sau khi đã tạo. Bảo mật đến và đi từ Cổng truy cập Internet có thể được kiểm soát bằng bảng điều khiển định tuyến và nhóm bảo mật hoặc bộ điều chỉnh truy cập mạng.",
+        "links": [
+          {
+            "title": "Cổng Internet (Internet Gateway)",
+            "url": "https://www.cisco.com/c/en/us/products/routers/what-is-a-network-gateway.html",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6D-gs32jrCyvMVhr9PSAY",
+      "type": "subtopic",
+      "label": "Cổng NAT",
+      "position": {
+        "x": 518.9622969112341,
+        "y": 1066.6175288274053
+      },
+      "size": {
+        "width": 146,
+        "height": 48
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "AWS NAT Gateway là một dịch vụ được quản lý cung cấp Network Address Translation (NAT) nguồn cho các phiên bản trong một subnet riêng để chúng có thể truy cập internet một cách an toàn. Nó được thiết kế để hoạt động tự động, xử lý khả năng mở rộng băng thông, chuyển đổi dự phòng và quản lý địa chỉ IP của nhà cung cấp. Với NAT Gateway, các phiên bản trong một VPC có thể truy cập internet cho các bản cập nhật phần mềm, vá lỗi, v.v., nhưng lưu lượng truy cập đến từ internet bị ngăn chặn, giúp duy trì bảo mật và quyền riêng tư của subnet riêng. NAT Gateway là dự phòng trong Availability Zone, cung cấp khả năng sẵn sàng cao. Nó hỗ trợ các giao thức TCP, UDP, ICMP cũng như Port Address Translation (PAT).",
+        "links": [
+          {
+            "title": "Cổng NAT",
+            "url": "https://docs.aws.amazon.com/vpc/latest/userguide/vpc-nat-gateway.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ymuURDwW8JG3NSIXcl0FL",
+      "type": "subtopic",
+      "label": "Phân đoạn mạng riêng tư",
+      "position": {
+        "x": 526.6120690194773,
+        "y": 787.3890876226947
+      },
+      "size": {
+        "width": 169,
+        "height": 50
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Trong AWS, các subnet riêng tư là các phân đoạn mạng cô lập bên trong VPC của bạn mà không có quyền truy cập trực tiếp vào Internet. Bạn có thể sử dụng các subnet riêng tư để chạy các dịch vụ và ứng dụng không nên truy cập trực tiếp từ thế giới bên ngoài, nhưng vẫn cần giao tiếp với các tài nguyên khác trong VPC. Bất kỳ instance nào được triển khai trong một subnet riêng tư đều không thể gửi lưu lượng truy cập trực tiếp đến Internet mà phải thông qua thiết bị NAT.",
+        "links": [
+          {
+            "title": "Phân đoạn mạng (subnet)",
+            "url": "https://docs.aws.amazon.com/vpc/latest/userguide/configure-subnets.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ABCH1rATHmecyWHyK3n-m",
+      "type": "subtopic",
+      "label": "Phân đoạn mạng công cộng",
+      "position": {
+        "x": 526.6120690194773,
+        "y": 841.3890876226947
+      },
+      "size": {
+        "width": 169,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Trong AWS, một subnet được chỉ định là `public` là một subnet có quyền truy cập trực tiếp vào Internet. Mỗi subnet mà bạn tạo chạy trên một phần riêng của mạng AWS và bạn có thể coi chúng là các phần miền logic bị cô lập. Khi một subnet được chỉ định là public, nó có nghĩa là một Gateway Internet được gắn vào nó và do đó các instance trong subnet này có thể dễ dàng giao tiếp với bên ngoài mạng. Mỗi instance mà bạn khởi chạy vào một subnet public sẽ tự động được gán một địa chỉ IP riêng tư và một địa chỉ IP công cộng. Các địa chỉ này không thay đổi và vẫn còn với instance cho đến khi nó bị dừng, hủy hoặc thay thế bằng một địa chỉ khác. Điều này cho phép các instance trong subnet public giao tiếp trực tiếp với internet và các dịch vụ AWS khác.",
+        "links": [
+          {
+            "title": "Phân đoạn mạng (subnet)",
+            "url": "https://docs.aws.amazon.com/vpc/latest/userguide/configure-subnets.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "xmKeB4hEi2DunmhAsvS1X",
+      "type": "topic",
+      "label": "IAM",
+      "position": {
+        "x": 742.2236494728579,
+        "y": 1167.3249189781727
+      },
+      "size": {
+        "width": 74,
+        "height": 48
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "IAM, hoặc Identity và Access Management, trong AWS là một dịch vụ cho phép bạn quản lý quyền truy cập vào các dịch vụ và tài nguyên AWS một cách an toàn. Nó cho phép bạn tạo và quản lý người dùng và nhóm AWS, đồng thời sử dụng quyền để cho phép và từ chối quyền truy cập của họ vào các tài nguyên AWS. Dịch vụ này bao gồm các tính năng như chia sẻ quyền truy cập vào tài khoản AWS của bạn, quyền hạn chi tiết, tích hợp danh tính (bao gồm tích hợp Active Directory), xác thực đa yếu tố (MFA) và cung cấp quyền truy cập tạm thời cho người dùng, trong số những tính năng khác. IAM là một hệ thống toàn cầu, có nghĩa là nó có thể truy cập trên toàn bộ phạm vi và không phụ thuộc vào khu vực cụ thể.",
+        "links": [
+          {
+            "title": "Hướng dẫn Sử dụng IAM",
+            "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "eQAn3e-k9WNufPqOnwY_K",
+      "type": "subtopic",
+      "label": "Chính sách",
+      "position": {
+        "x": 471.89268806472296,
+        "y": 1167.3249189781727
+      },
+      "size": {
+        "width": 212,
+        "height": 48
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Các chính sách trong Amazon IAM (Identity and Access Management) là các tài liệu đóng vai trò như các container cho quyền truy cập. Chúng được biểu diễn ở định dạng JSON trong IAM và xác định các hành động, hiệu ứng, tài nguyên và điều kiện tùy chọn. Có hai loại chính sách: dựa trên danh tính và dựa trên tài nguyên. Các chính sách dựa trên danh tính được gắn vào một IAM identity, còn các chính sách dựa trên tài nguyên được gắn vào một tài nguyên. Các chính sách này xác định những hành động nào được phép hoặc bị từ chối trên những tài nguyên nào, dưới những điều kiện nào. Chúng là công cụ chính của bạn trong việc xác định và quản lý quyền truy cập trong AWS.",
+        "links": [
+          {
+            "title": "Quyền và Chính sách",
+            "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction_access-management.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Nn2zawk6A31NwZa40jOhX",
+      "type": "subtopic",
+      "label": "Người dùng / Nhóm người dùng",
+      "position": {
+        "x": 471.89268806472296,
+        "y": 1220.4028332918836
+      },
+      "size": {
+        "width": 212,
+        "height": 48
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Trong AWS Identity and Access Management (IAM), một **Nhóm Người dùng** là một tập hợp các người dùng IAM. Các nhóm cho phép bạn xác định quyền truy cập cho nhiều người dùng, giúp dễ dàng quản lý quyền truy cập của những người dùng đó. Ví dụ, bạn có thể tạo một nhóm có tên \"Developers\" và cấp cho nhóm những quyền cần thiết để phát triển trong môi trường của bạn. Nếu một nhà phát triển mới tham gia tổ chức của bạn, thay vì xác định quyền truy cập cụ thể cho người dùng đó, bạn có thể thêm người dùng vào nhóm \"Developers\" để gán những quyền đó. Lưu ý rằng mỗi người dùng IAM AWS trong một nhóm sẽ kế thừa các chính sách quyền truy cập được gắn với nhóm.",
+        "links": [
+          {
+            "title": "IAM - AWS",
+            "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "7nI202hX41mI5ms9LZonh",
+      "type": "subtopic",
+      "label": "Vai trò",
+      "position": {
+        "x": 471.89268806472296,
+        "y": 1273.4028332918836
+      },
+      "size": {
+        "width": 212,
+        "height": 48
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Vai trò IAM (IAM Roles) trong AWS là một hình thức kiểm soát truy cập an toàn mà không liên kết trực tiếp với người dùng hoặc nhóm cụ thể nào. Thay vào đó, các thực thể đáng tin cậy như người dùng AWS, ứng dụng hoặc dịch vụ (ví dụ: EC2) có thể đảm nhận vai trò để lấy được chứng chỉ bảo mật tạm thời khi thực hiện yêu cầu API trên AWS. Cấu trúc của vai trò cho phép bạn ủy quyền truy cập với các quyền đã định nghĩa, giúp duy trì an toàn cho môi trường của bạn. Hơn nữa, vì vai trò cung cấp chứng chỉ tạm thời để điều hướng trong AWS, bạn sẽ không cần phải xử lý các khóa dài hạn.",
+        "links": [
+          {
+            "title": "Tạo vai trò đầu tiên",
+            "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/getting-started-roles.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cwGuOrmbSTcSoH80skLTk",
+      "type": "subtopic",
+      "label": "Dựa trên đặc điểm (identity)",
+      "position": {
+        "x": 220.06968076088629,
+        "y": 1111.9730502489776
+      },
+      "size": {
+        "width": 154,
+        "height": 48
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "\"Chính sách dựa trên danh tính\" là một trong những loại chính sách mà bạn có thể tạo trong AWS (Amazon Web Services). Chúng được gắn trực tiếp vào một danh tính (như người dùng, nhóm hoặc vai trò IAM) và kiểm soát những hành động mà danh tính đó có thể thực hiện, trên các tài nguyên nào và dưới những điều kiện nào. Có hai loại - chính sách nhúng và chính sách quản lý. Các chính sách nhúng được tạo và quản lý riêng lẻ, trong khi các chính sách quản lý là các chính sách độc lập mà bạn có thể gắn vào nhiều danh tính. Điều này cung cấp một khung làm việc linh hoạt để quản lý quyền truy cập trên tài nguyên AWS của bạn. Những chính sách này được viết bằng một ngôn ngữ gọi là JSON (JavaScript Object Notation).",
+        "links": [
+          {
+            "title": "Chính sách dựa trên danh tính",
+            "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_identity-vs-resource.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "v_YmmlOk-DkzJ8mI5Ftgr",
+      "type": "subtopic",
+      "label": "Dựa trên tài nguyên",
+      "position": {
+        "x": 220.06968076088629,
+        "y": 1167.4028332918836
+      },
+      "size": {
+        "width": 172,
+        "height": 48
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Các chính sách dựa trên tài nguyên được gắn trực tiếp vào các tài nguyên AWS nhận được quyền. Chính sách sau đó xác định các hành động được phép hoặc bị từ chối trên tài nguyên cụ thể đó. Trong các chính sách dựa trên tài nguyên, bạn bao gồm một phần tử `Principal` trong chính sách để chỉ ra người dùng hoặc vai trò IAM được cấp quyền. Mặc dù không phải tất cả các dịch vụ AWS đều hỗ trợ các chính sách dựa trên tài nguyên, nhưng một số dịch vụ phổ biến hỗ trợ bao gồm Amazon S3 cho chính sách bucket, AWS KMS cho chính sách khóa và Amazon SNS cho chính sách chủ đề.",
+        "links": [
+          {
+            "title": "Chính sách dựa trên danh tính",
+            "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_identity-vs-resource.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "i7X1GfOx5AZYFskepW4Zr",
+      "type": "subtopic",
+      "label": "Hồ sơ Mẫu (Instance Profiles)",
+      "position": {
+        "x": 222.53639862852782,
+        "y": 1275.380133193896
+      },
+      "size": {
+        "width": 179,
+        "height": 48
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Hồ sơ mẫu là các thực thể IAM của AWS mà bạn có thể sử dụng để cấp quyền cho các ứng dụng đang chạy trên các phiên bản EC2 của mình. Chúng cho phép các phiên bản của bạn thực hiện các yêu cầu API an toàn. Một hồ sơ mẫu về cơ bản là một container cho một vai trò AWS Identity and Access Management (IAM) mà bạn có thể sử dụng để chuyển giao vai trò cho các phiên bản EC2 khi khởi động. Khi một vai trò IAM được liên kết với một phiên bản tại thời điểm khởi động, chúng ta không thể thay đổi vai trò đó. Tuy nhiên, bạn có thể sửa đổi các chính sách quyền được gắn liền với vai trò và các quyền đã cập nhật sẽ có hiệu lực ngay lập tức.",
+        "links": [
+          {
+            "title": "Hồ sơ Mẫu (Instance Profiles)",
+            "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_use_switch-role-ec2_instance-profiles.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "0IMdO7g_5El1elvDXJJ_0",
+      "type": "subtopic",
+      "label": "Chuyển đổi vai trò",
+      "position": {
+        "x": 222.53639862852782,
+        "y": 1328.380133193896
+      },
+      "size": {
+        "width": 179,
+        "height": 48
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Chuyển đổi vai trò trong AWS cho phép một danh tính AWS thực hiện các hành động và truy cập tài nguyên trong một tài khoản AWS khác mà không cần chia sẻ thông tin xác thực bảo mật. Điều này được thực hiện bằng cách sử dụng thông tin xác thực tạm thời. Bạn chuyển đổi vai trò bằng cách gọi các API `AWS Security Token Service (STS)` AssumeRole, truyền ARN của vai trò để chuyển đổi. Sau khi thành công chuyển đổi vai trò, STS trả về thông tin xác thực tạm thời mà bạn có thể sử dụng để đưa ra các yêu cầu cho bất kỳ dịch vụ AWS nào. Vai trò đã được chuyển đổi cung cấp các quyền cụ thể xác định những gì người dùng vai trò có thể và không thể làm. Do đó, người dùng có thể chuyển đổi giữa các vai trò bằng AWS Management Console, AWS CLI hoặc AWS API.",
+        "links": [
+          {
+            "title": "Chuyển đổi vai trò",
+            "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_manage-assume.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "qHdk1Kylv7L0BxRVg7tz7",
+      "type": "paragraph",
+      "label": "AWS có rất nhiều dịch vụ. Bạn không cần phải nắm vững tất cả chúng. Bản đồ này chỉ bao gồm một danh sách ý kiến ​​để giúp bạn bắt đầu.",
+      "position": {
+        "x": -191.93031923911371,
+        "y": -2.011754925964624
+      },
+      "size": {
+        "width": 1122,
+        "height": 61
+      },
+      "style": {
+        "fontSize": 17,
+        "borderColor": "#000000",
+        "backgroundColor": "#ffffff",
+        "color": "#000000",
+        "textAlign": "left",
+        "justifyContent": "flex-start",
+        "padding": 16
+      },
+      "z_index": 999
+    },
+    {
+      "id": "Q6Dt9gq5xo40HNFzbP8LS",
+      "type": "label",
+      "label": "Bước 1 - Cơ bản",
+      "position": {
+        "x": -166.50132736090086,
+        "y": 138.75601320780885
+      },
+      "size": {
+        "width": 156,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17,
+        "color": "#0400ff"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "9vu33RXjGoH98FVmqTndp",
+      "type": "checklist",
+      "label": "",
+      "position": {
+        "x": -180.93031923911371,
+        "y": 174.90074822234897
+      },
+      "size": {
+        "width": 260,
+        "height": 120
+      },
+      "style": {},
+      "z_index": 999
+    },
+    {
+      "id": "B3PQqrz9ta9yghKO1TXiT",
+      "type": "label",
+      "label": "Bước 2 - Tìm hiểu những thứ này tiếp theo",
+      "position": {
+        "x": -166.50132736090086,
+        "y": 309.90074822234897
+      },
+      "size": {
+        "width": 210,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17,
+        "color": "#0400ff"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "ONTEcBOHsEZn5RV3ulSzo",
+      "type": "checklist",
+      "label": "",
+      "position": {
+        "x": -180.93031923911371,
+        "y": 342.90074822234897
+      },
+      "size": {
+        "width": 260,
+        "height": 184
+      },
+      "style": {},
+      "z_index": 999
+    },
+    {
+      "id": "qk08dKs3kwl-chTMJif49",
+      "type": "label",
+      "label": "Bước 3 - Chọn những thứ này sau",
+      "position": {
+        "x": -166.50132736090086,
+        "y": 540.5
+      },
+      "size": {
+        "width": 202,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17,
+        "color": "#0400ff"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "T0xEJk3s05nFqd0EWz6go",
+      "type": "checklist",
+      "label": "",
+      "position": {
+        "x": -180.93031923911371,
+        "y": 568.5
+      },
+      "size": {
+        "width": 318,
+        "height": 184
+      },
+      "style": {},
+      "z_index": 999
+    },
+    {
+      "id": "C0ngVzsV5v-wrFbSzAhuu",
+      "type": "label",
+      "label": "Bước 4 - Không máy chủ (Serverless)",
+      "position": {
+        "x": -166.50132736090086,
+        "y": 763.7998441919806
+      },
+      "size": {
+        "width": 162,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17,
+        "color": "#0400ff"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "y8CCvjrJr4Uo0Nc3tlAbG",
+      "type": "checklist",
+      "label": "",
+      "position": {
+        "x": -180.93031923911371,
+        "y": 799.6175288274053
+      },
+      "size": {
+        "width": 260,
+        "height": 88
+      },
+      "style": {},
+      "z_index": 999
+    },
+    {
+      "id": "AzAPrzmLAhYBRUkQyWYas",
+      "type": "horizontal",
+      "label": "nút ngang",
+      "position": {
+        "x": -172.43031923911371,
+        "y": 901.400748222349
+      },
+      "size": {
+        "width": 300,
+        "height": 20
+      },
+      "style": {
+        "stroke": "#000000"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "gNgs068FdLRcob7u28yOe",
+      "type": "paragraph",
+      "label": "Cách tốt nhất để học? Tạo một ứng dụng đơn giản và sử dụng các dịch vụ được liệt kê ở trên cho việc triển khai.",
+      "position": {
+        "x": -176.46360137147218,
+        "y": 924.900748222349
+      },
+      "size": {
+        "width": 708,
+        "height": 61
+      },
+      "style": {
+        "fontSize": 17,
+        "borderColor": "transparent",
+        "backgroundColor": "transparent",
+        "color": "#000000",
+        "textAlign": "left",
+        "justifyContent": "flex-start",
+        "padding": 16
+      },
+      "z_index": 999
+    },
+    {
+      "id": "dOAZG-NbjWiVdPKYEhWxj",
+      "type": "topic",
+      "label": "Mở rộng tự động",
+      "position": {
+        "x": 742.2236494728579,
+        "y": 1507.8060080163193
+      },
+      "size": {
+        "width": 141,
+        "height": 48
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Tự động mở rộng quy mô của AWS (AWS Auto Scaling) là một dịch vụ tự động điều chỉnh tài nguyên để đáp ứng nhu cầu của các ứng dụng của bạn. Dịch vụ này sử dụng chính sách, trạng thái sức khỏe và lịch trình để xác định khi nào cần thêm nhiều phiên bản, đảm bảo rằng ứng dụng của bạn luôn có đủ dung lượng. AWS Auto Scaling có thể mở rộng quy mô tài nguyên trên nhiều dịch vụ và quản lý quá trình mở rộng quy mô theo thời gian thực. Nó tối ưu hóa cho chi phí và hiệu suất, và với sự hỗ trợ của Amazon CloudWatch, nó điều chỉnh dung lượng dựa trên các mẫu nhu cầu của khối lượng công việc của bạn.",
+        "links": [
+          {
+            "title": "AWS Autoscaling",
+            "url": "https://docs.aws.amazon.com/autoscaling/ec2/userguide/what-is-amazon-ec2-auto-scaling.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "AfagmWcllSi81D2XIQz0V",
+      "type": "subtopic",
+      "label": "Máy ảo (VM)",
+      "position": {
+        "x": 636.2236494728579,
+        "y": 1595.150459128501
+      },
+      "size": {
+        "width": 249,
+        "height": 48
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Amazon Machine Images (AMIs) là các mẫu cài đặt trước cho các phiên bản EC2. Khi bạn khởi chạy một phiên bản trong EC2, bạn bắt đầu với một AMI. Một AMI bao gồm các chi tiết như hệ điều hành cần sử dụng, các ứng dụng cần cài đặt và loại và kích thước dung lượng lưu trữ. Các AMI có thể là công khai hoặc riêng tư - các AMI công khai có sẵn cho bất kỳ ai sử dụng, trong khi các AMI riêng tư chỉ có sẵn cho một số tài khoản AWS cụ thể. Bạn có thể tạo các AMI tùy chỉnh của riêng mình, cho phép bạn nhanh chóng khởi chạy và sao chép cấu hình đã biết cho các phiên bản EC2 của mình.",
+        "links": [
+          {
+            "title": "Máy ảo (VM)",
+            "url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AMIs.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "K0GCk5_HDvP0_ZqsUc3tG",
+      "type": "subtopic",
+      "label": "Mẫu Khởi động",
+      "position": {
+        "x": 636.2236494728579,
+        "y": 1648.150459128501
+      },
+      "size": {
+        "width": 249,
+        "height": 48
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "\"Mẫu khởi tạo\" trong AWS Auto Scaling là các cấu hình mà một Nhóm mở rộng quy mô sử dụng để khởi tạo phiên bản EC2. Chúng lưu trữ thông tin cấu hình cần thiết để khởi tạo một phiên bản, bao gồm ID của Hình ảnh máy tính Amazon (AMI), loại phiên bản, cặp khóa, nhóm bảo mật và cấu hình lưu trữ. Nó giúp thiết lập các phiên bản mới nhanh chóng và ngăn chặn sự không nhất quán về cấu hình trên các phiên bản. Các mẫu này cũng có thể được phiên bản hóa, cho phép cập nhật và khôi phục lại các cấu hình trước đó.",
+        "links": [
+          {
+            "title": "Mẫu Khởi động",
+            "url": "https://aws.amazon.com/about-aws/whats-new/2017/11/introducing-launch-templates-for-amazon-ec2-instances/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "gBKHVG7FvlCEgINKmw00s",
+      "type": "subtopic",
+      "label": "Nhóm mở rộng tự động",
+      "position": {
+        "x": 636.2236494728579,
+        "y": 1701.150459128501
+      },
+      "size": {
+        "width": 249,
+        "height": 48
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "\"Nhóm mở rộng quy mô\" (Auto Scaling Groups - ASG) trong AWS, cũng được biết đến là Nhóm mở rộng quy mô (ASGs), là các thành phần chính được sử dụng để mở rộng tài nguyên tự động theo yêu cầu của bạn trên AWS. Chúng chứa một tập hợp các phiên bản Amazon Elastic Compute Cloud (EC2) được coi là một nhóm logic cho mục đích mở rộng quy mô và quản lý tự động. Các phiên bản trong một ASG được phân phối trên nhiều khu vực có sẵn (availability zones) trong một khu vực, đảm bảo mức độ chịu lỗi cao. Khi định nghĩa một ASG, bạn chỉ định số lượng tối thiểu, tối đa và mong muốn của các phiên bản EC2. Bạn cũng phải chỉ định cấu hình khởi động xác định loại phiên bản nào sẽ được khởi tạo và từ Hình ảnh máy tính Amazon (AMI) nào.",
+        "links": [
+          {
+            "title": "Nhóm mở rộng quy mô tự động",
+            "url": "https://docs.aws.amazon.com/eks/latest/best-practices/cas.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "fRBaiw8Qx8kapzCphmM4v",
+      "type": "subtopic",
+      "label": "Chính sách Mở rộng",
+      "position": {
+        "x": 636.2236494728579,
+        "y": 1754.150459128501
+      },
+      "size": {
+        "width": 249,
+        "height": 48
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "AWS Autoscaling hỗ trợ nhiều loại chính sách mở rộng quy mô khác nhau, điều khiển cách và khi nào để mở rộng quy mô. Các loại này bao gồm chính sách theo dõi mục tiêu, chính sách mở rộng từng bước và chính sách mở rộng đơn giản. Chính sách theo dõi mục tiêu điều chỉnh dung lượng dựa trên các điều kiện động được chỉ định, duy trì giá trị mục tiêu cho số liệu được chỉ định. Chính sách mở rộng từng bước điều chỉnh dung lượng dựa trên một tập hợp các điều chỉnh mở rộng, tăng hoặc giảm dung lượng trong phạm vi giới hạn của dung lượng tối thiểu và tối đa. Trong khi đó, chính sách mở rộng đơn giản tăng hoặc giảm dung lượng dựa trên một cảnh báo duy nhất.",
+        "links": [
+          {
+            "title": "AWS Autoscaling Policy",
+            "url": "https://docs.aws.amazon.com/autoscaling/ec2/userguide/what-is-amazon-ec2-auto-scaling.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "YAZPKMbmrxYNqF6alXMyL",
+      "type": "subtopic",
+      "label": "Load Balancer Elastic",
+      "position": {
+        "x": 636.2236494728579,
+        "y": 1807.150459128501
+      },
+      "size": {
+        "width": 249,
+        "height": 48
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Load Balancer Elastic (ELB) là dịch vụ cân tải cho các triển khai Amazon Web Services (AWS). Nó tự động phân phối lưu lượng truy cập ứng dụng đến và mở rộng tài nguyên để đáp ứng nhu cầu lưu lượng. ELB giúp đảm bảo lưu lượng truy cập đến được phân phối đồng đều trên các phiên bản Amazon EC2 của bạn, làm cho ứng dụng của bạn có khả năng sẵn sàng cao hơn và chịu lỗi tốt hơn. Nó hỗ trợ định tuyến và cân tải cho lưu lượng HTTP/HTTPS và TCP. Có ba loại Load Balancer mà ELB cung cấp - Load Balancer Ứng dụng (tốt nhất cho lưu lượng HTTP và HTTPS), Load Balancer Mạng (tốt nhất cho lưu lượng TCP khi hiệu suất cực cao được yêu cầu) và Load Balancer Cổ điển (cung cấp cân tải cơ bản trên nhiều phiên bản Amazon EC2).",
+        "links": [
+          {
+            "title": "Load Balancer Elastic",
+            "url": "https://aws.amazon.com/elasticloadbalancing/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PN3xAYfQ-_QgZCRCnsEca",
+      "type": "topic",
+      "label": "S3",
+      "position": {
+        "x": 354.0186476554692,
+        "y": 1507.8060080163193
+      },
+      "size": {
+        "width": 65,
+        "height": 48
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Amazon S3 (Dịch vụ Lưu trữ Đơn giản) là một dịch vụ lưu trữ đối tượng do Amazon Web Services (AWS) cung cấp. Nó cung cấp lưu trữ có thể mở rộng, an toàn và bền vững trên internet. Được thiết kế để lưu trữ và truy xuất bất kỳ lượng dữ liệu nào từ bất cứ đâu trên web, nó là một công cụ chính cho nhiều công ty trong lĩnh vực lưu trữ dữ liệu, bao gồm các ứng dụng di động, trang web, khôi phục và sao lưu, kho lưu trữ, ứng dụng doanh nghiệp, thiết bị IoT và phân tích big data.",
+        "links": [
+          {
+            "title": "S3",
+            "url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "rTgjDj5HqbjRpcJ7PR-EC",
+      "type": "subtopic",
+      "label": "Các thùng chứa / Đối tượng",
+      "position": {
+        "x": 306.5186476554692,
+        "y": 1595.150459128501
+      },
+      "size": {
+        "width": 182,
+        "height": 48
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Trong AWS S3, một \"bucket\" là một container để lưu trữ dữ liệu. Nó được sử dụng để lưu trữ đối tượng. Các đối tượng bao gồm tệp tin hoặc, kỹ thuật hơn, bất kỳ loại dữ liệu nào có thể được lưu trữ ở dạng tệp trong đó. Về mặt hệ thống phân cấp, các bucket nằm ở cấp độ cao nhất trong AWS S3. Bên trong các bucket này, bạn có thể lưu trữ bất kỳ số lượng đối tượng nào. Một đối tượng bao gồm một tệp tin và tùy chọn bất kỳ metadata nào mô tả tệp tin đó. Điều quan trọng cần lưu ý là bạn cũng có thể lưu trữ các thư mục bên trong các bucket này và bên trong các thư mục này, bạn có thể lại lưu trữ các đối tượng. Các khóa đối tượng là duy nhất trong một bucket và chúng giúp xác định và truy xuất đối tượng.",
+        "links": [
+          {
+            "title": "Thùng chứa / Đối tượng",
+            "url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/UsingBucket.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "8i6zpjkMC_Pg-tDNmrx4n",
+      "type": "subtopic",
+      "label": "Đời chu kỳ Thùng chứa / Đối tượng",
+      "position": {
+        "x": 306.5186476554692,
+        "y": 1648.150459128501
+      },
+      "size": {
+        "width": 237,
+        "height": 48
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "AWS S3 Lifecycle là một tính năng trong các tài nguyên AWS S3 cho phép người dùng quản lý đối tượng của họ để chúng được chuyển sang các lớp lưu trữ khác nhau hoặc hết hạn ở cuối tuổi thọ của chúng. Nó tạo điều kiện thuận lợi việc chuyển đổi đối tượng giữa các lớp lưu trữ khác nhau vào các thời điểm hoặc theo các điều kiện đã chỉ định và cũng có thể tự động hóa việc dọn dẹp các đối tượng hết hạn để giúp giảm lượng lưu trữ tiêu thụ bởi dữ liệu lỗi thời. Một chu kỳ đời sống có thể được áp dụng cho một thùng chứa hoặc một tập hợp các đối tượng. Lưu ý rằng mỗi hoạt động chuyển đổi hoặc hết hạn đều là một hành động riêng biệt trong chu kỳ đời sống.",
+        "links": [
+          {
+            "title": "Đời chu kỳ Thùng chứa / Đối tượng",
+            "url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-lifecycle-mgmt.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PJaAqax4fABnkObY5UwNp",
+      "type": "topic",
+      "label": "Các loại lưu trữ",
+      "position": {
+        "x": 306.5186476554692,
+        "y": 1701.150459128501
+      },
+      "size": {
+        "width": 154,
+        "height": 48
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Amazon S3 cung cấp ba lớp lưu trữ: S3 Standard, S3 Intelligent-Tiering và S3 Glacier. `S3 Standard` được thiết kế để dữ liệu thường xuyên truy cập. Nó mang lại độ trễ thấp và băng thông cao. `S3 Intelligent-Tiering` là lớp lưu trữ tự động hóa giúp tối ưu hóa chi phí. Nó di chuyển các đối tượng giữa hai cấp độ truy cập (thường xuyên và ít thường xuyên) dựa trên mô hình truy cập thay đổi. `S3 Glacier` dành cho lưu trữ dài hạn và kho lưu trữ. Nó có hai chế độ truy xuất: Expedited (cho truy cập nhanh chóng) và Bulk (cho các lần trích xuất lớn nhất và ít thời gian nhạy cảm hơn).",
+        "links": [
+          {
+            "title": "Các loại lưu trữ",
+            "url": "https://aws.amazon.com/s3/storage-classes/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Ll5FPCtkpYq_niJd7WoTC",
+      "type": "subtopic",
+      "label": "Tiêu chuẩn",
+      "position": {
+        "x": 320.16835944985576,
+        "y": 1761.8786804181643
+      },
+      "size": {
+        "width": 113,
+        "height": 48
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Amazon S3 Lưu trữ Tiêu chuẩn là được thiết kế để lưu trữ dữ liệu thường xuyên truy cập chung. Nó cung cấp độ trễ thấp và băng thông cao, khiến nó phù hợp với nhiều trường hợp sử dụng khác nhau, bao gồm các ứng dụng đám mây, trang web động, phân phối nội dung, các ứng dụng di động và trò chơi, và phân tích big data. S3 Standard cung cấp lưu trữ đối tượng bền vững, khả năng sẵn sàng và hiệu suất cao cho cả các đối tượng nhỏ và lớn. Bạn có quyền truy cập ngay lập tức vào dữ liệu của mình và có thể truy xuất nó bất kỳ lúc nào, khiến nó trở thành một lựa chọn linh hoạt cho nhiều công việc khác nhau của AWS.",
+        "links": [
+          {
+            "title": "AWS S3 Standard",
+            "url": "https://aws.amazon.com/s3/pricing/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JlkLNQ8wRzGkjaootNKOD",
+      "type": "subtopic",
+      "label": "S3-IA",
+      "position": {
+        "x": 320.16835944985576,
+        "y": 1815.8205494274896
+      },
+      "size": {
+        "width": 87,
+        "height": 48
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Amazon S3 Accessít Tần suất (S3 IA) là một lớp lưu trữ trong Amazon S3 được thiết kế cho dữ liệu được truy cập ít thường xuyên hơn nhưng cần truy cập nhanh khi cần. S3 IA cung cấp độ bền cao, băng thông cao và độ trễ thấp của Amazon S3 Standard, với chi phí lưu trữ thấp hơn trên mỗi GB và phí trích xuất trên mỗi GB. Điều này làm cho S3 IA phù hợp để lưu trữ dài hạn, sao lưu và làm bộ nhớ dữ liệu để khôi phục thảm họa.",
+        "links": [
+          {
+            "title": "AWS S3-IA",
+            "url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/storage-class-intro.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "IikKYP58sT2H1lM8glm-g",
+      "type": "subtopic",
+      "label": "Glacier",
+      "position": {
+        "x": 430.5186476554692,
+        "y": 1815.8205494274896
+      },
+      "size": {
+        "width": 99,
+        "height": 48
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "AWS Glacier là một dịch vụ lưu trữ an toàn, bền và cực kỳ rẻ tiền để lưu trữ dữ liệu lưu trữ và sao lưu dài hạn. Nó được thiết kế để lưu trữ dữ liệu đáng tin cậy trong khoảng thời gian bạn cần. Các tính năng chính của nó được tối ưu hóa cho dữ liệu ít truy cập nơi thời gian truy xuất vài phút là chấp nhận được. AWS Glacier hỗ trợ lưu trữ dữ liệu không cần thiết theo thời gian thực nhưng có thể cần thiết cho tham khảo trong tương lai hoặc phải được duy trì theo yêu cầu pháp lý. AWS Glacier được sử dụng khi không có nhu cầu tức thời về dữ liệu và thời gian truy xuất đáng kể là chấp nhận được, do chi phí lưu trữ thấp.",
+        "links": [
+          {
+            "title": "AWS Glacier",
+            "url": "https://aws.amazon.com/s3/storage-classes/glacier/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "-bwXo6xvF1yzyWEm5oZhJ",
+      "type": "topic",
+      "label": "SES",
+      "position": {
+        "x": -188.93031923911371,
+        "y": 1507.8060080163193
+      },
+      "size": {
+        "width": 76,
+        "height": 48
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Amazon Simple Email Service (SES) là một dịch vụ gửi email có thể mở rộng và chi phí hiệu quả được thiết kế cho những người làm tiếp thị, nhà phát triển và doanh nghiệp. Nó cho phép người dùng gửi thông báo, email giao dịch và thông tin truyền thị trường bằng cách sử dụng cơ sở hạ tầng đáng tin cậy. Amazon SES loại bỏ sự phức tạp và thách thức của việc xây dựng một giải pháp email nội bộ hoặc cấp phép, cài đặt và quản lý một dịch vụ thứ ba. Dịch vụ này có thể dễ dàng tích hợp vào các ứng dụng hiện có trong khi đảm bảo rằng email đến đúng hộp thư.",
+        "links": [
+          {
+            "title": "SES",
+            "url": "https://aws.amazon.com/ses/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "kG7tlZjv_hJbHGooBkxS0",
+      "type": "subtopic",
+      "label": "Giới hạn Sandbox / Gửi",
+      "position": {
+        "x": -188.93031923911371,
+        "y": 1096.6175288274053
+      },
+      "size": {
+        "width": 257,
+        "height": 48
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Trong AWS SES, khi tài khoản của bạn ở chế độ Sandbox (chế độ mặc định cho tất cả các tài khoản mới), bạn chỉ có thể gửi email đến địa chỉ email đã được xác minh và tốc độ gửi tối đa là 1 email mỗi giây. Giới hạn gửi tối đa là 200 tin nhắn trong thời gian 24 giờ. Để thoát khỏi môi trường Sandbox này và tăng giới hạn gửi, bạn sẽ cần yêu cầu tăng giới hạn gửi. Điều này được thực hiện bằng cách nộp một Trường hợp Tăng giới hạn gửi SES trong Trung tâm Hỗ trợ AWS. Để biết thêm chi tiết, bạn có thể tham khảo tài liệu AWS SES.",
+        "links": [
+          {
+            "title": "Giới hạn Sandbox / Gửi",
+            "url": "https://docs.aws.amazon.com/ses/latest/dg/manage-sending-quotas.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "bTCVHXPG-LtaaFmgiB2SL",
+      "type": "subtopic",
+      "label": "Xác thực danh tính",
+      "position": {
+        "x": -188.93031923911371,
+        "y": 1149.6175288274053
+      },
+      "size": {
+        "width": 257,
+        "height": 48
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Amazon Simple Email Service (SES) yêu cầu người dùng xác minh danh tính của họ để đảm bảo họ sở hữu địa chỉ email hoặc tên miền mà họ dự định sử dụng làm địa chỉ 'From', 'Source', 'Sender' hoặc 'Return-Path'. Quá trình xác minh ngăn chặn việc sử dụng trái phép các danh tính. Có hai loại danh tính để xác minh, địa chỉ email và tên miền. Xác minh một địa chỉ email cho phép bạn gửi email từ địa chỉ đó. Nếu bạn xác minh một tên miền, bạn có thể gửi email từ bất kỳ địa chỉ nào trên tên miền đó. Hơn nữa, trong khi gửi một email, địa chỉ 'From' hoặc 'Return-Path' phải là một địa chỉ email hoặc tên miền đã được xác minh.",
+        "links": [
+          {
+            "title": "Xác thực danh tính",
+            "url": "https://docs.aws.amazon.com/ses/latest/dg/Welcome.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "zwVd1vNm1ks6MdHZoi-5W",
+      "type": "subtopic",
+      "label": "Thiết lập DKIM",
+      "position": {
+        "x": -188.93031923911371,
+        "y": 1202.6175288274053
+      },
+      "size": {
+        "width": 257,
+        "height": 48
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "DKIM (DomainKeys Identified Mail) là một tiêu chuẩn ngăn chặn giả mạo email. Nó cho phép một tổ chức chịu trách nhiệm về việc truyền tải tin nhắn theo cách có thể được xác minh bởi các nhà cung cấp hộp thư. Xác minh này được thực hiện thông qua xác thực mã hóa. Trong Amazon SES, bạn có thể thiết lập DKIM bằng cách thêm một bộ ba bản ghi CNAME vào cấu hình DNS của miền gửi. Mỗi bản ghi ánh xạ một miền con hư cấu của miền gửi của bạn đến một miền do Amazon SES duy trì. Sau khi bạn thêm các bản ghi này và chúng lan truyền qua cơ sở hạ tầng DNS toàn cầu, bạn có thể bắt đầu gửi email đã xác thực từ miền của mình.",
+        "links": [
+          {
+            "title": "DKIM",
+            "url": "https://dkim.org/",
+            "type": "official"
+          },
+          {
+            "title": "DKIM - Cloudflare",
+            "url": "https://www.cloudflare.com/learning/email-security/dmarc-dkim-spf/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "0NWTFssjg9SbDXQRkN5kF",
+      "type": "subtopic",
+      "label": "Xử lý Phản hồi",
+      "position": {
+        "x": -188.93031923911371,
+        "y": 1255.6175288274053
+      },
+      "size": {
+        "width": 257,
+        "height": 48
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "AWS Simple Email Service (SES) cung cấp một cơ chế để xử lý các phản hồi, khiếu nại và thông báo giao hàng. Cơ chế này được gọi là xử lý phản hồi. Các phản hồi xảy ra khi một email không thể được chuyển đến người nhận. Các khiếu nại xảy ra khi một người nhận đánh dấu email là spam. Thông báo giao hàng được gửi khi Amazon SES thành công trong việc chuyển tiếp một email đến máy chủ email của người nhận. AWS SES cho phép bạn nhận các thông báo phản hồi này qua email, chuyển tiếp đến một chủ đề Amazon SNS hoặc thông qua Amazon CloudWatch. Quá trình quyết định hành động nào cần thực hiện khi các email của bạn bị phản hồi hoặc được đánh dấu là spam được gọi là xử lý phản hồi. AWS SES tự động xử lý tất cả các khiếu nại vòng lặp FBL cho bạn, nhưng khi nói đến các phản hồi, bạn có quyền lựa chọn cách hệ thống của mình sẽ phản ứng.",
+        "links": [
+          {
+            "title": "Phản hồi",
+            "url": "https://aws.amazon.com/ses/faqs",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4svXYQYmqjUZU39z8OyhD",
+      "type": "subtopic",
+      "label": "Bộ cấu hình",
+      "position": {
+        "x": -188.93031923911371,
+        "y": 1308.6175288274053
+      },
+      "size": {
+        "width": 257,
+        "height": 48
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Bộ cấu hình trong AWS SES (Dịch vụ Email đơn giản) cho phép bạn xuất bản các sự kiện gửi email. Các bộ này được sử dụng để nhóm lại các quy tắc tương tự mà bạn có thể áp dụng cho các email bạn gửi bằng AWS SES. Bạn có thể áp dụng một bộ cấu hình vào một email bằng cách bao gồm nó trong tiêu đề của email. Nó có thể được sử dụng để chỉ định các cụm địa chỉ IP gửi chuyên dụng, cấu hình các thông số truyền tải tin nhắn và bật theo dõi mở và nhấp chuột. AWS SES sẽ gửi thông tin về mỗi email được gửi với bộ này đến CloudWatch và Kinesis Firehose mà sau đó có thể được sử dụng cho phân tích thêm hoặc để quản lý tương tác của bạn với khách hàng một cách hiệu quả hơn.",
+        "links": [
+          {
+            "title": "SES",
+            "url": "https://docs.aws.amazon.com/ses/latest/dg/using-configuration-sets.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Vo_PBfB7LxYL27nBBVoVp",
+      "type": "subtopic",
+      "label": "Danh tiếng Người gửi",
+      "position": {
+        "x": -188.93031923911371,
+        "y": 1361.6175288274053
+      },
+      "size": {
+        "width": 257,
+        "height": 48
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Danh tiếng người gửi trong Amazon Web Services (AWS) Simple Email Service (SES) về cơ bản là một thước đo thực hành gửi email của bạn và cách chúng phù hợp với kỳ vọng của ISP và người nhận email. Danh tiếng này được xác định bởi các yếu tố như tỷ lệ email bị trả lại, khiếu nại, chất lượng nội dung, khối lượng email, tính nhất quán trong việc gửi email, v.v. Duy trì danh tiếng người gửi tốt là rất quan trọng vì nó ảnh hưởng đến tỷ lệ giao hàng email của bạn - tức là xem email của bạn có đến thư mục hộp nhập của người nhận hay không spam hay không.",
+        "links": [
+          {
+            "title": "Danh tiếng Người gửi",
+            "url": "https://aws.amazon.com/blogs/messaging-and-targeting/the-four-pillars-of-email-reputation/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pnX1dfkjS8woWc4KGXlh_",
+      "type": "subtopic",
+      "label": "Địa chỉ IP chuyên dụng",
+      "position": {
+        "x": -188.93031923911371,
+        "y": 1414.6175288274053
+      },
+      "size": {
+        "width": 257,
+        "height": 48
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "\"Địa chỉ IP chuyên dụng\" trong AWS SES (Simple Email Service) đề cập đến một địa chỉ IP duy nhất có thể được sử dụng độc quyền bởi một khách hàng AWS duy nhất để gửi email. Khi bạn chọn sử dụng một địa chỉ IP chuyên dụng, bạn nhận được toàn bộ quyền kiểm soát đối với danh tiếng của địa chỉ IP đó, điều này rất hữu ích khi gửi khối lượng lớn email. AWS cũng có thể tập hợp nhiều địa chỉ IP chuyên dụng cho phép các người gửi khối lượng cao phân phối việc gửi của họ trên nhiều địa chỉ IP để duy trì danh tiếng của họ. Nó đặc biệt hữu ích đối với các công ty phải tuân thủ các chính sách email nghiêm ngặt hoặc gửi số lượng email lớn đáng kể.",
+        "links": [
+          {
+            "title": "Địa chỉ IP chuyên dụng",
+            "url": "https://docs.aws.amazon.com/ses/latest/dg/dedicated-ip.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "f89qL7Cg9R_LTxBEG4jUK",
+      "type": "topic",
+      "label": "Route53",
+      "position": {
+        "x": -188.93031923911371,
+        "y": 1645.6417313154334
+      },
+      "size": {
+        "width": 111,
+        "height": 48
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "AWS Route 53 là dịch vụ Hệ thống tên miền (DNS) có khả năng mở rộng và sẵn sàng cao, được thiết kế để cung cấp cho nhà phát triển và doanh nghiệp một cách truy cập Internet ứng dụng hiệu quả, đáng tin cậy và tiết kiệm chi phí. Dịch vụ DNS này kết nối các yêu cầu của người dùng đến cơ sở hạ tầng đang chạy trong Amazon Web Services (AWS) – chẳng hạn như một phiên bản Amazon EC2, một Bộ cân bằng tải Amazon Elastic hoặc một thùng chứa Amazon S3 – và cũng có thể được sử dụng để định tuyến người dùng đến cơ sở hạ tầng bên ngoài AWS. Route 53 ẩn các phức tạp của giao thức DNS cơ bản, cung cấp cho nhà phát triển một dịch vụ đăng ký tên miền dễ sử dụng và tiết kiệm chi phí. Nó có các khả năng chuyển đổi tên miền, chuyển tiếp DNS, kiểm tra sức khỏe và TTL tùy chỉnh.",
+        "links": [
+          {
+            "title": "Route53",
+            "url": "https://aws.amazon.com/route53/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "z-o-2cGYSM6KW_CNJyw3p",
+      "type": "subtopic",
+      "label": "Khu vực được lưu trữ",
+      "position": {
+        "x": 59.613820823766076,
+        "y": 1592.6417313154334
+      },
+      "size": {
+        "width": 174,
+        "height": 48
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Một **Hosted Zone** trong AWS Route 53 là một container chứa thông tin về cách bạn muốn định tuyến lưu lượng truy cập trên internet cho một tên miền cụ thể, ví dụ như example.com. Mỗi Hosted Zone được liên kết với một tập hợp các bản ghi DNS, điều khiển luồng lưu lượng truy cập cho tên miền đó. AWS Route 53 tự động tạo một tập bản ghi bao gồm một bản ghi Name Server (NS) và một bản ghi Start of Authority (SOA) khi bạn tạo một Hosted Zone. Các bản ghi này cung cấp thông tin cần thiết về tên miền của bạn cho hệ thống DNS, thiết lập nền tảng để định tuyến lưu lượng truy cập cho tên miền đó đến địa chỉ IP phù hợp trong môi trường AWS của bạn.",
+        "links": [
+          {
+            "title": "Khu vực được lưu trữ",
+            "url": "https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/hosted-zones-working-with.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "IQhPG1La7dZeSXnX23D1n",
+      "type": "subtopic",
+      "label": "Chính sách định tuyến",
+      "position": {
+        "x": 59.613820823766076,
+        "y": 1645.6417313154334
+      },
+      "size": {
+        "width": 174,
+        "height": 48
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "AWS Route 53 cung cấp các chính sách định tuyến khác nhau để phù hợp với nhiều nhu cầu: 1. **Chính sách Định tuyến Đơn giản**: Được sử dụng cho một tài nguyên duy nhất thực hiện một chức năng cụ thể. 2. **Chính sách Định tuyến Trọng số**: Thích hợp nếu bạn có nhiều tài nguyên và muốn hướng một tỷ lệ phần trăm nhất định lưu lượng truy cập đến mỗi tài nguyên. 3. **Chính sách Định tuyến Độ trễ**: Cho phép định tuyến lưu lượng truy cập dựa trên độ trễ mạng thấp nhất cho người dùng của bạn (tức là khu vực nào sẽ cung cấp thời gian phản hồi nhanh nhất cho họ). 4. **Chính sách Định tuyến Chuyển tiếp**: Được sử dụng khi bạn muốn tạo một cài đặt chủ-phụ. Ví dụ, bạn có thể muốn tài nguyên chính của mình phục vụ tất cả lưu lượng truy cập của bạn, nhưng nếu nó gặp sự cố, bạn có thể định tuyến lưu lượng truy cập đến một tài nguyên dự phòng. 5. **Chính sách Định tuyến Vị trí địa lý**: Định tuyến lưu lượng truy cập dựa trên vị trí địa lý của người dùng của bạn. 6. **Chính sách Định tuyến Vị trí gần nhất (chỉ Lưu lượng)**: Định tuyến lưu lượng truy cập dựa trên vị trí địa lý của các tài nguyên của bạn và, tùy chọn, chuyển đổi lưu lượng từ các tài nguyên ở một vị trí sang các tài nguyên ở một vị trí khác. 7. **Chính sách Định tuyến Phản hồi đa giá trị**: Được sử dụng khi bạn muốn Route 53 trả lời các truy vấn DNS với tối đa tám bản ghi lành mạnh được chọn ngẫu nhiên.",
+        "links": [
+          {
+            "title": "Chính sách định tuyến",
+            "url": "https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/routing-policy.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "LXG_znJ3XzPAlDxUH2-Xp",
+      "type": "subtopic",
+      "label": "Kiểm tra sức khỏe",
+      "position": {
+        "x": 59.613820823766076,
+        "y": 1698.6417313154334
+      },
+      "size": {
+        "width": 174,
+        "height": 48
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Kiểm tra sức khỏe Route53 cho phép bạn giám sát sức khỏe và hiệu suất của ứng dụng, mạng và máy chủ của mình. Bạn có thể tạo các kiểm tra sức khỏe tùy chỉnh để xác minh trạng thái của các tài nguyên cụ thể, chẳng hạn như một máy chủ web hoặc máy chủ email. Nếu kiểm tra sức khỏe thất bại, Route 53 sẽ chuyển hướng lưu lượng truy cập ra khỏi các tài nguyên không khỏe mạnh. Kiểm tra sức khỏe chạy định kỳ, với khoảng thời gian bạn chỉ định để giúp bạn phát hiện các vấn đề trước khi người dùng cuối của bạn làm. Bạn có thể cấu hình báo động để thông báo cho bạn khi một tài nguyên trở nên không khỏe mạnh, giúp bạn phản ứng nhanh chóng với các vấn đề tiềm ẩn. Kiểm tra sức khỏe Route 53 cũng tích hợp với CloudWatch, cung cấp số liệu thống kê và biểu đồ chi tiết cho dữ liệu đã phân tích.",
+        "links": [
+          {
+            "title": "Kiểm tra sức khỏe Route53",
+            "url": "https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/welcome-health-checks.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "VAYxwJH10PFjGS8poKd9-",
+      "type": "topic",
+      "label": "Cloudwatch",
+      "position": {
+        "x": -188.93031923911371,
+        "y": 1835.4571899134405
+      },
+      "size": {
+        "width": 132,
+        "height": 48
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "\"Amazon CloudWatch\" là dịch vụ giám sát cho các tài nguyên và ứng dụng AWS mà bạn đang chạy trên Amazon Web Services. Bạn có thể sử dụng Amazon CloudWatch để thu thập và theo dõi số liệu, thu thập và giám sát tệp nhật ký, và phản hồi các thay đổi về hiệu suất tổng thể của hệ thống. CloudWatch cung cấp khả năng hiển thị toàn diện về việc sử dụng tài nguyên, hiệu suất ứng dụng và sức khỏe hoạt động. Nó sử dụng dữ liệu vận hành (tệp nhật ký và số liệu) để tự động phản hồi các thay đổi trong các tài nguyên AWS. Nó cho phép bạn làm việc liền mạch với nhiều dịch vụ AWS như Amazon EC2, Amazon DynamoDB, Amazon S3, Amazon ECS, AWS Lambda và nhiều hơn nữa.",
+        "links": [
+          {
+            "title": "Amazon Cloudwatch",
+            "url": "https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/WhatIsCloudWatch.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2vQPmVNk1QpMM-15RKG8b",
+      "type": "subtopic",
+      "label": "Số liệu thống kê",
+      "position": {
+        "x": 59.613820823766076,
+        "y": 1782.4571899134405
+      },
+      "size": {
+        "width": 174,
+        "height": 48
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Trong Amazon CloudWatch, **Metrics** là các khái niệm cơ bản mà bạn làm việc với. Một metric là khái niệm cơ bản trong CloudWatch và đại diện cho một tập dữ liệu thời gian thứ tự của các điểm dữ liệu được xuất bản đến CloudWatch. Hãy nghĩ về một metric như một biến để theo dõi và các điểm dữ liệu như biểu thị giá trị của biến đó theo thời gian. Các metrics được xác định duy nhất bởi tên, không gian tên và tối đa 30 chiều (dimensions) cho mỗi metric. Mỗi điểm dữ liệu phải có dấu thời gian. Bạn có thể truy xuất thống kê về các điểm dữ liệu đó dưới dạng một tập dữ liệu chuỗi thời gian đã sắp xếp. CloudWatch cung cấp metrics cho tất cả các dịch vụ trong AWS. Tìm hiểu thêm từ các tài nguyên sau: - [@official@CloudWatch Metrics](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/publishingMetrics.html)",
+        "links": []
+      }
+    },
+    {
+      "id": "tHQ6NRVDPCPEOmzgjQDLX",
+      "type": "subtopic",
+      "label": "Sự kiện",
+      "position": {
+        "x": 59.613820823766076,
+        "y": 1835.4571899134405
+      },
+      "size": {
+        "width": 174,
+        "height": 48
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "AWS CloudWatch Events là một dịch vụ cung cấp phương pháp có hệ thống, trơn tru để phản ứng với các thay đổi toàn diện trong môi trường AWS của bạn. Điều này có thể từ một trạng thái thay đổi đơn giản như một phiên bản EC2 bị dừng hoặc khởi động lại đến một chuỗi điều kiện phức tạp hơn. Bạn có thể thiết lập Mô hình Sự kiện để theo dõi tài nguyên AWS cho các thay đổi cụ thể hoặc lên lịch công việc cron. Hành động kết quả từ mô hình sự kiện có thể là một hàm Lambda, thông báo SNS hoặc chính sách mở rộng quy mô, giữa các tùy chọn khác. Về cơ bản, AWS CloudWatch Events giúp bạn tự động hóa các dịch vụ AWS và phản ứng tự động với các sự kiện hệ thống.",
+        "links": [
+          {
+            "title": "Amazon Cloudwatch Events",
+            "url": "https://docs.aws.amazon.com/whitepapers/latest/introduction-devops-aws/cloudwatch-events.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "oC6KIjWAXw0hLl4FwkB9F",
+      "type": "subtopic",
+      "label": "Ghi log",
+      "position": {
+        "x": 59.613820823766076,
+        "y": 1888.4571899134405
+      },
+      "size": {
+        "width": 174,
+        "height": 48
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Dịch vụ AWS CloudWatch Logs cho phép bạn giám sát, lưu trữ và truy cập các tệp nhật ký từ các phiên bản Amazon Elastic Compute Cloud (Amazon EC2), AWS CloudTrail và các nguồn khác. Nó tập trung các nhật ký từ tất cả các hệ thống, ứng dụng và dịch vụ AWS mà bạn sử dụng vào một dịch vụ có khả năng mở rộng cao. Bạn có thể dễ dàng xem chúng, tìm kiếm trong đó, đặt báo động và liên kết chúng với dữ liệu vận hành khác. Nó cũng tích hợp với AWS Lambda, cung cấp khả năng phản hồi nhanh chóng đối với các sự kiện hoạt động quan trọng.",
+        "links": [
+          {
+            "title": "Amazon Cloudwatch Logs",
+            "url": "https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/WhatIsCloudWatchLogs.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "fkMF-2PQZ00UdwxhQt1ds",
+      "type": "topic",
+      "label": "RDS (Relational Database Service)",
+      "position": {
+        "x": -188.93031923911371,
+        "y": 2003.150459128501
+      },
+      "size": {
+        "width": 79,
+        "height": 48
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Amazon RDS (Dịch vụ Cơ sở dữ liệu Tương đối) là một dịch vụ web từ Amazon Web Services. Nó được thiết kế để đơn giản hóa việc cài đặt, vận hành và mở rộng quy mô cơ sở dữ liệu tương đối trong đám mây. Dịch vụ này cung cấp dung lượng có thể mở rộng theo chi phí hiệu quả cho một cơ sở dữ liệu tương đối tiêu chuẩn và quản lý các tác vụ quản trị cơ sở dữ liệu phổ biến. RDS hỗ trợ sáu động cơ cơ sở dữ liệu: Amazon Aurora, PostgreSQL, MySQL, MariaDB, Oracle Database và SQL Server. Các động cơ này cung cấp cho bạn khả năng chạy các phiên bản từ 5GB đến 6TB bộ nhớ, đáp ứng nhu cầu sử dụng cụ thể của bạn. Nó cũng đảm bảo rằng cơ sở dữ liệu luôn được cập nhật với các bản vá mới nhất, tự động sao lưu dữ liệu của bạn và cung cấp mã hóa khi đang nghỉ và trong quá trình truyền tải.",
+        "links": [
+          {
+            "title": "Amazon RDS",
+            "url": "https://aws.amazon.com/rds/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "l9oq3LiEd8ZrPtupPk-Fn",
+      "type": "subtopic",
+      "label": "Các phiên bản cơ sở dữ liệu (DB)",
+      "position": {
+        "x": -188.93031923911371,
+        "y": 2098.504462165696
+      },
+      "size": {
+        "width": 148,
+        "height": 48
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Thuật ngữ \"DB Instance\" được sử dụng trong bối cảnh của Amazon Relational Database Service (RDS). Một DB Instance về cơ bản là một môi trường database cô lập trên đám mây, chạy trong Amazon RDS. Một DB Instance có thể chứa nhiều cơ sở dữ liệu do người dùng tạo và có thể truy cập bằng các công cụ và ứng dụng tương tự như bạn sử dụng với một instance database độc lập. Bạn có thể tạo và quản lý một DB Instance thông qua AWS Management Console, AWS RDS Command Line Interface hoặc thông qua các cuộc gọi API đơn giản.",
+        "links": [
+          {
+            "title": "Các phiên bản cơ sở dữ liệu (DB) - RDS",
+            "url": "https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Overview.DBInstance.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Xs057ESpvxXg2r_rDQnOa",
+      "type": "subtopic",
+      "label": "Các loại lưu trữ",
+      "position": {
+        "x": -188.93031923911371,
+        "y": 2152.504462165696
+      },
+      "size": {
+        "width": 154,
+        "height": 48
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "AWS RDS cung cấp ba loại lưu trữ: Mục đích chung (SSD), IOPS được chỉ định (SSD) và Magnetic. Lưu trữ Mục đích chung (SSD) cung cấp một mức baseline nhất quán của 3 IOPS/GB và có thể tăng lên đến 3.000 IOPS. Nó phù hợp với nhiều loại công việc cơ sở dữ liệu khác nhau có yêu cầu I/O vừa phải. Lưu trữ IOPS được chỉ định (SSD) được thiết kế để đáp ứng nhu cầu của các công việc I/O-tăng cường, đặc biệt là các công việc cơ sở dữ liệu nhạy cảm về hiệu suất và tính nhất quán lưu trữ. Lưu trữ Magnetic, loại rẻ nhất, hoàn hảo cho các ứng dụng mà chi phí lưu trữ thấp nhất là quan trọng và tốt nhất cho dữ liệu ít truy cập.",
+        "links": [
+          {
+            "title": "Các loại lưu trữ RDS",
+            "url": "https://aws.amazon.com/rds/instance-types/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tBKc7tHOiJaTmwEl3q--Y",
+      "type": "subtopic",
+      "label": "Sao lưu / Khôi phục",
+      "position": {
+        "x": -188.93031923911371,
+        "y": 2206.504462165696
+      },
+      "size": {
+        "width": 180,
+        "height": 48
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`Backup Restore` trong AWS RDS cung cấp khả năng khôi phục instance DB của bạn đến một thời điểm cụ thể. Khi bạn khởi tạo khôi phục theo thời điểm, một instance DB mới sẽ được tạo và tất cả các giao dịch xảy ra sau thời điểm đã chỉ định không thuộc về instance DB mới. Bạn có thể khôi phục lên đến thời gian khôi phục cuối cùng (thường trong vòng 5 phút gần nhất) như được chỉ ra trong AWS RDS Management Console. Thời gian để tạo ra bản khôi phục phụ thuộc vào sự khác biệt về thời gian giữa khi bạn khởi tạo bản khôi phục và thời điểm bạn đang khôi phục đến. Quá trình này diễn ra mà không ảnh hưởng đến cơ sở dữ liệu nguồn và bạn có thể tiếp tục sử dụng cơ sở dữ liệu của mình trong quá trình khôi phục.",
+        "links": [
+          {
+            "title": "Sao lưu & Khôi phục - RDS",
+            "url": "https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_CommonTasks.BackupRestore.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "uo5HIyePegnJooortvWLu",
+      "type": "subtopic",
+      "label": "Mục đích chung",
+      "position": {
+        "x": 64.39816984499672,
+        "y": 2098.1759730815857
+      },
+      "size": {
+        "width": 189,
+        "height": 48
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Lưu trữ mục đích chung trong AWS đề cập đến các khối lưu trữ Amazon Elastic Block Store (Amazon EBS) được thiết kế cho nhiều loại công việc khác nhau, bao gồm cơ sở dữ liệu nhỏ và vừa, môi trường phát triển và kiểm thử, cũng như ổ đĩa khởi động. Các khối lưu trữ SSD mục đích chung (gp2) cung cấp dung lượng lưu trữ chi phí thấp, lý tưởng cho nhiều loại công việc giao dịch và mang lại hiệu suất nền tảng nhất quán là 3 IOPS/GB đến tối đa 16000 IOPS. Hơn nữa, các khối lưu trữ SSD mục đích chung (gp2) cũng cung cấp khả năng tăng đột biến hiệu suất khi cần thiết.",
+        "links": [
+          {
+            "title": "Lưu trữ mục đích chung",
+            "url": "https://aws.amazon.com/ebs/general-purpose/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3l1ji4JToj277vpgONmLw",
+      "type": "subtopic",
+      "label": "Dành chỗ IOPS (Provisioned IOPS)",
+      "position": {
+        "x": 64.39816984499672,
+        "y": 2151.1759730815857
+      },
+      "size": {
+        "width": 189,
+        "height": 48
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "\"IOPS được dự заявлен\" là một tùy chọn lưu trữ có sẵn trong Amazon Web Services' (AWS) Elastic Block Store (EBS). Tùy chọn này được thiết kế để cung cấp hiệu suất I/O nhanh, nhất quán và có thể đoán trước. Nó cho phép bạn chỉ định tỷ lệ IOPS khi tạo một khối và AWS sẽ dự заявлен tỷ lệ đó của hiệu suất, do đó tên gọi. Nó chủ yếu phù hợp với các cơ sở dữ liệu và các khối lượng công việc yêu cầu IOPS cao. Một khối EBS với IOPS được dự заявлен sử dụng ổ thể rắn (SSDs) và bạn có thể chỉ định tối đa 64.000 IOPS trên một khối.",
+        "links": [
+          {
+            "title": "Dành chỗ IOPS (Provisioned IOPS)",
+            "url": "https://docs.aws.amazon.com/ebs/latest/userguide/provisioned-iops.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "y0CoNcEFHyz350f7pNddt",
+      "type": "subtopic",
+      "label": "Từ từ",
+      "position": {
+        "x": 64.39816984499672,
+        "y": 2204.1759730815857
+      },
+      "size": {
+        "width": 189,
+        "height": 48
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "\"Magnetic\" trong AWS đề cập đến Lưu trữ Magnetic, cũng được biết là Amazon EBS Magnetic volumes. Những loại lưu trữ này được thiết kế cho các khối lượng công việc nơi dữ liệu được truy cập không thường xuyên và các kịch bản nơi chi phí lưu trữ thấp nhất là quan trọng. Các khối lưu trữ Magnetic cung cấp chi phí lưu trữ hiệu quả cho các ứng dụng có yêu cầu I/O vừa phải hoặc gián đoạn. Mặc dù lưu trữ Magnetic cung cấp chi phí trên mỗi gigabyte thấp nhất của tất cả các loại khối EBS, nhưng nó có khả năng hiệu suất kém nhất và độ trễ cao hơn so với các tùy chọn ổ thể rắn.",
+        "links": [
+          {
+            "title": "Bộ nhớ Từ từ",
+            "url": "https://aws.amazon.com/ebs/previous-generation/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "wGb0TEDnSe_bmv9Krx4qB",
+      "type": "topic",
+      "label": "DynamoDB",
+      "position": {
+        "x": 322.66835944985576,
+        "y": 2003.150459128501
+      },
+      "size": {
+        "width": 131,
+        "height": 48
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Amazon DynamoDB là một giải pháp cơ sở dữ liệu NoSQL được quản lý đầy đủ cung cấp hiệu suất nhanh chóng và có thể dự đoán được với khả năng mở rộng liền mạch. Nó là một cơ sở dữ liệu khóa-giá trị và tài liệu mang lại hiệu suất ở hàng nghìn giây (single-digit millisecond) tại bất kỳ quy mô nào. DynamoDB có thể xử lý hơn 10 nghìn tỷ yêu cầu mỗi ngày và hỗ trợ đỉnh của hơn 20 triệu yêu cầu trên mỗi giây. Nó duy trì độ bền dữ liệu cao thông qua sao chép tự động trên ba khu vực khác nhau trong một khu vực được AWS xác định.",
+        "links": [
+          {
+            "title": "Amazon DynamoDB",
+            "url": "https://aws.amazon.com/dynamodb/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "DN_iuLo9gYDqU8JleE1WJ",
+      "type": "subtopic",
+      "label": "Bảng / Mục / Thuộc tính",
+      "position": {
+        "x": 577.6102695476429,
+        "y": 1894.8292772405568
+      },
+      "size": {
+        "width": 308,
+        "height": 48
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Trong Amazon DynamoDB, bảng là một tập hợp các item. Một item là một nhóm thuộc tính được xác định bởi khóa chính. Các item tương tự như hàng hoặc bản ghi trong các hệ thống cơ sở dữ liệu khác. Mỗi item trong một bảng có thể được xác định duy nhất bằng khóa chính. Khóa này có thể đơn giản (chỉ khóa phân vùng) hoặc phức tạp (khóa phân vùng và khóa sắp xếp). Mỗi thuộc tính trong một item là một cặp tên-giá trị. Tên của thuộc tính là một chuỗi và giá trị của thuộc tính có thể là một trong các loại sau: String, Number, Binary, Boolean, Null, List, Map, Set of Strings, Set of Numbers, Set of Binaries.",
+        "links": [
+          {
+            "title": "Amazon DynamoDB",
+            "url": "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/WorkingWithItems.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "oWtWgaFznTPJhQIyfIIQf",
+      "type": "subtopic",
+      "label": "Chính khóa / Chỉ mục thứ cấp",
+      "position": {
+        "x": 577.6102695476429,
+        "y": 1947.8292772405568
+      },
+      "size": {
+        "width": 308,
+        "height": 48
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "DynamoDB hỗ trợ hai loại khóa chính, cụ thể là `Partition Key` và `Composite Key` (Partition Key và Sort Key). Một `Partition Key`, còn được gọi là hash key, là khóa chính đơn giản có giá trị scalar (một chuỗi, một số hoặc một blob nhị phân). DynamoDB sử dụng giá trị của partition key để phân phối dữ liệu trên nhiều partitions để đạt hiệu suất mở rộng. Một `Composite Key` bao gồm hai thuộc tính. Thuộc tính đầu tiên là partition key và thuộc tính thứ hai là sort key. DynamoDB sử dụng partition key để phân phối dữ liệu trên partitions và cũng sử dụng sort key để lưu trữ các mục theo thứ tự đã sắp xếp trong các partitions đó. Sort key này cung cấp khả kiểm soát chi tiết hơn đối với việc tổ chức dữ liệu.",
+        "links": [
+          {
+            "title": "Chính khóa / Chỉ mục thứ cấp",
+            "url": "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/SecondaryIndexes.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "aU1lv80xXNkQTD41Qfln5",
+      "type": "subtopic",
+      "label": "Mô hình hóa dữ liệu",
+      "position": {
+        "x": 577.6102695476429,
+        "y": 2001.6040196516922
+      },
+      "size": {
+        "width": 308,
+        "height": 48
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Trong AWS DynamoDB, mô hình dữ liệu là một quy trình liên quan đến việc xác định cách tổ chức, truy cập và hiểu dữ liệu được lưu trữ trong cơ sở dữ liệu. Quy trình này rất quan trọng vì nó xác định cách dữ liệu sẽ được lưu trữ và truy cập trên nhiều loại cơ sở dữ liệu và ứng dụng khác nhau. Các thành phần chính của mô hình dữ liệu trong DynamoDB bao gồm bảng, mục (item) và thuộc tính (attribute). Bảng là tập hợp dữ liệu. Mục là các khối dữ liệu riêng lẻ được lưu trữ trong một bảng. Thuộc tính là các yếu tố dữ liệu liên quan đến một mục cụ thể. DynamoDB sử dụng mô hình NoSQL, nghĩa là nó không có lược đồ (schema-less), tức là dữ liệu có thể được cấu trúc theo bất kỳ cách nào mà nhu cầu kinh doanh của bạn quy định và có thể thay đổi bất cứ lúc nào. Điều này trái ngược với các cơ sở dữ liệu quan hệ truyền thống, vốn yêu cầu lược đồ đã xác định trước.",
+        "links": [
+          {
+            "title": "Mô hình hóa dữ liệu",
+            "url": "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/data-modeling.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "0C3GCGdSXozJK2MNeWerg",
+      "type": "subtopic",
+      "label": "Dòng dữ liệu",
+      "position": {
+        "x": 743.1117309868763,
+        "y": 2001.6040196516922
+      },
+      "size": {
+        "width": 308,
+        "height": 48
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "AWS DynamoDB Streams là một chuỗi thứ tự thời gian của các thay đổi cấp mục trong bất kỳ bảng DynamoDB nào. Khi bạn bật luồng trên một bảng, DynamoDB ghi lại thông tin về mọi thay đổi đối với các phần tử dữ liệu trong bảng. Các thay đổi được ghi lại theo thời gian thực gần và có thể được thiết lập để kích hoạt các hàm AWS Lambda ngay sau khi một sự kiện xảy ra. Với DynamoDB Streams, ứng dụng có thể truy cập nhật ký này và xem lịch sử sửa đổi dữ liệu theo thứ tự chúng đã xảy ra. Luồng ghi lại dữ liệu thay đổi cấp mục như ‘Insert’, ‘Modify’ và ‘Remove’. Mỗi bản ghi luồng sau đó được tổ chức thành loại view luồng, nơi các ứng dụng có thể truy cập lịch sử sửa đổi dữ liệu lên đến 24 giờ.",
+        "links": [
+          {
+            "title": "Dòng dữ liệu",
+            "url": "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Streams.Lambda.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "KtXww9J0znwzTwL7GKfaY",
+      "type": "subtopic",
+      "label": "Cài đặt Dung lượng",
+      "position": {
+        "x": 577.6102695476429,
+        "y": 2055.10765283861
+      },
+      "size": {
+        "width": 308,
+        "height": 48
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Cài đặt dung lượng của Amazon DynamoDB đề cập đến khả năng đọc và ghi của các bảng của bạn. Đơn vị dung lượng đọc là một thước đo số lượng đọc nhất quán mạnh mẽ trên mỗi giây, trong khi đơn vị dung lượng ghi là một thước đo số lượng ghi trên mỗi giây. Bạn có thể thiết lập các khả năng này theo định sẵn hoặc theo yêu cầu. Dung lượng định sẵn là nơi bạn chỉ định số lượng đọc và ghi trên mỗi giây mà ứng dụng của bạn dự kiến sẽ cần. Mặt khác, dung lượng theo yêu cầu cho phép DynamoDB tự quản lý khả năng đọc và ghi của bạn để đáp ứng nhu cầu của khối lượng công việc.",
+        "links": [
+          {
+            "title": "Cài đặt Dung lượng",
+            "url": "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/capacity-mode.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "0ctJa-V6aenimSr5h303J",
+      "type": "subtopic",
+      "label": "Giới hạn",
+      "position": {
+        "x": 577.6102695476429,
+        "y": 2109.5480604087024
+      },
+      "size": {
+        "width": 308,
+        "height": 48
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Về DynamoDB, điều quan trọng là phải nhận thức được một số giới hạn. Có hai loại chế độ dung lượng - đã định trước (provisioned) và theo yêu cầu (on-demand), với các đơn vị khả năng đọc/ghi khác nhau. Bạn có quyền kiểm soát việc cấp phát thông lượng cho các hoạt động đọc/ghi. Tuy nhiên, có giới hạn tối đa là 40000 đơn vị khả năng đọc và 40000 đơn vị khả năng ghi cho chế độ on-demand trên mỗi bảng. Cũng cần lưu ý rằng giá trị khóa phân vùng và giá trị khóa sắp xếp có thể tối đa là 2048 byte và 1024 byte tương ứng. Mỗi mục, bao gồm khóa chính, có thể tối đa là 400KB. Tổng thông lượng đã định trước cho tất cả các bảng và chỉ mục thứ hai toàn cầu trong một khu vực không được vượt quá 20000 đơn vị khả năng ghi và 20000 đơn vị khả năng đọc cho chế độ on-demand. Hãy nhớ rằng, bạn có thể yêu cầu tăng giới hạn này bằng cách liên hệ với AWS Support.",
+        "links": [
+          {
+            "title": "Cài đặt Giới hạn",
+            "url": "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/ServiceQuotas.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "NWvasq-AcwxmOKZPDv3ue",
+      "type": "subtopic",
+      "label": "Sao lưu / Khôi phục",
+      "position": {
+        "x": 699.6102695476429,
+        "y": 2109.5480604087024
+      },
+      "size": {
+        "width": 308,
+        "height": 48
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Trong AWS, DynamoDB có hỗ trợ tích hợp sẵn cho các tính năng sao lưu và khôi phục dữ liệu. Điều này bao gồm cả sao lưu theo yêu cầu và liên tục. Sao lưu theo yêu cầu cho phép bạn tạo các bản sao hoàn chỉnh của bảng để lưu trữ lâu dài và lưu trữ, giúp đáp ứng các yêu cầu về quy định của công ty và chính phủ. Sao lưu liên tục cho phép bạn khôi phục dữ liệu bảng của mình đến bất kỳ thời điểm nào trong 35 ngày qua, do đó mang lại sự bảo vệ khỏi các ghi hoặc xóa vô tình. Trong quá trình hoạt động khôi phục, bạn có thể chọn khôi phục dữ liệu đến một DynamoDB bảng mới hoặc ghi đè dữ liệu trong một bảng hiện có. Các bản sao lưu này bao gồm tất cả các metadata cần thiết, bao gồm các chỉ mục thứ cấp toàn cầu của DynamoDB.",
+        "links": [
+          {
+            "title": "Sao lưu & Khôi phục",
+            "url": "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Backup-and-Restore.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "yauCWo1VoG-X483-4mfdn",
+      "type": "subtopic",
+      "label": "DynamoDB Local",
+      "position": {
+        "x": 578.5489426991847,
+        "y": 2164.4361419227207
+      },
+      "size": {
+        "width": 308,
+        "height": 48
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "DynamoDB Local là một phiên bản có thể tải xuống của Amazon DynamoDB cho phép bạn viết và thử nghiệm ứng dụng mà không cần truy cập các dịch vụ AWS thực. Nó mô phỏng dịch vụ DynamoDB thực tế. Bạn có thể viết mã trong một nơi mà không có kết nối internet vì bạn không cần kết nối internet để sử dụng DynamoDB Local. Nó hỗ trợ cùng API với DynamoDB và hoạt động với các cuộc gọi API DynamoDB hiện có của bạn. Dữ liệu được lưu trữ cục bộ trên hệ thống của bạn, chứ không phải trên mạng và tồn tại giữa các lần khởi động lại của DynamoDB Local.",
+        "links": [
+          {
+            "title": "DynamoDB Local",
+            "url": "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DynamoDBLocal.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "9TcYdsdmvKWWHoyE6uNbC",
+      "type": "topic",
+      "label": "ElastiCache",
+      "position": {
+        "x": 542.6102695476429,
+        "y": 2351.1759730815857
+      },
+      "size": {
+        "width": 136,
+        "height": 48
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Amazon ElastiCache là một kho lưu trữ dữ liệu trong bộ nhớ được quản lý đầy đủ từ Amazon Web Services (AWS). Nó được thiết kế để tăng tốc các ứng dụng web động bằng cách giảm độ trễ và giới hạn thông lượng liên quan đến cơ sở dữ liệu dựa trên đĩa. ElastiCache hỗ trợ hai máy trình duyệt trong bộ nhớ mã nguồn mở: Memcached và Redis. Redis thường được sử dụng cho bộ nhớ cache, quản lý phiên, nhắn tin và xếp hàng, trong khi Memcached thường được sử dụng để lưu trữ bộ dữ liệu nhỏ hơn, đơn giản hơn. Một trong những tính năng chính của ElastiCache là hiệu suất và khả năng mở rộng đồng nhất, cho phép nó xử lý các bộ dữ liệu lớn và các trang web có lưu lượng truy cập cao.",
+        "links": [
+          {
+            "title": "Amazon ElastiCache",
+            "url": "https://docs.aws.amazon.com/AmazonElastiCache/latest/dg/WhatIs.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PYgs4niQRlLKCBMfM4qf9",
+      "type": "subtopic",
+      "label": "Giới hạn",
+      "position": {
+        "x": 542.6102695476429,
+        "y": 2254.504462165696
+      },
+      "size": {
+        "width": 99,
+        "height": 48
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Giới hạn ElastiCache của AWS xác định giới hạn về số lượng tối đa các cụm, nút, nhóm tham số và nhóm subnet mà bạn có thể tạo trong một tài khoản AWS. Các giới hạn này khác nhau tùy theo khu vực và có thể được tăng lên theo yêu cầu đến nhóm dịch vụ AWS. Giới hạn ElastiCache được thực thi để ngăn chặn việc tiêu thụ tài nguyên không xác định. Điều quan trọng là phải theo dõi mức sử dụng hiện tại của bạn và hiểu các giới hạn của tài khoản của bạn để quản lý hiệu quả tài nguyên ElastiCache của bạn.",
+        "links": [
+          {
+            "title": "Amazon ElastiCache Quotas",
+            "url": "https://docs.aws.amazon.com/AmazonElastiCache/latest/red-ug/quota-limits.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "_c_Wq84yIu4ac7e0RzDtC",
+      "type": "topic",
+      "label": "ECR",
+      "position": {
+        "x": 768.7221880336245,
+        "y": 2351.1759730815857
+      },
+      "size": {
+        "width": 79,
+        "height": 48
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "AWS Elastic Container Registry (ECR) là một bộ nhớ container Docker được quản lý hoàn toàn giúp các nhà phát triển dễ dàng lưu trữ, quản lý và triển khai hình ảnh container Docker. ECR loại bỏ nhu cầu vận hành các kho lưu trữ container riêng hoặc lo lắng về việc mở rộng cơ sở hạ tầng cơ bản. ECR lưu trữ hình ảnh của bạn trong một kiến trúc có sẵn và khả năng mở rộng cao, cho phép bạn triển khai container đáng tin cậy cho các ứng dụng của mình. Tích hợp với AWS Identity and Access Management (IAM) cung cấp kiểm soát cấp tài nguyên đối với mỗi kho lưu trữ.",
+        "links": [
+          {
+            "title": "AWS Elastic Container Registry (ECR)",
+            "url": "https://aws.amazon.com/ecr/",
+            "type": "official"
+          },
+          {
+            "title": "Các khái niệm của Amazon ECR",
+            "url": "https://docs.aws.amazon.com/AmazonECR/latest/userguide/concept-and-components.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "EqUT0wpdPRDGtGAZ7nneY",
+      "type": "topic",
+      "label": "ECS",
+      "position": {
+        "x": 768.7221880336245,
+        "y": 2497.4586513526738
+      },
+      "size": {
+        "width": 77,
+        "height": 48
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Amazon Elastic Container Service (ECS) là một dịch vụ điều phối container có khả năng mở rộng cao, hiệu suất cao hỗ trợ container Docker và cho phép bạn dễ dàng chạy và mở rộng quy mô các ứng dụng được đóng gói bằng container trên AWS. ECS loại bỏ nhu cầu phải cài đặt, vận hành và mở rộng quy mô cơ sở hạ tầng quản lý cụm của riêng bạn. Với các cuộc gọi API đơn giản, bạn có thể khởi động và dừng các ứng dụng được kích hoạt Docker, truy vấn trạng thái đầy đủ của ứng dụng và truy cập nhiều tính năng quen thuộc như nhóm bảo mật EC2, khối lượng EBS và vai trò IAM. ECS cũng tích hợp với các dịch vụ AWS như AWS App Mesh cho mạng lưới dịch vụ, Amazon RDS cho dịch vụ cơ sở dữ liệu và AWS Systems Manager để kiểm soát vận hành.",
+        "links": [
+          {
+            "title": "Amazon Elastic Container Service (ECS)",
+            "url": "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/Welcome.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PphzNicIJawVElmY5rn8f",
+      "type": "subtopic",
+      "label": "Nhóm / Đại lý Container ECS",
+      "position": {
+        "x": 557.2221880336245,
+        "y": 2601.2494287730437
+      },
+      "size": {
+        "width": 296,
+        "height": 48
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Trong AWS, một ECS **Cluster** là một nhóm logic của các tác vụ hoặc dịch vụ. Nếu bạn chạy các tác vụ hoặc tạo các dịch vụ, bạn sẽ làm điều đó bên trong một cluster, vì vậy nó là một khối xây dựng quan trọng của cơ sở hạ tầng Amazon ECS. Nó đóng vai trò là không gian tên cho các tác vụ và dịch vụ của bạn, vì các thực thể này không thể lan ra ngoài nhiều cluster. Các tác vụ ECS của Amazon chạy trong một cluster được phân phối trên tất cả các Container Instance trong một ECS Cluster.",
+        "links": [
+          {
+            "title": "Nhóm (Clusters)",
+            "url": "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/clusters.html",
+            "type": "official"
+          },
+          {
+            "title": "ECS Container Agents",
+            "url": "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/ecs-agent-config.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1lHXxpoF11yE3rfoQCbTG",
+      "type": "subtopic",
+      "label": "Nhiệm vụ",
+      "position": {
+        "x": 558.2221880336245,
+        "y": 2654.2494287730437
+      },
+      "size": {
+        "width": 87,
+        "height": 48
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Các tác vụ trong Amazon ECS là việc tạo ra một định nghĩa tác vụ (task definition) trong một cụm (cluster). Chúng có thể được xem như phiên bản đang chạy của định nghĩa đó, tương tự như một đối tượng là một phiên bản của một lớp trong lập trình hướng đối tượng. Một định nghĩa tác vụ là một tệp văn bản ở định dạng JSON mô tả một hoặc nhiều container, tối đa 10 container. Các tham số định nghĩa tác vụ xác định hình ảnh container cần sử dụng, lượng CPU và bộ nhớ được phân bổ cho mỗi container, loại khởi động (launch type) để sử dụng cho tác vụ, cùng với các tùy chọn khác. Khi một tác vụ được khởi chạy, nó sẽ được lên lịch trên một phiên bản container khả dụng trong cụm.",
+        "links": [
+          {
+            "title": "Các tác vụ trong ECS",
+            "url": "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/task_definitions.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "zSiSbIdBgFLBBAnp4I9vX",
+      "type": "subtopic",
+      "label": "Dịch vụ",
+      "position": {
+        "x": 734.2221880336245,
+        "y": 2654.2494287730437
+      },
+      "size": {
+        "width": 110,
+        "height": 48
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Dịch vụ AWS ECS được định nghĩa là một tập hợp các phần hoặc toàn bộ định nghĩa tác vụ chạy và duy trì một số lượng xác định của các phiên bản tác vụ đồng thời trong một cụm Amazon ECS. Nếu bất kỳ tác vụ nào gặp sự cố hoặc dừng lại vì bất kỳ lý do gì, trình điều phối dịch vụ AWS ECS sẽ khởi động một phiên bản khác của định nghĩa tác vụ để thay thế nó và duy trì số lượng tác vụ mong muốn, đảm bảo độ tin cậy và khả dụng của dịch vụ. Dịch vụ ECS có thể được mở rộng thủ công hoặc với các chính sách mở rộng tự động dựa trên cảnh báo CloudWatch. Ngoài ra, tùy chọn lên lịch dịch vụ ECS xác định cách Amazon ECS đặt và chấm dứt các tác vụ.",
+        "links": [
+          {
+            "title": "Dịch vụ trong ECS",
+            "url": "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/ecs_services.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1r2FL3OEOh0S9ee0OVnrN",
+      "type": "subtopic",
+      "label": "Cấu hình Khởi chạy / Nhóm Tăng trưởng Tự động",
+      "position": {
+        "x": 557.2221880336245,
+        "y": 2707.2494287730437
+      },
+      "size": {
+        "width": 320,
+        "height": 48
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`Launch Configuration` là một mẫu mà một nhóm Auto Scaling sử dụng để khởi động instance EC2. Khi bạn tạo một Launch Configuration, bạn chỉ định thông tin cho các instance như ID của Amazon Machine Image (AMI), loại instance, khóa cặp, một hoặc nhiều nhóm bảo mật và bản ánh xạ thiết bị khối. Nếu bạn đã khởi động một instance trước đó, bạn có thể chỉ định cùng các tham số cho Launch Configuration của mình. Bất kỳ tham số nào bạn không chỉ định sẽ tự động được điền bằng giá trị mặc định mà trình trợ lý khởi tạo đặt ra.",
+        "links": [
+          {
+            "title": "Cấu hình Khởi chạy trong EC2",
+            "url": "https://docs.aws.amazon.com/autoscaling/ec2/userguide/launch-configurations.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "OI8y54RhFpfS_l1L9VTZe",
+      "type": "subtopic",
+      "label": "Fargate",
+      "position": {
+        "x": 557.2221880336245,
+        "y": 2760.2494287730437
+      },
+      "size": {
+        "width": 104,
+        "height": 48
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Fargate là một công nghệ được sử dụng để triển khai container trong Dịch vụ Container Elasti của Amazon (ECS). Công nghệ này loại bỏ hoàn toàn nhu cầu quản lý các phiên bản EC2 cho cơ sở hạ tầng của bạn; do đó, bạn sẽ không cần phải lo lắng về việc chọn đúng loại phiên bản EC2, quyết định khi nào mở rộng cụm của bạn hoặc tối ưu hóa việc đóng gói cụm. Về cơ bản, Fargate cho phép bạn tập trung vào thiết kế và xây dựng các ứng dụng của mình thay vì quản lý cơ sở hạ tầng.",
+        "links": [
+          {
+            "title": "Amazon Fargate",
+            "url": "https://aws.amazon.com/fargate/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "kvHzEDZQV72AUjqisg8PB",
+      "type": "topic",
+      "label": "EKS",
+      "position": {
+        "x": 322.66835944985576,
+        "y": 2497.4586513526738
+      },
+      "size": {
+        "width": 76,
+        "height": 48
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Amazon Elastic Kubernetes Service (EKS) là một dịch vụ được quản lý đơn giản hóa việc triển khai, quản lý và mở rộng quy mô các ứng dụng được đóng gói bằng Kubernetes, một nền tảng điều phối container mã nguồn mở. EKS quản lý bộ điều khiển Kubernetes cho người dùng, giúp dễ dàng chạy các ứng dụng Kubernetes mà không cần gánh nặng vận hành của việc duy trì bộ điều khiển Kubernetes. Với EKS, bạn có thể tận dụng các dịch vụ AWS như Nhóm quy mô tự động, Cân bằng tải Elastic và Route 53 để xây dựng cơ sở hạ tầng ứng dụng bền vững và mở rộng quy mô. Ngoài ra, EKS có thể hỗ trợ việc sử dụng phiên Spot và On-Demand, đồng thời bao gồm tích hợp với dịch vụ AWS App Mesh và AWS Fargate cho tính toán không máy chủ.",
+        "links": [
+          {
+            "title": "Amazon Elastic Kubernetes Service (EKS)",
+            "url": "https://aws.amazon.com/eks/",
+            "type": "official"
+          },
+          {
+            "title": "Các khái niệm về Amazon EKS",
+            "url": "https://docs.aws.amazon.com/eks/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "741vsAPTXJLVUlazFg0q4",
+      "type": "topic",
+      "label": "Lambda",
+      "position": {
+        "x": 322.66835944985576,
+        "y": 2622.4586513526738
+      },
+      "size": {
+        "width": 106,
+        "height": 48
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "AWS Lambda là một dịch vụ tính toán không máy chủ chạy mã khi có sự kiện và tự động quản lý các tài nguyên tính toán cần thiết cho mã đó. Nó cho phép chúng ta chạy ứng dụng và dịch vụ mà không cần suy nghĩ về máy chủ. Bạn có thể thực thi mã ứng dụng phía sau, chạy mã phản hồi các yêu cầu HTTP bằng Amazon API Gateway hoặc gọi các hàm của bạn bằng các cuộc gọi API được thực hiện bằng AWS SDKs. AWS Lambda tự động mở rộng ứng dụng của bạn khi có các yêu cầu đến. AWS Lambda hỗ trợ mã Java, Go, PowerShell, Node.js, C#, Python và Ruby, đồng thời cung cấp một API Thời gian chạy cho phép bạn sử dụng bất kỳ ngôn ngữ lập trình bổ sung nào để viết các hàm của mình.",
+        "links": [
+          {
+            "title": "AWS Lambda",
+            "url": "https://docs.aws.amazon.com/lambda/latest/dg/welcome.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "SdCNevKjyhFcreMSWY6BT",
+      "type": "subtopic",
+      "label": "Tạo / Gọi hàm",
+      "position": {
+        "x": -188.82566712696647,
+        "y": 2515.42666297887
+      },
+      "size": {
+        "width": 271,
+        "height": 48
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Để tạo một hàm Lambda trong AWS, hãy điều hướng đến AWS Management Console, chọn \"Lambda\" dưới mục \"Compute\" và sau đó \"Create function\". Xác định tên hàm, vai trò thực thi và môi trường runtime. Sau khi hàm được tạo, bạn có thể viết hoặc dán mã vào trình chỉnh sửa inline. Để gọi một hàm Lambda, bạn có thể làm điều này thủ công, thông qua API Gateway hoặc lên lịch. Gọi thủ công có thể được thực hiện bằng cách chọn hàm của bạn trong AWS Console, sau đó \"Test\", thêm JSON sự kiện và \"Test\" lại. Nếu được thiết lập với API Gateway, nó sẽ được kích hoạt khi các điểm cuối được truy cập. Lên lịch bao gồm việc sử dụng AWS Cloudwatch để kích hoạt các hàm định kỳ.",
+        "links": [
+          {
+            "title": "Tạo hàm Lambda đầu tiên",
+            "url": "https://docs.aws.amazon.com/lambda/latest/dg/getting-started.html",
+            "type": "official"
+          },
+          {
+            "title": "Hàm AWS Lambda đầu tiên",
+            "url": "https://www.youtube.com/watch?v=e1tkFsFOBHA",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "CL93C0NGFQmScVnftnRtO",
+      "type": "subtopic",
+      "label": "Lớp",
+      "position": {
+        "x": -188.82566712696647,
+        "y": 2569.42666297887
+      },
+      "size": {
+        "width": 94,
+        "height": 48
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Các lớp AWS Lambda là cơ chế phân phối cho thư viện, thời gian chạy tùy chỉnh và các phụ thuộc chức năng khác. Nói cách khác, chúng là một cơ chế phân phối cho các tệp tin. Các lớp có thể được phiên bản hóa và mỗi phiên bản đều không thay đổi. Một lớp AWS Lambda là một tệp ZIP chứa các thư viện, một thời gian chạy tùy chỉnh hoặc các phụ thuộc khác. Các hàm Lambda có thể được cấu hình để tham chiếu các lớp này. Lớp sau đó được trích xuất vào thư mục `/opt` trong môi trường thực thi chức năng. Mỗi thời gian chạy sẽ tìm kiếm các thư viện ở vị trí khác nhau dưới thư mục `/opt`, tùy thuộc vào ngôn ngữ.",
+        "links": [
+          {
+            "title": "Các lớp AWS Lambda",
+            "url": "https://docs.aws.amazon.com/lambda/latest/dg/chapter-layers.html",
+            "type": "official"
+          },
+          {
+            "title": "Tạo và sử dụng các lớp Lambda",
+            "url": "https://www.youtube.com/watch?v=jyuZDkiHe2Q",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "KWjIAakMIlxn_jso22h0M",
+      "type": "subtopic",
+      "label": "Thời gian chạy tùy chỉnh",
+      "position": {
+        "x": -83.82566712696647,
+        "y": 2569.42666297887
+      },
+      "size": {
+        "width": 180,
+        "height": 48
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "AWS Lambda hỗ trợ nhiều thời gian chạy được cấu hình trước để bạn lựa chọn, bao gồm Node.js, Java, Ruby, Python và Go. Tuy nhiên, nếu ngôn ngữ lập trình hoặc phiên bản ngôn ngữ ưa thích của bạn không được hỗ trợ một cách native, bạn có thể sử dụng **các thời gian chạy tùy chỉnh**. Một thời gian chạy tùy chỉnh trong AWS Lambda là một tệp thực thi Linux xử lý các cuộc gọi và giao tiếp với dịch vụ Lambda. Nó cho phép bạn sử dụng bất kỳ ngôn ngữ lập trình nào để xử lý các sự kiện AWS Lambda. Thời gian chạy chịu trách nhiệm chạy bootstrap, đó là một tệp thực thi, để bắt đầu môi trường thực thi quá trình, xử lý các yêu cầu đến và quản lý tương tác giữa mã hàm của bạn và cơ sở hạ tầng.",
+        "links": [
+          {
+            "title": "Các thời gian chạy AWS Lambda",
+            "url": "https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "75ZjuGozDfoZPLj32P2t2",
+      "type": "subtopic",
+      "label": "Phiên bản / Biệt danh",
+      "position": {
+        "x": -188.82566712696647,
+        "y": 2622.6897546984715
+      },
+      "size": {
+        "width": 196,
+        "height": 48
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Trong AWS Lambda, **Phiên bản** cung cấp một cách để quản lý các phiên bản riêng biệt và tách rời của một hàm Lambda, cho phép giảm thiểu rủi ro và các chu kỳ phát triển hiệu quả hơn. Ngược lại, một **Alias** là một con trỏ đến một phiên bản Lambda cụ thể. Các alias có thể thay đổi; chúng có thể được liên kết lại với một phiên bản khác, biểu hiện một hình thức linh hoạt. Với các alias, bạn có thể tránh cập nhật trực tiếp các trigger sự kiện hoặc dịch vụ phụ thuộc mà chúng có thể trỏ đến một alias và phiên bản tương ứng có thể được cập nhật, do đó tách biệt các thay đổi cơ sở hạ tầng/mã.",
+        "links": [
+          {
+            "title": "Phiên bản AWS Lambda",
+            "url": "https://docs.aws.amazon.com/lambda/latest/dg/configuration-aliases.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "0CUfDEMwCwSHVdqkP8lOG",
+      "type": "subtopic",
+      "label": "Event Bridge / Lập lịch Thực thi",
+      "position": {
+        "x": -188.3779931830401,
+        "y": 2674.8554606797597
+      },
+      "size": {
+        "width": 323,
+        "height": 48
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Amazon EventBridge là một bus sự kiện không máy chủ cho phép bạn dễ dàng kết nối các ứng dụng lại với nhau bằng dữ liệu từ các ứng dụng của riêng bạn, các ứng dụng Dịch vụ phần mềm (SaaS) và các dịch vụ AWS. Nó cho phép bạn xây dựng cầu nối giữa các ứng dụng của mình, bất kể chúng ở đâu. Với EventBridge, bạn chỉ cần thu nhận, lọc, chuyển đổi và cung cấp các sự kiện. Nó đơn giản hóa quá trình thu thập và cung cấp các sự kiện trên toàn bộ kiến trúc ứng dụng của bạn, đồng thời xử lý quản lý sự kiện. EventBridge kết hợp tất cả các chức năng của CloudWatch Events với các tính năng mới và cải tiến.",
+        "links": [
+          {
+            "title": "Amazon EventBridge",
+            "url": "https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-what-is.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "EuOv19jDSj56Cy7PqvtNv",
+      "type": "subtopic",
+      "label": "Khởi động lạnh và Hạn chế",
+      "position": {
+        "x": -188.3779931830401,
+        "y": 2728.8554606797597
+      },
+      "size": {
+        "width": 242,
+        "height": 48
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Cold start của AWS Lambda đề cập đến độ trễ được trải nghiệm khi Lambda gọi một hàm lần đầu tiên hoặc sau khi nó đã cập nhật mã hoặc phụ thuộc của mình. Điều này xảy ra vì Lambda cần thực hiện một số thiết lập ban đầu, chẳng hạn như khởi tạo thời gian chạy, trước khi có thể thực thi mã hàm. Quá trình thiết lập này làm tăng thời gian thực thi của hàm và đặc biệt dễ nhận thấy trong các tình huống mà độ trễ thấp là rất quan trọng. Thời gian cold start cũng khác nhau dựa trên kích thước bộ nhớ, với các hàm Lambda lớn hơn sẽ mất nhiều thời gian hơn để khởi động. Hơn nữa, các hàm không được sử dụng có thể gặp phải một cold start lại khi AWS có thể dọn dẹp tài nguyên không hoạt động theo thời gian.",
+        "links": [
+          {
+            "title": "AWS Cold Start và Giới hạn",
+            "url": "https://docs.aws.amazon.com/lambda/latest/dg/snapstart.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "T0dvezPWX6rAiKweT0TkG",
+      "type": "subtopic",
+      "label": "Cổng API",
+      "position": {
+        "x": -188.82566712696647,
+        "y": 2782.8554606797597
+      },
+      "size": {
+        "width": 141,
+        "height": 48
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "API Gateway của AWS là một dịch vụ được quản lý hoàn toàn cho phép bạn dễ dàng tạo, xuất bản, bảo trì, giám sát và bảo mật các API ở bất kỳ quy mô nào. Nó đóng vai trò là “cổng thông” để các ứng dụng truy cập dữ liệu, logic nghiệp vụ hoặc chức năng từ các dịch vụ backend của bạn, chẳng hạn như các khối lượng công việc chạy trên Amazon EC2, AWS Lambda hoặc bất kỳ ứng dụng web nào. API Gateway xử lý tất cả các tác vụ liên quan đến việc chấp nhận và xử lý hàng trăm nghìn cuộc gọi API đồng thời, bao gồm quản lý lưu lượng truy cập, xác thực và kiểm soát truy cập, giới hạn tốc độ, và quản lý phiên bản API. Nó cung cấp khả năng mạnh mẽ, tích hợp sẵn để cung cấp các khả năng quản trị API và quản lý vòng đời mà doanh nghiệp của bạn cần để sản phẩm hóa các API của mình.",
+        "links": [
+          {
+            "title": "Cổng API AWS",
+            "url": "https://aws.amazon.com/api-gateway/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5SF5nO94NFDkHY8UJoeAY",
+      "type": "subtopic",
+      "label": "Lambda@Edge",
+      "position": {
+        "x": -40.825667126966465,
+        "y": 2782.8554606797597
+      },
+      "size": {
+        "width": 163,
+        "height": 48
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Lambda Edge là một tính năng của AWS Lambda cho phép bạn chạy các hàm mã tại các vị trí biên của AWS, gần với khách hàng nhất. Điều này có thể dẫn đến thời gian phản hồi thấp hơn và trải nghiệm tốt hơn cho khách hàng. Nó cho phép bạn tùy chỉnh nội dung mà CloudFront cung cấp bằng cách thực thi mã sau phản hồi hoặc yêu cầu CloudFront. Lambda@Edge tự động mở rộng quy mô, từ vài yêu cầu mỗi ngày đến hàng ngàn yêu cầu mỗi giây.",
+        "links": [
+          {
+            "title": "AWS Lambda Edge",
+            "url": "https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/lambda-at-the-edge.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ef-jFKMs8jw3Ti94jem96",
+      "type": "vertical",
+      "label": "nút dọc",
+      "position": {
+        "x": 380.2071705605491,
+        "y": 3006.9444507362514
+      },
+      "size": {
+        "width": 21,
+        "height": 74
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "zFgnu2fL0EUKIMz9tVH1j",
+      "type": "topic",
+      "label": "Cloudfront",
+      "position": {
+        "x": 322.16835944985576,
+        "y": 2352.1759730815857
+      },
+      "size": {
+        "width": 124,
+        "height": 48
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Amazon CloudFront là mạng phân phối nội dung nhanh (CDN) dịch vụ mà an toàn cung cấp dữ liệu, video, ứng dụng và API đến khách hàng trên toàn thế giới với độ trễ thấp, tốc độ truyền tải cao tất cả trong một môi trường thân thiện với nhà phát triển. Nó tích hợp với các dịch vụ AWS bao gồm AWS Shield để giảm thiểu DDoS, Amazon S3, Elastic Load Balancing hoặc Amazon EC2 làm nguồn gốc cho ứng dụng của bạn và Lambda@Edge để chạy mã tùy chỉnh gần hơn người dùng và để tùy chỉnh trải nghiệm người dùng. Về cơ bản, nó tăng tốc quá trình phân phối nội dung web tĩnh và động của bạn, chẳng hạn như .html, .css, .php, hình ảnh và tệp phương tiện, đến người dùng cuối.",
+        "links": [
+          {
+            "title": "Amazon Cloudfront",
+            "url": "https://aws.amazon.com/cloudfront/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "fAK7GRKunmoidlD32OBma",
+      "type": "subtopic",
+      "label": "Phân phối (Distributions)",
+      "position": {
+        "x": 44.398169844996715,
+        "y": 2299.1759730815857
+      },
+      "size": {
+        "width": 172,
+        "height": 48
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Trong AWS, một CloudFront \"distribution\" là hệ thống mạng phân phối trên toàn cầu giúp bạn tăng tốc độ giao hàng cho trang web, API, nội dung video hoặc tài sản web khác. Các bản phân phối này được AWS xác định dựa trên cài đặt cấu hình đã chỉ định. Nó xác định từ đâu CloudFront lấy các tệp mà nó sẽ phân phối, chủ yếu là bucket Amazon S3 của bạn hoặc một máy chủ HTTP. Lệch đáng kể, có hai loại bản phân phối chính bạn có thể tạo: các bản phân phối web, thường được sử dụng cho trang web và các bản phân phối RTMP, chủ yếu được sử dụng để phát trực tuyến phương tiện.",
+        "links": [
+          {
+            "title": "Phân phối Cloudfront",
+            "url": "https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/distribution-working-with.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dO9ZfUyNia7L_fCh4d0n7",
+      "type": "subtopic",
+      "label": "Chính sách",
+      "position": {
+        "x": 44.398169844996715,
+        "y": 2352.1759730815857
+      },
+      "size": {
+        "width": 172,
+        "height": 48
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Amazon CloudFront hoạt động với AWS Identity and Access Management (IAM) và AWS Organizations để cung cấp cho bạn các tùy chọn để triển khai kiểm soát truy cập chi tiết đối với các phân phối CloudFront của bạn. Các chính sách CloudFront cho phép bạn chỉ định quyền của một tài nguyên. Bạn có thể tạo một chính sách để cho phép người dùng IAM tạo hoặc xóa phân phối, để cho phép một tài khoản AWS tạo một danh tính truy cập nguồn gốc CloudFront hoặc để cho phép một tổ chức cập nhật cài đặt cho một phân phối. Bạn cũng có thể sử dụng các chính sách để chỉ định Amazon S3 bucket mà một phân phối CloudFront có thể truy cập.",
+        "links": [
+          {
+            "title": "Cloudfront IAM",
+            "url": "https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/security-iam.html",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hRXbAADgRTXEFwbBXeNu7",
+      "type": "subtopic",
+      "label": "Không hợp lệ (Invalidations)",
+      "position": {
+        "x": 44.398169844996715,
+        "y": 2405.1759730815857
+      },
+      "size": {
+        "width": 172,
+        "height": 48
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`Invalidations` trong AWS CloudFront là một khái niệm về việc xóa các tệp (đối tượng) khỏi bộ nhớ đệm CloudFront trước khi chúng đạt đến thời hạn hết hiệu lực. AWS CloudFront, giống như bất kỳ CDN nào khác, lưu trữ bản sao của các tệp tĩnh trên trang web của bạn trong bộ nhớ cache cho đến khi và trừ khi nó đạt đến thời gian tồn tại (TTL) được chỉ định. Nhưng trong một số tình huống, bạn có thể muốn xóa hoặc thay thế các tệp này. Ví dụ, đó có thể là thay đổi trong các tệp CSS hoặc JS. Đây là lúc Invalidations xuất hiện. Với điều này, bạn có thể ngay lập tức xóa các đối tượng hoặc tệp từ các vị trí biên.",
+        "links": [
+          {
+            "title": "Cloudfront không hợp lệ",
+            "url": "https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Invalidation.html",
+            "type": "official"
+          }
+        ]
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "xy-edge__Ji35JsKgUQXN4DJGEgTACx2-jrH1qE6EnFXL4fTyYU8gRw1",
+      "source": "Ji35JsKgUQXN4DJGEgTAC",
+      "target": "Py9nst2FDJ1_hoXeX_qSF",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__jrH1qE6EnFXL4fTyYU8gRz2-74JxgfJ_1qmVNZ_QRp9Ney1",
+      "source": "Py9nst2FDJ1_hoXeX_qSF",
+      "target": "74JxgfJ_1qmVNZ_QRp9Ne",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__jrH1qE6EnFXL4fTyYU8gRz2-i4ijY3T5gLgNz0XqRipXey1",
+      "source": "Py9nst2FDJ1_hoXeX_qSF",
+      "target": "i4ijY3T5gLgNz0XqRipXe",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__jrH1qE6EnFXL4fTyYU8gRz2-43drPbTwPqJQPyzwYUdBTy2",
+      "source": "Py9nst2FDJ1_hoXeX_qSF",
+      "target": "3hatcMVLDbMuz73uTx-9P",
+      "source_handle": "z2",
+      "target_handle": "y2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__Py9nst2FDJ1_hoXeX_qSFz2-Dg1v9TV-wGSNLPfAals_yy2",
+      "source": "Py9nst2FDJ1_hoXeX_qSF",
+      "target": "Dg1v9TV-wGSNLPfAals_y",
+      "source_handle": "z2",
+      "target_handle": "y2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__Py9nst2FDJ1_hoXeX_qSFx2-kcBGBLPuZkuI-Omv8mOe7w1",
+      "source": "Py9nst2FDJ1_hoXeX_qSF",
+      "target": "kcBGBLPuZkuI-Omv8mOe7",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__kcBGBLPuZkuI-Omv8mOe7x2-741vsAPTXJLVUlazFg0q4w1",
+      "source": "kcBGBLPuZkuI-Omv8mOe7",
+      "target": "cL7vis8H5L2vv6LqJ5wvC",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__741vsAPTXJLVUlazFg0q4x2-VHD2ISW9WoSWjp8Hh6Zftw1",
+      "source": "cL7vis8H5L2vv6LqJ5wvC",
+      "target": "VHD2ISW9WoSWjp8Hh6Zft",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__cL7vis8H5L2vv6LqJ5wvCz2-741vsAPTXJLVUlazFg0q4y1",
+      "source": "cL7vis8H5L2vv6LqJ5wvC",
+      "target": "Sv2aT8eI1RvJhvoKVYQEX",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__741vsAPTXJLVUlazFg0q4x2-2hFBv2fhKDYBN-9ITs82Jw2",
+      "source": "Sv2aT8eI1RvJhvoKVYQEX",
+      "target": "2hFBv2fhKDYBN-9ITs82J",
+      "source_handle": "x2",
+      "target_handle": "w2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__eQAn3e-k9WNufPqOnwY_Ky2-v_YmmlOk-DkzJ8mI5Ftgrz1",
+      "source": "eQAn3e-k9WNufPqOnwY_K",
+      "target": "v_YmmlOk-DkzJ8mI5Ftgr",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__eQAn3e-k9WNufPqOnwY_Ky2-cwGuOrmbSTcSoH80skLTkz2",
+      "source": "eQAn3e-k9WNufPqOnwY_K",
+      "target": "cwGuOrmbSTcSoH80skLTk",
+      "source_handle": "y2",
+      "target_handle": "z2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__741vsAPTXJLVUlazFg0q4y2-eQAn3e-k9WNufPqOnwY_Kz1",
+      "source": "xmKeB4hEi2DunmhAsvS1X",
+      "target": "eQAn3e-k9WNufPqOnwY_K",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__7nI202hX41mI5ms9LZonhy2-i7X1GfOx5AZYFskepW4Zrz1",
+      "source": "7nI202hX41mI5ms9LZonh",
+      "target": "i7X1GfOx5AZYFskepW4Zr",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__7nI202hX41mI5ms9LZonhy2-0IMdO7g_5El1elvDXJJ_0z1",
+      "source": "7nI202hX41mI5ms9LZonh",
+      "target": "0IMdO7g_5El1elvDXJJ_0",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__Sv2aT8eI1RvJhvoKVYQEXz2-741vsAPTXJLVUlazFg0q4w1",
+      "source": "Sv2aT8eI1RvJhvoKVYQEX",
+      "target": "xmKeB4hEi2DunmhAsvS1X",
+      "source_handle": "z2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "smoothstep",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__xmKeB4hEi2DunmhAsvS1Xx2-741vsAPTXJLVUlazFg0q4w2",
+      "source": "xmKeB4hEi2DunmhAsvS1X",
+      "target": "dOAZG-NbjWiVdPKYEhWxj",
+      "source_handle": "x2",
+      "target_handle": "w2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__dOAZG-NbjWiVdPKYEhWxjy2-741vsAPTXJLVUlazFg0q4z2",
+      "source": "dOAZG-NbjWiVdPKYEhWxj",
+      "target": "PN3xAYfQ-_QgZCRCnsEca",
+      "source_handle": "y2",
+      "target_handle": "z2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__741vsAPTXJLVUlazFg0q4x2-rTgjDj5HqbjRpcJ7PR-ECw1",
+      "source": "PN3xAYfQ-_QgZCRCnsEca",
+      "target": "rTgjDj5HqbjRpcJ7PR-EC",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__PN3xAYfQ-_QgZCRCnsEcay2-741vsAPTXJLVUlazFg0q4z1",
+      "source": "PN3xAYfQ-_QgZCRCnsEca",
+      "target": "-bwXo6xvF1yzyWEm5oZhJ",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__741vsAPTXJLVUlazFg0q4z2-IQhPG1La7dZeSXnX23D1ny2",
+      "source": "f89qL7Cg9R_LTxBEG4jUK",
+      "target": "IQhPG1La7dZeSXnX23D1n",
+      "source_handle": "z2",
+      "target_handle": "y2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__741vsAPTXJLVUlazFg0q4z2-z-o-2cGYSM6KW_CNJyw3py1",
+      "source": "f89qL7Cg9R_LTxBEG4jUK",
+      "target": "z-o-2cGYSM6KW_CNJyw3p",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__741vsAPTXJLVUlazFg0q4z2-LXG_znJ3XzPAlDxUH2-Xpy1",
+      "source": "f89qL7Cg9R_LTxBEG4jUK",
+      "target": "LXG_znJ3XzPAlDxUH2-Xp",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__741vsAPTXJLVUlazFg0q4z2-tHQ6NRVDPCPEOmzgjQDLXy1",
+      "source": "VAYxwJH10PFjGS8poKd9-",
+      "target": "tHQ6NRVDPCPEOmzgjQDLX",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__741vsAPTXJLVUlazFg0q4z2-2vQPmVNk1QpMM-15RKG8by1",
+      "source": "VAYxwJH10PFjGS8poKd9-",
+      "target": "2vQPmVNk1QpMM-15RKG8b",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__741vsAPTXJLVUlazFg0q4z2-oC6KIjWAXw0hLl4FwkB9Fy1",
+      "source": "VAYxwJH10PFjGS8poKd9-",
+      "target": "oC6KIjWAXw0hLl4FwkB9F",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__Xs057ESpvxXg2r_rDQnOaz2-3l1ji4JToj277vpgONmLwy2",
+      "source": "Xs057ESpvxXg2r_rDQnOa",
+      "target": "3l1ji4JToj277vpgONmLw",
+      "source_handle": "z2",
+      "target_handle": "y2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__Xs057ESpvxXg2r_rDQnOaz2-uo5HIyePegnJooortvWLuy2",
+      "source": "Xs057ESpvxXg2r_rDQnOa",
+      "target": "uo5HIyePegnJooortvWLu",
+      "source_handle": "z2",
+      "target_handle": "y2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__Xs057ESpvxXg2r_rDQnOaz2-y0CoNcEFHyz350f7pNddty2",
+      "source": "Xs057ESpvxXg2r_rDQnOa",
+      "target": "y0CoNcEFHyz350f7pNddt",
+      "source_handle": "z2",
+      "target_handle": "y2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__fkMF-2PQZ00UdwxhQt1dsz2-741vsAPTXJLVUlazFg0q4y1",
+      "source": "fkMF-2PQZ00UdwxhQt1ds",
+      "target": "wGb0TEDnSe_bmv9Krx4qB",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__741vsAPTXJLVUlazFg0q4z2-aU1lv80xXNkQTD41Qfln5y1",
+      "source": "wGb0TEDnSe_bmv9Krx4qB",
+      "target": "aU1lv80xXNkQTD41Qfln5",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__741vsAPTXJLVUlazFg0q4z2-oWtWgaFznTPJhQIyfIIQfy1",
+      "source": "wGb0TEDnSe_bmv9Krx4qB",
+      "target": "oWtWgaFznTPJhQIyfIIQf",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__741vsAPTXJLVUlazFg0q4z2-DN_iuLo9gYDqU8JleE1WJy1",
+      "source": "wGb0TEDnSe_bmv9Krx4qB",
+      "target": "DN_iuLo9gYDqU8JleE1WJ",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__741vsAPTXJLVUlazFg0q4z2-KtXww9J0znwzTwL7GKfaYy2",
+      "source": "wGb0TEDnSe_bmv9Krx4qB",
+      "target": "KtXww9J0znwzTwL7GKfaY",
+      "source_handle": "z2",
+      "target_handle": "y2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__741vsAPTXJLVUlazFg0q4z2-0ctJa-V6aenimSr5h303Jy1",
+      "source": "wGb0TEDnSe_bmv9Krx4qB",
+      "target": "0ctJa-V6aenimSr5h303J",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__741vsAPTXJLVUlazFg0q4z2-yauCWo1VoG-X483-4mfdny1",
+      "source": "wGb0TEDnSe_bmv9Krx4qB",
+      "target": "yauCWo1VoG-X483-4mfdn",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__741vsAPTXJLVUlazFg0q4y2-75ZjuGozDfoZPLj32P2t2z1",
+      "source": "741vsAPTXJLVUlazFg0q4",
+      "target": "75ZjuGozDfoZPLj32P2t2",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__741vsAPTXJLVUlazFg0q4y2-KWjIAakMIlxn_jso22h0Mz1",
+      "source": "741vsAPTXJLVUlazFg0q4",
+      "target": "KWjIAakMIlxn_jso22h0M",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__741vsAPTXJLVUlazFg0q4y2-SdCNevKjyhFcreMSWY6BTz1",
+      "source": "741vsAPTXJLVUlazFg0q4",
+      "target": "SdCNevKjyhFcreMSWY6BT",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__741vsAPTXJLVUlazFg0q4y2-0CUfDEMwCwSHVdqkP8lOGz1",
+      "source": "741vsAPTXJLVUlazFg0q4",
+      "target": "0CUfDEMwCwSHVdqkP8lOG",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__741vsAPTXJLVUlazFg0q4y2-EuOv19jDSj56Cy7PqvtNvz1",
+      "source": "741vsAPTXJLVUlazFg0q4",
+      "target": "EuOv19jDSj56Cy7PqvtNv",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__741vsAPTXJLVUlazFg0q4y2-5SF5nO94NFDkHY8UJoeAYz1",
+      "source": "741vsAPTXJLVUlazFg0q4",
+      "target": "5SF5nO94NFDkHY8UJoeAY",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__wGb0TEDnSe_bmv9Krx4qBx2-zFgnu2fL0EUKIMz9tVH1jw2",
+      "source": "wGb0TEDnSe_bmv9Krx4qB",
+      "target": "zFgnu2fL0EUKIMz9tVH1j",
+      "source_handle": "x2",
+      "target_handle": "w2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__zFgnu2fL0EUKIMz9tVH1jz2-9TcYdsdmvKWWHoyE6uNbCy1",
+      "source": "zFgnu2fL0EUKIMz9tVH1j",
+      "target": "9TcYdsdmvKWWHoyE6uNbC",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__zFgnu2fL0EUKIMz9tVH1jy2-dO9ZfUyNia7L_fCh4d0n7z1",
+      "source": "zFgnu2fL0EUKIMz9tVH1j",
+      "target": "dO9ZfUyNia7L_fCh4d0n7",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__zFgnu2fL0EUKIMz9tVH1jy2-fAK7GRKunmoidlD32OBmaz1",
+      "source": "zFgnu2fL0EUKIMz9tVH1j",
+      "target": "fAK7GRKunmoidlD32OBma",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__zFgnu2fL0EUKIMz9tVH1jy2-hRXbAADgRTXEFwbBXeNu7z1",
+      "source": "zFgnu2fL0EUKIMz9tVH1j",
+      "target": "hRXbAADgRTXEFwbBXeNu7",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__9TcYdsdmvKWWHoyE6uNbCw2-PYgs4niQRlLKCBMfM4qf9x1",
+      "source": "9TcYdsdmvKWWHoyE6uNbC",
+      "target": "PYgs4niQRlLKCBMfM4qf9",
+      "source_handle": "w2",
+      "target_handle": "x1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__9TcYdsdmvKWWHoyE6uNbCz2-_c_Wq84yIu4ac7e0RzDtCy1",
+      "source": "9TcYdsdmvKWWHoyE6uNbC",
+      "target": "_c_Wq84yIu4ac7e0RzDtC",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge___c_Wq84yIu4ac7e0RzDtCx2-EqUT0wpdPRDGtGAZ7nneYw2",
+      "source": "_c_Wq84yIu4ac7e0RzDtC",
+      "target": "EqUT0wpdPRDGtGAZ7nneY",
+      "source_handle": "x2",
+      "target_handle": "w2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__EqUT0wpdPRDGtGAZ7nneYy2-kvHzEDZQV72AUjqisg8PBz2",
+      "source": "EqUT0wpdPRDGtGAZ7nneY",
+      "target": "kvHzEDZQV72AUjqisg8PB",
+      "source_handle": "y2",
+      "target_handle": "z2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__kvHzEDZQV72AUjqisg8PBx2-741vsAPTXJLVUlazFg0q4w1",
+      "source": "kvHzEDZQV72AUjqisg8PB",
+      "target": "741vsAPTXJLVUlazFg0q4",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    }
+  ],
+  "content_crawled_at": "2026-04-06T08:48:05.152557+00:00"
+}

@@ -1,0 +1,4813 @@
+{
+  "id": "cloudflare",
+  "title": "Cloudflare",
+  "source_url": "https://roadmap.sh/cloudflare",
+  "github_url": "https://github.com/kamranahmedse/developer-roadmap/tree/master/src/data/roadmaps/cloudflare",
+  "crawled_at": "2026-04-06T07:36:20.604578+00:00",
+  "type": "flow",
+  "stats": {
+    "total_nodes": 119,
+    "total_edges": 73,
+    "nodes_with_content": 97
+  },
+  "node_types": [
+    "button",
+    "horizontal",
+    "label",
+    "linksgroup",
+    "paragraph",
+    "section",
+    "subtopic",
+    "title",
+    "topic",
+    "vertical"
+  ],
+  "edge_styles": [
+    "dashed",
+    "solid"
+  ],
+  "edge_line_types": [
+    "default",
+    "simplebezier",
+    "smoothstep"
+  ],
+  "node_type_description": {
+    "title": "Tiêu đề chính của lộ trình",
+    "topic": "Chủ đề lớn (nhóm kỹ năng)",
+    "subtopic": "Kỹ năng/công nghệ cụ thể cần học",
+    "paragraph": "Vùng văn bản mô tả / chú thích",
+    "vertical": "Visual Connection"
+  },
+  "edge_style_description": {
+    "solid": "Kỹ năng bắt buộc / quan trọng",
+    "dashed": "Lựa chọn / gợi ý / phương án thay thế"
+  },
+  "nodes": [
+    {
+      "id": "82oZ5FJok15X5aetL1UaA",
+      "type": "horizontal",
+      "label": "nút ngang",
+      "position": {
+        "x": -8.952745032276027,
+        "y": 1189.4754953712302
+      },
+      "size": {
+        "width": 174,
+        "height": 20
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.75
+      },
+      "z_index": 999
+    },
+    {
+      "id": "8BW3ScLDYa_4DkBksLlJM",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": -256.51237120830484,
+        "y": 1274.8942173748287
+      },
+      "size": {
+        "width": 229,
+        "height": 104
+      },
+      "style": {
+        "width": 150,
+        "height": 100,
+        "fontSize": 17
+      },
+      "z_index": -999
+    },
+    {
+      "id": "kJXPzUulKPhawgbEK7n9l",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": 468.5985688843266,
+        "y": 413.00061202347564
+      },
+      "size": {
+        "width": 286,
+        "height": 431
+      },
+      "style": {
+        "width": 150,
+        "height": 100,
+        "fontSize": 17,
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "7kxbi3VJONZHcjRNhrnTH",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": 120.89946958507927,
+        "y": 80.88749407694564
+      },
+      "size": {
+        "width": 658,
+        "height": 276
+      },
+      "style": {
+        "width": 150,
+        "height": 100,
+        "fontSize": 17,
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "c58fcsthBlVfzfr-MHdpF",
+      "type": "vertical",
+      "label": "nút theo chiều dọc",
+      "position": {
+        "x": 231.89029212267985,
+        "y": -109.59925177765109
+      },
+      "size": {
+        "width": 21,
+        "height": 66
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "Ji35JsKgUQXN4DJGEgTAC",
+      "type": "title",
+      "label": "Cloudflare",
+      "position": {
+        "x": 157.39029212267985,
+        "y": -44.59925177765109
+      },
+      "size": {
+        "width": 170,
+        "height": 68
+      },
+      "style": {
+        "fontSize": 28,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "PcYnYAAkKMbzoiCnBfjqO",
+      "type": "subtopic",
+      "label": "JavaScript Fundamentals",
+      "position": {
+        "x": 133.39946958507926,
+        "y": 134.38749407694564
+      },
+      "size": {
+        "width": 299,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "JavaScript là một ngôn ngữ lập trình đa năng, cấp cao được sử dụng chủ yếu để thêm tính tương tác và các tính năng động vào trang web. Nó chạy trong trình duyệt, cho phép lập trình client-side có thể thao tác với HTML và CSS, phản hồi sự kiện của người dùng và tương tác với các API web. JavaScript là một ngôn ngữ cốt lõi cho Cloudflare Workers, cho phép bạn viết các hàm serverless chạy trên mạng lưới biên của Cloudflare. Bạn sẽ sử dụng nó để chặn và sửa đổi các yêu cầu và phản hồi HTTP, tùy chỉnh hành vi trang web và xây dựng các ứng dụng động. Hiểu biết về các nguyên tắc cơ bản của JavaScript như biến, hàm, lập trình bất đồng bộ (Promises, async/await) và thao tác DOM là rất quan trọng đối với việc phát triển Cloudflare Workers hiệu quả. Bạn cũng có thể sử dụng TypeScript, biên dịch sang JavaScript, mang lại lợi ích của kiểu tĩnh.",
+        "links": [
+          {
+            "title": "Truy cập Bản đồ Đường đi Đặt Mục cho JavaScript",
+            "url": "https://dev-path-murex.vercel.app/roadmap/javascript",
+            "type": "roadmap"
+          },
+          {
+            "title": "JavaScript · Cloudflare Workers",
+            "url": "https://developers.cloudflare.com/workers/languages/javascript/",
+            "type": "official"
+          },
+          {
+            "title": "JavaScript Fundamentals",
+            "url": "https://developer.mozilla.org/en-US/curriculum/core/javascript-fundamentals/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q9oQTt_NqhdWvJfA5XH1V",
+      "type": "subtopic",
+      "label": "Kiến thức cơ bản về dòng lệnh",
+      "position": {
+        "x": 133.39946958507926,
+        "y": 187.38749407694564
+      },
+      "size": {
+        "width": 299,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Việc biết các lệnh dòng lệnh cơ bản là điều cần thiết, không phải khi làm việc với Cloudflare mà còn cũng như một nhà phát triển. Hãy tìm hiểu về cách điều hướng thư mục, quản lý tệp tin, chỉnh sửa văn bản, quản lý gói,...",
+        "links": [
+          {
+            "title": "Wrangler là tiện ích dòng lệnh (CLI) của Cloudflare",
+            "url": "https://developers.cloudflare.com/workers/wrangler/",
+            "type": "official"
+          },
+          {
+            "title": "Primer dòng lệnh cho Người mới bắt đầu",
+            "url": "https://lifehacker.com/a-command-line-primer-for-beginners-5633909",
+            "type": "article"
+          },
+          {
+            "title": "Command Line cho Người mới bắt đầu",
+            "url": "https://thelinuxcode.com/command-line-for-beginners-how-to-use-the-terminal-like-a-pro/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "9iSdASlRxyod9YwZ2IUry",
+      "type": "subtopic",
+      "label": "Giao thức HTTP và Web",
+      "position": {
+        "x": 133.39946958507926,
+        "y": 240.38749407694564
+      },
+      "size": {
+        "width": 299,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Việc hiểu biết về giao thức HTTP và web là rất quan trọng để tận dụng các tính năng của Cloudflare. Các phương pháp HTTP (GET, POST), mã trạng thái, tiêu đề, cơ chế bộ nhớ cache ảnh hưởng trực tiếp đến cách Cloudflare tương tác với ứng dụng của bạn. Cloudflare hỗ trợ các giao thức hiện đại như HTTP/2 và HTTP/3, cải thiện hiệu suất. Việc làm quen với TLS/SSL là rất quan trọng để truyền thông tin an toàn và các khái niệm như CORS (Chia sẻ tài nguyên gốc chéo) có liên quan khi xử lý yêu cầu API. Các tính năng của Cloudflare, chẳng hạn như quy tắc bộ nhớ cache và quy tắc trang, hoạt động dựa trên các giao thức này.",
+        "links": [
+          {
+            "title": "HTTP là gì?",
+            "url": "https://www.cloudflare.com/en-gb/learning/ddos/glossary/hypertext-transfer-protocol-http/",
+            "type": "article"
+          },
+          {
+            "title": "Tổng quan về HTTP",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C08pIguX1N45Iw0kh0Fvu",
+      "type": "subtopic",
+      "label": "Git Cơ bản",
+      "position": {
+        "x": 133.39946958507926,
+        "y": 293.3874940769456
+      },
+      "size": {
+        "width": 299,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Git là một hệ thống kiểm soát phiên bản phân tán được thiết kế để xử lý các dự án có bất kỳ kích thước nào với tốc độ và hiệu quả. Được Linus Torvalds tạo ra vào năm 2005, nó theo dõi các thay đổi trong mã nguồn trong quá trình phát triển phần mềm, cho phép nhiều nhà phát triển làm việc cùng nhau trên các quy trình phát triển phi tuyến tính. Git duy trì một lịch sử đầy đủ của tất cả các thay đổi, cho phép khôi phục dễ dàng và so sánh giữa các phiên bản. Bản chất phân tán của nó có nghĩa là mỗi nhà phát triển đều có bản sao đầy đủ của kho lưu trữ, cho phép làm việc ngoại tuyến và sao lưu. Các tính năng chính của Git bao gồm khả năng nhánh và hợp nhất, khu vực staging để commit và hỗ trợ các quy trình làm việc cộng tác như yêu cầu pull. Tốc độ, tính linh hoạt và khả năng nhánh và hợp nhất mạnh mẽ của nó đã khiến nó trở thành hệ thống kiểm soát phiên bản được sử dụng rộng rãi nhất trong phát triển phần mềm, đặc biệt là cho các dự án mã nguồn mở và cộng tác nhóm.",
+        "links": [
+          {
+            "title": "Truy cập Bản đồ Đường đi Đặt Mục cho Git & GitHub",
+            "url": "https://dev-path-murex.vercel.app/roadmap/git-github",
+            "type": "roadmap"
+          },
+          {
+            "title": "Tích hợp Git - Cloudflare Pages",
+            "url": "https://developers.cloudflare.com/pages/configuration/git-integration/",
+            "type": "official"
+          },
+          {
+            "title": "Tài liệu Git",
+            "url": "https://git-scm.com/doc",
+            "type": "official"
+          },
+          {
+            "title": "Git Cheat Sheet",
+            "url": "https://cs.fyi/guide/git-cheatsheet",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dSBYTGGkol3MAXyg7G7_J",
+      "type": "subtopic",
+      "label": "Node.js và NPM",
+      "position": {
+        "x": 442.39946958507926,
+        "y": 136.38749407694564
+      },
+      "size": {
+        "width": 324,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Node.js là một môi trường chạy (runtime environment) và thư viện nguồn mở, đa nền tảng được sử dụng để chạy các ứng dụng web bên ngoài trình duyệt của khách hàng. Nó được sử dụng cho lập trình phía máy chủ, và chủ yếu triển khai cho các máy chủ phi chặn sự kiện (non-blocking, event-driven), chẳng hạn như các trang web truyền thống và dịch vụ API phía sau, nhưng ban đầu được thiết kế với kiến trúc dựa trên đẩy theo thời gian thực (real-time, push-based architectures) trong tâm trí. Mỗi trình duyệt đều có một phiên bản riêng của máy trình biên dịch JavaScript, và node.js được xây dựng trên động cơ V8 JavaScript của Google Chrome. npm (Node Package Manager) là trình quản lý gói tiêu chuẩn cho Node.js. Nó bao gồm hai thứ: trước hết, đó là một kho lưu trữ trực tuyến để xuất bản các dự án Node.js nguồn mở; thứ hai, nó là tiện ích dòng lệnh để tương tác với kho lưu trữ này, giúp cài đặt gói, quản lý phiên bản và quản lý phụ thuộc.",
+        "links": [
+          {
+            "title": "Truy cập Bản đồ Đường đi Đặt Mục cho Node.js",
+            "url": "https://dev-path-murex.vercel.app/roadmap/nodejs",
+            "type": "roadmap"
+          },
+          {
+            "title": "Tài liệu Node.js",
+            "url": "https://nodejs.org/en/",
+            "type": "official"
+          },
+          {
+            "title": "NPM",
+            "url": "https://www.docs.npmjs.com/",
+            "type": "official"
+          },
+          {
+            "title": "Giới thiệu về NPM",
+            "url": "https://nodejs.org/en/learn/getting-started/an-introduction-to-the-npm-package-manager",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "zR84MFLL6y0dygz9hXXPA",
+      "type": "subtopic",
+      "label": "TypeScript Cơ bản",
+      "position": {
+        "x": 442.39946958507926,
+        "y": 189.38749407694564
+      },
+      "size": {
+        "width": 324,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "TypeScript là một tập hợp mở rộng của JavaScript, thêm kiểu tĩnh. Nó cải thiện khả năng bảo trì mã và giảm thiểu lỗi bằng cách phát hiện các vấn đề liên quan đến kiểu loại trong quá trình phát triển. Đối với Cloudflare Workers, TypeScript có thể cải thiện trải nghiệm phát triển. Bạn định nghĩa kiểu cho các biến, tham số hàm và giá trị trả về, làm cho mã dễ dự đoán hơn. Mã TypeScript biên dịch thành JavaScript trước khi triển khai lên Cloudflare Workers. Sử dụng TypeScript cho phép sử dụng tốt hơn công cụ, hoàn thành tự động và tái cấu trúc, dẫn đến các ứng dụng serverless mạnh mẽ và có khả năng mở rộng hơn.",
+        "links": [
+          {
+            "title": "Truy cập Bản đồ Đường đi Đặt Mục cho TypeScript",
+            "url": "https://dev-path-murex.vercel.app/roadmap/typescript",
+            "type": "roadmap"
+          },
+          {
+            "title": "Tài liệu TypeScript",
+            "url": "https://www.typescriptlang.org/docs/",
+            "type": "official"
+          },
+          {
+            "title": "Sách hướng dẫn TypeScript",
+            "url": "https://www.typescriptlang.org/docs/handbook/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Isl5anwDvb1MacA-JH4ej",
+      "type": "subtopic",
+      "label": "Hiểu về Kiến trúc Serverless",
+      "position": {
+        "x": 442.39946958507926,
+        "y": 242.38749407694564
+      },
+      "size": {
+        "width": 324,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Kiến trúc Không máy chủ cho phép bạn chạy mã mà không cần quản lý máy chủ, và Cloudflare Workers là một triển khai chính của nó. Với Cloudflare Workers, bạn triển khai các hàm JavaScript/TypeScript lên mạng lưới biên Cloudflare, nơi chúng thực thi khi phản hồi các yêu cầu HTTP. Không máy chủ có nghĩa là bạn không cấp phát hoặc bảo trì máy chủ; Cloudflare xử lý khả năng mở rộng và cơ sở hạ tầng. Mô hình này cho phép triển khai nhanh hơn, định giá theo mức sử dụng, và giảm chi phí vận hành. Bạn tập trung vào mã, trong khi Cloudflare quản lý cơ sở hạ tầng cơ bản, làm cho nó trở nên lý tưởng để xây dựng các ứng dụng hiệu suất cao và có khả năng mở rộng.",
+        "links": [
+          {
+            "title": "Kiến trúc Serverless là gì?",
+            "url": "https://cloud.google.com/discover/what-is-serverless-architecture",
+            "type": "article"
+          },
+          {
+            "title": "Máy tính Không Máy Chủ là gì? – Giải thích Máy tính Không Máy Chủ",
+            "url": "https://aws.amazon.com/what-is/serverless-computing/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "L3L2_HrESg8SuStKNID8l",
+      "type": "label",
+      "label": "Yêu cầu trước (Prerequisites)",
+      "position": {
+        "x": 214.8994695850793,
+        "y": 93.38749407694564
+      },
+      "size": {
+        "width": 136,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "QifY92ONTomFx_FwRxPJI",
+      "type": "label",
+      "label": "Kỹ năng Phát triển Core",
+      "position": {
+        "x": 511.89946958507926,
+        "y": 93.38749407694564
+      },
+      "size": {
+        "width": 205,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "7XrG-k9T12u84Pwp4YwaY",
+      "type": "paragraph",
+      "label": "Workers Core Concepts",
+      "position": {
+        "x": 111.5,
+        "y": 460.64601177168015
+      },
+      "size": {
+        "width": 265,
+        "height": 62
+      },
+      "style": {
+        "fontSize": 20,
+        "borderColor": "transparent",
+        "backgroundColor": "transparent",
+        "color": "#000000",
+        "textAlign": "left",
+        "justifyContent": "flex-start",
+        "padding": 16
+      },
+      "z_index": 999
+    },
+    {
+      "id": "TB6vGzDgGZ9yAd9MGR7vw",
+      "type": "subtopic",
+      "label": "Workers Runtime Environment",
+      "position": {
+        "x": -286.42440139623136,
+        "y": 224.9890672390103
+      },
+      "size": {
+        "width": 289,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Môi trường chạy thời gian Workers là một môi trường thực thi JavaScript nhẹ nhàng chạy trên mạng lưới biên của Cloudflare. Nó dựa trên V8, động cơ đó cũng cung cấp sức mạnh cho Chrome và Node.js, nhưng được tối ưu hóa cho tốc độ và bảo mật. Workers có quyền truy cập hạn chế vào các biến toàn cục và API so với một môi trường Node.js truyền thống, tập trung vào việc xử lý các yêu cầu và phản hồi HTTP. Nó cung cấp các API để bộ nhớ cache, lưu trữ KV và truy cập thông tin yêu cầu, cho phép các hàm serverless phân phối trên toàn cầu hiệu suất cao.",
+        "links": [
+          {
+            "title": "Workers hoạt động như thế nào · Tài liệu Cloudflare",
+            "url": "https://developers.cloudflare.com/workers/reference/how-workers-works/",
+            "type": "official"
+          },
+          {
+            "title": "Giới thiệu workerd: Runtime Workers Mã nguồn mở, \"Introducing workerd: the Open Source Workers Runtime\",",
+            "url": "https://blog.cloudflare.com/workerd-open-source-workers-runtime/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "aGWLomYHGkIfn7GFc0_Yl",
+      "type": "subtopic",
+      "label": "Các Nguyên tắc Cơ bản về Máy tính Biên",
+      "position": {
+        "x": -286.42440139623136,
+        "y": 277.9890672390103
+      },
+      "size": {
+        "width": 289,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Máy tính biên đưa phép tính gần hơn đến người dùng, giảm thiểu độ trễ. Cloudflare Workers thể hiện điều này: mã của bạn chạy trên mạng lưới máy chủ toàn cầu của Cloudflare, gần với người dùng của bạn. Điều này làm giảm số lượng bước mạng và cải thiện thời gian phản hồi. Bằng cách thực thi logic ở biên, bạn có thể cá nhân hóa nội dung, lọc yêu cầu và tối ưu hóa việc cung cấp mà không cần phải định tuyến lưu lượng truy cập trở lại một máy chủ trung tâm. Máy tính biên với Workers cho phép các ứng dụng nhanh hơn, đáp ứng hơn và trải nghiệm người dùng được cải thiện.",
+        "links": [
+          {
+            "title": "Tính toán biên là gì - Tài liệu chính thức của Cloudflare",
+            "url": "https://www.cloudflare.com/learning/serverless/glossary/what-is-edge-computing/",
+            "type": "official"
+          },
+          {
+            "title": "Tính toán biên là gì? Nó có phải chỉ là một thuật ngữ sáo rỗng mà thôi?",
+            "url": "https://www.howtogeek.com/devops/what-is-edge-computing-is-it-more-than-a-buzzword/",
+            "type": "article"
+          },
+          {
+            "title": "Edge Computing là gì? - Coursera",
+            "url": "https://www.udemy.com/course/edge-computing/",
+            "type": "course"
+          }
+        ]
+      }
+    },
+    {
+      "id": "HNEXPU6r_T7UYvwLv2wnt",
+      "type": "subtopic",
+      "label": "Xử lý Yêu cầu/Phản hồi",
+      "position": {
+        "x": -286.42440139623136,
+        "y": 330.9890672390103
+      },
+      "size": {
+        "width": 289,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Cloudflare Workers vượt trội trong việc chặn và sửa đổi các yêu cầu và phản hồi HTTP. Khi một yêu cầu đến Cloudflare, một Worker có thể kiểm tra chi tiết yêu cầu (tiêu đề, URL, phương pháp) và thực hiện hành động: viết lại URL, sửa đổi tiêu đề hoặc thậm chí phục vụ một phản hồi khác hoàn toàn. Tương tự, Workers có thể chặn các phản hồi từ máy chủ gốc, sửa đổi nội dung, thêm tiêu đề cho bộ nhớ cache hoặc thậm chí phục vụ phiên bản đã lưu trữ trực tiếp. Mức độ kiểm soát này cho phép tùy chỉnh và tối ưu hóa mạnh mẽ lưu lượng web.",
+        "links": [
+          {
+            "title": "Yêu cầu và Phản hồi",
+            "url": "https://developers.cloudflare.com/workers/runtime-apis/request",
+            "type": "official"
+          },
+          {
+            "title": "Fetch API",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "_2UnRlbUplHvs5-Stj4O4",
+      "type": "subtopic",
+      "label": "Fetch API và Runtime APIs",
+      "position": {
+        "x": -286.42440139623136,
+        "y": 383.9890672390103
+      },
+      "size": {
+        "width": 289,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Trong Cloudflare Workers, Fetch API là công cụ chính của bạn để thực hiện các yêu cầu HTTP đến các dịch vụ bên ngoài hoặc máy chủ gốc của bạn. Nó tương tự như Fetch API trong trình duyệt nhưng được điều chỉnh cho môi trường Workers. Các API Runtime cung cấp quyền truy cập vào các tính năng cụ thể của Cloudflare như KV lưu trữ (cho dữ liệu có trạng thái), Durable Objects (cho ứng dụng có trạng thái) và các dịch vụ khác. Những API này cho phép Workers tương tác với cơ sở hạ tầng của Cloudflare và xây dựng các ứng dụng mạnh mẽ vượt ra ngoài xử lý yêu cầu/phản hồi đơn giản.",
+        "links": [
+          {
+            "title": "Fetch API trong Workers",
+            "url": "https://developers.cloudflare.com/workers/runtime-apis/fetch",
+            "type": "official"
+          },
+          {
+            "title": "Fetch API",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "i6L9FI6fBDXr0XtMrc_uR",
+      "type": "subtopic",
+      "label": "Workers Lifecycle",
+      "position": {
+        "x": -286.42440139623136,
+        "y": 436.9890672390103
+      },
+      "size": {
+        "width": 289,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Vòng đời của một Worker Cloudflare ngắn và không trạng thái. Mỗi lần gọi bắt đầu khi một yêu cầu đến đích Cloudflare edge. Worker thực thi mã của nó để xử lý yêu cầu. Sau khi phản hồi được gửi (hoặc xảy ra lỗi), phiên bản Worker kết thúc. Không có trạng thái tồn tại giữa các yêu cầu trừ khi bạn sử dụng các dịch vụ như KV hoặc Đối tượng Bền. Bản chất không trạng thái này đảm bảo khả năng mở rộng và thời gian phản hồi nhanh chóng. Hiểu biết về vòng đời này là rất quan trọng để thiết kế Workers hiệu quả có thể xử lý một lượng lớn yêu cầu.",
+        "links": [
+          {
+            "title": "Workers RPC - Lifecycle",
+            "url": "https://developers.cloudflare.com/workers/runtime-apis/rpc/lifecycle/",
+            "type": "official"
+          },
+          {
+            "title": "Workers hoạt động như thế nào · Tài liệu Cloudflare",
+            "url": "https://developers.cloudflare.com/workers/reference/how-workers-works/",
+            "type": "official"
+          },
+          {
+            "title": "Giới thiệu workerd: Runtime Workers Mã nguồn mở, \"Introducing workerd: the Open Source Workers Runtime\",",
+            "url": "https://blog.cloudflare.com/workerd-open-source-workers-runtime/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "WZSi9inWPhqZQvDN-C8BV",
+      "type": "subtopic",
+      "label": "Liên kết Dịch vụ",
+      "position": {
+        "x": -286.42440139623136,
+        "y": 489.9890672390103
+      },
+      "size": {
+        "width": 289,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Liên kết Dịch vụ cho phép Cloudflare Workers tích hợp liền mạch với các dịch vụ khác của Cloudflare. Chúng cung cấp một cách an toàn và hiệu quả để một Worker truy cập các tài nguyên như KV lưu trữ, Đối tượng Bền, R2 lưu trữ và các Worker khác. Thay vì sử dụng khóa API hoặc gọi mạng trực tiếp, Liên kết Dịch vụ tạo một kết nối trực tiếp giữa Worker của bạn và dịch vụ được liên kết, đơn giản hóa cấu hình và cải thiện hiệu suất. Chúng là điều cần thiết để xây dựng các ứng dụng phức tạp tận dụng toàn bộ sức mạnh của hệ sinh thái Cloudflare.",
+        "links": [
+          {
+            "title": "Liên kết Dịch vụ - API thời gian chạy",
+            "url": "https://developers.cloudflare.com/workers/runtime-apis/bindings/service-bindings/",
+            "type": "official"
+          },
+          {
+            "title": "Liên kết Dịch vụ · Cloudflare",
+            "url": "https://developers.cloudflare.com/workers/platform/service-bindings/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "uBjcQ9PJUfwzu5N_2CNjN",
+      "type": "subtopic",
+      "label": "Chiến lược Cache",
+      "position": {
+        "x": -286.42440139623136,
+        "y": 542.9890672390103
+      },
+      "size": {
+        "width": 289,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Cloudflare Workers cho phép kiểm soát chi tiết về bộ nhớ cache. Bạn có thể sử dụng API Cache để lưu trữ và truy xuất phản hồi trực tiếp trong Worker của mình, bỏ qua máy chủ gốc. Các chiến lược bao gồm: - **Cache-First:** Phục vụ từ bộ nhớ cache nếu khả dụng, ngược lại lấy từ nguồn gốc. - **Network-First:** Luôn lấy từ nguồn gốc, bộ nhớ cache phản hồi cho các yêu cầu sau. - **Stale-While-Revalidate:** Phục vụ từ bộ nhớ cache ngay lập tức, sau đó cập nhật bộ nhớ cache trong nền. Bạn cũng có thể thao tác các tiêu đề bộ nhớ cache HTTP (Cache-Control, Expires) để kiểm soát cách CDN của Cloudflare lưu trữ nội dung. Bộ nhớ cache hiệu quả là rất quan trọng để cải thiện hiệu suất và giảm tải cho máy chủ gốc.",
+        "links": [
+          {
+            "title": "Bộ nhớ đệm · Cloudflare Workers",
+            "url": "https://developers.cloudflare.com/workers/runtime-apis/cache/",
+            "type": "official"
+          },
+          {
+            "title": "Bộ nhớ cache hoạt động như thế nào · Workers Cloudflare",
+            "url": "https://developers.cloudflare.com/workers/reference/how-the-cache-works/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "aStbAF4zraqhJ-N3RH4ha",
+      "type": "subtopic",
+      "label": "Các mẫu Middleware",
+      "position": {
+        "x": -286.42440139623136,
+        "y": 595.9890672390103
+      },
+      "size": {
+        "width": 289,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Các mẫu Middleware trong Cloudflare Workers cho phép bạn nối các hàm để xử lý các yêu cầu hoặc phản hồi theo cách mô-đun. Mỗi hàm Middleware thực hiện một tác vụ cụ thể (ví dụ: xác thực, ghi nhật ký, sửa đổi tiêu đề) trước khi chuyển tiếp yêu cầu/phản hồi đến hàm tiếp theo trong chuỗi. Điều này thúc đẩy khả năng tái sử dụng mã, tách biệt mối quan tâm và bảo trì dễ dàng hơn. Bằng cách ghép các Middleware lại với nhau, bạn có thể xây dựng các đường dẫn xử lý yêu cầu phức tạp.",
+        "links": [
+          {
+            "title": "Middleware · Cloudflare Pages",
+            "url": "https://developers.cloudflare.com/pages/functions/middleware/",
+            "type": "official"
+          },
+          {
+            "title": "Kiến trúc Trung gian cho Cloudflare Workers",
+            "url": "https://boxesplusarrows.com/blog/a-middleware-architecture-for-cloudflare-workers/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "9ef2VPCru8lCmRxxGe-Eo",
+      "type": "subtopic",
+      "label": "Liên kết (Bindings)",
+      "position": {
+        "x": -286.42440139623136,
+        "y": 648.9890672390103
+      },
+      "size": {
+        "width": 289,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Trong Cloudflare Workers, Liên kết là cấu hình để kết nối Worker với các tài nguyên hoặc dịch vụ bên ngoài. Chúng có thể bao gồm: - **Không gian KV:** Liên kết đến một Không gian KV cho phép Worker đọc và ghi dữ liệu. - **Đối tượng Bền:** Các liên kết chỉ định Không gian Đối tượng Bền mà Worker có thể truy cập. - **Liên kết Dịch vụ:** Kết nối với các Worker hoặc dịch vụ Cloudflare khác như Hàng đợi. - **Mật khẩu bí mật:** Lưu trữ dữ liệu nhạy cảm (chữ ký API) một cách an toàn. - **Biến môi trường:** Cấu hình cài đặt cụ thể cho môi trường.",
+        "links": [
+          {
+            "title": "Liên kết (env) · Cloudflare Workers",
+            "url": "https://developers.cloudflare.com/workers/runtime-apis/bindings/",
+            "type": "official"
+          },
+          {
+            "title": "Workers Bindings · Cloudflare Workers AI",
+            "url": "https://developers.cloudflare.com/workers-ai/configuration/bindings/",
+            "type": "official"
+          },
+          {
+            "title": "Configuration - Wrangler · Cloudflare Workers",
+            "url": "https://developers.cloudflare.com/workers/wrangler/configuration/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "g4hjyQF8-SpjPi8mYtIsk",
+      "type": "vertical",
+      "label": "nút theo chiều dọc",
+      "position": {
+        "x": 233,
+        "y": 15.028193715390685
+      },
+      "size": {
+        "width": 21,
+        "height": 66
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.5
+      },
+      "z_index": 999
+    },
+    {
+      "id": "imU-blmfZ__YCFynXZ8aI",
+      "type": "vertical",
+      "label": "nút theo chiều dọc",
+      "position": {
+        "x": 233.5,
+        "y": 356.88749407694564
+      },
+      "size": {
+        "width": 21,
+        "height": 104
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.5
+      },
+      "z_index": 999
+    },
+    {
+      "id": "IubwhdnyWtjpejkGOfnPy",
+      "type": "paragraph",
+      "label": "Frameworks và Công cụ",
+      "position": {
+        "x": 111.5,
+        "y": 597.5006120234757
+      },
+      "size": {
+        "width": 265,
+        "height": 62
+      },
+      "style": {
+        "fontSize": 20,
+        "borderColor": "transparent",
+        "backgroundColor": "transparent",
+        "color": "#000000",
+        "textAlign": "left",
+        "justifyContent": "flex-start",
+        "padding": 16
+      },
+      "z_index": 999
+    },
+    {
+      "id": "-8MsWNvuqwQCbLpOx_kov",
+      "type": "subtopic",
+      "label": "Hono",
+      "position": {
+        "x": 493.52297244223314,
+        "y": 463.23202364103037
+      },
+      "size": {
+        "width": 101,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Hono là một framework web nhỏ, đơn giản và siêu nhanh được xây dựng trên các tiêu chuẩn web. Nó hoạt động trên bất kỳ runtime JavaScript nào: Cloudflare Workers, Fastly Compute, Deno, Bun, Vercel, Netlify, AWS Lambda, Lambda@Edge và Node.js. Hono nổi tiếng hơn cho việc hỗ trợ nhiều hơn là những điều cơ bản. Hono là một framework ứng dụng web đơn giản tương tự như framework JavaScript phổ biến Express, mà không có frontend. Nhưng nó chạy trên các Tận điểm CDN và cho phép bạn xây dựng các ứng dụng lớn hơn khi kết hợp với middleware.",
+        "links": [
+          {
+            "title": "Tài liệu Hono",
+            "url": "https://hono.dev/docs/",
+            "type": "official"
+          },
+          {
+            "title": "Hono.js: Một Framework Nhỏ với Tiềm năng Lớn",
+            "url": "https://medium.com/@appvintechnologies/hono-js-a-small-framework-with-big-potential-15a093fc5c07",
+            "type": "article"
+          },
+          {
+            "title": "Ví dụ Hono JS",
+            "url": "https://github.com/honojs/examples",
+            "type": "opensource"
+          },
+          {
+            "title": "Khởi động nhanh với Hono: Hướng dẫn cài đặt đơn giản",
+            "url": "https://dev.to/koshirok096/quick-start-with-hono-simple-setup-guide-bite-sized-article-lhe",
+            "type": "article"
+          },
+          {
+            "title": "Hướng dẫn Hono JS",
+            "url": "https://www.youtube.com/watch?v=gY-TK33G6kQ",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "15jl6CSCkqnh_eFfysLDM",
+      "type": "subtopic",
+      "label": "Itty Router",
+      "position": {
+        "x": 598.5229724422331,
+        "y": 463.23202364103037
+      },
+      "size": {
+        "width": 126,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Itty Router là một router nhẹ với khẩu hiệu \"ít là nhiều\" hỗ trợ Cloudflare Workers và Cloudflare Pages. Trong khi các thư viện khác có thể bị tăng thêm tính năng/méo mó (feature creep/bloat) để làm hài lòng một đối tượng khán giả rộng hơn, Itty Router đau đớn cân nhắc từng byte được thêm vào Itty. Các tùy chọn router của chúng ta dao động từ khoảng 450 bytes đến khoảng 970 bytes cho một phiên bản có đầy đủ tính năng với các cài đặt mặc định, xử lý lỗi, định dạng,... Ở trên đó, các khái niệm sau nhằm giữ mã của bạn nhỏ (và dễ đọc) cũng vậy.",
+        "links": [
+          {
+            "title": "Tài liệu ITTy",
+            "url": "https://itty.dev/itty-router/",
+            "type": "official"
+          },
+          {
+            "title": "Bắt đầu với Itty Router",
+            "url": "https://itty.dev/itty-router/getting-started",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Tzx93tvoGrc9_fKQqkorN",
+      "type": "subtopic",
+      "label": "Wrangler",
+      "position": {
+        "x": 493.52297244223314,
+        "y": 652.7216082137738
+      },
+      "size": {
+        "width": 118,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "`Wrangler` là giao diện dòng lệnh (CLI) cho Cloudflare Workers. Nó đơn giản hóa quy trình phát triển, kiểm thử và triển khai Workers. Với `wrangler`, bạn có thể: - Tạo mới dự án Worker. - Phát triển Workers cục bộ. - Triển khai Workers lên Cloudflare. - Quản lý bí mật và biến môi trường. - Cấu hình bindings đến các dịch vụ Cloudflare khác. `Wrangler` giúp luồng công việc Workers trở nên trơn tru, khiến nó trở thành một công cụ thiết yếu cho bất kỳ nhà phát triển Cloudflare Workers nào.",
+        "links": [
+          {
+            "title": "Tài liệu Wrangler",
+            "url": "https://developers.cloudflare.com/workers/wrangler/",
+            "type": "official"
+          },
+          {
+            "title": "Lệnh Wrangler",
+            "url": "https://developers.cloudflare.com/workers/wrangler/commands//",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "uoaOrypiMkyoikXvTHeVS",
+      "type": "subtopic",
+      "label": "Tích hợp DevTools",
+      "position": {
+        "x": 493.52297244223314,
+        "y": 707.1589098955067
+      },
+      "size": {
+        "width": 243,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Cloudflare Workers có thể được gỡ lỗi bằng các công cụ DevTools của trình duyệt tiêu chuẩn. Khi chạy Workers trong môi trường cục bộ (ví dụ: với Miniflare), bạn có thể sử dụng Chrome DevTools hoặc các công cụ tương tự để kiểm tra mã, đặt dấu dừng và bước qua quá trình thực thi. Bạn cũng có thể sử dụng các câu lệnh `console.log` để xuất thông tin đến bảng điều khiển DevTools. Sự tích hợp này làm cho việc gỡ lỗi Workers trở nên trực quan và hiệu quả hơn.",
+        "links": [
+          {
+            "title": "Gỡ lỗi Cloudflare Workers",
+            "url": "https://developers.cloudflare.com/workers/playground/#devtools",
+            "type": "official"
+          },
+          {
+            "title": "Công cụ Gỡ lỗi Chrome",
+            "url": "https://developer.chrome.com/docs/devtools",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "8Y6TIYoWIXrxtmzDVdS0b",
+      "type": "subtopic",
+      "label": "Dòng CI/CD",
+      "position": {
+        "x": 493.52297244223314,
+        "y": 774.7087100899473
+      },
+      "size": {
+        "width": 243,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Các quy trình CI/CD (Continuous Integration/Continuous Deployment) tự động hóa quá trình xây dựng, kiểm thử và triển khai Cloudflare Workers. Các nền tảng CI/CD phổ biến như GitHub Actions, GitLab CI và CircleCI có thể được sử dụng để tạo các quy trình tự động triển khai Workers bất cứ khi nào code thay đổi được đẩy lên một kho lưu trữ. Các quy trình này thường bao gồm các bước như kiểm tra cú pháp, kiểm thử, xây dựng và triển khai bằng `wrangler`. Tự động hóa triển khai đảm bảo thời gian phát hành nhanh hơn và giảm thiểu rủi ro lỗi.",
+        "links": [
+          {
+            "title": "Tự động hóa quy trình làm việc của bạn - Github Actions",
+            "url": "https://github.com/features/actions",
+            "type": "official"
+          },
+          {
+            "title": "Dòng CI/CD – GitLab",
+            "url": "https://docs.gitlab.com/ee/ci/pipelines/",
+            "type": "official"
+          },
+          {
+            "title": "Liên tục tích hợp và cung cấp - CircleCI",
+            "url": "https://circleci.com/",
+            "type": "official"
+          },
+          {
+            "title": "Công cụ CI/CD Đơn giản, Linh hoạt, Tin cậy - Travis CI",
+            "url": "https://www.travis-ci.com/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ssvZh7zn9xUY2Wi-F_d4J",
+      "type": "label",
+      "label": "Router API",
+      "position": {
+        "x": 549.3509487035327,
+        "y": 421.75533719211336
+      },
+      "size": {
+        "width": 109,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "LkvWKmUklK1-n8dQB4w2U",
+      "type": "label",
+      "label": "Frameworks Frontend",
+      "position": {
+        "x": 522.5229724422331,
+        "y": 522.7553371921133
+      },
+      "size": {
+        "width": 185,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "zSwio18XdBfqwSneAx_AP",
+      "type": "subtopic",
+      "label": "Bất kỳ Framework Frontend nào",
+      "position": {
+        "x": 493.52297244223314,
+        "y": 558.7553371921133
+      },
+      "size": {
+        "width": 243,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Nhiều khung frontend có thể triển khai trên Cloudflare Pages hoặc sử dụng với Cloudflare Workers. Các lựa chọn phổ biến bao gồm: - **React:** Triển khai bằng Create React App hoặc Next.js. - **Vue.js:** Triển khai bằng Vue CLI hoặc Nuxt.js. - **Angular:** Triển khai bằng Angular CLI. - **Svelte:** Triển khai bằng SvelteKit. - **Astro**: Triển khai bằng Astro CLI. Cloudflare Pages cung cấp các bản dựng và triển khai được tối ưu hóa cho các khung này. Đối với Workers, bạn có thể sử dụng các khung này để hiển thị nội dung động ở biên.",
+        "links": [
+          {
+            "title": "React",
+            "url": "https://react.dev/",
+            "type": "official"
+          },
+          {
+            "title": "Vue.js",
+            "url": "https://vuejs.org/",
+            "type": "official"
+          },
+          {
+            "title": "Angular",
+            "url": "https://angular.dev/",
+            "type": "official"
+          },
+          {
+            "title": "Svelte",
+            "url": "https://svelte.dev/",
+            "type": "official"
+          },
+          {
+            "title": "Astro",
+            "url": "https://astro.build/",
+            "type": "official"
+          },
+          {
+            "title": "Hướng dẫn Framework",
+            "url": "https://developers.cloudflare.com/pages/framework-guides/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "diIGB553YTGIw2qYRSj0X",
+      "type": "label",
+      "label": "Xây dựng / Triển khai",
+      "position": {
+        "x": 530.30644608346,
+        "y": 616.7216082137738
+      },
+      "size": {
+        "width": 172,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "o4sBgniPmLqwej6TlIPcl",
+      "type": "subtopic",
+      "label": "Miniflare",
+      "position": {
+        "x": 615.3833983689781,
+        "y": 652.7216082137738
+      },
+      "size": {
+        "width": 119,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Miniflare là trình mô phỏng cục bộ cho Cloudflare Workers. Nó mô phỏng môi trường chạy thời gian thực của Cloudflare Workers trên máy tính của bạn, cho phép bạn kiểm tra Workers mà không cần triển chúng lên Cloudflare. Miniflare hỗ trợ các tính năng như lưu trữ KV, Đối tượng Bền, và Liên kết Dịch vụ, làm cho nó trở thành một công cụ có giá trị để phát triển cục bộ và gỡ lỗi. Nó tăng tốc chu kỳ phát triển bằng cách cung cấp môi trường kiểm thử cục bộ nhanh chóng và đáng tin cậy.",
+        "links": [
+          {
+            "title": "Miniflare - Cloudflare Workers",
+            "url": "https://developers.cloudflare.com/workers/testing/miniflare/",
+            "type": "official"
+          },
+          {
+            "title": "cloudflare/miniflare",
+            "url": "https://github.com/cloudflare/miniflare",
+            "type": "opensource"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3BGY76hTLAE8PY7OXQtNR",
+      "type": "paragraph",
+      "label": "Giải pháp Lưu trữ",
+      "position": {
+        "x": 138.5,
+        "y": 768.6355963444237
+      },
+      "size": {
+        "width": 211,
+        "height": 67
+      },
+      "style": {
+        "fontSize": 20,
+        "borderColor": "transparent",
+        "backgroundColor": "transparent",
+        "color": "#000000",
+        "textAlign": "center",
+        "justifyContent": "center",
+        "padding": 16
+      },
+      "z_index": 999
+    },
+    {
+      "id": "1dGFfQauOgHP7T4ReMpCU",
+      "type": "topic",
+      "label": "Workers KV",
+      "position": {
+        "x": -255.0107846621675,
+        "y": 777.6355963444237
+      },
+      "size": {
+        "width": 229,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Workers KV là một hệ thống lưu trữ dữ liệu cho phép bạn lưu trữ và truy xuất dữ liệu toàn cầu. Với Workers KV, bạn có thể xây dựng các API và trang web động và hiệu năng cao hỗ trợ lượng đọc lớn với độ trễ thấp.",
+        "links": [
+          {
+            "title": "Tài liệu Cloudflare Workers KV",
+            "url": "https://developers.cloudflare.com/kv/",
+            "type": "official"
+          },
+          {
+            "title": "Cách sử dụng Cloudflare Workers và KV Storage",
+            "url": "https://www.youtube.com/watch?v=NGk2HxV0Xkg",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "EBTHbXOOZiqrcYJvKhcWV",
+      "type": "subtopic",
+      "label": "Key-value Operations",
+      "position": {
+        "x": -255.0107846621675,
+        "y": 853.0363756231689
+      },
+      "size": {
+        "width": 229,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Cloudflare Workers cung cấp một API đơn giản để đọc và ghi dữ liệu vào một kho lưu trữ Key-Value. Bạn có thể sử dụng phương thức `put` để lưu trữ dữ liệu, phương thức `get` để truy xuất nó và phương thức `delete` để xóa dữ liệu khỏi kho lưu trữ. Các kho lưu trữ Key-Value lý tưởng cho việc lưu trữ dữ liệu cấu hình, phiên làm việc người dùng và các dữ liệu khác cần được truy cập nhanh chóng.",
+        "links": [
+          {
+            "title": "Đọc cặp khóa giá trị",
+            "url": "https://developers.cloudflare.com/kv/api/read-key-value-pairs/",
+            "type": "official"
+          },
+          {
+            "title": "Cloudflare KV Binding API",
+            "url": "https://developers.cloudflare.com/workers/runtime-apis/kv",
+            "type": "official"
+          },
+          {
+            "title": "Cloudflare Workers KV — Tài liệu Cloudflare",
+            "url": "https://developers.cloudflare.com/workers/runtime-apis/kv/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sQlRIYLnZcugATgpogJmw",
+      "type": "subtopic",
+      "label": "Quản lý Metadata",
+      "position": {
+        "x": -255.0107846621675,
+        "y": 906.0363756231687
+      },
+      "size": {
+        "width": 229,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Cloudflare Workers cho phép bạn truy cập metadata về yêu cầu, bao gồm phương thức yêu cầu, URL, tiêu đề và nhiều hơn nữa. Bạn có thể sử dụng metadata này để tùy chỉnh hành vi của ứng dụng hoặc để triển khai các tính năng như bộ nhớ cache, xác thực hoặc giới hạn tốc độ. Metadata có sẵn trong cả sự kiện `fetch` và sự kiện `scheduled`. Đây là một công cụ mạnh mẽ để xây dựng các ứng dụng động và thích ứng.",
+        "links": [
+          {
+            "title": "Yêu cầu và Phản hồi",
+            "url": "https://developers.cloudflare.com/workers/runtime-apis/request",
+            "type": "official"
+          },
+          {
+            "title": "Xử lý Sự kiện Lịch trình",
+            "url": "https://developers.cloudflare.com/workers/runtime-apis/scheduled-event",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "i64-aCpZHygq76fBU6eXD",
+      "type": "subtopic",
+      "label": "Hoạt động hàng loạt",
+      "position": {
+        "x": -255.0107846621675,
+        "y": 959.0363756231687
+      },
+      "size": {
+        "width": 229,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Cloudflare Workers cho phép bạn thực hiện các thao tác hàng loạt trên KV stores. Bạn có thể sử dụng phương thức `batch` để thực hiện nhiều hoạt động trong một yêu cầu duy nhất. Điều này hữu ích cho các tác vụ như nhập dữ liệu từ nguồn bên ngoài hoặc cập nhật nhiều bản ghi cùng một lúc. Các thao tác hàng loạt hiệu quả và khả năng mở rộng, cho phép bạn xử lý lượng lớn dữ liệu một cách dễ dàng.",
+        "links": [
+          {
+            "title": "Workers KV",
+            "url": "https://blog.cloudflare.com/workers-kv-is-ga/",
+            "type": "official"
+          },
+          {
+            "title": "Workers KV Runtime API",
+            "url": "https://developers.cloudflare.com/workers/runtime-apis/kv",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "OgW-iIrJZ5-sOWKnFpIZd",
+      "type": "subtopic",
+      "label": "Các mẫu bộ nhớ đệm (Caching)",
+      "position": {
+        "x": -255.0107846621675,
+        "y": 1012.0363756231689
+      },
+      "size": {
+        "width": 229,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Cache là một khía cạnh quan trọng trong việc xây dựng các ứng dụng hiệu năng cao và có khả năng mở rộng. Cloudflare Workers cung cấp nhiều mẫu cache mà bạn có thể sử dụng để tối ưu hóa hiệu suất của ứng dụng. Các mẫu này bao gồm: - **Cache-First:** Phục vụ từ cache nếu có sẵn, ngược lại lấy từ nguồn gốc. - **Network-First:** Luôn lấy từ nguồn gốc, lưu kết quả vào cache cho các yêu cầu tiếp theo. - **Stale-While-Revalidate:** Phục vụ từ cache ngay lập tức, sau đó cập nhật cache trong nền. Bạn cũng có thể thao tác các tiêu đề HTTP Cache (Cache-Control, Expires) để kiểm soát Cloudflare CDN lưu trữ nội dung như thế nào. Cache hiệu quả là rất quan trọng để cải thiện hiệu suất và giảm tải cho máy chủ nguồn gốc.",
+        "links": [
+          {
+            "title": "Bộ nhớ cache hoạt động như thế nào · Workers Cloudflare",
+            "url": "https://developers.cloudflare.com/workers/reference/how-the-cache-works/",
+            "type": "official"
+          },
+          {
+            "title": "Chiến lược Cache",
+            "url": "https://docs.aws.amazon.com/whitepapers/latest/database-caching-strategies-using-redis/caching-patterns.html",
+            "type": "article"
+          },
+          {
+            "title": "Tối ưu hóa bộ nhớ đệm cho nội dung tĩnh và động",
+            "url": "https://www.cloudflare.com/learning/cdn/caching-static-and-dynamic-content/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "gxLUlXGuaY5Q-0xmBgQwz",
+      "type": "topic",
+      "label": "Lưu trữ R2",
+      "position": {
+        "x": 158.27909338877345,
+        "y": 991.6457010436021
+      },
+      "size": {
+        "width": 173,
+        "height": 50
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Cloudflare R2 Storage là dịch vụ lưu trữ đối tượng phân tán cung cấp khả năng lưu trữ nhanh chóng, đáng tin cậy và giá cả phải chăng mà không có phí truyền dữ liệu ra ngoài. Nó được thiết kế để cạnh tranh với các dịch vụ như Amazon S3 và Google Cloud Storage. R2 cho phép bạn lưu trữ lượng lớn dữ liệu phi cấu trúc (hình ảnh, video, tài liệu) và truy cập chúng nhanh chóng từ mọi nơi trên thế giới thông qua mạng lưới toàn cầu của Cloudflare. Ưu điểm chính là không có phí băng thông truyền dữ liệu ra ngoài, giúp các ứng dụng có nhu cầu truy xuất dữ liệu cao trở nên tiết kiệm chi phí.",
+        "links": [
+          {
+            "title": "Cloudflare R2 | Zero Egress Fee Object Storage",
+            "url": "https://www.cloudflare.com/developer-platform/products/r2/",
+            "type": "official"
+          },
+          {
+            "title": "Cloudflare R2 Documentation",
+            "url": "https://developers.cloudflare.com/r2/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "K9iW2H6riKwddWmpWJFJw",
+      "type": "subtopic",
+      "label": "Lưu trữ đối tượng",
+      "position": {
+        "x": 468.5985688843266,
+        "y": 885.6457010436021
+      },
+      "size": {
+        "width": 286,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Cloudflare R2 là lưu trữ đối tượng cung cấp khả năng lưu trữ nhanh chóng, đáng tin cậy và giá cả phải chăng mà không có phí truyền dữ liệu ra ngoài. Nó được thiết kế để hoạt động liền mạch với Cloudflare Workers, cho phép bạn lưu trữ và truy xuất dữ liệu gần người dùng của mình. R2 lý tưởng để lưu trữ tài sản tĩnh, nội dung do người dùng tạo và các dữ liệu khác cần được truy cập nhanh chóng và thường xuyên. Việc thiếu phí truyền dữ liệu ra ngoài khiến nó trở thành một giải pháp thay thế chi phí hiệu quả so với các nhà cung cấp lưu trữ đám mây truyền thống.",
+        "links": [
+          {
+            "title": "Lưu trữ đối tượng là gì?",
+            "url": "https://www.cloudflare.com/learning/cloud/what-is-object-storage/",
+            "type": "official"
+          },
+          {
+            "title": "Cloudflare R2 | Zero Egress Fee Object Storage",
+            "url": "https://www.cloudflare.com/developer-platform/products/r2/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "BPahk1qH9Hk11tsE2hw3A",
+      "type": "subtopic",
+      "label": "Xử lý Tệp Lớn",
+      "position": {
+        "x": 468.5985688843266,
+        "y": 938.6457010436021
+      },
+      "size": {
+        "width": 286,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Xử lý các tệp lớn trên Cloudflare đòi hỏi các chiến lược để tránh vượt quá giới hạn kích thước và đảm bảo giao hàng hiệu quả. Các kỹ thuật bao gồm: - **Dòng chảy:** Xử lý tệp theo từng phần để giảm mức sử dụng bộ nhớ. - **Yêu cầu phạm vi:** Phục vụ chỉ một phần của tệp được yêu cầu. - **Dòng chảy Cloudflare:** Sử dụng dịch vụ phát trực tuyến video của Cloudflare cho các tệp video lớn. - **Tích hợp R2:** Lưu trữ các tệp lớn trong R2 và phục vụ chúng thông qua Workers. Các phương pháp này cho phép bạn xử lý các tệp lớn một cách hiệu quả đồng thời tận dụng mạng lưới toàn cầu của Cloudflare.",
+        "links": [
+          {
+            "title": "Các tệp lớn có thể hủy bỏ - Dòng Cloudflare Stream",
+            "url": "https://developers.cloudflare.com/stream/uploading-videos/resumable-uploads/",
+            "type": "official"
+          },
+          {
+            "title": "Giới hạn Cloudflare R2",
+            "url": "https://developers.cloudflare.com/r2/platform/limits/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3jU5753Uza2aS-gZo7w4k",
+      "type": "subtopic",
+      "label": "Quản lý Tài sản",
+      "position": {
+        "x": 468.5985688843266,
+        "y": 991.6457010436021
+      },
+      "size": {
+        "width": 286,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Cloudflare R2 có thể được sử dụng để quản lý tài sản hiệu quả. Bạn có thể lưu trữ hình ảnh, video và các tài sản tĩnh khác vào R2 và phục vụ chúng trực tiếp thông qua CDN của Cloudflare. Điều này giảm tải cho máy chủ gốc và cải thiện hiệu suất trang web. Tích hợp R2 với Cloudflare Workers cho phép bạn thực hiện các tác vụ chuyển đổi hình ảnh trên đường biên hoặc các tác vụ xử lý tài sản khác tại điểm cuối. Hỗ trợ phiên bản trong R2 giúp quản lý các phiên bản khác nhau của tài sản của bạn.",
+        "links": [
+          {
+            "title": "Sử dụng R2 làm Lưu trữ Tài sản Đĩnh với Cloudflare Pages",
+            "url": "https://developers.cloudflare.com/pages/tutorials/use-r2-as-static-asset-storage-for-pages/",
+            "type": "official"
+          },
+          {
+            "title": "Cloudflare R2 | Zero Egress Fee Object Storage",
+            "url": "https://www.cloudflare.com/developer-platform/products/r2/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "UNE6XK4su5r2jcxhY7hOG",
+      "type": "subtopic",
+      "label": "Các thao tác Bucket",
+      "position": {
+        "x": 468.5985688843266,
+        "y": 1044.645701043602
+      },
+      "size": {
+        "width": 286,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Trong Cloudflare R2, thùng chứa là nơi lưu trữ đối tượng. Bạn có thể thực hiện nhiều thao tác thùng chứa khác nhau, bao gồm: - **Tạo Thùng chứa:** Tạo các thùng chứa mới để tổ chức dữ liệu của bạn. - **Liệt kê Thùng chứa:** Liệt kê tất cả các thùng chứa trong tài khoản của bạn. - **Xóa Thùng chứa:** Xóa các thùng chứa không còn cần thiết (phải trống). - **Cấu hình Chính sách Thùng chứa:** Thiết lập chính sách kiểm soát truy cập cho các thùng chứa. Các thao tác này thường được thực hiện bằng API R2, bảng điều khiển Cloudflare hoặc các công cụ dòng lệnh như `wrangler`.",
+        "links": [
+          {
+            "title": "Bucket · Cloudflare R2",
+            "url": "https://developers.cloudflare.com/r2/buckets/",
+            "type": "official"
+          },
+          {
+            "title": "Tạo Bucket Mới · Cloudflare R2",
+            "url": "https://developers.cloudflare.com/r2/buckets/create-buckets/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "YvgmmF9sWfURgijFV7E31",
+      "type": "subtopic",
+      "label": "Vòng đời Bucket",
+      "position": {
+        "x": 468.5985688843266,
+        "y": 1097.645701043602
+      },
+      "size": {
+        "width": 286,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Vòng đời của một bucket R2 bao gồm tạo, sử dụng (lưu trữ và lấy đối tượng) và xóa cuối cùng. Bạn tạo một bucket để chứa dữ liệu của mình. Các đối tượng sau đó được tải lên, truy cập và quản lý trong bucket. Cloudflare không có các quy tắc vòng đời tích hợp như một số nhà cung cấp lưu trữ khác, vì vậy việc hết hạn đối tượng thường yêu cầu logic tùy chỉnh thông qua Workers. Cuối cùng, khi bucket không còn cần thiết và sau khi đảm bảo nó đã trống, bạn có thể xóa nó.",
+        "links": [
+          {
+            "title": "Bucket · Cloudflare R2",
+            "url": "https://developers.cloudflare.com/r2/buckets/",
+            "type": "official"
+          },
+          {
+            "title": "Vòng đời Bucket · Cloudflare R2",
+            "url": "https://developers.cloudflare.com/api/resources/r2/subresources/buckets/subresources/lifecycle/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mKN0Ta3zSk7PCm_uHYKFN",
+      "type": "topic",
+      "label": "D1",
+      "position": {
+        "x": 158.27909338877345,
+        "y": 1174.9754953712302
+      },
+      "size": {
+        "width": 173,
+        "height": 50
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Cơ sở dữ liệu SQL không máy chủ D1 là một cơ sở dữ liệu được thiết kế để chạy trên mạng lưới biên của Cloudflare. Nó cho phép bạn lưu trữ và truy vấn dữ liệu gần hơn với người dùng, giảm độ trễ và cải thiện hiệu suất ứng dụng. D1 dựa trên SQLite và có thể truy cập trực tiếp từ Cloudflare Workers, giúp dễ dàng xây dựng các ứng dụng động và dựa vào dữ liệu mà không cần quản lý một máy chủ cơ sở dữ liệu truyền thống.",
+        "links": [
+          {
+            "title": "Tài liệu Cloudflare D1",
+            "url": "https://developers.cloudflare.com/d1/",
+            "type": "official"
+          },
+          {
+            "title": "Bắt đầu với D1",
+            "url": "https://developers.cloudflare.com/d1/get-started/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PnhP47woPJb_JnLpMMiTw",
+      "type": "subtopic",
+      "label": "Quản lý Schema",
+      "position": {
+        "x": -256.51237120830484,
+        "y": 1114.6280432813637
+      },
+      "size": {
+        "width": 229,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Quản lý cấu trúc cơ sở dữ liệu của bạn trong Cloudflare D1 bao gồm định nghĩa bảng, cột, kiểu dữ liệu, khóa chính, khóa ngoại và chỉ mục bằng các câu lệnh Ngôn ngữ Định nghĩa Dữ liệu SQL tiêu chuẩn (DDL). Vì D1 dựa trên SQLite, bạn sẽ sử dụng cú pháp tương thích với SQLite. Các công cụ như `wrangler` cung cấp các lệnh để thực thi các tập lệnh SQL, cho phép bạn tạo và sửa đổi lược đồ cơ sở dữ liệu của mình. Bạn thường bắt đầu bằng cách thiết kế lược đồ dựa trên yêu cầu dữ liệu của ứng dụng của mình và sau đó chuyển đổi thiết kế đó thành các câu lệnh DDL SQL. Cần cân nhắc cẩn thận về kiểu dữ liệu để đảm bảo tính toàn vẹn và hiệu quả của dữ liệu.",
+        "links": [
+          {
+            "title": "Kiểm tra Schema · API Shield Cloudflare",
+            "url": "https://developers.cloudflare.com/api-shield/security/schema-validation/",
+            "type": "official"
+          },
+          {
+            "title": "Configure Schema Validation · Cloudflare API Shield",
+            "url": "https://developers.cloudflare.com/api-shield/security/schema-validation/configure/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "M8rSSVFUHixgWZRfaBPHb",
+      "type": "subtopic",
+      "label": "Di chuyển",
+      "position": {
+        "x": -256.51237120830484,
+        "y": 1167.6280432813637
+      },
+      "size": {
+        "width": 229,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Khi ứng dụng của bạn phát triển, lược đồ cơ sở dữ liệu của bạn có thể cần thay đổi. Di chuyển cơ sở dữ liệu cung cấp một cách có cấu trúc để áp dụng những thay đổi này theo cách kiểm soát và lặp lại. Trong D1, bạn thường sẽ viết các script SQL chứa các câu lệnh `ALTER TABLE` cần thiết để sửa đổi lược đồ của mình (ví dụ: thêm cột mới, đổi tên cột, thay đổi kiểu dữ liệu). Bạn có thể sử dụng `wrangler` hoặc một công cụ tương tự để thực thi các script di chuyển này đối với cơ sở dữ liệu D1 của bạn. Điều quan trọng là phải phiên bản hóa các script di chuyển của bạn và áp dụng chúng theo đúng thứ tự để tránh sự không nhất quán hoặc lỗi dữ liệu. Hãy cân nhắc sử dụng một công cụ quản lý di chuyển để theo dõi và áp dụng các di chuyển hiệu quả hơn.",
+        "links": [
+          {
+            "title": "Di chuyển Cơ sở dữ liệu: Các loại Di chuyển DB là gì?",
+            "url": "https://www.prisma.io/dataguide/types/relational/what-are-database-migrations",
+            "type": "article"
+          },
+          {
+            "title": "Di chuyển Cơ sở dữ liệu trong Thực tế",
+            "url": "https://blog.jetbrains.com/idea/2025/02/database-migrations-in-the-real-world/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "65xDESm6jbHWkVO4NgHqx",
+      "type": "subtopic",
+      "label": "Tối ưu truy vấn",
+      "position": {
+        "x": -256.51237120830484,
+        "y": 1220.6280432813637
+      },
+      "size": {
+        "width": 229,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Tối ưu hóa các truy vấn SQL của bạn là rất quan trọng để đạt được hiệu suất tốt với Cloudflare D1, đặc biệt khi cơ sở dữ liệu của bạn phát triển. D1 tận dụng tối đa trình tối ưu hóa truy vấn của SQLite, tự động cố gắng tìm cách thực thi hiệu quả nhất cho các truy vấn của bạn. Tuy nhiên, bạn có thể cải thiện đáng kể hiệu suất bằng cách tuân theo các phương pháp tốt nhất: - **Sử dụng Chỉ mục:** Các chỉ mục là rất cần thiết để tăng tốc các truy vấn lọc hoặc sắp xếp dữ liệu. Tạo chỉ mục trên các cột thường được sử dụng trong mệnh đề `WHERE`, điều kiện `JOIN` và mệnh đề `ORDER BY`. - **Tránh Quét toàn bảng:** Quét toàn bảng có thể chậm, đặc biệt đối với các bảng lớn. Đảm bảo rằng các truy vấn của bạn đang sử dụng chỉ mục để thu hẹp số lượng hàng cần xem xét. - **Viết Truy vấn SQL hiệu quả:** Sử dụng loại `JOIN` phù hợp, tránh sử dụng `SELECT *` (chỉ định các cột bạn cần), và sử dụng mệnh đề `WHERE` để lọc dữ liệu càng sớm càng tốt. - **Phân tích Hiệu suất truy vấn:** Sử dụng lệnh `EXPLAIN QUERY PLAN` của SQLite để phân tích cách các truy vấn của bạn đang được thực thi. Điều này có thể giúp bạn xác định các nút thắt cổ chai và các lĩnh vực cần cải thiện. - **Cân nhắc Denormalization:** Trong một số trường hợp, denormal hóa lược đồ cơ sở dữ liệu của bạn (thêm dữ liệu dư thừa để tránh nối) có thể cải thiện hiệu suất truy vấn, nhưng điều này đi kèm với chi phí lưu trữ lớn hơn và khả năng không nhất quán dữ liệu. Cân nhắc cẩn thận các đánh đổi.",
+        "links": [
+          {
+            "title": "Tham số truy vấn và Phản hồi được lưu trong bộ nhớ cache",
+            "url": "https://developers.cloudflare.com/automatic-platform-optimization/reference/query-parameters/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "MpWO1sroeF106SEMU1V1a",
+      "type": "subtopic",
+      "label": "Drizzle",
+      "position": {
+        "x": -245.87814569065125,
+        "y": 1285.958502239233
+      },
+      "size": {
+        "width": 101,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Drizzle ORM là một ORM TypeScript (Người gán mô hình quan hệ đối tượng) có thể được sử dụng với Cloudflare D1 để cung cấp một cách an toàn kiểu dữ liệu và thân thiện hơn với nhà phát triển để tương tác với cơ sở dữ liệu của bạn. Nó cho phép bạn xác định lược đồ cơ sở dữ liệu bằng mã TypeScript và cung cấp trình xây dựng truy vấn giúp bạn xây dựng các truy vấn SQL theo kiểu an toàn. Drizzle có thể đơn giản hóa tương tác cơ sở dữ liệu, cải thiện khả năng bảo trì mã và giảm nguy cơ lỗ hổng SQL injection. Nó cũng hỗ trợ di chuyển, khiến việc quản lý thay đổi lược đồ theo thời gian dễ dàng hơn.",
+        "links": [
+          {
+            "title": "Drizzle",
+            "url": "https://orm.drizzle.team/",
+            "type": "official"
+          },
+          {
+            "title": "Tổng quan về Drizzle",
+            "url": "https://orm.drizzle.team/docs/overview",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "h3MHLZZwkYqqb5PSfMhpB",
+      "type": "subtopic",
+      "label": "Prisma",
+      "position": {
+        "x": -141.87814569065125,
+        "y": 1285.958502239233
+      },
+      "size": {
+        "width": 101,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Prisma là một ORM mã nguồn mở phổ biến cung cấp trình khách cơ sở dữ liệu an toàn kiểu và công cụ di chuyển. Mặc dù không tương thích trực tiếp với Cloudflare D1 do sự phụ thuộc vào các bộ chuyển đổi cơ sở dữ liệu cụ thể, Prisma có thể được sử dụng cùng với một bộ chuyển đổi D1 hoặc một lớp truy cập dữ liệu tùy chỉnh trong Cloudflare Workers của bạn. Cách tiếp cận này cho phép bạn tận dụng tính an toàn kiểu, trình xây dựng truy vấn và các tính năng di chuyển của Prisma đồng thời vẫn sử dụng D1 làm cơ sở dữ liệu.",
+        "links": [
+          {
+            "title": "Prisma",
+            "url": "https://www.prisma.io/",
+            "type": "official"
+          },
+          {
+            "title": "Tài liệu Prisma",
+            "url": "https://www.prisma.io/docs",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brZctR1PMK6yErGIfRo_G",
+      "type": "label",
+      "label": "Frameworks",
+      "position": {
+        "x": -197.51237120830484,
+        "y": 1337.3942173748287
+      },
+      "size": {
+        "width": 111,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "QmxWfOTVNW6WTEbPtEqev",
+      "type": "vertical",
+      "label": "nút theo chiều dọc",
+      "position": {
+        "x": -19.528343636044667,
+        "y": 1114.6280432813637
+      },
+      "size": {
+        "width": 21,
+        "height": 207
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.75
+      },
+      "z_index": 999
+    },
+    {
+      "id": "9MlFtF1q0eis4YmCEmIir",
+      "type": "paragraph",
+      "label": "Thực thi bền vững",
+      "position": {
+        "x": 544.982416535137,
+        "y": 1174.9754953712302
+      },
+      "size": {
+        "width": 206,
+        "height": 48
+      },
+      "style": {
+        "fontSize": 20,
+        "borderColor": "transparent",
+        "backgroundColor": "transparent",
+        "color": "#000000",
+        "textAlign": "center",
+        "justifyContent": "center",
+        "padding": 16
+      },
+      "z_index": 999
+    },
+    {
+      "id": "zyRgTtlng6idboSgL9YTt",
+      "type": "topic",
+      "label": "Hàng đợi",
+      "position": {
+        "x": 581.982416535137,
+        "y": 1288.4799140839043
+      },
+      "size": {
+        "width": 132,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Cloudflare Queues là một dịch vụ xếp hàng tin nhắn cho phép bạn tách rời các phần khác nhau của ứng dụng của mình. Nó cho phép bạn gửi và nhận tin nhắn đáng tin cậy giữa Workers hoặc các dịch vụ khác. Giao tiếp không đồng bộ này hữu ích cho các tác vụ như xử lý nền, xử lý các đỉnh lưu lượng truy cập và xây dựng các ứng dụng bền bỉ. Queues đảm bảo rằng tin nhắn được giao hàng ngay cả khi dịch vụ nhận tin tạm thời không khả dụng.",
+        "links": [
+          {
+            "title": "Cloudflare Queues · Cloudflare Queues",
+            "url": "https://developers.cloudflare.com/queues/",
+            "type": "official"
+          },
+          {
+            "title": "Dòng đợi hoạt động như thế nào?",
+            "url": "https://developers.cloudflare.com/queues/reference/how-queues-works/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "EFA8m0EdhygxcBWzwmbnT",
+      "type": "subtopic",
+      "label": "Xử lý tin nhắn",
+      "position": {
+        "x": 541.982416535137,
+        "y": 1389.7759268553775
+      },
+      "size": {
+        "width": 212,
+        "height": 50
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Với Cloudflare Queues, xử lý tin nhắn bao gồm gửi tin nhắn đến hàng đợi từ một nhà sản xuất (thường là Worker) và sau đó tiêu thụ những tin nhắn đó từ hàng đợi bởi một người tiêu dùng (một Worker hoặc dịch vụ khác). Người tiêu dùng xử lý mỗi tin nhắn, thực hiện các tác vụ như chuyển đổi dữ liệu, gọi API hoặc cập nhật cơ sở dữ liệu. Hàng đợi đảm bảo giao hàng ít nhất một lần, có nghĩa là một tin nhắn sẽ được giao cho người tiêu dùng ít nhất một lần, ngay cả khi có sự cố. Người tiêu dùng có thể xác nhận quá trình xử lý thành công để loại bỏ tin nhắn khỏi hàng đợi.",
+        "links": [
+          {
+            "title": "Cloudflare Queues · Cloudflare Queues",
+            "url": "https://developers.cloudflare.com/queues/",
+            "type": "official"
+          },
+          {
+            "title": "Dòng đợi hoạt động như thế nào?",
+            "url": "https://developers.cloudflare.com/queues/reference/how-queues-works/",
+            "type": "official"
+          },
+          {
+            "title": "Sự khác biệt giữa Xử lý luồng và Xử lý tin nhắn",
+            "url": "https://stackoverflow.com/questions/41744506/difference-between-stream-processing-and-message-processing",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "qgvDGyLjc6lMmVPjHozFM",
+      "type": "subtopic",
+      "label": "Công việc nền",
+      "position": {
+        "x": 541.982416535137,
+        "y": 1443.7759268553775
+      },
+      "size": {
+        "width": 212,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Cloudflare Queues lý tưởng để xử lý các công việc nền. Thay vì thực hiện các tác vụ tốn thời gian trực tiếp trong một chu trình yêu cầu/phản hồi, bạn có thể xếp hàng (enqueue) một tin nhắn mô tả nhiệm vụ. Một Worker riêng biệt, đóng vai trò là người tiêu dùng, sau đó xử lý các tin nhắn này trong nền. Điều này cải thiện khả năng phản hồi của ứng dụng và cho phép bạn xử lý các tác vụ như xử lý hình ảnh, gửi email hoặc phân tích dữ liệu mà không chặn yêu cầu của người dùng.",
+        "links": [
+          {
+            "title": "Cloudflare Queues",
+            "url": "https://developers.cloudflare.com/queues/",
+            "type": "official"
+          },
+          {
+            "title": "Gửi việc | Công việc nền cho ứng dụng Serverless",
+            "url": "https://dispatched.dev/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "MInAsLLJtIq6WQDSj5yGH",
+      "type": "subtopic",
+      "label": "Hạn chế tốc độ truy cập",
+      "position": {
+        "x": 541.982416535137,
+        "y": 1496.7759268553775
+      },
+      "size": {
+        "width": 212,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Cloudflare Queues có thể được sử dụng để triển khai giới hạn tốc độ (rate limiting). Thay vì trực tiếp xử lý mỗi yêu cầu, bạn có thể xếp chúng vào hàng. Một người tiêu dùng Worker sau đó xử lý các tin nhắn từ hàng đợi với một tỷ lệ kiểm soát. Điều này ngăn chặn hệ thống backend của bạn bị quá tải do đột biến lưu lượng truy cập. Bạn có thể điều chỉnh tốc độ xử lý của người tiêu dùng để phù hợp với khả năng của các dịch vụ backend.",
+        "links": [
+          {
+            "title": "Cloudflare Queues - Queues & Rate Limits",
+            "url": "https://developers.cloudflare.com/queues/tutorials/handle-rate-limits/",
+            "type": "official"
+          },
+          {
+            "title": "Các phương pháp hay nhất về hạn chế tốc độ truy cập - Tài liệu tham khảo Cloudflare",
+            "url": "https://developers.cloudflare.com/waf/rate-limiting-rules/best-practices/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Grl59SjY31Q3sgf9uX-xf",
+      "type": "subtopic",
+      "label": "Hàng đợi thư tín chết",
+      "position": {
+        "x": 541.982416535137,
+        "y": 1549.7759268553775
+      },
+      "size": {
+        "width": 212,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Dead Letter Queues (DLQs) là một phần quan trọng của hệ thống hàng đợi tin nhắn mạnh mẽ. Trong Cloudflare Queues, một DLQ là một hàng đợi riêng biệt nơi các tin nhắn không thể xử lý thành công sau nhiều lần thử lại sẽ được gửi. Điều này cho phép bạn cô lập các tin nhắn có vấn đề và ngăn chúng gây ra các sự cố liên tục. Bạn có thể xem xét các tin nhắn trong DLQ để xác định và khắc phục các nguyên nhân gốc rễ.",
+        "links": [
+          {
+            "title": "Hộp thư chết (Dead-Letter Queue) được giải thích – AWS",
+            "url": "https://aws.amazon.com/what-is/dead-letter-queue/",
+            "type": "article"
+          },
+          {
+            "title": "Hàng đợi thư tín chết",
+            "url": "https://en.wikipedia.org/wiki/Dead_letter_queue",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "G-xBbtaniYFRE9Dgs18px",
+      "type": "topic",
+      "label": "Đối tượng bền vững",
+      "position": {
+        "x": 159.9816756636405,
+        "y": 1288.4799140839043
+      },
+      "size": {
+        "width": 173,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Cloudflare Durable Objects cung cấp một môi trường thực thi nhất quán và duy nhất với một tác nhân (actor) trên mạng lưới biên của Cloudflare. Khác với Workers, vốn không trạng thái, Durable Objects duy trì trạng thái, cho phép bạn xây dựng các ứng dụng yêu cầu sự phối hợp và tính nhất quán dữ liệu trên nhiều yêu cầu và người dùng. Chúng lý tưởng để xây dựng các ứng dụng cộng tác, trò chơi thời gian thực và các dịch vụ trạng thái khác.",
+        "links": [
+          {
+            "title": "Đối tượng Bền bỉ của Cloudflare - Tài liệu chính thức của Cloudflare",
+            "url": "https://developers.cloudflare.com/durable-objects/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "EQjhRlM7zpANNWkypScIl",
+      "type": "subtopic",
+      "label": "Quản lý Trạng thái",
+      "position": {
+        "x": 124.98167566364049,
+        "y": 1394.4160042707758
+      },
+      "size": {
+        "width": 243,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Đối tượng bền vững vượt trội trong quản lý trạng thái. Mỗi phiên bản Đối tượng bền vững có bộ nhớ lưu trữ riêng và có thể duy trì trạng thái trên nhiều yêu cầu. Bạn có thể lưu trữ dữ liệu bên trong một Đối tượng bền vững và truy cập nó nhất quán, bất kể máy chủ biên Cloudflare nào xử lý yêu cầu. Điều này loại bỏ nhu cầu sử dụng cơ sở dữ liệu hoặc lớp bộ nhớ đệm bên ngoài để quản lý trạng thái ứng dụng.",
+        "links": [
+          {
+            "title": "Đối tượng Bền Vững là gì? - Tài liệu Cloudflare",
+            "url": "https://developers.cloudflare.com/durable-objects/what-are-durable-objects/",
+            "type": "official"
+          },
+          {
+            "title": "Trạng thái đối tượng bền vững · Đối tượng bền vững của Cloudflare",
+            "url": "https://developers.cloudflare.com/durable-objects/api/state/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "RYm0oBFCxm-S-aCwZ21p6",
+      "type": "subtopic",
+      "label": "Điều phối",
+      "position": {
+        "x": 124.98167566364049,
+        "y": 1447.4160042707758
+      },
+      "size": {
+        "width": 243,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Các Đối tượng Bền vững hỗ trợ điều phối giữa các khách hàng hoặc Người làm việc khác nhau. Vì mỗi đối tượng đều có một cái nhìn nhất quán duy nhất về trạng thái của nó, nó có thể đóng vai trò là điểm trung tâm để điều phối hành động. Nhiều khách hàng có thể tương tác với cùng một Đối tượng Bền vững và đối tượng có thể đảm bảo rằng các hành động được thực hiện theo một trình tự nhất quán và dự đoán. Điều này hữu ích cho việc xây dựng các ứng dụng cộng tác nơi nhiều người dùng cần làm việc trên cùng một dữ liệu.",
+        "links": [
+          {
+            "title": "Đối tượng bền vững",
+            "url": "https://www.cloudflare.com/developer-platform/products/durable-objects/",
+            "type": "official"
+          },
+          {
+            "title": "Đối tượng bền vững (DO)",
+            "url": "https://www.lambrospetrou.com/articles/durable-objects-cloudflare/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "36w4Q73XkCwo5Cva0XsF8",
+      "type": "subtopic",
+      "label": "Độ bền",
+      "position": {
+        "x": 124.98167566364049,
+        "y": 1500.4160042707758
+      },
+      "size": {
+        "width": 243,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Các Đối tượng Bền vững cung cấp tính bền vững tích hợp sẵn. Dữ liệu được lưu trữ trong một Đối tượng Bền vững sẽ tự động được lưu vào cơ sở hạ tầng lưu trữ của Cloudflare. Bạn không cần phải lưu hoặc tải dữ liệu một cách rõ ràng; Đối tượng Bền vững tự xử lý tính bền vững. Điều này đơn giản hóa phát triển và đảm bảo trạng thái của ứng dụng của bạn có thể tin cậy và bền vững ngay cả khi có sự cố máy chủ.",
+        "links": [
+          {
+            "title": "Truy cập Lưu trữ Đối tượng Bền - Tài liệu Cloudflare Docs",
+            "url": "https://developers.cloudflare.com/durable-objects/best-practices/access-durable-objects-storage/",
+            "type": "official"
+          },
+          {
+            "title": "Trạng thái Nhập bộ nhớ trong một Đối tượng Bền, \"Durable Object\",",
+            "url": "https://developers.cloudflare.com/durable-objects/reference/in-memory-state/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "rxxibrJUo1rQ3XCuUIP59",
+      "type": "subtopic",
+      "label": "Các thao tác giao dịch",
+      "position": {
+        "x": 124.98167566364049,
+        "y": 1553.4160042707758
+      },
+      "size": {
+        "width": 243,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Các Đối tượng Bền vững hỗ trợ các thao tác giao dịch. Bạn có thể thực hiện nhiều thao tác trong một giao dịch duy nhất, đảm bảo rằng tất cả các thao tác đều thành công hoặc không thao tác nào thành công. Điều này giúp duy trì tính nhất quán của dữ liệu và ngăn chặn cập nhật không toàn bộ. Nếu xảy ra lỗi trong một giao dịch, Đối tượng Bền vững sẽ tự động hoàn nguyên tất cả các thay đổi, để lại dữ liệu ở trạng thái nhất quán.",
+        "links": [
+          {
+            "title": "Lưu trữ đối tượng bền vững · Đối tượng bền vững của Cloudflare",
+            "url": "https://developers.cloudflare.com/durable-objects/api/storage-api/",
+            "type": "official"
+          },
+          {
+            "title": "Lưu trữ Giao dịch · Đối tượng Bền vững của Cloudflare",
+            "url": "https://developers.cloudflare.com:2096/durable-objects/api/transactional-storage-api/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "rAl7zXcODiqIpS__3qf1A",
+      "type": "topic",
+      "label": "Workflows",
+      "position": {
+        "x": -256.2583309760692,
+        "y": 1428.0801885474361
+      },
+      "size": {
+        "width": 177,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Cloudflare Workflow cho phép bạn tự động hóa các tác vụ và điều phối các dịch vụ khác nhau của Cloudflare thông qua giao diện trực quan, không cần mã/ít cần mã. Bạn có thể tạo quy trình làm việc (workflow) kích hoạt dựa trên nhiều sự kiện khác nhau (ví dụ: yêu cầu HTTP, lịch trình) và thực hiện các hành động như sửa đổi tiêu đề HTTP, chuyển hướng lưu lượng truy cập hoặc tích hợp với các API bên ngoài. Nó được thiết kế để đơn giản hóa các cấu hình phức tạp và tự động hóa các tác vụ lặp đi lặp lại mà không đòi hỏi kiến thức lập trình chuyên sâu.",
+        "links": [
+          {
+            "title": "Workflow tự động hóa trên Cloudflare",
+            "url": "https://developers.cloudflare.com/workflows/",
+            "type": "official"
+          },
+          {
+            "title": "Khởi đầu Workflows của Cloudflare",
+            "url": "https://github.com/cloudflare/workflows-starter",
+            "type": "opensource"
+          }
+        ]
+      }
+    },
+    {
+      "id": "yTtjbO_dji8ssSaOAKpCV",
+      "type": "paragraph",
+      "label": "Các tính năng nâng cao",
+      "position": {
+        "x": -292.2583309760692,
+        "y": 1529.9764904620736
+      },
+      "size": {
+        "width": 249,
+        "height": 55
+      },
+      "style": {
+        "fontSize": 20,
+        "borderColor": "transparent",
+        "backgroundColor": "transparent",
+        "color": "#000000",
+        "textAlign": "center",
+        "justifyContent": "center",
+        "padding": 16
+      },
+      "z_index": 999
+    },
+    {
+      "id": "a0S0_JLwLLNGLUAHrqG4P",
+      "type": "topic",
+      "label": "Workers AI",
+      "position": {
+        "x": -256.2583309760692,
+        "y": 1634.6916034998312
+      },
+      "size": {
+        "width": 177,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Cloudflare Workers AI cho phép bạn chạy suy luận AI trực tiếp trên mạng lưới toàn cầu của Cloudflare, gần người dùng của bạn. Điều này loại bỏ nhu cầu gửi dữ liệu đến các máy chủ AI tập trung, giảm độ trễ và cải thiện hiệu suất cho các ứng dụng dựa trên AI. Bạn có thể sử dụng Workers AI để thực hiện các tác vụ như nhận dạng hình ảnh, xử lý ngôn ngữ tự nhiên và phân tích cảm xúc tại biên.",
+        "links": [
+          {
+            "title": "Workers AI - Tài liệu Cloudflare",
+            "url": "https://developers.cloudflare.com/workers-ai/",
+            "type": "official"
+          },
+          {
+            "title": "Models · Cloudflare Workers AI",
+            "url": "https://developers.cloudflare.com/workers-ai/models/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "zMwmoCUp9429_aXU-Bz4H",
+      "type": "subtopic",
+      "label": "Tạo văn bản",
+      "position": {
+        "x": -277.7583309760692,
+        "y": 1721.8046659749807
+      },
+      "size": {
+        "width": 220,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Workers AI cho phép bạn thực hiện các tác vụ tạo văn bản trực tiếp trên mạng lưới biên Edge của Cloudflare. Bạn có thể sử dụng các mô hình được đào tạo trước hoặc tinh chỉnh các mô hình của riêng bạn để tạo văn bản cho nhiều mục đích khác nhau, chẳng hạn như tạo nội dung, phản hồi chatbot hoặc dịch ngôn ngữ. Chạy tạo văn bản ở rìa giảm độ trễ và cải thiện khả năng đáp ứng của các ứng dụng AI dựa trên sức mạnh của bạn.",
+        "links": [
+          {
+            "title": "Chọn Mô hình Tạo văn bản Chính xác",
+            "url": "https://developers.cloudflare.com/workers-ai/tutorials/how-to-choose-the-right-text-generation-model/",
+            "type": "official"
+          },
+          {
+            "title": "Khuyến nghị (Prompting) · Cloudflare Workers AI",
+            "url": "https://developers.cloudflare.com/workers-ai/guides/prompting/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "S7laV14zsx31O0Tsj2SRL",
+      "type": "subtopic",
+      "label": "Xử lý Hình ảnh",
+      "position": {
+        "x": -277.7583309760692,
+        "y": 1774.8046659749807
+      },
+      "size": {
+        "width": 220,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Workers AI cho phép bạn chạy các mô hình AI trực tiếp trong Cloudflare Workers, mang lại khả năng xử lý ảnh mạnh mẽ ở rìa. Bạn có thể sử dụng Workers AI để thực hiện các tác vụ như: - Nhận dạng hình ảnh - Phát hiện đối tượng - Phân loại hình ảnh - Thay đổi kích thước và tối ưu hóa hình ảnh Điều này cho phép bạn xây dựng các ứng dụng thông minh có thể phân tích và thao tác hình ảnh theo thời gian thực, gần với người dùng.",
+        "links": [
+          {
+            "title": "Cách xây dựng một bộ tạo ảnh bằng AI Workers",
+            "url": "https://developers.cloudflare.com/workers-ai/tutorials/image-generation-playground/",
+            "type": "official"
+          },
+          {
+            "title": "Bắt đầu với Cloudflare Images",
+            "url": "https://developers.cloudflare.com/images/get-started/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "HJbJ8OxjJzznYwLlIOSO2",
+      "type": "subtopic",
+      "label": "Nhận dạng giọng nói",
+      "position": {
+        "x": -277.7583309760692,
+        "y": 1827.8046659749807
+      },
+      "size": {
+        "width": 220,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Bạn có thể sử dụng Workers AI để chạy các mô hình chuyển đổi văn bản thành giọng nói trực tiếp trên mạng lưới biên của Cloudflare, cho phép phiên dịch thời gian thực dữ liệu âm thanh. Điều này có thể hữu ích cho các ứng dụng như tìm kiếm bằng giọng nói, lệnh bằng giọng nói và chú thích theo thời gian thực.",
+        "links": [
+          {
+            "title": "Whisper - Cloudflare Workers AI",
+            "url": "https://developers.cloudflare.com/workers-ai/models/whisper/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "QxPoNHsL-Pj_z3aU6qEP4",
+      "type": "subtopic",
+      "label": "Tích hợp Mô hình AI",
+      "position": {
+        "x": -277.7583309760692,
+        "y": 1880.8046659749807
+      },
+      "size": {
+        "width": 220,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Workers AI cung cấp khả năng chạy các mô hình AI trực tiếp trên mạng lưới biên Edge của Cloudflare cho các tác vụ nhận dạng. Điều này bao gồm nhận dạng hình ảnh (xác định đối tượng hoặc cảnh trong hình ảnh) và hiểu ngôn ngữ tự nhiên (phân tích văn bản để tìm kiếm cảm xúc, ý định hoặc thực thể). Bằng cách thực hiện nhận dạng mô hình AI ở rìa, bạn có thể giảm độ trễ và cải thiện khả năng đáp ứng của các ứng dụng AI dựa trên sức mạnh của bạn.",
+        "links": [
+          {
+            "title": "Cloudflare + AI",
+            "url": "https://ai.cloudflare.com/",
+            "type": "official"
+          },
+          {
+            "title": "Tích hợp Mô hình AI Cloudflare",
+            "url": "https://developers.cloudflare.com/ai-gateway/integrations/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "NWGVtH1vxQuO4lly0Omuy",
+      "type": "topic",
+      "label": "Vectorize (Định danh vector)",
+      "position": {
+        "x": 79.83264623685739,
+        "y": 1634.6916034998312
+      },
+      "size": {
+        "width": 125,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Cloudflare Vectorize là cơ sở dữ liệu vector cho phép bạn lưu trữ và truy vấn các vector chiều cao, thường được sử dụng trong học máy cho các tác vụ như tìm kiếm tương đồng và công cụ gợi ý. Bằng cách sử dụng Vectorize với Workers AI, bạn có thể xây dựng các ứng dụng có thể thực hiện tìm kiếm và gợi ý dựa trên AI theo thời gian thực trực tiếp trên mạng lưới biên của Cloudflare.",
+        "links": [
+          {
+            "title": "Giới thiệu Vectorize - Tài liệu Cloudflare, \"Introduction to Vectorize - Cloudflare Docs\"",
+            "url": "https://developers.cloudflare.com/vectorize/get-started/intro/",
+            "type": "official"
+          },
+          {
+            "title": "Cloudflare Vectorize",
+            "url": "https://developers.cloudflare.com/vectorize/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "UIWaR1ZdjSm0UAS69Kz_5",
+      "type": "subtopic",
+      "label": "Vector Embeddings (Biểu diễn vector)",
+      "position": {
+        "x": 40.332646236857386,
+        "y": 1724.2807234618997
+      },
+      "size": {
+        "width": 204,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Cloudflare Vectorize cho phép bạn lưu trữ và truy vấn các vector chiều cao, thường được sử dụng trong học máy cho các tác vụ như tìm kiếm tương đồng và công cụ gợi ý. Bằng cách sử dụng Vectorize với Workers AI, bạn có thể xây dựng các ứng dụng có thể thực hiện tìm kiếm và gợi ý dựa trên AI theo thời gian thực trực tiếp trên mạng lưới biên của Cloudflare.",
+        "links": [
+          {
+            "title": "Cơ sở dữ liệu Vector - Tài liệu của Cloudflare",
+            "url": "https://developers.cloudflare.com/vectorize/reference/what-is-a-vector-database/",
+            "type": "official"
+          },
+          {
+            "title": "Cloudflare Vectorize",
+            "url": "https://developers.cloudflare.com/vectorize/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pg3GtykCegK411DYDN8sN",
+      "type": "subtopic",
+      "label": "Tìm kiếm Tương tự",
+      "position": {
+        "x": 40.332646236857386,
+        "y": 1777.2807234618997
+      },
+      "size": {
+        "width": 204,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Cloudflare cung cấp Vectorize, một cơ sở dữ liệu vector, cho phép tìm kiếm tương đồng. Bạn có thể định vị dữ liệu (văn bản, hình ảnh, âm thanh) thành các vector và sau đó sử dụng Vectorize để tìm các vector tương tự nhất dựa trên một vector truy vấn. Điều này được sử dụng cho hệ thống gợi ý, khám phá nội dung và các ứng dụng khác nơi việc tìm kiếm các mục tương tự là quan trọng.",
+        "links": [
+          {
+            "title": "Cloudflare Vectorize - Cloudflare",
+            "url": "https://developers.cloudflare.com/vectorize/",
+            "type": "official"
+          },
+          {
+            "title": "seemueller-io/hyphalbase",
+            "url": "https://github.com/seemueller-io/hyphalbase",
+            "type": "opensource"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Ep9_oV_YnkbH1gHM-n3gO",
+      "type": "subtopic",
+      "label": "Tìm kiếm được hỗ trợ bởi AI",
+      "position": {
+        "x": 40.332646236857386,
+        "y": 1830.2807234618997
+      },
+      "size": {
+        "width": 204,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Bạn có thể xây dựng tìm kiếm được hỗ trợ bởi AI bằng Cloudflare Workers, Workers AI và Vectorize. 1. **Tích hợp Dữ liệu:** Sử dụng Workers AI để tạo các vector embedding của dữ liệu của bạn (ví dụ: văn bản, hình ảnh). 2. **Lưu trữ Embeddings:** Lưu trữ các embeddings này trong Vectorize. 3. **Tìm kiếm:** Khi người dùng tìm kiếm, hãy tạo embedding cho truy vấn tìm kiếm bằng Workers AI và sau đó sử dụng Vectorize để tìm các embeddings tương tự nhất trong cơ sở dữ liệu của bạn. 4. **Trả về Kết quả:** Trả về các mục dữ liệu tương ứng làm kết quả tìm kiếm.",
+        "links": [
+          {
+            "title": "Cloudflare + AI",
+            "url": "https://ai.cloudflare.com/",
+            "type": "official"
+          },
+          {
+            "title": "Các Agent của Cloudflare",
+            "url": "https://developers.cloudflare.com/agents/",
+            "type": "official"
+          },
+          {
+            "title": "Hướng dẫn sử dụng Cloudflare Workers AI để xây dựng Tìm kiếm được hỗ trợ bởi AI",
+            "url": "https://dev.to/charlestehio/how-to-use-cloudflare-workers-ai-for-building-an-ai-powered-search-bar-51jn",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "LoT3NtpNj9uAgQRV-MD_E",
+      "type": "topic",
+      "label": "Dòng luồng",
+      "position": {
+        "x": 346.6978266236106,
+        "y": 1634.6916034998312
+      },
+      "size": {
+        "width": 125,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Cloudflare Stream là nền tảng phát trực tuyến video cho phép tải lên, mã hóa và phân phối video trên toàn cầu một cách dễ dàng. Nó xử lý tất cả các phức tạp của việc phát trực tuyến video, bao gồm mã hóa cho nhiều thiết bị và điều kiện mạng khác nhau, mang lại trải nghiệm xem tin cậy và chất lượng cao. Stream tích hợp liền mạch với CDN của Cloudflare, đảm bảo phân phối video nhanh chóng và hiệu quả đến người dùng trên khắp thế giới.",
+        "links": [
+          {
+            "title": "Cloudflare Stream - Cloudflare Documentation",
+            "url": "https://www.cloudflare.com/developer-platform/products/cloudflare-stream/",
+            "type": "official"
+          },
+          {
+            "title": "Cloudflare Stream - Cloudflare Blog",
+            "url": "https://blog.cloudflare.com/tag/cloudflare-stream/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "zQp7XfDKWJgMf2LexRJhN",
+      "type": "subtopic",
+      "label": "Phân phối Video",
+      "position": {
+        "x": 312.1978266236106,
+        "y": 1721.3878759780328
+      },
+      "size": {
+        "width": 194,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Cloudflare Stream cung cấp một giải pháp toàn diện cho việc phân phối video: - **Mã hóa:** Tự động mã hóa video cho các thiết bị và băng thông khác nhau. - **Lưu trữ:** Lưu trữ video của bạn một cách an toàn. - **CDN:** Phân phối video trên toàn cầu thông qua CDN của Cloudflare để phát lại nhanh chóng. - **Trình phát:** Cung cấp trình phát video tùy chỉnh. Điều này đơn giản hóa quá trình cung cấp trải nghiệm video chất lượng cao.",
+        "links": [
+          {
+            "title": "Phân phối Video với Cloudflare",
+            "url": "https://developers.cloudflare.com/support/more-dashboard-apps/cloudflare-stream/delivering-videos-with-cloudflare/",
+            "type": "official"
+          },
+          {
+            "title": "Phân phối luồng - Cloudflare Stream",
+            "url": "https://www.cloudflare.com/application-services/solutions/stream-delivery/",
+            "type": "official"
+          },
+          {
+            "title": "Cloudflare Stream - Cloudflare",
+            "url": "https://www.cloudflare.com/developer-platform/products/cloudflare-stream/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "RiQSPAV9uRFgwQFJckTFV",
+      "type": "subtopic",
+      "label": "Phát trực tiếp",
+      "position": {
+        "x": 312.1978266236106,
+        "y": 1774.3878759780328
+      },
+      "size": {
+        "width": 194,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Cloudflare Stream hỗ trợ phát trực tuyến trực tiếp. Bạn có thể sử dụng các công cụ như OBS Studio hoặc Wirecast để phát video đến Cloudflare, và Stream sẽ xử lý mã hóa, phân phối và phát lại. Điều này cho phép bạn dễ dàng phát sóng các sự kiện trực tiếp đến khán giả toàn cầu.",
+        "links": [
+          {
+            "title": "Cloudflare Stream",
+            "url": "https://www.cloudflare.com/developer-platform/products/cloudflare-stream/",
+            "type": "official"
+          },
+          {
+            "title": "Phát trực tiếp Không máy chủ với Cloudflare Stream",
+            "url": "https://blog.cloudflare.com/stream-live/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3B6Z7F0D3Sf8ZBlV3kkGx",
+      "type": "subtopic",
+      "label": "Xử lý Video",
+      "position": {
+        "x": 312.1978266236106,
+        "y": 1827.3878759780328
+      },
+      "size": {
+        "width": 194,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Cloudflare cung cấp khả năng xử lý video thông qua Stream và Workers: – **Stream:** Xử lý mã hóa, chuyển đổi định dạng và phát luồng theo phân đoạn thích ứng (adaptive bitrate streaming) tự động. – **Workers:** Bạn có thể sử dụng Workers để chặn các yêu cầu video và thực hiện xử lý tùy chỉnh, chẳng hạn như thêm dấu bản ghi hoặc sửa đổi siêu dữ liệu. Điều này cho phép bạn tùy chỉnh quy trình phân phối video của mình.",
+        "links": [
+          {
+            "title": "Cloudflare Stream - Cloudflare",
+            "url": "https://www.cloudflare.com/developer-platform/products/cloudflare-stream/",
+            "type": "official"
+          },
+          {
+            "title": "Nền tảng VOD | Phần mềm Phát trực tuyến Theo yêu cầu",
+            "url": "https://www.cloudflare.com/developer-platform/solutions/video-on-demand/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "8bOWuopxHtBWUSFaVT54P",
+      "type": "topic",
+      "label": "Hình ảnh",
+      "position": {
+        "x": 561.482416535137,
+        "y": 1634.6916034998312
+      },
+      "size": {
+        "width": 173,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Cloudflare Images cung cấp các dịch vụ tối ưu hóa và phân phối hình ảnh toàn diện. Nó tự động điều chỉnh kích thước, chuyển đổi và tối ưu hóa hình ảnh cho các thiết bị và trình duyệt khác nhau, cải thiện hiệu suất trang web và giảm mức sử dụng băng thông. Bạn cũng có thể sử dụng Cloudflare Images để lưu trữ và phục vụ hình ảnh trực tiếp, loại bỏ nhu cầu sử dụng một dịch vụ lưu trữ hình ảnh riêng biệt.",
+        "links": [
+          {
+            "title": "Hình ảnh · Tài liệu Cloudflare Docs",
+            "url": "https://developers.cloudflare.com/images/",
+            "type": "official"
+          },
+          {
+            "title": "Bắt đầu với Cloudflare Images",
+            "url": "https://developers.cloudflare.com/images/get-started/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "vHQdMgaL2EEr2o_eJmOuV",
+      "type": "topic",
+      "label": "Gọi",
+      "position": {
+        "x": 561.482416535137,
+        "y": 1753.2807234618997
+      },
+      "size": {
+        "width": 173,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Cloudflare Calls là một nền tảng để xây dựng các ứng dụng âm thanh và video thời gian thực trực tiếp trên mạng lưới biên Cloudflare. Nền tảng cung cấp cơ sở hạ tầng và API mà bạn cần để tạo ra các trải nghiệm tương tác như hội nghị video, phát trực tiếp và trò chuyện bằng giọng nói, với độ trễ thấp và phạm vi toàn cầu.",
+        "links": [
+          {
+            "title": "Các cuộc gọi Cloudflare",
+            "url": "https://developers.cloudflare.com/calls/",
+            "type": "official"
+          },
+          {
+            "title": "Giới thiệu · Cuộc gọi Cloudflare Calls, \"Introduction · Cloudflare Calls\"",
+            "url": "https://developers.cloudflare.com/calls/introduction/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "aKEH4ZxI6J1nwjp_AgH5r",
+      "type": "subtopic",
+      "label": "Ghi nhật ký và Giám sát",
+      "position": {
+        "x": -286.42440139623136,
+        "y": 701.9890672390103
+      },
+      "size": {
+        "width": 289,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Ghi nhật ký và giám sát hiệu quả là rất quan trọng để hiểu và gỡ lỗi Cloudflare Workers. Bạn có thể sử dụng `console.log` để ghi nhật ký cơ bản trong quá trình phát triển. Đối với sản xuất, hãy xem xét sử dụng một dịch vụ ghi nhật ký chuyên dụng để thu thập và phân tích nhật ký từ Workers của bạn. Cloudflare cung cấp các số liệu như số lượng yêu cầu, mức sử dụng CPU và tỷ lệ lỗi có thể được giám sát trong bảng điều khiển Cloudflare. Thiết lập cảnh báo dựa trên các số liệu này giúp bạn xác định và giải quyết vấn đề một cách nhanh chóng.",
+        "links": [
+          {
+            "title": "Sự khác biệt giữa Ghi nhật ký và Giám sát: Điều gì khác nhau?",
+            "url": "https://toxigon.com/logging-vs-monitoring-whats-the-difference",
+            "type": "article"
+          },
+          {
+            "title": "Gỡ lỗi và Nhật ký · Cloudflare Pages",
+            "url": "https://developers.cloudflare.com/pages/functions/debugging-and-logging/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "z-1Ye5hcNdr9r6Gwdw7mv",
+      "type": "topic",
+      "label": "Workers Email",
+      "position": {
+        "x": 561.482416535137,
+        "y": 1956.3878759780328
+      },
+      "size": {
+        "width": 173,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Email Workers cho phép bạn chặn và sửa đổi lưu lượng email đi qua dịch vụ định tuyến email của Cloudflare. Bạn có thể sử dụng Email Workers để thực hiện các tác vụ như lọc thư rác, xác thực email và logic xử lý email tùy chỉnh, mang lại khả kiểm soát lớn hơn đối với luồng email của bạn.",
+        "links": [
+          {
+            "title": "Email Workers · Cloudflare Email Routing",
+            "url": "https://developers.cloudflare.com/email-routing/email-workers/",
+            "type": "official"
+          },
+          {
+            "title": "Đường dẫn đến Người làm việc, Tự động hóa Xử lý Email của bạn",
+            "url": "https://blog.cloudflare.com/announcing-route-to-workers/",
+            "type": "official"
+          },
+          {
+            "title": "Triển khai một Dịch vụ Giao hàng Email với Cloudflare Workers",
+            "url": "https://medium.com/@georgechmr/implementing-an-email-delivery-service-with-cloudflare-workers-c141422109d0",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "-lsYPD6JueIV94RybGH_Y",
+      "type": "subtopic",
+      "label": "Routing",
+      "position": {
+        "x": 561.482416535137,
+        "y": 2047.265056764798
+      },
+      "size": {
+        "width": 173,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Trong Cloudflare Email Workers, định tuyến đề cập đến việc chuyển hướng email đến đích hoặc logic xử lý phù hợp. Email Workers chặn email và sử dụng các quy tắc được xác định để xác định số phận của chúng. Bạn có thể định tuyến email dựa trên người gửi, người nhận, tiêu đề hoặc các tiêu chí khác. Điều này cho phép bạn chuyển tiếp email, kích hoạt logic tùy chỉnh hoặc thậm chí loại bỏ các tin nhắn không mong muốn. Định tuyến hiệu quả là rất quan trọng để quản lý luồng email, triển khai quy trình làm việc email tùy chỉnh và xây dựng các ứng dụng phản hồi với email đến.",
+        "links": [
+          {
+            "title": "Email Workers · Cloudflare Email Routing",
+            "url": "https://developers.cloudflare.com/email-routing/email-workers/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6bNUqx5f_w5NuDL25BABN",
+      "type": "subtopic",
+      "label": "Xử lý",
+      "position": {
+        "x": 561.482416535137,
+        "y": 2100.265056764798
+      },
+      "size": {
+        "width": 173,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Với Cloudflare Email Workers, xử lý bao gồm thao tác hoặc phân tích nội dung email đến. Sau khi một email được định tuyến đến worker của bạn, bạn có thể truy cập và sửa đổi nhiều khía cạnh của email, chẳng hạn như tiêu đề, nội dung và tệp đính kèm. Xử lý có thể bao gồm các tác vụ như: - **Sửa đổi Nội dung:** Thay đổi nội dung email, thêm thông điệp từ chối trách nhiệm hoặc dịch nội dung. - **Trích xuất Dữ liệu:** Phân tích thông tin từ email để sử dụng trong các ứng dụng khác. - **Lọc Spam:** Triển khai logic phát hiện spam tùy chỉnh. - **Xử lý Tệp đính kèm:** Xử lý hoặc lưu trữ tệp đính kèm. Email Workers cung cấp khả năng tùy chỉnh cách xử lý email, cho phép một loạt các ứng dụng và tích hợp dựa trên email.",
+        "links": [
+          {
+            "title": "Email Workers · Cloudflare Email Routing",
+            "url": "https://developers.cloudflare.com/email-routing/email-workers/",
+            "type": "official"
+          },
+          {
+            "title": "Lộ trình Workers Email - API Runtime",
+            "url": "https://developers.cloudflare.com/email-routing/email-workers/runtime-api/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "kdIfqTCcOSvV4KDpjr7nu",
+      "type": "subtopic",
+      "label": "Lọc (Filtering)",
+      "position": {
+        "x": 561.482416535137,
+        "y": 2153.265056764798
+      },
+      "size": {
+        "width": 173,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Trong Cloudflare Email Workers, lọc là quá trình hành động chọn lọc đối với email dựa trên các tiêu chí cụ thể. Nó cho phép bạn xác định các quy tắc để xác định xem worker của bạn sẽ xử lý những email nào và như thế nào. Lọc có thể dựa trên nhiều thuộc tính email khác nhau, bao gồm: - **Người gửi/Người nhận:** Phù hợp với địa chỉ email hoặc miền cụ thể. - **Tiêu đề:** Tìm kiếm các từ khóa hoặc mẫu trong tiêu đề. - **Đầu ghi:** Kiểm tra giá trị đầu ghi cụ thể. - **Nội dung:** Phân tích nội dung email để tìm kiếm các từ khóa nhất định. Bằng cách triển khai lọc, bạn có thể đảm bảo rằng worker của bạn chỉ xử lý các email liên quan, tối ưu hóa hiệu suất và ngăn chặn hành động không mong muốn đối với các tin nhắn không liên quan.",
+        "links": [
+          {
+            "title": "Email Workers · Cloudflare Email Routing",
+            "url": "https://developers.cloudflare.com/email-routing/email-workers/",
+            "type": "official"
+          },
+          {
+            "title": "Triển khai một Dịch vụ Giao hàng Email với Cloudflare Workers",
+            "url": "https://medium.com/@georgechmr/implementing-an-email-delivery-service-with-cloudflare-workers-c141422109d0",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "vu8yJsS1WccsdcEVUqwNd",
+      "type": "topic",
+      "label": "AI Gateway",
+      "position": {
+        "x": 361.39029212267985,
+        "y": 1956.3878759780328
+      },
+      "size": {
+        "width": 152,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Gateway AI của Cloudflare đóng vai trò là điểm trung tâm để quản lý và tối ưu hóa các khối lượng công việc AI của bạn. Nó cung cấp các tính năng như bộ nhớ cache, giới hạn tốc độ và khả năng quan sát cho các yêu cầu AI, giúp bạn cải thiện hiệu suất, giảm chi phí và có được những hiểu biết về cách các mô hình AI của bạn đang được sử dụng.",
+        "links": [
+          {
+            "title": "Cloudflare + AI",
+            "url": "https://ai.cloudflare.com/",
+            "type": "official"
+          },
+          {
+            "title": "Cổng Cloudflare AI",
+            "url": "https://www.cloudflare.com/developer-platform/products/ai-gateway/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "qkFRW_tJB8_1IYpYskQ5M",
+      "type": "topic",
+      "label": "Hiển thị trình duyệt",
+      "position": {
+        "x": 74.57806488778613,
+        "y": 1956.3878759780328
+      },
+      "size": {
+        "width": 235,
+        "height": 50
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Cloudflare Browser Rendering cho phép bạn trình duyệt các trang web trong môi trường trình duyệt không đầu (headless) trên mạng lưới biên của Cloudflare. Điều này hữu ích cho các tác vụ như tạo PDF, chụp ảnh màn hình hoặc tiền xử lý nội dung để tối ưu hóa SEO. Bằng cách thực hiện trình duyệt web tại biên, bạn có thể giảm tải xử lý từ máy chủ gốc và cải thiện hiệu suất cho một số loại ứng dụng web nhất định.",
+        "links": [
+          {
+            "title": "Hiển thị trình duyệt",
+            "url": "https://developers.cloudflare.com/browser-rendering/",
+            "type": "official"
+          },
+          {
+            "title": "API Hiển thị trình duyệt - Blog",
+            "url": "https://blog.cloudflare.com/browser-rendering-api-ga-rolling-out-cloudflare-snippets-swr-and-bringing-workers-for-platforms-to-our-paygo-plans/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "76xovsBrKOnlRBVjsqNq1",
+      "type": "topic",
+      "label": "Bảo mật & Hiệu suất",
+      "position": {
+        "x": 74.57806488778613,
+        "y": 2141.5338176098276
+      },
+      "size": {
+        "width": 235,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Cloudflare cải thiện đáng kể cả bảo mật và hiệu năng thông qua mạng lưới toàn cầu của nó. Nó cung cấp khả năng bảo vệ mạnh mẽ chống lại các cuộc tấn công DDoS, lưu lượng truy cập từ bot và các mối đe dọa web khác, đồng thời tăng tốc thời gian tải trang web thông qua CDN (Content Delivery Network) và cơ chế bộ nhớ cache của nó. Bằng cách kết thúc các kết nối SSL/TLS tại rìa mạng và tối ưu hóa việc phân phối nội dung, Cloudflare đảm bảo trải nghiệm an toàn và nhanh chóng cho người dùng, giảm độ trễ và cải thiện khả năng phục hồi tổng thể của trang web. **Bảo mật:** Email Workers của Cloudflare có thể tăng cường bảo mật email bằng: - **Phát hiện và Chặn Spam/Phishing:** Triển khai bộ lọc tùy chỉnh để xác định và chặn các email độc hại trước khi chúng đến tay người nhận. - **Làm sạch Nội dung:** Loại bỏ nội dung có thể gây hại từ email, chẳng hạn như script hoặc liên kết độc hại. - **Xác thực:** Xác minh tính xác thực của người gửi để ngăn chặn các cuộc tấn công lừa đảo và phishing. - **Ngăn chặn mất dữ liệu (DLP):** Ngăn chặn thông tin nhạy cảm được gửi qua email. **Hiệu năng:** Email Workers tác động đến hiệu năng bằng: - **Giảm độ trễ:** Xử lý email gần người dùng hơn, giảm thiểu sự chậm trễ. - **Khả năng mở rộng:** Xử lý khối lượng lớn lưu lượng email mà không làm suy giảm hiệu suất. - **Lọc đường đi tùy chỉnh:** Điều hướng hiệu quả email đến đích phù hợp. - **Xử lý được tối ưu hóa:** Thực hiện các tác vụ xử lý email nhẹ để tránh tắc nghẽn. Để tận dụng Email Workers một cách hiệu quả cho cả bảo mật và hiệu năng đòi hỏi phải có kế hoạch và triển khai cẩn thận các bộ lọc, quy tắc và logic xử lý liên quan.",
+        "links": [
+          {
+            "title": "Giải pháp Bảo mật & Hiệu năng Ứng dụng - Cloudflare",
+            "url": "https://www.cloudflare.com/application-services/solutions/",
+            "type": "official"
+          },
+          {
+            "title": "Kiến trúc bảo mật Cloudflare",
+            "url": "https://developers.cloudflare.com/reference-architecture/architectures/security/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "8IF7jftushwZrn7JXpC_v",
+      "type": "subtopic",
+      "label": "Workers Security Model",
+      "position": {
+        "x": -281.3575478619334,
+        "y": 1982.5338176098273
+      },
+      "size": {
+        "width": 227,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Cloudflare Workers hoạt động trong một môi trường an toàn, cô lập. Runtime Workers thực thi các ranh giới bảo mật nghiêm ngặt, ngăn Workers truy cập dữ liệu nhạy cảm hoặc can thiệp vào các quy trình khác. Workers có quyền truy cập hạn chế vào thế giới bên ngoài và phải yêu cầu tài nguyên một cách rõ ràng. Mạng lưới toàn cầu của Cloudflare cung cấp bảo vệ DDoS vốn có và giảm thiểu các lỗ hổng web phổ biến. Môi trường thực thi an toàn này đảm bảo rằng Workers có thể xử lý các yêu cầu một cách an toàn mà không làm suy yếu sự bảo mật tổng thể của nền tảng.",
+        "links": [
+          {
+            "title": "Mô hình Bảo mật · Cloudflare",
+            "url": "https://developers.cloudflare.com/workers/reference/security-model/",
+            "type": "official"
+          },
+          {
+            "title": "Workers RPC — Mô hình Khả năng nhìn thấy và Bảo mật - Tài liệu chính thức của Cloudflare",
+            "url": "https://developers.cloudflare.com/workers/runtime-apis/rpc/visibility/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "uNinrB9wm5ahjGXu5fc0g",
+      "type": "subtopic",
+      "label": "Kiến trúc Cô lập, \"Isolates Architecture\",",
+      "position": {
+        "x": -281.3575478619334,
+        "y": 2035.5338176098276
+      },
+      "size": {
+        "width": 227,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Kiến trúc cô lập cho Workers của Cloudflare dựa trên các V8 isolate nhẹ. Mỗi Worker chạy trong một isolate riêng, cung cấp sự cô lập mạnh mẽ với các Worker khác và cơ sở hạ tầng cơ bản. Các isolate khởi động nhanh chóng và tiêu thụ tài nguyên tối thiểu, cho phép mở rộng quy mô nhanh chóng. Kiến trúc này ngăn chặn mã của một Worker ảnh hưởng đến những Worker khác, tăng cường bảo mật và ổn định. Sự cô lập đảm bảo rằng ngay cả khi một Worker chứa các lỗ hổng, nó cũng không thể đe dọa toàn bộ mạng Cloudflare hoặc các ứng dụng của khách hàng khác.",
+        "links": [
+          {
+            "title": "Kiến trúc tham chiếu · Kiến trúc tham chiếu Cloudflare",
+            "url": "https://developers.cloudflare.com/reference-architecture/",
+            "type": "official"
+          },
+          {
+            "title": "Kiến trúc bảo mật Cloudflare",
+            "url": "https://developers.cloudflare.com/reference-architecture/architectures/security/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "KWix4jeNUKJ07Iu95Mqj_",
+      "type": "subtopic",
+      "label": "Tiêu đề bảo mật web",
+      "position": {
+        "x": -281.3575478619334,
+        "y": 2088.5338176098276
+      },
+      "size": {
+        "width": 227,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Tiêu đề bảo mật web là các tiêu đề phản hồi HTTP giúp tăng cường bảo mật trang web. Cloudflare cho phép bạn dễ dàng cấu hình các tiêu đề này để bảo vệ chống lại các cuộc tấn công phổ biến. Các tiêu đề chính bao gồm: - **Chính sách Bảo mật Nội dung (CSP):** Kiểm soát các tài nguyên trình duyệt có thể tải. - **Bảo mật Truyền Thẳng An Toàn (HSTS):** Bắt buộc kết nối HTTPS. - **X-Frame-Options:** Ngăn chặn tấn công clickjacking. - **X-XSS-Protection:** Kích hoạt bộ lọc XSS trong trình duyệt. - **Chính sách Tham chiếu (Referrer-Policy):** Kiểm soát thông tin tham chiếu được gửi kèm theo các yêu cầu. Cloudflare đơn giản hóa việc thiết lập các tiêu đề này, cải thiện bảo mật trang web với tối thiểu nỗ lực.",
+        "links": [
+          {
+            "title": "Configure HTTP Headers - Cloudflare",
+            "url": "https://developers.cloudflare.com/fundamentals/reference/http-headers/",
+            "type": "official"
+          },
+          {
+            "title": "Tài liệu tham khảo nhanh về Tiêu đề Bảo mật",
+            "url": "https://web.dev/articles/security-headers",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JP5U6c2fZjtkU-Xzwtapx",
+      "type": "subtopic",
+      "label": "Hạn chế tốc độ truy cập",
+      "position": {
+        "x": -281.3575478619334,
+        "y": 2141.5338176098276
+      },
+      "size": {
+        "width": 227,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Cloudflare Queues có thể được sử dụng để triển khai giới hạn tốc độ (rate limiting). Thay vì trực tiếp xử lý mỗi yêu cầu, bạn có thể xếp chúng vào hàng. Một người tiêu dùng Worker sau đó xử lý các tin nhắn từ hàng đợi với một tỷ lệ kiểm soát. Điều này ngăn chặn hệ thống backend của bạn bị quá tải do đột biến lưu lượng truy cập. Bạn có thể điều chỉnh tốc độ xử lý của người tiêu dùng để phù hợp với khả năng của các dịch vụ backend.",
+        "links": [
+          {
+            "title": "Cloudflare Queues - Queues & Rate Limits",
+            "url": "https://developers.cloudflare.com/queues/tutorials/handle-rate-limits/",
+            "type": "official"
+          },
+          {
+            "title": "Các phương pháp hay nhất về hạn chế tốc độ truy cập - Tài liệu tham khảo Cloudflare",
+            "url": "https://developers.cloudflare.com/waf/rate-limiting-rules/best-practices/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ui3pUfsGMxv4WRzHkgbF0",
+      "type": "subtopic",
+      "label": "API bộ nhớ cache",
+      "position": {
+        "x": -281.3575478619334,
+        "y": 2194.5338176098276
+      },
+      "size": {
+        "width": 227,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "API Bộ nhớ Cache của Cloudflare cho phép Workers kiểm soát lập trình hành vi bộ nhớ cache. Bạn có thể lưu trữ phản hồi trong bộ nhớ cache toàn cầu của Cloudflare và truy xuất chúng sau này, giảm tải cho máy chủ gốc và cải thiện hiệu suất. API Bộ nhớ Cache cung cấp khả năng kiểm soát chi tiết đối với khóa bộ nhớ cache, thời gian hết hạn và các tham số khác. Điều này cho phép bạn bộ nhớ cache nội dung động, cá nhân hóa phản hồi và tối ưu hóa việc phân phối nội dung cho người dùng hoặc thiết bị cụ thể. API Bộ nhớ Cache là một công cụ mạnh mẽ để xây dựng các ứng dụng có hiệu suất cao và khả năng mở rộng trên Cloudflare.",
+        "links": [
+          {
+            "title": "API Lưu trữ của Cloudflare · Cloudflare",
+            "url": "https://developers.cloudflare.com/api-next/resources/cache//",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "INiqdtppBmCthOEXuHb-V",
+      "type": "subtopic",
+      "label": "Viết lại HTML",
+      "position": {
+        "x": -281.3575478619334,
+        "y": 2247.5338176098276
+      },
+      "size": {
+        "width": 227,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Viết lại HTML với Cloudflare Workers cho phép bạn sửa đổi nội dung HTML theo thời gian thực. Bạn có thể sử dụng Workers để phân tích HTML, thao tác các thành phần và chèn nội dung mới. Các trường hợp sử dụng phổ biến bao gồm: - Kiểm tra A/B: Thay đổi nội dung động cho người dùng khác nhau. - Cá nhân hóa: Tùy chỉnh HTML dựa trên đặc điểm của người dùng. - Chèn nội dung: Thêm các script phân tích hoặc quảng cáo. - Cải thiện bảo mật: Loại bỏ mã có thể gây hại. Viết lại HTML cho phép bạn tùy chỉnh trải nghiệm người dùng và tối ưu hóa trang web của mình mà không cần sửa đổi máy chủ gốc.",
+        "links": [
+          {
+            "title": "Hono · Cloudflare Workers",
+            "url": "https://developers.cloudflare.com/workers/runtime-apis/html-rewriter/",
+            "type": "official"
+          },
+          {
+            "title": "Giới thiệu API HTMLRewriter cho Cloudflare Workers",
+            "url": "https://blog.cloudflare.com/introducing-htmlrewriter/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sXBxaQtwJ-luGVXdqVXk1",
+      "type": "subtopic",
+      "label": "SSL/TLS của Biên",
+      "position": {
+        "x": -281.3575478619334,
+        "y": 2300.5338176098276
+      },
+      "size": {
+        "width": 227,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "SSL/TLS Edge của Cloudflare kết thúc kết nối SSL/TLS tại mạng biên của Cloudflare, gần với người dùng. Điều này giảm độ trễ và cải thiện hiệu suất so với việc kết thúc kết nối tại máy chủ gốc. Cloudflare cung cấp nhiều tùy chọn SSL/TLS, bao gồm: - **Universal SSL:** Chứng chỉ SSL miễn phí cho tất cả người dùng Cloudflare. - **Dedicated SSL:** Chứng chỉ SSL tùy chỉnh cho các miền cụ thể. - **Origin CA:** Các chứng chỉ miễn phí để bảo mật giao tiếp giữa Cloudflare và máy chủ gốc của bạn. Edge SSL/TLS đảm bảo giao tiếp an toàn giữa người dùng và trang web của bạn đồng thời tối ưu hóa hiệu suất.",
+        "links": [
+          {
+            "title": "Bắt đầu với SSL/TLS - Tài liệu Cloudflare",
+            "url": "https://developers.cloudflare.com/ssl/get-started/",
+            "type": "official"
+          },
+          {
+            "title": "Chứng chỉ Biên Edge · SSL/TLS của Cloudflare",
+            "url": "https://developers.cloudflare.com/ssl/edge-certificates/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "So-cKAVfbgsw2zzFREu7Q",
+      "type": "subtopic",
+      "label": "Quản lý Bot",
+      "position": {
+        "x": -281.3575478619334,
+        "y": 2353.5338176098276
+      },
+      "size": {
+        "width": 227,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Cloudflare Bot Management xác định và giảm thiểu lưu lượng truy cập độc hại từ bot. Nó sử dụng học máy và phân tích hành vi để phân biệt giữa hoạt động của con người và bot. Cloudflare có thể chặn, đưa ra thách thức hoặc cho phép lưu lượng truy cập bot dựa trên hành vi và đặc điểm của nó. Điều này giúp ngăn chặn - Tấn công lừa đảo thông tin đăng nhập, Trích xuất nội dung, Gửi thư spam, Tấn công DDoS. Quản lý bot hiệu quả cải thiện hiệu suất trang web, bảo mật và sử dụng tài nguyên.",
+        "links": [
+          {
+            "title": "Quản lý và Bảo vệ Bot Cloudflare",
+            "url": "https://www.cloudflare.com/application-services/products/bot-management/",
+            "type": "official"
+          },
+          {
+            "title": "Quản lý Bot là gì? | Các trình quản lý bot hoạt động như thế nào?",
+            "url": "https://www.cloudflare.com/learning/bots/what-is-bot-management/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "wvurOKbemF4Tt2WZcmqDL",
+      "type": "topic",
+      "label": "Tích hợp & Quy trình làm việc, \"Integration & Workflows\",",
+      "position": {
+        "x": 74.57806488778613,
+        "y": 2254.2760834530172
+      },
+      "size": {
+        "width": 235,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Workflows đề cập đến các quy trình tự động mà bạn có thể tạo ra để quản lý và phản hồi các sự kiện hoặc điều kiện khác nhau. Điều này thường liên quan đến việc nối dài nhiều tính năng khác nhau của Cloudflare và có thể tích hợp với các dịch vụ bên ngoài. Workflows cho phép bạn tự động hóa các tác vụ như: - Phản ứng với các mối đe dọa bảo mật - Tối ưu hóa hiệu suất trang web - Quản lý quyền truy cập người dùng - Thực thi chính sách tuân thủ. Điểm mạnh của Cloudflare nằm ở khả năng tích hợp nhiều dịch vụ và tạo ra các quy trình làm việc tự động. Bạn có thể kết nối Cloudflare với các nền tảng bên ngoài bằng cách sử dụng webhook hoặc API. Workflows có thể tự động hóa các tác vụ như phản ứng sự kiện bảo mật, tối ưu hóa hiệu suất dựa trên dữ liệu thời gian thực hoặc quản lý quyền truy cập người dùng. Bằng cách tích hợp các thành phần khác nhau, bạn có thể xây dựng các hệ thống phức tạp và hiệu quả tận dụng mạng lưới toàn cầu của Cloudflare.",
+        "links": [
+          {
+            "title": "CI/CD · Cloudflare Workers",
+            "url": "https://developers.cloudflare.com/workers/ci-cd/",
+            "type": "official"
+          },
+          {
+            "title": "Luồng làm việc Cloudflare",
+            "url": "https://developers.cloudflare.com/workflows/",
+            "type": "official"
+          },
+          {
+            "title": "Workers Builds: CI/CD tích hợp được xây dựng trên nền tảng Workers",
+            "url": "https://blog.cloudflare.com/workers-builds-integrated-ci-cd-built-on-the-workers-platform/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "SaHqm7T4FFVrsgyfImo66",
+      "type": "subtopic",
+      "label": "Hàm Trang (Pages Functions)",
+      "position": {
+        "x": 58.14668680870477,
+        "y": 2349.674307977968
+      },
+      "size": {
+        "width": 270,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Các hàm Trang (bây giờ là một phần của Cloudflare Functions), cho phép bạn chạy mã máy chủ đơn (serverless code) trực tiếp trong các dự án Cloudflare Pages của mình. Điều này cho phép bạn thêm chức năng động, chẳng hạn như xử lý biểu mẫu hoặc điểm cuối API, vào các trang web tĩnh của bạn. Chúng được triển khai cùng với tài sản tĩnh và thực thi trên mạng lưới biên Edge của Cloudflare, đảm bảo độ trễ thấp và hiệu suất cao.",
+        "links": [
+          {
+            "title": "Hàm · Cloudflare Pages",
+            "url": "https://developers.cloudflare.com/pages/functions/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JfpVexcbuWCx_R3EjFmbo",
+      "type": "subtopic",
+      "label": "Liên kết Dịch vụ",
+      "position": {
+        "x": 58.14668680870477,
+        "y": 2402.674307977968
+      },
+      "size": {
+        "width": 270,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Liên kết Dịch vụ cho phép Cloudflare Workers tích hợp liền mạch với các dịch vụ khác của Cloudflare. Chúng cung cấp một cách an toàn và hiệu quả để một Worker truy cập các tài nguyên như KV lưu trữ, Đối tượng Bền, R2 lưu trữ và các Worker khác. Thay vì sử dụng khóa API hoặc gọi mạng trực tiếp, Liên kết Dịch vụ tạo một kết nối trực tiếp giữa Worker của bạn và dịch vụ được liên kết, đơn giản hóa cấu hình và cải thiện hiệu suất. Chúng là điều cần thiết để xây dựng các ứng dụng phức tạp tận dụng toàn bộ sức mạnh của hệ sinh thái Cloudflare.",
+        "links": [
+          {
+            "title": "Liên kết Dịch vụ · Cloudflare",
+            "url": "https://developers.cloudflare.com/workers/platform/service-bindings/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "jYAUIKozuhsNK5LbkeAJ6",
+      "type": "subtopic",
+      "label": "Giao tiếp giữa các Worker, \"Inter Worker Communication\",",
+      "position": {
+        "x": 58.14668680870477,
+        "y": 2455.674307977968
+      },
+      "size": {
+        "width": 270,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Giao tiếp giữa các Worker cho phép các Cloudflare Workers khác nhau tương tác và chia sẻ dữ liệu. Điều này có thể đạt được thông qua: - **Durable Objects:** Workers có thể chia sẻ dữ liệu bền vững và phối hợp trạng thái bằng cách sử dụng Durable Objects. - **KV Storage:** Workers có thể đọc và ghi dữ liệu vào một không gian KV chung. - **Webhooks:** Một Worker có thể kích hoạt Worker khác bằng cách gửi một yêu cầu webhook. Các phương pháp này cho phép bạn xây dựng các ứng dụng phức tạp trong đó các Workers khác nhau xử lý các tác vụ cụ thể và cộng tác để đạt được một mục tiêu chung.",
+        "links": [
+          {
+            "title": "Workers hoạt động trên các nền tảng khác nhau - Tài liệu Cloudflare Docs",
+            "url": "https://developers.cloudflare.com/cloudflare-for-platforms/workers-for-platforms/reference/how-workers-for-platforms-works/",
+            "type": "official"
+          },
+          {
+            "title": "Hợp tác giữa Cloudflare Workers",
+            "url": "https://dev.to/chimame/cooperation-between-cloudflare-workers-has-become-amazing-thanks-to-rpc-support-4co9",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4g5w6IAdzefdlRTxbRbdS",
+      "type": "subtopic",
+      "label": "Tích hợp API bên ngoài (External API Integration)",
+      "position": {
+        "x": 58.14668680870477,
+        "y": 2508.674307977968
+      },
+      "size": {
+        "width": 270,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Cloudflare Workers có thể tích hợp với các API bên ngoài để tăng cường chức năng. Bạn có thể sử dụng `fetch()` trong một Worker để thực hiện các yêu cầu đến các dịch vụ của bên thứ ba. Điều này cho phép bạn: - Truy xuất dữ liệu từ các nguồn bên ngoài. - Gửi dữ liệu đến các hệ thống bên ngoài. - Xác thực với các dịch vụ bên ngoài bằng khóa API hoặc token. Tích hợp với các API bên ngoài cho phép bạn xây dựng các ứng dụng mạnh mẽ tận dụng khả năng của các nền tảng khác.",
+        "links": [
+          {
+            "title": "APIs · Cloudflare Workers",
+            "url": "https://developers.cloudflare.com/workers/configuration/integrations/apis/",
+            "type": "official"
+          },
+          {
+            "title": "Dịch vụ bên ngoài · Cloudflare Workers",
+            "url": "https://developers.cloudflare.com/workers/configuration/integrations/external-services/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "uOUjI6CPrhZIlz6mRCtOW",
+      "type": "subtopic",
+      "label": "Xử lý Webhook",
+      "position": {
+        "x": 58.14668680870477,
+        "y": 2561.674307977968
+      },
+      "size": {
+        "width": 270,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Cloudflare có thể xử lý các webhooks để kích hoạt hành động dựa trên sự kiện bên ngoài. Bạn có thể cấu hình Cloudflare Workers để nhận yêu cầu webhook và xử lý dữ liệu. Điều này cho phép bạn tích hợp Cloudflare với các dịch vụ khác như GitHub, Slack hoặc các công cụ giám sát. Khi một sự kiện xảy ra trong dịch vụ bên ngoài, nó sẽ gửi một webhook đến Cloudflare Worker của bạn, sau đó có thể thực hiện các hành động như cập nhật bản ghi DNS, xóa bộ nhớ cache hoặc gửi thông báo.",
+        "links": [
+          {
+            "title": "Configure Webhooks - Cloudflare",
+            "url": "https://developers.cloudflare.com/notifications/get-started/configure-webhooks/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Z9Yywlf7rXFBtxTq5B2Y5",
+      "type": "subtopic",
+      "label": "Kiến trúc dựa trên sự kiện (Event-driven Architectures)",
+      "position": {
+        "x": 58.14668680870477,
+        "y": 2614.674307977968
+      },
+      "size": {
+        "width": 270,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Cloudflare Workers phù hợp với kiến trúc dựa trên sự kiện. Bạn có thể kích hoạt Workers dựa trên nhiều sự kiện khác nhau, chẳng hạn như: - Yêu cầu HTTP đến - Nhiệm vụ theo lịch trình (sử dụng Cron Triggers) - Webhooks từ các dịch vụ bên ngoài. Điều này cho phép bạn xây dựng các hệ thống phản ứng có khả năng đáp ứng các sự kiện theo thời gian thực. Workers có thể xử lý các sự kiện và kích hoạt các hành động khác, tạo ra một chuỗi phản ứng để tự động hóa các tác vụ phức tạp.",
+        "links": [
+          {
+            "title": "Kiến trúc Đề Dịch Sự là gì? - IBM",
+            "url": "https://www.ibm.com/think/topics/event-driven-architecture",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "gsCRhwwjXuyueaYHSPOVZ",
+      "type": "topic",
+      "label": "Công cụ Phát triển",
+      "position": {
+        "x": 552.5408714863938,
+        "y": 2254.2760834530172
+      },
+      "size": {
+        "width": 193,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "- **Wrangler:** Giao diện dòng lệnh (CLI) là công cụ chính để bạn tương tác với Cloudflare Workers. Nó xử lý việc tạo dự án, kiểm thử cục bộ, triển khai, quản lý bí mật và nhiều hơn nữa. Wrangler đơn giản hóa toàn bộ vòng đời phát triển. - **Miniflare:** Mô phỏng viên chức này là môi trường Cloudflare Workers bản địa trên máy của bạn. Nó hỗ trợ các tính năng như lưu trữ KV, Đối tượng Bền, API Cache, cho phép phát triển và kiểm thử ngoại tuyến. - **Cloudflare Dashboard:** Giao diện web cung cấp một cách trực quan để quản lý tài khoản Cloudflare, cấu hình cài đặt, giám sát hiệu suất và xem số liệu thống kê. Nó hữu ích cho việc quản lý DNS, quy tắc bảo mật và các cài đặt toàn cầu khác. - **Workers Playground:** Môi trường dựa trên trình duyệt để thử nghiệm mã Workers. Nó lý tưởng cho việc tạo mẫu nhanh và kiểm tra các đoạn mã nhỏ mà không cần thiết lập môi trường phát triển cục bộ. - **VS Code Extension:** Mở rộng này tích hợp với Visual Studio Code, cung cấp các tính năng như tô màu cú pháp, hoàn thành mã và hỗ trợ gỡ lỗi cho Cloudflare Workers. Nó nâng cao trải nghiệm phát triển trong IDE ưa thích của bạn.",
+        "links": []
+      }
+    },
+    {
+      "id": "n0vIbHmUZHrF4WjEhYdb8",
+      "type": "subtopic",
+      "label": "Wrangler",
+      "position": {
+        "x": 537.0408714863938,
+        "y": 2348.4410077281054
+      },
+      "size": {
+        "width": 223,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Wrangler là công cụ giao diện dòng lệnh (CLI) để xây dựng, triển khai và quản lý Cloudflare Workers. Nó đơn giản hóa quy trình phát triển bằng cách cung cấp các lệnh để tạo mới dự án, kiểm thử Workers cục bộ, triển khai mã lên mạng lưới biên của Cloudflare và quản lý bí mật. Wrangler tự động hóa nhiều tác vụ, giúp dễ dàng phát triển và triển khai ứng dụng máy chủ không có trạng thái trên Cloudflare.",
+        "links": [
+          {
+            "title": "Tài liệu Wrangler",
+            "url": "https://developers.cloudflare.com/workers/wrangler/",
+            "type": "official"
+          },
+          {
+            "title": "Lệnh Wrangler",
+            "url": "https://developers.cloudflare.com/workers/wrangler/commands//",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "vZHBp4S6WaS5sa5rfUOk-",
+      "type": "subtopic",
+      "label": "Miniflare",
+      "position": {
+        "x": 537.0408714863938,
+        "y": 2401.4410077281054
+      },
+      "size": {
+        "width": 223,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Miniflare là trình mô phỏng cho Cloudflare Workers cho phép bạn kiểm tra Workers của mình cục bộ. Nó mô phỏng môi trường chạy thời gian thực của Cloudflare Workers, bao gồm các tính năng như lưu trữ KV, Đối tượng Bền và API Cache. Miniflare cho phép lặp lại và gỡ lỗi nhanh chóng mà không cần triển vào mạng biên của Cloudflare. Nó là một công cụ có giá trị để phát triển và kiểm tra Workers ngoại tuyến hoặc trong môi trường được kiểm soát.",
+        "links": [
+          {
+            "title": "Miniflare - Cloudflare Workers",
+            "url": "https://developers.cloudflare.com/workers/testing/miniflare/",
+            "type": "official"
+          },
+          {
+            "title": "cloudflare/miniflare",
+            "url": "https://github.com/cloudflare/miniflare",
+            "type": "opensource"
+          }
+        ]
+      }
+    },
+    {
+      "id": "G6YQZUQh_x8Qxm1oBseLQ",
+      "type": "subtopic",
+      "label": "DevTools",
+      "position": {
+        "x": 537.0408714863938,
+        "y": 2454.4410077281054
+      },
+      "size": {
+        "width": 223,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Mặc dù bạn không thể sử dụng trực tiếp các công cụ phát triển (DevTools) truyền thống của trình duyệt với Cloudflare Workers chạy ở rìa mạng, bạn có thể tận dụng các nguyên tắc gỡ lỗi tương tự. Cloudflare cung cấp các công cụ như `wrangler tail` để ghi nhật ký theo thời gian thực và khả năng kiểm tra tiêu đề yêu cầu/phản hồi. Sử dụng `console.log` một cách chiến lược trong mã Worker của bạn và phân tích kết quả thông qua `wrangler tail` là phương pháp chính để kiểm tra các biến và luồng thực thi, mô phỏng một số chức năng của DevTools.",
+        "links": [
+          {
+            "title": "Công cụ Gỡ lỗi Chrome",
+            "url": "https://developer.chrome.com/docs/devtools",
+            "type": "official"
+          },
+          {
+            "title": "Tổng quan | Chrome DevTools | Chrome cho Nhà phát triển",
+            "url": "https://developer.chrome.com/docs/devtools/overview/",
+            "type": "official"
+          },
+          {
+            "title": "Gỡ lỗi Cloudflare Workers",
+            "url": "https://developers.cloudflare.com/workers/playground/#devtools",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "jyWxaMx7_nojt5HsyAv7K",
+      "type": "subtopic",
+      "label": "Các khung kiểm thử",
+      "position": {
+        "x": 537.0408714863938,
+        "y": 2507.4410077281054
+      },
+      "size": {
+        "width": 223,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Các khung kiểm thử là rất quan trọng để đảm bảo các Worker của Cloudflare hoạt động chính xác. Các tùy chọn phổ biến bao gồm Jest, Mocha và Chai. Các khung này cho phép bạn viết các bài kiểm tra đơn vị, kiểm tra tích hợp và kiểm tra tận thế cho Workers của mình. Bạn có thể mô phỏng môi trường của Cloudflare và kiểm tra cách Worker phản hồi các yêu cầu và sự kiện khác nhau. Kiểm thử kỹ lưỡng giúp xác định và sửa chữa lỗi sớm trong quá trình phát triển, đảm bảo độ tin cậy của Workers.",
+        "links": [
+          {
+            "title": "Kiểm thử - Tài liệu Cloudflare Workers",
+            "url": "https://developers.cloudflare.com/workers/testing/",
+            "type": "official"
+          },
+          {
+            "title": "Jest - Delightful JavaScript Testing",
+            "url": "https://jestjs.io/",
+            "type": "article"
+          },
+          {
+            "title": "Vitest - Một trình chạy kiểm thử JavaScript nhanh chóng",
+            "url": "https://vitest.dev/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Cy2T8978yUAPGol-yzxv_",
+      "type": "subtopic",
+      "label": "Công cụ Giám sát",
+      "position": {
+        "x": 537.0408714863938,
+        "y": 2560.4410077281054
+      },
+      "size": {
+        "width": 223,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Các công cụ giám sát cung cấp thông tin chi tiết về hiệu suất và sức khỏe của các ứng dụng Cloudflare của bạn. Cloudflare cung cấp phân tích tích hợp, nhưng bạn cũng có thể tích hợp với các dịch vụ giám sát bên ngoài như Datadog, New Relic hoặc Prometheus. Các công cụ này cho phép bạn theo dõi các số liệu như: - Độ trễ yêu cầu - Tỷ lệ lỗi - Tỷ lệ hit cache - Sử dụng tài nguyên. Bằng cách theo dõi những chỉ số này, bạn có thể xác định các tắc nghẽn hiệu suất, phát hiện các mối đe dọa bảo mật và đảm bảo rằng ứng dụng của bạn đang chạy suôn sẻ.",
+        "links": [
+          {
+            "title": "Công cụ Giám sát Hiệu năng Ứng dụng",
+            "url": "https://www.cloudflare.com/application-services/solutions/app-performance-monitoring/",
+            "type": "official"
+          },
+          {
+            "title": "Công cụ Giám sát Mạng",
+            "url": "https://www.cloudflare.com/network-services/solutions/network-monitoring-tools/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "TmQC7fTL6b9EsBDYibv4g",
+      "type": "subtopic",
+      "label": "Kỹ thuật Gỡ lỗi",
+      "position": {
+        "x": 537.0408714863938,
+        "y": 2613.4410077281054
+      },
+      "size": {
+        "width": 223,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Gỡ lỗi Cloudflare Workers bao gồm nhiều kỹ thuật: - **Ghi nhật ký Console:** Sử dụng `console.log()` để xuất ra biến và theo dõi quá trình thực thi mã. - **`wrangler tail`:** Xem nhật ký thời gian thực từ Worker của bạn trong dòng lệnh. - **Bản đồ nguồn (Source Maps):** Phân bản đồ mã đã biên dịch về mã nguồn gốc để gỡ lỗi dễ dàng hơn. - **Các khối Try-Catch:** Xử lý lỗi một cách thanh lịch và ghi lại thông tin liên quan. - **Kiểm thử cục bộ:** Sử dụng `wrangler dev` để kiểm tra Workers cục bộ trước khi triển khai. Những kỹ thuật này giúp xác định và giải quyết các vấn đề trong Workers của bạn một cách hiệu quả.",
+        "links": [
+          {
+            "title": "Công cụ Gỡ lỗi Chrome",
+            "url": "https://developer.chrome.com/docs/devtools",
+            "type": "official"
+          },
+          {
+            "title": "Gỡ lỗi Cloudflare Workers",
+            "url": "https://developers.cloudflare.com/workers/playground/#devtools",
+            "type": "official"
+          },
+          {
+            "title": "Gỡ lỗi Cloudflare Workers",
+            "url": "https://blog.cloudflare.com/debugging-cloudflare-workers/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "8WZpSKBHCeYfTEL9tBNKr",
+      "type": "topic",
+      "label": "Tunnels",
+      "position": {
+        "x": 562.0408714863938,
+        "y": 1852.987126931784
+      },
+      "size": {
+        "width": 173,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Cloudflare Tunnel tạo một kết nối outbound-only an toàn giữa máy chủ gốc của bạn và mạng lưới Cloudflare, mà không mở bất kỳ cổng inbound nào. Điều này bảo vệ máy chủ gốc khỏi các cuộc tấn công trực tiếp và đơn giản hóa cấu hình mạng. Bạn có thể sử dụng Cloudflare Tunnel để lộ các ứng dụng web, API và dịch vụ khác ra internet một cách an toàn mà không làm giảm thiểu bảo mật.",
+        "links": [
+          {
+            "title": "Cloudflare Tunnel · Cloudflare Zero Trust",
+            "url": "https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/",
+            "type": "official"
+          },
+          {
+            "title": "Tunnels cực kỳ dễ sử dụng - Blog Cloudflare",
+            "url": "https://blog.cloudflare.com/ridiculously-easy-to-use-tunnels/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "HKEkt3803YCZEiuKAK03p",
+      "type": "vertical",
+      "label": "nút theo chiều dọc",
+      "position": {
+        "x": 421.119142886761,
+        "y": 2279.0426302976457
+      },
+      "size": {
+        "width": 21,
+        "height": 454
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.85
+      },
+      "z_index": 999
+    },
+    {
+      "id": "xi0QAi4kXm3-IFKgopnOP",
+      "type": "vertical",
+      "label": "nút theo chiều dọc",
+      "position": {
+        "x": 303.6803864110923,
+        "y": 2841.402758744258
+      },
+      "size": {
+        "width": 21,
+        "height": 85
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    }
+  ],
+  "edges": [
+    {
+      "id": "XX0I26JoVMVXIe_7bVMix",
+      "source": "iogwMmOvub2ZF4zgg6WyF",
+      "target": "_hYN0gEi9BL24nptEtXWU",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "dFn6kGOoJ-0BzJJEb9DSG",
+      "source": "_hYN0gEi9BL24nptEtXWU",
+      "target": "idLHBxhvcIqZTqmh_E8Az",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "arkF7QJJRbCBYWp0crqa2",
+      "source": "_hYN0gEi9BL24nptEtXWU",
+      "target": "os3Pa6W9SSNEzgmlBbglQ",
+      "source_handle": "z2",
+      "target_handle": "y2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "HNVw8OboycWKLEtEbG2bn",
+      "source": "_hYN0gEi9BL24nptEtXWU",
+      "target": "3oInpqvTSSC5_K6i7j8N7",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "auB7Png72XjmhcLr3IJA7",
+      "source": "_hYN0gEi9BL24nptEtXWU",
+      "target": "YKhuRbcUFzo0hTvuTq-Yl",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "2aoDIr80lXSJLW1hIGUkb",
+      "source": "jZ67HhVRelJaxjsCckSSI",
+      "target": "hWA7RtuqltMTmHdcCnmES",
+      "source_handle": "x2",
+      "target_handle": "y1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "m-_y7nLeYFkUKGiacxWA0",
+      "source": "",
+      "target": "NMznG9mo2wzNFnjhg990f",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "G7pXuJfkyt2nWAOHU8yV0",
+      "source": "",
+      "target": "gc_7cuIO2_joKlQRAPDfX",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "2_6Yz3-Agx9_rEN5xW86c",
+      "source": "rrrvATyhXqRgJGWI3z0WF",
+      "target": "AvbMQ5vY3ip1oX_6Yq4ie",
+      "source_handle": "x2",
+      "target_handle": "w2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "kgMI98fg2-mKMgUs0wnjD",
+      "source": "hWA7RtuqltMTmHdcCnmES",
+      "target": "1AJv95mTLpR7L8KBoGym8",
+      "source_handle": "w2",
+      "target_handle": "x1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "ts38Q2ceHs60TJscUBZVE",
+      "source": "hWA7RtuqltMTmHdcCnmES",
+      "target": "0etAs56EeBfh_0IlAaSra",
+      "source_handle": "y2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "ZiMV7umyPdhy3JJDcopR-",
+      "source": "jZ67HhVRelJaxjsCckSSI",
+      "target": "h6ceO0kiBIxNRkPzN3hBY",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "WI-MhbxrehFcVwyGJ5CQJ",
+      "source": "jZ67HhVRelJaxjsCckSSI",
+      "target": "_JlT9oKQ6Yu4UX6l19G8P",
+      "source_handle": "y2",
+      "target_handle": "z2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "qUrLBzvXvJOg53HBfjrOI",
+      "source": "_hYN0gEi9BL24nptEtXWU",
+      "target": "jZ67HhVRelJaxjsCckSSI",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-Ji35JsKgUQXN4DJGEgTACx2-t3Op8UcgDKVeMLNMDePrWw1",
+      "source": "Ji35JsKgUQXN4DJGEgTAC",
+      "target": "t3Op8UcgDKVeMLNMDePrW",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-t3Op8UcgDKVeMLNMDePrWy2-PcYnYAAkKMbzoiCnBfjqOz1",
+      "source": "t3Op8UcgDKVeMLNMDePrW",
+      "target": "PcYnYAAkKMbzoiCnBfjqO",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-7XrG-k9T12u84Pwp4YwaYy2-TB6vGzDgGZ9yAd9MGR7vwz1",
+      "source": "7XrG-k9T12u84Pwp4YwaY",
+      "target": "TB6vGzDgGZ9yAd9MGR7vw",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-7XrG-k9T12u84Pwp4YwaYy2-aGWLomYHGkIfn7GFc0_Ylz1",
+      "source": "7XrG-k9T12u84Pwp4YwaY",
+      "target": "aGWLomYHGkIfn7GFc0_Yl",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-7XrG-k9T12u84Pwp4YwaYy2-HNEXPU6r_T7UYvwLv2wntz1",
+      "source": "7XrG-k9T12u84Pwp4YwaY",
+      "target": "HNEXPU6r_T7UYvwLv2wnt",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-7XrG-k9T12u84Pwp4YwaYy2-_2UnRlbUplHvs5-Stj4O4z1",
+      "source": "7XrG-k9T12u84Pwp4YwaY",
+      "target": "_2UnRlbUplHvs5-Stj4O4",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-7XrG-k9T12u84Pwp4YwaYy2-i6L9FI6fBDXr0XtMrc_uRz1",
+      "source": "7XrG-k9T12u84Pwp4YwaY",
+      "target": "i6L9FI6fBDXr0XtMrc_uR",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-7XrG-k9T12u84Pwp4YwaYy2-WZSi9inWPhqZQvDN-C8BVz1",
+      "source": "7XrG-k9T12u84Pwp4YwaY",
+      "target": "WZSi9inWPhqZQvDN-C8BV",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-7XrG-k9T12u84Pwp4YwaYy2-uBjcQ9PJUfwzu5N_2CNjNz2",
+      "source": "7XrG-k9T12u84Pwp4YwaY",
+      "target": "uBjcQ9PJUfwzu5N_2CNjN",
+      "source_handle": "y2",
+      "target_handle": "z2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-7XrG-k9T12u84Pwp4YwaYy2-aStbAF4zraqhJ-N3RH4haz2",
+      "source": "7XrG-k9T12u84Pwp4YwaY",
+      "target": "aStbAF4zraqhJ-N3RH4ha",
+      "source_handle": "y2",
+      "target_handle": "z2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-7XrG-k9T12u84Pwp4YwaYy2-9ef2VPCru8lCmRxxGe-Eoz2",
+      "source": "7XrG-k9T12u84Pwp4YwaY",
+      "target": "9ef2VPCru8lCmRxxGe-Eo",
+      "source_handle": "y2",
+      "target_handle": "z2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-7XrG-k9T12u84Pwp4YwaYx2-IubwhdnyWtjpejkGOfnPyw1",
+      "source": "7XrG-k9T12u84Pwp4YwaY",
+      "target": "IubwhdnyWtjpejkGOfnPy",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-Ji35JsKgUQXN4DJGEgTACx2-c2YZ7PPCX1jF_RU7C0AqNw2",
+      "source": "Ji35JsKgUQXN4DJGEgTAC",
+      "target": "c2YZ7PPCX1jF_RU7C0AqN",
+      "source_handle": "x2",
+      "target_handle": "w2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-IubwhdnyWtjpejkGOfnPyz2-kJXPzUulKPhawgbEK7n9ly1",
+      "source": "IubwhdnyWtjpejkGOfnPy",
+      "target": "kJXPzUulKPhawgbEK7n9l",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-IubwhdnyWtjpejkGOfnPyx2-3BGY76hTLAE8PY7OXQtNRw1",
+      "source": "IubwhdnyWtjpejkGOfnPy",
+      "target": "3BGY76hTLAE8PY7OXQtNR",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-1dGFfQauOgHP7T4ReMpCUx2-EBTHbXOOZiqrcYJvKhcWVw2",
+      "source": "1dGFfQauOgHP7T4ReMpCU",
+      "target": "EBTHbXOOZiqrcYJvKhcWV",
+      "source_handle": "x2",
+      "target_handle": "w2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-3BGY76hTLAE8PY7OXQtNRy2-1dGFfQauOgHP7T4ReMpCUz1",
+      "source": "3BGY76hTLAE8PY7OXQtNR",
+      "target": "1dGFfQauOgHP7T4ReMpCU",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-3BGY76hTLAE8PY7OXQtNRx2-gxLUlXGuaY5Q-0xmBgQwzw1",
+      "source": "3BGY76hTLAE8PY7OXQtNR",
+      "target": "gxLUlXGuaY5Q-0xmBgQwz",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-gxLUlXGuaY5Q-0xmBgQwzz2-K9iW2H6riKwddWmpWJFJwy1",
+      "source": "gxLUlXGuaY5Q-0xmBgQwz",
+      "target": "K9iW2H6riKwddWmpWJFJw",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-gxLUlXGuaY5Q-0xmBgQwzz2-BPahk1qH9Hk11tsE2hw3Ay1",
+      "source": "gxLUlXGuaY5Q-0xmBgQwz",
+      "target": "BPahk1qH9Hk11tsE2hw3A",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-gxLUlXGuaY5Q-0xmBgQwzz2-3jU5753Uza2aS-gZo7w4ky1",
+      "source": "gxLUlXGuaY5Q-0xmBgQwz",
+      "target": "3jU5753Uza2aS-gZo7w4k",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-gxLUlXGuaY5Q-0xmBgQwzz2-UNE6XK4su5r2jcxhY7hOGy1",
+      "source": "gxLUlXGuaY5Q-0xmBgQwz",
+      "target": "UNE6XK4su5r2jcxhY7hOG",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-gxLUlXGuaY5Q-0xmBgQwzz2-YvgmmF9sWfURgijFV7E31y1",
+      "source": "gxLUlXGuaY5Q-0xmBgQwz",
+      "target": "YvgmmF9sWfURgijFV7E31",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-gxLUlXGuaY5Q-0xmBgQwzx2-mKN0Ta3zSk7PCm_uHYKFNw2",
+      "source": "gxLUlXGuaY5Q-0xmBgQwz",
+      "target": "mKN0Ta3zSk7PCm_uHYKFN",
+      "source_handle": "x2",
+      "target_handle": "w2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-mKN0Ta3zSk7PCm_uHYKFNz2-9MlFtF1q0eis4YmCEmIiry1",
+      "source": "mKN0Ta3zSk7PCm_uHYKFN",
+      "target": "9MlFtF1q0eis4YmCEmIir",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-zyRgTtlng6idboSgL9YTtx2-EFA8m0EdhygxcBWzwmbnTw2",
+      "source": "zyRgTtlng6idboSgL9YTt",
+      "target": "EFA8m0EdhygxcBWzwmbnT",
+      "source_handle": "x2",
+      "target_handle": "w2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-9MlFtF1q0eis4YmCEmIirx2-zyRgTtlng6idboSgL9YTtw1",
+      "source": "9MlFtF1q0eis4YmCEmIir",
+      "target": "zyRgTtlng6idboSgL9YTt",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-zyRgTtlng6idboSgL9YTty2-G-xBbtaniYFRE9Dgs18pxz1",
+      "source": "zyRgTtlng6idboSgL9YTt",
+      "target": "G-xBbtaniYFRE9Dgs18px",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-G-xBbtaniYFRE9Dgs18pxy2-rAl7zXcODiqIpS__3qf1Az1",
+      "source": "G-xBbtaniYFRE9Dgs18px",
+      "target": "rAl7zXcODiqIpS__3qf1A",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-rAl7zXcODiqIpS__3qf1Ax2-yTtjbO_dji8ssSaOAKpCVw1",
+      "source": "rAl7zXcODiqIpS__3qf1A",
+      "target": "yTtjbO_dji8ssSaOAKpCV",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-yTtjbO_dji8ssSaOAKpCVx2-a0S0_JLwLLNGLUAHrqG4Pw1",
+      "source": "yTtjbO_dji8ssSaOAKpCV",
+      "target": "a0S0_JLwLLNGLUAHrqG4P",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-a0S0_JLwLLNGLUAHrqG4Px2-zMwmoCUp9429_aXU-Bz4Hw2",
+      "source": "a0S0_JLwLLNGLUAHrqG4P",
+      "target": "zMwmoCUp9429_aXU-Bz4H",
+      "source_handle": "x2",
+      "target_handle": "w2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-a0S0_JLwLLNGLUAHrqG4Pz2-vHQdMgaL2EEr2o_eJmOuVy2",
+      "source": "a0S0_JLwLLNGLUAHrqG4P",
+      "target": "NWGVtH1vxQuO4lly0Omuy",
+      "source_handle": "z2",
+      "target_handle": "y2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-G-xBbtaniYFRE9Dgs18pxx2-EQjhRlM7zpANNWkypScIlw1",
+      "source": "G-xBbtaniYFRE9Dgs18px",
+      "target": "EQjhRlM7zpANNWkypScIl",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-vHQdMgaL2EEr2o_eJmOuVx2-UIWaR1ZdjSm0UAS69Kz_5w2",
+      "source": "NWGVtH1vxQuO4lly0Omuy",
+      "target": "UIWaR1ZdjSm0UAS69Kz_5",
+      "source_handle": "x2",
+      "target_handle": "w2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-NWGVtH1vxQuO4lly0Omuyz2-vHQdMgaL2EEr2o_eJmOuVy2",
+      "source": "NWGVtH1vxQuO4lly0Omuy",
+      "target": "LoT3NtpNj9uAgQRV-MD_E",
+      "source_handle": "z2",
+      "target_handle": "y2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-vHQdMgaL2EEr2o_eJmOuVx2-zQp7XfDKWJgMf2LexRJhNw2",
+      "source": "LoT3NtpNj9uAgQRV-MD_E",
+      "target": "zQp7XfDKWJgMf2LexRJhN",
+      "source_handle": "x2",
+      "target_handle": "w2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-LoT3NtpNj9uAgQRV-MD_Ez2-8bOWuopxHtBWUSFaVT54Py1",
+      "source": "LoT3NtpNj9uAgQRV-MD_E",
+      "target": "8bOWuopxHtBWUSFaVT54P",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-QxPoNHsL-Pj_z3aU6qEP4x2-SvGk66F2HtuWcMgZ8ILIIw2",
+      "source": "QxPoNHsL-Pj_z3aU6qEP4",
+      "target": "SvGk66F2HtuWcMgZ8ILII",
+      "source_handle": "x2",
+      "target_handle": "w2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-7XrG-k9T12u84Pwp4YwaYy2-aKEH4ZxI6J1nwjp_AgH5rz2",
+      "source": "7XrG-k9T12u84Pwp4YwaY",
+      "target": "aKEH4ZxI6J1nwjp_AgH5r",
+      "source_handle": "y2",
+      "target_handle": "z2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-8bOWuopxHtBWUSFaVT54Px2-vHQdMgaL2EEr2o_eJmOuVw2",
+      "source": "8bOWuopxHtBWUSFaVT54P",
+      "target": "vHQdMgaL2EEr2o_eJmOuV",
+      "source_handle": "x2",
+      "target_handle": "w2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-z-1Ye5hcNdr9r6Gwdw7mvx2--lsYPD6JueIV94RybGH_Yw1",
+      "source": "z-1Ye5hcNdr9r6Gwdw7mv",
+      "target": "-lsYPD6JueIV94RybGH_Y",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-z-1Ye5hcNdr9r6Gwdw7mvy2-vu8yJsS1WccsdcEVUqwNdz2",
+      "source": "z-1Ye5hcNdr9r6Gwdw7mv",
+      "target": "vu8yJsS1WccsdcEVUqwNd",
+      "source_handle": "y2",
+      "target_handle": "z2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-vu8yJsS1WccsdcEVUqwNdy2-qkFRW_tJB8_1IYpYskQ5Mz2",
+      "source": "vu8yJsS1WccsdcEVUqwNd",
+      "target": "qkFRW_tJB8_1IYpYskQ5M",
+      "source_handle": "y2",
+      "target_handle": "z2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-qkFRW_tJB8_1IYpYskQ5Mx2-76xovsBrKOnlRBVjsqNq1w1",
+      "source": "qkFRW_tJB8_1IYpYskQ5M",
+      "target": "76xovsBrKOnlRBVjsqNq1",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-76xovsBrKOnlRBVjsqNq1y2-8IF7jftushwZrn7JXpC_vz1",
+      "source": "76xovsBrKOnlRBVjsqNq1",
+      "target": "8IF7jftushwZrn7JXpC_v",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-76xovsBrKOnlRBVjsqNq1y2-uNinrB9wm5ahjGXu5fc0gz1",
+      "source": "76xovsBrKOnlRBVjsqNq1",
+      "target": "uNinrB9wm5ahjGXu5fc0g",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-76xovsBrKOnlRBVjsqNq1y2-KWix4jeNUKJ07Iu95Mqj_z1",
+      "source": "76xovsBrKOnlRBVjsqNq1",
+      "target": "KWix4jeNUKJ07Iu95Mqj_",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-76xovsBrKOnlRBVjsqNq1y2-JP5U6c2fZjtkU-Xzwtapxz1",
+      "source": "76xovsBrKOnlRBVjsqNq1",
+      "target": "JP5U6c2fZjtkU-Xzwtapx",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-76xovsBrKOnlRBVjsqNq1y2-ui3pUfsGMxv4WRzHkgbF0z1",
+      "source": "76xovsBrKOnlRBVjsqNq1",
+      "target": "ui3pUfsGMxv4WRzHkgbF0",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-76xovsBrKOnlRBVjsqNq1y2-INiqdtppBmCthOEXuHb-Vz1",
+      "source": "76xovsBrKOnlRBVjsqNq1",
+      "target": "INiqdtppBmCthOEXuHb-V",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-76xovsBrKOnlRBVjsqNq1y2-sXBxaQtwJ-luGVXdqVXk1z1",
+      "source": "76xovsBrKOnlRBVjsqNq1",
+      "target": "sXBxaQtwJ-luGVXdqVXk1",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-76xovsBrKOnlRBVjsqNq1y2-So-cKAVfbgsw2zzFREu7Qz1",
+      "source": "76xovsBrKOnlRBVjsqNq1",
+      "target": "So-cKAVfbgsw2zzFREu7Q",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-76xovsBrKOnlRBVjsqNq1x2-wvurOKbemF4Tt2WZcmqDLw1",
+      "source": "76xovsBrKOnlRBVjsqNq1",
+      "target": "wvurOKbemF4Tt2WZcmqDL",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-wvurOKbemF4Tt2WZcmqDLx2-SaHqm7T4FFVrsgyfImo66w2",
+      "source": "wvurOKbemF4Tt2WZcmqDL",
+      "target": "SaHqm7T4FFVrsgyfImo66",
+      "source_handle": "x2",
+      "target_handle": "w2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-wvurOKbemF4Tt2WZcmqDLz2-gsCRhwwjXuyueaYHSPOVZy2",
+      "source": "wvurOKbemF4Tt2WZcmqDL",
+      "target": "gsCRhwwjXuyueaYHSPOVZ",
+      "source_handle": "z2",
+      "target_handle": "y2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-gsCRhwwjXuyueaYHSPOVZx2-n0vIbHmUZHrF4WjEhYdb8w1",
+      "source": "gsCRhwwjXuyueaYHSPOVZ",
+      "target": "n0vIbHmUZHrF4WjEhYdb8",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-vHQdMgaL2EEr2o_eJmOuVx2-8WZpSKBHCeYfTEL9tBNKrw1",
+      "source": "vHQdMgaL2EEr2o_eJmOuV",
+      "target": "8WZpSKBHCeYfTEL9tBNKr",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "reactflow__edge-8WZpSKBHCeYfTEL9tBNKrx2-z-1Ye5hcNdr9r6Gwdw7mvw2",
+      "source": "8WZpSKBHCeYfTEL9tBNKr",
+      "target": "z-1Ye5hcNdr9r6Gwdw7mv",
+      "source_handle": "x2",
+      "target_handle": "w2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    }
+  ],
+  "content_crawled_at": "2026-04-06T08:58:25.431887+00:00"
+}

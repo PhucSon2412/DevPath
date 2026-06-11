@@ -1,0 +1,3064 @@
+{
+  "id": "graphql",
+  "title": "GraphQL",
+  "source_url": "https://roadmap.sh/graphql",
+  "github_url": "https://github.com/kamranahmedse/developer-roadmap/tree/master/src/data/roadmaps/graphql",
+  "crawled_at": "2026-04-06T07:37:05.663480+00:00",
+  "type": "flow",
+  "stats": {
+    "total_nodes": 96,
+    "total_edges": 32,
+    "nodes_with_content": 65
+  },
+  "node_types": [
+    "button",
+    "horizontal",
+    "label",
+    "linksgroup",
+    "paragraph",
+    "section",
+    "subtopic",
+    "title",
+    "topic",
+    "vertical"
+  ],
+  "edge_styles": [
+    "dashed",
+    "solid"
+  ],
+  "edge_line_types": [
+    "default"
+  ],
+  "node_type_description": {
+    "title": "Tóm tắt lộ trình tổng quan",
+    "topic": "Chủ đề lớn (nhóm kỹ năng)",
+    "subtopic": "Kỹ năng/công nghệ cụ thể cần học",
+    "paragraph": "Vùng text mô tả / chú thích",
+    "vertical": "Đường kết nối dọc (visual connector)"
+  },
+  "edge_style_description": {
+    "solid": "Kỹ năng bắt buộc / quan trọng",
+    "dashed": "Tùy chọn / gợi ý / phương án thay thế"
+  },
+  "nodes": [
+    {
+      "id": "SFhbL3KKBd053kCVToTm1",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": 64.95192794899594,
+        "y": 1634.7051467174065
+      },
+      "size": {
+        "width": 150,
+        "height": 100
+      },
+      "style": {
+        "fontSize": 17,
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "BVXPP2J15hss2hF85urjN",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": -709.9579568300146,
+        "y": 1331.2051467174065
+      },
+      "size": {
+        "width": 150,
+        "height": 100
+      },
+      "style": {
+        "fontSize": 17,
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "0YJo_ti1JDu1GRmdC2WzA",
+      "type": "horizontal",
+      "label": "Nút ngang",
+      "position": {
+        "x": -103.1381872719935,
+        "y": 1129.355064975886
+      },
+      "size": {
+        "width": 50,
+        "height": 20
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.75,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "QGWApwm1h5K_n0M81b9DH",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": 68.2572052308409,
+        "y": 976.1275563289466
+      },
+      "size": {
+        "width": 150,
+        "height": 100
+      },
+      "style": {
+        "fontSize": 17,
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "D0RHwVcuH4qus_oiCbDo0",
+      "type": "horizontal",
+      "label": "Nút ngang",
+      "position": {
+        "x": -459.6381872719935,
+        "y": 989.4675181201998
+      },
+      "size": {
+        "width": 50,
+        "height": 20
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.75,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "C2zefkHdFZjID3CdqXmAy",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": -710.9579568300146,
+        "y": 880.5474215299696
+      },
+      "size": {
+        "width": 150,
+        "height": 100
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": -999
+    },
+    {
+      "id": "zQpkRd7jNV509JOpL6VxX",
+      "type": "horizontal",
+      "label": "Nút ngang",
+      "position": {
+        "x": -148.1381872719935,
+        "y": 750.3550649758861
+      },
+      "size": {
+        "width": 50,
+        "height": 20
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.75,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "icm7gi90MRG4vn9KUUaqR",
+      "type": "paragraph",
+      "label": "Integer, Floating-point number, String, Boolean, Identifier",
+      "position": {
+        "x": 68.2572052308409,
+        "y": 645.5973159217342
+      },
+      "size": {
+        "width": 253,
+        "height": 62
+      },
+      "style": {
+        "fontSize": 17,
+        "borderColor": "#000000",
+        "backgroundColor": "#ffffff",
+        "color": "#000000",
+        "textAlign": "center",
+        "justifyContent": "flex-start",
+        "padding": 16
+      },
+      "z_index": 999
+    },
+    {
+      "id": "4qvR1QQzrmoVIVCAsp92H",
+      "type": "vertical",
+      "label": "Nút dọc",
+      "position": {
+        "x": -215.3175069304428,
+        "y": 2156.2541881503926
+      },
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.5,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "HU7wZWiES3m3xl1-NYP6F",
+      "type": "title",
+      "label": "GraphQL",
+      "position": {
+        "x": -283.3175069304428,
+        "y": -38.879087788307686
+      },
+      "size": {
+        "width": 156,
+        "height": 68
+      },
+      "style": {
+        "fontSize": 28,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "uqyE79OItPOX33E5FoGel",
+      "type": "vertical",
+      "label": "Nút dọc",
+      "position": {
+        "x": -215.3175069304428,
+        "y": -133.0992517776511
+      },
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "style": {
+        "strokeDasharray": "0.8 8",
+        "strokeLinecap": "round",
+        "strokeWidth": 3.75,
+        "stroke": "#2B78E4"
+      },
+      "z_index": 999
+    },
+    {
+      "id": "JfXwzkN29UGz17FYHHE3A",
+      "type": "topic",
+      "label": "Giới thiệu",
+      "position": {
+        "x": -329.8175069304428,
+        "y": 152.4393516042962
+      },
+      "size": {
+        "width": 137,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "GraphQL là ngôn ngữ truy vấn và runtime cho API cho phép khách hàng yêu cầu chính xác dữ liệu họ cần trong một lần gọi duy nhất. Nó cung cấp định dạng có thể dự đoán được, giảm thiểu nhiều cuộc gọi API và loại bỏ việc quá tải dữ liệu, làm cho việc truy xuất dữ liệu hiệu quả hơn so với các API REST truyền thống.",
+        "links": [
+          {
+            "title": "Giới thiệu về GraphQL",
+            "url": "https://graphql.org/learn/",
+            "type": "official"
+          },
+          {
+            "title": "Bắt đầu với GraphQL",
+            "url": "https://graphql.org/",
+            "type": "official"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về GraphQL",
+            "url": "https://app.daily.dev/tags/graphql?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cMfsRtvzvDZZJ0TqeUOxm",
+      "type": "subtopic",
+      "label": "GraphQL là gì?",
+      "position": {
+        "x": 40.8618127280065,
+        "y": 46.439351604296206
+      },
+      "size": {
+        "width": 303,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "GraphQL là ngôn ngữ truy vấn cho API và runtime phía máy chủ cho phép khách hàng yêu cầu chính xác dữ liệu họ cần. Không giống như REST, nó sử dụng một hệ thống kiểu để định nghĩa cấu trúc dữ liệu và cho phép lấy nhiều tài nguyên trong một lần yêu cầu duy nhất, giảm thiểu các vấn đề về quá tải và thiếu hụt dữ liệu.",
+        "links": [
+          {
+            "title": "Giới thiệu về graphQL",
+            "url": "https://graphql.org/learn/",
+            "type": "official"
+          },
+          {
+            "title": "Hướng dẫn - GraphQL là gì?",
+            "url": "https://www.howtographql.com/basics/0-introduction/",
+            "type": "article"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về GraphQL",
+            "url": "https://app.daily.dev/tags/graphql?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2rlmLn_yQQV-7DpX1qT98",
+      "type": "subtopic",
+      "label": "GraphQL giải quyết các vấn đề sau:",
+      "position": {
+        "x": 40.8618127280065,
+        "y": 99.4393516042962
+      },
+      "size": {
+        "width": 303,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "GraphQL giải quyết các vấn đề lớn của API bao gồm quá tải (lấy dữ liệu không cần thiết), thiếu (cần nhiều truy vấn), phiên bản hóa kém hiệu quả và thiếu linh hoạt. Nó cho phép yêu cầu dữ liệu chính xác, một truy vấn duy nhất cho nhiều tài nguyên, phiên bản hóa liền mạch thông qua tiến hóa lược đồ và giao tiếp microservice thông qua liên minh.",
+        "links": []
+      }
+    },
+    {
+      "id": "J5mU0v491qrm-mr1W3Msd",
+      "type": "subtopic",
+      "label": "Suy nghĩ theo đồ thị",
+      "position": {
+        "x": 40.8618127280065,
+        "y": 152.4393516042962
+      },
+      "size": {
+        "width": 303,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "“Thinking in Graphs” là một tư duy GraphQL trong đó dữ liệu được tổ chức thành đồ thị với các nút (đối tượng) và cạnh (mối quan hệ). Cách tiếp cận này cho phép truy vấn linh hoạt và trực quan bằng cách làm theo mối quan hệ giữa các điểm dữ liệu liên kết, giúp việc trích xuất dữ liệu phức tạp trở nên tự nhiên và hiệu quả hơn.",
+        "links": [
+          {
+            "title": "GraphQL – Tư duy dựa trên đồ thị (Graphs)",
+            "url": "https://graphql.org/learn/thinking-in-graphs/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "W_Lg8086ZhrIqtck1sgnb",
+      "type": "topic",
+      "label": "Truy vấn GraphQL",
+      "position": {
+        "x": -329.8175069304428,
+        "y": 260.43935160429623
+      },
+      "size": {
+        "width": 181,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Truy vấn GraphQL là các yêu cầu của khách hàng để truy xuất dữ liệu cụ thể từ một máy chủ. Chúng xác định chính xác các trường nào nên được trả về, sử dụng cấu trúc phân cấp phù hợp với các yêu cầu dữ liệu. Truy vấn được viết bằng cú pháp GraphQL và thực thi bởi máy chủ để lấy dữ liệu đã yêu cầu.",
+        "links": [
+          {
+            "title": "GraphQL Truy vấn là gì?",
+            "url": "https://graphql.org/learn/queries/",
+            "type": "official"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về GraphQL",
+            "url": "https://app.daily.dev/tags/graphql?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6r9XbwlBtHmJrhviG2cTD",
+      "type": "subtopic",
+      "label": "GraphQL trên Frontend",
+      "position": {
+        "x": 40.8618127280065,
+        "y": 205.4393516042962
+      },
+      "size": {
+        "width": 303,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "GraphQL trên frontend cho phép lấy dữ liệu hiệu quả với các khách hàng như Apollo, URQL hoặc Relay. Nó cung cấp yêu cầu dữ liệu mô tả, bộ nhớ cache thông minh, đăng ký thời gian thực và bảo mật kiểu, cho phép ứng dụng frontend yêu cầu chính xác dữ liệu họ cần trong một truy vấn duy nhất.",
+        "links": [
+          {
+            "title": "Bắt đầu với GraphQL trên frontend",
+            "url": "https://www.howtographql.com/react-apollo/0-introduction/",
+            "type": "article"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về Frontend Development",
+            "url": "https://app.daily.dev/tags/frontend?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ODQ8zrHc2rsc8PN-APKvz",
+      "type": "subtopic",
+      "label": "GraphQL trên Backend",
+      "position": {
+        "x": 40.8618127280065,
+        "y": 258.43935160429623
+      },
+      "size": {
+        "width": 303,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "GraphQL trên backend bao gồm việc triển khai các máy chủ thực thi các truy vấn, thao tác và đăng ký GraphQL. Nó bao gồm định nghĩa lược đồ, viết giải quyết, xử lý nguồn dữ liệu, triển khai xác thực/ủy quyền và tối ưu hóa hiệu suất thông qua chiến lược bộ nhớ cache và nhóm.",
+        "links": [
+          {
+            "title": "Hướng dẫn sử dụng GraphQL trong Backend?",
+            "url": "https://www.howtographql.com/",
+            "type": "article"
+          },
+          {
+            "title": "Khám phá các bài đăng phổ biến nhất về Phát triển Backend",
+            "url": "https://app.daily.dev/tags/backend?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2SU4dcaz7zwGsF7g8FjmI",
+      "type": "subtopic",
+      "label": "Truy vấn là gì?",
+      "position": {
+        "x": -707.4579568300146,
+        "y": 101.4393516042962
+      },
+      "size": {
+        "width": 193,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Trong GraphQL, các truy vấn là yêu cầu từ phía khách hàng để lấy dữ liệu từ máy chủ. Chúng được cấu trúc thành cây phân cấp của các trường tương ứng với thuộc tính của dữ liệu được yêu cầu, cho phép khách hàng chỉ định chính xác dữ liệu họ cần ở định dạng có thể dự đoán được.",
+        "links": [
+          {
+            "title": "Giới thiệu về GraphQL – Truy vấn",
+            "url": "https://graphql.org/learn/queries/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Pc9H7AcoqJQkWnuhbytyD",
+      "type": "subtopic",
+      "label": "Trường (Fields)",
+      "position": {
+        "x": -707.4579568300146,
+        "y": 154.4393516042962
+      },
+      "size": {
+        "width": 193,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Các Trường (Fields) trong GraphQL là các khối dữ liệu riêng lẻ có thể truy vấn hoặc sửa đổi, đại diện cho các thuộc tính của dữ liệu được yêu cầu. Chúng được định nghĩa trong lược đồ GraphQL và đóng vai trò là các khối xây dựng cho các truy vấn và thao tác, xác định dữ liệu nào có sẵn cho mỗi kiểu.",
+        "links": [
+          {
+            "title": "GraphQL: Kiểu dữ liệu và Trường (Fields)",
+            "url": "https://graphql.org/learn/queries/#fields",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "B77yLU4SuRChSjEbmYwc-",
+      "type": "subtopic",
+      "label": "Aliases",
+      "position": {
+        "x": -707.4579568300146,
+        "y": 260.43935160429623
+      },
+      "size": {
+        "width": 193,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Aliases trong GraphQL đổi tên các trường trong phản hồi truy vấn, hữu ích khi yêu cầu cùng một trường nhiều lần với các đối số khác nhau hoặc khi tên trường không phù hợp để sử dụng trên máy khách. Chúng phân biệt các trường trong phản hồi và cải thiện khả năng đọc và sử dụng của truy vấn.",
+        "links": [
+          {
+            "title": "GraphQL Aliases là gì?",
+            "url": "https://graphql.org/learn/queries/#aliases",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hrpb108R8Gyu3hhzkMYzL",
+      "type": "subtopic",
+      "label": "Luận cứ",
+      "position": {
+        "x": -707.4579568300146,
+        "y": 313.43935160429623
+      },
+      "size": {
+        "width": 193,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Các luận cứ trong GraphQL là các giá trị được truyền vào các trường hoặc hướng dẫn để chỉ định chi tiết thực thi như lọc, sắp xếp, phân trang hoặc tùy chọn cấu hình. Chúng được truyền dưới dạng cặp khóa-giá trị, có thể được xác định là biến và có thể tùy chọn hoặc bắt buộc tùy thuộc vào định nghĩa của trường.",
+        "links": [
+          {
+            "title": "GraphQL - Tham số",
+            "url": "https://graphql.org/learn/queries/#arguments",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "MnmwccPahqPCzOhqjfbsY",
+      "type": "subtopic",
+      "label": "Chỉ thị",
+      "position": {
+        "x": -707.4579568300146,
+        "y": 366.43935160429623
+      },
+      "size": {
+        "width": 193,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Các hướng dẫn trong GraphQL sửa đổi thực thi truy vấn bằng cách thêm hành vi hoặc xác thực cho các trường, hoạt động và phân đoạn. Chúng có thể chấp nhận tham số để cấu hình hành vi và bao gồm các hướng dẫn tích hợp sẵn như @include và @skip, hoặc các tùy chỉnh được định nghĩa bởi nhà phát triển cho chức năng cụ thể.",
+        "links": [
+          {
+            "title": "Chỉ thị trong GraphQL",
+            "url": "https://graphql.org/learn/queries/#directives",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "YZaFEK547FYricfOuANvH",
+      "type": "subtopic",
+      "label": "Biến",
+      "position": {
+        "x": -707.4579568300146,
+        "y": 207.43935160429623
+      },
+      "size": {
+        "width": 193,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Các Biến trong GraphQL truyền giá trị động đến các truy vấn và thao tác, làm cho chúng linh hoạt và có thể tái sử dụng. Được định nghĩa bằng ký hiệu $ và một kiểu, các giá trị của chúng được truyền trong một đối tượng JSON riêng biệt. Các biến an toàn về kiểu, đảm bảo rằng các giá trị phù hợp với các kiểu đã xác định.",
+        "links": [
+          {
+            "title": "Giới thiệu về Biến trong GraphQL",
+            "url": "https://graphql.org/learn/queries/#variables",
+            "type": "official"
+          },
+          {
+            "title": "GraphQL Variables",
+            "url": "https://dgraph.io/docs/graphql/api/variables/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "CehwjrCG_wbUU-TFNCuJn",
+      "type": "subtopic",
+      "label": "Mảnh (Fragments)",
+      "position": {
+        "x": -707.4579568300146,
+        "y": 419.43935160429623
+      },
+      "size": {
+        "width": 193,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Các Mảnh (Fragments) trong GraphQL là các khối truy vấn có thể tái sử dụng mà trích xuất các trường cụ thể từ một hoặc nhiều kiểu. Được định nghĩa bằng từ khóa “fragment”, chúng thúc đẩy việc tái sử dụng mã, giảm thiểu sự trùng lặp và làm cho các truy vấn phức tạp dễ bảo trì hơn bằng cách tách biệt các lựa chọn trường phổ biến.",
+        "links": [
+          {
+            "title": "Giới thiệu về Fragment trong GraphQL",
+            "url": "https://graphql.org/learn/queries/#fragments",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "jy_91mhFWbpR6sYVbuX1x",
+      "type": "topic",
+      "label": "Mutation",
+      "position": {
+        "x": -329.8175069304428,
+        "y": 396.6629724396304
+      },
+      "size": {
+        "width": 121,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Các Mutation trong GraphQL được sử dụng để sửa đổi dữ liệu trên máy chủ, bao gồm tạo, cập nhật hoặc xóa bản ghi. Chúng được cấu trúc giống như truy vấn nhưng sử dụng trường \"mutation\" ở cấp cao nhất và bao gồm các trường chỉ định dữ liệu cần thay đổi và kiểu thao tác.",
+        "links": [
+          {
+            "title": "Bắt đầu với Mutations",
+            "url": "https://graphql.org/learn/queries/#mutations",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "9Q2pGidY-rfkltHq3vChp",
+      "type": "subtopic",
+      "label": "Thao tác là gì?",
+      "position": {
+        "x": 40.8618127280065,
+        "y": 343.6629724396304
+      },
+      "size": {
+        "width": 249,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Các Mutation trong GraphQL là các thao tác được sử dụng để sửa đổi dữ liệu trên máy chủ - tạo, cập nhật hoặc xóa bản ghi. Chúng được cấu trúc giống như truy vấn nhưng sử dụng trường \"mutation\" ở cấp cao nhất và bao gồm các trường chỉ định dữ liệu cần thay đổi và kiểu thao tác.",
+        "links": [
+          {
+            "title": "Bắt đầu với Mutations",
+            "url": "https://graphql.org/learn/mutations/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "AySlY8AyI6jE-cy-qKKOU",
+      "type": "subtopic",
+      "label": "Nhiều Trường trong Mutation",
+      "position": {
+        "x": 40.8618127280065,
+        "y": 396.6629724396304
+      },
+      "size": {
+        "width": 249,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "GraphQL cho phép nhiều mutation trong một truy vấn bằng cách bao gồm nhiều trường mutation, đây là phương pháp thường được gọi là nhóm các mutation. Cách tiếp cận này cải thiện hiệu quả mạng lưới bằng cách giảm số lượng chuyến đi giữa khách hàng và máy chủ.",
+        "links": [
+          {
+            "title": "Hướng dẫn các trường nhiều giá trị trong mutation",
+            "url": "https://graphql.org/learn/mutations/#multiple-fields-in-mutations",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "q9TYEygvUyHourdZIvk8G",
+      "type": "subtopic",
+      "label": "Tên hoạt động",
+      "position": {
+        "x": 40.8618127280065,
+        "y": 449.6629724396304
+      },
+      "size": {
+        "width": 249,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Tên hoạt động là các định danh tùy chọn cho các truy vấn và thao tác GraphQL giúp xác định duy nhất các hoạt động trong tài liệu có nhiều hoạt động. Chúng cung cấp tên có ý nghĩa cho các hoạt động, cải thiện gỡ lỗi và làm cho việc xác định lỗi dễ dàng hơn trong các ứng dụng phức tạp.",
+        "links": [
+          {
+            "title": "Giới thiệu về Tác vụ Đặt tên",
+            "url": "https://graphql.org/learn/queries/#operation-name",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "IbEqXlGjsyNLKE9dZrPPk",
+      "type": "topic",
+      "label": "Subscriptions",
+      "position": {
+        "x": -329.8175069304428,
+        "y": 604.2881469175232
+      },
+      "size": {
+        "width": 148,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Các đăng ký GraphQL cho phép cập nhật theo thời gian thực bằng cách cho phép khách hàng đăng ký để nhận các sự kiện hoặc thay đổi dữ liệu cụ thể trên máy chủ. Máy chủ duy trì kết nối mở và đẩy các bản cập nhật đến các khách hàng đã đăng ký ngay khi các sự kiện xảy ra hoặc dữ liệu thay đổi.",
+        "links": [
+          {
+            "title": "Subscriptions và Truy vấn trực tiếp - Thời gian thực với GraphQL",
+            "url": "https://the-guild.dev/blog/subscriptions-and-live-queries-real-time-with-graphql",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "RlBc-hWEUOPaEQLTgJa-K",
+      "type": "subtopic",
+      "label": "Subscriptions là gì?",
+      "position": {
+        "x": -710.4579568300146,
+        "y": 547.2881469175232
+      },
+      "size": {
+        "width": 267,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Các giao dịch đăng ký (subscriptions) trong GraphQL cho phép cập nhật theo thời gian thực bằng cách cho phép khách hàng đăng ký để nhận thông báo về các sự kiện hoặc thay đổi dữ liệu cụ thể trên máy chủ. Chúng được cấu trúc tương tự như truy vấn với một trường \"subscription\" ở cấp cao nhất và đẩy các bản cập nhật đến khách hàng ngay khi các sự kiện xảy ra.",
+        "links": [
+          {
+            "title": "GraphQL Đề bài là gì?",
+            "url": "https://the-guild.dev/blog/subscriptions-and-live-queries-real-time-with-graphql",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "kJMyRhasBKfBypent3GxK",
+      "type": "subtopic",
+      "label": "Đăng ký dựa trên sự kiện (Event Based Subscriptions)",
+      "position": {
+        "x": -710.4579568300146,
+        "y": 604.2881469175232
+      },
+      "size": {
+        "width": 267,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Đăng ký dựa trên sự kiện trong GraphQL cung cấp cập nhật theo thời gian thực bằng cách đăng ký các sự kiện hoặc thay đổi dữ liệu cụ thể. Các khách hàng duy trì kết nối có dấu tùy chọn thông qua WebSockets để nhận bản cập nhật trực tiếp khi các sự kiện đã đăng ký xảy ra, cho phép các ứng dụng phản ứng với chức năng theo thời gian thực.",
+        "links": [
+          {
+            "title": "Tài liệu GraphQL Subscriptions",
+            "url": "https://graphql.org/blog/subscriptions-in-graphql-and-relay/",
+            "type": "official"
+          },
+          {
+            "title": "GraphQL Subscriptions",
+            "url": "https://the-guild.dev/blog/subscriptions-and-live-queries-real-time-with-graphql",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "CHdzww8_TNfeM6Bp1oTPI",
+      "type": "subtopic",
+      "label": "Truy vấn trực tiếp",
+      "position": {
+        "x": -710.4579568300146,
+        "y": 657.2881469175232
+      },
+      "size": {
+        "width": 267,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Truy vấn trực tiếp tự động cập nhật kết quả truy vấn khi dữ liệu cơ sở thay đổi, cung cấp đồng bộ hóa theo thời gian thực mà không cần quản lý đăng ký thủ công. Tính năng nâng cao này đơn giản hóa việc xây dựng các ứng dụng phản ứng bằng cách duy trì dữ liệu tươi mới một cách tự động, mặc dù nó đòi hỏi các triển khai GraphQL chuyên biệt.",
+        "links": [
+          {
+            "title": "Truy vấn GraphQL trực tiếp",
+            "url": "https://the-guild.dev/blog/collecting-graphql-live-query-resource-identifier-with-graphql-tools",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "t6XxFB_lx27kS4FE2_GMH",
+      "type": "subtopic",
+      "label": "@defer / @stream directives",
+      "position": {
+        "x": -710.4579568300146,
+        "y": 710.2881469175232
+      },
+      "size": {
+        "width": 267,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Các chỉ thị Defer và Stream là các tính năng thử nghiệm GraphQL để cung cấp dữ liệu tăng dần. @defer trì hoãn các trường không quan trọng để cải thiện thời gian phản hồi ban đầu, trong khi @stream gửi danh sách mục theo từng bước, cho phép trải nghiệm người dùng tốt hơn với bộ dữ liệu lớn và các trường tải chậm.",
+        "links": [
+          {
+            "title": "Defer và Stream trong GraphQL",
+            "url": "https://the-guild.dev/graphql/yoga-server/docs/features/defer-stream",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "lj1WEh4WbfBsoZFYsi1Yz",
+      "type": "topic",
+      "label": "Schema",
+      "position": {
+        "x": -329.8175069304428,
+        "y": 735.8550649758861
+      },
+      "size": {
+        "width": 108,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Một lược đồ GraphQL định nghĩa cấu trúc và khả năng của một API GraphQL bằng Ngôn ngữ Định nghĩa Lược đồ (SDL). Nó xác định các loại, trường, tham số, mối quan hệ và các thao tác gốc (Truy vấn, Biến thể, Đăng ký) đóng vai trò là điểm vào, hoạt động như một hợp đồng giữa máy khách và máy chủ.",
+        "links": [
+          {
+            "title": "Schema là gì?",
+            "url": "https://graphql.org/learn/schema/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "jpu0_FAlxtD-H80mPcod5",
+      "type": "subtopic",
+      "label": "Hệ thống kiểu dữ liệu",
+      "position": {
+        "x": 68.2572052308409,
+        "y": 537.9979529933375
+      },
+      "size": {
+        "width": 308,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "GraphQL có kiểu mạnh với một hệ thống kiểu xác định các loại dữ liệu có sẵn trong ứng dụng. Nó bao gồm các loại Scalar, Object, Query, Mutation và Enum. Hệ thống kiểu xác định schema, đóng vai trò là hợp đồng giữa khách hàng và máy chủ để tương tác API có thể dự đoán được.",
+        "links": [
+          {
+            "title": "Bắt đầu với Hệ thống kiểu dữ liệu",
+            "url": "https://graphql.org/learn/schema/#type-system",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "HPdntdgTar1T34CZX8Y6y",
+      "type": "subtopic",
+      "label": "Trường (Fields)",
+      "position": {
+        "x": 68.2572052308409,
+        "y": 590.9979529933375
+      },
+      "size": {
+        "width": 308,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Các Trường (Fields) trong GraphQL là đơn vị dữ liệu có thể truy vấn hoặc thao tác. Mỗi trường có tên, kiểu và mô tả tùy chọn, đồng thời có thể trả về giá trị số học hoặc đối tượng, cho phép cấu trúc dữ liệu lồng nhau phức tạp và chấp nhận tham số để lọc.",
+        "links": [
+          {
+            "title": "GraphQL: Kiểu dữ liệu và Trường (Fields)",
+            "url": "https://graphql.org/learn/queries/#fields",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "U-tLelmNQtR-pUq-sxU_2",
+      "type": "subtopic",
+      "label": "Số thực (Scalar)",
+      "position": {
+        "x": 81.3770177634091,
+        "y": 707.608352612866
+      },
+      "size": {
+        "width": 308,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Số thực là các giá trị ‘lá’ trong GraphQL, đại diện cho kiểu dữ liệu nguyên thủy. Các số thực có sẵn bao gồm String, Int, Float, Boolean và ID để định danh duy nhất. Có thể định nghĩa các số thực tùy chỉnh cho các nhu cầu cụ thể như ngày tháng, JSON hoặc số lớn, mở rộng hệ thống kiểu dữ liệu vượt ra ngoài các nguyên bản cơ bản.",
+        "links": [
+          {
+            "title": "Bắt đầu làm việc với Scalars trong GraphQL",
+            "url": "https://graphql.org/learn/schema/#scalar-types",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "wfOsfb0zSAIdNkwFHfBcw",
+      "type": "subtopic",
+      "label": "Loại liệt kê (Enums)",
+      "position": {
+        "x": 68.2572052308409,
+        "y": 776.5973159217342
+      },
+      "size": {
+        "width": 150,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Loại liệt kê (enumeration types) là các scalar đặc biệt bị giới hạn trong một tập hợp giá trị được phép nhất định. Chúng xác thực tham số chống lại các giá trị được phép và giao tiếp thông qua hệ thống kiểu dữ liệu rằng các trường sẽ luôn là một trong một tập hợp hữu hạn các tùy chọn được xác định trước.",
+        "links": [
+          {
+            "title": "Enums là gì?",
+            "url": "https://graphql.org/learn/schema/#enumeration-types",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tc_rjJZrr2x3bp8mcoQ0F",
+      "type": "subtopic",
+      "label": "Giao diện",
+      "position": {
+        "x": 211.8618127280065,
+        "y": 829.5973159217342
+      },
+      "size": {
+        "width": 156,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Các giao diện trong GraphQL định nghĩa một tập hợp các trường mà các kiểu triển khai phải bao gồm. Chúng cho phép đa hình bằng cách cho phép truy vấn trường chung trên nhiều kiểu khác nhau thực hiện cùng một giao diện, thúc đẩy tái sử dụng mã và thiết kế API nhất quán.",
+        "links": [
+          {
+            "title": "Bắt đầu với Interfaces",
+            "url": "https://graphql.org/learn/schema/#interfaces",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "d2ikbo4sZq7PmaCi5znkd",
+      "type": "subtopic",
+      "label": "Danh sách",
+      "position": {
+        "x": 68.2572052308409,
+        "y": 829.5973159217342
+      },
+      "size": {
+        "width": 150,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Các danh sách trong graphQL biểu diễn các tập hợp có thứ tự của các mục, được định nghĩa bằng dấu ngoặc vuông xung quanh kiểu mục. Chúng có thể chứa scalar, đối tượng hoặc các danh sách khác, cho phép cấu trúc dữ liệu lồng nhau phức tạp và trả về trường dựa trên mảng trong lược đồ.",
+        "links": [
+          {
+            "title": "Bắt đầu với Danh sách",
+            "url": "https://graphql.org/learn/schema/#lists-and-non-null",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "LX9vZpx7yKlf0iR6AtBWz",
+      "type": "subtopic",
+      "label": "Đối tượng",
+      "position": {
+        "x": 211.8618127280065,
+        "y": 776.5973159217342
+      },
+      "size": {
+        "width": 156,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Các đối tượng trong GraphQL là kiểu dữ liệu đại diện cho nhóm các trường, định nghĩa cấu trúc của truy vấn và thao tác thay đổi. Mỗi trường có thể trả về giá trị số học hoặc các đối tượng khác, cho phép xây dựng cấu trúc dữ liệu phức tạp có nhiều lớp. Các đối tượng được định nghĩa bằng từ khóa \"type\" theo sau là tên và định nghĩa các trường.",
+        "links": [
+          {
+            "title": "Loại Dữ Liệu Đối Tượng và Trường",
+            "url": "https://graphql.org/learn/schema/#object-types-and-fields",
+            "type": "official"
+          },
+          {
+            "title": "Loại Dữ Liệu Đối Tượng",
+            "url": "https://graphql.org/graphql-js/object-types/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "59COH3rerJJzKr6vrj4bF",
+      "type": "subtopic",
+      "label": "Tổ hợp (hoặc Liên kết)",
+      "position": {
+        "x": 68.2572052308409,
+        "y": 881.5973159217342
+      },
+      "size": {
+        "width": 150,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Liên kết (Unions) cho phép các trường trả về nhiều kiểu dữ liệu khác nhau, giúp xử lý đa dạng các kiểu dữ liệu trong client. Chúng cung cấp tính linh hoạt về lược đồ bằng cách nhóm các kiểu dữ liệu lại với nhau, mặc dù chúng không cho phép truy vấn chung trên các trường như giao diện (interfaces) làm được.",
+        "links": [
+          {
+            "title": "Bắt đầu với Union trong GraphQL",
+            "url": "https://graphql.org/learn/schema/#union-types",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "A54vi3Ao7fBHyTuqoH_it",
+      "type": "subtopic",
+      "label": "Luận cứ",
+      "position": {
+        "x": 211.8618127280065,
+        "y": 881.5973159217342
+      },
+      "size": {
+        "width": 150,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Các luận cứ trong GraphQL là các giá trị được truyền vào các trường trong các truy vấn và thao tác để lọc hoặc sửa đổi dữ liệu trả về. Chúng được định nghĩa trong lược đồ với tên, kiểu và giá trị mặc định tùy chọn, cho phép truy xuất dữ liệu động.",
+        "links": [
+          {
+            "title": "Bắt đầu với Arguments trong GraphQL",
+            "url": "https://graphql.org/learn/schema/#arguments",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2q3TO7k_byrLI7LkcCplG",
+      "type": "vertical",
+      "label": "Nút dọc",
+      "position": {
+        "x": 37.678457293951865,
+        "y": 540.4979529933375
+      },
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.75
+      },
+      "z_index": 999
+    },
+    {
+      "id": "iYkHCKTsjtvo40f3eZoet",
+      "type": "topic",
+      "label": "Xác thực",
+      "position": {
+        "x": -329.8175069304428,
+        "y": 855.4546928118529
+      },
+      "size": {
+        "width": 119,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Xác thực trong GraphQL đảm bảo các truy vấn và thao tác (mutations) tuân thủ theo quy tắc và ràng buộc của lược đồ (schema). Nó kiểm tra sự tồn tại của trường bắt buộc, kiểu dữ liệu tham số chính xác và phạm vi giá trị trước khi thực thi, ngăn chặn các hoạt động không hợp lệ và cải thiện độ tin cậy của API.",
+        "links": [
+          {
+            "title": "Bắt đầu với Validation trong GraphQL",
+            "url": "https://graphql.org/learn/validation/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "72wGg6yP8WnEdmkeKL9vh",
+      "type": "topic",
+      "label": "Thực thi (Execution)",
+      "position": {
+        "x": -329.8175069304428,
+        "y": 974.9675181201998
+      },
+      "size": {
+        "width": 121,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Thực thi trong GraphQL là quá trình chạy các truy vấn hoặc thay đổi và trả về kết quả cho khách hàng. Máy chủ GraphQL thực hiện các bước phân tích, xác thực và lấy dữ liệu để tạo ra phản hồi cuối cùng, điều phối các hàm giải quyết để truy xuất dữ liệu từ nhiều nguồn khác nhau.",
+        "links": [
+          {
+            "title": "Bắt đầu với Execution trong GraphQL",
+            "url": "https://graphql.org/learn/execution/",
+            "type": "official"
+          },
+          {
+            "title": "Giới thiệu về Thực thi",
+            "url": "https://graphql.org/graphql-js/execution/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "AlJlHZD3_SPoLNaqdM-pB",
+      "type": "subtopic",
+      "label": "Root Fields",
+      "position": {
+        "x": -710.4579568300146,
+        "y": 806.4546928118529
+      },
+      "size": {
+        "width": 267,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Các trường gốc là các trường cấp cao nhất có sẵn cho khách hàng trong các truy vấn và mutation GraphQL. Chúng đóng vai trò là điểm vào để yêu cầu của khách hàng, với các trường Query để truy xuất dữ liệu và các trường Mutation để sửa đổi dữ liệu trên máy chủ.",
+        "links": [
+          {
+            "title": "Bắt đầu với Root Fields",
+            "url": "https://graphql.org/learn/execution/#root-fields-resolvers",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "VDur5xYBC0LJtQgDrSEyj",
+      "type": "subtopic",
+      "label": "Resolvers",
+      "position": {
+        "x": -710.4579568300146,
+        "y": 859.4546928118529
+      },
+      "size": {
+        "width": 267,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center",
+        "colorType": "h"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Resolvers là các hàm chịu trách nhiệm lấy dữ liệu cho mỗi trường trong các truy vấn và mutation GraphQL. Được định nghĩa trong schema và thực thi bởi máy chủ GraphQL, chúng truy xuất dữ liệu từ cơ sở dữ liệu, API hoặc các nguồn khác và trả về cho khách hàng.",
+        "links": [
+          {
+            "title": "Hướng dẫn Giải quyết",
+            "url": "https://the-guild.dev/blog/better-type-safety-for-resolvers-with-graphql-codegen",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "uPpsj2kCdgKsJpmTaw86u",
+      "type": "subtopic",
+      "label": "Đồng bộ",
+      "position": {
+        "x": -690.9579568300146,
+        "y": 917.4883475571679
+      },
+      "size": {
+        "width": 227,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Các resolver đồng bộ trong GraphQL sẽ thực thi ngay lập tức và trả về kết quả trực tiếp mà không cần chờ đợi các thao tác bên ngoài. Chúng hoàn thành quá trình thực thi trước khi trả về bất kỳ giá trị nào, khiến chúng trở nên đơn giản hơn nhưng có thể gây chặn (blocking) nếu chúng thực hiện các phép tính phức tạp.",
+        "links": [
+          {
+            "title": "Thực thi GraphQL",
+            "url": "https://graphql.org/learn/execution/",
+            "type": "official"
+          },
+          {
+            "title": "Hiểu về Resolver",
+            "url": "https://www.apollographql.com/docs/apollo-server/data/resolvers/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tbDvQBtLRAcD-xYX9V7Va",
+      "type": "subtopic",
+      "label": "Đồng thời",
+      "position": {
+        "x": -690.9579568300146,
+        "y": 970.4883475571679
+      },
+      "size": {
+        "width": 227,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Các bộ giải quyết đồng thời trong GraphQL là các hàm trả về lời hứa thay vì giá trị ngay lập tức. Chúng cho phép bộ giải quyết chờ các hoạt động bên ngoài như truy vấn cơ sở dữ liệu hoặc gọi API hoàn thành trước khi trả về kết quả, cho phép thực thi không chặn.",
+        "links": [
+          {
+            "title": "Bắt đầu với Asynchronous",
+            "url": "https://graphql.org/learn/execution/#asynchronous-resolvers",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "QFUOmJlPkkjpcl1vJxg9h",
+      "type": "subtopic",
+      "label": "Scalar Coercion",
+      "position": {
+        "x": -690.9579568300146,
+        "y": 1023.4883475571679
+      },
+      "size": {
+        "width": 227,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Coercion kiểu dữ liệu Scalar trong GraphQL chuyển đổi giá trị đầu vào từ một loại sang một loại khác khi chúng không khớp với loại được mong đợi nhưng có thể chuyển đổi thành công. Quá trình này được triển khai bằng các kiểu scalar tùy chỉnh với các hàm coerce để xử lý việc chuyển đổi kiểu.",
+        "links": [
+          {
+            "title": "Bắt đầu với chuyển đổi kiểu dữ liệu bằng Scalar.",
+            "url": "https://graphql.org/learn/execution/#scalar-coercion",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sJ1_c3e08aehiqNMbIEEP",
+      "type": "subtopic",
+      "label": "Danh sách",
+      "position": {
+        "x": -690.9579568300146,
+        "y": 1076.488347557168
+      },
+      "size": {
+        "width": 227,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Các danh sách trong graphQL biểu diễn các tập hợp có thứ tự của các mục và có thể được sử dụng làm kiểu trả về cho các trường. Chúng có thể chứa bất kỳ loại mục nào, bao gồm cả scalar và đối tượng, với các hàm giải quyết thường trả về dữ liệu dưới dạng mảng từ cơ sở dữ liệu hoặc API.",
+        "links": [
+          {
+            "title": "Bắt đầu với Danh sách và Không Null",
+            "url": "https://graphql.org/learn/schema/#lists-and-non-null",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "I4wNBXV4xEZ0LWBhv5FwF",
+      "type": "subtopic",
+      "label": "Xác thực",
+      "position": {
+        "x": -710.9579568300146,
+        "y": 1144.5474215299696
+      },
+      "size": {
+        "width": 267,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Xác thực trong GraphQL đảm bảo các truy vấn và thao tác (mutations) tuân thủ quy tắc lược đồ bằng cách xác minh quyền truy cập trường, tính chính xác của kiểu dữ liệu và ràng buộc đầu vào. Máy chủ GraphQL xác thực tất cả các hoạt động đến trước khi thực thi, trả về lỗi cho các truy vấn không hợp lệ với chi tiết cụ thể về các vi phạm.",
+        "links": [
+          {
+            "title": "Bắt đầu với Validation trong GraphQL",
+            "url": "https://graphql.org/learn/validation/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "zQHifboRreE4OgJ7GnUlp",
+      "type": "subtopic",
+      "label": "Tạo kết quả",
+      "position": {
+        "x": -710.9579568300146,
+        "y": 1198.5474215299696
+      },
+      "size": {
+        "width": 267,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Để tạo ra kết quả trong GraphQL, bạn cần tạo ra phản hồi cuối cùng cho các truy vấn và thay đổi (mutations). Quá trình này bao gồm phân tích yêu cầu, xác thực theo lược đồ, thực thi các resolver để lấy dữ liệu và định dạng phản hồi theo yêu cầu của truy vấn.",
+        "links": [
+          {
+            "title": "Bắt đầu với GraphQL",
+            "url": "https://graphql.org/learn/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "jk64WxDch-mqf3_8SdY-D",
+      "type": "vertical",
+      "label": "Nút dọc",
+      "position": {
+        "x": -468.4579568300146,
+        "y": 803.9546928118529
+      },
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.75
+      },
+      "z_index": 999
+    },
+    {
+      "id": "inhjhH-7xJyX8o4DQqErF",
+      "type": "topic",
+      "label": "Phục vụ trên Internet",
+      "position": {
+        "x": -329.8175069304428,
+        "y": 1114.371143674773
+      },
+      "size": {
+        "width": 207,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Phục vụ GraphQL qua Internet bao gồm việc truy cập một máy chủ GraphQL thông qua địa chỉ IP công cộng hoặc tên miền để khách hàng có thể truy cập. Điều này có thể được thực hiện bằng cách sử dụng bộ định tuyến ngược, dịch vụ đám mây hoặc các hàm serverless để lộ đường dẫn GraphQL công khai.",
+        "links": [
+          {
+            "title": "Giới thiệu về Phục vụ qua HTTPS",
+            "url": "https://graphql.org/learn/serving-over-http/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Ya0ORdmEHEPpp1GAzMLVT",
+      "type": "label",
+      "label": "GraphQL qua HTTP",
+      "position": {
+        "x": 117.2572052308409,
+        "y": 987.3919731117412
+      },
+      "size": {
+        "width": 176,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "V3bgswBFr1xames3F8S_V",
+      "type": "subtopic",
+      "label": "Thông số kỹ thuật GraphQL qua HTTP",
+      "position": {
+        "x": 80.7572052308409,
+        "y": 1034.3919731117412
+      },
+      "size": {
+        "width": 245,
+        "height": 69
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Tiêu chuẩn GraphQL trên HTTP định nghĩa các phương pháp tiêu chuẩn để phục vụ GraphQL qua HTTP, bao gồm định dạng yêu cầu/phản hồi, mã trạng thái và kiểu nội dung. Nó đảm bảo khả năng tương tác giữa các triển khai GraphQL khác nhau và cung cấp hướng dẫn cho hành vi API nhất quán trên nhiều nền tảng.",
+        "links": []
+      }
+    },
+    {
+      "id": "UYwuUVTeurwODV4_Kdt_W",
+      "type": "subtopic",
+      "label": "Bộ nhớ Cache",
+      "position": {
+        "x": 80.7572052308409,
+        "y": 1087.3919731117412
+      },
+      "size": {
+        "width": 245,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Bộ nhớ Cache trong GraphQL cải thiện hiệu suất bằng cách lưu trữ kết quả truy vấn để tái sử dụng. Các chiến lược bao gồm bộ nhớ cache HTTP, bộ nhớ cache phản hồi, DataLoader cho việc gộp nhóm yêu cầu và bộ nhớ cache ở cấp độ client được chuẩn hóa để giảm các cuộc gọi API trùng lặp và cải thiện trải nghiệm người dùng. Có nhiều loại bộ nhớ Cache có thể được sử dụng trong GraphQL: *   Bộ nhớ Cache phía Client *   Bộ nhớ Cache phía Server *   Bộ nhớ Cache CDN",
+        "links": [
+          {
+            "title": "Bắt đầu với Caching",
+            "url": "https://graphql.org/learn/caching/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "v9gVexHfDkpG9z3NL5S-9",
+      "type": "subtopic",
+      "label": "Nhóm hóa",
+      "position": {
+        "x": 194.7572052308409,
+        "y": 1087.3919731117412
+      },
+      "size": {
+        "width": 245,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Gộp nhóm trong GraphQL kết hợp nhiều truy vấn thành một yêu cầu duy nhất để giảm tải mạng và cải thiện hiệu suất. DataLoader là một mẫu phổ biến mà gộp nhóm và bộ nhớ cache các yêu cầu cơ sở dữ liệu, ngăn chặn vấn đề N+1 truy vấn và tối ưu hóa hiệu quả lấy dữ liệu.",
+        "links": [
+          {
+            "title": "DataLoader",
+            "url": "https://github.com/graphql/dataloader",
+            "type": "opensource"
+          },
+          {
+            "title": "Giải quyết vấn đề N+1",
+            "url": "https://shopify.engineering/solving-the-n-1-problem-for-graphql-through-batching",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "i-zcfN6RNXhA_sb7DcIon",
+      "type": "subtopic",
+      "label": "Xác thực",
+      "position": {
+        "x": 80.7572052308409,
+        "y": 1139.5474215299696
+      },
+      "size": {
+        "width": 245,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Xác thực trong GraphQL đề cập đến quá trình kiểm soát quyền truy cập vào các trường, kiểu hoặc thao tác cụ thể trong một lược đồ GraphQL dựa trên vai trò hoặc quyền của người dùng. Nó cho phép bạn hạn chế quyền truy cập vào dữ liệu hoặc chức năng nhất định trong ứng dụng của mình dựa trên vai trò hoặc quyền của người dùng. Có nhiều cách để triển khai xác thực trong GraphQL: * Sử dụng middleware * Sử dụng hướng dẫn lược đồ * Sử dụng lớp nguồn dữ liệu",
+        "links": [
+          {
+            "title": "Bắt đầu với Authorization",
+            "url": "https://graphql.org/learn/authorization/",
+            "type": "official"
+          },
+          {
+            "title": "Khám phá các bài đăng phổ biến nhất về Phân quyền (Authorization)",
+            "url": "https://app.daily.dev/tags/authorization?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ud-BWNe_McqpZXHtlXPyr",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": 68.2572052308409,
+        "y": 1200.1275563289466
+      },
+      "size": {
+        "width": 150,
+        "height": 100
+      },
+      "style": {
+        "fontSize": 17,
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "st02HY5-DEab1pYXkBc3S",
+      "type": "label",
+      "label": "GraphQL qua WebSockets",
+      "position": {
+        "x": 92.7572052308409,
+        "y": 1211.3919731117412
+      },
+      "size": {
+        "width": 228,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "A-PQ3_FVuCK3Eud75hsdj",
+      "type": "subtopic",
+      "label": "Thông số kỹ thuật (Specification)",
+      "position": {
+        "x": 80.7572052308409,
+        "y": 1258.3919731117412
+      },
+      "size": {
+        "width": 245,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Tài liệu chính thức về GraphQL định nghĩa ngôn ngữ truy vấn GraphQL, hệ thống kiểu dữ liệu, thuật toán thực thi và các quy tắc xác thực. Nó đảm bảo tính nhất quán trên các triển khai GraphQL khác nhau và đóng vai trò là tài liệu tham khảo chính cho các nhà phát triển xây dựng dịch vụ và công cụ GraphQL.",
+        "links": [
+          {
+            "title": "Tiêu chuẩn GraphQL",
+            "url": "https://spec.graphql.org/",
+            "type": "official"
+          },
+          {
+            "title": "Hiệp hội GraphQL",
+            "url": "https://foundation.graphql.org/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2YLm_S1j_832pb1OGSNaM",
+      "type": "subtopic",
+      "label": "Thời gian thực",
+      "position": {
+        "x": 80.7572052308409,
+        "y": 1311.3919731117412
+      },
+      "size": {
+        "width": 245,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Thời gian thực GraphQL cho phép cập nhật dữ liệu trực tiếp thông qua các subscriptions, cho phép khách hàng nhận được thông báo ngay lập tức khi dữ liệu thay đổi. Được triển khai bằng WebSockets, Server-Sent Events hoặc polling, nó là điều cần thiết cho các ứng dụng trò chuyện, luồng trực tiếp và các công cụ cộng tác yêu cầu đồng bộ hóa dữ liệu tức thì.",
+        "links": [
+          {
+            "title": "Bắt đầu với Real Time với GraphQL",
+            "url": "https://the-guild.dev/blog/subscriptions-and-live-queries-real-time-with-graphql",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "GzwPvLybxTJM96fUhQUOi",
+      "type": "subtopic",
+      "label": "Xác thực",
+      "position": {
+        "x": 192.7572052308409,
+        "y": 1311.3919731117412
+      },
+      "size": {
+        "width": 245,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Xác thực trong GraphQL đề cập đến quá trình kiểm soát quyền truy cập vào các trường, kiểu hoặc thao tác cụ thể trong một lược đồ GraphQL dựa trên vai trò hoặc quyền của người dùng. Nó cho phép bạn hạn chế quyền truy cập vào dữ liệu hoặc chức năng nhất định trong ứng dụng của mình dựa trên vai trò hoặc quyền của người dùng. Có nhiều cách để triển khai xác thực trong GraphQL: * Sử dụng middleware * Sử dụng hướng dẫn lược đồ * Sử dụng lớp nguồn dữ liệu",
+        "links": [
+          {
+            "title": "Bắt đầu với Authorization",
+            "url": "https://graphql.org/learn/authorization/",
+            "type": "official"
+          },
+          {
+            "title": "Khám phá các bài đăng phổ biến nhất về Phân quyền (Authorization)",
+            "url": "https://app.daily.dev/tags/authorization?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cH2FSWgKxQbBoI0tI-QNH",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": 68.2572052308409,
+        "y": 1373.1275563289466
+      },
+      "size": {
+        "width": 150,
+        "height": 100
+      },
+      "style": {
+        "fontSize": 17,
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "F4nR2VZ4k1uekWXINoMKH",
+      "type": "label",
+      "label": "GraphQL qua SSE",
+      "position": {
+        "x": 92.7572052308409,
+        "y": 1384.3919731117412
+      },
+      "size": {
+        "width": 165,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "O8k-m6s9B_uXkLsXKVFnL",
+      "type": "subtopic",
+      "label": "Thông số kỹ thuật (Specification)",
+      "position": {
+        "x": 81.7572052308409,
+        "y": 1431.3919731117412
+      },
+      "size": {
+        "width": 245,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Tiêu chuẩn GraphQL định nghĩa ngôn ngữ cốt lõi, hệ thống kiểu dữ liệu, mô hình thực thi và các quy tắc xác thực cho GraphQL. Được duy trì bởi GraphQL Foundation, nó cung cấp nền tảng kỹ thuật mà tất cả các triển khai GraphQL phải tuân theo để đảm bảo khả năng tương tác và nhất quán trên nhiều nền tảng.",
+        "links": [
+          {
+            "title": "Tiêu chuẩn GraphQL",
+            "url": "https://spec.graphql.org/",
+            "type": "official"
+          },
+          {
+            "title": "Hiệp hội GraphQL",
+            "url": "https://foundation.graphql.org/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "G50ZMlmP7Ru5LcFne5Rhu",
+      "type": "subtopic",
+      "label": "Xác thực",
+      "position": {
+        "x": 81.7572052308409,
+        "y": 1484.3919731117412
+      },
+      "size": {
+        "width": 245,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Xác thực trong GraphQL kiểm soát quyền truy cập vào dữ liệu và thao tác dựa trên quyền của người dùng và vai trò. Nó có thể được triển khai ở cấp độ lược đồ, cấp trường hoặc bên trong bộ giải quyết, đảm bảo người dùng chỉ truy cập dữ liệu họ được phép xem thông qua nhiều chiến lược xác thực và ủy quyền khác nhau. Có nhiều cách để triển khai xác thực trong GraphQL: * Sử dụng middleware * Sử dụng hướng dẫn lược đồ * Sử dụng lớp nguồn dữ liệu",
+        "links": [
+          {
+            "title": "Bắt đầu với Authorization",
+            "url": "https://graphql.org/learn/authorization/",
+            "type": "official"
+          },
+          {
+            "title": "Khám phá các bài đăng phổ biến nhất về Phân quyền (Authorization)",
+            "url": "https://app.daily.dev/tags/authorization?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1mBWGT53bwy8JHSnf_6lr",
+      "type": "vertical",
+      "label": "Nút dọc",
+      "position": {
+        "x": 37.678457293951865,
+        "y": 979.4979529933375
+      },
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.75
+      },
+      "z_index": 999
+    },
+    {
+      "id": "Uf8XxJPs7RzKVhlxiQdbB",
+      "type": "topic",
+      "label": "Lọc trang",
+      "position": {
+        "x": -329.8175069304428,
+        "y": 1262.3919731117412
+      },
+      "size": {
+        "width": 126,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Tải trang trong GraphQL xử lý các tập dữ liệu lớn bằng cách chia chúng thành các khối nhỏ hơn. Các phương pháp phổ biến bao gồm tải trang dựa trên con trỏ (sử dụng con trỏ để tải trang ổn định) và tải trang dựa trên offset (sử dụng skip/take), với tải trang dựa trên con trỏ được ưu tiên vì hiệu suất và tính nhất quán tốt hơn.",
+        "links": [
+          {
+            "title": "Bắt đầu với Pagination",
+            "url": "https://graphql.org/learn/pagination/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Qab1pyIZiJ3Z9q8CuEsc-",
+      "type": "paragraph",
+      "label": "Triển khai",
+      "position": {
+        "x": -305.3175069304428,
+        "y": 1469.2051467174065
+      },
+      "size": {
+        "width": 188,
+        "height": 67
+      },
+      "style": {
+        "fontSize": 20,
+        "borderColor": "transparent",
+        "backgroundColor": "transparent",
+        "color": "#000000",
+        "textAlign": "center",
+        "justifyContent": "center",
+        "padding": 16
+      },
+      "z_index": 999
+    },
+    {
+      "id": "jCzrMElTo-c9xGcpPOOPl",
+      "type": "subtopic",
+      "label": "GraphQL.js",
+      "position": {
+        "x": -690.9579568300146,
+        "y": 1502.7051467174065
+      },
+      "size": {
+        "width": 131,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "GraphQL.js là triển khai tham khảo của GraphQL cho JavaScript và Node.js. Nó cung cấp chức năng cốt lõi để phân tích cú pháp, xác thực và thực thi các truy vấn GraphQL, đóng vai trò nền tảng cho nhiều công cụ và thư viện GraphQL khác trong hệ sinh thái JavaScript.",
+        "links": [
+          {
+            "title": "Kho lưu trữ GraphQL.js",
+            "url": "https://github.com/graphql/graphql-js",
+            "type": "official"
+          },
+          {
+            "title": "Tài liệu GraphQL.js",
+            "url": "https://graphql.org/graphql-js/",
+            "type": "official"
+          }
+        ]
+      }
+    },
+    {
+      "id": "9nVo95gRNGHGIbaJQPH1x",
+      "type": "subtopic",
+      "label": "GraphQL Go",
+      "position": {
+        "x": -690.9579568300146,
+        "y": 1392.3919731117412
+      },
+      "size": {
+        "width": 142,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "GraphQL Go đề cập đến việc triển khai các máy chủ và khách hàng GraphQL bằng ngôn ngữ lập trình Go. Các thư viện phổ biến bao gồm graphql-go/graphql cho phát triển theo kiểu schema-first và 99designs/gqlgen để tạo mã từ kiểu. Ưu điểm của Go như kiểu dữ liệu mạnh mẽ và hiệu năng giúp nó trở thành lựa chọn tuyệt vời để xây dựng các API GraphQL có khả năng mở rộng.",
+        "links": [
+          {
+            "title": "graphql-go/graphql",
+            "url": "https://github.com/graphql-go/graphql",
+            "type": "opensource"
+          },
+          {
+            "title": "99designs/gqlgen",
+            "url": "https://github.com/99designs/gqlgen",
+            "type": "opensource"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1q77xUifPS5sLx5tktXxF",
+      "type": "label",
+      "label": "Triển khai bằng Go",
+      "position": {
+        "x": -690.9579568300146,
+        "y": 1350.3919731117412
+      },
+      "size": {
+        "width": 163,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "qmlQ3184CZ9HgvRHVcPT6",
+      "type": "label",
+      "label": "Triển khai bằng JavaScript",
+      "position": {
+        "x": -690.9579568300146,
+        "y": 1460.7051467174065
+      },
+      "size": {
+        "width": 221,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "7szipojhVb2VoL3VcS619",
+      "type": "subtopic",
+      "label": "GraphQL Java",
+      "position": {
+        "x": -690.9579568300146,
+        "y": 1606.589806690877
+      },
+      "size": {
+        "width": 156,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "GraphQL Java là một thư viện phổ biến để triển khai các API GraphQL trong ứng dụng Java. Nó cung cấp khả năng phát triển theo hướng lược đồ (schema-first), thực thi truy vấn thời gian chạy và tích hợp tốt với Spring Boot và các framework Java khác, làm cho nó là một lựa chọn vững chắc cho các triển khai GraphQL doanh nghiệp.",
+        "links": [
+          {
+            "title": "Thư viện GraphQL Java",
+            "url": "https://github.com/graphql-java/graphql-java",
+            "type": "official"
+          },
+          {
+            "title": "Tài liệu GraphQL Java",
+            "url": "https://www.graphql-java.com/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "-STVQpKbY5I9eTExdJ6mc",
+      "type": "label",
+      "label": "Triển khai bằng Java",
+      "position": {
+        "x": -690.9579568300146,
+        "y": 1563.589806690877
+      },
+      "size": {
+        "width": 176,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "XD0hNlAu05_ZYgv8JvEp1",
+      "type": "paragraph",
+      "label": "Máy chủ (Servers)",
+      "position": {
+        "x": -305.3175069304428,
+        "y": 1641.2051467174065
+      },
+      "size": {
+        "width": 107,
+        "height": 67
+      },
+      "style": {
+        "fontSize": 20,
+        "borderColor": "transparent",
+        "backgroundColor": "transparent",
+        "color": "#000000",
+        "textAlign": "center",
+        "justifyContent": "center",
+        "padding": 16
+      },
+      "z_index": 999
+    },
+    {
+      "id": "_8RiK9B8endMNBjiKsazU",
+      "type": "label",
+      "label": "JavaScript",
+      "position": {
+        "x": 87.7572052308409,
+        "y": 1649.2051467174065
+      },
+      "size": {
+        "width": 96,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "N-vsu-wvOikuoTbzdgX3X",
+      "type": "subtopic",
+      "label": "graphql-http",
+      "position": {
+        "x": 87.7572052308409,
+        "y": 1694.2051467174065
+      },
+      "size": {
+        "width": 249,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "GraphQL trên HTTP là một đặc tả định nghĩa cách các truy vấn và thao tác GraphQL nên được truyền tải qua HTTP. Nó chuẩn hóa định dạng yêu cầu/phản hồi, phương thức HTTP, mã trạng thái, tiêu đề và đảm bảo giao tiếp API GraphQL nhất quán trên các triển khai khác nhau.",
+        "links": [
+          {
+            "title": "GraphQL trên HTTP Specification",
+            "url": "https://graphql.github.io/graphql-over-http/",
+            "type": "official"
+          },
+          {
+            "title": "Thư viện graphql-http",
+            "url": "https://github.com/graphql/graphql-http",
+            "type": "opensource"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Gotb1xtxySCVC5MrnkPSs",
+      "type": "subtopic",
+      "label": "GraphQL Yoga",
+      "position": {
+        "x": 87.7572052308409,
+        "y": 1747.2051467174065
+      },
+      "size": {
+        "width": 249,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "GraphQL Yoga là thư viện máy chủ GraphQL mã nguồn mở cho Node.js được xây dựng trên Express.js. Nó cung cấp cài đặt ít boilerplate với xác thực, ủy quyền tích hợp, kiểm tra dữ liệu và hỗ trợ subscriptions để cập nhật theo thời gian thực, giúp phát triển máy chủ GraphQL trở nên trơn tru hơn.",
+        "links": [
+          {
+            "title": "GraphQL Armorschutz – für Yoga Server 2",
+            "url": "https://the-guild.dev/blog/improved-security-with-graphql-armor-support-for-yoga-server-2",
+            "type": "article"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về GraphQL",
+            "url": "https://app.daily.dev/tags/graphql?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "o_VkyoN6DmUUkfl0u0cro",
+      "type": "subtopic",
+      "label": "Apollo Server",
+      "position": {
+        "x": 87.7572052308409,
+        "y": 1800.2051467174065
+      },
+      "size": {
+        "width": 249,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Apollo Server là một thư viện nguồn mở phổ biến để xây dựng máy chủ GraphQL trong JavaScript. Nó cung cấp các công cụ để phân tích, xác thực, thực thi các giải pháp, định dạng phản hồi với các tính năng tích hợp cho xác thực, ủy quyền, xác thực dữ liệu và đăng ký thời gian thực.",
+        "links": [
+          {
+            "title": "Hướng dẫn Apollo - Giới thiệu",
+            "url": "https://www.howtographql.com/react-apollo/0-introduction/",
+            "type": "article"
+          },
+          {
+            "title": "Khám phá các bài đăng phổ biến nhất về Apollo",
+            "url": "https://app.daily.dev/tags/apollo?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "iTV2H8clmRTOksul4v38p",
+      "type": "subtopic",
+      "label": "mercurius",
+      "position": {
+        "x": 87.7572052308409,
+        "y": 1853.2051467174065
+      },
+      "size": {
+        "width": 249,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Mercurius là thư viện máy chủ GraphQL hiệu năng cao cho Fastify, mang lại hiệu suất tuyệt vời và mức sử dụng bộ nhớ tối thiểu. Nó cung cấp phát triển theo kiểu lược đồ (schema-first), bộ nhớ cache tích hợp, hỗ trợ đăng ký (subscriptions) và tích hợp với hệ sinh thái của Fastify để xây dựng các API GraphQL nhanh chóng, có khả năng mở rộng.",
+        "links": [
+          {
+            "title": "Kho lưu trữ Mercurius",
+            "url": "https://github.com/mercurius-js/mercurius",
+            "type": "opensource"
+          },
+          {
+            "title": "Tài liệu Mercurius",
+            "url": "https://mercurius.dev/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "lUOOZDUJOgktHf07nGzCJ",
+      "type": "horizontal",
+      "label": "Nút ngang",
+      "position": {
+        "x": -127.31750693044279,
+        "y": 1665.7051467174065
+      },
+      "size": {
+        "width": 50,
+        "height": 20
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.75
+      },
+      "z_index": 999
+    },
+    {
+      "id": "WFO_AwmbUJPAFj0tFClJg",
+      "type": "paragraph",
+      "label": "Client",
+      "position": {
+        "x": -305.3175069304428,
+        "y": 1796.2051467174065
+      },
+      "size": {
+        "width": 100,
+        "height": 67
+      },
+      "style": {
+        "fontSize": 20,
+        "borderColor": "transparent",
+        "backgroundColor": "transparent",
+        "color": "#000000",
+        "textAlign": "center",
+        "justifyContent": "center",
+        "padding": 16
+      },
+      "z_index": 999
+    },
+    {
+      "id": "4IugiCX3rnKv5ak50sqGm",
+      "type": "section",
+      "label": "",
+      "position": {
+        "x": -707.048072051004,
+        "y": 1755.7051467174065
+      },
+      "size": {
+        "width": 150,
+        "height": 100
+      },
+      "style": {
+        "fontSize": 17,
+        "backgroundColor": "#ffffff",
+        "borderColor": "#000000"
+      },
+      "z_index": -999
+    },
+    {
+      "id": "3lQ4cxevkw0p8v7fHm4I7",
+      "type": "label",
+      "label": "JavaScript",
+      "position": {
+        "x": -686.2427947691591,
+        "y": 1770.2051467174065
+      },
+      "size": {
+        "width": 96,
+        "height": 36
+      },
+      "style": {
+        "fontSize": 17
+      },
+      "z_index": 999
+    },
+    {
+      "id": "datKo3vPDwXoyVskcrdkc",
+      "type": "subtopic",
+      "label": "graphql-http",
+      "position": {
+        "x": -686.2427947691591,
+        "y": 1815.2051467174065
+      },
+      "size": {
+        "width": 249,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "GraphQL HTTP là một thông số kỹ thuật để phục vụ GraphQL qua giao thức HTTP. Nó định nghĩa các phương pháp tiêu chuẩn để gửi truy vấn và thay đổi dữ liệu, chủ yếu sử dụng các yêu cầu POST với nội dung JSON trong thân yêu cầu và nhận kết quả trong thân phản hồi.",
+        "links": [
+          {
+            "title": "Tổng quan về GraphQL và HTTP",
+            "url": "https://graphql.org/graphql-js/express-graphql/#graphqlhttp",
+            "type": "official"
+          },
+          {
+            "title": "Bắt đầu với GraphQL HTTP",
+            "url": "https://graphql.org/learn/serving-over-http/",
+            "type": "official"
+          },
+          {
+            "title": "Khám phá các bài đăng hàng đầu về GraphQL",
+            "url": "https://app.daily.dev/tags/graphql?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Ab_ngkf6bmejvcp9okuw6",
+      "type": "subtopic",
+      "label": "Relay",
+      "position": {
+        "x": -686.2427947691591,
+        "y": 1868.2051467174065
+      },
+      "size": {
+        "width": 249,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Relay là khách hàng GraphQL của Facebook được thiết kế dành cho các ứng dụng React, tập trung vào hiệu suất và tính nhất quán dữ liệu. Nó sử dụng phương pháp khai báo với fragments, tối ưu hóa truy vấn tự động, xử lý trang phân cách và các quy tắc nghiêm ngặt để xây dựng các ứng dụng GraphQL có khả năng mở rộng và hiệu quả.",
+        "links": [
+          {
+            "title": "Tạo Mã GraphQL & Trình Biên Tập Relay",
+            "url": "https://the-guild.dev/blog/graphql-codegen-relay-compiler",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "D5O7ky5eXwm_Ys1IcFNaq",
+      "type": "subtopic",
+      "label": "Apollo Client",
+      "position": {
+        "x": -686.2427947691591,
+        "y": 1921.2051467174065
+      },
+      "size": {
+        "width": 249,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "Apollo Client là thư viện GraphQL phổ biến cho JavaScript, cung cấp khả năng lấy dữ liệu, bộ nhớ cache và quản lý trạng thái. Nó cung cấp khả năng lấy dữ liệu mô tả với React hooks, bộ nhớ cache thông minh, cập nhật giao diện người dùng lạc quan, xử lý lỗi để xây dựng các ứng dụng được hỗ trợ bởi GraphQL hiệu quả.",
+        "links": [
+          {
+            "title": "Tại sao Apollo Client - Frontend?",
+            "url": "https://www.howtographql.com/react-apollo/0-introduction/",
+            "type": "article"
+          },
+          {
+            "title": "Khám phá các bài đăng phổ biến nhất về Apollo",
+            "url": "https://app.daily.dev/tags/apollo?ref=roadmapsh",
+            "type": "feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "WP0Oo_YMfLBlXqDQQtKes",
+      "type": "subtopic",
+      "label": "Urql là một thư viện JavaScript để xây dựng các ứng dụng web sử dụng GraphQL với React. Nó cung cấp một cách dễ dàng để truy cập và quản lý dữ liệu từ các API GraphQL, đồng thời giúp bạn tối ưu hóa hiệu suất và trải nghiệm người dùng.",
+      "position": {
+        "x": -686.2427947691591,
+        "y": 1974.2051467174065
+      },
+      "size": {
+        "width": 249,
+        "height": 49
+      },
+      "style": {
+        "fontSize": 17,
+        "justifyContent": "flex-start",
+        "textAlign": "center"
+      },
+      "z_index": 999,
+      "content": {
+        "description": "URQL là một thư viện khách hàng GraphQL nhẹ và có khả năng tùy chỉnh cao dành cho React, Vue và Svelte. Nó cung cấp bộ nhớ cache, đăng ký thời gian thực, hỗ trợ ngoại tuyến và kiến trúc mô-đun với các exchange để mở rộng chức năng, mang lại một giải pháp thay thế Apollo Client với hiệu suất tốt hơn.",
+        "links": [
+          {
+            "title": "urql - Formidable Labs",
+            "url": "https://formidable.com/open-source/urql/",
+            "type": "article"
+          }
+        ]
+      }
+    },
+    {
+      "id": "BjJfMCOatN2_3TVt-6GnG",
+      "type": "horizontal",
+      "label": "Nút ngang",
+      "position": {
+        "x": -452.3175069304428,
+        "y": 1820.7051467174065
+      },
+      "size": {
+        "width": 50,
+        "height": 20
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.75
+      },
+      "z_index": 999
+    },
+    {
+      "id": "UOQYh4L1q1XAl7EuxlQ3m",
+      "type": "vertical",
+      "label": "Nút dọc",
+      "position": {
+        "x": -215.3175069304428,
+        "y": 1874.2541881503926
+      },
+      "size": {
+        "width": 20,
+        "height": 150
+      },
+      "style": {
+        "stroke": "#2B78E4",
+        "strokeWidth": 3.75
+      },
+      "z_index": 999
+    }
+  ],
+  "edges": [
+    {
+      "id": "xy-edge__HU7wZWiES3m3xl1-NYP6Fx2-08qKtgnhJ3tlb5JKfTDf5w1",
+      "source": "HU7wZWiES3m3xl1-NYP6F",
+      "target": "JfXwzkN29UGz17FYHHE3A",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__4U-HZQGH7kaWCB94Xy8Mhz2-2rlmLn_yQQV-7DpX1qT98y2",
+      "source": "JfXwzkN29UGz17FYHHE3A",
+      "target": "2rlmLn_yQQV-7DpX1qT98",
+      "source_handle": "z2",
+      "target_handle": "y2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__4U-HZQGH7kaWCB94Xy8Mhz2-cMfsRtvzvDZZJ0TqeUOxmy1",
+      "source": "JfXwzkN29UGz17FYHHE3A",
+      "target": "cMfsRtvzvDZZJ0TqeUOxm",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__4U-HZQGH7kaWCB94Xy8Mhz2-VhSEH_RoWFt1z2lial7xZy2",
+      "source": "JfXwzkN29UGz17FYHHE3A",
+      "target": "J5mU0v491qrm-mr1W3Msd",
+      "source_handle": "z2",
+      "target_handle": "y2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__JfXwzkN29UGz17FYHHE3Az2-6r9XbwlBtHmJrhviG2cTDy2",
+      "source": "JfXwzkN29UGz17FYHHE3A",
+      "target": "6r9XbwlBtHmJrhviG2cTD",
+      "source_handle": "z2",
+      "target_handle": "y2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__JfXwzkN29UGz17FYHHE3Az2-ODQ8zrHc2rsc8PN-APKvzy1",
+      "source": "JfXwzkN29UGz17FYHHE3A",
+      "target": "ODQ8zrHc2rsc8PN-APKvz",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__cSXsu17F1Oy34Wp6J-N3Cy2-YZaFEK547FYricfOuANvHz1",
+      "source": "W_Lg8086ZhrIqtck1sgnb",
+      "target": "YZaFEK547FYricfOuANvH",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__cSXsu17F1Oy34Wp6J-N3Cy2-B77yLU4SuRChSjEbmYwc-z1",
+      "source": "W_Lg8086ZhrIqtck1sgnb",
+      "target": "B77yLU4SuRChSjEbmYwc-",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__cSXsu17F1Oy34Wp6J-N3Cy2-hrpb108R8Gyu3hhzkMYzLz1",
+      "source": "W_Lg8086ZhrIqtck1sgnb",
+      "target": "hrpb108R8Gyu3hhzkMYzL",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__cSXsu17F1Oy34Wp6J-N3Cy2-MnmwccPahqPCzOhqjfbsYz2",
+      "source": "W_Lg8086ZhrIqtck1sgnb",
+      "target": "MnmwccPahqPCzOhqjfbsY",
+      "source_handle": "y2",
+      "target_handle": "z2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__cSXsu17F1Oy34Wp6J-N3Cy2-CehwjrCG_wbUU-TFNCuJnz1",
+      "source": "W_Lg8086ZhrIqtck1sgnb",
+      "target": "CehwjrCG_wbUU-TFNCuJn",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__cSXsu17F1Oy34Wp6J-N3Cy2-Pc9H7AcoqJQkWnuhbytyDz1",
+      "source": "W_Lg8086ZhrIqtck1sgnb",
+      "target": "Pc9H7AcoqJQkWnuhbytyD",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__cSXsu17F1Oy34Wp6J-N3Cy2-2SU4dcaz7zwGsF7g8FjmIz1",
+      "source": "W_Lg8086ZhrIqtck1sgnb",
+      "target": "2SU4dcaz7zwGsF7g8FjmI",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__W_Lg8086ZhrIqtck1sgnbx2-cSXsu17F1Oy34Wp6J-N3Cw1",
+      "source": "W_Lg8086ZhrIqtck1sgnb",
+      "target": "jy_91mhFWbpR6sYVbuX1x",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__cSXsu17F1Oy34Wp6J-N3Cz2-AySlY8AyI6jE-cy-qKKOUy1",
+      "source": "jy_91mhFWbpR6sYVbuX1x",
+      "target": "AySlY8AyI6jE-cy-qKKOU",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__cSXsu17F1Oy34Wp6J-N3Cz2-q9TYEygvUyHourdZIvk8Gy1",
+      "source": "jy_91mhFWbpR6sYVbuX1x",
+      "target": "q9TYEygvUyHourdZIvk8G",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__cSXsu17F1Oy34Wp6J-N3Cz2-9Q2pGidY-rfkltHq3vChpy1",
+      "source": "jy_91mhFWbpR6sYVbuX1x",
+      "target": "9Q2pGidY-rfkltHq3vChp",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__jy_91mhFWbpR6sYVbuX1xx2-cSXsu17F1Oy34Wp6J-N3Cw1",
+      "source": "jy_91mhFWbpR6sYVbuX1x",
+      "target": "IbEqXlGjsyNLKE9dZrPPk",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__cSXsu17F1Oy34Wp6J-N3Cy2-RlBc-hWEUOPaEQLTgJa-Kz2",
+      "source": "IbEqXlGjsyNLKE9dZrPPk",
+      "target": "RlBc-hWEUOPaEQLTgJa-K",
+      "source_handle": "y2",
+      "target_handle": "z2",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__cSXsu17F1Oy34Wp6J-N3Cy2-kJMyRhasBKfBypent3GxKz1",
+      "source": "IbEqXlGjsyNLKE9dZrPPk",
+      "target": "kJMyRhasBKfBypent3GxK",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__cSXsu17F1Oy34Wp6J-N3Cy2-CHdzww8_TNfeM6Bp1oTPIz1",
+      "source": "IbEqXlGjsyNLKE9dZrPPk",
+      "target": "CHdzww8_TNfeM6Bp1oTPI",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__cSXsu17F1Oy34Wp6J-N3Cy2-sJ1_c3e08aehiqNMbIEEPz1",
+      "source": "IbEqXlGjsyNLKE9dZrPPk",
+      "target": "t6XxFB_lx27kS4FE2_GMH",
+      "source_handle": "y2",
+      "target_handle": "z1",
+      "edge_style": "dashed",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__IbEqXlGjsyNLKE9dZrPPkx2-cSXsu17F1Oy34Wp6J-N3Cw1",
+      "source": "IbEqXlGjsyNLKE9dZrPPk",
+      "target": "lj1WEh4WbfBsoZFYsi1Yz",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__lj1WEh4WbfBsoZFYsi1Yzx2-cSXsu17F1Oy34Wp6J-N3Cw2",
+      "source": "lj1WEh4WbfBsoZFYsi1Yz",
+      "target": "iYkHCKTsjtvo40f3eZoet",
+      "source_handle": "x2",
+      "target_handle": "w2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__iYkHCKTsjtvo40f3eZoetx2-cSXsu17F1Oy34Wp6J-N3Cw1",
+      "source": "iYkHCKTsjtvo40f3eZoet",
+      "target": "72wGg6yP8WnEdmkeKL9vh",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__72wGg6yP8WnEdmkeKL9vhx2-cSXsu17F1Oy34Wp6J-N3Cw2",
+      "source": "72wGg6yP8WnEdmkeKL9vh",
+      "target": "inhjhH-7xJyX8o4DQqErF",
+      "source_handle": "x2",
+      "target_handle": "w2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__inhjhH-7xJyX8o4DQqErFx2-cSXsu17F1Oy34Wp6J-N3Cw1",
+      "source": "inhjhH-7xJyX8o4DQqErF",
+      "target": "Uf8XxJPs7RzKVhlxiQdbB",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__JfXwzkN29UGz17FYHHE3Ax2-W_Lg8086ZhrIqtck1sgnbw2",
+      "source": "JfXwzkN29UGz17FYHHE3A",
+      "target": "W_Lg8086ZhrIqtck1sgnb",
+      "source_handle": "x2",
+      "target_handle": "w2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__8YdlLJ_Ki8NxgVzMNeyzox2-mZPU_kbBDBV5j0kaEO-tjw2",
+      "source": "Uf8XxJPs7RzKVhlxiQdbB",
+      "target": "Qab1pyIZiJ3Z9q8CuEsc-",
+      "source_handle": "x2",
+      "target_handle": "w2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__BVXPP2J15hss2hF85urjNz2-WFO_AwmbUJPAFj0tFClJgy1",
+      "source": "BVXPP2J15hss2hF85urjN",
+      "target": "Qab1pyIZiJ3Z9q8CuEsc-",
+      "source_handle": "z2",
+      "target_handle": "y1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__Qab1pyIZiJ3Z9q8CuEsc-x2-WFO_AwmbUJPAFj0tFClJgw2",
+      "source": "Qab1pyIZiJ3Z9q8CuEsc-",
+      "target": "XD0hNlAu05_ZYgv8JvEp1",
+      "source_handle": "x2",
+      "target_handle": "w2",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    },
+    {
+      "id": "xy-edge__XD0hNlAu05_ZYgv8JvEp1x2-WFO_AwmbUJPAFj0tFClJgw1",
+      "source": "XD0hNlAu05_ZYgv8JvEp1",
+      "target": "WFO_AwmbUJPAFj0tFClJg",
+      "source_handle": "x2",
+      "target_handle": "w1",
+      "edge_style": "solid",
+      "line_type": "default",
+      "style": {
+        "stroke": "#2b78e4",
+        "stroke_width": 3.5
+      }
+    }
+  ],
+  "content_crawled_at": "2026-04-06T09:39:25.468284+00:00"
+}

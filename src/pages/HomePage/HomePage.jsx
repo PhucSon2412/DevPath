@@ -134,7 +134,6 @@ export default function HomePage() {
                       key={roadmap.roadmapId}
                       roadmap={roadmap}
                       index={index}
-                      showFavorite
                       isFavorited={isFavorite(roadmap.roadmapId)}
                       favoriteBusy={!!favoriteBusyMap[roadmap.roadmapId]}
                       onToggleFavorite={handleToggleFavorite}
@@ -159,7 +158,6 @@ export default function HomePage() {
                       key={roadmap.roadmapId}
                       roadmap={roadmap}
                       index={filteredRoleRoadmaps.length + index}
-                      showFavorite
                       isFavorited={isFavorite(roadmap.roadmapId)}
                       favoriteBusy={!!favoriteBusyMap[roadmap.roadmapId]}
                       onToggleFavorite={handleToggleFavorite}
