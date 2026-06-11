@@ -176,34 +176,6 @@ export default function HomePage() {
         )}
       </section>
 
-      {/* ── Stats ── */}
-      <section className={styles.stats}>
-        <div className={styles.sectionHeader}>
-          <h2 className={styles.sectionTitle}>{t('home.statsTitle')}</h2>
-          <p className={styles.sectionDesc}>
-            {t('home.statsDescription')}
-          </p>
-        </div>
-        <div className={styles.statsGrid}>
-          <div className={styles.statCard}>
-            <div className={styles.statNumber}>{visibleRoadmaps.length}</div>
-            <div className={styles.statLabel}>{t('home.statRoadmaps')}</div>
-          </div>
-          <div className={styles.statCard}>
-            <div className={styles.statNumber}>
-              {visibleRoadmaps.reduce((sum, r) => sum + (r.stats?.total_nodes || 0), 0).toLocaleString()}
-            </div>
-            <div className={styles.statLabel}>{t('home.statTopics')}</div>
-          </div>
-          <div className={styles.statCard}>
-            <div className={styles.statNumber}>
-              {visibleRoadmaps.reduce((sum, r) => sum + (r.stats?.nodes_with_content || 0), 0).toLocaleString()}
-            </div>
-            <div className={styles.statLabel}>{t('home.statResources')}</div>
-          </div>
-        </div>
-      </section>
-
       {/* ── Footer ── */}
       <footer className={styles.footer} id="footer">
         <div className={styles.footerInner}>

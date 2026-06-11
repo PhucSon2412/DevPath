@@ -281,29 +281,28 @@
 }
 
 .legendDotMilestone {
-  background: rgba(245, 158, 11, 0.25);
-  border: 1px solid rgba(245, 158, 11, 0.7);
+  background: var(--node-title-bg);
+  border: 1px solid var(--node-title-border);
 }
 
 .legendDotTopic {
-  background: rgba(59, 130, 246, 0.22);
-  border: 1px solid rgba(59, 130, 246, 0.6);
+  background: var(--node-topic-bg);
+  border: 1px solid var(--node-topic-border);
 }
 
 .legendDotSubtopic {
-  background: rgba(139, 92, 246, 0.18);
-  border: 1px solid rgba(139, 92, 246, 0.5);
-  border-style: dashed;
+  background: var(--node-subtopic-bg);
+  border: 1px dashed var(--node-subtopic-border);
 }
 
 .legendDotCheckpoint {
-  background: rgba(251, 191, 36, 0.15);
-  border: 1px solid rgba(251, 191, 36, 0.6);
+  background: var(--node-checkpoint-bg);
+  border: 1px solid var(--node-checkpoint-border);
 }
 
 .legendDotCompleted {
-  background: rgba(16, 185, 129, 0.25);
-  border: 1px solid rgba(16, 185, 129, 0.8);
+  background: var(--node-completed-bg, rgba(16, 185, 129, 0.15));
+  border: 1px solid var(--node-completed-border);
 }
 
 .legendLineSvg {
@@ -406,13 +405,14 @@
 }
 
 .nodeGroup.completed .nodeRect {
-  stroke: rgba(16, 185, 129, 0.85) !important;
+  fill: var(--node-completed-bg, rgba(16, 185, 129, 0.12)) !important;
+  stroke: var(--node-completed-border, rgba(16, 185, 129, 0.85)) !important;
   stroke-width: 2.2 !important;
   filter: brightness(1.12);
 }
 
 .nodeGroup.completed .nodeText {
-  fill: var(--accent-green-soft);
+  fill: var(--node-completed-text, var(--accent-green-soft));
 }
 
 .completedMark {
@@ -425,33 +425,33 @@
 
 /* Topic — main skill, filled box */
 .nodeType_topic .nodeRect {
-  fill: rgba(59, 130, 246, 0.12);
-  stroke: rgba(59, 130, 246, 0.4);
-  stroke-width: 1.5;
+  fill: var(--node-topic-bg);
+  stroke: var(--node-topic-border);
+  stroke-width: 1.8;
 }
 
 .nodeType_topic:hover .nodeRect {
-  fill: rgba(59, 130, 246, 0.22);
-  stroke: rgba(59, 130, 246, 0.7);
+  fill: var(--node-topic-hover-bg);
+  stroke: var(--node-topic-hover-border);
 }
 
 /* Subtopic — outlined, specific skill */
 .nodeType_subtopic .nodeRect {
-  fill: rgba(139, 92, 246, 0.08);
-  stroke: rgba(139, 92, 246, 0.3);
-  stroke-width: 1;
+  fill: var(--node-subtopic-bg);
+  stroke: var(--node-subtopic-border);
+  stroke-width: 1.5;
 }
 
 .nodeType_subtopic:hover .nodeRect {
-  fill: rgba(139, 92, 246, 0.18);
-  stroke: rgba(139, 92, 246, 0.55);
+  fill: var(--node-subtopic-hover-bg);
+  stroke: var(--node-subtopic-hover-border);
 }
 
 /* Title — large heading */
 .nodeType_title .nodeRect {
-  fill: rgba(245, 158, 11, 0.12);
-  stroke: rgba(245, 158, 11, 0.4);
-  stroke-width: 1.5;
+  fill: var(--node-title-bg);
+  stroke: var(--node-title-border);
+  stroke-width: 2;
 }
 
 .nodeType_title .nodeText {
@@ -539,9 +539,9 @@
 /* Checklist / Todo */
 .nodeType_checklist .nodeRect,
 .nodeType_todo .nodeRect {
-  fill: rgba(251, 191, 36, 0.08);
-  stroke: rgba(251, 191, 36, 0.25);
-  stroke-width: 1;
+  fill: var(--node-checkpoint-bg);
+  stroke: var(--node-checkpoint-border);
+  stroke-width: 1.5;
 }
 
 /* ResourceButton */

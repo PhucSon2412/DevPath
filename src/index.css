@@ -181,6 +181,26 @@ code, pre {
   --bg-pattern-1: radial-gradient(ellipse 80% 50% at 50% -20%, rgba(99, 102, 241, 0.08), transparent);
   --bg-pattern-2: radial-gradient(ellipse 60% 40% at 80% 50%, rgba(139, 92, 246, 0.04), transparent);
   --bg-pattern-3: radial-gradient(ellipse 60% 40% at 20% 80%, rgba(59, 130, 246, 0.04), transparent);
+
+  /* Node styling variables - Dark Mode */
+  --node-completed-text: var(--accent-green-soft);
+  --node-completed-border: rgba(16, 185, 129, 0.85);
+  
+  --node-topic-bg: rgba(59, 130, 246, 0.12);
+  --node-topic-border: rgba(59, 130, 246, 0.5);
+  --node-topic-hover-bg: rgba(59, 130, 246, 0.22);
+  --node-topic-hover-border: rgba(59, 130, 246, 0.85);
+
+  --node-subtopic-bg: rgba(139, 92, 246, 0.08);
+  --node-subtopic-border: rgba(139, 92, 246, 0.4);
+  --node-subtopic-hover-bg: rgba(139, 92, 246, 0.18);
+  --node-subtopic-hover-border: rgba(139, 92, 246, 0.7);
+
+  --node-title-bg: rgba(245, 158, 11, 0.12);
+  --node-title-border: rgba(245, 158, 11, 0.5);
+  
+  --node-checkpoint-bg: rgba(251, 191, 36, 0.08);
+  --node-checkpoint-border: rgba(251, 191, 36, 0.4);
 }
 
 :root[data-theme='light'] {
@@ -230,6 +250,26 @@ code, pre {
   --bg-pattern-1: radial-gradient(ellipse 70% 45% at 50% -20%, rgba(37, 99, 235, 0.12), transparent);
   --bg-pattern-2: radial-gradient(ellipse 55% 38% at 85% 45%, rgba(14, 165, 233, 0.08), transparent);
   --bg-pattern-3: radial-gradient(ellipse 55% 35% at 15% 80%, rgba(99, 102, 241, 0.08), transparent);
+
+  /* Node styling variables - Light Mode overrides */
+  --node-completed-text: #065f46;
+  --node-completed-border: rgba(5, 150, 105, 0.75);
+  
+  --node-topic-bg: rgba(37, 99, 235, 0.14);
+  --node-topic-border: rgba(29, 78, 216, 0.65);
+  --node-topic-hover-bg: rgba(37, 99, 235, 0.22);
+  --node-topic-hover-border: rgba(29, 78, 216, 0.9);
+
+  --node-subtopic-bg: rgba(124, 58, 237, 0.1);
+  --node-subtopic-border: rgba(109, 40, 217, 0.55);
+  --node-subtopic-hover-bg: rgba(124, 58, 237, 0.18);
+  --node-subtopic-hover-border: rgba(109, 40, 217, 0.8);
+
+  --node-title-bg: rgba(217, 119, 6, 0.14);
+  --node-title-border: rgba(180, 83, 9, 0.65);
+  
+  --node-checkpoint-bg: rgba(217, 119, 6, 0.1);
+  --node-checkpoint-border: rgba(180, 83, 9, 0.55);
 }
 
 /* ---------- Scrollbar ---------- */

@@ -188,14 +188,284 @@ export default function RoadmapPage() {
     )
   }, [roadmap])
 
+  const healedEdges = useMemo(() => {
+    if (!roadmap?.nodes?.length) return []
+    const originalEdges = roadmap.edges || []
+
+    const topicNodes = roadmap.nodes.filter((n) => n.type === 'topic')
+    if (!topicNodes.length) return originalEdges
+
+    // Find title node or fallback to start node
+    const titleNode = roadmap.nodes.find((n) => n.type === 'title') || topicNodes[0]
+
+    // Helper to get reachable nodes from the titleNode using BFS
+    const getReachableSet = (edgesList, startId) => {
+      const adj = {}
+      edgesList.forEach((e) => {
+        if (!adj[e.source]) adj[e.source] = []
+        adj[e.source].push(e.target)
+      })
+
+      const visited = new Set()
+      const queue = [startId]
+      visited.add(startId)
+
+      while (queue.length > 0) {
+        const u = queue.shift()
+        const neighbors = adj[u] || []
+        neighbors.forEach((v) => {
+          if (!visited.has(v)) {
+            visited.add(v)
+            queue.push(v)
+          }
+        })
+      }
+      return visited
+    }
+
+    const currentEdges = [...originalEdges]
+    const virtualEdges = []
+
+    let changed = true
+    let limit = 0
+    // Prevent infinite loop
+    while (changed && limit < 100) {
+      changed = false
+      limit++
+
+      const reachable = getReachableSet(currentEdges, titleNode.id)
+
+      // Unreachable topic nodes
+      const unreachableTopics = topicNodes.filter((n) => !reachable.has(n.id))
+
+      const candidates = []
+      unreachableTopics.forEach((target) => {
+        const reachableTopicsAbove = topicNodes.filter(
+          (n) => reachable.has(n.id) && (n.position?.y ?? 0) < (target.position?.y ?? 0)
+        )
+
+        const targetCandidates = reachableTopicsAbove
+          .map((source) => {
+            const dy = (target.position?.y ?? 0) - ((source.position?.y ?? 0) + (source.size?.height ?? 40))
+            const dx = Math.abs((target.position?.x ?? 0) - (source.position?.x ?? 0))
+            return { source, target, dy, dx }
+          })
+          .filter((c) => c.dy > 0 && c.dy <= 400 && c.dx < 60)
+
+        targetCandidates.sort((a, b) => a.dy - b.dy)
+        if (targetCandidates.length > 0) {
+          candidates.push(targetCandidates[0])
+        }
+      })
+
+      if (candidates.length > 0) {
+        candidates.sort((a, b) => a.dy - b.dy)
+        const best = candidates[0]
+
+        const newEdge = {
+          id: `healed-edge-${best.source.id}-${best.target.id}`,
+          source: best.source.id,
+          target: best.target.id,
+          edge_style: 'solid',
+          line_type: 'default',
+          style: {
+            stroke: '#2b78e4',
+            stroke_width: 3.5,
+          },
+        }
+
+        currentEdges.push(newEdge)
+        virtualEdges.push(newEdge)
+        changed = true
+      }
+    }
+
+    return [...originalEdges, ...virtualEdges]
+  }, [roadmap])
+
+  // ── Convert dashed connector nodes into proper directed dashed edges ──
+  // Dashed vertical/horizontal connector nodes (strokeDasharray e.g. "0.8 8") are
+  // decorative layout lines from the source data. We resolve which two content nodes
+  // each connector bridges spatially, then synthesise a real dashed edge with an
+  // arrowhead so the direction is clear. Direction follows geometry: for vertical
+  // connectors the top endpoint is the source; for horizontal, the left endpoint.
+  const syntheticEdgesFromDashedConnectors = useMemo(() => {
+    if (!roadmap?.nodes) return []
+
+    const THRESHOLD = 20
+    const nonConnectors = roadmap.nodes.filter((n) => !CONNECTOR_TYPES.has(n.type))
+
+    // Find the closest content node touching a given point (within THRESHOLD px)
+    const findConnectedNode = (p) => {
+      let closest = null
+      let closestDist = Infinity
+      nonConnectors.forEach((other) => {
+        const ox = other.position?.x ?? 0
+        const oy = other.position?.y ?? 0
+        const ow = other.size?.width ?? 0
+        const oh = other.size?.height ?? 0
+        const nearX = Math.max(ox, Math.min(p.x, ox + ow))
+        const nearY = Math.max(oy, Math.min(p.y, oy + oh))
+        const dist = Math.sqrt((p.x - nearX) ** 2 + (p.y - nearY) ** 2)
+        if (dist <= THRESHOLD && dist < closestDist) {
+          closest = other
+          closestDist = dist
+        }
+      })
+      return closest
+    }
+
+    // Build a Set of existing edge pairs to avoid duplicates
+    const existingPairs = new Set(
+      (roadmap.edges || []).map((e) => `${e.source}|${e.target}`)
+    )
+
+    const synthetic = []
+    const seenPairs = new Set()
+
+    roadmap.nodes.forEach((node) => {
+      if (!CONNECTOR_TYPES.has(node.type)) return
+      const dash = node.style?.strokeDasharray
+      if (!dash) return
+      const trimmed = String(dash).trim()
+      if (trimmed === '' || trimmed === '0' || trimmed === '0 0') return
+
+      const x = node.position?.x ?? 0
+      const y = node.position?.y ?? 0
+      const w = node.size?.width ?? 0
+      const h = node.size?.height ?? 0
+
+      // ep1 = start (top for vertical, left for horizontal)
+      // ep2 = end   (bottom for vertical, right for horizontal)
+      let ep1, ep2
+      if (node.type === 'vertical') {
+        const cx = x + w / 2
+        ep1 = { x: cx, y: y }
+        ep2 = { x: cx, y: y + h }
+      } else {
+        const cy = y + h / 2
+        ep1 = { x: x, y: cy }
+        ep2 = { x: x + w, y: cy }
+      }
+
+      const srcNode = findConnectedNode(ep1)
+      const tgtNode = findConnectedNode(ep2)
+
+      if (!srcNode || !tgtNode || srcNode.id === tgtNode.id) return
+
+      const pairKey = `${srcNode.id}|${tgtNode.id}`
+      if (existingPairs.has(pairKey) || seenPairs.has(pairKey)) return
+      seenPairs.add(pairKey)
+
+      synthetic.push({
+        id: `synthetic-dashed-${srcNode.id}-${tgtNode.id}`,
+        source: srcNode.id,
+        target: tgtNode.id,
+        edge_style: 'dashed',
+        line_type: 'default',
+        style: {
+          stroke: node.style?.stroke || '#2b78e4',
+          stroke_width: node.style?.strokeWidth || 2,
+        },
+        // Preserve the connector node's exact straight-line geometry so renderEdge
+        // doesn't route it through the smart bezier algorithm (which can produce
+        // ugly curves crossing over other nodes).
+        _directPath: node.type === 'vertical'
+          ? `M ${x + w / 2} ${y} L ${x + w / 2} ${y + h}`
+          : `M ${x} ${y + h / 2} L ${x + w} ${y + h / 2}`,
+      })
+    })
+
+    return synthetic
+  }, [roadmap])
+
+  const allEdges = useMemo(
+    () => [...healedEdges, ...syntheticEdgesFromDashedConnectors],
+    [healedEdges, syntheticEdgesFromDashedConnectors]
+  )
+
   const uniqueEdgeColors = useMemo(() => {
-    if (!roadmap?.edges?.length) return ['#2b78e4']
+    if (!allEdges?.length) return ['#2b78e4']
     const colors = new Set()
-    roadmap.edges.forEach((edge) => {
+    allEdges.forEach((edge) => {
       const strokeColor = edge.style?.stroke || '#2b78e4'
       colors.add(strokeColor)
     })
     return Array.from(colors)
+  }, [allEdges])
+
+  // ── Auto-detect orphaned paragraph-header groups ──
+  // Some roadmaps have a `paragraph` node used as a group title with subtopics
+  // stacked directly below it at the same x/width, but are missing the `section`
+  // container node that should visually wrap them. We detect these groups and
+  // synthesise a virtual section rect so they render correctly.
+  const virtualSectionRects = useMemo(() => {
+    if (!roadmap?.nodes) return []
+
+    const ALIGN_TOL = 20   // px — x-position / width tolerance for "same column"
+    const GAP_TOL   = 20   // px — max vertical gap between stacked nodes
+    const PAD       = 12   // px — padding around the synthesised box
+
+    const paragraphNodes = roadmap.nodes.filter((n) => n.type === 'paragraph')
+    const sectionNodes   = roadmap.nodes.filter((n) => n.type === 'section')
+    const candidateTypes = new Set(['subtopic', 'topic', 'checklist', 'todo', 'milestone'])
+
+    const rects = []
+
+    paragraphNodes.forEach((para) => {
+      const px = para.position?.x ?? 0
+      const py = para.position?.y ?? 0
+      const pw = para.size?.width  ?? 160
+      const ph = para.size?.height ?? 40
+
+      // Collect subtopics/topics in the same column, ordered top-to-bottom
+      const columnNodes = roadmap.nodes
+        .filter((n) => {
+          if (n.id === para.id) return false
+          if (!candidateTypes.has(n.type)) return false
+          const nx = n.position?.x ?? 0
+          const nw = n.size?.width  ?? 0
+          // Same column: x-aligned and similar width
+          return Math.abs(nx - px) <= ALIGN_TOL && Math.abs(nw - pw) <= ALIGN_TOL
+        })
+        .sort((a, b) => (a.position?.y ?? 0) - (b.position?.y ?? 0))
+
+      // Walk downward from paragraph bottom, collecting only contiguous nodes
+      const groupNodes = [para]
+      let currentBottom = py + ph
+
+      for (const node of columnNodes) {
+        const ny = node.position?.y ?? 0
+        if (ny < py + ph - ALIGN_TOL) continue  // must be below the header
+        if (ny > currentBottom + GAP_TOL) break  // gap too large → stop
+        groupNodes.push(node)
+        currentBottom = ny + (node.size?.height ?? 40)
+      }
+
+      if (groupNodes.length <= 1) return  // header only — nothing to wrap
+
+      // Bounding box of the group
+      const minX = Math.min(...groupNodes.map((n) => n.position?.x ?? 0)) - PAD
+      const minY = Math.min(...groupNodes.map((n) => n.position?.y ?? 0)) - PAD
+      const maxX = Math.max(...groupNodes.map((n) => (n.position?.x ?? 0) + (n.size?.width  ?? 160))) + PAD
+      const maxY = Math.max(...groupNodes.map((n) => (n.position?.y ?? 0) + (n.size?.height ?? 40))) + PAD
+
+      // Skip if an existing section already covers the centre of this group
+      const cx = (minX + maxX) / 2
+      const cy = (minY + maxY) / 2
+      const alreadyCovered = sectionNodes.some((sec) => {
+        const sx = sec.position?.x ?? 0
+        const sy = sec.position?.y ?? 0
+        const sw = sec.size?.width  ?? 0
+        const sh = sec.size?.height ?? 0
+        return cx >= sx && cx <= sx + sw && cy >= sy && cy <= sy + sh
+      })
+      if (alreadyCovered) return
+
+      rects.push({ id: `vsr-${para.id}`, x: minX, y: minY, width: maxX - minX, height: maxY - minY })
+    })
+
+    return rects
   }, [roadmap])
 
   const isBoundaryConnector = useCallback((node) => {
@@ -213,9 +483,25 @@ export default function RoadmapPage() {
     )
   }, [contentYBounds])
 
+  // Hides connector nodes that have a visible dash/dot pattern (e.g. strokeDasharray "0.8 8").
+  // These are decorative layout lines from the source data — the same "optional path"
+  // semantics are already expressed by dashed *edges* with arrowheads, so showing
+  // these connector nodes as well is redundant and confusing.
+  const isDashedConnector = useCallback((node) => {
+    if (!CONNECTOR_TYPES.has(node.type)) return false
+    const dash = node.style?.strokeDasharray
+    if (!dash) return false
+    // "0" or "0 0" means solid — keep those; anything else is a real dash/dot pattern
+    const trimmed = String(dash).trim()
+    return trimmed !== '' && trimmed !== '0' && trimmed !== '0 0'
+  }, [])
+
   const isDanglingConnector = useCallback((node) => {
     if (node.type !== 'vertical' && node.type !== 'horizontal') return false
-    if (!node.style?.strokeDasharray) return false
+    // NOTE: Previously this skipped solid connectors (no strokeDasharray).
+    // Solid connectors can also have dangling endpoints, so we check all of them.
+    // Dashed connectors are already removed by isDashedConnector; this guard is
+    // therefore redundant and was causing solid orphan lines to slip through.
 
     const x = node.position?.x ?? 0
     const y = node.position?.y ?? 0
@@ -233,7 +519,9 @@ export default function RoadmapPage() {
       ep2 = { x: x + w, y: cy }
     }
 
-    const threshold = 20
+    // Use 25px (up from 20) so solid connectors whose endpoints sit slightly
+    // off-centre from a neighbouring node are still treated as connected.
+    const threshold = 25
 
     const isPointConnected = (p) => {
       if (!roadmap?.nodes) return false
@@ -451,20 +739,29 @@ export default function RoadmapPage() {
 
   // ── Render edge ──
   const renderEdge = (edge, i) => {
-    const from = nodeMapRef.current[edge.source]
-    const to = nodeMapRef.current[edge.target]
-    if (!from || !to) return null
+    let d
 
-    const { src, tgt } = getSmartEdgePoints(from, to)
-    const dist = Math.sqrt((tgt.px - src.px) ** 2 + (tgt.py - src.py) ** 2)
-    const offset = Math.min(dist * 0.35, 100)
+    if (edge._directPath) {
+      // Synthetic edge built from a connector node: use the pre-computed straight
+      // line path so it renders exactly where the connector was, without curving.
+      d = edge._directPath
+    } else {
+      const from = nodeMapRef.current[edge.source]
+      const to = nodeMapRef.current[edge.target]
+      if (!from || !to) return null
 
-    const cx1 = src.px + src.dx * offset
-    const cy1 = src.py + src.dy * offset
-    const cx2 = tgt.px + tgt.dx * offset
-    const cy2 = tgt.py + tgt.dy * offset
+      const { src, tgt } = getSmartEdgePoints(from, to)
+      const dist = Math.sqrt((tgt.px - src.px) ** 2 + (tgt.py - src.py) ** 2)
+      const offset = Math.min(dist * 0.35, 100)
 
-    const d = `M ${src.px} ${src.py} C ${cx1} ${cy1}, ${cx2} ${cy2}, ${tgt.px} ${tgt.py}`
+      const cx1 = src.px + src.dx * offset
+      const cy1 = src.py + src.dy * offset
+      const cx2 = tgt.px + tgt.dx * offset
+      const cy2 = tgt.py + tgt.dy * offset
+
+      d = `M ${src.px} ${src.py} C ${cx1} ${cy1}, ${cx2} ${cy2}, ${tgt.px} ${tgt.py}`
+    }
+
     const isDashed = edge.edge_style === 'dashed'
     const strokeColor = edge.style?.stroke || '#2b78e4'
     const cleanId = strokeColor.replace('#', '')
@@ -683,7 +980,7 @@ export default function RoadmapPage() {
 
   const sortedNodes = [...roadmap.nodes].sort((a, b) => (a.z_index || 0) - (b.z_index || 0))
   const visibleNodes = sortedNodes.filter(
-    (node) => !isBoundaryConnector(node) && !isDanglingConnector(node)
+    (node) => !isBoundaryConnector(node) && !isDashedConnector(node) && !isDanglingConnector(node)
   )
   const sectionNodes = visibleNodes.filter((node) => BG_TYPES.has(node.type))
   const connectorNodes = visibleNodes.filter((node) => CONNECTOR_TYPES.has(node.type))
@@ -854,8 +1151,8 @@ export default function RoadmapPage() {
             </div>
             <div className={styles.legendItem}>
               <svg className={styles.legendLineSvg} width="24" height="12">
-                <line x1="2" y1="6" x2="16" y2="6" stroke="#8b949e" strokeWidth="2" strokeDasharray="3,3" />
-                <polygon points="14,3 20,6 14,9" fill="#8b949e" />
+                <line x1="2" y1="6" x2="16" y2="6" stroke="#2b78e4" strokeWidth="2" strokeDasharray="3,3" />
+                <polygon points="14,3 20,6 14,9" fill="#2b78e4" />
               </svg>
               <span className={styles.legendLineText}>{t('roadmap.legendDashedLine', 'Kiến thức tự chọn')}</span>
             </div>
@@ -891,9 +1188,25 @@ export default function RoadmapPage() {
               )
             })}
           </defs>
+          {/* Virtual section boxes for paragraph-header groups missing a section node */}
+          {virtualSectionRects.map((rect) => (
+            <rect
+              key={rect.id}
+              x={rect.x}
+              y={rect.y}
+              width={rect.width}
+              height={rect.height}
+              className={styles.sectionRect}
+              style={{
+                fill: 'rgba(99, 102, 241, 0.03)',
+                stroke: 'rgba(255,255,255,0.05)',
+              }}
+              rx={8}
+            />
+          ))}
           {sectionNodes.map((node) => renderNode(node))}
           <g>
-            {roadmap.edges.map((edge, i) => renderEdge(edge, i))}
+            {allEdges.map((edge, i) => renderEdge(edge, i))}
             {connectorNodes.map((node) => renderNode(node))}
           </g>
           {contentNodes.map((node) => renderNode(node))}
