@@ -46,48 +46,185 @@ function fixBorderColor(color) {
   return color
 }
 
-// ── Smart edge routing ──
-function getSmartEdgePoints(srcNode, tgtNode) {
+// ── Orthogonal edge routing with obstacle avoidance and rounded corners ──
+
+// Minimum visual clearance width around the path (px)
+const ROUTE_CLEAR_W = 16
+
+// Check if a rectangle [x1..x2] × [y1..y2] overlaps any node's padded bounding box.
+// `halfW` adds a lateral margin beyond the rect boundary (for visual clearance).
+function isCorridorClear(x1, y1, x2, y2, nodes, excludeIds) {
+  const left = Math.min(x1, x2) - ROUTE_CLEAR_W / 2
+  const right = Math.max(x1, x2) + ROUTE_CLEAR_W / 2
+  const top = Math.min(y1, y2)
+  const bottom = Math.max(y1, y2)
+  for (const n of nodes) {
+    if (excludeIds.has(n.id)) continue
+    if (CONNECTOR_TYPES.has(n.type)) continue  // connectors are not obstacles
+    const nx = n.position?.x ?? 0
+    const ny = n.position?.y ?? 0
+    const nw = n.size?.width ?? 0
+    const nh = n.size?.height ?? 0
+    if (left < nx + nw && right > nx && top < ny + nh && bottom > ny) return false
+  }
+  return true
+}
+
+// Build an SVG path string with rounded corners for an orthogonal (rectilinear) polyline.
+// `pts` is an array of {x, y} waypoints. `r` is the corner radius.
+function buildRoundedPolyline(pts, r = 10) {
+  if (pts.length < 2) return ''
+  let d = `M ${pts[0].x} ${pts[0].y}`
+  for (let i = 1; i < pts.length - 1; i++) {
+    const prev = pts[i - 1]
+    const curr = pts[i]
+    const next = pts[i + 1]
+    const dx1 = curr.x - prev.x, dy1 = curr.y - prev.y
+    const dx2 = next.x - curr.x, dy2 = next.y - curr.y
+    const len1 = Math.sqrt(dx1 * dx1 + dy1 * dy1)
+    const len2 = Math.sqrt(dx2 * dx2 + dy2 * dy2)
+    if (len1 === 0 || len2 === 0) { d += ` L ${curr.x} ${curr.y}`; continue }
+    const safeR = Math.min(r, len1 / 2, len2 / 2)
+    const bx = curr.x - (dx1 / len1) * safeR
+    const by = curr.y - (dy1 / len1) * safeR
+    const ax = curr.x + (dx2 / len2) * safeR
+    const ay = curr.y + (dy2 / len2) * safeR
+    d += ` L ${bx} ${by} Q ${curr.x} ${curr.y} ${ax} ${ay}`
+  }
+  const last = pts[pts.length - 1]
+  d += ` L ${last.x} ${last.y}`
+  return d
+}
+
+// Scan outward from `start` in steps, alternating +/−, and find the first value
+// where isCorridorClear returns true for the segment described by xOrY='x'|'y'.
+function findClearLine(axis, start, rangeMin, rangeMax, fixedMin, fixedMax, nodes, excludeIds, step = 20, maxTries = 60) {
+  for (let attempt = 0; attempt <= maxTries; attempt++) {
+    const offsets = attempt === 0 ? [0] : [attempt * step, -attempt * step]
+    for (const off of offsets) {
+      const candidate = start + off
+      const clear =
+        axis === 'x'
+          ? isCorridorClear(candidate, fixedMin, candidate, fixedMax, nodes, excludeIds)
+          : isCorridorClear(fixedMin, candidate, fixedMax, candidate, nodes, excludeIds)
+      if (clear) return candidate
+    }
+  }
+  return start  // fallback: give up, use default
+}
+
+// Build a complete orthogonal routed path between two nodes.
+function buildOrthogonalPath(srcNode, tgtNode, allNodes) {
   const sx = srcNode.position?.x ?? 0, sy = srcNode.position?.y ?? 0
   const sw = srcNode.size?.width ?? 160, sh = srcNode.size?.height ?? 40
   const tx = tgtNode.position?.x ?? 0, ty = tgtNode.position?.y ?? 0
   const tw = tgtNode.size?.width ?? 160, th = tgtNode.size?.height ?? 40
 
-  const dx = (tx + tw / 2) - (sx + sw / 2)
-  const dy = (ty + th / 2) - (sy + sh / 2)
+  const cdx = (tx + tw / 2) - (sx + sw / 2)
+  const cdy = (ty + th / 2) - (sy + sh / 2)
 
-  // Smart routing bias:
-  // If the target is a main 'topic' and is located below, force vertical down routing, but only if they are not far apart horizontally.
-  let isVertical = Math.abs(dy) >= Math.abs(dx)
-  if (tgtNode.type === 'topic' && Math.abs(dy) > 20 && Math.abs(dx) < Math.abs(dy) * 1.5) {
+  // Determine exit / entry port directions (same heuristic as before)
+  let isVertical = Math.abs(cdy) >= Math.abs(cdx)
+  if (tgtNode.type === 'topic' && Math.abs(cdy) > 20 && Math.abs(cdx) < Math.abs(cdy) * 1.5) {
     isVertical = true
   }
 
+  let src, tgt
   if (isVertical) {
-    if (dy >= 0) {
-      return {
-        src: { px: sx + sw / 2, py: sy + sh, dx: 0, dy: 1 },
-        tgt: { px: tx + tw / 2, py: ty, dx: 0, dy: -1 },
-      }
+    if (cdy >= 0) {
+      src = { px: sx + sw / 2, py: sy + sh, dx: 0, dy: 1 }
+      tgt = { px: tx + tw / 2, py: ty,      dx: 0, dy: -1 }
     } else {
-      return {
-        src: { px: sx + sw / 2, py: sy, dx: 0, dy: -1 },
-        tgt: { px: tx + tw / 2, py: ty + th, dx: 0, dy: 1 },
-      }
+      src = { px: sx + sw / 2, py: sy,      dx: 0, dy: -1 }
+      tgt = { px: tx + tw / 2, py: ty + th, dx: 0, dy: 1 }
     }
   } else {
-    if (dx >= 0) {
-      return {
-        src: { px: sx + sw, py: sy + sh / 2, dx: 1, dy: 0 },
-        tgt: { px: tx, py: ty + th / 2, dx: -1, dy: 0 },
-      }
+    if (cdx >= 0) {
+      src = { px: sx + sw,    py: sy + sh / 2, dx: 1,  dy: 0 }
+      tgt = { px: tx,         py: ty + th / 2, dx: -1, dy: 0 }
     } else {
-      return {
-        src: { px: sx, py: sy + sh / 2, dx: -1, dy: 0 },
-        tgt: { px: tx + tw, py: ty + th / 2, dx: 1, dy: 0 },
-      }
+      src = { px: sx,         py: sy + sh / 2, dx: -1, dy: 0 }
+      tgt = { px: tx + tw,    py: ty + th / 2, dx: 1,  dy: 0 }
     }
   }
+
+  const excludeIds = new Set([srcNode.id, tgtNode.id])
+  const STUB    = 18   // stub distance before first turn
+  const CORNER_R = 10  // rounded corner radius
+
+  // Stub endpoints (just outside the source / target bounding box)
+  const s = { x: src.px + src.dx * STUB, y: src.py + src.dy * STUB }
+  const e = { x: tgt.px + tgt.dx * STUB, y: tgt.py + tgt.dy * STUB }
+
+  // ── Both horizontal exits → need a vertical bridge at midX ──
+  if (src.dx !== 0 && tgt.dx !== 0) {
+    const topY   = Math.min(s.y, e.y)
+    const botY   = Math.max(s.y, e.y)
+    const midX   = findClearLine('x', (s.x + e.x) / 2, null, null, topY, botY, allNodes, excludeIds)
+    return buildRoundedPolyline(
+      [{ x: src.px, y: src.py }, s, { x: midX, y: s.y }, { x: midX, y: e.y }, e, { x: tgt.px, y: tgt.py }],
+      CORNER_R
+    )
+  }
+
+  // ── Both vertical exits ──
+  if (src.dy !== 0 && tgt.dy !== 0) {
+    const topY   = Math.min(s.y, e.y)
+    const botY   = Math.max(s.y, e.y)
+    const sameCol = Math.abs(s.x - e.x) < ROUTE_CLEAR_W * 2
+
+    if (!sameCol) {
+      // Different columns: try a horizontal H-bridge at midY where BOTH arms are clear
+      // Arm 1: vertical from s.y to midY at s.x
+      // Arm 2: vertical from e.y to midY at e.x
+      // Bridge: horizontal from s.x to e.x at midY
+      const defaultMidY = (s.y + e.y) / 2
+      let bestMidY = null
+      const step = 20, maxT = 60
+      for (let attempt = 0; attempt <= maxT && bestMidY === null; attempt++) {
+        const offsets = attempt === 0 ? [0] : [attempt * step, -attempt * step]
+        for (const off of offsets) {
+          const candidate = defaultMidY + off
+          if (candidate < topY || candidate > botY) continue
+          const arm1Clear = isCorridorClear(s.x, Math.min(s.y, candidate), s.x, Math.max(s.y, candidate), allNodes, excludeIds)
+          const arm2Clear = isCorridorClear(e.x, Math.min(e.y, candidate), e.x, Math.max(e.y, candidate), allNodes, excludeIds)
+          const bridgeClear = isCorridorClear(Math.min(s.x, e.x), candidate, Math.max(s.x, e.x), candidate, allNodes, excludeIds)
+          if (arm1Clear && arm2Clear && bridgeClear) { bestMidY = candidate; break }
+        }
+      }
+      if (bestMidY !== null) {
+        return buildRoundedPolyline(
+          [{ x: src.px, y: src.py }, s, { x: s.x, y: bestMidY }, { x: e.x, y: bestMidY }, e, { x: tgt.px, y: tgt.py }],
+          CORNER_R
+        )
+      }
+    }
+
+    // Same column OR no clear H-bridge found:
+    // Strategy — find a clear VERTICAL escape corridor off to the side, then route:
+    //   src → stub → horizontal to escX → vertical through clear corridor → horizontal back → stub → tgt
+    const escX = findClearLine('x', s.x, null, null, topY, botY, allNodes, excludeIds)
+    // Build U-shape: src → s → turn to escX → vertical → turn back to e.x → e → tgt
+    return buildRoundedPolyline(
+      [
+        { x: src.px, y: src.py }, s,
+        { x: escX, y: s.y },
+        { x: escX, y: e.y },
+        e, { x: tgt.px, y: tgt.py },
+      ],
+      CORNER_R
+    )
+  }
+
+  // ── L-shape (perpendicular exits) ──
+  // One exits horizontally, the other vertically → single right-angle bend
+  const cornerX = src.dx !== 0 ? e.x : s.x
+  const cornerY = src.dx !== 0 ? s.y : e.y
+  // Check if the L corner itself is clear; if not, adjust the corner towards a clearer spot
+  return buildRoundedPolyline(
+    [{ x: src.px, y: src.py }, s, { x: cornerX, y: cornerY }, e, { x: tgt.px, y: tgt.py }],
+    CORNER_R
+  )
 }
 
 export default function RoadmapPage() {
@@ -223,7 +360,67 @@ export default function RoadmapPage() {
       return visited
     }
 
-    const currentEdges = [...originalEdges]
+    // ── Build implicit edges from solid connector nodes ──
+    // A solid vertical/horizontal connector that touches two content nodes acts as a
+    // real connection. Adding bidirectional implicit edges for these ensures the BFS
+    // reachability check marks connector-bridged nodes as reachable, preventing
+    // healedEdges from creating a redundant duplicate bezier on top of the connector.
+    const CONNECTOR_THRESHOLD = 25
+    const nonConnectorNodes = roadmap.nodes.filter((n) => !CONNECTOR_TYPES.has(n.type))
+
+    const findNearestNode = (p) => {
+      let closest = null
+      let closestDist = Infinity
+      nonConnectorNodes.forEach((other) => {
+        const ox = other.position?.x ?? 0
+        const oy = other.position?.y ?? 0
+        const ow = other.size?.width ?? 0
+        const oh = other.size?.height ?? 0
+        const nearX = Math.max(ox, Math.min(p.x, ox + ow))
+        const nearY = Math.max(oy, Math.min(p.y, oy + oh))
+        const dist = Math.sqrt((p.x - nearX) ** 2 + (p.y - nearY) ** 2)
+        if (dist <= CONNECTOR_THRESHOLD && dist < closestDist) {
+          closest = other
+          closestDist = dist
+        }
+      })
+      return closest
+    }
+
+    const connectorImplicitEdges = []
+    roadmap.nodes.forEach((node) => {
+      if (!CONNECTOR_TYPES.has(node.type)) return
+      // Only solid connectors (no dash, or dash='0'/'0 0')
+      const dash = node.style?.strokeDasharray
+      const trimmedDash = dash ? String(dash).trim() : ''
+      if (trimmedDash !== '' && trimmedDash !== '0' && trimmedDash !== '0 0') return
+
+      const x = node.position?.x ?? 0
+      const y = node.position?.y ?? 0
+      const w = node.size?.width ?? 0
+      const h = node.size?.height ?? 0
+
+      let ep1, ep2
+      if (node.type === 'vertical') {
+        const cx = x + w / 2
+        ep1 = { x: cx, y }
+        ep2 = { x: cx, y: y + h }
+      } else {
+        const cy = y + h / 2
+        ep1 = { x, y: cy }
+        ep2 = { x: x + w, y: cy }
+      }
+
+      const srcNode = findNearestNode(ep1)
+      const tgtNode = findNearestNode(ep2)
+      if (!srcNode || !tgtNode || srcNode.id === tgtNode.id) return
+
+      // Bidirectional so BFS can traverse from either direction
+      connectorImplicitEdges.push({ id: `ci-${srcNode.id}-${tgtNode.id}`, source: srcNode.id, target: tgtNode.id })
+      connectorImplicitEdges.push({ id: `ci-${tgtNode.id}-${srcNode.id}`, source: tgtNode.id, target: srcNode.id })
+    })
+
+    const currentEdges = [...originalEdges, ...connectorImplicitEdges]
     const virtualEdges = []
 
     let changed = true
@@ -384,15 +581,45 @@ export default function RoadmapPage() {
     [healedEdges, syntheticEdgesFromDashedConnectors]
   )
 
+  // ── Deduplicate and spread parallel edges ──
+  // When multiple edges share the same source+target pair (or reversed), they'd
+  // overlap exactly. We spread them apart by a small perpendicular offset so both
+  // remain visible. Also drop true duplicates (identical id or same src/tgt/style).
+  const allEdgesDeduped = useMemo(() => {
+    const seen = new Set()
+    const pairCount = {}
+    const pairIndex = {}
+    const result = []
+    for (const edge of allEdges) {
+      const pairKey = [edge.source, edge.target].sort().join('|')
+      const exactKey = `${edge.source}→${edge.target}:${edge.edge_style}`
+      if (seen.has(exactKey)) continue
+      seen.add(exactKey)
+      pairCount[pairKey] = (pairCount[pairKey] || 0) + 1
+      result.push({ ...edge, _pairKey: pairKey })
+    }
+    // Assign spread offsets for pairs with >1 edge
+    const pairOffsets = {}
+    return result.map((edge) => {
+      const count = pairCount[edge._pairKey]
+      if (count <= 1) return edge
+      pairIndex[edge._pairKey] = (pairIndex[edge._pairKey] ?? -1) + 1
+      const idx = pairIndex[edge._pairKey]
+      // Spread: 0 → 0, 1 → -6, 2 → +6, 3 → -12, ... px perpendicular offset
+      const spread = idx % 2 === 0 ? -(idx / 2) * 7 : Math.ceil(idx / 2) * 7
+      return { ...edge, _spreadOffset: spread }
+    })
+  }, [allEdges])
+
   const uniqueEdgeColors = useMemo(() => {
-    if (!allEdges?.length) return ['#2b78e4']
+    if (!allEdgesDeduped?.length) return ['#2b78e4']
     const colors = new Set()
-    allEdges.forEach((edge) => {
+    allEdgesDeduped.forEach((edge) => {
       const strokeColor = edge.style?.stroke || '#2b78e4'
       colors.add(strokeColor)
     })
     return Array.from(colors)
-  }, [allEdges])
+  }, [allEdgesDeduped])
 
   // ── Auto-detect orphaned paragraph-header groups ──
   // Some roadmaps have a `paragraph` node used as a group title with subtopics
@@ -527,7 +754,6 @@ export default function RoadmapPage() {
       if (!roadmap?.nodes) return false
       return roadmap.nodes.some((other) => {
         if (other.id === node.id) return false
-        if (other.type === 'vertical' || other.type === 'horizontal') return false
 
         const ox = other.position?.x ?? 0
         const oy = other.position?.y ?? 0
@@ -750,21 +976,18 @@ export default function RoadmapPage() {
       const to = nodeMapRef.current[edge.target]
       if (!from || !to) return null
 
-      const { src, tgt } = getSmartEdgePoints(from, to)
-      const dist = Math.sqrt((tgt.px - src.px) ** 2 + (tgt.py - src.py) ** 2)
-      const offset = Math.min(dist * 0.35, 100)
-
-      const cx1 = src.px + src.dx * offset
-      const cy1 = src.py + src.dy * offset
-      const cx2 = tgt.px + tgt.dx * offset
-      const cy2 = tgt.py + tgt.dy * offset
-
-      d = `M ${src.px} ${src.py} C ${cx1} ${cy1}, ${cx2} ${cy2}, ${tgt.px} ${tgt.py}`
+      d = buildOrthogonalPath(from, to, roadmap?.nodes ?? [])
     }
 
     const isDashed = edge.edge_style === 'dashed'
     const strokeColor = edge.style?.stroke || '#2b78e4'
     const cleanId = strokeColor.replace('#', '')
+
+    // Apply perpendicular spread offset so parallel edges don't overlap.
+    // We use an SVG transform rather than recalculating the path, which keeps
+    // the arrow markers correct and avoids additional routing complexity.
+    const spread = edge._spreadOffset ?? 0
+    const spreadTransform = spread !== 0 ? `translate(${spread}, ${spread})` : undefined
 
     return (
       <path
@@ -775,6 +998,7 @@ export default function RoadmapPage() {
           stroke: strokeColor,
           strokeWidth: edge.style?.stroke_width || 2,
         }}
+        transform={spreadTransform}
         markerEnd={`url(#arrow-${cleanId})`}
       />
     )

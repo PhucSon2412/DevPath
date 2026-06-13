@@ -448,7 +448,8 @@
 }
 
 /* Title — large heading */
-.nodeType_title .nodeRect {
+.nodeType_title .nodeRect,
+.nodeType_milestone .nodeRect {
   fill: var(--node-title-bg);
   stroke: var(--node-title-border);
   stroke-width: 2;
@@ -538,7 +539,8 @@
 
 /* Checklist / Todo */
 .nodeType_checklist .nodeRect,
-.nodeType_todo .nodeRect {
+.nodeType_todo .nodeRect,
+.nodeType_checkpoint .nodeRect {
   fill: var(--node-checkpoint-bg);
   stroke: var(--node-checkpoint-border);
   stroke-width: 1.5;
